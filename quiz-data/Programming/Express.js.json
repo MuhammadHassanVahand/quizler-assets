@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What programming language is Express.js built upon?",
+    "Option1": "Python",
+    "Option2": "Java",
+    "Option3": "JavaScript",
+    "Option4": "Ruby",
+    "Answer": "JavaScript"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Express.js is a framework for which runtime environment?",
+    "Option1": "Browser",
+    "Option2": "Node.js",
+    "Option3": "Deno",
+    "Option4": "Bun",
+    "Answer": "Node.js"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What type of framework is Express.js primarily?",
+    "Option1": "Frontend Framework",
+    "Option2": "Backend Web Framework",
+    "Option3": "Mobile Development Framework",
+    "Option4": "Desktop Application Framework",
+    "Answer": "Backend Web Framework"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Is Express.js considered a full-stack framework?",
+    "Option1": "Yes, always",
+    "Option2": "No, it's a backend framework",
+    "Option3": "Only when combined with React",
+    "Option4": "Only for small projects",
+    "Answer": "No, it's a backend framework"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the core concept that Express.js is built around for handling requests?",
+    "Option1": "Models",
+    "Option2": "Views",
+    "Option3": "Middleware",
+    "Option4": "Templates",
+    "Answer": "Middleware"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you typically initialize an Express.js application?",
+    "Option1": "const app = new Express();",
+    "Option2": "const app = require('express');",
+    "Option3": "const app = express();",
+    "Option4": "const app = Express.start();",
+    "Answer": "const app = express();"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which HTTP method is typically used for retrieving data?",
+    "Option1": "POST",
+    "Option2": "PUT",
+    "Option3": "GET",
+    "Option4": "DELETE",
+    "Answer": "GET"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which HTTP method is typically used for submitting data to be processed to a specified resource?",
+    "Option1": "GET",
+    "Option2": "PUT",
+    "Option3": "POST",
+    "Option4": "PATCH",
+    "Answer": "POST"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which HTTP method is typically used for updating an existing resource completely?",
+    "Option1": "PATCH",
+    "Option2": "GET",
+    "Option3": "DELETE",
+    "Option4": "PUT",
+    "Answer": "PUT"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which HTTP method is typically used for partially updating an existing resource?",
+    "Option1": "PUT",
+    "Option2": "POST",
+    "Option3": "PATCH",
+    "Option4": "GET",
+    "Answer": "PATCH"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which HTTP method is typically used for deleting a specified resource?",
+    "Option1": "GET",
+    "Option2": "PUT",
+    "Option3": "POST",
+    "Option4": "DELETE",
+    "Answer": "DELETE"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the first argument to `app.get()`, `app.post()`, etc., in Express.js?",
+    "Option1": "The handler function",
+    "Option2": "The port number",
+    "Option3": "The URL path",
+    "Option4": "The HTTP method",
+    "Answer": "The URL path"
+  },
+  {
+    "question_no.": 13,
+    "Question": "In an Express.js route handler, what does the `req` object represent?",
+    "Option1": "The server response",
+    "Option2": "The incoming HTTP request",
+    "Option3": "The next middleware function",
+    "Option4": "An error object",
+    "Answer": "The incoming HTTP request"
+  },
+  {
+    "question_no.": 14,
+    "Question": "In an Express.js route handler, what does the `res` object represent?",
+    "Option1": "The incoming HTTP request",
+    "Option2": "The outgoing HTTP response",
+    "Option3": "The next middleware function",
+    "Option4": "An error object",
+    "Answer": "The outgoing HTTP response"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What function is used to send a simple string response from an Express.js route handler?",
+    "Option1": "res.json()",
+    "Option2": "res.send()",
+    "Option3": "res.render()",
+    "Option4": "res.end()",
+    "Answer": "res.send()"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What function is used to send a JSON response from an Express.js route handler?",
+    "Option1": "res.send()",
+    "Option2": "res.render()",
+    "Option3": "res.json()",
+    "Option4": "res.end()",
+    "Answer": "res.json()"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you start an Express.js server to listen for incoming requests on a specific port?",
+    "Option1": "app.run(3000)",
+    "Option2": "app.listen(3000, () => {})",
+    "Option3": "server.start(3000)",
+    "Option4": "express.start(3000)",
+    "Answer": "app.listen(3000, () => {})"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is `req.params` used for in Express.js?",
+    "Option1": "To access query string parameters",
+    "Option2": "To access URL parameters (e.g., `/users/:id`)",
+    "Option3": "To access data from a POST request body",
+    "Option4": "To access HTTP headers",
+    "Answer": "To access URL parameters (e.g., `/users/:id`)"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is `req.query` used for in Express.js?",
+    "Option1": "To access URL parameters (e.g., `/users/:id`)",
+    "Option2": "To access data from a POST request body",
+    "Option3": "To access query string parameters (e.g., `?name=John&age=30`)",
+    "Option4": "To access HTTP headers",
+    "Answer": "To access query string parameters (e.g., `?name=John&age=30`)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "To parse JSON request bodies in Express.js, which built-in middleware is commonly used?",
+    "Option1": "express.urlencoded()",
+    "Option2": "express.json()",
+    "Option3": "express.static()",
+    "Option4": "express.raw()",
+    "Answer": "express.json()"
+  },
+  {
+    "question_no.": 21,
+    "Question": "To parse URL-encoded request bodies in Express.js, which built-in middleware is commonly used?",
+    "Option1": "express.json()",
+    "Option2": "express.static()",
+    "Option3": "express.urlencoded()",
+    "Option4": "express.text()",
+    "Answer": "express.urlencoded()"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the purpose of `next()` in an Express.js middleware function?",
+    "Option1": "To terminate the request-response cycle",
+    "Option2": "To send a response to the client",
+    "Option3": "To pass control to the next middleware function in the stack",
+    "Option4": "To handle errors",
+    "Answer": "To pass control to the next middleware function in the stack"
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you serve static files (e.g., CSS, JavaScript, images) in Express.js?",
+    "Option1": "app.use(express.static('public'))",
+    "Option2": "app.get('/static', serveStatic('public'))",
+    "Option3": "app.serveFiles('public')",
+    "Option4": "express.files('public')",
+    "Answer": "app.use(express.static('public'))"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is an 'Express Router' used for?",
+    "Option1": "To handle database connections",
+    "Option2": "To define a modular, mountable route handler, allowing for better organization of routes.",
+    "Option3": "To render HTML templates",
+    "Option4": "To parse incoming requests",
+    "Answer": "To define a modular, mountable route handler, allowing for better organization of routes."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you create a new Express Router instance?",
+    "Option1": "const router = new express.Router();",
+    "Option2": "const router = express.router();",
+    "Option3": "const router = Router();",
+    "Option4": "const router = express.createRouter();",
+    "Answer": "const router = express.Router();"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you mount a router named `userRouter` at the `/users` path?",
+    "Option1": "app.use(userRouter)",
+    "Option2": "app.get('/users', userRouter)",
+    "Option3": "app.use('/users', userRouter)",
+    "Option4": "app.mount('/users', userRouter)",
+    "Answer": "app.use('/users', userRouter)"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is an 'error-handling middleware' in Express.js?",
+    "Option1": "A middleware with two arguments (req, res)",
+    "Option2": "A middleware with four arguments (err, req, res, next)",
+    "Option3": "A middleware that always returns an error",
+    "Option4": "A middleware that logs all requests",
+    "Answer": "A middleware with four arguments (err, req, res, next)"
+  },
+  {
+    "question_no.": 28,
+    "Question": "How do you pass an error to the error-handling middleware in Express.js?",
+    "Option1": "res.sendError(error)",
+    "Option2": "throw error;",
+    "Option3": "next(error)",
+    "Option4": "console.error(error)",
+    "Answer": "next(error)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the common practice for structuring error-handling middleware?",
+    "Option1": "Place it at the beginning of the middleware stack.",
+    "Option2": "Place it in the middle of the middleware stack.",
+    "Option3": "Place it at the end of the middleware stack.",
+    "Option4": "It doesn't matter where it's placed.",
+    "Answer": "Place it at the end of the middleware stack."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `req.body` used for?",
+    "Option1": "To access URL parameters",
+    "Option2": "To access query string parameters",
+    "Option3": "To access data sent in the request body (e.g., from POST or PUT requests)",
+    "Option4": "To access HTTP headers",
+    "Answer": "To access data sent in the request body (e.g., from POST or PUT requests)"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What does `res.status(statusCode)` do?",
+    "Option1": "Sends the response immediately.",
+    "Option2": "Sets the HTTP status code for the response.",
+    "Option3": "Sets the response body.",
+    "Option4": "Redirects the request.",
+    "Answer": "Sets the HTTP status code for the response."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the default port for an Express.js application when not explicitly set?",
+    "Option1": "80",
+    "Option2": "443",
+    "Option3": "3000",
+    "Option4": "8080",
+    "Answer": "3000"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which popular templating engine is often used with Express.js for server-side rendering?",
+    "Option1": "React",
+    "Option2": "Vue",
+    "Option3": "EJS",
+    "Option4": "Angular",
+    "Answer": "EJS"
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you set a templating engine (e.g., EJS) in Express.js?",
+    "Option1": "app.set('view engine', 'ejs')",
+    "Option2": "app.engine('ejs')",
+    "Option3": "app.render('ejs')",
+    "Option4": "app.use(ejs)",
+    "Answer": "app.set('view engine', 'ejs')"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What function is used to render a template in Express.js?",
+    "Option1": "res.send()",
+    "Option2": "res.json()",
+    "Option3": "res.render()",
+    "Option4": "res.template()",
+    "Answer": "res.render()"
+  },
+  {
+    "question_no.": 36,
+    "Question": "Where do you typically configure the directory for your view (template) files?",
+    "Option1": "app.set('templates', 'views')",
+    "Option2": "app.set('views', './views')",
+    "Option3": "app.config.views = 'views'",
+    "Option4": "express.views = 'views'",
+    "Answer": "app.set('views', './views')"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is a 'route parameter' in Express.js?",
+    "Option1": "A query string parameter",
+    "Option2": "A named URL segment (e.g., `:id` in `/users/:id`)",
+    "Option3": "A parameter in the request body",
+    "Option4": "An HTTP header",
+    "Answer": "A named URL segment (e.g., `:id` in `/users/:id`)"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `req.method` used for?",
+    "Option1": "To get the requested URL path",
+    "Option2": "To get the HTTP method of the request (e.g., 'GET', 'POST')",
+    "Option3": "To get the client's IP address",
+    "Option4": "To get the request headers",
+    "Answer": "To get the HTTP method of the request (e.g., 'GET', 'POST')"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is `res.redirect(url)` used for?",
+    "Option1": "To send a file",
+    "Option2": "To render a template",
+    "Option3": "To redirect the client's browser to a different URL",
+    "Option4": "To send a JSON response",
+    "Answer": "To redirect the client's browser to a different URL"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which method on the `res` object is used to set response headers?",
+    "Option1": "res.header()",
+    "Option2": "res.setHeader()",
+    "Option3": "res.addHeader()",
+    "Option4": "res.setHeaders()",
+    "Answer": "res.setHeader()"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the purpose of `app.locals` in Express.js?",
+    "Option1": "To store request-specific variables.",
+    "Option2": "To store application-wide variables that are accessible in templates.",
+    "Option3": "To store session data.",
+    "Option4": "To store configuration for routes.",
+    "Answer": "To store application-wide variables that are accessible in templates."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is `app.enable('case sensitive routing')` used for?",
+    "Option1": "To make all routes case-insensitive.",
+    "Option2": "To enable case sensitivity for route paths.",
+    "Option3": "To ignore case when matching parameters.",
+    "Option4": "To enable case sensitivity for query parameters.",
+    "Answer": "To enable case sensitivity for route paths."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the primary function of `helmet` middleware?",
+    "Option1": "To handle user authentication.",
+    "Option2": "To secure Express apps by setting various HTTP headers.",
+    "Option3": "To log requests.",
+    "Option4": "To parse cookies.",
+    "Answer": "To secure Express apps by setting various HTTP headers."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is `morgan` middleware commonly used for?",
+    "Option1": "Parsing JSON data.",
+    "Option2": "Logging HTTP requests in a user-friendly format.",
+    "Option3": "Handling authentication.",
+    "Option4": "Serving static files.",
+    "Answer": "Logging HTTP requests in a user-friendly format."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `cookie-parser` middleware used for?",
+    "Option1": "Encrypting data.",
+    "Option2": "Parsing Cookie header and populating `req.cookies`.",
+    "Option3": "Managing sessions.",
+    "Option4": "Handling file uploads.",
+    "Answer": "Parsing Cookie header and populating `req.cookies`."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `express-session` middleware used for?",
+    "Option1": "Parsing cookies.",
+    "Option2": "Managing session state in Express.js applications.",
+    "Option3": "Handling user authentication.",
+    "Option4": "Serving static files.",
+    "Answer": "Managing session state in Express.js applications."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `req.session` used for when `express-session` is implemented?",
+    "Option1": "To access request parameters.",
+    "Option2": "To access the session object for the current user.",
+    "Option3": "To access the request body.",
+    "Option4": "To access HTTP headers.",
+    "Answer": "To access the session object for the current user."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the primary function of `dotenv`?",
+    "Option1": "To create environment variables.",
+    "Option2": "To load environment variables from a `.env` file into `process.env`.",
+    "Option3": "To encrypt environment variables.",
+    "4": "To manage database connections.",
+    "Answer": "To load environment variables from a `.env` file into `process.env`."
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you access an environment variable named `PORT` using `dotenv`?",
+    "Option1": "env.PORT",
+    "Option2": "process.env.PORT",
+    "Option3": "getEnv('PORT')",
+    "4": "dotenv.PORT",
+    "Answer": "process.env.PORT"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is `nodemon` commonly used for in Express.js development?",
+    "Option1": "Deploying the application.",
+    "Option2": "Automatically restarting the Node.js application when file changes are detected.",
+    "Option3": "Running tests.",
+    "4": "Minifying JavaScript files.",
+    "Answer": "Automatically restarting the Node.js application when file changes are detected."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is a 'callback function' in JavaScript, as it relates to Express.js?",
+    "Option1": "A function that runs immediately.",
+    "Option2": "A function passed as an argument to another function, which is then invoked inside the outer function.",
+    "Option3": "A function that always returns a promise.",
+    "4": "A function used for asynchronous operations only.",
+    "Answer": "A function passed as an argument to another function, which is then invoked inside the outer function."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What does `async/await` syntax help with in Express.js?",
+    "Option1": "Making code synchronous.",
+    "Option2": "Writing asynchronous code that looks and behaves more like synchronous code, improving readability and error handling.",
+    "Option3": "Reducing bundle size.",
+    "4": "Improving static file serving performance.",
+    "Answer": "Writing asynchronous code that looks and behaves more like synchronous code, improving readability and error handling."
+  },
+  {
+    "question_no.": 53,
+    "Question": "When should you use `try...catch` blocks with `async/await` in Express.js route handlers?",
+    "Option1": "Only for synchronous operations.",
+    "Option2": "To handle errors that might occur during asynchronous operations (e.g., database calls).",
+    "Option3": "Only when rendering templates.",
+    "4": "Never, errors are handled automatically.",
+    "Answer": "To handle errors that might occur during asynchronous operations (e.g., database calls)."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `Router.route()` used for?",
+    "Option1": "To define a single route with a single HTTP method.",
+    "Option2": "To define a route path for multiple HTTP methods, avoiding redundant path definitions.",
+    "Option3": "To group multiple routers together.",
+    "4": "To create nested routes.",
+    "Answer": "To define a route path for multiple HTTP methods, avoiding redundant path definitions."
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you specify a custom 404 Not Found handler in Express.js?",
+    "Option1": "app.use('/404', handler)",
+    "Option2": "app.get('*', handler)",
+    "Option3": "app.use((req, res, next) => { /* 404 logic */ })",
+    "4": "app.notFound(handler)",
+    "Answer": "app.use((req, res, next) => { /* 404 logic */ })"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `app.disable('etag')` used for?",
+    "Option1": "To enable ETag generation for caching.",
+    "Option2": "To disable automatic ETag generation for HTTP responses.",
+    "Option3": "To disable all caching.",
+    "4": "To disable logging.",
+    "Answer": "To disable automatic ETag generation for HTTP responses."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is a 'route handler' in Express.js?",
+    "Option1": "A function that defines a route path.",
+    "Option2": "A function that gets executed when a specific HTTP request hits a defined route.",
+    "Option3": "A function for database interaction.",
+    "4": "A function for templating.",
+    "Answer": "A function that gets executed when a specific HTTP request hits a defined route."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `req.headers` used for?",
+    "Option1": "To access the request body.",
+    "Option2": "To access all HTTP headers sent with the request.",
+    "Option3": "To access query parameters.",
+    "4": "To access URL parameters.",
+    "Answer": "To access all HTTP headers sent with the request."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is `res.sendfile()` (or `res.sendFile()`) used for?",
+    "Option1": "To send a JSON response.",
+    "Option2": "To send a file from a specified path as the response.",
+    "Option3": "To render a template.",
+    "4": "To redirect the client.",
+    "Answer": "To send a file from a specified path as the response."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the primary function of the `path` module in Node.js, often used with Express.js?",
+    "Option1": "To handle HTTP requests.",
+    "Option2": "To work with file and directory paths, normalizing and joining them.",
+    "Option3": "To interact with databases.",
+    "4": "To encrypt data.",
+    "Answer": "To work with file and directory paths, normalizing and joining them."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `path.join(__dirname, 'public')` typically used for?",
+    "Option1": "To create a new directory.",
+    "Option2": "To construct an absolute path to the 'public' directory, relative to the current file's directory.",
+    "Option3": "To delete a directory.",
+    "4": "To list files in a directory.",
+    "Answer": "To construct an absolute path to the 'public' directory, relative to the current file's directory."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is `__dirname` in Node.js?",
+    "Option1": "The name of the current file.",
+    "Option2": "The directory name of the current module.",
+    "Option3": "The current working directory.",
+    "4": "The root directory of the project.",
+    "Answer": "The directory name of the current module."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `__filename` in Node.js?",
+    "Option1": "The directory name of the current module.",
+    "Option2": "The filename of the current module.",
+    "Option3": "The current working directory.",
+    "4": "The root directory of the project.",
+    "Answer": "The filename of the current module."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is the purpose of `res.cookie()`?",
+    "Option1": "To parse incoming cookies.",
+    "Option2": "To set a cookie in the HTTP response.",
+    "Option3": "To delete a cookie.",
+    "4": "To encrypt cookie data.",
+    "Answer": "To set a cookie in the HTTP response."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the purpose of `res.clearCookie()`?",
+    "Option1": "To encrypt a cookie.",
+    "Option2": "To delete a cookie from the client's browser.",
+    "Option3": "To update a cookie.",
+    "4": "To read a cookie.",
+    "Answer": "To delete a cookie from the client's browser."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does the `HTTP_ONLY` flag on a cookie prevent?",
+    "Option1": "It prevents the cookie from being sent over HTTPS.",
+    "Option2": "It prevents client-side JavaScript from accessing the cookie, enhancing security against XSS attacks.",
+    "Option3": "It prevents the cookie from expiring.",
+    "4": "It prevents the cookie from being sent with GET requests.",
+    "Answer": "It prevents client-side JavaScript from accessing the cookie, enhancing security against XSS attacks."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the purpose of `res.jsonp()`?",
+    "Option1": "To send a plain JSON response.",
+    "Option2": "To send a JSON response with JSONP support for cross-domain requests.",
+    "Option3": "To send a JavaScript file.",
+    "4": "To send a text response.",
+    "Answer": "To send a JSON response with JSONP support for cross-domain requests."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `CORS` in web development?",
+    "Option1": "Client-Side Rendering Standard",
+    "Option2": "Cross-Origin Resource Sharing",
+    "Option3": "Content Order Request System",
+    "4": "Cascading Object Relationship Structure",
+    "Answer": "Cross-Origin Resource Sharing"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Why is `CORS` relevant when building APIs with Express.js?",
+    "Option1": "It's not relevant.",
+    "Option2": "It's a security mechanism that prevents web pages from making requests to a different domain than the one that served the web page.",
+    "Option3": "It helps with database performance.",
+    "4": "It encrypts API requests.",
+    "Answer": "It's a security mechanism that prevents web pages from making requests to a different domain than the one that served the web page."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which popular middleware is used to enable CORS in Express.js?",
+    "Option1": "helmet",
+    "Option2": "morgan",
+    "Option3": "cors",
+    "4": "cookie-parser",
+    "Answer": "cors"
+  },
+  {
+    "question_no.": 71,
+    "Question": "How do you enable CORS for all routes in Express.js using the `cors` middleware?",
+    "Option1": "app.use(cors())",
+    "Option2": "app.enableCors()",
+    "Option3": "app.corsAll()",
+    "4": "cors.enable(app)",
+    "Answer": "app.use(cors())"
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you restrict CORS to specific origins using the `cors` middleware?",
+    "Option1": "app.use(cors({ origin: '*' }))",
+    "Option2": "app.use(cors({ origin: ['http://example.com'] }))",
+    "Option3": "app.use(cors.restrict('http://example.com'))",
+    "4": "cors.allow('http://example.com')",
+    "Answer": "app.use(cors({ origin: ['http://example.com'] }))"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `express-validator` commonly used for?",
+    "Option1": "Data encryption.",
+    "Option2": "Validating and sanitizing incoming request data (e.g., from forms or API requests).",
+    "Option3": "Managing sessions.",
+    "4": "Serving static files.",
+    "Answer": "Validating and sanitizing incoming request data (e.g., from forms or API requests)."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `check()` function from `express-validator` used for?",
+    "Option1": "To send a response.",
+    "Option2": "To define a validation chain for a specific field.",
+    "Option3": "To get request headers.",
+    "4": "To create a new route.",
+    "Answer": "To define a validation chain for a specific field."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `validationResult()` function from `express-validator` used for?",
+    "Option1": "To apply a validation rule.",
+    "Option2": "To extract the validation errors from a request.",
+    "Option3": "To sanitize input data.",
+    "4": "To send an error response.",
+    "Answer": "To extract the validation errors from a request."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `mongoose`?",
+    "Option1": "A relational database.",
+    "Option2": "An ODM (Object Data Modeling) library for MongoDB and Node.js.",
+    "Option3": "A PostgreSQL client.",
+    "4": "A Redis client.",
+    "Answer": "An ODM (Object Data Modeling) library for MongoDB and Node.js."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is a 'Schema' in Mongoose?",
+    "Option1": "A database table.",
+    "Option2": "A blueprint for the structure of a MongoDB document, defining field types, validation, and defaults.",
+    "Option3": "A database query.",
+    "4": "A MongoDB collection.",
+    "Answer": "A blueprint for the structure of a MongoDB document, defining field types, validation, and defaults."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is a 'Model' in Mongoose?",
+    "Option1": "A MongoDB collection.",
+    "Option2": "A compiled version of a Schema, used to interact with a specific MongoDB collection.",
+    "Option3": "A document in MongoDB.",
+    "4": "A database connection.",
+    "Answer": "A compiled version of a Schema, used to interact with a specific MongoDB collection."
+  },
+  {
+    "question_no.": 79,
+    "Question": "How do you connect to a MongoDB database using Mongoose?",
+    "Option1": "mongoose.connect('mongodb://localhost/mydb')",
+    "Option2": "mongoose.startDB('mydb')",
+    "Option3": "mongoose.dbConnect('mydb')",
+    "4": "connectMongoDB('mydb')",
+    "Answer": "mongoose.connect('mongodb://localhost/mydb')"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `async-handler` or `express-async-handler` commonly used for?",
+    "Option1": "To handle synchronous errors.",
+    "Option2": "To wrap asynchronous route handlers and automatically catch unhandled promise rejections, passing them to the error-handling middleware.",
+    "Option3": "To make asynchronous functions synchronous.",
+    "4": "To log async operations.",
+    "Answer": "To wrap asynchronous route handlers and automatically catch unhandled promise rejections, passing them to the error-handling middleware."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `jwt.sign()` used for in `jsonwebtoken`?",
+    "Option1": "To verify a JWT.",
+    "Option2": "To create a JSON Web Token (JWT).",
+    "Option3": "To decode a JWT.",
+    "4": "To encrypt data.",
+    "Answer": "To create a JSON Web Token (JWT)."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `jwt.verify()` used for in `jsonwebtoken`?",
+    "Option1": "To create a JWT.",
+    "Option2": "To verify the authenticity and integrity of a JSON Web Token (JWT).",
+    "Option3": "To decode a JWT.",
+    "4": "To encrypt data.",
+    "Answer": "To verify the authenticity and integrity of a JSON Web Token (JWT)."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `bcrypt.hash()` used for?",
+    "Option1": "To encrypt a password.",
+    "Option2": "To hash a password asynchronously, typically for storing in a database.",
+    "Option3": "To compare a password.",
+    "4": "To generate a random string.",
+    "Answer": "To hash a password asynchronously, typically for storing in a database."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `bcrypt.compare()` used for?",
+    "Option1": "To hash a password.",
+    "Option2": "To compare a plain-text password with a hashed password.",
+    "Option3": "To encrypt a password.",
+    "4": "To generate a salt.",
+    "Answer": "To compare a plain-text password with a hashed password."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the purpose of `express-rate-limit`?",
+    "Option1": "To encrypt traffic.",
+    "Option2": "To limit repeated requests to public APIs or endpoints to prevent abuse.",
+    "Option3": "To log requests.",
+    "4": "To serve static files faster.",
+    "Answer": "To limit repeated requests to public APIs or endpoints to prevent abuse."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `passport.js`?",
+    "Option1": "A routing library.",
+    "Option2": "A comprehensive authentication middleware for Node.js, providing strategies for various authentication methods.",
+    "Option3": "A templating engine.",
+    "4": "A database client.",
+    "Answer": "A comprehensive authentication middleware for Node.js, providing strategies for various authentication methods."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is a 'Strategy' in Passport.js?",
+    "Option1": "A specific authentication flow or method (e.g., LocalStrategy for username/password, GoogleStrategy for OAuth).",
+    "Option2": "A database query plan.",
+    "Option3": "A routing definition.",
+    "4": "A session management technique.",
+    "Answer": "A specific authentication flow or method (e.g., LocalStrategy for username/password, GoogleStrategy for OAuth)."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `passport.initialize()` and `passport.session()`?",
+    "Option1": "They are for database connection.",
+    "Option2": "`passport.initialize()` initializes Passport.js, and `passport.session()` restores login state from a session.",
+    "Option3": "They are for logging.",
+    "4": "They are for static file serving.",
+    "Answer": "`passport.initialize()` initializes Passport.js, and `passport.session()` restores login state from a session."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `res.download(path)` used for?",
+    "Option1": "To upload a file.",
+    "Option2": "To transfer the file at `path` as an attachment, prompting the browser to download it.",
+    "Option3": "To display a file in the browser.",
+    "4": "To delete a file.",
+    "Answer": "To transfer the file at `path` as an attachment, prompting the browser to download it."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `res.render()`'s second argument typically?",
+    "Option1": "A callback function.",
+    "Option2": "An object containing local variables for the template.",
+    "Option3": "A status code.",
+    "4": "An error object.",
+    "Answer": "An object containing local variables for the template."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of `app.set('trust proxy', 1)`?",
+    "Option1": "To disable proxy support.",
+    "Option2": "To enable Express to trust the first proxy in front of the app, allowing `req.ip` to reflect the client's actual IP.",
+    "Option3": "To set up a proxy server.",
+    "4": "To secure proxy connections.",
+    "Answer": "To enable Express to trust the first proxy in front of the app, allowing `req.ip` to reflect the client's actual IP."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the primary function of `cluster` module in Node.js, for Express.js deployment?",
+    "Option1": "To manage database connections.",
+    "Option2": "To enable multiple Node.js processes (workers) to share the same server port, taking advantage of multi-core CPUs.",
+    "Option3": "To create a distributed cache.",
+    "4": "To monitor application performance.",
+    "Answer": "To enable multiple Node.js processes (workers) to share the same server port, taking advantage of multi-core CPUs."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `pm2`?",
+    "Option1": "A database management system.",
+    "Option2": "A production process manager for Node.js applications with a built-in load balancer and features like automatic restarts.",
+    "Option3": "A testing framework.",
+    "4": "A static site generator.",
+    "Answer": "A production process manager for Node.js applications with a built-in load balancer and features like automatic restarts."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the significance of `package.json` in an Express.js project?",
+    "Option1": "It's for storing user data.",
+    "Option2": "It describes the project's metadata, dependencies, scripts, and other configuration.",
+    "Option3": "It's a temporary file.",
+    "4": "It's used for database schema.",
+    "Answer": "It describes the project's metadata, dependencies, scripts, and other configuration."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What does `npm install` do based on `package.json`?",
+    "Option1": "Deletes all installed packages.",
+    "Option2": "Installs all dependencies listed in `package.json`.",
+    "Option3": "Creates a new `package.json`.",
+    "4": "Updates npm itself.",
+    "Answer": "Installs all dependencies listed in `package.json`."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `npm start` commonly used for in an Express.js project?",
+    "Option1": "To install packages.",
+    "Option2": "To execute the script defined in the `start` field of `package.json` (often `node server.js` or `nodemon server.js`).",
+    "Option3": "To test the application.",
+    "4": "To deploy the application.",
+    "Answer": "To execute the script defined in the `start` field of `package.json` (often `node server.js` or `nodemon server.js`)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `console.log()` primarily used for in Express.js development?",
+    "Option1": "Sending responses to the client.",
+    "Option2": "Debugging by printing information to the console.",
+    "Option3": "Storing data in a database.",
+    "4": "Rendering templates.",
+    "Answer": "Debugging by printing information to the console."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `app.param()` used for in Express.js?",
+    "Option1": "To define a global parameter.",
+    "Option2": "To define callback functions for route parameters that execute before other route handlers.",
+    "Option3": "To set query parameters.",
+    "4": "To get request body parameters.",
+    "Answer": "To define callback functions for route parameters that execute before other route handlers."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'route-level middleware'?",
+    "Option1": "Middleware applied globally to all routes.",
+    "Option2": "Middleware applied to specific routes or a group of routes.",
+    "Option3": "Middleware that handles errors.",
+    "4": "Middleware that serves static files.",
+    "Answer": "Middleware applied to specific routes or a group of routes."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the order of execution for middleware in Express.js?",
+    "Option1": "Random order.",
+    "Option2": "From bottom to top in the code.",
+    "Option3": "From top to bottom in the code, and in the order they are defined/used.",
+    "4": "Based on HTTP method.",
+    "Answer": "From top to bottom in the code, and in the order they are defined/used."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `app.all(path, handler)` used for?",
+    "Option1": "To handle only GET requests.",
+    "Option2": "To handle requests for all HTTP methods (GET, POST, PUT, DELETE, etc.) on a specified path.",
+    "Option3": "To handle all routes.",
+    "4": "To handle only errors.",
+    "Answer": "To handle requests for all HTTP methods (GET, POST, PUT, DELETE, etc.) on a specified path."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `req.accepts()` used for?",
+    "Option1": "To check if the client accepts a specific language.",
+    "Option2": "To check if the client accepts a specific content type (e.g., 'application/json', 'text/html').",
+    "Option3": "To check if the client accepts cookies.",
+    "4": "To check if the client accepts redirects.",
+    "Answer": "To check if the client accepts a specific content type (e.g., 'application/json', 'text/html')."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `res.status(404).send('Not Found')` an example of?",
+    "Option1": "Sending a successful response.",
+    "Option2": "Sending a 404 Not Found error response.",
+    "Option3": "Redirecting the client.",
+    "4": "Logging an error.",
+    "Answer": "Sending a 404 Not Found error response."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of `res.set(field, [value])`?",
+    "Option1": "To send the response body.",
+    "Option2": "To set an HTTP response header field to a given value.",
+    "Option3": "To get a request header.",
+    "4": "To set the status code.",
+    "Answer": "To set an HTTP response header field to a given value."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `res.sendFile(path, [options], [callback])`?",
+    "Option1": "A method to send a static file directly.",
+    "Option2": "A method to send a file with specific options, like `root` and a callback for errors.",
+    "Option3": "A method to download a file from a URL.",
+    "4": "A method to upload a file to the server.",
+    "Answer": "A method to send a file with specific options, like `root` and a callback for errors."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `req.ip` used for?",
+    "Option1": "To get the client's preferred language.",
+    "Option2": "To get the remote IP address of the request.",
+    "Option3": "To get the server's IP address.",
+    "4": "To get the client's user agent.",
+    "Answer": "To get the remote IP address of the request."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `req.originalUrl` used for?",
+    "Option1": "To get the base URL of the request.",
+    "Option2": "To get the original request URL, before it's been manipulated by routing.",
+    "Option3": "To get the URL path without query string.",
+    "4": "To get the URL hostname.",
+    "Answer": "To get the original request URL, before it's been manipulated by routing."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `req.path` used for?",
+    "Option1": "To get the full URL with query string.",
+    "Option2": "To get the path part of the request URL.",
+    "Option3": "To get the base URL of the application.",
+    "4": "To get the hostname.",
+    "Answer": "To get the path part of the request URL."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `req.hostname` used for?",
+    "Option1": "To get the client's IP address.",
+    "Option2": "To get the hostname of the request.",
+    "Option3": "To get the server's name.",
+    "4": "To get the port number.",
+    "Answer": "To get the hostname of the request."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `req.protocol` used for?",
+    "Option1": "To get the HTTP version.",
+    "Option2": "To get the request protocol string, e.g., 'http' or 'https'.",
+    "Option3": "To get the HTTP method.",
+    "4": "To get the URL path.",
+    "Answer": "To get the request protocol string, e.g., 'http' or 'https'."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `req.secure` used for?",
+    "Option1": "To check if the connection is secure (HTTPS).",
+    "Option2": "To check if the request is authenticated.",
+    "Option3": "To check if the request is from a trusted IP.",
+    "4": "To check if the request has a valid session.",
+    "Answer": "To check if the connection is secure (HTTPS)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `req.xhr` used for?",
+    "Option1": "To check if the request is an AJAX request.",
+    "Option2": "To check if the request is from a browser.",
+    "Option3": "To check if the request is for an XML file.",
+    "4": "To check if the request is from a mobile device.",
+    "Answer": "To check if the request is an AJAX request."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `req.is(type)` used for?",
+    "Option1": "To check if the request body is a specific data type (e.g., 'json', 'html').",
+    "Option2": "To check if the request method is a specific type.",
+    "Option3": "To check if the request is from a specific IP.",
+    "4": "To check if the request is authenticated.",
+    "Answer": "To check if the request body is a specific data type (e.g., 'json', 'html')."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `res.append(field, [value])` used for?",
+    "Option1": "To set a new header.",
+    "Option2": "To append a specified value to the HTTP response header `field`.",
+    "Option3": "To delete a header.",
+    "4": "To get a header.",
+    "Answer": "To append a specified value to the HTTP response header `field`."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `res.cookie(name, value, [options])` used for?",
+    "Option1": "To read a cookie.",
+    "Option2": "To set cookie `name` to `value` with optional `options`.",
+    "Option3": "To delete a cookie.",
+    "4": "To get all cookies.",
+    "Answer": "To set cookie `name` to `value` with optional `options`."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `res.clearCookie(name, [options])` used for?",
+    "Option1": "To set a cookie with an empty value.",
+    "Option2": "To clear the cookie `name` with optional `options`.",
+    "Option3": "To get a cookie's value.",
+    "4": "To update a cookie.",
+    "Answer": "To clear the cookie `name` with optional `options`."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `res.end([data], [encoding])` used for?",
+    "Option1": "To send a response with a status code.",
+    "Option2": "To end the response process, optionally with `data` and `encoding`.",
+    "Option3": "To redirect the client.",
+    "4": "To render a template.",
+    "Answer": "To end the response process, optionally with `data` and `encoding`."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `res.location(path)` used for?",
+    "Option1": "To set the status code.",
+    "Option2": "To set the `Location` HTTP response header, used for redirects.",
+    "Option3": "To get the current URL.",
+    "4": "To specify a static file path.",
+    "Answer": "To set the `Location` HTTP response header, used for redirects."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `res.render(view, [locals], callback)` used for?",
+    "Option1": "To send a plain text response.",
+    "Option2": "To render a `view` template with `locals` data and an optional `callback`.",
+    "Option3": "To send JSON data.",
+    "4": "To redirect to a URL.",
+    "Answer": "To render a `view` template with `locals` data and an optional `callback`."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `res.status(code)` used for?",
+    "Option1": "To send the response body.",
+    "Option2": "To set the HTTP status `code` for the response.",
+    "Option3": "To send a plain text response.",
+    "4": "To set a response header.",
+    "Answer": "To set the HTTP status `code` for the response."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `res.type(type)` used for?",
+    "Option1": "To set the content encoding.",
+    "Option2": "To set the `Content-Type` HTTP header to the MIME `type`.",
+    "Option3": "To set the cache control.",
+    "4": "To set the character set.",
+    "Answer": "To set the `Content-Type` HTTP header to the MIME `type`."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `res.json(body)` used for?",
+    "Option1": "To send a plain text response.",
+    "Option2": "To send a JSON response to the client.",
+    "Option3": "To send an HTML response.",
+    "4": "To send a file.",
+    "Answer": "To send a JSON response to the client."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `res.send([body])` used for?",
+    "Option1": "To send a JSON response.",
+    "Option2": "To send various types of HTTP responses, including string, Buffer, or array/object (which are converted to JSON).",
+    "Option3": "To render a template.",
+    "4": "To redirect the client.",
+    "Answer": "To send various types of HTTP responses, including string, Buffer, or array/object (which are converted to JSON)."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `res.redirect([status,] path)` used for?",
+    "Option1": "To send a file.",
+    "Option2": "To redirect the client to `path` with an optional `status` code (default is 302).",
+    "Option3": "To send a JSON response.",
+    "4": "To render a template.",
+    "Answer": "To redirect the client to `path` with an optional `status` code (default is 302)."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `app.get('env')` used for?",
+    "Option1": "To get the database environment.",
+    "Option2": "To get the current application environment (e.g., 'development', 'production').",
+    "Option3": "To get the user's operating system.",
+    "4": "To get environment variables.",
+    "Answer": "To get the current application environment (e.g., 'development', 'production')."
+  },
+  {
+    "question_no.": 126,
+    "Question": "How do you set the environment to 'production' in Express.js?",
+    "Option1": "app.set('env', 'prod')",
+    "Option2": "app.set('env', 'production')",
+    "Option3": "process.env.NODE_ENV = 'prod'",
+    "4": "NODE_ENV = 'production'",
+    "Answer": "app.set('env', 'production')"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the purpose of `app.enable('view cache')`?",
+    "Option1": "To disable view caching.",
+    "Option2": "To enable template compilation caching in production environments for better performance.",
+    "Option3": "To cache static files.",
+    "4": "To cache database queries.",
+    "Answer": "To enable template compilation caching in production environments for better performance."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `app.disable('x-powered-by')` used for?",
+    "Option1": "To enable the 'X-Powered-By' header.",
+    "Option2": "To remove the 'X-Powered-By: Express' HTTP header from responses for security reasons.",
+    "Option3": "To disable all HTTP headers.",
+    "4": "To disable Express.js itself.",
+    "Answer": "To remove the 'X-Powered-By: Express' HTTP header from responses for security reasons."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `app.route(path)` used for?",
+    "Option1": "To chain multiple HTTP methods on a single path.",
+    "Option2": "To define middleware for a specific path.",
+    "Option3": "To create a new router.",
+    "4": "To define a redirect.",
+    "Answer": "To chain multiple HTTP methods on a single path."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `app.render(view, [locals], callback)` used for?",
+    "Option1": "To send a rendered template to the client.",
+    "Option2": "To render a view file, useful when you want to generate HTML but not send it immediately as a response.",
+    "Option3": "To compile a view file.",
+    "4": "To define a view engine.",
+    "Answer": "To render a view file, useful when you want to generate HTML but not send it immediately as a response."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `router.use(middleware)`?",
+    "Option1": "Applying middleware to specific routes only.",
+    "Option2": "Applying middleware to all routes handled by that specific router.",
+    "Option3": "Handling errors within the router.",
+    "4": "Serving static files with the router.",
+    "Answer": "Applying middleware to all routes handled by that specific router."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the purpose of `res.json` and `res.send` when sending an object?",
+    "Option1": "They are identical in behavior.",
+    "Option2": "`res.json` explicitly sets `Content-Type` to `application/json` and stringifies the object; `res.send` is more general and will infer `Content-Type`.",
+    "Option3": "`res.send` is only for strings, `res.json` is for objects.",
+    "4": "`res.json` encrypts the object.",
+    "Answer": "`res.json` explicitly sets `Content-Type` to `application/json` and stringifies the object; `res.send` is more general and will infer `Content-Type`."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is a 'mount path' in Express.js?",
+    "Option1": "The file path of the server script.",
+    "Option2": "The URL path at which a middleware or router is attached to the application.",
+    "Option3": "The database connection string.",
+    "4": "The path to static files.",
+    "Answer": "The URL path at which a middleware or router is attached to the application."
+  },
+  {
+    "question_no.": 134,
+    "Question": "When should you use `app.use()` versus `app.get()` (or `post`, `put`, `delete`)?",
+    "Option1": "`app.use()` is for specific routes, `app.get()` is for general middleware.",
+    "Option2": "`app.use()` is for applying middleware to all requests or specific paths regardless of HTTP method; `app.get()` etc. are for handling specific HTTP methods on specific routes.",
+    "Option3": "`app.use()` is for production, `app.get()` is for development.",
+    "4": "They are interchangeable.",
+    "Answer": "`app.use()` is for applying middleware to all requests or specific paths regardless of HTTP method; `app.get()` etc. are for handling specific HTTP methods on specific routes."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `req.baseUrl` used for?",
+    "Option1": "The full URL of the request.",
+    "Option2": "The URL path on which the current router or middleware was mounted.",
+    "Option3": "The path to the server root.",
+    "4": "The protocol of the request.",
+    "Answer": "The URL path on which the current router or middleware was mounted."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `req.originalUrl` relative to `req.url` (or `req.path`)?",
+    "Option1": "They are the same.",
+    "Option2": "`req.originalUrl` holds the initial URL of the request, while `req.url` (or `req.path`) may be altered by routing middleware.",
+    "Option3": "`req.url` is always preferred.",
+    "4": "`req.originalUrl` is only for internal use.",
+    "Answer": "`req.originalUrl` holds the initial URL of the request, while `req.url` (or `req.path`) may be altered by routing middleware."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `app.locals.title = 'My App'` used for?",
+    "Option1": "Setting a request-specific title.",
+    "Option2": "Setting a global variable `title` that is accessible in all templates.",
+    "Option3": "Setting a session variable.",
+    "4": "Setting a database configuration.",
+    "Answer": "Setting a global variable `title` that is accessible in all templates."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `res.locals.user = req.user` used for?",
+    "Option1": "Setting a global variable.",
+    "Option2": "Setting a response-local variable that is only available to the template rendered for the current request/response cycle.",
+    "Option3": "Setting a session variable.",
+    "4": "Setting a cookie.",
+    "Answer": "Setting a response-local variable that is only available to the template rendered for the current request/response cycle."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the purpose of `app.set('json spaces', 2)`?",
+    "Option1": "To disable JSON parsing.",
+    "Option2": "To pretty-print JSON responses with 2 spaces for indentation.",
+    "Option3": "To limit the size of JSON requests.",
+    "4": "To minify JSON responses.",
+    "Answer": "To pretty-print JSON responses with 2 spaces for indentation."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `req.cookies` used for?",
+    "Option1": "To send cookies to the client.",
+    "Option2": "To access cookies sent by the client, populated by `cookie-parser` middleware.",
+    "Option3": "To clear cookies.",
+    "4": "To encrypt cookies.",
+    "Answer": "To access cookies sent by the client, populated by `cookie-parser` middleware."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `req.signedCookies` used for?",
+    "Option1": "To access all cookies.",
+    "Option2": "To access digitally signed cookies sent by the client, populated by `cookie-parser` with a secret.",
+    "Option3": "To access encrypted cookies.",
+    "4": "To set signed cookies.",
+    "Answer": "To access digitally signed cookies sent by the client, populated by `cookie-parser` with a secret."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the primary role of a 'cluster manager' like PM2 when deploying Express.js?",
+    "Option1": "To manage database connections.",
+    "Option2": "To keep Node.js applications alive forever, enable hot reloading, manage logs, and handle performance monitoring in production.",
+    "Option3": "To serve static files.",
+    "4": "To develop the application in a local environment.",
+    "Answer": "To keep Node.js applications alive forever, enable hot reloading, manage logs, and handle performance monitoring in production."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the benefit of using a reverse proxy (e.g., Nginx) in front of an Express.js application?",
+    "Option1": "It makes the Express app faster directly.",
+    "Option2": "It can handle static file serving, load balancing, SSL termination, and caching, offloading these tasks from the Node.js application.",
+    "Option3": "It removes the need for Express.js.",
+    "4": "It encrypts all data in the database.",
+    "Answer": "It can handle static file serving, load balancing, SSL termination, and caching, offloading these tasks from the Node.js application."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the `Content-Type` header used for in HTTP responses?",
+    "Option1": "To indicate the size of the content.",
+    "Option2": "To indicate the media type of the resource (e.g., `text/html`, `application/json`).",
+    "Option3": "To indicate the content encoding.",
+    "4": "To indicate the language of the content.",
+    "Answer": "To indicate the media type of the resource (e.g., `text/html`, `application/json`)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is the `Accept` header used for in HTTP requests?",
+    "Option1": "To indicate the content type of the request body.",
+    "Option2": "To indicate the media types that are acceptable for the response.",
+    "Option3": "To indicate preferred languages.",
+    "4": "To indicate the client's user agent.",
+    "Answer": "To indicate the media types that are acceptable for the response."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is a 'middleware chain' in Express.js?",
+    "Option1": "A series of interconnected databases.",
+    "Option2": "A sequence of middleware functions that are executed one after another for a given request, each potentially modifying the request or response.",
+    "Option3": "A sequence of HTTP methods.",
+    "4": "A sequence of database queries.",
+    "Answer": "A sequence of middleware functions that are executed one after another for a given request, each potentially modifying the request or response."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Can a route handler be considered a form of middleware?",
+    "Option1": "No, they are completely different.",
+    "Option2": "Yes, a route handler is effectively the last middleware function in a chain for a specific route.",
+    "Option3": "Only if it calls `next()`.",
+    "4": "Only if it handles errors.",
+    "Answer": "Yes, a route handler is effectively the last middleware function in a chain for a specific route."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of `app.use(express.urlencoded({ extended: true }))`?",
+    "Option1": "To parse JSON bodies.",
+    "Option2": "To parse URL-encoded request bodies, with `extended: true` allowing parsing of rich objects and arrays.",
+    "Option3": "To parse raw text bodies.",
+    "4": "To serve static files.",
+    "Answer": "To parse URL-encoded request bodies, with `extended: true` allowing parsing of rich objects and arrays."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `router.param(name, callback)` used for?",
+    "Option1": "To define parameters for all routes.",
+    "Option2": "To define a callback function that handles specific route parameters (e.g., `id`) for all routes within that router.",
+    "Option3": "To set query parameters.",
+    "4": "To get parameters from the request body.",
+    "Answer": "To define a callback function that handles specific route parameters (e.g., `id`) for all routes within that router."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is a 'stub' in the context of testing Express.js applications?",
+    "Option1": "A full implementation of a module.",
+    "Option2": "A test double that replaces a dependency to control its behavior during testing, often returning predefined values.",
+    "Option3": "A database connection.",
+    "4": "A utility for mocking HTTP requests.",
+    "Answer": "A test double that replaces a dependency to control its behavior during testing, often returning predefined values."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is a 'mock' in the context of testing Express.js applications?",
+    "Option1": "A real database.",
+    "Option2": "A test double that records interactions and verifies whether specific methods were called, and with what arguments.",
+    "Option3": "A temporary file.",
+    "4": "A deployment environment.",
+    "Answer": "A test double that records interactions and verifies whether specific methods were called, and with what arguments."
+  },
+  {
+    "question_no.": 152,
+    "Question": "Which popular Node.js testing framework is often used with Express.js?",
+    "Option1": "JUnit",
+    "Option2": "Pytest",
+    "Option3": "Jest",
+    "4": "RSpec",
+    "Answer": "Jest"
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which popular library is used for making HTTP requests in tests (e.g., `supertest`)?",
+    "Option1": "axios",
+    "Option2": "request",
+    "Option3": "supertest",
+    "4": "fetch",
+    "Answer": "supertest"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `HTTPie`?",
+    "Option1": "A JavaScript library for HTTP requests.",
+    "Option2": "A user-friendly command-line HTTP client for testing web services.",
+    "Option3": "A browser extension for HTTP debugging.",
+    "4": "A tool for deploying web applications.",
+    "Answer": "A user-friendly command-line HTTP client for testing web services."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `Postman`?",
+    "Option1": "A command-line tool for sending emails.",
+    "Option2": "A popular API development environment for testing and managing APIs.",
+    "Option3": "A version control system.",
+    "4": "A database client.",
+    "Answer": "A popular API development environment for testing and managing APIs."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `Swagger/OpenAPI` specification?",
+    "Option1": "A database schema definition.",
+    "Option2": "A standard, language-agnostic interface for describing RESTful APIs, allowing humans and computers to discover and understand the capabilities of a service without access to source code.",
+    "Option3": "A framework for building APIs.",
+    "4": "A testing methodology.",
+    "Answer": "A standard, language-agnostic interface for describing RESTful APIs, allowing humans and computers to discover and understand the capabilities of a service without access to source code."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `swagger-ui-express` used for?",
+    "Option1": "To generate API documentation from comments.",
+    "Option2": "To serve auto-generated API documentation using the Swagger UI, based on an OpenAPI specification.",
+    "Option3": "To validate Swagger specifications.",
+    "4": "To create new API endpoints.",
+    "Answer": "To serve auto-generated API documentation using the Swagger UI, based on an OpenAPI specification."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `middleware` in the context of Express.js for security?",
+    "Option1": "Functions that enhance performance.",
+    "Option2": "Functions that sit between the request and the route handler to perform security-related checks (e.g., authentication, authorization, input validation).",
+    "Option3": "Functions that only log security events.",
+    "4": "Functions that encrypt all data.",
+    "Answer": "Functions that sit between the request and the route handler to perform security-related checks (e.g., authentication, authorization, input validation)."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `CSRF` (Cross-Site Request Forgery) in web security?",
+    "Option1": "An attack where malicious code is injected into a website.",
+    "Option2": "An attack that forces an end-user to execute unwanted actions on a web application in which they're currently authenticated.",
+    "Option3": "An attack that steals user credentials.",
+    "4": "An attack that floods a server with requests.",
+    "Answer": "An attack that forces an end-user to execute unwanted actions on a web application in which they're currently authenticated."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `XSS` (Cross-Site Scripting) in web security?",
+    "Option1": "An attack that modifies database records.",
+    "Option2": "A type of security vulnerability enabling attackers to inject client-side scripts into web pages viewed by other users.",
+    "Option3": "An attack that steals session cookies.",
+    "4": "An attack that prevents users from accessing a website.",
+    "Answer": "A type of security vulnerability enabling attackers to inject client-side scripts into web pages viewed by other users."
+  },
+  {
+    "question_no.": 161,
+    "Question": "How does Express.js help mitigate XSS vulnerabilities?",
+    "Option1": "By automatically escaping all output from `res.send()`.",
+    "Option2": "By relying on the templating engine to properly escape data rendered in HTML (e.g., EJS's `<%= ... %>`).",
+    "Option3": "By blocking all JavaScript execution.",
+    "4": "Express.js does not directly mitigate XSS.",
+    "Answer": "By relying on the templating engine to properly escape data rendered in HTML (e.g., EJS's `<%= ... %>`)."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'SQL Injection'?",
+    "Option1": "Injecting JavaScript code into a database.",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.",
+    "Option3": "Injecting HTML into a database.",
+    "4": "Injecting CSS into a database.",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution."
+  },
+  {
+    "question_no.": 163,
+    "Question": "How do you prevent SQL Injection when using a relational database with Node.js/Express.js?",
+    "Option1": "By using string concatenation for queries.",
+    "Option2": "By using parameterized queries or prepared statements provided by your database driver/ORM.",
+    "Option3": "By encrypting all data.",
+    "4": "By limiting user input length.",
+    "Answer": "By using parameterized queries or prepared statements provided by your database driver/ORM."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'NoSQL Injection'?",
+    "Option1": "A type of attack specific to SQL databases.",
+    "Option2": "Similar to SQL injection, but targeting NoSQL databases, by injecting malicious code or commands into NoSQL queries.",
+    "Option3": "An attack that encrypts NoSQL databases.",
+    "4": "An attack that slows down NoSQL databases.",
+    "Answer": "Similar to SQL injection, but targeting NoSQL databases, by injecting malicious code or commands into NoSQL queries."
+  },
+  {
+    "question_no.": 165,
+    "Question": "How do you prevent NoSQL Injection when using a NoSQL database with Node.js/Express.js?",
+    "Option1": "By using direct string concatenation for queries.",
+    "Option2": "By using an ORM/ODM (like Mongoose for MongoDB) that handles input sanitization and uses safe query methods, or by validating and sanitizing user input.",
+    "Option3": "By never using user input in queries.",
+    "4": "By increasing server resources.",
+    "Answer": "By using an ORM/ODM (like Mongoose for MongoDB) that handles input sanitization and uses safe query methods, or by validating and sanitizing user input."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `HTTP Strict Transport Security (HSTS)`?",
+    "Option1": "A header that forces clients to use HTTP.",
+    "Option2": "A security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking by forcing web browsers to interact with it only via secure HTTPS connections.",
+    "Option3": "A method for caching HTTP responses.",
+    "4": "A mechanism for load balancing.",
+    "Answer": "A security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking by forcing web browsers to interact with it only via secure HTTPS connections."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which middleware in Express.js helps implement HSTS?",
+    "Option1": "morgan",
+    "Option2": "cors",
+    "Option3": "helmet",
+    "4": "express-session",
+    "Answer": "helmet"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Session Hijacking'?",
+    "Option1": "Stealing user passwords.",
+    "Option2": "An attack where an attacker gains control of a user's session, typically by stealing or guessing their session ID/cookie.",
+    "Option3": "Changing user roles.",
+    "4": "Denying service to a user.",
+    "Answer": "An attack where an attacker gains control of a user's session, typically by stealing or guessing their session ID/cookie."
+  },
+  {
+    "question_no.": 169,
+    "Question": "How do you mitigate Session Hijacking in Express.js?",
+    "Option1": "By storing session IDs in local storage.",
+    "Option2": "By using secure cookies (HttpOnly, Secure, SameSite flags), rotating session IDs, and using short session timeouts.",
+    "Option3": "By making sessions stateless.",
+    "4": "By using longer session IDs.",
+    "Answer": "By using secure cookies (HttpOnly, Secure, SameSite flags), rotating session IDs, and using short session timeouts."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `input sanitization`?",
+    "Option1": "Encrypting all user input.",
+    "Option2": "The process of cleaning user input by removing or escaping potentially harmful characters or sequences before processing or storing it.",
+    "Option3": "Validating input format only.",
+    "4": "Converting input to lowercase.",
+    "Answer": "The process of cleaning user input by removing or escaping potentially harmful characters or sequences before processing or storing it."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `input validation`?",
+    "Option1": "Removing harmful characters.",
+    "Option2": "The process of ensuring that user input conforms to expected formats, types, and constraints (e.g., email format, number range).",
+    "Option3": "Encrypting input.",
+    "4": "Converting input to a different data type.",
+    "Answer": "The process of ensuring that user input conforms to expected formats, types, and constraints (e.g., email format, number range)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the difference between sanitization and validation?",
+    "Option1": "They are the same.",
+    "Option2": "Validation checks if input is valid; sanitization cleans valid input of potentially harmful parts.",
+    "Option3": "Sanitization is for numbers, validation is for strings.",
+    "4": "Validation is for frontend, sanitization is for backend.",
+    "Answer": "Validation checks if input is valid; sanitization cleans valid input of potentially harmful parts."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Which `express-validator` method is primarily for sanitization?",
+    "Option1": "check()",
+    "Option2": "body()",
+    "Option3": "sanitizeBody()",
+    "4": "trim()",
+    "Answer": "trim()"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `HTTP Parameter Pollution (HPP)`?",
+    "Option1": "Adding too many parameters to a URL.",
+    "Option2": "An attack where an attacker manipulates or injects query string parameters to bypass security or modify application logic.",
+    "Option3": "Sending invalid parameters.",
+    "4": "Using special characters in parameters.",
+    "Answer": "An attack where an attacker manipulates or injects query string parameters to bypass security or modify application logic."
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which popular middleware can help prevent HPP in Express.js?",
+    "Option1": "helmet",
+    "Option2": "hpp",
+    "Option3": "morgan",
+    "4": "cors",
+    "Answer": "hpp"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is a 'Denial-of-Service (DoS)' attack?",
+    "Option1": "Stealing user data.",
+    "Option2": "An attack aimed at making a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet.",
+    "Option3": "Modifying server configurations.",
+    "4": "Injecting malicious code.",
+    "Answer": "An attack aimed at making a machine or network resource unavailable to its intended users by temporarily or indefinitely disrupting services of a host connected to the Internet."
+  },
+  {
+    "question_no.": 177,
+    "Question": "How can `express-rate-limit` help mitigate DoS attacks?",
+    "Option1": "By blocking all incoming requests.",
+    "Option2": "By limiting the number of requests a user can make within a certain time frame, preventing a single client from overwhelming the server.",
+    "Option3": "By encrypting all network traffic.",
+    "4": "By redirecting malicious users.",
+    "Answer": "By limiting the number of requests a user can make within a certain time frame, preventing a single client from overwhelming the server."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the purpose of `HTTP `TRACE` method?",
+    "Option1": "To upload files.",
+    "Option2": "To echo the received request back to the client, primarily for debugging or diagnostic purposes, but can pose a security risk (XST).",
+    "Option3": "To retrieve data.",
+    "4": "To update resources.",
+    "Answer": "To echo the received request back to the client, primarily for debugging or diagnostic purposes, but can pose a security risk (XST)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "How can you disable the `TRACE` method in Express.js for security?",
+    "Option1": "By using `app.disable('trace')`.",
+    "Option2": "By configuring your web server (e.g., Nginx) or using a middleware like `helmet`'s `noSniff`.",
+    "Option3": "By removing `trace` from allowed HTTP methods.",
+    "4": "It's disabled by default.",
+    "Answer": "By configuring your web server (e.g., Nginx) or using a middleware like `helmet`'s `noSniff`."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Web Sockets`?",
+    "Option1": "A protocol for sending email.",
+    "Option2": "A full-duplex communication protocol over a single TCP connection, providing real-time bidirectional communication between client and server.",
+    "Option3": "A protocol for secure HTTP.",
+    "4": "A protocol for file transfers.",
+    "Answer": "A full-duplex communication protocol over a single TCP connection, providing real-time bidirectional communication between client and server."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Which popular library is used for WebSockets with Node.js and Express.js?",
+    "Option1": "socket.io",
+    "Option2": "ws",
+    "Option3": "express-ws",
+    "4": "all of the above",
+    "Answer": "all of the above"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `socket.io`?",
+    "Option1": "A low-level WebSocket API.",
+    "Option2": "A real-time, bidirectional, event-based communication library that works on every platform, browser or device, with a focus on ease of use and fallback options.",
+    "Option3": "A framework for REST APIs.",
+    "4": "A library for data validation.",
+    "Answer": "A real-time, bidirectional, event-based communication library that works on every platform, browser or device, with a focus on ease of use and fallback options."
+  },
+  {
+    "question_no.": 183,
+    "Question": "How do you integrate `socket.io` with an Express.js server?",
+    "Option1": "By using `app.use(io)`. ",
+    "Option2": "By passing the HTTP server object that Express creates to `socket.io`.",
+    "Option3": "By installing `socket.io` as a middleware.",
+    "4": "By calling `io.attach(app)`.",
+    "Answer": "By passing the HTTP server object that Express creates to `socket.io`."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Error.prototype.stack` in Node.js/Express.js?",
+    "Option1": "A custom error message.",
+    "Option2": "A string property on error objects that provides a stack trace, useful for debugging.",
+    "Option3": "A numerical error code.",
+    "4": "A method to throw an error.",
+    "Answer": "A string property on error objects that provides a stack trace, useful for debugging."
+  },
+  {
+    "question_no.": 185,
+    "Question": "Why should you NOT expose detailed error stack traces in production?",
+    "Option1": "It slows down the application.",
+    "Option2": "It can reveal sensitive information about your application's internal structure, file paths, and dependencies to potential attackers.",
+    "Option3": "It increases logging verbosity.",
+    "4": "It causes memory leaks.",
+    "Answer": "It can reveal sensitive information about your application's internal structure, file paths, and dependencies to potential attackers."
+  },
+  {
+    "question_no.": 186,
+    "Question": "How do you prevent detailed error stack traces from being exposed in production?",
+    "Option1": "By always logging errors to the console.",
+    "Option2": "By having a dedicated error-handling middleware that sends generic error messages to the client in production (`NODE_ENV=production`) and detailed errors only in development.",
+    "Option3": "By disabling error logging.",
+    "4": "By restarting the server on every error.",
+    "Answer": "By having a dedicated error-handling middleware that sends generic error messages to the client in production (`NODE_ENV=production`) and detailed errors only in development."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is a 'graceful shutdown' of an Express.js server?",
+    "Option1": "Immediately terminating the server process.",
+    "Option2": "Allowing ongoing requests to complete before shutting down the server, and cleaning up resources (e.g., closing database connections).",
+    "Option3": "Restarting the server without any downtime.",
+    "4": "Shutting down the server only during off-peak hours.",
+    "Answer": "Allowing ongoing requests to complete before shutting down the server, and cleaning up resources (e.g., closing database connections)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "Why is a graceful shutdown important?",
+    "Option1": "It's only for development environments.",
+    "Option2": "To prevent data loss, ensure all pending operations are finished, and provide a smooth user experience during deployments or server restarts.",
+    "Option3": "It improves initial server startup time.",
+    "4": "It reduces memory usage.",
+    "Answer": "To prevent data loss, ensure all pending operations are finished, and provide a smooth user experience during deployments or server restarts."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `process.on('SIGTERM', ...)` used for?",
+    "Option1": "To handle errors.",
+    "Option2": "To listen for the `SIGTERM` signal, which is commonly sent by process managers (like PM2 or Docker) to gracefully shut down an application.",
+    "Option3": "To send a signal to other processes.",
+    "4": "To terminate the process immediately.",
+    "Answer": "To listen for the `SIGTERM` signal, which is commonly sent by process managers (like PM2 or Docker) to gracefully shut down an application."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `process.on('unhandledRejection', ...)` used for?",
+    "Option1": "To handle synchronous errors.",
+    "Option2": "To catch Promise rejections that are not handled by `.catch()` blocks, preventing the Node.js process from crashing.",
+    "Option3": "To log all rejections.",
+    "4": "To create new promises.",
+    "Answer": "To catch Promise rejections that are not handled by `.catch()` blocks, preventing the Node.js process from crashing."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `process.on('uncaughtException', ...)` used for?",
+    "Option1": "To handle errors in asynchronous code.",
+    "Option2": "To catch synchronous errors that are not handled by `try...catch` blocks, preventing the Node.js process from crashing.",
+    "Option3": "To log all exceptions.",
+    "4": "To throw new exceptions.",
+    "Answer": "To catch synchronous errors that are not handled by `try...catch` blocks, preventing the Node.js process from crashing."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is the purpose of `res.cookie('token', token, { httpOnly: true, secure: true })`?",
+    "Option1": "To set an insecure cookie.",
+    "Option2": "To set a secure, HttpOnly cookie named 'token', making it inaccessible to client-side JavaScript and ensuring it's only sent over HTTPS.",
+    "Option3": "To set an expiring cookie.",
+    "4": "To set a cookie that can be accessed by JavaScript.",
+    "Answer": "To set a secure, HttpOnly cookie named 'token', making it inaccessible to client-side JavaScript and ensuring it's only sent over HTTPS."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the `SameSite` attribute for cookies used for?",
+    "Option1": "To restrict cookies to specific domains.",
+    "Option2": "To prevent cross-site request forgery (CSRF) by controlling when cookies are sent with cross-site requests.",
+    "Option3": "To encrypt cookie data.",
+    "4": "To set cookie expiration.",
+    "Answer": "To prevent cross-site request forgery (CSRF) by controlling when cookies are sent with cross-site requests."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What are common values for `SameSite` attribute?",
+    "Option1": "Always, Never, Sometimes",
+    "Option2": "Strict, Lax, None",
+    "Option3": "True, False",
+    "4": "Secure, HttpOnly",
+    "Answer": "Strict, Lax, None"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What does `SameSite=Strict` mean for a cookie?",
+    "Option1": "The cookie is sent with all cross-site requests.",
+    "Option2": "The cookie is sent only for same-site requests, and only for top-level navigation (GET requests).",
+    "Option3": "The cookie is never sent with cross-site requests.",
+    "4": "The cookie is sent with all requests, including cross-site, if secure.",
+    "Answer": "The cookie is sent only for same-site requests, and only for top-level navigation (GET requests)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What does `SameSite=Lax` mean for a cookie?",
+    "Option1": "The cookie is never sent with cross-site requests.",
+    "Option2": "The cookie is sent only for same-site requests, and for top-level navigation (GET requests) with cross-site requests (most common and recommended default).",
+    "Option3": "The cookie is sent with all cross-site requests.",
+    "4": "The cookie is sent only if it's explicitly allowed.",
+    "Answer": "The cookie is sent only for same-site requests, and for top-level navigation (GET requests) with cross-site requests (most common and recommended default)."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What does `SameSite=None` mean for a cookie?",
+    "Option1": "The cookie is only sent for same-site requests.",
+    "Option2": "The cookie is sent with all cross-site requests, but requires the `Secure` attribute.",
+    "Option3": "The cookie is never sent.",
+    "4": "The cookie is sent only for POST requests.",
+    "Answer": "The cookie is sent with all cross-site requests, but requires the `Secure` attribute."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `Content Security Policy (CSP)`?",
+    "Option1": "A policy for content caching.",
+    "Option2": "An HTTP response header that allows web site administrators to control resources the user agent is allowed to load for a given page, preventing XSS attacks.",
+    "Option3": "A policy for content delivery networks.",
+    "4": "A policy for content compression.",
+    "Answer": "An HTTP response header that allows web site administrators to control resources the user agent is allowed to load for a given page, preventing XSS attacks."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which middleware in Express.js helps implement CSP?",
+    "Option1": "morgan",
+    "Option2": "cors",
+    "Option3": "helmet",
+    "4": "cookie-parser",
+    "Answer": "helmet"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `Rate Limiting`?",
+    "Option1": "Limiting the speed of the server.",
+    "Option2": "A technique to control the amount of incoming or outgoing traffic in a network, often used to protect against DoS attacks.",
+    "Option3": "Limiting database connections.",
+    "4": "Limiting the number of users on a website.",
+    "Answer": "A technique to control the amount of incoming or outgoing traffic in a network, often used to protect against DoS attacks."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the purpose of `Node.js` built-in `http` module?",
+    "Option1": "To connect to databases.",
+    "Option2": "To create HTTP servers and clients, forming the foundation upon which Express.js is built.",
+    "Option3": "To manage file systems.",
+    "4": "To perform mathematical operations.",
+    "Answer": "To create HTTP servers and clients, forming the foundation upon which Express.js is built."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `res.writeHead(statusCode, [statusMessage], [headers])`?",
+    "Option1": "To send the response body.",
+    "Option2": "To send a response header to the request. The status code and status message (optional) can be sent as well.",
+    "Option3": "To redirect the client.",
+    "4": "To render a template.",
+    "Answer": "To send a response header to the request. The status code and status message (optional) can be sent as well."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `res.write(chunk, [encoding], [callback])`?",
+    "Option1": "To end the response.",
+    "Option2": "To send a chunk of the response body to the client. This method may be called multiple times.",
+    "Option3": "To send a file.",
+    "4": "To set the status code.",
+    "Answer": "To send a chunk of the response body to the client. This method may be called multiple times."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the difference between `res.send()` and `res.end()`?",
+    "Option1": "They are interchangeable.",
+    "Option2": "`res.send()` is a higher-level method that automatically handles content-type and content-length, and can send various data types. `res.end()` is a lower-level method that simply signals the end of the response and can optionally send a final chunk of data.",
+    "Option3": "`res.send()` is only for JSON, `res.end()` is for all types.",
+    "4": "`res.end()` is deprecated.",
+    "Answer": "`res.send()` is a higher-level method that automatically handles content-type and content-length, and can send various data types. `res.end()` is a lower-level method that simply signals the end of the response and can optionally send a final chunk of data."
+  }
+]

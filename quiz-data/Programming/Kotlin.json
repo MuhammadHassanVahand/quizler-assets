@@ -1,0 +1,1937 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of language is Kotlin?",
+    "Option1": "A purely functional programming language",
+    "Option2": "A statically typed, general-purpose programming language",
+    "Option3": "A dynamically typed scripting language",
+    "Option4": "A markup language for web development",
+    "Answer": "A statically typed, general-purpose programming language"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company developed Kotlin?",
+    "Option1": "Google",
+    "Option2": "Microsoft",
+    "Option3": "JetBrains",
+    "Option4": "Oracle",
+    "Answer": "JetBrains"
+  },
+  {
+    "question_no.": 3,
+    "Question": "On which platform does Kotlin primarily run?",
+    "Option1": "Node.js",
+    "Option2": "JVM (Java Virtual Machine)",
+    "Option3": "Python Interpreter",
+    "Option4": ".NET Framework",
+    "Answer": "JVM (Java Virtual Machine)"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Is Kotlin fully interoperable with Java?",
+    "Option1": "No, they are completely separate.",
+    "Option2": "Yes, it is designed for 100% interoperability.",
+    "Option3": "Only for basic data types.",
+    "Option4": "Only if compiled to JavaScript.",
+    "Answer": "Yes, it is designed for 100% interoperability."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the file extension for Kotlin source code files?",
+    "Option1": ".java",
+    "Option2": ".kt",
+    "Option3": ".kts",
+    "Option4": ".kjs",
+    "Answer": ".kt"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you declare a variable in Kotlin that cannot be reassigned (immutable)?",
+    "Option1": "var name = \"John\"",
+    "Option2": "let name = \"John\"",
+    "Option3": "const name = \"John\"",
+    "Option4": "val name = \"John\"",
+    "Answer": "val name = \"John\""
+  },
+  {
+    "question_no.": 7,
+    "Question": "How do you declare a variable in Kotlin that can be reassigned (mutable)?",
+    "Option1": "val age = 30",
+    "Option2": "var age = 30",
+    "Option3": "let age = 30",
+    "Option4": "final age = 30",
+    "Answer": "var age = 30"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the default nullability for types in Kotlin?",
+    "Option1": "Nullable (can hold null)",
+    "Option2": "Non-nullable (cannot hold null unless explicitly stated)",
+    "Option3": "It depends on the context.",
+    "Option4": "Nullability is not a concept in Kotlin.",
+    "Answer": "Non-nullable (cannot hold null unless explicitly stated)"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you declare a nullable String variable in Kotlin?",
+    "Option1": "val name: String = null",
+    "Option2": "val name: String?",
+    "Option3": "val name: String! = null",
+    "Option4": "val name? = \"John\"",
+    "Answer": "val name: String?"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the 'safe call' operator in Kotlin?",
+    "Option1": "!!",
+    "Option2": "?.",
+    "Option3": "::",
+    "Option4": "!!.",
+    "Answer": "?."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What does the 'Elvis operator' (?:) do in Kotlin?",
+    "Option1": "Checks if a value is even or odd.",
+    "Option2": "Returns the left-hand side if it's not null, otherwise returns the right-hand side.",
+    "Option3": "Concatenates two strings.",
+    "Option4": "Performs a null check and throws an exception if null.",
+    "Answer": "Returns the left-hand side if it's not null, otherwise returns the right-hand side."
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you define a function in Kotlin?",
+    "Option1": "function myFunction() {}",
+    "Option2": "def myFunction():",
+    "Option3": "fun myFunction() {}",
+    "Option4": "func myFunction() {}",
+    "Answer": "fun myFunction() {}"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the default visibility modifier for classes and functions in Kotlin?",
+    "Option1": "private",
+    "Option2": "protected",
+    "Option3": "public",
+    "Option4": "internal",
+    "Answer": "public"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the purpose of the `internal` visibility modifier?",
+    "Option1": "Visible everywhere.",
+    "Option2": "Visible within the same module.",
+    "Option3": "Visible only within the same file.",
+    "Option4": "Visible only to subclasses.",
+    "Answer": "Visible within the same module."
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you create an instance of a class in Kotlin?",
+    "Option1": "val obj = new MyClass()",
+    "Option2": "val obj = MyClass.create()",
+    "Option3": "val obj = MyClass()",
+    "Option4": "val obj = getInstance(MyClass)",
+    "Answer": "val obj = MyClass()"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'data class' in Kotlin?",
+    "Option1": "A class that can only store primitive data types.",
+    "Option2": "A class primarily used to hold data, providing `equals()`, `hashCode()`, `toString()`, `copy()`, and `componentN()` functions automatically.",
+    "Option3": "A class that connects to a database.",
+    "Option4": "A class for data serialization only.",
+    "Answer": "A class primarily used to hold data, providing `equals()`, `hashCode()`, `toString()`, `copy()`, and `componentN()` functions automatically."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What keyword is used for inheritance in Kotlin?",
+    "Option1": "inherits",
+    "Option2": "extends",
+    "Option3": ":",
+    "Option4": "implements",
+    "Answer": ":"
+  },
+  {
+    "question_no.": 18,
+    "Question": "By default, classes in Kotlin are:",
+    "Option1": "Open (inheritable)",
+    "Option2": "Final (non-inheritable)",
+    "Option3": "Abstract",
+    "Option4": "Sealed",
+    "Answer": "Final (non-inheritable)"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you make a class inheritable in Kotlin?",
+    "Option1": "Mark it with `abstract`.",
+    "Option2": "Mark it with `open`.",
+    "Option3": "Mark it with `public`.",
+    "Option4": "Remove any modifiers.",
+    "Answer": "Mark it with `open`."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'sealed class' in Kotlin?",
+    "Option1": "A class that cannot be instantiated.",
+    "Option2": "A class that has a restricted hierarchy, limiting subclasses to the same file or module.",
+    "Option3": "A class used for network communication.",
+    "Option4": "A class that seals data for security.",
+    "Answer": "A class that has a restricted hierarchy, limiting subclasses to the same file or module."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is an 'extension function' in Kotlin?",
+    "Option1": "A function that extends the functionality of a class by adding new methods to it without inheriting from the class or using any design pattern.",
+    "Option2": "A function that is part of a utility class.",
+    "Option3": "A function that extends a Java class.",
+    "Option4": "A function that uses recursion.",
+    "Answer": "A function that extends the functionality of a class by adding new methods to it without inheriting from the class or using any design pattern."
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you declare an extension function named `capitalize` for `String`?",
+    "Option1": "fun String.capitalize(): String {}",
+    "Option2": "String.fun capitalize(): String {}",
+    "Option3": "fun capitalize(String): String {}",
+    "Option4": "String::capitalize fun(): String {}",
+    "Answer": "fun String.capitalize(): String {}"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is a 'higher-order function' in Kotlin?",
+    "Option1": "A function that returns multiple values.",
+    "Option2": "A function that can take other functions as parameters or return a function.",
+    "Option3": "A function with a very high priority.",
+    "Option4": "A function that uses a specific data structure.",
+    "Answer": "A function that can take other functions as parameters or return a function."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a 'lambda expression' in Kotlin?",
+    "Option1": "A type of mathematical equation.",
+    "Option2": "An anonymous function that can be treated as an expression.",
+    "Option3": "A complex conditional statement.",
+    "Option4": "A template for class creation.",
+    "Answer": "An anonymous function that can be treated as an expression."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you define a lambda that takes an Int and returns an Int?",
+    "Option1": "{ it: Int -> it * 2 }",
+    "Option2": "(Int) -> Int",
+    "Option3": "fun(Int): Int",
+    "Option4": "Int => Int",
+    "Answer": "{ it: Int -> it * 2 }"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the implicit name for a single parameter in a lambda in Kotlin?",
+    "Option1": "this",
+    "Option2": "value",
+    "Option3": "it",
+    "Option4": "param",
+    "Answer": "it"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a 'nullable receiver' in extension functions?",
+    "Option1": "An extension function that can only be called on non-null objects.",
+    "Option2": "An extension function that can be called on a nullable object.",
+    "Option3": "A function that receives null as an argument.",
+    "Option4": "A function that returns null.",
+    "Answer": "An extension function that can be called on a nullable object."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the purpose of the `when` expression in Kotlin?",
+    "Option1": "To define a loop that executes a block of code a specified number of times.",
+    "Option2": "To define a conditional expression that replaces the switch statement from Java.",
+    "Option3": "To declare a new type of variable.",
+    "Option4": "To handle exceptions.",
+    "Answer": "To define a conditional expression that replaces the switch statement from Java."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Can `when` be used as an expression (returning a value)?",
+    "Option1": "No, only as a statement.",
+    "Option2": "Yes, if all branches are exhaustive.",
+    "Option3": "Only for primitive types.",
+    "Option4": "Only if it has an `else` branch.",
+    "Answer": "Yes, if all branches are exhaustive."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'smart cast' in Kotlin?",
+    "Option1": "A type of automatic data conversion.",
+    "Option2": "The compiler automatically casts a variable to a more specific type after a type check, without explicit casting.",
+    "Option3": "A way to convert a string to a number.",
+    "Option4": "A mechanism for dynamic type checking.",
+    "Answer": "The compiler automatically casts a variable to a more specific type after a type check, without explicit casting."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the `is` operator used for in Kotlin?",
+    "Option1": "To check for equality.",
+    "Option2": "To check the type of an object.",
+    "Option3": "To perform a logical AND operation.",
+    "Option4": "To assign a value to a variable.",
+    "Answer": "To check the type of an object."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the 'range operator' in Kotlin?",
+    "Option1": "..",
+    "Option2": "...",
+    "Option3": "<-",
+    "Option4": "->",
+    "Answer": ".."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you iterate from 1 to 5 (inclusive) in Kotlin?",
+    "Option1": "for (i in 1 until 5)",
+    "Option2": "for (i in 1..5)",
+    "Option3": "for (i from 1 to 5)",
+    "Option4": "for (i in range(1, 5))",
+    "Answer": "for (i in 1..5)"
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you iterate from 1 to 5 (exclusive of 5) in Kotlin?",
+    "Option1": "for (i in 1..5)",
+    "Option2": "for (i in 1 until 5)",
+    "Option3": "for (i in 1..4)",
+    "Option4": "for (i in range(1, 4))",
+    "Answer": "for (i in 1 until 5)"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the purpose of the `apply` scope function?",
+    "Option1": "Executes a block of code on an object and returns the result of the lambda.",
+    "Option2": "Executes a block of code on an object and returns the object itself.",
+    "Option3": "Executes a block of code if the object is not null.",
+    "Option4": "Creates a copy of the object.",
+    "Answer": "Executes a block of code on an object and returns the object itself."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the purpose of the `let` scope function?",
+    "Option1": "Executes a block of code on an object and returns the object itself.",
+    "Option2": "Executes a block of code if the object is not null, and returns the result of the lambda.",
+    "Option3": "Used for property initialization.",
+    "Option4": "Creates a new object.",
+    "Answer": "Executes a block of code if the object is not null, and returns the result of the lambda."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of the `with` scope function?",
+    "Option1": "Executes a block of code on an object where `this` refers to the object, and returns the result of the lambda.",
+    "Option2": "Executes a block of code on an object where `it` refers to the object, and returns the object itself.",
+    "Option3": "Used for defining class methods.",
+    "Option4": "Used for managing resources.",
+    "Answer": "Executes a block of code on an object where `this` refers to the object, and returns the result of the lambda."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the purpose of the `run` scope function?",
+    "Option1": "Similar to `let`, but `this` refers to the object inside the lambda.",
+    "Option2": "Similar to `apply`, but `it` refers to the object inside the lambda.",
+    "Option3": "Executes a block of code on an object and always returns `Unit`.",
+    "Option4": "Used only for concurrent programming.",
+    "Answer": "Similar to `let`, but `this` refers to the object inside the lambda."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the purpose of the `also` scope function?",
+    "Option1": "Executes a block of code on an object and returns the result of the lambda.",
+    "Option2": "Executes a block of code on an object, where `it` refers to the object, and returns the object itself.",
+    "Option3": "Used for conditional execution.",
+    "Option4": "Used for object mapping.",
+    "Answer": "Executes a block of code on an object, where `it` refers to the object, and returns the object itself."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'constructor' in Kotlin?",
+    "Option1": "A special function that creates instances of a class and initializes their properties.",
+    "Option2": "A method used for destroying objects.",
+    "Option3": "A function that returns a boolean value.",
+    "Option4": "A type of loop.",
+    "Answer": "A special function that creates instances of a class and initializes their properties."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Does Kotlin support multiple primary constructors?",
+    "Option1": "Yes, any number of primary constructors.",
+    "Option2": "No, only one primary constructor.",
+    "Option3": "Only if they have different parameter types.",
+    "Option4": "Kotlin does not have primary constructors.",
+    "Answer": "No, only one primary constructor."
+  },
+  {
+    "question_no.": 42,
+    "Question": "How do you declare a primary constructor with parameters?",
+    "Option1": "class MyClass { constructor(param: String) }",
+    "Option2": "class MyClass(param: String)",
+    "Option3": "class MyClass { fun init(param: String) }",
+    "Option4": "class MyClass.init(param: String)",
+    "Answer": "class MyClass(param: String)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the 'init' block used for in a Kotlin class?",
+    "Option1": "To define static variables.",
+    "Option2": "To initialize properties that are not part of the primary constructor.",
+    "Option3": "To define a function that runs before the constructor.",
+    "Option4": "To declare global constants.",
+    "Answer": "To initialize properties that are not part of the primary constructor."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'delegation' in Kotlin?",
+    "Option1": "A design pattern where an object handles a request by passing it to another object (the delegate object).",
+    "Option2": "A way to pass parameters to a function.",
+    "Option3": "A form of inheritance.",
+    "Option4": "A mechanism for late initialization.",
+    "Answer": "A design pattern where an object handles a request by passing it to another object (the delegate object)."
+  },
+  {
+    "question_no.": 45,
+    "Question": "How do you implement interface delegation in Kotlin?",
+    "Option1": "class MyClass : MyInterface by MyInterfaceImpl()",
+    "Option2": "class MyClass implements MyInterface by MyInterfaceImpl()",
+    "Option3": "class MyClass extends MyInterface by MyInterfaceImpl()",
+    "Option4": "class MyClass with MyInterfaceImpl()",
+    "Answer": "class MyClass : MyInterface by MyInterfaceImpl()"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'singleton' in Kotlin?",
+    "Option1": "A class that can be instantiated multiple times.",
+    "Option2": "A class that can have only one instance, and provides a global point of access to it.",
+    "Option3": "A class with no properties.",
+    "Option4": "A special type of data class.",
+    "Answer": "A class that can have only one instance, and provides a global point of access to it."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you declare a singleton object in Kotlin?",
+    "Option1": "class MySingleton {}",
+    "Option2": "object MySingleton {}",
+    "Option3": "enum class MySingleton {}",
+    "Option4": "val MySingleton = new MySingleton()",
+    "Answer": "object MySingleton {}"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'companion object' in Kotlin?",
+    "Option1": "An object that accompanies another object in memory.",
+    "Option2": "A special object declared inside a class that allows defining static-like members (methods and properties).",
+    "Option3": "An object that can be passed as a parameter.",
+    "Option4": "A temporary object used for calculations.",
+    "Answer": "A special object declared inside a class that allows defining static-like members (methods and properties)."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Can a class have multiple companion objects?",
+    "Option1": "Yes, any number.",
+    "Option2": "No, only one.",
+    "Option3": "Only if they have different names.",
+    "Option4": "Only in abstract classes.",
+    "Answer": "No, only one."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of the `lateinit` modifier?",
+    "Option1": "To declare a variable that will be initialized at runtime, but only once.",
+    "Option2": "To declare a non-nullable variable that will be initialized later, typically in `onCreate` or similar lifecycle methods.",
+    "Option3": "To declare a constant value.",
+    "Option4": "To declare a variable with a default null value.",
+    "Answer": "To declare a non-nullable variable that will be initialized later, typically in `onCreate` or similar lifecycle methods."
+  },
+  {
+    "question_no.": 51,
+    "Question": "When can `lateinit` be used?",
+    "Option1": "On `val` properties.",
+    "Option2": "On `var` properties that are not primitive types and are not nullable.",
+    "Option3": "On properties inside functions.",
+    "Option4": "On any type of property.",
+    "Answer": "On `var` properties that are not primitive types and are not nullable."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the `by lazy` delegate used for?",
+    "Option1": "To initialize a property immediately.",
+    "Option2": "To initialize a property only when it's accessed for the first time.",
+    "Option3": "To declare a nullable property.",
+    "Option4": "To define a read-only property.",
+    "Answer": "To initialize a property only when it's accessed for the first time."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which type of delegate is best for thread-safe lazy initialization?",
+    "Option1": "non-null",
+    "Option2": "Delegates.observable",
+    "Option3": "Delegates.vetoable",
+    "Option4": "by lazy",
+    "Answer": "by lazy"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a 'nullable type' in Kotlin?",
+    "Option1": "A type that can hold a value or be null.",
+    "Option2": "A type that can only hold a value and cannot be null.",
+    "Option3": "A type that is automatically converted to null.",
+    "Option4": "A type used for error handling.",
+    "Answer": "A type that can hold a value or be null."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is a 'non-nullable type' in Kotlin?",
+    "Option1": "A type that can hold a value or be null.",
+    "Option2": "A type that can only hold a value and cannot be null.",
+    "Option3": "A type used for optional values.",
+    "Option4": "A type that always returns true.",
+    "Answer": "A type that can only hold a value and cannot be null."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the 'not-null assertion operator' in Kotlin?",
+    "Option1": "?.",
+    "Option2": "!!",
+    "Option3": "::",
+    "Option4": "as?",
+    "Answer": "!!"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What happens if you use the 'not-null assertion operator' on a null value?",
+    "Option1": "It returns `null`.",
+    "Option2": "It throws a `NullPointerException`.",
+    "Option3": "It converts the `null` to an empty string.",
+    "Option4": "It ignores the operation.",
+    "Answer": "It throws a `NullPointerException`."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is an 'enum class' in Kotlin?",
+    "Option1": "A class that enumerates numbers.",
+    "Option2": "A special type of class that represents a group of constants.",
+    "Option3": "A class used for creating dynamic lists.",
+    "Option4": "A class that supports multiple inheritance.",
+    "Answer": "A special type of class that represents a group of constants."
+  },
+  {
+    "question_no.": 59,
+    "Question": "Can enum classes in Kotlin have properties and methods?",
+    "Option1": "No, they can only store names.",
+    "Option2": "Yes, they can have properties and methods like regular classes.",
+    "Option3": "Only methods, not properties.",
+    "Option4": "Only properties, not methods.",
+    "Answer": "Yes, they can have properties and methods like regular classes."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is a 'nested class' in Kotlin?",
+    "Option1": "A class defined within another class, but without an implicit reference to its outer class instance.",
+    "Option2": "A class that is part of a package.",
+    "Option3": "A class that inherits from multiple classes.",
+    "Option4": "A class used for deep copying objects.",
+    "Answer": "A class defined within another class, but without an implicit reference to its outer class instance."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is an 'inner class' in Kotlin?",
+    "Option1": "A class defined within another class, which holds an implicit reference to its outer class instance.",
+    "Option2": "A class that cannot be accessed from outside.",
+    "Option3": "A class used for internal calculations only.",
+    "Option4": "A class that is always a singleton.",
+    "Answer": "A class defined within another class, which holds an implicit reference to its outer class instance."
+  },
+  {
+    "question_no.": 62,
+    "Question": "How do you declare an inner class?",
+    "Option1": "class Outer { nested class Inner {} }",
+    "Option2": "class Outer { inner class Inner {} }",
+    "Option3": "class Outer { class Inner {} }",
+    "Option4": "class Outer { private class Inner {} }",
+    "Answer": "class Outer { inner class Inner {} }"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'type inference' in Kotlin?",
+    "Option1": "The ability of the compiler to infer the type of a variable from its initialization value, reducing boilerplate.",
+    "Option2": "A mechanism for explicit type declaration.",
+    "Option3": "A way to convert one type to another.",
+    "Option4": "A runtime feature for dynamic typing.",
+    "Answer": "The ability of the compiler to infer the type of a variable from its initialization value, reducing boilerplate."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is a 'destructuring declaration' in Kotlin?",
+    "Option1": "A way to break down an object into its individual properties or components.",
+    "Option2": "A method for deleting objects.",
+    "Option3": "A way to combine multiple variables.",
+    "Option4": "A form of polymorphism.",
+    "Answer": "A way to break down an object into its individual properties or components."
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which type of class commonly uses destructuring declarations automatically?",
+    "Option1": "Abstract class",
+    "Option2": "Interface",
+    "Option3": "Data class",
+    "Option4": "Sealed class",
+    "Answer": "Data class"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is an 'operator overloading' in Kotlin?",
+    "Option1": "Defining multiple functions with the same name.",
+    "Option2": "Defining custom implementations for existing operators (like +, -, *, /, etc.) for user-defined types.",
+    "Option3": "Overloading functions with different return types.",
+    "Option4": "Overloading operators with different priorities.",
+    "Answer": "Defining custom implementations for existing operators (like +, -, *, /, etc.) for user-defined types."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What keyword is used to mark a function as an operator function?",
+    "Option1": "operator",
+    "Option2": "override",
+    "Option3": "infix",
+    "Option4": "fun",
+    "Answer": "operator"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'infix notation' in Kotlin?",
+    "Option1": "A way to write functions with a single parameter without using dot notation or parentheses.",
+    "Option2": "A notation for defining constructors.",
+    "Option3": "A method for commenting code.",
+    "Option4": "A way to define abstract methods.",
+    "Answer": "A way to write functions with a single parameter without using dot notation or parentheses."
+  },
+  {
+    "question_no.": 69,
+    "Question": "For what type of functions is infix notation typically used?",
+    "Option1": "Functions with no parameters.",
+    "Option2": "Functions with a single parameter that are extension functions or member functions.",
+    "Option3": "Functions with multiple parameters.",
+    "Option4": "Functions that return Unit.",
+    "Answer": "Functions with a single parameter that are extension functions or member functions."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is a 'collection' in Kotlin?",
+    "Option1": "A single variable that stores one value.",
+    "Option2": "A group of objects treated as a single unit, like lists, sets, and maps.",
+    "Option3": "A type of database.",
+    "Option4": "A mechanism for concurrency.",
+    "Answer": "A group of objects treated as a single unit, like lists, sets, and maps."
+  },
+  {
+    "question_no.": 71,
+    "Question": "Are Kotlin collections mutable or immutable by default?",
+    "Option1": "Mutable",
+    "Option2": "Immutable",
+    "Option3": "It depends on the specific collection type.",
+    "Option4": "Both are equally common.",
+    "Answer": "Immutable"
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you create an immutable list in Kotlin?",
+    "Option1": "val list = mutableListOf(1, 2, 3)",
+    "Option2": "val list = arrayListOf(1, 2, 3)",
+    "Option3": "val list = listOf(1, 2, 3)",
+    "Option4": "val list = List(1, 2, 3)",
+    "Answer": "val list = listOf(1, 2, 3)"
+  },
+  {
+    "question_no.": 73,
+    "Question": "How do you create a mutable list in Kotlin?",
+    "Option1": "val list = listOf(1, 2, 3)",
+    "Option2": "val list = mutableListOf(1, 2, 3)",
+    "Option3": "val list = List(1, 2, 3)",
+    "Option4": "val list = immutableListOf(1, 2, 3)",
+    "Answer": "val list = mutableListOf(1, 2, 3)"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the primary difference between `List` and `MutableList` interfaces?",
+    "Option1": "`List` is for primitive types, `MutableList` for objects.",
+    "Option2": "`List` is immutable, `MutableList` allows adding/removing elements.",
+    "Option3": "`List` is a class, `MutableList` is an interface.",
+    "Option4": "There is no functional difference.",
+    "Answer": "`List` is immutable, `MutableList` allows adding/removing elements."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of the `forEach` extension function on collections?",
+    "Option1": "To sort the elements.",
+    "Option2": "To perform an action for each element in the collection.",
+    "Option3": "To filter elements.",
+    "Option4": "To convert the collection to a string.",
+    "Answer": "To perform an action for each element in the collection."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What does the `map` extension function do on collections?",
+    "Option1": "Creates a new collection by transforming each element of the original collection.",
+    "Option2": "Filters elements based on a condition.",
+    "Option3": "Iterates over the elements without changing them.",
+    "Option4": "Sorts the elements.",
+    "Answer": "Creates a new collection by transforming each element of the original collection."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What does the `filter` extension function do on collections?",
+    "Option1": "Transforms each element into a new type.",
+    "Option2": "Creates a new collection containing only elements that satisfy a given predicate.",
+    "Option3": "Removes duplicate elements.",
+    "Option4": "Sorts the elements in ascending order.",
+    "Answer": "Creates a new collection containing only elements that satisfy a given predicate."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the `associateBy` extension function used for?",
+    "Option1": "To create a list of pairs.",
+    "Option2": "To create a map from the elements of a collection, using a key selector function.",
+    "Option3": "To associate elements with their indices.",
+    "Option4": "To group elements by a common property.",
+    "Answer": "To create a map from the elements of a collection, using a key selector function."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `groupBy` used for on collections?",
+    "Option1": "To sort elements by a specific property.",
+    "Option2": "To group elements of a collection into a map where keys are the grouping criteria and values are lists of elements.",
+    "Option3": "To create a single group of all elements.",
+    "Option4": "To combine multiple collections.",
+    "Answer": "To group elements of a collection into a map where keys are the grouping criteria and values are lists of elements."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is a 'sequence' in Kotlin?",
+    "Option1": "A fixed-size collection.",
+    "Option2": "A collection that processes elements lazily (on demand), often for better performance with large datasets.",
+    "Option3": "A sequence of numbers generated randomly.",
+    "Option4": "A sequence of events in an application.",
+    "Answer": "A collection that processes elements lazily (on demand), often for better performance with large datasets."
+  },
+  {
+    "question_no.": 81,
+    "Question": "How do you convert a `List` to a `Sequence`?",
+    "Option1": "list.toSequence()",
+    "Option2": "list.asSequence()",
+    "Option3": "Sequence(list)",
+    "Option4": "list.lazy()",
+    "Answer": "list.asSequence()"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'coroutines' in Kotlin?",
+    "Option1": "A feature for defining classes with multiple constructors.",
+    "Option2": "A framework for asynchronous programming that allows writing non-blocking code in a sequential style.",
+    "Option3": "A way to define global variables.",
+    "Option4": "A type of data structure for ordered elements.",
+    "Answer": "A framework for asynchronous programming that allows writing non-blocking code in a sequential style."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the main advantage of coroutines over traditional callbacks or RxJava?",
+    "Option1": "They are faster to execute.",
+    "Option2": "They allow writing asynchronous code in a more sequential and readable manner, avoiding 'callback hell'.",
+    "Option3": "They consume less memory.",
+    "Option4": "They are only available on Android.",
+    "Answer": "They allow writing asynchronous code in a more sequential and readable manner, avoiding 'callback hell'."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What keyword is used to suspend a function in Kotlin coroutines?",
+    "Option1": "async",
+    "Option2": "await",
+    "Option3": "suspend",
+    "Option4": "yield",
+    "Answer": "suspend"
+  },
+  {
+    "question_no.": 85,
+    "Question": "Can a `suspend` function be called from a regular (non-suspending) function?",
+    "Option1": "Yes, always.",
+    "Option2": "No, `suspend` functions can only be called from other `suspend` functions or within a coroutine scope.",
+    "Option3": "Only if it returns Unit.",
+    "Option4": "Only if it's a private function.",
+    "Answer": "No, `suspend` functions can only be called from other `suspend` functions or within a coroutine scope."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is a 'coroutine scope'?",
+    "Option1": "The global scope of the application.",
+    "Option2": "A defined lifecycle for coroutines, allowing structured concurrency (e.g., cancelling all coroutines in that scope).",
+    "Option3": "The visibility of coroutine variables.",
+    "Option4": "A single coroutine instance.",
+    "Answer": "A defined lifecycle for coroutines, allowing structured concurrency (e.g., cancelling all coroutines in that scope)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the `launch` coroutine builder used for?",
+    "Option1": "To start a coroutine that returns a result.",
+    "Option2": "To start a coroutine that doesn't return a result (fire and forget).",
+    "Option3": "To launch an external application.",
+    "Option4": "To create a new thread.",
+    "Answer": "To start a coroutine that doesn't return a result (fire and forget)."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the `async` coroutine builder used for?",
+    "Option1": "To start a coroutine that doesn't return a result.",
+    "Option2": "To start a coroutine that returns a `Deferred` object, which can later provide a result.",
+    "Option3": "To perform a synchronous operation.",
+    "Option4": "To define an asynchronous function.",
+    "Answer": "To start a coroutine that returns a `Deferred` object, which can later provide a result."
+  },
+  {
+    "question_no.": 89,
+    "Question": "How do you get the result from a `Deferred` object?",
+    "Option1": "deferred.get()",
+    "Option2": "deferred.result()",
+    "Option3": "deferred.await()",
+    "Option4": "deferred.value()",
+    "Answer": "deferred.await()"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is a 'Dispatcher' in Kotlin Coroutines?",
+    "Option1": "A tool for sending network requests.",
+    "Option2": "An object that determines which thread or threads a coroutine will use for its execution.",
+    "Option3": "A class for managing external resources.",
+    "Option4": "A pattern for error handling.",
+    "Answer": "An object that determines which thread or threads a coroutine will use for its execution."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which Dispatcher is suitable for CPU-bound tasks in Kotlin Coroutines?",
+    "Option1": "Dispatchers.Main",
+    "Option2": "Dispatchers.IO",
+    "Option3": "Dispatchers.Default",
+    "Option4": "Dispatchers.Unconfined",
+    "Answer": "Dispatchers.Default"
+  },
+  {
+    "question_no.": 92,
+    "Question": "Which Dispatcher is suitable for network or disk I/O operations in Kotlin Coroutines?",
+    "Option1": "Dispatchers.Default",
+    "Option2": "Dispatchers.Main",
+    "Option3": "Dispatchers.IO",
+    "Option4": "Dispatchers.Unconfined",
+    "Answer": "Dispatchers.IO"
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which Dispatcher is typically used for UI updates on Android?",
+    "Option1": "Dispatchers.IO",
+    "Option2": "Dispatchers.Default",
+    "Option3": "Dispatchers.Main",
+    "Option4": "Dispatchers.Unconfined",
+    "Answer": "Dispatchers.Main"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'structured concurrency' in Kotlin Coroutines?",
+    "Option1": "A way to organize code into separate files.",
+    "Option2": "A principle where coroutines are launched within a specific `CoroutineScope`, and their lifecycles are tied to that scope, ensuring proper cancellation and error handling.",
+    "Option3": "A method for writing synchronous code.",
+    "Option4": "A technique for parallel processing.",
+    "Answer": "A principle where coroutines are launched within a specific `CoroutineScope`, and their lifecycles are tied to that scope, ensuring proper cancellation and error handling."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What does `withContext()` do in Kotlin Coroutines?",
+    "Option1": "Launches a new coroutine.",
+    "Option2": "Switches the context (Dispatcher) for a block of code within a coroutine, suspending until the block completes.",
+    "Option3": "Cancels a coroutine.",
+    "Option4": "Delays the execution of a coroutine.",
+    "Answer": "Switches the context (Dispatcher) for a block of code within a coroutine, suspending until the block completes."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the primary benefit of Kotlin's null safety features?",
+    "Option1": "Makes code run faster.",
+    "Option2": "Eliminates `NullPointerException`s at runtime by making nullability explicit in the type system.",
+    "Option3": "Reduces memory consumption.",
+    "Option4": "Simplifies asynchronous programming.",
+    "Answer": "Eliminates `NullPointerException`s at runtime by making nullability explicit in the type system."
+  },
+  {
+    "question_no.": 97,
+    "Question": "How do you define a constant at compile time in Kotlin?",
+    "Option1": "val MY_CONSTANT = 10",
+    "Option2": "const val MY_CONSTANT = 10",
+    "Option3": "final val MY_CONSTANT = 10",
+    "Option4": "static val MY_CONSTANT = 10",
+    "Answer": "const val MY_CONSTANT = 10"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the restriction on using `const val`?",
+    "Option1": "Can only be used for complex objects.",
+    "Option2": "Can only be used for primitive types and String, and must be top-level or in `object` / `companion object`.",
+    "Option3": "Can only be used inside functions.",
+    "Option4": "Can only be used with nullable types.",
+    "Answer": "Can only be used for primitive types and String, and must be top-level or in `object` / `companion object`."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'top-level function' in Kotlin?",
+    "Option1": "A function that is part of a class.",
+    "Option2": "A function defined directly in a file, outside of any class or object, acting as a static utility method.",
+    "Option3": "A function that always returns `Unit`.",
+    "Option4": "A recursive function.",
+    "Answer": "A function defined directly in a file, outside of any class or object, acting as a static utility method."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of a 'default argument' in Kotlin functions?",
+    "Option1": "To specify arguments that are always null.",
+    "Option2": "To allow parameters to have default values, making them optional when calling the function.",
+    "Option3": "To force arguments to be passed by reference.",
+    "Option4": "To define the type of an argument.",
+    "Answer": "To allow parameters to have default values, making them optional when calling the function."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is a 'named argument' in Kotlin?",
+    "Option1": "An argument that must be passed by its position.",
+    "Option2": "An argument whose name is explicitly specified during the function call, improving readability.",
+    "Option3": "An argument that is always a string.",
+    "Option4": "An argument that can be null.",
+    "Answer": "An argument whose name is explicitly specified during the function call, improving readability."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Can you combine default arguments and named arguments when calling a function?",
+    "Option1": "No, it's either one or the other.",
+    "Option2": "Yes, they can be used together for more flexible function calls.",
+    "Option3": "Only if all arguments are named.",
+    "Option4": "Only in extension functions.",
+    "Answer": "Yes, they can be used together for more flexible function calls."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a 'vararg' parameter?",
+    "Option1": "A parameter that can hold a single, variable value.",
+    "Option2": "A parameter that allows a function to accept a variable number of arguments of a specific type.",
+    "Option3": "A parameter that is always a mutable variable.",
+    "Option4": "A parameter for defining variadic functions.",
+    "Answer": "A parameter that allows a function to accept a variable number of arguments of a specific type."
+  },
+  {
+    "question_no.": 104,
+    "Question": "How do you pass an array to a `vararg` parameter?",
+    "Option1": "myFunction(myArray)",
+    "Option2": "myFunction(*myArray)",
+    "Option3": "myFunction(&myArray)",
+    "Option4": "myFunction(array = myArray)",
+    "Answer": "myFunction(*myArray)"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the difference between `==` and `===` in Kotlin?",
+    "Option1": "`==` checks for structural equality, `===` checks for referential equality (same object in memory).",
+    "Option2": "`==` checks for referential equality, `===` checks for structural equality.",
+    "Option3": "There is no `===` operator in Kotlin.",
+    "Option4": "Both check for structural equality.",
+    "Answer": "`==` checks for structural equality, `===` checks for referential equality (same object in memory)."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is an 'abstract class' in Kotlin?",
+    "Option1": "A class that can be instantiated directly.",
+    "Option2": "A class that cannot be instantiated and may contain abstract (unimplemented) members.",
+    "Option3": "A class with no properties.",
+    "Option4": "A class that only contains static methods.",
+    "Answer": "A class that cannot be instantiated and may contain abstract (unimplemented) members."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Can an abstract class have constructors?",
+    "Option1": "No, never.",
+    "Option2": "Yes, but they cannot be directly called.",
+    "Option3": "Only a primary constructor.",
+    "Option4": "Only secondary constructors.",
+    "Answer": "Yes, but they cannot be directly called."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is an 'interface' in Kotlin?",
+    "Option1": "A blueprint of a class that can be inherited.",
+    "Option2": "A contract that defines a set of methods and properties that a class implementing it must provide.",
+    "Option3": "A class with only static methods.",
+    "Option4": "A data structure for storing collections.",
+    "Answer": "A contract that defines a set of methods and properties that a class implementing it must provide."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Can interfaces in Kotlin have property declarations?",
+    "Option1": "No, only method declarations.",
+    "Option2": "Yes, abstract properties and properties with accessors.",
+    "Option3": "Only properties with default values.",
+    "Option4": "Only properties without getters/setters.",
+    "Answer": "Yes, abstract properties and properties with accessors."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Can interfaces in Kotlin have default implementations for methods?",
+    "Option1": "No, all methods must be abstract.",
+    "Option2": "Yes, using the `default` keyword.",
+    "Option3": "Yes, they can provide default implementations for methods.",
+    "Option4": "Only in abstract classes, not interfaces.",
+    "Answer": "Yes, they can provide default implementations for methods."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is the difference between an abstract class and an interface in Kotlin?",
+    "Option1": "Abstract classes cannot have state, interfaces can.",
+    "Option2": "Abstract classes can have constructors and store state, interfaces cannot directly (only property accessors). A class can implement multiple interfaces but inherit from only one abstract class.",
+    "Option3": "Interfaces are only for Java interoperability.",
+    "Option4": "There is no significant difference.",
+    "Answer": "Abstract classes can have constructors and store state, interfaces cannot directly (only property accessors). A class can implement multiple interfaces but inherit from only one abstract class."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is an 'object expression' in Kotlin?",
+    "Option1": "A way to declare a singleton.",
+    "Option2": "A way to create an object of an anonymous class, often used for implementing interfaces or extending classes on the fly.",
+    "Option3": "An expression that returns an object.",
+    "Option4": "A literal for creating objects.",
+    "Answer": "A way to create an object of an anonymous class, often used for implementing interfaces or extending classes on the fly."
+  },
+  {
+    "question_no.": 113,
+    "Question": "When would you typically use an 'object expression'?",
+    "Option1": "When you need a full-fledged class definition.",
+    "Option2": "When you need to create an object that implements an interface or extends a class without explicitly defining a new named class.",
+    "Option3": "For creating immutable data structures.",
+    "Option4": "For defining utility functions.",
+    "Answer": "When you need to create an object that implements an interface or extends a class without explicitly defining a new named class."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a 'type alias' in Kotlin?",
+    "Option1": "A way to define a new type.",
+    "Option2": "A way to provide an alternative name for an existing type, improving readability.",
+    "Option3": "A mechanism for type casting.",
+    "Option4": "A way to define generic types.",
+    "Answer": "A way to provide an alternative name for an existing type, improving readability."
+  },
+  {
+    "question_no.": 115,
+    "Question": "How do you declare a type alias `MyString` for `String`?",
+    "Option1": "type MyString = String",
+    "Option2": "alias MyString to String",
+    "Option3": "typedef String MyString",
+    "Option4": "String as MyString",
+    "Answer": "typealias MyString = String"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is a 'type-safe builder' in Kotlin?",
+    "Option1": "A pattern for building objects or structures using a DSL (Domain Specific Language) provided by extension functions with a receiver.",
+    "Option2": "A builder that ensures type correctness at runtime.",
+    "Option3": "A tool for generating code.",
+    "Option4": "A method for creating instances of abstract classes.",
+    "Answer": "A pattern for building objects or structures using a DSL (Domain Specific Language) provided by extension functions with a receiver."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the purpose of the `@DslMarker` annotation?",
+    "Option1": "To mark a function as part of a DSL.",
+    "Option2": "To prevent accidental access to outer scope members in nested DSL lambdas, ensuring type safety and preventing ambiguity.",
+    "Option3": "To define a DSL keyword.",
+    "Option4": "To indicate a deprecated DSL feature.",
+    "Answer": "To prevent accidental access to outer scope members in nested DSL lambdas, ensuring type safety and preventing ambiguity."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'reflection' in Kotlin?",
+    "Option1": "A feature for mirroring objects.",
+    "Option2": "The ability of a program to examine and modify its own structure, behavior, and properties at runtime.",
+    "Option3": "A technique for optimizing code.",
+    "Option4": "A form of error logging.",
+    "Answer": "The ability of a program to examine and modify its own structure, behavior, and properties at runtime."
+  },
+  {
+    "question_no.": 119,
+    "Question": "How do you get a `KClass` object from a class name in Kotlin?",
+    "Option1": "MyClass.class",
+    "Option2": "MyClass::class",
+    "Option3": "getClass(MyClass)",
+    "Option4": "MyClass.type",
+    "Answer": "MyClass::class"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is a 'reified type parameter' in Kotlin?",
+    "Option1": "A generic type parameter whose actual type argument is available at runtime, not just compile time.",
+    "Option2": "A type parameter that can be null.",
+    "Option3": "A type parameter that is always a primitive type.",
+    "Option4": "A type parameter used only for functional programming.",
+    "Answer": "A generic type parameter whose actual type argument is available at runtime, not just compile time."
+  },
+  {
+    "question_no.": 121,
+    "Question": "When can you use a `reified` type parameter?",
+    "Option1": "In any function.",
+    "Option2": "Only in `inline` functions.",
+    "Option3": "Only in abstract classes.",
+    "Option4": "Only in extension functions.",
+    "Answer": "Only in `inline` functions."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the purpose of the `inline` keyword for functions?",
+    "Option1": "To make a function run on a separate thread.",
+    "Option2": "To instruct the compiler to insert the function's bytecode directly into the call site, potentially improving performance by avoiding function call overhead, especially with lambdas.",
+    "Option3": "To make a function visible only within the current file.",
+    "Option4": "To make a function recursive.",
+    "Answer": "To instruct the compiler to insert the function's bytecode directly into the call site, potentially improving performance by avoiding function call overhead, especially with lambdas."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Does `inline` always improve performance?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it can sometimes increase bytecode size and might not always lead to performance gains, especially for large functions.",
+    "Option3": "Only for simple functions.",
+    "Option4": "Only on specific JVM versions.",
+    "Answer": "No, it can sometimes increase bytecode size and might not always lead to performance gains, especially for large functions."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is a 'non-local return' in Kotlin?",
+    "Option1": "A `return` statement that returns from the nearest `fun` function.",
+    "Option2": "A `return` statement within a lambda that returns from the enclosing function, not just the lambda itself.",
+    "Option3": "A `return` statement that exits the entire program.",
+    "Option4": "A `return` statement that can only be used with `suspend` functions.",
+    "Answer": "A `return` statement within a lambda that returns from the enclosing function, not just the lambda itself."
+  },
+  {
+    "question_no.": 125,
+    "Question": "How can you prevent a non-local return from a lambda?",
+    "Option1": "By making the lambda `inline`.",
+    "Option2": "By labeling the lambda and using a qualified return (e.g., `return@label`).",
+    "Option3": "By marking the lambda as `noinline`.",
+    "Option4": "All of the above can affect or prevent non-local returns.",
+    "Answer": "All of the above can affect or prevent non-local returns."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is a 'lazy property' in Kotlin?",
+    "Option1": "A property that is initialized as soon as the class is created.",
+    "Option2": "A property whose value is computed only on the first access and then cached for subsequent accesses.",
+    "Option3": "A property that is always null.",
+    "Option4": "A property that can be reassigned multiple times.",
+    "Answer": "A property whose value is computed only on the first access and then cached for subsequent accesses."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the difference between `lateinit` and `by lazy`?",
+    "Option1": "`lateinit` is for `val`, `by lazy` is for `var`.",
+    "Option2": "`lateinit` is for mutable, non-nullable properties initialized later; `by lazy` is for immutable properties initialized on first access.",
+    "Option3": "`lateinit` is for primitive types, `by lazy` is for objects.",
+    "Option4": "They are interchangeable.",
+    "Answer": "`lateinit` is for mutable, non-nullable properties initialized later; `by lazy` is for immutable properties initialized on first access."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is an 'exception' in Kotlin?",
+    "Option1": "A special type of function.",
+    "Option2": "An event that disrupts the normal flow of a program's execution.",
+    "Option3": "A way to define conditional logic.",
+    "Option4": "A mechanism for code optimization.",
+    "Answer": "An event that disrupts the normal flow of a program's execution."
+  },
+  {
+    "question_no.": 129,
+    "Question": "How do you handle exceptions in Kotlin?",
+    "Option1": "Using `if-else` statements.",
+    "Option2": "Using `try-catch` blocks.",
+    "Option3": "Using `when` expressions.",
+    "Option4": "Using `for` loops.",
+    "Answer": "Using `try-catch` blocks."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Does Kotlin have 'checked exceptions' like Java?",
+    "Option1": "Yes, all exceptions must be declared.",
+    "Option2": "No, Kotlin treats all exceptions as unchecked.",
+    "Option3": "Only for I/O operations.",
+    "Option4": "Only for specific JVM versions.",
+    "Answer": "No, Kotlin treats all exceptions as unchecked."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the purpose of the `finally` block in exception handling?",
+    "Option1": "To execute code if an exception occurs.",
+    "Option2": "To execute code whether an exception occurred or not.",
+    "Option3": "To catch specific types of exceptions.",
+    "Option4": "To define the default behavior.",
+    "Answer": "To execute code whether an exception occurred or not."
+  },
+  {
+    "question_no.": 132,
+    "Question": "How do you throw an exception in Kotlin?",
+    "Option1": "throw new MyException()",
+    "Option2": "throw MyException()",
+    "Option3": "raise MyException()",
+    "Option4": "emit MyException()",
+    "Answer": "throw MyException()"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is a 'Unit' type in Kotlin?",
+    "Option1": "A type that represents a single, generic value.",
+    "Option2": "A type that corresponds to the `void` return type in Java, indicating a function returns no meaningful value.",
+    "Option3": "A type for unit testing.",
+    "Option4": "A type for mathematical calculations.",
+    "Answer": "A type that corresponds to the `void` return type in Java, indicating a function returns no meaningful value."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Is `Unit` explicitly returned from functions by default?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it is inferred and doesn't need to be explicitly returned.",
+    "Option3": "Only if the function has no parameters.",
+    "Option4": "Only in suspend functions.",
+    "Answer": "No, it is inferred and doesn't need to be explicitly returned."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'single abstract method (SAM) conversion' in Kotlin?",
+    "Option1": "The ability to convert a lambda expression to an interface or abstract class with exactly one abstract method.",
+    "Option2": "A mechanism for defining abstract methods.",
+    "Option3": "A way to convert an object to a string.",
+    "Option4": "A pattern for functional interfaces.",
+    "Answer": "The ability to convert a lambda expression to an interface or abstract class with exactly one abstract method."
+  },
+  {
+    "question_no.": 136,
+    "Question": "When is SAM conversion applicable in Kotlin?",
+    "Option1": "Only when implementing abstract classes.",
+    "Option2": "For Java interfaces with a single abstract method.",
+    "Option3": "For any Kotlin interface with a single abstract method.",
+    "Option4": "Only for functional interfaces.",
+    "Answer": "For Java interfaces with a single abstract method."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'scope functions' (let, run, with, apply, also) primarily used for?",
+    "Option1": "To define the visibility of variables.",
+    "Option2": "To execute a block of code on an object in a more concise and readable way.",
+    "Option3": "To manage the scope of coroutines.",
+    "Option4": "To create new objects.",
+    "Answer": "To execute a block of code on an object in a more concise and readable way."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which scope function is best for configuring an object immediately after creation?",
+    "Option1": "let",
+    "Option2": "run",
+    "Option3": "apply",
+    "Option4": "with",
+    "Answer": "apply"
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which scope function is best for performing null checks and then executing code if the object is not null?",
+    "Option1": "apply",
+    "Option2": "also",
+    "Option3": "let",
+    "Option4": "run",
+    "Answer": "let"
+  },
+  {
+    "question_no.": 140,
+    "Question": "Which scope function is similar to `apply` but uses `it` instead of `this` inside the lambda?",
+    "Option1": "let",
+    "Option2": "run",
+    "Option3": "with",
+    "Option4": "also",
+    "Answer": "also"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the purpose of the `repeat` function in Kotlin?",
+    "Option1": "To repeat a string multiple times.",
+    "Option2": "To execute a block of code a specified number of times.",
+    "Option3": "To repeat a function call until a condition is met.",
+    "Option4": "To repeat an animation.",
+    "Answer": "To execute a block of code a specified number of times."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you define a function that takes another function as a parameter?",
+    "Option1": "fun execute(action: () -> Unit)",
+    "Option2": "fun execute(action: Function)",
+    "Option3": "fun execute(action: Any)",
+    "Option4": "fun execute(action: Lambda)",
+    "Answer": "fun execute(action: () -> Unit)"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the type of a lambda that takes no parameters and returns an `Int`?",
+    "Option1": "() -> Int",
+    "Option2": "Int -> ()",
+    "Option3": "Unit -> Int",
+    "Option4": "Int",
+    "Answer": "() -> Int"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'delegated properties' in Kotlin?",
+    "Option1": "Properties whose getter and setter logic is delegated to another object (the delegate).",
+    "Option2": "Properties that are always initialized with a default value.",
+    "Option3": "Properties that can be null.",
+    "Option4": "Properties that are part of a data class.",
+    "Answer": "Properties whose getter and setter logic is delegated to another object (the delegate)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which standard delegates are commonly used for delegated properties?",
+    "Option1": "lazy, observable, vetoable",
+    "Option2": "const, lateinit, abstract",
+    "Option3": "private, public, internal",
+    "Option4": "final, open, sealed",
+    "Answer": "lazy, observable, vetoable"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What does `Delegates.observable` do?",
+    "Option1": "Initializes a property only when first accessed.",
+    "Option2": "Allows you to perform an action (callback) every time a property's value changes.",
+    "Option3": "Allows you to intercept and potentially prevent a property's value from changing.",
+    "Option4": "Delegates property access to another object without any callbacks.",
+    "Answer": "Allows you to perform an action (callback) every time a property's value changes."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What does `Delegates.vetoable` do?",
+    "Option1": "Initializes a property only when first accessed.",
+    "Option2": "Allows you to perform an action (callback) every time a property's value changes.",
+    "Option3": "Allows you to intercept and potentially prevent a property's value from changing based on a condition.",
+    "Option4": "Delegates property access to another object without any callbacks.",
+    "Answer": "Allows you to intercept and potentially prevent a property's value from changing based on a condition."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is an 'extension property' in Kotlin?",
+    "Option1": "A property defined within an extension function.",
+    "Option2": "A property that extends the functionality of a class without modifying its source code.",
+    "Option3": "A property that is always immutable.",
+    "Option4": "A property that can be inherited.",
+    "Answer": "A property that extends the functionality of a class without modifying its source code."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Can extension properties have backing fields?",
+    "Option1": "Yes, always.",
+    "Option2": "No, extension properties cannot have backing fields.",
+    "Option3": "Only if they are mutable.",
+    "Option4": "Only if they are nullable.",
+    "Answer": "No, extension properties cannot have backing fields."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'generics' in Kotlin?",
+    "Option1": "A way to define classes that can only work with primitive types.",
+    "Option2": "A feature that allows you to define classes, interfaces, and functions with placeholder types, making them reusable with different data types while maintaining type safety.",
+    "Option3": "A way to convert data types.",
+    "Option4": "A mechanism for dynamic typing.",
+    "Answer": "A feature that allows you to define classes, interfaces, and functions with placeholder types, making them reusable with different data types while maintaining type safety."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the purpose of the `out` variance modifier for generic types?",
+    "Option1": "It means the type parameter can only be used in 'in' positions (as a consumer).",
+    "Option2": "It means the type parameter can only be used in 'out' positions (as a producer), allowing covariant subtyping.",
+    "Option3": "It means the type parameter can be both an 'in' and 'out' position.",
+    "Option4": "It indicates a mutable type parameter.",
+    "Answer": "It means the type parameter can only be used in 'out' positions (as a producer), allowing covariant subtyping."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the purpose of the `in` variance modifier for generic types?",
+    "Option1": "It means the type parameter can only be used in 'out' positions (as a producer).",
+    "Option2": "It means the type parameter can only be used in 'in' positions (as a consumer), allowing contravariant subtyping.",
+    "Option3": "It means the type parameter can be both an 'in' and 'out' position.",
+    "Option4": "It indicates an immutable type parameter.",
+    "Answer": "It means the type parameter can only be used in 'in' positions (as a consumer), allowing contravariant subtyping."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'star projection' in Kotlin generics?",
+    "Option1": "A way to represent a specific type.",
+    "Option2": "A syntax (`<*>`) used when you don't care about the specific generic type arguments, typically for reading operations.",
+    "Option3": "A way to define new generic types.",
+    "Option4": "A mechanism for type inference.",
+    "Answer": "A syntax (`<*>`) used when you don't care about the specific generic type arguments, typically for reading operations."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the primary purpose of using 'inline classes' in Kotlin?",
+    "Option1": "To define classes that are always singleton.",
+    "Option2": "To create a lightweight wrapper around a single value, avoiding runtime overhead by compiling down to the underlying type.",
+    "Option3": "To create classes that can be inherited.",
+    "Option4": "To define abstract data types.",
+    "Answer": "To create a lightweight wrapper around a single value, avoiding runtime overhead by compiling down to the underlying type."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the restriction for inline classes?",
+    "Option1": "They must have multiple properties.",
+    "Option2": "They must have exactly one property in the primary constructor.",
+    "Option3": "They cannot have constructors.",
+    "Option4": "They can only be used for primitive types.",
+    "Answer": "They must have exactly one property in the primary constructor."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'type checking and casts' in Kotlin?",
+    "Option1": "A way to define new data types.",
+    "Option2": "The process of verifying the type of an object and, if necessary, converting it to a different type.",
+    "Option3": "A mechanism for creating anonymous classes.",
+    "Option4": "A method for debugging type errors.",
+    "Answer": "The process of verifying the type of an object and, if necessary, converting it to a different type."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What does the `as` operator do?",
+    "Option1": "Performs a safe cast, returning null on failure.",
+    "Option2": "Performs an unsafe cast, throwing an exception on failure.",
+    "Option3": "Checks if an object is of a certain type.",
+    "Option4": "Converts an object to a string.",
+    "Answer": "Performs an unsafe cast, throwing an exception on failure."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What does the `as?` operator do?",
+    "Option1": "Performs an unsafe cast, throwing an exception on failure.",
+    "Option2": "Performs a safe cast, returning null on failure instead of throwing an exception.",
+    "Option3": "Checks if an object is of a certain type.",
+    "Option4": "Converts an object to a boolean.",
+    "Answer": "Performs a safe cast, returning null on failure instead of throwing an exception."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'exceptions and assertions' in Kotlin?",
+    "Option1": "A way to declare variables.",
+    "Option2": "Mechanisms for handling runtime errors and making assumptions about the program state.",
+    "Option3": "A method for defining loops.",
+    "Option4": "A feature for creating custom data types.",
+    "Answer": "Mechanisms for handling runtime errors and making assumptions about the program state."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the purpose of the `require()` function?",
+    "Option1": "To throw an `IllegalArgumentException` if a condition is false.",
+    "Option2": "To throw an `IllegalStateException` if a condition is false.",
+    "Option3": "To assert that a condition is true for testing purposes.",
+    "Option4": "To define a required parameter.",
+    "Answer": "To throw an `IllegalArgumentException` if a condition is false."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the purpose of the `check()` function?",
+    "Option1": "To throw an `IllegalArgumentException` if a condition is false.",
+    "Option2": "To throw an `IllegalStateException` if a condition is false.",
+    "Option3": "To assert that a condition is true for testing purposes.",
+    "Option4": "To define a check-in point in code.",
+    "Answer": "To throw an `IllegalStateException` if a condition is false."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `runCatching` in Kotlin?",
+    "Option1": "A function that catches all exceptions.",
+    "Option2": "A function that executes a given block and returns its result encapsulated in a `Result` object, catching any exception thrown and returning it as a failure.",
+    "Option3": "A function that only runs if no exceptions occur.",
+    "Option4": "A function that retries a block of code.",
+    "Answer": "A function that executes a given block and returns its result encapsulated in a `Result` object, catching any exception thrown and returning it as a failure."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `Result` class in Kotlin?",
+    "Option1": "A class for storing database query results.",
+    "Option2": "A sealed class representing either a successful value or a failure (exception), promoting explicit error handling.",
+    "Option3": "A class for displaying user interface results.",
+    "Option4": "A class for mathematical calculations.",
+    "Answer": "A sealed class representing either a successful value or a failure (exception), promoting explicit error handling."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is a 'type parameter constraint' in Kotlin generics?",
+    "Option1": "A way to make a generic type nullable.",
+    "Option2": "A way to restrict the types that can be used as arguments for a type parameter (e.g., must extend a certain class or implement an interface).",
+    "Option3": "A way to define multiple type parameters.",
+    "Option4": "A method for type inference.",
+    "Answer": "A way to restrict the types that can be used as arguments for a type parameter (e.g., must extend a certain class or implement an interface)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "How do you define a type parameter `T` that must be a subclass of `Number`?",
+    "Option1": "fun <T> process(value: T) where T : Number",
+    "Option2": "fun <T extends Number> process(value: T)",
+    "Option3": "fun <T : Number> process(value: T)",
+    "Option4": "fun <T of Number> process(value: T)",
+    "Answer": "fun <T : Number> process(value: T)"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the 'return at label' syntax in Kotlin?",
+    "Option1": "Used to return from a nested function.",
+    "Option2": "Used to specify which function or expression a `return` statement should return from, especially in nested lambdas.",
+    "Option3": "Used for error handling.",
+    "Option4": "Used to define loop labels.",
+    "Answer": "Used to specify which function or expression a `return` statement should return from, especially in nested lambdas."
+  },
+  {
+    "question_no.": 167,
+    "Question": "How do you assign a label to a lambda?",
+    "Option1": "label@ { /* code */ }",
+    "Option2": "fun label() { /* code */ }",
+    "Option3": "lambda label = { /* code */ }",
+    "Option4": "{ label -> /* code */ }",
+    "Answer": "label@ { /* code */ }"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the purpose of the `requireNotNull()` function?",
+    "Option1": "To throw an `IllegalArgumentException` if the value is null.",
+    "Option2": "To return the value if not null, otherwise throw an `IllegalStateException`.",
+    "Option3": "To return the value if not null, otherwise throw an `IllegalArgumentException`.",
+    "Option4": "To simply check if a value is not null.",
+    "Answer": "To return the value if not null, otherwise throw an `IllegalArgumentException`."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is the purpose of the `checkNotNull()` function?",
+    "Option1": "To return the value if not null, otherwise throw an `IllegalArgumentException`.",
+    "Option2": "To return the value if not null, otherwise throw an `IllegalStateException`.",
+    "Option3": "To simply check if a value is not null.",
+    "Option4": "To throw a `NullPointerException`.",
+    "Answer": "To return the value if not null, otherwise throw an `IllegalStateException`."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is a 'receiver object' in the context of extension functions and lambdas with receivers?",
+    "Option1": "The object that calls the extension function.",
+    "Option2": "The object on which the extension function is invoked, accessible as `this` inside the function/lambda body.",
+    "Option3": "The object that receives the return value.",
+    "Option4": "Any object that is passed as an argument.",
+    "Answer": "The object on which the extension function is invoked, accessible as `this` inside the function/lambda body."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What does the `field` identifier refer to in a property's custom accessor?",
+    "Option1": "The current value of the property's backing field.",
+    "Option2": "The name of the property.",
+    "Option3": "The type of the property.",
+    "Option4": "The default value of the property.",
+    "Answer": "The current value of the property's backing field."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the main use case for custom getters and setters in Kotlin properties?",
+    "Option1": "To control how the property's value is accessed and modified, allowing for validation, transformation, or computed properties.",
+    "Option2": "To make properties immutable.",
+    "Option3": "To make properties nullable.",
+    "Option4": "To hide properties from external access.",
+    "Answer": "To control how the property's value is accessed and modified, allowing for validation, transformation, or computed properties."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Can a property without a backing field have a custom setter?",
+    "Option1": "Yes, always.",
+    "Option2": "No, a property must have a backing field to have a custom setter.",
+    "Option3": "Only if it's a `val` property.",
+    "Option4": "Only if it's a `lazy` property.",
+    "Answer": "No, a property must have a backing field to have a custom setter."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is a 'backing property' in Kotlin?",
+    "Option1": "A property that backs up data to a database.",
+    "Option2": "A convention where you use a `private` mutable property and a `public` immutable property (or a custom getter) to expose controlled access to data.",
+    "Option3": "A property that is automatically generated.",
+    "Option4": "A property used for storing large amounts of data.",
+    "Answer": "A convention where you use a `private` mutable property and a `public` immutable property (or a custom getter) to expose controlled access to data."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is a 'top-level property' in Kotlin?",
+    "Option1": "A property declared inside a class.",
+    "Option2": "A property declared directly in a Kotlin file, outside any class or object, effectively becoming a static field.",
+    "Option3": "A property that is always a constant.",
+    "Option4": "A property that is only visible to the current module.",
+    "Answer": "A property declared directly in a Kotlin file, outside any class or object, effectively becoming a static field."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the purpose of the `Unit` return type?",
+    "Option1": "It indicates that a function returns a single, non-null value.",
+    "Option2": "It signifies that a function performs an action but doesn't return any meaningful value (similar to `void` in Java).",
+    "Option3": "It's a placeholder for an unknown return type.",
+    "Option4": "It indicates a function that can throw an exception.",
+    "Answer": "It signifies that a function performs an action but doesn't return any meaningful value (similar to `void` in Java)."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What happens if a function explicitly declares `Unit` as its return type?",
+    "Option1": "It means the function must explicitly return `Unit`.",
+    "Option2": "It behaves the same as omitting the return type declaration for functions that don't return a value.",
+    "Option3": "It will throw a compile-time error.",
+    "Option4": "It will return `null` by default.",
+    "Answer": "It behaves the same as omitting the return type declaration for functions that don't return a value."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Nothing` type in Kotlin?",
+    "Option1": "A type that represents the absence of a value.",
+    "Option2": "A special type that has no instances, indicating a function never returns normally (e.g., always throws an exception or enters an infinite loop).",
+    "Option3": "A type for nullable values.",
+    "Option4": "A generic type for any object.",
+    "Answer": "A special type that has no instances, indicating a function never returns normally (e.g., always throws an exception or enters an infinite loop)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "When would you typically use `Nothing` as a return type?",
+    "Option1": "For functions that return a `Unit`.",
+    "Option2": "For functions that always throw an exception or terminate the program.",
+    "Option3": "For functions that return `null`.",
+    "Option4": "For functions that return an empty collection.",
+    "Answer": "For functions that always throw an exception or terminate the program."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Array<T>` in Kotlin?",
+    "Option1": "A fixed-size array where `T` can be any type.",
+    "Option2": "A dynamic list that can grow or shrink.",
+    "Option3": "A collection of key-value pairs.",
+    "Option4": "A specialized array for primitive types.",
+    "Answer": "A fixed-size array where `T` can be any type."
+  },
+  {
+    "question_no.": 181,
+    "Question": "How do you create an array of integers in Kotlin?",
+    "Option1": "val arr = intArrayOf(1, 2, 3)",
+    "Option2": "val arr = arrayOf(1, 2, 3)",
+    "Option3": "Both A and B are valid, but `intArrayOf` is for primitive `Int` arrays.",
+    "Option4": "val arr = new int[3]",
+    "Answer": "Both A and B are valid, but `intArrayOf` is for primitive `Int` arrays."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What are 'inline classes' (formerly 'value classes') designed to optimize?",
+    "Option1": "Memory usage by avoiding boxing overhead for simple wrappers.",
+    "Option2": "CPU performance by always inlining their methods.",
+    "Option3": "Network latency.",
+    "Option4": "Disk I/O operations.",
+    "Answer": "Memory usage by avoiding boxing overhead for simple wrappers."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is the requirement for a class to be an inline class?",
+    "Option1": "It must be an abstract class.",
+    "Option2": "It must have exactly one property in its primary constructor, and that property must be a `val`.",
+    "Option3": "It must implement a specific interface.",
+    "Option4": "It must be a `data class`.",
+    "Answer": "It must have exactly one property in its primary constructor, and that property must be a `val`."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'annotation processing' in Kotlin?",
+    "Option1": "A way to add comments to code.",
+    "Option2": "A mechanism for generating code at compile time based on annotations in the source code.",
+    "Option3": "A process of interpreting annotations at runtime.",
+    "Option4": "A tool for debugging annotations.",
+    "Answer": "A mechanism for generating code at compile time based on annotations in the source code."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is KAPT in Kotlin?",
+    "Option1": "Kotlin Annotation Processing Tool, which allows running Java annotation processors on Kotlin code.",
+    "Option2": "Kotlin Abstract Programming Tool.",
+    "Option3": "Kotlin Asynchronous Processing Tool.",
+    "Option4": "Kotlin Advanced Project Tool.",
+    "Answer": "Kotlin Annotation Processing Tool, which allows running Java annotation processors on Kotlin code."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Kotlin Multiplatform Mobile (KMM)'?",
+    "Option1": "A framework for building Android-only applications.",
+    "Option2": "A technology for sharing code (logic, business rules, data models) between Android and iOS applications.",
+    "Option3": "A tool for converting iOS apps to Android.",
+    "Option4": "A library for game development.",
+    "Answer": "A technology for sharing code (logic, business rules, data models) between Android and iOS applications."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is the common set of code shared in KMM?",
+    "Option1": "UI and logic.",
+    "Option2": "Platform-specific UI (Android Views/Compose, iOS UIKit/SwiftUI) and common business logic.",
+    "Option3": "Only UI code.",
+    "Option4": "Only database access.",
+    "Answer": "Platform-specific UI (Android Views/Compose, iOS UIKit/SwiftUI) and common business logic."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'expect/actual' mechanism in Kotlin Multiplatform?",
+    "Option1": "A way to define abstract classes.",
+    "Option2": "A mechanism to define common (expected) declarations in shared code and platform-specific (actual) implementations in platform modules.",
+    "Option3": "A way to handle exceptions.",
+    "Option4": "A method for type checking.",
+    "Answer": "A mechanism to define common (expected) declarations in shared code and platform-specific (actual) implementations in platform modules."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Kotlin/JS'?",
+    "Option1": "A framework for server-side development with Kotlin.",
+    "Option2": "A Kotlin target that compiles Kotlin code to JavaScript, allowing it to run in browsers and Node.js.",
+    "Option3": "A library for reactive programming.",
+    "Option4": "A tool for transpiling JavaScript to Kotlin.",
+    "Answer": "A Kotlin target that compiles Kotlin code to JavaScript, allowing it to run in browsers and Node.js."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Kotlin/Native'?",
+    "Option1": "A Kotlin target that compiles Kotlin code directly to native binaries (e.g., for iOS, macOS, Linux, WebAssembly), without requiring a JVM.",
+    "Option2": "A library for interacting with native C/C++ code.",
+    "Option3": "A framework for building cross-platform UIs.",
+    "Option4": "A tool for generating native Android code.",
+    "Answer": "A Kotlin target that compiles Kotlin code directly to native binaries (e.g., for iOS, macOS, Linux, WebAssembly), without requiring a JVM."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which type of Kotlin compilation target is suitable for command-line tools and server-side applications without a JVM dependency?",
+    "Option1": "Kotlin/JS",
+    "Option2": "Kotlin/JVM",
+    "Option3": "Kotlin/Native",
+    "Option4": "Kotlin/Android",
+    "Answer": "Kotlin/Native"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is a 'resource' in the context of Android development with Kotlin?",
+    "Option1": "A file that contains Kotlin source code.",
+    "Option2": "External files (like layouts, strings, images, drawables, etc.) that are separated from the application's code.",
+    "Option3": "A class that manages memory.",
+    "Option4": "A network connection.",
+    "Answer": "External files (like layouts, strings, images, drawables, etc.) that are separated from the application's code."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the purpose of `Android KTX`?",
+    "Option1": "A set of Kotlin extensions for Android development, making Android APIs more concise and idiomatic Kotlin.",
+    "Option2": "A new Android SDK version.",
+    "Option3": "A tool for migrating Java code to Kotlin.",
+    "Option4": "A library for server-side Android development.",
+    "Answer": "A set of Kotlin extensions for Android development, making Android APIs more concise and idiomatic Kotlin."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'View Binding' in Android with Kotlin?",
+    "Option1": "A way to manually find views by ID.",
+    "Option2": "A feature that generates a binding class for each XML layout file, allowing direct access to views without `findViewById`.",
+    "Option3": "A method for animating views.",
+    "Option4": "A way to store view state.",
+    "Answer": "A feature that generates a binding class for each XML layout file, allowing direct access to views without `findViewById`."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the main advantage of View Binding over `findViewById`?",
+    "Option1": "It's faster at runtime.",
+    "Option2": "Type safety and null safety at compile time, eliminating `NullPointerException`s and type casting errors.",
+    "Option3": "It uses less memory.",
+    "Option4": "It only works with Kotlin.",
+    "Answer": "Type safety and null safety at compile time, eliminating `NullPointerException`s and type casting errors."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Data Binding' in Android with Kotlin?",
+    "Option1": "A feature that allows binding UI components in layouts to data sources using a declarative format.",
+    "Option2": "A tool for storing data in a database.",
+    "Option3": "A method for animating data.",
+    "Option4": "A way to transfer data between activities.",
+    "Answer": "A feature that allows binding UI components in layouts to data sources using a declarative format."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the key difference between View Binding and Data Binding?",
+    "Option1": "View Binding is for simple view access, Data Binding allows direct data-to-UI binding and two-way binding.",
+    "Option2": "View Binding is for XML layouts, Data Binding is for Kotlin code.",
+    "Option3": "View Binding is faster, Data Binding is slower.",
+    "Option4": "There is no difference.",
+    "Answer": "View Binding is for simple view access, Data Binding allows direct data-to-UI binding and two-way binding."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Kotlin DSL' for Gradle?",
+    "Option1": "A way to write Gradle build scripts in Java.",
+    "Option2": "A Domain-Specific Language for Gradle build scripts written in Kotlin, offering better IDE support and type safety.",
+    "Option3": "A tool for generating Gradle build files.",
+    "Option4": "A library for unit testing Gradle builds.",
+    "Answer": "A Domain-Specific Language for Gradle build scripts written in Kotlin, offering better IDE support and type safety."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Android Jetpack Compose' with Kotlin?",
+    "Option1": "A traditional XML-based UI toolkit for Android.",
+    "Option2": "A modern declarative UI toolkit for Android, built with Kotlin, that simplifies UI development.",
+    "Option3": "A library for network requests.",
+    "Option4": "A framework for backend development on Android.",
+    "Answer": "A modern declarative UI toolkit for Android, built with Kotlin, that simplifies UI development."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the main paradigm shift when moving from XML layouts to Jetpack Compose?",
+    "Option1": "From imperative (modifying views) to declarative (describing UI state).",
+    "Option2": "From declarative to imperative.",
+    "Option3": "From Java to Kotlin.",
+    "Option4": "From single-threaded to multi-threaded UI.",
+    "Answer": "From imperative (modifying views) to declarative (describing UI state)."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the purpose of the `@Composable` annotation in Jetpack Compose?",
+    "Option1": "To mark a function as a regular Kotlin function.",
+    "Option2": "To mark a function that can emit UI elements and participate in the composition, allowing it to be called from other composable functions.",
+    "Option3": "To indicate a function that performs background tasks.",
+    "Option4": "To denote a function that returns a layout.",
+    "Answer": "To mark a function that can emit UI elements and participate in the composition, allowing it to be called from other composable functions."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'recomposition' in Jetpack Compose?",
+    "Option1": "The process of saving and restoring activity state.",
+    "Option2": "The process of re-executing composable functions when their inputs change, leading to UI updates.",
+    "Option3": "The process of compiling Compose code.",
+    "Option4": "The process of converting XML layouts to Compose.",
+    "Answer": "The process of re-executing composable functions when their inputs change, leading to UI updates."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is a 'State' in Jetpack Compose?",
+    "Option1": "A variable that holds a static value.",
+    "Option2": "An observable holder for a value that, when changed, triggers recomposition of any composable functions reading it.",
+    "Option3": "A class for managing database connections.",
+    "Option4": "A lifecycle event in an Android Activity.",
+    "Answer": "An observable holder for a value that, when changed, triggers recomposition of any composable functions reading it."
+  },
+  {
+    "question_no.": 204,
+    "Question": "How do you declare a mutable state variable in a composable function?",
+    "Option1": "val count = 0",
+    "Option2": "var count by remember { mutableStateOf(0) }",
+    "Option3": "val count = LiveData<Int>(0)",
+    "Option4": "var count = 0.state()",
+    "Answer": "var count by remember { mutableStateOf(0) }"
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is the `remember` function used for in Jetpack Compose?",
+    "Option1": "To store data in a persistent database.",
+    "Option2": "To cache a value across recompositions, preventing it from being recomputed or re-initialized unnecessarily.",
+    "Option3": "To remember user preferences.",
+    "Option4": "To remember the last executed function.",
+    "Answer": "To cache a value across recompositions, preventing it from being recomputed or re-initialized unnecessarily."
+  },
+  {
+    "question_no.": 206,
+    "Question": "What is 'MutableState' in Jetpack Compose?",
+    "Option1": "An immutable state holder.",
+    "Option2": "A type provided by Compose that holds a single mutable value, and automatically triggers recomposition when its value changes.",
+    "Option3": "A state that can only be changed once.",
+    "Option4": "A state that is always read-only.",
+    "Answer": "A type provided by Compose that holds a single mutable value, and automatically triggers recomposition when its value changes."
+  },
+  {
+    "question_no.": 207,
+    "Question": "What is the purpose of `ViewModel` in Android Architecture Components with Kotlin?",
+    "Option1": "To manage UI elements directly.",
+    "Option2": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes.",
+    "Option3": "To handle network requests.",
+    "Option4": "To manage database operations.",
+    "Answer": "To store and manage UI-related data in a lifecycle-conscious way, surviving configuration changes."
+  },
+  {
+    "question_no.": 208,
+    "Question": "What is `LiveData` in Android Architecture Components with Kotlin?",
+    "Option1": "A static data container.",
+    "Option2": "An observable data holder that is lifecycle-aware, meaning it respects the lifecycle of app components (activities, fragments, services).",
+    "Option3": "A class for performing background operations.",
+    "Option4": "A mechanism for data serialization.",
+    "Answer": "An observable data holder that is lifecycle-aware, meaning it respects the lifecycle of app components (activities, fragments, services)."
+  },
+  {
+    "question_no.": 209,
+    "Question": "What is the main benefit of `LiveData`?",
+    "Option1": "It makes data immutable.",
+    "Option2": "It automatically updates UI components when data changes, and prevents memory leaks by stopping observations when the lifecycle owner is destroyed.",
+    "Option3": "It improves network performance.",
+    "Option4": "It simplifies database queries.",
+    "Answer": "It automatically updates UI components when data changes, and prevents memory leaks by stopping observations when the lifecycle owner is destroyed."
+  },
+  {
+    "question_no.": 210,
+    "Question": "What is 'Flow' in Kotlin Coroutines?",
+    "Option1": "A type of data stream for synchronous data.",
+    "Option2": "A type that represents an asynchronous stream of data that can emit multiple values over time.",
+    "Option3": "A class for managing single events.",
+    "Option4": "A way to define sequential operations.",
+    "Answer": "A type that represents an asynchronous stream of data that can emit multiple values over time."
+  },
+  {
+    "question_no.": 211,
+    "Question": "How does `Flow` differ from `LiveData`?",
+    "Option1": "Flow is only for UI, LiveData is for background tasks.",
+    "Option2": "Flow is cold and stateless (by default), LiveData is hot and lifecycle-aware.",
+    "Option3": "Flow is synchronous, LiveData is asynchronous.",
+    "Option4": "There is no difference.",
+    "Answer": "Flow is cold and stateless (by default), LiveData is hot and lifecycle-aware."
+  },
+  {
+    "question_no.": 212,
+    "Question": "What is the purpose of the `collect` terminal operator on a Flow?",
+    "Option1": "To filter elements from the Flow.",
+    "Option2": "To start collecting emitted values from the Flow, triggering its execution.",
+    "Option3": "To transform values in the Flow.",
+    "Option4": "To convert the Flow to a List.",
+    "Answer": "To start collecting emitted values from the Flow, triggering its execution."
+  },
+  {
+    "question_no.": 213,
+    "Question": "What is `StateFlow` in Kotlin Coroutines?",
+    "Option1": "A mutable version of `Flow` that represents a stateful hot stream, always emitting the current value to new collectors.",
+    "Option2": "An immutable version of `Flow`.",
+    "Option3": "A Flow that only emits a single value.",
+    "Option4": "A Flow specifically for UI state management.",
+    "Answer": "A mutable version of `Flow` that represents a stateful hot stream, always emitting the current value to new collectors."
+  },
+  {
+    "question_no.": 214,
+    "Question": "What is `SharedFlow` in Kotlin Coroutines?",
+    "Option1": "A Flow that shares its emissions with multiple collectors, potentially without buffering.",
+    "Option2": "A Flow that only has one collector.",
+    "Option3": "A Flow that is only used for background tasks.",
+    "Option4": "A Flow that caches all its emissions.",
+    "Answer": "A Flow that shares its emissions with multiple collectors, potentially without buffering."
+  },
+  {
+    "question_no.": 215,
+    "Question": "What is the purpose of `Repository` pattern in Android architecture?",
+    "Option1": "To manage UI components.",
+    "Option2": "To abstract the data sources (network, database, cache) and provide a clean API for the `ViewModel` to interact with data.",
+    "Option3": "To handle user input.",
+    "Option4": "To store application preferences.",
+    "Answer": "To abstract the data sources (network, database, cache) and provide a clean API for the `ViewModel` to interact with data."
+  }
+]

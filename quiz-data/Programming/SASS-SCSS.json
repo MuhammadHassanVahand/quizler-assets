@@ -1,0 +1,1846 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does SASS stand for?",
+    "Option1": "Simple Agile Style Sheets",
+    "Option2": "Syntactically Awesome Style Sheets",
+    "Option3": "Standard Advanced Styling System",
+    "Option4": "Structured Abstract Style Syntax",
+    "Answer": "Syntactically Awesome Style Sheets"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the main purpose of SASS/SCSS?",
+    "Option1": "To create interactive web pages.",
+    "Option2": "To extend CSS with programming features, making stylesheets more maintainable and powerful.",
+    "Option3": "To manage server-side logic for web applications.",
+    "Option4": "To optimize image loading on websites.",
+    "Answer": "To extend CSS with programming features, making stylesheets more maintainable and powerful."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the difference between SASS and SCSS syntax?",
+    "Option1": "SASS uses curly braces and semicolons, SCSS uses indentation.",
+    "Option2": "SASS is an older version of SCSS.",
+    "Option3": "SASS uses indentation and no semicolons/curly braces, SCSS is a CSS-compatible syntax using curly braces and semicolons.",
+    "Option4": "SCSS is deprecated, SASS is the current standard.",
+    "Answer": "SASS uses indentation and no semicolons/curly braces, SCSS is a CSS-compatible syntax using curly braces and semicolons."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What file extension is typically used for SASS files?",
+    "Option1": ".css",
+    "Option2": ".sass",
+    "Option3": ".scss",
+    "Option4": ".less",
+    "Answer": ".sass"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What file extension is typically used for SCSS files?",
+    "Option1": ".css",
+    "Option2": ".sass",
+    "Option3": ".scss",
+    "Option4": ".less",
+    "Answer": ".scss"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is 'nesting' in SASS/SCSS?",
+    "Option1": "Embedding JavaScript code within CSS.",
+    "Option2": "Writing CSS selectors inside other selectors, mirroring the HTML structure for better organization.",
+    "Option3": "Creating multiple CSS files for different sections of a website.",
+    "Option4": "Using media queries to apply styles conditionally.",
+    "Answer": "Writing CSS selectors inside other selectors, mirroring the HTML structure for better organization."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the purpose of the '&' operator in SCSS nesting?",
+    "Option1": "To combine two different selectors with a space.",
+    "Option2": "To refer to the parent selector, useful for pseudo-classes, pseudo-elements, and concatenated selectors.",
+    "Option3": "To separate multiple declarations in a single line.",
+    "Option4": "To create a new variable.",
+    "Answer": "To refer to the parent selector, useful for pseudo-classes, pseudo-elements, and concatenated selectors."
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you declare a variable in SCSS?",
+    "Option1": "var-name: value;",
+    "Option2": "$var-name: value;",
+    "Option3": "@var-name: value;",
+    "Option4": "#var-name = value;",
+    "Answer": "$var-name: value;"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the scope of variables in SCSS?",
+    "Option1": "Always global.",
+    "Option2": "Block-scoped (local to the selector block where they are defined), but can be made global using `!global`.",
+    "Option3": "Function-scoped only.",
+    "Option4": "File-scoped only.",
+    "Answer": "Block-scoped (local to the selector block where they are defined), but can be made global using `!global`."
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'mixin' in SASS/SCSS?",
+    "Option1": "A way to define global variables.",
+    "Option2": "A way to group CSS declarations that you want to reuse throughout your stylesheet, often accepting arguments for flexibility.",
+    "Option3": "A function that returns a single CSS value.",
+    "Option4": "A method for importing external stylesheets.",
+    "Answer": "A way to group CSS declarations that you want to reuse throughout your stylesheet, often accepting arguments for flexibility."
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you define a mixin in SCSS?",
+    "Option1": "function my-mixin() { ... }",
+    "Option2": "@mixin my-mixin() { ... }",
+    "Option3": "def my-mixin: ...",
+    "Option4": "mixin my-mixin { ... }",
+    "Answer": "@mixin my-mixin() { ... }"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you include a mixin in SCSS?",
+    "Option1": "call my-mixin();",
+    "Option2": "include my-mixin;",
+    "Option3": "@include my-mixin();",
+    "Option4": "use my-mixin;",
+    "Answer": "@include my-mixin();"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is an 'argument' in the context of mixins?",
+    "Option1": "A specific CSS property name.",
+    "Option2": "A value passed to a mixin to make it more dynamic and reusable.",
+    "Option3": "A comment within the mixin.",
+    "Option4": "The name of the mixin itself.",
+    "Answer": "A value passed to a mixin to make it more dynamic and reusable."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is an 'extend' (or `@extend`) in SASS/SCSS?",
+    "Option1": "To import external CSS files.",
+    "Option2": "To share a set of CSS properties from one selector to another without duplicating the code, creating a more efficient and DRY stylesheet.",
+    "Option3": "To create new CSS properties.",
+    "Option4": "To define a new function.",
+    "Answer": "To share a set of CSS properties from one selector to another without duplicating the code, creating a more efficient and DRY stylesheet."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the main difference between a mixin and an extend?",
+    "Option1": "Mixins are compiled into separate CSS, extends are not.",
+    "Option2": "Mixins duplicate CSS output, extends group selectors for shared rules, reducing CSS size and improving maintainability for common styles.",
+    "Option3": "Mixins only accept arguments, extends do not.",
+    "Option4": "Extends are faster to compile than mixins.",
+    "Answer": "Mixins duplicate CSS output, extends group selectors for shared rules, reducing CSS size and improving maintainability for common styles."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'placeholder selector' in SCSS?",
+    "Option1": "A regular CSS class.",
+    "Option2": "A special type of selector (starting with `%`) that is only used with `@extend` and does not output any CSS on its own.",
+    "Option3": "A selector for styling input fields.",
+    "Option4": "A selector that applies to all elements.",
+    "Answer": "A special type of selector (starting with `%`) that is only used with `@extend` and does not output any CSS on its own."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'importing' (`@import`) in SASS/SCSS?",
+    "Option1": "To import external JavaScript files.",
+    "Option2": "To include styles from other SCSS/SASS files, allowing for modularization of stylesheets.",
+    "Option3": "To include images into CSS.",
+    "Option4": "To fetch data from an API.",
+    "Answer": "To include styles from other SCSS/SASS files, allowing for modularization of stylesheets."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the advantage of using `@import` in SASS/SCSS over standard CSS `@import`?",
+    "Option1": "It works faster in browsers.",
+    "Option2": "SASS/SCSS `@import` compiles all imported files into a single CSS output file, avoiding multiple HTTP requests that standard CSS `@import` generates.",
+    "Option3": "It supports different file types.",
+    "Option4": "It allows for conditional imports.",
+    "Answer": "SASS/SCSS `@import` compiles all imported files into a single CSS output file, avoiding multiple HTTP requests that standard CSS `@import` generates."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a 'partial' in SASS/SCSS?",
+    "Option1": "A full, standalone SCSS file.",
+    "Option2": "An SCSS file (starting with `_`) that is meant to be imported into other SCSS files and does not get compiled into its own CSS file.",
+    "Option3": "A file containing only variables.",
+    "Option4": "A file that is ignored by the compiler.",
+    "Answer": "An SCSS file (starting with `_`) that is meant to be imported into other SCSS files and does not get compiled into its own CSS file."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'function' in SASS/SCSS?",
+    "Option1": "A block of CSS declarations.",
+    "Option2": "A reusable piece of code that takes arguments, performs calculations, and returns a single CSS value (e.g., color manipulation, mathematical operations).",
+    "Option3": "A way to define a mixin.",
+    "Option4": "A method for including external files.",
+    "Answer": "A reusable piece of code that takes arguments, performs calculations, and returns a single CSS value (e.g., color manipulation, mathematical operations)."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you define a function in SCSS?",
+    "Option1": "@function my-function() { ... }",
+    "Option2": "function my-function() { ... }",
+    "Option3": "def my-function() { ... }",
+    "Option4": "fn my-function() { ... }",
+    "Answer": "@function my-function() { ... }"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you use a function in SCSS?",
+    "Option1": "call my-function();",
+    "Option2": "my-function();",
+    "Option3": "property: my-function();",
+    "Option4": "@use my-function();",
+    "Answer": "property: my-function();"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the difference between a mixin and a function?",
+    "Option1": "Mixins return values, functions output CSS declarations.",
+    "Option2": "Mixins output CSS declarations, functions return a single value.",
+    "Option3": "Mixins can't take arguments, functions can.",
+    "Option4": "Functions are deprecated, mixins are preferred.",
+    "Answer": "Mixins output CSS declarations, functions return a single value."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'Control Directives' in SASS/SCSS?",
+    "Option1": "Directives for including external libraries.",
+    "Option2": "Flow control statements like `@if`, `@else`, `@for`, `@each`, and `@while` that allow for conditional logic and iteration within stylesheets.",
+    "Option3": "Directives for defining global styles.",
+    "Option4": "Directives for compressing CSS output.",
+    "Answer": "Flow control statements like `@if`, `@else`, `@for`, `@each`, and `@while` that allow for conditional logic and iteration within stylesheets."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you write an `if` statement in SCSS?",
+    "Option1": "if ($condition) { ... }",
+    "Option2": "@if $condition { ... }",
+    "Option3": "if ($condition): ...",
+    "Option4": "@conditional $condition { ... }",
+    "Answer": "@if $condition { ... }"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you write a `for` loop in SCSS?",
+    "Option1": "for $i from 1 through 10 { ... }",
+    "Option2": "@for $i from 1 through 10 { ... }",
+    "Option3": "loop $i from 1 to 10 { ... }",
+    "Option4": "@iterate $i from 1 to 10 { ... }",
+    "Answer": "@for $i from 1 through 10 { ... }"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you write an `each` loop in SCSS?",
+    "Option1": "each $item in $list { ... }",
+    "Option2": "@each $item in $list { ... }",
+    "Option3": "for item of $list { ... }",
+    "Option4": "@loop $item over $list { ... }",
+    "Answer": "@each $item in $list { ... }"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'interpolation' (`#{}`) in SASS/SCSS?",
+    "Option1": "A way to comment out code.",
+    "Option2": "A feature that allows you to embed SCSS expressions (variables, functions, mixins) directly into CSS property names, selectors, or URL paths.",
+    "Option3": "A method for combining strings.",
+    "Option4": "A way to define new variables.",
+    "Answer": "A feature that allows you to embed SCSS expressions (variables, functions, mixins) directly into CSS property names, selectors, or URL paths."
+  },
+  {
+    "question_no.": 29,
+    "Question": "When is interpolation most useful?",
+    "Option1": "When defining basic CSS properties.",
+    "Option2": "When dynamically generating selector names, property names, or values that require combining SCSS variables or expressions with strings.",
+    "Option3": "When working with fixed values.",
+    "Option4": "When writing comments.",
+    "Answer": "When dynamically generating selector names, property names, or values that require combining SCSS variables or expressions with strings."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'map' in SCSS?",
+    "Option1": "A list of numbers.",
+    "Option2": "A key-value data structure, similar to JavaScript objects or Python dictionaries, used for storing related data.",
+    "Option3": "A way to define functions.",
+    "Option4": "A spatial representation of elements.",
+    "Answer": "A key-value data structure, similar to JavaScript objects or Python dictionaries, used for storing related data."
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you define a map in SCSS?",
+    "Option1": "$map: (key1: value1, key2: value2);",
+    "Option2": "$map = {key1: value1, key2: value2};",
+    "Option3": "map $map { key1: value1; key2: value2; }",
+    "Option4": "var $map = new Map();",
+    "Answer": "$map: (key1: value1, key2: value2);"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you access a value from a map in SCSS?",
+    "Option1": "map-get($map, key);",
+    "Option2": "$map[key];",
+    "Option3": "$map.key;",
+    "Option4": "get-map($map, key);",
+    "Answer": "map-get($map, key);"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is a 'list' in SCSS?",
+    "Option1": "A single CSS value.",
+    "Option2": "A collection of values, similar to arrays in other programming languages, often used for multiple values for a single property.",
+    "Option3": "A list of CSS properties.",
+    "Option4": "A list of functions.",
+    "Answer": "A collection of values, similar to arrays in other programming languages, often used for multiple values for a single property."
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you define a list in SCSS?",
+    "Option1": "$list: 'item1', 'item2', 'item3';",
+    "Option2": "$list = ['item1', 'item2', 'item3'];",
+    "Option3": "list $list { 'item1', 'item2', 'item3' }",
+    "Option4": "var $list = ['item1', 'item2', 'item3'];",
+    "Answer": "$list: 'item1', 'item2', 'item3';"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you access an item from a list in SCSS?",
+    "Option1": "list-get($list, index);",
+    "Option2": "$list[index];",
+    "Option3": "nth($list, index);",
+    "Option4": "$list.at(index);",
+    "Answer": "nth($list, index);"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'operators' in SASS/SCSS?",
+    "Option1": "Only arithmetic operators.",
+    "Option2": "Mathematical operators (+, -, *, /), comparison operators (==, !=, >, <), and logical operators (and, or, not) for performing calculations and conditional checks.",
+    "Option3": "Only assignment operators.",
+    "Option4": "Operators for string concatenation only.",
+    "Answer": "Mathematical operators (+, -, *, /), comparison operators (==, !=, >, <), and logical operators (and, or, not) for performing calculations and conditional checks."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'modules' (`@use`) in SASS/SCSS?",
+    "Option1": "A way to import entire libraries without control.",
+    "Option2": "A newer, more explicit way to load Sass files and use their variables, functions, and mixins, providing better encapsulation and preventing global namespace pollution.",
+    "Option3": "A way to define global variables.",
+    "Option4": "A method for compiling CSS.",
+    "Answer": "A newer, more explicit way to load Sass files and use their variables, functions, and mixins, providing better encapsulation and preventing global namespace pollution."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the main difference between `@import` and `@use`?",
+    "Option1": "`@import` is newer and better.",
+    "Option2": "`@use` brings members into a namespace and is more explicit and safer; `@import` makes everything global and is being deprecated.",
+    "Option3": "`@use` works only with mixins, `@import` with variables.",
+    "Option4": "They are functionally identical.",
+    "Answer": "`@use` brings members into a namespace and is more explicit and safer; `@import` makes everything global and is being deprecated."
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you use a file as a module using `@use`?",
+    "Option1": "@use 'filename';",
+    "Option2": "@import 'filename';",
+    "Option3": "use filename;",
+    "Option4": "module filename;",
+    "Answer": "@use 'filename';"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you refer to a variable from an `@use`'d module (e.g., from `_variables.scss`)?",
+    "Option1": "$variable-name;",
+    "Option2": "variables.$variable-name;",
+    "Option3": "use-variables.$variable-name;",
+    "Option4": "::variables-variable-name;",
+    "Answer": "variables.$variable-name;"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'configuration' (`@forward`) in SASS/SCSS modules?",
+    "Option1": "For setting global compiler options.",
+    "Option2": "Allows a module to expose members from another module, acting as an intermediary to create a public API for your library or theme.",
+    "Option3": "For defining default values for variables.",
+    "Option4": "For controlling the output format of CSS.",
+    "Answer": "Allows a module to expose members from another module, acting as an intermediary to create a public API for your library or theme."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Parent Selector' (`&`) in SCSS?",
+    "Option1": "Selects the root HTML element.",
+    "Option2": "Refers to the selector of the rule that the current block is nested within, allowing for more concise and context-aware styling.",
+    "Option3": "Selects all direct children of an element.",
+    "Option4": "Selects elements based on their ID.",
+    "Answer": "Refers to the selector of the rule that the current block is nested within, allowing for more concise and context-aware styling."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Give an example of using the parent selector for pseudo-classes.",
+    "Option1": "a { color: blue; &:hover { color: red; } }",
+    "Option2": "a:hover { color: red; }",
+    "Option3": "a { hover { color: red; } }",
+    "Option4": "hover a { color: red; }",
+    "Answer": "a { color: blue; &:hover { color: red; } }"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Math Functions' in SASS/SCSS?",
+    "Option1": "Only basic addition and subtraction.",
+    "Option2": "Built-in functions for common mathematical operations like `round()`, `ceil()`, `floor()`, `abs()`, `min()`, `max()`, and trigonometric functions.",
+    "Option3": "Only functions for random number generation.",
+    "Option4": "Functions for converting units only.",
+    "Answer": "Built-in functions for common mathematical operations like `round()`, `ceil()`, `floor()`, `abs()`, `min()`, `max()`, and trigonometric functions."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Color Functions' in SASS/SCSS?",
+    "Option1": "Functions for defining colors using hex codes only.",
+    "Option2": "Functions for manipulating colors, such as `lighten()`, `darken()`, `saturate()`, `desaturate()`, `fade-in()`, `mix()`, etc.",
+    "Option3": "Functions for detecting color blindness.",
+    "Option4": "Functions for generating random colors.",
+    "Answer": "Functions for manipulating colors, such as `lighten()`, `darken()`, `saturate()`, `desaturate()`, `fade-in()`, `mix()`, etc."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What does the `lighten()` function do?",
+    "Option1": "Makes a color darker.",
+    "Option2": "Makes a color lighter by a given percentage.",
+    "Option3": "Changes the hue of a color.",
+    "Option4": "Adds transparency to a color.",
+    "Answer": "Makes a color lighter by a given percentage."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What does the `mix()` function do?",
+    "Option1": "Blends two colors together by a given ratio.",
+    "Option2": "Randomly selects a color from a list.",
+    "Option3": "Converts a color to grayscale.",
+    "Option4": "Removes transparency from a color.",
+    "Answer": "Blends two colors together by a given ratio."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'String Functions' in SASS/SCSS?",
+    "Option1": "Functions for creating text content.",
+    "Option2": "Functions for manipulating strings, such as `str-length()`, `str-insert()`, `str-slice()`, `to-upper-case()`, and `to-lower-case()`.",
+    "Option3": "Functions for defining font families.",
+    "Option4": "Functions for checking if a string is empty.",
+    "Answer": "Functions for manipulating strings, such as `str-length()`, `str-insert()`, `str-slice()`, `to-upper-case()`, and `to-lower-case()`."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'List Functions' in SASS/SCSS?",
+    "Option1": "Functions for creating lists only.",
+    "Option2": "Functions for manipulating lists, such as `length()`, `nth()`, `join()`, `append()`, and `zip()`.",
+    "Option3": "Functions for sorting lists alphabetically.",
+    "Option4": "Functions for converting lists to maps.",
+    "Answer": "Functions for manipulating lists, such as `length()`, `nth()`, `join()`, `append()`, and `zip()`."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Map Functions' in SASS/SCSS?",
+    "Option1": "Functions for drawing maps.",
+    "Option2": "Functions for manipulating maps, such as `map-get()`, `map-merge()`, `map-keys()`, `map-values()`, and `map-has-key()`.",
+    "Option3": "Functions for converting maps to lists.",
+    "Option4": "Functions for checking if a map is empty.",
+    "Answer": "Functions for manipulating maps, such as `map-get()`, `map-merge()`, `map-keys()`, `map-values()`, and `map-has-key()`."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Output Style' in SASS/SCSS compilation?",
+    "Option1": "The number of CSS files generated.",
+    "Option2": "The formatting of the compiled CSS output (e.g., `nested`, `expanded`, `compact`, `compressed`).",
+    "Option3": "The color scheme of the generated CSS.",
+    "Option4": "The name of the output file.",
+    "Answer": "The formatting of the compiled CSS output (e.g., `nested`, `expanded`, `compact`, `compressed`)."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which output style is best for production environments?",
+    "Option1": "Nested",
+    "Option2": "Expanded",
+    "Option3": "Compact",
+    "Option4": "Compressed",
+    "Answer": "Compressed"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Source Maps' in SASS/SCSS?",
+    "Option1": "Maps for locating source code files on a server.",
+    "Option2": "Files that map the compiled CSS back to its original SCSS/SASS source, making debugging in browser developer tools easier.",
+    "Option3": "Files that contain the compiled CSS.",
+    "Option4": "Files that define global variables.",
+    "Answer": "Files that map the compiled CSS back to its original SCSS/SASS source, making debugging in browser developer tools easier."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Why are source maps useful for debugging?",
+    "Option1": "They show the final CSS output.",
+    "Option2": "They allow you to see the original SCSS/SASS lines in your browser's developer tools, rather than the compiled CSS, making it easier to pinpoint issues.",
+    "Option3": "They highlight syntax errors.",
+    "Option4": "They indicate compilation time.",
+    "Answer": "They allow you to see the original SCSS/SASS lines in your browser's developer tools, rather than the compiled CSS, making it easier to pinpoint issues."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the command to compile a SCSS file to CSS using the Sass CLI?",
+    "Option1": "sass input.scss output.css",
+    "Option2": "scss input.scss output.css",
+    "Option3": "compile input.scss output.css",
+    "Option4": "sass-compile input.scss output.css",
+    "Answer": "sass input.scss output.css"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'watching' a directory in Sass CLI?",
+    "Option1": "Monitoring file changes and automatically recompiling SCSS files to CSS.",
+    "Option2": "Opening a directory in the browser.",
+    "Option3": "Logging all changes made to SCSS files.",
+    "Option4": "Creating a backup of SCSS files.",
+    "Answer": "Monitoring file changes and automatically recompiling SCSS files to CSS."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the command to watch a directory for changes?",
+    "Option1": "sass --watch input/ output/",
+    "Option2": "sass -w input/ output/",
+    "Option3": "sass watch input/ output/",
+    "Option4": "sass --monitor input/ output/",
+    "Answer": "sass --watch input/ output/"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'partials' (revisited) and how does the underscore convention help?",
+    "Option1": "Partials are temporary files.",
+    "Option2": "Starting a file name with `_` (e.g., `_variables.scss`) tells Sass that it's a partial and should not be compiled directly into a CSS file.",
+    "Option3": "The underscore indicates an ignored file.",
+    "Option4": "The underscore means it's a private file.",
+    "Answer": "Starting a file name with `_` (e.g., `_variables.scss`) tells Sass that it's a partial and should not be compiled directly into a CSS file."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Placeholders' (revisited) and what are their benefits?",
+    "Option1": "They are temporary CSS rules.",
+    "Option2": "They define styles that are only used when `@extend`ed, preventing unnecessary CSS output if not used, and promoting cleaner stylesheet architecture.",
+    "Option3": "They define styles that are always included.",
+    "Option4": "They are only for debugging purposes.",
+    "Answer": "They define styles that are only used when `@extend`ed, preventing unnecessary CSS output if not used, and promoting cleaner stylesheet architecture."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Silent Comments' in SCSS?",
+    "Option1": "Comments that appear in the compiled CSS.",
+    "Option2": "Comments starting with `//` that are removed during compilation and do not appear in the final CSS output, useful for internal notes.",
+    "Option3": "Comments that are only visible in certain editors.",
+    "Option4": "Comments that are always ignored.",
+    "Answer": "Comments starting with `//` that are removed during compilation and do not appear in the final CSS output, useful for internal notes."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'Standard Comments' in SCSS?",
+    "Option1": "Comments that are always removed.",
+    "Option2": "Comments starting with `/*` and ending with `*/` that appear in the compiled CSS, similar to regular CSS comments.",
+    "Option3": "Comments that are only for SASS syntax.",
+    "Option4": "Comments that are only for debugging.",
+    "Answer": "Comments starting with `/*` and ending with `*/` that appear in the compiled CSS, similar to regular CSS comments."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Mathematical Operations' on numbers in SASS/SCSS?",
+    "Option1": "Only works with integers.",
+    "Option2": "Performing arithmetic operations (+, -, *, /) on numbers, including different units, with automatic unit conversion where possible.",
+    "Option3": "Only works with fixed-point numbers.",
+    "Option4": "Requires a special function for each operation.",
+    "Answer": "Performing arithmetic operations (+, -, *, /) on numbers, including different units, with automatic unit conversion where possible."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Can you perform mathematical operations with different units (e.g., `10px + 2em`)?",
+    "Option1": "No, it will result in an error.",
+    "Option2": "Yes, Sass will attempt to convert units if possible, or produce an error if incompatible.",
+    "Option3": "Only if both units are percentages.",
+    "Option4": "Only if both units are absolute units.",
+    "Answer": "Yes, Sass will attempt to convert units if possible, or produce an error if incompatible."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Logical Operations' in SASS/SCSS?",
+    "Option1": "Only `and` operator.",
+    "Option2": "Using `and`, `or`, and `not` operators for conditional logic within `@if` statements and other control directives.",
+    "Option3": "Only for comparing numbers.",
+    "Option4": "Only for string manipulation.",
+    "Answer": "Using `and`, `or`, and `not` operators for conditional logic within `@if` statements and other control directives."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Comparison Operators' in SASS/SCSS?",
+    "Option1": "Only equality checks.",
+    "Option2": "Using `==`, `!=`, `<`, `>`, `<=`, `>=` for comparing values in conditional statements.",
+    "Option3": "Only for comparing colors.",
+    "Option4": "Only for comparing lists.",
+    "Answer": "Using `==`, `!=`, `<`, `>`, `<=`, `>=` for comparing values in conditional statements."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Unit Stripping' (`strip-unit()`) in SASS/SCSS?",
+    "Option1": "Adding units to a number.",
+    "Option2": "A function that removes the unit from a number, returning the raw number, useful for calculations that require unitless values.",
+    "Option3": "Converting a number to a string.",
+    "Option4": "Rounding a number to the nearest integer.",
+    "Answer": "A function that removes the unit from a number, returning the raw number, useful for calculations that require unitless values."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Unit Adding' (`unit()`) in SASS/SCSS?",
+    "Option1": "Removing units from a number.",
+    "Option2": "A function that adds a specified unit to a unitless number.",
+    "Option3": "Converting a string to a number.",
+    "Option4": "Checking if a number has a unit.",
+    "Answer": "A function that adds a specified unit to a unitless number."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Globbing' with `@use` or `@import`?",
+    "Option1": "Including specific files only.",
+    "Option2": "Using wildcards (e.g., `*`) to import multiple partials from a directory with a single statement (less common with `@use` due to namespace benefits).",
+    "Option3": "Importing files from a remote server.",
+    "Option4": "Ignoring certain files during import.",
+    "Answer": "Using wildcards (e.g., `*`) to import multiple partials from a directory with a single statement (less common with `@use` due to namespace benefits)."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'BEM' methodology in relation to SASS/SCSS?",
+    "Option1": "A way to structure JavaScript.",
+    "Option2": "A naming convention (Block, Element, Modifier) that pairs well with SCSS nesting and modularity, promoting reusable and maintainable CSS.",
+    "Option3": "A method for optimizing image sizes.",
+    "Option4": "A technique for creating responsive layouts.",
+    "Answer": "A naming convention (Block, Element, Modifier) that pairs well with SCSS nesting and modularity, promoting reusable and maintainable CSS."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What are 'Block', 'Element', 'Modifier' in BEM?",
+    "Option1": "CSS properties, values, and units.",
+    "Option2": "Block: Standalone component (e.g., `button`), Element: Part of a block (e.g., `button__icon`), Modifier: Variation of a block or element (e.g., `button--disabled`).",
+    "Option3": "HTML tags, attributes, and classes.",
+    "Option4": "JavaScript functions, variables, and events.",
+    "Answer": "Block: Standalone component (e.g., `button`), Element: Part of a block (e.g., `button__icon`), Modifier: Variation of a block or element (e.g., `button--disabled`)."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'SMACSS' methodology in relation to SASS/SCSS?",
+    "Option1": "A framework for creating animations.",
+    "Option2": "Scalable and Modular Architecture for CSS, a guideline for organizing CSS into categories (Base, Layout, Modules, State, Theme) that can be implemented effectively with SCSS modularity.",
+    "Option3": "A technique for performance optimization.",
+    "Option4": "A method for version control of stylesheets.",
+    "Answer": "Scalable and Modular Architecture for CSS, a guideline for organizing CSS into categories (Base, Layout, Modules, State, Theme) that can be implemented effectively with SCSS modularity."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What are the categories in SMACSS?",
+    "Option1": "Header, Footer, Sidebar, Content, Navigation.",
+    "Option2": "Base, Layout, Modules, State, Theme.",
+    "Option3": "Variables, Mixins, Functions, Extends, Imports.",
+    "Option4": "Global, Local, Component, Utility, Responsive.",
+    "Answer": "Base, Layout, Modules, State, Theme."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'ITCSS' (Inverted Triangle CSS) in relation to SASS/SCSS?",
+    "Option1": "A way to write CSS in reverse order.",
+    "Option2": "A methodology for organizing CSS files by specificity, from low (settings, tools, generic) to high (objects, components, utilities, trumps), well-suited for `@import` or `@use` structure.",
+    "Option3": "A technique for debugging complex stylesheets.",
+    "Option4": "A method for generating random styles.",
+    "Answer": "A methodology for organizing CSS files by specificity, from low (settings, tools, generic) to high (objects, components, utilities, trumps), well-suited for `@import` or `@use` structure."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the '7-1 Pattern' for SASS/SCSS projects?",
+    "Option1": "A rule for writing 7 lines of CSS for every 1 line of HTML.",
+    "Option2": "A popular folder structure that organizes SCSS into 7 directories (base, components, layout, pages, themes, abstracts, vendors) and one main stylesheet for `@import`ing them.",
+    "Option3": "A ratio for responsive design breakpoints.",
+    "Option4": "A naming convention for variables.",
+    "Answer": "A popular folder structure that organizes SCSS into 7 directories (base, components, layout, pages, themes, abstracts, vendors) and one main stylesheet for `@import`ing them."
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which directory in the '7-1 Pattern' would typically contain mixins and functions?",
+    "Option1": "components/",
+    "Option2": "abstracts/",
+    "Option3": "layout/",
+    "Option4": "base/",
+    "Answer": "abstracts/"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the purpose of the 'vendors/' directory in the '7-1 Pattern'?",
+    "Option1": "To store custom-written components.",
+    "Option2": "To store third-party CSS files or libraries.",
+    "Option3": "To store global variables.",
+    "Option4": "To store page-specific styles.",
+    "Answer": "To store third-party CSS files or libraries."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Compass' in the context of SASS?",
+    "Option1": "A replacement for Sass.",
+    "Option2": "An open-source CSS authoring framework built on top of Sass, providing a rich library of mixins, functions, and sprite generation (now largely superseded by Sass's own features).",
+    "Option3": "A tool for debugging Sass code.",
+    "Option4": "A different syntax for Sass.",
+    "Answer": "An open-source CSS authoring framework built on top of Sass, providing a rich library of mixins, functions, and sprite generation (now largely superseded by Sass's own features)."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Is Compass still widely used with modern Sass development?",
+    "Option1": "Yes, it's essential.",
+    "Option2": "No, many of its functionalities are now built into Sass directly or handled by other tools/libraries.",
+    "Option3": "Only for legacy projects.",
+    "Option4": "It's a new framework gaining popularity.",
+    "Answer": "No, many of its functionalities are now built into Sass directly or handled by other tools/libraries."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What are 'Variables' (revisited) and why are they fundamental?",
+    "Option1": "They are only for temporary values.",
+    "Option2": "Variables allow you to define reusable values (colors, font sizes, spacing) throughout your stylesheets, making changes easier and ensuring consistency.",
+    "Option3": "They define new CSS properties.",
+    "Option4": "They are used for conditional logic only.",
+    "Answer": "Variables allow you to define reusable values (colors, font sizes, spacing) throughout your stylesheets, making changes easier and ensuring consistency."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the `!default` flag in variable declarations?",
+    "Option1": "It makes the variable global.",
+    "Option2": "It assigns a value to a variable only if it hasn't been assigned a value already, useful for providing default configurable settings in libraries.",
+    "Option3": "It makes the variable constant.",
+    "Option4": "It forces the variable to be overridden.",
+    "Answer": "It assigns a value to a variable only if it hasn't been assigned a value already, useful for providing default configurable settings in libraries."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Parent Selector Reference' in nested properties?",
+    "Option1": "Refers to the element's direct parent.",
+    "Option2": "Using `&` inside nested properties (e.g., `font: { size: 1em; weight: bold; }`) to apply the nested properties to the current selector's parent.",
+    "Option3": "Refers to the root element.",
+    "Option4": "Not a valid SASS/SCSS feature.",
+    "Answer": "Not a valid SASS/SCSS feature."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of 'CSS Custom Properties' (CSS Variables) compared to SASS variables?",
+    "Option1": "They are the same.",
+    "Option2": "SASS variables are compiled away, CSS custom properties exist at runtime in the browser, allowing dynamic changes with JavaScript and inheritance.",
+    "Option3": "CSS custom properties are faster to compile.",
+    "Option4": "SASS variables can be accessed by JavaScript.",
+    "Answer": "SASS variables are compiled away, CSS custom properties exist at runtime in the browser, allowing dynamic changes with JavaScript and inheritance."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Can SASS/SCSS output CSS Custom Properties?",
+    "Option1": "No, they are incompatible.",
+    "Option2": "Yes, you can use SASS/SCSS to define and manage values that will then be outputted as CSS Custom Properties.",
+    "Option3": "Only in specific SASS versions.",
+    "Option4": "Only if you use a specific mixin.",
+    "Answer": "Yes, you can use SASS/SCSS to define and manage values that will then be outputted as CSS Custom Properties."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Media Queries' in SASS/SCSS?",
+    "Option1": "They are deprecated.",
+    "Option2": "You can nest `@media` rules inside selectors, making responsive design more organized and contextual to the elements they affect.",
+    "Option3": "They must always be at the top level.",
+    "Option4": "They only work with specific units.",
+    "Answer": "You can nest `@media` rules inside selectors, making responsive design more organized and contextual to the elements they affect."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the benefit of nesting media queries in SCSS?",
+    "Option1": "It reduces the final CSS file size.",
+    "Option2": "It keeps media queries relevant to the specific components they style, making stylesheets easier to read and maintain for responsive behavior.",
+    "Option3": "It improves browser rendering speed.",
+    "Option4": "It allows for dynamic breakpoint changes.",
+    "Answer": "It keeps media queries relevant to the specific components they style, making stylesheets easier to read and maintain for responsive behavior."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Font-Face' in SASS/SCSS?",
+    "Option1": "A mixin for defining fonts.",
+    "Option2": "You can define `@font-face` rules using mixins or variables for font families, making it easier to manage typography.",
+    "Option3": "A special function for text styling.",
+    "Option4": "A way to embed fonts directly into SCSS.",
+    "Answer": "You can define `@font-face` rules using mixins or variables for font families, making it easier to manage typography."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Keyframes' in SASS/SCSS?",
+    "Option1": "A way to define static styles.",
+    "Option2": "You can nest keyframe animations (`@keyframes`) within selectors or define them at the top level, using variables and control flow for dynamic animations.",
+    "Option3": "A special type of function for animations.",
+    "Option4": "A way to import animation libraries.",
+    "Answer": "You can nest keyframe animations (`@keyframes`) within selectors or define them at the top level, using variables and control flow for dynamic animations."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Sass Modules' (`@use` and `@forward`) and why were they introduced?",
+    "Option1": "To replace mixins and functions.",
+    "Option2": "Introduced to provide better encapsulation, prevent global namespace pollution, and offer clearer dependency management than the old `@import` rule.",
+    "Option3": "To improve compilation speed.",
+    "Option4": "To allow for better integration with JavaScript.",
+    "Answer": "Introduced to provide better encapsulation, prevent global namespace pollution, and offer clearer dependency management than the old `@import` rule."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `with` clause in `@use`?",
+    "Option1": "To define new variables.",
+    "Option2": "Allows you to configure variables in an `@use`d module for the current file only, effectively overriding their default values.",
+    "Option3": "To include specific mixins.",
+    "Option4": "To rename modules.",
+    "Answer": "Allows you to configure variables in an `@use`d module for the current file only, effectively overriding their default values."
+  },
+  {
+    "question_no.": 90,
+    "Question": "How do you use the `with` clause?",
+    "Option1": "@use 'module' with ($var: value);",
+    "Option2": "@use 'module' { $var: value; }",
+    "Option3": "@use 'module' where $var = value;",
+    "Option4": "use module with $var: value;",
+    "Answer": "@use 'module' with ($var: value);"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Member Access' in Sass Modules?",
+    "Option1": "Accessing elements in an array.",
+    "Option2": "Using `namespace.member` syntax (e.g., `colors.$primary`) to access variables, functions, and mixins from an `@use`d module, ensuring clear origin.",
+    "Option3": "Accessing properties of an object.",
+    "Option4": "Accessing elements in a list.",
+    "Answer": "Using `namespace.member` syntax (e.g., `colors.$primary`) to access variables, functions, and mixins from an `@use`d module, ensuring clear origin."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Configuration' (`@forward` with `hide` and `show`)?",
+    "Option1": "To hide or show modules based on conditions.",
+    "Option2": "Allows you to selectively expose members from a forwarded module, either by hiding certain members (`hide: member1, member2`) or showing only specific ones (`show: member1, member2`).",
+    "Option3": "To completely remove modules from the compilation.",
+    "Option4": "To toggle comments in the compiled CSS.",
+    "Answer": "Allows you to selectively expose members from a forwarded module, either by hiding certain members (`hide: member1, member2`) or showing only specific ones (`show: member1, member2`)."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'CSS Functions' in SCSS?",
+    "Option1": "Functions written in SCSS.",
+    "Option2": "Native CSS functions like `calc()`, `url()`, `rgb()`, etc., which are treated as opaque strings by Sass unless specifically evaluated by a Sass function.",
+    "Option3": "Functions that are converted to CSS variables.",
+    "Option4": "Functions that are only available in certain browsers.",
+    "Answer": "Native CSS functions like `calc()`, `url()`, `rgb()`, etc., which are treated as opaque strings by Sass unless specifically evaluated by a Sass function."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Data Types' in SASS/SCSS?",
+    "Option1": "Only numbers and strings.",
+    "Option2": "Sass supports various data types: numbers (with or without units), strings (quoted or unquoted), colors, booleans, null, lists, and maps.",
+    "Option3": "Only arrays and objects.",
+    "Option4": "Only integers and floats.",
+    "Answer": "Sass supports various data types: numbers (with or without units), strings (quoted or unquoted), colors, booleans, null, lists, and maps."
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which of the following is NOT a valid SASS/SCSS data type?",
+    "Option1": "Boolean",
+    "Option2": "Date",
+    "Option3": "List",
+    "Option4": "Color",
+    "Answer": "Date"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is '`null`' in SASS/SCSS?",
+    "Option1": "An empty string.",
+    "Option2": "Represents an absence of a value, similar to `null` in other languages. Properties assigned `null` are not outputted in the compiled CSS.",
+    "Option3": "A special type of boolean.",
+    "Option4": "A placeholder for a variable.",
+    "Answer": "Represents an absence of a value, similar to `null` in other languages. Properties assigned `null` are not outputted in the compiled CSS."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Global Keywords' in SASS/SCSS (e.g., `!important`)?",
+    "Option1": "Keywords that define global variables.",
+    "Option2": "Standard CSS keywords that retain their meaning within Sass, but Sass doesn't add any special handling to them.",
+    "Option3": "Keywords that are only used in mixins.",
+    "Option4": "Keywords that are specific to Sass only.",
+    "Answer": "Standard CSS keywords that retain their meaning within Sass, but Sass doesn't add any special handling to them."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Meta Functions' in SASS/SCSS?",
+    "Option1": "Functions for manipulating metadata.",
+    "Option2": "Functions that inspect or manipulate Sass's internal state or types, such as `type-of()`, `unit()`, `inspect()`, `feature-exists()`, etc.",
+    "Option3": "Functions for creating meta tags in HTML.",
+    "Option4": "Functions for optimizing CSS output.",
+    "Answer": "Functions that inspect or manipulate Sass's internal state or types, such as `type-of()`, `unit()`, `inspect()`, `feature-exists()`, etc."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What does `type-of()` function return?",
+    "Option1": "The size of a variable.",
+    "Option2": "The data type of a given value (e.g., `number`, `string`, `color`, `list`, `map`).",
+    "Option3": "The name of a variable.",
+    "Option4": "The scope of a variable.",
+    "Answer": "The data type of a given value (e.g., `number`, `string`, `color`, `list`, `map`)."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Debugging' in SASS/SCSS?",
+    "Option1": "Using a separate debugger tool.",
+    "Option2": "Using `@debug`, `@warn`, and `@error` directives to output messages, warnings, or errors during compilation, aiding in debugging logic.",
+    "Option3": "Only possible with source maps.",
+    "Option4": "Using browser developer tools only.",
+    "Answer": "Using `@debug`, `@warn`, and `@error` directives to output messages, warnings, or errors during compilation, aiding in debugging logic."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What does `@debug` do?",
+    "Option1": "Stops the compilation process.",
+    "Option2": "Outputs a debugging message to the console during compilation.",
+    "Option3": "Generates a source map.",
+    "Option4": "Removes all comments from the SCSS file.",
+    "Answer": "Outputs a debugging message to the console during compilation."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What does `@warn` do?",
+    "Option1": "Treats a warning as an error.",
+    "Option2": "Outputs a warning message to the console during compilation, allowing compilation to continue.",
+    "Option3": "Generates a fatal error.",
+    "Option4": "Only outputs messages in debug mode.",
+    "Answer": "Outputs a warning message to the console during compilation, allowing compilation to continue."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What does `@error` do?",
+    "Option1": "Outputs a warning and continues.",
+    "Option2": "Outputs an error message and immediately stops the compilation process.",
+    "Option3": "Only outputs errors in production mode.",
+    "Option4": "Logs errors to a file.",
+    "Answer": "Outputs an error message and immediately stops the compilation process."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Interpolation of Variables'?",
+    "Option1": "Using variables as direct values.",
+    "Option2": "Embedding a variable's value within a string or a selector using `#{}` syntax.",
+    "Option3": "Concatenating two variable names.",
+    "Option4": "Changing the scope of a variable.",
+    "Answer": "Embedding a variable's value within a string or a selector using `#{}` syntax."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Can you interpolate within CSS property names?",
+    "Option1": "No, it's not allowed.",
+    "Option2": "Yes, for example, `#{border}-color: red;`",
+    "Option3": "Only with specific properties.",
+    "Option4": "Only when using mixins.",
+    "Answer": "Yes, for example, `#{border}-color: red;`"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Flow Control with `@if` and `@else`'?",
+    "Option1": "For looping through lists.",
+    "Option2": "Applying styles conditionally based on expressions, allowing for different styles under different circumstances.",
+    "Option3": "For defining new functions.",
+    "Option4": "For importing external files.",
+    "Answer": "Applying styles conditionally based on expressions, allowing for different styles under different circumstances."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Looping with `@for`'?",
+    "Option1": "Iterating over a list of items.",
+    "Option2": "Repeating a block of styles a specified number of times, useful for generating grids or spaced elements.",
+    "Option3": "Creating infinite loops.",
+    "Option4": "Defining animations.",
+    "Answer": "Repeating a block of styles a specified number of times, useful for generating grids or spaced elements."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the difference between `through` and `to` in a `@for` loop?",
+    "Option1": "`through` includes the end value, `to` excludes it.",
+    "Option2": "`to` includes the end value, `through` excludes it.",
+    "Option3": "They are identical.",
+    "Option4": "One is for numbers, the other for strings.",
+    "Answer": "`through` includes the end value, `to` excludes it."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Looping with `@each`'?",
+    "Option1": "Repeating a block of styles a fixed number of times.",
+    "Option2": "Iterating over a list or map, assigning each item (or key-value pair) to variables within the loop for dynamic styling.",
+    "Option3": "Creating recursive functions.",
+    "Option4": "Defining conditional styles.",
+    "Answer": "Iterating over a list or map, assigning each item (or key-value pair) to variables within the loop for dynamic styling."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Looping with `@while`'?",
+    "Option1": "Similar to `@for` loop.",
+    "Option2": "Repeating a block of styles as long as a given condition is true, useful for more complex iterative logic.",
+    "Option3": "Only for conditional statements.",
+    "Option4": "For defining a fixed number of repetitions.",
+    "Answer": "Repeating a block of styles as long as a given condition is true, useful for more complex iterative logic."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Silent Directives' in SASS/SCSS (e.g., `@if`, `@for`)?",
+    "Option1": "Directives that produce warnings.",
+    "Option2": "Control directives (like `@if`, `@for`, `@each`, `@while`) that do not output any CSS on their own, but control the output of other CSS rules.",
+    "Option3": "Directives that are only for debugging.",
+    "Option4": "Directives that are ignored by the compiler.",
+    "Answer": "Control directives (like `@if`, `@for`, `@each`, `@while`) that do not output any CSS on their own, but control the output of other CSS rules."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Output Directives' (e.g., `@warn`, `@debug`, `@error`)?",
+    "Option1": "Directives that produce CSS.",
+    "Option2": "Directives that directly output messages or stop compilation, primarily used for debugging and development feedback.",
+    "Option3": "Directives that control the output format.",
+    "Option4": "Directives that are only for production builds.",
+    "Answer": "Directives that directly output messages or stop compilation, primarily used for debugging and development feedback."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Sass Utilities'?",
+    "Option1": "Pre-built frameworks for Sass.",
+    "Option2": "Commonly created mixins and functions that provide generic, reusable functionalities (e.g., clearfixes, visually hidden, media query helpers).",
+    "Option3": "Tools for optimizing Sass compilation.",
+    "Option4": "Debugging tools for Sass.",
+    "Answer": "Commonly created mixins and functions that provide generic, reusable functionalities (e.g., clearfixes, visually hidden, media query helpers)."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a 'clearfix' mixin used for?",
+    "Option1": "To clear browser cache.",
+    "Option2": "To fix issues with floated elements not containing their children, typically by applying `overflow: hidden` or using pseudo-elements.",
+    "Option3": "To clear all existing CSS styles.",
+    "Option4": "To clear all JavaScript variables.",
+    "Answer": "To fix issues with floated elements not containing their children, typically by applying `overflow: hidden` or using pseudo-elements."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Vendor Prefixes' in SASS/SCSS?",
+    "Option1": "Automatically added by Sass.",
+    "Option2": "Properties like `-webkit-`, `-moz-`, etc., often handled by PostCSS with Autoprefixer after Sass compilation, rather than directly in Sass.",
+    "Option3": "Are no longer necessary in modern CSS.",
+    "Option4": "Are managed by a special Sass function.",
+    "Answer": "Properties like `-webkit-`, `-moz-`, etc., often handled by PostCSS with Autoprefixer after Sass compilation, rather than directly in Sass."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Why is it generally recommended to handle vendor prefixes with PostCSS/Autoprefixer instead of directly in Sass?",
+    "Option1": "Sass cannot generate them.",
+    "Option2": "Autoprefixer uses up-to-date data on browser support, ensuring correct and minimal prefixes, avoiding manual maintenance and bloating Sass files.",
+    "Option3": "PostCSS is faster than Sass.",
+    "Option4": "Sass is only for syntax, not for prefixing.",
+    "Answer": "Autoprefixer uses up-to-date data on browser support, ensuring correct and minimal prefixes, avoiding manual maintenance and bloating Sass files."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Sass Linting'?",
+    "Option1": "Checking for valid CSS syntax only.",
+    "Option2": "Using tools like `stylelint` or `sass-lint` to analyze SCSS/SASS code for adherence to coding standards, best practices, and potential errors.",
+    "Option3": "Compiling Sass files into CSS.",
+    "Option4": "Optimizing Sass file sizes.",
+    "Answer": "Using tools like `stylelint` or `sass-lint` to analyze SCSS/SASS code for adherence to coding standards, best practices, and potential errors."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Style Guide' for SASS/SCSS?",
+    "Option1": "A set of design guidelines for a website.",
+    "Option2": "A set of documented rules and conventions for writing and organizing SASS/SCSS code, ensuring consistency across a project or team.",
+    "Option3": "A tool for generating random styles.",
+    "Option4": "A framework for building responsive layouts.",
+    "Answer": "A set of documented rules and conventions for writing and organizing SASS/SCSS code, ensuring consistency across a project or team."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Performance Optimization' with SASS/SCSS?",
+    "Option1": "Primarily handled by Sass compiler automatically.",
+    "Option2": "Strategies like using `@extend` over `@mixin` for common styles, avoiding deep nesting, and compressing output CSS to reduce file size and improve load times.",
+    "Option3": "Using many variables.",
+    "Option4": "Writing more complex loops.",
+    "Answer": "Strategies like using `@extend` over `@mixin` for common styles, avoiding deep nesting, and compressing output CSS to reduce file size and improve load times."
+  },
+  {
+    "question_no.": 120,
+    "Question": "How can deep nesting impact performance or maintainability?",
+    "Option1": "It always makes the CSS faster.",
+    "Option2": "It can lead to highly specific selectors, increasing CSS file size, making overrides difficult, and slowing down browser rendering due to complex selector matching.",
+    "Option3": "It improves code readability.",
+    "Option4": "It has no impact on performance.",
+    "Answer": "It can lead to highly specific selectors, increasing CSS file size, making overrides difficult, and slowing down browser rendering due to complex selector matching."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Grid Systems' in SASS/SCSS?",
+    "Option1": "Predefined HTML structures.",
+    "Option2": "Using mixins and functions to build flexible and reusable grid layouts, often based on `flexbox` or `CSS Grid` properties.",
+    "Option3": "A way to organize images.",
+    "Option4": "A method for creating animations.",
+    "Answer": "Using mixins and functions to build flexible and reusable grid layouts, often based on `flexbox` or `CSS Grid` properties."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Responsive Design' with SASS/SCSS?",
+    "Option1": "Only using fixed pixel values.",
+    "Option2": "Leveraging variables for breakpoints, mixins for media queries, and functions for fluid typography or spacing to create adaptive layouts for different screen sizes.",
+    "Option3": "Creating separate stylesheets for each device.",
+    "Option4": "Ignoring mobile devices.",
+    "Answer": "Leveraging variables for breakpoints, mixins for media queries, and functions for fluid typography or spacing to create adaptive layouts for different screen sizes."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Accessibility (A11y)' considerations in SASS/SCSS?",
+    "Option1": "Not relevant to SASS/SCSS.",
+    "Option2": "Using Sass variables for accessible color palettes, defining proper focus states with mixins, and ensuring color contrast ratios are met.",
+    "Option3": "Only about screen reader compatibility.",
+    "Option4": "Only applies to JavaScript.",
+    "Answer": "Using Sass variables for accessible color palettes, defining proper focus states with mixins, and ensuring color contrast ratios are met."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Theming' in SASS/SCSS?",
+    "Option1": "Changing only the background color.",
+    "Option2": "Using Sass variables and maps to define different color schemes, font choices, or spacing for various themes, allowing easy switching.",
+    "Option3": "A process of creating new websites.",
+    "Option4": "A tool for generating random themes.",
+    "Answer": "Using Sass variables and maps to define different color schemes, font choices, or spacing for various themes, allowing easy switching."
+  },
+  {
+    "question_no. 125,": "How can maps be particularly useful for theming?",
+    "Option1": "They store all CSS properties.",
+    "Option2": "Maps allow you to define a collection of theme-related values (e.g., `$theme-dark: (primary: #000, secondary: #fff)`) and easily retrieve them based on the active theme.",
+    "Option3": "They define the order of styles.",
+    "Option4": "They automatically apply themes.",
+    "Answer": "Maps allow you to define a collection of theme-related values (e.g., `$theme-dark: (primary: #000, secondary: #fff)`) and easily retrieve them based on the active theme."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Typography' management with SASS/SCSS?",
+    "Option1": "Only setting font family.",
+    "Option2": "Using variables for font sizes, line heights, font weights, and mixins for responsive typography or semantic font stacks, ensuring consistent and scalable text styles.",
+    "Option3": "Generating custom fonts.",
+    "Option4": "Analyzing text content for sentiment.",
+    "Answer": "Using variables for font sizes, line heights, font weights, and mixins for responsive typography or semantic font stacks, ensuring consistent and scalable text styles."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Spacing' management with SASS/SCSS?",
+    "Option1": "Only setting `margin` and `padding` directly.",
+    "Option2": "Defining spacing values (e.g., `$spacing-unit: 1rem;`) in variables and using them consistently for margins, paddings, and gaps, often with loops to generate utility classes.",
+    "Option3": "Automatic spacing calculation by the browser.",
+    "Option4": "Creating animations based on spacing.",
+    "Answer": "Defining spacing values (e.g., `$spacing-unit: 1rem;`) in variables and using them consistently for margins, paddings, and gaps, often with loops to generate utility classes."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Modular CSS' in SASS/SCSS?",
+    "Option1": "Writing all CSS in a single file.",
+    "Option2": "Breaking down stylesheets into smaller, independent, and reusable modules (partials) using `@import` or `@use` for better organization and maintainability.",
+    "Option3": "Using inline styles only.",
+    "Option4": "A method for minimizing CSS.",
+    "Answer": "Breaking down stylesheets into smaller, independent, and reusable modules (partials) using `@import` or `@use` for better organization and maintainability."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'DRY principle' in SASS/SCSS?",
+    "Option1": "Don't Repeat Yourself.",
+    "Option2": "Do Repeat Yourself.",
+    "Option3": "Design Responsive Layouts Yourself.",
+    "Option4": "Develop Robust Yields.",
+    "Answer": "Don't Repeat Yourself."
+  },
+  {
+    "question_no.": 130,
+    "Question": "How does SASS/SCSS help adhere to the DRY principle?",
+    "Option1": "By forcing unique class names.",
+    "Option2": "Through features like variables, mixins, and `@extend`, which allow you to abstract and reuse styles, avoiding duplication across the stylesheet.",
+    "Option3": "By automatically generating random styles.",
+    "Option4": "By providing built-in styles for all elements.",
+    "Answer": "Through features like variables, mixins, and `@extend`, which allow you to abstract and reuse styles, avoiding duplication across the stylesheet."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Semantic CSS' in relation to SASS/SCSS?",
+    "Option1": "Using only ID selectors.",
+    "Option2": "Writing CSS class names that describe the purpose or meaning of an element rather than its appearance, often aided by BEM or similar methodologies and well-suited for SASS structure.",
+    "Option3": "Using only inline styles.",
+    "Option4": "Only styling HTML semantic tags directly.",
+    "Answer": "Writing CSS class names that describe the purpose or meaning of an element rather than its appearance, often aided by BEM or similar methodologies and well-suited for SASS structure."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Compiler' for SASS/SCSS?",
+    "Option1": "A web browser.",
+    "Option2": "A program (e.g., Node-Sass, Dart Sass, Ruby Sass) that processes SASS/SCSS files and converts them into standard CSS that browsers can understand.",
+    "Option3": "A text editor.",
+    "Option4": "A design tool.",
+    "Answer": "A program (e.g., Node-Sass, Dart Sass, Ruby Sass) that processes SASS/SCSS files and converts them into standard CSS that browsers can understand."
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which is the current official implementation of Sass?",
+    "Option1": "Node-Sass",
+    "Option2": "Ruby Sass",
+    "Option3": "Dart Sass",
+    "Option4": "LibSass",
+    "Answer": "Dart Sass"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What are 'Sass Frameworks' (e.g., Bourbon, Susy, Foundation)?",
+    "Option1": "Full-stack web development frameworks.",
+    "Option2": "Collections of pre-written Sass mixins, functions, and utilities that speed up development by providing common patterns and functionalities.",
+    "Option3": "JavaScript frameworks for styling.",
+    "Option4": "Design systems for user interfaces.",
+    "Answer": "Collections of pre-written Sass mixins, functions, and utilities that speed up development by providing common patterns and functionalities."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Variables for Breakpoints' in Responsive Design?",
+    "Option1": "Defining static pixel values only.",
+    "Option2": "Storing common screen width values (e.g., `$breakpoint-tablet: 768px;`) in variables to use consistently across media queries, simplifying responsive design management.",
+    "Option3": "Automatically detecting device types.",
+    "Option4": "Generating random breakpoints.",
+    "Answer": "Storing common screen width values (e.g., `$breakpoint-tablet: 768px;`) in variables to use consistently across media queries, simplifying responsive design management."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Functions for Fluid Typography'?",
+    "Option1": "Using fixed font sizes.",
+    "Option2": "Creating custom Sass functions that calculate responsive font sizes based on viewport width or other factors, ensuring text scales appropriately across devices.",
+    "Option3": "Only for changing font family.",
+    "Option4": "Generating random font styles.",
+    "Answer": "Creating custom Sass functions that calculate responsive font sizes based on viewport width or other factors, ensuring text scales appropriately across devices."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Mixins for UI Components'?",
+    "Option1": "For defining global styles only.",
+    "Option2": "Encapsulating the styles for specific UI elements (e.g., buttons, cards, forms) within mixins, promoting reusability and consistency across the design system.",
+    "Option3": "For creating new HTML elements.",
+    "Option4": "For optimizing image loading.",
+    "Answer": "Encapsulating the styles for specific UI elements (e.g., buttons, cards, forms) within mixins, promoting reusability and consistency across the design system."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Abstracts Layer' in ITCSS/7-1 Pattern?",
+    "Option1": "Contains global components.",
+    "Option2": "A folder for non-outputting Sass assets like variables, functions, mixins, and extends that are shared across the project.",
+    "Option3": "Contains only utility classes.",
+    "Option4": "Contains only base styles.",
+    "Answer": "A folder for non-outputting Sass assets like variables, functions, mixins, and extends that are shared across the project."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Base Layer' in ITCSS/7-1 Pattern?",
+    "Option1": "Contains interactive elements.",
+    "Option2": "Contains styles that reset default browser styles and define default typography, element styles (e.g., `body`, `h1`, `p`), and generic links.",
+    "Option3": "Contains only media queries.",
+    "Option4": "Contains third-party library styles.",
+    "Answer": "Contains styles that reset default browser styles and define default typography, element styles (e.g., `body`, `h1`, `p`), and generic links."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Layout Layer' in ITCSS/7-1 Pattern?",
+    "Option1": "Contains component-specific styles.",
+    "Option2": "Contains styles for the overall page structure (e.g., header, footer, sidebar, grid systems) that define the major sections of a website.",
+    "Option3": "Contains only animations.",
+    "Option4": "Contains theme-specific styles.",
+    "Answer": "Contains styles for the overall page structure (e.g., header, footer, sidebar, grid systems) that define the major sections of a website."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Components/Modules Layer' in ITCSS/7-1 Pattern?",
+    "Option1": "Contains global utility classes.",
+    "Option2": "Contains styles for specific, reusable UI components (e.g., buttons, forms, navigation, cards) that are independent of layout.",
+    "Option3": "Contains base element styles.",
+    "Option4": "Contains only variables.",
+    "Answer": "Contains styles for specific, reusable UI components (e.g., buttons, forms, navigation, cards) that are independent of layout."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Trumps/Utilities Layer' in ITCSS?",
+    "Option1": "Contains only JavaScript code.",
+    "Option2": "Contains high-specificity utility classes (e.g., `.u-text-center`, `.u-hidden`) that override other styles and are intended to be used directly in HTML.",
+    "Option3": "Contains global variables.",
+    "Option4": "Contains only mixins and functions.",
+    "Answer": "Contains high-specificity utility classes (e.g., `.u-text-center`, `.u-hidden`) that override other styles and are intended to be used directly in HTML."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'CSS Reset' in the context of SASS/SCSS?",
+    "Option1": "A mixin for resetting animations.",
+    "Option2": "Using a base partial (`_reset.scss` or `_base.scss`) to remove default browser styling inconsistencies and provide a consistent starting point for styling.",
+    "Option3": "A function for clearing floats.",
+    "Option4": "A tool for removing unused CSS.",
+    "Answer": "Using a base partial (`_reset.scss` or `_base.scss`) to remove default browser styling inconsistencies and provide a consistent starting point for styling."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Normalizing CSS'?",
+    "Option1": "Similar to a CSS reset but aims to make default browser styles more consistent rather than removing them entirely.",
+    "Option2": "A method for compressing CSS.",
+    "Option3": "A way to convert SCSS to standard CSS.",
+    "Option4": "A tool for validating CSS syntax.",
+    "Answer": "Similar to a CSS reset but aims to make default browser styles more consistent rather than removing them entirely."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Global Styles' in a SASS/SCSS project structure?",
+    "Option1": "Styles applied only to a single page.",
+    "Option2": "Styles that affect the entire website, typically defined in a `_base.scss` or `_globals.scss` partial, covering typography, body styles, etc.",
+    "Option3": "Styles that are hidden from the browser.",
+    "Option4": "Styles that are specific to a component.",
+    "Answer": "Styles that affect the entire website, typically defined in a `_base.scss` or `_globals.scss` partial, covering typography, body styles, etc."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Component-Specific Styles'?",
+    "Option1": "Styles that are applied to all elements.",
+    "Option2": "Styles encapsulated within specific component files (e.g., `_button.scss`, `_card.scss`), ensuring reusability and preventing unintended side effects.",
+    "Option3": "Styles that depend on the operating system.",
+    "Option4": "Styles that are always nested deeply.",
+    "Answer": "Styles encapsulated within specific component files (e.g., `_button.scss`, `_card.scss`), ensuring reusability and preventing unintended side effects."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Page-Specific Styles'?",
+    "Option1": "Styles that apply to all pages.",
+    "Option2": "Styles that are unique to a particular page or section of a website, often stored in a `pages/` directory in a modular structure.",
+    "Option3": "Styles that are loaded from an external API.",
+    "Option4": "Styles that override global styles for all pages.",
+    "Answer": "Styles that are unique to a particular page or section of a website, often stored in a `pages/` directory in a modular structure."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Utility Classes' in SASS/SCSS?",
+    "Option1": "Classes that are specific to a single component.",
+    "Option2": "Single-purpose classes (e.g., `.u-text-center`, `.u-margin-bottom-sm`) that apply a single CSS property or a small set of properties, often generated with loops in Sass.",
+    "Option3": "Classes that contain all global styles.",
+    "Option4": "Classes that are only used in development.",
+    "Answer": "Single-purpose classes (e.g., `.u-text-center`, `.u-margin-bottom-sm`) that apply a single CSS property or a small set of properties, often generated with loops in Sass."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is the benefit of utility classes?",
+    "Option1": "They lead to larger CSS files.",
+    "Option2": "They promote reusability, reduce redundancy, and allow for rapid prototyping and consistent application of specific styles.",
+    "Option3": "They make HTML more complex.",
+    "Option4": "They are difficult to maintain.",
+    "Answer": "They promote reusability, reduce redundancy, and allow for rapid prototyping and consistent application of specific styles."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Atomic CSS' in relation to SASS/SCSS?",
+    "Option1": "A technique that avoids using CSS classes.",
+    "Option2": "A methodology where highly granular, single-purpose utility classes (atoms) are used directly in HTML to build interfaces, often with Sass loops to generate these classes efficiently.",
+    "Option3": "A method for creating animations from scratch.",
+    "Option4": "A framework for managing JavaScript components.",
+    "Answer": "A methodology where highly granular, single-purpose utility classes (atoms) are used directly in HTML to build interfaces, often with Sass loops to generate these classes efficiently."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Critical CSS' and how can SASS/SCSS assist?",
+    "Option1": "CSS that is considered optional.",
+    "Option2": "Extracting the minimum necessary CSS for above-the-fold content to improve initial page load. While not a direct Sass feature, Sass's modularity helps in identifying and isolating these styles.",
+    "Option3": "CSS that is always inlined.",
+    "Option4": "CSS that is only for print media.",
+    "Answer": "Extracting the minimum necessary CSS for above-the-fold content to improve initial page load. While not a direct Sass feature, Sass's modularity helps in identifying and isolating these styles."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'PurgeCSS' and its relevance to SASS/SCSS?",
+    "Option1": "A tool for converting SASS to CSS.",
+    "Option2": "A tool that removes unused CSS from your compiled stylesheets, which is highly beneficial when using large Sass frameworks or many utility classes to reduce final CSS size.",
+    "Option3": "A tool for linting SASS code.",
+    "Option4": "A tool for generating Sass maps.",
+    "Answer": "A tool that removes unused CSS from your compiled stylesheets, which is highly beneficial when using large Sass frameworks or many utility classes to reduce final CSS size."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'PostCSS' and how does it relate to SASS/SCSS?",
+    "Option1": "A replacement for Sass.",
+    "Option2": "A tool that transforms CSS with JavaScript plugins. It's often used *after* Sass compilation for tasks like autoprefixing, minification, or future CSS syntax conversion.",
+    "Option3": "A different syntax for Sass.",
+    "Option4": "A tool for debugging Sass code.",
+    "Answer": "A tool that transforms CSS with JavaScript plugins. It's often used *after* Sass compilation for tasks like autoprefixing, minification, or future CSS syntax conversion."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Autoprefixer'?",
+    "Option1": "A Sass function.",
+    "Option2": "A PostCSS plugin that automatically adds vendor prefixes to CSS rules based on Can I use data, ensuring broad browser compatibility.",
+    "Option3": "A tool for generating Sass variables.",
+    "Option4": "A feature of the Sass compiler.",
+    "Answer": "A PostCSS plugin that automatically adds vendor prefixes to CSS rules based on Can I use data, ensuring broad browser compatibility."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Webpack' or 'Gulp' integration with SASS/SCSS?",
+    "Option1": "They are Sass-specific build tools.",
+    "Option2": "Task runners or module bundlers that automate the compilation of Sass files, manage dependencies, and integrate with other build steps like minification, linting, and serving.",
+    "Option3": "They are only for JavaScript development.",
+    "Option4": "They are web servers for Sass files.",
+    "Answer": "Task runners or module bundlers that automate the compilation of Sass files, manage dependencies, and integrate with other build steps like minification, linting, and serving."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Live Reloading' or 'Hot Module Replacement' with Sass?",
+    "Option1": "A Sass compiler feature.",
+    "Option2": "Development features provided by build tools (like Webpack Dev Server) that automatically refresh the browser or inject updated CSS when Sass files are changed, speeding up development.",
+    "Option3": "A feature for optimizing production builds.",
+    "Option4": "A method for debugging Sass errors.",
+    "Answer": "Development features provided by build tools (like Webpack Dev Server) that automatically refresh the browser or inject updated CSS when Sass files are changed, speeding up development."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Sass-specific functions'?",
+    "Option1": "Functions that are only available in older Sass versions.",
+    "Option2": "Built-in functions provided by Sass for tasks like color manipulation, list/map operations, and mathematical calculations that extend CSS capabilities.",
+    "Option3": "Functions that require external libraries.",
+    "Option4": "Functions that automatically generate CSS properties.",
+    "Answer": "Built-in functions provided by Sass for tasks like color manipulation, list/map operations, and mathematical calculations that extend CSS capabilities."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the `map-get()` function used for?",
+    "Option1": "To create a new map.",
+    "Option2": "To retrieve a value associated with a specific key from a Sass map.",
+    "Option3": "To merge two maps.",
+    "Option4": "To check if a map contains a key.",
+    "Answer": "To retrieve a value associated with a specific key from a Sass map."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the `map-merge()` function used for?",
+    "Option1": "To remove elements from a map.",
+    "Option2": "To combine two or more Sass maps into a single new map.",
+    "Option3": "To retrieve all keys from a map.",
+    "Option4": "To check if two maps are identical.",
+    "Answer": "To combine two or more Sass maps into a single new map."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the `nth()` function used for?",
+    "Option1": "To get the last item in a list.",
+    "Option2": "To retrieve an item at a specific index from a Sass list.",
+    "Option3": "To get the length of a list.",
+    "Option4": "To add an item to a list.",
+    "Answer": "To retrieve an item at a specific index from a Sass list."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the `length()` function used for (for lists)?",
+    "Option1": "To get the length of a string.",
+    "Option2": "To determine the number of items in a Sass list.",
+    "Option3": "To get the number of characters in a variable name.",
+    "Option4": "To get the number of properties in a selector.",
+    "Answer": "To determine the number of items in a Sass list."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `unique-id()` function?",
+    "Option1": "Generates a unique string at runtime in the browser.",
+    "Option2": "Generates a unique, CSS-safe ID string during Sass compilation, useful for generating unique names for elements or animations.",
+    "Option3": "Generates a random number.",
+    "Option4": "Returns the ID of the current selector.",
+    "Answer": "Generates a unique, CSS-safe ID string during Sass compilation, useful for generating unique names for elements or animations."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Sass Modules and Namespacing'?",
+    "Option1": "Modules always make everything global.",
+    "Option2": "The `@use` rule automatically creates a namespace for imported members, preventing naming conflicts and promoting clearer code organization.",
+    "Option3": "Namespacing is only for variables.",
+    "Option4": "Namespacing is optional and rarely used.",
+    "Answer": "The `@use` rule automatically creates a namespace for imported members, preventing naming conflicts and promoting clearer code organization."
+  },
+  {
+    "question_no.": 164,
+    "Question": "How do you import a module without a namespace?",
+    "Option1": "@use 'module' as *;",
+    "Option2": "@use 'module' with-no-namespace;",
+    "Option3": "@import 'module';",
+    "Option4": "You cannot, namespaces are mandatory.",
+    "Answer": "@use 'module' as *;"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'CSS Variables Integration' in SASS/SCSS?",
+    "Option1": "Sass variables directly become CSS variables.",
+    "Option2": "Sass can generate and interact with native CSS custom properties, allowing for hybrid approaches where static values are defined in Sass, and dynamic values are managed by CSS variables.",
+    "Option3": "Sass replaces all CSS variables.",
+    "Option4": "They are mutually exclusive.",
+    "Answer": "Sass can generate and interact with native CSS custom properties, allowing for hybrid approaches where static values are defined in Sass, and dynamic values are managed by CSS variables."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Responsive Images' with SASS/SCSS?",
+    "Option1": "Sass optimizes image files.",
+    "Option2": "Using mixins or functions to generate `srcset` or `picture` element attributes, or dynamically adjust background images based on screen size or resolution.",
+    "Option3": "Sass automatically compresses images.",
+    "Option4": "Sass automatically scales images.",
+    "Answer": "Using mixins or functions to generate `srcset` or `picture` element attributes, or dynamically adjust background images based on screen size or resolution."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Animation Utilities' in SASS/SCSS?",
+    "Option1": "Defining simple hover effects only.",
+    "Option2": "Creating reusable mixins for common animation properties (e.g., transitions, durations, easing) or generating `@keyframes` with loops for complex animation sequences.",
+    "Option3": "A tool for generating animation keyframes automatically.",
+    "Option4": "A library for pre-built animations.",
+    "Answer": "Creating reusable mixins for common animation properties (e.g., transitions, durations, easing) or generating `@keyframes` with loops for complex animation sequences."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Transitions' in SASS/SCSS?",
+    "Option1": "Only for changing page layouts.",
+    "Option2": "Using mixins to apply consistent transition properties (e.g., `transition-property`, `transition-duration`, `transition-timing-function`) to elements for smooth visual changes.",
+    "Option3": "A feature for page loading effects.",
+    "Option4": "A method for debugging browser performance.",
+    "Answer": "Using mixins to apply consistent transition properties (e.g., `transition-property`, `transition-duration`, `transition-timing-function`) to elements for smooth visual changes."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Vendor Prefixes Management' with Sass and PostCSS?",
+    "Option1": "Sass handles all prefixes automatically.",
+    "Option2": "Best practice involves writing standard CSS in Sass and letting a post-processor like PostCSS with Autoprefixer add necessary vendor prefixes during the build process.",
+    "Option3": "You must manually add all prefixes in Sass.",
+    "Option4": "Vendor prefixes are no longer relevant.",
+    "Answer": "Best practice involves writing standard CSS in Sass and letting a post-processor like PostCSS with Autoprefixer add necessary vendor prefixes during the build process."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Code Splitting' in the context of SASS/SCSS?",
+    "Option1": "Splitting a single CSS file into multiple files manually.",
+    "Option2": "Breaking down large stylesheets into smaller, more manageable partials that are then imported and compiled into a single CSS file, improving organization and maintainability.",
+    "Option3": "Splitting CSS files across different servers.",
+    "Option4": "A browser optimization technique for faster rendering.",
+    "Answer": "Breaking down large stylesheets into smaller, more manageable partials that are then imported and compiled into a single CSS file, improving organization and maintainability."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'CSS Architecture' principles applied to SASS/SCSS?",
+    "Option1": "Only focuses on file naming conventions.",
+    "Option2": "Applying structured methodologies like BEM, SMACSS, ITCSS, or Atomic CSS to organize and manage Sass code for scalability, maintainability, and collaboration.",
+    "Option3": "Only for small projects.",
+    "Option4": "Only for performance optimization.",
+    "Answer": "Applying structured methodologies like BEM, SMACSS, ITCSS, or Atomic CSS to organize and manage Sass code for scalability, maintainability, and collaboration."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Global Namespace Pollution' and how Sass modules help?",
+    "Option1": "When too many global variables are used.",
+    "Option2": "Occurs when many variables, mixins, or functions are all in the global scope, leading to potential naming conflicts. Sass modules (`@use`) prevent this by namespacing members.",
+    "Option3": "When external libraries are not properly isolated.",
+    "Option4": "When CSS files are too large.",
+    "Answer": "Occurs when many variables, mixins, or functions are all in the global scope, leading to potential naming conflicts. Sass modules (`@use`) prevent this by namespacing members."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'The Sass CLI'?",
+    "Option1": "A graphical user interface for Sass.",
+    "Option2": "The command-line interface tool for compiling `.scss` or `.sass` files into `.css`.",
+    "Option3": "A Sass debugger.",
+    "Option4": "A Sass linter.",
+    "Answer": "The command-line interface tool for compiling `.scss` or `.sass` files into `.css`."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the command to compile a Sass file in 'compressed' output style?",
+    "Option1": "sass input.scss output.css --style compressed",
+    "Option2": "sass input.scss output.css --compress",
+    "Option3": "sass input.scss output.css -c",
+    "Option4": "sass compress input.scss output.css",
+    "Answer": "sass input.scss output.css --style compressed"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the command to generate source maps during compilation?",
+    "Option1": "sass input.scss output.css --source-map",
+    "Option2": "sass input.scss output.css -m",
+    "Option3": "sass input.scss output.css --map",
+    "Option4": "sass input.scss output.css --enable-source-map",
+    "Answer": "sass input.scss output.css --source-map"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Built-in Modules' in Sass?",
+    "Option1": "Modules that come with CSS.",
+    "Option2": "Predefined Sass modules (e.g., `sass:math`, `sass:color`, `sass:string`, `sass:list`, `sass:map`, `sass:selector`, `sass:meta`) that provide common functions and mixins.",
+    "Option3": "Modules that are automatically included in every project.",
+    "Option4": "Modules created by the Sass community.",
+    "Answer": "Predefined Sass modules (e.g., `sass:math`, `sass:color`, `sass:string`, `sass:list`, `sass:map`, `sass:selector`, `sass:meta`) that provide common functions and mixins."
+  },
+  {
+    "question_no.": 177,
+    "Question": "How do you use a built-in Sass module like `sass:color`?",
+    "Option1": "@include color.lighten(blue, 10%);",
+    "Option2": "color.lighten(blue, 10%);",
+    "Option3": "@use 'color'; color.lighten(blue, 10%);",
+    "Option4": "@use 'sass:color'; @include color.lighten(blue, 10%);",
+    "Answer": "@use 'sass:color'; @include color.lighten(blue, 10%);"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `sass:math` module for?",
+    "Option1": "For performing basic arithmetic operations only.",
+    "Option2": "Provides advanced mathematical functions like `pow()`, `sqrt()`, `sin()`, `cos()`, `tan()`, `round()`, `ceil()`, `floor()`.",
+    "Option3": "For converting units only.",
+    "Option4": "For checking data types.",
+    "Answer": "Provides advanced mathematical functions like `pow()`, `sqrt()`, `sin()`, `cos()`, `tan()`, `round()`, `ceil()`, `floor()`."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `sass:selector` module for?",
+    "Option1": "For creating new selectors.",
+    "Option2": "Provides functions for manipulating and combining selectors, useful in advanced mixins or when working with dynamic selectors.",
+    "Option3": "For validating selector syntax.",
+    "Option4": "For converting selectors to strings.",
+    "Answer": "Provides functions for manipulating and combining selectors, useful in advanced mixins or when working with dynamic selectors."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `sass:meta` module for?",
+    "Option1": "For defining metadata for stylesheets.",
+    "Option2": "Provides functions for inspecting and querying Sass's internal state, such as checking if a function or mixin exists, getting argument lists, or determining data types.",
+    "Option3": "For generating meta tags in HTML.",
+    "Option4": "For optimizing compiled CSS.",
+    "Answer": "Provides functions for inspecting and querying Sass's internal state, such as checking if a function or mixin exists, getting argument lists, or determining data types."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is the `get-function()` function (from `sass:meta`) used for?",
+    "Option1": "To execute a function.",
+    "Option2": "To retrieve a function by its name, allowing for dynamic function calls or inspection.",
+    "Option3": "To get the name of the current function.",
+    "Option4": "To check if a function is defined.",
+    "Answer": "To retrieve a function by its name, allowing for dynamic function calls or inspection."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Passing Content Blocks to Mixins' (`@content`)?",
+    "Option1": "Passing arguments to a mixin.",
+    "Option2": "Allows a mixin to receive a block of styles or content and then inject that content into its own output, providing a powerful way to create flexible wrappers.",
+    "Option3": "Passing only variables to a mixin.",
+    "Option4": "Passing only HTML content.",
+    "Answer": "Allows a mixin to receive a block of styles or content and then inject that content into its own output, providing a powerful way to create flexible wrappers."
+  },
+  {
+    "question_no.": 183,
+    "Question": "How do you use `@content` in a mixin?",
+    "Option1": "@mixin wrapper { /* styles */ @content; }",
+    "Option2": "@mixin wrapper { /* styles */ include content; }",
+    "Option3": "@mixin wrapper(content) { /* styles */ content; }",
+    "Option4": "mixin wrapper { /* styles */ yield; }",
+    "Answer": "@mixin wrapper { /* styles */ @content; }"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Placeholders and `@extend`' (revisited)?",
+    "Option1": "They are only for defining mixins.",
+    "Option2": "Placeholder selectors (e.g., `%button-base`) are specifically designed to be extended by other selectors, preventing them from being compiled into standalone CSS unless extended.",
+    "Option3": "They define styles that are always outputted.",
+    "Option4": "They are a type of variable.",
+    "Answer": "Placeholder selectors (e.g., `%button-base`) are specifically designed to be extended by other selectors, preventing them from being compiled into standalone CSS unless extended."
+  },
+  {
+    "question_no.": 185,
+    "Question": "When should you prefer `@extend` over `@mixin` for code reuse?",
+    "Option1": "Always prefer mixins for flexibility.",
+    "Option2": "Prefer `@extend` when sharing common sets of properties that result in the same CSS output, leading to smaller, more efficient CSS. Prefer `@mixin` when duplicating styles with variations (arguments).",
+    "Option3": "Prefer `@extend` for dynamic styles.",
+    "Option4": "Prefer `@extend` for single-use styles.",
+    "Answer": "Prefer `@extend` when sharing common sets of properties that result in the same CSS output, leading to smaller, more efficient CSS. Prefer `@mixin` when duplicating styles with variations (arguments)."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Sass Deprecations'?",
+    "Option1": "Features that are no longer working.",
+    "Option2": "Warnings issued by the Sass compiler for features or syntax that are being phased out, encouraging developers to update their code to newer, more future-proof alternatives.",
+    "Option3": "Features that are only available in older versions.",
+    "Option4": "Features that are recommended for use.",
+    "Answer": "Warnings issued by the Sass compiler for features or syntax that are being phased out, encouraging developers to update their code to newer, more future-proof alternatives."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is the `@import` deprecation?",
+    "Option1": "It's being removed from CSS.",
+    "Option2": "The `@import` rule in Sass is deprecated in favor of `@use` and `@forward` due to its global nature and lack of explicit dependencies, leading to potential issues in large projects.",
+    "Option3": "It's only deprecated in older Sass compilers.",
+    "Option4": "It's only deprecated for external URLs.",
+    "Answer": "The `@import` rule in Sass is deprecated in favor of `@use` and `@forward` due to its global nature and lack of explicit dependencies, leading to potential issues in large projects."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Sass `--json` option' for the CLI?",
+    "Option1": "Outputs CSS as JSON.",
+    "Option2": "An option to output Sass compilation warnings and errors in JSON format, useful for programmatic processing or integration with other tools.",
+    "Option3": "Allows input of JSON data into Sass.",
+    "Option4": "Not a valid Sass CLI option.",
+    "Answer": "An option to output Sass compilation warnings and errors in JSON format, useful for programmatic processing or integration with other tools."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Error Handling' in Sass (related to `@error`)?",
+    "Option1": "Sass automatically fixes all errors.",
+    "Option2": "The `@error` directive allows developers to throw custom errors during compilation, providing immediate feedback for invalid usage of mixins or functions.",
+    "Option3": "Errors are only reported to the console.",
+    "Option4": "Errors only occur due to syntax mistakes.",
+    "Answer": "The `@error` directive allows developers to throw custom errors during compilation, providing immediate feedback for invalid usage of mixins or functions."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Sass Map Key Validation'?",
+    "Option1": "Automatically handled by Sass.",
+    "Option2": "While Sass maps are flexible, it's good practice to use `@if` or `map-has-key()` functions to validate keys when accessing map values, preventing unexpected errors.",
+    "Option3": "Not necessary, Sass is type-safe.",
+    "Option4": "Only applies to string keys.",
+    "Answer": "While Sass maps are flexible, it's good practice to use `@if` or `map-has-key()` functions to validate keys when accessing map values, preventing unexpected errors."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Functions for Calculations'?",
+    "Option1": "Only basic arithmetic.",
+    "Option2": "Creating custom Sass functions to encapsulate complex calculations (e.g., responsive font sizes, grid column widths) and reuse them throughout the stylesheet.",
+    "Option3": "Functions that automatically solve mathematical problems.",
+    "Option4": "Functions that are only for debugging numbers.",
+    "Answer": "Creating custom Sass functions to encapsulate complex calculations (e.g., responsive font sizes, grid column widths) and reuse them throughout the stylesheet."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Dynamic Selectors' using interpolation?",
+    "Option1": "Selectors that change in the browser.",
+    "Option2": "Constructing parts of CSS selectors using Sass variables or expressions with interpolation (`#{} `), enabling highly flexible and programmatic selector generation.",
+    "Option3": "Selectors that are only used in JavaScript.",
+    "Option4": "Selectors that are always global.",
+    "Answer": "Constructing parts of CSS selectors using Sass variables or expressions with interpolation (`#{} `), enabling highly flexible and programmatic selector generation."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'String Interpolation'?",
+    "Option1": "Adding comments to strings.",
+    "Option2": "Embedding expressions within string literals using `#{}` to dynamically build string values for properties or other purposes.",
+    "Option3": "Concatenating two strings directly.",
+    "Option4": "Converting a string to a number.",
+    "Answer": "Embedding expressions within string literals using `#{}` to dynamically build string values for properties or other purposes."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'URL Interpolation'?",
+    "Option1": "Changing URLs in the browser.",
+    "Option2": "Using `#{}` within `url()` values to dynamically construct image paths or other URLs based on Sass variables or logic.",
+    "Option3": "Embedding external web pages.",
+    "Option4": "Validating URL formats.",
+    "Answer": "Using `#{}` within `url()` values to dynamically construct image paths or other URLs based on Sass variables or logic."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Sass and Design Systems'?",
+    "Option1": "Sass is a design system itself.",
+    "Option2": "Sass is a powerful tool for implementing and maintaining design systems by providing features for consistent branding (variables), reusable components (mixins), and scalable architecture (modules).",
+    "Option3": "Sass replaces the need for design systems.",
+    "Option4": "Sass is only for small-scale design.",
+    "Answer": "Sass is a powerful tool for implementing and maintaining design systems by providing features for consistent branding (variables), reusable components (mixins), and scalable architecture (modules)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "How do mixins support design systems?",
+    "Option1": "By providing static, unchangeable styles.",
+    "Option2": "By allowing reusable blocks of styles for UI components, ensuring consistency across the entire system and reducing duplication.",
+    "Option3": "By automatically generating design assets.",
+    "Option4": "By enforcing specific design tools.",
+    "Answer": "By allowing reusable blocks of styles for UI components, ensuring consistency across the entire system and reducing duplication."
+  },
+  {
+    "question_no.": 197,
+    "Question": "How do Sass maps support design systems?",
+    "Option1": "They are primarily used for layout.",
+    "Option2": "By storing design tokens (colors, fonts, spacing) as key-value pairs, making it easy to manage and update design properties centrally.",
+    "Option3": "They generate random design elements.",
+    "Option4": "They define the structure of design files.",
+    "Answer": "By storing design tokens (colors, fonts, spacing) as key-value pairs, making it easy to manage and update design properties centrally."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Sass and UI Frameworks' (e.g., Bootstrap, Foundation)?",
+    "Option1": "They are built on different technologies.",
+    "Option2": "Many UI frameworks are built with Sass, allowing for extensive customization through Sass variables and mixins, enabling developers to tailor the framework to their project's design.",
+    "Option3": "Sass is only for building custom frameworks.",
+    "Option4": "Sass replaces the need for UI frameworks.",
+    "Answer": "Many UI frameworks are built with Sass, allowing for extensive customization through Sass variables and mixins, enabling developers to tailor the framework to their project's design."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'The `@at-root` directive'?",
+    "Option1": "To move a selector to the root of the HTML document.",
+    "Option2": "Removes a nested selector from its parent, placing it at the root of the CSS document, useful for breaking out specific styles from deep nesting.",
+    "Option3": "To create a global variable.",
+    "Option4": "To define a mixin at the root level.",
+    "Answer": "Removes a nested selector from its parent, placing it at the root of the CSS document, useful for breaking out specific styles from deep nesting."
+  },
+  {
+    "question_no.": 200,
+    "Question": "When might `@at-root` be useful?",
+    "Option1": "When you want to keep all styles nested.",
+    "Option2": "When a specific nested style needs to be globally applied or when you want to avoid overly specific selectors from deep nesting for certain elements.",
+    "Option3": "When defining basic element styles.",
+    "Option4": "When using only variables.",
+    "Answer": "When a specific nested style needs to be globally applied or when you want to avoid overly specific selectors from deep nesting for certain elements."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Sass and JavaScript Interoperability'?",
+    "Option1": "Sass directly calls JavaScript functions.",
+    "Option2": "While Sass doesn't execute JavaScript, it can be integrated into JavaScript-based build pipelines (e.g., Webpack, Gulp) where JS tools compile Sass, or JS can read/write CSS Custom Properties defined by Sass.",
+    "Option3": "Sass variables are directly accessible in JavaScript.",
+    "Option4": "Sass generates JavaScript files.",
+    "Answer": "While Sass doesn't execute JavaScript, it can be integrated into JavaScript-based build pipelines (e.g., Webpack, Gulp) where JS tools compile Sass, or JS can read/write CSS Custom Properties defined by Sass."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Can JavaScript directly access Sass variables?",
+    "Option1": "Yes, by default.",
+    "Option2": "No, because Sass variables are compiled away into static CSS values and do not exist at runtime in the browser.",
+    "Option3": "Only if using a special library.",
+    "Option4": "Only if the variables are global.",
+    "Answer": "No, because Sass variables are compiled away into static CSS values and do not exist at runtime in the browser."
+  },
+  {
+    "question_no.": 203,
+    "Question": "How can Sass values be exposed to JavaScript?",
+    "Option1": "By embedding JavaScript directly into Sass.",
+    "Option2": "By outputting Sass variables as CSS Custom Properties, which JavaScript can then read and manipulate at runtime.",
+    "Option3": "By compiling Sass to JavaScript.",
+    "Option4": "By using a special Sass function to export values.",
+    "Answer": "By outputting Sass variables as CSS Custom Properties, which JavaScript can then read and manipulate at runtime."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Sass Maps for Breakpoints'?",
+    "Option1": "Defining individual variables for each breakpoint.",
+    "Option2": "Storing all responsive breakpoints as key-value pairs in a Sass map, making it easy to iterate through them and apply styles for different screen sizes.",
+    "Option3": "Only for setting global breakpoint values.",
+    "Option4": "Automatically generating breakpoints based on content.",
+    "Answer": "Storing all responsive breakpoints as key-value pairs in a Sass map, making it easy to iterate through them and apply styles for different screen sizes."
+  },
+  {
+    "question_no.": 205,
+    "Question": "How can a Sass map of breakpoints be iterated over?",
+    "Option1": "Using a `@for` loop.",
+    "Option2": "Using an `@each` loop to access each breakpoint name and value, typically within a mixin that generates media queries.",
+    "Option3": "Using an `@while` loop.",
+    "Option4": "Using a standard JavaScript loop.",
+    "Answer": "Using an `@each` loop to access each breakpoint name and value, typically within a mixin that generates media queries."
+  }
+]

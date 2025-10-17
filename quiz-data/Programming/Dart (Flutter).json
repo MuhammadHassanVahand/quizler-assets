@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What programming language is Flutter primarily built with?",
+    "Option1": "Java",
+    "Option2": "Kotlin",
+    "Option3": "Dart",
+    "Option4": "Swift",
+    "Answer": "Dart"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is Flutter?",
+    "Option1": "A mobile operating system.",
+    "Option2": "A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase.",
+    "Option3": "A database management system.",
+    "Option4": "A backend framework.",
+    "Answer": "A UI toolkit for building natively compiled applications for mobile, web, and desktop from a single codebase."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the main advantage of using Flutter for app development?",
+    "Option1": "It only supports iOS applications.",
+    "Option2": "It uses native UI components directly.",
+    "Option3": "Single codebase for multiple platforms (iOS, Android, Web, Desktop).",
+    "Option4": "It's slower than native development.",
+    "Answer": "Single codebase for multiple platforms (iOS, Android, Web, Desktop)."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is a 'widget' in Flutter?",
+    "Option1": "A type of database.",
+    "Option2": "A fundamental building block of a Flutter app's user interface, representing a part of the UI.",
+    "Option3": "A network protocol.",
+    "Option4": "A debugging tool.",
+    "Answer": "A fundamental building block of a Flutter app's user interface, representing a part of the UI."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What are the two main types of widgets in Flutter?",
+    "Option1": "Functional and Class Widgets",
+    "Option2": "Stateful and Stateless Widgets",
+    "Option3": "Input and Output Widgets",
+    "Option4": "Dynamic and Static Widgets",
+    "Answer": "Stateful and Stateless Widgets"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is a 'StatelessWidget'?",
+    "Option1": "A widget that can change its state during runtime.",
+    "Option2": "A widget that describes part of the user interface which does not depend on anything other than the configuration information when the widget was created.",
+    "Option3": "A widget that is always visible.",
+    "Option4": "A widget used for network requests.",
+    "Answer": "A widget that describes part of the user interface which does not depend on anything other than the configuration information when the widget was created."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is a 'StatefulWidget'?",
+    "Option1": "A widget whose state cannot change after it's built.",
+    "Option2": "A widget that describes part of the user interface which can change dynamically during its lifetime.",
+    "Option3": "A widget that has no visual representation.",
+    "Option4": "A widget used for static content only.",
+    "Answer": "A widget that describes part of the user interface which can change dynamically during its lifetime."
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which method is called when a StatelessWidget is built?",
+    "Option1": "init",
+    "Option2": "createState",
+    "Option3": "build",
+    "Option4": "dispose",
+    "Answer": "build"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which method is responsible for building the UI of a StatefulWidget?",
+    "Option1": "createState",
+    "Option2": "init",
+    "Option3": "build",
+    "Option4": "update",
+    "Answer": "build"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the purpose of the `setState()` method in Flutter?",
+    "Option1": "To rebuild a StatelessWidget.",
+    "Option2": "To notify the Flutter framework that the internal state of a StatefulWidget has changed and that it should be rebuilt.",
+    "Option3": "To change the app's theme.",
+    "Option4": "To navigate to a new screen.",
+    "Answer": "To notify the Flutter framework that the internal state of a StatefulWidget has changed and that it should be rebuilt."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is 'Hot Reload' in Flutter?",
+    "Option1": "A feature that restarts the entire application.",
+    "Option2": "A feature that allows developers to inject updated source code into a running application, instantly seeing the changes without losing the current application state.",
+    "Option3": "A feature for compiling the app to native code.",
+    "Option4": "A tool for debugging network requests.",
+    "Answer": "A feature that allows developers to inject updated source code into a running application, instantly seeing the changes without losing the current application state."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'Hot Restart' in Flutter?",
+    "Option1": "A feature that saves the current app state.",
+    "Option2": "A feature that fully restarts the application, losing all current state, but typically faster than a full recompile.",
+    "Option3": "A feature for debugging errors without restarting.",
+    "4": "A tool for code analysis.",
+    "Answer": "A feature that fully restarts the application, losing all current state, but typically faster than a full recompile."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the `main()` function's role in a Flutter app?",
+    "Option1": "It defines the main UI layout.",
+    "Option2": "It is the entry point of the Flutter application.",
+    "Option3": "It handles user input.",
+    "4": "It performs network requests.",
+    "Answer": "It is the entry point of the Flutter application."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the purpose of `runApp()` in Flutter?",
+    "Option1": "To create a new widget.",
+    "Option2": "To attach the given widget to the screen and make it the root of the widget tree.",
+    "Option3": "To compile the Dart code.",
+    "4": "To manage application state.",
+    "Answer": "To attach the given widget to the screen and make it the root of the widget tree."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'BuildContext' in Flutter?",
+    "Option1": "A property of a Stateless Widget only.",
+    "Option2": "A handle to the location of a widget in the widget tree, allowing widgets to locate other widgets in the tree and interact with them.",
+    "Option3": "A context for database operations.",
+    "4": "A build configuration file.",
+    "Answer": "A handle to the location of a widget in the widget tree, allowing widgets to locate other widgets in the tree and interact with them."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'Scaffold' widget used for in Flutter?",
+    "Option1": "To display a simple text.",
+    "Option2": "To provide a basic visual structure for Material Design apps, including features like AppBar, Drawer, SnackBar, and FloatingActionButton.",
+    "Option3": "To create custom animations.",
+    "4": "To handle user gestures.",
+    "Answer": "To provide a basic visual structure for Material Design apps, including features like AppBar, Drawer, SnackBar, and FloatingActionButton."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is an 'AppBar' in Flutter?",
+    "Option1": "A widget that displays a list of items.",
+    "Option2": "A Material Design app bar that typically appears at the top of a screen, containing the title, actions, and sometimes leading/trailing widgets.",
+    "Option3": "A widget for displaying images.",
+    "4": "A widget for user input.",
+    "Answer": "A Material Design app bar that typically appears at the top of a screen, containing the title, actions, and sometimes leading/trailing widgets."
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you navigate to a new screen (route) in Flutter?",
+    "Option1": "Using `Navigator.pop()`.",
+    "Option2": "Using `Navigator.push()`.",
+    "Option3": "Using `setState()`.",
+    "4": "Using `build()`.",
+    "Answer": "Using `Navigator.push()`."
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you go back to the previous screen in Flutter?",
+    "Option1": "Using `Navigator.push()`.",
+    "Option2": "Using `Navigator.pop()`.",
+    "Option3": "Using `setState()`.",
+    "4": "Using `dispose()`.",
+    "Answer": "Using `Navigator.pop()`."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'pubspec.yaml' used for in Flutter?",
+    "Option1": "Storing user data.",
+    "Option2": "A project configuration file that specifies project dependencies, metadata, and assets.",
+    "Option3": "Defining UI layouts.",
+    "4": "Compiling Dart code.",
+    "Answer": "A project configuration file that specifies project dependencies, metadata, and assets."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'package' in Dart/Flutter?",
+    "Option1": "A single Dart file.",
+    "Option2": "A directory containing Dart code, resources, and a pubspec.yaml file, intended for distribution and reuse.",
+    "Option3": "A compiled executable.",
+    "4": "A UI component.",
+    "Answer": "A directory containing Dart code, resources, and a pubspec.yaml file, intended for distribution and reuse."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'plugin' in Flutter?",
+    "Option1": "A pure Dart package.",
+    "Option2": "A special kind of package that contains platform-specific code (e.g., Swift/Objective-C for iOS, Java/Kotlin for Android) to interact with native functionalities.",
+    "Option3": "A UI widget.",
+    "4": "A backend service.",
+    "Answer": "A special kind of package that contains platform-specific code (e.g., Swift/Objective-C for iOS, Java/Kotlin for Android) to interact with native functionalities."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the `mainAxisAlignment` property used for in a `Row` or `Column` widget?",
+    "Option1": "To align children along the cross axis.",
+    "Option2": "To align children along the main axis (e.g., horizontally for a Row, vertically for a Column).",
+    "Option3": "To set the background color.",
+    "4": "To add padding to the children.",
+    "Answer": "To align children along the main axis (e.g., horizontally for a Row, vertically for a Column)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the `crossAxisAlignment` property used for in a `Row` or `Column` widget?",
+    "Option1": "To align children along the main axis.",
+    "Option2": "To align children along the cross axis (e.g., vertically for a Row, horizontally for a Column).",
+    "Option3": "To set the height of the widget.",
+    "4": "To control the spacing between children.",
+    "Answer": "To align children along the cross axis (e.g., vertically for a Row, horizontally for a Column)."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the purpose of the `Padding` widget?",
+    "Option1": "To add margin around a widget.",
+    "Option2": "To add empty space around a widget, inside its border.",
+    "Option3": "To change the color of a widget.",
+    "4": "To make a widget clickable.",
+    "Answer": "To add empty space around a widget, inside its border."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of the `Margin` (achieved with `Container` or `SizedBox`)?",
+    "Option1": "To add space inside a widget's border.",
+    "Option2": "To add empty space outside a widget's border, separating it from other widgets.",
+    "Option3": "To set the size of a widget.",
+    "4": "To align text.",
+    "Answer": "To add empty space outside a widget's border, separating it from other widgets."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a `Container` widget typically used for?",
+    "Option1": "To display a simple image.",
+    "Option2": "A convenience widget that combines common painting, positioning, and sizing widgets, often used for decorative purposes or to hold a single child widget with styling.",
+    "Option3": "To handle user input.",
+    "4": "To create a list of scrollable items.",
+    "Answer": "A convenience widget that combines common painting, positioning, and sizing widgets, often used for decorative purposes or to hold a single child widget with styling."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `Text` widget used for?",
+    "Option1": "To display images.",
+    "Option2": "To display a string of text with a single style.",
+    "Option3": "To play audio.",
+    "4": "To draw shapes.",
+    "Answer": "To display a string of text with a single style."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is `Image.asset` used for?",
+    "Option1": "To load images from the internet.",
+    "Option2": "To load images stored locally within the application's assets folder.",
+    "Option3": "To display network images.",
+    "4": "To capture images from the camera.",
+    "Answer": "To load images stored locally within the application's assets folder."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `Image.network` used for?",
+    "Option1": "To load images from the local file system.",
+    "Option2": "To load images from a given URL on the internet.",
+    "Option3": "To display images from device gallery.",
+    "4": "To draw vector graphics.",
+    "Answer": "To load images from a given URL on the internet."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is `ListView` used for?",
+    "Option1": "To display a single item.",
+    "Option2": "To display a scrollable, linear list of widgets.",
+    "Option3": "To create a grid layout.",
+    "4": "To handle button clicks.",
+    "Answer": "To display a scrollable, linear list of widgets."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `GridView` used for?",
+    "Option1": "To display a linear list.",
+    "Option2": "To display a scrollable, 2D array of widgets.",
+    "Option3": "To show a single large image.",
+    "4": "To create a form.",
+    "Answer": "To display a scrollable, 2D array of widgets."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the purpose of `Expanded` widget?",
+    "Option1": "To make a widget fixed size.",
+    "Option2": "To expand a child of a `Row`, `Column`, or `Flex` so that the child fills the available space along the main axis.",
+    "Option3": "To add padding to a widget.",
+    "4": "To make a widget non-flexible.",
+    "Answer": "To expand a child of a `Row`, `Column`, or `Flex` so that the child fills the available space along the main axis."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the purpose of `Flexible` widget?",
+    "Option1": "To make a child always take maximum space.",
+    "Option2": "To give a child of a `Row`, `Column`, or `Flex` the ability to fill space in the main axis, but unlike `Expanded`, it does not force the child to fill the available space completely.",
+    "Option3": "To add a border around a widget.",
+    "4": "To control the widget's color.",
+    "Answer": "To give a child of a `Row`, `Column`, or `Flex` the ability to fill space in the main axis, but unlike `Expanded`, it does not force the child to fill the available space completely."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is `StatelessWidget`'s lifecycle method?",
+    "Option1": "createState",
+    "Option2": "initState",
+    "Option3": "build",
+    "Option4": "dispose",
+    "Answer": "build"
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which of these is NOT a lifecycle method of a `State` object in a `StatefulWidget`?",
+    "Option1": "initState",
+    "Option2": "dispose",
+    "Option3": "createState",
+    "4": "didChangeDependencies",
+    "Answer": "createState"
+  },
+  {
+    "question_no.": 37,
+    "Question": "When is `initState()` called in a StatefulWidget?",
+    "Option1": "Every time `setState()` is called.",
+    "Option2": "Once when the widget is inserted into the widget tree.",
+    "Option3": "When the widget is removed from the tree.",
+    "4": "Before `build()` method every time.",
+    "Answer": "Once when the widget is inserted into the widget tree."
+  },
+  {
+    "question_no.": 38,
+    "Question": "When is `dispose()` called in a StatefulWidget?",
+    "Option1": "When the widget is first created.",
+    "Option2": "When the widget is removed from the widget tree permanently.",
+    "Option3": "Every time `setState()` is called.",
+    "4": "Before the `build()` method.",
+    "Answer": "When the widget is removed from the widget tree permanently."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the purpose of `MaterialApp` widget?",
+    "Option1": "To display a simple text.",
+    "Option2": "A convenience widget that wraps a number of widgets that are commonly required for Material Design applications.",
+    "Option3": "To manage application state.",
+    "4": "To handle network requests.",
+    "Answer": "A convenience widget that wraps a number of widgets that are commonly required for Material Design applications."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the purpose of `CupertinoApp` widget?",
+    "Option1": "To provide Material Design aesthetics.",
+    "Option2": "A convenience widget that wraps a number of widgets that are commonly required for iOS-style (Cupertino) applications.",
+    "Option3": "To manage application state.",
+    "4": "To handle network requests.",
+    "Answer": "A convenience widget that wraps a number of widgets that are commonly required for iOS-style (Cupertino) applications."
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you define custom fonts in a Flutter app?",
+    "Option1": "By directly referencing them in `Text` widgets.",
+    "Option2": "By declaring them in `pubspec.yaml` and then using `ThemeData` or `TextStyle`.",
+    "Option3": "By placing font files in the `lib` folder.",
+    "4": "Flutter automatically finds all fonts.",
+    "Answer": "By declaring them in `pubspec.yaml` and then using `ThemeData` or `TextStyle`."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the `main` axis for a `Row` widget?",
+    "Option1": "Vertical",
+    "Option2": "Horizontal",
+    "Option3": "Diagonal",
+    "4": "None of the above",
+    "Answer": "Horizontal"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the `main` axis for a `Column` widget?",
+    "Option1": "Horizontal",
+    "Option2": "Vertical",
+    "Option3": "Diagonal",
+    "4": "None of the above",
+    "Answer": "Vertical"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the purpose of the `Image.file` constructor?",
+    "Option1": "To load images from a network URL.",
+    "Option2": "To load images from a specified file path on the device's file system.",
+    "Option3": "To load images from the app's assets.",
+    "4": "To draw SVG images.",
+    "Answer": "To load images from a specified file path on the device's file system."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `async` and `await` used for in Dart?",
+    "Option1": "For synchronous operations.",
+    "Option2": "For handling asynchronous operations, making asynchronous code look and behave more like synchronous code, improving readability.",
+    "Option3": "For defining classes.",
+    "4": "For declaring variables.",
+    "Answer": "For handling asynchronous operations, making asynchronous code look and behave more like synchronous code, improving readability."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What does a `Future` represent in Dart?",
+    "Option1": "A value that is available immediately.",
+    "Option2": "An object representing a potential value or error that will be available at some time in the future.",
+    "Option3": "A historical data point.",
+    "4": "A type of loop.",
+    "Answer": "An object representing a potential value or error that will be available at some time in the future."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is an `Stream` in Dart?",
+    "Option1": "A sequence of single values.",
+    "Option2": "A sequence of asynchronous events, representing a source of potentially multiple values over time.",
+    "Option3": "A synchronous data source.",
+    "4": "A fixed list of values.",
+    "Answer": "A sequence of asynchronous events, representing a source of potentially multiple values over time."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the purpose of `FutureBuilder` widget?",
+    "Option1": "To build widgets based on synchronous data.",
+    "Option2": "To build a widget tree based on the latest snapshot of interaction with a `Future`.",
+    "Option3": "To create a list of items.",
+    "4": "To manage app navigation.",
+    "Answer": "To build a widget tree based on the latest snapshot of interaction with a `Future`."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of `StreamBuilder` widget?",
+    "Option1": "To build widgets based on static data.",
+    "Option2": "To build a widget tree based on the latest snapshot of interaction with a `Stream`.",
+    "Option3": "To handle user input events.",
+    "4": "To perform network requests.",
+    "Answer": "To build a widget tree based on the latest snapshot of interaction with a `Stream`."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'State Management' in Flutter?",
+    "Option1": "Managing the backend database.",
+    "Option2": "The process of managing and sharing the state of an application across different widgets, ensuring consistency and reactivity.",
+    "Option3": "Managing the device's battery life.",
+    "4": "Managing network connectivity.",
+    "Answer": "The process of managing and sharing the state of an application across different widgets, ensuring consistency and reactivity."
+  },
+  {
+    "question_no.": 51,
+    "Question": "Name a popular state management solution in Flutter.",
+    "Option1": "CSS",
+    "Option2": "Provider",
+    "Option3": "HTML",
+    "4": "SQL",
+    "Answer": "Provider"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Provider' in Flutter state management?",
+    "Option1": "A complex, heavy state management solution.",
+    "Option2": "A wrapper around `InheritedWidget` that makes it easier to use and more efficient for managing and accessing state throughout the widget tree.",
+    "Option3": "A method for handling animations.",
+    "4": "A widget for displaying lists.",
+    "Answer": "A wrapper around `InheritedWidget` that makes it easier to use and more efficient for managing and accessing state throughout the widget tree."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is `ChangeNotifier` in Flutter?",
+    "Option1": "A type of database.",
+    "Option2": "A class that can be extended or mixed into other classes to provide a way to notify its listeners when a change occurs, often used with `Provider`.",
+    "Option3": "A UI widget.",
+    "4": "A network client.",
+    "Answer": "A class that can be extended or mixed into other classes to provide a way to notify its listeners when a change occurs, often used with `Provider`."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `Consumer` widget used for with Provider?",
+    "Option1": "To create new state.",
+    "Option2": "To listen to changes in a `ChangeNotifier` and rebuild its widget subtree when the notified data changes.",
+    "Option3": "To provide state to the entire app.",
+    "4": "To dispose of state.",
+    "Answer": "To listen to changes in a `ChangeNotifier` and rebuild its widget subtree when the notified data changes."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is `MultiProvider` used for?",
+    "Option1": "To provide a single type of state.",
+    "Option2": "To combine multiple `Provider` widgets into a single, more readable widget tree, making it easier to manage several different types of state.",
+    "Option3": "To handle a single database connection.",
+    "4": "To create multiple instances of the same state.",
+    "Answer": "To combine multiple `Provider` widgets into a single, more readable widget tree, making it easier to manage several different types of state."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the purpose of `InheritedWidget`?",
+    "Option1": "To rebuild a widget when its state changes.",
+    "Option2": "A widget that efficiently propagates information down the widget tree, allowing descendant widgets to access data from an ancestor without passing it through constructor parameters.",
+    "Option3": "To perform network requests.",
+    "4": "To handle user gestures.",
+    "Answer": "A widget that efficiently propagates information down the widget tree, allowing descendant widgets to access data from an ancestor without passing it through constructor parameters."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is a 'key' in Flutter used for?",
+    "Option1": "To unlock app features.",
+    "Option2": "To uniquely identify widgets in the widget tree, especially when widgets of the same type are moved or reordered, helping Flutter preserve their state.",
+    "Option3": "To define constants.",
+    "4": "To encrypt data.",
+    "Answer": "To uniquely identify widgets in the widget tree, especially when widgets of the same type are moved or reordered, helping Flutter preserve their state."
+  },
+  {
+    "question_no.": 58,
+    "Question": "When should you use `GlobalKey`?",
+    "Option1": "For all widgets.",
+    "Option2": "When you need to uniquely identify a widget that can move around in the widget tree or access its state from anywhere in the app.",
+    "Option3": "Only for StatelessWidgets.",
+    "4": "Only for a single child widget.",
+    "Answer": "When you need to uniquely identify a widget that can move around in the widget tree or access its state from anywhere in the app."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a `Form` widget used for?",
+    "Option1": "To display images.",
+    "Option2": "To group and validate multiple form fields, allowing for easy management of user input.",
+    "Option3": "To play audio files.",
+    "4": "To draw custom shapes.",
+    "Answer": "To group and validate multiple form fields, allowing for easy management of user input."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `TextFormField` used for?",
+    "Option1": "To display static text.",
+    "Option2": "A Material Design text input field, providing features like validation, hints, and error messages.",
+    "Option3": "To select multiple items from a list.",
+    "4": "To display progress indicators.",
+    "Answer": "A Material Design text input field, providing features like validation, hints, and error messages."
+  },
+  {
+    "question_no.": 61,
+    "Question": "How do you validate input in a `TextFormField`?",
+    "Option1": "Using `setState()` directly.",
+    "Option2": "Using the `validator` property, which takes a function that returns a string (error message) if the input is invalid, or null if valid.",
+    "Option3": "By checking the input in the `onChanged` callback.",
+    "4": "There is no built-in validation.",
+    "Answer": "Using the `validator` property, which takes a function that returns a string (error message) if the input is invalid, or null if valid."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the `main.dart` file in a Flutter project?",
+    "Option1": "A configuration file for dependencies.",
+    "Option2": "The entry point of the Flutter application, containing the `main()` function and the root widget.",
+    "Option3": "A file for storing images.",
+    "4": "A file for defining custom widgets.",
+    "Answer": "The entry point of the Flutter application, containing the `main()` function and the root widget."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the purpose of `debugShowCheckedModeBanner` property in `MaterialApp`?",
+    "Option1": "To show the app's version.",
+    "Option2": "To disable the 'DEBUG' banner that appears in the top-right corner of the app in debug mode.",
+    "Option3": "To display error messages on the screen.",
+    "4": "To enable debugging tools.",
+    "Answer": "To disable the 'DEBUG' banner that appears in the top-right corner of the app in debug mode."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `ThemeData` used for in Flutter?",
+    "Option1": "To define custom fonts only.",
+    "Option2": "To configure the visual properties of a Material Design app, such as colors, typography, and button styles.",
+    "Option3": "To manage network requests.",
+    "4": "To handle user authentication.",
+    "Answer": "To configure the visual properties of a Material Design app, such as colors, typography, and button styles."
+  },
+  {
+    "question_no.": 65,
+    "Question": "How can you make a widget clickable in Flutter?",
+    "Option1": "By wrapping it in a `Text` widget.",
+    "Option2": "By wrapping it in a `GestureDetector`, `InkWell`, or `ElevatedButton` (or other button widgets).",
+    "Option3": "By setting its `color` property.",
+    "4": "By adding `Text` to it.",
+    "Answer": "By wrapping it in a `GestureDetector`, `InkWell`, or `ElevatedButton` (or other button widgets)."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `GestureDetector` used for?",
+    "Option1": "To display images.",
+    "Option2": "To detect various gestures, such as taps, drags, and long presses, on its child widget.",
+    "Option3": "To perform network requests.",
+    "4": "To manage app state.",
+    "Answer": "To detect various gestures, such as taps, drags, and long presses, on its child widget."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `InkWell` used for?",
+    "Option1": "To create a non-clickable area.",
+    "Option2": "A rectangular area of a Material Design app that responds to touch, providing visual ink reactions (splashes) on tap.",
+    "Option3": "To display a progress indicator.",
+    "4": "To draw custom shapes.",
+    "Answer": "A rectangular area of a Material Design app that responds to touch, providing visual ink reactions (splashes) on tap."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `ElevatedButton`?",
+    "Option1": "A button with no elevation.",
+    "Option2": "A Material Design button that has an elevated appearance and responds to presses.",
+    "Option3": "A text input field.",
+    "4": "A switch.",
+    "Answer": "A Material Design button that has an elevated appearance and responds to presses."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a `Column` widget?",
+    "Option1": "A widget that arranges its children horizontally.",
+    "Option2": "A widget that arranges its children vertically.",
+    "Option3": "A widget that displays a single child.",
+    "4": "A widget that creates a grid layout.",
+    "Answer": "A widget that arranges its children vertically."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is a `Row` widget?",
+    "Option1": "A widget that arranges its children vertically.",
+    "Option2": "A widget that arranges its children horizontally.",
+    "Option3": "A widget that displays text.",
+    "4": "A widget that handles user input.",
+    "Answer": "A widget that arranges its children horizontally."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `Stack` widget used for?",
+    "Option1": "To arrange widgets linearly.",
+    "Option2": "To position children relative to the edges of its box, allowing widgets to be layered on top of each other.",
+    "Option3": "To create a scrollable list.",
+    "4": "To manage state.",
+    "Answer": "To position children relative to the edges of its box, allowing widgets to be layered on top of each other."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `Align` widget used for?",
+    "Option1": "To size a widget.",
+    "Option2": "To align its child within itself and optionally size itself based on the child's size.",
+    "Option3": "To add padding.",
+    "4": "To apply color.",
+    "Answer": "To align its child within itself and optionally size itself based on the child's size."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `Center` widget used for?",
+    "Option1": "To align a widget to the top-left.",
+    "Option2": "To center its child within itself.",
+    "Option3": "To add a border.",
+    "4": "To change text style.",
+    "Answer": "To center its child within itself."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the `Spacer` widget used for?",
+    "Option1": "To add a fixed amount of space.",
+    "Option2": "To create empty space that fills available space in a `Flex` container (like `Row` or `Column`) by taking a `flex` factor.",
+    "Option3": "To change the color of a widget.",
+    "4": "To display an image.",
+    "Answer": "To create empty space that fills available space in a `Flex` container (like `Row` or `Column`) by taking a `flex` factor."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of `SizedBox`?",
+    "Option1": "To create a flexible box.",
+    "Option2": "To create a box with a specified width and/or height, useful for adding fixed spacing or enforcing widget dimensions.",
+    "Option3": "To display text.",
+    "4": "To manage state.",
+    "Answer": "To create a box with a specified width and/or height, useful for adding fixed spacing or enforcing widget dimensions."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `Expanded`'s relationship with `flex` property?",
+    "Option1": "It does not use `flex`.",
+    "Option2": "It internally uses `flex` to determine how much space it takes relative to other flexible widgets in a `Row` or `Column`.",
+    "Option3": "It always takes a `flex` of 1.",
+    "4": "It only works without `flex`.",
+    "Answer": "It internally uses `flex` to determine how much space it takes relative to other flexible widgets in a `Row` or `Column`."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `MediaQuery` used for?",
+    "Option1": "To play media files.",
+    "Option2": "To query the media (e.g., screen size, orientation, pixel ratio, keyboard visibility) of the current context, allowing responsive UI design.",
+    "Option3": "To manage audio settings.",
+    "4": "To interact with the camera.",
+    "Answer": "To query the media (e.g., screen size, orientation, pixel ratio, keyboard visibility) of the current context, allowing responsive UI design."
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you access the device's screen width in Flutter?",
+    "Option1": "Using `device.width`.",
+    "Option2": "Using `MediaQuery.of(context).size.width`.",
+    "Option3": "Using `screen.width`.",
+    "4": "Flutter does not provide screen size information.",
+    "Answer": "Using `MediaQuery.of(context).size.width`."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `CircularProgressIndicator` used for?",
+    "Option1": "To display a fixed message.",
+    "Option2": "To show progress along a circle, typically indicating that a task is ongoing and indeterminate.",
+    "Option3": "To display an image.",
+    "4": "To create a button.",
+    "Answer": "To show progress along a circle, typically indicating that a task is ongoing and indeterminate."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `LinearProgressIndicator` used for?",
+    "Option1": "To show progress in a circular motion.",
+    "Option2": "To show progress along a line, typically indicating that a task is ongoing and indeterminate.",
+    "Option3": "To display static text.",
+    "4": "To play a sound effect.",
+    "Answer": "To show progress along a line, typically indicating that a task is ongoing and indeterminate."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `SnackBar` used for?",
+    "Option1": "To display a permanent message.",
+    "Option2": "To display a brief message at the bottom of the screen, providing feedback to the user and optionally an action button.",
+    "Option3": "To show a full-screen dialog.",
+    "4": "To navigate between screens.",
+    "Answer": "To display a brief message at the bottom of the screen, providing feedback to the user and optionally an action button."
+  },
+  {
+    "question_no.": 82,
+    "Question": "How do you show a `SnackBar`?",
+    "Option1": "By calling `Scaffold.of(context).showSnackBar()`.",
+    "Option2": "By calling `Navigator.push()`.",
+    "Option3": "By directly building it in the widget tree.",
+    "4": "By using `setState()`.",
+    "Answer": "By calling `Scaffold.of(context).showSnackBar()`."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `AlertDialog` used for?",
+    "Option1": "To show a small toast message.",
+    "Option2": "To inform the user about a situation that requires acknowledgment and can optionally offer choices.",
+    "Option3": "To display a scrollable list.",
+    "4": "To create a bottom navigation bar.",
+    "Answer": "To inform the user about a situation that requires acknowledgment and can optionally offer choices."
+  },
+  {
+    "question_no.": 84,
+    "Question": "How do you show an `AlertDialog`?",
+    "Option1": "By calling `setState()`.",
+    "Option2": "By calling `showDialog(context: context, builder: ...)`.",
+    "Option3": "By wrapping it in a `Text` widget.",
+    "4": "By pushing a new route using `Navigator.push()`.",
+    "Answer": "By calling `showDialog(context: context, builder: ...)`."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `GestureDetector`'s `onTap` property used for?",
+    "Option1": "To detect a long press.",
+    "Option2": "To specify a callback function to be executed when the widget is tapped.",
+    "Option3": "To detect dragging.",
+    "4": "To change the widget's color.",
+    "Answer": "To specify a callback function to be executed when the widget is tapped."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the `leading` property of `AppBar` used for?",
+    "Option1": "To define actions on the right side.",
+    "Option2": "To place a widget at the beginning of the app bar, typically an icon or a back button.",
+    "Option3": "To set the title of the app bar.",
+    "4": "To add a search bar.",
+    "Answer": "To place a widget at the beginning of the app bar, typically an icon or a back button."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the `actions` property of `AppBar` used for?",
+    "Option1": "To set the app bar title.",
+    "Option2": "To place a list of widgets (typically `IconButton`s) at the end of the app bar, usually on the right side.",
+    "Option3": "To add a back button.",
+    "4": "To customize the app bar's background color.",
+    "Answer": "To place a list of widgets (typically `IconButton`s) at the end of the app bar, usually on the right side."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `FloatingActionButton` used for?",
+    "Option1": "To display simple text.",
+    "Option2": "A Material Design button that floats above the content, representing the primary action on a screen.",
+    "Option3": "To display a list of items.",
+    "4": "To manage application navigation.",
+    "Answer": "A Material Design button that floats above the content, representing the primary action on a screen."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `Drawer` widget used for?",
+    "Option1": "To display an inline menu.",
+    "Option2": "A Material Design panel that slides in horizontally from the edge of a `Scaffold` to show navigation links in an application.",
+    "Option3": "To show a pop-up menu.",
+    "4": "To display a progress indicator.",
+    "Answer": "A Material Design panel that slides in horizontally from the edge of a `Scaffold` to show navigation links in an application."
+  },
+  {
+    "question_no.": 90,
+    "Question": "How do you open a `Drawer` programmatically?",
+    "Option1": "By calling `Navigator.push()`.",
+    "Option2": "By calling `Scaffold.of(context).openDrawer()`.",
+    "Option3": "By calling `setState()`.",
+    "4": "By creating a new widget.",
+    "Answer": "By calling `Scaffold.of(context).openDrawer()`."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `BottomNavigationBar` used for?",
+    "Option1": "To display a top menu.",
+    "Option2": "A Material Design bottom navigation bar that displays a row of persistent tabs for switching between primary destinations in an app.",
+    "Option3": "To show a dialog.",
+    "4": "To display a list of items.",
+    "Answer": "A Material Design bottom navigation bar that displays a row of persistent tabs for switching between primary destinations in an app."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `Hero` widget used for?",
+    "Option1": "To display a fixed image.",
+    "Option2": "To create a shared element transition (flight animation) between different screens, smoothly moving a widget from one screen to another.",
+    "Option3": "To manage state.",
+    "4": "To play sound effects.",
+    "Answer": "To create a shared element transition (flight animation) between different screens, smoothly moving a widget from one screen to another."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `ClipRRect` used for?",
+    "Option1": "To clip a rectangular shape.",
+    "Option2": "To clip its child using a rounded rectangle, useful for creating widgets with rounded corners.",
+    "Option3": "To clip a circular shape.",
+    "4": "To apply a custom painting.",
+    "Answer": "To clip its child using a rounded rectangle, useful for creating widgets with rounded corners."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `ClipOval` used for?",
+    "Option1": "To clip a square shape.",
+    "Option2": "To clip its child using an oval or circular shape.",
+    "Option3": "To clip a custom path.",
+    "4": "To add a shadow effect.",
+    "Answer": "To clip its child using an oval or circular shape."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `PageView` used for?",
+    "Option1": "To display a single page.",
+    "Option2": "A scrollable list that works page by page, useful for onboarding screens, image carousels, or tabbed interfaces.",
+    "Option3": "To create a grid layout.",
+    "4": "To manage form input.",
+    "Answer": "A scrollable list that works page by page, useful for onboarding screens, image carousels, or tabbed interfaces."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `TabBar` used for?",
+    "Option1": "To display a list of items.",
+    "Option2": "A Material Design widget that displays a horizontal row of tabs, typically used with a `TabBarView`.",
+    "Option3": "To create a bottom navigation bar.",
+    "4": "To show a progress indicator.",
+    "Answer": "A Material Design widget that displays a horizontal row of tabs, typically used with a `TabBarView`."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `TabBarView` used for?",
+    "Option1": "To display a single tab.",
+    "Option2": "A widget that displays a page for each tab in a `TabBar`, allowing swipe gestures between pages.",
+    "Option3": "To create a scrollable list.",
+    "4": "To handle user input.",
+    "Answer": "A widget that displays a page for each tab in a `TabBar`, allowing swipe gestures between pages."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `DefaultTabController` used for?",
+    "Option1": "To manage only one tab.",
+    "Option2": "A widget that provides a default `TabController` for `TabBar` and `TabBarView` widgets, simplifying their setup.",
+    "Option3": "To control animations.",
+    "4": "To handle network requests.",
+    "Answer": "A widget that provides a default `TabController` for `TabBar` and `TabBarView` widgets, simplifying their setup."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `Dismissible` widget used for?",
+    "Option1": "To prevent a widget from being removed.",
+    "Option2": "To allow a widget to be removed from the widget tree by dragging it in a specified direction.",
+    "Option3": "To make a widget fixed.",
+    "4": "To make a widget visible or invisible.",
+    "Answer": "To allow a widget to be removed from the widget tree by dragging it in a specified direction."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `Draggable` widget used for?",
+    "Option1": "To make a widget static.",
+    "Option2": "To make a widget draggable, allowing it to be picked up and moved around the screen.",
+    "Option3": "To make a widget clickable.",
+    "4": "To create a scrollable area.",
+    "Answer": "To make a widget draggable, allowing it to be picked up and moved around the screen."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `DragTarget` widget used for?",
+    "Option1": "To initiate a drag operation.",
+    "Option2": "A widget that accepts data from a `Draggable` widget when it's dropped onto it.",
+    "Option3": "To display static text.",
+    "4": "To create an animation.",
+    "Answer": "A widget that accepts data from a `Draggable` widget when it's dropped onto it."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `SingleChildScrollView` used for?",
+    "Option1": "To create a fixed-size layout.",
+    "Option2": "To make its single child scrollable, useful when the content might exceed the available screen space.",
+    "Option3": "To create a list with multiple children.",
+    "4": "To manage multiple pages.",
+    "Answer": "To make its single child scrollable, useful when the content might exceed the available screen space."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the primary purpose of `Dio` package in Flutter?",
+    "Option1": "For local storage.",
+    "Option2": "For making HTTP network requests.",
+    "Option3": "For managing state.",
+    "4": "For animations.",
+    "Answer": "For making HTTP network requests."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `shared_preferences` package used for?",
+    "Option1": "For complex database operations.",
+    "Option2": "For persisting simple key-value pairs data locally on the device.",
+    "Option3": "For network communication.",
+    "4": "For sending push notifications.",
+    "Answer": "For persisting simple key-value pairs data locally on the device."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `path_provider` package used for?",
+    "Option1": "To find network paths.",
+    "Option2": "To get commonly used locations on the device's file system (e.g., documents directory, temporary directory).",
+    "Option3": "To manage app routes.",
+    "4": "To provide access to device sensors.",
+    "Answer": "To get commonly used locations on the device's file system (e.g., documents directory, temporary directory)."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `http` package used for?",
+    "Option1": "For local file operations.",
+    "Option2": "For making HTTP requests from a Dart client.",
+    "Option3": "For managing app state.",
+    "4": "For displaying images.",
+    "Answer": "For making HTTP requests from a Dart client."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `flutter_bloc` package used for?",
+    "Option1": "For managing animations.",
+    "Option2": "A state management library that helps separate business logic from UI, using BLoC (Business Logic Component) pattern.",
+    "Option3": "For routing and navigation.",
+    "4": "For handling gestures.",
+    "Answer": "A state management library that helps separate business logic from UI, using BLoC (Business Logic Component) pattern."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the primary role of a `BLoC` (Business Logic Component)?",
+    "Option1": "To handle UI rendering.",
+    "Option2": "To manage the state and business logic of an application, emitting new states in response to events.",
+    "Option3": "To define widgets.",
+    "4": "To store data locally.",
+    "Answer": "To manage the state and business logic of an application, emitting new states in response to events."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is a `Cubit` in `flutter_bloc`?",
+    "Option1": "A more complex version of BLoC.",
+    "Option2": "A simplified version of BLoC that uses functions to emit new states, instead of events and mapping them to states.",
+    "Option3": "A UI component.",
+    "4": "A type of database.",
+    "Answer": "A simplified version of BLoC that uses functions to emit new states, instead of events and mapping them to states."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `BlocProvider` in `flutter_bloc`?",
+    "Option1": "A widget that rebuilds when state changes.",
+    "Option2": "A widget that provides a BLoC or Cubit to its children, making it accessible throughout the widget subtree.",
+    "Option3": "A widget that listens to state changes.",
+    "4": "A widget that disposes of BLoCs.",
+    "Answer": "A widget that provides a BLoC or Cubit to its children, making it accessible throughout the widget subtree."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `BlocBuilder` in `flutter_bloc`?",
+    "Option1": "A widget that creates a new BLoC.",
+    "Option2": "A widget that listens to a BLoC/Cubit and rebuilds its widget tree in response to new states.",
+    "Option3": "A widget that dispatches events.",
+    "4": "A widget that only displays text.",
+    "Answer": "A widget that listens to a BLoC/Cubit and rebuilds its widget tree in response to new states."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `BlocListener` in `flutter_bloc`?",
+    "Option1": "A widget that rebuilds the UI on state changes.",
+    "Option2": "A widget that listens to a BLoC/Cubit's state changes and executes a callback function for side effects (e.g., showing a SnackBar, navigating), without rebuilding the UI.",
+    "Option3": "A widget that provides state to children.",
+    "4": "A widget that dispatches events to a BLoC.",
+    "Answer": "A widget that listens to a BLoC/Cubit's state changes and executes a callback function for side effects (e.g., showing a SnackBar, navigating), without rebuilding the UI."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `BlocConsumer` in `flutter_bloc`?",
+    "Option1": "A widget that only listens to state changes.",
+    "Option2": "A widget that combines the functionality of `BlocBuilder` and `BlocListener`, allowing both UI rebuilding and side effects based on state changes.",
+    "Option3": "A widget that only builds the UI.",
+    "4": "A widget for managing multiple BLoCs.",
+    "Answer": "A widget that combines the functionality of `BlocBuilder` and `BlocListener`, allowing both UI rebuilding and side effects based on state changes."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a 'Model' in an MVC/MVVM/BLoC architecture?",
+    "Option1": "The user interface.",
+    "Option2": "The data and business logic of the application.",
+    "Option3": "The part that handles user input.",
+    "4": "The view controller.",
+    "Answer": "The data and business logic of the application."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is a 'View' in an MVC/MVVM/BLoC architecture?",
+    "Option1": "The business logic.",
+    "Option2": "The user interface that displays the data from the model.",
+    "Option3": "The database.",
+    "4": "The networking layer.",
+    "Answer": "The user interface that displays the data from the model."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is a 'Controller'/'ViewModel' in an MVC/MVVM architecture?",
+    "Option1": "The user interface.",
+    "Option2": "The component that mediates between the Model and the View, handling user input, updating the model, and updating the view.",
+    "Option3": "The database layer.",
+    "4": "The networking layer.",
+    "Answer": "The component that mediates between the Model and the View, handling user input, updating the model, and updating the view."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `InheritedModel` in Flutter?",
+    "Option1": "A widget for animation.",
+    "Option2": "An `InheritedWidget` that allows descendants to depend on only a part of its data, enabling more granular rebuilds.",
+    "Option3": "A standard `StatelessWidget`.",
+    "4": "A widget for network requests.",
+    "Answer": "An `InheritedWidget` that allows descendants to depend on only a part of its data, enabling more granular rebuilds."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `ValueNotifier` and `ValueListenableBuilder` combination used for?",
+    "Option1": "For complex state management with BLoC.",
+    "Option2": "A simple way to manage and observe a single value, rebuilding only the parts of the UI that depend on that value.",
+    "Option3": "For managing multiple streams of data.",
+    "4": "For handling database transactions.",
+    "Answer": "A simple way to manage and observe a single value, rebuilding only the parts of the UI that depend on that value."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the role of `buildContext` in `Provider.of<T>(context)`?",
+    "Option1": "It's not used in Provider.",
+    "Option2": "It's used to locate the nearest ancestor `Provider` of type `T` in the widget tree.",
+    "Option3": "It's used to rebuild the entire app.",
+    "4": "It's used to dispose of the Provider.",
+    "Answer": "It's used to locate the nearest ancestor `Provider` of type `T` in the widget tree."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What does `read` mean in `Provider.of<T>(context, listen: false)`?",
+    "Option1": "It means the widget will rebuild when the state changes.",
+    "Option2": "It means the widget will read the value of the provider once and will NOT rebuild when the state changes.",
+    "Option3": "It means the provider is disposed after reading.",
+    "4": "It's an error in usage.",
+    "Answer": "It means the widget will read the value of the provider once and will NOT rebuild when the state changes."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What does `watch` mean in `context.watch<T>()`?",
+    "Option1": "It means the widget will not rebuild when the state changes.",
+    "Option2": "It means the widget will listen to changes in the provider and rebuild when the state changes.",
+    "Option3": "It's used for one-time access only.",
+    "4": "It's a debugging tool.",
+    "Answer": "It means the widget will listen to changes in the provider and rebuild when the state changes."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `GoRouter` used for?",
+    "Option1": "State management.",
+    "Option2": "A declarative routing package for Flutter, providing a robust and flexible way to manage navigation in complex applications.",
+    "Option3": "Dependency injection.",
+    "4": "Network requests.",
+    "Answer": "A declarative routing package for Flutter, providing a robust and flexible way to manage navigation in complex applications."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `dependencies` section in `pubspec.yaml`?",
+    "Option1": "Where to define app assets.",
+    "Option2": "Where to list the packages that your project relies on, both for development and production.",
+    "Option3": "Where to configure app icons.",
+    "4": "Where to set the app's version.",
+    "Answer": "Where to list the packages that your project relies on, both for development and production."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `dev_dependencies` section in `pubspec.yaml`?",
+    "Option1": "Where to list packages required for production only.",
+    "Option2": "Where to list packages that are only required during development and testing, not in the final production build.",
+    "Option3": "Where to specify the Flutter SDK version.",
+    "4": "Where to define app fonts.",
+    "Answer": "Where to list packages that are only required during development and testing, not in the final production build."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `flutter_lints` used for?",
+    "Option1": "For animating widgets.",
+    "Option2": "A package that provides a set of recommended lint rules for Dart and Flutter projects to encourage good coding practices.",
+    "Option3": "For internationalization.",
+    "4": "For network calls.",
+    "Answer": "A package that provides a set of recommended lint rules for Dart and Flutter projects to encourage good coding practices."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `flutter_localizations` package used for?",
+    "Option1": "For native platform integration.",
+    "Option2": "For internationalizing Flutter applications, providing widgets and APIs for localized text and other resources.",
+    "Option3": "For accessing device sensors.",
+    "4": "For displaying maps.",
+    "Answer": "For internationalizing Flutter applications, providing widgets and APIs for localized text and other resources."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'localization' in app development?",
+    "Option1": "Detecting the user's location.",
+    "Option2": "Adapting software for a specific region or language, involving translating text, adapting date/time formats, currencies, etc.",
+    "Option3": "Optimizing app performance.",
+    "4": "Securing user data.",
+    "Answer": "Adapting software for a specific region or language, involving translating text, adapting date/time formats, currencies, etc."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `async*` keyword in Dart used for?",
+    "Option1": "To return a single Future.",
+    "Option2": "To define an asynchronous generator function that returns a `Stream` of values.",
+    "Option3": "To define a synchronous function.",
+    "4": "To define a regular function.",
+    "Answer": "To define an asynchronous generator function that returns a `Stream` of values."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `yield` keyword in Dart used for?",
+    "Option1": "To return a value and terminate a function.",
+    "Option2": "To produce a sequence of values in a generator function (marked with `async*` or `sync*`) without terminating the function.",
+    "Option3": "To handle exceptions.",
+    "4": "To declare a new variable.",
+    "Answer": "To produce a sequence of values in a generator function (marked with `async*` or `sync*`) without terminating the function."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the difference between `const` and `final` in Dart?",
+    "Option1": "`const` can be assigned later, `final` cannot.",
+    "Option2": "`const` values are compile-time constants; `final` values are runtime constants, meaning they are initialized once and cannot be reassigned.",
+    "Option3": "There is no difference.",
+    "4": "`final` is mutable, `const` is immutable.",
+    "Answer": "`const` values are compile-time constants; `final` values are runtime constants, meaning they are initialized once and cannot be reassigned."
+  },
+  {
+    "question_no.": 131,
+    "Question": "When should you use `const` for widgets in Flutter?",
+    "Option1": "Always, regardless of widget type.",
+    "Option2": "When a widget and all its descendants are immutable and can be created at compile-time, to improve performance by preventing unnecessary rebuilds.",
+    "Option3": "Only for StatefulWidget.",
+    "4": "Only for widgets that contain network data.",
+    "Answer": "When a widget and all its descendants are immutable and can be created at compile-time, to improve performance by preventing unnecessary rebuilds."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `covariant` keyword in Dart?",
+    "Option1": "It restricts inheritance.",
+    "Option2": "It allows a subclass method to override a superclass method with a more specific (subtype) parameter type.",
+    "Option3": "It makes a class immutable.",
+    "4": "It defines a static method.",
+    "Answer": "It allows a subclass method to override a superclass method with a more specific (subtype) parameter type."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `factory` keyword in Dart constructors?",
+    "Option1": "It always creates a new instance.",
+    "Option2": "It's used when a constructor doesn't always create a new instance of its class (e.g., returning an existing instance from a cache, or a subclass instance).",
+    "Option3": "It's used to define abstract constructors.",
+    "4": "It's used for private constructors.",
+    "Answer": "It's used when a constructor doesn't always create a new instance of its class (e.g., returning an existing instance from a cache, or a subclass instance)."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `extension` keyword in Dart?",
+    "Option1": "To add new properties to a class.",
+    "Option2": "To add new functionality to existing classes without modifying their original source code, useful for utility methods.",
+    "Option3": "To create a new class from an existing one.",
+    "4": "To define abstract methods.",
+    "Answer": "To add new functionality to existing classes without modifying their original source code, useful for utility methods."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `mixins` in Dart?",
+    "Option1": "A way to achieve multiple inheritance directly.",
+    "Option2": "A way to reuse a class's code in multiple class hierarchies, allowing classes to inherit behaviors without inheriting the entire class hierarchy.",
+    "Option3": "A way to define abstract classes.",
+    "4": "A way to declare static methods.",
+    "Answer": "A way to reuse a class's code in multiple class hierarchies, allowing classes to inherit behaviors without inheriting the entire class hierarchy."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What keyword is used to apply a mixin to a class?",
+    "Option1": "extends",
+    "Option2": "implements",
+    "Option3": "with",
+    "4": "mixin",
+    "Answer": "with"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `typedef` keyword in Dart?",
+    "Option1": "To define a new class.",
+    "Option2": "To create an alias for a function type or any other type, improving code readability and maintainability.",
+    "Option3": "To declare a variable.",
+    "4": "To create a constant.",
+    "Answer": "To create an alias for a function type or any other type, improving code readability and maintainability."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the purpose of `assert` in Dart?",
+    "Option1": "To handle runtime errors gracefully.",
+    "Option2": "To check conditions during development, throwing an error if the condition is false, but ignored in production mode.",
+    "Option3": "To declare a new variable.",
+    "4": "To return a value from a function.",
+    "Answer": "To check conditions during development, throwing an error if the condition is false, but ignored in production mode."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `null safety` in Dart?",
+    "Option1": "Ensuring all variables are null.",
+    "Option2": "A feature that helps developers prevent null reference errors at runtime by making non-nullable types the default and requiring explicit opt-in for nullability.",
+    "Option3": "A feature for fast compilation.",
+    "4": "A feature for optimizing app performance.",
+    "Answer": "A feature that helps developers prevent null reference errors at runtime by making non-nullable types the default and requiring explicit opt-in for nullability."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the `?` operator (null-aware operator) used for in Dart?",
+    "Option1": "To declare a variable as non-nullable.",
+    "Option2": "To safely access members of an object that might be null, returning null instead of throwing an error if the object is null.",
+    "Option3": "To perform arithmetic operations.",
+    "4": "To concatenate strings.",
+    "Answer": "To safely access members of an object that might be null, returning null instead of throwing an error if the object is null."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the `!` operator (null assertion operator) used for in Dart?",
+    "Option1": "To declare a variable as nullable.",
+    "Option2": "To assert that a nullable expression is not null, throwing a runtime error if it is null.",
+    "Option3": "To compare two values.",
+    "4": "To assign a value to a variable.",
+    "Answer": "To assert that a nullable expression is not null, throwing a runtime error if it is null."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `late` keyword in Dart?",
+    "Option1": "A variable that must be initialized immediately.",
+    "Option2": "A modifier used for variables that are declared but not initialized immediately, guaranteeing that they will be initialized before they are used.",
+    "Option3": "A keyword for constant variables.",
+    "4": "A keyword for static variables.",
+    "Answer": "A modifier used for variables that are declared but not initialized immediately, guaranteeing that they will be initialized before they are used."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the purpose of `covariant` in a method parameter?",
+    "Option1": "To enforce stricter type checking.",
+    "Option2": "To allow a method override in a subclass to accept a more specific type than the superclass method, useful in cases where type systems might otherwise flag an error.",
+    "Option3": "To make the parameter optional.",
+    "4": "To make the parameter constant.",
+    "Answer": "To allow a method override in a subclass to accept a more specific type than the superclass method, useful in cases where type systems might otherwise flag an error."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Tree Shaking' in Flutter?",
+    "Option1": "A technique to optimize widget rendering.",
+    "Option2": "A compiler optimization that removes unused code from the final application bundle, resulting in smaller app sizes.",
+    "Option3": "A feature for animated transitions.",
+    "4": "A method for debugging widget trees.",
+    "Answer": "A compiler optimization that removes unused code from the final application bundle, resulting in smaller app sizes."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is AOT (Ahead-Of-Time) compilation in Flutter?",
+    "Option1": "Compilation during runtime.",
+    "Option2": "The compilation of Dart code into native machine code before the application is run, enabling fast startup times and better performance.",
+    "Option3": "Compilation into JavaScript.",
+    "4": "Compilation into bytecode.",
+    "Answer": "The compilation of Dart code into native machine code before the application is run, enabling fast startup times and better performance."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is JIT (Just-In-Time) compilation in Flutter?",
+    "Option1": "Compilation before runtime.",
+    "Option2": "The compilation of Dart code during runtime, primarily used in development for features like Hot Reload, allowing for rapid iteration.",
+    "Option3": "Compilation into an executable file.",
+    "4": "Compilation that produces highly optimized native code.",
+    "Answer": "The compilation of Dart code during runtime, primarily used in development for features like Hot Reload, allowing for rapid iteration."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the `Image` widget used for?",
+    "Option1": "To display text.",
+    "Option2": "To display images from various sources (assets, network, file, memory).",
+    "Option3": "To play video.",
+    "4": "To draw custom shapes.",
+    "Answer": "To display images from various sources (assets, network, file, memory)."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `FloatingActionButton.extended`?",
+    "Option1": "A standard circular FloatingActionButton.",
+    "Option2": "A variant of `FloatingActionButton` that shows a wider button with both an icon and a label.",
+    "Option3": "A button with no actions.",
+    "4": "A button that doesn't float.",
+    "Answer": "A variant of `FloatingActionButton` that shows a wider button with both an icon and a label."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `TextButton` used for?",
+    "Option1": "A button with high elevation.",
+    "Option2": "A Material Design button with no elevation in its default state, used for text-based actions.",
+    "Option3": "A button that only contains an icon.",
+    "4": "A button for primary actions.",
+    "Answer": "A Material Design button with no elevation in its default state, used for text-based actions."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `OutlinedButton` used for?",
+    "Option1": "A button with no border.",
+    "Option2": "A Material Design button with a thin border and no elevation in its default state, used for secondary actions.",
+    "Option3": "A button that is always filled with color.",
+    "4": "A button that only shows text.",
+    "Answer": "A Material Design button with a thin border and no elevation in its default state, used for secondary actions."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the purpose of `MediaQuery.of(context).orientation`?",
+    "Option1": "To get the device's battery level.",
+    "Option2": "To get the current orientation of the device (portrait or landscape).",
+    "Option3": "To get the network connectivity status.",
+    "4": "To get the device's location.",
+    "Answer": "To get the current orientation of the device (portrait or landscape)."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is a `FlexibleSpaceBar` used for within an `SliverAppBar`?",
+    "Option1": "To provide fixed content in the app bar.",
+    "Option2": "To create an app bar that can expand and collapse as the user scrolls, often used with a background image or title that changes size.",
+    "Option3": "To display a list of actions.",
+    "4": "To add a search bar.",
+    "Answer": "To create an app bar that can expand and collapse as the user scrolls, often used with a background image or title that changes size."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `CustomScrollView`?",
+    "Option1": "A simple list view.",
+    "Option2": "A scrollable widget that allows you to combine multiple scrollable effects and content types using slivers.",
+    "Option3": "A fixed-size scrollable area.",
+    "4": "A widget for displaying a grid of items.",
+    "Answer": "A scrollable widget that allows you to combine multiple scrollable effects and content types using slivers."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Sliver' in Flutter?",
+    "Option1": "A type of database.",
+    "Option2": "A portion of a scrollable area that can be configured to have custom scrolling behaviors.",
+    "Option3": "A static widget.",
+    "4": "A small image file.",
+    "Answer": "A portion of a scrollable area that can be configured to have custom scrolling behaviors."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `SliverAppBar`?",
+    "Option1": "A fixed app bar.",
+    "Option2": "A Material Design app bar that integrates with a `CustomScrollView` and can expand, collapse, and pin.",
+    "Option3": "A standalone app bar.",
+    "4": "An app bar for non-scrollable content.",
+    "Answer": "A Material Design app bar that integrates with a `CustomScrollView` and can expand, collapse, and pin."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `RefreshIndicator` used for?",
+    "Option1": "To show a permanent loading spinner.",
+    "Option2": "To add pull-to-refresh functionality to a scrollable widget.",
+    "Option3": "To indicate a network error.",
+    "4": "To refresh the entire app.",
+    "Answer": "To add pull-to-refresh functionality to a scrollable widget."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `Future.delayed` used for?",
+    "Option1": "To make a Future run immediately.",
+    "Option2": "To create a Future that completes after a specified duration, useful for simulating network delays or scheduling tasks.",
+    "Option3": "To cancel a Future.",
+    "4": "To check if a Future is completed.",
+    "Answer": "To create a Future that completes after a specified duration, useful for simulating network delays or scheduling tasks."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is a 'GlobalKey' generally used for?",
+    "Option1": "To access a widget within its own build method.",
+    "Option2": "To access the state or context of a widget from a different part of the widget tree, especially for widgets that might move or be recreated.",
+    "Option3": "To define a constant value.",
+    "4": "To encrypt data.",
+    "Answer": "To access the state or context of a widget from a different part of the widget tree, especially for widgets that might move or be recreated."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is a `LocalKey` (e.g., `ValueKey`, `ObjectKey`) used for?",
+    "Option1": "To uniquely identify widgets globally.",
+    "Option2": "To uniquely identify widgets within the same list or parent, helping Flutter efficiently update and reorder elements.",
+    "Option3": "To access state from a different screen.",
+    "4": "To store simple data.",
+    "Answer": "To uniquely identify widgets within the same list or parent, helping Flutter efficiently update and reorder elements."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `MediaQuery.of(context).padding` used for?",
+    "Option1": "To get the physical padding of the device screen (e.g., safe areas for notches, system bars).",
+    "Option2": "To add padding to a widget.",
+    "Option3": "To get the general screen size.",
+    "4": "To determine the device orientation.",
+    "Answer": "To get the physical padding of the device screen (e.g., safe areas for notches, system bars)."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `ClipPath` used for?",
+    "Option1": "To clip a rectangular area.",
+    "Option2": "To clip its child using an arbitrary path, allowing for complex custom shapes.",
+    "Option3": "To clip a circular area.",
+    "4": "To apply a border radius.",
+    "Answer": "To clip its child using an arbitrary path, allowing for complex custom shapes."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `CustomPaint` used for?",
+    "Option1": "To display images.",
+    "Option2": "To draw custom graphics using a `CustomPainter`, allowing for highly specialized and dynamic rendering.",
+    "Option3": "To display text.",
+    "4": "To play audio.",
+    "Answer": "To draw custom graphics using a `CustomPainter`, allowing for highly specialized and dynamic rendering."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `Canvas` and `Paint` objects used for in `CustomPainter`?",
+    "Option1": "For managing state.",
+    "Option2": "They are the core APIs for drawing shapes, lines, text, and images on a 2D surface within `CustomPaint`.",
+    "Option3": "For network requests.",
+    "4": "For handling gestures.",
+    "Answer": "They are the core APIs for drawing shapes, lines, text, and images on a 2D surface within `CustomPaint`."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `RenderObject` in Flutter's rendering pipeline?",
+    "Option1": "The lowest level, responsible for layout and painting.",
+    "Option2": "The widget that holds the actual UI.",
+    "Option3": "The part that handles user input.",
+    "4": "The top-level widget.",
+    "Answer": "The lowest level, responsible for layout and painting."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is an `Element` in Flutter's rendering pipeline?",
+    "Option1": "A configuration for a widget.",
+    "Option2": "A mutable tree of elements that represents the concrete location of widgets in the UI tree, connecting the widget tree to the render tree.",
+    "Option3": "The actual pixels on the screen.",
+    "4": "A type of animation.",
+    "Answer": "A mutable tree of elements that represents the concrete location of widgets in the UI tree, connecting the widget tree to the render tree."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `pub get` command used for?",
+    "Option1": "To run the application.",
+    "Option2": "To fetch all the packages listed in `pubspec.yaml` and make them available to the project.",
+    "Option3": "To create a new Flutter project.",
+    "4": "To deploy the app to a device.",
+    "Answer": "To fetch all the packages listed in `pubspec.yaml` and make them available to the project."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `flutter doctor` command used for?",
+    "Option1": "To run tests.",
+    "Option2": "To check your Flutter development environment and report any missing components or configuration issues.",
+    "Option3": "To update Flutter SDK.",
+    "4": "To build the application.",
+    "Answer": "To check your Flutter development environment and report any missing components or configuration issues."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `flutter run` command used for?",
+    "Option1": "To clean the project.",
+    "Option2": "To run the Flutter application on a connected device or simulator.",
+    "Option3": "To check for updates.",
+    "4": "To create a new project.",
+    "Answer": "To run the Flutter application on a connected device or simulator."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `flutter build apk` command used for?",
+    "Option1": "To build an iOS app.",
+    "Option2": "To build an Android APK file for release or testing.",
+    "Option3": "To run the app in debug mode.",
+    "4": "To clean the project.",
+    "Answer": "To build an Android APK file for release or testing."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `flutter build ios` command used for?",
+    "Option1": "To build an Android app.",
+    "Option2": "To build an iOS app bundle (IPA) or a framework for release or testing.",
+    "Option3": "To run the app in debug mode.",
+    "4": "To get project dependencies.",
+    "Answer": "To build an iOS app bundle (IPA) or a framework for release or testing."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `flutter clean` command used for?",
+    "Option1": "To install new packages.",
+    "Option2": "To delete the `build/` and `.dart_tool/` directories in your project, useful for resolving build issues.",
+    "Option3": "To run tests.",
+    "4": "To format the code.",
+    "Answer": "To delete the `build/` and `.dart_tool/` directories in your project, useful for resolving build issues."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `flutter analyze` command used for?",
+    "Option1": "To run the app.",
+    "Option2": "To analyze the Dart code for potential errors and warnings, adhering to linting rules.",
+    "Option3": "To create a new project.",
+    "4": "To deploy the app.",
+    "Answer": "To analyze the Dart code for potential errors and warnings, adhering to linting rules."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `flutter test` command used for?",
+    "Option1": "To run the app on a device.",
+    "Option2": "To run the unit, widget, and integration tests for your Flutter project.",
+    "Option3": "To build the app for release.",
+    "4": "To generate code documentation.",
+    "Answer": "To run the unit, widget, and integration tests for your Flutter project."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `integration testing` in Flutter?",
+    "Option1": "Testing individual widgets.",
+    "Option2": "Testing the interaction between multiple parts of your application, simulating real user scenarios across screens or features.",
+    "Option3": "Testing business logic in isolation.",
+    "4": "Testing only the UI appearance.",
+    "Answer": "Testing the interaction between multiple parts of your application, simulating real user scenarios across screens or features."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `widget testing` in Flutter?",
+    "Option1": "Testing the app on a real device.",
+    "Option2": "Testing a single widget in isolation, ensuring it renders correctly and responds to events as expected.",
+    "Option3": "Testing the backend API.",
+    "4": "Testing the entire application flow.",
+    "Answer": "Testing a single widget in isolation, ensuring it renders correctly and responds to events as expected."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `unit testing` in Flutter?",
+    "Option1": "Testing UI components.",
+    "Option2": "Testing individual functions, classes, or methods (Dart code only) in isolation, without involving the Flutter rendering engine.",
+    "Option3": "Testing user interactions.",
+    "4": "Testing the app's performance.",
+    "Answer": "Testing individual functions, classes, or methods (Dart code only) in isolation, without involving the Flutter rendering engine."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `KeyedSubtree` used for?",
+    "Option1": "To manage state for the whole app.",
+    "Option2": "A widget that associates a key with its subtree, useful for optimizing rebuilds when the subtree itself doesn't change but its context might.",
+    "Option3": "To apply padding to a subtree.",
+    "4": "To create a scrollable subtree.",
+    "Answer": "A widget that associates a key with its subtree, useful for optimizing rebuilds when the subtree itself doesn't change but its context might."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `AnimatedContainer`?",
+    "Option1": "A container that does not animate.",
+    "Option2": "A version of `Container` that animates its properties (e.g., color, size, padding) smoothly over a given duration when they change.",
+    "Option3": "A static container for images.",
+    "4": "A container that only displays text.",
+    "Answer": "A version of `Container` that animates its properties (e.g., color, size, padding) smoothly over a given duration when they change."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `Opacity` widget used for?",
+    "Option1": "To make a widget fully visible.",
+    "Option2": "To adjust the opacity (transparency) of its child widget.",
+    "Option3": "To change the color of a widget.",
+    "4": "To add a border.",
+    "Answer": "To adjust the opacity (transparency) of its child widget."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `FadeTransition` used for?",
+    "Option1": "To scale a widget.",
+    "Option2": "A widget that animates the opacity of its child over a specified duration.",
+    "Option3": "To slide a widget.",
+    "4": "To rotate a widget.",
+    "Answer": "A widget that animates the opacity of its child over a specified duration."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `AnimationController`?",
+    "Option1": "A widget that animates a single property.",
+    "Option2": "An object that manages and controls an animation, providing methods to start, stop, forward, and reverse the animation.",
+    "Option3": "A type of data structure.",
+    "4": "A class for managing user input.",
+    "Answer": "An object that manages and controls an animation, providing methods to start, stop, forward, and reverse the animation."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Tween` in Flutter animations?",
+    "Option1": "A fixed value for an animation.",
+    "Option2": "An object that defines a range of values over which an animation should occur, mapping a `double` (0.0 to 1.0) to a specific value type (e.g., Color, Size, EdgeInsets).",
+    "Option3": "A type of animation controller.",
+    "4": "A widget for displaying animated content.",
+    "Answer": "An object that defines a range of values over which an animation should occur, mapping a `double` (0.0 to 1.0) to a specific value type (e.g., Color, Size, EdgeInsets)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Animation` object in Flutter?",
+    "Option1": "A widget that performs animation.",
+    "Option2": "An object that stores the interpolated value of an animation at a given point in time, typically driven by an `AnimationController`.",
+    "Option3": "A type of gesture detector.",
+    "4": "A data structure for storing animation frames.",
+    "Answer": "An object that stores the interpolated value of an animation at a given point in time, typically driven by an `AnimationController`."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `AnimatedBuilder` used for?",
+    "Option1": "To create explicit animations without rebuilding the entire widget tree on every animation tick.",
+    "Option2": "To build a static widget tree.",
+    "Option3": "To manage multiple animations simultaneously.",
+    "4": "To create implicit animations.",
+    "Answer": "To create explicit animations without rebuilding the entire widget tree on every animation tick."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `TickerProviderStateMixin` used for?",
+    "Option1": "To manage asynchronous operations.",
+    "Option2": "A mixin that provides a `Ticker` to `AnimationController`s, allowing them to synchronize with the Flutter rendering pipeline.",
+    "Option3": "To manage widget states.",
+    "4": "To handle gestures.",
+    "Answer": "A mixin that provides a `Ticker` to `AnimationController`s, allowing them to synchronize with the Flutter rendering pipeline."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `vsync` property for `AnimationController`?",
+    "Option1": "It sets the animation duration.",
+    "Option2": "It requires a `TickerProvider` to provide ticks (frames) for the animation, ensuring the animation only rebuilds when the screen refreshes.",
+    "Option3": "It defines the animation curve.",
+    "4": "It sets the initial value of the animation.",
+    "Answer": "It requires a `TickerProvider` to provide ticks (frames) for the animation, ensuring the animation only rebuilds when the screen refreshes."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Image.memory` used for?",
+    "Option1": "To load images from a file.",
+    "Option2": "To display images from a `Uint8List` (byte data) in memory.",
+    "Option3": "To load images from the network.",
+    "4": "To create a placeholder for an image.",
+    "Answer": "To display images from a `Uint8List` (byte data) in memory."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `placeholder` property for `Image.network` used for?",
+    "Option1": "To display an error message.",
+    "Option2": "To show a widget while the network image is loading.",
+    "Option3": "To set the image's width.",
+    "4": "To define the image's source URL.",
+    "Answer": "To show a widget while the network image is loading."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `ErrorWidget.builder` used for?",
+    "Option1": "To build widgets that are never visible.",
+    "Option2": "To customize the default error widget displayed by Flutter when an unhandled error occurs during widget building.",
+    "Option3": "To create a custom error handling function.",
+    "4": "To display debug information.",
+    "Answer": "To customize the default error widget displayed by Flutter when an unhandled error occurs during widget building."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `Flutter Driver`?",
+    "Option1": "A tool for unit testing.",
+    "Option2": "A testing framework specifically designed for end-to-end (integration) testing of Flutter applications on real devices or emulators.",
+    "Option3": "A tool for debugging widgets.",
+    "4": "A tool for compiling Flutter code.",
+    "Answer": "A testing framework specifically designed for end-to-end (integration) testing of Flutter applications on real devices or emulators."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the `Flutter Inspector` in VS Code/Android Studio?",
+    "Option1": "A tool for running tests.",
+    "Option2": "A debugging tool that allows developers to visualize and explore the widget tree, inspect widget properties, and identify performance issues.",
+    "Option3": "A tool for generating code.",
+    "4": "A tool for managing dependencies.",
+    "Answer": "A debugging tool that allows developers to visualize and explore the widget tree, inspect widget properties, and identify performance issues."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `performance overlay` in Flutter?",
+    "Option1": "A visual indicator for network latency.",
+    "Option2": "A debugging tool that shows graphs of UI and Raster threads' performance, helping identify rendering bottlenecks.",
+    "Option3": "A tool for visualizing memory usage.",
+    "4": "A tool for tracking CPU usage.",
+    "Answer": "A debugging tool that shows graphs of UI and Raster threads' performance, helping identify rendering bottlenecks."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the `Semantics` widget used for?",
+    "Option1": "To control layout.",
+    "Option2": "To annotate the widget tree with a description of the meaning of the widgets, primarily used for accessibility services (e.g., screen readers).",
+    "Option3": "To apply visual styles.",
+    "4": "To handle user input.",
+    "Answer": "To annotate the widget tree with a description of the meaning of the widgets, primarily used for accessibility services (e.g., screen readers)."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `ExcludeSemantics` used for?",
+    "Option1": "To include a widget in the accessibility tree.",
+    "Option2": "To remove its child from the accessibility tree, preventing screen readers from announcing it.",
+    "Option3": "To make a widget visible.",
+    "4": "To animate a widget.",
+    "Answer": "To remove its child from the accessibility tree, preventing screen readers from announcing it."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `HeroController` used for?",
+    "Option1": "To control regular animations.",
+    "Option2": "To manage the animation of `Hero` widgets during route transitions.",
+    "Option3": "To manage state.",
+    "4": "To handle user input.",
+    "Answer": "To manage the animation of `Hero` widgets during route transitions."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the primary function of `StreamController`?",
+    "Option1": "To create a new Future.",
+    "Option2": "To provide a convenient way to create, add data to, and control a `Stream` programmatically.",
+    "Option3": "To convert a Stream to a Future.",
+    "4": "To listen to a Stream.",
+    "Answer": "To provide a convenient way to create, add data to, and control a `Stream` programmatically."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `BuildContext.dependOnInheritedWidgetOfExactType<T>()`?",
+    "Option1": "A method to find any widget.",
+    "Option2": "A low-level method used by `InheritedWidget`s to establish a dependency between a child widget and an ancestor `InheritedWidget` of a specific type.",
+    "Option3": "A method to find a specific widget by key.",
+    "4": "A method for rebuilding widgets.",
+    "Answer": "A low-level method used by `InheritedWidget`s to establish a dependency between a child widget and an ancestor `InheritedWidget` of a specific type."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the purpose of `LayoutBuilder`?",
+    "Option1": "To define a fixed layout.",
+    "Option2": "To build a widget tree that can adapt to the size constraints of its parent, useful for responsive designs.",
+    "Option3": "To create a scrollable layout.",
+    "4": "To arrange widgets in a grid.",
+    "Answer": "To build a widget tree that can adapt to the size constraints of its parent, useful for responsive designs."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `RepaintBoundary` used for?",
+    "Option1": "To force a widget to repaint.",
+    "Option2": "To create a distinct layer in the rendering tree, which can help improve performance by preventing its children from repainting when the boundary itself doesn't change.",
+    "Option3": "To draw a border around a widget.",
+    "4": "To control the widget's size.",
+    "Answer": "To create a distinct layer in the rendering tree, which can help improve performance by preventing its children from repainting when the boundary itself doesn't change."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `RenderFlex`?",
+    "Option1": "A widget.",
+    "Option2": "The underlying `RenderObject` used by `Row` and `Column` widgets, responsible for arranging children along an axis.",
+    "Option3": "A type of animation.",
+    "4": "A data structure.",
+    "Answer": "The underlying `RenderObject` used by `Row` and `Column` widgets, responsible for arranging children along an axis."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `CustomPainter`?",
+    "Option1": "A widget that displays custom text.",
+    "Option2": "A class used with `CustomPaint` to define how custom shapes, lines, and images are drawn on a `Canvas`.",
+    "Option3": "A class for managing state.",
+    "4": "A class for handling user input.",
+    "Answer": "A class used with `CustomPaint` to define how custom shapes, lines, and images are drawn on a `Canvas`."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `flutter analyze --dry-run` used for?",
+    "Option1": "To fix all analysis errors automatically.",
+    "Option2": "To run the analysis without actually applying any fixes, showing what changes would be made.",
+    "Option3": "To only analyze a specific file.",
+    "4": "To analyze the performance of the app.",
+    "Answer": "To run the analysis without actually applying any fixes, showing what changes would be made."
+  }
+]

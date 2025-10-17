@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the core data structure in PyTorch that is similar to NumPy arrays but supports GPU acceleration?",
+    "Option1": "PyTorch Array",
+    "Option2": "PyTorch List",
+    "Option3": "torch.Tensor",
+    "Option4": "torch.Variable",
+    "Answer": "torch.Tensor"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What attribute of a `torch.Tensor` determines if gradients will be computed for it?",
+    "Option1": "requires_grad",
+    "Option2": "is_leaf",
+    "Option3": "grad_fn",
+    "Option4": "data",
+    "Answer": "requires_grad"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which PyTorch module provides a base class for all neural network modules?",
+    "Option1": "torch.nn.Functional",
+    "Option2": "torch.nn.Module",
+    "Option3": "torch.nn.Parameter",
+    "Option4": "torch.nn.Linear",
+    "Answer": "torch.nn.Module"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the purpose of `torch.optim` package?",
+    "Option1": "To define neural network layers.",
+    "Option2": "To handle data loading and preprocessing.",
+    "Option3": "To implement various optimization algorithms (e.g., SGD, Adam) for training neural networks.",
+    "Option4": "To perform tensor operations.",
+    "Answer": "To implement various optimization algorithms (e.g., SGD, Adam) for training neural networks."
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you move a `torch.Tensor` or a `torch.nn.Module` to the GPU in PyTorch?",
+    "Option1": "tensor.to_gpu()",
+    "Option2": "tensor.cuda() or tensor.to('cuda')",
+    "Option3": "tensor.on_gpu()",
+    "Option4": "torch.gpu(tensor)",
+    "Answer": "tensor.cuda() or tensor.to('cuda')"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which function is used to compute gradients backward through the computation graph in PyTorch?",
+    "Option1": "tensor.forward()",
+    "Option2": "tensor.calculate_grad()",
+    "Option3": "tensor.backward()",
+    "Option4": "tensor.compute_gradients()",
+    "Answer": "tensor.backward()"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the primary role of `torch.nn.functional`?",
+    "Option1": "To define trainable layers.",
+    "Option2": "To provide stateless functional implementations of neural network operations (e.g., ReLU, softmax).",
+    "Option3": "To manage data loaders.",
+    "Option4": "To optimize model parameters.",
+    "Answer": "To provide stateless functional implementations of neural network operations (e.g., ReLU, softmax)."
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which class is used to load datasets and provide batches of data for training in PyTorch?",
+    "Option1": "torch.data.Sampler",
+    "Option2": "torch.utils.data.DataLoader",
+    "Option3": "torch.utils.data.Dataset",
+    "Option4": "torch.TensorLoader",
+    "Answer": "torch.utils.data.DataLoader"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the purpose of `torch.no_grad()` context manager?",
+    "Option1": "To enable gradient computation for all operations.",
+    "Option2": "To temporarily disable gradient computation, useful for inference or validation.",
+    "Option3": "To reset all gradients to zero.",
+    "Option4": "To move tensors to the CPU.",
+    "Answer": "To temporarily disable gradient computation, useful for inference or validation."
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you zero out the gradients accumulated by an optimizer in PyTorch?",
+    "Option1": "optimizer.reset_grad()",
+    "Option2": "optimizer.zero_grad()",
+    "Option3": "optimizer.clear_gradients()",
+    "Option4": "optimizer.erase_grad()",
+    "Answer": "optimizer.zero_grad()"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is `torch.Tensor.detach()` used for?",
+    "Option1": "To attach a tensor to the computation graph.",
+    "Option2": "To create a new tensor that shares the same data as the original but is detached from the computation graph.",
+    "Option3": "To move a tensor to a different device.",
+    "Option4": "To convert a tensor to a NumPy array.",
+    "Answer": "To create a new tensor that shares the same data as the original but is detached from the computation graph."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the difference between `model.train()` and `model.eval()`?",
+    "Option1": "`model.train()` disables dropout and batch norm; `model.eval()` enables them.",
+    "Option2": "`model.train()` enables dropout and batch norm; `model.eval()` disables them.",
+    "Option3": "They only affect tensor operations, not layers.",
+    "Option4": "They change the learning rate of the optimizer.",
+    "Answer": "`model.train()` enables dropout and batch norm; `model.eval()` disables them."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the purpose of a `torch.nn.Linear` layer?",
+    "Option1": "To perform convolution operations.",
+    "Option2": "To apply a linear transformation (y = Wx + b) to the incoming data.",
+    "Option3": "To perform pooling operations.",
+    "Option4": "To apply activation functions.",
+    "Answer": "To apply a linear transformation (y = Wx + b) to the incoming data."
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you save a PyTorch model's state dictionary?",
+    "Option1": "torch.save(model, 'model.pth')",
+    "Option2": "torch.save(model.state_dict(), 'model_weights.pth')",
+    "Option3": "model.save('model.pth')",
+    "Option4": "model.state_dict().save('model_weights.pth')",
+    "Answer": "torch.save(model.state_dict(), 'model_weights.pth')"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you load a saved model's state dictionary into an existing PyTorch model?",
+    "Option1": "model.load_state_dict(torch.load('model_weights.pth'))",
+    "Option2": "model = torch.load('model_weights.pth')",
+    "Option3": "torch.load_state_dict(model, 'model_weights.pth')",
+    "Option4": "model.load('model_weights.pth')",
+    "Answer": "model.load_state_dict(torch.load('model_weights.pth'))"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is `torch.nn.CrossEntropyLoss` commonly used for?",
+    "Option1": "Regression problems.",
+    "Option2": "Binary classification problems.",
+    "Option3": "Multi-class classification problems, often combining LogSoftmax and NLLLoss.",
+    "Option4": "Clustering problems.",
+    "Answer": "Multi-class classification problems, often combining LogSoftmax and NLLLoss."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What does `torch.cat()` do?",
+    "Option1": "Splits a tensor into multiple smaller tensors.",
+    "Option2": "Concatenates a sequence of tensors along a given dimension.",
+    "Option3": "Reshapes a tensor.",
+    "Option4": "Performs element-wise multiplication.",
+    "Answer": "Concatenates a sequence of tensors along a given dimension."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What does `torch.stack()` do?",
+    "Option1": "Concatenates tensors along an existing dimension.",
+    "Option2": "Concatenates tensors along a new dimension.",
+    "Option3": "Splits a tensor into individual elements.",
+    "Option4": "Changes the data type of a tensor.",
+    "Answer": "Concatenates tensors along a new dimension."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of `torch.reshape()` or `tensor.view()`?",
+    "Option1": "To change the data type of a tensor.",
+    "Option2": "To change the size or shape of a tensor without changing its data.",
+    "Option3": "To perform element-wise operations.",
+    "Option4": "To create a copy of a tensor.",
+    "Answer": "To change the size or shape of a tensor without changing its data."
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which function is used to convert a PyTorch tensor to a NumPy array?",
+    "Option1": "tensor.to_numpy()",
+    "Option2": "tensor.numpy()",
+    "Option3": "numpy(tensor)",
+    "Option4": "tensor.as_numpy()",
+    "Answer": "tensor.numpy()"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which function is used to convert a NumPy array to a PyTorch tensor?",
+    "Option1": "torch.from_numpy(ndarray)",
+    "Option2": "torch.Tensor(ndarray)",
+    "Option3": "ndarray.to_tensor()",
+    "Option4": "torch.numpy_to_tensor(ndarray)",
+    "Answer": "torch.from_numpy(ndarray)"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the concept of 'Dynamic Computation Graph' in PyTorch?",
+    "Option1": "The computation graph is fixed once defined.",
+    "Option2": "The computation graph is built on the fly as operations are performed, allowing for flexible and dynamic network structures.",
+    "Option3": "The graph is compiled before execution.",
+    "Option4": "It only supports static graphs.",
+    "Answer": "The computation graph is built on the fly as operations are performed, allowing for flexible and dynamic network structures."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the default data type for `torch.Tensor` if not specified?",
+    "Option1": "torch.int32",
+    "Option2": "torch.float16",
+    "Option3": "torch.float32",
+    "Option4": "torch.double",
+    "Answer": "torch.float32"
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you check if CUDA (GPU support) is available in PyTorch?",
+    "Option1": "torch.is_cuda_available()",
+    "Option2": "torch.cuda.is_available()",
+    "Option3": "torch.device_has_cuda()",
+    "Option4": "torch.gpu_status()",
+    "Answer": "torch.cuda.is_available()"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `torch.nn.Conv2d` used for?",
+    "Option1": "Fully connected layers.",
+    "Option2": "Applying 2D convolution over an input signal, commonly used in CNNs for image processing.",
+    "Option3": "Recurrent neural networks.",
+    "Option4": "Pooling operations.",
+    "Answer": "Applying 2D convolution over an input signal, commonly used in CNNs for image processing."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is `torch.nn.MaxPool2d` used for?",
+    "Option1": "Adding non-linearity to a network.",
+    "Option2": "Applying 2D max pooling operations, reducing the spatial dimensions of a feature map.",
+    "Option3": "Normalizing feature maps.",
+    "Option4": "Increasing feature map dimensions.",
+    "Answer": "Applying 2D max pooling operations, reducing the spatial dimensions of a feature map."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is `torch.nn.ReLU()`?",
+    "Option1": "A linear activation function.",
+    "Option2": "A non-linear activation function that outputs the input directly if positive, otherwise zero.",
+    "Option3": "A pooling layer.",
+    "Option4": "A normalization layer.",
+    "Answer": "A non-linear activation function that outputs the input directly if positive, otherwise zero."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `torch.nn.Sequential` used for?",
+    "Option1": "To create a custom neural network module from scratch.",
+    "Option2": "To stack modules in a sequence, where the output of one module becomes the input of the next.",
+    "Option3": "To parallelize model training.",
+    "Option4": "To save and load models.",
+    "Answer": "To stack modules in a sequence, where the output of one module becomes the input of the next."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is `torch.optim.SGD`?",
+    "Option1": "Stochastic Gradient Descent optimizer.",
+    "Option2": "Adam optimizer.",
+    "Option3": "A loss function.",
+    "Option4": "A data loader.",
+    "Answer": "Stochastic Gradient Descent optimizer."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `torch.optim.Adam`?",
+    "Option1": "A simple gradient descent optimizer.",
+    "Option2": "An adaptive learning rate optimization algorithm.",
+    "Option3": "A type of recurrent neural network.",
+    "Option4": "A regularization technique.",
+    "Answer": "An adaptive learning rate optimization algorithm."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of `loss.item()`?",
+    "Option1": "To get the tensor value of the loss, including its gradient.",
+    "Option2": "To get the Python number (scalar) from a 0-dimensional tensor, detaching it from the computation graph.",
+    "Option3": "To print the loss value.",
+    "Option4": "To compute the mean of the loss.",
+    "Answer": "To get the Python number (scalar) from a 0-dimensional tensor, detaching it from the computation graph."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What does `torch.set_grad_enabled(False)` achieve?",
+    "Option1": "Enables gradient calculation for all subsequent operations.",
+    "Option2": "Disables gradient calculation for all subsequent operations.",
+    "Option3": "Sets the required_grad attribute to True for tensors.",
+    "Option4": "Resets the gradients of all parameters.",
+    "Answer": "Disables gradient calculation for all subsequent operations."
+  },
+  {
+    "question_no.": 33,
+    "Question": "When defining a custom neural network in PyTorch, which method within `torch.nn.Module` must be implemented?",
+    "Option1": "train()",
+    "Option2": "eval()",
+    "Option3": "forward()",
+    "Option4": "init()",
+    "Answer": "forward()"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is `torch.autograd` primarily used for?",
+    "Option1": "Automatic differentiation, enabling gradient computation for backpropagation.",
+    "Option2": "Automatic model architecture search.",
+    "Option3": "Automatic data preprocessing.",
+    "Option4": "Automatic hyperparameter tuning.",
+    "Answer": "Automatic differentiation, enabling gradient computation for backpropagation."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What does `parameter.grad` store?",
+    "Option1": "The parameter's current value.",
+    "Option2": "The gradient of the loss with respect to that parameter.",
+    "Option3": "The learning rate for that parameter.",
+    "Option4": "The history of parameter updates.",
+    "Answer": "The gradient of the loss with respect to that parameter."
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you access the raw data of a `torch.Tensor` without affecting its `requires_grad` property?",
+    "Option1": "tensor.val",
+    "Option2": "tensor.data",
+    "Option3": "tensor.values",
+    "Option4": "tensor.raw",
+    "Answer": "tensor.data"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of a 'DataParallel' strategy in PyTorch?",
+    "Option1": "To train a model on a single GPU.",
+    "Option2": "To split the model across multiple GPUs.",
+    "Option3": "To replicate the model on each GPU and distribute data batches across them, with gradients averaged.",
+    "Option4": "To run multiple training jobs simultaneously.",
+    "Answer": "To replicate the model on each GPU and distribute data batches across them, with gradients averaged."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `torch.nn.Dropout` used for?",
+    "Option1": "Increasing the number of features.",
+    "Option2": "A regularization technique that randomly sets a fraction of input units to zero at each update during training.",
+    "Option3": "Normalizing the data.",
+    "Option4": "Adding noise to the output.",
+    "Answer": "A regularization technique that randomly sets a fraction of input units to zero at each update during training."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is `torch.nn.BatchNorm1d` used for?",
+    "Option1": "Normalizing data across batches for 1D inputs (e.g., outputs of linear layers).",
+    "Option2": "Applying activation functions.",
+    "Option3": "Performing convolutions on 1D data.",
+    "Option4": "Reshaping tensors.",
+    "Answer": "Normalizing data across batches for 1D inputs (e.g., outputs of linear layers)."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the role of `pin_memory=True` in `DataLoader`?",
+    "Option1": "To store data in compressed format.",
+    "Option2": "To load data directly to GPU memory.",
+    "Option3": "To allocate tensors on CUDA pinned memory, enabling faster data transfer to GPUs.",
+    "Option4": "To prevent data from being swapped to disk.",
+    "Answer": "To allocate tensors on CUDA pinned memory, enabling faster data transfer to GPUs."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `num_workers` parameter in `DataLoader` used for?",
+    "Option1": "To specify the number of GPUs to use.",
+    "Option2": "To specify the number of CPU subprocesses to use for data loading.",
+    "Option3": "To set the number of training epochs.",
+    "Option4": "To control the batch size.",
+    "Answer": "To specify the number of CPU subprocesses to use for data loading."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What does `torch.squeeze()` do?",
+    "Option1": "Adds a dimension of size 1 to a tensor.",
+    "Option2": "Removes dimensions of size 1 from the shape of a tensor.",
+    "Option3": "Flattens a tensor.",
+    "Option4": "Transposes a tensor.",
+    "Answer": "Removes dimensions of size 1 from the shape of a tensor."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What does `torch.unsqueeze()` do?",
+    "Option1": "Removes dimensions of size 1 from a tensor.",
+    "Option2": "Adds a dimension of size 1 at a specified position in a tensor's shape.",
+    "Option3": "Flattens a tensor.",
+    "Option4": "Swaps two dimensions of a tensor.",
+    "Answer": "Adds a dimension of size 1 at a specified position in a tensor's shape."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is a 'leaf' tensor in the PyTorch computation graph?",
+    "Option1": "Any tensor with `requires_grad=True`.",
+    "Option2": "Tensors that were created by the user (e.g., input data, model parameters) and are not the result of an operation.",
+    "Option3": "Tensors that have a `grad_fn`.",
+    "Option4": "Tensors with zero gradients.",
+    "Answer": "Tensors that were created by the user (e.g., input data, model parameters) and are not the result of an operation."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What does `tensor.clone()` do?",
+    "Option1": "Creates a new tensor that shares the same data as the original.",
+    "Option2": "Creates a new tensor that shares the same data and computation graph history.",
+    "Option3": "Creates a new tensor with a copy of the data and retains the computation graph history if `requires_grad` is True.",
+    "Option4": "Detaches the tensor from the computation graph.",
+    "Answer": "Creates a new tensor with a copy of the data and retains the computation graph history if `requires_grad` is True."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the purpose of `torch.nn.RNN`, `torch.nn.LSTM`, `torch.nn.GRU`?",
+    "Option1": "Convolutional layers.",
+    "Option2": "Recurrent layers for processing sequential data.",
+    "Option3": "Pooling layers.",
+    "Option4": "Linear layers for regression.",
+    "Answer": "Recurrent layers for processing sequential data."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `torch.nn.Embedding` used for?",
+    "Option1": "Converting continuous data to discrete.",
+    "Option2": "Creating fixed-size dense vector representations for discrete inputs (e.g., words, categories).",
+    "Option3": "Performing convolution on text data.",
+    "Option4": "Applying activation functions.",
+    "Answer": "Creating fixed-size dense vector representations for discrete inputs (e.g., words, categories)."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `torch.nn.Transformer`?",
+    "Option1": "A type of CNN layer.",
+    "Option2": "A module implementing the Transformer architecture from 'Attention Is All You Need' paper, widely used in NLP.",
+    "Option3": "A module for image augmentation.",
+    "Option4": "A traditional RNN layer.",
+    "Answer": "A module implementing the Transformer architecture from 'Attention Is All You Need' paper, widely used in NLP."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is `torch.nn.MultiheadAttention` used for?",
+    "Option1": "A single attention mechanism.",
+    "Option2": "An attention mechanism that performs attention multiple times in parallel, often used in Transformer models.",
+    "Option3": "Pooling operations in attention.",
+    "Option4": "Regularization of attention weights.",
+    "Answer": "An attention mechanism that performs attention multiple times in parallel, often used in Transformer models."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the primary benefit of using `torch.jit.script`?",
+    "Option1": "To make the model more interpretable.",
+    "Option2": "To optimize PyTorch code for performance and deployment by tracing it into a graph representation.",
+    "Option3": "To increase the model's accuracy.",
+    "Option4": "To visualize the computation graph.",
+    "Answer": "To optimize PyTorch code for performance and deployment by tracing it into a graph representation."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is a 'state_dict' in PyTorch?",
+    "Option1": "A dictionary containing only the model's architecture.",
+    "Option2": "A Python dictionary object that maps each layer to its learnable parameters (weights and biases).",
+    "Option3": "A dictionary of training hyperparameters.",
+    "Option4": "A dictionary of data preprocessing steps.",
+    "Answer": "A Python dictionary object that maps each layer to its learnable parameters (weights and biases)."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which method is used to get all parameters of a `torch.nn.Module`?",
+    "Option1": "model.weights()",
+    "Option2": "model.parameters()",
+    "Option3": "model.get_params()",
+    "Option4": "model.learnable_params()",
+    "Answer": "model.parameters()"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of `requires_grad_(False)` on a tensor?",
+    "Option1": "To enable gradient computation for the tensor.",
+    "Option2": "To disable gradient computation for the tensor in-place.",
+    "Option3": "To detach the tensor from the computation graph.",
+    "Option4": "To make a copy of the tensor without gradients.",
+    "Answer": "To disable gradient computation for the tensor in-place."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a common reason to use `torch.optim.lr_scheduler`?",
+    "Option1": "To change the model architecture during training.",
+    "Option2": "To dynamically adjust the learning rate during training, typically decreasing it over time.",
+    "Option3": "To select the best optimizer.",
+    "Option4": "To save the model checkpoints.",
+    "Answer": "To dynamically adjust the learning rate during training, typically decreasing it over time."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What does `torch.argmax()` do?",
+    "Option1": "Finds the minimum value in a tensor.",
+    "Option2": "Returns the indices of the maximum value of all elements in the input tensor along a given dimension.",
+    "Option3": "Calculates the average of a tensor.",
+    "Option4": "Sorts the tensor elements.",
+    "Answer": "Returns the indices of the maximum value of all elements in the input tensor along a given dimension."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the purpose of `torch.nn.Softmax`?",
+    "Option1": "To output a linear transformation.",
+    "Option2": "To apply the softmax function to an input tensor, converting values into a probability distribution.",
+    "Option3": "To apply ReLU activation.",
+    "Option4": "To perform batch normalization.",
+    "Answer": "To apply the softmax function to an input tensor, converting values into a probability distribution."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `torch.nn.Sigmoid` used for?",
+    "Option1": "Multi-class classification outputs.",
+    "Option2": "Binary classification outputs or gating mechanisms in RNNs, squeezing values between 0 and 1.",
+    "Option3": "Regression outputs directly.",
+    "Option4": "One-hot encoding.",
+    "Answer": "Binary classification outputs or gating mechanisms in RNNs, squeezing values between 0 and 1."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the difference between `tensor.cpu()` and `tensor.detach().cpu()`?",
+    "Option1": "No difference, they are identical.",
+    "Option2": "`tensor.cpu()` moves to CPU; `tensor.detach().cpu()` also detaches from graph.",
+    "Option3": "`tensor.cpu()` detaches; `tensor.detach().cpu()` does not.",
+    "Option4": "`tensor.cpu()` is for training; `tensor.detach().cpu()` is for inference.",
+    "Answer": "`tensor.cpu()` moves to CPU; `tensor.detach().cpu()` also detaches from graph."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the purpose of `torchvision.datasets`?",
+    "Option1": "To define custom image processing functions.",
+    "Option2": "To provide access to popular image datasets (e.g., MNIST, CIFAR-10) and utilities for loading them.",
+    "Option3": "To perform image classification.",
+    "Option4": "To train image generation models.",
+    "Answer": "To provide access to popular image datasets (e.g., MNIST, CIFAR-10) and utilities for loading them."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `torchvision.transforms` used for?",
+    "Option1": "Saving image files.",
+    "Option2": "Applying common image transformations (e.g., resizing, cropping, normalization) for data augmentation and preprocessing.",
+    "Option3": "Displaying images.",
+    "Option4": "Generating new images.",
+    "Answer": "Applying common image transformations (e.g., resizing, cropping, normalization) for data augmentation and preprocessing."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `torch.manual_seed()` used for?",
+    "Option1": "To randomly initialize model parameters.",
+    "Option2": "To set the seed for PyTorch's CPU random number generator, ensuring reproducibility.",
+    "Option3": "To seed the GPU random number generator only.",
+    "Option4": "To generate unique random numbers.",
+    "Answer": "To set the seed for PyTorch's CPU random number generator, ensuring reproducibility."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is `torch.cuda.manual_seed_all()` used for?",
+    "Option1": "To set the seed for CPU random number generators.",
+    "Option2": "To set the seed for the random number generators on all available GPUs, ensuring reproducibility across multiple GPUs.",
+    "Option3": "To randomly initialize weights on all GPUs.",
+    "Option4": "To disable random number generation.",
+    "Answer": "To set the seed for the random number generators on all available GPUs, ensuring reproducibility across multiple GPUs."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the general workflow for training a neural network in PyTorch?",
+    "Option1": "Define model, load data, define loss, define optimizer, train loop (forward, backward, optimize).",
+    "Option2": "Load data, define optimizer, train loop, define model, define loss.",
+    "Option3": "Define loss, define optimizer, define model, load data, train loop.",
+    "Option4": "Train loop, load data, define model, define loss, define optimizer.",
+    "Answer": "Define model, load data, define loss, define optimizer, train loop (forward, backward, optimize)."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What does `torch.zeros()` create?",
+    "Option1": "A tensor filled with ones.",
+    "Option2": "A tensor filled with zeros, with the specified shape and data type.",
+    "Option3": "A tensor with random values.",
+    "Option4": "A tensor with a single zero value.",
+    "Answer": "A tensor filled with zeros, with the specified shape and data type."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What does `torch.ones()` create?",
+    "Option1": "A tensor filled with zeros.",
+    "Option2": "A tensor filled with ones, with the specified shape and data type.",
+    "Option3": "A tensor with random values.",
+    "Option4": "A tensor with a single one value.",
+    "Answer": "A tensor filled with ones, with the specified shape and data type."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does `torch.rand()` create?",
+    "Option1": "A tensor filled with zeros.",
+    "Option2": "A tensor with random numbers from a uniform distribution [0, 1).",
+    "Option3": "A tensor with random integers.",
+    "Option4": "A tensor filled with ones.",
+    "Answer": "A tensor with random numbers from a uniform distribution [0, 1)."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What does `torch.randn()` create?",
+    "Option1": "A tensor with random numbers from a uniform distribution.",
+    "Option2": "A tensor with random numbers from a standard normal distribution (mean=0, variance=1).",
+    "Option3": "A tensor with random integers.",
+    "Option4": "A tensor with a fixed seed.",
+    "Answer": "A tensor with random numbers from a standard normal distribution (mean=0, variance=1)."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `torch.arange()` similar to in Python?",
+    "Option1": "`list()`",
+    "Option2": "`range()`",
+    "Option3": "`dict()`",
+    "Option4": "`set()`",
+    "Answer": "`range()`"
+  },
+  {
+    "question_no.": 69,
+    "Question": "How do you check the shape of a `torch.Tensor`?",
+    "Option1": "tensor.size",
+    "Option2": "tensor.shape",
+    "Option3": "tensor.dimensions",
+    "Option4": "tensor.get_shape()",
+    "Answer": "tensor.shape"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `torch.item()` used for?",
+    "Option1": "To get the tensor value, including its gradient.",
+    "Option2": "To get the Python number (scalar) from a 0-dimensional tensor.",
+    "Option3": "To convert a tensor to a list.",
+    "Option4": "To check if a tensor is empty.",
+    "Answer": "To get the Python number (scalar) from a 0-dimensional tensor."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `torch.tensor()` used for?",
+    "Option1": "To create a random tensor.",
+    "Option2": "To construct a tensor directly from data, automatically inferring data type.",
+    "Option3": "To create a tensor of zeros.",
+    "Option4": "To create a tensor of ones.",
+    "Answer": "To construct a tensor directly from data, automatically inferring data type."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of `grad_fn` attribute in a tensor?",
+    "Option1": "It stores the tensor's data.",
+    "Option2": "It references the function that created the tensor and is used to compute gradients during backpropagation.",
+    "Option3": "It indicates if the tensor requires gradients.",
+    "Option4": "It stores the computed gradient value.",
+    "Answer": "It references the function that created the tensor and is used to compute gradients during backpropagation."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the primary use case for `torch.backends.cudnn.benchmark = True`?",
+    "Option1": "To disable cuDNN optimizations.",
+    "Option2": "To allow cuDNN to benchmark multiple algorithms and select the fastest for current hardware/configuration, speeding up training.",
+    "Option3": "To force cuDNN to use the slowest algorithm.",
+    "Option4": "To enable gradient checking.",
+    "Answer": "To allow cuDNN to benchmark multiple algorithms and select the fastest for current hardware/configuration, speeding up training."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the purpose of `torch.set_default_dtype()`?",
+    "Option1": "To change the data type of an existing tensor.",
+    "Option2": "To set the default floating point data type for `torch.Tensor` creation.",
+    "Option3": "To convert tensors to integer type.",
+    "Option4": "To specify the data type for specific operations.",
+    "Answer": "To set the default floating point data type for `torch.Tensor` creation."
+  },
+  {
+    "question_no.": 75,
+    "Question": "How do you specify the device (CPU/GPU) when creating a new tensor?",
+    "Option1": "torch.zeros(shape, gpu=True)",
+    "Option2": "torch.tensor(data, device='cuda')",
+    "Option3": "torch.tensor(data).to_device('cpu')",
+    "Option4": "tensor_on_device(data, 'cuda')",
+    "Answer": "torch.tensor(data, device='cuda')"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `torch.mean()` used for?",
+    "Option1": "Calculating the sum of a tensor.",
+    "Option2": "Calculating the average of all elements or along a specific dimension of a tensor.",
+    "Option3": "Finding the median of a tensor.",
+    "Option4": "Computing the standard deviation.",
+    "Answer": "Calculating the average of all elements or along a specific dimension of a tensor."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `torch.sum()` used for?",
+    "Option1": "Calculating the product of a tensor.",
+    "Option2": "Calculating the sum of all elements or along a specific dimension of a tensor.",
+    "Option3": "Finding the maximum value.",
+    "Option4": "Computing the variance.",
+    "Answer": "Calculating the sum of all elements or along a specific dimension of a tensor."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `torch.max()` used for?",
+    "Option1": "Finding the minimum value in a tensor.",
+    "Option2": "Returns the maximum value of all elements in the input tensor or along a given dimension.",
+    "Option3": "Calculating the mean.",
+    "Option4": "Sorting elements in descending order.",
+    "Answer": "Returns the maximum value of all elements in the input tensor or along a given dimension."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `torch.min()` used for?",
+    "Option1": "Finding the maximum value in a tensor.",
+    "Option2": "Returns the minimum value of all elements in the input tensor or along a given dimension.",
+    "Option3": "Calculating the sum.",
+    "Option4": "Sorting elements in ascending order.",
+    "Answer": "Returns the minimum value of all elements in the input tensor or along a given dimension."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `torch.where()` used for?",
+    "Option1": "To find the index of a specific value.",
+    "Option2": "To return elements chosen from `x` or `y` depending on `condition`.",
+    "Option3": "To check if a tensor contains NaN values.",
+    "Option4": "To locate specific dimensions.",
+    "Answer": "To return elements chosen from `x` or `y` depending on `condition`."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `torch.clamp()` used for?",
+    "Option1": "To normalize tensor values.",
+    "Option2": "To clamp all elements in input `input` into the range [min, max].",
+    "Option3": "To randomly sample from a tensor.",
+    "Option4": "To round tensor elements to the nearest integer.",
+    "Answer": "To clamp all elements in input `input` into the range [min, max]."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `torch.nn.MSELoss` used for?",
+    "Option1": "Classification problems.",
+    "Option2": "Regression problems, calculating the mean squared error between predictions and targets.",
+    "Option3": "Clustering problems.",
+    "Option4": "Sequence generation.",
+    "Answer": "Regression problems, calculating the mean squared error between predictions and targets."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `torch.nn.BCELoss` used for?",
+    "Option1": "Multi-class classification.",
+    "Option2": "Binary classification, calculating the Binary Cross-Entropy Loss.",
+    "Option3": "Regression problems.",
+    "Option4": "Image segmentation.",
+    "Answer": "Binary classification, calculating the Binary Cross-Entropy Loss."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `torch.nn.BCEWithLogitsLoss` useful for?",
+    "Option1": "It combines Sigmoid and BCELoss for binary classification, being more numerically stable.",
+    "Option2": "It combines Softmax and CrossEntropyLoss.",
+    "Option3": "It is used for regression with a sigmoid output.",
+    "Option4": "It is used for multi-label classification directly.",
+    "Answer": "It combines Sigmoid and BCELoss for binary classification, being more numerically stable."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `torch.optim.AdamW` an improvement over `Adam` for?",
+    "Option1": "Faster convergence on all datasets.",
+    "Option2": "Correctly decoupling weight decay from the L2 regularization term, leading to better generalization.",
+    "Option3": "Using less memory during training.",
+    "Option4": "Being more numerically stable in all cases.",
+    "Answer": "Correctly decoupling weight decay from the L2 regularization term, leading to better generalization."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the purpose of `model.to(device)`?",
+    "Option1": "To save the model to a specific file path.",
+    "Option2": "To move all model parameters and buffers to the specified device (CPU or GPU).",
+    "Option3": "To load a model from a specific device.",
+    "Option4": "To change the data type of model parameters.",
+    "Answer": "To move all model parameters and buffers to the specified device (CPU or GPU)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is a 'Dataset' class in PyTorch's `torch.utils.data`?",
+    "Option1": "A class for loading data from a database.",
+    "Option2": "An abstract class representing a dataset, requiring `__len__` and `__getitem__` methods.",
+    "Option3": "A class for performing data augmentation.",
+    "Option4": "A class for defining data preprocessing pipelines.",
+    "Answer": "An abstract class representing a dataset, requiring `__len__` and `__getitem__` methods."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the primary function of `collate_fn` in `DataLoader`?",
+    "Option1": "To shuffle the data before batching.",
+    "Option2": "To process a list of samples from the Dataset to form a batch, often used for custom padding or transformations.",
+    "Option3": "To filter out unwanted samples.",
+    "Option4": "To apply random transformations to each sample.",
+    "Answer": "To process a list of samples from the Dataset to form a batch, often used for custom padding or transformations."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `torch.optim.Optimizer.step()` responsible for?",
+    "Option1": "Computing the gradients of the loss.",
+    "Option2": "Performing a single optimization step, updating the model's parameters based on the computed gradients.",
+    "Option3": "Zeroing out the gradients.",
+    "Option4": "Loading a new batch of data.",
+    "Answer": "Performing a single optimization step, updating the model's parameters based on the computed gradients."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is a 'hook' in PyTorch?",
+    "Option1": "A mechanism to save models during training.",
+    "Option2": "A function that can be registered on a `torch.Tensor` or `torch.nn.Module` to execute custom code during forward or backward passes.",
+    "Option3": "A type of activation function.",
+    "Option4": "A way to define custom loss functions.",
+    "Answer": "A function that can be registered on a `torch.Tensor` or `torch.nn.Module` to execute custom code during forward or backward passes."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `torch.nn.Parameter`?",
+    "Option1": "A regular tensor that is not learnable.",
+    "Option2": "A special type of `torch.Tensor` that is automatically registered as a module parameter and included in `model.parameters()`.",
+    "Option3": "A tensor used for input data only.",
+    "Option4": "A placeholder for arbitrary data.",
+    "Answer": "A special type of `torch.Tensor` that is automatically registered as a module parameter and included in `model.parameters()`."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the purpose of `torch.save(model, 'model.pth')` (saving the entire model)?",
+    "Option1": "It saves only the model's state dictionary.",
+    "Option2": "It saves the entire model (architecture + state_dict), but it's generally not recommended for best practice due to potential issues.",
+    "Option3": "It only saves the optimizer's state.",
+    "Option4": "It saves a symbolic graph representation.",
+    "Answer": "It saves the entire model (architecture + state_dict), but it's generally not recommended for best practice due to potential issues."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the advantage of saving and loading `state_dict` over the entire model?",
+    "Option1": "It always results in smaller file sizes.",
+    "Option2": "It's more robust to changes in model definition or PyTorch versions, and allows for easier transfer learning.",
+    "Option3": "It's faster to save and load.",
+    "Option4": "It includes optimizer state automatically.",
+    "Answer": "It's more robust to changes in model definition or PyTorch versions, and allows for easier transfer learning."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `torch.utils.tensorboard` used for?",
+    "Option1": "To export models to ONNX format.",
+    "Option2": "To integrate with TensorBoard, a visualization toolkit for machine learning experiments.",
+    "Option3": "To manage multiple GPUs.",
+    "Option4": "To convert models to scriptable format.",
+    "Answer": "To integrate with TensorBoard, a visualization toolkit for machine learning experiments."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Distributed Data Parallel' (DDP) in PyTorch?",
+    "Option1": "A method to train on a single GPU.",
+    "Option2": "A scalable and efficient way to train models across multiple GPUs on one or more machines, often preferred over DataParallel for larger setups.",
+    "Option3": "A technique for running separate models on different GPUs.",
+    "Option4": "A method to distribute data preprocessing.",
+    "Answer": "A scalable and efficient way to train models across multiple GPUs on one or more machines, often preferred over DataParallel for larger setups."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `torch.nn.DataParallel` best suited for?",
+    "Option1": "Training on a single machine with a few GPUs.",
+    "Option2": "Training on multiple machines with many GPUs.",
+    "Option3": "CPU-only training.",
+    "Option4": "Deployment to edge devices.",
+    "Answer": "Training on a single machine with a few GPUs."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What does `torch.cat((tensor1, tensor2), dim=0)` do?",
+    "Option1": "Stacks tensor1 and tensor2 along a new dimension.",
+    "Option2": "Concatenates tensor1 and tensor2 along the first dimension (rows).",
+    "Option3": "Concatenates tensor1 and tensor2 along the second dimension (columns).",
+    "Option4": "Performs element-wise addition of tensors.",
+    "Answer": "Concatenates tensor1 and tensor2 along the first dimension (rows)."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What does `tensor.view(-1)` do?",
+    "Option1": "Adds a new dimension to the tensor.",
+    "Option2": "Flattens the tensor into a 1D tensor.",
+    "Option3": "Reshapes the tensor to a 2D matrix.",
+    "Option4": "Reverses the order of elements in the tensor.",
+    "Answer": "Flattens the tensor into a 1D tensor."
+  },
+  {
+    "question_no.": 99,
+    "Question": "When should you use `torch.nn.ModuleList`?",
+    "Option1": "When you have a fixed sequence of layers in a Sequential model.",
+    "Option2": "When you need to store a list of `nn.Module` instances and register them as submodules.",
+    "Option3": "When you want to store regular Python lists of tensors.",
+    "Option4": "When you want to apply a single module multiple times.",
+    "Answer": "When you need to store a list of `nn.Module` instances and register them as submodules."
+  },
+  {
+    "question_no.": 100,
+    "Question": "When should you use `torch.nn.ParameterList`?",
+    "Option1": "When you have a fixed list of `nn.Module` instances.",
+    "Option2": "When you need to store a list of `nn.Parameter` instances and register them as module parameters.",
+    "Option3": "When you want to store regular Python lists of tensors.",
+    "Option4": "When you want to apply a single parameter multiple times.",
+    "Answer": "When you need to store a list of `nn.Parameter` instances and register them as module parameters."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the primary difference between `torch.nn.Module` and `torch.autograd.Function`?",
+    "Option1": "`nn.Module` is for defining operations, `autograd.Function` is for defining layers.",
+    "Option2": "`nn.Module` is for defining trainable layers with parameters, `autograd.Function` is for implementing custom operations with explicit forward and backward passes.",
+    "Option3": "They are interchangeable.",
+    "Option4": "`nn.Module` is for CPU, `autograd.Function` is for GPU.",
+    "Answer": "`nn.Module` is for defining trainable layers with parameters, `autograd.Function` is for implementing custom operations with explicit forward and backward passes."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `torch.optim.LBFGS` a type of optimizer primarily used for?",
+    "Option1": "Large-scale distributed training.",
+    "Option2": "Optimization on CPU for problems with small to medium-sized datasets, often for research.",
+    "Option3": "Training recurrent neural networks efficiently.",
+    "Option4": "Optimizing generative adversarial networks.",
+    "Answer": "Optimization on CPU for problems with small to medium-sized datasets, often for research."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'gradient clipping' used for in PyTorch training?",
+    "Option1": "To prevent overfitting by reducing the learning rate.",
+    "Option2": "To prevent exploding gradients by limiting the maximum value of gradients during backpropagation.",
+    "Option3": "To increase the learning rate dynamically.",
+    "Option4": "To smooth the loss function.",
+    "Answer": "To prevent exploding gradients by limiting the maximum value of gradients during backpropagation."
+  },
+  {
+    "question_no.": 104,
+    "Question": "How do you perform gradient clipping by value in PyTorch?",
+    "Option1": "torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm)",
+    "Option2": "torch.nn.utils.clip_grad_value_(model.parameters(), clip_value)",
+    "Option3": "optimizer.clip_gradients()",
+    "Option4": "loss.clip_gradients()",
+    "Answer": "torch.nn.utils.clip_grad_value_(model.parameters(), clip_value)"
+  },
+  {
+    "question_no.": 105,
+    "Question": "How do you perform gradient clipping by norm in PyTorch?",
+    "Option1": "torch.nn.utils.clip_grad_value_(model.parameters(), clip_value)",
+    "Option2": "torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm)",
+    "Option3": "optimizer.clip_gradients()",
+    "Option4": "model.clip_gradients()",
+    "Answer": "torch.nn.utils.clip_grad_norm_(model.parameters(), max_norm)"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `torch.nn.Module.apply(fn)` used for?",
+    "Option1": "To apply a function to the input data of a module.",
+    "Option2": "To recursively apply a function `fn` to every submodule and itself.",
+    "Option3": "To apply a function to the output of a module.",
+    "Option4": "To apply a function to the gradients of a module.",
+    "Answer": "To recursively apply a function `fn` to every submodule and itself."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `torch.nn.init` module typically used for?",
+    "Option1": "Training the model parameters.",
+    "Option2": "Initializing the weights and biases of neural network layers with specific strategies (e.g., Xavier, Kaiming).",
+    "Option3": "Saving model parameters.",
+    "Option4": "Loading pre-trained weights.",
+    "Answer": "Initializing the weights and biases of neural network layers with specific strategies (e.g., Xavier, Kaiming)."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Xavier Uniform' initialization used for?",
+    "Option1": "Initializing biases to zero.",
+    "Option2": "Initializing weights such that the variance of activations remains constant across layers, suitable for tanh or sigmoid activations.",
+    "Option3": "Initializing weights with zeros.",
+    "Option4": "Initializing weights for ReLU activation functions.",
+    "Answer": "Initializing weights such that the variance of activations remains constant across layers, suitable for tanh or sigmoid activations."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Kaiming Uniform' (He) initialization used for?",
+    "Option1": "Initializing weights for sigmoid activations.",
+    "Option2": "Initializing weights suitable for layers followed by ReLU (or its variants) activation functions.",
+    "Option3": "Initializing all weights to random small values.",
+    "Option4": "Initializing weights with large values.",
+    "Answer": "Initializing weights suitable for layers followed by ReLU (or its variants) activation functions."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `torch.no_grad()` equivalent to in terms of setting a tensor's `requires_grad`?",
+    "Option1": "Setting `requires_grad=True` for all operations inside.",
+    "Option2": "Setting `requires_grad=False` for all tensors created or modified inside.",
+    "Option3": "It changes the global default `requires_grad`.",
+    "Option4": "It only affects parameters, not other tensors.",
+    "Answer": "Setting `requires_grad=False` for all tensors created or modified inside."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `torch.compile()` (introduced in PyTorch 2.0) used for?",
+    "Option1": "To compile Python code to C++.",
+    "Option2": "To speed up PyTorch code execution by optimizing and compiling parts of the model into a fused operation graph.",
+    "Option3": "To convert models to ONNX.",
+    "Option4": "To run models on CPUs only.",
+    "Answer": "To speed up PyTorch code execution by optimizing and compiling parts of the model into a fused operation graph."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the primary benefit of `torch.compile()`?",
+    "Option1": "Reduces memory usage significantly.",
+    "Option2": "Offers significant speedups for both training and inference without code changes.",
+    "Option3": "Enables distributed training automatically.",
+    "Option4": "Simplifies model definition.",
+    "Answer": "Offers significant speedups for both training and inference without code changes."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Automatic Mixed Precision' (AMP) in PyTorch?",
+    "Option1": "Training models with lower precision (e.g., float16) to speed up computation and reduce memory usage while maintaining numerical stability.",
+    "Option2": "Training models using only double precision.",
+    "Option3": "Mixing different optimizer types.",
+    "Option4": "Combining different activation functions.",
+    "Answer": "Training models with lower precision (e.g., float16) to speed up computation and reduce memory usage while maintaining numerical stability."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which module in PyTorch provides utilities for AMP?",
+    "Option1": "torch.cuda.amp",
+    "Option2": "torch.optim.amp",
+    "Option3": "torch.nn.amp",
+    "Option4": "torch.utils.amp",
+    "Answer": "torch.cuda.amp"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is a `torch.Generator` used for?",
+    "Option1": "To generate random tensors only on GPU.",
+    "Option2": "To manage the state of PyTorch's random number generators for CPU and CUDA.",
+    "Option3": "To generate data for data loaders.",
+    "Option4": "To create unique model IDs.",
+    "Answer": "To manage the state of PyTorch's random number generators for CPU and CUDA."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `torch.is_grad_enabled()` used for?",
+    "Option1": "To enable gradient calculations.",
+    "Option2": "To check if gradient calculations are currently enabled.",
+    "Option3": "To disable gradient calculations.",
+    "Option4": "To reset gradient states.",
+    "Answer": "To check if gradient calculations are currently enabled."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the primary purpose of `torch.linalg` module?",
+    "Option1": "To provide high-level neural network layers.",
+    "Option2": "To offer a comprehensive set of linear algebra operations on tensors.",
+    "Option3": "To handle distributed training.",
+    "Option4": "To perform statistical analysis.",
+    "Answer": "To offer a comprehensive set of linear algebra operations on tensors."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `torch.distributions` module for?",
+    "Option1": "Generating random numbers from a uniform distribution.",
+    "Option2": "Providing tools for creating and manipulating probability distributions, useful in variational autoencoders or reinforcement learning.",
+    "Option3": "Visualizing data distributions.",
+    "Option4": "Calculating data statistics.",
+    "Answer": "Providing tools for creating and manipulating probability distributions, useful in variational autoencoders or reinforcement learning."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `torch.fft` module for?",
+    "Option1": "Fast File Transfer.",
+    "Option2": "Providing Fast Fourier Transform operations on tensors.",
+    "Option3": "Faster tensor indexing.",
+    "Option4": "Function for feature scaling.",
+    "Answer": "Providing Fast Fourier Transform operations on tensors."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `torch.sparse` module for?",
+    "Option1": "Dense tensor operations.",
+    "Option2": "Supporting sparse tensor operations, which can be memory and computationally efficient for sparse data.",
+    "Option3": "Randomly dropping elements from tensors.",
+    "Option4": "Creating small tensors.",
+    "Answer": "Supporting sparse tensor operations, which can be memory and computationally efficient for sparse data."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `torch.optim.RMSprop`?",
+    "Option1": "An optimizer that accumulates squared gradients.",
+    "Option2": "An optimizer similar to Adam but without momentum.",
+    "Option3": "An optimizer specifically for recurrent networks.",
+    "Option4": "An optimizer for linear models only.",
+    "Answer": "An optimizer that accumulates squared gradients."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `torch.optim.Adagrad`?",
+    "Option1": "An optimizer with a fixed learning rate.",
+    "Option2": "An optimizer that adapts the learning rate for each parameter based on its past gradients, slowing down for frequent features.",
+    "Option3": "An optimizer that speeds up training significantly.",
+    "Option4": "An optimizer for sparse data that doesn't adapt learning rates.",
+    "Answer": "An optimizer that adapts the learning rate for each parameter based on its past gradients, slowing down for frequent features."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `torch.nn.LeakyReLU`?",
+    "Option1": "A linear activation function.",
+    "Option2": "A variant of ReLU that allows a small, non-zero gradient when the input is negative.",
+    "Option3": "A type of pooling layer.",
+    "Option4": "A normalization layer.",
+    "Answer": "A variant of ReLU that allows a small, non-zero gradient when the input is negative."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `torch.nn.ELU`?",
+    "Option1": "An activation function that is always positive.",
+    "Option2": "An activation function that avoids dead ReLU problem by allowing negative values and being smooth, pushing mean activation closer to zero.",
+    "Option3": "A pooling layer with exponential decay.",
+    "Option4": "A linear activation function with an exponential term.",
+    "Answer": "An activation function that avoids dead ReLU problem by allowing negative values and being smooth, pushing mean activation closer to zero."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `torch.nn.GELU`?",
+    "Option1": "A simple linear activation.",
+    "Option2": "A non-linear activation function used in Transformer models, multiplying the input with the cumulative distribution function of the normal distribution.",
+    "Option3": "A type of sigmoid function.",
+    "Option4": "A pooling operation for graphs.",
+    "Answer": "A non-linear activation function used in Transformer models, multiplying the input with the cumulative distribution function of the normal distribution."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `torch.nn.InstanceNorm2d` used for?",
+    "Option1": "Normalizing activations across the batch dimension.",
+    "Option2": "Normalizing activations across the spatial dimensions for each channel and each sample independently.",
+    "Option3": "Normalizing activations within a single channel.",
+    "Option4": "Normalizing input features.",
+    "Answer": "Normalizing activations across the spatial dimensions for each channel and each sample independently."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `torch.nn.GroupNorm` used for?",
+    "Option1": "Normalizing activations across the entire batch.",
+    "Option2": "Normalizing activations within small groups of channels, suitable for models where batch size is very small.",
+    "Option3": "Normalizing activations for each individual neuron.",
+    "Option4": "Normalizing activations for each layer independently.",
+    "Answer": "Normalizing activations within small groups of channels, suitable for models where batch size is very small."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `torch.nn.LayerNorm` used for?",
+    "Option1": "Normalizing activations across the batch dimension.",
+    "Option2": "Normalizing activations across the features for each sample independently.",
+    "Option3": "Normalizing activations across channels.",
+    "Option4": "Normalizing input data before the first layer.",
+    "Answer": "Normalizing activations across the features for each sample independently."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Weight Decay' in PyTorch optimizers?",
+    "Option1": "A method to increase the learning rate.",
+    "Option2": "A regularization technique (L2 regularization) that penalizes large weights, preventing overfitting.",
+    "Option3": "A method to reduce model complexity by removing layers.",
+    "Option4": "A technique to accelerate convergence.",
+    "Answer": "A regularization technique (L2 regularization) that penalizes large weights, preventing overfitting."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the purpose of `DataLoader(shuffle=True)`?",
+    "Option1": "To shuffle the data after each batch is created.",
+    "Option2": "To shuffle the data at the beginning of each epoch, which is crucial for training stability and generalization.",
+    "Option3": "To shuffle the data once and keep it fixed.",
+    "Option4": "To sort the data by target labels.",
+    "Answer": "To shuffle the data at the beginning of each epoch, which is crucial for training stability and generalization."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the primary role of a 'Callback' in a PyTorch training loop (if implemented, e.g., using libraries like PyTorch Lightning)?",
+    "Option1": "To define the model architecture.",
+    "Option2": "To perform actions at specific points during training (e.g., saving checkpoints, logging metrics, early stopping).",
+    "Option3": "To optimize the model parameters.",
+    "Option4": "To preprocess the input data.",
+    "Answer": "To perform actions at specific points during training (e.g., saving checkpoints, logging metrics, early stopping)."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the function of `optimizer.zero_grad()` before calling `loss.backward()`?",
+    "Option1": "To initialize the gradients to random values.",
+    "Option2": "To prevent gradients from accumulating across multiple batches, ensuring that each backward pass computes gradients for the current batch only.",
+    "Option3": "To set the learning rate to zero.",
+    "Option4": "To clear the loss history.",
+    "Answer": "To prevent gradients from accumulating across multiple batches, ensuring that each backward pass computes gradients for the current batch only."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What does `tensor.contiguous()` do?",
+    "Option1": "Changes the data type of the tensor.",
+    "Option2": "Returns a contiguous tensor (in memory). If the tensor is already contiguous, it returns itself. Otherwise, a copy is made.",
+    "Option3": "Moves the tensor to a different device.",
+    "Option4": "Changes the shape of the tensor in-place.",
+    "Answer": "Returns a contiguous tensor (in memory). If the tensor is already contiguous, it returns itself. Otherwise, a copy is made."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Why is `tensor.contiguous()` sometimes necessary before operations like `view()`?",
+    "Option1": "`view()` can only operate on non-contiguous tensors.",
+    "Option2": "Some operations, especially `view()`, require the tensor to be contiguous in memory for efficient reshaping.",
+    "Option3": "It's a requirement for GPU operations only.",
+    "Option4": "It improves the numerical stability of the operation.",
+    "Answer": "Some operations, especially `view()`, require the tensor to be contiguous in memory for efficient reshaping."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `torch.split()` used for?",
+    "Option1": "Concatenating tensors.",
+    "Option2": "Splitting a tensor into multiple chunks along a given dimension.",
+    "Option3": "Splitting a tensor into individual elements.",
+    "Option4": "Reshaping a tensor.",
+    "Answer": "Splitting a tensor into multiple chunks along a given dimension."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `torch.chunk()` similar to `torch.split()` for?",
+    "Option1": "It always splits into equal parts.",
+    "Option2": "It attempts to split a tensor into an equal number of chunks, but if not divisible, the last chunk will be smaller.",
+    "Option3": "It can only split along the first dimension.",
+    "Option4": "It reverses the order of chunks.",
+    "Answer": "It attempts to split a tensor into an equal number of chunks, but if not divisible, the last chunk will be smaller."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `torch.transpose()` used for?",
+    "Option1": "Reshaping a tensor.",
+    "Option2": "Permuting two dimensions of a tensor.",
+    "Option3": "Reversing the order of elements.",
+    "Option4": "Adding new dimensions.",
+    "Answer": "Permuting two dimensions of a tensor."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `tensor.permute(dims)` used for?",
+    "Option1": "Swapping only two dimensions.",
+    "Option2": "Reordering the dimensions of a tensor according to the specified new order.",
+    "Option3": "Adding new dimensions to a tensor.",
+    "Option4": "Reshaping a tensor to a new size.",
+    "Answer": "Reordering the dimensions of a tensor according to the specified new order."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `torch.matmul()` used for?",
+    "Option1": "Element-wise multiplication of tensors.",
+    "Option2": "Matrix multiplication (dot product for 1D, matrix multiplication for 2D, or batch matrix multiplication for higher dimensions).",
+    "Option3": "Tensor concatenation.",
+    "Option4": "Vector addition.",
+    "Answer": "Matrix multiplication (dot product for 1D, matrix multiplication for 2D, or batch matrix multiplication for higher dimensions)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `torch.bmm()` specifically used for?",
+    "Option1": "Matrix multiplication of 2D tensors.",
+    "Option2": "Batch matrix-matrix product of 3D tensors.",
+    "Option3": "Element-wise multiplication of batches.",
+    "Option4": "Vector-matrix multiplication.",
+    "Answer": "Batch matrix-matrix product of 3D tensors."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `torch.nn.Identity` used for?",
+    "Option1": "A layer that performs no operation, useful for placeholders or simplifying architectures.",
+    "Option2": "A layer that initializes weights to zero.",
+    "Option3": "A layer that adds random noise.",
+    "Option4": "A layer that copies the input to the output without gradient tracking.",
+    "Answer": "A layer that performs no operation, useful for placeholders or simplifying architectures."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `torch.nn.Upsample` used for?",
+    "Option1": "Downsampling feature maps.",
+    "Option2": "Upsampling spatial dimensions of input tensors using various interpolation algorithms.",
+    "Option3": "Reducing the number of channels.",
+    "Option4": "Applying activation functions.",
+    "Answer": "Upsampling spatial dimensions of input tensors using various interpolation algorithms."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `torch.nn.PixelShuffle` used for in super-resolution networks?",
+    "Option1": "To downsample images.",
+    "Option2": "To rearrange pixels from a tensor of shape (..., C*r^2, H, W) to (..., C, H*r, W*r), increasing spatial resolution.",
+    "Option3": "To randomly shuffle pixel values.",
+    "Option4": "To convert images to grayscale.",
+    "Answer": "To rearrange pixels from a tensor of shape (..., C*r^2, H, W) to (..., C, H*r, W*r), increasing spatial resolution."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `torch.jit.trace()` used for?",
+    "Option1": "To interpret Python code directly without compilation.",
+    "Option2": "To record the operations performed on a sample input to create a `ScriptModule`, useful for models with fixed control flow.",
+    "Option3": "To debug models interactively.",
+    "Option4": "To visualize the model architecture.",
+    "Answer": "To record the operations performed on a sample input to create a `ScriptModule`, useful for models with fixed control flow."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is the limitation of `torch.jit.trace()` compared to `torch.jit.script()`?",
+    "Option1": "It cannot handle models with variable input shapes.",
+    "Option2": "It cannot capture control flow (if statements, loops) that depend on input values, as it only records operations for one specific input.",
+    "Option3": "It is slower than `torch.jit.script()` for simple models.",
+    "Option4": "It cannot be used for deployment.",
+    "Answer": "It cannot capture control flow (if statements, loops) that depend on input values, as it only records operations for one specific input."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is a 'quantized model' in PyTorch?",
+    "Option1": "A model trained with very small batch sizes.",
+    "Option2": "A model where weights and/or activations are stored at lower precision (e.g., 8-bit integers) to reduce memory and speed up inference.",
+    "Option3": "A model that can only output discrete values.",
+    "Option4": "A model that uses sparse tensors for all operations.",
+    "Answer": "A model where weights and/or activations are stored at lower precision (e.g., 8-bit integers) to reduce memory and speed up inference."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What are the benefits of model quantization?",
+    "Option1": "Increased accuracy and faster training.",
+    "Option2": "Reduced model size, lower memory bandwidth, and faster inference on supported hardware.",
+    "Option3": "Improved generalization and less prone to overfitting.",
+    "Option4": "Better interpretability of model predictions.",
+    "Answer": "Reduced model size, lower memory bandwidth, and faster inference on supported hardware."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Quantization-Aware Training' (QAT)?",
+    "Option1": "Quantizing a model after training.",
+    "Option2": "A technique where a model is fine-tuned while simulating quantization effects, leading to higher accuracy compared to post-training quantization.",
+    "Option3": "Training a model with only quantized data.",
+    "Option4": "Training a model on a quantum computer.",
+    "Answer": "A technique where a model is fine-tuned while simulating quantization effects, leading to higher accuracy compared to post-training quantization."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Post-Training Quantization' (PTQ)?",
+    "Option1": "Quantizing a model during training.",
+    "Option2": "Applying quantization to an already trained, full-precision model.",
+    "Option3": "Training a model with quantized inputs.",
+    "Option4": "Quantizing the training data, not the model.",
+    "Answer": "Applying quantization to an already trained, full-precision model."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `torch.profiler` used for?",
+    "Option1": "To deploy models to production.",
+    "Option2": "To analyze the performance of PyTorch code, identifying bottlenecks in CPU and GPU usage.",
+    "Option3": "To automatically optimize model parameters.",
+    "Option4": "To visualize computation graphs.",
+    "Answer": "To analyze the performance of PyTorch code, identifying bottlenecks in CPU and GPU usage."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `torch.cuda.empty_cache()` used for?",
+    "Option1": "To free up CPU memory.",
+    "Option2": "To clear the CUDA memory cache, releasing unused GPU memory that PyTorch might be holding.",
+    "Option3": "To reset the model's parameters.",
+    "Option4": "To clear the gradients of tensors.",
+    "Answer": "To clear the CUDA memory cache, releasing unused GPU memory that PyTorch might be holding."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What does `tensor.clone().detach()` achieve?",
+    "Option1": "Creates a new tensor that shares memory with the original.",
+    "Option2": "Creates a new tensor with its own data copy, completely detached from the computation graph, useful for operations that should not influence gradients.",
+    "Option3": "Only detaches the tensor without copying.",
+    "Option4": "Only creates a copy without detaching.",
+    "Answer": "Creates a new tensor with its own data copy, completely detached from the computation graph, useful for operations that should not influence gradients."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is the `torch.nn.functional.grid_sample` function typically used for in computer vision?",
+    "Option1": "Image classification.",
+    "Option2": "Spatial transformer networks or geometric transformations on images, resampling input pixels using a grid of sampling locations.",
+    "Option3": "Feature extraction from images.",
+    "Option4": "Image compression.",
+    "Answer": "Spatial transformer networks or geometric transformations on images, resampling input pixels using a grid of sampling locations."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Parameter Group' in `torch.optim`?",
+    "Option1": "A single model parameter.",
+    "Option2": "A way to assign different learning rates or other hyperparameter settings to different sets of parameters within a model.",
+    "Option3": "A predefined group of common parameters.",
+    "Option4": "A group of parameters that must be trained together.",
+    "Answer": "A way to assign different learning rates or other hyperparameter settings to different sets of parameters within a model."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the common use case for using Parameter Groups?",
+    "Option1": "To train all layers with the same learning rate.",
+    "Option2": "To apply different learning rates to different layers (e.g., freezing some layers, fine-tuning others) in transfer learning.",
+    "Option3": "To reduce the total number of parameters.",
+    "Option4": "To force all parameters to have the same gradient.",
+    "Answer": "To apply different learning rates to different layers (e.g., freezing some layers, fine-tuning others) in transfer learning."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `torch.distributed` module used for?",
+    "Option1": "Single-GPU training.",
+    "Option2": "Enabling distributed training across multiple GPUs, nodes, or machines for large-scale models.",
+    "Option3": "Distributing data to data loaders.",
+    "Option4": "Distributing model layers to different CPU cores.",
+    "Answer": "Enabling distributed training across multiple GPUs, nodes, or machines for large-scale models."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `backend` parameter in `torch.distributed.init_process_group` referring to?",
+    "Option1": "The type of neural network layer.",
+    "Option2": "The communication backend used for distributed operations (e.g., 'gloo', 'nccl', 'mpi').",
+    "Option3": "The operating system.",
+    "Option4": "The deep learning framework.",
+    "Answer": "The communication backend used for distributed operations (e.g., 'gloo', 'nccl', 'mpi')."
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which communication backend is typically preferred for multi-GPU training on a single machine?",
+    "Option1": "Gloo",
+    "Option2": "MPI",
+    "Option3": "NCCL",
+    "Option4": "TCP",
+    "Answer": "NCCL"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the role of `rank` in distributed training?",
+    "Option1": "The total number of processes.",
+    "Option2": "A unique identifier for each process within the distributed group.",
+    "Option3": "The priority of a process.",
+    "Option4": "The size of the batch.",
+    "Answer": "A unique identifier for each process within the distributed group."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the role of `world_size` in distributed training?",
+    "Option1": "The size of the dataset.",
+    "Option2": "The total number of processes participating in the distributed training.",
+    "Option3": "The number of GPUs on a single machine.",
+    "Option4": "The number of training epochs.",
+    "Answer": "The total number of processes participating in the distributed training."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `torch.nn.init.kaiming_normal_` suitable for?",
+    "Option1": "Layers followed by sigmoid or tanh activations.",
+    "Option2": "Layers followed by ReLU or LeakyReLU activations, drawing from a normal distribution.",
+    "Option3": "Biases initialization.",
+    "Option4": "Output layer weights.",
+    "Answer": "Layers followed by ReLU or LeakyReLU activations, drawing from a normal distribution."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `torch.nn.init.xavier_normal_` suitable for?",
+    "Option1": "Layers followed by ReLU activations.",
+    "Option2": "Layers followed by tanh or sigmoid activations, drawing from a normal distribution.",
+    "Option3": "Input layer weights only.",
+    "Option4": "Biases initialization.",
+    "Answer": "Layers followed by tanh or sigmoid activations, drawing from a normal distribution."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What does `torch.set_printoptions(precision=4)` do?",
+    "Option1": "Sets the default data type for tensor printing.",
+    "Option2": "Sets the printing precision for floating point numbers in tensors.",
+    "Option3": "Sets the number of dimensions to print.",
+    "Option4": "Controls the verbosity of print statements.",
+    "Answer": "Sets the printing precision for floating point numbers in tensors."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `torch.nn.Module.zero_grad()` used for?",
+    "Option1": "To reset the optimizer's state.",
+    "Option2": "To set the gradients of all parameters within the module to zero.",
+    "Option3": "To set the learning rate to zero.",
+    "Option4": "To clear the computational graph.",
+    "Answer": "To set the gradients of all parameters within the module to zero."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `torch.profiler.schedule` used for?",
+    "Option1": "To define the training schedule for learning rate.",
+    "Option2": "To control when and how long the profiler collects data during training.",
+    "Option3": "To schedule data loading operations.",
+    "Option4": "To schedule model saving events.",
+    "Answer": "To control when and how long the profiler collects data during training."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `torch.profiler.tensorboard_trace_handler` used for?",
+    "Option1": "To display tensor values in TensorBoard.",
+    "Option2": "To save profiling results in a format viewable in TensorBoard's trace viewer.",
+    "Option3": "To log tensor shapes to TensorBoard.",
+    "Option4": "To automatically generate TensorBoard dashboards.",
+    "Answer": "To save profiling results in a format viewable in TensorBoard's trace viewer."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the purpose of `torch.nn.utils.rnn.pack_padded_sequence` and `pad_packed_sequence`?",
+    "Option1": "To handle fixed-length sequences in RNNs.",
+    "Option2": "To efficiently process variable-length sequences in RNNs by packing them and then unpacking for further processing.",
+    "Option3": "To pad sequences with random values.",
+    "Option4": "To sort sequences by length.",
+    "Answer": "To efficiently process variable-length sequences in RNNs by packing them and then unpacking for further processing."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `torch.nn.LSTMCell` or `torch.nn.GRUCell` used for?",
+    "Option1": "Building multi-layer RNNs.",
+    "Option2": "Implementing a single step of an LSTM or GRU network, useful for custom recurrent architectures.",
+    "Option3": "Processing fixed-length sequences.",
+    "Option4": "Defining the entire LSTM/GRU network.",
+    "Answer": "Implementing a single step of an LSTM or GRU network, useful for custom recurrent architectures."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `torch.nn.utils.spectral_norm` used for in GANs?",
+    "Option1": "To normalize batch statistics.",
+    "Option2": "To regularize the discriminator in Generative Adversarial Networks (GANs) by normalizing the spectral norm of weight matrices.",
+    "Option3": "To stabilize generator training.",
+    "Option4": "To normalize the input data.",
+    "Answer": "To regularize the discriminator in Generative Adversarial Networks (GANs) by normalizing the spectral norm of weight matrices."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `torch.nn.utils.weight_norm` used for?",
+    "Option1": "To reduce model size.",
+    "Option2": "To decouple the magnitude and direction of a weight vector, often leading to faster convergence and better generalization.",
+    "Option3": "To initialize weights with zero.",
+    "Option4": "To apply dropout to weights.",
+    "Answer": "To decouple the magnitude and direction of a weight vector, often leading to faster convergence and better generalization."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `torch.optim.swa_utils` used for?",
+    "Option1": "Stochastic Gradient Descent with Warm Restarts.",
+    "Option2": "Stochastic Weight Averaging (SWA), which averages weights from later stages of training to improve generalization.",
+    "Option3": "Scheduled Weight Averaging.",
+    "Option4": "Singular Value Decomposition for weights.",
+    "Answer": "Stochastic Weight Averaging (SWA), which averages weights from later stages of training to improve generalization."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Learning Rate Scheduler' (LRScheduler)?",
+    "Option1": "A fixed learning rate for the entire training.",
+    "Option2": "A strategy to adjust the learning rate of the optimizer during training based on a predefined schedule or a metric's performance.",
+    "Option3": "A method to choose the initial learning rate.",
+    "Option4": "A technique to stop training early.",
+    "Answer": "A strategy to adjust the learning rate of the optimizer during training based on a predefined schedule or a metric's performance."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `torch.optim.lr_scheduler.StepLR`?",
+    "Option1": "A learning rate scheduler that reduces the learning rate by a fixed factor at predefined epochs.",
+    "Option2": "A learning rate scheduler that reduces the learning rate based on validation loss.",
+    "Option3": "A learning rate scheduler that increases the learning rate.",
+    "Option4": "A learning rate scheduler with random adjustments.",
+    "Answer": "A learning rate scheduler that reduces the learning rate by a fixed factor at predefined epochs."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `torch.optim.lr_scheduler.ReduceLROnPlateau`?",
+    "Option1": "A learning rate scheduler that reduces the learning rate after a fixed number of epochs.",
+    "Option2": "A learning rate scheduler that reduces the learning rate when a metric (e.g., validation loss) has stopped improving for a specified number of epochs.",
+    "Option3": "A learning rate scheduler that cycles the learning rate.",
+    "Option4": "A learning rate scheduler that uses cosine annealing.",
+    "Answer": "A learning rate scheduler that reduces the learning rate when a metric (e.g., validation loss) has stopped improving for a specified number of epochs."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `torch.optim.lr_scheduler.CosineAnnealingLR`?",
+    "Option1": "A learning rate scheduler that reduces the learning rate linearly.",
+    "Option2": "A learning rate scheduler that decreases the learning rate following a cosine curve from the initial LR to zero.",
+    "Option3": "A learning rate scheduler that keeps the learning rate constant.",
+    "Option4": "A learning rate scheduler that increases the learning rate.",
+    "Answer": "A learning rate scheduler that decreases the learning rate following a cosine curve from the initial LR to zero."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `torch.nn.Module.register_buffer()` used for?",
+    "Option1": "To register a parameter that requires gradients.",
+    "Option2": "To register a tensor as a buffer, which is not a parameter (not updated by optimizers) but is part of the module's state and is saved/loaded with the state_dict.",
+    "Option3": "To register a temporary tensor for calculations.",
+    "Option4": "To register a tensor for input data.",
+    "Answer": "To register a tensor as a buffer, which is not a parameter (not updated by optimizers) but is part of the module's state and is saved/loaded with the state_dict."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is a common use case for `torch.nn.Module.register_buffer()`?",
+    "Option1": "Storing weights of a convolutional layer.",
+    "Option2": "Storing running means and variances in Batch Normalization layers.",
+    "Option3": "Storing input data for training.",
+    "Option4": "Storing the optimizer's state.",
+    "Answer": "Storing running means and variances in Batch Normalization layers."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `torch.cuda.amp.autocast()` context manager for?",
+    "Option1": "To explicitly cast all tensors to a specific data type.",
+    "Option2": "To enable automatic mixed precision training, automatically choosing appropriate data types (e.g., float16, float32) for operations.",
+    "Option3": "To disable type casting.",
+    "Option4": "To convert tensors to NumPy arrays.",
+    "Answer": "To enable automatic mixed precision training, automatically choosing appropriate data types (e.g., float16, float32) for operations."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `torch.cuda.amp.GradScaler()` used for in AMP training?",
+    "Option1": "Scaling model parameters.",
+    "Option2": "Scaling gradients to prevent underflow of small gradients when using float16, and unscaling before `optimizer.step()`.",
+    "Option3": "Scaling the learning rate.",
+    "Option4": "Scaling the input data.",
+    "Answer": "Scaling gradients to prevent underflow of small gradients when using float16, and unscaling before `optimizer.step()`."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `torch.compile(mode='reduce-overhead')` for?",
+    "Option1": "To maximize training speed.",
+    "Option2": "To optimize for reducing the overhead of PyTorch's dynamic graph, typically sacrificing some peak performance for lower memory usage and faster startup.",
+    "Option3": "To compile to a portable format.",
+    "Option4": "To compile for CPU only.",
+    "Answer": "To optimize for reducing the overhead of PyTorch's dynamic graph, typically sacrificing some peak performance for lower memory usage and faster startup."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `torch.compile(mode='max-autotune')` for?",
+    "Option1": "To quickly compile without extensive optimization.",
+    "Option2": "To perform extensive searching for the fastest kernels for a given model and hardware, potentially taking longer compilation but offering maximum runtime speedup.",
+    "Option3": "To compile for portability.",
+    "Option4": "To reduce memory footprint.",
+    "Answer": "To perform extensive searching for the fastest kernels for a given model and hardware, potentially taking longer compilation but offering maximum runtime speedup."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is a 'Hook' in PyTorch's autograd system often used for in debugging or visualization?",
+    "Option1": "Modifying tensor values directly.",
+    "Option2": "Inspecting or modifying gradients during the backward pass (backward hooks) or activations during the forward pass (forward hooks).",
+    "Option3": "Skipping layers during computation.",
+    "Option4": "Changing the model's architecture on the fly.",
+    "Answer": "Inspecting or modifying gradients during the backward pass (backward hooks) or activations during the forward pass (forward hooks)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `torch.jit.save()` used for?",
+    "Option1": "Saving a regular PyTorch `nn.Module`.",
+    "Option2": "Saving a `ScriptModule` (JIT-traced or scripted model) to disk for deployment.",
+    "Option3": "Saving only the state dictionary of a JIT module.",
+    "Option4": "Saving the input data.",
+    "Answer": "Saving a `ScriptModule` (JIT-traced or scripted model) to disk for deployment."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `torch.jit.load()` used for?",
+    "Option1": "Loading a regular PyTorch `nn.Module`.",
+    "Option2": "Loading a saved `ScriptModule` from disk.",
+    "Option3": "Loading only the state dictionary of a JIT module.",
+    "Option4": "Loading data for inference.",
+    "Answer": "Loading a saved `ScriptModule` from disk."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the purpose of `torch.set_num_threads()`?",
+    "Option1": "To control the number of threads for GPU operations.",
+    "Option2": "To set the number of CPU threads used for parallel operations in PyTorch (e.g., for certain CPU tensor operations).",
+    "Option3": "To set the number of data loader workers.",
+    "Option4": "To limit the number of available CPU cores.",
+    "Answer": "To set the number of CPU threads used for parallel operations in PyTorch (e.g., for certain CPU tensor operations)."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `torch.quantization.fuse_modules()` used for?",
+    "Option1": "To combine multiple models into one.",
+    "Option2": "To combine sequential layers (e.g., Conv-BN-ReLU) into a single module for improved performance during quantization.",
+    "Option3": "To fuse different types of activation functions.",
+    "Option4": "To fuse different optimizers together.",
+    "Answer": "To combine sequential layers (e.g., Conv-BN-ReLU) into a single module for improved performance during quantization."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `torch.profiler.schedule.on_trace_ready`?",
+    "Option1": "A callback that runs after each profiling step.",
+    "Option2": "A callable passed to the profiler schedule to specify actions to take when a trace is ready (e.g., saving the trace).",
+    "Option3": "A function that initializes the profiler.",
+    "Option4": "A method to disable profiling.",
+    "Answer": "A callable passed to the profiler schedule to specify actions to take when a trace is ready (e.g., saving the trace)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is a 'Memory format' in PyTorch (e.g., `torch.contiguous_format`, `torch.channels_last`)?",
+    "Option1": "How tensors are stored on disk.",
+    "Option2": "The memory layout of a tensor, affecting how its elements are arranged in memory, which can impact performance on certain hardware.",
+    "Option3": "The data type of a tensor.",
+    "Option4": "The device on which a tensor is stored.",
+    "Answer": "The memory layout of a tensor, affecting how its elements are arranged in memory, which can impact performance on certain hardware."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the benefit of `torch.channels_last` memory format for CNNs on GPUs?",
+    "Option1": "It reduces memory usage.",
+    "Option2": "It can offer performance benefits by improving cache locality for operations like convolution, especially on NVIDIA GPUs.",
+    "Option3": "It makes debugging easier.",
+    "Option4": "It is required for all CNN operations.",
+    "Answer": "It can offer performance benefits by improving cache locality for operations like convolution, especially on NVIDIA GPUs."
+  },
+  {
+    "question_no.": 190,
+    "Question": "How do you convert a tensor to `channels_last` memory format?",
+    "Option1": "tensor.to_channels_last()",
+    "Option2": "tensor.to(memory_format=torch.channels_last)",
+    "Option3": "tensor.convert_layout('channels_last')",
+    "Option4": "torch.set_memory_format(tensor, 'channels_last')",
+    "Answer": "tensor.to(memory_format=torch.channels_last)"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `torch.compile(fullgraph=True)` a stronger optimization option for?",
+    "Option1": "It tries to compile the entire model into a single graph, which can lead to maximum speedups but might fail for models with dynamic control flow.",
+    "Option2": "It compiles only specific parts of the graph.",
+    "Option3": "It enables debugging features.",
+    "Option4": "It ensures that the model can run on any device.",
+    "Answer": "It tries to compile the entire model into a single graph, which can lead to maximum speedups but might fail for models with dynamic control flow."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `torch.cuda.amp.GradScaler.step(optimizer)` replacing?",
+    "Option1": "optimizer.zero_grad()",
+    "Option2": "optimizer.step() and unscaling the gradients before the step, then scaling the new gradients.",
+    "Option3": "loss.backward()",
+    "Option4": "model.eval()",
+    "Answer": "optimizer.step() and unscaling the gradients before the step, then scaling the new gradients."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `torch.distributed.barrier()` used for in distributed training?",
+    "Option1": "To stop the training process.",
+    "Option2": "To synchronize all processes in a process group, ensuring that all processes reach this point before proceeding.",
+    "Option3": "To send messages between processes.",
+    "Option4": "To accumulate gradients from all processes.",
+    "Answer": "To synchronize all processes in a process group, ensuring that all processes reach this point before proceeding."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the purpose of `torch.nn.utils.clip_grad_norm_` over `clip_grad_value_`?",
+    "Option1": "It clips individual gradients, not the total norm.",
+    "Option2": "It clips the total norm of all gradients of iterable parameters, preventing individual large gradients from dominating.",
+    "Option3": "It only works with L1 norm.",
+    "Option4": "It's only for recurrent networks.",
+    "Answer": "It clips the total norm of all gradients of iterable parameters, preventing individual large gradients from dominating."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the primary function of `torch.utils.checkpoint`?",
+    "Option1": "To save model checkpoints during training.",
+    "Option2": "To trade computation for memory by recomputing intermediate activations during the backward pass instead of storing them, reducing memory usage for deep networks.",
+    "Option3": "To perform gradient clipping.",
+    "Option4": "To visualize the computation graph.",
+    "Answer": "To trade computation for memory by recomputing intermediate activations during the backward pass instead of storing them, reducing memory usage for deep networks."
+  },
+  {
+    "question_no.": 196,
+    "Question": "When is `torch.utils.checkpoint` particularly useful?",
+    "Option1": "For shallow neural networks.",
+    "Option2": "For very deep neural networks or large models that would otherwise exceed GPU memory limits.",
+    "Option3": "For models trained on CPU only.",
+    "Option4": "For models with simple linear layers.",
+    "Answer": "For very deep neural networks or large models that would otherwise exceed GPU memory limits."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the `bias` parameter in `torch.nn.Linear` or `torch.nn.Conv2d`?",
+    "Option1": "A regularization term.",
+    "Option2": "An additive term in the linear transformation (b in y = Wx + b) that shifts the activation function.",
+    "Option3": "A multiplier for the input data.",
+    "Option4": "A parameter for initialization.",
+    "Answer": "An additive term in the linear transformation (b in y = Wx + b) that shifts the activation function."
+  },
+  {
+    "question_no.": 198,
+    "Question": "How do you explicitly set `bias=False` for a `torch.nn.Linear` layer?",
+    "Option1": "nn.Linear(in_features, out_features, include_bias=False)",
+    "Option2": "nn.Linear(in_features, out_features, bias=False)",
+    "Option3": "nn.Linear(in_features, out_features).set_bias(False)",
+    "Option4": "nn.Linear(in_features, out_features, use_bias=False)",
+    "Answer": "nn.Linear(in_features, out_features, bias=False)"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the common purpose of `torch.optim.ZeroRedundancyOptimizer` (ZeRO) for distributed training?",
+    "Option1": "To reduce the number of training epochs.",
+    "Option2": "To shard optimizer states, gradients, and/or parameters across GPUs to reduce memory consumption on each GPU, enabling training of very large models.",
+    "Option3": "To make the optimizer run faster.",
+    "Option4": "To automatically select the best optimizer.",
+    "Answer": "To shard optimizer states, gradients, and/or parameters across GPUs to reduce memory consumption on each GPU, enabling training of very large models."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the role of `torch.onnx.export()`?",
+    "Option1": "To save a PyTorch model in its native format.",
+    "Option2": "To export a PyTorch model into the ONNX (Open Neural Network Exchange) format, allowing it to be run in other frameworks or deployment runtimes.",
+    "Option3": "To convert an ONNX model to PyTorch.",
+    "Option4": "To export a model's state dictionary.",
+    "Answer": "To export a PyTorch model into the ONNX (Open Neural Network Exchange) format, allowing it to be run in other frameworks or deployment runtimes."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What does ONNX stand for?",
+    "Option1": "Open Neural Network Xperience",
+    "Option2": "Optimized Neural Network Exchange",
+    "Option3": "Open Neural Network Exchange",
+    "Option4": "Object-Oriented Neural Network eXecution",
+    "Answer": "Open Neural Network Exchange"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is a primary benefit of exporting models to ONNX?",
+    "Option1": "It makes the model run faster on PyTorch.",
+    "Option2": "It enables model interoperability across different deep learning frameworks and deployment to various hardware platforms.",
+    "Option3": "It reduces the model's training time.",
+    "Option4": "It automatically quantizes the model.",
+    "Answer": "It enables model interoperability across different deep learning frameworks and deployment to various hardware platforms."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `torch.distributed.rpc` used for?",
+    "Option1": "Synchronous distributed training.",
+    "Option2": "Remote Procedure Call (RPC) framework for distributed model parallelism and asynchronous communication between workers.",
+    "Option3": "Data loading in a distributed setting.",
+    "Option4": "Collective communication for data parallel training.",
+    "Answer": "Remote Procedure Call (RPC) framework for distributed model parallelism and asynchronous communication between workers."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `torch.amp.autocast(dtype=torch.bfloat16)` used for?",
+    "Option1": "Forcing all operations to use float32.",
+    "Option2": "Enabling automatic mixed precision training using the BFloat16 data type.",
+    "Option3": "Converting tensors to float64.",
+    "Option4": "Disabling automatic mixed precision.",
+    "Answer": "Enabling automatic mixed precision training using the BFloat16 data type."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `torch.nn.utils.convert_parameters.parameters_to_vector` used for?",
+    "Option1": "Converting a single parameter to a vector.",
+    "Option2": "Concatenating all parameters of a model into a single 1D vector, useful for some optimization algorithms or analysis.",
+    "Option3": "Converting a vector to model parameters.",
+    "Option4": "Calculating the L2 norm of parameters.",
+    "Answer": "Concatenating all parameters of a model into a single 1D vector, useful for some optimization algorithms or analysis."
+  }
+]

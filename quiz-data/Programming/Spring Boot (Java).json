@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the main purpose of Spring Boot?",
+    "Option1": "To replace Spring Framework entirely",
+    "Option2": "To simplify the development of production-ready Spring applications",
+    "Option3": "To provide a new programming language for enterprise applications",
+    "Option4": "To only support batch processing applications",
+    "Answer": "To simplify the development of production-ready Spring applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which annotation is commonly used to mark the main class of a Spring Boot application?",
+    "Option1": "@Configuration",
+    "Option2": "@SpringBootApplication",
+    "Option3": "@ComponentScan",
+    "Option4": "@EnableAutoConfiguration",
+    "Answer": "@SpringBootApplication"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is 'Auto-configuration' in Spring Boot?",
+    "Option1": "Manually configuring every bean in an XML file",
+    "Option2": "Spring Boot's ability to automatically configure your application based on the JAR dependencies you have added",
+    "Option3": "A feature that only works with embedded databases",
+    "Option4": "A tool for generating boilerplate code",
+    "Answer": "Spring Boot's ability to automatically configure your application based on the JAR dependencies you have added"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which embedded server does Spring Boot typically use by default for web applications?",
+    "Option1": "GlassFish",
+    "Option2": "Jetty",
+    "Option3": "Tomcat",
+    "Option4": "WebLogic",
+    "Answer": "Tomcat"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the purpose of `pom.xml` in a Spring Boot Maven project?",
+    "Option1": "To store application logs",
+    "Option2": "To define project dependencies, build configurations, and metadata",
+    "Option3": "To specify database connection details",
+    "Option4": "To write REST API endpoints",
+    "Answer": "To define project dependencies, build configurations, and metadata"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you define a RESTful API endpoint in Spring Boot?",
+    "Option1": "Using `@Controller` and `@RequestMapping` or `@RestController`",
+    "Option2": "By directly manipulating HTTP requests",
+    "Option3": "Through XML configuration files only",
+    "Option4": "Using only command-line arguments",
+    "Answer": "Using `@Controller` and `@RequestMapping` or `@RestController`"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which annotation is a convenience annotation that combines `@Controller` and `@ResponseBody`?",
+    "Option1": "@Component",
+    "Option2": "@Service",
+    "Option3": "@RestController",
+    "Option4": "@Repository",
+    "Answer": "@RestController"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the default port for a Spring Boot web application?",
+    "Option1": "80",
+    "Option2": "443",
+    "Option3": "8080",
+    "Option4": "9090",
+    "Answer": "8080"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Where do you typically configure application properties in Spring Boot?",
+    "Option1": "web.xml",
+    "Option2": "application.properties or application.yml",
+    "Option3": "spring-config.xml",
+    "Option4": "log4j.properties",
+    "Answer": "application.properties or application.yml"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is 'Spring Initializr'?",
+    "Option1": "A command-line tool for deploying Spring Boot apps",
+    "Option2": "A web-based tool for generating initial Spring Boot project structures",
+    "Option3": "A database migration tool for Spring Boot",
+    "Option4": "A testing framework for Spring Boot",
+    "Answer": "A web-based tool for generating initial Spring Boot project structures"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which dependency is essential for building web applications with Spring Boot?",
+    "Option1": "spring-boot-starter-data-jpa",
+    "Option2": "spring-boot-starter-web",
+    "Option3": "spring-boot-starter-security",
+    "Option4": "spring-boot-starter-test",
+    "Answer": "spring-boot-starter-web"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you run a Spring Boot application from the command line?",
+    "Option1": "java -jar myapp.war",
+    "Option2": "java -jar myapp.jar",
+    "Option3": "mvn spring-boot:run",
+    "Option4": "Both B and C",
+    "Answer": "Both B and C"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is 'Spring Boot Actuator'?",
+    "Option1": "A tool for performing CRUD operations",
+    "Option2": "Provides production-ready features like monitoring, metrics, and health checks for Spring Boot applications",
+    "Option3": "A module for integrating with external APIs",
+    "Option4": "A component for managing user sessions",
+    "Answer": "Provides production-ready features like monitoring, metrics, and health checks for Spring Boot applications"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which endpoint is typically used to check the health of a Spring Boot application via Actuator?",
+    "Option1": "/metrics",
+    "Option2": "/info",
+    "Option3": "/health",
+    "Option4": "/beans",
+    "Answer": "/health"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the purpose of `@ConfigurationProperties`?",
+    "Option1": "To define database connection strings",
+    "Option2": "To bind external configuration properties to Java objects (beans)",
+    "Option3": "To specify logging levels",
+    "Option4": "To create new Spring Beans",
+    "Answer": "To bind external configuration properties to Java objects (beans)"
+  },
+  {
+    "question_no.": 16,
+    "Question": "How can you specify an active Spring Boot profile?",
+    "Option1": "Using `server.port` property",
+    "Option2": "Via `spring.profiles.active` property in `application.properties` or command-line arguments",
+    "Option3": "By modifying `pom.xml`",
+    "Option4": "Through a dedicated Spring Boot plugin",
+    "Answer": "Via `spring.profiles.active` property in `application.properties` or command-line arguments"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What are 'Spring Boot Profiles' used for?",
+    "Option1": "To manage user authentication",
+    "Option2": "To provide different configurations for different environments (e.g., development, production)",
+    "Option3": "To create different user roles",
+    "Option4": "To analyze application performance",
+    "Answer": "To provide different configurations for different environments (e.g., development, production)"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which annotation is used to create a custom Spring Boot starter?",
+    "Option1": "@SpringBootConfiguration",
+    "Option2": "@EnableConfigurationProperties",
+    "Option3": "@ConditionalOnClass",
+    "Option4": "There isn't a single annotation for this; it involves convention over configuration and specific dependencies.",
+    "Answer": "There isn't a single annotation for this; it involves convention over configuration and specific dependencies."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the primary benefit of using Spring Boot Starters?",
+    "Option1": "They reduce application startup time",
+    "Option2": "They provide a set of convenient dependency descriptors to include in your application, simplifying build configuration",
+    "Option3": "They automatically deploy your application to the cloud",
+    "Option4": "They enforce strict coding standards",
+    "Answer": "They provide a set of convenient dependency descriptors to include in your application, simplifying build configuration"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'DevTools' in Spring Boot and its main feature?",
+    "Option1": "A tool for debugging database queries",
+    "Option2": "A set of tools for faster development, with features like automatic restart and LiveReload",
+    "Option3": "A module for generating API documentation",
+    "Option4": "A component for managing cloud deployments",
+    "Answer": "A set of tools for faster development, with features like automatic restart and LiveReload"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you include an external YAML file for configuration in Spring Boot?",
+    "Option1": "It's not possible; only `.properties` files are supported.",
+    "Option2": "By specifying `spring.config.name` in `application.properties`",
+    "Option3": "Spring Boot automatically loads `application.yml` by default if present",
+    "Option4": "Using `@PropertySource` with a YAML loader",
+    "Answer": "Spring Boot automatically loads `application.yml` by default if present"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which annotation is used to enable scheduling in Spring Boot?",
+    "Option1": "@EnableScheduling",
+    "Option2": "@ScheduledTask",
+    "Option3": "@CronJob",
+    "Option4": "@Async",
+    "Answer": "@EnableScheduling"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the purpose of `@Value` annotation?",
+    "Option1": "To define a default value for a method parameter",
+    "Option2": "To inject external property values into Spring-managed beans",
+    "Option3": "To mark a method as returning a value",
+    "Option4": "To define constants in an application",
+    "Answer": "To inject external property values into Spring-managed beans"
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you handle exceptions in Spring Boot REST APIs?",
+    "Option1": "Using `try-catch` blocks everywhere",
+    "Option2": "With `@ExceptionHandler` and `@ControllerAdvice`",
+    "Option3": "By throwing `RuntimeException` and letting the server handle it",
+    "Option4": "Spring Boot handles all exceptions automatically",
+    "Answer": "With `@ExceptionHandler` and `@ControllerAdvice`"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which annotation marks a class to provide centralized exception handling?",
+    "Option1": "@RestControllerAdvice",
+    "Option2": "@ExceptionHandler",
+    "Option3": "@ResponseStatus",
+    "Option4": "@ErrorHandling",
+    "Answer": "@RestControllerAdvice"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the default embedded database used by Spring Boot if H2, HSQL, or Derby are on the classpath?",
+    "Option1": "MySQL",
+    "Option2": "PostgreSQL",
+    "Option3": "H2",
+    "Option4": "Oracle",
+    "Answer": "H2"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How can you disable a specific auto-configuration class?",
+    "Option1": "By removing its dependency from `pom.xml`",
+    "Option2": "Using `exclude` attribute in `@SpringBootApplication` or `spring.autoconfigure.exclude` property",
+    "Option3": "By commenting out the configuration class",
+    "Option4": "It's not possible to disable auto-configuration.",
+    "Answer": "Using `exclude` attribute in `@SpringBootApplication` or `spring.autoconfigure.exclude` property"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the purpose of `spring-boot-starter-parent`?",
+    "Option1": "It's a mandatory dependency for all Spring Boot applications.",
+    "Option2": "It provides default configurations, dependency management for common libraries, and plugin management for Maven.",
+    "Option3": "It's used to define custom web servers.",
+    "Option4": "It facilitates microservice communication.",
+    "Answer": "It provides default configurations, dependency management for common libraries, and plugin management for Maven."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which annotation is used to mark a method that should be executed once the application context is loaded?",
+    "Option1": "@PostConstruct",
+    "Option2": "@PreDestroy",
+    "Option3": "@Bean",
+    "Option4": "@EventListener",
+    "Answer": "@PostConstruct"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'Spring Data JPA' used for in Spring Boot?",
+    "Option1": "To create REST APIs",
+    "Option2": "To simplify data access layer development using JPA repositories",
+    "Option3": "To manage application security",
+    "Option4": "To handle asynchronous operations",
+    "Answer": "To simplify data access layer development using JPA repositories"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which interface do you typically extend to create a JPA repository in Spring Boot?",
+    "Option1": "CrudRepository or JpaRepository",
+    "Option2": "ServiceRepository",
+    "Option3": "DataAccessor",
+    "Option4": "EntityManager",
+    "Answer": "CrudRepository or JpaRepository"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Lombok' and its relation to Spring Boot?",
+    "Option1": "A testing framework",
+    "Option2": "A library that generates boilerplate code (getters, setters, constructors) at compile time, often used to reduce verbosity in Spring Boot projects",
+    "Option3": "A logging utility",
+    "Option4": "A security module",
+    "Answer": "A library that generates boilerplate code (getters, setters, constructors) at compile time, often used to reduce verbosity in Spring Boot projects"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you enable JPA auditing in Spring Boot?",
+    "Option1": "By annotating entities with `@Auditable`",
+    "Option2": "Using `@EnableJpaAuditing` in a configuration class",
+    "Option3": "It's enabled by default",
+    "Option4": "Manually configuring an `AuditorAware` bean",
+    "Answer": "Using `@EnableJpaAuditing` in a configuration class"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'Spring Security' used for in Spring Boot applications?",
+    "Option1": "To manage database transactions",
+    "Option2": "To provide authentication and authorization services",
+    "Option3": "To handle caching mechanisms",
+    "Option4": "To generate reports",
+    "Answer": "To provide authentication and authorization services"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which annotation is used to secure a method in Spring Security?",
+    "Option1": "@Secured",
+    "Option2": "@PreAuthorize",
+    "Option3": "@PostAuthorize",
+    "Option4": "All of the above, depending on the requirement",
+    "Answer": "All of the above, depending on the requirement"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'OAuth2' in the context of Spring Security?",
+    "Option1": "A protocol for database access",
+    "Option2": "An authorization framework used for delegated access to protected resources",
+    "Option3": "A type of encryption algorithm",
+    "Option4": "A framework for managing user roles",
+    "Answer": "An authorization framework used for delegated access to protected resources"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of 'JWT' (JSON Web Token) in Spring Boot security?",
+    "Option1": "For session management only",
+    "Option2": "A compact, URL-safe means of representing claims to be transferred between two parties, often used for stateless authentication",
+    "Option3": "For database encryption",
+    "Option4": "For secure file transfers",
+    "Answer": "A compact, URL-safe means of representing claims to be transferred between two parties, often used for stateless authentication"
+  },
+  {
+    "question_no.": 38,
+    "Question": "How do you enable Cross-Origin Resource Sharing (CORS) in Spring Boot?",
+    "Option1": "Manually setting HTTP headers in every response",
+    "Option2": "Using `@CrossOrigin` annotation on controllers or global configuration",
+    "Option3": "It's enabled by default for all origins",
+    "Option4": "Through a dedicated XML file",
+    "Answer": "Using `@CrossOrigin` annotation on controllers or global configuration"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the primary function of 'Spring WebFlux'?",
+    "Option1": "To build traditional synchronous web applications",
+    "Option2": "To build reactive and non-blocking web applications using Project Reactor",
+    "Option3": "To integrate with legacy SOAP services",
+    "Option4": "To provide a new templating engine for web pages",
+    "Answer": "To build reactive and non-blocking web applications using Project Reactor"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which library does Spring WebFlux leverage for reactive programming?",
+    "Option1": "RxJava",
+    "Option2": "Guava",
+    "Option3": "Project Reactor",
+    "Option4": "Vert.x",
+    "Answer": "Project Reactor"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What are 'Spring Boot Starters' (revisited)?",
+    "Option1": "They are code generators for new projects.",
+    "Option2": "They are predefined dependency aggregators that simplify building common types of Spring Boot applications.",
+    "Option3": "They are templates for HTML pages.",
+    "Option4": "They are used for deploying applications.",
+    "Answer": "They are predefined dependency aggregators that simplify building common types of Spring Boot applications."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Name a few common Spring Boot Starters.",
+    "Option1": "`spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `spring-boot-starter-test`",
+    "Option2": "`spring-web-mvc`, `spring-data-jdbc`, `spring-security-core`",
+    "Option3": "Maven, Gradle, Ant",
+    "Option4": "MySQL, PostgreSQL, Oracle",
+    "Answer": "`spring-boot-starter-web`, `spring-boot-starter-data-jpa`, `spring-boot-starter-test`"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the 'Spring Boot DevTools' (revisited) feature that automatically restarts your application when changes are detected?",
+    "Option1": "Hot Reload",
+    "Option2": "LiveReload",
+    "Option3": "Automatic Restart",
+    "Option4": "Code Sync",
+    "Answer": "Automatic Restart"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Hot Swapping' in the context of Spring Boot DevTools?",
+    "Option1": "Reloading HTML pages without server restart.",
+    "Option2": "Replacing classes in a running JVM without restarting the application, typically for minor code changes.",
+    "Option3": "Changing database schemas on the fly.",
+    "Option4": "Swapping between different Spring Boot profiles.",
+    "Answer": "Replacing classes in a running JVM without restarting the application, typically for minor code changes."
+  },
+  {
+    "question_no.": 45,
+    "Question": "How do you package a Spring Boot application for deployment?",
+    "Option1": "As a WAR file only",
+    "Option2": "As an executable JAR file (fat jar) or a traditional WAR file",
+    "Option3": "As a ZIP archive",
+    "Option4": "As a simple folder of class files",
+    "Answer": "As an executable JAR file (fat jar) or a traditional WAR file"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the benefit of an 'executable JAR' for Spring Boot applications?",
+    "Option1": "It requires an external application server.",
+    "Option2": "It contains all necessary dependencies and an embedded server, allowing it to be run directly as `java -jar your-app.jar`.",
+    "Option3": "It is only for testing purposes.",
+    "Option4": "It makes the application smaller in size.",
+    "Answer": "It contains all necessary dependencies and an embedded server, allowing it to be run directly as `java -jar your-app.jar`."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you configure logging in Spring Boot?",
+    "Option1": "Only through `log4j.properties`",
+    "Option2": "Using `application.properties` or `application.yml` (e.g., `logging.level.root=INFO`), or external logging configuration files (Logback, Log4j2)",
+    "Option3": "Programmatically in `main` method only",
+    "Option4": "Logging is not configurable in Spring Boot.",
+    "Answer": "Using `application.properties` or `application.yml` (e.g., `logging.level.root=INFO`), or external logging configuration files (Logback, Log4j2)"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the default logging framework used by Spring Boot?",
+    "Option1": "Log4j",
+    "Option2": "SLF4J with Logback",
+    "Option3": "java.util.logging",
+    "Option4": "Apache Commons Logging",
+    "Answer": "SLF4J with Logback"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Conditional Configuration' in Spring Boot?",
+    "Option1": "Configuring beans based on user input.",
+    "Option2": "The ability to define beans or configurations that are only enabled when certain conditions are met (e.g., a class is on the classpath, a property is set).",
+    "Option3": "Configuring beans based on deployment environment only.",
+    "Option4": "A feature for conditional compilation.",
+    "Answer": "The ability to define beans or configurations that are only enabled when certain conditions are met (e.g., a class is on the classpath, a property is set)."
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which annotation is used for conditional bean creation based on the presence of a class?",
+    "Option1": "@ConditionalOnProperty",
+    "Option2": "@ConditionalOnMissingBean",
+    "Option3": "@ConditionalOnClass",
+    "Option4": "@ConditionalOnResource",
+    "Answer": "@ConditionalOnClass"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Spring Boot CLI'?",
+    "Option1": "A graphical user interface for Spring Boot.",
+    "Option2": "A command-line interface tool to quickly develop Spring applications using Groovy scripts.",
+    "Option3": "A tool for deploying Spring Boot applications to cloud platforms.",
+    "Option4": "A testing utility for Spring Boot.",
+    "Answer": "A command-line interface tool to quickly develop Spring applications using Groovy scripts."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the purpose of `@EnableAutoConfiguration`?",
+    "Option1": "To disable all auto-configurations.",
+    "Option2": "To enable Spring Boot's auto-configuration mechanism, which attempts to configure your Spring application automatically.",
+    "Option3": "To manually configure specific beans.",
+    "Option4": "To define custom configuration properties.",
+    "Answer": "To enable Spring Boot's auto-configuration mechanism, which attempts to configure your Spring application automatically."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Why is `@SpringBootApplication` often used instead of individual annotations?",
+    "Option1": "It reduces the application size.",
+    "Option2": "It's a convenience annotation that combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`.",
+    "Option3": "It's required for all Spring Boot projects.",
+    "Option4": "It only works with embedded servers.",
+    "Answer": "It's a convenience annotation that combines `@Configuration`, `@EnableAutoConfiguration`, and `@ComponentScan`."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'HATEOAS' in the context of Spring Boot REST services?",
+    "Option1": "A security protocol.",
+    "Option2": "Hypermedia As The Engine Of Application State, a principle for building REST APIs that include hyperlinks to related resources.",
+    "Option3": "A database indexing strategy.",
+    "Option4": "A method for caching API responses.",
+    "Answer": "Hypermedia As The Engine Of Application State, a principle for building REST APIs that include hyperlinks to related resources."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which Spring HATEOAS module is typically used with Spring Boot?",
+    "Option1": "spring-hateoas-core",
+    "Option2": "spring-boot-starter-hateoas",
+    "Option3": "spring-hateoas-web",
+    "Option4": "spring-data-rest-webmvc",
+    "Answer": "spring-boot-starter-hateoas"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Spring Boot Test' module used for?",
+    "Option1": "Only for unit testing.",
+    "Option2": "Provides utilities and annotations for writing integration and unit tests for Spring Boot applications.",
+    "Option3": "For performance testing only.",
+    "Option4": "For deployment testing.",
+    "Answer": "Provides utilities and annotations for writing integration and unit tests for Spring Boot applications."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which annotation is used to enable full Spring Boot auto-configuration for testing?",
+    "Option1": "@RunWith(SpringRunner.class)",
+    "Option2": "@SpringBootTest",
+    "Option3": "@AutoConfigureTest",
+    "Option4": "@TestConfiguration",
+    "Answer": "@SpringBootTest"
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you test a REST controller in Spring Boot without starting the full server?",
+    "Option1": "By manually creating mock objects for all dependencies.",
+    "Option2": "Using `@WebMvcTest` with `MockMvc`.",
+    "Option3": "It's not possible to test without starting the full server.",
+    "Option4": "By deploying to a test server.",
+    "Answer": "Using `@WebMvcTest` with `MockMvc`."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'MockMvc' in Spring Boot testing?",
+    "Option1": "A tool for mocking external services.",
+    "Option2": "A class from Spring Test that allows you to perform requests against a `DispatcherServlet` and verify responses without a running HTTP server.",
+    "Option3": "A mocking framework for database interactions.",
+    "Option4": "A utility for generating test data.",
+    "Answer": "A class from Spring Test that allows you to perform requests against a `DispatcherServlet` and verify responses without a running HTTP server."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Testcontainers' and its relevance to Spring Boot testing?",
+    "Option1": "A library for testing container orchestration.",
+    "Option2": "A library that provides lightweight, throwaway instances of databases, message brokers, web browsers, or anything else that can run in a Docker container, for integration tests.",
+    "Option3": "A framework for building Docker images.",
+    "Option4": "A tool for monitoring Docker containers.",
+    "Answer": "A library that provides lightweight, throwaway instances of databases, message brokers, web browsers, or anything else that can run in a Docker container, for integration tests."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'Spring Boot Caching'?",
+    "Option1": "Storing data in local files.",
+    "Option2": "Provides annotations and configurations to easily integrate caching solutions (e.g., EhCache, Redis, Caffeine) into your Spring Boot application.",
+    "Option3": "A mechanism for temporary file storage.",
+    "Option4": "A way to backup application data.",
+    "Answer": "Provides annotations and configurations to easily integrate caching solutions (e.g., EhCache, Redis, Caffeine) into your Spring Boot application."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which annotation enables caching functionality in Spring Boot?",
+    "Option1": "@Cacheable",
+    "Option2": "@CachePut",
+    "Option3": "@CacheEvict",
+    "Option4": "@EnableCaching",
+    "Answer": "@EnableCaching"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Spring Boot Mail' starter used for?",
+    "Option1": "To send postal mail.",
+    "Option2": "To simplify sending emails from your Spring Boot application by auto-configuring JavaMailSender.",
+    "Option3": "To manage email accounts.",
+    "Option4": "To validate email addresses.",
+    "Answer": "To simplify sending emails from your Spring Boot application by auto-configuring JavaMailSender."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is the purpose of 'Spring Boot Admin'?",
+    "Option1": "A tool for database administration.",
+    "Option2": "A web UI for managing and monitoring Spring Boot applications, leveraging Actuator endpoints.",
+    "Option3": "A security administration panel.",
+    "Option4": "A framework for building admin dashboards.",
+    "Answer": "A web UI for managing and monitoring Spring Boot applications, leveraging Actuator endpoints."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Spring Cloud'?",
+    "Option1": "A framework for building monolithic applications.",
+    "Option2": "A set of tools for building common patterns in distributed systems, such as service discovery, circuit breakers, and configuration management.",
+    "Option3": "A specific cloud provider.",
+    "Option4": "A service for deploying applications to a single server.",
+    "Answer": "A set of tools for building common patterns in distributed systems, such as service discovery, circuit breakers, and configuration management."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which Spring Cloud project is used for 'Service Discovery'?",
+    "Option1": "Spring Cloud Config",
+    "Option2": "Eureka (Netflix Eureka)",
+    "Option3": "Spring Cloud Gateway",
+    "Option4": "Spring Cloud Sleuth",
+    "Answer": "Eureka (Netflix Eureka)"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is a 'Circuit Breaker' in microservices and which Spring Cloud project implements it?",
+    "Option1": "A tool to stop services from communicating.",
+    "Option2": "A design pattern to prevent cascading failures in distributed systems; typically implemented by Resilience4j or Netflix Hystrix (deprecated).",
+    "Option3": "A security mechanism.",
+    "Option4": "A load balancing algorithm.",
+    "Answer": "A design pattern to prevent cascading failures in distributed systems; typically implemented by Resilience4j or Netflix Hystrix (deprecated)."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Spring Cloud Config' used for?",
+    "Option1": "To manage application logs.",
+    "Option2": "To centralize external configuration management for distributed systems.",
+    "Option3": "To deploy applications.",
+    "Option4": "To store static web assets.",
+    "Answer": "To centralize external configuration management for distributed systems."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Spring Cloud Gateway'?",
+    "Option1": "A traditional proxy server.",
+    "Option2": "A new API Gateway built on Spring WebFlux, providing routing, filtering, and cross-cutting concerns for microservices.",
+    "Option3": "A database connection pool.",
+    "Option4": "A messaging queue.",
+    "Answer": "A new API Gateway built on Spring WebFlux, providing routing, filtering, and cross-cutting concerns for microservices."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'Distributed Tracing' and which Spring Cloud project facilitates it?",
+    "Option1": "Tracking user sessions.",
+    "Option2": "Monitoring requests as they flow through multiple services in a distributed system, typically facilitated by Spring Cloud Sleuth and Zipkin/Jaeger.",
+    "Option3": "Analyzing network traffic.",
+    "Option4": "Logging events to a central server.",
+    "Answer": "Monitoring requests as they flow through multiple services in a distributed system, typically facilitated by Spring Cloud Sleuth and Zipkin/Jaeger."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Spring Boot's embedded server capability'?",
+    "Option1": "It means you must deploy to an external server.",
+    "Option2": "Spring Boot applications can be run as standalone JARs that include an embedded web server (like Tomcat, Jetty, or Undertow), eliminating the need for a separate server installation.",
+    "Option3": "It implies limited server features.",
+    "Option4": "It's only for development mode.",
+    "Answer": "Spring Boot applications can be run as standalone JARs that include an embedded web server (like Tomcat, Jetty, or Undertow), eliminating the need for a separate server installation."
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you change the embedded server in Spring Boot?",
+    "Option1": "By modifying `server.type` property.",
+    "Option2": "By excluding the default server and including the desired server's starter in `pom.xml` (e.g., exclude `tomcat`, include `jetty`).",
+    "Option3": "It's not possible to change the embedded server.",
+    "Option4": "Through a command-line argument.",
+    "Answer": "By excluding the default server and including the desired server's starter in `pom.xml` (e.g., exclude `tomcat`, include `jetty`)."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Thymeleaf' in Spring Boot?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A modern server-side Java template engine for web and standalone environments, often used as an alternative to JSP.",
+    "Option3": "A database access library.",
+    "Option4": "A security module.",
+    "Answer": "A modern server-side Java template engine for web and standalone environments, often used as an alternative to JSP."
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you integrate Thymeleaf with Spring Boot?",
+    "Option1": "Manually configure all view resolvers.",
+    "Option2": "By adding `spring-boot-starter-thymeleaf` dependency, Spring Boot auto-configures it.",
+    "Option3": "It requires a separate Thymeleaf server.",
+    "Option4": "Only through XML configuration.",
+    "Answer": "By adding `spring-boot-starter-thymeleaf` dependency, Spring Boot auto-configures it."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Spring Boot's approach to database migrations (e.g., Liquibase, Flyway)?",
+    "Option1": "Spring Boot has its own built-in migration tool.",
+    "Option2": "It provides auto-configuration for popular migration tools like Liquibase and Flyway, making it easy to manage database schema changes.",
+    "Option3": "Database migrations are not supported.",
+    "Option4": "You must manually run SQL scripts.",
+    "Answer": "It provides auto-configuration for popular migration tools like Liquibase and Flyway, making it easy to manage database schema changes."
+  },
+  {
+    "question_no.": 76,
+    "Question": "How do you enable Flyway integration in Spring Boot?",
+    "Option1": "By adding the `flyway-core` dependency to `pom.xml`.",
+    "Option2": "By configuring `spring.flyway.enabled=true` in `application.properties`.",
+    "Option3": "Flyway is enabled by default if its dependency is present.",
+    "Option4": "Both A and C are correct, as Flyway is auto-configured.",
+    "Answer": "Both A and C are correct, as Flyway is auto-configured."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Spring Boot Docker Support'?",
+    "Option1": "Spring Boot has a built-in Docker daemon.",
+    "Option2": "Spring Boot applications are easily containerized using Docker, with features like Cloud Native Buildpacks simplifying image creation.",
+    "Option3": "Docker is not recommended for Spring Boot applications.",
+    "Option4": "Spring Boot only supports specific Docker versions.",
+    "Answer": "Spring Boot applications are easily containerized using Docker, with features like Cloud Native Buildpacks simplifying image creation."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What are 'Cloud Native Buildpacks' and their role in Spring Boot Docker images?",
+    "Option1": "A new type of Docker image.",
+    "Option2": "Automated tools that transform source code into deployable images without a Dockerfile, simplifying the process of creating optimized Spring Boot Docker images.",
+    "Option3": "A security scanning tool for Docker images.",
+    "Option4": "A monitoring tool for Docker containers.",
+    "Answer": "Automated tools that transform source code into deployable images without a Dockerfile, simplifying the process of creating optimized Spring Boot Docker images."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Spring Boot and Kubernetes'?",
+    "Option1": "Kubernetes is not compatible with Spring Boot.",
+    "Option2": "Spring Boot applications are well-suited for deployment on Kubernetes due to their executable JAR format, health checks (Actuator), and externalized configuration capabilities.",
+    "Option3": "Spring Boot provides a Kubernetes-specific API.",
+    "Option4": "Kubernetes manages the Spring Boot embedded server.",
+    "Answer": "Spring Boot applications are well-suited for deployment on Kubernetes due to their executable JAR format, health checks (Actuator), and externalized configuration capabilities."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Zero-downtime deployment' with Spring Boot and Kubernetes?",
+    "Option1": "Stopping the application before deploying.",
+    "Option2": "The ability to deploy new versions of an application without any interruption to service, often achieved with rolling updates and readiness probes in Kubernetes.",
+    "Option3": "Requires manual server restarts.",
+    "Option4": "Only applicable to static web pages.",
+    "Answer": "The ability to deploy new versions of an application without any interruption to service, often achieved with rolling updates and readiness probes in Kubernetes."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Spring Boot's approach to testing REST clients'?",
+    "Option1": "Manually creating HTTP requests.",
+    "Option2": "Using `RestTemplate` (imperative) or `WebClient` (reactive) for making HTTP calls, and Spring's test utilities to mock or integrate with external services.",
+    "Option3": "Only for unit testing internal services.",
+    "Option4": "Requires a dedicated client-side framework.",
+    "Answer": "Using `RestTemplate` (imperative) or `WebClient` (reactive) for making HTTP calls, and Spring's test utilities to mock or integrate with external services."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Spring Boot and Message Queues'?",
+    "Option1": "Spring Boot has its own internal message queue.",
+    "Option2": "Spring Boot provides auto-configuration and starters for integrating with popular message queues like RabbitMQ, Kafka, and JMS.",
+    "Option3": "Message queues are not compatible with Spring Boot.",
+    "Option4": "Only synchronous messaging is supported.",
+    "Answer": "Spring Boot provides auto-configuration and starters for integrating with popular message queues like RabbitMQ, Kafka, and JMS."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which starter is used for RabbitMQ integration in Spring Boot?",
+    "Option1": "spring-boot-starter-rabbitmq",
+    "Option2": "spring-boot-starter-amqp",
+    "Option3": "spring-rabbitmq-starter",
+    "Option4": "spring-messaging-rabbitmq",
+    "Answer": "spring-boot-starter-amqp"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Spring Boot and Event-Driven Architecture'?",
+    "Option1": "Focuses on synchronous method calls.",
+    "Option2": "Spring Boot can be used to build event-driven microservices, leveraging message queues and Spring Cloud Stream for asynchronous communication and decoupled services.",
+    "Option3": "Only supports request-response patterns.",
+    "Option4": "Requires manual event dispatching.",
+    "Answer": "Spring Boot can be used to build event-driven microservices, leveraging message queues and Spring Cloud Stream for asynchronous communication and decoupled services."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Spring Cloud Stream'?",
+    "Option1": "A library for streaming video.",
+    "Option2": "A framework for building highly scalable, event-driven microservices connected to shared messaging systems.",
+    "Option3": "A tool for real-time data visualization.",
+    "Option4": "A framework for building batch processing applications.",
+    "Answer": "A framework for building highly scalable, event-driven microservices connected to shared messaging systems."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Spring Boot Testing Strategies'?",
+    "Option1": "Only unit testing.",
+    "Option2": "A combination of unit tests (isolated components), integration tests (interacting with real dependencies or mocked ones), and end-to-end tests.",
+    "Option3": "Only manual testing.",
+    "Option4": "Only performance testing.",
+    "Answer": "A combination of unit tests (isolated components), integration tests (interacting with real dependencies or mocked ones), and end-to-end tests."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you define application-specific beans in a Spring Boot application?",
+    "Option1": "Using `@Service` annotation only.",
+    "Option2": "Using `@Component`, `@Service`, `@Repository`, `@Controller`, or `@Configuration` with `@Bean` methods.",
+    "Option3": "Through XML files only.",
+    "Option4": "Spring Boot automatically creates all necessary beans.",
+    "Answer": "Using `@Component`, `@Service`, `@Repository`, `@Controller`, or `@Configuration` with `@Bean` methods."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Dependency Injection' (DI) in Spring Boot?",
+    "Option1": "Manually creating objects and their dependencies.",
+    "Option2": "The Spring IoC container supplies dependencies to an object when it is created, rather than the object creating its own dependencies.",
+    "Option3": "A way to inject data into databases.",
+    "Option4": "A security vulnerability.",
+    "Answer": "The Spring IoC container supplies dependencies to an object when it is created, rather than the object creating its own dependencies."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which annotation is commonly used for constructor injection in Spring Boot?",
+    "Option1": "@Autowired (implicitly for single constructors from Spring 4.3)",
+    "Option2": "@Inject",
+    "Option3": "@Resource",
+    "Option4": "None of the above, it's automatic.",
+    "Answer": "@Autowired (implicitly for single constructors from Spring 4.3)"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Externalized Configuration' in Spring Boot?",
+    "Option1": "Hardcoding configuration values in source code.",
+    "Option2": "The ability to externalize configuration so that the same application code can be run in different environments without recompilation, using various sources (properties files, YAML, environment variables, command-line arguments).",
+    "Option3": "Storing configuration on a separate server only.",
+    "Option4": "A feature for internationalization.",
+    "Answer": "The ability to externalize configuration so that the same application code can be run in different environments without recompilation, using various sources (properties files, YAML, environment variables, command-line arguments)."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the order of precedence for externalized configuration sources in Spring Boot?",
+    "Option1": "Command-line arguments > Environment variables > Application properties",
+    "Option2": "Application properties > Environment variables > Command-line arguments",
+    "Option3": "Environment variables > Command-line arguments > Application properties",
+    "Option4": "The order is random.",
+    "Answer": "Command-line arguments > Environment variables > Application properties"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Spring Boot JMX support'?",
+    "Option1": "A tool for monitoring database connections.",
+    "Option2": "Spring Boot provides auto-configuration for JMX (Java Management Extensions), allowing applications to expose management information and operations.",
+    "Option3": "A new messaging protocol.",
+    "Option4": "A security vulnerability.",
+    "Answer": "Spring Boot provides auto-configuration for JMX (Java Management Extensions), allowing applications to expose management information and operations."
+  },
+  {
+    "question_no.": 93,
+    "Question": "How do you expose custom MBeans in Spring Boot?",
+    "Option1": "By extending `JmxManagedBean`.",
+    "Option2": "By annotating Spring beans with `@ManagedResource` and methods/attributes with `@ManagedOperation`/`@ManagedAttribute`.",
+    "Option3": "Manually registering with a JMX server.",
+    "Option4": "It's not supported by Spring Boot.",
+    "Answer": "By annotating Spring beans with `@ManagedResource` and methods/attributes with `@ManagedAttribute`."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Spring Boot with RDBMS'?",
+    "Option1": "Only supports NoSQL databases.",
+    "Option2": "Provides auto-configuration for various relational databases (MySQL, PostgreSQL, Oracle, etc.) and integrates with JPA, JDBC, and Spring Data.",
+    "Option3": "Requires manual database driver installation.",
+    "Option4": "Only for in-memory databases.",
+    "Answer": "Provides auto-configuration for various relational databases (MySQL, PostgreSQL, Oracle, etc.) and integrates with JPA, JDBC, and Spring Data."
+  },
+  {
+    "question_no.": 95,
+    "Question": "How do you configure a data source in Spring Boot for an external RDBMS?",
+    "Option1": "Using `spring.datasource.url`, `username`, `password` properties in `application.properties`.",
+    "Option2": "By defining a `@Bean` for `DataSource` in a `@Configuration` class.",
+    "Option3": "Both A and B are valid approaches.",
+    "Option4": "Spring Boot automatically detects external databases.",
+    "Answer": "Both A and B are valid approaches."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Spring Boot with NoSQL Databases'?",
+    "Option1": "Does not support NoSQL databases.",
+    "Option2": "Offers starters and auto-configuration for popular NoSQL databases like MongoDB, Cassandra, Redis, and Elasticsearch, simplifying their integration.",
+    "Option3": "Only provides generic NoSQL support.",
+    "Option4": "Requires extensive manual configuration for NoSQL.",
+    "Answer": "Offers starters and auto-configuration for popular NoSQL databases like MongoDB, Cassandra, Redis, and Elasticsearch, simplifying their integration."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which starter is used for MongoDB integration in Spring Boot?",
+    "Option1": "spring-boot-starter-mongo",
+    "Option2": "spring-boot-starter-data-mongodb",
+    "Option3": "spring-data-mongodb",
+    "Option4": "spring-mongodb-connector",
+    "Answer": "spring-boot-starter-data-mongodb"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Spring Boot and RESTful Web Services'?",
+    "Option1": "Only supports SOAP web services.",
+    "Option2": "Simplifies the creation of RESTful web services with `@RestController`, `@RequestMapping`, and various HTTP method annotations, along with JSON/XML marshaling.",
+    "Option3": "Requires manual XML parsing for all responses.",
+    "Option4": "Does not support JSON responses.",
+    "Answer": "Simplifies the creation of RESTful web services with `@RestController`, `@RequestMapping`, and various HTTP method annotations, along with JSON/XML marshaling."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which library is typically used by Spring Boot for JSON serialization/deserialization?",
+    "Option1": "JAXB",
+    "Option2": "Jackson",
+    "Option3": "Gson",
+    "Option4": "XMLBeans",
+    "Answer": "Jackson"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Spring Boot and WebSocket'?",
+    "Option1": "WebSockets are not supported by Spring Boot.",
+    "Option2": "Provides support for building WebSocket-based applications, enabling full-duplex communication between client and server.",
+    "Option3": "Only for long polling connections.",
+    "Option4": "Requires a separate WebSocket server.",
+    "Answer": "Provides support for building WebSocket-based applications, enabling full-duplex communication between client and server."
+  },
+  {
+    "question_no.": 101,
+    "Question": "How do you enable WebSocket support in a Spring Boot application?",
+    "Option1": "By adding `spring-boot-starter-websocket` dependency and `@EnableWebSocketMessageBroker`.",
+    "Option2": "It's enabled by default with `spring-boot-starter-web`.",
+    "Option3": "Through XML configuration only.",
+    "Option4": "WebSocket is a client-side only feature.",
+    "Answer": "By adding `spring-boot-starter-websocket` dependency and `@EnableWebSocketMessageBroker`."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Spring Boot and Batch Processing'?",
+    "Option1": "Only for real-time data processing.",
+    "Option2": "Integrates with Spring Batch to provide a robust framework for developing high-volume, enterprise-level batch applications.",
+    "Option3": "Requires a separate batch processing engine.",
+    "Option4": "Only for small datasets.",
+    "Answer": "Integrates with Spring Batch to provide a robust framework for developing high-volume, enterprise-level batch applications."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which starter is used for Spring Batch integration?",
+    "Option1": "spring-boot-starter-batch",
+    "Option2": "spring-boot-starter-data-batch",
+    "Option3": "spring-batch-core",
+    "Option4": "spring-boot-starter-job",
+    "Answer": "spring-boot-starter-batch"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Spring Boot and Command-Line Applications'?",
+    "Option1": "Spring Boot is only for web applications.",
+    "Option2": "Spring Boot can be used to build non-web, standalone command-line applications by implementing `CommandLineRunner` or `ApplicationRunner`.",
+    "Option3": "Requires a graphical interface for execution.",
+    "Option4": "Limited to simple scripts.",
+    "Answer": "Spring Boot can be used to build non-web, standalone command-line applications by implementing `CommandLineRunner` or `ApplicationRunner`."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the purpose of `CommandLineRunner` interface?",
+    "Option1": "To run a web server.",
+    "Option2": "To execute code immediately after the Spring Boot application context has loaded and before the application starts.",
+    "Option3": "To handle incoming HTTP requests.",
+    "Option4": "To define database migrations.",
+    "Answer": "To execute code immediately after the Spring Boot application context has loaded and before the application starts."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Spring Boot Admin Client'?",
+    "Option1": "A tool for administering Spring Boot Admin Server.",
+    "Option2": "A lightweight client that can be added to Spring Boot applications to register them with a Spring Boot Admin Server for monitoring.",
+    "Option3": "A client-side UI for Spring Boot applications.",
+    "Option4": "A tool for managing user accounts.",
+    "Answer": "A lightweight client that can be added to Spring Boot applications to register them with a Spring Boot Admin Server for monitoring."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Spring Boot's approach to Microservices'?",
+    "Option1": "Encourages monolithic architecture.",
+    "Option2": "Provides a robust foundation for building self-contained, deployable microservices with embedded servers, externalized config, and cloud-native features.",
+    "Option3": "Requires complex distributed transaction management for every service.",
+    "Option4": "Only supports a single microservice per application.",
+    "Answer": "Provides a robust foundation for building self-contained, deployable microservices with embedded servers, externalized config, and cloud-native features."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How does Spring Boot facilitate 'Service Discovery' in a microservices architecture?",
+    "Option1": "It manually maintains a list of service IPs.",
+    "Option2": "Through integration with Spring Cloud projects like Eureka, Consul, or Zookeeper, allowing services to register and discover each other dynamically.",
+    "Option3": "It's not a concern of Spring Boot.",
+    "Option4": "By hardcoding service URLs in each application.",
+    "Answer": "Through integration with Spring Cloud projects like Eureka, Consul, or Zookeeper, allowing services to register and discover each other dynamically."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Spring Boot Testing Slices'?",
+    "Option1": "Testing only a part of the code base.",
+    "Option2": "Annotations (like `@WebMvcTest`, `@DataJpaTest`, `@JdbcTest`) that load only a slice of the Spring application context relevant to the component being tested, speeding up integration tests.",
+    "Option3": "A method for splitting tests into smaller files.",
+    "Option4": "A tool for measuring code coverage.",
+    "Answer": "Annotations (like `@WebMvcTest`, `@DataJpaTest`, `@JdbcTest`) that load only a slice of the Spring application context relevant to the component being tested, speeding up integration tests."
+  },
+  {
+    "question_no.": 110,
+    "Question": "When would you use `@DataJpaTest`?",
+    "Option1": "When testing web controllers.",
+    "Option2": "When testing JPA repositories, it auto-configures an in-memory database and provides `TestEntityManager`.",
+    "Option3": "When testing external API integrations.",
+    "Option4": "When testing service layer logic.",
+    "Answer": "When testing JPA repositories, it auto-configures an in-memory database and provides `TestEntityManager`."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Spring Boot and Metrics'?",
+    "Option1": "Only for measuring code lines.",
+    "Option2": "Integration with Micrometer for capturing application metrics (e.g., CPU usage, memory, custom business metrics) and exporting them to various monitoring systems (Prometheus, Graphite).",
+    "Option3": "A tool for analyzing network latency.",
+    "Option4": "A feature for code refactoring.",
+    "Answer": "Integration with Micrometer for capturing application metrics (e.g., CPU usage, memory, custom business metrics) and exporting them to various monitoring systems (Prometheus, Graphite)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which library does Spring Boot use for metrics collection?",
+    "Option1": "Dropwizard Metrics",
+    "Option2": "Prometheus",
+    "Option3": "Micrometer",
+    "Option4": "JMX",
+    "Answer": "Micrometer"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Spring Boot and Distributed Transactions'?",
+    "Option1": "Spring Boot inherently manages all distributed transactions.",
+    "Option2": "While Spring Boot provides local transaction management, distributed transactions often require additional coordination, typically using message queues (idempotency) or dedicated transaction managers (XA transactions, Saga pattern).",
+    "Option3": "Distributed transactions are not supported.",
+    "Option4": "Only for single database interactions.",
+    "Answer": "While Spring Boot provides local transaction management, distributed transactions often require additional coordination, typically using message queues (idempotency) or dedicated transaction managers (XA transactions, Saga pattern)."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the 'Saga Pattern' in distributed transactions?",
+    "Option1": "A way to roll back all transactions if any fail.",
+    "Option2": "A sequence of local transactions, where each local transaction updates the database and publishes an event that triggers the next local transaction in the saga. If a step fails, compensatory transactions are executed.",
+    "Option3": "A pattern for read-only transactions.",
+    "Option4": "A technique for blocking transactions.",
+    "Answer": "A sequence of local transactions, where each local transaction updates the database and publishes an event that triggers the next local transaction in the saga. If a step fails, compensatory transactions are executed."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Spring Boot and GraphQL'?",
+    "Option1": "GraphQL is not supported.",
+    "Option2": "Spring for GraphQL project integrates GraphQL into Spring Boot applications, providing tools for building GraphQL APIs.",
+    "Option3": "GraphQL replaces REST entirely.",
+    "Option4": "Spring Boot has a built-in GraphQL server.",
+    "Answer": "Spring for GraphQL project integrates GraphQL into Spring Boot applications, providing tools for building GraphQL APIs."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Spring Native' and its goal?",
+    "Option1": "To compile Spring Boot apps to JavaScript.",
+    "Option2": "To compile Spring applications to native executables using GraalVM, significantly reducing startup time and memory footprint.",
+    "Option3": "To run Spring Boot applications on mobile devices.",
+    "Option4": "To develop applications without the JVM.",
+    "Answer": "To compile Spring applications to native executables using GraalVM, significantly reducing startup time and memory footprint."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'GraalVM'?",
+    "Option1": "A new programming language.",
+    "Option2": "A universal virtual machine that can run programs written in JavaScript, Python, Ruby, R, JVM-based languages (like Java, Scala, Kotlin), and LLVM-based languages (like C and C++).",
+    "Option3": "A database management system.",
+    "Option4": "A cloud platform.",
+    "Answer": "A universal virtual machine that can run programs written in JavaScript, Python, Ruby, R, JVM-based languages (like Java, Scala, Kotlin), and LLVM-based languages (like C and C++)."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'AOT (Ahead-of-Time) Compilation' in Spring Native?",
+    "Option1": "Compiling code at runtime.",
+    "Option2": "Compiling Java bytecode to native machine code before execution, resulting in faster startup times and lower memory consumption.",
+    "Option3": "A method for just-in-time compilation.",
+    "Option4": "A technique for lazy loading.",
+    "Answer": "Compiling Java bytecode to native machine code before execution, resulting in faster startup times and lower memory consumption."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Spring Boot CLI' (revisited) used for?",
+    "Option1": "Only for executing compiled JARs.",
+    "Option2": "Rapid prototyping and development of Spring applications using Groovy, allowing you to quickly write and run Spring Boot code without a full project setup.",
+    "Option3": "For managing production deployments.",
+    "Option4": "For generating database schemas.",
+    "Answer": "Rapid prototyping and development of Spring applications using Groovy, allowing you to quickly write and run Spring Boot code without a full project setup."
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you run a Groovy script with Spring Boot CLI?",
+    "Option1": "boot run script.java",
+    "Option2": "spring run script.groovy",
+    "Option3": "groovy script.groovy",
+    "Option4": "java -jar script.groovy",
+    "Answer": "spring run script.groovy"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Spring Boot's opinionated approach'?",
+    "Option1": "It forces developers to follow specific coding styles.",
+    "Option2": "It provides sensible defaults and conventions to minimize configuration, allowing developers to get started quickly and focus on business logic.",
+    "Option3": "It restricts the choice of libraries and frameworks.",
+    "Option4": "It dictates the database technology to use.",
+    "Answer": "It provides sensible defaults and conventions to minimize configuration, allowing developers to get started quickly and focus on business logic."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Can you override Spring Boot's auto-configurations?",
+    "Option1": "No, they are fixed.",
+    "Option2": "Yes, by providing your own bean definitions, Spring Boot's auto-configurations back off when a bean of the same type is already defined.",
+    "Option3": "Only by modifying the Spring Boot source code.",
+    "Option4": "Only through command-line arguments.",
+    "Answer": "Yes, by providing your own bean definitions, Spring Boot's auto-configurations back off when a bean of the same type is already defined."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Spring Boot graceful shutdown'?",
+    "Option1": "Immediately terminating the application.",
+    "Option2": "The ability of a Spring Boot application to complete ongoing requests and release resources cleanly before shutting down, preventing data loss or errors.",
+    "Option3": "Only applies to database connections.",
+    "Option4": "A feature for faster startup.",
+    "Answer": "The ability of a Spring Boot application to complete ongoing requests and release resources cleanly before shutting down, preventing data loss or errors."
+  },
+  {
+    "question_no.": 124,
+    "Question": "How do you enable graceful shutdown in Spring Boot?",
+    "Option1": "It's enabled by default.",
+    "Option2": "By setting `server.shutdown=graceful` in `application.properties`.",
+    "Option3": "Through a specific Actuator endpoint.",
+    "Option4": "By manually catching shutdown signals.",
+    "Answer": "By setting `server.shutdown=graceful` in `application.properties`."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Spring Boot Data Validation'?",
+    "Option1": "Manually checking all input data.",
+    "Option2": "Integration with Bean Validation API (JSR 380) and Hibernate Validator for validating incoming request data in REST APIs and other layers.",
+    "Option3": "Only for validating database entries.",
+    "Option4": "A client-side JavaScript validation library.",
+    "Answer": "Integration with Bean Validation API (JSR 380) and Hibernate Validator for validating incoming request data in REST APIs and other layers."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Which annotation is used to trigger validation on an object in a controller method?",
+    "Option1": "@Valid",
+    "Option2": "@NotNull",
+    "Option3": "@Size",
+    "Option4": "@Validated",
+    "Answer": "@Valid"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Spring Boot External Tomcat'?",
+    "Option1": "An embedded Tomcat server.",
+    "Option2": "Deploying a Spring Boot WAR file to an externally managed Tomcat server, rather than using the embedded one.",
+    "Option3": "A new version of Tomcat.",
+    "Option4": "A tool for monitoring Tomcat.",
+    "Answer": "Deploying a Spring Boot WAR file to an externally managed Tomcat server, rather than using the embedded one."
+  },
+  {
+    "question_no.": 128,
+    "Question": "When would you typically use an external Tomcat instead of embedded?",
+    "Option1": "For faster development.",
+    "Option2": "When an organization has existing infrastructure, operations, or monitoring systems built around a shared external application server.",
+    "Option3": "When deploying small microservices.",
+    "Option4": "When building command-line applications.",
+    "Answer": "When an organization has existing infrastructure, operations, or monitoring systems built around a shared external application server."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Spring Boot and Message Converters'?",
+    "Option1": "Converting messages between different languages.",
+    "Option2": "Automatically converting Java objects to/from various formats (like JSON, XML) for HTTP requests and responses using libraries like Jackson or JAXB.",
+    "Option3": "Converting message queue messages.",
+    "Option4": "Converting database query results.",
+    "Answer": "Automatically converting Java objects to/from various formats (like JSON, XML) for HTTP requests and responses using libraries like Jackson or JAXB."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Which annotation is used to indicate that a method's return value should be bound to the web response body?",
+    "Option1": "@ResponseBody",
+    "Option2": "@RequestBody",
+    "Option3": "@JsonFormat",
+    "Option4": "@RequestMapping",
+    "Answer": "@ResponseBody"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Spring Boot and Async Operations'?",
+    "Option1": "All operations are synchronous by default.",
+    "Option2": "Provides `@Async` annotation and `CompletableFuture` support to enable asynchronous method execution, improving responsiveness and resource utilization.",
+    "Option3": "Requires manual thread management.",
+    "Option4": "Only for UI updates.",
+    "Answer": "Provides `@Async` annotation and `CompletableFuture` support to enable asynchronous method execution, improving responsiveness and resource utilization."
+  },
+  {
+    "question_no.": 132,
+    "Question": "How do you enable `@Async` in Spring Boot?",
+    "Option1": "It's enabled by default.",
+    "Option2": "By adding `@EnableAsync` to a configuration class.",
+    "Option3": "By configuring a custom `ThreadPoolExecutor`.",
+    "Option4": "By using `Thread.start()` directly.",
+    "Answer": "By adding `@EnableAsync` to a configuration class."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Spring Boot and JSR 303/380 Bean Validation'?",
+    "Option1": "A custom validation framework.",
+    "Option2": "Integration with the Java Bean Validation API for declarative validation of Java objects using annotations like `@NotNull`, `@Size`, `@Min`, etc.",
+    "Option3": "Only for validating primitive types.",
+    "Option4": "A client-side validation library.",
+    "Answer": "Integration with the Java Bean Validation API for declarative validation of Java objects using annotations like `@NotNull`, `@Size`, `@Min`, etc."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the purpose of `@Valid` annotation in Spring Boot?",
+    "Option1": "To mark a method as valid.",
+    "Option2": "To instruct Spring to validate the annotated method argument using the configured Bean Validation provider.",
+    "Option3": "To declare a valid Spring Bean.",
+    "Option4": "To define a valid URL path.",
+    "Answer": "To instruct Spring to validate the annotated method argument using the configured Bean Validation provider."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Spring Boot Banner'?",
+    "Option1": "An advertisement displayed on startup.",
+    "Option2": "The ASCII art or text displayed in the console when a Spring Boot application starts, which can be customized.",
+    "Option3": "A component for showing application progress.",
+    "Option4": "A security warning.",
+    "Answer": "The ASCII art or text displayed in the console when a Spring Boot application starts, which can be customized."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you customize the Spring Boot banner?",
+    "Option1": "By modifying `banner.txt` in the classpath root.",
+    "Option2": "By setting `spring.main.banner-mode=off`.",
+    "Option3": "Through a dedicated Spring Boot plugin.",
+    "Option4": "It's not customizable.",
+    "Answer": "By modifying `banner.txt` in the classpath root."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Spring Boot Profiles' (revisited) and how are they activated?",
+    "Option1": "They are always active.",
+    "Option2": "They allow different configurations to be active in different environments. Activated via `spring.profiles.active` property, JVM argument, or environment variable.",
+    "Option3": "They are only for security settings.",
+    "Option4": "They must be activated programmatically.",
+    "Answer": "They allow different configurations to be active in different environments. Activated via `spring.profiles.active` property, JVM argument, or environment variable."
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you define a profile-specific property file?",
+    "Option1": "application-dev.properties",
+    "Option2": "dev.properties",
+    "Option3": "application.properties.dev",
+    "Option4": "profile-dev.properties",
+    "Answer": "application-dev.properties"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Spring Boot Health Indicators'?",
+    "Option1": "Metrics for application performance.",
+    "Option2": "Components provided by Actuator that report the health status of various parts of an application (e.g., database connectivity, disk space, custom checks).",
+    "Option3": "Tools for logging application events.",
+    "Option4": "Features for monitoring user activity.",
+    "Answer": "Components provided by Actuator that report the health status of various parts of an application (e.g., database connectivity, disk space, custom checks)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you create a custom health indicator in Spring Boot?",
+    "Option1": "By implementing `HealthCheck` interface.",
+    "Option2": "By implementing the `HealthIndicator` interface and making it a Spring Bean.",
+    "Option3": "By defining a new Actuator endpoint.",
+    "Option4": "It's not possible to create custom health indicators.",
+    "Answer": "By implementing the `HealthIndicator` interface and making it a Spring Bean."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Spring Boot Info Endpoint'?",
+    "Option1": "Provides detailed health status.",
+    "Option2": "An Actuator endpoint that exposes general application information like build version, Git commit ID, and custom info properties.",
+    "Option3": "Lists all configured beans.",
+    "Option4": "Shows environmental variables.",
+    "Answer": "An Actuator endpoint that exposes general application information like build version, Git commit ID, and custom info properties."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you add custom information to the `/info` endpoint?",
+    "Option1": "By defining properties starting with `info.` in `application.properties`.",
+    "Option2": "By implementing `InfoContributor` interface.",
+    "Option3": "Both A and B are valid approaches.",
+    "Option4": "It's automatically populated by Spring Boot.",
+    "Answer": "Both A and B are valid approaches."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Spring Boot Custom Actuator Endpoints'?",
+    "Option1": "Modifying existing Actuator endpoints.",
+    "Option2": "The ability to create your own custom Actuator endpoints to expose application-specific operational data or functionality.",
+    "Option3": "Endpoints for security configuration.",
+    "Option4": "Endpoints for database management.",
+    "Answer": "The ability to create your own custom Actuator endpoints to expose application-specific operational data or functionality."
+  },
+  {
+    "question_no.": 144,
+    "Question": "Which annotations are used to create a custom Actuator endpoint?",
+    "Option1": "@Component and @RequestMapping",
+    "Option2": "@Endpoint or `@WebEndpoint`/`@JmxEndpoint`",
+    "Option3": "@Controller and @GetMapping",
+    "Option4": "@Service and @PostAuthorize",
+    "Answer": "@Endpoint or `@WebEndpoint`/`@JmxEndpoint`"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Spring Boot External Configuration' (revisited)?",
+    "Option1": "Hardcoding configurations within the application.",
+    "Option2": "A flexible mechanism to allow configuration to be injected from various external sources (e.g., properties files, YAML files, environment variables, command-line arguments, Spring Cloud Config Server).",
+    "Option3": "Configuration that is specific to a single server.",
+    "Option4": "Configuration that is only loaded once at build time.",
+    "Answer": "A flexible mechanism to allow configuration to be injected from various external sources (e.g., properties files, YAML files, environment variables, command-line arguments, Spring Cloud Config Server)."
+  },
+  {
+    "question_no.": 146,
+    "Question": "Why is externalized configuration crucial for cloud-native applications?",
+    "Option1": "It reduces application startup time.",
+    "Option2": "It enables deploying the same application artifact to different environments (dev, test, prod) with different settings without rebuilding, supporting portability and scalability.",
+    "Option3": "It improves local development experience.",
+    "Option4": "It encrypts all configuration data.",
+    "Answer": "It enables deploying the same application artifact to different environments (dev, test, prod) with different settings without rebuilding, supporting portability and scalability."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Spring Boot Classpath Scanning'?",
+    "Option1": "Scanning for security vulnerabilities.",
+    "Option2": "Spring's ability to automatically detect and register components (like `@Component`, `@Service`, `@Controller`) by scanning predefined packages on the classpath.",
+    "Option3": "Scanning for external dependencies.",
+    "Option4": "Scanning for malicious code.",
+    "Answer": "Spring's ability to automatically detect and register components (like `@Component`, `@Service`, `@Controller`) by scanning predefined packages on the classpath."
+  },
+  {
+    "question_no.": 148,
+    "Question": "Which annotation explicitly defines the base packages for component scanning?",
+    "Option1": "@Configuration",
+    "Option2": "@SpringBootApplication (implicitly scans from its package)",
+    "Option3": "@ComponentScan",
+    "Option4": "@EnableAutoConfiguration",
+    "Answer": "@ComponentScan"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Spring Boot and JDBC'?",
+    "Option1": "Requires explicit JDBC driver loading.",
+    "Option2": "Provides auto-configuration for `DataSource` and `JdbcTemplate`, simplifying direct JDBC access to databases.",
+    "Option3": "Only supports object-relational mapping (ORM).",
+    "Option4": "Does not support raw SQL queries.",
+    "Answer": "Provides auto-configuration for `DataSource` and `JdbcTemplate`, simplifying direct JDBC access to databases."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'JdbcTemplate' in Spring?",
+    "Option1": "A templating engine for web pages.",
+    "Option2": "A class that simplifies JDBC operations, handling boilerplate code like connection management, statement creation, and result set processing.",
+    "Option3": "A tool for generating SQL queries.",
+    "Option4": "A class for managing database transactions.",
+    "Answer": "A class that simplifies JDBC operations, handling boilerplate code like connection management, statement creation, and result set processing."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Spring Boot and Transaction Management'?",
+    "Option1": "Requires manual transaction commit/rollback.",
+    "Option2": "Provides robust declarative transaction management through `@Transactional` annotation and various `PlatformTransactionManager` implementations.",
+    "Option3": "Only supports read-only transactions.",
+    "Option4": "Does not support distributed transactions.",
+    "Answer": "Provides robust declarative transaction management through `@Transactional` annotation and various `PlatformTransactionManager` implementations."
+  },
+  {
+    "question_no.": 152,
+    "Question": "Which annotation is used for declarative transaction management?",
+    "Option1": "@Commit",
+    "Option2": "@Rollback",
+    "Option3": "@Transaction",
+    "Option4": "@Transactional",
+    "Answer": "@Transactional"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Spring Boot Profiles Grouping'?",
+    "Option1": "Applying multiple profiles to a single environment.",
+    "Option2": "Defining a logical group of profiles (e.g., 'cloud' profile activates 'aws' and 'azure') to simplify environment configuration.",
+    "Option3": "A feature for user groups.",
+    "Option4": "A way to restrict access to profiles.",
+    "Answer": "Defining a logical group of profiles (e.g., 'cloud' profile activates 'aws' and 'azure') to simplify environment configuration."
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you group profiles in `application.properties`?",
+    "Option1": "spring.profiles.group.prod=dev,test",
+    "Option2": "spring.profiles.group.cloud=aws,azure",
+    "Option3": "group.profiles=dev,prod",
+    "Option4": "profiles.active=group:prod",
+    "Answer": "spring.profiles.group.cloud=aws,azure"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Spring Boot REST Template'?",
+    "Option1": "A template engine for REST APIs.",
+    "Option2": "A synchronous HTTP client for consuming RESTful web services, providing methods for various HTTP verbs.",
+    "Option3": "A tool for generating REST API documentation.",
+    "Option4": "A component for building REST servers.",
+    "Answer": "A synchronous HTTP client for consuming RESTful web services, providing methods for various HTTP verbs."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Spring WebClient'?",
+    "Option1": "A blocking HTTP client.",
+    "Option2": "A non-blocking, reactive HTTP client from Spring WebFlux, ideal for consuming RESTful web services in a reactive application.",
+    "Option3": "A client-side JavaScript library.",
+    "Option4": "A tool for testing web servers.",
+    "Answer": "A non-blocking, reactive HTTP client from Spring WebFlux, ideal for consuming RESTful web services in a reactive application."
+  },
+  {
+    "question_no.": 157,
+    "Question": "When would you prefer `WebClient` over `RestTemplate`?",
+    "Option1": "For simple, synchronous calls.",
+    "Option2": "In reactive applications, when dealing with high concurrency, or when integration with reactive streams is required.",
+    "Option3": "When using Spring Data JPA.",
+    "Option4": "When building monolithic applications.",
+    "Answer": "In reactive applications, when dealing with high concurrency, or when integration with reactive streams is required."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Spring Boot and Swagger/OpenAPI'?",
+    "Option1": "Spring Boot has built-in Swagger UI.",
+    "Option2": "Integration with Swagger/OpenAPI for generating interactive API documentation from your Spring Boot REST services.",
+    "Option3": "A tool for API testing.",
+    "Option4": "A security standard for APIs.",
+    "Answer": "Integration with Swagger/OpenAPI for generating interactive API documentation from your Spring Boot REST services."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which popular library is used for generating OpenAPI documentation from Spring Boot applications?",
+    "Option1": "Swagger UI",
+    "Option2": "Springdoc-openapi",
+    "Option3": "OpenAPI Generator",
+    "Option4": "Postman",
+    "Answer": "Springdoc-openapi"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Spring Boot Health Endpoints Exposure'?",
+    "Option1": "All Actuator endpoints are exposed by default.",
+    "Option2": "By default, only `/health` and `/info` are exposed over HTTP. Other endpoints need to be explicitly exposed via `management.endpoints.web.exposure.include` property.",
+    "Option3": "Only custom endpoints are exposed.",
+    "Option4": "They are never exposed publicly.",
+    "Answer": "By default, only `/health` and `/info` are exposed over HTTP. Other endpoints need to be explicitly exposed via `management.endpoints.web.exposure.include` property."
+  },
+  {
+    "question_no.": 161,
+    "Question": "How do you expose all Actuator endpoints over the web?",
+    "Option1": "management.endpoints.web.exposure.include=*",
+    "Option2": "management.endpoints.web.exposure.exclude=*",
+    "Option3": "management.endpoints.enabled=true",
+    "Option4": "expose.all.endpoints=true",
+    "Answer": "management.endpoints.web.exposure.include=*"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Spring Boot CLI for AOT'?",
+    "Option1": "Spring Boot CLI only supports JIT compilation.",
+    "Option2": "Spring Boot CLI can also be used to build native executables with GraalVM by leveraging the `spring-boot-starter-parent`'s native build capabilities.",
+    "Option3": "It's a separate AOT compiler.",
+    "Option4": "Only for Groovy applications.",
+    "Answer": "Spring Boot CLI can also be used to build native executables with GraalVM by leveraging the `spring-boot-starter-parent`'s native build capabilities."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Spring Boot Custom Error Pages'?",
+    "Option1": "Only displays generic error messages.",
+    "Option2": "Allows you to define custom error pages (e.g., `404.html`, `500.html`) or custom error handling logic for different HTTP status codes.",
+    "Option3": "Requires manual configuration of servlet filters.",
+    "Option4": "Error pages are always external.",
+    "Answer": "Allows you to define custom error pages (e.g., `404.html`, `500.html`) or custom error handling logic for different HTTP status codes."
+  },
+  {
+    "question_no.": 164,
+    "Question": "Where do you place custom error HTML pages in a Spring Boot application?",
+    "Option1": "src/main/resources/static/error/",
+    "Option2": "src/main/resources/templates/error/",
+    "Option3": "Both A and B (depending on if you use static or templated error pages).",
+    "Option4": "web/WEB-INF/error/",
+    "Answer": "Both A and B (depending on if you use static or templated error pages)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Spring Boot and Kotlin'?",
+    "Option1": "Kotlin is not supported.",
+    "Option2": "Spring Boot has first-class support for Kotlin, including Kotlin extensions, coroutines support for WebFlux, and a dedicated Kotlin starter.",
+    "Option3": "Kotlin can only be used for frontend development.",
+    "Option4": "Kotlin requires a separate JVM.",
+    "Answer": "Spring Boot has first-class support for Kotlin, including Kotlin extensions, coroutines support for WebFlux, and a dedicated Kotlin starter."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the primary benefit of using Kotlin with Spring Boot?",
+    "Option1": "Faster runtime performance.",
+    "Option2": "More concise code, null safety, and functional programming features, leading to more robust and readable applications.",
+    "Option3": "Automatic code generation.",
+    "Option4": "Reduced memory consumption.",
+    "Answer": "More concise code, null safety, and functional programming features, leading to more robust and readable applications."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Spring Boot and GraalVM Native Images'?",
+    "Option1": "They are only for batch jobs.",
+    "Option2": "Compiling Spring Boot applications into standalone native executables using GraalVM, offering extremely fast startup times and low memory usage, ideal for microservices and serverless functions.",
+    "Option3": "Requires a full JVM installation.",
+    "Option4": "Only for client-side applications.",
+    "Answer": "Compiling Spring Boot applications into standalone native executables using GraalVM, offering extremely fast startup times and low memory usage, ideal for microservices and serverless functions."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Spring Boot and Observability'?",
+    "Option1": "Only logging.",
+    "Option2": "The ability to understand the internal state of a system based on its external outputs, encompassing metrics, tracing, and logging, with Spring Boot Actuator and Micrometer playing key roles.",
+    "Option3": "A security feature.",
+    "Option4": "A deployment strategy.",
+    "Answer": "The ability to understand the internal state of a system based on its external outputs, encompassing metrics, tracing, and logging, with Spring Boot Actuator and Micrometer playing key roles."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Spring Boot and Kubernetes Probes'?",
+    "Option1": "For debugging only.",
+    "Option2": "Spring Boot Actuator health endpoints (`/health`) are perfectly suited for Kubernetes readiness and liveness probes, allowing Kubernetes to determine application availability and health.",
+    "Option3": "Only for network monitoring.",
+    "Option4": "Probes are not used in Kubernetes with Spring Boot.",
+    "Answer": "Spring Boot Actuator health endpoints (`/health`) are perfectly suited for Kubernetes readiness and liveness probes, allowing Kubernetes to determine application availability and health."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is a 'Liveness Probe' in Kubernetes?",
+    "Option1": "Checks if the application is ready to serve traffic.",
+    "Option2": "Determines if a container is running and healthy, restarting it if it fails.",
+    "Option3": "Checks database connectivity.",
+    "Option4": "Monitors CPU usage.",
+    "Answer": "Determines if a container is running and healthy, restarting it if it fails."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is a 'Readiness Probe' in Kubernetes?",
+    "Option1": "Checks if the application has started.",
+    "Option2": "Determines if a container is ready to accept traffic, preventing traffic from being sent to an unhealthy or not-yet-initialized application instance.",
+    "Option3": "Checks external service connectivity.",
+    "Option4": "Monitors memory usage.",
+    "Answer": "Determines if a container is ready to accept traffic, preventing traffic from being sent to an unhealthy or not-yet-initialized application instance."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Spring Boot and Docker Compose'?",
+    "Option1": "Docker Compose is not compatible.",
+    "Option2": "Docker Compose is often used during local development to define and run multi-container Spring Boot applications with their dependencies (databases, message queues) in a single configuration file.",
+    "Option3": "Only for production deployments.",
+    "Option4": "A cloud-specific deployment tool.",
+    "Answer": "Docker Compose is often used during local development to define and run multi-container Spring Boot applications with their dependencies (databases, message queues) in a single configuration file."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Spring Boot and WebSockets with STOMP'?",
+    "Option1": "STOMP is not supported.",
+    "Option2": "Spring Boot provides comprehensive support for WebSockets with STOMP (Simple Text-Oriented Messaging Protocol) as a sub-protocol, simplifying real-time messaging.",
+    "Option3": "Only for binary data transfer.",
+    "Option4": "Requires manual STOMP frame construction.",
+    "Answer": "Spring Boot provides comprehensive support for WebSockets with STOMP (Simple Text-Oriented Messaging Protocol) as a sub-protocol, simplifying real-time messaging."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Spring Boot and GraphQL Federation'?",
+    "Option1": "GraphQL Federation is not supported.",
+    "Option2": "Spring for GraphQL supports building federated GraphQL services, allowing multiple microservices to contribute to a single, unified GraphQL schema.",
+    "Option3": "A type of GraphQL query.",
+    "Option4": "A tool for schema validation.",
+    "Answer": "Spring for GraphQL supports building federated GraphQL services, allowing multiple microservices to contribute to a single, unified GraphQL schema."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Spring Boot and REST Client Interfaces'?",
+    "Option1": "Only for manual HTTP requests.",
+    "Option2": "Spring Framework 6/Spring Boot 3 introduce the `RestClient` interface and HTTP Interface to define REST clients as interfaces, reducing boilerplate compared to `RestTemplate` or `WebClient`.",
+    "Option3": "Deprecated feature.",
+    "Option4": "Only for SOAP clients.",
+    "Answer": "Spring Framework 6/Spring Boot 3 introduce the `RestClient` interface and HTTP Interface to define REST clients as interfaces, reducing boilerplate compared to `RestTemplate` or `WebClient`."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Spring Boot and Problem Detail RFC 7807'?",
+    "Option1": "A new logging format.",
+    "Option2": "Spring Boot 3 supports RFC 7807 (Problem Details for HTTP APIs), allowing for richer, standardized error responses in REST APIs.",
+    "Option3": "A security standard.",
+    "Option4": "A protocol for message queues.",
+    "Answer": "Spring Boot 3 supports RFC 7807 (Problem Details for HTTP APIs), allowing for richer, standardized error responses in REST APIs."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Spring Boot and Testcontainers with specific database images'?",
+    "Option1": "Testcontainers only supports generic databases.",
+    "Option2": "Testcontainers allows you to specify particular database versions (e.g., PostgreSQL 14, MySQL 8) for more realistic and reproducible integration testing.",
+    "Option3": "It's only for in-memory databases.",
+    "Option4": "It increases test execution time significantly.",
+    "Answer": "Testcontainers allows you to specify particular database versions (e.g., PostgreSQL 14, MySQL 8) for more realistic and reproducible integration testing."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Spring Boot and Distributed Caching'?",
+    "Option1": "Only supports local caching.",
+    "Option2": "Spring Boot provides auto-configuration for integrating with distributed caching solutions like Redis, Memcached, or Hazelcast for scalable caching in microservices.",
+    "Option3": "Requires manual synchronization between caches.",
+    "Option4": "Does not support data replication.",
+    "Answer": "Spring Boot provides auto-configuration for integrating with distributed caching solutions like Redis, Memcached, or Hazelcast for scalable caching in microservices."
+  },
+  {
+    "question_no.": 179,
+    "Question": "Which starter is used for Redis integration in Spring Boot?",
+    "Option1": "spring-boot-starter-redis",
+    "Option2": "spring-boot-starter-data-redis",
+    "Option3": "spring-redis-connector",
+    "Option4": "spring-cache-redis",
+    "Answer": "spring-boot-starter-data-redis"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Spring Boot and Rate Limiting'?",
+    "Option1": "A way to control application logs.",
+    "Option2": "Spring Boot applications can implement rate limiting using libraries or Spring Cloud Gateway filters to control the number of requests a client can make to an API within a given time frame.",
+    "Option3": "A tool for database performance.",
+    "Option4": "A security vulnerability.",
+    "Answer": "Spring Boot applications can implement rate limiting using libraries or Spring Cloud Gateway filters to control the number of requests a client can make to an API within a given time frame."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Spring Boot and Resilience4j'?",
+    "Option1": "A logging library.",
+    "Option2": "A lightweight, fault-tolerance library for Java and Kotlin that helps developers build resilient applications by providing Circuit Breaker, Rate Limiter, Retry, and Bulkhead patterns, often used with Spring Boot.",
+    "Option3": "A database connection pool.",
+    "Option4": "A messaging queue.",
+    "Answer": "A lightweight, fault-tolerance library for Java and Kotlin that helps developers build resilient applications by providing Circuit Breaker, Rate Limiter, Retry, and Bulkhead patterns, often used with Spring Boot."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Spring Boot and Feature Toggles/Feature Flags'?",
+    "Option1": "Enabling/disabling application security.",
+    "Option2": "Spring Boot can integrate with feature toggle frameworks (e.g., Togglz, Unleash) to enable or disable features dynamically without redeploying the application.",
+    "Option3": "A tool for debugging feature issues.",
+    "Option4": "A way to switch between profiles.",
+    "Answer": "Spring Boot can integrate with feature toggle frameworks (e.g., Togglz, Unleash) to enable or disable features dynamically without redeploying the application."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Spring Boot and Distributed Locks'?",
+    "Option1": "Only for local locks.",
+    "Option2": "Spring Boot applications in a distributed environment might need distributed locks (e.g., using Redis, Zookeeper) to coordinate access to shared resources across multiple instances.",
+    "Option3": "A security mechanism.",
+    "Option4": "A way to manage user sessions.",
+    "Answer": "Spring Boot applications in a distributed environment might need distributed locks (e.g., using Redis, Zookeeper) to coordinate access to shared resources across multiple instances."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Spring Boot and Observability with Prometheus and Grafana'?",
+    "Option1": "Only for system monitoring.",
+    "Option2": "Spring Boot Actuator and Micrometer metrics can be scraped by Prometheus and visualized using Grafana, providing powerful dashboards for application monitoring.",
+    "Option3": "A specific logging format.",
+    "Option4": "A deployment strategy.",
+    "Answer": "Spring Boot Actuator and Micrometer metrics can be scraped by Prometheus and visualized using Grafana, providing powerful dashboards for application monitoring."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Prometheus'?",
+    "Option1": "A database.",
+    "Option2": "An open-source monitoring system with a time series database, used for collecting and querying metrics.",
+    "Option3": "A logging tool.",
+    "Option4": "A distributed tracing system.",
+    "Answer": "An open-source monitoring system with a time series database, used for collecting and querying metrics."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Grafana'?",
+    "Option1": "A data analysis tool.",
+    "Option2": "An open-source analytics and interactive visualization web application, often used with Prometheus to create dashboards for monitoring.",
+    "Option3": "A code editor.",
+    "Option4": "A source control system.",
+    "Answer": "An open-source analytics and interactive visualization web application, often used with Prometheus to create dashboards for monitoring."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Spring Boot and Centralized Logging'?",
+    "Option1": "Logging to local files only.",
+    "Option2": "Spring Boot applications can be configured to send logs to centralized logging systems (e.g., ELK Stack, Splunk) for aggregation, searching, and analysis in distributed environments.",
+    "Option3": "A feature for debugging production issues.",
+    "Option4": "A tool for generating log reports.",
+    "Answer": "Spring Boot applications can be configured to send logs to centralized logging systems (e.g., ELK Stack, Splunk) for aggregation, searching, and analysis in distributed environments."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the 'ELK Stack'?",
+    "Option1": "A testing framework.",
+    "Option2": "Elasticsearch, Logstash, and Kibana – a popular suite of tools for centralized logging, search, and data visualization.",
+    "Option3": "A cloud platform.",
+    "Option4": "A messaging queue.",
+    "Answer": "Elasticsearch, Logstash, and Kibana – a popular suite of tools for centralized logging, search, and data visualization."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Spring Boot and Mockito'?",
+    "Option1": "Mockito is a part of Spring Boot.",
+    "Option2": "Mockito is a popular mocking framework for Java unit tests, commonly used with Spring Boot applications to mock dependencies and isolate components for testing.",
+    "Option3": "A performance testing tool.",
+    "Option4": "A code coverage tool.",
+    "Answer": "Mockito is a popular mocking framework for Java unit tests, commonly used with Spring Boot applications to mock dependencies and isolate components for testing."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Spring Boot and JUnit 5'?",
+    "Option1": "Only JUnit 4 is supported.",
+    "Option2": "Spring Boot's test starter includes JUnit 5 (Jupiter), providing modern testing features like parameterized tests, nested tests, and more expressive assertions.",
+    "Option3": "JUnit is not used for Spring Boot testing.",
+    "Option4": "Requires manual JUnit configuration.",
+    "Answer": "Spring Boot's test starter includes JUnit 5 (Jupiter), providing modern testing features like parameterized tests, nested tests, and more expressive assertions."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Spring Boot and System.exit()'?",
+    "Option1": "It's the recommended way to stop a Spring Boot application.",
+    "Option2": "Calling `System.exit()` is generally discouraged in Spring Boot as it bypasses the normal shutdown process, potentially leading to resource leaks or ungraceful termination. Use `SpringApplication.exit()` or Actuator.",
+    "Option3": "It's only for development mode.",
+    "Option4": "It ensures a clean shutdown.",
+    "Answer": "Calling `System.exit()` is generally discouraged in Spring Boot as it bypasses the normal shutdown process, potentially leading to resource leaks or ungraceful termination. Use `SpringApplication.exit()` or Actuator."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Spring Boot and Custom Web Filters'?",
+    "Option1": "Only built-in filters are supported.",
+    "Option2": "Spring Boot allows you to define and register custom Servlet filters or Spring `WebFilter`s to intercept and process HTTP requests and responses.",
+    "Option3": "Requires manual `web.xml` configuration.",
+    "Option4": "Only for security purposes.",
+    "Answer": "Spring Boot allows you to define and register custom Servlet filters or Spring `WebFilter`s to intercept and process HTTP requests and responses."
+  },
+  {
+    "question_no.": 193,
+    "Question": "How do you register a custom `WebFilter` in Spring Boot?",
+    "Option1": "By implementing `javax.servlet.Filter`.",
+    "Option2": "By defining a `@Bean` of type `Filter` or `FilterRegistrationBean`.",
+    "Option3": "Through annotation on the controller.",
+    "Option4": "It's automatically detected if present.",
+    "Answer": "By defining a `@Bean` of type `Filter` or `FilterRegistrationBean`."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Spring Boot and Interceptors'?",
+    "Option1": "Only for database queries.",
+    "Option2": "Spring Boot integrates with Spring MVC Interceptors, allowing you to intercept and process HTTP requests before they reach the controller or after the controller has processed them.",
+    "Option3": "Only for client-side logic.",
+    "Option4": "Replaces filters entirely.",
+    "Answer": "Spring Boot integrates with Spring MVC Interceptors, allowing you to intercept and process HTTP requests before they reach the controller or after the controller has processed them."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the primary difference between a Filter and an Interceptor in Spring MVC?",
+    "Option1": "Filters are for security, Interceptors are for logging.",
+    "Option2": "Filters are part of the Servlet API (lower level, pre-Spring MVC dispatch), while Interceptors are part of Spring MVC (higher level, post-Servlet filter, pre/post-controller handler execution).",
+    "Option3": "Filters can access method arguments, Interceptors cannot.",
+    "Option4": "Interceptors are configured in `web.xml`, Filters in Java code.",
+    "Answer": "Filters are part of the Servlet API (lower level, pre-Spring MVC dispatch), while Interceptors are part of Spring MVC (higher level, post-Servlet filter, pre/post-controller handler execution)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Spring Boot and CORS (revisited)'?",
+    "Option1": "Only for specific origins.",
+    "Option2": "Spring Boot provides convenient ways to configure CORS globally (via `WebMvcConfigurer`) or on specific controller methods (`@CrossOrigin`) to allow cross-origin requests.",
+    "Option3": "CORS is disabled by default.",
+    "Option4": "Requires manual manipulation of HTTP headers only.",
+    "Answer": "Spring Boot provides convenient ways to configure CORS globally (via `WebMvcConfigurer`) or on specific controller methods (`@CrossOrigin`) to allow cross-origin requests."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Spring Boot and WebJars'?",
+    "Option1": "A deprecated feature.",
+    "Option2": "Spring Boot supports WebJars, allowing you to manage client-side dependencies (like jQuery, Bootstrap) as JAR files through Maven/Gradle, making them accessible from your web application's classpath.",
+    "Option3": "Only for server-side dependencies.",
+    "Option4": "A tool for JavaScript code optimization.",
+    "Answer": "Spring Boot supports WebJars, allowing you to manage client-side dependencies (like jQuery, Bootstrap) as JAR files through Maven/Gradle, making them accessible from your web application's classpath."
+  },
+  {
+    "question_no.": 198,
+    "Question": "How do you include a WebJar in a Spring Boot project?",
+    "Option1": "By manually downloading JavaScript files.",
+    "Option2": "By adding the WebJar dependency to your `pom.xml` or `build.gradle`.",
+    "Option3": "WebJars are automatically detected from the web folder.",
+    "Option4": "Only through a dedicated WebJar plugin.",
+    "Answer": "By adding the WebJar dependency to your `pom.xml` or `build.gradle`."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Spring Boot and `MessageSource`'?",
+    "Option1": "Only for logging messages.",
+    "Option2": "Provides support for internationalization (I18N) by resolving messages from properties files based on locale, enabling multi-language applications.",
+    "Option3": "A tool for parsing message queues.",
+    "Option4": "A component for sending notifications.",
+    "Answer": "Provides support for internationalization (I18N) by resolving messages from properties files based on locale, enabling multi-language applications."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Where do you typically define i18n messages in Spring Boot?",
+    "Option1": "messages.properties",
+    "Option2": "messages_en.properties, messages_fr.properties, etc.",
+    "Option3": "i18n.properties",
+    "Option4": "All of the above, depending on configuration.",
+    "Answer": "All of the above, depending on configuration."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Spring Boot and `ApplicationRunner`'?",
+    "Option1": "Similar to `CommandLineRunner` but cannot access arguments.",
+    "Option2": "An interface similar to `CommandLineRunner` that provides access to the application arguments as an `ApplicationArguments` object, offering more structured argument parsing.",
+    "Option3": "A component for running web applications.",
+    "Option4": "A tool for debugging application startup.",
+    "Answer": "An interface similar to `CommandLineRunner` that provides access to the application arguments as an `ApplicationArguments` object, offering more structured argument parsing."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the primary difference between `CommandLineRunner` and `ApplicationRunner`?",
+    "Option1": "No functional difference, just different names.",
+    "Option2": "`CommandLineRunner` receives `String... args` while `ApplicationRunner` receives an `ApplicationArguments` object, providing more parsed access to arguments.",
+    "Option3": "`CommandLineRunner` is for web apps, `ApplicationRunner` for CLI apps.",
+    "Option4": "`ApplicationRunner` executes before `CommandLineRunner`.",
+    "Answer": "`CommandLineRunner` receives `String... args` while `ApplicationRunner` receives an `ApplicationArguments` object, providing more parsed access to arguments."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Spring Boot's default package structure recommendation'?",
+    "Option1": "No specific recommendation.",
+    "Option2": "Locating the main application class (annotated with `@SpringBootApplication`) in a root package, allowing `@ComponentScan` to discover components in sub-packages.",
+    "Option3": "All classes in a single package.",
+    "Option4": "Separating components into entirely separate projects.",
+    "Answer": "Locating the main application class (annotated with `@SpringBootApplication`) in a root package, allowing `@ComponentScan` to discover components in sub-packages."
+  },
+  {
+    "question_no.": 204,
+    "Question": "Why is the recommended package structure important for Spring Boot auto-configuration?",
+    "Option1": "It simplifies manual bean definition.",
+    "Option2": "It enables `@ComponentScan` and `@EnableAutoConfiguration` to work effectively by default, as they scan from the package of the main application class.",
+    "Option3": "It improves application performance.",
+    "Option4": "It's only for aesthetic purposes.",
+    "Answer": "It enables `@ComponentScan` and `@EnableAutoConfiguration` to work effectively by default, as they scan from the package of the main application class."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Spring Boot `application.yml`'?",
+    "Option1": "An XML configuration file.",
+    "Option2": "An alternative to `application.properties` for defining application configuration, using YAML format, which can be more readable for hierarchical data.",
+    "Option3": "A file for defining database schemas.",
+    "Option4": "A log file.",
+    "Answer": "An alternative to `application.properties` for defining application configuration, using YAML format, which can be more readable for hierarchical data."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of PHP framework is Laravel?",
+    "Option1": "Micro-framework",
+    "Option2": "Full-stack web framework",
+    "Option3": "Front-end framework",
+    "Option4": "Command-line framework",
+    "Answer": "Full-stack web framework"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which design pattern is Laravel primarily based on?",
+    "Option1": "Singleton",
+    "Option2": "Factory",
+    "Option3": "Model-View-Controller (MVC)",
+    "Option4": "Observer",
+    "Answer": "Model-View-Controller (MVC)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Who created Laravel?",
+    "Option1": "Rasmus Lerdorf",
+    "Option2": "Fabien Potencier",
+    "Option3": "Taylor Otwell",
+    "Option4": "Brendan Eich",
+    "Answer": "Taylor Otwell"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the official command-line interface for Laravel?",
+    "Option1": "Composer",
+    "Option2": "Artisan",
+    "Option3": "NPM",
+    "Option4": "PHP CLI",
+    "Answer": "Artisan"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which tool is used for dependency management in Laravel projects?",
+    "Option1": "NPM",
+    "Option2": "Yarn",
+    "Option3": "Composer",
+    "Option4": "Bundler",
+    "Answer": "Composer"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the default templating engine in Laravel?",
+    "Option1": "Twig",
+    "Option2": "Smarty",
+    "Option3": "Blade",
+    "Option4": "Mustache",
+    "Answer": "Blade"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which file handles all incoming HTTP requests in Laravel?",
+    "Option1": "routes/web.php",
+    "Option2": "public/index.php",
+    "Option3": "app/Http/Kernel.php",
+    "Option4": "config/app.php",
+    "Answer": "public/index.php"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you define a route for a GET request in Laravel?",
+    "Option1": "Route::post('/users', ...)",
+    "Option2": "Route::get('/users', ...)",
+    "Option3": "Route::put('/users', ...)",
+    "Option4": "Route::delete('/users', ...)",
+    "Answer": "Route::get('/users', ...)"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is Eloquent ORM in Laravel?",
+    "Option1": "A tool for managing database migrations.",
+    "Option2": "An object-relational mapper that provides an expressive and elegant way to interact with your database.",
+    "Option3": "A query builder for complex SQL queries.",
+    "Option4": "A package for authentication.",
+    "Answer": "An object-relational mapper that provides an expressive and elegant way to interact with your database."
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you generate a new migration file using Artisan?",
+    "Option1": "php artisan make:controller",
+    "Option2": "php artisan make:model",
+    "Option3": "php artisan make:migration",
+    "Option4": "php artisan make:seed",
+    "Answer": "php artisan make:migration"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which Artisan command runs all pending database migrations?",
+    "Option1": "php artisan migrate:rollback",
+    "Option2": "php artisan migrate:refresh",
+    "Option3": "php artisan migrate",
+    "Option4": "php artisan db:seed",
+    "Answer": "php artisan migrate"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Where are database seeders typically located in a Laravel project?",
+    "Option1": "database/migrations",
+    "Option2": "database/factories",
+    "Option3": "database/seeders",
+    "Option4": "app/Models",
+    "Answer": "database/seeders"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is a 'middleware' in Laravel?",
+    "Option1": "A database driver.",
+    "Option2": "A mechanism for filtering HTTP requests entering your application.",
+    "Option3": "A type of view component.",
+    "Option4": "A front-end JavaScript library.",
+    "Answer": "A mechanism for filtering HTTP requests entering your application."
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which middleware is essential for protecting against Cross-Site Request Forgery (CSRF) attacks?",
+    "Option1": "AuthMiddleware",
+    "Option2": "ThrottleRequests",
+    "Option3": "VerifyCsrfToken",
+    "Option4": "EncryptCookies",
+    "Answer": "VerifyCsrfToken"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you include a Blade partial view in another Blade file?",
+    "Option1": "@import('partials.header')",
+    "Option2": "@include('partials.header')",
+    "Option3": "@render('partials.header')",
+    "Option4": "@use('partials.header')",
+    "Answer": "@include('partials.header')"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is the purpose of `@yield` directive in Blade?",
+    "Option1": "To define a section that can be overridden by child views.",
+    "Option2": "To include a JavaScript file.",
+    "Option3": "To display dynamic data from the controller.",
+    "Option4": "To create a loop.",
+    "Answer": "To define a section that can be overridden by child views."
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you display a variable named `userName` in Blade?",
+    "Option1": "{{ userName }}",
+    "Option2": "<?php echo $userName; ?>",
+    "Option3": "${userName}",
+    "Option4": "[[ userName ]]",
+    "Answer": "{{ userName }}"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which Artisan command is used to clear the route cache?",
+    "Option1": "php artisan cache:clear",
+    "Option2": "php artisan config:clear",
+    "Option3": "php artisan route:clear",
+    "Option4": "php artisan view:clear",
+    "Answer": "php artisan route:clear"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'Service Container' in Laravel?",
+    "Option1": "A Docker container for deploying Laravel apps.",
+    "Option2": "A powerful tool for managing class dependencies and performing dependency injection.",
+    "Option3": "A module for managing HTTP sessions.",
+    "Option4": "A tool for generating service workers.",
+    "Answer": "A powerful tool for managing class dependencies and performing dependency injection."
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you bind an interface to an implementation in the Service Container?",
+    "Option1": "App::bind('Interface', 'Implementation');",
+    "Option2": "App::make('Interface', 'Implementation');",
+    "Option3": "App::register('Interface', 'Implementation');",
+    "Option4": "App::resolve('Interface', 'Implementation');",
+    "Answer": "App::bind('Interface', 'Implementation');"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'Service Provider' in Laravel?",
+    "Option1": "A class that provides HTTP services.",
+    "Option2": "A class that registers services with the Service Container, booting or registering things your application needs.",
+    "Option3": "A third-party API provider.",
+    "Option4": "A class for handling database queries.",
+    "Answer": "A class that registers services with the Service Container, booting or registering things your application needs."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which directory contains the core application logic (controllers, models, middleware) in Laravel?",
+    "Option1": "resources/",
+    "Option2": "public/",
+    "Option3": "app/",
+    "Option4": "vendor/",
+    "Answer": "app/"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the purpose of the `.env` file in Laravel?",
+    "Option1": "To store JavaScript configurations.",
+    "Option2": "To store environment-specific configuration variables (e.g., database credentials, API keys).",
+    "Option3": "To define database schemas.",
+    "Option4": "To list project dependencies.",
+    "Answer": "To store environment-specific configuration variables (e"
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you access an environment variable named `APP_NAME` in Laravel?",
+    "Option1": "getenv('APP_NAME')",
+    "Option2": "env('APP_NAME')",
+    "Option3": "Config::get('app.name')",
+    "Option4": "$_ENV['APP_NAME']",
+    "Answer": "env('APP_NAME')"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Facades' in Laravel?",
+    "Option1": "Design patterns for front-end development.",
+    "Option2": "Classes that provide a 'static' interface to classes available in the Service Container, while still leveraging dependency injection.",
+    "Option3": "Built-in HTML components.",
+    "Option4": "Tools for generating fake data.",
+    "Answer": "Classes that provide a 'static' interface to classes available in the Service Container, while still leveraging dependency injection."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which command is used to generate a new controller?",
+    "Option1": "php artisan make:model",
+    "Option2": "php artisan make:controller",
+    "Option3": "php artisan make:route",
+    "Option4": "php artisan make:view",
+    "Answer": "php artisan make:controller"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you redirect a user to a named route in Laravel?",
+    "Option1": "return view('routeName');",
+    "Option2": "return redirect('/routeName');",
+    "Option3": "return redirect()->route('routeName');",
+    "Option4": "return redirect()->to('routeName');",
+    "Answer": "return redirect()->route('routeName');"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the purpose of the `web.php` routes file?",
+    "Option1": "To define API routes.",
+    "Option2": "To define routes for web interfaces that typically involve sessions and CSRF protection.",
+    "Option3": "To define console commands.",
+    "Option4": "To define fallback routes.",
+    "Answer": "To define routes for web interfaces that typically involve sessions and CSRF protection."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the purpose of the `api.php` routes file?",
+    "Option1": "To define web interface routes.",
+    "Option2": "To define stateless API routes that are not session-driven and do not have CSRF protection enabled.",
+    "Option3": "To define internal application routes.",
+    "Option4": "To define routes for testing.",
+    "Answer": "To define stateless API routes that are not session-driven and do not have CSRF protection enabled."
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which Artisan command generates a new model?",
+    "Option1": "php artisan make:controller",
+    "Option2": "php artisan make:model",
+    "Option3": "php artisan make:resource",
+    "Option4": "php artisan make:factory",
+    "Answer": "php artisan make:model"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you define a 'fillable' property in an Eloquent model?",
+    "Option1": "protected $guarded = [];",
+    "Option2": "protected $hidden = [];",
+    "Option3": "protected $fillable = ['column1', 'column2'];",
+    "Option4": "protected $table = 'users';",
+    "Answer": "protected $fillable = ['column1', 'column2'];"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What does `protected $guarded = [];` mean in an Eloquent model?",
+    "Option1": "All attributes are mass assignable.",
+    "Option2": "No attributes are mass assignable.",
+    "Option3": "Only `id` is guarded.",
+    "Option4": "It's an invalid declaration.",
+    "Answer": "All attributes are mass assignable."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you retrieve all records from a `User` model using Eloquent?",
+    "Option1": "User::find();",
+    "Option2": "User::get();",
+    "Option3": "User::all();",
+    "Option4": "User::fetch();",
+    "Answer": "User::all();"
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you retrieve a single record by its primary key from a `User` model?",
+    "Option1": "User::get(1);",
+    "Option2": "User::where('id', 1)->first();",
+    "Option3": "User::find(1);",
+    "Option4": "User::query(1);",
+    "Answer": "User::find(1);"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the relationship called when one user can have many posts?",
+    "Option1": "One-to-one",
+    "Option2": "Many-to-many",
+    "Option3": "One-to-many",
+    "Option4": "Polymorphic",
+    "Answer": "One-to-many"
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you define a one-to-many relationship (`hasMany`) in an Eloquent model?",
+    "Option1": "return $this->belongsTo(Post::class);",
+    "Option2": "return $this->hasMany(Post::class);",
+    "Option3": "return $this->belongsToMany(Post::class);",
+    "Option4": "return $this->morphMany(Post::class);",
+    "Answer": "return $this->hasMany(Post::class);"
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you define a one-to-many inverse relationship (`belongsTo`) in an Eloquent model?",
+    "Option1": "return $this->hasMany(User::class);",
+    "Option2": "return $this->belongsTo(User::class);",
+    "Option3": "return $this->belongsToMany(User::class);",
+    "Option4": "return $this->morphTo(User::class);",
+    "Answer": "return $this->belongsTo(User::class);"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the default table name for an Eloquent model named `Product`?",
+    "Option1": "product",
+    "Option2": "products",
+    "Option3": "Product",
+    "Option4": "Products",
+    "Answer": "products"
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you explicitly define the table name for an Eloquent model?",
+    "Option1": "public static $table = 'my_products';",
+    "Option2": "protected $tableName = 'my_products';",
+    "Option3": "protected $table = 'my_products';",
+    "Option4": "public $table_name = 'my_products';",
+    "Answer": "protected $table = 'my_products';"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'Tinker' in Laravel?",
+    "Option1": "A tool for debugging JavaScript.",
+    "Option2": "An interactive shell for interacting with your Laravel application and database.",
+    "Option3": "A code linter.",
+    "Option4": "A package manager.",
+    "Answer": "An interactive shell for interacting with your Laravel application and database."
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you start the Tinker console?",
+    "Option1": "php artisan console",
+    "Option2": "php artisan interact",
+    "Option3": "php artisan tinker",
+    "Option4": "php artisan repl",
+    "Answer": "php artisan tinker"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Blade components'?",
+    "Option1": "Pre-built JavaScript components.",
+    "Option2": "Reusable Blade views that can encapsulate logic and markup, similar to single-file components in frontend frameworks.",
+    "Option3": "Database components.",
+    "Option4": "CSS frameworks.",
+    "Answer": "Reusable Blade views that can encapsulate logic and markup, similar to single-file components in frontend frameworks."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you pass data to a Blade component?",
+    "Option1": "<x-alert message=\"Hello\" />",
+    "Option2": "<alert :message=\"'Hello'\" />",
+    "Option3": "<x-alert data-message=\"Hello\" />",
+    "Option4": "<x-alert value=\"Hello\" />",
+    "Answer": "<x-alert message=\"Hello\" />"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Form Request Validation' in Laravel?",
+    "Option1": "A client-side validation library.",
+    "Option2": "A feature that allows you to define validation rules in separate classes for cleaner and reusable validation logic.",
+    "Option3": "A way to validate database forms.",
+    "Option4": "A method for encrypting form data.",
+    "Answer": "A feature that allows you to define validation rules in separate classes for cleaner and reusable validation logic."
+  },
+  {
+    "question_no.": 45,
+    "Question": "How do you generate a new form request class?",
+    "Option1": "php artisan make:request MyFormRequest",
+    "Option2": "php artisan make:form MyFormRequest",
+    "Option3": "php artisan make:validation MyFormRequest",
+    "Option4": "php artisan make:rule MyFormRequest",
+    "Answer": "php artisan make:request MyFormRequest"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Eloquent Collections'?",
+    "Option1": "Standard PHP arrays.",
+    "Option2": "Enhanced arrays returned by Eloquent queries, providing a fluent interface for manipulating data.",
+    "Option3": "Database tables.",
+    "Option4": "JSON objects.",
+    "Answer": "Enhanced arrays returned by Eloquent queries, providing a fluent interface for manipulating data."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you iterate over an Eloquent collection in Blade?",
+    "Option1": "@foreach ($users as $user) ... @endforeach",
+    "Option2": "{{ $users->each(function($user){ ... }) }}",
+    "Option3": "<loop users=\"$users\"> ... </loop>",
+    "Option4": "@loop ($users as $user) ... @endloop",
+    "Answer": "@foreach ($users as $user) ... @endforeach"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'soft deleting' in Eloquent?",
+    "Option1": "Permanently deleting records from the database.",
+    "Option2": "Instead of truly deleting records, a `deleted_at` timestamp is set, keeping the record in the database for archival.",
+    "Option3": "Deleting records from the cache.",
+    "Option4": "Deleting files from the server.",
+    "Answer": "Instead of truly deleting records, a `deleted_at` timestamp is set, keeping the record in the database for archival."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which Eloquent trait enables soft deleting?",
+    "Option1": "SoftDeletes",
+    "Option2": "Timestamps",
+    "Option3": "HasFactory",
+    "Option4": "Notifiable",
+    "Answer": "SoftDeletes"
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you retrieve soft-deleted models in Eloquent?",
+    "Option1": "User::onlyTrashed()->get();",
+    "Option2": "User::trashed()->get();",
+    "Option3": "User::withTrashed()->get();",
+    "Option4": "User::deleted()->get();",
+    "Answer": "User::withTrashed()->get();"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Laravel Mix'?",
+    "Option1": "A tool for managing database connections.",
+    "Option2": "An API for defining webpack build steps for your Laravel application, simplifying asset compilation.",
+    "Option3": "A package for mixing different programming languages.",
+    "Option4": "A tool for generating random data.",
+    "Answer": "An API for defining webpack build steps for your Laravel application, simplifying asset compilation."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which command compiles assets using Laravel Mix?",
+    "Option1": "npm install",
+    "Option2": "npm run dev",
+    "Option3": "npm test",
+    "Option4": "npm start",
+    "Answer": "npm run dev"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Laravel Passport'?",
+    "Option1": "A package for user authentication using traditional sessions.",
+    "Option2": "A package for implementing OAuth2 server and API authentication in your Laravel application.",
+    "Option3": "A package for handling payments.",
+    "Option4": "A package for internationalization.",
+    "Answer": "A package for implementing OAuth2 server and API authentication in your Laravel application."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Laravel Sanctum'?",
+    "Option1": "A package for OAuth2 authentication.",
+    "Option2": "A lightweight authentication system for SPAs (Single Page Applications), mobile applications, and simple, token-based APIs.",
+    "Option3": "A package for two-factor authentication.",
+    "Option4": "A package for socialite login.",
+    "Answer": "A lightweight authentication system for SPAs (Single Page Applications), mobile applications, and simple, token-based APIs."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which authentication method is best suited for a classic web application with sessions?",
+    "Option1": "Passport",
+    "Option2": "Sanctum",
+    "Option3": "Laravel's built-in session-based authentication.",
+    "Option4": "JWT",
+    "Answer": "Laravel's built-in session-based authentication."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Laravel Nova'?",
+    "Option1": "A testing framework.",
+    "Option2": "A beautiful, customizable administration panel for Laravel applications.",
+    "Option3": "A new templating engine.",
+    "Option4": "A command-line tool for project scaffolding.",
+    "Answer": "A beautiful, customizable administration panel for Laravel applications."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Laravel Horizon'?",
+    "Option1": "A tool for managing database backups.",
+    "Option2": "A beautiful dashboard for managing your Redis queues.",
+    "Option3": "A package for managing server configurations.",
+    "Option4": "A package for real-time applications.",
+    "Answer": "A beautiful dashboard for managing your Redis queues."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Laravel Echo'?",
+    "Option1": "A tool for echoing text to the console.",
+    "Option2": "A JavaScript library that makes it painless to subscribe to channels and listen for events broadcast by Laravel.",
+    "Option3": "A package for logging application errors.",
+    "Option4": "A package for image manipulation.",
+    "Answer": "A JavaScript library that makes it painless to subscribe to channels and listen for events broadcast by Laravel."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the purpose of the `channels.php` file?",
+    "Option1": "To define public routes.",
+    "Option2": "To define broadcasting channels for real-time events.",
+    "Option3": "To configure database connections.",
+    "Option4": "To manage email notifications.",
+    "Answer": "To define broadcasting channels for real-time events."
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do you generate an event class in Laravel?",
+    "Option1": "php artisan make:notification",
+    "Option2": "php artisan make:job",
+    "Option3": "php artisan make:event",
+    "Option4": "php artisan make:listener",
+    "Answer": "php artisan make:event"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the purpose of 'Event Listeners'?",
+    "Option1": "To create new events.",
+    "Option2": "To react to specific events fired within your application, allowing for decoupled and maintainable code.",
+    "Option3": "To manage queue workers.",
+    "Option4": "To handle incoming HTTP requests.",
+    "Answer": "To react to specific events fired within your application, allowing for decoupled and maintainable code."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Where are event listeners registered?",
+    "Option1": "routes/web.php",
+    "Option2": "app/Providers/EventServiceProvider.php",
+    "Option3": "config/app.php",
+    "Option4": "database/seeders",
+    "Answer": "app/Providers/EventServiceProvider.php"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Queue' in Laravel?",
+    "Option1": "A data structure for real-time chat.",
+    "Option2": "A system for deferring time-consuming tasks to be processed in the background.",
+    "Option3": "A collection of database queries.",
+    "Option4": "A way to manage user sessions.",
+    "Answer": "A system for deferring time-consuming tasks to be processed in the background."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which Artisan command processes jobs on the queue?",
+    "Option1": "php artisan queue:start",
+    "Option2": "php artisan queue:listen",
+    "Option3": "php artisan queue:work",
+    "Option4": "php artisan queue:run",
+    "Answer": "php artisan queue:work"
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you dispatch a job to the queue?",
+    "Option1": "dispatch(new MyJob());",
+    "Option2": "MyJob::run();",
+    "Option3": "Queue::push(new MyJob());",
+    "Option4": "new MyJob()->dispatch();",
+    "Answer": "dispatch(new MyJob());"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Notifications' in Laravel?",
+    "Option1": "A system for showing pop-up alerts in the browser.",
+    "Option2": "A system for sending notifications across various channels like email, SMS, Slack, etc.",
+    "Option3": "A way to log application events.",
+    "Option4": "A package for push notifications.",
+    "Answer": "A system for sending notifications across various channels like email, SMS, Slack, etc."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which Artisan command generates a new notification class?",
+    "Option1": "php artisan make:event",
+    "Option2": "php artisan make:notification",
+    "Option3": "php artisan make:mail",
+    "Option4": "php artisan make:channel",
+    "Answer": "php artisan make:notification"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Mailables' in Laravel?",
+    "Option1": "A class for sending SMS messages.",
+    "Option2": "Classes that encapsulate the logic of building emails, making them reusable and testable.",
+    "Option3": "Classes for handling HTTP requests.",
+    "Option4": "Classes for generating reports.",
+    "Answer": "Classes that encapsulate the logic of building emails, making them reusable and testable."
+  },
+  {
+    "question_no.": 69,
+    "Question": "How do you send an email using a Mailable?",
+    "Option1": "Mail::send(new MyMailable());",
+    "Option2": "Mail::to('user@example.com')->send(new MyMailable());",
+    "Option3": "Email::dispatch(new MyMailable());",
+    "Option4": "MyMailable::send('user@example.com');",
+    "Answer": "Mail::to('user@example.com')->send(new MyMailable());"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'File Storage' in Laravel?",
+    "Option1": "Storing data in the database.",
+    "Option2": "An abstraction layer for interacting with various file systems (local, S3, FTP).",
+    "Option3": "A feature for caching files.",
+    "Option4": "A tool for compressing files.",
+    "Answer": "An abstraction layer for interacting with various file systems (local, S3, FTP)."
+  },
+  {
+    "question_no.": 71,
+    "Question": "How do you store a file on the `public` disk?",
+    "Option1": "Storage::disk('public')->put('filename.txt', $content);",
+    "Option2": "File::put('filename.txt', $content);",
+    "Option3": "Storage::put('filename.txt', $content);",
+    "Option4": "Storage::save('filename.txt', $content, 'public');",
+    "Answer": "Storage::disk('public')->put('filename.txt', $content);"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of the `storage/app/public` directory?",
+    "Option1": "To store private application files.",
+    "Option2": "To store publicly accessible files that are symlinked to `public/storage`.",
+    "Option3": "To store database backups.",
+    "Option4": "To store vendor packages.",
+    "Answer": "To store publicly accessible files that are symlinked to `public/storage`."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which Artisan command creates the symbolic link for public storage?",
+    "Option1": "php artisan storage:link",
+    "Option2": "php artisan public:link",
+    "Option3": "php artisan link:storage",
+    "Option4": "php artisan symlink:storage",
+    "Answer": "php artisan storage:link"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Artisan Commands'?",
+    "Option1": "PHP functions for database interaction.",
+    "Option2": "Custom command-line interfaces (CLI) that extend Laravel's functionality.",
+    "Option3": "Built-in browser commands.",
+    "Option4": "JavaScript functions.",
+    "Answer": "Custom command-line interfaces (CLI) that extend Laravel's functionality."
+  },
+  {
+    "question_no.": 75,
+    "Question": "How do you generate a custom Artisan command?",
+    "Option1": "php artisan make:cli MyCommand",
+    "Option2": "php artisan make:command MyCommand",
+    "Option3": "php artisan make:artisan MyCommand",
+    "Option4": "php artisan make:console MyCommand",
+    "Answer": "php artisan make:command MyCommand"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'Task Scheduling' in Laravel?",
+    "Option1": "Scheduling tasks on the client-side using JavaScript.",
+    "Option2": "A robust and expressive way to define and schedule common shell commands or methods within your Laravel application.",
+    "Option3": "Scheduling database queries.",
+    "Option4": "Scheduling emails to be sent immediately.",
+    "Answer": "A robust and expressive way to define and schedule common shell commands or methods within your Laravel application."
+  },
+  {
+    "question_no.": 77,
+    "Question": "Where is task scheduling typically configured?",
+    "Option1": "config/app.php",
+    "Option2": "app/Console/Kernel.php",
+    "Option3": "routes/console.php",
+    "Option4": "app/Providers/AppServiceProvider.php",
+    "Answer": "app/Console/Kernel.php"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Laravel Valet'?",
+    "Option1": "A local development environment for Windows.",
+    "Option2": "A minimal, blazing-fast Laravel development environment for macOS.",
+    "Option3": "A cloud hosting service.",
+    "Option4": "A package for deploying Laravel applications.",
+    "Answer": "A minimal, blazing-fast Laravel development environment for macOS."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Laravel Sail'?",
+    "Option1": "A tool for creating static websites.",
+    "Option2": "A lightweight command-line interface for interacting with Laravel's default Docker development environment.",
+    "Option3": "A package for building mobile applications.",
+    "Option4": "A tool for optimizing database queries.",
+    "Answer": "A lightweight command-line interface for interacting with Laravel's default Docker development environment."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Laravel Homestead'?",
+    "Option1": "A lightweight local development server.",
+    "Option2": "A pre-packaged Vagrant box that provides a wonderful development environment without requiring you to install PHP, a web server, or any other server software on your local machine.",
+    "Option3": "A cloud-based IDE.",
+    "Option4": "A deployment tool.",
+    "Answer": "A pre-packaged Vagrant box that provides a wonderful development environment without requiring you to install PHP, a web server, or any other server software on your local machine."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which tool is Laravel Homestead built on?",
+    "Option1": "Docker",
+    "Option2": "Vagrant",
+    "Option3": "Kubernetes",
+    "Option4": "XAMPP",
+    "Answer": "Vagrant"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Validation' in Laravel?",
+    "Option1": "Encrypting user data.",
+    "Option2": "Ensuring that incoming data meets specific criteria before processing it.",
+    "Option3": "Authenticating users.",
+    "Option4": "Generating unique IDs.",
+    "Answer": "Ensuring that incoming data meets specific criteria before processing it."
+  },
+  {
+    "question_no.": 83,
+    "Question": "How do you validate a request in a controller?",
+    "Option1": "$request->validate([...]);",
+    "Option2": "Validator::make($request->all(), [...])->validate();",
+    "Option3": "Both A and B are valid ways to validate.",
+    "Option4": "Neither A nor B is valid.",
+    "Answer": "Both A and B are valid ways to validate."
+  },
+  {
+    "question_no.": 84,
+    "Question": "How do you retrieve validation error messages in Blade?",
+    "Option1": "{{ $errors->all() }}",
+    "Option2": "{{ $errors->first('field_name') }}",
+    "Option3": "Both A and B are valid.",
+    "Option4": "{{ Request::errors()->all() }}",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the 'Flash Session' in Laravel?",
+    "Option1": "A long-lived session for all users.",
+    "Option2": "Data that is stored in the session only for the next HTTP request.",
+    "Option3": "A session for real-time communication.",
+    "Option4": "A session that is encrypted.",
+    "Answer": "Data that is stored in the session only for the next HTTP request."
+  },
+  {
+    "question_no.": 86,
+    "Question": "How do you flash a message to the session?",
+    "Option1": "session()->put('message', 'Hello');",
+    "Option2": "session()->flash('message', 'Hello');",
+    "Option3": "session()->remember('message', 'Hello');",
+    "Option4": "session()->store('message', 'Hello');",
+    "Answer": "session()->flash('message', 'Hello');"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Carbon' in Laravel?",
+    "Option1": "A library for database backups.",
+    "Option2": "A PHP API extension for DateTime, providing a convenient way to work with dates and times.",
+    "Option3": "A package for handling CSV files.",
+    "Option4": "A CSS framework.",
+    "Answer": "A PHP API extension for DateTime, providing a convenient way to work with dates and times."
+  },
+  {
+    "question_no.": 88,
+    "Question": "How do you get the current date and time using Carbon?",
+    "Option1": "date('Y-m-d H:i:s');",
+    "Option2": "Carbon::now();",
+    "Option3": "new DateTime();",
+    "Option4": "time();",
+    "Answer": "Carbon::now();"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Authorization' in Laravel?",
+    "Option1": "Verifying user credentials during login.",
+    "Option2": "Determining if a user has permission to perform a given action.",
+    "Option3": "Encrypting user data.",
+    "Option4": "Managing user sessions.",
+    "Answer": "Determining if a user has permission to perform a given action."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is a 'Policy' in Laravel?",
+    "Option1": "A class for defining routing rules.",
+    "Option2": "A class that organizes authorization logic for a particular model or resource.",
+    "Option3": "A class for handling database transactions.",
+    "Option4": "A class for defining middleware.",
+    "Answer": "A class that organizes authorization logic for a particular model or resource."
+  },
+  {
+    "question_no.": 91,
+    "Question": "How do you generate a new policy class?",
+    "Option1": "php artisan make:rule",
+    "Option2": "php artisan make:policy",
+    "Option3": "php artisan make:permission",
+    "Option4": "php artisan make:guard",
+    "Answer": "php artisan make:policy"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Gates' in Laravel?",
+    "Option1": "A general way to define authorization logic using closures.",
+    "Option2": "A mechanism for controlling access to external APIs.",
+    "Option3": "A type of database constraint.",
+    "Option4": "A way to define global middleware.",
+    "Answer": "A general way to define authorization logic using closures."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Where are Gates typically defined?",
+    "Option1": "routes/web.php",
+    "Option2": "app/Providers/AuthServiceProvider.php",
+    "Option3": "config/auth.php",
+    "Option4": "app/Models",
+    "Answer": "app/Providers/AuthServiceProvider.php"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Events' in Laravel?",
+    "Option1": "Scheduled tasks.",
+    "Option2": "Simple observer implementation, allowing you to subscribe to and listen for various events that occur in your application.",
+    "Option3": "User interactions on the front-end.",
+    "Option4": "Database changes.",
+    "Answer": "Simple observer implementation, allowing you to subscribe to and listen for various events that occur in your application."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Factories' in Laravel?",
+    "Option1": "A tool for manufacturing physical products.",
+    "Option2": "Classes that generate realistic fake data for your Eloquent models, useful for testing and seeding databases.",
+    "Option3": "Design patterns for creating objects.",
+    "Option4": "Tools for optimizing database performance.",
+    "Answer": "Classes that generate realistic fake data for your Eloquent models, useful for testing and seeding databases."
+  },
+  {
+    "question_no.": 96,
+    "Question": "How do you generate a new factory?",
+    "Option1": "php artisan make:model ProductFactory",
+    "Option2": "php artisan make:factory ProductFactory",
+    "Option3": "php artisan make:seed ProductFactory",
+    "Option4": "php artisan make:test ProductFactory",
+    "Answer": "php artisan make:factory ProductFactory"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Seeding' in Laravel?",
+    "Option1": "Creating new database tables.",
+    "Option2": "Populating your database with dummy data, typically for development and testing purposes.",
+    "Option3": "Backing up your database.",
+    "Option4": "Optimizing database queries.",
+    "Answer": "Populating your database with dummy data, typically for development and testing purposes."
+  },
+  {
+    "question_no.": 98,
+    "Question": "How do you run database seeders?",
+    "Option1": "php artisan migrate",
+    "Option2": "php artisan db:seed",
+    "Option3": "php artisan make:seed",
+    "Option4": "php artisan seed:run",
+    "Answer": "php artisan db:seed"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Laravel Tinkerwell'?",
+    "Option1": "A web-based Tinker environment.",
+    "Option2": "An external application for running PHP code against your Laravel application outside of your browser or terminal.",
+    "Option3": "A tool for running database queries.",
+    "Option4": "A package for generating documentation.",
+    "Answer": "An external application for running PHP code against your Laravel application outside of your browser or terminal."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Laravel Telescope'?",
+    "Option1": "A package for monitoring server health.",
+    "Option2": "An elegant debug assistant for the Laravel framework, providing insights into requests, queries, queues, mail, and more.",
+    "Option3": "A tool for deploying applications.",
+    "Option4": "A package for real-time analytics.",
+    "Answer": "An elegant debug assistant for the Laravel framework, providing insights into requests, queries, queues, mail, and more."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Laravel Debugbar'?",
+    "Option1": "A built-in feature of Laravel.",
+    "Option2": "A third-party package that adds a debug bar to your application, displaying various debugging information.",
+    "Option3": "A command-line debugging tool.",
+    "Option4": "A browser extension for debugging.",
+    "Answer": "A third-party package that adds a debug bar to your application, displaying various debugging information."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Scout' in Laravel?",
+    "Option1": "A package for generating reports.",
+    "Option2": "A simple solution for adding full-text search to your Eloquent models.",
+    "Option3": "A tool for optimizing images.",
+    "Option4": "A package for managing user permissions.",
+    "Answer": "A simple solution for adding full-text search to your Eloquent models."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which search engine does Laravel Scout integrate with by default?",
+    "Option1": "Elasticsearch",
+    "Option2": "Algolia",
+    "Option3": "Solr",
+    "Option4": "Lucene",
+    "Answer": "Algolia"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Cashier' in Laravel?",
+    "Option1": "A package for managing inventory.",
+    "Option2": "A package that provides an expressive, fluent interface for Stripe's and Paddle's subscription billing services.",
+    "Option3": "A package for handling cash payments.",
+    "Option4": "A package for generating invoices.",
+    "Answer": "A package that provides an expressive, fluent interface for Stripe's and Paddle's subscription billing services."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Socialite' in Laravel?",
+    "Option1": "A package for social media sharing.",
+    "Option2": "A package that provides an expressive, fluent interface to OAuth authentication with various social providers.",
+    "Option3": "A package for building social networks.",
+    "Option4": "A package for managing user profiles.",
+    "Answer": "A package that provides an expressive, fluent interface to OAuth authentication with various social providers."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Horizon' in Laravel?",
+    "Option1": "A monitoring system for servers.",
+    "Option2": "A dashboard for managing Redis queues, providing real-time metrics and configuration options.",
+    "Option3": "A package for building real-time dashboards.",
+    "Option4": "A package for logging HTTP requests.",
+    "Answer": "A dashboard for managing Redis queues, providing real-time metrics and configuration options."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Dusk' in Laravel?",
+    "Option1": "A unit testing framework.",
+    "Option2": "An elegant browser automation and testing API, providing an easy way to test your JavaScript-driven applications.",
+    "Option3": "A performance monitoring tool.",
+    "Option4": "A tool for static code analysis.",
+    "Answer": "An elegant browser automation and testing API, providing an easy way to test your JavaScript-driven applications."
+  },
+  {
+    "question_no.": 108,
+    "Question": "Which browser automation tool does Dusk use internally?",
+    "Option1": "Selenium",
+    "Option2": "Puppeteer",
+    "Option3": "WebDriver",
+    "Option4": "Cypress",
+    "Answer": "WebDriver"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Envoy' in Laravel?",
+    "Option1": "A tool for managing environment variables.",
+    "Option2": "A tool for running common tasks on your remote servers with minimal setup.",
+    "Option3": "A package for deploying Docker containers.",
+    "Option4": "A package for managing database migrations.",
+    "Answer": "A tool for running common tasks on your remote servers with minimal setup."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Forge' for Laravel?",
+    "Option1": "A local development environment.",
+    "Option2": "A server provisioning and deployment service that allows you to easily deploy and manage your Laravel applications on various cloud providers.",
+    "Option3": "A build tool.",
+    "Option4": "A package for generating fake data.",
+    "Answer": "A server provisioning and deployment service that allows you to easily deploy and manage your Laravel applications on various cloud providers."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Vapor' for Laravel?",
+    "Option1": "A traditional server hosting service.",
+    "Option2": "A serverless deployment platform for Laravel, powered by AWS Lambda.",
+    "Option3": "A desktop application for managing Laravel projects.",
+    "Option4": "A package for optimizing application performance.",
+    "Answer": "A serverless deployment platform for Laravel, powered by AWS Lambda."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the purpose of the `routes/console.php` file?",
+    "Option1": "To define HTTP routes.",
+    "Option2": "To define closures-based Artisan commands.",
+    "Option3": "To define API routes.",
+    "Option4": "To define broadcasting channels.",
+    "Answer": "To define closures-based Artisan commands."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the primary role of the `Kernel.php` file in `app/Http/`?",
+    "Option1": "To define application routes.",
+    "Option2": "To register global HTTP middleware and define route middleware groups.",
+    "Option3": "To configure database connections.",
+    "Option4": "To register service providers.",
+    "Answer": "To register global HTTP middleware and define route middleware groups."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the role of `AppServiceProvider.php`?",
+    "Option1": "To define authentication guards.",
+    "Option2": "The main service provider where you register most of your application's service container bindings, event listeners, and route middleware.",
+    "Option3": "To define the application's environment variables.",
+    "Option4": "To manage database migrations.",
+    "Answer": "The main service provider where you register most of your application's service container bindings, event listeners, and route middleware."
+  },
+  {
+    "question_no.": 115,
+    "Question": "How do you access configuration values in Laravel?",
+    "Option1": "env('APP_NAME')",
+    "Option2": "config('app.name')",
+    "Option3": "Config::get('app.name')",
+    "Option4": "Both B and C are valid.",
+    "Answer": "Both B and C are valid."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Which Artisan command clears the configuration cache?",
+    "Option1": "php artisan cache:clear",
+    "Option2": "php artisan config:clear",
+    "Option3": "php artisan route:clear",
+    "Option4": "php artisan view:clear",
+    "Answer": "php artisan config:clear"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Laravel Octane'?",
+    "Option1": "A package for optimizing database queries.",
+    "Option2": "A package that supercharges your Laravel application's performance by serving your application using high-performance application servers like Swoole or RoadRunner.",
+    "Option3": "A tool for code generation.",
+    "Option4": "A package for real-time applications.",
+    "Answer": "A package that supercharges your Laravel application's performance by serving your application using high-performance application servers like Swoole or RoadRunner."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Which web server technologies does Laravel Octane leverage?",
+    "Option1": "Apache and Nginx",
+    "Option2": "Swoole and RoadRunner",
+    "Option3": "Node.js and Deno",
+    "Option4": "IIS and Lighttpd",
+    "Answer": "Swoole and RoadRunner"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the purpose of 'Laravel WebSockets'?",
+    "Option1": "To manage traditional HTTP requests.",
+    "Option2": "A free, Pusher-compatible WebSocket server for Laravel applications, enabling real-time features without a third-party service.",
+    "Option3": "To optimize database connections.",
+    "Option4": "To build REST APIs.",
+    "Answer": "A free, Pusher-compatible WebSocket server for Laravel applications, enabling real-time features without a third-party service."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Laravel Backpack'?",
+    "Option1": "A front-end dashboard library.",
+    "Option2": "A collection of packages that help you build a custom admin panel for your Laravel application much faster.",
+    "Option3": "A tool for generating API documentation.",
+    "Option4": "A package for managing user roles.",
+    "Answer": "A collection of packages that help you build a custom admin panel for your Laravel application much faster."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Laravel Livewire'?",
+    "Option1": "A JavaScript framework for building single-page applications.",
+    "Option2": "A full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of PHP.",
+    "Option3": "A package for real-time notifications.",
+    "Option4": "A tool for server-side rendering.",
+    "Answer": "A full-stack framework for Laravel that makes building dynamic interfaces simple, without leaving the comfort of PHP."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the main advantage of Livewire?",
+    "Option1": "It completely removes the need for JavaScript.",
+    "Option2": "It allows developers to build dynamic UI with PHP, reducing the amount of JavaScript needed.",
+    "Option3": "It improves database performance.",
+    "Option4": "It simplifies API development.",
+    "Answer": "It allows developers to build dynamic UI with PHP, reducing the amount of JavaScript needed."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Laravel Filament'?",
+    "Option1": "A testing framework.",
+    "Option2": "A collection of tools for rapidly building TALL stack (Tailwind, Alpine.js, Livewire, Laravel) applications, including admin panels, form builders, and table builders.",
+    "Option3": "A package for managing dependencies.",
+    "Option4": "A static site generator.",
+    "Answer": "A collection of tools for rapidly building TALL stack (Tailwind, Alpine.js, Livewire, Laravel) applications, including admin panels, form builders, and table builders."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Laravel Backpack' often used for?",
+    "Option1": "Building public-facing websites.",
+    "Option2": "Building administration interfaces/CMS.",
+    "Option3": "Developing mobile applications.",
+    "Option4": "Creating APIs.",
+    "Answer": "Building administration interfaces/CMS."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Laravel Sanctum' commonly used for in single-page applications (SPAs)?",
+    "Option1": "OAuth2 authentication flows.",
+    "Option2": "Cookie-based session authentication with CSRF protection.",
+    "Option3": "JWT-based authentication for third-party APIs.",
+    "Option4": "Social logins.",
+    "Answer": "Cookie-based session authentication with CSRF protection."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the purpose of 'Request Lifecyle' in Laravel?",
+    "Option1": "To define the sequence of events during application deployment.",
+    "Option2": "To describe the flow of how an HTTP request is handled from the moment it enters the application until a response is sent back.",
+    "Option3": "To manage the lifecycle of database connections.",
+    "Option4": "To define the execution order of Artisan commands.",
+    "Answer": "To describe the flow of how an HTTP request is handled from the moment it enters the application until a response is sent back."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Bootstrap' in the context of Laravel's Request Lifecyle?",
+    "Option1": "The process of starting the local development server.",
+    "Option2": "The initial setup process where the application loads configuration, registers service providers, and prepares to handle the request.",
+    "Option3": "The process of compiling front-end assets.",
+    "Option4": "The process of creating a new Laravel project.",
+    "Answer": "The initial setup process where the application loads configuration, registers service providers, and prepares to handle the request."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the primary role of the `public/index.php` file in the Laravel Request Lifecyle?",
+    "Option1": "It serves as the entry point for all incoming HTTP requests.",
+    "Option2": "It defines all application routes.",
+    "Option3": "It handles database migrations.",
+    "Option4": "It configures environment variables.",
+    "Answer": "It serves as the entry point for all incoming HTTP requests."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which component is responsible for mapping incoming requests to specific controller actions or closures?",
+    "Option1": "Middleware",
+    "Option2": "Service Container",
+    "Option3": "Router",
+    "Option4": "Eloquent ORM",
+    "Answer": "Router"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Route Model Binding' in Laravel?",
+    "Option1": "Binding routes to specific URLs.",
+    "Option2": "A convenient way to automatically inject Eloquent model instances into your route or controller actions based on route parameters.",
+    "Option3": "Binding routes to database tables.",
+    "Option4": "Binding routes to middleware.",
+    "Answer": "A convenient way to automatically inject Eloquent model instances into your route or controller actions based on route parameters."
+  },
+  {
+    "question_no.": 131,
+    "Question": "How do you define explicit route model binding?",
+    "Option1": "Route::bind('user', function ($value) { return User::where('name', $value)->firstOrFail(); });",
+    "Option2": "Route::get('/users/{user:name}', ...)",
+    "Option3": "Route::model('user', User::class);",
+    "Option4": "All of the above are forms of route model binding.",
+    "Answer": "All of the above are forms of route model binding."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Resource Controllers' in Laravel?",
+    "Option1": "Controllers that manage static resources like images.",
+    "Option2": "Controllers that group common CRUD (Create, Read, Update, Delete) routes for a given resource into a single controller.",
+    "Option3": "Controllers for handling API requests only.",
+    "Option4": "Controllers that interact with external APIs.",
+    "Answer": "Controllers that group common CRUD (Create, Read, Update, Delete) routes for a given resource into a single controller."
+  },
+  {
+    "question_no.": 133,
+    "Question": "How do you generate a resource controller?",
+    "Option1": "php artisan make:controller PostController",
+    "Option2": "php artisan make:controller PostController --resource",
+    "Option3": "php artisan make:controller PostController --api",
+    "Option4": "php artisan make:resource PostController",
+    "Answer": "php artisan make:controller PostController --resource"
+  },
+  {
+    "question_no.": 134,
+    "Question": "How do you define a resource route for a controller?",
+    "Option1": "Route::controller('posts', PostController::class);",
+    "Option2": "Route::get('posts', PostController::class);",
+    "Option3": "Route::resource('posts', PostController::class);",
+    "Option4": "Route::api('posts', PostController::class);",
+    "Answer": "Route::resource('posts', PostController::class);"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'API Resources' in Laravel?",
+    "Option1": "Pre-defined API endpoints.",
+    "Option2": "Classes that transform your Eloquent models and collections into JSON responses for your APIs, allowing for flexible data formatting.",
+    "Option3": "Resources for building APIs.",
+    "Option4": "Files that store API keys.",
+    "Answer": "Classes that transform your Eloquent models and collections into JSON responses for your APIs, allowing for flexible data formatting."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you generate an API resource class?",
+    "Option1": "php artisan make:model PostResource",
+    "Option2": "php artisan make:resource PostResource",
+    "Option3": "php artisan make:apiresource PostResource",
+    "Option4": "php artisan make:json PostResource",
+    "Answer": "php artisan make:resource PostResource"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Eager Loading' in Eloquent?",
+    "Option1": "Loading all data from the database at once.",
+    "Option2": "Loading a model's relationships when the parent model is retrieved, preventing the 'N+1 query problem'.",
+    "Option3": "Loading data on demand.",
+    "Option4": "Loading data directly from a cache.",
+    "Answer": "Loading a model's relationships when the parent model is retrieved, preventing the 'N+1 query problem'."
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you eager load the `comments` relationship for a `Post` model?",
+    "Option1": "Post::find(1)->comments()->get();",
+    "Option2": "Post::with('comments')->find(1);",
+    "Option3": "Post::load('comments')->find(1);",
+    "Option4": "Post::select('comments')->find(1);",
+    "Answer": "Post::with('comments')->find(1);"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Lazy Loading' in Eloquent?",
+    "Option1": "Loading relationships along with the parent model.",
+    "Option2": "Loading relationships only when they are explicitly accessed, which can lead to the 'N+1 query problem'.",
+    "Option3": "Loading data from the cache.",
+    "Option4": "Loading data in the background.",
+    "Answer": "Loading relationships only when they are explicitly accessed, which can lead to the 'N+1 query problem'."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the 'N+1 query problem' in Eloquent?",
+    "Option1": "A problem where N additional queries are executed for every 1 main query, typically due to lazy loading relationships.",
+    "Option2": "A problem with N joins in a single query.",
+    "Option3": "A problem with N database connections.",
+    "Option4": "A problem with N concurrent requests.",
+    "Answer": "A problem where N additional queries are executed for every 1 main query, typically due to lazy loading relationships."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Polymorphic Relationships' in Eloquent?",
+    "Option1": "Relationships where a model can belong to multiple other models on a single association.",
+    "Option2": "Relationships between models of the same type.",
+    "Option3": "Relationships with multiple foreign keys.",
+    "Option4": "Relationships that only work with polymorphic types.",
+    "Answer": "Relationships where a model can belong to multiple other models on a single association."
+  },
+  {
+    "question_no.": 142,
+    "Question": "Which method is used to define a polymorphic one-to-many relationship (e.g., `Image` belongs to `User` or `Post`)?",
+    "Option1": "morphTo()",
+    "Option2": "morphMany()",
+    "Option3": "morphOne()",
+    "Option4": "morphedByMany()",
+    "Answer": "morphTo()"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Query Scopes' in Eloquent?",
+    "Option1": "Defining database indexes.",
+    "Option2": "Reusable constraints that you can easily apply to your Eloquent queries, promoting cleaner and more readable code.",
+    "Option3": "A way to define global queries.",
+    "Option4": "A method for caching query results.",
+    "Answer": "Reusable constraints that you can easily apply to your Eloquent queries, promoting cleaner and more readable code."
+  },
+  {
+    "question_no.": 144,
+    "Question": "How do you define a global scope in an Eloquent model?",
+    "Option1": "Using a trait.",
+    "Option2": "By overriding the `boot` method in the model and adding observers.",
+    "Option3": "By creating a dedicated scope class and applying it.",
+    "Option4": "All of the above are ways to implement query scopes, but global scopes are often implemented directly in the model or via dedicated classes.",
+    "Answer": "All of the above are ways to implement query scopes, but global scopes are often implemented directly in the model or via dedicated classes."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Accessor' in Eloquent?",
+    "Option1": "A method that sets a value for an attribute.",
+    "Option2": "A custom getter method that transforms an Eloquent attribute when it is retrieved from the model.",
+    "Option3": "A method that stores values in the database.",
+    "Option4": "A method for accessing related models.",
+    "Answer": "A custom getter method that transforms an Eloquent attribute when it is retrieved from the model."
+  },
+  {
+    "question_no.": 146,
+    "Question": "How do you define an accessor for the `first_name` attribute?",
+    "Option1": "public function setFirstNameAttribute($value) {}",
+    "Option2": "public function getFirstNameAttribute($value) {}",
+    "Option3": "public function firstName() {}",
+    "Option4": "public function getFirstName() {}",
+    "Answer": "public function getFirstNameAttribute($value) {}"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Mutator' in Eloquent?",
+    "Option1": "A custom getter method.",
+    "Option2": "A custom setter method that transforms an Eloquent attribute when it is set on the model.",
+    "Option3": "A method for retrieving related models.",
+    "Option4": "A method that creates new attributes.",
+    "Answer": "A custom setter method that transforms an Eloquent attribute when it is set on the model."
+  },
+  {
+    "question_no.": 148,
+    "Question": "How do you define a mutator for the `password` attribute (e.g., to hash it)?",
+    "Option1": "public function getPasswordAttribute($value) {}",
+    "Option2": "public function setPasswordAttribute($value) {}",
+    "Option3": "public function hashPassword($value) {}",
+    "Option4": "public function password() {}",
+    "Answer": "public function setPasswordAttribute($value) {}"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What are 'Casts' in Eloquent?",
+    "Option1": "Defining data types for database columns.",
+    "Option2": "A way to convert attributes to common data types (e.g., `array`, `json`, `datetime`) automatically when retrieved or set on a model.",
+    "Option3": "Converting models to other formats.",
+    "Option4": "Creating new database columns.",
+    "Answer": "A way to convert attributes to common data types (e.g., `array`, `json`, `datetime`) automatically when retrieved or set on a model."
+  },
+  {
+    "question_no.": 150,
+    "Question": "How do you cast an attribute named `options` to an array?",
+    "Option1": "protected $casts = ['options' => 'string'];",
+    "Option2": "protected $casts = ['options' => 'array'];",
+    "Option3": "protected $casts = ['options' => 'json'];",
+    "Option4": "protected $casts = ['options' => 'object'];",
+    "Answer": "protected $casts = ['options' => 'array'];"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Laravel Spark'?",
+    "Option1": "A package for generating APIs.",
+    "Option2": "A SaaS (Software as a Service) scaffolding for Laravel, providing out-of-the-box billing, teams, and authentication features.",
+    "Option3": "A tool for code analysis.",
+    "Option4": "A package for building real-time applications.",
+    "Answer": "A SaaS (Software as a Service) scaffolding for Laravel, providing out-of-the-box billing, teams, and authentication features."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Laravel Jetstream'?",
+    "Option1": "A new templating engine.",
+    "Option2": "A beautifully designed application scaffolding for Laravel, offering login, registration, email verification, two-factor authentication, session management, API support, and optional team management.",
+    "Option3": "A package for static site generation.",
+    "Option4": "A tool for optimizing application performance.",
+    "Answer": "A beautifully designed application scaffolding for Laravel, offering login, registration, email verification, two-factor authentication, session management, API support, and optional team management."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which frontend stacks does Jetstream officially support?",
+    "Option1": "Vue.js and React",
+    "Option2": "Inertia.js with Vue/React and Livewire",
+    "Option3": "Angular and Svelte",
+    "Option4": "jQuery and vanilla JavaScript",
+    "Answer": "Inertia.js with Vue/React and Livewire"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Inertia.js' in the context of Laravel?",
+    "Option1": "A client-side routing library.",
+    "Option2": "A library that allows you to build single-page Vue, React, & Svelte applications using classic server-side routing and controllers.",
+    "Option3": "A database ORM.",
+    "Option4": "A testing utility.",
+    "Answer": "A library that allows you to build single-page Vue, React, & Svelte applications using classic server-side routing and controllers."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Session' in Laravel?",
+    "Option1": "A long-term storage mechanism for user data.",
+    "Option2": "A way to store small amounts of user-specific data across multiple HTTP requests.",
+    "Option3": "A real-time communication channel.",
+    "Option4": "A database connection.",
+    "Answer": "A way to store small amounts of user-specific data across multiple HTTP requests."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the default session driver in Laravel?",
+    "Option1": "database",
+    "Option2": "redis",
+    "Option3": "file",
+    "Option4": "cookie",
+    "Answer": "file"
+  },
+  {
+    "question_no.": 157,
+    "Question": "How do you retrieve a value from the session?",
+    "Option1": "Session::get('key');",
+    "Option2": "session('key');",
+    "Option3": "request()->session()->get('key');",
+    "Option4": "All of the above are valid ways.",
+    "Answer": "All of the above are valid ways."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Authentication Scaffolding' in Laravel?",
+    "Option1": "Pre-built UI for user authentication.",
+    "Option2": "Pre-packaged views, routes, and controllers for user registration, login, password reset, and email verification.",
+    "Option3": "A tool for encrypting passwords.",
+    "Option4": "A method for authenticating API requests.",
+    "Answer": "Pre-packaged views, routes, and controllers for user registration, login, password reset, and email verification."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which command traditionally generated authentication scaffolding (before Jetstream)?",
+    "Option1": "php artisan make:auth",
+    "Option2": "php artisan ui:auth",
+    "Option3": "php artisan auth:generate",
+    "Option4": "php artisan install:auth",
+    "Answer": "php artisan ui:auth"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Testing' in Laravel?",
+    "Option1": "Manually checking the application's functionality.",
+    "Option2": "Writing automated tests (unit, feature, browser) to ensure the application behaves as expected and to prevent regressions.",
+    "Option3": "Deploying the application to a staging environment.",
+    "Option4": "Profiling application performance.",
+    "Answer": "Writing automated tests (unit, feature, browser) to ensure the application behaves as expected and to prevent regressions."
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which testing framework does Laravel use by default?",
+    "Option1": "Junit",
+    "Option2": "PHPUnit",
+    "Option3": "Mocha",
+    "Option4": "Jest",
+    "Answer": "PHPUnit"
+  },
+  {
+    "question_no.": 162,
+    "Question": "How do you run all tests in a Laravel project?",
+    "Option1": "php artisan test",
+    "Option2": "phpunit",
+    "Option3": "Both A and B are valid.",
+    "Option4": "php artisan run-tests",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 163,
+    "Question": "How do you generate a new feature test?",
+    "Option1": "php artisan make:unit-test MyTest",
+    "Option2": "php artisan make:feature-test MyTest",
+    "Option3": "php artisan make:test MyTest",
+    "Option4": "php artisan make:browser-test MyTest",
+    "Answer": "php artisan make:test MyTest"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Database Transactions' in Laravel?",
+    "Option1": "Recording database changes in a log file.",
+    "Option2": "A sequence of operations performed as a single logical unit of work; either all operations succeed, or none of them do (atomicity).",
+    "Option3": "A way to transfer data between databases.",
+    "Option4": "A mechanism for backing up databases.",
+    "Answer": "A sequence of operations performed as a single logical unit of work; either all operations succeed, or none of them do (atomicity)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "How do you start a database transaction in Laravel?",
+    "Option1": "DB::begin();",
+    "Option2": "DB::beginTransaction();",
+    "Option3": "DB::startTransaction();",
+    "Option4": "DB::transact();",
+    "Answer": "DB::beginTransaction();"
+  },
+  {
+    "question_no.": 166,
+    "Question": "How do you commit a database transaction?",
+    "Option1": "DB::commit();",
+    "Option2": "DB::save();",
+    "Option3": "DB::endTransaction();",
+    "Option4": "DB::complete();",
+    "Answer": "DB::commit();"
+  },
+  {
+    "question_no.": 167,
+    "Question": "How do you rollback a database transaction?",
+    "Option1": "DB::revert();",
+    "Option2": "DB::undo();",
+    "Option3": "DB::rollback();",
+    "Option4": "DB::cancelTransaction();",
+    "Answer": "DB::rollback();"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Middleware Parameters'?",
+    "Option1": "Middleware that accepts no parameters.",
+    "Option2": "Allowing middleware to accept additional arguments when defined in routes.",
+    "Option3": "Parameters for HTTP requests.",
+    "Option4": "Parameters for database queries.",
+    "Answer": "Allowing middleware to accept additional arguments when defined in routes."
+  },
+  {
+    "question_no.": 169,
+    "Question": "How do you pass a parameter to a middleware in routes?",
+    "Option1": "->middleware('role:admin')",
+    "Option2": "->middleware('role', 'admin')",
+    "Option3": "->middleware(['role' => 'admin'])",
+    "Option4": "->middleware('role=admin')",
+    "Answer": "->middleware('role:admin')"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Service Discovery' in Laravel?",
+    "Option1": "Finding external services.",
+    "Option2": "The process by which service providers are automatically registered by Laravel's core framework.",
+    "Option3": "Discovering new features in Laravel.",
+    "Option4": "Discovering database schemas.",
+    "Answer": "The process by which service providers are automatically registered by Laravel's core framework."
+  },
+  {
+    "question_no.": 171,
+    "Question": "Which file specifies service providers for auto-discovery?",
+    "Option1": "config/app.php",
+    "Option2": "composer.json",
+    "Option3": "vendor/composer/installed.json",
+    "Option4": ".env",
+    "Answer": "composer.json"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Blade Stacks'?",
+    "Option1": "A way to define CSS classes.",
+    "Option2": "A feature that allows you to push content to a named stack, which can then be rendered in a parent Blade layout.",
+    "Option3": "A data structure for Blade templates.",
+    "Option4": "A way to create multiple Blade layouts.",
+    "Answer": "A feature that allows you to push content to a named stack, which can then be rendered in a parent Blade layout."
+  },
+  {
+    "question_no.": 173,
+    "Question": "How do you push content to a Blade stack?",
+    "Option1": "@stack('scripts') ... @endstack",
+    "Option2": "@push('scripts') ... @endpush",
+    "Option3": "@section('scripts') ... @endsection",
+    "Option4": "@yield('scripts') ...",
+    "Answer": "@push('scripts') ... @endpush"
+  },
+  {
+    "question_no.": 174,
+    "Question": "How do you display content from a Blade stack?",
+    "Option1": "@stack('scripts')",
+    "Option2": "@yield('scripts')",
+    "Option3": "@section('scripts')",
+    "Option4": "@display('scripts')",
+    "Answer": "@stack('scripts')"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Laravel Spark' (revisited for clarity)?",
+    "Option1": "A frontend framework.",
+    "Option2": "A Laravel package that streamlines the development of SaaS applications by providing ready-to-use billing, team management, and authentication features.",
+    "Option3": "A database ORM.",
+    "Option4": "A mobile app development tool.",
+    "Answer": "A Laravel package that streamlines the development of SaaS applications by providing ready-to-use billing, team management, and authentication features."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the role of `webpack.mix.js` in Laravel?",
+    "Option1": "To configure database connections.",
+    "Option2": "To define how front-end assets (JavaScript, CSS) are compiled and processed using Laravel Mix and Webpack.",
+    "Option3": "To define routing rules.",
+    "Option4": "To manage server configurations.",
+    "Answer": "To define how front-end assets (JavaScript, CSS) are compiled and processed using Laravel Mix and Webpack."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Rate Limiting' in Laravel?",
+    "Option1": "Limiting the speed of database queries.",
+    "Option2": "Controlling the number of requests a user or IP address can make to your application within a given timeframe.",
+    "Option3": "Limiting the size of uploaded files.",
+    "Option4": "Limiting the number of concurrent users.",
+    "Answer": "Controlling the number of requests a user or IP address can make to your application within a given timeframe."
+  },
+  {
+    "question_no.": 178,
+    "Question": "How do you apply rate limiting to a route group?",
+    "Option1": "Route::group(['limit' => '10,1'], ...)",
+    "Option2": "Route::group(['middleware' => ['throttle:10,1']], ...)",
+    "Option3": "Route::group(['rate' => '10'], ...)",
+    "Option4": "Route::group(['restrict' => 10], ...)",
+    "Answer": "Route::group(['middleware' => ['throttle:10,1']], ...)"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Broadcasting' in Laravel?",
+    "Option1": "Sending mass emails.",
+    "Option2": "A system for real-time communication, allowing your server-side Laravel application to send events to client-side JavaScript applications.",
+    "Option3": "Broadcasting audio/video streams.",
+    "Option4": "Broadcasting server logs.",
+    "Answer": "A system for real-time communication, allowing your server-side Laravel application to send events to client-side JavaScript applications."
+  },
+  {
+    "question_no.": 180,
+    "Question": "Which drivers are commonly used for broadcasting in Laravel?",
+    "Option1": "File, Database",
+    "Option2": "Pusher, Redis, Ably",
+    "Option3": "SMS, Email",
+    "Option4": "HTTP, FTP",
+    "Answer": "Pusher, Redis, Ably"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Artisan Serve'?",
+    "Option1": "A command to deploy the application.",
+    "Option2": "A command that starts a lightweight PHP development server to serve your Laravel application locally.",
+    "Option3": "A command to clear the cache.",
+    "Option4": "A command to run tests.",
+    "Answer": "A command that starts a lightweight PHP development server to serve your Laravel application locally."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the default port for `php artisan serve`?",
+    "Option1": "3000",
+    "Option2": "8000",
+    "Option3": "5000",
+    "Option4": "4200",
+    "Answer": "8000"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Form Method Spoofing' in Laravel?",
+    "Option1": "A security vulnerability.",
+    "Option2": "Using a hidden `_method` input field to specify PUT, PATCH, or DELETE requests since HTML forms only support GET and POST.",
+    "Option3": "A way to hide form data.",
+    "Option4": "A method for encrypting form submissions.",
+    "Answer": "Using a hidden `_method` input field to specify PUT, PATCH, or DELETE requests since HTML forms only support GET and POST."
+  },
+  {
+    "question_no.": 184,
+    "Question": "How do you spoof a PUT request in a Blade form?",
+    "Option1": "<input type=\"hidden\" name=\"_method\" value=\"PUT\">",
+    "Option2": "@method('PUT')",
+    "Option3": "Both A and B are valid.",
+    "Option4": "<form method=\"PUT\">",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Route Group' in Laravel?",
+    "Option1": "A single route that handles multiple HTTP methods.",
+    "Option2": "A way to group multiple routes together and apply common attributes like middleware, prefixes, or namespaces to them.",
+    "Option3": "A group of independent routes.",
+    "Option4": "A method for organizing view files.",
+    "Answer": "A way to group multiple routes together and apply common attributes like middleware, prefixes, or namespaces to them."
+  },
+  {
+    "question_no.": 186,
+    "Question": "How do you define a route group with a prefix?",
+    "Option1": "Route::prefix('admin')->group(function () { ... });",
+    "Option2": "Route::group(['prefix' => 'admin'], function () { ... });",
+    "Option3": "Both A and B are valid.",
+    "Option4": "Route::setPrefix('admin')->group(function () { ... });",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Route Fallback' in Laravel?",
+    "Option1": "A route that handles specific errors.",
+    "Option2": "A route that is executed if no other routes match the incoming request, often used for 404 pages or single-page application routing.",
+    "Option3": "A route that redirects to the homepage.",
+    "Option4": "A route for debugging purposes.",
+    "Answer": "A route that is executed if no other routes match the incoming request, often used for 404 pages or single-page application routing."
+  },
+  {
+    "question_no.": 188,
+    "Question": "How do you define a fallback route?",
+    "Option1": "Route::any('{any}', ...)->name('fallback');",
+    "Option2": "Route::fallback(function () { ... });",
+    "Option3": "Route::otherwise(function () { ... });",
+    "Option4": "Route::notFound(function () { ... });",
+    "Answer": "Route::fallback(function () { ... });"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Route Caching' in Laravel?",
+    "Option1": "Caching route parameters.",
+    "Option2": "Optimizing route registration by compiling all routes into a single cached file, speeding up application bootstrapping for large applications.",
+    "Option3": "Caching the output of routes.",
+    "Option4": "Caching middleware definitions.",
+    "Answer": "Optimizing route registration by compiling all routes into a single cached file, speeding up application bootstrapping for large applications."
+  },
+  {
+    "question_no.": 190,
+    "Question": "Which Artisan command enables route caching?",
+    "Option1": "php artisan route:clear",
+    "Option2": "php artisan route:cache",
+    "Option3": "php artisan config:cache",
+    "Option4": "php artisan view:cache",
+    "Answer": "php artisan route:cache"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'View Composers' in Laravel?",
+    "Option1": "A way to compose CSS styles.",
+    "Option2": "A feature that allows you to inject data into views when they are rendered, useful for data that needs to be available across multiple views.",
+    "Option3": "A tool for creating new Blade directives.",
+    "Option4": "A package for managing JavaScript components.",
+    "Answer": "A feature that allows you to inject data into views when they are rendered, useful for data that needs to be available across multiple views."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Where are view composers typically registered?",
+    "Option1": "routes/web.php",
+    "Option2": "app/Providers/AppServiceProvider.php",
+    "Option3": "config/view.php",
+    "Option4": "resources/views",
+    "Answer": "app/Providers/AppServiceProvider.php"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Laravel Horizon' (another angle)?",
+    "Option1": "A server for real-time events.",
+    "Option2": "An open-source package that provides a beautiful dashboard and code-driven configuration for your Redis queues, including monitoring, metrics, and failed job management.",
+    "Option3": "A database management tool.",
+    "Option4": "A tool for generating API documentation.",
+    "Answer": "An open-source package that provides a beautiful dashboard and code-driven configuration for your Redis queues, including monitoring, metrics, and failed job management."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Laravel Scout' (another angle)?",
+    "Option1": "A package for caching results.",
+    "Option2": "Laravel's official package for adding full-text search capabilities to your Eloquent models, allowing you to quickly search your data.",
+    "Option3": "A tool for image processing.",
+    "Option4": "A package for handling user permissions.",
+    "Answer": "Laravel's official package for adding full-text search capabilities to your Eloquent models, allowing you to quickly search your data."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Laravel Cashier' (another angle)?",
+    "Option1": "A package for managing product inventory.",
+    "Option2": "Laravel's official package for subscription billing with Stripe and Paddle, simplifying common billing tasks like managing subscriptions, coupons, and invoices.",
+    "Option3": "A payment gateway integration.",
+    "Option4": "A tool for accounting.",
+    "Answer": "Laravel's official package for subscription billing with Stripe and Paddle, simplifying common billing tasks like managing subscriptions, coupons, and invoices."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Laravel Socialite' (another angle)?",
+    "Option1": "A package for creating social media posts.",
+    "Option2": "Laravel's official package for simplifying OAuth authentication with social providers like Facebook, Twitter, Google, GitHub, and more.",
+    "Option3": "A tool for user profile management.",
+    "Option4": "A package for building chat applications.",
+    "Answer": "Laravel's official package for simplifying OAuth authentication with social providers like Facebook, Twitter, Google, GitHub, and more."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Laravel Horizon' (final angle)?",
+    "Option1": "A server deployment tool.",
+    "Option2": "A first-party package providing a web-based dashboard for real-time monitoring of your application's Redis queues, including job throughput, failed jobs, and more.",
+    "Option3": "A package for generating reports.",
+    "Option4": "A tool for analyzing application logs.",
+    "Answer": "A first-party package providing a web-based dashboard for real-time monitoring of your application's Redis queues, including job throughput, failed jobs, and more."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Laravel Dusk' (final angle)?",
+    "Option1": "A tool for unit testing.",
+    "Option2": "Laravel's official package for browser testing, allowing you to simulate user interactions with your application using an actual browser.",
+    "Option3": "A performance testing tool.",
+    "Option4": "A package for API testing.",
+    "Answer": "Laravel's official package for browser testing, allowing you to simulate user interactions with your application using an actual browser."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Laravel Envoy' (final angle)?",
+    "Option1": "A tool for managing environment variables.",
+    "Option2": "A tool for running common tasks on your remote servers using simple Blade-style syntax, making deployment and server management easier.",
+    "Option3": "A package for managing cloud resources.",
+    "Option4": "A tool for command-line interface development.",
+    "Answer": "A tool for running common tasks on your remote servers using simple Blade-style syntax, making deployment and server management easier."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Laravel Forge' (final angle)?",
+    "Option1": "A local development environment.",
+    "Option2": "A service that provisions and deploys Laravel applications on various cloud providers (AWS, DigitalOcean, Linode, etc.), handling server setup and Nginx configuration.",
+    "Option3": "A tool for building APIs.",
+    "Option4": "A package for managing virtual machines.",
+    "Answer": "A service that provisions and deploys Laravel applications on various cloud providers (AWS, DigitalOcean, Linode, etc.), handling server setup and Nginx configuration."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Laravel Vapor' (final angle)?",
+    "Option1": "A traditional server hosting solution.",
+    "Option2": "A serverless deployment platform for Laravel, enabling you to deploy your applications on AWS Lambda with automatic scaling and cost efficiency.",
+    "Option3": "A desktop application for Laravel development.",
+    "Option4": "A package for optimizing application code.",
+    "Answer": "A serverless deployment platform for Laravel, enabling you to deploy your applications on AWS Lambda with automatic scaling and cost efficiency."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the primary benefit of using Blade for templating in Laravel?",
+    "Option1": "It forces strict separation of HTML and PHP.",
+    "Option2": "It compiles to plain PHP, offering no overhead once compiled, and provides powerful templating features like inheritance and directives.",
+    "Option3": "It is a JavaScript-based templating engine.",
+    "Option4": "It integrates directly with databases.",
+    "Answer": "It compiles to plain PHP, offering no overhead once compiled, and provides powerful templating features like inheritance and directives."
+  },
+  {
+    "question_no.": 203,
+    "Question": "How do you define a custom Blade directive?",
+    "Option1": "Blade::macro('myDirective', ...);",
+    "Option2": "Blade::directive('myDirective', ...);",
+    "Option3": "Blade::register('myDirective', ...);",
+    "Option4": "Blade::extend('myDirective', ...);",
+    "Answer": "Blade::directive('myDirective', ...);"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Middleware Groups' in Laravel?",
+    "Option1": "A single middleware applied to multiple routes.",
+    "Option2": "A way to group multiple middleware into a single key that can be assigned to routes or route groups, simplifying middleware assignment.",
+    "Option3": "A collection of unrelated middleware.",
+    "Option4": "Middleware that handles groups of users.",
+    "Answer": "A way to group multiple middleware into a single key that can be assigned to routes or route groups, simplifying middleware assignment."
+  },
+  {
+    "question_no.": 205,
+    "Question": "Where are middleware groups defined?",
+    "Option1": "routes/web.php",
+    "Option2": "app/Http/Kernel.php",
+    "Option3": "config/app.php",
+    "Option4": "app/Providers/RouteServiceProvider.php",
+    "Answer": "app/Http/Kernel.php"
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does MATLAB stand for?",
+    "Option1": "Mathematical Logic Tool",
+    "Option2": "Matrix Laboratory",
+    "Option3": "Model and Algorithm Builder",
+    "Option4": "Machine Learning Application",
+    "Answer": "Matrix Laboratory"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who developed MATLAB?",
+    "Option1": "Microsoft",
+    "Option2": "Google",
+    "Option3": "MathWorks",
+    "Option4": "IBM",
+    "Answer": "MathWorks"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the primary data type in MATLAB?",
+    "Option1": "Integer",
+    "Option2": "String",
+    "Option3": "Double-precision array",
+    "Option4": "Boolean",
+    "Answer": "Double-precision array"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you define a row vector in MATLAB?",
+    "Option1": "[1; 2; 3]",
+    "Option2": "{1, 2, 3}",
+    "Option3": "[1 2 3]",
+    "Option4": "(1, 2, 3)",
+    "Answer": "[1 2 3]"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you define a column vector in MATLAB?",
+    "Option1": "[1 2 3]",
+    "Option2": "{1; 2; 3}",
+    "Option3": "[1; 2; 3]",
+    "Option4": "(1; 2; 3)",
+    "Answer": "[1; 2; 3]"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which symbol is used for commenting a single line in MATLAB?",
+    "Option1": "//",
+    "Option2": "#",
+    "Option3": "%",
+    "Option4": "--",
+    "Answer": "%"
+  },
+  {
+    "question_no.": 7,
+    "Question": "How do you clear the command window in MATLAB?",
+    "Option1": "clear all",
+    "Option2": "clc",
+    "Option3": "clear console",
+    "Option4": "reset",
+    "Answer": "clc"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you clear all variables from the workspace in MATLAB?",
+    "Option1": "clc",
+    "Option2": "clear vars",
+    "Option3": "clear all",
+    "Option4": "reset workspace",
+    "Answer": "clear all"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the purpose of the '...' (ellipsis) operator in MATLAB?",
+    "Option1": "To indicate an array of unknown size.",
+    "Option2": "To continue a statement on the next line.",
+    "Option3": "To create a range of numbers.",
+    "Option4": "To suppress output.",
+    "Answer": "To continue a statement on the next line."
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which operator is used for element-wise multiplication of two matrices in MATLAB?",
+    "Option1": "*",
+    "Option2": ".*",
+    "Option3": "@",
+    "Option4": "/",
+    "Answer": ".*"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which operator is used for matrix multiplication in MATLAB?",
+    "Option1": ".*",
+    "Option2": "*",
+    "Option3": "./",
+    "Option4": "^",
+    "Answer": "*"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you suppress the output of a statement in MATLAB?",
+    "Option1": "By adding a semicolon (;) at the end.",
+    "Option2": "By adding a percentage sign (%) at the beginning.",
+    "Option3": "By adding a double slash (//) at the beginning.",
+    "Option4": "By adding 'silent' keyword.",
+    "Answer": "By adding a semicolon (;) at the end."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is an M-file in MATLAB?",
+    "Option1": "A file for storing images.",
+    "Option2": "A script or function file containing MATLAB code, saved with a .m extension.",
+    "Option3": "A file for generating reports.",
+    "Option4": "A configuration file.",
+    "Answer": "A script or function file containing MATLAB code, saved with a .m extension."
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you create a function in MATLAB?",
+    "Option1": "def myFunction():",
+    "Option2": "function myFunction()",
+    "Option3": "func myFunction()",
+    "Option4": "create function myFunction()",
+    "Answer": "function myFunction()"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the purpose of the 'input' function in MATLAB?",
+    "Option1": "To display output to the command window.",
+    "Option2": "To read user input from the keyboard.",
+    "Option3": "To load data from a file.",
+    "Option4": "To define an input variable.",
+    "Answer": "To read user input from the keyboard."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What does 'disp' stand for in MATLAB?",
+    "Option1": "Display",
+    "Option2": "Dispatch",
+    "Option3": "Dispose",
+    "Option4": "Displace",
+    "Answer": "Display"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you generate a sequence of numbers from 1 to 10 with a step of 2?",
+    "Option1": "1:2:10",
+    "Option2": "linspace(1, 10, 2)",
+    "Option3": "range(1, 10, 2)",
+    "Option4": "1 to 10 step 2",
+    "Answer": "1:2:10"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the result of `size([1 2 3; 4 5 6])`?",
+    "Option1": "[2 3]",
+    "Option2": "6",
+    "Option3": "[3 2]",
+    "Option4": "[1 6]",
+    "Answer": "[2 3]"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you access the element at row 2, column 3 of a matrix named 'M'?",
+    "Option1": "M(2, 3)",
+    "Option2": "M[2, 3]",
+    "Option3": "M{2, 3}",
+    "Option4": "M.at(2, 3)",
+    "Answer": "M(2, 3)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the purpose of the 'length' function for a vector in MATLAB?",
+    "Option1": "Returns the number of rows.",
+    "Option2": "Returns the number of columns.",
+    "Option3": "Returns the number of elements.",
+    "Option4": "Returns the length of the longest dimension.",
+    "Answer": "Returns the number of elements."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you create a 3x3 identity matrix?",
+    "Option1": "zeros(3)",
+    "Option2": "ones(3)",
+    "Option3": "eye(3)",
+    "Option4": "diag(3)",
+    "Answer": "eye(3)"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you create a 3x3 matrix of all zeros?",
+    "Option1": "eye(3)",
+    "Option2": "ones(3)",
+    "Option3": "zeros(3)",
+    "Option4": "rand(3)",
+    "Answer": "zeros(3)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you create a 3x3 matrix of all ones?",
+    "Option1": "zeros(3)",
+    "Option2": "eye(3)",
+    "Option3": "ones(3)",
+    "Option4": "randn(3)",
+    "Answer": "ones(3)"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the command to plot a 2D line graph?",
+    "Option1": "scatter(x, y)",
+    "Option2": "bar(x, y)",
+    "Option3": "plot(x, y)",
+    "Option4": "hist(x)",
+    "Answer": "plot(x, y)"
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you add a title to a plot in MATLAB?",
+    "Option1": "label('My Title')",
+    "Option2": "title('My Title')",
+    "Option3": "heading('My Title')",
+    "Option4": "text('My Title')",
+    "Answer": "title('My Title')"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you add a label to the x-axis of a plot?",
+    "Option1": "ylabel('X-axis')",
+    "Option2": "xlabel('X-axis')",
+    "Option3": "axis_x_label('X-axis')",
+    "Option4": "x_label('X-axis')",
+    "Answer": "xlabel('X-axis')"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What does 'hold on' do in MATLAB plotting?",
+    "Option1": "Pauses the plot execution.",
+    "Option2": "Keeps the current plot and adds new plots to it.",
+    "Option3": "Clears the current plot.",
+    "Option4": "Resets plot properties.",
+    "Answer": "Keeps the current plot and adds new plots to it."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the purpose of 'subplot' in MATLAB?",
+    "Option1": "To create a sub-function within a script.",
+    "Option2": "To divide the current figure into multiple plotting regions.",
+    "Option3": "To create a layered plot.",
+    "Option4": "To zoom into a specific part of a plot.",
+    "Answer": "To divide the current figure into multiple plotting regions."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'script file' in MATLAB?",
+    "Option1": "A file that contains a single function.",
+    "Option2": "A series of MATLAB commands that are executed sequentially.",
+    "Option3": "A file used for data storage.",
+    "Option4": "A graphical user interface file.",
+    "Answer": "A series of MATLAB commands that are executed sequentially."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the difference between a 'script file' and a 'function file' in MATLAB?",
+    "Option1": "Scripts can take input, functions cannot.",
+    "Option2": "Scripts share the workspace, functions have their own local workspace.",
+    "Option3": "Functions can be run directly, scripts must be called from another file.",
+    "Option4": "There is no significant difference.",
+    "Answer": "Scripts share the workspace, functions have their own local workspace."
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which command is used to save a variable to a .mat file?",
+    "Option1": "load",
+    "Option2": "write",
+    "Option3": "save",
+    "Option4": "export",
+    "Answer": "save"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which command is used to load variables from a .mat file?",
+    "Option1": "read",
+    "Option2": "import",
+    "Option3": "load",
+    "Option4": "get",
+    "Answer": "load"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the purpose of 'linspace(a, b, n)'?",
+    "Option1": "To create a logarithmically spaced vector.",
+    "Option2": "To create a vector of 'n' linearly spaced points between 'a' and 'b'.",
+    "Option3": "To create a vector with 'a' rows, 'b' columns, and 'n' elements.",
+    "Option4": "To find the linear regression between 'a' and 'b'.",
+    "Answer": "To create a vector of 'n' linearly spaced points between 'a' and 'b'."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the purpose of 'logspace(a, b, n)'?",
+    "Option1": "To create a linearly spaced vector.",
+    "Option2": "To create a vector of 'n' logarithmically spaced points between 10^a and 10^b.",
+    "Option3": "To calculate the logarithm of a vector.",
+    "Option4": "To create a vector with base 'a', exponent 'b', and 'n' elements.",
+    "Answer": "To create a vector of 'n' logarithmically spaced points between 10^a and 10^b."
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you find the maximum value in a vector 'V'?",
+    "Option1": "min(V)",
+    "Option2": "mean(V)",
+    "Option3": "max(V)",
+    "Option4": "sum(V)",
+    "Answer": "max(V)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you find the mean of a vector 'V'?",
+    "Option1": "sum(V)",
+    "Option2": "avg(V)",
+    "Option3": "mean(V)",
+    "Option4": "median(V)",
+    "Answer": "mean(V)"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of the 'sum' function when applied to a matrix?",
+    "Option1": "Sums all elements in the matrix.",
+    "Option2": "Sums elements along each row.",
+    "Option3": "Sums elements along each column (default behavior).",
+    "Option4": "Calculates the cumulative sum.",
+    "Answer": "Sums elements along each column (default behavior)."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the purpose of 'fprintf' in MATLAB?",
+    "Option1": "To read formatted data from a file.",
+    "Option2": "To print formatted output to the command window or a file.",
+    "Option3": "To format a string.",
+    "Option4": "To create a figure for plotting.",
+    "Answer": "To print formatted output to the command window or a file."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which loop is used for iterating a known number of times?",
+    "Option1": "while loop",
+    "Option2": "for loop",
+    "Option3": "do-while loop",
+    "Option4": "repeat until loop",
+    "Answer": "for loop"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which loop is used for iterating until a condition becomes false?",
+    "Option1": "for loop",
+    "Option2": "if statement",
+    "Option3": "while loop",
+    "Option4": "switch statement",
+    "Answer": "while loop"
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you perform an 'if-else if-else' conditional statement?",
+    "Option1": "if ... elseif ... else ... end",
+    "Option2": "if ... elif ... else ... end",
+    "Option3": "if ... else if ... else ... fi",
+    "Option4": "if ... or if ... else ... end",
+    "Answer": "if ... elseif ... else ... end"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the purpose of 'switch' statement in MATLAB?",
+    "Option1": "To define a function.",
+    "Option2": "To handle multiple conditional branches based on a single expression.",
+    "Option3": "To switch between different variables.",
+    "Option4": "To switch between different plotting styles.",
+    "Answer": "To handle multiple conditional branches based on a single expression."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you perform a logical AND operation in MATLAB?",
+    "Option1": "||",
+    "Option2": "&&",
+    "Option3": "!",
+    "Option4": "OR",
+    "Answer": "&&"
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you perform a logical OR operation in MATLAB?",
+    "Option1": "&&",
+    "Option2": "!",
+    "Option3": "||",
+    "Option4": "AND",
+    "Answer": "||"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the purpose of the 'break' statement in loops?",
+    "Option1": "To skip the current iteration and proceed to the next.",
+    "Option2": "To terminate the loop immediately.",
+    "Option3": "To pause the loop execution.",
+    "Option4": "To restart the loop from the beginning.",
+    "Answer": "To terminate the loop immediately."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the purpose of the 'continue' statement in loops?",
+    "Option1": "To terminate the loop immediately.",
+    "Option2": "To skip the current iteration and proceed to the next.",
+    "Option3": "To pause the loop execution.",
+    "Option4": "To restart the loop from the beginning.",
+    "Answer": "To skip the current iteration and proceed to the next."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What does 'who' command do in MATLAB?",
+    "Option1": "Displays a list of all MATLAB functions.",
+    "Option2": "Displays a list of variables in the current workspace.",
+    "Option3": "Displays information about the current user.",
+    "Option4": "Displays help for a specific command.",
+    "Answer": "Displays a list of variables in the current workspace."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What does 'whos' command do in MATLAB?",
+    "Option1": "Displays a brief list of variables.",
+    "Option2": "Displays detailed information about variables in the current workspace, including size, bytes, and class.",
+    "Option3": "Displays only global variables.",
+    "Option4": "Displays only persistent variables.",
+    "Answer": "Displays detailed information about variables in the current workspace, including size, bytes, and class."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of 'format' command in MATLAB?",
+    "Option1": "To format M-files.",
+    "Option2": "To control the display format of numeric output in the command window.",
+    "Option3": "To format plots.",
+    "Option4": "To format strings for printing.",
+    "Answer": "To control the display format of numeric output in the command window."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of 'clc'?",
+    "Option1": "Clears all variables.",
+    "Option2": "Clears the command window.",
+    "Option3": "Clears the command history.",
+    "Option4": "Clears the figure window.",
+    "Answer": "Clears the command window."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of 'figure' command?",
+    "Option1": "To close all open figures.",
+    "Option2": "To open a new figure window or make an existing one current.",
+    "Option3": "To save a figure.",
+    "Option4": "To resize a figure.",
+    "Answer": "To open a new figure window or make an existing one current."
+  },
+  {
+    "question_no.": 52,
+    "Question": "How do you close the current figure window?",
+    "Option1": "close all",
+    "Option2": "close current",
+    "Option3": "close",
+    "Option4": "figure off",
+    "Answer": "close"
+  },
+  {
+    "question_no.": 53,
+    "Question": "How do you close all figure windows?",
+    "Option1": "close",
+    "Option2": "close all",
+    "Option3": "figure off all",
+    "Option4": "clear figures",
+    "Answer": "close all"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is the purpose of 'grid on' in plotting?",
+    "Option1": "To show grid lines on the plot.",
+    "Option2": "To enable the grid system for user input.",
+    "Option3": "To align objects to a grid.",
+    "Option4": "To turn off grid lines.",
+    "Answer": "To show grid lines on the plot."
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you change the line color of a plot to red?",
+    "Option1": "plot(x, y, 'color', 'red')",
+    "Option2": "plot(x, y, 'r')",
+    "Option3": "plot(x, y, 'red')",
+    "Option4": "plot(x, y, Color='red')",
+    "Answer": "plot(x, y, 'r')"
+  },
+  {
+    "question_no.": 56,
+    "Question": "How do you change the line style of a plot to dashed?",
+    "Option1": "plot(x, y, 'linestyle', '--')",
+    "Option2": "plot(x, y, '--')",
+    "Option3": "plot(x, y, 'dashed')",
+    "Option4": "Both A and B are correct.",
+    "Answer": "Both A and B are correct."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the purpose of 'legend' in plotting?",
+    "Option1": "To add a title to the plot.",
+    "Option2": "To explain the different lines or data series on a plot.",
+    "Option3": "To label the axes.",
+    "Option4": "To set the plot limits.",
+    "Answer": "To explain the different lines or data series on a plot."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does 'xlim' do in plotting?",
+    "Option1": "Sets the limits for the y-axis.",
+    "Option2": "Sets the limits for the x-axis.",
+    "Option3": "Sets the limits for both x and y axes.",
+    "Option4": "Sets the aspect ratio of the plot.",
+    "Answer": "Sets the limits for the x-axis."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does 'ylim' do in plotting?",
+    "Option1": "Sets the limits for the x-axis.",
+    "Option2": "Sets the limits for the y-axis.",
+    "Option3": "Sets the limits for both x and y axes.",
+    "Option4": "Sets the aspect ratio of the plot.",
+    "Answer": "Sets the limits for the y-axis."
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do you save a plot to an image file (e.g., PNG)?",
+    "Option1": "saveas(gcf, 'myplot.png')",
+    "Option2": "export('myplot.png')",
+    "Option3": "print('myplot.png')",
+    "Option4": "saveplot('myplot.png')",
+    "Answer": "saveas(gcf, 'myplot.png')"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'NaN' in MATLAB?",
+    "Option1": "Not a Number.",
+    "Option2": "Negative Number.",
+    "Option3": "Natural Number.",
+    "Option4": "New Array Number.",
+    "Answer": "Not a Number."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Inf' in MATLAB?",
+    "Option1": "Integer.",
+    "Option2": "Infinity.",
+    "Option3": "Index.",
+    "Option4": "Information.",
+    "Answer": "Infinity."
+  },
+  {
+    "question_no.": 63,
+    "Question": "How do you check if a variable 'x' is NaN?",
+    "Option1": "x == NaN",
+    "Option2": "isnan(x)",
+    "Option3": "is.nan(x)",
+    "Option4": "is_nan(x)",
+    "Answer": "isnan(x)"
+  },
+  {
+    "question_no.": 64,
+    "Question": "How do you check if a variable 'x' is Inf?",
+    "Option1": "x == Inf",
+    "Option2": "isinf(x)",
+    "Option3": "is.inf(x)",
+    "Option4": "is_inf(x)",
+    "Answer": "isinf(x)"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the result of `0/0` in MATLAB?",
+    "Option1": "0",
+    "Option2": "1",
+    "Option3": "NaN",
+    "Option4": "Inf",
+    "Answer": "NaN"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the result of `1/0` in MATLAB?",
+    "Option1": "0",
+    "Option2": "1",
+    "Option3": "NaN",
+    "Option4": "Inf",
+    "Answer": "Inf"
+  },
+  {
+    "question_no.": 67,
+    "Question": "How do you create a row vector of random numbers?",
+    "Option1": "zeros(1, 5)",
+    "Option2": "rand(1, 5)",
+    "Option3": "ones(1, 5)",
+    "Option4": "eye(1, 5)",
+    "Answer": "rand(1, 5)"
+  },
+  {
+    "question_no.": 68,
+    "Question": "How do you create a row vector of random integers?",
+    "Option1": "rand(1, 5)",
+    "Option2": "randn(1, 5)",
+    "Option3": "randi([1, 10], 1, 5)",
+    "Option4": "random(1, 10, 5)",
+    "Answer": "randi([1, 10], 1, 5)"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What does `rand` function generate?",
+    "Option1": "Random integers.",
+    "Option2": "Random numbers from a normal distribution.",
+    "Option3": "Random numbers from a uniform distribution between 0 and 1.",
+    "Option4": "Random boolean values.",
+    "Answer": "Random numbers from a uniform distribution between 0 and 1."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What does `randn` function generate?",
+    "Option1": "Random integers.",
+    "Option2": "Random numbers from a normal distribution with mean 0 and variance 1.",
+    "Option3": "Random numbers from a uniform distribution.",
+    "Option4": "Random complex numbers.",
+    "Answer": "Random numbers from a normal distribution with mean 0 and variance 1."
+  },
+  {
+    "question_no.": 71,
+    "Question": "How do you compute the transpose of a matrix 'A'?",
+    "Option1": "A'",
+    "Option2": "transpose(A)",
+    "Option3": "A_t",
+    "Option4": "Both A and B are correct for non-complex numbers.",
+    "Answer": "Both A and B are correct for non-complex numbers."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of the 'dot' function in MATLAB?",
+    "Option1": "Element-wise multiplication.",
+    "Option2": "Matrix multiplication.",
+    "Option3": "Dot product of two vectors.",
+    "Option4": "Cross product of two vectors.",
+    "Answer": "Dot product of two vectors."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the purpose of the 'cross' function in MATLAB?",
+    "Option1": "Dot product of two vectors.",
+    "Option2": "Cross product of two 3D vectors.",
+    "Option3": "Matrix multiplication.",
+    "Option4": "Element-wise division.",
+    "Answer": "Cross product of two 3D vectors."
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you find the inverse of a square matrix 'A'?",
+    "Option1": "A^-1",
+    "Option2": "inv(A)",
+    "Option3": "inverse(A)",
+    "Option4": "A_inv",
+    "Answer": "inv(A)"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of 'det' function?",
+    "Option1": "To calculate the determinant of a square matrix.",
+    "Option2": "To delete elements from a matrix.",
+    "Option3": "To detect errors in a matrix.",
+    "Option4": "To determine the size of a matrix.",
+    "Answer": "To calculate the determinant of a square matrix."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the purpose of 'eig' function?",
+    "Option1": "To calculate the inverse of a matrix.",
+    "Option2": "To calculate the eigenvalues and eigenvectors of a matrix.",
+    "Option3": "To calculate the square root of a matrix.",
+    "Option4": "To extract diagonal elements.",
+    "Answer": "To calculate the eigenvalues and eigenvectors of a matrix."
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you solve a system of linear equations A*x = b in MATLAB?",
+    "Option1": "x = inv(A)*b",
+    "Option2": "x = A\\b",
+    "Option3": "x = solve(A, b)",
+    "Option4": "Both A and B are common methods, but B is preferred for numerical stability and efficiency.",
+    "Answer": "Both A and B are common methods, but B is preferred for numerical stability and efficiency."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the purpose of 'ode45' function?",
+    "Option1": "To solve systems of linear equations.",
+    "Option2": "To solve ordinary differential equations.",
+    "Option3": "To optimize functions.",
+    "Option4": "To perform Fourier transforms.",
+    "Answer": "To solve ordinary differential equations."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'polyfit' used for?",
+    "Option1": "To fit a polynomial to a set of data points.",
+    "Option2": "To calculate the roots of a polynomial.",
+    "Option3": "To differentiate a polynomial.",
+    "Option4": "To integrate a polynomial.",
+    "Answer": "To fit a polynomial to a set of data points."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'roots' function used for?",
+    "Option1": "To calculate the square root of a number.",
+    "Option2": "To find the roots (zeros) of a polynomial.",
+    "Option3": "To find the roots of an equation numerically.",
+    "Option4": "To find the root mean square.",
+    "Answer": "To find the roots (zeros) of a polynomial."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'fzero' function used for?",
+    "Option1": "To find the root of a single-variable function numerically.",
+    "Option2": "To find the zero-crossing of a signal.",
+    "Option3": "To set a variable to zero.",
+    "Option4": "To count the number of zeros in a matrix.",
+    "Answer": "To find the root of a single-variable function numerically."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'integral' function used for?",
+    "Option1": "To perform differentiation.",
+    "Option2": "To calculate the definite integral of a function numerically.",
+    "Option3": "To find the integer part of a number.",
+    "Option4": "To sum up elements of an array.",
+    "Answer": "To calculate the definite integral of a function numerically."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'diff' function used for?",
+    "Option1": "To find the difference between two arrays.",
+    "Option2": "To calculate the numerical derivative or difference between adjacent elements.",
+    "Option3": "To compare two variables.",
+    "Option4": "To find the difficulty of a problem.",
+    "Answer": "To calculate the numerical derivative or difference between adjacent elements."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'fft' function used for?",
+    "Option1": "Fast Fourier Transform, for analyzing frequency content of signals.",
+    "Option2": "Fast File Transfer.",
+    "Option3": "Flexible Function Type.",
+    "Option4": "Finite Function Table.",
+    "Answer": "Fast Fourier Transform, for analyzing frequency content of signals."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'ifft' function used for?",
+    "Option1": "Inverse Fast Fourier Transform.",
+    "Option2": "Individual Frequency Filter Transform.",
+    "Option3": "Input/Output File Format Tool.",
+    "Option4": "Indirect Function Feature Tool.",
+    "Answer": "Inverse Fast Fourier Transform."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'conv' function used for?",
+    "Option1": "To convert data types.",
+    "Option2": "To perform convolution of two vectors or polynomials.",
+    "Option3": "To converge an iterative process.",
+    "Option4": "To check for convergence.",
+    "Answer": "To perform convolution of two vectors or polynomials."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'deconv' function used for?",
+    "Option1": "To decompress data.",
+    "Option2": "To perform deconvolution of two vectors or polynomials.",
+    "Option3": "To decompose a signal.",
+    "Option4": "To convert from one unit to another.",
+    "Answer": "To perform deconvolution of two vectors or polynomials."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'filter' function used for?",
+    "Option1": "To sort data.",
+    "Option2": "To apply a digital filter to a signal.",
+    "Option3": "To filter out unwanted noise from an image.",
+    "Option4": "To filter elements based on a condition.",
+    "Answer": "To apply a digital filter to a signal."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'imread' used for?",
+    "Option1": "To write images to a file.",
+    "Option2": "To read image files into MATLAB.",
+    "Option3": "To resize images.",
+    "Option4": "To display images.",
+    "Answer": "To read image files into MATLAB."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'imwrite' used for?",
+    "Option1": "To read image files.",
+    "Option2": "To write images from MATLAB to a file.",
+    "Option3": "To edit image properties.",
+    "Option4": "To display images.",
+    "Answer": "To write images from MATLAB to a file."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'imshow' used for?",
+    "Option1": "To read an image.",
+    "Option2": "To display an image in a figure window.",
+    "Option3": "To save an image.",
+    "Option4": "To process an image.",
+    "Answer": "To display an image in a figure window."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'imresize' used for?",
+    "Option1": "To rotate an image.",
+    "Option2": "To crop an image.",
+    "Option3": "To resize an image.",
+    "Option4": "To convert an image to grayscale.",
+    "Answer": "To resize an image."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'rgb2gray' used for?",
+    "Option1": "To convert an image from grayscale to RGB.",
+    "Option2": "To convert an image from RGB color space to grayscale.",
+    "Option3": "To adjust the brightness of an image.",
+    "Option4": "To filter noise from an image.",
+    "Answer": "To convert an image from RGB color space to grayscale."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'figure' in the context of MATLAB graphics?",
+    "Option1": "A data type for storing graphical information.",
+    "Option2": "A window that displays graphical output.",
+    "Option3": "A function to calculate geometric shapes.",
+    "Option4": "A property of a plot.",
+    "Answer": "A window that displays graphical output."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'axes' in the context of MATLAB graphics?",
+    "Option1": "The main window containing plots.",
+    "Option2": "A rectangular area within a figure where plots are drawn, including x, y, and z axes.",
+    "Option3": "A property of a line plot.",
+    "Option4": "A tool for manipulating figures.",
+    "Answer": "A rectangular area within a figure where plots are drawn, including x, y, and z axes."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'uifigure' used for?",
+    "Option1": "To create traditional MATLAB figures.",
+    "Option2": "To create app designer figures (modern UI figures).",
+    "Option3": "To update existing figures.",
+    "Option4": "To make a figure invisible.",
+    "Answer": "To create app designer figures (modern UI figures)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'App Designer' in MATLAB?",
+    "Option1": "A tool for designing websites.",
+    "Option2": "An interactive environment for designing and developing MATLAB apps (GUIs) with a drag-and-drop interface.",
+    "Option3": "A tool for creating command-line applications.",
+    "Option4": "A package manager for MATLAB.",
+    "Answer": "An interactive environment for designing and developing MATLAB apps (GUIs) with a drag-and-drop interface."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the primary language used in MATLAB App Designer?",
+    "Option1": "Python",
+    "Option2": "Java",
+    "Option3": "MATLAB language",
+    "Option4": "C++",
+    "Answer": "MATLAB language"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'callback function' in App Designer?",
+    "Option1": "A function that is called repeatedly in a loop.",
+    "Option2": "A function that executes in response to a specific user interaction or event (e.g., button click).",
+    "Option3": "A function that displays debugging information.",
+    "Option4": "A function that is called before the app starts.",
+    "Answer": "A function that executes in response to a specific user interaction or event (e.g., button click)."
+  },
+  {
+    "question_no.": 100,
+    "Question": "How do you define a constant in MATLAB?",
+    "Option1": "const MY_CONST = 10;",
+    "Option2": "MATLAB does not have a direct `const` keyword, but you can use `persistent` variables or define variables in a script that is run once.",
+    "Option3": "#define MY_CONST 10",
+    "Option4": "global MY_CONST = 10",
+    "Answer": "MATLAB does not have a direct `const` keyword, but you can use `persistent` variables or define variables in a script that is run once."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the 'persistent' keyword used for in MATLAB functions?",
+    "Option1": "To make a variable accessible globally.",
+    "Option2": "To make a variable retain its value between calls to the function.",
+    "Option3": "To make a variable read-only.",
+    "Option4": "To declare a variable as a constant.",
+    "Answer": "To make a variable retain its value between calls to the function."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the 'global' keyword used for in MATLAB?",
+    "Option1": "To limit a variable's scope to a specific function.",
+    "Option2": "To make a variable accessible from any function or script in the workspace.",
+    "Option3": "To declare a variable as static.",
+    "Option4": "To define a new data type.",
+    "Answer": "To make a variable accessible from any function or script in the workspace."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the purpose of 'varargin' in a function definition?",
+    "Option1": "To define a fixed number of input arguments.",
+    "Option2": "To allow a function to accept a variable number of input arguments.",
+    "Option3": "To define output arguments.",
+    "Option4": "To specify optional input arguments.",
+    "Answer": "To allow a function to accept a variable number of input arguments."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of 'varargout' in a function definition?",
+    "Option1": "To define a fixed number of output arguments.",
+    "Option2": "To allow a function to return a variable number of output arguments.",
+    "Option3": "To specify optional output arguments.",
+    "Option4": "To define input arguments.",
+    "Answer": "To allow a function to return a variable number of output arguments."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'cell array' in MATLAB?",
+    "Option1": "An array that stores only numeric values.",
+    "Option2": "An array that can store different types of data (e.g., numbers, strings, arrays) in its elements.",
+    "Option3": "A special type of string array.",
+    "Option4": "A fixed-size array.",
+    "Answer": "An array that can store different types of data (e.g., numbers, strings, arrays) in its elements."
+  },
+  {
+    "question_no.": 106,
+    "Question": "How do you create a cell array?",
+    "Option1": "[1, 'hello', true]",
+    "Option2": "{1, 'hello', true}",
+    "Option3": "(1; 'hello'; true)",
+    "Option4": "[1; 'hello'; true]",
+    "Answer": "{1, 'hello', true}"
+  },
+  {
+    "question_no.": 107,
+    "Question": "How do you access content of a cell array using curly braces?",
+    "Option1": "myCell(1)",
+    "Option2": "myCell[1]",
+    "Option3": "myCell{1}",
+    "Option4": "myCell.get(1)",
+    "Answer": "myCell{1}"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'struct' in MATLAB?",
+    "Option1": "A data type for matrices.",
+    "Option2": "A data type for organizing data into named fields, similar to structures in C or objects in other languages.",
+    "Option3": "A function for defining functions.",
+    "Option4": "A type of plot.",
+    "Answer": "A data type for organizing data into named fields, similar to structures in C or objects in other languages."
+  },
+  {
+    "question_no.": 109,
+    "Question": "How do you create a structure with fields 'name' and 'age'?",
+    "Option1": "s = {'John', 30}",
+    "Option2": "s.name = 'John'; s.age = 30;",
+    "Option3": "s = struct('John', 30)",
+    "Option4": "s = {'name':'John', 'age':30}",
+    "Answer": "s.name = 'John'; s.age = 30;"
+  },
+  {
+    "question_no.": 110,
+    "Question": "How do you access a field 'name' from a structure 's'?",
+    "Option1": "s['name']",
+    "Option2": "s.name",
+    "Option3": "s->name",
+    "Option4": "s.get('name')",
+    "Answer": "s.name"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'try-catch' block used for in MATLAB?",
+    "Option1": "To define a function with multiple outputs.",
+    "Option2": "To handle errors and exceptions gracefully within your code.",
+    "Option3": "To create a loop that iterates over errors.",
+    "Option4": "To try out different plotting options.",
+    "Answer": "To handle errors and exceptions gracefully within your code."
+  },
+  {
+    "question_no.": 112,
+    "Question": "How do you define a 'try-catch' block?",
+    "Option1": "try ... finally ... end",
+    "Option2": "try ... catch ... end",
+    "Option3": "try ... except ... end",
+    "Option4": "try ... error ... end",
+    "Answer": "try ... catch ... end"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'warning' function used for?",
+    "Option1": "To stop script execution.",
+    "Option2": "To display a warning message without stopping execution.",
+    "Option3": "To display an error message and stop execution.",
+    "Option4": "To clear the command window.",
+    "Answer": "To display a warning message without stopping execution."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'error' function used for?",
+    "Option1": "To display a warning message.",
+    "Option2": "To display an error message and terminate execution.",
+    "Option3": "To log an error message to a file.",
+    "Option4": "To check for syntax errors.",
+    "Answer": "To display an error message and terminate execution."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'debug' mode in MATLAB?",
+    "Option1": "A mode for running code faster.",
+    "Option2": "A mode that allows you to pause execution, inspect variables, and step through code to find errors.",
+    "Option3": "A mode for optimizing code.",
+    "Option4": "A mode for generating reports.",
+    "Answer": "A mode that allows you to pause execution, inspect variables, and step through code to find errors."
+  },
+  {
+    "question_no.": 116,
+    "Question": "How do you set a breakpoint in MATLAB editor?",
+    "Option1": "By right-clicking on a line and selecting 'Set Breakpoint'.",
+    "Option2": "By clicking in the gray area next to the line number.",
+    "Option3": "By typing 'breakpoint' command.",
+    "Option4": "Both A and B are common ways.",
+    "Answer": "Both A and B are common ways."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'step' in debugging?",
+    "Option1": "To run the code continuously.",
+    "Option2": "To execute the next line of code.",
+    "Option3": "To skip a block of code.",
+    "Option4": "To stop debugging.",
+    "Answer": "To execute the next line of code."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'step in' in debugging?",
+    "Option1": "To execute the current line and stop at the next line of code.",
+    "Option2": "To execute the current line and step into a function call.",
+    "Option3": "To execute the current line and skip over a function call.",
+    "Option4": "To step out of the current function.",
+    "Answer": "To execute the current line and step into a function call."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'step out' in debugging?",
+    "Option1": "To execute the current line and stop at the next line of code.",
+    "Option2": "To execute the current function and stop at the next line after the function returns.",
+    "Option3": "To skip over a function call.",
+    "Option4": "To restart the debugging process.",
+    "Answer": "To execute the current function and stop at the next line after the function returns."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'continue' in debugging?",
+    "Option1": "To stop debugging.",
+    "Option2": "To execute the code until the next breakpoint or the end of the script/function.",
+    "Option3": "To restart the execution.",
+    "Option4": "To skip the current line.",
+    "Answer": "To execute the code until the next breakpoint or the end of the script/function."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'quit debug' or 'dbquit'?",
+    "Option1": "To restart debugging.",
+    "Option2": "To exit debug mode and return to the command prompt.",
+    "Option3": "To skip the current breakpoint.",
+    "Option4": "To save debug settings.",
+    "Answer": "To exit debug mode and return to the command prompt."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'profile' command used for?",
+    "Option1": "To create a user profile.",
+    "Option2": "To analyze the performance of your MATLAB code and identify bottlenecks.",
+    "Option3": "To display a list of installed toolboxes.",
+    "Option4": "To manage system settings.",
+    "Answer": "To analyze the performance of your MATLAB code and identify bottlenecks."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Tic-Toc' used for in MATLAB?",
+    "Option1": "To measure the execution time of code segments.",
+    "Option2": "To synchronize data between different processes.",
+    "Option3": "To play a sound effect.",
+    "Option4": "To generate random numbers.",
+    "Answer": "To measure the execution time of code segments."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'vectorization' in MATLAB?",
+    "Option1": "Converting a scalar to a vector.",
+    "Option2": "Writing MATLAB code that operates on entire arrays/matrices at once, rather than element-by-element, leading to faster execution.",
+    "Option3": "Creating vector graphics.",
+    "Option4": "Optimizing memory usage.",
+    "Answer": "Writing MATLAB code that operates on entire arrays/matrices at once, rather than element-by-element, leading to faster execution."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Why is vectorization preferred in MATLAB?",
+    "Option1": "It makes code harder to read.",
+    "Option2": "It uses more memory.",
+    "Option3": "It significantly improves performance by leveraging MATLAB's optimized internal C/Fortran routines.",
+    "Option4": "It is only for graphical operations.",
+    "Answer": "It significantly improves performance by leveraging MATLAB's optimized internal C/Fortran routines."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Pre-allocation' of arrays in MATLAB?",
+    "Option1": "Allocating memory after data is assigned.",
+    "Option2": "Allocating memory for an array before assigning values to its elements, to improve performance when growing arrays in a loop.",
+    "Option3": "Allocating memory for variables only when needed.",
+    "Option4": "Pre-loading data into memory.",
+    "Answer": "Allocating memory for an array before assigning values to its elements, to improve performance when growing arrays in a loop."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Why is pre-allocation important for performance in loops?",
+    "Option1": "It makes the code shorter.",
+    "Option2": "It reduces the need for MATLAB to repeatedly reallocate memory and copy data during loop iterations.",
+    "Option3": "It is required for all loops.",
+    "Option4": "It automatically parallelizes the loop.",
+    "Answer": "It reduces the need for MATLAB to repeatedly reallocate memory and copy data during loop iterations."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Parfor' loop used for?",
+    "Option1": "To run loops sequentially.",
+    "Option2": "To run iterations of a loop in parallel using multiple CPU cores or computing resources.",
+    "Option3": "To run loops with fixed iterations.",
+    "Option4": "To run loops in a specific order.",
+    "Answer": "To run iterations of a loop in parallel using multiple CPU cores or computing resources."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which toolbox is required for using 'parfor'?",
+    "Option1": "Signal Processing Toolbox",
+    "Option2": "Image Processing Toolbox",
+    "Option3": "Parallel Computing Toolbox",
+    "Option4": "Statistics and Machine Learning Toolbox",
+    "Answer": "Parallel Computing Toolbox"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the purpose of 'codegen' command?",
+    "Option1": "To generate MATLAB code from C++.",
+    "Option2": "To generate standalone C/C++ code, MEX files, or other deployment artifacts from MATLAB code.",
+    "Option3": "To generate random code.",
+    "Option4": "To generate a report of code metrics.",
+    "Answer": "To generate standalone C/C++ code, MEX files, or other deployment artifacts from MATLAB code."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is a 'MEX file'?",
+    "Option1": "A text file containing MATLAB code.",
+    "Option2": "A compiled executable file that allows MATLAB to call C/C++ or Fortran functions.",
+    "Option3": "A file format for exporting data.",
+    "Option4": "A type of plot file.",
+    "Answer": "A compiled executable file that allows MATLAB to call C/C++ or Fortran functions."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Symbolic Math Toolbox' used for?",
+    "Option1": "To perform numerical calculations.",
+    "Option2": "To perform symbolic mathematics, such as differentiation, integration, and equation solving symbolically.",
+    "Option3": "To plot mathematical functions.",
+    "Option4": "To solve optimization problems.",
+    "Answer": "To perform symbolic mathematics, such as differentiation, integration, and equation solving symbolically."
+  },
+  {
+    "question_no.": 133,
+    "Question": "How do you declare a symbolic variable in MATLAB?",
+    "Option1": "x = 'sym'",
+    "Option2": "syms x",
+    "Option3": "symbolic x",
+    "Option4": "var x",
+    "Answer": "syms x"
+  },
+  {
+    "question_no.": 134,
+    "Question": "How do you perform symbolic differentiation of `f = x^2` with respect to `x`?",
+    "Option1": "diff(f)",
+    "Option2": "diff(f, x)",
+    "Option3": "derive(f)",
+    "Option4": "differentiate(f, x)",
+    "Answer": "diff(f, x)"
+  },
+  {
+    "question_no.": 135,
+    "Question": "How do you perform symbolic integration of `f = x^2` with respect to `x`?",
+    "Option1": "integrate(f)",
+    "Option2": "int(f, x)",
+    "Option3": "integral(f)",
+    "Option4": "sum(f, x)",
+    "Answer": "int(f, x)"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'solve' function used for in Symbolic Math Toolbox?",
+    "Option1": "To solve numerical equations.",
+    "Option2": "To solve algebraic equations symbolically.",
+    "Option3": "To solve differential equations numerically.",
+    "Option4": "To optimize functions.",
+    "Answer": "To solve algebraic equations symbolically."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Simulink'?",
+    "Option1": "A programming language.",
+    "Option2": "A block diagram environment for multi-domain simulation and Model-Based Design.",
+    "Option3": "A tool for statistical analysis.",
+    "Option4": "A database management system.",
+    "Answer": "A block diagram environment for multi-domain simulation and Model-Based Design."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Model-Based Design' (MBD) in the context of Simulink?",
+    "Option1": "Designing physical models.",
+    "Option2": "A methodology that uses graphical models as the central artifact for design, analysis, and implementation of embedded systems.",
+    "Option3": "Designing models for machine learning.",
+    "Option4": "Designing UI layouts.",
+    "Answer": "A methodology that uses graphical models as the central artifact for design, analysis, and implementation of embedded systems."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is a 'Scope' block in Simulink?",
+    "Option1": "A block for defining mathematical functions.",
+    "Option2": "A visualization block used to display signals during simulation.",
+    "Option3": "A block for data input.",
+    "Option4": "A block for conditional logic.",
+    "Answer": "A visualization block used to display signals during simulation."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the purpose of a 'Subsystem' in Simulink?",
+    "Option1": "To add external libraries.",
+    "Option2": "To group related blocks into a hierarchical block, improving model organization and reusability.",
+    "Option3": "To create a parallel processing unit.",
+    "Option4": "To connect to external hardware.",
+    "Answer": "To group related blocks into a hierarchical block, improving model organization and reusability."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Stateflow' in MATLAB?",
+    "Option1": "A tool for data visualization.",
+    "Option2": "A graphical environment for designing and simulating state machines and flow charts within Simulink.",
+    "Option3": "A tool for generating code.",
+    "Option4": "A tool for managing data flow.",
+    "Answer": "A graphical environment for designing and simulating state machines and flow charts within Simulink."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is a 'State' in Stateflow?",
+    "Option1": "A condition in a loop.",
+    "Option2": "A mode of operation for a system, representing a distinct behavior or configuration.",
+    "Option3": "A type of variable.",
+    "Option4": "A point in a plot.",
+    "Answer": "A mode of operation for a system, representing a distinct behavior or configuration."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is a 'Transition' in Stateflow?",
+    "Option1": "A change in variable value.",
+    "Option2": "An event that causes the system to move from one state to another.",
+    "Option3": "A type of animation.",
+    "Option4": "A gradual change in a signal.",
+    "Answer": "An event that causes the system to move from one state to another."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'GUIDE' in MATLAB?",
+    "Option1": "A tool for generating reports.",
+    "Option2": "A deprecated tool for creating Graphical User Interfaces (GUIs) in MATLAB using a drag-and-drop editor.",
+    "Option3": "A guide to MATLAB documentation.",
+    "Option4": "A tool for optimizing code.",
+    "Answer": "A deprecated tool for creating Graphical User Interfaces (GUIs) in MATLAB using a drag-and-drop editor."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which tool is the recommended replacement for GUIDE for GUI development?",
+    "Option1": "Simulink",
+    "Option2": "App Designer",
+    "Option3": "Live Editor",
+    "Option4": "Command Window",
+    "Answer": "App Designer"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Live Editor' in MATLAB?",
+    "Option1": "A text-based editor for M-files.",
+    "Option2": "An interactive environment for creating live scripts and live functions that combine code, output, and formatted text in a single executable document.",
+    "Option3": "A debugger for real-time applications.",
+    "Option4": "A tool for collaborative coding.",
+    "Answer": "An interactive environment for creating live scripts and live functions that combine code, output, and formatted text in a single executable document."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What file extension do Live Scripts use?",
+    "Option1": ".m",
+    "Option2": ".mlx",
+    "Option3": ".mat",
+    "Option4": ".fig",
+    "Answer": ".mlx"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is a 'Section' in Live Editor?",
+    "Option1": "A block of code that is executed separately.",
+    "Option2": "A way to organize content within a live script, allowing for easy navigation and execution of specific code blocks.",
+    "Option3": "A specific part of a plot.",
+    "Option4": "A command for commenting out multiple lines.",
+    "Answer": "A way to organize content within a live script, allowing for easy navigation and execution of specific code blocks."
+  },
+  {
+    "question_no.": 149,
+    "Question": "How do you run a specific section in Live Editor?",
+    "Option1": "By clicking the 'Run' button for the entire script.",
+    "Option2": "By clicking the 'Run Section' button (or Ctrl+Enter).",
+    "Option3": "By typing the section name in the command window.",
+    "Option4": "Live Editor does not support running sections individually.",
+    "Answer": "By clicking the 'Run Section' button (or Ctrl+Enter)."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Toolbox' in MATLAB?",
+    "Option1": "A physical box containing MATLAB software.",
+    "Option2": "A collection of MATLAB functions, data, apps, and documentation that extend MATLAB's capabilities for specific applications or disciplines.",
+    "Option3": "A set of built-in MATLAB commands.",
+    "Option4": "A graphical interface for managing files.",
+    "Answer": "A collection of MATLAB functions, data, apps, and documentation that extend MATLAB's capabilities for specific applications or disciplines."
+  },
+  {
+    "question_no.": 151,
+    "Question": "Name a common MATLAB Toolbox for image processing.",
+    "Option1": "Signal Processing Toolbox",
+    "Option2": "Image Processing Toolbox",
+    "Option3": "Control System Toolbox",
+    "Option4": "Optimization Toolbox",
+    "Answer": "Image Processing Toolbox"
+  },
+  {
+    "question_no.": 152,
+    "Question": "Name a common MATLAB Toolbox for machine learning.",
+    "Option1": "Bioinformatics Toolbox",
+    "Option2": "Deep Learning Toolbox",
+    "Option3": "Robotics System Toolbox",
+    "Option4": "Data Acquisition Toolbox",
+    "Answer": "Deep Learning Toolbox"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'MATLAB Compiler' used for?",
+    "Option1": "To compile M-files to run faster within MATLAB.",
+    "Option2": "To create standalone executable applications, shared libraries, or components from MATLAB code that can run without a MATLAB installation.",
+    "Option3": "To convert MATLAB code to other programming languages.",
+    "Option4": "To optimize MATLAB code for performance.",
+    "Answer": "To create standalone executable applications, shared libraries, or components from MATLAB code that can run without a MATLAB installation."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the 'MATLAB Runtime'?",
+    "Option1": "The time it takes for MATLAB to start.",
+    "Option2": "A collection of shared libraries that enables deployed MATLAB applications and components to execute without requiring a full MATLAB installation.",
+    "Option3": "A debugging tool.",
+    "Option4": "A tool for measuring code execution speed.",
+    "Answer": "A collection of shared libraries that enables deployed MATLAB applications and components to execute without requiring a full MATLAB installation."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'MEX-file' (revisited for clarity)?",
+    "Option1": "A text file for exchanging data.",
+    "Option2": "A compiled executable function that allows users to call C, C++, or Fortran routines directly from MATLAB.",
+    "Option3": "A type of encrypted file.",
+    "Option4": "A markup language for MATLAB.",
+    "Answer": "A compiled executable function that allows users to call C, C++, or Fortran routines directly from MATLAB."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What are the advantages of using MEX files?",
+    "Option1": "Easier debugging.",
+    "Option2": "Improved performance for computationally intensive tasks and access to external libraries.",
+    "Option3": "Better readability of code.",
+    "Option4": "Platform independence.",
+    "Answer": "Improved performance for computationally intensive tasks and access to external libraries."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Parallel Computing' in MATLAB?",
+    "Option1": "Running multiple MATLAB instances simultaneously.",
+    "Option2": "Solving computationally intensive problems faster by utilizing multiple processors, CPU cores, or GPUs.",
+    "Option3": "Writing code that runs on different operating systems.",
+    "Option4": "Using parallel programming languages.",
+    "Answer": "Solving computationally intensive problems faster by utilizing multiple processors, CPU cores, or GPUs."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'GPU Computing' in MATLAB?",
+    "Option1": "Using the CPU for calculations.",
+    "Option2": "Using Graphics Processing Units (GPUs) for accelerating computations, especially for tasks involving large matrices and parallelizable algorithms.",
+    "Option3": "Computing with graphical user interfaces.",
+    "Option4": "Using general purpose processors.",
+    "Answer": "Using Graphics Processing Units (GPUs) for accelerating computations, especially for tasks involving large matrices and parallelizable algorithms."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Distributed Computing' in MATLAB?",
+    "Option1": "Distributing MATLAB installations across multiple computers.",
+    "Option2": "Running computations across a cluster of computers or a cloud environment to solve larger problems or achieve faster results.",
+    "Option3": "Sharing data between different MATLAB users.",
+    "Option4": "Computing with multiple programming languages.",
+    "Answer": "Running computations across a cluster of computers or a cloud environment to solve larger problems or achieve faster results."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'MATLAB Production Server'?",
+    "Option1": "A server for developing MATLAB code.",
+    "Option2": "A server for deploying MATLAB applications and components to production environments, enabling other applications to call MATLAB code as a service.",
+    "Option3": "A server for data storage.",
+    "Option4": "A server for running simulations.",
+    "Answer": "A server for deploying MATLAB applications and components to production environments, enabling other applications to call MATLAB code as a service."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'MATLAB Web App Server'?",
+    "Option1": "A server for hosting static websites.",
+    "Option2": "A server that enables you to host and share MATLAB web apps developed with App Designer, allowing users to run them in a web browser without a MATLAB installation.",
+    "Option3": "A server for managing databases.",
+    "Option4": "A server for real-time data streaming.",
+    "Answer": "A server that enables you to host and share MATLAB web apps developed with App Designer, allowing users to run them in a web browser without a MATLAB installation."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'MATLAB Coder'?",
+    "Option1": "A tool for writing C code in MATLAB.",
+    "Option2": "A tool that generates readable, compact, and portable C and C++ code from MATLAB code.",
+    "Option3": "A debugger for C++ code.",
+    "Option4": "A tool for converting C++ code to MATLAB.",
+    "Answer": "A tool that generates readable, compact, and portable C and C++ code from MATLAB code."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'HDL Coder'?",
+    "Option1": "A tool for generating C/C++ code.",
+    "Option2": "A tool that generates synthesizable VHDL and Verilog code from MATLAB functions and Simulink models for FPGA and ASIC implementation.",
+    "Option3": "A tool for high-level language translation.",
+    "Option4": "A tool for creating HTML files.",
+    "Answer": "A tool that generates synthesizable VHDL and Verilog code from MATLAB functions and Simulink models for FPGA and ASIC implementation."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Fixed-Point Designer'?",
+    "Option1": "A tool for designing fixed-point numbers.",
+    "Option2": "A toolbox that provides tools for designing and implementing fixed-point algorithms and systems, enabling efficient hardware implementation.",
+    "Option3": "A tool for designing floating-point systems.",
+    "Option4": "A tool for designing statistical models.",
+    "Answer": "A toolbox that provides tools for designing and implementing fixed-point algorithms and systems, enabling efficient hardware implementation."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Stateflow' (revisited for clarity)?",
+    "Option1": "A tool for data plotting.",
+    "Option2": "An environment for modeling and simulating reactive systems, control logic, and task scheduling using state machines and flow charts.",
+    "Option3": "A tool for managing system resources.",
+    "Option4": "A tool for creating user interfaces.",
+    "Answer": "An environment for modeling and simulating reactive systems, control logic, and task scheduling using state machines and flow charts."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Simulink Coder'?",
+    "Option1": "A tool for generating MATLAB code from Simulink.",
+    "Option2": "A tool that generates C and C++ code from Simulink models for rapid prototyping, hardware-in-the-loop (HIL) testing, and production deployment.",
+    "Option3": "A tool for simulating C code.",
+    "Option4": "A tool for compiling Simulink models.",
+    "Answer": "A tool that generates C and C++ code from Simulink models for rapid prototyping, hardware-in-the-loop (HIL) testing, and production deployment."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Embedded Coder'?",
+    "Option1": "A tool for general purpose C/C++ code generation.",
+    "Option2": "A tool that generates highly optimized, customizable C and C++ code for embedded processors from Simulink models and Stateflow charts.",
+    "Option3": "A tool for generating code for web applications.",
+    "Option4": "A tool for converting C code to MATLAB.",
+    "Answer": "A tool that generates highly optimized, customizable C and C++ code for embedded processors from Simulink models and Stateflow charts."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Real-Time Workshop' (now integrated into Simulink Coder/Embedded Coder)?",
+    "Option1": "A workshop for real-time systems.",
+    "Option2": "A suite of tools for generating C code from Simulink models for real-time execution on various targets.",
+    "Option3": "A tool for real-time data acquisition.",
+    "Option4": "A tool for real-time plotting.",
+    "Answer": "A suite of tools for generating C code from Simulink models for real-time execution on various targets."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'SimEvents'?",
+    "Option1": "A tool for discrete-time simulation.",
+    "Option2": "A toolbox for modeling and simulating event-driven systems using discrete-event simulation.",
+    "Option3": "A tool for continuous-time simulation.",
+    "Option4": "A tool for managing system events.",
+    "Answer": "A toolbox for modeling and simulating event-driven systems using discrete-event simulation."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Simscape'?",
+    "Option1": "A tool for designing control systems.",
+    "Option2": "A toolbox for modeling and simulating multi-domain physical systems (mechanical, electrical, hydraulic, etc.) directly in Simulink.",
+    "Option3": "A tool for simulating chemical reactions.",
+    "Option4": "A tool for generating 3D models.",
+    "Answer": "A toolbox for modeling and simulating multi-domain physical systems (mechanical, electrical, hydraulic, etc.) directly in Simulink."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Image Processing Toolbox' used for?",
+    "Option1": "Processing audio signals.",
+    "Option2": "Performing image analysis, enhancement, segmentation, and registration.",
+    "Option3": "Processing text data.",
+    "Option4": "Creating 3D models.",
+    "Answer": "Performing image analysis, enhancement, segmentation, and registration."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Computer Vision Toolbox' used for?",
+    "Option1": "Developing web applications.",
+    "Option2": "Designing and testing computer vision, 3D vision, and video processing systems.",
+    "Option3": "Creating simulations.",
+    "Option4": "Analyzing financial data.",
+    "Answer": "Designing and testing computer vision, 3D vision, and video processing systems."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Signal Processing Toolbox' used for?",
+    "Option1": "Analyzing and synthesizing images.",
+    "Option2": "Analyzing, processing, and generating signals (e.g., audio, sensor data).",
+    "Option3": "Processing natural language.",
+    "Option4": "Performing numerical optimization.",
+    "Answer": "Analyzing, processing, and generating signals (e.g., audio, sensor data)."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Control System Toolbox' used for?",
+    "Option1": "Designing user interfaces.",
+    "Option2": "Designing and analyzing control systems, including PID controllers, state-space models, and frequency response analysis.",
+    "Option3": "Managing database systems.",
+    "Option4": "Controlling external hardware directly.",
+    "Answer": "Designing and analyzing control systems, including PID controllers, state-space models, and frequency response analysis."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Optimization Toolbox' used for?",
+    "Option1": "Improving code readability.",
+    "Option2": "Solving optimization problems, including linear programming, quadratic programming, and nonlinear optimization.",
+    "Option3": "Optimizing memory usage.",
+    "Option4": "Optimizing plotting performance.",
+    "Answer": "Solving optimization problems, including linear programming, quadratic programming, and nonlinear optimization."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Statistics and Machine Learning Toolbox' used for?",
+    "Option1": "Developing web applications.",
+    "Option2": "Performing statistical analysis, data fitting, clustering, classification, and machine learning tasks.",
+    "Option3": "Processing signals.",
+    "Option4": "Designing embedded systems.",
+    "Answer": "Performing statistical analysis, data fitting, clustering, classification, and machine learning tasks."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Deep Learning Toolbox' used for?",
+    "Option1": "Statistical modeling.",
+    "Option2": "Designing, training, and deploying deep neural networks for tasks like image classification, object detection, and natural language processing.",
+    "Option3": "Traditional machine learning algorithms.",
+    "Option4": "Data visualization.",
+    "Answer": "Designing, training, and deploying deep neural networks for tasks like image classification, object detection, and natural language processing."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Reinforcement Learning Toolbox'?",
+    "Option1": "A tool for supervised learning.",
+    "Option2": "A toolbox for designing, training, and simulating reinforcement learning agents for complex control and decision-making problems.",
+    "Option3": "A tool for unsupervised learning.",
+    "Option4": "A tool for creating neural networks.",
+    "Answer": "A toolbox for designing, training, and simulating reinforcement learning agents for complex control and decision-making problems."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Sensor Fusion and Tracking Toolbox'?",
+    "Option1": "A tool for data acquisition from sensors.",
+    "Option2": "A toolbox for designing, simulating, and testing multi-sensor fusion and object tracking systems.",
+    "Option3": "A tool for sensor calibration.",
+    "Option4": "A tool for analyzing sensor data.",
+    "Answer": "A toolbox for designing, simulating, and testing multi-sensor fusion and object tracking systems."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Robotics System Toolbox'?",
+    "Option1": "A tool for designing robotic hardware.",
+    "Option2": "A toolbox for designing, simulating, and testing robotic manipulators, mobile robots, and humanoid robots.",
+    "Option3": "A tool for industrial automation.",
+    "Option4": "A tool for controlling robots in real-time.",
+    "Answer": "A toolbox for designing, simulating, and testing robotic manipulators, mobile robots, and humanoid robots."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Automated Driving Toolbox'?",
+    "Option1": "A tool for designing autonomous vehicles.",
+    "Option2": "A toolbox for designing, simulating, and testing automated driving systems, including perception, planning, and control.",
+    "Option3": "A tool for vehicle diagnostics.",
+    "Option4": "A tool for developing navigation systems.",
+    "Answer": "A toolbox for designing, simulating, and testing automated driving systems, including perception, planning, and control."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Lidar Toolbox'?",
+    "Option1": "A tool for processing camera data.",
+    "Option2": "A toolbox for designing, analyzing, and processing LiDAR (Light Detection and Ranging) sensor data.",
+    "Option3": "A tool for sound processing.",
+    "Option4": "A tool for radar data processing.",
+    "Answer": "A toolbox for designing, analyzing, and processing LiDAR (Light Detection and Ranging) sensor data."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Phased Array System Toolbox'?",
+    "Option1": "A tool for analyzing audio signals.",
+    "Option2": "A toolbox for designing, simulating, and analyzing phased array systems for radar, sonar, and communications applications.",
+    "Option3": "A tool for antenna design.",
+    "Option4": "A tool for optical system design.",
+    "Answer": "A toolbox for designing, simulating, and analyzing phased array systems for radar, sonar, and communications applications."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Communications Toolbox'?",
+    "Option1": "A tool for networking computers.",
+    "Option2": "A toolbox for designing, simulating, and analyzing communication systems, including modulation, coding, and channel modeling.",
+    "Option3": "A tool for inter-process communication.",
+    "Option4": "A tool for data encryption.",
+    "Answer": "A toolbox for designing, simulating, and analyzing communication systems, including modulation, coding, and channel modeling."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'DSP System Toolbox'?",
+    "Option1": "A tool for general purpose signal processing.",
+    "Option2": "A toolbox for designing and simulating streaming signal processing systems, including filters, adaptive algorithms, and multi-rate processing.",
+    "Option3": "A tool for digital image processing.",
+    "Option4": "A tool for analog signal processing.",
+    "Answer": "A toolbox for designing and simulating streaming signal processing systems, including filters, adaptive algorithms, and multi-rate processing."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Audio Toolbox'?",
+    "Option1": "A tool for processing images.",
+    "Option2": "A toolbox for designing, analyzing, and processing audio signals, including audio effects, sound synthesis, and acoustic measurements.",
+    "Option3": "A tool for video processing.",
+    "Option4": "A tool for text-to-speech conversion.",
+    "Answer": "A toolbox for designing, analyzing, and processing audio signals, including audio effects, sound synthesis, and acoustic measurements."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Wavelet Toolbox'?",
+    "Option1": "A tool for Fourier analysis.",
+    "Option2": "A toolbox for performing wavelet analysis, including continuous and discrete wavelet transforms, and multiresolution analysis.",
+    "Option3": "A tool for spectral analysis.",
+    "Option4": "A tool for time-domain analysis.",
+    "Answer": "A toolbox for performing wavelet analysis, including continuous and discrete wavelet transforms, and multiresolution analysis."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Curve Fitting Toolbox'?",
+    "Option1": "A tool for plotting curves.",
+    "Option2": "A toolbox for fitting curves and surfaces to data, performing regression analysis, and interpolating data.",
+    "Option3": "A tool for generating random curves.",
+    "Option4": "A tool for designing mathematical functions.",
+    "Answer": "A toolbox for fitting curves and surfaces to data, performing regression analysis, and interpolating data."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Partial Differential Equation Toolbox'?",
+    "Option1": "A tool for solving ordinary differential equations.",
+    "Option2": "A toolbox for solving partial differential equations (PDEs) using the finite element method.",
+    "Option3": "A tool for symbolic differentiation.",
+    "Option4": "A tool for optimization.",
+    "Answer": "A toolbox for solving partial differential equations (PDEs) using the finite element method."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Global Optimization Toolbox'?",
+    "Option1": "A tool for local optimization.",
+    "Option2": "A toolbox for solving global optimization problems, including multi-start, genetic algorithm, and pattern search.",
+    "Option3": "A tool for linear programming.",
+    "Option4": "A tool for constrained optimization.",
+    "Answer": "A toolbox for solving global optimization problems, including multi-start, genetic algorithm, and pattern search."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Financial Toolbox'?",
+    "Option1": "A tool for managing personal finances.",
+    "Option2": "A toolbox for financial modeling and analysis, including portfolio optimization, risk management, and option pricing.",
+    "Option3": "A tool for budgeting.",
+    "Option4": "A tool for economic forecasting.",
+    "Answer": "A toolbox for financial modeling and analysis, including portfolio optimization, risk management, and option pricing."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Econometrics Toolbox'?",
+    "Option1": "A tool for analyzing economic policies.",
+    "Option2": "A toolbox for analyzing and modeling economic data, including time series analysis, regression analysis, and econometric models.",
+    "Option3": "A tool for financial trading.",
+    "Option4": "A tool for market research.",
+    "Answer": "A toolbox for analyzing and modeling economic data, including time series analysis, regression analysis, and econometric models."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Data Acquisition Toolbox'?",
+    "Option1": "A tool for data storage.",
+    "Option2": "A toolbox for connecting MATLAB to data acquisition hardware, allowing you to acquire, process, and analyze live data.",
+    "Option3": "A tool for database management.",
+    "Option4": "A tool for cloud data storage.",
+    "Answer": "A toolbox for connecting MATLAB to data acquisition hardware, allowing you to acquire, process, and analyze live data."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Instrument Control Toolbox'?",
+    "Option1": "A tool for controlling musical instruments.",
+    "Option2": "A toolbox for connecting MATLAB to instruments and test equipment using standard communication protocols.",
+    "Option3": "A tool for controlling robots.",
+    "Option4": "A tool for home automation.",
+    "Answer": "A toolbox for connecting MATLAB to instruments and test equipment using standard communication protocols."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'ROS Toolbox'?",
+    "Option1": "A tool for operating systems.",
+    "Option2": "A toolbox that provides an interface between MATLAB and ROS (Robot Operating System), enabling communication with ROS networks.",
+    "Option3": "A tool for network monitoring.",
+    "Option4": "A tool for data encryption.",
+    "Answer": "A toolbox that provides an interface between MATLAB and ROS (Robot Operating System), enabling communication with ROS networks."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'SimBiology'?",
+    "Option1": "A tool for simulating chemical reactions.",
+    "Option2": "A toolbox for modeling, simulating, and analyzing biological systems, including pharmacokinetics, pharmacodynamics, and systems biology.",
+    "Option3": "A tool for genetic engineering.",
+    "Option4": "A tool for environmental modeling.",
+    "Answer": "A toolbox for modeling, simulating, and analyzing biological systems, including pharmacokinetics, pharmacodynamics, and systems biology."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Bioinformatics Toolbox'?",
+    "Option1": "A tool for analyzing biological images.",
+    "Option2": "A toolbox for analyzing genomic, proteomic, and other biological data, including sequence analysis, gene expression, and phylogenetic analysis.",
+    "Option3": "A tool for drug discovery.",
+    "Option4": "A tool for medical imaging.",
+    "Answer": "A toolbox for analyzing genomic, proteomic, and other biological data, including sequence analysis, gene expression, and phylogenetic analysis."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Medical Imaging Toolbox'?",
+    "Option1": "A tool for general image processing.",
+    "Option2": "A toolbox for processing, analyzing, and visualizing medical images, including DICOM data, 3D imaging, and quantitative analysis.",
+    "Option3": "A tool for clinical diagnosis.",
+    "Option4": "A tool for surgical planning.",
+    "Answer": "A toolbox for processing, analyzing, and visualizing medical images, including DICOM data, 3D imaging, and quantitative analysis."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Risk Management Toolbox'?",
+    "Option1": "A tool for project management.",
+    "Option2": "A toolbox for analyzing and modeling financial risk, including credit risk, market risk, and operational risk.",
+    "Option3": "A tool for cybersecurity.",
+    "Option4": "A tool for supply chain management.",
+    "Answer": "A toolbox for analyzing and modeling financial risk, including credit risk, market risk, and operational risk."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Database Toolbox'?",
+    "Option1": "A tool for creating databases.",
+    "Option2": "A toolbox for connecting MATLAB to relational and non-relational databases, allowing you to read, write, and analyze data.",
+    "Option3": "A tool for data encryption.",
+    "Option4": "A tool for data visualization.",
+    "Answer": "A toolbox for connecting MATLAB to relational and non-relational databases, allowing you to read, write, and analyze data."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Big Data' support in MATLAB?",
+    "Option1": "Handling small datasets efficiently.",
+    "Option2": "Features and functions that enable processing and analyzing large datasets that exceed memory capacity, using parallel and distributed computing.",
+    "Option3": "A new data type in MATLAB.",
+    "Option4": "A specific file format for large data.",
+    "Answer": "Features and functions that enable processing and analyzing large datasets that exceed memory capacity, using parallel and distributed computing."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'tall arrays' in MATLAB?",
+    "Option1": "Arrays with many columns.",
+    "Option2": "Arrays that are too large to fit in memory, allowing MATLAB to process them in chunks or on a cluster without loading the entire dataset.",
+    "Option3": "Arrays with large values.",
+    "Option4": "Arrays for graphical representation.",
+    "Answer": "Arrays that are too large to fit in memory, allowing MATLAB to process them in chunks or on a cluster without loading the entire dataset."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the primary function of the `doc` command in MATLAB?",
+    "Option1": "To create a new document.",
+    "Option2": "To open the MATLAB documentation browser for a specified function or topic.",
+    "Option3": "To save a file as a document.",
+    "Option4": "To convert a file to PDF.",
+    "Answer": "To open the MATLAB documentation browser for a specified function or topic."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the `lookfor` command used for?",
+    "Option1": "To search for files on your computer.",
+    "Option2": "To search the first line of all M-files in the MATLAB path for a specified keyword.",
+    "Option3": "To search for variables in the workspace.",
+    "Option4": "To search for specific data within a matrix.",
+    "Answer": "To search the first line of all M-files in the MATLAB path for a specified keyword."
+  },
+  {
+    "question_no.": 205,
+    "Question": "How do you add a folder to the MATLAB path permanently?",
+    "Option1": "addpath('myfolder')",
+    "Option2": "pathtool",
+    "Option3": "setpath('myfolder')",
+    "Option4": "Both B and using `savepath` after `addpath`.",
+    "Answer": "Both B and using `savepath` after `addpath`."
+  }
+]

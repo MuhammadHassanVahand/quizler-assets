@@ -1,0 +1,2701 @@
+[
+  {
+    "word_no.": 1,
+    "word": "mean",
+    "hints": [
+      "The average value in a data set.",
+      "Calculated by summing all values and dividing by the count.",
+      "A measure of central tendency."
+    ]
+  },
+  {
+    "word_no.": 2,
+    "word": "median",
+    "hints": [
+      "The middle value in an ordered data set.",
+      "Less affected by outliers than the mean.",
+      "A measure of central tendency."
+    ]
+  },
+  {
+    "word_no.": 3,
+    "word": "mode",
+    "hints": [
+      "The most frequent value in a data set.",
+      "Can be used with non-numerical data.",
+      "A measure of central tendency."
+    ]
+  },
+  {
+    "word_no.": 4,
+    "word": "range",
+    "hints": [
+      "The difference between the highest and lowest values.",
+      "A simple measure of spread.",
+      "Tells you how far apart the extreme values are."
+    ]
+  },
+  {
+    "word_no.": 5,
+    "word": "variance",
+    "hints": [
+      "A measure of how far a set of numbers is spread out.",
+      "Calculated as the average of the squared differences from the mean.",
+      "The square of the standard deviation."
+    ]
+  },
+  {
+    "word_no.": 6,
+    "word": "standard deviation",
+    "hints": [
+      "The square root of the variance.",
+      "A common measure of spread.",
+      "Indicates how much the data deviates from the average."
+    ]
+  },
+  {
+    "word_no.": 7,
+    "word": "probability",
+    "hints": [
+      "A measure of the likelihood of an event.",
+      "Expressed as a number between 0 and 1.",
+      "The chance of something happening."
+    ]
+  },
+  {
+    "word_no.": 8,
+    "word": "hypothesis",
+    "hints": [
+      "A proposed explanation for a phenomenon.",
+      "A starting point for an investigation.",
+      "A statement to be tested."
+    ]
+  },
+  {
+    "word_no.": 9,
+    "word": "sample",
+    "hints": [
+      "A subset of a larger group.",
+      "Used to represent a population.",
+      "A smaller group taken for a study."
+    ]
+  },
+  {
+    "word_no.": 10,
+    "word": "population",
+    "hints": [
+      "The entire group that is being studied.",
+      "The complete set of items of interest.",
+      "The larger group from which a sample is drawn."
+    ]
+  },
+  {
+    "word_no.": 11,
+    "word": "normal distribution",
+    "hints": [
+      "Also known as the bell curve.",
+      "A symmetrical, continuous probability distribution.",
+      "Many natural phenomena follow this pattern."
+    ]
+  },
+  {
+    "word_no.": 12,
+    "word": "histogram",
+    "hints": [
+      "A graph that uses bars to show frequency.",
+      "Used for continuous data.",
+      "Visualizes the distribution of a data set."
+    ]
+  },
+  {
+    "word_no.": 13,
+    "word": "bar chart",
+    "hints": [
+      "A graph with rectangular bars.",
+      "Used for comparing different categories.",
+      "Shows discrete data."
+    ]
+  },
+  {
+    "word_no.": 14,
+    "word": "pie chart",
+    "hints": [
+      "A circular graph divided into slices.",
+      "Represents parts of a whole.",
+      "Used to show percentages."
+    ]
+  },
+  {
+    "word_no.": 15,
+    "word": "scatter plot",
+    "hints": [
+      "A graph showing the relationship between two variables.",
+      "Points are plotted on a Cartesian plane.",
+      "Used to identify correlation."
+    ]
+  },
+  {
+    "word_no.": 16,
+    "word": "regression",
+    "hints": [
+      "A method for predicting an outcome.",
+      "Models the relationship between variables.",
+      "Used to find a line of best fit."
+    ]
+  },
+  {
+    "word_no.": 17,
+    "word": "correlation",
+    "hints": [
+      "A measure of how two variables are related.",
+      "Can be positive, negative, or zero.",
+      "Does not imply causation."
+    ]
+  },
+  {
+    "word_no.": 18,
+    "word": "coefficient",
+    "hints": [
+      "A number multiplying a variable.",
+      "Represents the slope in a regression model.",
+      "A value that describes a relationship."
+    ]
+  },
+  {
+    "word_no.": 19,
+    "word": "p value",
+    "hints": [
+      "The probability of obtaining observed results.",
+      "A number used to support or reject a hypothesis.",
+      "If it's low, the null hypothesis is rejected."
+    ]
+  },
+  {
+    "word_no.": 20,
+    "word": "confidence interval",
+    "hints": [
+      "A range of values likely to contain a population parameter.",
+      "Often used with a 95 percent level.",
+      "Gives a range of plausible values."
+    ]
+  },
+  {
+    "word_no.": 21,
+    "word": "significance level",
+    "hints": [
+      "The threshold for rejecting the null hypothesis.",
+      "Typically set at 0.05 or 0.01.",
+      "Also known as alpha."
+    ]
+  },
+  {
+    "word_no.": 22,
+    "word": "outlier",
+    "hints": [
+      "An observation far from other observations.",
+      "Can have a large effect on the mean.",
+      "A data point that is a long way from the others."
+    ]
+  },
+  {
+    "word_no.": 23,
+    "word": "skewness",
+    "hints": [
+      "A measure of asymmetry in a distribution.",
+      "Can be positive or negative.",
+      "Indicates if a distribution has a long tail on one side."
+    ]
+  },
+  {
+    "word_no.": 24,
+    "word": "kurtosis",
+    "hints": [
+      "A measure of the 'tailedness' of a distribution.",
+      "How heavy the tails of a distribution are.",
+      "A measure of the shape of a distribution's peak."
+    ]
+  },
+  {
+    "word_no.": 25,
+    "word": "quartile",
+    "hints": [
+      "Values that divide a data set into four equal parts.",
+      "Used to calculate the interquartile range.",
+      "Q1, Q2, and Q3."
+    ]
+  },
+  {
+    "word_no.": 26,
+    "word": "interquartile range",
+    "hints": [
+      "The difference between the third and first quartiles.",
+      "A robust measure of variability.",
+      "The range of the middle 50 percent of the data."
+    ]
+  },
+  {
+    "word_no.": 27,
+    "word": "percentile",
+    "hints": [
+      "A measure used in statistics to indicate the value below which a given percentage of observations falls.",
+      "Often used in standardized test scores.",
+      "Tells you a value's position relative to the rest of the data."
+    ]
+  },
+  {
+    "word_no.": 28,
+    "word": "box plot",
+    "hints": [
+      "A graphical representation of data.",
+      "Shows the five-number summary.",
+      "Useful for identifying outliers."
+    ]
+  },
+  {
+    "word_no.": 29,
+    "word": "degrees of freedom",
+    "hints": [
+      "The number of independent pieces of information.",
+      "Related to the number of observations minus the number of parameters.",
+      "A concept in hypothesis testing."
+    ]
+  },
+  {
+    "word_no.": 30,
+    "word": "z score",
+    "hints": [
+      "A measure of how many standard deviations from the mean a data point is.",
+      "Also known as a standard score.",
+      "Used in normal distribution calculations."
+    ]
+  },
+  {
+    "word_no.": 31,
+    "word": "t test",
+    "hints": [
+      "A type of inferential statistic.",
+      "Used to determine if there is a significant difference between two groups.",
+      "A test of means."
+    ]
+  },
+  {
+    "word_no.": 32,
+    "word": "chi square",
+    "hints": [
+      "A statistical test for categorical data.",
+      "Used to test for independence or goodness of fit.",
+      "Symbolized by the Greek letter."
+    ]
+  },
+  {
+    "word_no.": 33,
+    "word": "anova",
+    "hints": [
+      "Stands for Analysis of Variance.",
+      "Used to compare means of three or more groups.",
+      "A hypothesis testing method."
+    ]
+  },
+  {
+    "word_no.": 34,
+    "word": "parameter",
+    "hints": [
+      "A numerical characteristic of a population.",
+      "A constant in an equation.",
+      "Often represented by a Greek letter."
+    ]
+  },
+  {
+    "word_no.": 35,
+    "word": "statistic",
+    "hints": [
+      "A numerical characteristic of a sample.",
+      "Used to estimate a population parameter.",
+      "A value calculated from a data set."
+    ]
+  },
+  {
+    "word_no.": 36,
+    "word": "binomial distribution",
+    "hints": [
+      "A discrete probability distribution.",
+      "Describes the outcomes of a series of independent trials.",
+      "Involves only two possible outcomes, like success or failure."
+    ]
+  },
+  {
+    "word_no.": 37,
+    "word": "poisson distribution",
+    "hints": [
+      "A discrete probability distribution.",
+      "Used to model the number of events in a fixed interval of time or space.",
+      "Often used for rare events."
+    ]
+  },
+  {
+    "word_no.": 38,
+    "word": "central limit theorem",
+    "hints": [
+      "A fundamental concept in probability theory.",
+      "States that the sampling distribution of the mean will be a normal distribution.",
+      "Applies regardless of the population's original distribution."
+    ]
+  },
+  {
+    "word_no.": 39,
+    "word": "regression analysis",
+    "hints": [
+      "A set of statistical processes for estimating relationships among variables.",
+      "Includes simple linear and multiple types.",
+      "Used for prediction and forecasting."
+    ]
+  },
+  {
+    "word_no.": 40,
+    "word": "null hypothesis",
+    "hints": [
+      "The statement being tested.",
+      "Often states there is no effect or no difference.",
+      "The default assumption."
+    ]
+  },
+  {
+    "word_no.": 41,
+    "word": "alternative hypothesis",
+    "hints": [
+      "A statement that contradicts the null hypothesis.",
+      "Often states there is an effect or a difference.",
+      "What the researcher hopes to prove."
+    ]
+  },
+  {
+    "word_no.": 42,
+    "word": "type one error",
+    "hints": [
+      "Rejecting the null hypothesis when it is true.",
+      "Also known as a false positive.",
+      "The probability is denoted by alpha."
+    ]
+  },
+  {
+    "word_no.": 43,
+    "word": "type two error",
+    "hints": [
+      "Failing to reject the null hypothesis when it is false.",
+      "Also known as a false negative.",
+      "The probability is denoted by beta."
+    ]
+  },
+  {
+    "word_no.": 44,
+    "word": "power of a test",
+    "hints": [
+      "The probability of correctly rejecting the null hypothesis.",
+      "One minus beta.",
+      "The ability to detect a true effect."
+    ]
+  },
+  {
+    "word_no.": 45,
+    "word": "categorical data",
+    "hints": [
+      "Data that can be sorted into groups or categories.",
+      "Examples include gender or eye color.",
+      "Also known as qualitative data."
+    ]
+  },
+  {
+    "word_no.": 46,
+    "word": "quantitative data",
+    "hints": [
+      "Data that is numerical.",
+      "Examples include height or age.",
+      "Can be discrete or continuous."
+    ]
+  },
+  {
+    "word_no.": 47,
+    "word": "discrete data",
+    "hints": [
+      "Data that can only take on certain values.",
+      "Typically whole numbers.",
+      "Examples include the number of students in a class."
+    ]
+  },
+  {
+    "word_no.": 48,
+    "word": "continuous data",
+    "hints": [
+      "Data that can take any value within a range.",
+      "Examples include height or weight.",
+      "Can be measured."
+    ]
+  },
+  {
+    "word_no.": 49,
+    "word": "stem and leaf plot",
+    "hints": [
+      "A method for displaying quantitative data.",
+      "Shows the distribution of a set of data.",
+      "Organizes data into 'stems' and 'leaves'."
+    ]
+  },
+  {
+    "word_no.": 50,
+    "word": "time series",
+    "hints": [
+      "A sequence of data points indexed in time.",
+      "Used for forecasting.",
+      "Plots data over time, like stock prices."
+    ]
+  },
+  {
+    "word_no.": 51,
+    "word": "covariance",
+    "hints": [
+      "A measure of the joint variability of two random variables.",
+      "Indicates how two variables change together.",
+      "Related to correlation."
+    ]
+  },
+  {
+    "word_no.": 52,
+    "word": "scatter diagram",
+    "hints": [
+      "Another name for a scatter plot.",
+      "Shows the relationship between two variables.",
+      "A graphical representation."
+    ]
+  },
+  {
+    "word_no.": 53,
+    "word": "ordinal scale",
+    "hints": [
+      "A measurement scale where data has a natural order.",
+      "The difference between ranks is not defined.",
+      "Examples include rankings like first, second, third."
+    ]
+  },
+  {
+    "word_no.": 54,
+    "word": "nominal scale",
+    "hints": [
+      "A measurement scale with no order.",
+      "Categorical data without a ranking.",
+      "Examples include gender, race, or religion."
+    ]
+  },
+  {
+    "word_no.": 55,
+    "word": "interval scale",
+    "hints": [
+      "A measurement scale with ordered data and equal intervals.",
+      "Zero is arbitrary.",
+      "Examples include temperature in Celsius or Fahrenheit."
+    ]
+  },
+  {
+    "word_no.": 56,
+    "word": "ratio scale",
+    "hints": [
+      "A measurement scale with a true zero point.",
+      "The highest level of measurement.",
+      "Examples include height, weight, or age."
+    ]
+  },
+  {
+    "word_no.": 57,
+    "word": "data",
+    "hints": [
+      "Facts and statistics collected together.",
+      "The information used in an analysis.",
+      "Raw information."
+    ]
+  },
+  {
+    "word_no.": 58,
+    "word": "variable",
+    "hints": [
+      "A characteristic that can be measured or counted.",
+      "Changes or varies.",
+      "Can be independent or dependent."
+    ]
+  },
+  {
+    "word_no.": 59,
+    "word": "independent variable",
+    "hints": [
+      "A variable that is manipulated in an experiment.",
+      "The cause in a cause-and-effect relationship.",
+      "The explanatory variable."
+    ]
+  },
+  {
+    "word_no.": 60,
+    "word": "dependent variable",
+    "hints": [
+      "The variable that is measured or observed.",
+      "The effect in a cause-and-effect relationship.",
+      "The response variable."
+    ]
+  },
+  {
+    "word_no.": 61,
+    "word": "random sampling",
+    "hints": [
+      "A technique where every member of a population has an equal chance of being selected.",
+      "Ensures the sample is representative.",
+      "Helps avoid bias."
+    ]
+  },
+  {
+    "word_no.": 62,
+    "word": "convenience sampling",
+    "hints": [
+      "Selecting individuals who are easily accessible.",
+      "A non-random method.",
+      "Can lead to biased results."
+    ]
+  },
+  {
+    "word_no.": 63,
+    "word": "cluster sampling",
+    "hints": [
+      "Dividing a population into groups and randomly selecting some of those groups.",
+      "Used when a population is geographically spread out.",
+      "A type of probability sampling."
+    ]
+  },
+  {
+    "word_no.": 64,
+    "word": "stratified sampling",
+    "hints": [
+      "Dividing a population into subgroups before sampling.",
+      "Ensures representation from different groups.",
+      "A type of probability sampling."
+    ]
+  },
+  {
+    "word_no.": 65,
+    "word": "systematic sampling",
+    "hints": [
+      "Selecting every nth individual from a list.",
+      "A simple type of probability sampling.",
+      "Often used for quality control."
+    ]
+  },
+  {
+    "word_no.": 66,
+    "word": "placebo effect",
+    "hints": [
+      "A phenomenon where a person's physical or mental health appears to improve.",
+      "Caused by the belief that they are receiving treatment.",
+      "Used in clinical trials to control for psychological factors."
+    ]
+  },
+  {
+    "word_no.": 67,
+    "word": "census",
+    "hints": [
+      "An official count or survey of a population.",
+      "Involves collecting data from every member of a population.",
+      "Done by governments to gather information."
+    ]
+  },
+  {
+    "word_no.": 68,
+    "word": "survey",
+    "hints": [
+      "A method of gathering information from a sample of people.",
+      "Often involves questionnaires.",
+      "Used to understand opinions or behaviors."
+    ]
+  },
+  {
+    "word_no.": 69,
+    "word": "experiment",
+    "hints": [
+      "A controlled scientific procedure.",
+      "Used to test a hypothesis.",
+      "Involves manipulating an independent variable."
+    ]
+  },
+  {
+    "word_no.": 70,
+    "word": "observational study",
+    "hints": [
+      "A study where no variables are manipulated.",
+      "Researchers observe and record data.",
+      "Used when it's unethical to conduct an experiment."
+    ]
+  },
+  {
+    "word_no.": 71,
+    "word": "bimodal",
+    "hints": [
+      "A distribution with two modes.",
+      "Having two distinct peaks.",
+      "Describes a data set with two common values."
+    ]
+  },
+  {
+    "word_no.": 72,
+    "word": "multimodal",
+    "hints": [
+      "A distribution with more than two modes.",
+      "Having multiple peaks.",
+      "Describes a data set with several common values."
+    ]
+  },
+  {
+    "word_no.": 73,
+    "word": "uniform distribution",
+    "hints": [
+      "A probability distribution where all outcomes are equally likely.",
+      "Shaped like a rectangle.",
+      "Has a constant probability density."
+    ]
+  },
+  {
+    "word_no.": 74,
+    "word": "exponential distribution",
+    "hints": [
+      "A continuous probability distribution.",
+      "Used to model the time between events in a Poisson process.",
+      "Often used for reliability analysis."
+    ]
+  },
+  {
+    "word_no.": 75,
+    "word": "degrees of freedom",
+    "hints": [
+      "A parameter in statistics that relates to the number of values that can vary freely.",
+      "Used in hypothesis testing.",
+      "Often represented as df."
+    ]
+  },
+  {
+    "word_no.": 76,
+    "word": "standard error",
+    "hints": [
+      "The standard deviation of a sampling distribution.",
+      "A measure of the accuracy of an estimate.",
+      "Tells you how much the sample mean is likely to vary from the population mean."
+    ]
+  },
+  {
+    "word_no.": 77,
+    "word": "sampling distribution",
+    "hints": [
+      "The probability distribution of a statistic.",
+      "Often used with the mean or proportion.",
+      "The distribution of a sample statistic over many samples."
+    ]
+  },
+  {
+    "word_no.": 78,
+    "word": "sampling with replacement",
+    "hints": [
+      "A method where an item is returned to the population after being selected.",
+      "The probability of selecting an item remains constant.",
+      "The sample size can be larger than the population."
+    ]
+  },
+  {
+    "word_no.": 79,
+    "word": "sampling without replacement",
+    "hints": [
+      "A method where an item is not returned to the population after being selected.",
+      "The probability of selecting an item changes with each draw.",
+      "The sample size cannot exceed the population."
+    ]
+  },
+  {
+    "word_no.": 80,
+    "word": "correlation coefficient",
+    "hints": [
+      "A number between -1 and 1 that measures the strength of a linear relationship.",
+      "Symbolized by 'r'.",
+      "A value of 1 means a perfect positive relationship."
+    ]
+  },
+  {
+    "word_no.": 81,
+    "word": "regression line",
+    "hints": [
+      "The line of best fit in a scatter plot.",
+      "Used to predict values of a dependent variable.",
+      "Also known as the least squares line."
+    ]
+  },
+  {
+    "word_no.": 82,
+    "word": "extrapolation",
+    "hints": [
+      "Estimating a value outside the original range of data.",
+      "Can be a risky practice.",
+      "Going beyond the data points you have."
+    ]
+  },
+  {
+    "word_no.": 83,
+    "word": "interpolation",
+    "hints": [
+      "Estimating a value within the original range of data.",
+      "Generally considered a reliable practice.",
+      "Estimating a value between two known points."
+    ]
+  },
+  {
+    "word_no.": 84,
+    "word": "residual",
+    "hints": [
+      "The difference between an observed value and a predicted value.",
+      "The error in a regression model.",
+      "The vertical distance from a data point to the regression line."
+    ]
+  },
+  {
+    "word_no.": 85,
+    "word": "residual plot",
+    "hints": [
+      "A scatter plot of the residuals against the independent variable.",
+      "Used to check the assumptions of linear regression.",
+      "Should show no pattern if the model is a good fit."
+    ]
+  },
+  {
+    "word_no.": 86,
+    "word": "lurking variable",
+    "hints": [
+      "A variable that affects the relationship between two other variables.",
+      "Not included in the study.",
+      "Can cause a spurious correlation."
+    ]
+  },
+  {
+    "word_no.": 87,
+    "word": "spurious correlation",
+    "hints": [
+      "A relationship between two variables that appears to be related but is not.",
+      "Caused by a third, unobserved factor.",
+      "Example: ice cream sales and shark attacks."
+    ]
+  },
+  {
+    "word_no.": 88,
+    "word": "causation",
+    "hints": [
+      "The relationship between cause and effect.",
+      "Proven by a controlled experiment.",
+      "Not the same as correlation."
+    ]
+  },
+  {
+    "word_no.": 89,
+    "word": "bias",
+    "hints": [
+      "A systematic distortion of results.",
+      "A tendency to favor certain outcomes.",
+      "Can occur in sampling or measurement."
+    ]
+  },
+  {
+    "word_no.": 90,
+    "word": "response bias",
+    "hints": [
+      "A bias that occurs when respondents answer inaccurately.",
+      "Can be intentional or unintentional.",
+      "Ex: a person lying on a survey."
+    ]
+  },
+  {
+    "word_no.": 91,
+    "word": "nonresponse bias",
+    "hints": [
+      "A bias that occurs when a significant portion of a sample does not respond.",
+      "The non-respondents may differ from the respondents.",
+      "Can skew the results of a survey."
+    ]
+  },
+  {
+    "word_no.": 92,
+    "word": "sampling bias",
+    "hints": [
+      "A bias that occurs when some members of a population are more likely to be selected.",
+      "The sample is not representative of the population.",
+      "Example: surveying only people at a specific location."
+    ]
+  },
+  {
+    "word_no.": 93,
+    "word": "experimental design",
+    "hints": [
+      "The structure and plan of an experiment.",
+      "A key part of the scientific method.",
+      "Ensures that the results are valid and reliable."
+    ]
+  },
+  {
+    "word_no.": 94,
+    "word": "observational study",
+    "hints": [
+      "A study where researchers observe subjects without interfering.",
+      "No treatments are applied.",
+      "Used when it is impractical or unethical to conduct an experiment."
+    ]
+  },
+  {
+    "word_no.": 95,
+    "word": "case control study",
+    "hints": [
+      "A type of observational study.",
+      "Used to compare a group with a condition to a group without the condition.",
+      "Often used in medical research to find risk factors."
+    ]
+  },
+  {
+    "word_no.": 96,
+    "word": "cohort study",
+    "hints": [
+      "A type of observational study.",
+      "Follows a group of subjects over time.",
+      "Used to find risk factors for a disease."
+    ]
+  },
+  {
+    "word_no.": 97,
+    "word": "double blind",
+    "hints": [
+      "An experiment where neither the participants nor the researchers know who is receiving the treatment.",
+      "A method to prevent bias.",
+      "Used in clinical trials."
+    ]
+  },
+  {
+    "word_no.": 98,
+    "word": "replication",
+    "hints": [
+      "Repeating a study to see if the same results are obtained.",
+      "An important part of the scientific method.",
+      "Increases confidence in the findings."
+    ]
+  },
+  {
+    "word_no.": 99,
+    "word": "placebo",
+    "hints": [
+      "A substance with no medicinal effect.",
+      "Used as a control in clinical trials.",
+      "A sugar pill."
+    ]
+  },
+  {
+    "word_no.": 100,
+    "word": "control group",
+    "hints": [
+      "The group that does not receive the treatment in an experiment.",
+      "Used for comparison.",
+      "Helps to isolate the effect of the treatment."
+    ]
+  },
+  {
+    "word_no.": 101,
+    "word": "treatment group",
+    "hints": [
+      "The group that receives the treatment in an experiment.",
+      "Also known as the experimental group.",
+      "The group of interest."
+    ]
+  },
+  {
+    "word_no.": 102,
+    "word": "lurking variable",
+    "hints": [
+      "An unobserved variable that influences the relationship between two others.",
+      "Can lead to a false association.",
+      "It is a hidden factor."
+    ]
+  },
+  {
+    "word_no.": 103,
+    "word": "confounding variable",
+    "hints": [
+      "A variable that is related to both the independent and dependent variables.",
+      "Can obscure the true relationship.",
+      "A variable that is not controlled for."
+    ]
+  },
+  {
+    "word_no.": 104,
+    "word": "margin of error",
+    "hints": [
+      "A measure of the precision of a survey's results.",
+      "The range of values within which the true value is likely to lie.",
+      "Often seen in political polls."
+    ]
+  },
+  {
+    "word_no.": 105,
+    "word": "confidence level",
+    "hints": [
+      "The probability that a confidence interval contains the true parameter.",
+      "Commonly 95 percent.",
+      "Represents the reliability of an estimate."
+    ]
+  },
+  {
+    "word_no.": 106,
+    "word": "confidence interval",
+    "hints": [
+      "A range of values that is likely to contain the true value of a parameter.",
+      "Built around the sample mean.",
+      "Gives an estimate of the true population mean."
+    ]
+  },
+  {
+    "word_no.": 107,
+    "word": "critical value",
+    "hints": [
+      "A value that a test statistic must exceed to reject the null hypothesis.",
+      "Determined by the significance level.",
+      "A threshold for a test."
+    ]
+  },
+  {
+    "word_no.": 108,
+    "word": "test statistic",
+    "hints": [
+      "A value calculated from sample data during a hypothesis test.",
+      "Used to decide whether to reject the null hypothesis.",
+      "Examples include t or z."
+    ]
+  },
+  {
+    "word_no.": 109,
+    "word": "z test",
+    "hints": [
+      "A hypothesis test for a single population mean.",
+      "Used when the population standard deviation is known.",
+      "Assumes a normal distribution."
+    ]
+  },
+  {
+    "word_no.": 110,
+    "word": "t test",
+    "hints": [
+      "A hypothesis test for a single population mean.",
+      "Used when the population standard deviation is unknown.",
+      "Involves degrees of freedom."
+    ]
+  },
+  {
+    "word_no.": 111,
+    "word": "chi square test",
+    "hints": [
+      "A test used with categorical data.",
+      "Tests for independence between two variables.",
+      "Also used for goodness of fit."
+    ]
+  },
+  {
+    "word_no.": 112,
+    "word": "linear regression",
+    "hints": [
+      "A statistical method to model the linear relationship between a dependent and independent variable.",
+      "The simplest form of regression analysis.",
+      "Produces a straight line."
+    ]
+  },
+  {
+    "word_no.": 113,
+    "word": "multiple regression",
+    "hints": [
+      "A statistical method that models the relationship between a dependent variable and two or more independent variables.",
+      "An extension of simple linear regression.",
+      "Used for more complex prediction models."
+    ]
+  },
+  {
+    "word_no.": 114,
+    "word": "r squared",
+    "hints": [
+      "A measure of how well the regression line fits the data.",
+      "The coefficient of determination.",
+      "Indicates the proportion of variance explained by the model."
+    ]
+  },
+  {
+    "word_no.": 115,
+    "word": "adjusted r squared",
+    "hints": [
+      "A modified version of r squared that accounts for the number of predictors.",
+      "Used to compare models with different numbers of independent variables.",
+      "Often a more reliable measure than r squared alone."
+    ]
+  },
+  {
+    "word_no.": 116,
+    "word": "ANOVA",
+    "hints": [
+      "Stands for Analysis of Variance.",
+      "A statistical test that compares the means of three or more groups.",
+      "Used to see if there is a significant difference between groups."
+    ]
+  },
+  {
+    "word_no.": 117,
+    "word": "f test",
+    "hints": [
+      "A statistical test based on the F-distribution.",
+      "Used in ANOVA to test the equality of variances.",
+      "Compares the variance between groups to the variance within groups."
+    ]
+  },
+  {
+    "word_no.": 118,
+    "word": "goodness of fit",
+    "hints": [
+      "A measure of how well a statistical model fits a set of observations.",
+      "Often used with the chi square test.",
+      "Indicates how well the data aligns with the model."
+    ]
+  },
+  {
+    "word_no.": 119,
+    "word": "contingency table",
+    "hints": [
+      "A table that shows the frequency of two or more variables.",
+      "Used with categorical data.",
+      "Also known as a cross-tabulation table."
+    ]
+  },
+  {
+    "word_no.": 120,
+    "word": "observational data",
+    "hints": [
+      "Data collected without any intervention or treatment.",
+      "Information gathered from surveys or records.",
+      "Not from a controlled experiment."
+    ]
+  },
+  {
+    "word_no.": 121,
+    "word": "experimental data",
+    "hints": [
+      "Data collected from a controlled experiment.",
+      "Information gathered from a treatment and control group.",
+      "Data collected with manipulation of a variable."
+    ]
+  },
+  {
+    "word_no.": 122,
+    "word": "population parameter",
+    "hints": [
+      "A characteristic of a whole group of people or things.",
+      "A measure that describes an entire population.",
+      "Examples are mu or sigma."
+    ]
+  },
+  {
+    "word_no.": 123,
+    "word": "sample statistic",
+    "hints": [
+      "A characteristic of a subgroup of people or things.",
+      "A measure that describes a sample.",
+      "Examples are x bar or s."
+    ]
+  },
+  {
+    "word_no.": 124,
+    "word": "frequency",
+    "hints": [
+      "The number of times an event occurs.",
+      "How often something happens.",
+      "Used to create histograms."
+    ]
+  },
+  {
+    "word_no.": 125,
+    "word": "relative frequency",
+    "hints": [
+      "The number of times an event occurs divided by the total number of observations.",
+      "Expressed as a proportion or percentage.",
+      "The proportion of times something happens."
+    ]
+  },
+  {
+    "word_no.": 126,
+    "word": "cumulative frequency",
+    "hints": [
+      "The running total of frequencies.",
+      "Used to create ogives.",
+      "The sum of all frequencies up to a certain point."
+    ]
+  },
+  {
+    "word_no.": 127,
+    "word": "ogive",
+    "hints": [
+      "A graph of a cumulative frequency distribution.",
+      "Shows the running total of data.",
+      "Looks like a rising S-curve."
+    ]
+  },
+  {
+    "word_no.": 128,
+    "word": "stem and leaf display",
+    "hints": [
+      "A simple way to represent quantitative data.",
+      "Sorts data by 'stems' and 'leaves'.",
+      "Gives a quick overview of the data's shape."
+    ]
+  },
+  {
+    "word_no.": 129,
+    "word": "five number summary",
+    "hints": [
+      "The minimum, first quartile, median, third quartile, and maximum.",
+      "Used to create a box plot.",
+      "Summarizes the distribution of a data set."
+    ]
+  },
+  {
+    "word_no.": 130,
+    "word": "trimmed mean",
+    "hints": [
+      "A measure of central tendency.",
+      "Calculated after removing a small percentage of the largest and smallest values.",
+      "Used to reduce the effect of outliers."
+    ]
+  },
+  {
+    "word_no.": 131,
+    "word": "weighted mean",
+    "hints": [
+      "A type of average where some values contribute more than others.",
+      "Each value is multiplied by a weight.",
+      "Used for calculating GPAs."
+    ]
+  },
+  {
+    "word_no.": 132,
+    "word": "geometric mean",
+    "hints": [
+      "A type of average used for values that are multiplied together.",
+      "Used to calculate average growth rates.",
+      "The nth root of the product of n values."
+    ]
+  },
+  {
+    "word_no.": 133,
+    "word": "harmonic mean",
+    "hints": [
+      "A type of average used for rates and ratios.",
+      "The reciprocal of the arithmetic mean of the reciprocals.",
+      "Used to average speeds over the same distance."
+    ]
+  },
+  {
+    "word_no.": 134,
+    "word": "Chebyshev s theorem",
+    "hints": [
+      "A theorem that provides a lower bound on the fraction of data within a certain number of standard deviations of the mean.",
+      "Applies to any distribution.",
+      "A more general rule than the empirical rule."
+    ]
+  },
+  {
+    "word_no.": 135,
+    "word": "empirical rule",
+    "hints": [
+      "A rule that describes the percentage of data within 1, 2, and 3 standard deviations of the mean.",
+      "Applies to normal distributions.",
+      "Also known as the 68-95-99.7 rule."
+    ]
+  },
+  {
+    "word_no.": 136,
+    "word": "normal curve",
+    "hints": [
+      "The graph of a normal distribution.",
+      "A bell shaped curve.",
+      "Symmetrical and unimodal."
+    ]
+  },
+  {
+    "word_no.": 137,
+    "word": "inflection point",
+    "hints": [
+      "A point on the normal curve where the curve changes direction.",
+      "One standard deviation away from the mean.",
+      "Where the curve changes from concave up to concave down."
+    ]
+  },
+  {
+    "word_no.": 138,
+    "word": "standard normal distribution",
+    "hints": [
+      "A special case of the normal distribution.",
+      "Has a mean of 0 and a standard deviation of 1.",
+      "Also known as the z-distribution."
+    ]
+  },
+  {
+    "word_no.": 139,
+    "word": "z table",
+    "hints": [
+      "A table that gives the area under the standard normal curve.",
+      "Used to find probabilities for z scores.",
+      "Also known as a z score table."
+    ]
+  },
+  {
+    "word_no.": 140,
+    "word": "t distribution",
+    "hints": [
+      "A probability distribution used in t tests.",
+      "Similar to the normal distribution but with heavier tails.",
+      "Used when the sample size is small."
+    ]
+  },
+  {
+    "word_no.": 141,
+    "word": "t table",
+    "hints": [
+      "A table used for finding critical values for t tests.",
+      "Requires degrees of freedom.",
+      "Used to find the area under the t distribution curve."
+    ]
+  },
+  {
+    "word_no.": 142,
+    "word": "probability mass function",
+    "hints": [
+      "A function that gives the probability of a discrete random variable being equal to a value.",
+      "Used with discrete distributions.",
+      "PMF."
+    ]
+  },
+  {
+    "word_no.": 143,
+    "word": "probability density function",
+    "hints": [
+      "A function that describes the relative likelihood for a continuous random variable.",
+      "The area under the curve gives the probability.",
+      "PDF."
+    ]
+  },
+  {
+    "word_no.": 144,
+    "word": "expected value",
+    "hints": [
+      "The long-run average of a random variable.",
+      "A weighted average of all possible values.",
+      "The mean of a probability distribution."
+    ]
+  },
+  {
+    "word_no.": 145,
+    "word": "law of large numbers",
+    "hints": [
+      "A theorem that describes the result of performing the same experiment many times.",
+      "The sample mean will approach the expected value.",
+      "The more trials, the closer the result is to the theoretical probability."
+    ]
+  },
+  {
+    "word_no.": 146,
+    "word": "bayesian statistics",
+    "hints": [
+      "A school of thought in statistics.",
+      "Uses Bayes' theorem to update the probability of a hypothesis.",
+      "Involves prior and posterior probabilities."
+    ]
+  },
+  {
+    "word_no.": 147,
+    "word": "frequentist inference",
+    "hints": [
+      "A school of thought in statistics.",
+      "Based on the frequency of events in repeated trials.",
+      "Uses p-values and confidence intervals."
+    ]
+  },
+  {
+    "word_no.": 148,
+    "word": "Bayes' theorem",
+    "hints": [
+      "A formula for conditional probability.",
+      "Calculates the probability of an event given prior knowledge.",
+      "A key concept in Bayesian statistics."
+    ]
+  },
+  {
+    "word_no.": 149,
+    "word": "prior probability",
+    "hints": [
+      "The initial probability of a hypothesis before considering evidence.",
+      "A key component of Bayes' theorem.",
+      "A belief before data is collected."
+    ]
+  },
+  {
+    "word_no.": 150,
+    "word": "posterior probability",
+    "hints": [
+      "The updated probability of a hypothesis after considering evidence.",
+      "The result of Bayes' theorem.",
+      "A belief after data is collected."
+    ]
+  },
+  {
+    "word_no.": 151,
+    "word": "likelihood function",
+    "hints": [
+      "A function that measures the plausibility of a statistical model.",
+      "Used in maximum likelihood estimation.",
+      "The probability of the data given a model."
+    ]
+  },
+  {
+    "word_no.": 152,
+    "word": "maximum likelihood estimation",
+    "hints": [
+      "A method for estimating the parameters of a statistical model.",
+      "Finds the parameter values that make the data most likely.",
+      "MLE."
+    ]
+  },
+  {
+    "word_no.": 153,
+    "word": "fisher",
+    "hints": [
+      "A highly influential English statistician.",
+      "Known for his work on ANOVA and maximum likelihood estimation.",
+      "Considered the 'father of modern statistics'."
+    ]
+  },
+  {
+    "word_no.": 154,
+    "word": "Gauss",
+    "hints": [
+      "A German mathematician and physicist.",
+      "His name is associated with the normal distribution.",
+      "Also known for his work in number theory and astronomy."
+    ]
+  },
+  {
+    "word_no.": 155,
+    "word": "student",
+    "hints": [
+      "The pseudonym of William Sealy Gosset.",
+      "Developed the t-distribution.",
+      "He worked at Guinness brewery."
+    ]
+  },
+  {
+    "word_no.": 156,
+    "word": "Pearson",
+    "hints": [
+      "An English mathematician and biometrician.",
+      "Known for the Pearson correlation coefficient.",
+      "A founder of modern statistics."
+    ]
+  },
+  {
+    "word_no.": 157,
+    "word": "descriptive statistics",
+    "hints": [
+      "Methods for summarizing and describing a data set.",
+      "Includes mean, median, mode, and standard deviation.",
+      "Focuses on a data set you have."
+    ]
+  },
+  {
+    "word_no.": 158,
+    "word": "inferential statistics",
+    "hints": [
+      "Methods for drawing conclusions about a population from a sample.",
+      "Includes hypothesis testing and confidence intervals.",
+      "Focuses on making generalizations."
+    ]
+  },
+  {
+    "word_no.": 159,
+    "word": "multivariate analysis",
+    "hints": [
+      "A statistical method that analyzes multiple variables at once.",
+      "Examples include principal component analysis.",
+      "A broad category of statistical methods."
+    ]
+  },
+  {
+    "word_no.": 160,
+    "word": "principal component analysis",
+    "hints": [
+      "A method for reducing the dimensionality of a data set.",
+      "Finds new variables that are linear combinations of the originals.",
+      "PCA."
+    ]
+  },
+  {
+    "word_no.": 161,
+    "word": "cluster analysis",
+    "hints": [
+      "A method for grouping a set of objects.",
+      "The goal is to put similar objects in the same group.",
+      "Used for market segmentation."
+    ]
+  },
+  {
+    "word_no.": 162,
+    "word": "factor analysis",
+    "hints": [
+      "A method for reducing the number of variables.",
+      "Identifies unobserved variables that explain the correlations among observed variables.",
+      "Used in psychology."
+    ]
+  },
+  {
+    "word_no.": 163,
+    "word": "time series analysis",
+    "hints": [
+      "A method for analyzing data that is collected over time.",
+      "Used for forecasting and prediction.",
+      "Includes methods like ARIMA."
+    ]
+  },
+  {
+    "word_no.": 164,
+    "word": "statistical modelling",
+    "hints": [
+      "The use of mathematical models to describe relationships between variables.",
+      "Used to make predictions and inferences.",
+      "Includes regression and ANOVA."
+    ]
+  },
+  {
+    "word_no.": 165,
+    "word": "Bayes factor",
+    "hints": [
+      "A ratio of the likelihood of two competing hypotheses.",
+      "Used in Bayesian statistics.",
+      "Compares the evidence for two models."
+    ]
+  },
+  {
+    "word_no.": 166,
+    "word": "Gibbs sampling",
+    "hints": [
+      "An algorithm for generating a sequence of samples from a multivariate probability distribution.",
+      "A Markov chain Monte Carlo algorithm.",
+      "Used in Bayesian inference."
+    ]
+  },
+  {
+    "word_no.": 167,
+    "word": "Markov chain Monte Carlo",
+    "hints": [
+      "A class of algorithms for sampling from a probability distribution.",
+      "Uses a random walk to explore a distribution.",
+      "MCMC."
+    ]
+  },
+  {
+    "word_no.": 168,
+    "word": "unbiased estimator",
+    "hints": [
+      "A statistic that's expected value is equal to the population parameter.",
+      "The sample mean is an example.",
+      "A good estimator."
+    ]
+  },
+  {
+    "word_no.": 169,
+    "word": "consistent estimator",
+    "hints": [
+      "An estimator that converges to the true value as the sample size increases.",
+      "The sample mean is an example.",
+      "Its variance goes to zero."
+    ]
+  },
+  {
+    "word_no.": 170,
+    "word": "efficient estimator",
+    "hints": [
+      "An estimator with a small variance.",
+      "A measure of the quality of an estimator.",
+      "The most precise estimator."
+    ]
+  },
+  {
+    "word_no.": 171,
+    "word": "robust statistics",
+    "hints": [
+      "Statistical methods that are not sensitive to outliers.",
+      "Examples include the median and interquartile range.",
+      "Resistant to extreme values."
+    ]
+  },
+  {
+    "word_no.": 172,
+    "word": "exploratory data analysis",
+    "hints": [
+      "An approach to analyzing data sets to summarize their main characteristics.",
+      "Uses visual methods and plots.",
+      "EDA."
+    ]
+  },
+  {
+    "word_no.": 173,
+    "word": "confirmatory data analysis",
+    "hints": [
+      "An approach to analyzing data that uses statistical tests to confirm hypotheses.",
+      "Involves hypothesis testing and p-values.",
+      "CDA."
+    ]
+  },
+  {
+    "word_no.": 174,
+    "word": "meta analysis",
+    "hints": [
+      "A statistical method that combines the results of multiple scientific studies.",
+      "Used to find a consensus or a more precise estimate.",
+      "A study of studies."
+    ]
+  },
+  {
+    "word_no.": 175,
+    "word": "statistical significance",
+    "hints": [
+      "The likelihood that a result is due to chance.",
+      "Measured with a p-value.",
+      "A result is considered this if the p-value is small."
+    ]
+  },
+  {
+    "word_no.": 176,
+    "word": "practical significance",
+    "hints": [
+      "The real-world importance of a result.",
+      "A large effect size.",
+      "A result can be statistically significant but not this."
+    ]
+  },
+  {
+    "word_no.": 177,
+    "word": "effect size",
+    "hints": [
+      "A measure of the strength of a relationship between two variables.",
+      "A measure of practical significance.",
+      "Examples include Cohen's d."
+    ]
+  },
+  {
+    "word_no.": 178,
+    "word": "cohen s d",
+    "hints": [
+      "A common measure of effect size.",
+      "Used to compare two means.",
+      "Measures the difference in means in terms of standard deviation."
+    ]
+  },
+  {
+    "word_no.": 179,
+    "word": "analysis of covariance",
+    "hints": [
+      "A statistical technique that combines ANOVA and regression.",
+      "Used to control for a confounding variable.",
+      "ANCOVA."
+    ]
+  },
+  {
+    "word_no.": 180,
+    "word": "multivariate analysis of variance",
+    "hints": [
+      "An extension of ANOVA to multiple dependent variables.",
+      "MANOVA."
+    ]
+  },
+  {
+    "word_no.": 181,
+    "word": "logistic regression",
+    "hints": [
+      "A statistical model for a binary dependent variable.",
+      "Used to predict the probability of a categorical outcome.",
+      "Used for classification problems."
+    ]
+  },
+  {
+    "word_no.": 182,
+    "word": "nonparametric statistics",
+    "hints": [
+      "Statistical methods that do not assume a specific distribution.",
+      "Used when the data is not normal.",
+      "Examples include the Mann-Whitney U test."
+    ]
+  },
+  {
+    "word_no.": 183,
+    "word": "parametric statistics",
+    "hints": [
+      "Statistical methods that assume a specific distribution.",
+      "Used when the data is normal.",
+      "Examples include t tests and ANOVA."
+    ]
+  },
+  {
+    "word_no.": 184,
+    "word": "mann whitney u test",
+    "hints": [
+      "A nonparametric test for comparing two independent groups.",
+      "Used when the assumptions for a t test are not met.",
+      "An alternative to the independent samples t test."
+    ]
+  },
+  {
+    "word_no.": 185,
+    "word": "wilcoxon signed rank test",
+    "hints": [
+      "A nonparametric test for comparing two related samples.",
+      "Used when the assumptions for a paired t test are not met.",
+      "An alternative to the paired t test."
+    ]
+  },
+  {
+    "word_no.": 186,
+    "word": "kruskal wallis test",
+    "hints": [
+      "A nonparametric test for comparing three or more independent groups.",
+      "An alternative to ANOVA.",
+      "Used when the assumptions for ANOVA are not met."
+    ]
+  },
+  {
+    "word_no.": 187,
+    "word": "friedman test",
+    "hints": [
+      "A nonparametric test for comparing three or more related samples.",
+      "Used when the assumptions for a repeated measures ANOVA are not met.",
+      "An alternative to repeated measures ANOVA."
+    ]
+  },
+  {
+    "word_no.": 188,
+    "word": "Spearman s rank correlation",
+    "hints": [
+      "A nonparametric measure of the strength of a relationship between two variables.",
+      "Based on the ranks of the data.",
+      "An alternative to Pearson's correlation."
+    ]
+  },
+  {
+    "word_no.": 189,
+    "word": "Kendall s tau",
+    "hints": [
+      "A nonparametric measure of the strength of a relationship between two variables.",
+      "Also known as Kendall's correlation coefficient.",
+      "Another alternative to Pearson's correlation."
+    ]
+  },
+  {
+    "word_no.": 190,
+    "word": "statistical power",
+    "hints": [
+      "The probability of correctly rejecting a false null hypothesis.",
+      "The ability of a test to detect a true effect.",
+      "One minus the probability of a Type II error."
+    ]
+  },
+  {
+    "word_no.": 191,
+    "word": "sample size",
+    "hints": [
+      "The number of observations in a sample.",
+      "Determines the power of a test.",
+      "Represented by the letter 'n'."
+    ]
+  },
+  {
+    "word_no.": 192,
+    "word": "sampling error",
+    "hints": [
+      "The difference between a sample statistic and a population parameter.",
+      "Occurs because you are only looking at a portion of the population.",
+      "Can be reduced by increasing sample size."
+    ]
+  },
+  {
+    "word_no.": 193,
+    "word": "nonsampling error",
+    "hints": [
+      "Errors that occur during the data collection process.",
+      "Includes things like nonresponse bias and measurement errors.",
+      "Errors that are not due to sampling."
+    ]
+  },
+  {
+    "word_no.": 194,
+    "word": "measurement error",
+    "hints": [
+      "Errors that occur when data is collected.",
+      "Can be due to faulty instruments or human error.",
+      "A type of nonsampling error."
+    ]
+  },
+  {
+    "word_no.": 195,
+    "word": "survey design",
+    "hints": [
+      "The process of creating a survey.",
+      "Includes writing questions and selecting a sampling method.",
+      "A key part of collecting data."
+    ]
+  },
+  {
+    "word_no.": 196,
+    "word": "random variable",
+    "hints": [
+      "A variable whose value is a numerical outcome of a random phenomenon.",
+      "Can be discrete or continuous.",
+      "A key concept in probability."
+    ]
+  },
+  {
+    "word_no.": 197,
+    "word": "Bernoulli trial",
+    "hints": [
+      "An experiment with only two possible outcomes.",
+      "Examples include a coin toss.",
+      "The outcomes are typically 'success' or 'failure'."
+    ]
+  },
+  {
+    "word_no.": 198,
+    "word": "expected value",
+    "hints": [
+      "The long-run average of a random variable.",
+      "The mean of a probability distribution.",
+      "E(X)."
+    ]
+  },
+  {
+    "word_no.": 199,
+    "word": "variance of a random variable",
+    "hints": [
+      "A measure of the spread of a probability distribution.",
+      "Calculated as the expected value of the squared deviation from the mean.",
+      "Var(X)."
+    ]
+  },
+  {
+    "word_no.": 200,
+    "word": "joint probability",
+    "hints": [
+      "The probability of two events occurring together.",
+      "P(A and B).",
+      "Used in contingency tables."
+    ]
+  },
+  {
+    "word_no.": 201,
+    "word": "marginal probability",
+    "hints": [
+      "The probability of a single event occurring.",
+      "Found in the margins of a contingency table.",
+      "The probability of one variable ignoring others."
+    ]
+  },
+  {
+    "word_no.": 202,
+    "word": "conditional probability",
+    "hints": [
+      "The probability of an event occurring given that another event has already occurred.",
+      "P(A given B).",
+      "A key concept in Bayes' theorem."
+    ]
+  },
+  {
+    "word_no.": 203,
+    "word": "independent events",
+    "hints": [
+      "Two events where the outcome of one does not affect the outcome of the other.",
+      "P(A and B) = P(A) * P(B).",
+      "Examples: rolling a die and flipping a coin."
+    ]
+  },
+  {
+    "word_no.": 204,
+    "word": "mutually exclusive events",
+    "hints": [
+      "Two events that cannot occur at the same time.",
+      "P(A and B) = 0.",
+      "Examples: rolling a 1 and rolling a 2 on a single die."
+    ]
+  },
+  {
+    "word_no.": 205,
+    "word": "union of events",
+    "hints": [
+      "The event that A or B or both occur.",
+      "P(A or B).",
+      "A U B."
+    ]
+  },
+  {
+    "word_no.": 206,
+    "word": "intersection of events",
+    "hints": [
+      "The event that both A and B occur.",
+      "P(A and B).",
+      "A intersection B."
+    ]
+  },
+  {
+    "word_no.": 207,
+    "word": "law of total probability",
+    "hints": [
+      "A fundamental rule relating marginal and conditional probabilities.",
+      "States that the total probability of an outcome is the sum of its probabilities.",
+      "A foundational rule of probability theory."
+    ]
+  },
+  {
+    "word_no.": 208,
+    "word": "Bayesian inference",
+    "hints": [
+      "A method of statistical inference where Bayes' theorem is used to update the probability of a hypothesis.",
+      "A form of statistical modeling.",
+      "A key part of the Bayesian approach to statistics."
+    ]
+  },
+  {
+    "word_no.": 209,
+    "word": "maximum a posteriori",
+    "hints": [
+      "A method of statistical inference that finds a point estimate of an unobserved quantity.",
+      "MAP estimation.",
+      "A common technique in Bayesian statistics."
+    ]
+  },
+  {
+    "word_no.": 210,
+    "word": "conjugate prior",
+    "hints": [
+      "A mathematical concept used in Bayesian statistics.",
+      "Makes the posterior distribution have the same functional form as the prior distribution.",
+      "Simplifies calculations."
+    ]
+  },
+  {
+    "word_no.": 211,
+    "word": "frequentist inference",
+    "hints": [
+      "An approach to statistics where probability is defined as the long-run frequency of an event.",
+      "P-values and confidence intervals are key concepts.",
+      "Also known as classical statistics."
+    ]
+  },
+  {
+    "word_no.": 212,
+    "word": "likelihood ratio test",
+    "hints": [
+      "A statistical test for comparing two statistical models.",
+      "Based on the ratio of the likelihoods of the two models.",
+      "Used to choose between competing models."
+    ]
+  },
+  {
+    "word_no.": 213,
+    "word": "Akaike information criterion",
+    "hints": [
+      "A measure of the relative quality of statistical models.",
+      "Used for model selection.",
+      "AIC."
+    ]
+  },
+  {
+    "word_no.": 214,
+    "word": "bayesian information criterion",
+    "hints": [
+      "A measure of the relative quality of statistical models.",
+      "Used for model selection.",
+      "BIC."
+    ]
+  },
+  {
+    "word_no.": 215,
+    "word": "linear model",
+    "hints": [
+      "A statistical model that assumes a linear relationship between variables.",
+      "Includes linear regression and ANOVA.",
+      "A foundational concept in statistics."
+    ]
+  },
+  {
+    "word_no.": 216,
+    "word": "general linear model",
+    "hints": [
+      "A broad class of statistical models.",
+      "Includes regression, ANOVA, and ANCOVA.",
+      "GLM."
+    ]
+  },
+  {
+    "word_no.": 217,
+    "word": "generalized linear model",
+    "hints": [
+      "An extension of the general linear model.",
+      "Used for dependent variables that are not normally distributed.",
+      "GLiM."
+    ]
+  },
+  {
+    "word_no.": 218,
+    "word": "logistic regression",
+    "hints": [
+      "A type of generalized linear model.",
+      "Used for predicting a binary outcome.",
+      "Used in a wide variety of fields."
+    ]
+  },
+  {
+    "word_no.": 219,
+    "word": "time series model",
+    "hints": [
+      "A statistical model for data that is collected over time.",
+      "Examples include ARIMA and GARCH.",
+      "Used for forecasting."
+    ]
+  },
+  {
+    "word_no.": 220,
+    "word": "autoregressive model",
+    "hints": [
+      "A type of time series model.",
+      "Predicts future values based on past values.",
+      "AR."
+    ]
+  },
+  {
+    "word_no.": 221,
+    "word": "moving average model",
+    "hints": [
+      "A type of time series model.",
+      "Predicts future values based on past forecast errors.",
+      "MA."
+    ]
+  },
+  {
+    "word_no.": 222,
+    "word": "autoregressive integrated moving average",
+    "hints": [
+      "A popular time series model.",
+      "Combines AR and MA models.",
+      "ARIMA."
+    ]
+  },
+  {
+    "word_no.": 223,
+    "word": "ARCH model",
+    "hints": [
+      "A time series model for volatility.",
+      "Autoregressive conditional heteroskedasticity.",
+      "Used in finance to model stock prices."
+    ]
+  },
+  {
+    "word_no.": 224,
+    "word": "GARCH model",
+    "hints": [
+      "A more general version of the ARCH model.",
+      "Generalized autoregressive conditional heteroskedasticity.",
+      "Used for modeling volatility in financial markets."
+    ]
+  },
+  {
+    "word_no.": 225,
+    "word": "Markov model",
+    "hints": [
+      "A statistical model that assumes the future depends only on the present state.",
+      "The 'memoryless' property.",
+      "Used for modeling sequential data."
+    ]
+  },
+  {
+    "word_no.": 226,
+    "word": "hidden Markov model",
+    "hints": [
+      "A statistical model where the states are not directly observed.",
+      "Used in speech recognition.",
+      "HMM."
+    ]
+  },
+  {
+    "word_no.": 227,
+    "word": "Monte Carlo simulation",
+    "hints": [
+      "A computational method that relies on repeated random sampling.",
+      "Used to model complex systems.",
+      "A simulation method."
+    ]
+  },
+  {
+    "word_no.": 228,
+    "word": "bootstrapping",
+    "hints": [
+      "A statistical method for resampling.",
+      "Used to estimate the sampling distribution of a statistic.",
+      "Used when the population distribution is unknown."
+    ]
+  },
+  {
+    "word_no.": 229,
+    "word": "jackknifing",
+    "hints": [
+      "A resampling technique for estimating a statistic's bias and standard error.",
+      "Removes one observation at a time.",
+      "A method for estimating accuracy."
+    ]
+  },
+  {
+    "word_no.": 230,
+    "word": "cross validation",
+    "hints": [
+      "A method for assessing the performance of a statistical model.",
+      "Divides the data into training and testing sets.",
+      "Used to prevent overfitting."
+    ]
+  },
+  {
+    "word_no.": 231,
+    "word": "overfitting",
+    "hints": [
+      "A problem where a model fits the training data too well.",
+      "The model does not generalize to new data.",
+      "A complex model with too many parameters."
+    ]
+  },
+  {
+    "word_no.": 232,
+    "word": "underfitting",
+    "hints": [
+      "A problem where a model is too simple to capture the underlying relationship.",
+      "The model does not fit the training data well.",
+      "A simple model."
+    ]
+  },
+  {
+    "word_no.": 233,
+    "word": "regularization",
+    "hints": [
+      "A technique used to prevent overfitting.",
+      "Adds a penalty to the model's parameters.",
+      "Examples include Lasso and Ridge."
+    ]
+  },
+  {
+    "word_no.": 234,
+    "word": "lasso regression",
+    "hints": [
+      "A type of linear regression that uses regularization.",
+      "Can shrink some coefficients to zero.",
+      "Useful for feature selection."
+    ]
+  },
+  {
+    "word_no.": 235,
+    "word": "ridge regression",
+    "hints": [
+      "A type of linear regression that uses regularization.",
+      "Shrinks all coefficients towards zero but does not set them to zero.",
+      "Used to deal with multicollinearity."
+    ]
+  },
+  {
+    "word_no.": 236,
+    "word": "elastic net",
+    "hints": [
+      "A regularization technique that combines Lasso and Ridge.",
+      "Combines the penalties of two other methods.",
+      "Used for model selection and regularization."
+    ]
+  },
+  {
+    "word_no.": 237,
+    "word": "gradient descent",
+    "hints": [
+      "An optimization algorithm used to find the minimum of a function.",
+      "Iteratively moves in the direction of the steepest descent.",
+      "Used to train machine learning models."
+    ]
+  },
+  {
+    "word_no.": 238,
+    "word": "stochastic gradient descent",
+    "hints": [
+      "A variation of gradient descent.",
+      "Uses a single training example to calculate the gradient.",
+      "SGD."
+    ]
+  },
+  {
+    "word_no.": 239,
+    "word": "learning rate",
+    "hints": [
+      "A parameter in optimization algorithms.",
+      "Determines the size of the steps taken in the direction of the minimum.",
+      "Can be a fixed value or change over time."
+    ]
+  },
+  {
+    "word_no.": 240,
+    "word": "loss function",
+    "hints": [
+      "A function that measures the error of a model's predictions.",
+      "Also known as a cost function.",
+      "The goal of an optimization algorithm is to minimize this."
+    ]
+  },
+  {
+    "word_no.": 241,
+    "word": "entropy",
+    "hints": [
+      "A measure of uncertainty or randomness.",
+      "Used in information theory.",
+      "A key concept in machine learning."
+    ]
+  },
+  {
+    "word_no.": 242,
+    "word": "cross entropy",
+    "hints": [
+      "A measure of the difference between two probability distributions.",
+      "Used as a loss function in classification problems.",
+      "A key concept in machine learning."
+    ]
+  },
+  {
+    "word_no.": 243,
+    "word": "kolmogorov smirnov test",
+    "hints": [
+      "A nonparametric test for comparing two distributions.",
+      "Used to test if a sample comes from a specific distribution.",
+      "KS test."
+    ]
+  },
+  {
+    "word_no.": 244,
+    "word": "Shapiro-Wilk test",
+    "hints": [
+      "A test for normality.",
+      "Used to test if a sample comes from a normal distribution.",
+      "A popular test for checking assumptions."
+    ]
+  },
+  {
+    "word_no.": 245,
+    "word": "Levene's test",
+    "hints": [
+      "A test for the equality of variances.",
+      "Used to check an assumption of ANOVA.",
+      "Used to see if the variances of two or more groups are equal."
+    ]
+  },
+  {
+    "word_no.": 246,
+    "word": "Cochran's Q test",
+    "hints": [
+      "A nonparametric test for comparing more than two related groups.",
+      "Used for nominal data.",
+      "An extension of the McNemar test."
+    ]
+  },
+  {
+    "word_no.": 247,
+    "word": "McNemar test",
+    "hints": [
+      "A nonparametric test for comparing two related groups.",
+      "Used for nominal data.",
+      "Used to see if there is a change in proportions."
+    ]
+  },
+  {
+    "word_no.": 248,
+    "word": "Fisher's exact test",
+    "hints": [
+      "A statistical test for a 2x2 contingency table.",
+      "Used when the sample size is small.",
+      "An alternative to the chi-square test."
+    ]
+  },
+  {
+    "word_no.": 249,
+    "word": "p value fallacy",
+    "hints": [
+      "A common misunderstanding about p-values.",
+      "Mistakenly interpreting the p-value as the probability that the null hypothesis is true.",
+      "A misconception in statistics."
+    ]
+  },
+  {
+    "word_no.": 250,
+    "word": "data snooping",
+    "hints": [
+      "The practice of repeatedly analyzing data to find a statistically significant result.",
+      "A form of p-hacking.",
+      "Can lead to false positives."
+    ]
+  },
+  {
+    "word_no.": 251,
+    "word": "multiple comparisons problem",
+    "hints": [
+      "The issue that arises when performing many statistical tests on the same data set.",
+      "Increases the probability of a Type I error.",
+      "Corrected by methods like the Bonferroni correction."
+    ]
+  },
+  {
+    "word_no.": 252,
+    "word": "Bonferroni correction",
+    "hints": [
+      "A method for correcting for multiple comparisons.",
+      "Adjusts the significance level.",
+      "A simple but conservative method."
+    ]
+  },
+  {
+    "word_no.": 253,
+    "word": "false discovery rate",
+    "hints": [
+      "A method for correcting for multiple comparisons.",
+      "Less conservative than the Bonferroni correction.",
+      "Controls the expected proportion of false discoveries."
+    ]
+  },
+  {
+    "word_no.": 254,
+    "word": "statistical paradox",
+    "hints": [
+      "A situation where a seemingly logical conclusion is contradicted by the data.",
+      "Examples include Simpson's paradox.",
+      "A puzzling result."
+    ]
+  },
+  {
+    "word_no.": 255,
+    "word": "Simpson s paradox",
+    "hints": [
+      "A statistical paradox.",
+      "A trend that appears in several different groups of data disappears or reverses when the groups are combined.",
+      "A famous example involves a gender bias study."
+    ]
+  },
+  {
+    "word_no.": 256,
+    "word": "central tendency",
+    "hints": [
+      "A measure that represents the center of a data set.",
+      "Includes mean, median, and mode.",
+      "A single value that describes the location of the data."
+    ]
+  },
+  {
+    "word_no.": 257,
+    "word": "variability",
+    "hints": [
+      "A measure of the spread of a data set.",
+      "Includes range, variance, and standard deviation.",
+      "A single value that describes the dispersion of the data."
+    ]
+  },
+  {
+    "word_no.": 258,
+    "word": "standardization",
+    "hints": [
+      "The process of converting a variable to have a mean of 0 and a standard deviation of 1.",
+      "Used to compare variables with different units.",
+      "Involves calculating z-scores."
+    ]
+  },
+  {
+    "word_no.": 259,
+    "word": "normalization",
+    "hints": [
+      "The process of scaling a variable to have a value between 0 and 1.",
+      "Used to compare variables with different scales.",
+      "A common practice in machine learning."
+    ]
+  },
+  {
+    "word_no.": 260,
+    "word": "imputation",
+    "hints": [
+      "The process of replacing missing data with substituted values.",
+      "A method for handling missing data.",
+      "Examples include mean or median imputation."
+    ]
+  },
+  {
+    "word_no.": 261,
+    "word": "feature engineering",
+    "hints": [
+      "The process of using domain knowledge to create new variables from existing ones.",
+      "Used to improve the performance of a model.",
+      "A key step in machine learning."
+    ]
+  },
+  {
+    "word_no.": 262,
+    "word": "feature selection",
+    "hints": [
+      "The process of selecting a subset of relevant variables for a model.",
+      "Used to improve performance and reduce complexity.",
+      "A key step in machine learning."
+    ]
+  },
+  {
+    "word_no.": 263,
+    "word": "supervised learning",
+    "hints": [
+      "A type of machine learning.",
+      "The model is trained on labeled data.",
+      "Examples include regression and classification."
+    ]
+  },
+  {
+    "word_no.": 264,
+    "word": "unsupervised learning",
+    "hints": [
+      "A type of machine learning.",
+      "The model is trained on unlabeled data.",
+      "Examples include clustering and dimensionality reduction."
+    ]
+  },
+  {
+    "word_no.": 265,
+    "word": "reinforcement learning",
+    "hints": [
+      "A type of machine learning.",
+      "An agent learns to make decisions by receiving rewards or punishments.",
+      "Used for training game-playing AI."
+    ]
+  },
+  {
+    "word_no.": 266,
+    "word": "decision tree",
+    "hints": [
+      "A type of supervised learning algorithm.",
+      "Uses a tree-like structure to make decisions.",
+      "A simple and interpretable model."
+    ]
+  },
+  {
+    "word_no.": 267,
+    "word": "random forest",
+    "hints": [
+      "A type of supervised learning algorithm.",
+      "An ensemble method that combines multiple decision trees.",
+      "An improvement on decision trees."
+    ]
+  },
+  {
+    "word_no.": 268,
+    "word": "support vector machine",
+    "hints": [
+      "A type of supervised learning algorithm.",
+      "Used for classification and regression.",
+      "SVM."
+    ]
+  },
+  {
+    "word_no.": 269,
+    "word": "naive Bayes",
+    "hints": [
+      "A type of supervised learning algorithm.",
+      "Based on Bayes' theorem.",
+      "Assumes that features are independent."
+    ]
+  },
+  {
+    "word_no.": 270,
+    "word": "k-nearest neighbors",
+    "hints": [
+      "A simple supervised learning algorithm.",
+      "Classifies a data point based on its neighbors.",
+      "KNN."
+    ]
+  },
+  {
+    "word_no.": 271,
+    "word": "k-means clustering",
+    "hints": [
+      "A type of unsupervised learning algorithm.",
+      "Divides a data set into k clusters.",
+      "Used for customer segmentation."
+    ]
+  },
+  {
+    "word_no.": 272,
+    "word": "hierarchical clustering",
+    "hints": [
+      "A type of unsupervised learning algorithm.",
+      "Builds a hierarchy of clusters.",
+      "Produces a dendrogram."
+    ]
+  },
+  {
+    "word_no.": 273,
+    "word": "DBSCAN",
+    "hints": [
+      "A density-based clustering algorithm.",
+      "Finds clusters of arbitrary shape.",
+      "Does not require a pre-specified number of clusters."
+    ]
+  },
+  {
+    "word_no.": 274,
+    "word": "principal component analysis",
+    "hints": [
+      "A dimensionality reduction technique.",
+      "Finds the principal components of a data set.",
+      "PCA."
+    ]
+  },
+  {
+    "word_no.": 275,
+    "word": "singular value decomposition",
+    "hints": [
+      "A matrix factorization technique.",
+      "Used for dimensionality reduction.",
+      "SVD."
+    ]
+  },
+  {
+    "word_no.": 276,
+    "word": "eigenvalue",
+    "hints": [
+      "A scalar that is a characteristic of a linear transformation.",
+      "Used in principal component analysis.",
+      "A number associated with an eigenvector."
+    ]
+  },
+  {
+    "word_no.": 277,
+    "word": "eigenvector",
+    "hints": [
+      "A non-zero vector that changes by a scalar factor when a linear transformation is applied to it.",
+      "Used in principal component analysis.",
+      "A vector associated with an eigenvalue."
+    ]
+  },
+  {
+    "word_no.": 278,
+    "word": "variance inflation factor",
+    "hints": [
+      "A measure of multicollinearity.",
+      "Indicates how much the variance of an estimated regression coefficient is increased.",
+      "VIF."
+    ]
+  },
+  {
+    "word_no.": 279,
+    "word": "heteroscedasticity",
+    "hints": [
+      "A condition where the variance of the residuals is not constant.",
+      "Violates an assumption of linear regression.",
+      "Can be visualized with a residual plot."
+    ]
+  },
+  {
+    "word_no.": 280,
+    "word": "homoscedasticity",
+    "hints": [
+      "A condition where the variance of the residuals is constant.",
+      "An assumption of linear regression.",
+      "The opposite of heteroscedasticity."
+    ]
+  },
+  {
+    "word_no.": 281,
+    "word": "multicollinearity",
+    "hints": [
+      "A phenomenon where two or more independent variables are highly correlated.",
+      "Can make it difficult to interpret a regression model.",
+      "Measured with the variance inflation factor."
+    ]
+  },
+  {
+    "word_no.": 282,
+    "word": "autocorrelation",
+    "hints": [
+      "The correlation between a time series and a lagged version of itself.",
+      "A pattern in the residuals of a time series model.",
+      "A violation of an assumption of linear regression."
+    ]
+  },
+  {
+    "word_no.": 283,
+    "word": "stationarity",
+    "hints": [
+      "A property of a time series.",
+      "The mean, variance, and autocorrelation are constant over time.",
+      "A key assumption of many time series models."
+    ]
+  },
+  {
+    "word_no.": 284,
+    "word": "unit root",
+    "hints": [
+      "A property of a time series that can make it non-stationary.",
+      "A key concept in time series analysis.",
+      "Requires differencing to make the series stationary."
+    ]
+  },
+  {
+    "word_no.": 285,
+    "word": "differencing",
+    "hints": [
+      "A method for making a time series stationary.",
+      "Involves subtracting consecutive values.",
+      "Used to remove trends."
+    ]
+  },
+  {
+    "word_no.": 286,
+    "word": "smoothing",
+    "hints": [
+      "A technique for removing noise from a time series.",
+      "Examples include moving averages.",
+      "Used to highlight the underlying trend."
+    ]
+  },
+  {
+    "word_no.": 287,
+    "word": "exponential smoothing",
+    "hints": [
+      "A type of smoothing technique.",
+      "Gives more weight to recent observations.",
+      "Used for forecasting."
+    ]
+  },
+  {
+    "word_no.": 288,
+    "word": "Kalman filter",
+    "hints": [
+      "A statistical algorithm for estimating the state of a system.",
+      "Used in navigation and control systems.",
+      "A key concept in time series analysis."
+    ]
+  },
+  {
+    "word_no.": 289,
+    "word": "Bayesian network",
+    "hints": [
+      "A probabilistic graphical model.",
+      "Represents a set of variables and their dependencies.",
+      "Used for causal inference."
+    ]
+  },
+  {
+    "word_no.": 290,
+    "word": "causal inference",
+    "hints": [
+      "The process of drawing a conclusion about a cause-and-effect relationship.",
+      "A key topic in statistics and machine learning.",
+      "A more difficult problem than correlation."
+    ]
+  },
+  {
+    "word_no.": 291,
+    "word": "DAG",
+    "hints": [
+      "A directed acyclic graph.",
+      "Used to represent causal relationships.",
+      "A key tool in causal inference."
+    ]
+  },
+  {
+    "word_no.": 292,
+    "word": "propensity score matching",
+    "hints": [
+      "A statistical technique for causal inference.",
+      "Used to balance groups on confounding variables.",
+      "A method for controlling for confounding."
+    ]
+  },
+  {
+    "word_no.": 293,
+    "word": "regression discontinuity design",
+    "hints": [
+      "A quasi-experimental design.",
+      "Used to estimate the causal effect of an intervention.",
+      "RDD."
+    ]
+  },
+  {
+    "word_no.": 294,
+    "word": "instrumental variables",
+    "hints": [
+      "A statistical technique for causal inference.",
+      "Used to estimate the effect of a treatment when it is not possible to conduct a randomized experiment.",
+      "IV."
+    ]
+  },
+  {
+    "word_no.": 295,
+    "word": "randomized controlled trial",
+    "hints": [
+      "An experimental design.",
+      "Participants are randomly assigned to a treatment or control group.",
+      "The gold standard for causal inference."
+    ]
+  },
+  {
+    "word_no.": 296,
+    "word": "Fisher information",
+    "hints": [
+      "A concept in estimation theory.",
+      "Measures the amount of information about a parameter contained in a random variable.",
+      "Used to find the lower bound on the variance of an estimator."
+    ]
+  },
+  {
+    "word_no.": 297,
+    "word": "Cramér-Rao bound",
+    "hints": [
+      "A lower bound on the variance of any unbiased estimator.",
+      "Related to Fisher information.",
+      "A fundamental result in estimation theory."
+    ]
+  },
+  {
+    "word_no.": 298,
+    "word": "sufficient statistic",
+    "hints": [
+      "A statistic that captures all the information about a parameter from a sample.",
+      "No other statistic can provide additional information.",
+      "A key concept in estimation theory."
+    ]
+  },
+  {
+    "word_no.": 299,
+    "word": "maximum a posteriori",
+    "hints": [
+      "A method of statistical inference.",
+      "Finds a point estimate that maximizes the posterior distribution.",
+      "MAP estimation."
+    ]
+  },
+  {
+    "word_no.": 300,
+    "word": "Monte Carlo method",
+    "hints": [
+      "A broad class of computational algorithms.",
+      "Relies on repeated random sampling.",
+      "Used for simulations and numerical integration."
+    ]
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Microsoft Azure primarily known for?",
+    "Option1": "On-premises data center management",
+    "Option2": "A cloud computing platform with a growing collection of integrated services",
+    "Option3": "Mobile application development IDE",
+    "Option4": "Operating system for personal computers",
+    "Answer": "A cloud computing platform with a growing collection of integrated services"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a core service category in Azure?",
+    "Option1": "Compute",
+    "Option2": "Storage",
+    "Option3": "Networking",
+    "Option4": "Desktop Publishing",
+    "Answer": "Desktop Publishing"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is an Azure 'Resource Group'?",
+    "Option1": "A collection of virtual machines",
+    "Option2": "A logical container for Azure resources, allowing you to manage them as a single entity.",
+    "Option3": "A physical server rack",
+    "Option4": "A security policy",
+    "Answer": "A logical container for Azure resources, allowing you to manage them as a single entity."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is an Azure 'Subscription'?",
+    "Option1": "A single Azure resource",
+    "Option2": "A billing boundary and a logical container for resources, linking them to an Azure account.",
+    "Option3": "A type of virtual network",
+    "Option4": "A geographical region",
+    "Answer": "A billing boundary and a logical container for resources, linking them to an Azure account."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is an Azure 'Region'?",
+    "Option1": "A single data center",
+    "Option2": "A geographical area containing one or more data centers, designed to be independent from each other.",
+    "Option3": "A type of resource group",
+    "Option4": "A virtual network",
+    "Answer": "A geographical area containing one or more data centers, designed to be independent from each other."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is an Azure 'Availability Zone'?",
+    "Option1": "A single server rack",
+    "Option2": "Physically separate locations within an Azure region, providing high availability and fault tolerance.",
+    "Option3": "A type of virtual network",
+    "Option4": "A global service",
+    "Answer": "Physically separate locations within an Azure region, providing high availability and fault tolerance."
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which Azure compute service is used to run Windows or Linux virtual machines?",
+    "Option1": "Azure App Service",
+    "Option2": "Azure Functions",
+    "Option3": "Azure Virtual Machines (VMs)",
+    "Option4": "Azure Container Instances",
+    "Answer": "Azure Virtual Machines (VMs)"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is Azure 'App Service' primarily used for?",
+    "Option1": "Running containerized applications",
+    "Option2": "Hosting web applications, REST APIs, and mobile backends with a fully managed platform.",
+    "Option3": "Executing serverless functions",
+    "Option4": "Storing large amounts of data",
+    "Answer": "Hosting web applications, REST APIs, and mobile backends with a fully managed platform."
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which Azure compute service is serverless and executes code in response to events?",
+    "Option1": "Azure Kubernetes Service (AKS)",
+    "Option2": "Azure Virtual Machines (VMs)",
+    "Option3": "Azure Functions",
+    "Option4": "Azure App Service",
+    "Answer": "Azure Functions"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is Azure 'Container Instances' (ACI) best for?",
+    "Option1": "Long-running, highly scalable container orchestrations",
+    "Option2": "Running single containers quickly without managing servers or orchestration platforms.",
+    "Option3": "Hosting traditional web applications",
+    "Option4": "Deploying virtual machines",
+    "Answer": "Running single containers quickly without managing servers or orchestration platforms."
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which Azure storage service is ideal for highly scalable object storage for text and binary data?",
+    "Option1": "Azure Files",
+    "Option2": "Azure Blob Storage",
+    "Option3": "Azure Disk Storage",
+    "Option4": "Azure Table Storage",
+    "Answer": "Azure Blob Storage"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is Azure 'Files' primarily used for?",
+    "Option1": "Storing unstructured data",
+    "Option2": "Providing fully managed file shares in the cloud that are accessible via the SMB protocol.",
+    "Option3": "Storing NoSQL data",
+    "Option4": "Archiving large datasets",
+    "Answer": "Providing fully managed file shares in the cloud that are accessible via the SMB protocol."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which Azure storage service provides durable and highly available block-level storage for Azure VMs?",
+    "Option1": "Azure Queue Storage",
+    "Option2": "Azure Table Storage",
+    "Option3": "Azure Disk Storage",
+    "Option4": "Azure Blob Storage",
+    "Answer": "Azure Disk Storage"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is Azure 'Virtual Network' (VNet)?",
+    "Option1": "A global network service",
+    "Option2": "A logically isolated section of the Azure cloud where you can launch Azure resources in a virtual network that you define.",
+    "Option3": "A physical network switch",
+    "Option4": "A public internet connection",
+    "Answer": "A logically isolated section of the Azure cloud where you can launch Azure resources in a virtual network that you define."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which Azure networking service distributes incoming network traffic across multiple backend servers or services?",
+    "Option1": "Azure Firewall",
+    "Option2": "Azure Load Balancer",
+    "Option3": "Azure DNS",
+    "Option4": "Azure Virtual Network Gateway",
+    "Answer": "Azure Load Balancer"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is Azure 'Application Gateway'?",
+    "Option1": "A network security group",
+    "Option2": "A web traffic load balancer that enables you to manage traffic to your web applications, offering advanced routing features like URL-based routing.",
+    "Option3": "A VPN gateway",
+    "Option4": "A global content delivery network",
+    "Answer": "A web traffic load balancer that enables you to manage traffic to your web applications, offering advanced routing features like URL-based routing."
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which Azure networking service provides private and secure connectivity between your on-premises network and Azure?",
+    "Option1": "Azure CDN",
+    "Option2": "Azure Traffic Manager",
+    "Option3": "Azure VPN Gateway or ExpressRoute",
+    "Option4": "Azure DNS",
+    "Answer": "Azure VPN Gateway or ExpressRoute"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is Azure 'DNS' primarily used for?",
+    "Option1": "Managing virtual networks",
+    "Option2": "Hosting DNS domains and providing name resolution within Azure and for public-facing applications.",
+    "Option3": "Load balancing traffic",
+    "Option4": "Filtering network traffic",
+    "Answer": "Hosting DNS domains and providing name resolution within Azure and for public-facing applications."
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which Azure database service is a fully managed relational database service for MySQL, PostgreSQL, and MariaDB?",
+    "Option1": "Azure Cosmos DB",
+    "Option2": "Azure SQL Database",
+    "Option3": "Azure Database for MySQL/PostgreSQL/MariaDB",
+    "Option4": "Azure Cache for Redis",
+    "Answer": "Azure Database for MySQL/PostgreSQL/MariaDB"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is Azure 'Cosmos DB'?",
+    "Option1": "A relational database service",
+    "Option2": "A globally distributed, multi-model database service that offers low-latency access and high scalability.",
+    "Option3": "An in-memory data store",
+    "Option4": "A data warehouse solution",
+    "Answer": "A globally distributed, multi-model database service that offers low-latency access and high scalability."
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which Azure database service is a fully managed, intelligent, and scalable relational database service compatible with SQL Server?",
+    "Option1": "Azure Database for PostgreSQL",
+    "Option2": "Azure SQL Database",
+    "Option3": "Azure Cosmos DB",
+    "Option4": "Azure Table Storage",
+    "Answer": "Azure SQL Database"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is Azure 'Data Lake Storage Gen2'?",
+    "Option1": "A relational database.",
+    "Option2": "A scalable and cost-effective data lake solution built on Azure Blob Storage, optimized for big data analytics workloads.",
+    "Option3": "A message queue.",
+    "Option4": "An in-memory cache.",
+    "Answer": "A scalable and cost-effective data lake solution built on Azure Blob Storage, optimized for big data analytics workloads."
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which Azure service is used for continuous integration and continuous delivery (CI/CD) pipelines?",
+    "Option1": "Azure Monitor",
+    "Option2": "Azure DevOps",
+    "Option3": "Azure Security Center",
+    "Option4": "Azure Active Directory",
+    "Answer": "Azure DevOps"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'Azure Boards' in Azure DevOps?",
+    "Option1": "For managing code repositories.",
+    "Option2": "A service for tracking work, planning sprints, and monitoring progress for software development projects.",
+    "Option3": "For automating build processes.",
+    "Option4": "For deploying applications.",
+    "Answer": "A service for tracking work, planning sprints, and monitoring progress for software development projects."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Azure Repos' in Azure DevOps?",
+    "Option1": "For managing project backlogs.",
+    "Option2": "A set of version control tools to manage your code, including Git repositories and Team Foundation Version Control (TFVC).",
+    "Option3": "For automated testing.",
+    "Option4": "For deploying to production.",
+    "Answer": "A set of version control tools to manage your code, including Git repositories and Team Foundation Version Control (TFVC)."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is 'Azure Pipelines' in Azure DevOps?",
+    "Option1": "For manual testing.",
+    "Option2": "A cloud service that you can use to automatically build, test, and deploy your code to any platform or cloud.",
+    "Option3": "For managing virtual machines.",
+    "Option4": "For data analytics.",
+    "Answer": "A cloud service that you can use to automatically build, test, and deploy your code to any platform or cloud."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'Azure Test Plans' in Azure DevOps?",
+    "Option1": "For source code management.",
+    "Option2": "A service for manual and exploratory testing of your applications, including test case management and execution.",
+    "Option3": "For continuous deployment.",
+    "Option4": "For project management dashboards.",
+    "Answer": "A service for manual and exploratory testing of your applications, including test case management and execution."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'Azure Artifacts' in Azure DevOps?",
+    "Option1": "For storing source code.",
+    "Option2": "A service that allows teams to manage and share package feeds (e.g., NuGet, npm, Maven, Python) from public and private sources.",
+    "Option3": "For creating dashboards.",
+    "Option4": "For deploying to production.",
+    "Answer": "A service that allows teams to manage and share package feeds (e.g., NuGet, npm, Maven, Python) from public and private sources."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which Azure service provides centralized logging, monitoring, and alerting for Azure resources?",
+    "Option1": "Azure Active Directory",
+    "Option2": "Azure Security Center",
+    "Option3": "Azure Monitor",
+    "Option4": "Azure Cost Management",
+    "Answer": "Azure Monitor"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'Azure Log Analytics' workspace?",
+    "Option1": "A service for sending emails.",
+    "Option2": "A unique environment for Azure Monitor log data, where you can collect, query, and analyze logs from various sources.",
+    "Option3": "A tool for creating virtual networks.",
+    "Option4": "A place to store virtual machine images.",
+    "Answer": "A unique environment for Azure Monitor log data, where you can collect, query, and analyze logs from various sources."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'Azure Application Insights'?",
+    "Option1": "For infrastructure monitoring.",
+    "Option2": "An Application Performance Management (APM) service that monitors live web applications, detecting performance anomalies and providing powerful analytics.",
+    "Option3": "For network security.",
+    "Option4": "For identity management.",
+    "Answer": "An Application Performance Management (APM) service that monitors live web applications, detecting performance anomalies and providing powerful analytics."
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which Azure service is a cloud-based identity and access management service that helps employees sign in and access resources?",
+    "Option1": "Azure Key Vault",
+    "Option2": "Azure Active Directory (Azure AD)",
+    "Option3": "Azure Security Center",
+    "Option4": "Azure Policy",
+    "Answer": "Azure Active Directory (Azure AD)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is Azure 'Key Vault'?",
+    "Option1": "For storing large datasets.",
+    "Option2": "A cloud service for securely storing and accessing secrets, such as API keys, passwords, certificates, and cryptographic keys.",
+    "Option3": "For managing virtual machines.",
+    "Option4": "For network traffic analysis.",
+    "Answer": "A cloud service for securely storing and accessing secrets, suchs as API keys, passwords, certificates, and cryptographic keys."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is Azure 'Policy'?",
+    "Option1": "A tool for resource deletion.",
+    "Option2": "A service that helps enforce organizational standards and assess compliance at scale by creating, assigning, and managing policies.",
+    "Option3": "A service for creating virtual networks.",
+    "Option4": "A billing management tool.",
+    "Answer": "A service that helps enforce organizational standards and assess compliance at scale by creating, assigning, and managing policies."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is Azure 'Security Center'?",
+    "Option1": "A network firewall.",
+    "Option2": "A unified infrastructure security management system that strengthens the security posture of your data centers and provides advanced threat protection.",
+    "Option3": "A physical access control system.",
+    "Option4": "A data encryption service.",
+    "Answer": "A unified infrastructure security management system that strengthens the security posture of your data centers and provides advanced threat protection."
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which Azure service provides a global content delivery network (CDN) for delivering high-bandwidth content?",
+    "Option1": "Azure Load Balancer",
+    "Option2": "Azure Front Door",
+    "Option3": "Azure CDN",
+    "Option4": "Azure Traffic Manager",
+    "Answer": "Azure CDN"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is Azure 'Traffic Manager'?",
+    "Option1": "For content caching.",
+    "Option2": "A DNS-based traffic load balancer that distributes user traffic to global Azure regions, optimizing for performance and availability.",
+    "Option3": "For web application firewall.",
+    "Option4": "For secure VPN connections.",
+    "Answer": "A DNS-based traffic load balancer that distributes user traffic to global Azure regions, optimizing for performance and availability."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is Azure 'Front Door'?",
+    "Option1": "A regional load balancer.",
+    "Option2": "A scalable, global entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications.",
+    "Option3": "A virtual network gateway.",
+    "Option4": "A private DNS zone.",
+    "Answer": "A scalable, global entry-point that uses the Microsoft global edge network to create fast, secure, and widely scalable web applications."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which Azure service allows you to deploy and manage containers using Kubernetes?",
+    "Option1": "Azure Container Instances",
+    "Option2": "Azure Kubernetes Service (AKS)",
+    "Option3": "Azure App Service",
+    "Option4": "Azure Functions",
+    "Answer": "Azure Kubernetes Service (AKS)"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'Azure Container Registry'?",
+    "Option1": "For managing virtual machines.",
+    "Option2": "A managed, private Docker registry service based on the open-source Docker Registry 2.0.",
+    "Option3": "For building virtual networks.",
+    "Option4": "For storing unstructured data.",
+    "Answer": "A managed, private Docker registry service based on the open-source Docker Registry 2.0."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Azure Automation'?",
+    "Option1": "For manual IT tasks.",
+    "Option2": "A cloud-based automation and configuration service that supports process automation, update management, and configuration management.",
+    "Option3": "For building web applications.",
+    "Option4": "For data visualization.",
+    "Answer": "A cloud-based automation and configuration service that supports process automation, update management, and configuration management."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which Azure service provides a messaging queue for asynchronous communication between applications?",
+    "Option1": "Azure Event Hubs",
+    "Option2": "Azure Service Bus",
+    "Option3": "Azure IoT Hub",
+    "Option4": "Azure Notification Hubs",
+    "Answer": "Azure Service Bus"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Azure Event Hubs'?",
+    "Option1": "A traditional message queue.",
+    "Option2": "A highly scalable data streaming platform and event ingestion service that can process millions of events per second.",
+    "Option3": "A service for sending notifications.",
+    "Option4": "A real-time database.",
+    "Answer": "A highly scalable data streaming platform and event ingestion service that can process millions of events per second."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Azure IoT Hub'?",
+    "Option1": "For connecting web applications.",
+    "Option2": "A managed service that acts as a central message hub for bi-directional communication between your IoT application and the devices it manages.",
+    "Option3": "For managing virtual networks.",
+    "Option4": "For machine learning models.",
+    "Answer": "A managed service that acts as a central message hub for bi-directional communication between your IoT application and the devices it manages."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which Azure service is used for serverless orchestration of workflows and integrations?",
+    "Option1": "Azure Functions",
+    "Option2": "Azure Logic Apps",
+    "Option3": "Azure Event Grid",
+    "Option4": "Azure Service Bus",
+    "Answer": "Azure Logic Apps"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Azure Event Grid'?",
+    "Option1": "A message queue.",
+    "Option2": "A serverless event routing service that helps you build event-driven architectures, reacting to events from various Azure services and custom sources.",
+    "Option3": "A real-time database.",
+    "Option4": "A data analytics platform.",
+    "Answer": "A serverless event routing service that helps you build event-driven architectures, reacting to events from various Azure services and custom sources."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Azure DevOps'?",
+    "Option1": "A single tool for source control.",
+    "Option2": "A suite of services that provides an end-to-end solution for planning, developing, delivering, and operating applications.",
+    "Option3": "A cloud infrastructure service.",
+    "Option4": "A database management system.",
+    "Answer": "A suite of services that provides an end-to-end solution for planning, developing, delivering, and operating applications."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the primary benefit of using Azure Resource Manager (ARM) templates?",
+    "Option1": "Manual resource provisioning.",
+    "Option2": "Enabling Infrastructure as Code (IaC) to deploy and manage Azure resources declaratively and consistently.",
+    "Option3": "Reducing cloud costs by manual optimization.",
+    "Option4": "Providing a graphical interface for resource creation.",
+    "Answer": "Enabling Infrastructure as Code (IaC) to deploy and manage Azure resources declaratively and consistently."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which command-line tool is used to interact with Azure resources?",
+    "Option1": "PowerShell",
+    "Option2": "Azure CLI",
+    "Option3": "Bash",
+    "Option4": "CMD",
+    "Answer": "Azure CLI"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Azure PowerShell'?",
+    "Option1": "A cross-platform CLI tool.",
+    "Option2": "A set of cmdlets for managing Azure resources directly from PowerShell.",
+    "Option3": "A scripting language for web development.",
+    "Option4": "A graphical management console.",
+    "Answer": "A set of cmdlets for managing Azure resources directly from PowerShell."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is an Azure 'Managed Disk'?",
+    "Option1": "A file share.",
+    "Option2": "A virtual hard disk (VHD) that is managed by Azure and used with Azure Virtual Machines.",
+    "Option3": "An object storage container.",
+    "Option4": "An in-memory cache.",
+    "Answer": "A virtual hard disk (VHD) that is managed by Azure and used with Azure Virtual Machines."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which type of Azure managed disk offers the highest performance for I/O intensive workloads?",
+    "Option1": "Standard HDD",
+    "Option2": "Standard SSD",
+    "Option3": "Premium SSD",
+    "Option4": "Ultra Disk",
+    "Answer": "Ultra Disk"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is an Azure 'Network Security Group' (NSG)?",
+    "Option1": "A global firewall.",
+    "Option2": "A filter that contains a list of security rules allowing or denying network traffic to resources connected to Azure VNets.",
+    "Option3": "A load balancer.",
+    "Option4": "A VPN gateway.",
+    "Answer": "A filter that contains a list of security rules allowing or denying network traffic to resources connected to Azure VNets."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is Azure 'Bastion'?",
+    "Option1": "A public facing web server.",
+    "Option2": "A fully platform-managed PaaS service that you provision inside your virtual network, allowing secure and seamless RDP/SSH connectivity to your VMs.",
+    "Option3": "A network security group.",
+    "Option4": "A VPN client.",
+    "Answer": "A fully platform-managed PaaS service that you provision inside your virtual network, allowing secure and seamless RDP/SSH connectivity to your VMs."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which Azure service provides a serverless SQL query service for data lakes?",
+    "Option1": "Azure SQL Database",
+    "Option2": "Azure Cosmos DB",
+    "Option3": "Azure Synapse Analytics (Serverless SQL pool)",
+    "Option4": "Azure Database for PostgreSQL",
+    "Answer": "Azure Synapse Analytics (Serverless SQL pool)"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Azure Data Factory'?",
+    "Option1": "A data visualization tool.",
+    "Option2": "A cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transformation.",
+    "Option3": "A real-time analytics platform.",
+    "Option4": "A relational database.",
+    "Answer": "A cloud-based ETL and data integration service that allows you to create data-driven workflows for orchestrating data movement and transformation."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Azure Stream Analytics'?",
+    "Option1": "For batch processing data.",
+    "Option2": "A real-time analytics service for complex event processing (CEP) that helps you develop and deploy solutions for streaming data.",
+    "Option3": "For data warehousing.",
+    "Option4": "For relational database management.",
+    "Answer": "A real-time analytics service for complex event processing (CEP) that helps you develop and deploy solutions for streaming data."
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which Azure service is a machine learning platform that covers the entire machine learning lifecycle?",
+    "Option1": "Azure AI Services",
+    "Option2": "Azure Machine Learning",
+    "Option3": "Azure Cognitive Services",
+    "Option4": "Azure Bot Service",
+    "Answer": "Azure Machine Learning"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Azure Cognitive Services'?",
+    "Option1": "For general-purpose AI development.",
+    "Option2": "A set of pre-built AI services and APIs that enable developers to easily add intelligent features (e.g., vision, speech, language) to applications.",
+    "Option3": "For deploying machine learning models.",
+    "Option4": "For managing data lakes.",
+    "Answer": "A set of pre-built AI services and APIs that enable developers to easily add intelligent features (e.g., vision, speech, language) to applications."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Azure Functions' in the context of DevOps?",
+    "Option1": "For manual deployment.",
+    "Option2": "A serverless compute service that can be integrated into CI/CD pipelines to execute small pieces of code (functions) in response to events.",
+    "Option3": "For managing virtual machines.",
+    "Option4": "For traditional application hosting.",
+    "Answer": "A serverless compute service that can be integrated into CI/CD pipelines to execute small pieces of code (functions) in response to events."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which Azure service is used to create and manage virtual networks and subnets?",
+    "Option1": "Azure DNS",
+    "Option2": "Azure Virtual Network (VNet)",
+    "Option3": "Azure Load Balancer",
+    "Option4": "Azure Firewall",
+    "Answer": "Azure Virtual Network (VNet)"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Azure Active Directory B2C'?",
+    "Option1": "For internal employee identities.",
+    "Option2": "A customer identity access management (CIAM) service that enables businesses to manage customer identities and access to their applications.",
+    "Option3": "For managing Azure resource access.",
+    "Option4": "For secure application secrets.",
+    "Answer": "A customer identity access management (CIAM) service that enables businesses to manage customer identities and access to their applications."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Azure Firewall'?",
+    "Option1": "A network security group.",
+    "Option2": "A managed, cloud-based network security service that protects your Azure Virtual Network resources.",
+    "Option3": "A load balancer.",
+    "Option4": "A content delivery network.",
+    "Answer": "A managed, cloud-based network security service that protects your Azure Virtual Network resources."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which Azure service provides a comprehensive solution for managing and monitoring cloud costs?",
+    "Option1": "Azure Monitor",
+    "Option2": "Azure Security Center",
+    "Option3": "Azure Cost Management and Billing",
+    "Option4": "Azure Advisor",
+    "Answer": "Azure Cost Management and Billing"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Azure Advisor'?",
+    "Option1": "A billing tool.",
+    "Option2": "A personalized cloud consultant that helps you optimize your Azure deployments for cost, performance, high availability, and security.",
+    "Option3": "A support ticketing system.",
+    "Option4": "A security scanning tool.",
+    "Answer": "A personalized cloud consultant that helps you optimize your Azure deployments for cost, performance, high availability, and security."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Azure Blueprints'?",
+    "Option1": "For creating new resources.",
+    "Option2": "A service that enables you to define a repeatable set of Azure resources that comply with organizational standards and requirements, simplifying deployment of compliant environments.",
+    "Option3": "For managing existing resources.",
+    "Option4": "For monitoring application performance.",
+    "Answer": "A service that enables you to define a repeatable set of Azure resources that comply with organizational standards and requirements, simplifying deployment of compliant environments."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which Azure compute service offers a fully managed platform for running microservices and containerized applications?",
+    "Option1": "Azure Virtual Machines",
+    "Option2": "Azure App Service",
+    "Option3": "Azure Container Instances",
+    "Option4": "Azure Kubernetes Service (AKS)",
+    "Answer": "Azure Kubernetes Service (AKS)"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Azure DevOps Server' (formerly Team Foundation Server)?",
+    "Option1": "A cloud-only service.",
+    "Option2": "The on-premises version of Azure DevOps, providing the same capabilities for organizations that need to self-host their DevOps tools.",
+    "Option3": "A separate product with different features.",
+    "Option4": "A legacy system no longer supported.",
+    "Answer": "The on-premises version of Azure DevOps, providing the same capabilities for organizations that need to self-host their DevOps tools."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Azure Pipelines' used for in a CI/CD context?",
+    "Option1": "Manual testing only.",
+    "Option2": "Automating the build, test, and deployment of applications through definition of pipelines.",
+    "Option3": "Managing project backlogs.",
+    "Option4": "Storing source code.",
+    "Answer": "Automating the build, test, and deployment of applications through definition of pipelines."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which type of agent can run an Azure Pipeline job on a self-hosted machine?",
+    "Option1": "Microsoft-hosted agent",
+    "Option2": "Private agent",
+    "Option3": "Cloud-based agent",
+    "Option4": "Managed agent",
+    "Answer": "Private agent"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'YAML' used for in Azure Pipelines?",
+    "Option1": "Defining manual release gates.",
+    "Option2": "Defining the structure and steps of a build or release pipeline in a human-readable format, enabling Infrastructure as Code for pipelines.",
+    "Option3": "Storing pipeline logs.",
+    "Option4": "Managing agent pools.",
+    "Answer": "Defining the structure and steps of a build or release pipeline in a human-readable format, enabling Infrastructure as Code for pipelines."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is a 'Deployment Group' in Azure Pipelines?",
+    "Option1": "A collection of agents.",
+    "Option2": "A logical group of target machines with agents installed on each, used for deploying applications to specific environments.",
+    "Option3": "A type of release gate.",
+    "Option4": "A build artifact location.",
+    "Answer": "A logical group of target machines with agents installed on each, used for deploying applications to specific environments."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Release Gates' in Azure Pipelines?",
+    "Option1": "Manual approvals only.",
+    "Option2": "Automated checks that enforce quality and compliance before an application is deployed to the next environment, such as approval flows, queries for healthy application status, or security scans.",
+    "Option3": "For managing source code.",
+    "Option4": "For creating new releases.",
+    "Answer": "Automated checks that enforce quality and compliance before an application is deployed to the next environment, such as approval flows, queries for healthy application status, or security scans."
+  },
+  {
+    "question_no.": 74,
+    "Question": "Which Azure service is used to manage virtual networks, subnets, and IP addresses?",
+    "Option1": "Azure DNS",
+    "Option2": "Azure Virtual Network (VNet)",
+    "Option3": "Azure Load Balancer",
+    "Option4": "Azure Firewall",
+    "Answer": "Azure Virtual Network (VNet)"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Azure API Management'?",
+    "Option1": "For building APIs.",
+    "Option2": "A fully managed service that helps organizations publish, secure, transform, maintain, and monitor APIs.",
+    "Option3": "For testing APIs.",
+    "Option4": "For consuming APIs.",
+    "Answer": "A fully managed service that helps organizations publish, secure, transform, maintain, and monitor APIs."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'Azure Monitor Metrics'?",
+    "Option1": "For collecting logs only.",
+    "Option2": "Numerical values that describe some aspect of a system at a particular point in time, providing data for performance analysis and alerting.",
+    "Option3": "For tracing application requests.",
+    "Option4": "For creating dashboards.",
+    "Answer": "Numerical values that describe some aspect of a system at a particular point in time, providing data for performance analysis and alerting."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Azure Monitor Logs'?",
+    "Option1": "For collecting metrics.",
+    "Option2": "Records of events that occur within the system, often structured with various properties, providing rich contextual information for diagnostics.",
+    "Option3": "For distributed tracing.",
+    "Option4": "For real-time alerts.",
+    "Answer": "Records of events that occur within the system, often structured with various properties, providing rich contextual information for diagnostics."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Which Azure service is used for deploying and managing serverless Kubernetes clusters?",
+    "Option1": "Azure Container Instances",
+    "Option2": "Azure Kubernetes Service (AKS) with Virtual Nodes",
+    "Option3": "Azure App Service",
+    "Option4": "Azure Functions",
+    "Answer": "Azure Kubernetes Service (AKS) with Virtual Nodes"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Azure Bicep'?",
+    "Option1": "A new programming language.",
+    "Option2": "A domain-specific language (DSL) for deploying Azure resources declaratively, offering a simpler syntax than ARM templates.",
+    "Option3": "A tool for managing virtual machines.",
+    "Option4": "A monitoring service.",
+    "Answer": "A domain-specific language (DSL) for deploying Azure resources declaratively, offering a simpler syntax than ARM templates."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Terraform' in the context of Azure?",
+    "Option1": "A Microsoft-specific tool.",
+    "Option2": "An open-source Infrastructure as Code (IaC) tool that allows you to define and provision Azure infrastructure using a declarative configuration language.",
+    "Option3": "A service for application deployment.",
+    "Option4": "A monitoring solution.",
+    "Answer": "An open-source Infrastructure as Code (IaC) tool that allows you to define and provision Azure infrastructure using a declarative configuration language."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which Azure compute service is a fully managed platform for running event-driven, serverless code with automatic scaling?",
+    "Option1": "Azure Virtual Machines",
+    "Option2": "Azure App Service",
+    "Option3": "Azure Functions",
+    "Option4": "Azure Container Instances",
+    "Answer": "Azure Functions"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Azure Logic Apps' primarily used for?",
+    "Option1": "Running small code snippets.",
+    "Option2": "Building automated, scalable workflows that integrate applications, data, systems, and services across enterprises or organizations.",
+    "Option3": "Developing web applications.",
+    "Option4": "Managing container orchestrations.",
+    "Answer": "Building automated, scalable workflows that integrate applications, data, systems, and services across enterprises or organizations."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Azure Service Principal'?",
+    "Option1": "A regular user account in Azure AD.",
+    "Option2": "An identity created for applications, services, and automation tools to access Azure resources, enabling secure and automated access.",
+    "Option3": "A physical server.",
+    "Option4": "A type of virtual network.",
+    "Answer": "An identity created for applications, services, and automation tools to access Azure resources, enabling secure and automated access."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Managed Identities for Azure Resources'?",
+    "Option1": "Requires manual credential management.",
+    "Option2": "A feature of Azure Active Directory that allows Azure services to authenticate to services that support Azure AD authentication without managing credentials.",
+    "Option3": "For managing user accounts only.",
+    "Option4": "For encrypting storage accounts.",
+    "Answer": "A feature of Azure Active Directory that allows Azure services to authenticate to services that support Azure AD authentication without managing credentials."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Azure Monitor Alerts'?",
+    "Option1": "Only for security incidents.",
+    "Option2": "Notifications triggered when certain conditions are met based on metrics or logs, informing users about potential issues.",
+    "Option3": "For performance reports.",
+    "Option4": "For cost analysis.",
+    "Answer": "Notifications triggered when certain conditions are met based on metrics or logs, informing users about potential issues."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Azure Lighthouse'?",
+    "Option1": "For managing single Azure subscriptions.",
+    "Option2": "A service that enables cross-tenant management, allowing service providers to manage Azure resources for their customers from their own Azure tenant.",
+    "Option3": "A security auditing tool.",
+    "Option4": "A network monitoring service.",
+    "Answer": "A service that enables cross-tenant management, allowing service providers to manage Azure resources for their customers from their own Azure tenant."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which Azure database offers serverless capabilities and support for multiple APIs (SQL, MongoDB, Cassandra, Gremlin, Table)?",
+    "Option1": "Azure SQL Database",
+    "Option2": "Azure Database for PostgreSQL",
+    "Option3": "Azure Cosmos DB",
+    "Option4": "Azure Data Explorer",
+    "Answer": "Azure Cosmos DB"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Azure DevOps' used for in a large enterprise?",
+    "Option1": "Only small team projects.",
+    "Option2": "Providing a comprehensive suite of tools for end-to-end software development, from planning and code management to CI/CD and testing.",
+    "Option3": "Managing on-premises infrastructure only.",
+    "Option4": "A pure project management tool.",
+    "Answer": "Providing a comprehensive suite of tools for end-to-end software development, from planning and code management to CI/CD and testing."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Azure Pipelines' `stages`?",
+    "Option1": "Individual tasks in a pipeline.",
+    "Option2": "A collection of jobs in a pipeline that represent a major logical division of the pipeline, such as Build, Test, and Deploy.",
+    "Option3": "A type of agent pool.",
+    "Option4": "A release gate condition.",
+    "Answer": "A collection of jobs in a pipeline that represent a major logical division of the pipeline, such as Build, Test, and Deploy."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Azure Pipelines' `jobs`?",
+    "Option1": "Individual steps in a pipeline.",
+    "Option2": "A series of steps in a pipeline that run on a single agent, grouped together logically within a stage.",
+    "Option3": "A type of artifact.",
+    "Option4": "A trigger for a pipeline.",
+    "Answer": "A series of steps in a pipeline that run on a single agent, grouped together logically within a stage."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Azure Pipelines' `steps`?",
+    "Option1": "A group of jobs.",
+    "Option2": "Individual tasks or scripts that are executed within a job in a pipeline.",
+    "Option3": "A release gate.",
+    "Option4": "A deployment target.",
+    "Answer": "Individual tasks or scripts that are executed within a job in a pipeline."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Azure Artifacts' used for in a CI/CD pipeline?",
+    "Option1": "Storing source code.",
+    "Option2": "Storing and managing build artifacts and packages (e.g., NuGet, npm) that are consumed by other parts of the pipeline or by applications.",
+    "Option3": "Running automated tests.",
+    "Option4": "Deploying applications to production.",
+    "Answer": "Storing and managing build artifacts and packages (e.g., NuGet, npm) that are consumed by other parts of the pipeline or by applications."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which Azure networking service provides a dedicated private connection between your on-premises network and Azure?",
+    "Option1": "Azure VPN Gateway",
+    "Option2": "Azure ExpressRoute",
+    "Option3": "Azure Load Balancer",
+    "Option4": "Azure CDN",
+    "Answer": "Azure ExpressRoute"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Azure Private Link'?",
+    "Option1": "For public internet access.",
+    "Option2": "A service that enables you to access Azure PaaS services (e.g., Azure Storage, Azure Cosmos DB) and Azure hosted customer/partner services over a private endpoint in your virtual network.",
+    "Option3": "For inter-VNet connectivity.",
+    "Option4": "For global load balancing.",
+    "Answer": "A service that enables you to access Azure PaaS services (e.g., Azure Storage, Azure Cosmos DB) and Azure hosted customer/partner services over a private endpoint in your virtual network."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Azure Kubernetes Service (AKS) Virtual Nodes'?",
+    "Option1": "Physical servers in the AKS cluster.",
+    "Option2": "A feature that allows you to provision pods in Azure Container Instances (ACI) directly from AKS, enabling serverless scaling without managing underlying VMs.",
+    "Option3": "Nodes that run only Windows containers.",
+    "Option4": "Nodes that are managed by the user.",
+    "Answer": "A feature that allows you to provision pods in Azure Container Instances (ACI) directly from AKS, enabling serverless scaling without managing underlying VMs."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Azure Monitor Action Groups'?",
+    "Option1": "For collecting metrics.",
+    "Option2": "A collection of notification preferences and actions that can be triggered by an Azure Monitor alert, such as sending emails, SMS, or calling a webhook.",
+    "Option3": "For creating dashboards.",
+    "Option4": "For ingesting logs.",
+    "Answer": "A collection of notification preferences and actions that can be triggered by an Azure Monitor alert, such as sending emails, SMS, or calling a webhook."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Azure Resource Locks'?",
+    "Option1": "For encrypting resources.",
+    "Option2": "A mechanism to prevent accidental deletion or modification of critical Azure resources.",
+    "Option3": "For controlling network access.",
+    "Option4": "For managing user permissions.",
+    "Answer": "A mechanism to prevent accidental deletion or modification of critical Azure resources."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Azure Management Groups'?",
+    "Option1": "For organizing resources within a subscription.",
+    "Option2": "A way to organize subscriptions into containers to apply governance conditions (like policies and RBAC) at a higher level than subscriptions.",
+    "Option3": "For deploying applications.",
+    "Option4": "For monitoring costs.",
+    "Answer": "A way to organize subscriptions into containers to apply governance conditions (like policies and RBAC) at a higher level than subscriptions."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which Azure service provides a centralized hub for security alerts and unified security management across hybrid cloud environments?",
+    "Option1": "Azure Security Center",
+    "Option2": "Azure Sentinel",
+    "Option3": "Azure Active Directory",
+    "Option4": "Azure Key Vault",
+    "Answer": "Azure Sentinel"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Azure Sentinel'?",
+    "Option1": "A basic security auditing tool.",
+    "Option2": "A scalable, cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution.",
+    "Option3": "A physical security device.",
+    "Option4": "A network access control list.",
+    "Answer": "A scalable, cloud-native Security Information and Event Management (SIEM) and Security Orchestration, Automation, and Response (SOAR) solution."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Azure Container Apps'?",
+    "Option1": "A service for deploying VMs.",
+    "Option2": "A fully managed serverless container service for building and deploying modern apps and microservices using Kubernetes features, without direct Kubernetes API access.",
+    "Option3": "A service for running traditional web apps.",
+    "Option4": "A dedicated service for single-container deployments.",
+    "Answer": "A fully managed serverless container service for building and deploying modern apps and microservices using Kubernetes features, without direct Kubernetes API access."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Azure Arc'?",
+    "Option1": "A service for migrating on-premises VMs to Azure.",
+    "Option2": "A set of technologies that extends Azure management to any infrastructure, enabling you to manage servers, Kubernetes clusters, and databases across hybrid and multi-cloud environments.",
+    "Option3": "A specialized database service.",
+    "Option4": "A new Azure region.",
+    "Answer": "A set of technologies that extends Azure management to any infrastructure, enabling you to manage servers, Kubernetes clusters, and databases across hybrid and multi-cloud environments."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Azure Policy Definitions'?",
+    "Option1": "Manual configurations.",
+    "Option2": "JSON documents that specify the conditions for compliance and the effect to take if those conditions are met (e.g., Deny, Audit, DeployIfNotExists).",
+    "Option3": "Lists of authorized users.",
+    "Option4": "Network security rules.",
+    "Answer": "JSON documents that specify the conditions for compliance and the effect to take if those conditions are met (e.g., Deny, Audit, DeployIfNotExists)."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Azure Policy Assignments'?",
+    "Option1": "Creating new policies.",
+    "Option2": "The act of applying a policy definition or initiative (set of policies) to a specific scope, such as a management group, subscription, or resource group.",
+    "Option3": "Deleting existing policies.",
+    "Option4": "Viewing policy definitions.",
+    "Answer": "The act of applying a policy definition or initiative (set of policies) to a specific scope, such as a management group, subscription, or resource group."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Azure Policy Initiatives'?",
+    "Option1": "Single policy definitions.",
+    "Option2": "A collection of policy definitions that are grouped together to achieve a larger goal (e.g., 'Enable monitoring on all resources').",
+    "Option3": "A way to override policies.",
+    "Option4": "A security audit report.",
+    "Answer": "A collection of policy definitions that are grouped together to achieve a larger goal (e.g., 'Enable monitoring on all resources')."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Which Azure service allows you to create and manage private DNS zones for your virtual networks?",
+    "Option1": "Azure Public DNS",
+    "Option2": "Azure Private DNS",
+    "Option3": "Azure DNS Resolver",
+    "Option4": "Azure Traffic Manager",
+    "Answer": "Azure Private DNS"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Azure DevOps Service Connections'?",
+    "Option1": "For connecting to on-premises servers.",
+    "Option2": "A secure way to store credentials and connection strings for external services (e.g., Azure subscriptions, GitHub, Docker registries) for use in pipelines.",
+    "Option3": "For network routing.",
+    "Option4": "For defining build agents.",
+    "Answer": "A secure way to store credentials and connection strings for external services (e.g., Azure subscriptions, GitHub, Docker registries) for use in pipelines."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Azure DevOps Variables Groups'?",
+    "Option1": "Variables stored in YAML files.",
+    "Option2": "A way to store and manage variables that can be shared across multiple pipelines, enhancing reusability and consistency.",
+    "Option3": "Variables that are unique to each pipeline run.",
+    "Option4": "Variables for secret storage only.",
+    "Answer": "A way to store and manage variables that can be shared across multiple pipelines, enhancing reusability and consistency."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Azure DevOps Templates' in Pipelines?",
+    "Option1": "Pre-built pipelines only.",
+    "Option2": "Reusable YAML files that define a set of tasks, jobs, or stages, promoting consistency and reducing duplication across pipelines.",
+    "Option3": "Visual pipeline editors.",
+    "Option4": "Markdown files for documentation.",
+    "Answer": "Reusable YAML files that define a set of tasks, jobs, or stages, promoting consistency and reducing duplication across pipelines."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Which Azure service provides a distributed ledger technology (DLT) platform based on blockchain?",
+    "Option1": "Azure SQL Database",
+    "Option2": "Azure Blockchain Service (deprecated, replaced by partner solutions)",
+    "Option3": "Azure Cosmos DB",
+    "Option4": "Azure Database for PostgreSQL",
+    "Answer": "Azure Blockchain Service (deprecated, replaced by partner solutions)"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Azure Kubernetes Service (AKS) Node Pools'?",
+    "Option1": "A single type of node.",
+    "Option2": "Groups of nodes within an AKS cluster that have the same configuration (e.g., VM size, OS type), allowing for different workloads to run on optimized nodes.",
+    "Option3": "Physical racks of servers.",
+    "Option4": "A type of storage.",
+    "Answer": "Groups of nodes within an AKS cluster that have the same configuration (e.g., VM size, OS type), allowing for different workloads to run on optimized nodes."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Azure AD Connect'?",
+    "Option1": "For connecting to external cloud providers.",
+    "Option2": "A tool that synchronizes on-premises Active Directory identities with Azure Active Directory, enabling hybrid identity.",
+    "Option3": "For managing network connections.",
+    "Option4": "For secure data transfer.",
+    "Answer": "A tool that synchronizes on-premises Active Directory identities with Azure Active Directory, enabling hybrid identity."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Azure Bicep Modules'?",
+    "Option1": "Independent Bicep files.",
+    "Option2": "Reusable units of Bicep code that can be deployed independently or composed into larger Bicep templates, promoting modularity.",
+    "Option3": "Bicep deployment logs.",
+    "Option4": "Bicep comments.",
+    "Answer": "Reusable units of Bicep code that can be deployed independently or composed into larger Bicep templates, promoting modularity."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Azure Container Registry Geo-replication'?",
+    "Option1": "Replicating containers within a single region.",
+    "Option2": "Replicating container images across multiple Azure regions, enabling faster image pulls for geographically distributed deployments and disaster recovery.",
+    "Option3": "Replicating only Dockerfiles.",
+    "Option4": "Replicating only container instance configurations.",
+    "Answer": "Replicating container images across multiple Azure regions, enabling faster image pulls for geographically distributed deployments and disaster recovery."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Azure Site Recovery'?",
+    "Option1": "For backing up data only.",
+    "Option2": "A disaster recovery service that helps ensure business continuity by replicating workloads running on physical and virtual machines from a primary site to a secondary location.",
+    "Option3": "For archiving data.",
+    "Option4": "For real-time data analysis.",
+    "Answer": "A disaster recovery service that helps ensure business continuity by replicating workloads running on physical and virtual machines from a primary site to a secondary location."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Azure Backup'?",
+    "Option1": "For long-term archival only.",
+    "Option2": "A cloud-based backup solution that protects your data in Azure and on-premises, providing application-consistent backups and granular recovery options.",
+    "Option3": "For replicating entire systems.",
+    "Option4": "For real-time data synchronization.",
+    "Answer": "A cloud-based backup solution that protects your data in Azure and on-premises, providing application-consistent backups and granular recovery options."
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which Azure service helps you orchestrate and automate tasks and processes without writing code?",
+    "Option1": "Azure Functions",
+    "Option2": "Azure Logic Apps",
+    "Option3": "Azure Automation",
+    "Option4": "Azure Event Grid",
+    "Answer": "Azure Logic Apps"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Azure Service Health'?",
+    "Option1": "For monitoring application performance.",
+    "Option2": "A personalized view of the health of Azure services and regions that you use, notifying you about service issues, planned maintenance, and health advisories.",
+    "Option3": "For security vulnerability scanning.",
+    "Option4": "For cost optimization recommendations.",
+    "Answer": "A personalized view of the health of Azure services and regions that you use, notifying you about service issues, planned maintenance, and health advisories."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Azure Resource Graph'?",
+    "Option1": "For displaying resource metrics.",
+    "Option2": "A service in Azure that provides efficient and performant resource exploration with the ability to query across your subscriptions.",
+    "Option3": "For managing resource groups.",
+    "Option4": "For creating resource tags.",
+    "Answer": "A service in Azure that provides efficient and performant resource exploration with the ability to query across your subscriptions."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Azure Resource Mover'?",
+    "Option1": "For migrating resources between subscriptions.",
+    "Option2": "A service that helps you move Azure resources between Azure regions, maintaining resource consistency.",
+    "Option3": "For moving resources to on-premises.",
+    "Option4": "For migrating resources from other clouds.",
+    "Answer": "A service that helps you move Azure resources between Azure regions, maintaining resource consistency."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Azure Cost Analysis' in Azure Cost Management?",
+    "Option1": "For predicting future costs.",
+    "Option2": "A feature that allows you to explore and analyze your costs using various filters, grouping, and views to understand your spending patterns.",
+    "Option3": "For setting billing alerts.",
+    "Option4": "For optimizing resource usage.",
+    "Answer": "A feature that allows you to explore and analyze your costs using various filters, grouping, and views to understand your spending patterns."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Azure Reserved Instances'?",
+    "Option1": "Pay-as-you-go pricing.",
+    "Option2": "A way to save money on compute resources by committing to a one-year or three-year term, resulting in significant discounts.",
+    "Option3": "Short-term resource usage.",
+    "Option4": "Only for specific VM sizes.",
+    "Answer": "A way to save money on compute resources by committing to a one-year or three-year term, resulting in significant discounts."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Azure Spot Virtual Machines'?",
+    "Option1": "Guaranteed availability for all workloads.",
+    "Option2": "Unused Azure compute capacity available at deep discounts, suitable for fault-tolerant workloads that can handle interruptions.",
+    "Option3": "For mission-critical applications.",
+    "Option4": "Fixed-price VMs with no discounts.",
+    "Answer": "Unused Azure compute capacity available at deep discounts, suitable for fault-tolerant workloads that can handle interruptions."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Azure Application Gateway's WAF (Web Application Firewall) capability?",
+    "Option1": "Only for load balancing.",
+    "Option2": "Provides centralized protection of your web applications from common exploits and vulnerabilities, enhancing security.",
+    "Option3": "For managing network routes.",
+    "Option4": "For DNS resolution.",
+    "Answer": "Provides centralized protection of your web applications from common exploits and vulnerabilities, enhancing security."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Azure Firewall Premium'?",
+    "Option1": "A basic network firewall.",
+    "Option2": "An advanced firewall service offering advanced threat protection capabilities like TLS inspection, IDPS, and URL filtering.",
+    "Option3": "Only for VNet peering.",
+    "Option4": "A security group for VMs.",
+    "Answer": "An advanced firewall service offering advanced threat protection capabilities like TLS inspection, IDPS, and URL filtering."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Azure Kubernetes Service (AKS) Managed Identity'?",
+    "Option1": "Manual credential management for AKS.",
+    "Option2": "Allows AKS clusters to interact with other Azure resources securely without storing or rotating credentials directly within the cluster.",
+    "Option3": "For accessing container images only.",
+    "Option4": "For connecting to on-premises resources.",
+    "Answer": "Allows AKS clusters to interact with other Azure resources securely without storing or rotating credentials directly within the cluster."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Azure Advisor Security Recommendations'?",
+    "Option1": "Cost-saving advice.",
+    "Option2": "Recommendations from Azure Security Center to help improve the security posture of your Azure resources.",
+    "Option3": "Performance optimization tips.",
+    "Option4": "High availability best practices.",
+    "Answer": "Recommendations from Azure Security Center to help improve the security posture of your Azure resources."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Azure CDN Standard vs. Premium'?",
+    "Option1": "No difference in features.",
+    "Option2": "Different tiers of Azure CDN offering varying features, performance, and pricing, with Premium offering more advanced capabilities like rule engines and token authentication.",
+    "Option3": "Different pricing models only.",
+    "Option4": "Only available in specific regions.",
+    "Answer": "Different tiers of Azure CDN offering varying features, performance, and pricing, with Premium offering more advanced capabilities like rule engines and token authentication."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Azure Traffic Manager's 'Priority' routing method?",
+    "Option1": "Distributes traffic equally.",
+    "Option2": "Routes all traffic to the highest priority endpoint that is healthy, providing a failover mechanism.",
+    "Option3": "Routes based on performance.",
+    "Option4": "Routes based on geographical location.",
+    "Answer": "Routes all traffic to the highest priority endpoint that is healthy, providing a failover mechanism."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Azure Traffic Manager's 'Performance' routing method?",
+    "Option1": "Routes to the highest priority endpoint.",
+    "Option2": "Routes traffic to the endpoint that has the lowest latency for the end user, optimizing for responsiveness.",
+    "Option3": "Routes based on geographical location.",
+    "Option4": "Routes equally across endpoints.",
+    "Answer": "Routes traffic to the endpoint that has the lowest latency for the end user, optimizing for responsiveness."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Azure Front Door's 'Web Application Firewall (WAF)' feature?",
+    "Option1": "Only for DDoS protection.",
+    "Option2": "A WAF integrated with Front Door to protect web applications from common web-based attacks at the edge of the network.",
+    "Option3": "For internal network security.",
+    "Option4": "For secure VPN connections.",
+    "Answer": "A WAF integrated with Front Door to protect web applications from common web-based attacks at the edge of the network."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Azure CLI' used for in a DevOps context?",
+    "Option1": "Graphical resource management.",
+    "Option2": "Automating tasks and managing Azure resources from the command line or within scripts, often used in CI/CD pipelines.",
+    "Option3": "Developing web applications.",
+    "Option4": "Manual server provisioning.",
+    "Answer": "Automating tasks and managing Azure resources from the command line or within scripts, often used in CI/CD pipelines."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Azure PowerShell' typically used for in a DevOps context?",
+    "Option1": "Cross-platform scripting.",
+    "Option2": "Automating tasks and managing Azure resources using PowerShell cmdlets, especially for Windows environments or existing PowerShell scripts.",
+    "Option3": "Web development.",
+    "Option4": "Mobile application deployment.",
+    "Answer": "Automating tasks and managing Azure resources using PowerShell cmdlets, especially for Windows environments or existing PowerShell scripts."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Azure Resource Manager (ARM) templates' used for?",
+    "Option1": "Manual resource provisioning.",
+    "Option2": "Defining the infrastructure and configuration for your Azure solutions in a declarative format, enabling consistent and repeatable deployments.",
+    "Option3": "Monitoring application performance.",
+    "Option4": "Managing virtual machine images.",
+    "Answer": "Defining the infrastructure and configuration for your Azure solutions in a declarative format, enabling consistent and repeatable deployments."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Azure Bicep's relationship to ARM templates?",
+    "Option1": "It replaces ARM templates entirely.",
+    "Option2": "It's a transpiled abstraction on top of ARM templates, offering a simpler and more concise syntax for authoring Azure deployments.",
+    "Option3": "It's a separate, incompatible language.",
+    "Option4": "It's a graphical editor for ARM templates.",
+    "Answer": "It's a transpiled abstraction on top of ARM templates, offering a simpler and more concise syntax for authoring Azure deployments."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Terraform State File'?",
+    "Option1": "A temporary file during deployment.",
+    "Option2": "A JSON file that tracks the state of your infrastructure, mapping real-world resources to your configuration and managing metadata.",
+    "Option3": "A log of all Terraform commands.",
+    "Option4": "A copy of your Terraform configuration.",
+    "Answer": "A JSON file that tracks the state of your infrastructure, mapping real-world resources to your configuration and managing metadata."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Terraform Providers'?",
+    "Option1": "Specific cloud platforms only.",
+    "Option2": "Plugins that Terraform uses to interact with various cloud providers (like Azure), SaaS providers, and other APIs to provision and manage resources.",
+    "Option3": "Terraform language extensions.",
+    "Option4": "Deployment automation tools.",
+    "Answer": "Plugins that Terraform uses to interact with various cloud providers (like Azure), SaaS providers, and other APIs to provision and manage resources."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Azure DevOps Boards' used for?",
+    "Option1": "Code repository management.",
+    "Option2": "Agile planning and tracking of work items, including backlogs, sprints, and dashboards for project visibility.",
+    "Option3": "Automated build and release.",
+    "Option4": "Manual test case execution.",
+    "Answer": "Agile planning and tracking of work items, including backlogs, sprints, and dashboards for project visibility."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Azure DevOps Repos' used for?",
+    "Option1": "Creating user stories.",
+    "Option2": "Centralized version control for your source code, supporting Git and Team Foundation Version Control (TFVC).",
+    "Option3": "Running automated tests.",
+    "Option4": "Deploying applications.",
+    "Answer": "Centralized version control for your source code, supporting Git and Team Foundation Version Control (TFVC)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Azure Monitor Log Analytics Queries'?",
+    "Option1": "Structured query language (SQL).",
+    "Option2": "Using Kusto Query Language (KQL) to retrieve, analyze, and visualize log data collected in an Log Analytics workspace.",
+    "Option3": "Only for simple searches.",
+    "Option4": "For metrics visualization.",
+    "Answer": "Using Kusto Query Language (KQL) to retrieve, analyze, and visualize log data collected in an Log Analytics workspace."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Azure Application Insights Telemetry'?",
+    "Option1": "Only application logs.",
+    "Option2": "Data collected from your application (e.g., requests, dependencies, exceptions, custom events) that provides insights into its performance and usage.",
+    "Option3": "Network traffic details.",
+    "Option4": "Virtual machine performance metrics.",
+    "Answer": "Data collected from your application (e.g., requests, dependencies, exceptions, custom events) that provides insights into its performance and usage."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Azure Container Registry Webhooks'?",
+    "Option1": "For manually updating images.",
+    "Option2": "Automated notifications triggered by events in ACR, such as image pushes or deletions, enabling integration with CI/CD pipelines or other services.",
+    "Option3": "For managing user access.",
+    "Option4": "For secure container access.",
+    "Answer": "Automated notifications triggered by events in ACR, such as image pushes or deletions, enabling integration with CI/CD pipelines or other services."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Azure Image Builder'?",
+    "Option1": "For creating container images.",
+    "Option2": "A service that simplifies the creation, management, and deployment of customized virtual machine images across Azure.",
+    "Option3": "For converting image formats.",
+    "Option4": "For securing image repositories.",
+    "Answer": "A service that simplifies the creation, management, and deployment of customized virtual machine images across Azure."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Azure Shared Image Gallery'?",
+    "Option1": "For publicly sharing images.",
+    "Option2": "A service that allows you to manage, share, and distribute custom VM images across different subscriptions, regions, and Azure AD tenants.",
+    "Option3": "For temporary image storage.",
+    "Option4": "For securing image access.",
+    "Answer": "A service that allows you to manage, share, and distribute custom VM images across different subscriptions, regions, and Azure AD tenants."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Azure Automation Runbooks'?",
+    "Option1": "Manual execution of scripts.",
+    "Option2": "Sequences of tasks in Azure Automation that can be run automatically to perform management and operational tasks in Azure, on-premises, and other clouds.",
+    "Option3": "For creating virtual networks.",
+    "Option4": "For monitoring virtual machines.",
+    "Answer": "Sequences of tasks in Azure Automation that can be run automatically to perform management and operational tasks in Azure, on-premises, and other clouds."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Azure Automation Desired State Configuration (DSC)'?",
+    "Option1": "For deploying applications.",
+    "Option2": "A configuration management platform in Azure Automation that enables you to ensure that your servers and virtual machines maintain a desired state.",
+    "Option3": "For automating backups.",
+    "Option4": "For managing network security groups.",
+    "Answer": "A configuration management platform in Azure Automation that enables you to ensure that your servers and virtual machines maintain a desired state."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Azure Policy Remediations'?",
+    "Option1": "Manual compliance checks.",
+    "Option2": "Actions taken by Azure Policy to bring non-compliant resources into compliance, such as deploying missing resources or modifying existing ones.",
+    "Option3": "Reporting non-compliance only.",
+    "Option4": "Deleting non-compliant resources.",
+    "Answer": "Actions taken by Azure Policy to bring non-compliant resources into compliance, such as deploying missing resources or modifying existing ones."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Azure Policy Exceptions'?",
+    "Option1": "Allowing non-compliant resources without justification.",
+    "Option2": "A way to grant a waiver for a policy assignment, allowing a specific resource or scope to be temporarily or permanently exempt from certain policy effects.",
+    "Option3": "Changing policy definitions.",
+    "Option4": "Deleting policy assignments.",
+    "Answer": "A way to grant a waiver for a policy assignment, allowing a specific resource or scope to be temporarily or permanently exempt from certain policy effects."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Azure Service Endpoint'?",
+    "Option1": "For public internet access to services.",
+    "Option2": "Secures your Azure service resources to only your virtual network over a direct connection, providing enhanced security for services like Storage and SQL Database.",
+    "Option3": "For connecting to on-premises networks.",
+    "Option4": "For load balancing internal traffic.",
+    "Answer": "Secures your Azure service resources to only your virtual network over a direct connection, providing enhanced security for services like Storage and SQL Database."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Azure Private Endpoint'?",
+    "Option1": "For public access to services.",
+    "Option2": "A network interface that connects you privately and securely to a service powered by Azure Private Link, allowing you to access Azure services from your VNet.",
+    "Option3": "A service for VNet peering.",
+    "Option4": "A global load balancer.",
+    "Answer": "A network interface that connects you privately and securely to a service powered by Azure Private Link, allowing you to access Azure services from your VNet."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Azure ExpressRoute Global Reach'?",
+    "Option1": "Connecting to different Azure regions only.",
+    "Option2": "A feature of ExpressRoute that allows you to link your on-premises networks together through Microsoft's global network, enabling private data exchange between them.",
+    "Option3": "For connecting to the public internet.",
+    "Option4": "For extending your VNet to on-premises.",
+    "Answer": "A feature of ExpressRoute that allows you to link your on-premises networks together through Microsoft's global network, enabling private data exchange between them."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Azure Bastion' for in terms of security?",
+    "Option1": "Exposing VMs directly to the internet.",
+    "Option2": "Providing secure and seamless RDP/SSH connectivity to your VMs directly from the Azure portal over SSL, eliminating the need for public IP addresses.",
+    "Option3": "Filtering network traffic at the VM level.",
+    "Option4": "Encrypting data at rest on VMs.",
+    "Answer": "Providing secure and seamless RDP/SSH connectivity to your VMs directly from the Azure portal over SSL, eliminating the need for public IP addresses."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Azure Cost Management Budgets'?",
+    "Option1": "For forecasting costs only.",
+    "Option2": "A feature to proactively monitor spending against a defined limit, triggering alerts when spending thresholds are crossed.",
+    "Option3": "For reducing resource usage automatically.",
+    "Option4": "For generating billing reports.",
+    "Answer": "A feature to proactively monitor spending against a defined limit, triggering alerts when spending thresholds are crossed."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Azure Cost Management Exports'?",
+    "Option1": "For viewing costs in the portal only.",
+    "Option2": "A way to automate the export of your cost and usage data to an Azure Storage account, enabling detailed analysis and integration with external systems.",
+    "Option3": "For manually downloading invoices.",
+    "Option4": "For setting up billing alerts.",
+    "Answer": "A way to automate the export of your cost and usage data to an Azure Storage account, enabling detailed analysis and integration with external systems."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Azure Monitor Workbooks'?",
+    "Option1": "For viewing raw logs.",
+    "Option2": "Flexible and interactive canvases for data analysis and the creation of rich visual reports within Azure Monitor.",
+    "Option3": "For creating alerts.",
+    "Option4": "For setting up action groups.",
+    "Answer": "Flexible and interactive canvases for data analysis and the creation of rich visual reports within Azure Monitor."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Azure Kubernetes Service (AKS) Pod Identity'?",
+    "Option1": "Assigning identities to AKS nodes.",
+    "Option2": "Allows Kubernetes applications to access cloud resources securely using Azure Active Directory identities, without requiring explicit credentials.",
+    "Option3": "For authenticating external users.",
+    "Option4": "For managing Docker registry access.",
+    "Answer": "Allows Kubernetes applications to access cloud resources securely using Azure Active Directory identities, without requiring explicit credentials."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Azure DevOps Pipelines' 'Environments'?",
+    "Option1": "Just a logical grouping of stages.",
+    "Option2": "A collection of resources (e.g., virtual machines, Kubernetes clusters, web apps) targeted by a deployment, enabling release gate control and security.",
+    "Option3": "A type of agent pool.",
+    "Option4": "For managing source code.",
+    "Answer": "A collection of resources (e.g., virtual machines, Kubernetes clusters, web apps) targeted by a deployment, enabling release gate control and security."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Azure Deployment Slots' in App Service?",
+    "Option1": "For increasing application performance.",
+    "Option2": "Live apps with their own hostnames, allowing you to deploy different versions of your app to different slots and swap them with zero downtime.",
+    "Option3": "For backing up applications.",
+    "Option4": "For monitoring application health.",
+    "Answer": "Live apps with their own hostnames, allowing you to deploy different versions of your app to different slots and swap them with zero downtime."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Azure Container Registry Task'?",
+    "Option1": "For manually building images.",
+    "Option2": "A feature that automates OS and framework patching, and building, testing, and deploying images to ACR on demand or on trigger.",
+    "Option3": "For pushing images to Docker Hub.",
+    "Option4": "For managing ACR repositories.",
+    "Answer": "A feature that automates OS and framework patching, and building, testing, and deploying images to ACR on demand or on trigger."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Azure Monitor Smart Groups'?",
+    "Option1": "Manual grouping of alerts.",
+    "Option2": "An aggregation of related alerts using AI, helping to reduce alert noise and identify root causes faster.",
+    "Option3": "For managing security alerts only.",
+    "Option4": "For organizing dashboards.",
+    "Answer": "An aggregation of related alerts using AI, helping to reduce alert noise and identify root causes faster."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Azure Private DNS Resolver'?",
+    "Option1": "For public DNS resolution.",
+    "Option2": "A service that enables you to query Azure DNS private zones from an on-premises environment and vice-versa, without deploying custom DNS servers.",
+    "Option3": "For Caching public DNS queries.",
+    "Option4": "For managing public DNS zones.",
+    "Answer": "A service that enables you to query Azure DNS private zones from an on-premises environment and vice-versa, without deploying custom DNS servers."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Azure Virtual WAN'?",
+    "Option1": "A traditional VPN solution.",
+    "Option2": "A networking service that brings many networking, security, and routing functionalities together to provide a single operational interface.",
+    "Option3": "For connecting single virtual networks.",
+    "Option4": "A content delivery network.",
+    "Answer": "A networking service that brings many networking, security, and routing functionalities together to provide a single operational interface."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Azure App Configuration'?",
+    "Option1": "For storing application secrets.",
+    "Option2": "A managed service that helps developers centralize and manage application settings and feature flags.",
+    "Option3": "For storing logs.",
+    "Option4": "For managing user identities.",
+    "Answer": "A managed service that helps developers centralize and manage application settings and feature flags."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Azure Service Fabric'?",
+    "Option1": "A traditional VM hosting platform.",
+    "Option2": "A distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers.",
+    "Option3": "A serverless compute service.",
+    "Option4": "A relational database service.",
+    "Answer": "A distributed systems platform that makes it easy to package, deploy, and manage scalable and reliable microservices and containers."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Azure DevTest Labs'?",
+    "Option1": "For production environments only.",
+    "Option2": "A service that enables developers and testers to quickly create environments in Azure, while minimizing waste and controlling costs.",
+    "Option3": "For managing virtual machine images.",
+    "Option4": "For running automated tests.",
+    "Answer": "A service that enables developers and testers to quickly create environments in Azure, while minimizing waste and controlling costs."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Azure Resource Locks' 'CanNotDelete' vs 'ReadOnly'?",
+    "Option1": "Both allow deletion.",
+    "Option2": "CanNotDelete prevents deletion but allows modification; ReadOnly prevents both deletion and modification.",
+    "Option3": "Both prevent modification.",
+    "Option4": "No practical difference.",
+    "Answer": "CanNotDelete prevents deletion but allows modification; ReadOnly prevents both deletion and modification."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Azure Monitor Diagnostic Settings'?",
+    "Option1": "For collecting only metrics.",
+    "Option2": "Used to configure streaming of platform logs and metrics to a Log Analytics workspace, Storage Account, or Event Hubs for analysis and archiving.",
+    "Option3": "For creating alerts.",
+    "Option4": "For defining dashboards.",
+    "Answer": "Used to configure streaming of platform logs and metrics to a Log Analytics workspace, Storage Account, or Event Hubs for analysis and archiving."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Azure Log Analytics Agents'?",
+    "Option1": "For collecting only Azure resource logs.",
+    "Option2": "Software agents (e.g., Log Analytics agent, Azure Monitor agent) installed on virtual machines to collect logs and performance data and send them to a Log Analytics workspace.",
+    "Option3": "For network security monitoring.",
+    "Option4": "For managing virtual networks.",
+    "Answer": "Software agents (e.g., Log Analytics agent, Azure Monitor agent) installed on virtual machines to collect logs and performance data and send them to a Log Analytics workspace."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Azure Sentinel Connectors'?",
+    "Option1": "For connecting to Azure services only.",
+    "Option2": "Built-in connectors that enable Azure Sentinel to ingest data from various sources, including Microsoft services, other clouds, and on-premises security solutions.",
+    "Option3": "For deploying applications.",
+    "Option4": "For managing virtual networks.",
+    "Answer": "Built-in connectors that enable Azure Sentinel to ingest data from various sources, including Microsoft services, other clouds, and on-premises security solutions."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Azure Sentinel Playbooks'?",
+    "Option1": "Manual response procedures.",
+    "Option2": "Automated response and remediation actions for security incidents in Azure Sentinel, powered by Azure Logic Apps.",
+    "Option3": "For generating security reports.",
+    "Option4": "For security threat intelligence.",
+    "Answer": "Automated response and remediation actions for security incidents in Azure Sentinel, powered by Azure Logic Apps."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Azure DevOps Service Hooks'?",
+    "Option1": "Manual integrations.",
+    "Option2": "A way to integrate Azure DevOps with other services by sending notifications or making API calls when specific events occur (e.g., code push, build completion).",
+    "Option3": "For managing code branches.",
+    "Option4": "For running automated tests.",
+    "Answer": "A way to integrate Azure DevOps with other services by sending notifications or making API calls when specific events occur (e.g., code push, build completion)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Azure DevOps Agent Pools'?",
+    "Option1": "Individual build agents.",
+    "Option2": "A collection of agents (Microsoft-hosted or self-hosted) that are available to run jobs in Azure Pipelines, allowing for parallel execution and specialized environments.",
+    "Option3": "A type of release gate.",
+    "Option4": "For storing artifacts.",
+    "Answer": "A collection of agents (Microsoft-hosted or self-hosted) that are available to run jobs in Azure Pipelines, allowing for parallel execution and specialized environments."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Azure Functions Consumption Plan'?",
+    "Option1": "Always-on instances.",
+    "Option2": "A serverless hosting plan where you pay only for the time your function code is running, with automatic scaling based on demand.",
+    "Option3": "Fixed monthly cost.",
+    "Option4": "Requires manual scaling configuration.",
+    "Answer": "A serverless hosting plan where you pay only for the time your function code is running, with automatic scaling based on demand."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Azure Functions Premium Plan'?",
+    "Option1": "Pay-as-you-go pricing.",
+    "Option2": "A hosting plan for Azure Functions that offers enhanced performance, VNet connectivity, and pre-warmed instances, suitable for demanding workloads.",
+    "Option3": "Only for non-production environments.",
+    "Option4": "Does not support VNet integration.",
+    "Answer": "A hosting plan for Azure Functions that offers enhanced performance, VNet connectivity, and pre-warmed instances, suitable for demanding workloads."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Azure Kubernetes Service (AKS) AutoScaler'?",
+    "Option1": "Only scales horizontally.",
+    "Option2": "Automatically adjusts the number of nodes (cluster autoscaler) and/or pods (horizontal pod autoscaler) in your AKS cluster based on demand and resource utilization.",
+    "Option3": "Only scales vertically.",
+    "Option4": "Requires manual intervention for scaling.",
+    "Answer": "Automatically adjusts the number of nodes (cluster autoscaler) and/or pods (horizontal pod autoscaler) in your AKS cluster based on demand and resource utilization."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Azure Monitor Application Performance Monitoring (APM)'?",
+    "Option1": "For infrastructure monitoring only.",
+    "Option2": "A feature of Application Insights that helps monitor and diagnose performance issues in web applications, providing insights into requests, dependencies, and exceptions.",
+    "Option3": "For network performance monitoring.",
+    "Option4": "For security threat detection.",
+    "Answer": "A feature of Application Insights that helps monitor and diagnose performance issues in web applications, providing insights into requests, dependencies, and exceptions."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Azure Front Door Standard vs. Premium'?",
+    "Option1": "No difference in features.",
+    "Option2": "Different tiers offering varying capabilities for intelligent threat protection, content delivery, and application acceleration, with Premium offering more advanced security features.",
+    "Option3": "Only different pricing models.",
+    "Option4": "Only available in specific regions.",
+    "Answer": "Different tiers offering varying capabilities for intelligent threat protection, content delivery, and application acceleration, with Premium offering more advanced security features."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Azure Firewall Rules Collections'?",
+    "Option1": "Individual firewall rules.",
+    "Option2": "Ordered sets of network rules, application rules, and NAT rules within Azure Firewall, allowing for logical grouping and prioritized processing.",
+    "Option3": "Network Security Groups (NSGs).",
+    "Option4": "Traffic Manager routing methods.",
+    "Answer": "Ordered sets of network rules, application rules, and NAT rules within Azure Firewall, allowing for logical grouping and prioritized processing."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Azure DDoS Protection Standard'?",
+    "Option1": "Basic network protection only.",
+    "Option2": "Provides enhanced DDoS mitigation capabilities for your Azure resources, offering adaptive tuning, always-on monitoring, and attack analytics.",
+    "Option3": "For protecting on-premises networks.",
+    "Option4": "A security audit service.",
+    "Answer": "Provides enhanced DDoS mitigation capabilities for your Azure resources, offering adaptive tuning, always-on monitoring, and attack analytics."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Azure Key Vault Access Policies'?",
+    "Option1": "For managing network access.",
+    "Option2": "Permissions that define which identities (users, applications, managed identities) can perform specific operations (e.g., get, set, delete) on keys, secrets, or certificates in a Key Vault.",
+    "Option3": "For auditing key usage.",
+    "Option4": "For encrypting Key Vault data.",
+    "Answer": "Permissions that define which identities (users, applications, managed identities) can perform specific operations (e.g., get, set, delete) on keys, secrets, or certificates in a Key Vault."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Azure Active Directory Conditional Access'?",
+    "Option1": "Always grants access.",
+    "Option2": "A feature of Azure AD that allows you to enforce organizational policies based on conditions such as user location, device state, or application, to control access to resources.",
+    "Option3": "For managing user groups only.",
+    "Option4": "For single sign-on configuration.",
+    "Answer": "A feature of Azure AD that allows you to enforce organizational policies based on conditions such as user location, device state, or application, to control access to resources."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Azure AD Identity Protection'?",
+    "Option1": "For managing user passwords.",
+    "Option2": "A tool that allows organizations to detect, investigate, and remediate identity-based risks, such as compromised credentials or suspicious sign-ins.",
+    "Option3": "For setting up multifactor authentication.",
+    "Option4": "For auditing user activity.",
+    "Answer": "A tool that allows organizations to detect, investigate, and remediate identity-based risks, such as compromised credentials or suspicious sign-ins."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Azure Resource Graph Explorer'?",
+    "Option1": "A graphical resource creator.",
+    "Option2": "A tool in the Azure portal that allows you to run Kusto Query Language (KQL) queries across your Azure resources to discover, analyze, and gain insights.",
+    "Option3": "For managing resource groups.",
+    "Option4": "For setting resource tags.",
+    "Answer": "A tool in the Azure portal that allows you to run Kusto Query Language (KQL) queries across your Azure resources to discover, analyze, and gain insights."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Azure Arc-enabled Kubernetes'?",
+    "Option1": "Only for AKS clusters.",
+    "Option2": "Extends Azure's management capabilities to Kubernetes clusters running anywhere, enabling consistent management, governance, and security.",
+    "Option3": "For deploying applications to Azure only.",
+    "Option4": "A new type of Azure Kubernetes Service.",
+    "Answer": "Extends Azure's management capabilities to Kubernetes clusters running anywhere, enabling consistent management, governance, and security."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Azure Arc-enabled Servers'?",
+    "Option1": "For managing Azure VMs only.",
+    "Option2": "Extends Azure's management capabilities to physical and virtual servers hosted outside of Azure (on-premises, other clouds), allowing them to be managed as Azure resources.",
+    "Option3": "For migrating servers to Azure.",
+    "Option4": "A specialized database service.",
+    "Answer": "Extends Azure's management capabilities to physical and virtual servers hosted outside of Azure (on-premises, other clouds), allowing them to be managed as Azure resources."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Azure Bicep deployment lifecycle'?",
+    "Option1": "Always in-place updates.",
+    "Option2": "The process of how Bicep code is compiled to ARM JSON and then deployed to Azure, often involving `what-if` operations and idempotent deployments.",
+    "Option3": "Requires manual resource creation.",
+    "Option4": "Only for new resource creation.",
+    "Answer": "The process of how Bicep code is compiled to ARM JSON and then deployed to Azure, often involving `what-if` operations and idempotent deployments."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Terraform Workspace'?",
+    "Option1": "A separate Terraform configuration file.",
+    "Option2": "A feature that allows you to manage multiple distinct infrastructure environments (e.g., dev, staging, prod) from a single Terraform configuration.",
+    "Option3": "A directory for Terraform modules.",
+    "Option4": "A source code repository for Terraform.",
+    "Answer": "A feature that allows you to manage multiple distinct infrastructure environments (e.g., dev, staging, prod) from a single Terraform configuration."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Terraform Remote State'?",
+    "Option1": "Storing state file locally.",
+    "Option2": "Storing the Terraform state file in a remote, shared, and versioned backend (e.g., Azure Storage Blob) for team collaboration and consistency.",
+    "Option3": "A temporary state file.",
+    "Option4": "A copy of the configuration.",
+    "Answer": "Storing the Terraform state file in a remote, shared, and versioned backend (e.g., Azure Storage Blob) for team collaboration and consistency."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Azure Compute Gallery' (formerly Shared Image Gallery)?",
+    "Option1": "For public images only.",
+    "Option2": "A service that enables you to manage, share, and distribute custom VM images across different subscriptions, regions, and Azure AD tenants.",
+    "Option3": "For temporary image storage.",
+    "Option4": "For securing image access.",
+    "Answer": "A service that enables you to manage, share, and distribute custom VM images across different subscriptions, regions, and Azure AD tenants."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Azure Backup Recovery Services vault'?",
+    "Option1": "For storing only database backups.",
+    "Option2": "A storage entity in Azure that houses data for various Azure services (e.g., VMs, SQL databases) and on-premises servers, providing backup and disaster recovery capabilities.",
+    "Option3": "A temporary storage for backups.",
+    "Option4": "A network security group.",
+    "Answer": "A storage entity in Azure that houses data for various Azure services (e.g., VMs, SQL databases) and on-premises servers, providing backup and disaster recovery capabilities."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Azure Migrate'?",
+    "Option1": "For creating new Azure resources.",
+    "Option2": "A hub for assessment and migration of on-premises servers, databases, and web applications to Azure.",
+    "Option3": "For managing Azure resource groups.",
+    "Option4": "For monitoring cloud costs.",
+    "Answer": "A hub for assessment and migration of on-premises servers, databases, and web applications to Azure."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Azure Site Recovery Deployment Planner'?",
+    "Option1": "For manual disaster recovery.",
+    "Option2": "A tool that assesses source environments for Azure Site Recovery readiness and recommends optimal deployment parameters.",
+    "Option3": "For migrating data only.",
+    "Option4": "For testing application performance.",
+    "Answer": "A tool that assesses source environments for Azure Site Recovery readiness and recommends optimal deployment parameters."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Azure Monitor Log Pipelines' (deprecated, now via Diagnostic Settings/Event Hubs)?",
+    "Option1": "For routing metrics.",
+    "Option2": "A feature to route logs from Azure Monitor to other destinations, such as Azure Storage, Event Hubs, or external SIEMs.",
+    "Option3": "For creating alerts.",
+    "Option4": "For data visualization.",
+    "Answer": "A feature to route logs from Azure Monitor to other destinations, such as Azure Storage, Event Hubs, or external SIEMs."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Azure Application Gateway URL Path Based Routing'?",
+    "Option1": "Routes based on hostname only.",
+    "Option2": "A feature that routes requests to different backend pools based on the URL path of the incoming request, enabling flexible routing for microservices.",
+    "Option3": "Routes based on IP address.",
+    "Option4": "Routes based on port number.",
+    "Answer": "A feature that routes requests to different backend pools based on the URL path of the incoming request, enabling flexible routing for microservices."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Azure Application Gateway Multi-site Hosting'?",
+    "Option1": "For a single website only.",
+    "Option2": "A feature that allows you to host more than one web application on the same Application Gateway instance, using host headers to differentiate traffic.",
+    "Option3": "For internal applications only.",
+    "Option4": "Requires separate Application Gateway instances per site.",
+    "Answer": "A feature that allows you to host more than one web application on the same Application Gateway instance, using host headers to differentiate traffic."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Azure Front Door Session Affinity'?",
+    "Option1": "Always routes to the closest backend.",
+    "Option2": "A feature that ensures requests from the same user are consistently routed to the same backend instance, which is important for stateful applications.",
+    "Option3": "Randomly distributes traffic.",
+    "Option4": "Only applies to HTTP traffic.",
+    "Answer": "A feature that ensures requests from the same user are consistently routed to the same backend instance, which is important for stateful applications."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Azure Virtual Network Peering'?",
+    "Option1": "Connecting to the public internet.",
+    "Option2": "Connecting two or more Azure Virtual Networks together seamlessly, allowing resources in each VNet to communicate with each other as if they were in the same network.",
+    "Option3": "For connecting to on-premises networks.",
+    "Option4": "A type of load balancer.",
+    "Answer": "Connecting two or more Azure Virtual Networks together seamlessly, allowing resources in each VNet to communicate with each other as if they were in the same network."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Azure Private DNS Zones'?",
+    "Option1": "For public domain resolution.",
+    "Option2": "A service that provides a reliable and secure DNS service for your virtual networks, allowing you to use your own custom domain names within your private network.",
+    "Option3": "For managing external DNS records.",
+    "Option4": "A caching DNS server.",
+    "Answer": "A service that provides a reliable and secure DNS service for your virtual networks, allowing you to use your own custom domain names within your private network."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Azure Application Security Groups (ASGs)'?",
+    "Option1": "For controlling access to subnets.",
+    "Option2": "A feature that allows you to configure network security as a natural extension of an application's structure, grouping VMs with similar functions.",
+    "Option3": "For global network security.",
+    "Option4": "For managing physical servers.",
+    "Answer": "A feature that allows you to configure network security as a natural extension of an application's structure, grouping VMs with similar functions."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Azure API Management Consumer Portal'?",
+    "Option1": "For internal developers only.",
+    "Option2": "A customizable, web-based portal that allows API consumers (developers) to discover, subscribe to, and test APIs.",
+    "Option3": "For API development.",
+    "Option4": "For API monitoring.",
+    "Answer": "A customizable, web-based portal that allows API consumers (developers) to discover, subscribe to, and test APIs."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Azure API Management Policies'?",
+    "Option1": "For API documentation only.",
+    "Option2": "Statements that are executed sequentially on the request or response of an API, enabling features like rate limiting, caching, and transformation.",
+    "Option3": "For API versioning.",
+    "Option4": "For API analytics.",
+    "Answer": "Statements that are executed sequentially on the request or response of an API, enabling features like rate limiting, caching, and transformation."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Azure Functions Durable Functions'?",
+    "Option1": "For short-lived functions.",
+    "Option2": "An extension of Azure Functions that lets you write stateful orchestrations in a serverless environment, enabling long-running workflows.",
+    "Option3": "For batch processing only.",
+    "Option4": "For real-time streaming.",
+    "Answer": "An extension of Azure Functions that lets you write stateful orchestrations in a serverless environment, enabling long-running workflows."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Azure Container Apps Revisions'?",
+    "Option1": "Only for single versions.",
+    "Option2": "Immutable versions of a container app, allowing for traffic splitting between different revisions for blue/green or canary deployments.",
+    "Option3": "For manual application updates.",
+    "Option4": "For scaling container apps.",
+    "Answer": "Immutable versions of a container app, allowing for traffic splitting between different revisions for blue/green or canary deployments."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Azure Container Apps KEDA Integration'?",
+    "Option1": "Manual scaling only.",
+    "Option2": "Built-in support for KEDA (Kubernetes Event-driven Autoscaling) to scale container apps based on various event sources beyond HTTP/CPU/memory.",
+    "Option3": "For deploying Kubernetes clusters.",
+    "Option4": "For managing container registries.",
+    "Answer": "Built-in support for KEDA (Kubernetes Event-driven Autoscaling) to scale container apps based on various event sources beyond HTTP/CPU/memory."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Azure Arc-enabled Data Services'?",
+    "Option1": "Only for Azure-hosted databases.",
+    "Option2": "Allows you to run Azure data services (e.g., Azure SQL Managed Instance, PostgreSQL Hyperscale) on any infrastructure, including on-premises and other clouds.",
+    "Option3": "For migrating databases to Azure.",
+    "Option4": "A service for data visualization.",
+    "Answer": "Allows you to run Azure data services (e.g., Azure SQL Managed Instance, PostgreSQL Hyperscale) on any infrastructure, including on-premises and other clouds."
+  }
+]

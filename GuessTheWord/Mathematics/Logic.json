@@ -1,0 +1,2702 @@
+[
+  {
+    "word_no.": 1,
+    "word": "TRUTH TABLE",
+    "hints": [
+      "A mathematical table used to determine if a compound statement is true or false.",
+      "It lists all possible combinations of truth values for a set of variables.",
+      "Used to analyze logical propositions."
+    ]
+  },
+  {
+    "word_no.": 2,
+    "word": "CONJUNCTION",
+    "hints": [
+      "A logical operator that is true only when both of its operands are true.",
+      "Often represented by the symbol ^.",
+      "The 'and' operation."
+    ]
+  },
+  {
+    "word_no.": 3,
+    "word": "DISJUNCTION",
+    "hints": [
+      "A logical operator that is false only when both of its operands are false.",
+      "Often represented by the symbol v.",
+      "The 'or' operation."
+    ]
+  },
+  {
+    "word_no.": 4,
+    "word": "NEGATION",
+    "hints": [
+      "A logical operator that reverses the truth value of a statement.",
+      "The opposite of a statement.",
+      "The 'not' operation."
+    ]
+  },
+  {
+    "word_no.": 5,
+    "word": "IMPLICATION",
+    "hints": [
+      "A conditional statement of the form 'if p then q'.",
+      "Also known as a conditional.",
+      "A statement that is only false when the first part is true and the second part is false."
+    ]
+  },
+  {
+    "word_no.": 6,
+    "word": "BICONDITIONAL",
+    "hints": [
+      "A logical connective that is true if and only if both statements have the same truth value.",
+      "Often represented by the symbol <->.",
+      "The 'if and only if' operation."
+    ]
+  },
+  {
+    "word_no.": 7,
+    "word": "TAUTOLOGY",
+    "hints": [
+      "A statement that is always true, regardless of the truth values of its variables.",
+      "An example is 'P or not P'.",
+      "A logical truth."
+    ]
+  },
+  {
+    "word_no.": 8,
+    "word": "CONTRADICTION",
+    "hints": [
+      "A statement that is always false.",
+      "An example is 'P and not P'.",
+      "A logical falsity."
+    ]
+  },
+  {
+    "word_no.": 9,
+    "word": "CONTINGENCY",
+    "hints": [
+      "A logical statement that is neither a tautology nor a contradiction.",
+      "Its truth value depends on the truth values of its variables.",
+      "A statement that can be either true or false."
+    ]
+  },
+  {
+    "word_no.": 10,
+    "word": "PROPOSITION",
+    "hints": [
+      "A declarative statement that is either true or false.",
+      "A statement in propositional logic.",
+      "An assertion that can be evaluated."
+    ]
+  },
+  {
+    "word_no.": 11,
+    "word": "MODUS PONENS",
+    "hints": [
+      "A fundamental rule of inference in classical logic.",
+      "It states that if 'P implies Q' is true and 'P' is true, then 'Q' must also be true.",
+      "The rule of detachment."
+    ]
+  },
+  {
+    "word_no.": 12,
+    "word": "MODUS TOLLENS",
+    "hints": [
+      "A rule of inference that states if 'P implies Q' is true and 'Q' is false, then 'P' must also be false.",
+      "The law of contraposition.",
+      "A form of indirect proof."
+    ]
+  },
+  {
+    "word_no.": 13,
+    "word": "PREDICATE LOGIC",
+    "hints": [
+      "An extension of propositional logic that deals with quantifiers and predicates.",
+      "It allows for the analysis of statements about individuals and their properties.",
+      "Also known as first-order logic."
+    ]
+  },
+  {
+    "word_no.": 14,
+    "word": "QUANTIFIER",
+    "hints": [
+      "A logical symbol that specifies the number of elements that satisfy a formula.",
+      "Examples include 'for all' and 'there exists'.",
+      "Used in predicate logic."
+    ]
+  },
+  {
+    "word_no.": 15,
+    "word": "UNIVERSAL QUANTIFIER",
+    "hints": [
+      "A logical symbol represented as ∀.",
+      "It means 'for all' or 'for every'.",
+      "Used to assert that a property holds for every member of a domain."
+    ]
+  },
+  {
+    "word_no.": 16,
+    "word": "EXISTENTIAL QUANTIFIER",
+    "hints": [
+      "A logical symbol represented as ∃.",
+      "It means 'there exists' or 'for some'.",
+      "Used to assert that a property holds for at least one member of a domain."
+    ]
+  },
+  {
+    "word_no.": 17,
+    "word": "PREDICATE",
+    "hints": [
+      "A property or a relation that is ascribed to a subject.",
+      "The part of a sentence that states something about the subject.",
+      "Example 'is a prime number' in '5 is a prime number'."
+    ]
+  },
+  {
+    "word_no.": 18,
+    "word": "SET THEORY",
+    "hints": [
+      "The mathematical study of collections of objects.",
+      "Deals with sets, unions, intersections, and complements.",
+      "A foundational branch of mathematics."
+    ]
+  },
+  {
+    "word_no.": 19,
+    "word": "UNION",
+    "hints": [
+      "The set of all elements in either of two given sets.",
+      "Represented by the symbol ∪.",
+      "The combination of two sets."
+    ]
+  },
+  {
+    "word_no.": 20,
+    "word": "INTERSECTION",
+    "hints": [
+      "The set of elements that are common to both of two given sets.",
+      "Represented by the symbol ∩.",
+      "The overlap of two sets."
+    ]
+  },
+  {
+    "word_no.": 21,
+    "word": "SUBSET",
+    "hints": [
+      "A set whose elements are all contained within another set.",
+      "Represented by the symbol ⊆.",
+      "A smaller part of a larger set."
+    ]
+  },
+  {
+    "word_no.": 22,
+    "word": "EMPTY SET",
+    "hints": [
+      "A set that contains no elements.",
+      "Also known as the null set.",
+      "Represented by the symbol ∅."
+    ]
+  },
+  {
+    "word_no.": 23,
+    "word": "PROOF BY INDUCTION",
+    "hints": [
+      "A two-step method to prove that a statement holds for all natural numbers.",
+      "It involves a base case and an inductive step.",
+      "A common proof technique in discrete mathematics."
+    ]
+  },
+  {
+    "word_no.": 24,
+    "word": "PROOF BY CONTRADICTION",
+    "hints": [
+      "A proof technique that assumes the opposite of what you want to prove.",
+      "You then show that this assumption leads to a logical inconsistency.",
+      "Also known as 'reductio ad absurdum'."
+    ]
+  },
+  {
+    "word_no.": 25,
+    "word": "AXIOM",
+    "hints": [
+      "A statement that is accepted as true without proof.",
+      "A basic assumption in a mathematical theory.",
+      "A fundamental truth."
+    ]
+  },
+  {
+    "word_no.": 26,
+    "word": "THEOREM",
+    "hints": [
+      "A statement that has been proven true based on axioms and other established statements.",
+      "A major result in mathematics.",
+      "A proven proposition."
+    ]
+  },
+  {
+    "word_no.": 27,
+    "word": "BOOLEAN ALGEBRA",
+    "hints": [
+      "A branch of algebra that deals with variables whose values are truth values.",
+      "Developed by George Boole.",
+      "The foundation of digital logic and computer science."
+    ]
+  },
+  {
+    "word_no.": 28,
+    "word": "PARADOX",
+    "hints": [
+      "A statement that seems self-contradictory but may have a valid meaning.",
+      "A statement that is logically unacceptable despite seemingly sound reasoning.",
+      "Russell's is a famous example."
+    ]
+  },
+  {
+    "word_no.": 29,
+    "word": "KURT GÖDEL",
+    "hints": [
+      "A famous logician who worked on incompleteness theorems.",
+      "His work had a major impact on the foundations of mathematics.",
+      "He was an Austrian-American logician."
+    ]
+  },
+  {
+    "word_no.": 30,
+    "word": "ALAN TURING",
+    "hints": [
+      "A mathematician and logician known as the father of theoretical computer science.",
+      "He proposed a test to determine if a machine can exhibit intelligent behavior.",
+      "He worked on the Enigma code during World War II."
+    ]
+  },
+  {
+    "word_no.": 31,
+    "word": "BERTRAND RUSSELL",
+    "hints": [
+      "A British philosopher, logician, and mathematician.",
+      "He is known for his work on the foundations of mathematics and for his paradox.",
+      "He co-authored 'Principia Mathematica'."
+    ]
+  },
+  {
+    "word_no.": 32,
+    "word": "FORMAL SYSTEM",
+    "hints": [
+      "A system that consists of an alphabet, a grammar, and a set of axioms and rules of inference.",
+      "Used to formalize logic.",
+      "A framework for logical deduction."
+    ]
+  },
+  {
+    "word_no.": 33,
+    "word": "SOUNDNESS",
+    "hints": [
+      "The property of a logical system where all its theorems are tautologies.",
+      "It means that a system only proves true statements.",
+      "The opposite of this property is 'unsound'."
+    ]
+  },
+  {
+    "word_no.": 34,
+    "word": "COMPLETENESS",
+    "hints": [
+      "The property of a logical system where every tautology can be proven.",
+      "It means that a system can prove all true statements.",
+      "A system with this property can deduce all valid statements."
+    ]
+  },
+  {
+    "word_no.": 35,
+    "word": "CONSISTENCY",
+    "hints": [
+      "The property of a logical system that does not contain any contradictions.",
+      "It is impossible to derive both a statement and its negation within the system.",
+      "A system that is free of contradictions."
+    ]
+  },
+  {
+    "word_no.": 36,
+    "word": "LOGICAL EQUIVALENCE",
+    "hints": [
+      "When two statements always have the same truth value.",
+      "They can be substituted for one another in a logical argument.",
+      "Represented by the symbol ≡."
+    ]
+  },
+  {
+    "word_no.": 37,
+    "word": "WELL FORMED FORMULA",
+    "hints": [
+      "An expression that is grammatically correct in a logical language.",
+      "An example is 'P ∧ Q' but not '∧ P Q'.",
+      "Often abbreviated as WFF."
+    ]
+  },
+  {
+    "word_no.": 38,
+    "word": "INFERENCE RULE",
+    "hints": [
+      "A rule that allows you to derive new statements from a set of existing statements.",
+      "Examples include 'modus ponens' and 'modus tollens'.",
+      "A formal way of reasoning."
+    ]
+  },
+  {
+    "word_no.": 39,
+    "word": "VALIDITY",
+    "hints": [
+      "The property of a logical argument where the conclusion necessarily follows from the premises.",
+      "An argument that is not this is a fallacy.",
+      "It is impossible for the premises to be true and the conclusion to be false."
+    ]
+  },
+  {
+    "word_no.": 40,
+    "word": "SATISFIABILITY",
+    "hints": [
+      "The property of a logical statement that there is at least one assignment of truth values that makes it true.",
+      "A statement that is not this is a contradiction.",
+      "Can be checked using a truth table."
+    ]
+  },
+  {
+    "word_no.": 41,
+    "word": "PROPOSITIONAL LOGIC",
+    "hints": [
+      "The simplest part of formal logic that deals with propositions.",
+      "It does not analyze the internal structure of statements.",
+      "Deals with 'and', 'or', and 'not' operators."
+    ]
+  },
+  {
+    "word_no.": 42,
+    "word": "QUANTUM LOGIC",
+    "hints": [
+      "A set of rules for reasoning about propositions in quantum mechanics.",
+      "It differs from classical logic.",
+      "Developed to address the uncertainty principle."
+    ]
+  },
+  {
+    "word_no.": 43,
+    "word": "FUZZY LOGIC",
+    "hints": [
+      "A form of multi-valued logic where the truth value of variables may be any real number between 0 and 1.",
+      "It handles degrees of truth, not just true or false.",
+      "Used in control systems and AI."
+    ]
+  },
+  {
+    "word_no.": 44,
+    "word": "BOOLEAN FUNCTION",
+    "hints": [
+      "A function that maps a set of binary variables to a single binary output.",
+      "Used in digital circuit design.",
+      "The output is either true or false."
+    ]
+  },
+  {
+    "word_no.": 45,
+    "word": "DE MORGAN S LAWS",
+    "hints": [
+      "A pair of rules that relate conjunction and disjunction to negation.",
+      "States that 'not (A and B)' is equivalent to '(not A) or (not B)'.",
+      "Named after a British mathematician."
+    ]
+  },
+  {
+    "word_no.": 46,
+    "word": "DISJUNCTIVE SYLLOGISM",
+    "hints": [
+      "A valid argument form in which a disjunction and the negation of one of its disjuncts is used to infer the other disjunct.",
+      "Example 'P or Q. Not P. Therefore Q'.",
+      "A rule of inference."
+    ]
+  },
+  {
+    "word_no.": 47,
+    "word": "LAW OF EXCLUDED MIDDLE",
+    "hints": [
+      "A principle of logic stating that for any proposition P, either P is true or its negation 'not P' is true.",
+      "There is no third option.",
+      "Also known as 'tertium non datur'."
+    ]
+  },
+  {
+    "word_no.": 48,
+    "word": "INDUCTIVE REASONING",
+    "hints": [
+      "A type of reasoning that moves from specific observations to a general conclusion.",
+      "The conclusion is likely, but not guaranteed to be true.",
+      "Used in scientific inquiry."
+    ]
+  },
+  {
+    "word_no.": 49,
+    "word": "DEDUCTIVE REASONING",
+    "hints": [
+      "A type of reasoning that moves from a general premise to a specific conclusion.",
+      "If the premises are true, the conclusion must be true.",
+      "Used in formal logic and mathematics."
+    ]
+  },
+  {
+    "word_no.": 50,
+    "word": "VALID ARGUMENT",
+    "hints": [
+      "An argument in which the conclusion logically follows from the premises.",
+      "It is impossible for the premises to be true and the conclusion false.",
+      "The structure is correct, but not necessarily the content."
+    ]
+  },
+  {
+    "word_no.": 51,
+    "word": "SOUND ARGUMENT",
+    "hints": [
+      "A valid argument with true premises.",
+      "The conclusion is guaranteed to be true.",
+      "A strong logical argument."
+    ]
+  },
+  {
+    "word_no.": 52,
+    "word": "LOGICAL FALLACY",
+    "hints": [
+      "A flaw in the structure of an argument that makes it invalid.",
+      "Examples include 'ad hominem' and 'straw man'.",
+      "An error in reasoning."
+    ]
+  },
+  {
+    "word_no.": 53,
+    "word": "SYNTAX",
+    "hints": [
+      "The rules for constructing a grammatically correct logical formula.",
+      "Concerns the symbols and their arrangement.",
+      "The grammar of a formal language."
+    ]
+  },
+  {
+    "word_no.": 54,
+    "word": "SEMANTICS",
+    "hints": [
+      "The meaning or interpretation of a logical formula.",
+      "Deals with the relationship between symbols and what they represent.",
+      "The study of meaning."
+    ]
+  },
+  {
+    "word_no.": 55,
+    "word": "MODEL THEORY",
+    "hints": [
+      "A branch of logic that studies the relationship between a formal language and its interpretations.",
+      "It connects syntax to semantics.",
+      "Studies mathematical structures."
+    ]
+  },
+  {
+    "word_no.": 56,
+    "word": "PROOF THEORY",
+    "hints": [
+      "A branch of logic that represents proofs as formal objects.",
+      "It studies the structure and properties of proofs.",
+      "Used to analyze the strength of logical systems."
+    ]
+  },
+  {
+    "word_no.": 57,
+    "word": "COMPUTABILITY THEORY",
+    "hints": [
+      "A branch of logic and computer science that studies which problems can be solved by an algorithm.",
+      "The 'Halting Problem' is a key concept.",
+      "Developed by Alan Turing."
+    ]
+  },
+  {
+    "word_no.": 58,
+    "word": "LAMBDA CALCULUS",
+    "hints": [
+      "A formal system for expressing computation based on function abstraction and application.",
+      "Developed by Alonzo Church.",
+      "A foundation of functional programming languages."
+    ]
+  },
+  {
+    "word_no.": 59,
+    "word": "NATURAL DEDUCTION",
+    "hints": [
+      "A type of logical calculus that uses rules of inference to derive conclusions.",
+      "A popular method for teaching and practicing logic.",
+      "It imitates the way people reason informally."
+    ]
+  },
+  {
+    "word_no.": 60,
+    "word": "AXIOM OF CHOICE",
+    "hints": [
+      "An axiom of set theory.",
+      "It states that for any collection of non-empty sets, it is possible to choose one element from each set.",
+      "Its validity is debated in some mathematical circles."
+    ]
+  },
+  {
+    "word_no.": 61,
+    "word": "ZFC AXIOMS",
+    "hints": [
+      "The standard axiomatic system for set theory.",
+      "Stands for Zermelo-Fraenkel set theory with the Axiom of Choice.",
+      "It is the most common foundation for mathematics."
+    ]
+  },
+  {
+    "word_no.": 62,
+    "word": "RUSSELL S PARADOX",
+    "hints": [
+      "A famous paradox in set theory.",
+      "It involves the set of all sets that do not contain themselves.",
+      "It showed a flaw in naive set theory."
+    ]
+  },
+  {
+    "word_no.": 63,
+    "word": "HILBERT S PROGRAM",
+    "hints": [
+      "A famous project in the foundations of mathematics.",
+      "Proposed by David Hilbert in the early 20th century.",
+      "Aims to formalize all of mathematics into a finite, consistent axiomatic system."
+    ]
+  },
+  {
+    "word_no.": 64,
+    "word": "GÖDEL S INCOMPLETENESS",
+    "hints": [
+      "A pair of theorems about the limitations of any formal axiomatic system.",
+      "Stated that there are true statements that cannot be proven.",
+      "A landmark result in logic and mathematics."
+    ]
+  },
+  {
+    "word_no.": 65,
+    "word": "CHURCH-TURING THESIS",
+    "hints": [
+      "A hypothesis about the nature of algorithms.",
+      "It states that a function is computable if and only if it can be computed by a Turing machine.",
+      "A central concept in computability theory."
+    ]
+  },
+  {
+    "word_no.": 66,
+    "word": "DECIDABILITY",
+    "hints": [
+      "The property of a logical system where there is an algorithm to determine if a given statement is a theorem.",
+      "A problem that can be solved by an algorithm.",
+      "The 'halting problem' is undecidable."
+    ]
+  },
+  {
+    "word_no.": 67,
+    "word": "UNDECIDABLE",
+    "hints": [
+      "A problem for which no algorithm can provide a 'yes' or 'no' answer for all possible inputs.",
+      "The halting problem is an example.",
+      "A problem that cannot be solved by a Turing machine."
+    ]
+  },
+  {
+    "word_no.": 68,
+    "word": "COMPLETENESS THEOREM",
+    "hints": [
+      "A theorem that states that a logical system can prove every valid formula.",
+      "It was proven for first-order logic by Kurt Gödel.",
+      "Links syntactic and semantic concepts."
+    ]
+  },
+  {
+    "word_no.": 69,
+    "word": "FIRST ORDER LOGIC",
+    "hints": [
+      "A formal system used in mathematics, philosophy, and computer science.",
+      "It allows for quantification over variables.",
+      "A more expressive logic than propositional logic."
+    ]
+  },
+  {
+    "word_no.": 70,
+    "word": "SECOND ORDER LOGIC",
+    "hints": [
+      "An extension of first-order logic.",
+      "It allows for quantification over predicates.",
+      "It is more expressive but has different properties than its predecessor."
+    ]
+  },
+  {
+    "word_no": 71,
+    "word": "MATHEMATICAL INDUCTION",
+    "hints": [
+      "A powerful proof technique.",
+      "Used to prove statements about a set of numbers or objects.",
+      "Involves a base case and an inductive step."
+    ]
+  },
+  {
+    "word_no": 72,
+    "word": "DIRECT PROOF",
+    "hints": [
+      "A method of proof where you start with the premises and logically deduce the conclusion.",
+      "It is straightforward and does not involve contradiction.",
+      "A step-by-step argument."
+    ]
+  },
+  {
+    "word_no": 73,
+    "word": "INDIRECT PROOF",
+    "hints": [
+      "A proof technique that assumes the conclusion is false and shows this leads to a contradiction.",
+      "Includes proof by contradiction and contraposition.",
+      "Also known as 'reductio ad absurdum'."
+    ]
+  },
+  {
+    "word_no": 74,
+    "word": "LOGICAL STATEMENT",
+    "hints": [
+      "A declarative sentence with a truth value of either true or false.",
+      "The building block of propositional logic.",
+      "An assertion that can be evaluated."
+    ]
+  },
+  {
+    "word_no": 75,
+    "word": "ARISTOTLE",
+    "hints": [
+      "A Greek philosopher who is considered the father of formal logic.",
+      "He developed a system of reasoning called 'syllogism'.",
+      "His work influenced Western thought for centuries."
+    ]
+  },
+  {
+    "word_no": 76,
+    "word": "GEORGE BOOLE",
+    "hints": [
+      "A British mathematician who developed a form of algebra to analyze logic.",
+      "His work is the foundation of digital circuit design.",
+      "Known for 'The Laws of Thought'."
+    ]
+  },
+  {
+    "word_no": 77,
+    "word": "AUGUSTUS DE MORGAN",
+    "hints": [
+      "A British mathematician and logician.",
+      "Known for a pair of laws that relate conjunction, disjunction, and negation.",
+      "His name is associated with rules about logical equivalences."
+    ]
+  },
+  {
+    "word_no": 78,
+    "word": "GOTTEN FREGE",
+    "hints": [
+      "A German mathematician and logician.",
+      "Considered the father of modern logic.",
+      "His work 'Begriffsschrift' introduced a new notation for logic."
+    ]
+  },
+  {
+    "word_no": 79,
+    "word": "ALONZO CHURCH",
+    "hints": [
+      "An American mathematician and logician.",
+      "He developed lambda calculus.",
+      "His thesis is a foundational concept in computability theory."
+    ]
+  },
+  {
+    "word_no": 80,
+    "word": "ALFRED TARSKI",
+    "hints": [
+      "A Polish logician and mathematician.",
+      "Known for his work on truth and model theory.",
+      "He defined the concept of truth for formal languages."
+    ]
+  },
+  {
+    "word_no": 81,
+    "word": "SYLLOGISM",
+    "hints": [
+      "A type of logical argument that applies deductive reasoning to arrive at a conclusion.",
+      "Example 'All men are mortal. Socrates is a man. Therefore, Socrates is mortal'.",
+      "Developed by Aristotle."
+    ]
+  },
+  {
+    "word_no": 82,
+    "word": "LOGICAL OPERATOR",
+    "hints": [
+      "A symbol or word that connects two or more statements to form a new statement.",
+      "Examples include 'and', 'or', and 'not'.",
+      "Connectives in logic."
+    ]
+  },
+  {
+    "word_no": 83,
+    "word": "BINARY LOGIC",
+    "hints": [
+      "A system of logic that uses only two truth values, true and false.",
+      "The basis for modern digital computers.",
+      "Also known as two-valued logic."
+    ]
+  },
+  {
+    "word_no": 84,
+    "word": "TERNARY LOGIC",
+    "hints": [
+      "A system of logic that uses three truth values.",
+      "A generalization of binary logic.",
+      "It can include 'true', 'false', and 'unknown'."
+    ]
+  },
+  {
+    "word_no": 85,
+    "word": "BOOLEAN LATTICE",
+    "hints": [
+      "A type of lattice that is a complement of a distributive lattice.",
+      "An algebraic structure used in logic.",
+      "A set with two binary operators and a unary operator."
+    ]
+  },
+  {
+    "word_no": 86,
+    "word": "MODEL CHECKING",
+    "hints": [
+      "A formal method for verifying whether a system satisfies a given property.",
+      "Used in computer science to test hardware and software designs.",
+      "It is a logical verification technique."
+    ]
+  },
+  {
+    "word_no": 87,
+    "word": "MODAL LOGIC",
+    "hints": [
+      "A type of logic that deals with concepts like possibility, necessity, belief, and knowledge.",
+      "It extends classical logic with new operators.",
+      "The phrases 'it is necessary that' and 'it is possible that' are central."
+    ]
+  },
+  {
+    "word_no": 88,
+    "word": "LINEAR LOGIC",
+    "hints": [
+      "A substructural logic proposed by Jean-Yves Girard.",
+      "It is sensitive to the number of uses of a hypothesis.",
+      "Used in computer science and linguistics."
+    ]
+  },
+  {
+    "word_no": 89,
+    "word": "INTUITIONISTIC LOGIC",
+    "hints": [
+      "A system of logic that rejects the law of excluded middle.",
+      "It requires a constructive proof to claim a statement is true.",
+      "Associated with L. E. J. Brouwer."
+    ]
+  },
+  {
+    "word_no": 90,
+    "word": "SEQUENT CALCULUS",
+    "hints": [
+      "A style of proof calculus used in structural proof theory.",
+      "It allows for more fine-grained control over the rules of inference.",
+      "Developed by Gerhard Gentzen."
+    ]
+  },
+  {
+    "word_no": 91,
+    "word": "HILBERT SYSTEM",
+    "hints": [
+      "A type of formal system for logical deduction.",
+      "It consists of a set of axioms and a few rules of inference.",
+      "Less common than natural deduction but historically significant."
+    ]
+  },
+  {
+    "word_no": 92,
+    "word": "SOUNDNESS THEOREM",
+    "hints": [
+      "A theorem that states that a logical system is sound.",
+      "Guarantees that every provable formula is a tautology.",
+      "A key property of a logical calculus."
+    ]
+  },
+  {
+    "word_no": 93,
+    "word": "FORMAL LANGUAGE",
+    "hints": [
+      "A set of symbols and rules for combining them to form expressions.",
+      "Used to precisely define logical systems.",
+      "A language without ambiguity."
+    ]
+  },
+  {
+    "word_no": 94,
+    "word": "ALGORITHM",
+    "hints": [
+      "A set of well-defined instructions to solve a problem.",
+      "A key concept in computability theory.",
+      "A finite sequence of steps."
+    ]
+  },
+  {
+    "word_no": 95,
+    "word": "RECURSION",
+    "hints": [
+      "A process where a function or procedure calls itself.",
+      "A foundational concept in computer science and logic.",
+      "A self-referential definition."
+    ]
+  },
+  {
+    "word_no": 96,
+    "word": "LAMBDA TERM",
+    "hints": [
+      "A fundamental expression in lambda calculus.",
+      "It can be a variable, a function, or an application of a function.",
+      "The building block of a functional program."
+    ]
+  },
+  {
+    "word_no": 97,
+    "word": "PROOF",
+    "hints": [
+      "A sequence of steps that shows a mathematical statement is true.",
+      "An argument from axioms to a theorem.",
+      "A method of establishing a conclusion."
+    ]
+  },
+  {
+    "word_no": 98,
+    "word": "LEMMA",
+    "hints": [
+      "A minor theorem that is used to prove a more significant theorem.",
+      "A stepping stone in a longer proof.",
+      "A helping theorem."
+    ]
+  },
+  {
+    "word_no": 99,
+    "word": "COROLLARY",
+    "hints": [
+      "A statement that follows easily from a proven theorem.",
+      "A direct consequence of another result.",
+      "A simple deduction."
+    ]
+  },
+  {
+    "word_no": 100,
+    "word": "CONJECTURE",
+    "hints": [
+      "A statement that is believed to be true but has not yet been proven.",
+      "Examples include the Goldbach Conjecture.",
+      "A guess based on evidence."
+    ]
+  },
+  {
+    "word_no": 101,
+    "word": "HYPOTHESIS",
+    "hints": [
+      "A proposed explanation that is made on the basis of limited evidence.",
+      "A starting assumption in a logical argument.",
+      "The 'if' part of an 'if-then' statement."
+    ]
+  },
+  {
+    "word_no": 102,
+    "word": "CONCLUSION",
+    "hints": [
+      "The final part of a logical argument.",
+      "The statement that is being proven.",
+      "The 'then' part of an 'if-then' statement."
+    ]
+  },
+  {
+    "word_no": 103,
+    "word": "FALLACIOUS ARGUMENT",
+    "hints": [
+      "An argument that contains a flaw in its reasoning.",
+      "A misleading or deceptive argument.",
+      "An invalid argument."
+    ]
+  },
+  {
+    "word_no": 104,
+    "word": "PROPOSITIONAL VARIABLE",
+    "hints": [
+      "A variable that can represent a proposition.",
+      "Often represented by letters like P, Q, and R.",
+      "A placeholder for a statement."
+    ]
+  },
+  {
+    "word_no": 105,
+    "word": "SENTENTIAL LOGIC",
+    "hints": [
+      "Another name for propositional logic.",
+      "Deals with sentences or statements.",
+      "The branch of logic that studies propositions."
+    ]
+  },
+  {
+    "word_no": 106,
+    "word": "LOGICAL DEDUCTION",
+    "hints": [
+      "The process of deriving a conclusion from a set of premises.",
+      "A form of reasoning used in mathematics.",
+      "Moving from general rules to specific conclusions."
+    ]
+  },
+  {
+    "word_no": 107,
+    "word": "INDUCTIVE LOGIC",
+    "hints": [
+      "A type of reasoning that deals with probabilistic arguments.",
+      "The premises provide some degree of support for the conclusion.",
+      "Used in statistics and probability."
+    ]
+  },
+  {
+    "word_no": 108,
+    "word": "FORMAL PROOF",
+    "hints": [
+      "A sequence of steps in a formal language that demonstrates a conclusion.",
+      "Each step must be justified by an axiom or a rule of inference.",
+      "A rigorous, step-by-step argument."
+    ]
+  },
+  {
+    "word_no": 109,
+    "word": "SEMANTIC TABLEAU",
+    "hints": [
+      "A proof procedure for propositional and first-order logic.",
+      "It uses a tree-like structure to test for satisfiability.",
+      "A visual method for testing logical validity."
+    ]
+  },
+  {
+    "word_no": 110,
+    "word": "RESOLUTION",
+    "hints": [
+      "A rule of inference used in automated theorem proving.",
+      "It is a sound and complete method for first-order logic.",
+      "Used to find contradictions in a set of clauses."
+    ]
+  },
+  {
+    "word_no": 111,
+    "word": "PRENEX NORMAL FORM",
+    "hints": [
+      "A form of logical formula in which all quantifiers appear at the beginning of the formula.",
+      "A standard form for first-order logic.",
+      "A simplified representation."
+    ]
+  },
+  {
+    "word_no": 112,
+    "word": "SKOLEMIZATION",
+    "hints": [
+      "A method of removing existential quantifiers from a logical formula.",
+      "It introduces new function symbols to represent the existentially quantified variables.",
+      "Used in automated theorem proving."
+    ]
+  },
+  {
+    "word_no": 113,
+    "word": "HERBRAND S THEOREM",
+    "hints": [
+      "A fundamental result in mathematical logic.",
+      "It provides a way to reduce first-order logic proofs to propositional logic proofs.",
+      "Named after Jacques Herbrand."
+    ]
+  },
+  {
+    "word_no": 114,
+    "word": "COMPACTNESS THEOREM",
+    "hints": [
+      "A theorem in model theory.",
+      "It states that if a set of first-order sentences is unsatisfiable, then a finite subset of it is also unsatisfiable.",
+      "A key result for infinite sets of formulas."
+    ]
+  },
+  {
+    "word_no": 115,
+    "word": "LÖWENHEIM-SKOLEM",
+    "hints": [
+      "A theorem in model theory.",
+      "It states that if a first-order theory has an infinite model, then it has a model of every infinite cardinality.",
+      "A surprising result about the size of models."
+    ]
+  },
+  {
+    "word_no": 116,
+    "word": "BOOLEAN RING",
+    "hints": [
+      "A ring in which every element is its own square.",
+      "Used to represent logical operations.",
+      "A mathematical structure from logic."
+    ]
+  },
+  {
+    "word_no": 117,
+    "word": "HEYTING ALGEBRA",
+    "hints": [
+      "A type of lattice used as a model for intuitionistic logic.",
+      "A generalization of Boolean algebra.",
+      "It does not assume the law of excluded middle."
+    ]
+  },
+  {
+    "word_no": 118,
+    "word": "FORMAL SEMANTICS",
+    "hints": [
+      "The study of meaning in formal languages.",
+      "It provides a precise interpretation for logical symbols.",
+      "The 'meaning' of logical statements."
+    ]
+  },
+  {
+    "word_no": 119,
+    "word": "CONSTRUCTIVE LOGIC",
+    "hints": [
+      "A school of thought in mathematical logic.",
+      "It only accepts a proof if it can be constructed.",
+      "It is a synonym for intuitionistic logic."
+    ]
+  },
+  {
+    "word_no": 120,
+    "word": "PARACONSISTENT LOGIC",
+    "hints": [
+      "A logical system that can tolerate contradictions.",
+      "It does not allow the deduction of every statement from a contradiction.",
+      "It rejects the principle of explosion."
+    ]
+  },
+  {
+    "word_no": 121,
+    "word": "NONMONOTONIC LOGIC",
+    "hints": [
+      "A logical system where new information can invalidate existing conclusions.",
+      "Used in artificial intelligence and legal reasoning.",
+      "The opposite of monotonic logic."
+    ]
+  },
+  {
+    "word_no": 122,
+    "word": "TEMPORAL LOGIC",
+    "hints": [
+      "A logic system for reasoning about propositions qualified in terms of time.",
+      "Used in computer science to verify the behavior of systems over time.",
+      "Includes operators like 'always' and 'sometime'."
+    ]
+  },
+  {
+    "word_no": 123,
+    "word": "EPISTEMIC LOGIC",
+    "hints": [
+      "A branch of modal logic that reasons about knowledge.",
+      "Used in philosophy and computer science.",
+      "It deals with what agents know or believe."
+    ]
+  },
+  {
+    "word_no": 124,
+    "word": "DOXASTIC LOGIC",
+    "hints": [
+      "A branch of modal logic that reasons about belief.",
+      "It is related to epistemic logic.",
+      "It deals with what agents believe."
+    ]
+  },
+  {
+    "word_no": 125,
+    "word": "DEONTIC LOGIC",
+    "hints": [
+      "A branch of modal logic that reasons about obligation and permission.",
+      "Used in ethics and law.",
+      "It deals with concepts like 'it is obligatory that'."
+    ]
+  },
+  {
+    "word_no": 126,
+    "word": "FORMAL VERIFICATION",
+    "hints": [
+      "The process of proving that a system meets its specifications.",
+      "Used in hardware and software design.",
+      "A rigorous logical method."
+    ]
+  },
+  {
+    "word_no": 127,
+    "word": "RESOLUTION PRINCIPLE",
+    "hints": [
+      "A rule of inference used in automated theorem proving.",
+      "A key component of Prolog.",
+      "Used to derive a new clause from two existing clauses."
+    ]
+  },
+  {
+    "word_no": 128,
+    "word": "UNIFICATION",
+    "hints": [
+      "The process of finding a substitution that makes two logical expressions identical.",
+      "A key operation in logic programming and automated theorem proving.",
+      "Used to match patterns."
+    ]
+  },
+  {
+    "word_no": 129,
+    "word": "PROOF ASSISTANT",
+    "hints": [
+      "A software tool that helps in the creation of formal proofs.",
+      "It checks the logical correctness of each step.",
+      "Coq and Isabelle are examples."
+    ]
+  },
+  {
+    "word_no": 130,
+    "word": "SAT SOLVER",
+    "hints": [
+      "A program that determines if a given boolean formula is satisfiable.",
+      "An important tool in computer science and artificial intelligence.",
+      "It finds a satisfying assignment for a formula."
+    ]
+  },
+  {
+    "word_no": 131,
+    "word": "MODEL OF A THEORY",
+    "hints": [
+      "A mathematical structure that satisfies all the axioms of a given theory.",
+      "An interpretation that makes all statements of a theory true.",
+      "A realization of a formal theory."
+    ]
+  },
+  {
+    "word_no": 132,
+    "word": "COMPACTNESS",
+    "hints": [
+      "A property of first-order logic.",
+      "An infinite set of formulas is satisfiable if every finite subset is satisfiable.",
+      "Relates finite and infinite satisfiability."
+    ]
+  },
+  {
+    "word_no": 133,
+    "word": "CATEGORICAL",
+    "hints": [
+      "A property of a theory.",
+      "A theory is this if all of its models are isomorphic.",
+      "A property related to the uniqueness of models."
+    ]
+  },
+  {
+    "word_no": 134,
+    "word": "AXIOM OF EXTENSIONALITY",
+    "hints": [
+      "An axiom of set theory.",
+      "It states that two sets are equal if and only if they have the same elements.",
+      "A fundamental principle for defining sets."
+    ]
+  },
+  {
+    "word_no": 135,
+    "word": "RECURSIVE FUNCTION",
+    "hints": [
+      "A function that is defined in terms of its own values for smaller inputs.",
+      "A key concept in computability theory.",
+      "Used to define algorithms."
+    ]
+  },
+  {
+    "word_no": 136,
+    "word": "TURING MACHINE",
+    "hints": [
+      "A theoretical model of a computer.",
+      "It consists of a tape, a head, and a set of rules.",
+      "It is a central concept in computability theory."
+    ]
+  },
+  {
+    "word_no": 137,
+    "word": "CHURCH S THESIS",
+    "hints": [
+      "A hypothesis about what it means to be computable.",
+      "It states that every computable function can be computed by a Turing machine.",
+      "Also known as the Church-Turing thesis."
+    ]
+  },
+  {
+    "word_no": 138,
+    "word": "HALTING PROBLEM",
+    "hints": [
+      "The problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever.",
+      "It was proven to be undecidable by Alan Turing.",
+      "A famous problem in computability theory."
+    ]
+  },
+  {
+    "word_no": 139,
+    "word": "PEANO AXIOMS",
+    "hints": [
+      "A set of axioms for the natural numbers.",
+      "They define the properties of 0 and the successor function.",
+      "Named after Giuseppe Peano."
+    ]
+  },
+  {
+    "word_no": 140,
+    "word": "GÖDEL S COMPLETENESS",
+    "hints": [
+      "A theorem that states that every valid logical statement can be proven.",
+      "It was a major result for first-order logic.",
+      "It connects validity and provability."
+    ]
+  },
+  {
+    "word_no": 141,
+    "word": "DEDEKIND CUT",
+    "hints": [
+      "A method of constructing the real numbers from the rational numbers.",
+      "A partition of the rational numbers into two sets.",
+      "Named after Richard Dedekind."
+    ]
+  },
+  {
+    "word_no": 142,
+    "word": "P NP PROBLEM",
+    "hints": [
+      "A major unsolved problem in computer science.",
+      "Asks whether every problem whose solution can be quickly verified can also be quickly solved.",
+      "A question about complexity classes."
+    ]
+  },
+  {
+    "word_no": 143,
+    "word": "PROPOSITIONAL CALCULUS",
+    "hints": [
+      "Another name for propositional logic.",
+      "A formal system for logical deduction.",
+      "Deals with truth values of propositions."
+    ]
+  },
+  {
+    "word_no": 144,
+    "word": "FIRST ORDER THEORY",
+    "hints": [
+      "A set of sentences in first-order logic.",
+      "Used to describe a class of mathematical structures.",
+      "A set of axioms for a given domain."
+    ]
+  },
+  {
+    "word_no": 145,
+    "word": "BOOLEAN FUNCTION",
+    "hints": [
+      "A function that maps a set of binary variables to a single binary output.",
+      "Used in digital circuit design.",
+      "The output is either true or false."
+    ]
+  },
+  {
+    "word_no": 146,
+    "word": "LOGICAL EQUIVALENCE",
+    "hints": [
+      "When two statements always have the same truth value.",
+      "They can be substituted for one another in a logical argument.",
+      "Represented by the symbol ≡."
+    ]
+  },
+  {
+    "word_no": 147,
+    "word": "VALIDITY",
+    "hints": [
+      "The property of a logical argument where the conclusion necessarily follows from the premises.",
+      "An argument that is not this is a fallacy.",
+      "It is impossible for the premises to be true and the conclusion to be false."
+    ]
+  },
+  {
+    "word_no": 148,
+    "word": "SATISFIABILITY",
+    "hints": [
+      "The property of a logical statement that there is at least one assignment of truth values that makes it true.",
+      "A statement that is not this is a contradiction.",
+      "Can be checked using a truth table."
+    ]
+  },
+  {
+    "word_no": 149,
+    "word": "UNPROVABLE",
+    "hints": [
+      "A statement that cannot be derived from the axioms of a formal system.",
+      "Gödel's incompleteness theorems show that such statements exist.",
+      "A true statement that cannot be formally proven."
+    ]
+  },
+  {
+    "word_no": 150,
+    "word": "RECURSIVELY ENUMERABLE",
+    "hints": [
+      "A set whose elements can be listed by a Turing machine.",
+      "Also known as a semidecidable set.",
+      "A concept in computability theory."
+    ]
+  },
+  {
+    "word_no": 151,
+    "word": "PROVABILITY",
+    "hints": [
+      "The property of a statement that it can be derived from the axioms of a formal system.",
+      "The conclusion of a formal proof.",
+      "Synonymous with 'deducibility'."
+    ]
+  },
+  {
+    "word_no": 152,
+    "word": "SOUND ARGUMENT",
+    "hints": [
+      "A valid argument with true premises.",
+      "The conclusion is guaranteed to be true.",
+      "A logically perfect argument."
+    ]
+  },
+  {
+    "word_no": 153,
+    "word": "VALID ARGUMENT",
+    "hints": [
+      "An argument in which the conclusion follows from the premises.",
+      "The structure is correct, but the premises may be false.",
+      "A well-structured argument."
+    ]
+  },
+  {
+    "word_no": 154,
+    "word": "LOGICAL POSITIVISM",
+    "hints": [
+      "A philosophy of science that emphasizes logical and empirical methods.",
+      "It states that only verifiable statements are meaningful.",
+      "A school of thought in the 20th century."
+    ]
+  },
+  {
+    "word_no": 155,
+    "word": "SET",
+    "hints": [
+      "A collection of distinct objects.",
+      "A fundamental concept in mathematics.",
+      "The basis of set theory."
+    ]
+  },
+  {
+    "word_no": 156,
+    "word": "ELEMENT",
+    "hints": [
+      "An object contained within a set.",
+      "A member of a set.",
+      "The basic component of a set."
+    ]
+  },
+  {
+    "word_no": 157,
+    "word": "FINITE SET",
+    "hints": [
+      "A set with a limited number of elements.",
+      "Its cardinality is a natural number.",
+      "A set that is not infinite."
+    ]
+  },
+  {
+    "word_no": 158,
+    "word": "INFINITE SET",
+    "hints": [
+      "A set that has an endless number of elements.",
+      "Examples include the set of natural numbers.",
+      "A set that is not finite."
+    ]
+  },
+  {
+    "word_no": 159,
+    "word": "CARDINALITY",
+    "hints": [
+      "The number of elements in a set.",
+      "The 'size' of a set.",
+      "Can be the same for two different sets."
+    ]
+  },
+  {
+    "word_no": 160,
+    "word": "POWER SET",
+    "hints": [
+      "The set of all subsets of a given set.",
+      "If a set has n elements, this set has 2^n elements.",
+      "The set of all possible subsets."
+    ]
+  },
+  {
+    "word_no": 161,
+    "word": "CARTESIAN PRODUCT",
+    "hints": [
+      "A mathematical operation that returns a new set from two or more sets.",
+      "It consists of all possible ordered pairs.",
+      "The product of two sets."
+    ]
+  },
+  {
+    "word_no": 162,
+    "word": "VENN DIAGRAM",
+    "hints": [
+      "A diagram that shows the relationships between sets.",
+      "It uses overlapping circles to represent sets.",
+      "Named after John Venn."
+    ]
+  },
+  {
+    "word_no": 163,
+    "word": "DIRECT PROOF",
+    "hints": [
+      "A method of proof where you start with the premises and logically deduce the conclusion.",
+      "It does not involve contradiction.",
+      "A straightforward argument."
+    ]
+  },
+  {
+    "word_no": 164,
+    "word": "PROOF BY COUNTEREXAMPLE",
+    "hints": [
+      "A method of proof used to disprove a universal statement.",
+      "You show a single case where the statement is false.",
+      "A single instance that contradicts a general claim."
+    ]
+  },
+  {
+    "word_no": 165,
+    "word": "CONVERSE",
+    "hints": [
+      "A logical statement derived from a conditional statement.",
+      "The conditional 'if P then Q' has this form 'if Q then P'.",
+      "The reversal of an implication."
+    ]
+  },
+  {
+    "word_no": 166,
+    "word": "INVERSE",
+    "hints": [
+      "A logical statement derived from a conditional statement.",
+      "The conditional 'if P then Q' has this form 'if not P then not Q'.",
+      "The negation of both parts of an implication."
+    ]
+  },
+  {
+    "word_no": 167,
+    "word": "CONTRAPOSITIVE",
+    "hints": [
+      "A logical statement derived from a conditional statement.",
+      "The conditional 'if P then Q' has this form 'if not Q then not P'.",
+      "It is logically equivalent to the original statement."
+    ]
+  },
+  {
+    "word_no": 168,
+    "word": "INDUCTIVE STEP",
+    "hints": [
+      "The second part of a proof by induction.",
+      "You assume the statement is true for some number k and then prove it for k+1.",
+      "The recursive part of the proof."
+    ]
+  },
+  {
+    "word_no": 169,
+    "word": "BASE CASE",
+    "hints": [
+      "The first part of a proof by induction.",
+      "You prove the statement is true for the first natural number.",
+      "The starting point of the proof."
+    ]
+  },
+  {
+    "word_no": 170,
+    "word": "WEAK INDUCTION",
+    "hints": [
+      "The standard form of mathematical induction.",
+      "It assumes the statement is true for 'k' to prove it for 'k+1'.",
+      "Also known as the principle of simple induction."
+    ]
+  },
+  {
+    "word_no": 171,
+    "word": "STRONG INDUCTION",
+    "hints": [
+      "A form of mathematical induction.",
+      "It assumes the statement is true for all numbers less than or equal to 'k' to prove it for 'k+1'.",
+      "More powerful than weak induction for some proofs."
+    ]
+  },
+  {
+    "word_no": 172,
+    "word": "LOGICAL EQUIVALENCE",
+    "hints": [
+      "When two statements always have the same truth value.",
+      "They can be substituted for one another in a logical argument.",
+      "Represented by the symbol ≡."
+    ]
+  },
+  {
+    "word_no": 173,
+    "word": "TAUTOLOGY",
+    "hints": [
+      "A statement that is always true, regardless of the truth values of its variables.",
+      "An example is 'P or not P'.",
+      "A logical truth."
+    ]
+  },
+  {
+    "word_no": 174,
+    "word": "CONTINGENCY",
+    "hints": [
+      "A logical statement that is neither a tautology nor a contradiction.",
+      "Its truth value depends on the truth values of its variables.",
+      "A statement that can be either true or false."
+    ]
+  },
+  {
+    "word_no": 175,
+    "word": "CONTRADICTION",
+    "hints": [
+      "A statement that is always false.",
+      "An example is 'P and not P'.",
+      "A logical falsity."
+    ]
+  },
+  {
+    "word_no": 176,
+    "word": "LOGICAL CONSTANT",
+    "hints": [
+      "A symbol in logic that has a fixed meaning.",
+      "Examples include '∧', '∨', and '¬'.",
+      "An operator or a connective."
+    ]
+  },
+  {
+    "word_no": 177,
+    "word": "PROPOSITIONAL CONNECTIVE",
+    "hints": [
+      "A symbol that connects propositions to form a new proposition.",
+      "Examples include 'and', 'or', 'if...then'.",
+      "A logical operator."
+    ]
+  },
+  {
+    "word_no": 178,
+    "word": "NORMAL FORM",
+    "hints": [
+      "A standard way of writing a logical formula.",
+      "Examples include Conjunctive Normal Form and Disjunctive Normal Form.",
+      "A simplified representation of a formula."
+    ]
+  },
+  {
+    "word_no": 179,
+    "word": "CONJUNCTIVE NORMAL FORM",
+    "hints": [
+      "A logical formula that is a conjunction of clauses.",
+      "Each clause is a disjunction of literals.",
+      "Abbreviated as CNF."
+    ]
+  },
+  {
+    "word_no": 180,
+    "word": "DISJUNCTIVE NORMAL FORM",
+    "hints": [
+      "A logical formula that is a disjunction of terms.",
+      "Each term is a conjunction of literals.",
+      "Abbreviated as DNF."
+    ]
+  },
+  {
+    "word_no": 181,
+    "word": "FREE VARIABLE",
+    "hints": [
+      "A variable in a logical formula that is not bound by a quantifier.",
+      "Its value is not specified.",
+      "Can be replaced by a constant."
+    ]
+  },
+  {
+    "word_no": 182,
+    "word": "BOUND VARIABLE",
+    "hints": [
+      "A variable in a logical formula that is within the scope of a quantifier.",
+      "Its value is specified by the quantifier.",
+      "Cannot be replaced by a constant."
+    ]
+  },
+  {
+    "word_no": 183,
+    "word": "SCOPE",
+    "hints": [
+      "The part of a logical formula that is influenced by a quantifier.",
+      "The range of a variable's binding.",
+      "The 'range' of an operator."
+    ]
+  },
+  {
+    "word_no": 184,
+    "word": "UNARY OPERATOR",
+    "hints": [
+      "A logical operator that takes only one operand.",
+      "An example is negation.",
+      "An operator with a single input."
+    ]
+  },
+  {
+    "word_no": 185,
+    "word": "BINARY OPERATOR",
+    "hints": [
+      "A logical operator that takes two operands.",
+      "Examples include conjunction and disjunction.",
+      "An operator with two inputs."
+    ]
+  },
+  {
+    "word_no": 186,
+    "word": "TERMS",
+    "hints": [
+      "Expressions that denote objects or individuals in a logical formula.",
+      "Can be variables, constants, or functions.",
+      "The 'nouns' of a logical language."
+    ]
+  },
+  {
+    "word_no": 187,
+    "word": "ATOMIC FORMULA",
+    "hints": [
+      "A logical formula with no logical connectives.",
+      "The simplest type of formula.",
+      "A building block of more complex formulas."
+    ]
+  },
+  {
+    "word_no": 188,
+    "word": "LITERAL",
+    "hints": [
+      "A propositional variable or its negation.",
+      "A simple logical statement.",
+      "A term in a normal form."
+    ]
+  },
+  {
+    "word_no": 189,
+    "word": "CLAUSE",
+    "hints": [
+      "A disjunction of literals.",
+      "A part of a Conjunctive Normal Form formula.",
+      "A collection of simple statements connected by 'or'."
+    ]
+  },
+  {
+    "word_no": 190,
+    "word": "MODEL",
+    "hints": [
+      "An interpretation of a logical theory.",
+      "A mathematical structure that satisfies all the axioms of a theory.",
+      "A concrete realization of a theory."
+    ]
+  },
+  {
+    "word_no": 191,
+    "word": "PROOF BY CASES",
+    "hints": [
+      "A proof method that breaks down the argument into several mutually exclusive cases.",
+      "The conclusion is proven for each case individually.",
+      "Also known as 'proof by exhaustion'."
+    ]
+  },
+  {
+    "word_no": 192,
+    "word": "PROOF BY CONTRAPOSITION",
+    "hints": [
+      "A proof method that proves an implication by proving its contrapositive.",
+      "The statement 'if P then Q' is proven by proving 'if not Q then not P'.",
+      "A form of indirect proof."
+    ]
+  },
+  {
+    "word_no": 193,
+    "word": "REDUCTIO AD ABSURDUM",
+    "hints": [
+      "A Latin phrase meaning 'reduction to absurdity'.",
+      "A method of proof that assumes a statement is false and shows that it leads to a contradiction.",
+      "Also known as proof by contradiction."
+    ]
+  },
+  {
+    "word_no": 194,
+    "word": "PRINCIPLE OF EXPLOSION",
+    "hints": [
+      "A principle of classical logic.",
+      "It states that if a contradiction is true, then any statement can be proven.",
+      "Also known as 'ex falso quodlibet'."
+    ]
+  },
+  {
+    "word_no": 195,
+    "word": "METALOGIC",
+    "hints": [
+      "The study of the properties of logical systems themselves.",
+      "It deals with concepts like soundness, completeness, and consistency.",
+      "The 'logic of logic'."
+    ]
+  },
+  {
+    "word_no": 196,
+    "word": "SOUNDNESS",
+    "hints": [
+      "The property of a logical system where all its theorems are true.",
+      "It means that the system does not prove false statements.",
+      "A key property for a reliable logical system."
+    ]
+  },
+  {
+    "word_no": 197,
+    "word": "COMPLETENESS",
+    "hints": [
+      "The property of a logical system where every true statement can be proven.",
+      "It means that the system can prove all logical truths.",
+      "The opposite of 'incomplete'."
+    ]
+  },
+  {
+    "word_no": 198,
+    "word": "COMPUTABILITY",
+    "hints": [
+      "The property of a function or problem that it can be solved by an algorithm.",
+      "The central topic of computability theory.",
+      "Can it be computed?"
+    ]
+  },
+  {
+    "word_no": 199,
+    "word": "UNDECIDABILITY",
+    "hints": [
+      "The property of a problem that there is no algorithm that can solve it for all inputs.",
+      "The halting problem is an example.",
+      "A fundamental limitation of computation."
+    ]
+  },
+  {
+    "word_no": 200,
+    "word": "RECURSION THEORY",
+    "hints": [
+      "A branch of logic and computability theory.",
+      "It studies computable functions and the degrees of unsolvability.",
+      "Also known as computability theory."
+    ]
+  },
+  {
+    "word_no": 201,
+    "word": "AXIOM OF REGULARITY",
+    "hints": [
+      "An axiom in set theory.",
+      "It states that every non-empty set has an element that is disjoint from the set itself.",
+      "Prevents infinite descending chains of sets."
+    ]
+  },
+  {
+    "word_no": 202,
+    "word": "AXIOM OF SEPARATION",
+    "hints": [
+      "An axiom in set theory.",
+      "It allows you to form a subset of a set based on a property.",
+      "A rule for creating new sets from old ones."
+    ]
+  },
+  {
+    "word_no": 203,
+    "word": "AUSTIN S LAW",
+    "hints": [
+      "A principle in logic and philosophy.",
+      "It states that propositions are either true or false.",
+      "A simple law of truth."
+    ]
+  },
+  {
+    "word_no": 204,
+    "word": "AXIOM OF PARALLELS",
+    "hints": [
+      "A famous axiom in geometry.",
+      "It states that through a point not on a given line, there is exactly one line parallel to the given line.",
+      "Its negation leads to non-Euclidean geometry."
+    ]
+  },
+  {
+    "word_no": 205,
+    "word": "BOOLEAN LOGIC",
+    "hints": [
+      "A logical system for digital circuits.",
+      "It uses 'and', 'or', 'not' operations.",
+      "The foundation of computer science."
+    ]
+  },
+  {
+    "word_no": 206,
+    "word": "LOGIC GATE",
+    "hints": [
+      "An elementary building block of a digital circuit.",
+      "It performs a logical operation on one or more binary inputs.",
+      "Examples include AND, OR, and NOT gates."
+    ]
+  },
+  {
+    "word_no": 207,
+    "word": "AND GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is true only if both inputs are true.",
+      "Represents conjunction."
+    ]
+  },
+  {
+    "word_no": 208,
+    "word": "OR GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is true if at least one of the inputs is true.",
+      "Represents disjunction."
+    ]
+  },
+  {
+    "word_no": 209,
+    "word": "NOT GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is the inverse of the input.",
+      "Represents negation."
+    ]
+  },
+  {
+    "word_no": 210,
+    "word": "XOR GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is true if the inputs are different.",
+      "Represents exclusive or."
+    ]
+  },
+  {
+    "word_no": 211,
+    "word": "NOR GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is true only if both inputs are false.",
+      "A combination of NOT and OR."
+    ]
+  },
+  {
+    "word_no": 212,
+    "word": "NAND GATE",
+    "hints": [
+      "A type of logic gate.",
+      "The output is false only if both inputs are true.",
+      "A combination of NOT and AND."
+    ]
+  },
+  {
+    "word_no": 213,
+    "word": "LATTICE",
+    "hints": [
+      "A partially ordered set where every two elements have a unique supremum and infimum.",
+      "An algebraic structure used in logic.",
+      "Boolean algebra is a type of this."
+    ]
+  },
+  {
+    "word_no": 214,
+    "word": "SUPREMUM",
+    "hints": [
+      "The least upper bound of a set.",
+      "A concept in order theory and lattice theory.",
+      "The smallest element that is greater than or equal to all elements in a set."
+    ]
+  },
+  {
+    "word_no": 215,
+    "word": "INFIMUM",
+    "hints": [
+      "The greatest lower bound of a set.",
+      "A concept in order theory and lattice theory.",
+      "The largest element that is less than or equal to all elements in a set."
+    ]
+  },
+  {
+    "word_no": 216,
+    "word": "PARTIAL ORDER",
+    "hints": [
+      "A binary relation that is reflexive, antisymmetric, and transitive.",
+      "A concept in order theory.",
+      "An ordering of elements in a set."
+    ]
+  },
+  {
+    "word_no": 217,
+    "word": "SET BUILDER NOTATION",
+    "hints": [
+      "A notation for describing a set by specifying the properties that its elements must satisfy.",
+      "Example: {x | x is a natural number}.",
+      "A compact way to define a set."
+    ]
+  },
+  {
+    "word_no": 218,
+    "word": "EULER DIAGRAM",
+    "hints": [
+      "A method for representing sets and their relationships.",
+      "Uses overlapping circles, similar to a Venn diagram.",
+      "Named after Leonhard Euler."
+    ]
+  },
+  {
+    "word_no": 219,
+    "word": "TRUTH VALUE",
+    "hints": [
+      "The value indicating whether a statement is true or false.",
+      "The outcome of a logical proposition.",
+      "Either 'true' or 'false'."
+    ]
+  },
+  {
+    "word_no": 220,
+    "word": "CONSISTENT THEORY",
+    "hints": [
+      "A logical theory that does not contain a contradiction.",
+      "It is impossible to prove both a statement and its negation.",
+      "A theory without internal conflicts."
+    ]
+  },
+  {
+    "word_no": 221,
+    "word": "FORMULA",
+    "hints": [
+      "A sequence of symbols in a logical language.",
+      "A logical statement.",
+      "Also known as a 'well-formed formula'."
+    ]
+  },
+  {
+    "word_no": 222,
+    "word": "INDUCTIVE DEFINITION",
+    "hints": [
+      "A way of defining a set or function by specifying a base case and a recursive step.",
+      "Used in logic to define formal languages.",
+      "A recursive definition."
+    ]
+  },
+  {
+    "word_no": 223,
+    "word": "PROVABILITY LOGIC",
+    "hints": [
+      "A type of modal logic that reasons about the provability of statements.",
+      "It uses a new operator 'it is provable that'.",
+      "Deals with the notion of proof itself."
+    ]
+  },
+  {
+    "word_no": 224,
+    "word": "INTUITIONISM",
+    "hints": [
+      "A school of thought in mathematics and logic.",
+      "It holds that mathematical objects only exist if they can be constructed.",
+      "Associated with L.E.J. Brouwer."
+    ]
+  },
+  {
+    "word_no": 225,
+    "word": "FORMALISM",
+    "hints": [
+      "A school of thought in mathematics and logic.",
+      "It holds that mathematics is the study of formal systems and their symbols.",
+      "Associated with David Hilbert."
+    ]
+  },
+  {
+    "word_no": 226,
+    "word": "LOGICISM",
+    "hints": [
+      "A school of thought in mathematics and logic.",
+      "It holds that all of mathematics can be reduced to logic.",
+      "Associated with Bertrand Russell and Gottlob Frege."
+    ]
+  },
+  {
+    "word_no": 227,
+    "word": "GENTZEN S THEOREM",
+    "hints": [
+      "A famous theorem in proof theory.",
+      "It states that every proof in a certain system can be transformed into a proof that does not use the cut rule.",
+      "A fundamental result about proof theory."
+    ]
+  },
+  {
+    "word_no": 228,
+    "word": "LACK OF CONTRADICTION",
+    "hints": [
+      "A property of a logical system.",
+      "It means that the system is consistent.",
+      "It is impossible to prove both P and not P."
+    ]
+  },
+  {
+    "word_no": 229,
+    "word": "SOUND ARGUMENT",
+    "hints": [
+      "A valid argument with true premises.",
+      "The conclusion is guaranteed to be true.",
+      "A strong logical argument."
+    ]
+  },
+  {
+    "word_no": 230,
+    "word": "VALID ARGUMENT",
+    "hints": [
+      "An argument where the conclusion follows from the premises.",
+      "The structure is correct, but the premises may be false.",
+      "An argument whose conclusion is a logical consequence of its premises."
+    ]
+  },
+  {
+    "word_no": 231,
+    "word": "LOGICAL DEDUCTION",
+    "hints": [
+      "The process of deriving a conclusion from a set of premises.",
+      "A form of reasoning used in mathematics.",
+      "Moving from general rules to specific conclusions."
+    ]
+  },
+  {
+    "word_no": 232,
+    "word": "INDUCTIVE LOGIC",
+    "hints": [
+      "A type of reasoning that deals with probabilistic arguments.",
+      "The premises provide some degree of support for the conclusion.",
+      "Used in statistics and probability."
+    ]
+  },
+  {
+    "word_no": 233,
+    "word": "MODAL OPERATOR",
+    "hints": [
+      "A symbol in modal logic.",
+      "Examples include 'it is necessary that' and 'it is possible that'.",
+      "Used to qualify the truth of a statement."
+    ]
+  },
+  {
+    "word_no": 234,
+    "word": "POSSIBILITY",
+    "hints": [
+      "A concept in modal logic.",
+      "Something that could be true.",
+      "Represented by the symbol ◊."
+    ]
+  },
+  {
+    "word_no": 235,
+    "word": "NECESSITY",
+    "hints": [
+      "A concept in modal logic.",
+      "Something that must be true.",
+      "Represented by the symbol □."
+    ]
+  },
+  {
+    "word_no": 236,
+    "word": "COUNTERFACTUAL",
+    "hints": [
+      "A conditional statement with a premise that is known to be false.",
+      "Example: 'If I were a millionaire, I would buy a yacht'.",
+      "A type of statement studied in modal logic."
+    ]
+  },
+  {
+    "word_no": 237,
+    "word": "SUBSET",
+    "hints": [
+      "A set whose elements are all contained within another set.",
+      "Represented by the symbol ⊆.",
+      "A smaller part of a larger set."
+    ]
+  },
+  {
+    "word_no": 238,
+    "word": "PROPER SUBSET",
+    "hints": [
+      "A subset that is not equal to the original set.",
+      "The smaller set is missing at least one element from the larger set.",
+      "Represented by the symbol ⊂."
+    ]
+  },
+  {
+    "word_no": 239,
+    "word": "SUPERS ET",
+    "hints": [
+      "A set that contains all the elements of another set.",
+      "The larger set in a subset relationship.",
+      "The inverse of a subset."
+    ]
+  },
+  {
+    "word_no": 240,
+    "word": "UNIVERSAL SET",
+    "hints": [
+      "A set that contains all objects or elements under consideration.",
+      "The context for a given problem in set theory.",
+      "The largest possible set in a given domain."
+    ]
+  },
+  {
+    "word_no": 241,
+    "word": "COMPLEMENT",
+    "hints": [
+      "The set of all elements in the universal set that are not in a given set.",
+      "The 'opposite' of a set.",
+      "Represented by A' or Aᶜ."
+    ]
+  },
+  {
+    "word_no": 242,
+    "word": "SET DIFFERENCE",
+    "hints": [
+      "The set of elements that are in one set but not in another.",
+      "Represented by A - B or A \\ B.",
+      "The elements in A that are not in B."
+    ]
+  },
+  {
+    "word_no": 243,
+    "word": "SYMMETRIC DIFFERENCE",
+    "hints": [
+      "The set of elements that are in either of two sets, but not in their intersection.",
+      "Represented by A Δ B.",
+      "The elements that are in A or B, but not both."
+    ]
+  },
+  {
+    "word_no": 244,
+    "word": "FINITE AUTOMATON",
+    "hints": [
+      "A mathematical model of a machine with a finite number of states.",
+      "Used in computability theory to recognize languages.",
+      "A simple computational model."
+    ]
+  },
+  {
+    "word_no": 245,
+    "word": "REGULAR LANGUAGE",
+    "hints": [
+      "A class of formal languages that can be recognized by a finite automaton.",
+      "Can be described by regular expressions.",
+      "A fundamental concept in formal language theory."
+    ]
+  },
+  {
+    "word_no": 246,
+    "word": "CONTEXT FREE GRAMMAR",
+    "hints": [
+      "A set of rules for generating a formal language.",
+      "Used in computer science to define programming languages.",
+      "A more powerful model than a regular language."
+    ]
+  },
+  {
+    "word_no": 247,
+    "word": "TURING COMPLETE",
+    "hints": [
+      "A property of a computational system that can simulate any Turing machine.",
+      "A system that can compute anything that is computable.",
+      "A measure of a system's computational power."
+    ]
+  },
+  {
+    "word_no": 248,
+    "word": "CHOMSKY HIERARCHY",
+    "hints": [
+      "A classification of formal languages.",
+      "It categorizes languages based on the grammar required to generate them.",
+      "Named after Noam Chomsky."
+    ]
+  },
+  {
+    "word_no": 249,
+    "word": "L SYSTEM",
+    "hints": [
+      "A formal grammar used to model plant growth.",
+      "Generates fractals and realistic plant patterns.",
+      "A type of Lindenmayer system."
+    ]
+  },
+  {
+    "word_no": 250,
+    "word": "ALGEBRAIC LOGIC",
+    "hints": [
+      "A branch of logic that studies algebraic systems.",
+      "It uses algebraic structures to analyze logical theories.",
+      "A fusion of logic and algebra."
+    ]
+  },
+  {
+    "word_no": 251,
+    "word": "COMBINATORY LOGIC",
+    "hints": [
+      "A logical system that aims to eliminate the need for variables.",
+      "Based on a set of 'combinators'.",
+      "Developed by Moses Schönfinkel."
+    ]
+  },
+  {
+    "word_no": 252,
+    "word": "SQUARE OF OPPOSITION",
+    "hints": [
+      "A diagram representing the logical relationships between four types of propositions.",
+      "It shows relationships like contradiction and subcontrariety.",
+      "Used in traditional logic."
+    ]
+  },
+  {
+    "word_no": 253,
+    "word": "CONSISTENT THEORY",
+    "hints": [
+      "A logical theory that does not contain a contradiction.",
+      "It is impossible to prove both a statement and its negation.",
+      "A theory without internal conflicts."
+    ]
+  },
+  {
+    "word_no": 254,
+    "word": "COMPLETE THEORY",
+    "hints": [
+      "A logical theory in which for every statement, either the statement or its negation can be proven.",
+      "There are no undecided statements.",
+      "A theory that is not incomplete."
+    ]
+  },
+  {
+    "word_no": 255,
+    "word": "DECIDABLE THEORY",
+    "hints": [
+      "A logical theory for which there exists an algorithm to determine if a given formula is a theorem.",
+      "The theory of real closed fields is an example.",
+      "A theory for which truth can be algorithmically determined."
+    ]
+  },
+  {
+    "word_no": 256,
+    "word": "UNDECIDABLE THEORY",
+    "hints": [
+      "A logical theory for which there is no algorithm to determine if a given formula is a theorem.",
+      "First-order logic is this.",
+      "A theory with problems that cannot be solved by an algorithm."
+    ]
+  },
+  {
+    "word_no": 257,
+    "word": "LOGICAL SYSTEM",
+    "hints": [
+      "A formal system for logical reasoning.",
+      "It consists of a language, axioms, and rules of inference.",
+      "A framework for logic."
+    ]
+  },
+  {
+    "word_no": 258,
+    "word": "RULES OF INFERENCE",
+    "hints": [
+      "Principles that allow you to derive new statements from a set of existing statements.",
+      "The logical steps in a proof.",
+      "Examples include modus ponens and modus tollens."
+    ]
+  },
+  {
+    "word_no": 259,
+    "word": "AXIOMATIC SYSTEM",
+    "hints": [
+      "A formal system that uses a set of axioms and rules of inference to derive theorems.",
+      "The foundation of a logical theory.",
+      "A system based on unproven truths."
+    ]
+  },
+  {
+    "word_no": 260,
+    "word": "DERIVATION",
+    "hints": [
+      "A sequence of steps that shows a conclusion follows from a set of premises.",
+      "A formal proof.",
+      "The process of deriving a theorem."
+    ]
+  },
+  {
+    "word_no": 261,
+    "word": "SEMANTIC VALUE",
+    "hints": [
+      "The meaning or interpretation of a logical symbol or expression.",
+      "The truth value of a proposition.",
+      "The 'what' of a logical statement."
+    ]
+  },
+  {
+    "word_no": 262,
+    "word": "TRUTH FUNCTION",
+    "hints": [
+      "A function that takes truth values as input and produces a truth value as output.",
+      "Logical connectives are examples of this.",
+      "A function that operates on truth values."
+    ]
+  },
+  {
+    "word_no": 263,
+    "word": "DE MORGAN S LAWS",
+    "hints": [
+      "A pair of rules that relate conjunction and disjunction to negation.",
+      "States that 'not (A and B)' is equivalent to '(not A) or (not B)'.",
+      "Named after a British mathematician."
+    ]
+  },
+  {
+    "word_no": 264,
+    "word": "LAW OF CONTRAPOSITION",
+    "hints": [
+      "A law of logic.",
+      "It states that a conditional statement is equivalent to its contrapositive.",
+      "P implies Q is the same as 'not Q implies not P'."
+    ]
+  },
+  {
+    "word_no": 265,
+    "word": "LAW OF EXCLUDED MIDDLE",
+    "hints": [
+      "A fundamental principle of classical logic.",
+      "It states that for any proposition P, either P is true or its negation is true.",
+      "There is no third option."
+    ]
+  },
+  {
+    "word_no": 266,
+    "word": "LAW OF NON CONTRADICTION",
+    "hints": [
+      "A fundamental principle of classical logic.",
+      "It states that a statement cannot be both true and false at the same time.",
+      "A statement and its negation cannot both be true."
+    ]
+  },
+  {
+    "word_no": 267,
+    "word": "SORITES PARADOX",
+    "hints": [
+      "A famous paradox about vague concepts.",
+      "It asks when a collection of grains becomes a heap.",
+      "The paradox of the heap."
+    ]
+  },
+  {
+    "word_no": 268,
+    "word": "ZENO S PARADOXES",
+    "hints": [
+      "A set of philosophical problems about motion and space.",
+      "They include the paradox of Achilles and the tortoise.",
+      "Named after Zeno of Elea."
+    ]
+  },
+  {
+    "word_no": 269,
+    "word": "PROOF BY CONSTRUCTION",
+    "hints": [
+      "A method of proof for an existential statement.",
+      "You show that an object with a certain property exists by explicitly providing one.",
+      "A constructive proof."
+    ]
+  },
+  {
+    "word_no": 270,
+    "word": "INDUCTIVE REASONING",
+    "hints": [
+      "A type of reasoning that moves from specific observations to a general conclusion.",
+      "The conclusion is likely, but not guaranteed to be true.",
+      "Used in scientific inquiry."
+    ]
+  },
+  {
+    "word_no": 271,
+    "word": "DEDUCTIVE REASONING",
+    "hints": [
+      "A type of reasoning that moves from a general premise to a specific conclusion.",
+      "If the premises are true, the conclusion must be true.",
+      "Used in formal logic and mathematics."
+    ]
+  },
+  {
+    "word_no": 272,
+    "word": "ABDUCTIVE REASONING",
+    "hints": [
+      "A type of reasoning that moves from an observation to a hypothesis that explains the observation.",
+      "The conclusion is the most likely explanation.",
+      "Often used in medical diagnosis."
+    ]
+  },
+  {
+    "word_no": 273,
+    "word": "SYMMETRIC RELATION",
+    "hints": [
+      "A binary relation R where if aRb, then bRa.",
+      "A concept in logic and set theory.",
+      "Example: 'is a friend of'."
+    ]
+  },
+  {
+    "word_no": 274,
+    "word": "TRANSITIVE RELATION",
+    "hints": [
+      "A binary relation R where if aRb and bRc, then aRc.",
+      "A concept in logic and set theory.",
+      "Example: 'is greater than'."
+    ]
+  },
+  {
+    "word_no": 275,
+    "word": "REFLEXIVE RELATION",
+    "hints": [
+      "A binary relation R where aRa for every element a.",
+      "A concept in logic and set theory.",
+      "Example: 'is equal to'."
+    ]
+  },
+  {
+    "word_no": 276,
+    "word": "EQUIVALENCE RELATION",
+    "hints": [
+      "A binary relation that is reflexive, symmetric, and transitive.",
+      "It partitions a set into disjoint equivalence classes.",
+      "A logical concept."
+    ]
+  },
+  {
+    "word_no": 277,
+    "word": "PARTIAL ORDER",
+    "hints": [
+      "A binary relation that is reflexive, antisymmetric, and transitive.",
+      "A concept in order theory.",
+      "An ordering of elements in a set."
+    ]
+  },
+  {
+    "word_no": 278,
+    "word": "TOTAL ORDER",
+    "hints": [
+      "A partial order where every two elements are comparable.",
+      "A concept in order theory.",
+      "An ordering where every pair of elements can be compared."
+    ]
+  },
+  {
+    "word_no": 279,
+    "word": "LOGICAL POSITIVISM",
+    "hints": [
+      "A philosophy of science that emphasizes logical and empirical methods.",
+      "It states that only verifiable statements are meaningful.",
+      "A school of thought in the 20th century."
+    ]
+  },
+  {
+    "word_no": 280,
+    "word": "LINGUISTIC TURN",
+    "hints": [
+      "A major shift in philosophy in the early 20th century.",
+      "It emphasized the role of language and logic in philosophy.",
+      "A central theme of analytic philosophy."
+    ]
+  },
+  {
+    "word_no": 281,
+    "word": "AXIOM OF EXTENSIONALITY",
+    "hints": [
+      "An axiom in set theory.",
+      "It states that two sets are equal if and only if they have the same elements.",
+      "A fundamental principle for defining sets."
+    ]
+  },
+  {
+    "word_no": 282,
+    "word": "AXIOM OF FOUNDATION",
+    "hints": [
+      "An axiom in set theory.",
+      "It states that every non-empty set has an element that is disjoint from the set itself.",
+      "Prevents infinite descending chains of sets."
+    ]
+  },
+  {
+    "word_no": 283,
+    "word": "AXIOM OF CHOICE",
+    "hints": [
+      "An axiom of set theory.",
+      "It states that for any collection of non-empty sets, it is possible to choose one element from each set.",
+      "Its validity is debated in some mathematical circles."
+    ]
+  },
+  {
+    "word_no": 284,
+    "word": "POWER SET",
+    "hints": [
+      "The set of all subsets of a given set.",
+      "If a set has n elements, this set has 2^n elements.",
+      "The set of all possible subsets."
+    ]
+  },
+  {
+    "word_no": 285,
+    "word": "CARTESIAN PRODUCT",
+    "hints": [
+      "A mathematical operation that returns a new set from two or more sets.",
+      "It consists of all possible ordered pairs.",
+      "The product of two sets."
+    ]
+  },
+  {
+    "word_no": 286,
+    "word": "DEDEKIND CUT",
+    "hints": [
+      "A method of constructing the real numbers from the rational numbers.",
+      "A partition of the rational numbers into two sets.",
+      "Named after Richard Dedekind."
+    ]
+  },
+  {
+    "word_no": 287,
+    "word": "P NP PROBLEM",
+    "hints": [
+      "A major unsolved problem in computer science.",
+      "Asks whether every problem whose solution can be quickly verified can also be quickly solved.",
+      "A question about complexity classes."
+    ]
+  },
+  {
+    "word_no": 288,
+    "word": "HALTING PROBLEM",
+    "hints": [
+      "The problem of determining, from a description of an arbitrary computer program and an input, whether the program will finish running or continue to run forever.",
+      "It was proven to be undecidable by Alan Turing.",
+      "A famous problem in computability theory."
+    ]
+  },
+  {
+    "word_no": 289,
+    "word": "TURING MACHINE",
+    "hints": [
+      "A theoretical model of a computer.",
+      "It consists of a tape, a head, and a set of rules.",
+      "It is a central concept in computability theory."
+    ]
+  },
+  {
+    "word_no": 290,
+    "word": "LAMBDA CALCULUS",
+    "hints": [
+      "A formal system for expressing computation based on function abstraction and application.",
+      "Developed by Alonzo Church.",
+      "A foundation of functional programming languages."
+    ]
+  },
+  {
+    "word_no": 291,
+    "word": "CHURCH TURING THESIS",
+    "hints": [
+      "A hypothesis about the nature of algorithms.",
+      "It states that a function is computable if and only if it can be computed by a Turing machine.",
+      "A central concept in computability theory."
+    ]
+  },
+  {
+    "word_no": 292,
+    "word": "RECURSION",
+    "hints": [
+      "A process where a function or procedure calls itself.",
+      "A foundational concept in computer science and logic.",
+      "A self-referential definition."
+    ]
+  },
+  {
+    "word_no": 293,
+    "word": "INDUCTIVE DEFINITION",
+    "hints": [
+      "A way of defining a set or function by specifying a base case and a recursive step.",
+      "Used in logic to define formal languages.",
+      "A recursive definition."
+    ]
+  },
+  {
+    "word_no": 294,
+    "word": "FORMAL LANGUAGE",
+    "hints": [
+      "A set of symbols and rules for combining them to form expressions.",
+      "Used to precisely define logical systems.",
+      "A language without ambiguity."
+    ]
+  },
+  {
+    "word_no": 295,
+    "word": "SEMANTICS",
+    "hints": [
+      "The meaning or interpretation of a logical formula.",
+      "Deals with the relationship between symbols and what they represent.",
+      "The study of meaning."
+    ]
+  },
+  {
+    "word_no": 296,
+    "word": "SYNTAX",
+    "hints": [
+      "The rules for constructing a grammatically correct logical formula.",
+      "Concerns the symbols and their arrangement.",
+      "The grammar of a formal language."
+    ]
+  },
+  {
+    "word_no": 297,
+    "word": "MODEL THEORY",
+    "hints": [
+      "A branch of logic that studies the relationship between a formal language and its interpretations.",
+      "It connects syntax to semantics.",
+      "Studies mathematical structures."
+    ]
+  },
+  {
+    "word_no": 298,
+    "word": "PROOF THEORY",
+    "hints": [
+      "A branch of logic that represents proofs as formal objects.",
+      "It studies the structure and properties of proofs.",
+      "Used to analyze the strength of logical systems."
+    ]
+  },
+  {
+    "word_no": 299,
+    "word": "COMPUTABILITY THEORY",
+    "hints": [
+      "A branch of logic and computer science that studies which problems can be solved by an algorithm.",
+      "The 'Halting Problem' is a key concept.",
+      "Developed by Alan Turing."
+    ]
+  },
+  {
+    "word_no": 300,
+    "word": "PROPOSITIONAL VARIABLE",
+    "hints": [
+      "A variable that can represent a proposition.",
+      "Often represented by letters like P, Q, and R.",
+      "A placeholder for a statement."
+    ]
+  }
+]

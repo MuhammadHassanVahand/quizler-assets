@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which of the following is the primary database management system developed by Microsoft?",
+    "Option1": "MySQL",
+    "Option2": "PostgreSQL",
+    "Option3": "Microsoft SQL Server",
+    "Option4": "Oracle Database",
+    "Answer": "Microsoft SQL Server"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What language is primarily used to interact with Microsoft SQL Server for data manipulation?",
+    "Option1": "Java",
+    "Option2": "Python",
+    "Option3": "Transact-SQL (T-SQL)",
+    "Option4": "C#",
+    "Answer": "Transact-SQL (T-SQL)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which component of SQL Server is responsible for processing queries and managing data?",
+    "Option1": "SQL Server Reporting Services (SSRS)",
+    "Option2": "SQL Server Integration Services (SSIS)",
+    "Option3": "Database Engine",
+    "Option4": "SQL Server Analysis Services (SSAS)",
+    "Answer": "Database Engine"
+  },
+  {
+    "question_no.": 4,
+    "Question": "In SQL Server, what is a 'database' a collection of?",
+    "Option1": "Servers and networks",
+    "Option2": "Tables, views, stored procedures, and other objects",
+    "Option3": "Operating systems",
+    "Option4": "Hardware components",
+    "Answer": "Tables, views, stored procedures, and other objects"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the default port for SQL Server instances?",
+    "Option1": "80",
+    "Option2": "443",
+    "Option3": "1433",
+    "Option4": "3306",
+    "Answer": "1433"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which SQL Server tool is a comprehensive IDE for managing and developing SQL Server components?",
+    "Option1": "Visual Studio Code",
+    "Option2": "SQL Server Management Studio (SSMS)",
+    "Option3": "Azure Data Studio",
+    "Option4": "Notepad++",
+    "Answer": "SQL Server Management Studio (SSMS)"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the purpose of a 'Primary Key' in a SQL Server table?",
+    "Option1": "To store confidential data",
+    "Option2": "To uniquely identify each row in a table",
+    "Option3": "To link tables in a many-to-many relationship",
+    "Option4": "To improve query performance for all columns",
+    "Answer": "To uniquely identify each row in a table"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which SQL Server component is used for building enterprise-level data integration and ETL solutions?",
+    "Option1": "SQL Server Reporting Services (SSRS)",
+    "Option2": "SQL Server Integration Services (SSIS)",
+    "Option3": "SQL Server Analysis Services (SSAS)",
+    "Option4": "SQL Server Master Data Services (MDS)",
+    "Answer": "SQL Server Integration Services (SSIS)"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is a 'Clustered Index' in SQL Server?",
+    "Option1": "An index that stores data in a random order",
+    "Option2": "An index that defines the physical storage order of the rows in a table",
+    "Option3": "An index that creates a separate data structure for lookup",
+    "Option4": "An index used only for foreign keys",
+    "Answer": "An index that defines the physical storage order of the rows in a table"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which command is used to retrieve data from a SQL Server table?",
+    "Option1": "INSERT",
+    "Option2": "UPDATE",
+    "Option3": "DELETE",
+    "Option4": "SELECT",
+    "Answer": "SELECT"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What does OLTP stand for in the context of SQL Server applications?",
+    "Option1": "Online Logical Table Processing",
+    "Option2": "Online Transaction Processing",
+    "Option3": "Operational Logical Transaction Protocol",
+    "Option4": "Object-Oriented Table Program",
+    "Answer": "Online Transaction Processing"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is a 'Stored Procedure' in SQL Server?",
+    "Option1": "A set of SQL statements stored as an executable unit in the database",
+    "Option2": "A temporary table used for calculations",
+    "Option3": "A view that combines multiple tables",
+    "Option4": "A user-defined function for data manipulation",
+    "Answer": "A set of SQL statements stored as an executable unit in the database"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which type of join returns only the rows that have matching values in both tables?",
+    "Option1": "LEFT JOIN",
+    "Option2": "RIGHT JOIN",
+    "Option3": "FULL OUTER JOIN",
+    "Option4": "INNER JOIN",
+    "Answer": "INNER JOIN"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the purpose of 'Transactions' in SQL Server?",
+    "Option1": "To encrypt data transmission",
+    "Option2": "To ensure data integrity and consistency by treating a sequence of operations as a single logical unit",
+    "Option3": "To speed up query execution for large datasets",
+    "Option4": "To manage user permissions",
+    "Answer": "To ensure data integrity and consistency by treating a sequence of operations as a single logical unit"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which command is used to add new rows of data into a SQL Server table?",
+    "Option1": "UPDATE",
+    "Option2": "DELETE",
+    "Option3": "INSERT INTO",
+    "Option4": "ALTER TABLE",
+    "Answer": "INSERT INTO"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'View' in SQL Server?",
+    "Option1": "A temporary storage area for data",
+    "Option2": "A virtual table based on the result-set of a SQL query",
+    "Option3": "A physical copy of a table",
+    "Option4": "A user account with limited privileges",
+    "Answer": "A virtual table based on the result-set of a SQL query"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which SQL Server component is used for creating and managing analytical databases (OLAP cubes)?",
+    "Option1": "SQL Server Reporting Services (SSRS)",
+    "Option2": "SQL Server Integration Services (SSIS)",
+    "Option3": "SQL Server Analysis Services (SSAS)",
+    "Option4": "SQL Server Master Data Services (MDS)",
+    "Answer": "SQL Server Analysis Services (SSAS)"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is 'Normalization' in database design?",
+    "Option1": "The process of de-duplicating data",
+    "Option2": "A process of organizing the columns and tables of a relational database to minimize data redundancy and improve data integrity",
+    "Option3": "The process of speeding up queries",
+    "Option4": "The process of adding indexes to tables",
+    "Answer": "A process of organizing the columns and tables of a relational database to minimize data redundancy and improve data integrity"
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which command is used to modify existing data in a SQL Server table?",
+    "Option1": "INSERT",
+    "Option2": "DELETE",
+    "Option3": "UPDATE",
+    "Option4": "ALTER",
+    "Answer": "UPDATE"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Non-Clustered Index' in SQL Server?",
+    "Option1": "An index that stores the actual data rows",
+    "Option2": "An index that is a separate structure containing pointers to the data rows",
+    "Option3": "An index that can only be created on a primary key",
+    "Option4": "An index that is automatically created for every table",
+    "Answer": "An index that is a separate structure containing pointers to the data rows"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What does OLAP stand for in the context of SQL Server applications?",
+    "Option1": "Online Logistical Analysis Program",
+    "Option2": "Online Analytical Processing",
+    "Option3": "Operational Layered Application Protocol",
+    "Option4": "Object-Oriented Local Access Protocol",
+    "Answer": "Online Analytical Processing"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which SQL Server component is used for designing, developing, and deploying reports?",
+    "Option1": "SQL Server Integration Services (SSIS)",
+    "Option2": "SQL Server Analysis Services (SSAS)",
+    "Option3": "SQL Server Reporting Services (SSRS)",
+    "Option4": "SQL Server Master Data Services (MDS)",
+    "Answer": "SQL Server Reporting Services (SSRS)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is a 'Foreign Key' in SQL Server?",
+    "Option1": "A key that uniquely identifies a row in a table",
+    "Option2": "A column or set of columns that refers to the primary key in another table",
+    "Option3": "A key used for encryption",
+    "Option4": "A temporary key for session management",
+    "Answer": "A column or set of columns that refers to the primary key in another table"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which command is used to remove rows of data from a SQL Server table?",
+    "Option1": "DROP",
+    "Option2": "TRUNCATE",
+    "Option3": "DELETE FROM",
+    "Option4": "REMOVE",
+    "Answer": "DELETE FROM"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the purpose of a 'CHECK constraint' in SQL Server?",
+    "Option1": "To ensure that a column contains unique values",
+    "Option2": "To limit the range of values that can be placed in a column",
+    "Option3": "To define a foreign key relationship",
+    "Option4": "To set a default value for a column",
+    "Answer": "To limit the range of values that can be placed in a column"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is 'SQL Server Agent' used for?",
+    "Option1": "Managing SQL Server security",
+    "Option2": "Scheduling and automating administrative tasks and jobs",
+    "Option3": "Developing T-SQL queries",
+    "Option4": "Monitoring network traffic",
+    "Answer": "Scheduling and automating administrative tasks and jobs"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which T-SQL statement is used to define a new table in a SQL Server database?",
+    "Option1": "ADD TABLE",
+    "Option2": "CREATE TABLE",
+    "Option3": "DEFINE TABLE",
+    "Option4": "NEW TABLE",
+    "Answer": "CREATE TABLE"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'Schema' in SQL Server?",
+    "Option1": "A type of data file",
+    "Option2": "A logical container for database objects (tables, views, stored procedures, etc.)",
+    "Option3": "A physical storage location for databases",
+    "Option4": "A user permission level",
+    "Answer": "A logical container for database objects (tables, views, stored procedures, etc.)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Database Mirroring' in SQL Server?",
+    "Option1": "A solution for data warehousing",
+    "Option2": "A high-availability and disaster-recovery solution that keeps two copies of a single database",
+    "Option3": "A tool for data migration",
+    "Option4": "A method for encrypting data",
+    "Answer": "A high-availability and disaster-recovery solution that keeps two copies of a single database"
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which T-SQL keyword is used to sort the result-set of a query?",
+    "Option1": "GROUP BY",
+    "Option2": "HAVING",
+    "Option3": "ORDER BY",
+    "Option4": "SORT",
+    "Answer": "ORDER BY"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'SQL Server Profiler' used for?",
+    "Option1": "To manage database backups",
+    "Option2": "To monitor and trace events occurring in SQL Server",
+    "Option3": "To create database diagrams",
+    "Option4": "To configure network settings",
+    "Answer": "To monitor and trace events occurring in SQL Server"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is a 'Trigger' in SQL Server?",
+    "Option1": "A user-defined function",
+    "Option2": "A special type of stored procedure that automatically executes when a DML (Data Manipulation Language) event occurs on a table or view",
+    "Option3": "A temporary table",
+    "Option4": "A query that returns multiple result sets",
+    "Answer": "A special type of stored procedure that automatically executes when a DML (Data Manipulation Language) event occurs on a table or view"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which command is used to remove an entire table from a SQL Server database?",
+    "Option1": "DELETE TABLE",
+    "Option2": "REMOVE TABLE",
+    "Option3": "DROP TABLE",
+    "Option4": "ERASE TABLE",
+    "Answer": "DROP TABLE"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'SQL Server Always On Availability Groups'?",
+    "Option1": "A feature for scaling out read-only workloads",
+    "Option2": "A high-availability and disaster-recovery solution that provides automatic failover for a group of user databases",
+    "Option3": "A tool for performance tuning",
+    "Option4": "A method for encrypting data at rest",
+    "Answer": "A high-availability and disaster-recovery solution that provides automatic failover for a group of user databases"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which data type in SQL Server is used to store variable-length string data in Unicode?",
+    "Option1": "VARCHAR",
+    "Option2": "CHAR",
+    "Option3": "NVARCHAR",
+    "Option4": "TEXT",
+    "Answer": "NVARCHAR"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the purpose of 'Database Snapshots' in SQL Server?",
+    "Option1": "To create full backups of a database",
+    "Option2": "To create a static, read-only view of a database at a specific point in time",
+    "Option3": "To migrate data between servers",
+    "Option4": "To monitor real-time database activity",
+    "Answer": "To create a static, read-only view of a database at a specific point in time"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which type of index in SQL Server is best for columns that have a small number of distinct values?",
+    "Option1": "Clustered Index",
+    "Option2": "Non-Clustered Index",
+    "Option3": "Filtered Index",
+    "Option4": "Columnstore Index",
+    "Answer": "Non-Clustered Index"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does 'DMV' stand for in SQL Server performance tuning?",
+    "Option1": "Database Management View",
+    "Option2": "Dynamic Management View",
+    "Option3": "Data Model Verification",
+    "Option4": "Distributed Memory Volume",
+    "Answer": "Dynamic Management View"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which T-SQL function is used to concatenate two or more strings?",
+    "Option1": "CONCAT()",
+    "Option2": "JOIN()",
+    "Option3": "ADD_STRING()",
+    "Option4": "MERGE_TEXT()",
+    "Answer": "CONCAT()"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'SQL Server Log Shipping'?",
+    "Option1": "A feature for sending error logs to Microsoft",
+    "Option2": "A disaster-recovery solution that automates the backup, copy, and restore of transaction logs to a standby server",
+    "Option3": "A method for auditing database changes",
+    "Option4": "A tool for analyzing query performance",
+    "Answer": "A disaster-recovery solution that automates the backup, copy, and restore of transaction logs to a standby server"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the primary purpose of 'SQL Server Auditing'?",
+    "Option1": "To improve query performance",
+    "Option2": "To track and log events that occur on the SQL Server instance and databases",
+    "Option3": "To encrypt sensitive data",
+    "Option4": "To manage user roles",
+    "Answer": "To track and log events that occur on the SQL Server instance and databases"
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which type of backup includes all data in the database and the transaction log up to the point of backup?",
+    "Option1": "Differential backup",
+    "Option2": "Transaction log backup",
+    "Option3": "Full backup",
+    "Option4": "Filegroup backup",
+    "Answer": "Full backup"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'SQL Injection'?",
+    "Option1": "A method for optimizing SQL queries",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution",
+    "Option3": "A feature for importing data into SQL Server",
+    "Option4": "A type of SQL Server error message",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which T-SQL command is used to add a new column to an existing table?",
+    "Option1": "ADD COLUMN",
+    "Option2": "CREATE COLUMN",
+    "Option3": "ALTER TABLE ... ADD COLUMN",
+    "Option4": "INSERT COLUMN",
+    "Answer": "ALTER TABLE ... ADD COLUMN"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the purpose of 'CTE' (Common Table Expression) in T-SQL?",
+    "Option1": "To create a temporary table that stores data permanently",
+    "Option2": "To define a temporary, named result set that you can reference within a single SELECT, INSERT, UPDATE, or DELETE statement",
+    "Option3": "To perform complex mathematical calculations",
+    "Option4": "To manage database connections",
+    "Answer": "To define a temporary, named result set that you can reference within a single SELECT, INSERT, UPDATE, or DELETE statement"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'SQL Server Replication'?",
+    "Option1": "A method for distributing database files across multiple servers",
+    "Option2": "A set of technologies for copying and distributing data and database objects from one database to another, and then synchronizing between databases",
+    "Option3": "A feature for backing up databases",
+    "Option4": "A tool for monitoring database performance",
+    "Answer": "A set of technologies for copying and distributing data and database objects from one database to another, and then synchronizing between databases"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which SQL Server data type is used to store true/false values?",
+    "Option1": "INT",
+    "Option2": "BIT",
+    "Option3": "BOOLEAN",
+    "Option4": "TINYINT",
+    "Answer": "BIT"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the role of the 'Tempdb' database in SQL Server?",
+    "Option1": "To store user data permanently",
+    "Option2": "To store temporary user objects, internal objects, and version stores for read-committed snapshot isolation",
+    "Option3": "To store system configuration data",
+    "Option4": "To store transaction logs for all databases",
+    "Answer": "To store temporary user objects, internal objects, and version stores for read-committed snapshot isolation"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Columnstore Index' in SQL Server?",
+    "Option1": "An index designed for OLTP workloads",
+    "Option2": "A technology for storing, managing, and querying large data warehousing fact tables using a column-based data format",
+    "Option3": "An index that only contains a single column",
+    "Option4": "A deprecated index type",
+    "Answer": "A technology for storing, managing, and querying large data warehousing fact tables using a column-based data format"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which T-SQL statement is used to remove a column from an existing table?",
+    "Option1": "DELETE COLUMN",
+    "Option2": "REMOVE COLUMN",
+    "Option3": "ALTER TABLE ... DROP COLUMN",
+    "Option4": "ERASE COLUMN",
+    "Answer": "ALTER TABLE ... DROP COLUMN"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of 'DBCC CHECKDB' command in SQL Server?",
+    "Option1": "To back up a database",
+    "Option2": "To check the physical and logical integrity of all objects in the specified database",
+    "Option3": "To optimize query performance",
+    "Option4": "To create a new database",
+    "Answer": "To check the physical and logical integrity of all objects in the specified database"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Service Broker' in SQL Server?",
+    "Option1": "A tool for monitoring network services",
+    "Option2": "A messaging framework that enables reliable and asynchronous communication between database applications",
+    "Option3": "A service for connecting to external data sources",
+    "Option4": "A feature for managing SQL Server licenses",
+    "Answer": "A messaging framework that enables reliable and asynchronous communication between database applications"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which type of join returns all rows from the left table, and the matching rows from the right table?",
+    "Option1": "INNER JOIN",
+    "Option2": "RIGHT JOIN",
+    "Option3": "LEFT JOIN",
+    "Option4": "FULL OUTER JOIN",
+    "Answer": "LEFT JOIN"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a 'User-Defined Function (UDF)' in SQL Server?",
+    "Option1": "A built-in SQL Server function",
+    "Option2": "A reusable block of T-SQL code that returns a scalar value or a table",
+    "Option3": "A system stored procedure",
+    "Option4": "A temporary function for a single query",
+    "Answer": "A reusable block of T-SQL code that returns a scalar value or a table"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What does 'DMV' (Dynamic Management Views) provide in SQL Server?",
+    "Option1": "Historical data about database performance",
+    "Option2": "Information about the current state of SQL Server, including performance, active sessions, and resource usage",
+    "Option3": "A graphical interface for database design",
+    "Option4": "A way to restore databases from backups",
+    "Answer": "Information about the current state of SQL Server, including performance, active sessions, and resource usage"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the primary benefit of using 'Indexed Views' in SQL Server?",
+    "Option1": "They improve write performance",
+    "Option2": "They store the result set physically, improving query performance for complex queries",
+    "Option3": "They hide sensitive data from users",
+    "Option4": "They reduce storage space",
+    "Answer": "They store the result set physically, improving query performance for complex queries"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Change Data Capture (CDC)' in SQL Server?",
+    "Option1": "A feature for restoring deleted data",
+    "Option2": "A feature that records insert, update, and delete activity applied to SQL Server tables",
+    "Option3": "A tool for migrating data between different database systems",
+    "Option4": "A method for encrypting communication",
+    "Answer": "A feature that records insert, update, and delete activity applied to SQL Server tables"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which T-SQL clause is used to filter rows based on a specified condition?",
+    "Option1": "GROUP BY",
+    "Option2": "ORDER BY",
+    "Option3": "WHERE",
+    "Option4": "HAVING",
+    "Answer": "WHERE"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the purpose of the 'GO' command in T-SQL scripts?",
+    "Option1": "To commit a transaction",
+    "Option2": "To execute the batch of T-SQL statements preceding it",
+    "Option3": "To cancel a query",
+    "Option4": "To open a new query window",
+    "Answer": "To execute the batch of T-SQL statements preceding it"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Resource Governor' in SQL Server?",
+    "Option1": "A tool for managing network resources",
+    "Option2": "A feature that enables you to manage SQL Server workload and resource consumption",
+    "Option3": "A service for monitoring storage space",
+    "Option4": "A security feature for restricting user access",
+    "Answer": "A feature that enables you to manage SQL Server workload and resource consumption"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which SQL Server data type is used for exact numeric values with a fixed precision and scale?",
+    "Option1": "FLOAT",
+    "Option2": "REAL",
+    "Option3": "DECIMAL",
+    "Option4": "MONEY",
+    "Answer": "DECIMAL"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the primary benefit of 'Database Sharding'?",
+    "Option1": "To reduce network latency",
+    "Option2": "To horizontally scale a database by distributing data across multiple independent database servers",
+    "Option3": "To improve data consistency",
+    "Option4": "To simplify database backups",
+    "Answer": "To horizontally scale a database by distributing data across multiple independent database servers"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which type of integrity constraint ensures that all values in a column are unique?",
+    "Option1": "Primary Key",
+    "Option2": "Foreign Key",
+    "Option3": "Unique Constraint",
+    "Option4": "Check Constraint",
+    "Answer": "Unique Constraint"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Table Partitioning' in SQL Server?",
+    "Option1": "Dividing a table into smaller, more manageable logical units based on a column's values",
+    "Option2": "Creating multiple copies of a table",
+    "Option3": "Storing a table across different databases",
+    "Option4": "Encrypting a table's data",
+    "Answer": "Dividing a table into smaller, more manageable logical units based on a column's values"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the difference between 'TRUNCATE TABLE' and 'DELETE FROM' in SQL Server?",
+    "Option1": "TRUNCATE deletes only a few rows, DELETE deletes all rows.",
+    "Option2": "TRUNCATE logs each row deletion, DELETE is a single logged operation.",
+    "Option3": "TRUNCATE is a DDL command that deallocates data pages and is faster, DELETE is a DML command that logs each row deletion.",
+    "Option4": "TRUNCATE can be rolled back, DELETE cannot.",
+    "Answer": "TRUNCATE is a DDL command that deallocates data pages and is faster, DELETE is a DML command that logs each row deletion."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which T-SQL aggregate function returns the average value of a numeric column?",
+    "Option1": "SUM",
+    "Option2": "COUNT",
+    "Option3": "AVG",
+    "Option4": "MAX",
+    "Answer": "AVG"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the primary purpose of 'Fill Factor' for indexes in SQL Server?",
+    "Option1": "To increase the size of the index",
+    "Option2": "To control how much empty space is left on the data pages for future data growth",
+    "Option3": "To reduce the number of index pages",
+    "Option4": "To speed up index creation",
+    "Answer": "To control how much empty space is left on the data pages for future data growth"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Contained Database' in SQL Server?",
+    "Option1": "A database that is restricted from external connections",
+    "Option2": "A database that is isolated from the SQL Server instance, containing all its own settings and metadata",
+    "Option3": "A database with encrypted data",
+    "Option4": "A database used for data warehousing",
+    "Answer": "A database that is isolated from the SQL Server instance, containing all its own settings and metadata"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which SQL Server feature is used to encrypt an entire database?",
+    "Option1": "Cell-level encryption",
+    "Option2": "Always Encrypted",
+    "Option3": "Transparent Data Encryption (TDE)",
+    "Option4": "Column-level encryption",
+    "Answer": "Transparent Data Encryption (TDE)"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the purpose of 'SQL Server Data Tools (SSDT)'?",
+    "Option1": "To manage SQL Server instances",
+    "Option2": "To develop and manage SQL Server databases, data warehouses, and BI solutions in a Visual Studio environment",
+    "Option3": "To monitor database performance",
+    "Option4": "To perform database backups",
+    "Answer": "To develop and manage SQL Server databases, data warehouses, and BI solutions in a Visual Studio environment"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which T-SQL keyword is used to group rows that have the same values in specified columns into a summary row?",
+    "Option1": "WHERE",
+    "Option2": "ORDER BY",
+    "Option3": "GROUP BY",
+    "Option4": "HAVING",
+    "Answer": "GROUP BY"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Database Collation' in SQL Server?",
+    "Option1": "The process of combining multiple databases",
+    "Option2": "A set of rules that determine how data is sorted, compared, and stored (e.g., case sensitivity, accent sensitivity)",
+    "Option3": "A method for encrypting data",
+    "Option4": "A type of database backup",
+    "Answer": "A set of rules that determine how data is sorted, compared, and stored (e.g., case sensitivity, accent sensitivity)"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which SQL Server utility is commonly used for bulk importing data from flat files?",
+    "Option1": "SQLCMD",
+    "Option2": "BULK INSERT",
+    "Option3": "BCP (Bulk Copy Program)",
+    "Option4": "Import Wizard in SSMS",
+    "Answer": "BCP (Bulk Copy Program)"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the 'Query Optimizer' in SQL Server?",
+    "Option1": "A tool that encrypts SQL queries",
+    "Option2": "A component of the Database Engine that determines the most efficient way to execute a given query",
+    "Option3": "A service that monitors database connections",
+    "Option4": "A feature for designing database schemas",
+    "Answer": "A component of the Database Engine that determines the most efficient way to execute a given query"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'In-Memory OLTP' in SQL Server?",
+    "Option1": "A feature for storing large binary objects in memory",
+    "Option2": "A memory-optimized technology for increasing the performance of OLTP workloads by storing data in memory",
+    "Option3": "A method for caching frequently accessed data",
+    "Option4": "A temporary storage area for query results",
+    "Answer": "A memory-optimized technology for increasing the performance of OLTP workloads by storing data in memory"
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which SQL Server data type is best suited for storing large binary data, like images or documents?",
+    "Option1": "VARCHAR(MAX)",
+    "Option2": "NVARCHAR(MAX)",
+    "Option3": "VARBINARY(MAX)",
+    "Option4": "TEXT",
+    "Answer": "VARBINARY(MAX)"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'SQL Server Extended Events'?",
+    "Option1": "A deprecated feature for performance monitoring",
+    "Option2": "A lightweight and powerful event handling system that replaces SQL Server Profiler for performance monitoring and troubleshooting",
+    "Option3": "A tool for managing database connections",
+    "Option4": "A feature for sending email notifications",
+    "Answer": "A lightweight and powerful event handling system that replaces SQL Server Profiler for performance monitoring and troubleshooting"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Row-Level Security (RLS)' in SQL Server?",
+    "Option1": "A feature that encrypts data at the row level",
+    "Option2": "A security feature that enables you to control access to rows in a database table based on the execution context",
+    "Option3": "A method for restricting column access",
+    "Option4": "A tool for auditing row changes",
+    "Answer": "A security feature that enables you to control access to rows in a database table based on the execution context"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the purpose of the 'NORECOVERY' option in a RESTORE statement?",
+    "Option1": "To recover the database to a specific point in time",
+    "Option2": "To leave the database in a restoring state, allowing further transaction log backups to be applied",
+    "Option3": "To automatically bring the database online after restore",
+    "Option4": "To ignore any errors during the restore process",
+    "Answer": "To leave the database in a restoring state, allowing further transaction log backups to be applied"
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which T-SQL function is used to convert a value from one data type to another?",
+    "Option1": "FORMAT()",
+    "Option2": "CAST() or CONVERT()",
+    "Option3": "CHANGE_TYPE()",
+    "Option4": "ALTER_DATA()",
+    "Answer": "CAST() or CONVERT()"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Always Encrypted' in SQL Server?",
+    "Option1": "A feature for encrypting communication between client and server",
+    "Option2": "A feature that allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the Database Engine",
+    "Option3": "A method for encrypting database backups",
+    "Option4": "A tool for managing encryption keys",
+    "Answer": "A feature that allows clients to encrypt sensitive data inside client applications and never reveal the encryption keys to the Database Engine"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the 'Query Store' in SQL Server?",
+    "Option1": "A temporary storage for query results",
+    "Option2": "A feature that captures information about query plans and runtime statistics, helping with performance troubleshooting",
+    "Option3": "A tool for optimizing index creation",
+    "Option4": "A method for encrypting queries",
+    "Answer": "A feature that captures information about query plans and runtime statistics, helping with performance troubleshooting"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which SQL Server data type is used for storing dates and times with a high degree of precision?",
+    "Option1": "DATE",
+    "Option2": "TIME",
+    "Option3": "DATETIME",
+    "Option4": "DATETIME2",
+    "Answer": "DATETIME2"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the concept of 'Isolation Levels' in SQL Server transactions?",
+    "Option1": "The degree to which a transaction is isolated from concurrent transactions, affecting data consistency and concurrency",
+    "Option2": "The level of encryption applied to transactions",
+    "Option3": "The geographical location of transaction servers",
+    "Option4": "The number of users allowed to access a database concurrently",
+    "Answer": "The degree to which a transaction is isolated from concurrent transactions, affecting data consistency and concurrency"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'PolyBase' in SQL Server?",
+    "Option1": "A feature for managing polymorphic data",
+    "Option2": "A technology that enables SQL Server to process T-SQL queries that read and combine data from external sources, such as Hadoop or Azure Blob Storage",
+    "Option3": "A tool for creating multi-database views",
+    "Option4": "A method for replicating data to other database systems",
+    "Answer": "A technology that enables SQL Server to process T-SQL queries that read and combine data from external sources, such as Hadoop or Azure Blob Storage"
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which T-SQL command is used to grant permissions to a user or role?",
+    "Option1": "ALLOW",
+    "Option2": "ENABLE",
+    "Option3": "GRANT",
+    "Option4": "AUTHORIZE",
+    "Answer": "GRANT"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'SQL Server Machine Learning Services'?",
+    "Option1": "A service for optimizing SQL Server performance using AI",
+    "Option2": "A feature that enables you to run Python and R scripts with relational data directly within SQL Server",
+    "Option3": "A tool for automating database administration tasks",
+    "Option4": "A method for migrating machine learning models to SQL Server",
+    "Answer": "A feature that enables you to run Python and R scripts with relational data directly within SQL Server"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Index Fragmentation' in SQL Server?",
+    "Option1": "When an index is too small to hold all its data",
+    "Option2": "When the logical order of pages in an index does not match the physical order of pages on the disk, or when pages have too much empty space",
+    "Option3": "When an index becomes corrupted",
+    "Option4": "When an index contains duplicate values",
+    "Answer": "When the logical order of pages in an index does not match the physical order of pages on the disk, or when pages have too much empty space"
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which SQL Server component is used to manage and deploy data models for data warehousing (Tabular or Multidimensional)?",
+    "Option1": "SQL Server Reporting Services (SSRS)",
+    "Option2": "SQL Server Integration Services (SSIS)",
+    "Option3": "SQL Server Analysis Services (SSAS)",
+    "Option4": "SQL Server Data Quality Services (DQS)",
+    "Answer": "SQL Server Analysis Services (SSAS)"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the purpose of 'SQL Server Change Tracking'?",
+    "Option1": "To track changes to SQL Server configuration",
+    "Option2": "A lightweight solution that provides a mechanism to track changes to tables without using triggers or timestamps",
+    "Option3": "A tool for tracking user logins",
+    "Option4": "A method for auditing database object definitions",
+    "Answer": "A lightweight solution that provides a mechanism to track changes to tables without using triggers or timestamps"
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which T-SQL command is used to create a new database in SQL Server?",
+    "Option1": "ADD DATABASE",
+    "Option2": "NEW DATABASE",
+    "Option3": "CREATE DATABASE",
+    "Option4": "BUILD DATABASE",
+    "Answer": "CREATE DATABASE"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Distributed Transaction Coordinator (DTC)' in SQL Server?",
+    "Option1": "A service for managing local transactions",
+    "Option2": "A service that ensures proper transaction management for transactions that span multiple data sources",
+    "Option3": "A tool for distributing database backups",
+    "Option4": "A feature for optimizing distributed queries",
+    "Answer": "A service that ensures proper transaction management for transactions that span multiple data sources"
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which SQL Server data type is used to store variable-length non-Unicode string data?",
+    "Option1": "NVARCHAR",
+    "Option2": "NCHAR",
+    "Option3": "VARCHAR",
+    "Option4": "TEXT",
+    "Answer": "VARCHAR"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the benefit of using 'Schema-bound Views' in SQL Server?",
+    "Option1": "They improve write performance.",
+    "Option2": "They prevent changes to underlying tables that would break the view definition, providing greater stability.",
+    "Option3": "They are automatically indexed.",
+    "Option4": "They are only visible to the owner of the view.",
+    "Answer": "They prevent changes to underlying tables that would break the view definition, providing greater stability."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'SQL Server Data Quality Services (DQS)'?",
+    "Option1": "A tool for performance monitoring",
+    "Option2": "A knowledge-driven data quality solution that helps cleanse and match data",
+    "Option3": "A service for encrypting data",
+    "Option4": "A feature for generating reports",
+    "Answer": "A knowledge-driven data quality solution that helps cleanse and match data"
+  },
+  {
+    "question_no.": 96,
+    "Question": "Which type of index is typically created automatically when a PRIMARY KEY constraint is defined?",
+    "Option1": "Non-Clustered Index",
+    "Option2": "Unique Index",
+    "Option3": "Clustered Index",
+    "Option4": "Filtered Index",
+    "Answer": "Clustered Index"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'SQL Server Master Data Services (MDS)'?",
+    "Option1": "A tool for managing server licenses",
+    "Option2": "A platform for managing master data and ensuring data consistency across disparate systems",
+    "Option3": "A service for database replication",
+    "Option4": "A feature for auditing user access",
+    "Answer": "A platform for managing master data and ensuring data consistency across disparate systems"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Column-Level Encryption' in SQL Server?",
+    "Option1": "Encrypting the entire table",
+    "Option2": "Encrypting specific columns within a table, allowing other columns to remain unencrypted",
+    "Option3": "Encrypting only the primary key column",
+    "Option4": "A deprecated encryption method",
+    "Answer": "Encrypting specific columns within a table, allowing other columns to remain unencrypted"
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which T-SQL function is used to return the current date and time?",
+    "Option1": "GETDATE()",
+    "Option2": "NOW()",
+    "Option3": "CURRENT_TIME()",
+    "Option4": "TODAY()",
+    "Answer": "GETDATE()"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'SQL Server on Linux'?",
+    "Option1": "A deprecated version of SQL Server",
+    "Option2": "SQL Server running on the Linux operating system, providing cross-platform compatibility",
+    "Option3": "A separate database product from Microsoft",
+    "Option4": "A limited version of SQL Server for small databases",
+    "Answer": "SQL Server running on the Linux operating system, providing cross-platform compatibility"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the purpose of 'EXECUTE AS' in SQL Server?",
+    "Option1": "To run a query as a different user temporarily, for security or testing purposes.",
+    "Option2": "To execute a stored procedure with elevated permissions.",
+    "Option3": "To create a new user account.",
+    "Option4": "To log out of the current SQL Server session.",
+    "Answer": "To run a query as a different user temporarily, for security or testing purposes."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which SQL Server component is responsible for processing MDX (MultiDimensional eXpressions) queries?",
+    "Option1": "Database Engine",
+    "Option2": "Integration Services",
+    "Option3": "Reporting Services",
+    "Option4": "Analysis Services",
+    "Answer": "Analysis Services"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a 'Temp Table' in SQL Server?",
+    "Option1": "A table stored in the user database for permanent use.",
+    "Option2": "A temporary table that exists only for the duration of the current session or stored procedure.",
+    "Option3": "A table used for caching frequently accessed data.",
+    "Option4": "A table used for database backups.",
+    "Answer": "A temporary table that exists only for the duration of the current session or stored procedure."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'SQL Server Intelligent Query Processing'?",
+    "Option1": "A feature that automatically writes SQL queries.",
+    "Option2": "A set of features that improve query performance with minimal application changes, adapting to workload characteristics.",
+    "Option3": "A tool for predicting query execution times.",
+    "Option4": "A service for optimizing data storage.",
+    "Answer": "A set of features that improve query performance with minimal application changes, adapting to workload characteristics."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the importance of 'Indexes' for query performance in SQL Server?",
+    "Option1": "They slow down data retrieval.",
+    "Option2": "They provide faster access to data by allowing the Database Engine to quickly locate rows without scanning the entire table.",
+    "Option3": "They consume more storage without benefits.",
+    "Option4": "They are only used for data manipulation.",
+    "Answer": "They provide faster access to data by allowing the Database Engine to quickly locate rows without scanning the entire table."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Which T-SQL command is used to remove a database from SQL Server?",
+    "Option1": "DELETE DATABASE",
+    "Option2": "REMOVE DATABASE",
+    "Option3": "DROP DATABASE",
+    "Option4": "ERASE DATABASE",
+    "Answer": "DROP DATABASE"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the purpose of 'DBCC FREEPROCCACHE'?",
+    "Option1": "To clear the query plan cache, forcing new execution plans to be generated.",
+    "Option2": "To free up disk space in Tempdb.",
+    "Option3": "To clear the buffer cache.",
+    "Option4": "To optimize index usage.",
+    "Answer": "To clear the query plan cache, forcing new execution plans to be generated."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Full-Text Search' in SQL Server?",
+    "Option1": "A feature for searching within structured data only.",
+    "Option2": "A feature that enables efficient and flexible searching on character-based data within SQL Server databases.",
+    "Option3": "A tool for finding specific rows in a table.",
+    "Option4": "A method for encrypting text data.",
+    "Answer": "A feature that enables efficient and flexible searching on character-based data within SQL Server databases."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'SQL Server Managed Backup to Microsoft Azure'?",
+    "Option1": "A manual backup process to Azure.",
+    "Option2": "A feature that automates and manages SQL Server backups to Azure Blob Storage.",
+    "Option3": "A service for replicating data to Azure.",
+    "Option4": "A tool for monitoring Azure resources.",
+    "Answer": "A feature that automates and manages SQL Server backups to Azure Blob Storage."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Which type of join returns all rows from both tables, with NULLs in place of non-matching rows?",
+    "Option1": "INNER JOIN",
+    "Option2": "LEFT JOIN",
+    "Option3": "RIGHT JOIN",
+    "Option4": "FULL OUTER JOIN",
+    "Answer": "FULL OUTER JOIN"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'SQL Server Express Edition'?",
+    "Option1": "The enterprise version of SQL Server.",
+    "Option2": "A free, entry-level edition of SQL Server suitable for small applications and development.",
+    "Option3": "A cloud-only version of SQL Server.",
+    "Option4": "A deprecated edition of SQL Server.",
+    "Answer": "A free, entry-level edition of SQL Server suitable for small applications and development."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the primary role of 'Transaction Log' in SQL Server?",
+    "Option1": "To store only successful transactions.",
+    "Option2": "To record all transactions and database modifications, crucial for recovery and maintaining ACID properties.",
+    "Option3": "To store temporary data.",
+    "Option4": "To optimize query performance.",
+    "Answer": "To record all transactions and database modifications, crucial for recovery and maintaining ACID properties."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'SQL Server Distributed Replay'?",
+    "Option1": "A tool for replaying network traffic.",
+    "Option2": "A feature that allows you to replay a workload captured from a production environment on another SQL Server instance.",
+    "Option3": "A method for replicating data to multiple servers.",
+    "Option4": "A service for managing data synchronization.",
+    "Answer": "A feature that allows you to replay a workload captured from a production environment on another SQL Server instance."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the purpose of 'SQLCMD' utility?",
+    "Option1": "To provide a graphical interface for SQL Server.",
+    "Option2": "A command-line utility for executing T-SQL scripts and managing SQL Server.",
+    "Option3": "A tool for connecting to external databases.",
+    "Option4": "A service for monitoring SQL Server performance.",
+    "Answer": "A command-line utility for executing T-SQL scripts and managing SQL Server."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the concept of 'Durability' in ACID properties for SQL Server transactions?",
+    "Option1": "Transactions must be completed quickly.",
+    "Option2": "Once a transaction is committed, its changes are permanent and survive system failures.",
+    "Option3": "Transactions must be isolated from each other.",
+    "Option4": "Transactions must be executed completely or not at all.",
+    "Answer": "Once a transaction is committed, its changes are permanent and survive system failures."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Which SQL Server data type is used for unique identifiers, often generated by the NEWID() function?",
+    "Option1": "INT",
+    "Option2": "BIGINT",
+    "Option3": "GUID",
+    "Option4": "UNIQUEIDENTIFIER",
+    "Answer": "UNIQUEIDENTIFIER"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'SQL Server Integration Services (SSIS) Catalog'?",
+    "Option1": "A list of all SSIS packages installed.",
+    "Option2": "A central repository for SSIS projects, packages, and operational data, providing enhanced management and reporting.",
+    "Option3": "A component for designing SSIS packages.",
+    "Option4": "A tool for debugging SSIS packages.",
+    "Answer": "A central repository for SSIS projects, packages, and operational data, providing enhanced management and reporting."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'SQL Server Extended Protection for Authentication'?",
+    "Option1": "A feature that encrypts SQL Server communication.",
+    "Option2": "A security feature that enhances authentication by preventing authentication relay attacks.",
+    "Option3": "A method for implementing multi-factor authentication.",
+    "Option4": "A tool for auditing successful logins.",
+    "Answer": "A security feature that enhances authentication by preventing authentication relay attacks."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the purpose of 'WITH (NOLOCK)' hint in a SELECT statement?",
+    "Option1": "To acquire exclusive locks on rows.",
+    "Option2": "To read data without acquiring shared locks, allowing dirty reads but potentially increasing concurrency.",
+    "Option3": "To prevent other users from reading data.",
+    "Option4": "To commit the current transaction.",
+    "Answer": "To read data without acquiring shared locks, allowing dirty reads but potentially increasing concurrency."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Temporal Tables' in SQL Server?",
+    "Option1": "Tables that store temporary data.",
+    "Option2": "System-versioned tables that automatically track and record the full history of data changes.",
+    "Option3": "Tables that are dropped after a certain time period.",
+    "Option4": "Tables used for real-time analytics.",
+    "Answer": "System-versioned tables that automatically track and record the full history of data changes."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which T-SQL statement is used to remove a view from a SQL Server database?",
+    "Option1": "DELETE VIEW",
+    "Option2": "DROP VIEW",
+    "Option3": "REMOVE VIEW",
+    "Option4": "ERASE VIEW",
+    "Answer": "DROP VIEW"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'SQL Server Stretch Database'?",
+    "Option1": "A feature for increasing database size on-premises.",
+    "Option2": "A technology that enables you to dynamically stretch warm and cold transactional data from SQL Server to Azure.",
+    "Option3": "A tool for compressing database files.",
+    "Option4": "A method for replicating data to multiple on-premises servers.",
+    "Answer": "A technology that enables you to dynamically stretch warm and cold transactional data from SQL Server to Azure."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the primary role of 'SQL Server Native Client'?",
+    "Option1": "A web browser for SQL Server.",
+    "Option2": "A standalone data access API that provides OLE DB and ODBC connectivity to SQL Server.",
+    "Option3": "A tool for managing SQL Server instances.",
+    "Option4": "A graphical user interface for SQL Server.",
+    "Answer": "A standalone data access API that provides OLE DB and ODBC connectivity to SQL Server."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Dynamic Data Masking (DDM)' in SQL Server?",
+    "Option1": "A feature that encrypts sensitive data.",
+    "Option2": "A security feature that limits sensitive data exposure by masking it to non-privileged users without altering the data in the database.",
+    "Option3": "A tool for generating fake data.",
+    "Option4": "A method for obfuscating SQL queries.",
+    "Answer": "A security feature that limits sensitive data exposure by masking it to non-privileged users without altering the data in the database."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the difference between a 'Local Temporary Table' and a 'Global Temporary Table'?",
+    "Option1": "Local tables are permanent, global tables are temporary.",
+    "Option2": "Local tables (#temp) are only visible to the session that created them; global tables (##temp) are visible to all sessions.",
+    "Option3": "Local tables are stored on disk, global tables are in memory.",
+    "Option4": "There is no functional difference.",
+    "Answer": "Local tables (#temp) are only visible to the session that created them; global tables (##temp) are visible to all sessions."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'SQL Server Data Collector'?",
+    "Option1": "A tool for migrating data.",
+    "Option2": "A component that collects data about SQL Server performance, usage, and other metrics for analysis and reporting.",
+    "Option3": "A service for distributing data.",
+    "Option4": "A feature for backing up databases.",
+    "Answer": "A component that collects data about SQL Server performance, usage, and other metrics for analysis and reporting."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which SQL Server object is a set of SQL statements that can be compiled and executed as a single unit, specifically for DML operations?",
+    "Option1": "Function",
+    "Option2": "View",
+    "Option3": "Trigger",
+    "Option4": "Stored Procedure",
+    "Answer": "Stored Procedure"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Execution Plan' in SQL Server?",
+    "Option1": "A schedule for running SQL Server jobs.",
+    "Option2": "A graphical or textual representation of the data retrieval strategy chosen by the Query Optimizer to execute a SQL query.",
+    "Option3": "A plan for database recovery.",
+    "Option4": "A blueprint for database design.",
+    "Answer": "A graphical or textual representation of the data retrieval strategy chosen by the Query Optimizer to execute a SQL query."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is the purpose of 'SQL Server Configuration Manager'?",
+    "Option1": "To write T-SQL queries.",
+    "Option2": "To manage SQL Server services, network protocols, and client connectivity.",
+    "Option3": "To perform database backups.",
+    "Option4": "To create new databases.",
+    "Answer": "To manage SQL Server services, network protocols, and client connectivity."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'SQL Server Compact Edition'?",
+    "Option1": "A full-featured enterprise edition of SQL Server.",
+    "Option2": "A free, embedded database engine for desktop and mobile applications.",
+    "Option3": "A cloud-based SQL Server solution.",
+    "Option4": "A deprecated version of SQL Server.",
+    "Answer": "A free, embedded database engine for desktop and mobile applications."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Intelligent Query Processing' in SQL Server?",
+    "Option1": "A feature for optimizing query plans dynamically.",
+    "Option2": "A set of features that improve performance of existing workloads with minimal effort, typically by adapting to query execution patterns.",
+    "Option3": "A tool for automatic query generation.",
+    "Option4": "A method for encrypting queries.",
+    "Answer": "A set of features that improve performance of existing workloads with minimal effort, typically by adapting to query execution patterns."
+  },
+  {
+    "question_no.": 132,
+    "Question": "Which SQL Server data type is used for storing monetary or currency values?",
+    "Option1": "DECIMAL",
+    "Option2": "FLOAT",
+    "Option3": "MONEY",
+    "Option4": "NUMERIC",
+    "Answer": "MONEY"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'SQL Server Data Warehouse'?",
+    "Option1": "A database designed for Online Transaction Processing (OLTP).",
+    "Option2": "A large-scale database system designed for analytical queries and reporting, optimized for data aggregation.",
+    "Option3": "A temporary storage area for data.",
+    "Option4": "A database used for real-time transactions.",
+    "Answer": "A large-scale database system designed for analytical queries and reporting, optimized for data aggregation."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'SQL Server Management Studio (SSMS)' primarily used for?",
+    "Option1": "Developing web applications.",
+    "Option2": "Administering, configuring, and developing all components within SQL Server.",
+    "Option3": "Creating graphic designs.",
+    "Option4": "Managing network connections.",
+    "Answer": "Administering, configuring, and developing all components within SQL Server."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Dynamic Management Functions (DMFs)'?",
+    "Option1": "Functions that modify data in real-time.",
+    "Option2": "Functions that return server state information that can be used to monitor the health of a server instance, diagnose problems, and tune performance.",
+    "Option3": "Functions that are only used in stored procedures.",
+    "Option4": "Functions that create temporary tables.",
+    "Answer": "Functions that return server state information that can be used to monitor the health of a server instance, diagnose problems, and tune performance."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the purpose of 'SQL Server Agent Alerts'?",
+    "Option1": "To notify users about new features.",
+    "Option2": "To notify administrators of critical events or performance thresholds.",
+    "Option3": "To send promotional messages.",
+    "Option4": "To display pop-up messages to users.",
+    "Answer": "To notify administrators of critical events or performance thresholds."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Temporal Tables' used for?",
+    "Option1": "Storing data that never changes.",
+    "Option2": "Maintaining a full history of data changes for auditing and analysis.",
+    "Option3": "Creating temporary copies of tables.",
+    "Option4": "Optimizing time-based queries.",
+    "Answer": "Maintaining a full history of data changes for auditing and analysis."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which SQL Server data type is used to store variable-length binary data up to 2GB?",
+    "Option1": "BINARY",
+    "Option2": "VARBINARY",
+    "Option3": "IMAGE",
+    "Option4": "VARBINARY(MAX)",
+    "Answer": "VARBINARY(MAX)"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'SQL Server Big Data Clusters'?",
+    "Option1": "A feature for running SQL Server on a single large server.",
+    "Option2": "A highly scalable platform that combines SQL Server, Apache Spark, and HDFS to analyze large volumes of data.",
+    "Option3": "A tool for migrating data to the cloud.",
+    "Option4": "A service for real-time data streaming.",
+    "Answer": "A highly scalable platform that combines SQL Server, Apache Spark, and HDFS to analyze large volumes of data."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'SQL Server Migration Assistant (SSMA)'?",
+    "Option1": "A tool for migrating data within SQL Server.",
+    "Option2": "A suite of tools designed to automate the migration of databases from other database systems (e.g., Oracle, MySQL) to SQL Server.",
+    "Option3": "A feature for backing up and restoring databases.",
+    "Option4": "A service for monitoring database performance.",
+    "Answer": "A suite of tools designed to automate the migration of databases from other database systems (e.g., Oracle, MySQL) to SQL Server."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which SQL Server component is primarily focused on creating interactive reports and dashboards?",
+    "Option1": "SSIS",
+    "Option2": "SSAS",
+    "Option3": "SSRS",
+    "Option4": "SSMS",
+    "Answer": "SSRS"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the purpose of 'SQL Server Replication Monitor'?",
+    "Option1": "To create new replication topologies.",
+    "Option2": "To monitor the health and performance of SQL Server replication agents.",
+    "Option3": "To configure replication settings.",
+    "Option4": "To automate replication tasks.",
+    "Answer": "To monitor the health and performance of SQL Server replication agents."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'SQL Server Policy-Based Management'?",
+    "Option1": "A method for encrypting policies.",
+    "Option2": "A system for managing and enforcing policies on SQL Server instances and databases.",
+    "Option3": "A tool for generating security reports.",
+    "Option4": "A feature for automating software updates.",
+    "Answer": "A system for managing and enforcing policies on SQL Server instances and databases."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'SQL Server Agent Operators'?",
+    "Option1": "Users who can log in to SQL Server Agent.",
+    "Option2": "Aliases for notifications, used by SQL Server Agent to send alerts and job completion messages.",
+    "Option3": "Roles that have full control over SQL Server Agent.",
+    "Option4": "Tools for creating SQL Server Agent jobs.",
+    "Answer": "Aliases for notifications, used by SQL Server Agent to send alerts and job completion messages."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'SQL Server Connection Strings'?",
+    "Option1": "Encrypted passwords for database connections.",
+    "Option2": "A string that defines how to connect to a SQL Server database, including server name, database name, and authentication details.",
+    "Option3": "A type of SQL query.",
+    "Option4": "A feature for managing network protocols.",
+    "Answer": "A string that defines how to connect to a SQL Server database, including server name, database name, and authentication details."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Data Compression' in SQL Server?",
+    "Option1": "Reducing the number of columns in a table.",
+    "Option2": "Reducing the physical storage size of data in tables and indexes, improving I/O performance.",
+    "Option3": "Compressing individual files on the operating system.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "Reducing the physical storage size of data in tables and indexes, improving I/O performance."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the primary function of 'Database Scoped Configurations' in SQL Server?",
+    "Option1": "To configure server-wide settings.",
+    "Option2": "To configure specific settings at the database level, overriding server-level defaults.",
+    "Option3": "To configure SQL Server Agent jobs.",
+    "Option4": "To manage SQL Server licenses.",
+    "Answer": "To configure specific settings at the database level, overriding server-level defaults."
+  },
+  {
+    "question_no.": 148,
+    "Question": "Which SQL Server data type is used for storing XML data?",
+    "Option1": "NVARCHAR(MAX)",
+    "Option2": "TEXT",
+    "Option3": "XML",
+    "Option4": "VARCHAR(MAX)",
+    "Answer": "XML"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'SQL Server Agent Operators'?",
+    "Option1": "Individuals who operate SQL Server.",
+    "Option2": "Aliases that contain contact information for individuals or groups responsible for administrative tasks and notifications.",
+    "Option3": "Permissions granted to users to run Agent jobs.",
+    "Option4": "Services that manage Agent jobs.",
+    "Answer": "Aliases that contain contact information for individuals or groups responsible for administrative tasks and notifications."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'SQL Server Failover Cluster Instances (FCI)'?",
+    "Option1": "A software-only high-availability solution.",
+    "Option2": "A high-availability solution that uses Windows Server Failover Clustering (WSFC) to provide instance-level protection.",
+    "Option3": "A method for scaling out read-only workloads.",
+    "Option4": "A tool for database performance monitoring.",
+    "Answer": "A high-availability solution that uses Windows Server Failover Clustering (WSFC) to provide instance-level protection."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'SQL Server Buffer Pool Extension'?",
+    "Option1": "A feature that allows the SQL Server buffer pool to be extended to a solid-state drive (SSD) for faster I/O.",
+    "Option2": "A method for increasing RAM on the server.",
+    "Option3": "A technique for compressing data in memory.",
+    "Option4": "A feature for mirroring data to a secondary server.",
+    "Answer": "A feature that allows the SQL Server buffer pool to be extended to a solid-state drive (SSD) for faster I/O."
+  },
+  {
+  "question_no.": 152,
+  "Question": "What is the purpose of 'SQL Server Data Quality Services (DQS)'?",
+  "Option1": "To improve query performance.",
+  "Option2": "To ensure accuracy, completeness, and consistency of data.",
+  "Option3": "To automate database backups.",
+  "Option4": "To monitor server hardware.",
+  "Answer": "To ensure accuracy, completeness, and consistency of data."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which T-SQL function is used to convert a string to uppercase?",
+    "Option1": "LOWER()",
+    "Option2": "CAPITALIZE()",
+    "Option3": "UPPER()",
+    "Option4": "STR_UP()",
+    "Answer": "UPPER()"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'SQL Server Machine Learning Services'?",
+    "Option1": "A service for developing AI models independently of SQL Server.",
+    "Option2": "A feature that enables running R and Python scripts directly within SQL Server, allowing for in-database machine learning.",
+    "Option3": "A tool for automating SQL Server administration.",
+    "Option4": "A component for managing Big Data.",
+    "Answer": "A feature that enables running R and Python scripts directly within SQL Server, allowing for in-database machine learning."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the primary role of 'SQL Server Integration Services (SSIS)'?",
+    "Option1": "Reporting and analytics.",
+    "Option2": "Extracting, Transforming, and Loading (ETL) data.",
+    "Option3": "Managing database security.",
+    "Option4": "Developing web applications.",
+    "Answer": "Extracting, Transforming, and Loading (ETL) data."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'SQL Server Agent Operators'?",
+    "Option1": "Users who can create jobs.",
+    "Option2": "Objects that represent notification recipients for alerts and job outcomes.",
+    "Option3": "Services that run SQL Server Agent.",
+    "Option4": "Roles that control Agent permissions.",
+    "Answer": "Objects that represent notification recipients for alerts and job outcomes."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'SQL Server Graph Database'?",
+    "Option1": "A database for storing images.",
+    "Option2": "A feature that allows SQL Server to store and query highly connected data using graph structures (nodes and edges).",
+    "Option3": "A tool for creating database diagrams.",
+    "Option4": "A system for generating charts from data.",
+    "Answer": "A feature that allows SQL Server to store and query highly connected data using graph structures (nodes and edges)."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'SQL Server Data-tier Application (DAC) Framework'?",
+    "Option1": "A framework for developing custom data applications.",
+    "Option2": "A lifecycle management framework for SQL Server databases, allowing for consistent deployment and management.",
+    "Option3": "A tool for data migration.",
+    "Option4": "A service for encrypting data.",
+    "Answer": "A lifecycle management framework for SQL Server databases, allowing for consistent deployment and management."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which type of index is most suitable for frequently queried columns that are not part of the primary key?",
+    "Option1": "Clustered index",
+    "Option2": "Non-clustered index",
+    "Option3": "Unique clustered index",
+    "Option4": "Full-text index",
+    "Answer": "Non-clustered index"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'SQL Server Extended Events' primarily used for?",
+    "Option1": "Running SQL Server backups.",
+    "Option2": "Advanced performance monitoring and troubleshooting by capturing detailed event data.",
+    "Option3": "Managing user accounts.",
+    "Option4": "Developing stored procedures.",
+    "Answer": "Advanced performance monitoring and troubleshooting by capturing detailed event data."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'SQL Server Query Store'?",
+    "Option1": "A cache for frequently executed queries.",
+    "Option2": "A repository that captures historical information about queries, plans, and runtime statistics, aiding performance analysis.",
+    "Option3": "A tool for encrypting query text.",
+    "Option4": "A feature for optimizing index creation.",
+    "Answer": "A repository that captures historical information about queries, plans, and runtime statistics, aiding performance analysis."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'SQL Server Columnstore Index' primarily designed for?",
+    "Option1": "Optimizing OLTP workloads with frequent inserts/updates.",
+    "Option2": "Speeding up data warehousing queries on large fact tables by storing data in a columnar format.",
+    "Option3": "Enforcing unique constraints.",
+    "Option4": "Improving performance for small lookup tables.",
+    "Answer": "Speeding up data warehousing queries on large fact tables by storing data in a columnar format."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'SQL Server Data Sync'?",
+    "Option1": "A tool for real-time data streaming.",
+    "Option2": "A service that enables you to synchronize data bidirectionally between SQL Server databases and Azure SQL Database.",
+    "Option3": "A method for encrypting data synchronization.",
+    "Option4": "A feature for offline database access.",
+    "Answer": "A service that enables you to synchronize data bidirectionally between SQL Server databases and Azure SQL Database."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the purpose of 'SQL Server Data Quality Services (DQS)'?",
+    "Option1": "To manage SQL Server licenses.",
+    "Option2": "To cleanse, profile, and match data to ensure its accuracy and consistency.",
+    "Option3": "To generate data visualization reports.",
+    "Option4": "To automate data backup processes.",
+    "Answer": "To cleanse, profile, and match data to ensure its accuracy and consistency."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'SQL Server Machine Learning Services'?",
+    "Option1": "A service for training machine learning models on external data.",
+    "Option2": "A feature that allows for execution of R and Python scripts within SQL Server, facilitating in-database machine learning.",
+    "Option3": "A tool for migrating machine learning models.",
+    "Option4": "A component for automating database maintenance.",
+    "Answer": "A feature that allows for execution of R and Python scripts within SQL Server, facilitating in-database machine learning."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'SQL Server Audit'?",
+    "Option1": "A tool for optimizing server configuration.",
+    "Option2": "A feature that records server and database-level events for security and compliance purposes.",
+    "Option3": "A service for performance monitoring.",
+    "Option4": "A method for encrypting sensitive data.",
+    "Answer": "A feature that records server and database-level events for security and compliance purposes."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which T-SQL command is used to retrieve data from multiple tables by linking them based on related columns?",
+    "Option1": "SELECT FROM",
+    "Option2": "JOIN",
+    "Option3": "GROUP BY",
+    "Option4": "ORDER BY",
+    "Answer": "JOIN"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'SQL Server Log Shipping'?",
+    "Option1": "A method for sending SQL Server error logs to a central server.",
+    "Option2": "A disaster recovery solution that involves automatically backing up transaction logs from a primary server and restoring them to a secondary server.",
+    "Option3": "A feature for monitoring transaction log growth.",
+    "Option4": "A tool for compressing transaction logs.",
+    "Answer": "A disaster recovery solution that involves automatically backing up transaction logs from a primary server and restoring them to a secondary server."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'SQL Server In-Memory OLTP'?",
+    "Option1": "A feature for caching frequently accessed data on disk.",
+    "Option2": "A technology that allows certain tables to be memory-optimized for extremely fast transaction processing.",
+    "Option3": "A method for reducing RAM usage.",
+    "Option4": "A tool for analyzing memory dumps.",
+    "Answer": "A technology that allows certain tables to be memory-optimized for extremely fast transaction processing."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'SQL Server Data Tools (SSDT)' for?",
+    "Option1": "Managing server instances and services.",
+    "Option2": "Providing a Visual Studio-integrated environment for database development (design, debug, deploy).",
+    "Option3": "Monitoring database performance in real-time.",
+    "Option4": "Automating SQL Server backups.",
+    "Answer": "Providing a Visual Studio-integrated environment for database development (design, debug, deploy)."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Row-Level Security (RLS)' in SQL Server?",
+    "Option1": "Encrypting each row in a table individually.",
+    "Option2": "Controlling access to individual rows in a table based on user or application context.",
+    "Option3": "Restricting users from deleting rows.",
+    "Option4": "Providing security at the table level only.",
+    "Answer": "Controlling access to individual rows in a table based on user or application context."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'SQL Server Change Data Capture (CDC)'?",
+    "Option1": "A feature for undoing accidental data changes.",
+    "Option2": "A technology that captures changes made to tables and stores them in change tables for easy consumption by other applications.",
+    "Option3": "A tool for migrating data between tables.",
+    "Option4": "A method for optimizing data loading.",
+    "Answer": "A technology that captures changes made to tables and stores them in change tables for easy consumption by other applications."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'SQL Server Stretch Database'?",
+    "Option1": "A solution for increasing on-premises storage capacity.",
+    "Option2": "A feature that enables migrating infrequently accessed data from on-premises SQL Server to Azure, while keeping it online and queryable.",
+    "Option3": "A tool for compressing historical data.",
+    "Option4": "A method for encrypting data in the cloud.",
+    "Answer": "A feature that enables migrating infrequently accessed data from on-premises SQL Server to Azure, while keeping it online and queryable."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which SQL Server data type is used for storing dates only?",
+    "Option1": "DATETIME",
+    "Option2": "DATETIME2",
+    "Option3": "DATE",
+    "Option4": "SMALLDATETIME",
+    "Answer": "DATE"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'SQL Server Distributed Replay'?",
+    "Option1": "A tool for replaying network packets.",
+    "Option2": "A feature that allows you to simulate a multi-user workload against a test SQL Server environment to assess performance and plan for upgrades.",
+    "Option3": "A service for distributing query results.",
+    "Option4": "A method for recovering from database failures.",
+    "Answer": "A feature that allows you to simulate a multi-user workload against a test SQL Server environment to assess performance and plan for upgrades."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'SQL Server PolyBase'?",
+    "Option1": "A feature for encrypting data at rest.",
+    "Option2": "A technology that enables SQL Server to query external data sources like Hadoop, Azure Blob Storage, or other relational databases.",
+    "Option3": "A tool for managing large binary objects.",
+    "Option4": "A service for cross-platform replication.",
+    "Answer": "A technology that enables SQL Server to query external data sources like Hadoop, Azure Blob Storage, or other relational databases."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'SQL Server Agent' responsible for?",
+    "Option1": "Executing T-SQL queries directly.",
+    "Option2": "Scheduling and executing automated tasks, such as backups, replications, and custom jobs.",
+    "Option3": "Managing database security permissions.",
+    "Option4": "Providing a graphical user interface for database management.",
+    "Answer": "Scheduling and executing automated tasks, such as backups, replications, and custom jobs."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'SQL Server Master Data Services (MDS)'?",
+    "Option1": "A tool for data migration.",
+    "Option2": "A platform for consolidating and managing master data across an organization to ensure consistency.",
+    "Option3": "A service for data profiling.",
+    "Option4": "A feature for encrypting master keys.",
+    "Answer": "A platform for consolidating and managing master data across an organization to ensure consistency."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'SQL Server Failover Cluster Instances (FCI)' used for?",
+    "Option1": "Scaling out read-only workloads.",
+    "Option2": "Providing high availability at the instance level by allowing SQL Server to fail over to another node in case of hardware failure.",
+    "Option3": "Distributing data across multiple servers.",
+    "Option4": "Encrypting network traffic.",
+    "Answer": "Providing high availability at the instance level by allowing SQL Server to fail over to another node in case of hardware failure."
+  },
+  {
+    "question_no.": 180,
+    "Question": "Which SQL Server data type is used for storing JSON (JavaScript Object Notation) data?",
+    "Option1": "VARCHAR(MAX)",
+    "Option2": "NVARCHAR(MAX)",
+    "Option3": "XML",
+    "Option4": "There is no specific JSON data type, but VARCHAR(MAX) or NVARCHAR(MAX) are commonly used with JSON functions.",
+    "Answer": "There is no specific JSON data type, but VARCHAR(MAX) or NVARCHAR(MAX) are commonly used with JSON functions."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'SQL Server Resource Governor'?",
+    "Option1": "A tool for managing server memory.",
+    "Option2": "A feature that allows you to manage SQL Server workload and resource consumption (CPU, I/O, memory) based on user groups and resource pools.",
+    "Option3": "A service for monitoring network traffic.",
+    "Option4": "A feature for optimizing disk space.",
+    "Answer": "A feature that allows you to manage SQL Server workload and resource consumption (CPU, I/O, memory) based on user groups and resource pools."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the primary role of the 'Tempdb' database?",
+    "Option1": "Storing user tables permanently.",
+    "Option2": "Providing a temporary workspace for intermediate results, sorting, and user-defined objects.",
+    "Option3": "Storing system configuration data.",
+    "Option4": "Maintaining transaction logs for all user databases.",
+    "Answer": "Providing a temporary workspace for intermediate results, sorting, and user-defined objects."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'SQL Server Always On Availability Groups'?",
+    "Option1": "A feature for scaling out read-only workloads to separate replicas and providing automatic failover for a group of databases.",
+    "Option2": "A method for encrypting data across multiple servers.",
+    "Option3": "A tool for managing server clusters.",
+    "Option4": "A service for distributed transactions.",
+    "Answer": "A feature for scaling out read-only workloads to separate replicas and providing automatic failover for a group of databases."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'SQL Server Management Studio (SSMS)' primarily used for?",
+    "Option1": "Writing C# code for applications.",
+    "Option2": "Administering, configuring, and developing all components within SQL Server.",
+    "Option3": "Designing graphical user interfaces.",
+    "Option4": "Managing network infrastructure.",
+    "Answer": "Administering, configuring, and developing all components within SQL Server."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'SQL Server Data Collector'?",
+    "Option1": "A service for importing data from flat files.",
+    "Option2": "A component that collects and stores performance data and usage information from SQL Server instances for analysis.",
+    "Option3": "A tool for managing data replication.",
+    "Option4": "A feature for auditing user activity.",
+    "Answer": "A component that collects and stores performance data and usage information from SQL Server instances for analysis."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'SQL Server Replication'?",
+    "Option1": "A feature for creating multiple copies of a single database for backup.",
+    "Option2": "A set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency.",
+    "Option3": "A method for encrypting data across different servers.",
+    "Option4": "A tool for migrating data to a different SQL Server instance.",
+    "Answer": "A set of technologies for copying and distributing data and database objects from one database to another and then synchronizing between databases to maintain consistency."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which SQL Server data type is used for storing fixed-length Unicode string data?",
+    "Option1": "VARCHAR",
+    "Option2": "CHAR",
+    "Option3": "NVARCHAR",
+    "Option4": "NCHAR",
+    "Answer": "NCHAR"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'SQL Server Express LocalDB'?",
+    "Option1": "A full-featured SQL Server instance for production use.",
+    "Option2": "A lightweight version of SQL Server Express that can be embedded directly into applications.",
+    "Option3": "A cloud-based SQL Server offering.",
+    "Option4": "A deprecated edition of SQL Server.",
+    "Answer": "A lightweight version of SQL Server Express that can be embedded directly into applications."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'SQL Server Reporting Services (SSRS)' primarily used for?",
+    "Option1": "Building data warehouses.",
+    "Option2": "Creating, deploying, and managing interactive, paginated, and mobile reports.",
+    "Option3": "Performing data integration and ETL.",
+    "Option4": "Developing machine learning models.",
+    "Answer": "Creating, deploying, and managing interactive, paginated, and mobile reports."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'SQL Server Contained Database'?",
+    "Option1": "A database that is encrypted.",
+    "Option2": "A database that is isolated from the SQL Server instance, containing all its own metadata and users, simplifying portability.",
+    "Option3": "A database that is restricted from internet access.",
+    "Option4": "A database used for temporary data.",
+    "Answer": "A database that is isolated from the SQL Server instance, containing all its own metadata and users, simplifying portability."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the purpose of 'Dynamic Data Masking (DDM)' in SQL Server?",
+    "Option1": "To encrypt sensitive data at rest.",
+    "Option2": "To obfuscate sensitive data in real-time when queried by unauthorized users, without changing the underlying data.",
+    "Option3": "To create fake data for testing purposes.",
+    "Option4": "To delete sensitive data after a certain period.",
+    "Answer": "To obfuscate sensitive data in real-time when queried by unauthorized users, without changing the underlying data."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'SQL Server Database Mail'?",
+    "Option1": "A service for sending emails to users about database errors.",
+    "Option2": "A feature that allows SQL Server to send emails from the database engine to external email servers.",
+    "Option3": "A tool for managing email accounts.",
+    "Option4": "A method for encrypting email content.",
+    "Answer": "A feature that allows SQL Server to send emails from the database engine to external email servers."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'SQL Server Management Objects (SMO)'?",
+    "Option1": "A set of T-SQL commands for managing SQL Server.",
+    "Option2": "A collection of .NET Framework objects that developers can use to programmatically manage and administer SQL Server.",
+    "Option3": "A graphical user interface for SQL Server.",
+    "Option4": "A tool for optimizing database performance.",
+    "Answer": "A collection of .NET Framework objects that developers can use to programmatically manage and administer SQL Server."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'SQL Server Full-Text Search'?",
+    "Option1": "A feature for searching numerical data only.",
+    "Option2": "A powerful search engine built into SQL Server that enables users to perform full-text queries on character-based data.",
+    "Option3": "A tool for indexing all columns in a table.",
+    "Option4": "A method for encrypting text fields.",
+    "Answer": "A powerful search engine built into SQL Server that enables users to perform full-text queries on character-based data."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'SQL Server Distributed Transaction Coordinator (DTC)'?",
+    "Option1": "A service for managing local transactions.",
+    "Option2": "A Windows service that enables transactions that span multiple resources, such as databases on different servers.",
+    "Option3": "A tool for distributing database backups.",
+    "Option4": "A feature for optimizing distributed queries.",
+    "Answer": "A Windows service that enables transactions that span multiple resources, such as databases on different servers."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'SQL Server Machine Learning Services'?",
+    "Option1": "A service for external machine learning platforms.",
+    "Option2": "A feature that enables running R and Python scripts within SQL Server, allowing for in-database machine learning model training and scoring.",
+    "Option3": "A tool for data visualization.",
+    "Option4": "A method for database performance tuning.",
+    "Answer": "A feature that enables running R and Python scripts within SQL Server, allowing for in-database machine learning model training and scoring."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'SQL Server Profiler' primarily used for?",
+    "Option1": "Designing new databases.",
+    "Option2": "Capturing and analyzing event data from SQL Server for performance tuning and troubleshooting.",
+    "Option3": "Automating administrative tasks.",
+    "Option4": "Managing user permissions.",
+    "Answer": "Capturing and analyzing event data from SQL Server for performance tuning and troubleshooting."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the primary purpose of 'SQL Server Data Tools (SSDT)'?",
+    "Option1": "Managing server infrastructure.",
+    "Option2": "Providing a set of templates and designers in Visual Studio for developing databases, SSIS packages, SSAS models, and SSRS reports.",
+    "Option3": "Monitoring network traffic.",
+    "Option4": "Performing physical security audits.",
+    "Answer": "Providing a set of templates and designers in Visual Studio for developing databases, SSIS packages, SSAS models, and SSRS reports."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'SQL Server Audit'?",
+    "Option1": "A performance monitoring tool.",
+    "Option2": "A feature that allows you to create server and database audit specifications to record events for security and compliance.",
+    "Option3": "A tool for database repair.",
+    "Option4": "A method for encrypting data at rest.",
+    "Answer": "A feature that allows you to create server and database audit specifications to record events for security and compliance."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'SQL Server Agent'?",
+    "Option1": "A client-side tool for connecting to SQL Server.",
+    "Option2": "A Windows service that executes scheduled administrative tasks, such as backups, replications, and custom jobs.",
+    "Option3": "A component for managing user sessions.",
+    "Option4": "A feature for querying data from external sources.",
+    "Answer": "A Windows service that executes scheduled administrative tasks, such as backups, replications, and custom jobs."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'SQL Server Configuration Manager'?",
+    "Option1": "A tool for writing T-SQL queries.",
+    "Option2": "A graphical tool used to manage SQL Server services, configure network protocols, and configure client connectivity.",
+    "Option3": "A service for backing up databases.",
+    "Option4": "A utility for migrating data.",
+    "Answer": "A graphical tool used to manage SQL Server services, configure network protocols, and configure client connectivity."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'SQL Server Policy-Based Management'?",
+    "Option1": "A feature for encrypting sensitive data.",
+    "Option2": "A system for managing and enforcing policies on SQL Server instances and databases to maintain configurations and compliance.",
+    "Option3": "A tool for monitoring user activity.",
+    "Option4": "A method for optimizing query performance.",
+    "Answer": "A system for managing and enforcing policies on SQL Server instances and databases to maintain configurations and compliance."
+  }
+]

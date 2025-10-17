@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Assembly language?",
+    "Option1": "A high-level programming language like Python or Java.",
+    "Option2": "A low-level programming language that has a strong correspondence between the language and the architecture's machine code instructions.",
+    "Option3": "A scripting language used for web development.",
+    "Option4": "A database query language.",
+    "Answer": "A low-level programming language that has a strong correspondence between the language and the architecture's machine code instructions."
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the primary purpose of an assembler?",
+    "Option1": "To convert high-level code into machine code.",
+    "Option2": "To translate assembly language code into machine code (binary instructions).",
+    "Option3": "To optimize machine code for faster execution.",
+    "Option4": "To debug assembly language programs.",
+    "Answer": "To translate assembly language code into machine code (binary instructions)."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is a 'register' in assembly language?",
+    "Option1": "A type of memory located on the hard drive.",
+    "Option2": "A small, high-speed storage location within the CPU, used to hold data and instructions being actively processed.",
+    "Option3": "A special type of file used for program configuration.",
+    "Option4": "A network address for data transfer.",
+    "Answer": "A small, high-speed storage location within the CPU, used to hold data and instructions being actively processed."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the 'Instruction Pointer' (IP) or 'Program Counter' (PC) register?",
+    "Option1": "A register that stores data values for calculations.",
+    "Option2": "A register that holds the memory address of the next instruction to be fetched and executed.",
+    "Option3": "A register used for managing stack operations.",
+    "Option4": "A register that controls input/output operations.",
+    "Answer": "A register that holds the memory address of the next instruction to be fetched and executed."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the 'Stack Pointer' (SP) register?",
+    "Option1": "A register used for general-purpose arithmetic.",
+    "Option2": "A register that points to the top of the stack in memory.",
+    "Option3": "A register that stores the result of logical operations.",
+    "Option4": "A register used for memory addressing in arrays.",
+    "Answer": "A register that points to the top of the stack in memory."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What are 'general-purpose registers' (e.g., EAX, EBX, ECX, EDX in x86)?",
+    "Option1": "Registers used exclusively for floating-point arithmetic.",
+    "Option2": "Registers that can be used for a wide variety of operations, including arithmetic, data movement, and addressing.",
+    "Option3": "Registers dedicated to storing network configurations.",
+    "Option4": "Registers that only hold memory addresses.",
+    "Answer": "Registers that can be used for a wide variety of operations, including arithmetic, data movement, and addressing."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the 'Flags Register' (e.g., EFLAGS in x86)?",
+    "Option1": "A register used for storing system configuration flags.",
+    "Option2": "A register that contains individual bits (flags) indicating the status of a CPU operation (e.g., zero, carry, sign, overflow).",
+    "Option3": "A register for controlling interrupts.",
+    "Option4": "A register used for managing cache memory.",
+    "Answer": "A register that contains individual bits (flags) indicating the status of a CPU operation (e.g., zero, carry, sign, overflow)."
+  },
+  {
+    "question_no.": 8,
+    "Question": "What does the 'MOV' instruction do?",
+    "Option1": "Performs an addition operation.",
+    "Option2": "Copies data from a source operand to a destination operand.",
+    "Option3": "Jumps to a new memory address.",
+    "Option4": "Compares two values.",
+    "Answer": "Copies data from a source operand to a destination operand."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What does the 'ADD' instruction do?",
+    "Option1": "Subtracts one value from another.",
+    "Option2": "Multiplies two values.",
+    "Option3": "Adds the source operand to the destination operand and stores the result in the destination.",
+    "Option4": "Performs a logical AND operation.",
+    "Answer": "Adds the source operand to the destination operand and stores the result in the destination."
+  },
+  {
+    "question_no.": 10,
+    "Question": "What does the 'SUB' instruction do?",
+    "Option1": "Adds two values.",
+    "Option2": "Subtracts the source operand from the destination operand and stores the result in the destination.",
+    "Option3": "Divides two values.",
+    "Option4": "Compares two values without modifying them.",
+    "Answer": "Subtracts the source operand from the destination operand and stores the result in the destination."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What does the 'INC' instruction do?",
+    "Option1": "Decrements a value by one.",
+    "Option2": "Increments a value by one.",
+    "Option3": "Adds a specific constant to a value.",
+    "Option4": "Initializes a register to zero.",
+    "Answer": "Increments a value by one."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What does the 'DEC' instruction do?",
+    "Option1": "Increments a value by one.",
+    "Option2": "Decrements a value by one.",
+    "Option3": "Multiplies a value by ten.",
+    "Option4": "Sets a value to its negative equivalent.",
+    "Answer": "Decrements a value by one."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What does the 'JMP' instruction do?",
+    "Option1": "Calls a subroutine.",
+    "Option2": "Unconditionally transfers program control to a new location (label).",
+    "Option3": "Returns from a subroutine.",
+    "Option4": "Compares two values and sets flags.",
+    "Answer": "Unconditionally transfers program control to a new location (label)."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What does the 'CMP' instruction do?",
+    "Option1": "Moves data between registers.",
+    "Option2": "Compares two operands by subtracting the source from the destination, setting the flags register but discarding the result.",
+    "Option3": "Performs a bitwise comparison.",
+    "Option4": "Jumps based on a condition.",
+    "Answer": "Compares two operands by subtracting the source from the destination, setting the flags register but discarding the result."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the purpose of conditional jump instructions (e.g., JE, JNE, JL, JG)?",
+    "Option1": "To unconditionally transfer control.",
+    "Option2": "To transfer program control to a new location only if certain conditions (based on flag bits) are met.",
+    "Option3": "To call system services.",
+    "Option4": "To perform arithmetic operations.",
+    "Answer": "To transfer program control to a new location only if certain conditions (based on flag bits) are met."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What does 'PUSH' instruction do on the stack?",
+    "Option1": "Removes an item from the top of the stack.",
+    "Option2": "Adds an item to the top of the stack, decrementing the stack pointer.",
+    "Option3": "Reads an item from the middle of the stack.",
+    "Option4": "Initializes the stack.",
+    "Answer": "Adds an item to the top of the stack, decrementing the stack pointer."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What does 'POP' instruction do on the stack?",
+    "Option1": "Adds an item to the top of the stack.",
+    "Option2": "Removes an item from the top of the stack, incrementing the stack pointer.",
+    "Option3": "Duplicates the top item on the stack.",
+    "Option4": "Checks if the stack is empty.",
+    "Answer": "Removes an item from the top of the stack, incrementing the stack pointer."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is a 'subroutine' or 'procedure' in assembly?",
+    "Option1": "A type of loop structure.",
+    "Option2": "A block of code that performs a specific task and can be called from different parts of the program, improving code reusability.",
+    "Option3": "A special type of data segment.",
+    "Option4": "A memory allocation technique.",
+    "Answer": "A block of code that performs a specific task and can be called from different parts of the program, improving code reusability."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What does the 'CALL' instruction do?",
+    "Option1": "Unconditionally jumps to a label.",
+    "Option2": "Pushes the address of the next instruction onto the stack and then jumps to the specified subroutine's entry point.",
+    "Option3": "Returns from an interrupt service routine.",
+    "4": "Halts program execution.",
+    "Answer": "Pushes the address of the next instruction onto the stack and then jumps to the specified subroutine's entry point."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What does the 'RET' instruction do?",
+    "Option1": "Calls another subroutine.",
+    "Option2": "Pops the return address from the stack and transfers control back to the instruction immediately following the `CALL`.",
+    "Option3": "Resets all registers.",
+    "4": "Ends the program.",
+    "Answer": "Pops the return address from the stack and transfers control back to the instruction immediately following the `CALL`."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is 'memory addressing mode'?",
+    "Option1": "A method for encrypting data in memory.",
+    "Option2": "The way in which the operand of an instruction is specified, determining how its effective memory address is calculated.",
+    "Option3": "A technique for memory optimization.",
+    "4": "A method for managing virtual memory.",
+    "Answer": "The way in which the operand of an instruction is specified, determining how its effective memory address is calculated."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Give an example of 'Immediate Addressing Mode'.",
+    "Option1": "MOV AX, BX",
+    "Option2": "MOV AX, [SI]",
+    "Option3": "MOV AX, 1234h (the value 1234h is directly part of the instruction).",
+    "4": "MOV AX, [BP+8]",
+    "Answer": "MOV AX, 1234h (the value 1234h is directly part of the instruction)."
+  },
+  {
+    "question_no.": 23,
+    "Question": "Give an example of 'Register Addressing Mode'.",
+    "Option1": "MOV AX, [1000h]",
+    "Option2": "MOV AX, BX (BX holds the data).",
+    "Option3": "MOV AX, 5",
+    "4": "MOV AX, [DI+2*ESI]",
+    "Answer": "MOV AX, BX (BX holds the data)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Give an example of 'Direct Addressing Mode'.",
+    "Option1": "MOV AX, 5",
+    "Option2": "MOV AX, BX",
+    "Option3": "MOV AX, [1000h] (the address 1000h is directly specified).",
+    "4": "MOV AX, [BX+SI]",
+    "Answer": "MOV AX, [1000h] (the address 1000h is directly specified)."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Give an example of 'Register Indirect Addressing Mode'.",
+    "Option1": "MOV AX, 10",
+    "Option2": "MOV AX, [BX] (the content of BX is the address).",
+    "Option3": "MOV AX, CL",
+    "4": "MOV AX, myArray[EBX]",
+    "Answer": "MOV AX, [BX] (the content of BX is the address)."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is 'Base-Indexed Addressing Mode'?",
+    "Option1": "Addressing using only an offset.",
+    "Option2": "Addressing using a base register (e.g., EBX, EBP) plus an index register (e.g., ESI, EDI).",
+    "Option3": "Addressing using only a fixed memory address.",
+    "4": "Addressing using only a register value.",
+    "Answer": "Addressing using a base register (e.g., EBX, EBP) plus an index register (e.g., ESI, EDI)."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'Scaled-Indexed Addressing Mode'?",
+    "Option1": "Addressing without any scaling factor.",
+    "Option2": "Addressing using a base register, an index register, and a scaling factor (1, 2, 4, or 8), typically used for array access.",
+    "Option3": "Addressing only using a constant offset.",
+    "4": "Addressing that is only available in 16-bit mode.",
+    "Answer": "Addressing using a base register, an index register, and a scaling factor (1, 2, 4, or 8), typically used for array access."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'label' in assembly language?",
+    "Option1": "A type of data variable.",
+    "Option2": "A symbolic name given to a memory location or an instruction, used as a target for jumps and calls.",
+    "Option3": "A comment line in the code.",
+    "4": "A predefined constant value.",
+    "Answer": "A symbolic name given to a memory location or an instruction, used as a target for jumps and calls."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the '.data' segment used for in assembly?",
+    "Option1": "To store executable instructions.",
+    "Option2": "To declare initialized global and static data.",
+    "Option3": "To allocate space for the stack.",
+    "4": "To define macros.",
+    "Answer": "To declare initialized global and static data."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the '.bss' segment used for in assembly?",
+    "Option1": "To store executable instructions.",
+    "Option2": "To declare uninitialized global and static data (Block Started by Symbol).",
+    "Option3": "To define constants.",
+    "4": "To store string literals.",
+    "Answer": "To declare uninitialized global and static data (Block Started by Symbol)."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the '.text' segment (or '.code' segment) used for?",
+    "Option1": "To store data variables.",
+    "Option2": "To store the executable instructions of the program.",
+    "Option3": "To define the program's entry point.",
+    "4": "To manage system calls.",
+    "Answer": "To store the executable instructions of the program."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is a 'macro' in assembly?",
+    "Option1": "A type of variable.",
+    "Option2": "A named block of code that can be inserted directly into the source code by the assembler during preprocessing, similar to a text substitution.",
+    "Option3": "A callable subroutine.",
+    "4": "A memory segment.",
+    "Answer": "A named block of code that can be inserted directly into the source code by the assembler during preprocessing, similar to a text substitution."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the advantage of using macros?",
+    "Option1": "They improve execution speed at runtime.",
+    "Option2": "They reduce code repetition and improve readability, but increase code size after assembly.",
+    "Option3": "They always lead to smaller executable files.",
+    "4": "They allow dynamic code generation.",
+    "Answer": "They reduce code repetition and improve readability, but increase code size after assembly."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the difference between a macro and a subroutine (procedure)?",
+    "Option1": "Macros are faster at runtime; subroutines use less memory.",
+    "Option2": "Macros are text substitutions done by the assembler; subroutines are called at runtime and use the stack for return addresses.",
+    "Option3": "Macros can take parameters; subroutines cannot.",
+    "4": "Macros are always shorter than subroutines.",
+    "Answer": "Macros are text substitutions done by the assembler; subroutines are called at runtime and use the stack for return addresses."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a 'system call' or 'interrupt'?",
+    "Option1": "A normal function call within a program.",
+    "Option2": "A mechanism for a program to request a service from the operating system kernel (e.g., reading a file, printing to screen).",
+    "Option3": "A hardware error signal.",
+    "4": "A way to communicate between two registers.",
+    "Answer": "A mechanism for a program to request a service from the operating system kernel (e.g., reading a file, printing to screen)."
+  },
+  {
+    "question_no.": 36,
+    "Question": "How are system calls typically invoked in x86 assembly (e.g., Linux)?",
+    "Option1": "Using the `CALL` instruction to a library function.",
+    "Option2": "By loading specific values into registers and then executing the `INT 0x80` (or `SYSCALL`) instruction.",
+    "Option3": "Through direct memory manipulation.",
+    "4": "By sending a signal to the CPU.",
+    "Answer": "By loading specific values into registers and then executing the `INT 0x80` (or `SYSCALL`) instruction."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of the `LEA` (Load Effective Address) instruction?",
+    "Option1": "To load data from a memory address.",
+    "Option2": "To calculate the effective address of an operand and load it into a register, without actually dereferencing the memory.",
+    "Option3": "To store data at a memory address.",
+    "4": "To exchange the contents of two registers.",
+    "Answer": "To calculate the effective address of an operand and load it into a register, without actually dereferencing the memory."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the difference between `MOV EAX, [EBX]` and `LEA EAX, [EBX]`?",
+    "Option1": "`MOV` copies the address, `LEA` copies the content.",
+    "Option2": "`MOV` copies the data *at* the address in EBX to EAX; `LEA` copies the address *itself* (the value of EBX) to EAX.",
+    "Option3": "`MOV` is for registers, `LEA` is for memory.",
+    "4": "They are functionally identical.",
+    "Answer": "`MOV` copies the data *at* the address in EBX to EAX; `LEA` copies the address *itself* (the value of EBX) to EAX."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What does the `NOP` instruction do?",
+    "Option1": "Starts a new program.",
+    "Option2": "Does nothing (No Operation); primarily used for timing delays or as a placeholder.",
+    "Option3": "Negates a value.",
+    "4": "Notifies the operating system.",
+    "Answer": "Does nothing (No Operation); primarily used for timing delays or as a placeholder."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the 'endianness' of a system?",
+    "Option1": "The speed at which data is processed.",
+    "Option2": "The order or sequence of bytes of a word of data in computer memory (Big-Endian or Little-Endian).",
+    "Option3": "The maximum memory size a system can access.",
+    "4": "The number of CPU cores.",
+    "Answer": "The order or sequence of bytes of a word of data in computer memory (Big-Endian or Little-Endian)."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Is x86 architecture typically Big-Endian or Little-Endian?",
+    "Option1": "Big-Endian",
+    "Option2": "Little-Endian",
+    "Option3": "Depends on the operating system",
+    "4": "It can be both, depending on configuration",
+    "Answer": "Little-Endian"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'segmentation' in older x86 architectures (e.g., 16-bit real mode)?",
+    "Option1": "A method for protecting memory from unauthorized access.",
+    "Option2": "A memory management scheme that divides memory into logical segments, addressed by a segment register and an offset.",
+    "Option3": "A technique for caching data.",
+    "4": "A method for splitting program execution across multiple cores.",
+    "Answer": "A memory management scheme that divides memory into logical segments, addressed by a segment register and an offset."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'paging' in modern x86 architectures (e.g., 32-bit protected mode and 64-bit long mode)?",
+    "Option1": "A form of memory segmentation.",
+    "Option2": "A memory management scheme where memory is divided into fixed-size blocks (pages), allowing for virtual memory and memory protection.",
+    "Option3": "A method for fast I/O operations.",
+    "4": "A way to organize data within a segment.",
+    "Answer": "A memory management scheme where memory is divided into fixed-size blocks (pages), allowing for virtual memory and memory protection."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the role of the 'Global Descriptor Table' (GDT) in protected mode?",
+    "Option1": "To store interrupt service routines.",
+    "Option2": "To define memory segments and their attributes (base address, limit, access rights).",
+    "Option3": "To manage the stack.",
+    "4": "To store general-purpose data.",
+    "Answer": "To define memory segments and their attributes (base address, limit, access rights)."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Interrupt Descriptor Table' (IDT)?",
+    "Option1": "A table that describes hardware devices.",
+    "Option2": "A table that stores entries for interrupt and exception handlers, mapping interrupt numbers to specific code routines.",
+    "Option3": "A table used for managing virtual memory pages.",
+    "4": "A table for defining system calls.",
+    "Answer": "A table that stores entries for interrupt and exception handlers, mapping interrupt numbers to specific code routines."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'BIOS interrupt' (e.g., INT 10h for video services)?",
+    "Option1": "An interrupt caused by a hardware failure.",
+    "Option2": "A legacy mechanism used in DOS and early Windows for accessing system hardware and services via calls to the BIOS firmware.",
+    "Option3": "An interrupt used for inter-process communication.",
+    "4": "An interrupt that handles floating-point errors.",
+    "Answer": "A legacy mechanism used in DOS and early Windows for accessing system hardware and services via calls to the BIOS firmware."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the 'stack' typically used for in assembly programming?",
+    "Option1": "Long-term data storage.",
+    "Option2": "Temporary storage for local variables, function arguments, and return addresses during subroutine calls.",
+    "Option3": "Storing global variables.",
+    "4": "Storing program instructions.",
+    "Answer": "Temporary storage for local variables, function arguments, and return addresses during subroutine calls."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'stack frame' or 'activation record'?",
+    "Option1": "A segment of memory used for global variables.",
+    "Option2": "A contiguous block of memory on the stack allocated for a function call, containing arguments, return address, and local variables.",
+    "Option3": "A buffer for I/O operations.",
+    "4": "A temporary register used during arithmetic operations.",
+    "Answer": "A contiguous block of memory on the stack allocated for a function call, containing arguments, return address, and local variables."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What register typically points to the base of the current stack frame?",
+    "Option1": "ESP (Stack Pointer)",
+    "Option2": "EIP (Instruction Pointer)",
+    "Option3": "EBP (Base Pointer or Frame Pointer)",
+    "4": "EAX (Accumulator)",
+    "Answer": "EBP (Base Pointer or Frame Pointer)"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Caller-Save' vs 'Callee-Save' registers?",
+    "Option1": "Refers to how data is stored in memory.",
+    "Option2": "Conventions defining which registers a calling function (caller) or a called function (callee) is responsible for preserving across a function call.",
+    "Option3": "Refers to register access permissions.",
+    "4": "Describes how registers are initialized.",
+    "Answer": "Conventions defining which registers a calling function (caller) or a called function (callee) is responsible for preserving across a function call."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What does the `AND` instruction do?",
+    "Option1": "Performs logical OR.",
+    "Option2": "Performs a bitwise logical AND operation on its operands.",
+    "Option3": "Performs arithmetic addition.",
+    "4": "Compares two values.",
+    "Answer": "Performs a bitwise logical AND operation on its operands."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What does the `OR` instruction do?",
+    "Option1": "Performs logical AND.",
+    "Option2": "Performs a bitwise logical OR operation on its operands.",
+    "Option3": "Performs arithmetic subtraction.",
+    "4": "Compares two values.",
+    "Answer": "Performs a bitwise logical OR operation on its operands."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What does the `XOR` instruction do?",
+    "Option1": "Performs logical OR.",
+    "Option2": "Performs a bitwise logical Exclusive OR operation on its operands.",
+    "Option3": "Performs bitwise NOT.",
+    "4": "Multiplies two values.",
+    "Answer": "Performs a bitwise logical Exclusive OR operation on its operands."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a common use for `XOR EAX, EAX`?",
+    "Option1": "To multiply EAX by itself.",
+    "Option2": "To set the EAX register to zero efficiently, as XORing a value with itself results in zero.",
+    "Option3": "To invert all bits in EAX.",
+    "4": "To check if EAX is already zero.",
+    "Answer": "To set the EAX register to zero efficiently, as XORing a value with itself results in zero."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What does the `NOT` instruction do?",
+    "Option1": "Performs logical AND.",
+    "Option2": "Performs a bitwise logical NOT (one's complement) operation on its operand, inverting all bits.",
+    "Option3": "Negates the sign of a number.",
+    "4": "Checks if a value is zero.",
+    "Answer": "Performs a bitwise logical NOT (one's complement) operation on its operand, inverting all bits."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What does the `SHL` (Shift Left) instruction do?",
+    "Option1": "Divides a value by two.",
+    "Option2": "Shifts bits to the left, filling vacant bits with zeros. Effectively multiplies by powers of two.",
+    "Option3": "Shifts bits to the right.",
+    "4": "Rotates bits within a register.",
+    "Answer": "Shifts bits to the left, filling vacant bits with zeros. Effectively multiplies by powers of two."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What does the `SHR` (Shift Right) instruction do?",
+    "Option1": "Multiplies a value by two.",
+    "Option2": "Shifts bits to the right, filling vacant bits with zeros. Effectively performs unsigned division by powers of two.",
+    "Option3": "Shifts bits to the left.",
+    "4": "Performs signed division.",
+    "Answer": "Shifts bits to the right, filling vacant bits with zeros. Effectively performs unsigned division by powers of two."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does the `SAR` (Shift Arithmetic Right) instruction do?",
+    "Option1": "Performs unsigned right shift.",
+    "Option2": "Shifts bits to the right, preserving the sign bit (the most significant bit). Effectively performs signed division by powers of two.",
+    "Option3": "Shifts bits to the left.",
+    "4": "Rotates bits through the carry flag.",
+    "Answer": "Shifts bits to the right, preserving the sign bit (the most significant bit). Effectively performs signed division by powers of two."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does the `ROL` (Rotate Left) instruction do?",
+    "Option1": "Shifts bits to the left, losing the most significant bit.",
+    "Option2": "Rotates bits to the left, with the bit shifted out of the most significant position wrapping around to the least significant position.",
+    "Option3": "Rotates bits to the right.",
+    "4": "Performs arithmetic shifts only.",
+    "Answer": "Rotates bits to the left, with the bit shifted out of the most significant position wrapping around to the least significant position."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the role of the 'Carry Flag' (CF)?",
+    "Option1": "Indicates if a result is zero.",
+    "Option2": "Indicates an unsigned overflow in arithmetic operations (e.g., when an addition results in a carry out of the most significant bit).",
+    "Option3": "Indicates if a result is negative.",
+    "4": "Indicates a general-purpose error.",
+    "Answer": "Indicates an unsigned overflow in arithmetic operations (e.g., when an addition results in a carry out of the most significant bit)."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the role of the 'Zero Flag' (ZF)?",
+    "Option1": "Indicates a carry out.",
+    "Option2": "Set to 1 if the result of an operation is zero; otherwise, set to 0.",
+    "Option3": "Indicates an overflow.",
+    "4": "Indicates the sign of a result.",
+    "Answer": "Set to 1 if the result of an operation is zero; otherwise, set to 0."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the role of the 'Sign Flag' (SF)?",
+    "Option1": "Indicates if the result is positive.",
+    "Option2": "Set to the most significant bit (MSB) of the result, indicating if the result is negative (for signed numbers).",
+    "Option3": "Indicates an even parity.",
+    "4": "Indicates if the operation was successful.",
+    "Answer": "Set to the most significant bit (MSB) of the result, indicating if the result is negative (for signed numbers)."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the role of the 'Overflow Flag' (OF)?",
+    "Option1": "Indicates an unsigned overflow.",
+    "Option2": "Indicates a signed overflow in arithmetic operations (when the result is too large or too small to fit in the destination operand for signed numbers).",
+    "Option3": "Indicates an underflow.",
+    "4": "Indicates a stack overflow.",
+    "Answer": "Indicates a signed overflow in arithmetic operations (when the result is too large or too small to fit in the destination operand for signed numbers)."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is the 'Parity Flag' (PF)?",
+    "Option1": "Indicates if the number of set bits in the result's least significant byte is even or odd.",
+    "Option2": "Indicates if a memory access was aligned.",
+    "Option3": "Indicates if the CPU is in parity check mode.",
+    "4": "Indicates an error in data transfer.",
+    "Answer": "Indicates if the number of set bits in the result's least significant byte is even or odd."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What does the `MUL` instruction do?",
+    "Option1": "Performs addition.",
+    "Option2": "Performs unsigned multiplication.",
+    "Option3": "Performs signed multiplication.",
+    "4": "Performs division.",
+    "Answer": "Performs unsigned multiplication."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does the `IMUL` instruction do?",
+    "Option1": "Performs unsigned multiplication.",
+    "Option2": "Performs signed multiplication.",
+    "Option3": "Performs division.",
+    "4": "Performs addition.",
+    "Answer": "Performs signed multiplication."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What does the `DIV` instruction do?",
+    "Option1": "Performs multiplication.",
+    "Option2": "Performs unsigned division.",
+    "Option3": "Performs signed division.",
+    "4": "Calculates the remainder only.",
+    "Answer": "Performs unsigned division."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does the `IDIV` instruction do?",
+    "Option1": "Performs unsigned division.",
+    "Option2": "Performs signed division.",
+    "Option3": "Performs multiplication.",
+    "4": "Calculates the quotient only.",
+    "Answer": "Performs signed division."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What are 'directives' in assembly language?",
+    "Option1": "Executable instructions processed by the CPU.",
+    "Option2": "Commands to the assembler that control the assembly process, define data, allocate memory, or set up segments, but are not translated into machine code.",
+    "Option3": "Comments in the code.",
+    "4": "Functions provided by the operating system.",
+    "Answer": "Commands to the assembler that control the assembly process, define data, allocate memory, or set up segments, but are not translated into machine code."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Give an example of a data definition directive.",
+    "Option1": "MOV",
+    "Option2": "JMP",
+    "Option3": "DB (Define Byte), DW (Define Word), DD (Define Doubleword)",
+    "4": "CALL",
+    "Answer": "DB (Define Byte), DW (Define Word), DD (Define Doubleword)"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What does the `EQU` directive do?",
+    "Option1": "Allocates memory space.",
+    "Option2": "Assigns a symbolic name to a constant value, similar to a `#define` in C/C++.",
+    "Option3": "Compares two values.",
+    "4": "Defines a procedure.",
+    "Answer": "Assigns a symbolic name to a constant value, similar to a `#define` in C/C++."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'offset' in memory addressing?",
+    "Option1": "The base address of a memory segment.",
+    "Option2": "The distance in bytes from the start of a memory segment or base address to a specific memory location.",
+    "Option3": "The total size of a memory block.",
+    "4": "The physical address in RAM.",
+    "Answer": "The distance in bytes from the start of a memory segment or base address to a specific memory location."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'absolute address'?",
+    "Option1": "An address relative to a segment register.",
+    "Option2": "The actual physical memory address that the CPU uses to access a location in RAM.",
+    "Option3": "An address within a stack frame.",
+    "4": "An address used for virtual memory.",
+    "Answer": "The actual physical memory address that the CPU uses to access a location in RAM."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'relative addressing'?",
+    "Option1": "Addressing using fixed memory locations.",
+    "Option2": "Addressing where an operand's address is calculated relative to the current value of the instruction pointer (program counter).",
+    "Option3": "Addressing where only registers are used.",
+    "4": "Addressing that requires a segment register.",
+    "Answer": "Addressing where an operand's address is calculated relative to the current value of the instruction pointer (program counter)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'PIC' (Position Independent Code)?",
+    "Option1": "Code that can only run at a fixed memory address.",
+    "Option2": "Executable code that runs correctly regardless of its absolute memory address, crucial for shared libraries (DLLs/SOs).",
+    "Option3": "Code that requires specific hardware to execute.",
+    "4": "Code that is always loaded at address 0.",
+    "Answer": "Executable code that runs correctly regardless of its absolute memory address, crucial for shared libraries (DLLs/SOs)."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Why is PIC important for shared libraries?",
+    "Option1": "It makes libraries larger.",
+    "Option2": "It allows a single copy of the library to be loaded into memory and shared by multiple processes, regardless of where it's loaded in each process's address space.",
+    "Option3": "It makes debugging easier.",
+    "4": "It reduces the number of instructions in the library.",
+    "Answer": "It allows a single copy of the library to be loaded into memory and shared by multiple processes, regardless of where it's loaded in each process's address space."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the 'Global Offset Table' (GOT) in PIC?",
+    "Option1": "A table for storing local variables.",
+    "Option2": "A table in executable binaries (especially on Linux) that contains absolute addresses of external functions and global variables, allowing PIC to resolve these addresses at runtime.",
+    "Option3": "A table for managing stack frames.",
+    "4": "A table for mapping logical to physical addresses.",
+    "Answer": "A table in executable binaries (especially on Linux) that contains absolute addresses of external functions and global variables, allowing PIC to resolve these addresses at runtime."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the 'Procedure Linkage Table' (PLT) in PIC?",
+    "Option1": "A table for internal function calls.",
+    "Option2": "A table used in conjunction with the GOT to enable lazy binding of dynamically linked functions, efficiently calling external functions for the first time.",
+    "Option3": "A table that lists all defined procedures.",
+    "4": "A table for storing function return values.",
+    "Answer": "A table used in conjunction with the GOT to enable lazy binding of dynamically linked functions, efficiently calling external functions for the first time."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Assembler Directives' vs 'Instructions'?",
+    "Option1": "They are the same thing.",
+    "Option2": "Directives are commands for the assembler (not CPU instructions); Instructions are mnemonic representations of actual CPU operations translated into machine code.",
+    "Option3": "Directives control runtime behavior; Instructions control assembly behavior.",
+    "4": "Directives are for comments; Instructions are for code.",
+    "Answer": "Directives are commands for the assembler (not CPU instructions); Instructions are mnemonic representations of actual CPU operations translated into machine code."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What does the `INT` instruction do?",
+    "Option1": "Increments a register.",
+    "Option2": "Generates a software interrupt, transferring control to an interrupt handler specified by the interrupt number.",
+    "Option3": "Initializes a variable.",
+    "4": "Converts integer to string.",
+    "Answer": "Generates a software interrupt, transferring control to an interrupt handler specified by the interrupt number."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the 'debugger's' role in assembly language development?",
+    "Option1": "To write assembly code automatically.",
+    "Option2": "To allow programmers to step through code, inspect register values, memory contents, and flag states to identify and fix errors.",
+    "Option3": "To compile assembly code.",
+    "4": "To optimize assembly code.",
+    "Answer": "To allow programmers to step through code, inspect register values, memory contents, and flag states to identify and fix errors."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is a 'breakpoint' in debugging?",
+    "Option1": "A point where the program automatically crashes.",
+    "Option2": "A designated point in the program where execution temporarily halts, allowing the debugger to take control.",
+    "Option3": "A section of code that is skipped during execution.",
+    "4": "A type of error message.",
+    "Answer": "A designated point in the program where execution temporarily halts, allowing the debugger to take control."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'stepping' through code in a debugger?",
+    "Option1": "Running the entire program at once.",
+    "Option2": "Executing instructions one by one (or line by line) to observe the program's behavior and state changes.",
+    "Option3": "Skipping sections of code.",
+    "4": "Recompiling the code during execution.",
+    "Answer": "Executing instructions one by one (or line by line) to observe the program's behavior and state changes."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is a 'disassembler'?",
+    "Option1": "A tool that converts assembly code to high-level code.",
+    "Option2": "A tool that translates machine code (binary executables) back into assembly language mnemonics.",
+    "Option3": "A tool for compiling assembly code.",
+    "4": "A tool for optimizing machine code.",
+    "Answer": "A tool that translates machine code (binary executables) back into assembly language mnemonics."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Why would someone use a disassembler?",
+    "Option1": "To write new programs.",
+    "Option2": "For reverse engineering, security analysis, malware analysis, or understanding how compiled code works.",
+    "Option3": "To create executable files.",
+    "4": "To convert assembly to C++.",
+    "Answer": "For reverse engineering, security analysis, malware analysis, or understanding how compiled code works."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'opcode'?",
+    "Option1": "The symbolic name of an assembly instruction (e.g., MOV, ADD).",
+    "Option2": "The portion of a machine language instruction that specifies the operation to be performed.",
+    "Option3": "A type of memory address.",
+    "4": "A register name.",
+    "Answer": "The portion of a machine language instruction that specifies the operation to be performed."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'operand'?",
+    "Option1": "The operation code of an instruction.",
+    "Option2": "The data or address that an instruction operates on (e.g., in `MOV AX, BX`, AX and BX are operands).",
+    "Option3": "A comment in assembly code.",
+    "4": "A label indicating a memory location.",
+    "Answer": "The data or address that an instruction operates on (e.g., in `MOV AX, BX`, AX and BX are operands)."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'syntax' in assembly language?",
+    "Option1": "The logical flow of the program.",
+    "Option2": "The set of rules that defines how a program written in that language should be structured and how its statements are formed.",
+    "Option3": "The meaning of an instruction.",
+    "4": "The number of lines of code.",
+    "Answer": "The set of rules that defines how a program written in that language should be structured and how its statements are formed."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the 'assembly time'?",
+    "Option1": "The time it takes for a program to execute.",
+    "Option2": "The stage where the assembler translates assembly source code into machine code.",
+    "Option3": "The time spent debugging a program.",
+    "4": "The time required for CPU to execute a single instruction.",
+    "Answer": "The stage where the assembler translates assembly source code into machine code."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'runtime'?",
+    "Option1": "The stage where assembly code is translated.",
+    "Option2": "The period during which a program is executing on the CPU.",
+    "Option3": "The time taken to write the code.",
+    "4": "The time for linking external libraries.",
+    "Answer": "The period during which a program is executing on the CPU."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'linker's' role in assembly language development?",
+    "Option1": "To convert assembly code to machine code.",
+    "Option2": "To combine object files (machine code from assembler) and libraries into a single executable program, resolving external references.",
+    "Option3": "To debug the program.",
+    "4": "To optimize the code.",
+    "Answer": "To combine object files (machine code from assembler) and libraries into a single executable program, resolving external references."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'loader's' role in assembly language execution?",
+    "Option1": "To convert source code to executable code.",
+    "Option2": "To load the executable program from disk into memory and prepare it for execution by the CPU.",
+    "Option3": "To manage system interrupts.",
+    "4": "To interact with I/O devices.",
+    "Answer": "To load the executable program from disk into memory and prepare it for execution by the CPU."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the 'operand size prefix' in x86?",
+    "Option1": "A prefix that indicates the size of the instruction.",
+    "Option2": "A byte prefix (0x66) that overrides the default operand size for an instruction, allowing 16-bit operations in 32-bit mode or vice-versa.",
+    "Option3": "A prefix for memory addresses.",
+    "4": "A prefix for register names.",
+    "Answer": "A byte prefix (0x66) that overrides the default operand size for an instruction, allowing 16-bit operations in 32-bit mode or vice-versa."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the 'address size prefix' in x86?",
+    "Option1": "A prefix that indicates the size of the data.",
+    "Option2": "A byte prefix (0x67) that overrides the default address size for memory operations, allowing 16-bit addressing in 32-bit mode or vice-versa.",
+    "Option3": "A prefix for registers.",
+    "4": "A prefix for instruction opcodes.",
+    "Answer": "A byte prefix (0x67) that overrides the default address size for memory operations, allowing 16-bit addressing in 32-bit mode or vice-versa."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the 'REP' prefix used for?",
+    "Option1": "To repeat a single instruction indefinitely.",
+    "Option2": "To repeat string instructions (e.g., `MOVSB`, `STOSW`) a number of times specified by the `ECX` register, often used for block memory operations.",
+    "Option3": "To restart the program.",
+    "4": "To report errors.",
+    "Answer": "To repeat string instructions (e.g., `MOVSB`, `STOSW`) a number of times specified by the `ECX` register, often used for block memory operations."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What does `MOVSB` do (with `REP`)?",
+    "Option1": "Moves a word.",
+    "Option2": "Moves a byte from the source pointed to by `ESI` to the destination pointed to by `EDI`, then increments/decrements `ESI` and `EDI`.",
+    "Option3": "Moves a doubleword.",
+    "4": "Moves data from memory to register.",
+    "Answer": "Moves a byte from the source pointed to by `ESI` to the destination pointed to by `EDI`, then increments/decrements `ESI` and `EDI`."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What does `STOSW` do (with `REP`)?",
+    "Option1": "Stores a byte.",
+    "Option2": "Stores the contents of `AX` (word) into the memory location pointed to by `EDI`, then increments/decrements `EDI`.",
+    "Option3": "Compares two strings.",
+    "4": "Loads a word from memory.",
+    "Answer": "Stores the contents of `AX` (word) into the memory location pointed to by `EDI`, then increments/decrements `EDI`."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the 'Direction Flag' (DF)?",
+    "Option1": "Indicates the direction of program execution.",
+    "Option2": "Controls the direction of string operations (e.g., `MOVSB`, `STOSW`). If set, `ESI`/`EDI` decrement; if cleared, they increment.",
+    "Option3": "Indicates the direction of interrupts.",
+    "4": "Controls the endianness.",
+    "Answer": "Controls the direction of string operations (e.g., `MOVSB`, `STOSW`). If set, `ESI`/`EDI` decrement; if cleared, they increment."
+  },
+  {
+    "question_no.": 99,
+    "Question": "How do you set/clear the Direction Flag?",
+    "Option1": "Using `SETF` / `CLRF` instructions.",
+    "Option2": "Using `STD` (Set Direction Flag) and `CLD` (Clear Direction Flag) instructions.",
+    "Option3": "By modifying the flags register directly.",
+    "4": "By a system call.",
+    "Answer": "Using `STD` (Set Direction Flag) and `CLD` (Clear Direction Flag) instructions."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Immediate value'?",
+    "Option1": "A value stored in a register.",
+    "Option2": "A constant value that is directly encoded as part of the instruction itself, rather than being fetched from memory or a register.",
+    "Option3": "A value obtained from an I/O port.",
+    "4": "A value on the stack.",
+    "Answer": "A constant value that is directly encoded as part of the instruction itself, rather than being fetched from memory or a register."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Pseudo-code' in assembly context?",
+    "Option1": "Actual assembly code that can be assembled.",
+    "Option2": "An informal high-level description of the operating principle of an assembly program or other algorithm, often used for planning before writing actual assembly.",
+    "Option3": "Machine code representation.",
+    "4": "Optimized assembly code.",
+    "Answer": "An informal high-level description of the operating principle of an assembly program or other algorithm, often used for planning before writing actual assembly."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Assembler Pass'?",
+    "Option1": "A single instruction in assembly.",
+    "Option2": "A complete scan of the source code by the assembler. Most assemblers require at least two passes: one to build the symbol table and another to generate code.",
+    "Option3": "A specific register operation.",
+    "4": "A type of memory segment.",
+    "Answer": "A complete scan of the source code by the assembler. Most assemblers require at least two passes: one to build the symbol table and another to generate code."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Why are multiple passes often needed by an assembler?",
+    "Option1": "To make the assembly process slower.",
+    "Option2": "To resolve forward references (labels that are defined later in the code than where they are used).",
+    "Option3": "To optimize the output binary.",
+    "4": "To simplify debugging.",
+    "Answer": "To resolve forward references (labels that are defined later in the code than where they are used)."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the 'Symbol Table' created by an assembler?",
+    "Option1": "A table of all executed instructions.",
+    "Option2": "A data structure containing information about all labels, variables, and constants defined in the assembly source code, along with their memory addresses or values.",
+    "Option3": "A table of hardware devices.",
+    "4": "A table of error messages.",
+    "Answer": "A data structure containing information about all labels, variables, and constants defined in the assembly source code, along with their memory addresses or values."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Object Code'?",
+    "Option1": "The original assembly source code.",
+    "Option2": "The machine code output by the assembler, typically in a relocatable format (e.g., .obj, .o), before linking.",
+    "Option3": "The final executable program.",
+    "4": "The result of a debug session.",
+    "Answer": "The machine code output by the assembler, typically in a relocatable format (e.g., .obj, .o), before linking."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Executable Code'?",
+    "Option1": "Assembly source code.",
+    "Option2": "The final program ready to be loaded and run by the operating system, created by the linker from object files and libraries.",
+    "Option3": "Code that can be interpreted.",
+    "4": "Code that generates errors.",
+    "Answer": "The final program ready to be loaded and run by the operating system, created by the linker from object files and libraries."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Relocation Table' in object files?",
+    "Option1": "A table for moving data within a register.",
+    "Option2": "A table that lists all locations in the object code that need to be modified by the linker to resolve absolute memory addresses or external references.",
+    "Option3": "A table for linking to dynamic libraries.",
+    "4": "A table for storing string literals.",
+    "Answer": "A table that lists all locations in the object code that need to be modified by the linker to resolve absolute memory addresses or external references."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'External References' in assembly?",
+    "Option1": "References to data within the same segment.",
+    "Option2": "References to labels, functions, or data that are defined in another object file or library, and need to be resolved by the linker.",
+    "Option3": "References to hardware devices.",
+    "4": "References to preprocessor directives.",
+    "Answer": "References to labels, functions, or data that are defined in another object file or library, and need to be resolved by the linker."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Library' in the context of assembly/linking?",
+    "Option1": "A collection of source code files.",
+    "Option2": "A collection of pre-compiled object code (functions, data) that can be linked with other programs to provide reusable functionality.",
+    "Option3": "A debugging tool.",
+    "4": "A type of memory segment.",
+    "Answer": "A collection of pre-compiled object code (functions, data) that can be linked with other programs to provide reusable functionality."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Static Linking'?",
+    "Option1": "Linking that happens at runtime.",
+    "Option2": "The process where the linker copies all necessary library code directly into the executable at link-time, making the executable self-contained but potentially larger.",
+    "Option3": "Linking that requires a network connection.",
+    "4": "Linking that only uses dynamic libraries.",
+    "Answer": "The process where the linker copies all necessary library code directly into the executable at link-time, making the executable self-contained but potentially larger."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Dynamic Linking'?",
+    "Option1": "Linking that creates a self-contained executable.",
+    "Option2": "The process where the linker creates references to library code that will be resolved at runtime by the operating system's loader, using shared libraries (DLLs/SOs), leading to smaller executables and shared memory.",
+    "Option3": "Linking that happens only during assembly.",
+    "4": "Linking that does not involve external libraries.",
+    "Answer": "The process where the linker creates references to library code that will be resolved at runtime by the operating system's loader, using shared libraries (DLLs/SOs), leading to smaller executables and shared memory."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is a 'DLL' (Dynamic Link Library) or 'SO' (Shared Object)?",
+    "Option1": "A type of executable file.",
+    "Option2": "A file containing compiled code and data that can be used by multiple programs simultaneously at runtime, providing dynamic linking capabilities.",
+    "Option3": "A source code file.",
+    "4": "A configuration file.",
+    "Answer": "A file containing compiled code and data that can be used by multiple programs simultaneously at runtime, providing dynamic linking capabilities."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Memory Protection' in assembly context?",
+    "Option1": "Protecting memory from physical damage.",
+    "Option2": "Hardware-enforced mechanisms (e.g., paging, segmentation) that prevent processes from accessing memory regions allocated to other processes or the operating system, ensuring system stability.",
+    "Option3": "Encrypting memory contents.",
+    "4": "Optimizing memory usage.",
+    "Answer": "Hardware-enforced mechanisms (e.g., paging, segmentation) that prevent processes from accessing memory regions allocated to other processes or the operating system, ensuring system stability."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Virtual Memory'?",
+    "Option1": "Physical RAM directly accessed by programs.",
+    "Option2": "A memory management technique that gives each process the illusion of having its own large, contiguous address space, even if physical memory is fragmented or limited, by mapping virtual addresses to physical addresses.",
+    "Option3": "Memory that is only used for temporary storage.",
+    "4": "Memory reserved for the operating system kernel.",
+    "Answer": "A memory management technique that gives each process the illusion of having its own large, contiguous address space, even if physical memory is fragmented or limited, by mapping virtual addresses to physical addresses."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is a 'Page Fault'?",
+    "Option1": "An error in a web page.",
+    "Option2": "An event that occurs when a program tries to access a virtual memory page that is not currently loaded into physical RAM, triggering the operating system to load it from disk.",
+    "Option3": "An error in a hardware device.",
+    "4": "A memory allocation error.",
+    "Answer": "An event that occurs when a program tries to access a virtual memory page that is not currently loaded into physical RAM, triggering the operating system to load it from disk."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'TLB' (Translation Lookaside Buffer)?",
+    "Option1": "A type of hard drive cache.",
+    "Option2": "A cache within the CPU that stores recent translations of virtual addresses to physical addresses, speeding up memory access.",
+    "Option3": "A buffer for network traffic.",
+    "4": "A buffer for I/O operations.",
+    "Answer": "A cache within the CPU that stores recent translations of virtual addresses to physical addresses, speeding up memory access."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'RISC' architecture?",
+    "Option1": "Complex Instruction Set Computing, with many complex instructions.",
+    "Option2": "Reduced Instruction Set Computing, characterized by a small, highly optimized set of instructions, fixed instruction lengths, and simple addressing modes.",
+    "Option3": "Relational Instruction Set Computing.",
+    "4": "Random Instruction Set Computing.",
+    "Answer": "Reduced Instruction Set Computing, characterized by a small, highly optimized set of instructions, fixed instruction lengths, and simple addressing modes."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'CISC' architecture?",
+    "Option1": "Reduced Instruction Set Computing, with few simple instructions.",
+    "Option2": "Complex Instruction Set Computing, characterized by a large and varied set of instructions, variable instruction lengths, and complex addressing modes (like x86).",
+    "Option3": "Centralized Instruction Set Computing.",
+    "4": "Cache-Independent System Computing.",
+    "Answer": "Complex Instruction Set Computing, characterized by a large and varied set of instructions, variable instruction lengths, and complex addressing modes (like x86)."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which architecture is x86?",
+    "Option1": "RISC",
+    "Option2": "CISC",
+    "Option3": "ARM",
+    "4": "MIPS",
+    "Answer": "CISC"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'pipeline' in CPU architecture?",
+    "Option1": "A sequence of data flowing through registers.",
+    "Option2": "A technique that allows a CPU to execute multiple instructions concurrently by overlapping their execution stages (fetch, decode, execute, write-back).",
+    "Option3": "A method for connecting to I/O devices.",
+    "4": "A way to organize memory segments.",
+    "Answer": "A technique that allows a CPU to execute multiple instructions concurrently by overlapping their execution stages (fetch, decode, execute, write-back)."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is a 'branch prediction'?",
+    "Option1": "Predicting the next memory address to access.",
+    "Option2": "A CPU optimization technique where the processor attempts to guess the outcome of a conditional jump (branch) before it is actually executed, to avoid pipeline stalls.",
+    "Option3": "Predicting the outcome of an arithmetic operation.",
+    "4": "Predicting the next system call.",
+    "Answer": "A CPU optimization technique where the processor attempts to guess the outcome of a conditional jump (branch) before it is actually executed, to avoid pipeline stalls."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'cache memory'?",
+    "Option1": "Main system RAM.",
+    "Option2": "Small, fast memory located close to the CPU (L1, L2, L3) that stores frequently accessed data and instructions to reduce access time to main memory.",
+    "Option3": "Hard disk space used for virtual memory.",
+    "4": "Memory used by graphics cards.",
+    "Answer": "Small, fast memory located close to the CPU (L1, L2, L3) that stores frequently accessed data and instructions to reduce access time to main memory."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Cache Hit' vs 'Cache Miss'?",
+    "Option1": "Indicates successful or failed program execution.",
+    "Option2": "A 'hit' occurs when requested data is found in the cache; a 'miss' occurs when it's not, requiring a slower fetch from main memory.",
+    "Option3": "Refers to network connection status.",
+    "4": "Refers to the success or failure of a system call.",
+    "Answer": "A 'hit' occurs when requested data is found in the cache; a 'miss' occurs when it's not, requiring a slower fetch from main memory."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'MMX' (MultiMedia eXtensions)?",
+    "Option1": "A type of memory module.",
+    "Option2": "An instruction set extension by Intel, providing SIMD (Single Instruction, Multiple Data) capabilities for faster processing of multimedia and communication tasks.",
+    "Option3": "A network protocol.",
+    "4": "A debugging tool.",
+    "Answer": "An instruction set extension by Intel, providing SIMD (Single Instruction, Multiple Data) capabilities for faster processing of multimedia and communication tasks."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'SSE' (Streaming SIMD Extensions)?",
+    "Option1": "A type of data storage.",
+    "Option2": "A series of instruction set extensions by Intel (and AMD), enhancing SIMD capabilities with new registers and instructions for floating-point and integer operations, commonly used for graphics and scientific computing.",
+    "Option3": "A memory addressing mode.",
+    "4": "A security feature.",
+    "Answer": "A series of instruction set extensions by Intel (and AMD), enhancing SIMD capabilities with new registers and instructions for floating-point and integer operations, commonly used for graphics and scientific computing."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'AVX' (Advanced Vector Extensions)?",
+    "Option1": "A data compression algorithm.",
+    "Option2": "A further extension to the x86 instruction set, increasing the size of SIMD registers and adding new instructions, improving performance for floating-point heavy computations.",
+    "Option3": "A new type of I/O interface.",
+    "4": "A virtual memory management technique.",
+    "Answer": "A further extension to the x86 instruction set, increasing the size of SIMD registers and adding new instructions, improving performance for floating-point heavy computations."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'FPU' (Floating-Point Unit)?",
+    "Option1": "A unit for integer arithmetic.",
+    "Option2": "A specialized part of a CPU (or a separate coprocessor) that performs floating-point arithmetic operations (addition, subtraction, multiplication, division, square root, etc.).",
+    "Option3": "A unit for I/O operations.",
+    "4": "A unit for memory management.",
+    "Answer": "A specialized part of a CPU (or a separate coprocessor) that performs floating-point arithmetic operations (addition, subtraction, multiplication, division, square root, etc.)."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What are 'x87 FPU' instructions (e.g., FADD, FMUL)?",
+    "Option1": "Instructions for integer operations.",
+    "Option2": "Legacy floating-point instructions that operate on an 80-bit stack-based register set, distinct from the general-purpose registers and modern SIMD registers.",
+    "Option3": "Instructions for logical operations.",
+    "4": "Instructions for memory addressing.",
+    "Answer": "Legacy floating-point instructions that operate on an 80-bit stack-based register set, distinct from the general-purpose registers and modern SIMD registers."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'SIMD' (Single Instruction, Multiple Data)?",
+    "Option1": "Executing multiple instructions on single data.",
+    "Option2": "A class of parallel computing in which a single instruction operates on multiple data values simultaneously, enabling faster processing of large datasets (e.g., in multimedia or scientific applications).",
+    "Option3": "Executing single instruction on single data.",
+    "4": "Executing multiple instructions on multiple data.",
+    "Answer": "A class of parallel computing in which a single instruction operates on multiple data values simultaneously, enabling faster processing of large datasets (e.g., in multimedia or scientific applications)."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Multithreading' in CPU architecture?",
+    "Option1": "Running multiple programs sequentially.",
+    "Option2": "A technique where a single CPU core can execute multiple threads of a program concurrently by rapidly switching between them, improving utilization.",
+    "Option3": "Using multiple CPUs for a single task.",
+    "4": "Processing multiple instructions one after another.",
+    "Answer": "A technique where a single CPU core can execute multiple threads of a program concurrently by rapidly switching between them, improving utilization."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Hyper-Threading' (Intel) or 'SMT' (Simultaneous Multi-Threading)?",
+    "Option1": "A memory management technique.",
+    "Option2": "A technology that allows a single physical CPU core to appear as two logical cores to the operating system, enabling two instruction streams (threads) to execute concurrently on the same core by sharing resources.",
+    "Option3": "A technology for faster data transfer.",
+    "4": "A technology for improved graphics performance.",
+    "Answer": "A technology that allows a single physical CPU core to appear as two logical cores to the operating system, enabling two instruction streams (threads) to execute concurrently on the same core by sharing resources."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Virtualization' in CPU context?",
+    "Option1": "Running programs without an operating system.",
+    "Option2": "The creation of a virtual (rather than actual) version of something, such as an operating system, a server, a storage device, or network resources, often facilitated by CPU hardware extensions.",
+    "Option3": "A method for optimizing CPU performance.",
+    "4": "A technique for securing data.",
+    "Answer": "The creation of a virtual (rather than actual) version of something, such as an operating system, a server, a storage device, or network resources, often facilitated by CPU hardware extensions."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What are 'Virtualization Extensions' (e.g., Intel VT-x, AMD-V)?",
+    "Option1": "Software libraries for virtual machines.",
+    "Option2": "Hardware features added to CPUs that improve the performance and security of virtualization technologies by providing direct support for virtual machine monitors (hypervisors).",
+    "Option3": "Extensions for faster memory access.",
+    "4": "Extensions for graphics processing.",
+    "Answer": "Hardware features added to CPUs that improve the performance and security of virtualization technologies by providing direct support for virtual machine monitors (hypervisors)."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Ring 0' (Kernel Mode) in x86 operating systems?",
+    "Option1": "The lowest privilege level for user applications.",
+    "Option2": "The most privileged CPU operating mode, where the operating system kernel runs, having direct access to all hardware and memory.",
+    "Option3": "A mode for debugging applications.",
+    "4": "A mode for running virtual machines.",
+    "Answer": "The most privileged CPU operating mode, where the operating system kernel runs, having direct access to all hardware and memory."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Ring 3' (User Mode) in x86 operating systems?",
+    "Option1": "The most privileged CPU operating mode.",
+    "Option2": "The least privileged CPU operating mode, where user applications run, with limited access to hardware and memory, requiring system calls to access privileged resources.",
+    "Option3": "A mode for system diagnostics.",
+    "4": "A mode for hardware testing.",
+    "Answer": "The least privileged CPU operating mode, where user applications run, with limited access to hardware and memory, requiring system calls to access privileged resources."
+  },
+  {
+    "question_no.": 136,
+    "Question": "Why is ring separation important?",
+    "Option1": "To increase program complexity.",
+    "Option2": "To enhance system stability and security by preventing user applications from directly accessing critical system resources or interfering with the operating system kernel.",
+    "Option3": "To speed up program execution.",
+    "4": "To reduce the number of instructions.",
+    "Answer": "To enhance system stability and security by preventing user applications from directly accessing critical system resources or interfering with the operating system kernel."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'System Calls' (in terms of privilege levels)?",
+    "Option1": "Calls between user-mode functions.",
+    "Option2": "The mechanism by which user-mode applications request services from the operating system kernel, involving a transition from a lower privilege level (Ring 3) to a higher one (Ring 0).",
+    "Option3": "Calls between different CPUs.",
+    "4": "Calls for memory allocation only.",
+    "Answer": "The mechanism by which user-mode applications request services from the operating system kernel, involving a transition from a lower privilege level (Ring 3) to a higher one (Ring 0)."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Assembly Language for ARM' generally like compared to x86?",
+    "Option1": "More complex, with variable instruction lengths.",
+    "Option2": "Simpler, following RISC principles with fixed-length instructions, a larger general-purpose register set, and a load/store architecture.",
+    "Option3": "Identical in instruction set.",
+    "4": "Has fewer registers.",
+    "Answer": "Simpler, following RISC principles with fixed-length instructions, a larger general-purpose register set, and a load/store architecture."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What does 'Load/Store Architecture' mean for ARM?",
+    "Option1": "All operations can work directly on memory.",
+    "Option2": "Arithmetic and logical operations can only be performed on data held in registers; data must be explicitly loaded from memory into registers and stored back from registers to memory.",
+    "Option3": "Only load operations are supported.",
+    "4": "Data can only be stored to the stack.",
+    "Answer": "Arithmetic and logical operations can only be performed on data held in registers; data must be explicitly loaded from memory into registers and stored back from registers to memory."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Thumb mode' in ARM?",
+    "Option1": "A debugging mode.",
+    "Option2": "A 16-bit instruction set in ARM that provides a more compact code density for embedded systems, reducing memory usage.",
+    "Option3": "A 64-bit instruction set.",
+    "4": "A mode for high-performance computing.",
+    "Answer": "A 16-bit instruction set in ARM that provides a more compact code density for embedded systems, reducing memory usage."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Assembly language for MIPS' generally like?",
+    "Option1": "CISC architecture with many complex instructions.",
+    "Option2": "A classic RISC architecture, known for its clean, orthogonal instruction set and widespread use in embedded systems and academic teaching.",
+    "Option3": "Primarily used for mobile phones.",
+    "4": "Supports complex addressing modes similar to x86.",
+    "Answer": "A classic RISC architecture, known for its clean, orthogonal instruction set and widespread use in embedded systems and academic teaching."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What does `syscall` instruction do in MIPS assembly?",
+    "Option1": "Calls a subroutine.",
+    "Option2": "Invokes an operating system service (system call) by placing the service number and arguments in specific registers.",
+    "Option3": "Jumps unconditionally.",
+    "4": "Handles interrupts.",
+    "Answer": "Invokes an operating system service (system call) by placing the service number and arguments in specific registers."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Prolog' and 'Epilog' of a function (in assembly)?",
+    "Option1": "The start and end of the main program.",
+    "Option2": "The 'prolog' is the initial code executed upon entering a function (saving registers, setting up stack frame); the 'epilog' is the code executed before returning (restoring registers, tearing down stack frame).",
+    "Option3": "Sections for global variables.",
+    "4": "Sections for system calls.",
+    "Answer": "The 'prolog' is the initial code executed upon entering a function (saving registers, setting up stack frame); the 'epilog' is the code executed before returning (restoring registers, tearing down stack frame)."
+  },
+  {
+    "question_no.": 144,
+    "Question": "Why are prolog and epilog necessary?",
+    "Option1": "To make the code longer.",
+    "Option2": "To manage the stack frame, save/restore caller-saved and callee-saved registers, and maintain proper execution context across function calls.",
+    "Option3": "To improve performance.",
+    "4": "To simplify writing code.",
+    "Answer": "To manage the stack frame, save/restore caller-saved and callee-saved registers, and maintain proper execution context across function calls."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What does `pushad` / `popad` do in x86?",
+    "Option1": "Pushes/pops a single register.",
+    "Option2": "Pushes/pops all general-purpose 32-bit registers (EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI) onto/from the stack.",
+    "Option3": "Pushes/pops the flags register.",
+    "4": "Pushes/pops segment registers.",
+    "Answer": "Pushes/pops all general-purpose 32-bit registers (EAX, ECX, EDX, EBX, ESP, EBP, ESI, EDI) onto/from the stack."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What does `pushf` / `popf` do in x86?",
+    "Option1": "Pushes/pops a general-purpose register.",
+    "Option2": "Pushes/pops the EFLAGS (or FLAGS) register onto/from the stack, saving/restoring the CPU's status flags.",
+    "Option3": "Pushes/pops a segment register.",
+    "4": "Pushes/pops data from a file.",
+    "Answer": "Pushes/pops the EFLAGS (or FLAGS) register onto/from the stack, saving/restoring the CPU's status flags."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Relocatable Code'?",
+    "Option1": "Code that can only run at a fixed address.",
+    "Option2": "Code that can be loaded and executed at any arbitrary base address in memory, where addresses within the code are adjusted by the loader at runtime.",
+    "Option3": "Code that is self-modifying.",
+    "4": "Code that is optimized for speed.",
+    "Answer": "Code that can be loaded and executed at any arbitrary base address in memory, where addresses within the code are adjusted by the loader at runtime."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Absolute Code'?",
+    "Option1": "Code that can be relocated easily.",
+    "Option2": "Code that must be loaded and executed at a specific, predetermined memory address, as all addresses within the code are fixed at assembly/link time.",
+    "Option3": "Code that is always position-independent.",
+    "4": "Code that generates no errors.",
+    "Answer": "Code that must be loaded and executed at a specific, predetermined memory address, as all addresses within the code are fixed at assembly/link time."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Assembly Language for AVR' (microcontrollers)?",
+    "Option1": "Similar to x86 with many registers.",
+    "Option2": "RISC architecture, commonly used for embedded systems; has a load/store architecture, orthogonal instruction set, and dedicated I/O registers.",
+    "Option3": "CISC architecture designed for servers.",
+    "4": "Primarily used for desktop applications.",
+    "Answer": "RISC architecture, commonly used for embedded systems; has a load/store architecture, orthogonal instruction set, and dedicated I/O registers."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What does `LDI` (Load Immediate) do in AVR assembly?",
+    "Option1": "Loads data from memory.",
+    "Option2": "Loads a constant value directly into a register.",
+    "Option3": "Stores a value into memory.",
+    "4": "Increments a register.",
+    "Answer": "Loads a constant value directly into a register."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Inline Assembly'?",
+    "Option1": "Writing entire programs in assembly.",
+    "Option2": "Embedding small blocks of assembly language code directly within a high-level programming language (like C/C++) for performance-critical sections or direct hardware access.",
+    "Option3": "Using an external assembly file.",
+    "4": "Assembling code without a linker.",
+    "Answer": "Embedding small blocks of assembly language code directly within a high-level programming language (like C/C++) for performance-critical sections or direct hardware access."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What are the advantages of inline assembly?",
+    "Option1": "Improved portability and readability.",
+    "Option2": "Fine-grained control over hardware, potential for performance optimization for specific tasks, and direct access to CPU features not exposed by high-level languages.",
+    "Option3": "Easier debugging.",
+    "4": "Smaller executable size always.",
+    "Answer": "Fine-grained control over hardware, potential for performance optimization for specific tasks, and direct access to CPU features not exposed by high-level languages."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What are the disadvantages of inline assembly?",
+    "Option1": "Guaranteed performance improvement.",
+    "Option2": "Reduced portability, decreased readability, increased complexity, potential for bugs, and compiler-specific syntax.",
+    "Option3": "Easier to maintain.",
+    "4": "Faster compilation times.",
+    "Answer": "Reduced portability, decreased readability, increased complexity, potential for bugs, and compiler-specific syntax."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'calling convention'?",
+    "Option1": "The standard way to name functions.",
+    "Option2": "A standard (e.g., cdecl, stdcall, fastcall) that defines how functions pass arguments, handle return values, and manage the stack, ensuring compatibility between different code modules (e.g., C and assembly).",
+    "Option3": "A convention for variable naming.",
+    "4": "A convention for code comments.",
+    "Answer": "A standard (e.g., cdecl, stdcall, fastcall) that defines how functions pass arguments, handle return values, and manage the stack, ensuring compatibility between different code modules (e.g., C and assembly)."
+  },
+  {
+    "question_no.": 155,
+    "Question": "In `cdecl` calling convention, who cleans up the stack after a function call?",
+    "Option1": "The called function (callee).",
+    "Option2": "The calling function (caller).",
+    "Option3": "The operating system.",
+    "4": "The assembler.",
+    "Answer": "The calling function (caller)."
+  },
+  {
+    "question_no.": 156,
+    "Question": "In `stdcall` calling convention, who cleans up the stack after a function call?",
+    "Option1": "The calling function (caller).",
+    "Option2": "The called function (callee).",
+    "Option3": "The linker.",
+    "4": "The debugger.",
+    "Answer": "The called function (callee)."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Code Segment Register' (CS)?",
+    "Option1": "Points to the data segment.",
+    "Option2": "Contains the base address of the code segment where the executable instructions are located.",
+    "Option3": "Points to the stack segment.",
+    "4": "Stores general-purpose data.",
+    "Answer": "Contains the base address of the code segment where the executable instructions are located."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Data Segment Register' (DS)?",
+    "Option1": "Points to the code segment.",
+    "Option2": "Contains the base address of the data segment where global and static variables are stored.",
+    "Option3": "Points to the stack segment.",
+    "4": "Stores interrupt vectors.",
+    "Answer": "Contains the base address of the data segment where global and static variables are stored."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Stack Segment Register' (SS)?",
+    "Option1": "Points to the code segment.",
+    "Option2": "Contains the base address of the stack segment where the program's stack is located.",
+    "Option3": "Points to the data segment.",
+    "4": "Stores the instruction pointer.",
+    "Answer": "Contains the base address of the stack segment where the program's stack is located."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What are 'String Instructions' (e.g., MOVS, STOS, LODS, SCAS, CMPS)?",
+    "Option1": "Instructions for manipulating text characters only.",
+    "Option2": "A set of specialized instructions that perform operations on blocks of memory (strings of bytes, words, or doublewords) very efficiently, often combined with `REP` prefixes.",
+    "Option3": "Instructions for converting strings to numbers.",
+    "4": "Instructions for creating strings.",
+    "Answer": "A set of specialized instructions that perform operations on blocks of memory (strings of bytes, words, or doublewords) very efficiently, often combined with `REP` prefixes."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the `LODSB` instruction?",
+    "Option1": "Stores a byte.",
+    "Option2": "Loads a byte from the memory location pointed to by `ESI` into `AL`, then increments/decrements `ESI`.",
+    "Option3": "Moves a byte.",
+    "4": "Compares two bytes.",
+    "Answer": "Loads a byte from the memory location pointed to by `ESI` into `AL`, then increments/decrements `ESI`."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the `SCASB` instruction?",
+    "Option1": "Moves a byte.",
+    "Option2": "Compares the byte in `AL` with the byte at the memory location pointed to by `EDI`, then increments/decrements `EDI`.",
+    "Option3": "Loads a byte.",
+    "4": "Stores a byte.",
+    "Answer": "Compares the byte in `AL` with the byte at the memory location pointed to by `EDI`, then increments/decrements `EDI`."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the `CMPSB` instruction?",
+    "Option1": "Loads two bytes.",
+    "Option2": "Compares the byte at the memory location pointed to by `ESI` with the byte at the memory location pointed to by `EDI`, then increments/decrements `ESI` and `EDI`.",
+    "Option3": "Moves two bytes.",
+    "4": "Stores two bytes.",
+    "Answer": "Compares the byte at the memory location pointed to by `ESI` with the byte at the memory location pointed to by `EDI`, then increments/decrements `ESI` and `EDI`."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'ASCII' in assembly context?",
+    "Option1": "A type of numeric representation.",
+    "Option2": "American Standard Code for Information Interchange, a character encoding standard where each character (letters, numbers, symbols) is represented by a unique 7-bit (or 8-bit) integer value.",
+    "Option3": "A graphics format.",
+    "4": "A memory addressing mode.",
+    "Answer": "American Standard Code for Information Interchange, a character encoding standard where each character (letters, numbers, symbols) is represented by a unique 7-bit (or 8-bit) integer value."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Hexadecimal' notation?",
+    "Option1": "Base-2 number system.",
+    "Option2": "Base-16 number system, commonly used in assembly and low-level programming to represent binary data concisely (0-9, A-F).",
+    "Option3": "Base-10 number system.",
+    "4": "Base-8 number system.",
+    "Answer": "Base-16 number system, commonly used in assembly and low-level programming to represent binary data concisely (0-9, A-F)."
+  },
+  {
+    "question_no.": 166,
+    "Question": "Why is Hexadecimal commonly used in assembly?",
+    "Option1": "It's easier for computers to process.",
+    "Option2": "It provides a compact and human-readable way to represent binary values (4 bits per hex digit), making it easier to represent memory addresses, register contents, and raw data.",
+    "Option3": "It is required by all assemblers.",
+    "4": "It improves program execution speed.",
+    "Answer": "It provides a compact and human-readable way to represent binary values (4 bits per hex digit), making it easier to represent memory addresses, register contents, and raw data."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Binary Coded Decimal' (BCD)?",
+    "Option1": "A floating-point number representation.",
+    "Option2": "A way to encode decimal numbers where each decimal digit is represented by its own four-bit binary code, sometimes used for financial calculations to avoid floating-point inaccuracies.",
+    "Option3": "A system for representing negative numbers.",
+    "4": "A method for encrypting data.",
+    "Answer": "A way to encode decimal numbers where each decimal digit is represented by its own four-bit binary code, sometimes used for financial calculations to avoid floating-point inaccuracies."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Two's Complement' representation?",
+    "Option1": "A method for representing only positive numbers.",
+    "Option2": "The most common method for representing signed integers in computers, where positive numbers are represented as usual binary, and negative numbers are represented by inverting all bits and adding one to the result.",
+    "Option3": "A method for floating-point numbers.",
+    "4": "A method for BCD encoding.",
+    "Answer": "The most common method for representing signed integers in computers, where positive numbers are represented as usual binary, and negative numbers are represented by inverting all bits and adding one to the result."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Why is Two's Complement used for signed numbers?",
+    "Option1": "It simplifies hardware design for addition and subtraction.",
+    "Option2": "It has two representations for zero (+0 and -0).",
+    "Option3": "It's easier for humans to understand.",
+    "4": "It allows for a larger range of positive numbers.",
+    "Answer": "It simplifies hardware design for addition and subtraction."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What does the `NEG` instruction do?",
+    "Option1": "Inverts all bits of an operand.",
+    "Option2": "Negates the value of the operand by replacing it with its two's complement, effectively changing its sign.",
+    "Option3": "Compares two negative numbers.",
+    "4": "Sets a register to zero.",
+    "Answer": "Negates the value of the operand by replacing it with its two's complement, effectively changing its sign."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the 'I/O Port' in assembly?",
+    "Option1": "A memory location for general data storage.",
+    "Option2": "A specific address used by the CPU to communicate directly with peripheral devices (e.g., keyboard, printer, network card) for input and output.",
+    "Option3": "A physical connector on the motherboard.",
+    "4": "A software interface for file operations.",
+    "Answer": "A specific address used by the CPU to communicate directly with peripheral devices (e.g., keyboard, printer, network card) for input and output."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What does the `IN` instruction do?",
+    "Option1": "Outputs data to an I/O port.",
+    "Option2": "Reads data from an I/O port into an accumulator register (AL, AX, EAX).",
+    "Option3": "Inputs data from memory.",
+    "4": "Inputs data from a file.",
+    "Answer": "Reads data from an I/O port into an accumulator register (AL, AX, EAX)."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What does the `OUT` instruction do?",
+    "Option1": "Reads data from an I/O port.",
+    "Option2": "Writes data from an accumulator register (AL, AX, EAX) to an I/O port.",
+    "Option3": "Outputs data to memory.",
+    "4": "Outputs data to a file.",
+    "Answer": "Writes data from an accumulator register (AL, AX, EAX) to an I/O port."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Memory-Mapped I/O'?",
+    "Option1": "Using `IN` and `OUT` instructions for I/O.",
+    "Option2": "A method of performing I/O where the registers and memory of I/O devices are mapped directly into the CPU's memory address space, allowing ordinary memory access instructions to be used for I/O.",
+    "Option3": "Mapping I/O devices to specific registers.",
+    "4": "A technique for virtualizing I/O devices.",
+    "Answer": "A method of performing I/O where the registers and memory of I/O devices are mapped directly into the CPU's memory address space, allowing ordinary memory access instructions to be used for I/O."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Port-Mapped I/O'?",
+    "Option1": "Using general-purpose memory instructions for I/O.",
+    "Option2": "A method of performing I/O where devices are accessed through separate, dedicated I/O ports using special `IN` and `OUT` instructions, distinct from memory addresses.",
+    "Option3": "Mapping I/O devices to network ports.",
+    "4": "A technique for direct memory access (DMA).",
+    "Answer": "A method of performing I/O where devices are accessed through separate, dedicated I/O ports using special `IN` and `OUT` instructions, distinct from memory addresses."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which I/O method does x86 primarily use?",
+    "Option1": "Memory-Mapped I/O exclusively.",
+    "Option2": "Port-Mapped I/O (using IN/OUT instructions), but also supports Memory-Mapped I/O.",
+    "Option3": "Only uses I/O through system calls.",
+    "4": "Only uses network-based I/O.",
+    "Answer": "Port-Mapped I/O (using IN/OUT instructions), but also supports Memory-Mapped I/O."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'DMA' (Direct Memory Access)?",
+    "Option1": "A CPU instruction for fast memory access.",
+    "Option2": "A feature that allows certain hardware subsystems (e.g., disk drive controllers, network cards) to access main system memory independently of the CPU, speeding up data transfer operations.",
+    "Option3": "A type of memory caching.",
+    "4": "A method for directly accessing CPU registers.",
+    "Answer": "A feature that allows certain hardware subsystems (e.g., disk drive controllers, network cards) to access main system memory independently of the CPU, speeding up data transfer operations."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What are 'Interrupts' (Hardware vs. Software)?",
+    "Option1": "Both are CPU instructions.",
+    "Option2": "Hardware interrupts are signals from external devices to the CPU (e.g., keyboard press); Software interrupts are initiated by executing a special instruction (e.g., `INT` in x86).",
+    "Option3": "Both are always caused by errors.",
+    "4": "Hardware interrupts are for debugging; software interrupts are for system calls.",
+    "Answer": "Hardware interrupts are signals from external devices to the CPU (e.g., keyboard press); Software interrupts are initiated by executing a special instruction (e.g., `INT` in x86)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is an 'Interrupt Service Routine' (ISR)?",
+    "Option1": "A standard function call.",
+    "Option2": "A special function or routine that the CPU executes in response to an interrupt, to handle the event that caused the interrupt.",
+    "Option3": "A program for hardware diagnostics.",
+    "4": "A method for optimizing CPU cycles.",
+    "Answer": "A special function or routine that the CPU executes in response to an interrupt, to handle the event that caused the interrupt."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the purpose of `CLI` and `STI` instructions?",
+    "Option1": "To compare strings.",
+    "Option2": "To clear (disable) and set (enable) the Interrupt Flag, respectively, controlling whether the CPU responds to maskable interrupts.",
+    "Option3": "To control the direction flag.",
+    "4": "To manage the stack pointer.",
+    "Answer": "To clear (disable) and set (enable) the Interrupt Flag, respectively, controlling whether the CPU responds to maskable interrupts."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'PIC' (Programmable Interrupt Controller)?",
+    "Option1": "A component for managing CPU registers.",
+    "Option2": "A hardware component (e.g., 8259A) that manages interrupt requests from multiple peripheral devices, prioritizes them, and sends them to the CPU.",
+    "Option3": "A type of memory controller.",
+    "4": "A software program for handling interrupts.",
+    "Answer": "A hardware component (e.g., 8259A) that manages interrupt requests from multiple peripheral devices, prioritizes them, and sends them to the CPU."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'APIC' (Advanced Programmable Interrupt Controller)?",
+    "Option1": "An older version of PIC.",
+    "Option2": "A more advanced interrupt controller architecture used in modern multi-core x86 systems, enabling per-processor interrupt delivery and inter-processor interrupts.",
+    "Option3": "A controller for I/O ports.",
+    "4": "A controller for memory banks.",
+    "Answer": "A more advanced interrupt controller architecture used in modern multi-core x86 systems, enabling per-processor interrupt delivery and inter-processor interrupts."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'NMI' (Non-Maskable Interrupt)?",
+    "Option1": "An interrupt that can be disabled by software.",
+    "Option2": "A high-priority hardware interrupt that cannot be ignored or disabled by the CPU, typically used for critical events like memory parity errors or hardware failures.",
+    "Option3": "A software interrupt for system calls.",
+    "4": "A low-priority interrupt for debugging.",
+    "Answer": "A high-priority hardware interrupt that cannot be ignored or disabled by the CPU, typically used for critical events like memory parity errors or hardware failures."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What does the `HLT` instruction do?",
+    "Option1": "Restarts the CPU.",
+    "Option2": "Halts the CPU until an external interrupt (or reset) occurs.",
+    "Option3": "Clears all registers.",
+    "4": "Generates a software interrupt.",
+    "Answer": "Halts the CPU until an external interrupt (or reset) occurs."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What does the `RETN` instruction do?",
+    "Option1": "Returns from a far call.",
+    "Option2": "Returns from a near call (within the same code segment), typically used for procedures.",
+    "Option3": "Returns from an interrupt.",
+    "4": "Returns from a system call.",
+    "Answer": "Returns from a near call (within the same code segment), typically used for procedures."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What does the `RETI` or `IRET` instruction do?",
+    "Option1": "Returns from a normal procedure call.",
+    "Option2": "Returns from an interrupt service routine, restoring the saved flags and instruction pointer from the stack.",
+    "Option3": "Returns from a system call in user mode.",
+    "4": "Returns from a far jump.",
+    "Answer": "Returns from an interrupt service routine, restoring the saved flags and instruction pointer from the stack."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Bus Error' in assembly context?",
+    "Option1": "An error in the network connection.",
+    "Option2": "A type of hardware fault that occurs when the CPU attempts to access memory or a device at an invalid address, or with invalid permissions, or encounters an unexpected signal on the memory bus.",
+    "Option3": "An error in the graphics card.",
+    "4": "An error during disk I/O.",
+    "Answer": "A type of hardware fault that occurs when the CPU attempts to access memory or a device at an invalid address, or with invalid permissions, or encounters an unexpected signal on the memory bus."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Segmentation Fault'?",
+    "Option1": "An error in a network segment.",
+    "Option2": "A specific type of memory access error where a program attempts to access a memory location that it is not allowed to access or access in a way it is not allowed (e.g., writing to read-only memory), typically handled by the OS.",
+    "Option3": "An error in the CPU's internal logic.",
+    "4": "An error caused by a full hard drive.",
+    "Answer": "A specific type of memory access error where a program attempts to access a memory location that it is not allowed to access or access in a way it is not allowed (e.g., writing to read-only memory), typically handled by the OS."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the `INT 3` instruction?",
+    "Option1": "A general-purpose interrupt for I/O.",
+    "Option2": "A single-byte instruction (opcode 0xCC) used to trigger a breakpoint in a debugger, generating a breakpoint exception.",
+    "Option3": "An interrupt for arithmetic errors.",
+    "4": "An interrupt for system shutdown.",
+    "Answer": "A single-byte instruction (opcode 0xCC) used to trigger a breakpoint in a debugger, generating a breakpoint exception."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Protection Rings' (general concept)?",
+    "Option1": "Physical security measures for computers.",
+    "Option2": "A hierarchical system of privilege levels (e.g., Ring 0 to Ring 3) in operating systems, where inner rings have more privileges and access to system resources than outer rings.",
+    "Option3": "A network security protocol.",
+    "4": "A method for encrypting data.",
+    "Answer": "A hierarchical system of privilege levels (e.g., Ring 0 to Ring 3) in operating systems, where inner rings have more privileges and access to system resources than outer rings."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'TLB Shootdown'?",
+    "Option1": "A process to clear the TLB of a single CPU.",
+    "Option2": "A synchronization mechanism in multi-processor systems where one CPU instructs other CPUs to invalidate specific entries in their TLBs, typically after page table modifications, to ensure cache coherence.",
+    "Option3": "A method for reducing cache misses.",
+    "4": "A security vulnerability in the TLB.",
+    "Answer": "A synchronization mechanism in multi-processor systems where one CPU instructs other CPUs to invalidate specific entries in their TLBs, typically after page table modifications, to ensure cache coherence."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Context Switching' in operating systems?",
+    "Option1": "Switching between different applications.",
+    "Option2": "The process of storing the state (context) of a CPU for one task (process or thread) so that task can be resumed later, and then loading the state for a different task, enabling multitasking.",
+    "Option3": "Switching between different memory segments.",
+    "4": "Switching between different CPU cores.",
+    "Answer": "The process of storing the state (context) of a CPU for one task (process or thread) so that task can be resumed later, and then loading the state for a different task, enabling multitasking."
+  },
+  {
+    "question_no.": 193,
+    "Question": "Why is context switching expensive?",
+    "Option1": "It requires physical memory relocation.",
+    "Option2": "It involves saving/restoring many CPU registers, flushing caches (like TLB), and potentially modifying memory mappings, leading to performance overhead.",
+    "Option3": "It always involves disk I/O.",
+    "4": "It increases network latency.",
+    "Answer": "It involves saving/restoring many CPU registers, flushing caches (like TLB), and potentially modifying memory mappings, leading to performance overhead."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Atomicity' in multi-threading (assembly level)?",
+    "Option1": "Operations that are broken down into smaller steps.",
+    "Option2": "An operation that is guaranteed to be completed without interruption by other threads or processes, appearing as a single, indivisible operation.",
+    "Option3": "Operations that can be reordered by the CPU.",
+    "4": "Operations that are executed on different cores.",
+    "Answer": "An operation that is guaranteed to be completed without interruption by other threads or processes, appearing as a single, indivisible operation."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What are 'Atomic Instructions' (e.g., XCHG, LOCK prefix)?",
+    "Option1": "Instructions that are executed very quickly.",
+    "Option2": "Special CPU instructions (or prefixes like `LOCK`) that guarantee atomicity for specific operations on shared memory locations, crucial for synchronization in multi-threaded programming.",
+    "Option3": "Instructions for floating-point calculations.",
+    "4": "Instructions that only modify flags.",
+    "Answer": "Special CPU instructions (or prefixes like `LOCK`) that guarantee atomicity for specific operations on shared memory locations, crucial for synchronization in multi-threaded programming."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Memory Barrier' (or Memory Fence) instruction?",
+    "Option1": "An instruction that prevents memory access.",
+    "Option2": "An instruction that enforces a specific ordering of memory operations by the CPU and compiler, preventing reordering that could lead to unexpected behavior in multi-threaded programs.",
+    "Option3": "An instruction to clear the cache.",
+    "4": "An instruction to disable interrupts.",
+    "Answer": "An instruction that enforces a specific ordering of memory operations by the CPU and compiler, preventing reordering that could lead to unexpected behavior in multi-threaded programs."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Volatile Keyword' in C/C++ and its relevance to assembly?",
+    "Option1": "Indicates a variable that can change value.",
+    "Option2": "A hint to the compiler that a variable's value can be changed by external factors (e.g., hardware, other threads) and should not be optimized away or cached, forcing the compiler to generate direct memory access instructions.",
+    "Option3": "Indicates a temporary variable.",
+    "4": "Indicates a global variable.",
+    "Answer": "A hint to the compiler that a variable's value can be changed by external factors (e.g., hardware, other threads) and should not be optimized away or cached, forcing the compiler to generate direct memory access instructions."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Syscall Instruction' in modern x86-64 Linux?",
+    "Option1": "Legacy system call instruction (INT 0x80).",
+    "Option2": "A faster, dedicated instruction for invoking system calls in 64-bit mode, designed to reduce the overhead of switching between user and kernel modes compared to `INT 0x80`.",
+    "Option3": "An instruction for managing processes.",
+    "4": "An instruction for debugging only.",
+    "Answer": "A faster, dedicated instruction for invoking system calls in 64-bit mode, designed to reduce the overhead of switching between user and kernel modes compared to `INT 0x80`."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Sysret Instruction' in modern x86-64 Linux?",
+    "Option1": "Returns from a normal function.",
+    "Option2": "A dedicated instruction used by the kernel to return from a system call in 64-bit mode, restoring user-mode context efficiently.",
+    "Option3": "Returns from an interrupt service routine.",
+    "4": "Returns from a debugger session.",
+    "Answer": "A dedicated instruction used by the kernel to return from a system call in 64-bit mode, restoring user-mode context efficiently."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'ROP' (Return-Oriented Programming) in exploitation?",
+    "Option1": "A technique for writing secure code.",
+    "Option2": "An exploit technique where an attacker gains control of the call stack to hijack program control flow and execute arbitrary machine code by chaining together small, existing instruction sequences (gadgets) that end with a return instruction.",
+    "Option3": "A method for debugging programs.",
+    "4": "A compiler optimization technique.",
+    "Answer": "An exploit technique where an attacker gains control of the call stack to hijack program control flow and execute arbitrary machine code by chaining together small, existing instruction sequences (gadgets) that end with a return instruction."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Shellcode' in assembly context?",
+    "Option1": "Code for managing a command-line shell.",
+    "Option2": "Small piece of assembly code used as a payload in security exploits, designed to perform a specific malicious action (e.g., spawn a shell, download malware).",
+    "Option3": "Assembly code for creating graphical user interfaces.",
+    "4": "Optimized assembly code for fast execution.",
+    "Answer": "Small piece of assembly code used as a payload in security exploits, designed to perform a specific malicious action (e.g., spawn a shell, download malware)."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Padding' in data structures (assembly/C)?",
+    "Option1": "Adding extra data for redundancy.",
+    "Option2": "Inserting unused bytes into a data structure (e.g., struct, array) by the compiler to ensure that subsequent members or the entire structure are aligned to specific memory boundaries, improving access performance.",
+    "Option3": "Adding comments to the code.",
+    "4": "Filling memory with zeros.",
+    "Answer": "Inserting unused bytes into a data structure (e.g., struct, array) by the compiler to ensure that subsequent members or the entire structure are aligned to specific memory boundaries, improving access performance."
+  },
+  {
+    "question_no.": 203,
+    "Question": "Why is 'Memory Alignment' important in assembly?",
+    "Option1": "To save memory space.",
+    "Option2": "To improve CPU performance by ensuring that data items are placed at memory addresses that are multiples of their size, allowing the CPU to access them more efficiently (e.g., a 4-byte integer on a 4-byte boundary).",
+    "Option3": "To prevent memory leaks.",
+    "4": "To simplify memory management.",
+    "Answer": "To improve CPU performance by ensuring that data items are placed at memory addresses that are multiples of their size, allowing the CPU to access them more efficiently (e.g., a 4-byte integer on a 4-byte boundary)."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Big Integer Arithmetic' in assembly?",
+    "Option1": "Arithmetic operations on standard integers.",
+    "Option2": "Performing arithmetic operations (addition, subtraction, multiplication, division) on numbers that exceed the native word size of the CPU, requiring software implementation and handling of carries/borrows across multiple words.",
+    "Option3": "Arithmetic operations on floating-point numbers.",
+    "4": "Arithmetic operations on single bits.",
+    "Answer": "Performing arithmetic operations (addition, subtraction, multiplication, division) on numbers that exceed the native word size of the CPU, requiring software implementation and handling of carries/borrows across multiple words."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Self-Modifying Code'?",
+    "Option1": "Code that optimizes itself at runtime.",
+    "Option2": "Executable code that alters its own instructions or data during its execution, a technique sometimes used for obfuscation, optimization, or dynamic code generation, but generally discouraged in modern programming.",
+    "Option3": "Code that generates new code.",
+    "4": "Code that is immune to errors.",
+    "Answer": "Executable code that alters its own instructions or data during its execution, a technique sometimes used for obfuscation, optimization, or dynamic code generation, but generally discouraged in modern programming."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Rust primarily known for?",
+    "Option1": "Web development (frontend)",
+    "Option2": "Memory safety and performance",
+    "Option3": "Artificial intelligence and machine learning",
+    "Option4": "Mobile application development",
+    "Answer": "Memory safety and performance"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company originally sponsored the development of Rust?",
+    "Option1": "Microsoft",
+    "Option2": "Google",
+    "Option3": "Mozilla Research",
+    "Option4": "Apple",
+    "Answer": "Mozilla Research"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What type of language is Rust?",
+    "Option1": "Interpreted, dynamically typed",
+    "Option2": "Compiled, statically typed",
+    "Option3": "Scripting language",
+    "Option4": "Markup language",
+    "Answer": "Compiled, statically typed"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you print 'Hello, World!' in Rust?",
+    "Option1": "console.log('Hello, World!');",
+    "Option2": "print!('Hello, World!');",
+    "Option3": "println!('Hello, World!');",
+    "Option4": "echo 'Hello, World!';",
+    "Answer": "println!('Hello, World!');"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is 'Cargo' in Rust?",
+    "Option1": "A Rust compiler",
+    "Option2": "Rust's build system and package manager",
+    "Option3": "A Rust linter",
+    "Option4": "Rust's standard library",
+    "Answer": "Rust's build system and package manager"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What file contains the project metadata for Cargo?",
+    "Option1": "main.rs",
+    "Option2": "Cargo.toml",
+    "Option3": "Cargo.lock",
+    "Option4": "config.rs",
+    "Answer": "Cargo.toml"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the entry point function for a Rust executable?",
+    "Option1": "start()",
+    "Option2": "main()",
+    "Option3": "run()",
+    "Option4": "execute()",
+    "Answer": "main()"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you declare a mutable variable in Rust?",
+    "Option1": "let x = 5;",
+    "Option2": "var x = 5;",
+    "Option3": "let mut x = 5;",
+    "Option4": "const x = 5;",
+    "Answer": "let mut x = 5;"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is 'shadowing' in Rust?",
+    "Option1": "Hiding a variable from a different scope",
+    "Option2": "Declaring a new variable with the same name as a previous variable, effectively replacing it",
+    "Option3": "Creating a copy of a variable",
+    "Option4": "Making a variable immutable",
+    "Answer": "Declaring a new variable with the same name as a previous variable, effectively replacing it"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the purpose of the `! ` in `println!`?",
+    "Option1": "It indicates a macro call",
+    "Option2": "It signifies an asynchronous operation",
+    "Option3": "It's an error handling mechanism",
+    "Option4": "It forces immediate execution",
+    "Answer": "It indicates a macro call"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is a 'tuple' in Rust?",
+    "Option1": "A fixed-size collection of items of the same type",
+    "Option2": "A fixed-size collection of items of different types",
+    "Option3": "A dynamically sized list",
+    "Option4": "A key-value pair data structure",
+    "Answer": "A fixed-size collection of items of different types"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you define an array in Rust?",
+    "Option1": "let arr = [1, 2, 3];",
+    "Option2": "let arr = vec![1, 2, 3];",
+    "Option3": "let arr = {1, 2, 3};",
+    "Option4": "let arr = (1, 2, 3);",
+    "Answer": "let arr = [1, 2, 3];"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the difference between `String` and `&str`?",
+    "Option1": "`String` is a string slice, `&str` is a growable, owned string.",
+    "Option2": "`String` is a growable, owned string, `&str` is a string slice (a reference to a string).",
+    "Option3": "They are interchangeable.",
+    "Option4": "`String` is for static text, `&str` is for dynamic text.",
+    "Answer": "`String` is a growable, owned string, `&str` is a string slice (a reference to a string)."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'ownership' in Rust?",
+    "Option1": "A concept that tracks who owns a file on the file system.",
+    "Option2": "A set of rules that governs how memory is managed, ensuring memory safety without a garbage collector.",
+    "Option3": "A way to manage database connections.",
+    "Option4": "A method for object-oriented programming.",
+    "Answer": "A set of rules that governs how memory is managed, ensuring memory safety without a garbage collector."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What are the three core rules of ownership?",
+    "Option1": "Every value has a type. Every type has a size. Every size has a limit.",
+    "Option2": "Each value has an owner. There can only be one owner at a time. When the owner goes out of scope, the value will be dropped.",
+    "Option3": "Variables must be declared. Variables must be initialized. Variables must be used.",
+    "Option4": "Functions must return a value. Functions must take arguments. Functions must be public.",
+    "Answer": "Each value has an owner. There can only be one owner at a time. When the owner goes out of scope, the value will be dropped."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is 'borrowing' in Rust?",
+    "Option1": "Taking ownership of a value temporarily.",
+    "Option2": "Creating references to values without taking ownership, allowing multiple parts of code to access the same data safely.",
+    "Option3": "Copying a value to a new location in memory.",
+    "Option4": "Moving a value from one variable to another.",
+    "Answer": "Creating references to values without taking ownership, allowing multiple parts of code to access the same data safely."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the difference between a 'mutable reference' (`&mut T`) and an 'immutable reference' (`&T`)?",
+    "Option1": "Mutable references can read and write data, immutable references can only read data.",
+    "Option2": "Mutable references can only read data, immutable references can read and write data.",
+    "Option3": "There can be multiple mutable references at once, but only one immutable reference.",
+    "Option4": "Immutable references are always stack-allocated, mutable references are heap-allocated.",
+    "Answer": "Mutable references can read and write data, immutable references can only read data."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the 'Dangling References' problem that Rust prevents?",
+    "Option1": "References to data that has been deallocated.",
+    "Option2": "References that are never used.",
+    "Option3": "References that point to null.",
+    "Option4": "References that are too long.",
+    "Answer": "References to data that has been deallocated."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'lifetimes' in Rust?",
+    "Option1": "The duration of a program's execution.",
+    "Option2": "A concept that ensures references are always valid and point to data that is still in scope.",
+    "Option3": "The time it takes for a function to execute.",
+    "Option4": "The time before a variable is dropped.",
+    "Answer": "A concept that ensures references are always valid and point to data that is still in scope."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'struct' in Rust?",
+    "Option1": "A type of function.",
+    "Option2": "A custom data type that lets you name and package together multiple related values, forming a meaningful group.",
+    "Option3": "A way to define constants.",
+    "Option4": "A control flow statement.",
+    "Answer": "A custom data type that lets you name and package together multiple related values, forming a meaningful group."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is an 'enum' (enumeration) in Rust?",
+    "Option1": "A collection of ordered numbers.",
+    "Option2": "A custom data type that defines a set of possible variants, allowing a value to be one of several possibilities.",
+    "Option3": "A way to define functions with multiple return types.",
+    "Option4": "A type of loop.",
+    "Answer": "A custom data type that defines a set of possible variants, allowing a value to be one of several possibilities."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'match' expression in Rust?",
+    "Option1": "A loop construct.",
+    "Option2": "A control flow operator that allows you to compare a value against a series of patterns and execute code based on which pattern matches.",
+    "Option3": "A way to define functions.",
+    "Option4": "A method for string comparison.",
+    "Answer": "A control flow operator that allows you to compare a value against a series of patterns and execute code based on which pattern matches."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the `Option` enum in Rust used for?",
+    "Option1": "Representing a boolean value.",
+    "Option2": "Handling the possibility of a value being present or absent (like `null` in other languages, but type-safe).",
+    "Option3": "Defining optional function arguments.",
+    "Option4": "Configuring program settings.",
+    "Answer": "Handling the possibility of a value being present or absent (like `null` in other languages, but type-safe)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What are the two variants of the `Option` enum?",
+    "Option1": "True, False",
+    "Option2": "Yes, No",
+    "Option3": "Some(T), None",
+    "Option4": "HasValue, NoValue",
+    "Answer": "Some(T), None"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the `Result` enum in Rust used for?",
+    "Option1": "Returning multiple values from a function.",
+    "Option2": "Handling recoverable errors, indicating either success with a value or failure with an error.",
+    "Option3": "Performing mathematical calculations.",
+    "Option4": "Defining asynchronous operations.",
+    "Answer": "Handling recoverable errors, indicating either success with a value or failure with an error."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What are the two variants of the `Result` enum?",
+    "Option1": "Success, Failure",
+    "Option2": "Ok(T), Err(E)",
+    "Option3": "Done, Error",
+    "Option4": "Passed, Failed",
+    "Answer": "Ok(T), Err(E)"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the `?` operator (question mark operator) used for in Rust?",
+    "Option1": "To define optional arguments.",
+    "Option2": "A concise way to propagate errors from `Result` (and `Option`) by unwrapping the `Ok` or `Some` value, or returning the `Err` or `None` if present.",
+    "Option3": "To declare a new variable.",
+    "Option4": "To perform a boolean check.",
+    "Answer": "A concise way to propagate errors from `Result` (and `Option`) by unwrapping the `Ok` or `Some` value, or returning the `Err` or `None` if present."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'panic!' in Rust?",
+    "Option1": "A warning message.",
+    "Option2": "A macro that causes the program to crash immediately, typically used for unrecoverable errors.",
+    "Option3": "A way to handle recoverable errors.",
+    "Option4": "A method for debugging.",
+    "Answer": "A macro that causes the program to crash immediately, typically used for unrecoverable errors."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'vector' (`Vec<T>`) in Rust?",
+    "Option1": "A fixed-size array.",
+    "Option2": "A growable, heap-allocated list of values of the same type.",
+    "Option3": "A tuple.",
+    "Option4": "A hash map.",
+    "Answer": "A growable, heap-allocated list of values of the same type."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'hash map' (`HashMap<K, V>`) in Rust?",
+    "Option1": "An ordered list of key-value pairs.",
+    "Option2": "A collection of key-value pairs where keys are unique and values are retrieved using their associated keys.",
+    "Option3": "A set of unique values.",
+    "Option4": "A linked list.",
+    "Answer": "A collection of key-value pairs where keys are unique and values are retrieved using their associated keys."
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you define a function in Rust?",
+    "Option1": "func my_function() { ... }",
+    "Option2": "fn my_function() { ... }",
+    "Option3": "function my_function() { ... }",
+    "Option4": "def my_function():",
+    "Answer": "fn my_function() { ... }"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you specify the return type of a function in Rust?",
+    "Option1": "function my_function() -> int { ... }",
+    "Option2": "fn my_function() : int { ... }",
+    "Option3": "fn my_function() -> i32 { ... }",
+    "Option4": "fn my_function() returns i32 { ... }",
+    "Answer": "fn my_function() -> i32 { ... }"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the difference between an 'expression' and a 'statement' in Rust?",
+    "Option1": "Expressions return a value, statements do not.",
+    "Option2": "Statements return a value, expressions do not.",
+    "Option3": "They are identical.",
+    "Option4": "Expressions are for control flow, statements are for declarations.",
+    "Answer": "Expressions return a value, statements do not."
+  },
+  {
+    "question_no.": 34,
+    "Question": "In Rust, if the last line of a function is an expression without a semicolon, what does it signify?",
+    "Option1": "An error.",
+    "Option2": "The return value of the function.",
+    "Option3": "A side effect.",
+    "Option4": "A comment.",
+    "Answer": "The return value of the function."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is `if let` used for?",
+    "Option1": "To define a new variable conditionally.",
+    "Option2": "A concise way to handle a single successful `Some` or `Ok` variant of an `Option` or `Result` enum, while ignoring other variants.",
+    "Option3": "To create a loop.",
+    "Option4": "To declare a constant.",
+    "Answer": "A concise way to handle a single successful `Some` or `Ok` variant of an `Option` or `Result` enum, while ignoring other variants."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `loop` in Rust?",
+    "Option1": "A loop that runs a fixed number of times.",
+    "Option2": "An infinite loop that continues executing until a `break` statement is encountered.",
+    "Option3": "A loop that iterates over a collection.",
+    "Option4": "A loop with a conditional exit at the beginning.",
+    "Answer": "An infinite loop that continues executing until a `break` statement is encountered."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is `while` loop in Rust?",
+    "Option1": "A loop that always runs at least once.",
+    "Option2": "A loop that repeatedly executes a block of code as long as a specified condition is true.",
+    "Option3": "A loop for conditional statements.",
+    "Option4": "A loop for handling errors.",
+    "Answer": "A loop that repeatedly executes a block of code as long as a specified condition is true."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `for` loop in Rust?",
+    "Option1": "A loop that runs based on an index.",
+    "Option2": "A loop that iterates over an `Iterator` (e.g., a range, elements of a collection) and executes a block of code for each item.",
+    "Option3": "A loop that can only be used with numbers.",
+    "Option4": "An infinite loop.",
+    "Answer": "A loop that iterates over an `Iterator` (e.g., a range, elements of a collection) and executes a block of code for each item."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is a 'module' in Rust?",
+    "Option1": "A way to define global variables.",
+    "Option2": "A way to organize code into logical units, controlling visibility and preventing name collisions.",
+    "Option3": "A collection of executable files.",
+    "Option4": "A type of data structure.",
+    "Answer": "A way to organize code into logical units, controlling visibility and preventing name collisions."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'crate' in Rust?",
+    "Option1": "A single Rust source file.",
+    "Option2": "The smallest unit of compilation in Rust, which can be either a binary (executable) or a library.",
+    "Option3": "A Rust function.",
+    "Option4": "A data type.",
+    "Answer": "The smallest unit of compilation in Rust, which can be either a binary (executable) or a library."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the difference between a 'binary crate' and a 'library crate'?",
+    "Option1": "Binary crates are for production, library crates are for development.",
+    "Option2": "Binary crates compile into executables, library crates compile into reusable code that other projects can depend on.",
+    "Option3": "Binary crates are faster, library crates are slower.",
+    "Option4": "Binary crates don't use Cargo, library crates do.",
+    "Answer": "Binary crates compile into executables, library crates compile into reusable code that other projects can depend on."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'path' in Rust?",
+    "Option1": "A file system path.",
+    "Option2": "A way to refer to items (functions, structs, enums, modules) within a crate's module tree.",
+    "Option3": "A type of variable.",
+    "Option4": "A network address.",
+    "Answer": "A way to refer to items (functions, structs, enums, modules) within a crate's module tree."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is `use` keyword used for?",
+    "Option1": "To declare a new variable.",
+    "Option2": "To bring a path into scope, making items available for easier access without their full path.",
+    "Option3": "To define a new module.",
+    "Option4": "To import external files.",
+    "Answer": "To bring a path into scope, making items available for easier access without their full path."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'public' visibility in Rust?",
+    "Option1": "Items are only visible within the current module.",
+    "Option2": "Items are visible to any code that can access the module it's defined in (using `pub`).",
+    "Option3": "Items are only visible to the crate.",
+    "Option4": "Items are never visible outside their file.",
+    "Answer": "Items are visible to any code that can access the module it's defined in (using `pub`)."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'private' visibility in Rust?",
+    "Option1": "Items are visible to any code in the program.",
+    "Option2": "Items are only visible within their direct parent module (the default visibility).",
+    "Option3": "Items are visible to child modules only.",
+    "Option4": "Items are hidden from the compiler.",
+    "Answer": "Items are only visible within their direct parent module (the default visibility)."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Associated Functions' in Rust?",
+    "Option1": "Functions that are independent of any struct or enum.",
+    "Option2": "Functions that are defined within an `impl` block for a struct or enum, but do not take `self` as their first argument (e.g., constructors).",
+    "Option3": "Functions that return a different type.",
+    "Option4": "Functions that are used for testing.",
+    "Answer": "Functions that are defined within an `impl` block for a struct or enum, but do not take `self` as their first argument (e.g., constructors)."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What are 'Methods' in Rust?",
+    "Option1": "Functions that are independent of any struct or enum.",
+    "Option2": "Functions that are defined within an `impl` block for a struct or enum and take `&self`, `&mut self`, or `self` as their first argument.",
+    "Option3": "Functions that can only be called from outside the module.",
+    "Option4": "Functions that do not return any value.",
+    "Answer": "Functions that are defined within an `impl` block for a struct or enum and take `&self`, `&mut self`, or `self` as their first argument."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'Trait' in Rust?",
+    "Option1": "A type of class.",
+    "Option2": "A way to define shared behavior that types can implement, similar to interfaces or abstract classes in other languages.",
+    "Option3": "A data structure for storing generic values.",
+    "Option4": "A mechanism for error handling.",
+    "Answer": "A way to define shared behavior that types can implement, similar to interfaces or abstract classes in other languages."
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you implement a trait for a struct?",
+    "Option1": "class MyStruct implements MyTrait { ... }",
+    "Option2": "impl MyTrait for MyStruct { ... }",
+    "Option3": "trait MyTrait of MyStruct { ... }",
+    "Option4": "struct MyStruct extends MyTrait { ... }",
+    "Answer": "impl MyTrait for MyStruct { ... }"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Generics' in Rust?",
+    "Option1": "A way to define concrete types.",
+    "Option2": "The ability to write code that works with multiple types without repeating code, by using type parameters.",
+    "Option3": "A mechanism for dynamic dispatch.",
+    "Option4": "A way to define global variables.",
+    "Answer": "The ability to write code that works with multiple types without repeating code, by using type parameters."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of `<T>` or `<U>` when defining generic functions or structs?",
+    "Option1": "To specify a concrete type.",
+    "Option2": "To declare a type parameter that represents a placeholder for a specific type.",
+    "Option3": "To indicate a macro.",
+    "Option4": "To denote a lifetime.",
+    "Answer": "To declare a type parameter that represents a placeholder for a specific type."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Trait Bounds' in Rust?",
+    "Option1": "Limits on the number of traits a type can implement.",
+    "Option2": "Constraints placed on generic type parameters, requiring them to implement certain traits to ensure specific functionality is available.",
+    "Option3": "Boundaries for trait definitions.",
+    "Option4": "A way to organize traits.",
+    "Answer": "Constraints placed on generic type parameters, requiring them to implement certain traits to ensure specific functionality is available."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Derive' attribute in Rust?",
+    "Option1": "Used for manual trait implementation.",
+    "Option2": "A convenient way to automatically implement certain traits for custom data types (structs and enums) using macros, such as `Debug`, `Clone`, `Copy`, `PartialEq`.",
+    "Option3": "Used for inheritance.",
+    "Option4": "Used for defining new traits.",
+    "Answer": "A convenient way to automatically implement certain traits for custom data types (structs and enums) using macros, such as `Debug`, `Clone`, `Copy`, `PartialEq`."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which trait is commonly derived for debugging purposes?",
+    "Option1": "Display",
+    "Option2": "Clone",
+    "Option3": "Debug",
+    "Option4": "Default",
+    "Answer": "Debug"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is '`Copy` trait' in Rust?",
+    "Option1": "Allows a type to be moved.",
+    "Option2": "A marker trait that indicates a type can be copied bitwise without special handling; values of `Copy` types are copied on assignment and function calls.",
+    "Option3": "Allows a type to be cloned.",
+    "Option4": "Allows a type to be compared.",
+    "Answer": "A marker trait that indicates a type can be copied bitwise without special handling; values of `Copy` types are copied on assignment and function calls."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is '`Clone` trait' in Rust?",
+    "Option1": "Performs a shallow copy.",
+    "Option2": "A trait that provides a `clone` method for creating a deep copy of a value, often used for types that don't implement `Copy`.",
+    "Option3": "Performs a move operation.",
+    "Option4": "Compares two values for equality.",
+    "Answer": "A trait that provides a `clone` method for creating a deep copy of a value, often used for types that don't implement `Copy`."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the difference between `Copy` and `Clone`?",
+    "Option1": "`Copy` is for primitive types, `Clone` is for complex types.",
+    "Option2": "`Copy` is implicit bitwise duplication for simple types, `Clone` is explicit deep duplication via a method for complex types.",
+    "Option3": "They are identical in behavior.",
+    "Option4": "`Copy` always allocates new memory, `Clone` never does.",
+    "Answer": "`Copy` is implicit bitwise duplication for simple types, `Clone` is explicit deep duplication via a method for complex types."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Closure' in Rust?",
+    "Option1": "A static function.",
+    "Option2": "An anonymous function that can capture values from the environment in which it's defined.",
+    "Option3": "A block of code that is never executed.",
+    "Option4": "A type of loop.",
+    "Answer": "An anonymous function that can capture values from the environment in which it's defined."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What are the three `Fn` traits for closures?",
+    "Option1": "FnOnce, FnMut, Fn",
+    "Option2": "Call, Invoke, Execute",
+    "Option3": "Lambda, Proc, Function",
+    "Option4": "Closure, FnClosure, GenericFn",
+    "Answer": "FnOnce, FnMut, Fn"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Iterator' in Rust?",
+    "Option1": "A loop construct.",
+    "Option2": "A trait that defines a sequence of items and provides a `next` method for yielding the next item in the sequence.",
+    "Option3": "A data structure for storing numbers.",
+    "Option4": "A type of error.",
+    "Answer": "A trait that defines a sequence of items and provides a `next` method for yielding the next item in the sequence."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'Adapter Pattern' related to iterators?",
+    "Option1": "Creating new data structures.",
+    "Option2": "Methods that consume an iterator and produce a new, transformed iterator (e.g., `map`, `filter`).",
+    "Option3": "Methods that consume an iterator and produce a single value (e.g., `sum`, `collect`).",
+    "Option4": "Methods for debugging iterators.",
+    "Answer": "Methods that consume an iterator and produce a new, transformed iterator (e.g., `map`, `filter`)."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Consumer Pattern' related to iterators?",
+    "Option1": "Methods that produce a new iterator.",
+    "Option2": "Methods that consume an iterator and produce a single, final value or side effect (e.g., `sum`, `collect`, `for_each`).",
+    "Option3": "Methods for creating infinite iterators.",
+    "Option4": "Methods for debugging iterators.",
+    "Answer": "Methods that consume an iterator and produce a single, final value or side effect (e.g., `sum`, `collect`, `for_each`)."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Crate Ecosystem' in Rust?",
+    "Option1": "The set of official Rust projects.",
+    "Option2": "The vast collection of publicly available libraries (crates) published on `crates.io`, and the tools like Cargo that manage them.",
+    "Option3": "A specific type of Rust project.",
+    "Option4": "The Rust compiler and its components.",
+    "Answer": "The vast collection of publicly available libraries (crates) published on `crates.io`, and the tools like Cargo that manage them."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `crates.io`?",
+    "Option1": "Rust's official documentation website.",
+    "Option2": "The central package registry for Rust crates.",
+    "Option3": "Rust's official forum.",
+    "Option4": "A cloud platform for Rust applications.",
+    "Answer": "The central package registry for Rust crates."
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you add a dependency to your Cargo project?",
+    "Option1": "In `main.rs`, use `import dependency_name;`",
+    "Option2": "Add `dependency_name = \"1.0\"` under `[dependencies]` in `Cargo.toml`.",
+    "Option3": "Run `cargo install dependency_name`.",
+    "Option4": "Copy the source code into your project.",
+    "Answer": "Add `dependency_name = \"1.0\"` under `[dependencies]` in `Cargo.toml`."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Error Handling' in Rust?",
+    "Option1": "Using `try-catch` blocks.",
+    "Option2": "Rust encourages robust error handling primarily through the `Result` enum and propagating errors, rather than exceptions.",
+    "Option3": "Ignoring errors and letting the program crash.",
+    "Option4": "Using global error variables.",
+    "Answer": "Rust encourages robust error handling primarily through the `Result` enum and propagating errors, rather than exceptions."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `unwarp()` method in Rust (on `Option` or `Result`)?",
+    "Option1": "Safely extracts the value from `Some` or `Ok`.",
+    "Option2": "Extracts the value from `Some` or `Ok`, but will `panic!` if the value is `None` or `Err`.",
+    "Option3": "Converts an `Option` to a `Result`.",
+    "Option4": "Converts a `Result` to an `Option`.",
+    "Answer": "Extracts the value from `Some` or `Ok`, but will `panic!` if the value is `None` or `Err`."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `expect()` method in Rust?",
+    "Option1": "Identical to `unwrap()`.",
+    "Option2": "Similar to `unwrap()`, but allows you to provide a custom error message that will be printed if a `panic!` occurs.",
+    "Option3": "A way to handle errors gracefully.",
+    "Option4": "Used to define default values.",
+    "Answer": "Similar to `unwrap()`, but allows you to provide a custom error message that will be printed if a `panic!` occurs."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Testing' in Rust?",
+    "Option1": "Using external testing frameworks only.",
+    "Option2": "Rust has a built-in testing framework that allows you to write unit, integration, and documentation tests directly within your code.",
+    "Option3": "Only supports manual testing.",
+    "Option4": "Requires a separate testing language.",
+    "Answer": "Rust has a built-in testing framework that allows you to write unit, integration, and documentation tests directly within your code."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you define a unit test in Rust?",
+    "Option1": "#[test_unit] fn test_name() { ... }",
+    "Option2": "fn test_name() { ... }",
+    "Option3": "test fn test_name() { ... }",
+    "Option4": "#[test] fn test_name() { ... }",
+    "Answer": "#[test] fn test_name() { ... }"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Integration Testing' in Rust?",
+    "Option1": "Testing individual functions.",
+    "Option2": "Testing how different parts of your library or application work together, typically by creating a separate `tests` directory.",
+    "Option3": "Testing only the user interface.",
+    "Option4": "Testing performance benchmarks.",
+    "Answer": "Testing how different parts of your library or application work together, typically by creating a separate `tests` directory."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Documentation Tests' in Rust?",
+    "Option1": "Tests that run only on documentation files.",
+    "Option2": "Code examples within your documentation comments that are automatically compiled and run as tests, ensuring your examples are always correct.",
+    "Option3": "Manual tests for documentation clarity.",
+    "Option4": "Tests that verify documentation formatting.",
+    "Answer": "Code examples within your documentation comments that are automatically compiled and run as tests, ensuring your examples are always correct."
+  },
+  {
+    "question_no.": 73,
+    "Question": "How do you run tests in a Cargo project?",
+    "Option1": "cargo build --test",
+    "Option2": "cargo run --test",
+    "Option3": "cargo test",
+    "Option4": "cargo check --test",
+    "Answer": "cargo test"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Concurrency' in Rust?",
+    "Option1": "Running multiple programs sequentially.",
+    "Option2": "Executing multiple parts of a program seemingly simultaneously, often using threads or asynchronous operations, with Rust's safety guarantees.",
+    "Option3": "Distributing tasks across multiple machines.",
+    "Option4": "Compiling code in parallel.",
+    "Answer": "Executing multiple parts of a program seemingly simultaneously, often using threads or asynchronous operations, with Rust's safety guarantees."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Thread' in Rust?",
+    "Option1": "A sequential execution path.",
+    "Option2": "A lightweight unit of execution that runs concurrently with other threads within the same process, sharing the same memory space.",
+    "Option3": "A type of data structure.",
+    "Option4": "A network connection.",
+    "Answer": "A lightweight unit of execution that runs concurrently with other threads within the same process, sharing the same memory space."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `std::thread::spawn` used for?",
+    "Option1": "To create a new process.",
+    "Option2": "To create a new OS thread and run a closure in it.",
+    "Option3": "To create a new function.",
+    "Option4": "To create a new variable.",
+    "Answer": "To create a new OS thread and run a closure in it."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `Arc<T>` (Atomic Reference Counted) in Rust?",
+    "Option1": "A smart pointer for single-threaded environments.",
+    "Option2": "A thread-safe version of `Rc<T>` that allows multiple owners of data across threads, safely handling shared ownership.",
+    "Option3": "A type of array.",
+    "Option4": "A mechanism for inter-process communication.",
+    "Answer": "A thread-safe version of `Rc<T>` that allows multiple owners of data across threads, safely handling shared ownership."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `Mutex<T>` in Rust?",
+    "Option1": "A mechanism for sharing immutable data.",
+    "Option2": "A synchronization primitive that allows only one thread to access shared data at a time, preventing race conditions.",
+    "Option3": "A way to send messages between threads.",
+    "Option4": "A type of error.",
+    "Answer": "A synchronization primitive that allows only one thread to access shared data at a time, preventing race conditions."
+  },
+  {
+    "question_no.": 79,
+    "Question": "When should you use `Arc<Mutex<T>>`?",
+    "Option1": "When sharing data between threads that is immutable.",
+    "Option2": "When you need to share data between multiple threads, and that data needs to be mutably accessed by those threads.",
+    "Option3": "When you only have one thread.",
+    "Option4": "When you want to avoid using threads.",
+    "Answer": "When you need to share data between multiple threads, and that data needs to be mutably accessed by those threads."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Channels' (`std::sync::mpsc`) in Rust?",
+    "Option1": "A way to share mutable state directly between threads.",
+    "Option2": "A mechanism for sending messages between threads, providing safe communication without shared mutable state.",
+    "Option3": "A type of data structure for queues.",
+    "Option4": "A way to synchronize clocks between threads.",
+    "Answer": "A mechanism for sending messages between threads, providing safe communication without shared mutable state."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What does `mpsc` stand for in `std::sync::mpsc`?",
+    "Option1": "Multi-purpose, single-consumer",
+    "Option2": "Multiple Producer, Single Consumer",
+    "Option3": "Message Passing, Single Channel",
+    "Option4": "Mutual Process Synchronization, Communication",
+    "Answer": "Multiple Producer, Single Consumer"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Asynchronous Programming' in Rust?",
+    "Option1": "Executing code in a blocking manner.",
+    "Option2": "A programming paradigm that allows programs to perform tasks without blocking the main thread, often used for I/O-bound operations.",
+    "Option3": "Executing code in parallel on multiple CPU cores.",
+    "Option4": "Writing code without using threads.",
+    "Answer": "A programming paradigm that allows programs to perform tasks without blocking the main thread, often used for I/O-bound operations."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What are 'Futures' in Rust's asynchronous programming?",
+    "Option1": "Functions that block execution.",
+    "Option2": "Values that represent a computation that may not have completed yet, but will eventually produce a result.",
+    "Option3": "A type of loop.",
+    "Option4": "A data structure for storing promises.",
+    "Answer": "Values that represent a computation that may not have completed yet, but will eventually produce a result."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `async/await` syntax in Rust?",
+    "Option1": "A way to define synchronous functions.",
+    "Option2": "Syntactic sugar for working with `Future`s, making asynchronous code look and feel more like synchronous code.",
+    "Option3": "A mechanism for error handling.",
+    "Option4": "A type of loop.",
+    "Answer": "Syntactic sugar for working with `Future`s, making asynchronous code look and feel more like synchronous code."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is an 'Async Runtime' (e.g., Tokio, async-std)?",
+    "Option1": "A special compiler for async code.",
+    "Option2": "A library that provides the infrastructure for executing asynchronous code, including an executor, task scheduler, and I/O primitives.",
+    "Option3": "A debugger for asynchronous programs.",
+    "Option4": "A tool for generating asynchronous code.",
+    "Answer": "A library that provides the infrastructure for executing asynchronous code, including an executor, task scheduler, and I/O primitives."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Macros' in Rust?",
+    "Option1": "Functions that are expanded at runtime.",
+    "Option2": "Code that writes code, allowing for powerful compile-time code generation and metaprogramming.",
+    "Option3": "Predefined constant values.",
+    "Option4": "A way to define global variables.",
+    "Answer": "Code that writes code, allowing for powerful compile-time code generation and metaprogramming."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the difference between 'declarative macros' (`macro_rules!`) and 'procedural macros'?",
+    "Option1": "Declarative macros are for runtime, procedural macros are for compile-time.",
+    "Option2": "Declarative macros use pattern matching to generate code, procedural macros operate on the abstract syntax tree (AST) and generate code programmatically.",
+    "Option3": "Declarative macros are faster, procedural macros are slower.",
+    "Option4": "Declarative macros are deprecated.",
+    "Answer": "Declarative macros use pattern matching to generate code, procedural macros operate on the abstract syntax tree (AST) and generate code programmatically."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'FFI' (Foreign Function Interface) in Rust?",
+    "Option1": "A way to communicate with other Rust programs.",
+    "Option2": "A mechanism that allows Rust code to call functions written in other programming languages (like C) and vice-versa.",
+    "Option3": "A protocol for network communication.",
+    "Option4": "A standard for file formats.",
+    "Answer": "A mechanism that allows Rust code to call functions written in other programming languages (like C) and vice-versa."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `unsafe` block in Rust?",
+    "Option1": "A block of code that allows you to write C code.",
+    "Option2": "A block of code that allows you to bypass some of Rust's safety guarantees (e.g., dereferencing raw pointers), but shifts responsibility for memory safety to the programmer.",
+    "Option3": "A block of code that is never executed.",
+    "Option4": "A block of code that automatically handles all errors.",
+    "Answer": "A block of code that allows you to bypass some of Rust's safety guarantees (e.g., dereferencing raw pointers), but shifts responsibility for memory safety to the programmer."
+  },
+  {
+    "question_no.": 90,
+    "Question": "When should `unsafe` be used?",
+    "Option1": "Whenever possible to improve performance.",
+    "Option2": "Only when strictly necessary and with careful consideration, typically for low-level optimizations, FFI, or implementing certain data structures.",
+    "Option3": "Only during development, never in production.",
+    "Option4": "As a default for all critical code sections.",
+    "Answer": "Only when strictly necessary and with careful consideration, typically for low-level optimizations, FFI, or implementing certain data structures."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Raw Pointers' in Rust?",
+    "Option1": "References to data that are always safe.",
+    "Option2": "Pointers that can be null, mutable, or immutable, and do not carry Rust's ownership or borrowing rules, requiring `unsafe` blocks for dereferencing.",
+    "Option3": "Pointers that are automatically garbage collected.",
+    "Option4": "Pointers to stack-allocated memory only.",
+    "Answer": "Pointers that can be null, mutable, or immutable, and do not carry Rust's ownership or borrowing rules, requiring `unsafe` blocks for dereferencing."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Type Inference' in Rust?",
+    "Option1": "Manually specifying every type.",
+    "Option2": "The compiler's ability to automatically deduce the types of variables, expressions, and function return types, reducing boilerplate.",
+    "Option3": "Converting one type to another.",
+    "Option4": "Checking if types match during runtime.",
+    "Answer": "The compiler's ability to automatically deduce the types of variables, expressions, and function return types, reducing boilerplate."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Pattern Matching' in Rust?",
+    "Option1": "Matching strings with regular expressions.",
+    "Option2": "A powerful feature that allows you to check a value against a pattern and, if it matches, destructure the value and bind parts of it to names.",
+    "Option3": "Comparing two values for equality.",
+    "Option4": "Searching for specific patterns in files.",
+    "Answer": "A powerful feature that allows you to check a value against a pattern and, if it matches, destructure the value and bind parts of it to names."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `_` (underscore) used for in pattern matching?",
+    "Option1": "To create a new variable.",
+    "Option2": "To ignore a value or a part of a pattern, indicating that you don't care about that specific part.",
+    "Option3": "To denote a private field.",
+    "Option4": "To indicate an error.",
+    "Answer": "To ignore a value or a part of a pattern, indicating that you don't care about that specific part."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Traits as Interfaces' in Rust?",
+    "Option1": "Traits are classes with abstract methods.",
+    "Option2": "Traits define a contract of behavior that types must adhere to, similar to interfaces in other languages, enabling polymorphism.",
+    "Option3": "Traits are used for inheritance only.",
+    "Option4": "Traits define data structures.",
+    "Answer": "Traits define a contract of behavior that types must adhere to, similar to interfaces in other languages, enabling polymorphism."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Static Dispatch'?",
+    "Option1": "Method calls are resolved at runtime.",
+    "Option2": "The compiler determines which specific implementation of a method or function to call at compile time, often through monomorphization, leading to faster execution.",
+    "Option3": "Method calls are resolved by the operating system.",
+    "Option4": "Method calls are always indirect.",
+    "Answer": "The compiler determines which specific implementation of a method or function to call at compile time, often through monomorphization, leading to faster execution."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Dynamic Dispatch'?",
+    "Option1": "Method calls are resolved at compile time.",
+    "Option2": "The specific implementation of a method or function to call is determined at runtime, often using trait objects (`dyn Trait`), incurring a small runtime overhead.",
+    "Option3": "Method calls are always direct.",
+    "Option4": "Method calls are never optimized.",
+    "Answer": "The specific implementation of a method or function to call is determined at runtime, often using trait objects (`dyn Trait`), incurring a small runtime overhead."
+  },
+  {
+    "question_no.": 98,
+    "Question": "When would you prefer 'static dispatch' over 'dynamic dispatch'?",
+    "Option1": "When flexibility and runtime extensibility are paramount.",
+    "Option2": "When compile-time performance and zero-cost abstractions are desired, and the set of types is known at compile time.",
+    "Option3": "When memory usage is a primary concern.",
+    "Option4": "When dealing with FFI.",
+    "Answer": "When compile-time performance and zero-cost abstractions are desired, and the set of types is known at compile time."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Type Aliases' (`type`) in Rust?",
+    "Option1": "A way to define new types.",
+    "Option2": "A way to create a new name for an existing type, making code more readable or reducing repetition, without creating a new distinct type.",
+    "Option3": "A way to rename variables.",
+    "Option4": "A way to convert between types.",
+    "Answer": "A way to create a new name for an existing type, making code more readable or reducing repetition, without creating a new distinct type."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Constants' (`const`) in Rust?",
+    "Option1": "Mutable values.",
+    "Option2": "Values that are bound to a name and cannot be changed, and are evaluated at compile time.",
+    "Option3": "Values that can be changed only once.",
+    "Option4": "Values that are always integers.",
+    "Answer": "Values that are bound to a name and cannot be changed, and are evaluated at compile time."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Static Variables' (`static`) in Rust?",
+    "Option1": "Variables that are created at runtime.",
+    "Option2": "Variables that live for the entire duration of the program, storing data in the data segment of the executable.",
+    "Option3": "Variables that are local to a function.",
+    "Option4": "Variables that are always mutable.",
+    "Answer": "Variables that live for the entire duration of the program, storing data in the data segment of the executable."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the difference between `const` and `static`?",
+    "Option1": "`const` can be mutable, `static` cannot.",
+    "Option2": "`const` values are inlined at each use and not addressable, `static` values have a fixed memory location for the entire program's duration.",
+    "Option3": "`const` is for numbers, `static` is for strings.",
+    "Option4": "They are identical in purpose.",
+    "Answer": "`const` values are inlined at each use and not addressable, `static` values have a fixed memory location for the entire program's duration."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Smart Pointers' in Rust?",
+    "Option1": "Raw pointers that are always safe.",
+    "Option2": "Data structures that act like pointers but have additional metadata and capabilities (e.g., `Box<T>`, `Rc<T>`, `Arc<T>`, `RefCell<T>`).",
+    "Option3": "Pointers that automatically deallocate memory.",
+    "Option4": "Pointers that can only point to functions.",
+    "Answer": "Data structures that act like pointers but have additional metadata and capabilities (e.g., `Box<T>`, `Rc<T>`, `Arc<T>`, `RefCell<T>`)."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `Box<T>` used for?",
+    "Option1": "To allocate data on the stack.",
+    "Option2": "To allocate data on the heap and get a pointer to it, often used for recursive data structures or when you need a fixed size for a type.",
+    "Option3": "To store multiple values.",
+    "Option4": "To create an array.",
+    "Answer": "To allocate data on the heap and get a pointer to it, often used for recursive data structures or when you need a fixed size for a type."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `Rc<T>` (Reference Counted) used for?",
+    "Option1": "Shared ownership in multi-threaded environments.",
+    "Option2": "Shared ownership of data in a single-threaded environment, allowing multiple immutable references to the same data, with automatic deallocation when all references are dropped.",
+    "Option3": "Exclusive ownership of data.",
+    "Option4": "Storing references to functions.",
+    "Answer": "Shared ownership of data in a single-threaded environment, allowing multiple immutable references to the same data, with automatic deallocation when all references are dropped."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `RefCell<T>` used for?",
+    "Option1": "Interior mutability with compile-time checks.",
+    "Option2": "Interior mutability with runtime borrowing rules, allowing you to mutate data through an immutable reference in a single-threaded context.",
+    "Option3": "Thread-safe mutable access.",
+    "Option4": "Storing a single reference.",
+    "Answer": "Interior mutability with runtime borrowing rules, allowing you to mutate data through an immutable reference in a single-threaded context."
+  },
+  {
+    "question_no.": 107,
+    "Question": "When would you use `Rc<RefCell<T>>`?",
+    "Option1": "When you need shared, immutable data across multiple threads.",
+    "Option2": "When you need shared, mutable data in a single-threaded environment.",
+    "Option3": "When you only need exclusive mutable access.",
+    "Option4": "When you don't need any shared data.",
+    "Answer": "When you need shared, mutable data in a single-threaded environment."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Deref Trait'?",
+    "Option1": "Allows types to be moved.",
+    "Option2": "Allows smart pointers to behave like regular references, enabling dereferencing with the `*` operator.",
+    "Option3": "Allows types to be copied.",
+    "Option4": "Allows types to be compared.",
+    "Answer": "Allows smart pointers to behave like regular references, enabling dereferencing with the `*` operator."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Drop Trait'?",
+    "Option1": "Called when a variable is moved.",
+    "Option2": "A trait that allows you to customize what happens when a value goes out of scope and its memory is reclaimed (e.g., releasing resources).",
+    "Option3": "Called when a variable is copied.",
+    "Option4": "Called when a function returns.",
+    "Answer": "A trait that allows you to customize what happens when a value goes out of scope and its memory is reclaimed (e.g., releasing resources)."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Interior Mutability'?",
+    "Option1": "Mutating data through a mutable reference.",
+    "Option2": "A design pattern where you can mutate data even when you only have an immutable reference to it, typically achieved using types like `RefCell` or `Mutex`.",
+    "Option3": "Mutating data from within a private method.",
+    "Option4": "Mutating data that is stored on the stack.",
+    "Answer": "A design pattern where you can mutate data even when you only have an immutable reference to it, typically achieved using types like `RefCell` or `Mutex`."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Rc::clone(&rc)' vs 'rc.clone()'",
+    "Option1": "They are identical in all contexts.",
+    "Option2": "`Rc::clone(&rc)` increments the reference count without copying the underlying data, while `rc.clone()` (if `T` implements `Clone`) would perform a deep copy of `T`.",
+    "Option3": "One is for shared references, the other for mutable references.",
+    "Option4": "`Rc::clone` is an error.",
+    "Answer": "`Rc::clone(&rc)` increments the reference count without copying the underlying data, while `rc.clone()` (if `T` implements `Clone`) would perform a deep copy of `T`."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What are 'Zero-Cost Abstractions' in Rust?",
+    "Option1": "Abstractions that don't involve any code.",
+    "Option2": "Abstractions that impose no runtime overhead compared to hand-written, optimized code, as the compiler eliminates them during compilation.",
+    "Option3": "Abstractions that require no memory allocation.",
+    "Option4": "Abstractions that are free to use.",
+    "Answer": "Abstractions that impose no runtime overhead compared to hand-written, optimized code, as the compiler eliminates them during compilation."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Fearless Concurrency' in Rust?",
+    "Option1": "A marketing slogan, not a technical feature.",
+    "Option2": "Rust's promise that its ownership and type system prevent common concurrency bugs (like data races) at compile time, allowing developers to write concurrent code without fear.",
+    "Option3": "A feature that makes all concurrent code run faster.",
+    "Option4": "A tool for debugging concurrent programs.",
+    "Answer": "Rust's promise that its ownership and type system prevent common concurrency bugs (like data races) at compile time, allowing developers to write concurrent code without fear."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a 'Data Race'?",
+    "Option1": "When two threads try to read the same data.",
+    "Option2": "When two or more threads access the same memory location concurrently, at least one of them is a write, and there's no synchronization mechanism, leading to undefined behavior.",
+    "Option3": "When data is copied too slowly.",
+    "Option4": "When data is stored on different memory locations.",
+    "Answer": "When two or more threads access the same memory location concurrently, at least one of them is a write, and there's no synchronization mechanism, leading to undefined behavior."
+  },
+  {
+    "question_no.": 115,
+    "Question": "How does Rust prevent data races?",
+    "Option1": "Through a garbage collector.",
+    "Option2": "Through its ownership system, borrowing rules, and specific `Send`/`Sync` traits that ensure data is accessed safely across threads.",
+    "Option3": "By always making data immutable.",
+    "Option4": "By forcing all data to be copied.",
+    "Answer": "Through its ownership system, borrowing rules, and specific `Send`/`Sync` traits that ensure data is accessed safely across threads."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the 'Send' trait?",
+    "Option1": "A trait for sending data over a network.",
+    "Option2": "A marker trait that indicates a type can be safely sent between threads.",
+    "Option3": "A trait for sending messages between functions.",
+    "Option4": "A trait for sending signals.",
+    "Answer": "A marker trait that indicates a type can be safely sent between threads."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the 'Sync' trait?",
+    "Option1": "A trait for synchronizing time.",
+    "Option2": "A marker trait that indicates a type can be safely shared between threads (i.e., it can be referenced across multiple threads).",
+    "Option3": "A trait for synchronization between processes.",
+    "Option4": "A trait for asynchronous operations.",
+    "Answer": "A marker trait that indicates a type can be safely shared between threads (i.e., it can be referenced across multiple threads)."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `PhantomData<T>`?",
+    "Option1": "A data type for storing ghost values.",
+    "Option2": "A zero-sized marker type used to tell the compiler that a generic type parameter `T` is conceptually 'used' by a type, even if it doesn't appear in its fields, influencing lifetime and type-checking.",
+    "Option3": "A type for representing null values.",
+    "Option4": "A type for storing temporary data.",
+    "Answer": "A zero-sized marker type used to tell the compiler that a generic type parameter `T` is conceptually 'used' by a type, even if it doesn't appear in its fields, influencing lifetime and type-checking."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Associated Types' in traits?",
+    "Option1": "Types that are associated with specific instances of a trait.",
+    "Option2": "Placeholders for concrete types defined within a trait, allowing the implementer of the trait to specify the actual type.",
+    "Option3": "Types that are automatically converted.",
+    "Option4": "Types that are only used internally by the trait.",
+    "Answer": "Placeholders for concrete types defined within a trait, allowing the implementer of the trait to specify the actual type."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is '`Self` Type' in Rust?",
+    "Option1": "Refers to the current module.",
+    "Option2": "Refers to the type that the `impl` block is for, typically used in method signatures or associated functions to refer to the implementing type.",
+    "Option3": "Refers to the global scope.",
+    "Option4": "Refers to a specific instance of a struct.",
+    "Answer": "Refers to the type that the `impl` block is for, typically used in method signatures or associated functions to refer to the implementing type."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Newtype Pattern' in Rust?",
+    "Option1": "Creating a new type that is an alias for an existing type.",
+    "Option2": "Creating a new, distinct type by wrapping an existing type in a single-element tuple struct, providing type safety and allowing new behaviors via trait implementations.",
+    "Option3": "A way to define generic types.",
+    "Option4": "A way to convert between different types.",
+    "Answer": "Creating a new, distinct type by wrapping an existing type in a single-element tuple struct, providing type safety and allowing new behaviors via trait implementations."
+  },
+  {
+    "question_no.": 122,
+    "Question": "When would you use the 'Newtype Pattern'?",
+    "Option1": "To avoid boilerplate code.",
+    "Option2": "To enforce strong typing for primitive values (e.g., `UserId(u32)` instead of just `u32`), prevent logical errors, and provide dedicated methods or trait implementations.",
+    "Option3": "To create polymorphic types.",
+    "Option4": "To make a type mutable.",
+    "Answer": "To enforce strong typing for primitive values (e.g., `UserId(u32)` instead of just `u32`), prevent logical errors, and provide dedicated methods or trait implementations."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Dereferencing' in Rust?",
+    "Option1": "Creating a reference to a value.",
+    "Option2": "Accessing the value that a pointer or reference points to, using the `*` operator.",
+    "Option3": "Deallocating memory.",
+    "Option4": "Moving a value from one location to another.",
+    "Answer": "Accessing the value that a pointer or reference points to, using the `*` operator."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Method Syntax' in Rust (dot operator)?",
+    "Option1": "Only for accessing struct fields.",
+    "Option2": "A syntactic sugar that automatically performs dereferencing and borrowing as needed to call methods on a value, making method calls consistent regardless of whether you have the value, a reference, or a smart pointer.",
+    "Option3": "Only for calling associated functions.",
+    "Option4": "Only for public methods.",
+    "Answer": "A syntactic sugar that automatically performs dereferencing and borrowing as needed to call methods on a value, making method calls consistent regardless of whether you have the value, a reference, or a smart pointer."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Match Guards'?",
+    "Option1": "A way to prevent certain patterns from matching.",
+    "Option2": "Additional `if` conditions within `match` arms that refine pattern matching, allowing for more specific matching criteria beyond simple structural patterns.",
+    "Option3": "A mechanism for error handling.",
+    "Option4": "A way to define default values for unmatched patterns.",
+    "Answer": "Additional `if` conditions within `match` arms that refine pattern matching, allowing for more specific matching criteria beyond simple structural patterns."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `cfg` attribute in Rust?",
+    "Option1": "For configuring Cargo.",
+    "Option2": "A conditional compilation attribute that allows you to include or exclude parts of your code based on compile-time features, target OS, and other configurations.",
+    "Option3": "For defining build profiles.",
+    "Option4": "For controlling logging output.",
+    "Answer": "A conditional compilation attribute that allows you to include or exclude parts of your code based on compile-time features, target OS, and other configurations."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Build Scripts' in Cargo?",
+    "Option1": "Scripts for deploying applications.",
+    "Option2": "Custom scripts that Cargo can run before compiling your crate, often used for code generation, compiling C code, or setting environment variables.",
+    "Option3": "Scripts for running tests.",
+    "Option4": "Scripts for creating documentation.",
+    "Answer": "Custom scripts that Cargo can run before compiling your crate, often used for code generation, compiling C code, or setting environment variables."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Benchmarking' in Rust?",
+    "Option1": "A type of unit test.",
+    "Option2": "Measuring the performance of your code, often using the `criterion` crate or `test::Bencher` (unstable), to identify bottlenecks and optimize execution speed.",
+    "Option3": "A way to compare code quality.",
+    "Option4": "A tool for code coverage.",
+    "Answer": "Measuring the performance of your code, often using the `criterion` crate or `test::Bencher` (unstable), to identify bottlenecks and optimize execution speed."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Macros 2.0' (Procedural Macros, again)?",
+    "Option1": "A new version of declarative macros.",
+    "Option2": "A more powerful and flexible macro system that operates on the Abstract Syntax Tree (AST), allowing developers to write custom derives, attribute-like macros, and function-like macros.",
+    "Option3": "A deprecated macro system.",
+    "Option4": "A macro system for generating documentation.",
+    "Answer": "A more powerful and flexible macro system that operates on the Abstract Syntax Tree (AST), allowing developers to write custom derives, attribute-like macros, and function-like macros."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What are 'Attribute-like Macros'?",
+    "Option1": "Macros that work like `macro_rules!`.",
+    "Option2": "Procedural macros that allow you to define custom attributes (e.g., `#[my_attribute]`) that can be applied to items, structs, functions, etc., to modify their behavior or generate code.",
+    "Option3": "Macros that only work on functions.",
+    "Option4": "Macros that expand into multiple statements.",
+    "Answer": "Procedural macros that allow you to define custom attributes (e.g., `#[my_attribute]`) that can be applied to items, structs, functions, etc., to modify their behavior or generate code."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What are 'Function-like Macros'?",
+    "Option1": "Macros that can only be called without arguments.",
+    "Option2": "Procedural macros that behave like function calls (e.g., `my_macro!(arg1, arg2)`), but expand into code at compile time, offering more complex parsing than `macro_rules!`.",
+    "Option3": "Macros that are always inlined.",
+    "Option4": "Macros that are only used for logging.",
+    "Answer": "Procedural macros that behave like function calls (e.g., `my_macro!(arg1, arg2)`), but expand into code at compile time, offering more complex parsing than `macro_rules!`."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Compiler Error Messages' in Rust?",
+    "Option1": "They are typically cryptic and unhelpful.",
+    "Option2": "They are renowned for being clear, detailed, and providing actionable suggestions to help developers fix issues, often including example code.",
+    "Option3": "They only show line numbers.",
+    "Option4": "They are usually caused by runtime errors.",
+    "Answer": "They are renowned for being clear, detailed, and providing actionable suggestions to help developers fix issues, often including example code."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Clippy'?",
+    "Option1": "A Rust compiler.",
+    "Option2": "A Rust linter that provides additional warnings and suggestions beyond what the standard compiler offers, enforcing best practices and catching common pitfalls.",
+    "Option3": "A Rust debugger.",
+    "Option4": "A Rust formatter.",
+    "Answer": "A Rust linter that provides additional warnings and suggestions beyond what the standard compiler offers, enforcing best practices and catching common pitfalls."
+  },
+  {
+    "question_no.": 134,
+    "Question": "How do you run Clippy?",
+    "Option1": "cargo check",
+    "Option2": "cargo run",
+    "Option3": "cargo clippy",
+    "Option4": "cargo lint",
+    "Answer": "cargo clippy"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Rustfmt'?",
+    "Option1": "A Rust linter.",
+    "Option2": "A tool for automatically formatting Rust code according to a consistent style, making code more readable and maintainable.",
+    "Option3": "A Rust compiler option.",
+    "Option4": "A tool for generating documentation.",
+    "Answer": "A tool for automatically formatting Rust code according to a consistent style, making code more readable and maintainable."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you run Rustfmt?",
+    "Option1": "cargo check --format",
+    "Option2": "cargo fmt",
+    "Option3": "cargo tidy",
+    "Option4": "cargo style",
+    "Answer": "cargo fmt"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Embedded Rust'?",
+    "Option1": "Rust code running on web browsers.",
+    "Option2": "Using Rust to program microcontrollers and other resource-constrained devices, leveraging its memory safety and low-level control.",
+    "Option3": "Rust code embedded within other languages.",
+    "Option4": "Rust code for desktop applications.",
+    "Answer": "Using Rust to program microcontrollers and other resource-constrained devices, leveraging its memory safety and low-level control."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What are 'no_std' crates?",
+    "Option1": "Crates that do not use any external dependencies.",
+    "Option2": "Crates that opt out of using the Rust standard library, allowing them to run in environments without an operating system (like embedded systems).",
+    "Option3": "Crates that are not officially supported.",
+    "Option4": "Crates that are designed for web development.",
+    "Answer": "Crates that opt out of using the Rust standard library, allowing them to run in environments without an operating system (like embedded systems)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'WebAssembly (Wasm)' and Rust's role?",
+    "Option1": "A new web browser.",
+    "Option2": "A binary instruction format for a stack-based virtual machine, allowing Rust to compile to Wasm for high-performance execution in web browsers and other environments.",
+    "Option3": "A new JavaScript framework.",
+    "Option4": "A standard for server-side web development.",
+    "Answer": "A binary instruction format for a stack-based virtual machine, allowing Rust to compile to Wasm for high-performance execution in web browsers and other environments."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `wasm-bindgen`?",
+    "Option1": "A tool for compiling Rust to JavaScript.",
+    "Option2": "A tool that facilitates high-level interactions between Wasm modules compiled from Rust and JavaScript, enabling Rust to directly manipulate the DOM and call JS functions.",
+    "Option3": "A tool for debugging Wasm applications.",
+    "Option4": "A tool for optimizing Wasm binaries.",
+    "Answer": "A tool that facilitates high-level interactions between Wasm modules compiled from Rust and JavaScript, enabling Rust to directly manipulate the DOM and call JS functions."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Serde' (Serialize/Deserialize) in Rust?",
+    "Option1": "A database library.",
+    "Option2": "A powerful and popular framework for serializing and deserializing Rust data structures into various formats (JSON, YAML, TOML, etc.) and vice versa.",
+    "Option3": "A web framework.",
+    "Option4": "A networking library.",
+    "Answer": "A powerful and popular framework for serializing and deserializing Rust data structures into various formats (JSON, YAML, TOML, etc.) and vice versa."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the primary benefit of Serde?",
+    "Option1": "It simplifies database operations.",
+    "Option2": "It provides a generic and efficient way to convert Rust data into and from external formats, reducing boilerplate and ensuring type safety.",
+    "Option3": "It improves network performance.",
+    "Option4": "It encrypts data during serialization.",
+    "Answer": "It provides a generic and efficient way to convert Rust data into and from external formats, reducing boilerplate and ensuring type safety."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Tokio'?",
+    "Option1": "A synchronous web server.",
+    "Option2": "A popular asynchronous runtime for Rust, providing an event loop, networking utilities, and a task scheduler for building highly concurrent and performant applications.",
+    "Option3": "A database client library.",
+    "Option4": "A GUI framework.",
+    "Answer": "A popular asynchronous runtime for Rust, providing an event loop, networking utilities, and a task scheduler for building highly concurrent and performant applications."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `reqwest` in Rust?",
+    "Option1": "A local file system library.",
+    "Option2": "A high-level HTTP client library for making web requests, supporting both blocking and asynchronous operations.",
+    "Option3": "A database query builder.",
+    "Option4": "A parsing library for command-line arguments.",
+    "Answer": "A high-level HTTP client library for making web requests, supporting both blocking and asynchronous operations."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Rocket' or 'Actix-web'?",
+    "Option1": "Database management systems.",
+    "Option2": "Popular web frameworks for building web applications and APIs in Rust.",
+    "Option3": "Frontend JavaScript frameworks.",
+    "Option4": "Tools for continuous integration.",
+    "Answer": "Popular web frameworks for building web applications and APIs in Rust."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Diesel' in Rust?",
+    "Option1": "A web server.",
+    "Option2": "A powerful and safe Object-Relational Mapper (ORM) for Rust, providing a query builder and type-safe interactions with relational databases.",
+    "Option3": "A machine learning library.",
+    "Option4": "A testing framework.",
+    "Answer": "A powerful and safe Object-Relational Mapper (ORM) for Rust, providing a query builder and type-safe interactions with relational databases."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is an `ORM`?",
+    "Option1": "Object Request Modeler",
+    "Option2": "Object-Relational Mapping",
+    "Option3": "Operational Resource Manager",
+    "Option4": "Online Reporting Module",
+    "Answer": "Object-Relational Mapping"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `clap` in Rust?",
+    "Option1": "A library for logging.",
+    "Option2": "A powerful command-line argument parser for Rust applications, allowing you to define and parse arguments easily.",
+    "Option3": "A library for file I/O.",
+    "Option4": "A library for graphical user interfaces.",
+    "Answer": "A powerful command-line argument parser for Rust applications, allowing you to define and parse arguments easily."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Command-Line Interface (CLI) application'?",
+    "Option1": "An application with a graphical user interface.",
+    "Option2": "An application that interacts with the user through a text-based console, taking input and providing output as text.",
+    "Option3": "An application that runs in a web browser.",
+    "Option4": "An application that requires a database.",
+    "Answer": "An application that interacts with the user through a text-based console, taking input and providing output as text."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the `main.rs` file for in a Cargo project?",
+    "Option1": "It contains all the configuration for the project.",
+    "Option2": "It is the source file for the binary (executable) crate, containing the `main` function.",
+    "Option3": "It is the source file for a library crate.",
+    "Option4": "It's a temporary file used during compilation.",
+    "Answer": "It is the source file for the binary (executable) crate, containing the `main` function."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the `lib.rs` file for in a Cargo project?",
+    "Option1": "It contains the main executable logic.",
+    "Option2": "It is the source file for a library crate, containing public APIs that other crates can use.",
+    "Option3": "It's a file for defining macros.",
+    "Option4": "It's a file for tests only.",
+    "Answer": "It is the source file for a library crate, containing public APIs that other crates can use."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the purpose of `std::mem::drop`?",
+    "Option1": "To manually free memory.",
+    "Option2": "To explicitly run the `Drop` trait's implementation for a value, causing it to be deallocated earlier than it would normally go out of scope.",
+    "Option3": "To prevent a value from being dropped.",
+    "Option4": "To copy a value.",
+    "Answer": "To explicitly run the `Drop` trait's implementation for a value, causing it to be deallocated earlier than it would normally go out of scope."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `Result::unwrap_or()`?",
+    "Option1": "Panics if the result is `Err`.",
+    "Option2": "Returns the contained `Ok` value or a provided default value if the result is `Err`.",
+    "Option3": "Returns an `Option`.",
+    "Option4": "Always returns a default value.",
+    "Answer": "Returns the contained `Ok` value or a provided default value if the result is `Err`."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `Option::unwrap_or_else()`?",
+    "Option1": "Panics if the option is `None`.",
+    "Option2": "Returns the contained `Some` value or computes a default from a closure if the option is `None`.",
+    "Option3": "Returns a default value without a closure.",
+    "Option4": "Always returns a value based on the type.",
+    "Answer": "Returns the contained `Some` value or computes a default from a closure if the option is `None`."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `as_ref()` for on `Option` or `Result`?",
+    "Option1": "Converts to a mutable reference.",
+    "Option2": "Converts `Option<T>` to `Option<&T>` or `Result<T, E>` to `Result<&T, &E>`, allowing you to borrow the contained value without taking ownership.",
+    "Option3": "Converts to a raw pointer.",
+    "Option4": "Makes a copy of the contained value.",
+    "Answer": "Converts `Option<T>` to `Option<&T>` or `Result<T, E>` to `Result<&T, &E>`, allowing you to borrow the contained value without taking ownership."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `as_mut()` for on `Option` or `Result`?",
+    "Option1": "Converts to an immutable reference.",
+    "Option2": "Converts `Option<T>` to `Option<&mut T>` or `Result<T, E>` to `Result<&mut T, &mut E>`, allowing you to mutably borrow the contained value.",
+    "Option3": "Converts to a raw pointer.",
+    "Option4": "Creates a new mutable value.",
+    "Answer": "Converts `Option<T>` to `Option<&mut T>` or `Result<T, E>` to `Result<&mut T, &mut E>`, allowing you to mutably borrow the contained value."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Traits for Operator Overloading'?",
+    "Option1": "Rust does not support operator overloading.",
+    "Option2": "Rust uses specific traits (e.g., `Add`, `Mul`, `Deref`) to allow custom types to implement behavior for operators, providing a consistent interface.",
+    "Option3": "Operators can only be overloaded for primitive types.",
+    "Option4": "Operator overloading is only possible with macros.",
+    "Answer": "Rust uses specific traits (e.g., `Add`, `Mul`, `Deref`) to allow custom types to implement behavior for operators, providing a consistent interface."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `Default` trait?",
+    "Option1": "A trait for defining initial values for variables.",
+    "Option2": "A trait that allows a type to have a default value, often used with `#[derive(Default)]` or `Default::default()`.",
+    "Option3": "A trait for setting default arguments in functions.",
+    "Option4": "A trait for defining default error messages.",
+    "Answer": "A trait that allows a type to have a default value, often used with `#[derive(Default)]` or `Default::default()`."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `From` and `Into` traits for?",
+    "Option1": "For converting numbers to strings.",
+    "Option2": "Generic conversion traits that allow you to convert one type into another, providing an ergonomic and safe way to perform type conversions.",
+    "Option3": "For creating new types.",
+    "Option4": "For parsing input from files.",
+    "Answer": "Generic conversion traits that allow you to convert one type into another, providing an ergonomic and safe way to perform type conversions."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the relationship between `From` and `Into`?",
+    "Option1": "They are independent traits.",
+    "Option2": "If you implement `From<T> for U`, then `Into<U> for T` is automatically implemented, and vice versa.",
+    "Option3": "`From` is for consuming, `Into` is for producing.",
+    "Option4": "They are used for different types of conversions.",
+    "Answer": "If you implement `From<T> for U`, then `Into<U> for T` is automatically implemented, and vice versa."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `TryFrom` and `TryInto` traits for?",
+    "Option1": "Unsafe conversions.",
+    "Option2": "Conversion traits that return a `Result`, allowing for fallible conversions where the conversion might fail (e.g., parsing a string to an integer).",
+    "Option3": "Conversions that never fail.",
+    "Option4": "Conversions only for primitive types.",
+    "Answer": "Conversion traits that return a `Result`, allowing for fallible conversions where the conversion might fail (e.g., parsing a string to an integer)."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the `PartialEq` and `Eq` traits for?",
+    "Option1": "For ordering values.",
+    "Option2": "`PartialEq` allows for partial equality (e.g., `f64`), while `Eq` implies total equality (if `a == b` then `b == a` and `a == a`).",
+    "Option3": "They are identical.",
+    "Option4": "`PartialEq` is for references, `Eq` is for owned values.",
+    "Answer": "`PartialEq` allows for partial equality (e.g., `f64`), while `Eq` implies total equality (if `a == b` then `b == a` and `a == a`)."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `PartialOrd` and `Ord` traits for?",
+    "Option1": "For comparing types.",
+    "Option2": "`PartialOrd` allows for partial ordering (e.g., `f64` with NaN), while `Ord` implies total ordering (all values can be compared and ordered consistently).",
+    "Option3": "They are identical.",
+    "Option4": "`PartialOrd` is for mutable values, `Ord` is for immutable values.",
+    "Answer": "`PartialOrd` allows for partial ordering (e.g., `f64` with NaN), while `Ord` implies total ordering (all values can be compared and ordered consistently)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Standard Library' in Rust (`std`)?",
+    "Option1": "A collection of external crates.",
+    "Option2": "The core set of modules and types that come with Rust, providing fundamental functionality for common tasks (e.g., collections, I/O, concurrency).",
+    "Option3": "Only for low-level system programming.",
+    "Option4": "A set of deprecated functions.",
+    "Answer": "The core set of modules and types that come with Rust, providing fundamental functionality for common tasks (e.g., collections, I/O, concurrency)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Core Library' (`core`)?",
+    "Option1": "A subset of `std` that depends on the operating system.",
+    "Option2": "A smaller, more fundamental subset of the standard library that is platform-agnostic and doesn't require an operating system, often used in `no_std` environments.",
+    "Option3": "A library for basic arithmetic.",
+    "Option4": "A library for web development.",
+    "Answer": "A smaller, more fundamental subset of the standard library that is platform-agnostic and doesn't require an operating system, often used in `no_std` environments."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Alloc Crate' (`alloc`)?",
+    "Option1": "A crate for stack allocation.",
+    "Option2": "A crate that provides heap allocation functionalities (e.g., `Box`, `Vec`, `String`) but without requiring the full `std` library, useful in `no_std` contexts with a custom allocator.",
+    "Option3": "A crate for memory management in general.",
+    "Option4": "A crate for garbage collection.",
+    "Answer": "A crate that provides heap allocation functionalities (e.g., `Box`, `Vec`, `String`) but without requiring the full `std` library, useful in `no_std` contexts with a custom allocator."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Raw Strings' in Rust?",
+    "Option1": "Strings that are not UTF-8 encoded.",
+    "Option2": "String literals prefixed with `r#` (and optionally additional `#`s) that ignore escape sequences, useful for regular expressions or Windows paths.",
+    "Option3": "Strings that cannot be modified.",
+    "Option4": "Strings that are automatically allocated on the heap.",
+    "Answer": "String literals prefixed with `r#` (and optionally additional `#`s) that ignore escape sequences, useful for regular expressions or Windows paths."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Byte Strings' (`b\"\"`) in Rust?",
+    "Option1": "Strings that contain only ASCII characters.",
+    "Option2": "Byte literal strings that are fixed-size arrays of bytes (`&[u8; N]`), useful for representing raw binary data or C-style strings.",
+    "Option3": "Strings that are dynamically allocated.",
+    "Option4": "Strings that are interpreted as numbers.",
+    "Answer": "Byte literal strings that are fixed-size arrays of bytes (`&[u8; N]`), useful for representing raw binary data or C-style strings."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Regular Expressions' in Rust?",
+    "Option1": "Built into the standard library.",
+    "Option2": "Handled by external crates like the `regex` crate, which provides a powerful and efficient regex engine.",
+    "Option3": "Not supported in Rust.",
+    "Option4": "Only supported through FFI to C libraries.",
+    "Answer": "Handled by external crates like the `regex` crate, which provides a powerful and efficient regex engine."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Macros for Debugging'?",
+    "Option1": "Macros that automatically fix errors.",
+    "Option2": "Macros like `dbg!` that print debugging information (value, file, line, column) to `stderr` and then return the value, useful for quick inspection.",
+    "Option3": "Macros that only work in release builds.",
+    "Option4": "Macros for performance profiling.",
+    "Answer": "Macros like `dbg!` that print debugging information (value, file, line, column) to `stderr` and then return the value, useful for quick inspection."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Compile-time Assertions'?",
+    "Option1": "Assertions that run at runtime.",
+    "Option2": "Macros like `assert!` and `assert_eq!` that check conditions at runtime, and `const_assert!` (from a crate) that check conditions at compile time for constant values.",
+    "Option3": "Assertions that only work in debug builds.",
+    "Option4": "Assertions for testing only.",
+    "Answer": "Macros like `assert!` and `assert_eq!` that check conditions at runtime, and `const_assert!` (from a crate) that check conditions at compile time for constant values."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Build Profiles' in Cargo (`release`, `debug`)?",
+    "Option1": "Different ways to run tests.",
+    "Option2": "Predefined configurations (e.g., `debug` for faster compilation with debugging info, `release` for optimized, production-ready binaries) that affect how Cargo builds your project.",
+    "Option3": "Different versions of Rust.",
+    "Option4": "Different operating systems.",
+    "Answer": "Predefined configurations (e.g., `debug` for faster compilation with debugging info, `release` for optimized, production-ready binaries) that affect how Cargo builds your project."
+  },
+  {
+    "question_no.": 173,
+    "Question": "How do you build a release binary?",
+    "Option1": "cargo build",
+    "Option2": "cargo build --release",
+    "Option3": "cargo run --release",
+    "Option4": "cargo compile --release",
+    "Answer": "cargo build --release"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Cross-Compilation' in Rust?",
+    "Option1": "Compiling code on multiple machines.",
+    "Option2": "Compiling your Rust code for a different target platform (e.g., compiling for Windows from Linux, or for an embedded device).",
+    "Option3": "Compiling code in parallel.",
+    "Option4": "Compiling code that uses multiple languages.",
+    "Answer": "Compiling your Rust code for a different target platform (e.g., compiling for Windows from Linux, or for an embedded device)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `rustup`?",
+    "Option1": "Rust's package manager.",
+    "Option2": "The Rust toolchain installer, used to manage Rust versions, components (like `rustfmt`, `clippy`), and target platforms.",
+    "Option3": "Rust's official documentation.",
+    "Option4": "Rust's debugger.",
+    "Answer": "The Rust toolchain installer, used to manage Rust versions, components (like `rustfmt`, `clippy`), and target platforms."
+  },
+  {
+    "question_no.": 176,
+    "Question": "How do you install `rustup`?",
+    "Option1": "cargo install rustup",
+    "Option2": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh",
+    "Option3": "npm install rustup",
+    "Option4": "sudo apt-get install rustup",
+    "Answer": "curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `rustdoc`?",
+    "Option1": "A Rust linter.",
+    "Option2": "The official documentation generator for Rust, which generates HTML documentation from your code's comments.",
+    "Option3": "A Rust debugger.",
+    "Option4": "A Rust package registry.",
+    "Answer": "The official documentation generator for Rust, which generates HTML documentation from your code's comments."
+  },
+  {
+    "question_no.": 178,
+    "Question": "How do you generate documentation for your project?",
+    "Option1": "cargo build --doc",
+    "Option2": "cargo doc",
+    "Option3": "cargo generate-docs",
+    "Option4": "cargo make doc",
+    "Answer": "cargo doc"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Benchmarking' (revisited) and why is it important?",
+    "Option1": "It's only for academic research.",
+    "Option2": "Measuring code performance is crucial for identifying bottlenecks, optimizing critical sections, and ensuring that changes don't degrade performance, especially in high-performance applications.",
+    "Option3": "It's a way to prove your code is correct.",
+    "Option4": "It's a tool for debugging memory leaks.",
+    "Answer": "Measuring code performance is crucial for identifying bottlenecks, optimizing critical sections, and ensuring that changes don't degrade performance, especially in high-performance applications."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'FFI and `no_mangle`'?",
+    "Option1": "Used for type safety.",
+    "Option2": "`no_mangle` is an attribute used in FFI to prevent the Rust compiler from mangling the function name, making it accessible from other languages with its original name.",
+    "Option3": "Used for error handling.",
+    "Option4": "Used for creating new modules.",
+    "Answer": "`no_mangle` is an attribute used in FFI to prevent the Rust compiler from mangling the function name, making it accessible from other languages with its original name."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `extern \"C\"` block used for in FFI?",
+    "Option1": "To specify a different compiler.",
+    "Option2": "To define a block of functions that adhere to the C Application Binary Interface (ABI), making them callable from C and other languages that follow C's calling conventions.",
+    "Option3": "To include C source files directly.",
+    "Option4": "To link with C++ libraries.",
+    "Answer": "To define a block of functions that adhere to the C Application Binary Interface (ABI), making them callable from C and other languages that follow C's calling conventions."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Box::leak()`?",
+    "Option1": "A safe way to deallocate memory.",
+    "Option2": "A function that consumes a `Box` and returns a mutable static lifetime reference (`&'static mut T`) to the contained value, effectively leaking the memory (it will not be dropped).",
+    "Option3": "A function for testing memory leaks.",
+    "Option4": "A function that reallocates memory.",
+    "Answer": "A function that consumes a `Box` and returns a mutable static lifetime reference (`&'static mut T`) to the contained value, effectively leaking the memory (it will not be dropped)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "When might `Box::leak()` be used?",
+    "Option1": "For general memory management.",
+    "Option2": "For creating global singletons, FFI where C code expects `static` data, or in situations where explicit memory management outside of Rust's typical drop semantics is required.",
+    "Option3": "To avoid using smart pointers.",
+    "Option4": "To improve performance of temporary values.",
+    "Answer": "For creating global singletons, FFI where C code expects `static` data, or in situations where explicit memory management outside of Rust's typical drop semantics is required."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Rc::downgrade()` and `Weak<T>`?",
+    "Option1": "Used for creating strong circular references.",
+    "Option2": "`Rc::downgrade()` creates a `Weak<T>` pointer, which is a non-owning reference to `Rc<T>`. It prevents reference cycles and memory leaks when `Rc<T>` instances refer to each other.",
+    "Option3": "Used for converting `Rc` to `Arc`.",
+    "Option4": "Used for debugging reference counts.",
+    "Answer": "`Rc::downgrade()` creates a `Weak<T>` pointer, which is a non-owning reference to `Rc<T>`. It prevents reference cycles and memory leaks when `Rc<T>` instances refer to each other."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Deref` vs `DerefMut` traits?",
+    "Option1": "They are identical.",
+    "Option2": "`Deref` allows immutable dereferencing (`*T`), while `DerefMut` allows mutable dereferencing (`*mut T`), enabling smart pointers to behave like mutable references.",
+    "Option3": "`Deref` is for references, `DerefMut` is for values.",
+    "Option4": "`Deref` is for primitive types, `DerefMut` is for complex types.",
+    "Answer": "`Deref` allows immutable dereferencing (`*T`), while `DerefMut` allows mutable dereferencing (`*mut T`), enabling smart pointers to behave like mutable references."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Pinning' (e.g., `Pin<P>`) in async Rust?",
+    "Option1": "A way to make data immortal.",
+    "Option2": "A type that ensures a value is 'pinned' in memory, meaning its address won't change, which is crucial for self-referential structs used in asynchronous futures.",
+    "Option3": "A way to allocate memory on the stack.",
+    "Option4": "A tool for debugging memory usage.",
+    "Answer": "A type that ensures a value is 'pinned' in memory, meaning its address won't change, which is crucial for self-referential structs used in asynchronous futures."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is a 'Crate Feature' in Cargo?",
+    "Option1": "A required dependency.",
+    "Option2": "A way to enable or disable optional functionality or dependencies in a crate at compile time, declared in `Cargo.toml`.",
+    "Option3": "A type of module.",
+    "Option4": "A flag for debugging.",
+    "Answer": "A way to enable or disable optional functionality or dependencies in a crate at compile time, declared in `Cargo.toml`."
+  },
+  {
+    "question_no.": 188,
+    "Question": "How do you enable a feature when compiling?",
+    "Option1": "cargo build --with-feature my_feature",
+    "Option2": "cargo build --features my_feature",
+    "Option3": "cargo run --enable-feature my_feature",
+    "Option4": "cargo add my_feature",
+    "Answer": "cargo build --features my_feature"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `no_mangle` (revisited) and why is it used with FFI?",
+    "Option1": "To generate a random function name.",
+    "Option2": "It prevents the Rust compiler from altering the function's symbol name during compilation, ensuring that external languages can find and call it by its original name.",
+    "Option3": "To make a function private.",
+    "Option4": "To optimize function calls.",
+    "Answer": "It prevents the Rust compiler from altering the function's symbol name during compilation, ensuring that external languages can find and call it by its original name."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `extern \"C\" fn` signature mean?",
+    "Option1": "A function that can only be called from within Rust.",
+    "Option2": "A function defined in Rust that uses the C Application Binary Interface (ABI) and can be called from C or other languages.",
+    "Option3": "A function that takes C-style arguments.",
+    "Option4": "A function that returns a C-style pointer.",
+    "Answer": "A function defined in Rust that uses the C Application Binary Interface (ABI) and can be called from C or other languages."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `static mut`?",
+    "Option1": "A safe way to share mutable data.",
+    "Option2": "A `static` variable that is mutable. Accessing it requires an `unsafe` block because Rust cannot guarantee thread safety for mutable static data.",
+    "Option3": "A thread-safe mutable global variable.",
+    "Option4": "A compile-time constant that can change.",
+    "Answer": "A `static` variable that is mutable. Accessing it requires an `unsafe` block because Rust cannot guarantee thread safety for mutable static data."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Raw `static`' vs `std::sync::OnceCell` for global state?",
+    "Option1": "Raw `static` is always safer.",
+    "Option2": "Raw `static` (especially `static mut`) is inherently `unsafe`. `OnceCell` (or `lazy_static!`, `once_cell` crate) provides a safe, lazy-initialized, thread-safe way to manage global static data.",
+    "Option3": "They are for different types of data.",
+    "Option4": "Raw `static` is for single-threaded, `OnceCell` for multi-threaded.",
+    "Answer": "Raw `static` (especially `static mut`) is inherently `unsafe`. `OnceCell` (or `lazy_static!`, `once_cell` crate) provides a safe, lazy-initialized, thread-safe way to manage global static data."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What are 'Attribute Macros' (revisited)?",
+    "Option1": "Macros that only modify function arguments.",
+    "Option2": "Procedural macros that attach to items (functions, structs, modules) and expand into new or modified code based on the attribute's content, commonly used for `#[test]`, `#[derive]`, or web framework routing.",
+    "Option3": "Macros that work like annotations in other languages.",
+    "Option4": "Macros that are always inlined.",
+    "Answer": "Procedural macros that attach to items (functions, structs, modules) and expand into new or modified code based on the attribute's content, commonly used for `#[test]`, `#[derive]`, or web framework routing."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Proc Macros' (revisited)?",
+    "Option1": "Macros that are evaluated at runtime.",
+    "Option2": "A general term for procedural macros (`#[derive]`, `#[attribute]`, `function_like!`) which operate on Rust's Abstract Syntax Tree (AST) to generate code at compile time.",
+    "Option3": "Macros that are specific to operating systems.",
+    "Option4": "Macros for defining simple variable assignments.",
+    "Answer": "A general term for procedural macros (`#[derive]`, `#[attribute]`, `function_like!`) which operate on Rust's Abstract Syntax Tree (AST) to generate code at compile time."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'The Book' in Rust?",
+    "Option1": "A physical book about Rust's history.",
+    "Option2": "The official online documentation and comprehensive guide to the Rust programming language, widely considered the primary resource for learning Rust.",
+    "Option3": "A collection of Rust code examples.",
+    "Option4": "A list of Rust best practices.",
+    "Answer": "The official online documentation and comprehensive guide to the Rust programming language, widely considered the primary resource for learning Rust."
+  },
+  {
+    "question_no.": 196,
+    "Question": "Where can you find 'The Book' online?",
+    "Option1": "docs.rs",
+    "Option2": "rust-lang.org/book",
+    "Option3": "crates.io",
+    "Option4": "github.com/rust-lang",
+    "Answer": "rust-lang.org/book"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Rust by Example'?",
+    "Option1": "A theoretical guide to Rust.",
+    "Option2": "An interactive tutorial that teaches Rust concepts through small, runnable code examples.",
+    "Option3": "A collection of Rust project templates.",
+    "Option4": "A performance benchmarking tool.",
+    "Answer": "An interactive tutorial that teaches Rust concepts through small, runnable code examples."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `unsafe` function?",
+    "Option1": "A function that always panics.",
+    "Option2": "A function marked with `unsafe fn` that can only be called from an `unsafe` block, indicating that the function itself contains operations that bypass Rust's safety guarantees.",
+    "Option3": "A function that is never optimized.",
+    "Option4": "A function that takes no arguments.",
+    "Answer": "A function marked with `unsafe fn` that can only be called from an `unsafe` block, indicating that the function itself contains operations that bypass Rust's safety guarantees."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What are the five 'superpowers' of `unsafe` Rust?",
+    "Option1": "Raw pointers, unsafe functions, FFI, inline assembly, linking.",
+    "Option2": "Dereference raw pointers, call `unsafe` functions, implement `unsafe` traits, access/modify mutable static variables, access `union` fields.",
+    "Option3": "Memory allocation, deallocation, copying, moving, dropping.",
+    "Option4": "Concurrency, parallelism, networking, file I/O, GUI.",
+    "Answer": "Dereference raw pointers, call `unsafe` functions, implement `unsafe` traits, access/modify mutable static variables, access `union` fields."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the `never` type (`!`)?",
+    "Option1": "A type that can never be instantiated.",
+    "Option2": "A type that represents the concept of 'never returns' or 'diverges', used for functions that panic, loop infinitely, or exit the program.",
+    "Option3": "A type for generic programming.",
+    "Option4": "A type for optional values.",
+    "Answer": "A type that represents the concept of 'never returns' or 'diverges', used for functions that panic, loop infinitely, or exit the program."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Tuple Struct'?",
+    "Option1": "A struct with named fields.",
+    "Option2": "A struct that is similar to a tuple but has a distinct name, allowing for type safety and different `impl` blocks.",
+    "Option3": "A struct that only contains one field.",
+    "Option4": "A struct that cannot be instantiated.",
+    "Answer": "A struct that is similar to a tuple but has a distinct name, allowing for type safety and different `impl` blocks."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Unit-like Struct'?",
+    "Option1": "A struct with many fields.",
+    "Option2": "A struct that has no fields, behaving like a unit value `()` and often used as a marker type or for implementing traits without storing data.",
+    "Option3": "A struct that can only be used once.",
+    "Option4": "A struct that is always public.",
+    "Answer": "A struct that has no fields, behaving like a unit value `()` and often used as a marker type or for implementing traits without storing data."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Associated Constants' in Traits?",
+    "Option1": "Constants that are shared globally.",
+    "Option2": "Constants defined within a trait that each implementing type must provide, allowing for type-specific constant values associated with the trait.",
+    "Option3": "Constants that can be changed at runtime.",
+    "Option4": "Constants that are only visible internally.",
+    "Answer": "Constants defined within a trait that each implementing type must provide, allowing for type-specific constant values associated with the trait."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Default Trait Implementations'?",
+    "Option1": "Trait implementations that cannot be overridden.",
+    "Option2": "Providing a default implementation for a method within a trait, which can then be used by types that don't provide their own implementation.",
+    "Option3": "Trait implementations that are always used.",
+    "Option4": "Trait implementations that are only for debugging.",
+    "Answer": "Providing a default implementation for a method within a trait, which can then be used by types that don't provide their own implementation."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'The `dyn` Keyword' (Trait Objects)?",
+    "Option1": "Used for static dispatch.",
+    "Option2": "Used to create 'trait objects' which enable dynamic dispatch, allowing you to work with values that implement a specific trait without knowing their concrete type at compile time.",
+    "Option3": "Used for defining new traits.",
+    "Option4": "Used for defining generic types.",
+    "Answer": "Used to create 'trait objects' which enable dynamic dispatch, allowing you to work with values that implement a specific trait without knowing their concrete type at compile time."
+  }
+]

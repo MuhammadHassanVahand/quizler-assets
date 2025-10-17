@@ -1,0 +1,1892 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What programming language is Swift primarily used for?",
+    "Option1": "Android app development",
+    "Option2": "Web backend development",
+    "Option3": "iOS, macOS, watchOS, and tvOS app development",
+    "Option4": "Windows desktop applications",
+    "Answer": "iOS, macOS, watchOS, and tvOS app development"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who developed Swift?",
+    "Option1": "Google",
+    "Option2": "Microsoft",
+    "Option3": "Apple Inc.",
+    "Option4": "Facebook",
+    "Answer": "Apple Inc."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What year was Swift first introduced?",
+    "Option1": "2008",
+    "Option2": "2010",
+    "Option3": "2014",
+    "Option4": "2016",
+    "Answer": "2014"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Is Swift an open-source language?",
+    "Option1": "No",
+    "Option2": "Yes",
+    "Option3": "Only for specific versions",
+    "Option4": "Only for academic use",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the primary characteristic of Swift regarding memory management?",
+    "Option1": "Manual memory management (malloc/free)",
+    "Option2": "Garbage Collection (GC)",
+    "Option3": "Automatic Reference Counting (ARC)",
+    "Option4": "Reference Counting (RC) with manual retains/releases",
+    "Answer": "Automatic Reference Counting (ARC)"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you declare a constant in Swift?",
+    "Option1": "`var`",
+    "Option2": "`let`",
+    "Option3": "`const`",
+    "Option4": "`static`",
+    "Answer": "`let`"
+  },
+  {
+    "question_no.": 7,
+    "Question": "How do you declare a variable in Swift?",
+    "Option1": "`let`",
+    "Option2": "`const`",
+    "Option3": "`var`",
+    "Option4": "`def`",
+    "Answer": "`var`"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is type inference in Swift?",
+    "Option1": "Manually specifying the type of every variable.",
+    "Option2": "The compiler automatically deducing the type of a variable based on its initial value.",
+    "Option3": "Converting one data type to another.",
+    "Option4": "Defining new data types.",
+    "Answer": "The compiler automatically deducing the type of a variable based on its initial value."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is an Optional in Swift?",
+    "Option1": "A variable that can hold any type of data.",
+    "Option2": "A type that represents either a wrapped value or `nil` (the absence of a value).",
+    "Option3": "A variable that must always have a value.",
+    "Option4": "A type that is only used for error handling.",
+    "Answer": "A type that represents either a wrapped value or `nil` (the absence of a value)."
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you declare an Optional variable in Swift?",
+    "Option1": "`var name: String`",
+    "Option2": "`var name: String!`",
+    "Option3": "`var name: String?`",
+    "Option4": "`var name: String*`",
+    "Answer": "`var name: String?`"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is 'Optional Binding' used for?",
+    "Option1": "To force unwrap an Optional.",
+    "Option2": "To safely unwrap an Optional and assign its value to a temporary constant or variable if it contains a value.",
+    "Option3": "To declare a new Optional.",
+    "Option4": "To check if an Optional is `nil` without unwrapping.",
+    "Answer": "To safely unwrap an Optional and assign its value to a temporary constant or variable if it contains a value."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which keyword is used for optional binding?",
+    "Option1": "`force`",
+    "Option2": "`unwrap`",
+    "Option3": "`if let`",
+    "Option4": "`guard let`",
+    "Answer": "`if let`"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is 'Force Unwrapping' an Optional?",
+    "Option1": "Safely unwrapping an Optional.",
+    "Option2": "Assuming an Optional contains a value and accessing it directly, which can lead to a runtime crash if it's `nil`.",
+    "Option3": "Checking if an Optional is `nil`.",
+    "Option4": "Converting an Optional to a non-Optional.",
+    "Answer": "Assuming an Optional contains a value and accessing it directly, which can lead to a runtime crash if it's `nil`."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What symbol is used for Force Unwrapping?",
+    "Option1": "`?`",
+    "Option2": "`!`",
+    "Option3": "`*`",
+    "Option4": "`@`",
+    "Answer": "`!`"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'Tuple' in Swift?",
+    "Option1": "A collection of ordered, mutable elements of the same type.",
+    "Option2": "A group of zero or more values represented as a single compound value, allowing you to return multiple values from a function.",
+    "Option3": "A special type of array.",
+    "Option4": "A class for organizing data.",
+    "Answer": "A group of zero or more values represented as a single compound value, allowing you to return multiple values from a function."
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you define a function in Swift?",
+    "Option1": "`function myFunction() {}`",
+    "Option2": "`func myFunction() {}`",
+    "Option3": "`def myFunction():`",
+    "Option4": "`myFunction = () => {}`",
+    "Answer": "`func myFunction() {}`"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you specify the return type of a function in Swift?",
+    "Option1": "After the function name, using `-> Type`",
+    "Option2": "Before the function name, using `Type`",
+    "Option3": "Inside the function body",
+    "Option4": "Swift automatically infers the return type",
+    "Answer": "After the function name, using `-> Type`"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is an 'Array' in Swift?",
+    "Option1": "An unordered collection of unique elements.",
+    "Option2": "An ordered collection of elements of the same type.",
+    "Option3": "A collection of key-value pairs.",
+    "Option4": "A collection that can hold different data types.",
+    "Answer": "An ordered collection of elements of the same type."
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you declare an empty Array of Integers in Swift?",
+    "Option1": "`var numbers: [Int] = []`",
+    "Option2": "`var numbers = []`",
+    "Option3": "`var numbers = Int[]`",
+    "Option4": "`var numbers: Array<Int>`",
+    "Answer": "`var numbers: [Int] = []`"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Dictionary' in Swift?",
+    "Option1": "An ordered collection of elements.",
+    "Option2": "An unordered collection of unique elements.",
+    "Option3": "An unordered collection of key-value pairs, where each key is unique.",
+    "Option4": "A fixed-size collection of elements.",
+    "Answer": "An unordered collection of key-value pairs, where each key is unique."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you declare an empty Dictionary with String keys and Int values?",
+    "Option1": "`var ages: [String: Int] = [:]`",
+    "Option2": "`var ages = {}`",
+    "Option3": "`var ages: Dictionary`",
+    "Option4": "`var ages: [String, Int]`",
+    "Answer": "`var ages: [String: Int] = [:]`"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'Set' in Swift?",
+    "Option1": "An ordered collection of elements, allowing duplicates.",
+    "Option2": "An unordered collection of unique elements of the same type.",
+    "Option3": "A collection of key-value pairs.",
+    "Option4": "A fixed-size array.",
+    "Answer": "An unordered collection of unique elements of the same type."
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you declare an empty Set of Strings?",
+    "Option1": "`var names: Set<String> = []`",
+    "Option2": "`var names: Set<String>()`",
+    "Option3": "`var names: Set<String> = Set()`",
+    "Option4": "`var names = Set()`",
+    "Answer": "`var names: Set<String> = Set()`"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a 'Control Flow' statement?",
+    "Option1": "A way to define new functions.",
+    "Option2": "Statements that allow you to execute different blocks of code based on certain conditions or to repeat tasks.",
+    "Option3": "Statements for declaring variables.",
+    "Option4": "Statements for importing modules.",
+    "Answer": "Statements that allow you to execute different blocks of code based on certain conditions or to repeat tasks."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which of these is a conditional statement in Swift?",
+    "Option1": "`for`",
+    "Option2": "`while`",
+    "Option3": "`if`",
+    "Option4": "`repeat`",
+    "Answer": "`if`"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which of these is a loop statement in Swift?",
+    "Option1": "`else`",
+    "Option2": "`switch`",
+    "Option3": "`guard`",
+    "Option4": "`for-in`",
+    "Answer": "`for-in`"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a 'switch' statement primarily used for?",
+    "Option1": "To define a loop.",
+    "Option2": "To evaluate a value against multiple possible patterns and execute a block of code for the first matching pattern.",
+    "Option3": "To declare variables.",
+    "Option4": "To handle errors.",
+    "Answer": "To evaluate a value against multiple possible patterns and execute a block of code for the first matching pattern."
+  },
+  {
+    "question_no.": 28,
+    "Question": "Do `switch` statements in Swift require `break` statements for each `case` by default?",
+    "Option1": "Yes",
+    "Option2": "No, they don't fall through by default.",
+    "Option3": "Only if there's no `default` case.",
+    "Option4": "Only for specific data types.",
+    "Answer": "No, they don't fall through by default."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Error Handling' in Swift?",
+    "Option1": "Ignoring errors.",
+    "Option2": "A process of responding to and recovering from error conditions in your program.",
+    "Option3": "Printing error messages to the console.",
+    "Option4": "Stopping the program when an error occurs.",
+    "Answer": "A process of responding to and recovering from error conditions in your program."
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which keyword is used to declare a function that can throw an error?",
+    "Option1": "`catch`",
+    "Option2": "`try`",
+    "Option3": "`throws`",
+    "Option4": "`error`",
+    "Answer": "`throws`"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which keyword is used to call a function that can throw an error?",
+    "Option1": "`throw`",
+    "Option2": "`try`",
+    "Option3": "`catch`",
+    "Option4": "`do`",
+    "Answer": "`try`"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is a 'do-catch' statement used for in error handling?",
+    "Option1": "To define a function that throws an error.",
+    "Option2": "To execute a block of code that might throw an error and then handle any errors that are thrown.",
+    "Option3": "To re-throw an error.",
+    "Option4": "To ignore errors.",
+    "Answer": "To execute a block of code that might throw an error and then handle any errors that are thrown."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Guard Statement' in Swift?",
+    "Option1": "A statement that prevents a function from returning.",
+    "Option2": "A statement that ensures a condition is true, or exits the current scope if it's false, often used for early exit in functions.",
+    "Option3": "A statement for defining a loop.",
+    "Option4": "A statement for handling switch cases.",
+    "Answer": "A statement that ensures a condition is true, or exits the current scope if it's false, often used for early exit in functions."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the primary benefit of using `guard let` over nested `if let` statements?",
+    "Option1": "It's less efficient.",
+    "Option2": "It avoids 'pyramid of doom' and makes code more readable by handling failure conditions early.",
+    "Option3": "It's only used for error handling.",
+    "Option4": "It's a newer syntax that replaces `if let` entirely.",
+    "Answer": "It avoids 'pyramid of doom' and makes code more readable by handling failure conditions early."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a 'Class' in Swift?",
+    "Option1": "A blueprint for creating instances of objects, allowing for inheritance and reference semantics.",
+    "Option2": "A value type that defines a new data type.",
+    "Option3": "A collection of related functions.",
+    "Option4": "A special type of enumeration.",
+    "Answer": "A blueprint for creating instances of objects, allowing for inheritance and reference semantics."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is a 'Struct' in Swift?",
+    "Option1": "A blueprint for creating instances of objects, allowing for inheritance and reference semantics.",
+    "Option2": "A value type that defines a new data type, often used for simple data structures, and passed by copy.",
+    "Option3": "A protocol for defining interfaces.",
+    "Option4": "A way to organize functions.",
+    "Answer": "A value type that defines a new data type, often used for simple data structures, and passed by copy."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the key difference between a Class and a Struct regarding how they are passed?",
+    "Option1": "Classes are passed by value, Structs by reference.",
+    "Option2": "Classes are passed by reference, Structs by value.",
+    "Option3": "Both are always passed by value.",
+    "Option4": "Both are always passed by reference.",
+    "Answer": "Classes are passed by reference, Structs by value."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Inheritance' in Swift?",
+    "Option1": "A class can only inherit from multiple parent classes.",
+    "Option2": "The ability of one class to acquire the properties and methods of another class (superclass).",
+    "Option3": "The process of copying data.",
+    "Option4": "Defining a new protocol.",
+    "Answer": "The ability of one class to acquire the properties and methods of another class (superclass)."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Does Swift support multiple inheritance for classes?",
+    "Option1": "Yes",
+    "Option2": "No, a class can only inherit from a single superclass.",
+    "Option3": "Only through extensions.",
+    "Option4": "Only for specific types.",
+    "Answer": "No, a class can only inherit from a single superclass."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'Protocol' in Swift?",
+    "Option1": "A concrete implementation of a class.",
+    "Option2": "A blueprint of methods, properties, and other requirements that can be adopted by a class, struct, or enum.",
+    "Option3": "A way to define global variables.",
+    "Option4": "A type of error.",
+    "Answer": "A blueprint of methods, properties, and other requirements that can be adopted by a class, struct, or enum."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Protocol Conformance'?",
+    "Option1": "Ignoring a protocol's requirements.",
+    "Option2": "When a type (class, struct, or enum) provides an implementation for all the requirements defined in a protocol.",
+    "Option3": "When a type inherits from another type.",
+    "Option4": "When a type doesn't implement any protocols.",
+    "Answer": "When a type (class, struct, or enum) provides an implementation for all the requirements defined in a protocol."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Can a Struct conform to a Protocol?",
+    "Option1": "No",
+    "Option2": "Yes",
+    "Option3": "Only if it's a nested struct.",
+    "Option4": "Only if it doesn't have any stored properties.",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is an 'Extension' in Swift?",
+    "Option1": "A way to add new stored properties to an existing type.",
+    "Option2": "A feature that allows you to add new functionality to an existing class, structure, enumeration, or protocol without modifying the original source code.",
+    "Option3": "A way to create subclasses.",
+    "Option4": "A method for type casting.",
+    "Answer": "A feature that allows you to add new functionality to an existing class, structure, enumeration, or protocol without modifying the original source code."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What can you NOT add to an existing type using an Extension?",
+    "Option1": "Computed properties",
+    "Option2": "Instance methods",
+    "Option3": "New stored properties",
+    "Option4": "New initializers",
+    "Answer": "New stored properties"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Automatic Reference Counting (ARC)'?",
+    "Option1": "A garbage collection system.",
+    "Option2": "Swift's memory management system that automatically frees up memory used by class instances when they are no longer needed.",
+    "Option3": "A system for tracking variable types.",
+    "Option4": "A method for handling errors.",
+    "Answer": "Swift's memory management system that automatically frees up memory used by class instances when they are no longer needed."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'Strong Reference Cycle'?",
+    "Option1": "A memory leak that occurs when two or more objects hold strong references to each other, preventing ARC from deallocating them.",
+    "Option2": "A normal way objects reference each other.",
+    "Option3": "A way to prevent memory leaks.",
+    "Option4": "A compiler error.",
+    "Answer": "A memory leak that occurs when two or more objects hold strong references to each other, preventing ARC from deallocating them."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How can you resolve a Strong Reference Cycle?",
+    "Option1": "By using only strong references.",
+    "Option2": "By using `weak` or `unowned` references to break the cycle.",
+    "Option3": "By manually calling `deinit`.",
+    "Option4": "By increasing memory usage.",
+    "Answer": "By using `weak` or `unowned` references to break the cycle."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'Weak Reference'?",
+    "Option1": "A reference that keeps an object alive.",
+    "Option2": "A reference that does not keep a strong hold on the instance it refers to, and is automatically set to `nil` when the referenced object is deallocated.",
+    "Option3": "A reference that causes a strong reference cycle.",
+    "Option4": "A reference that is always `nil`.",
+    "Answer": "A reference that does not keep a strong hold on the instance it refers to, and is automatically set to `nil` when the referenced object is deallocated."
+  },
+  {
+    "question_no.": 49,
+    "Question": "When should you use a `weak` reference?",
+    "Option1": "When both objects must always have a value.",
+    "Option2": "When the two objects in a cycle might have a longer lifetime than the other, and one reference can be optional.",
+    "Option3": "When you want to prevent an object from being deallocated.",
+    "Option4": "When dealing with value types.",
+    "Answer": "When the two objects in a cycle might have a longer lifetime than the other, and one reference can be optional."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is an 'Unowned Reference'?",
+    "Option1": "A reference that can be `nil`.",
+    "Option2": "A reference that does not keep a strong hold on the instance it refers to, but is assumed to always have a value once it has been set, leading to a crash if it becomes `nil`.",
+    "Option3": "A type of strong reference.",
+    "Option4": "A reference used for collections.",
+    "Answer": "A reference that does not keep a strong hold on the instance it refers to, but is assumed to always have a value once it has been set, leading to a crash if it becomes `nil`."
+  },
+  {
+    "question_no.": 51,
+    "Question": "When should you use an `unowned` reference?",
+    "Option1": "When the reference might become `nil`.",
+    "Option2": "When the two objects in a cycle have the same lifetime, and the unowned reference will always have a value once it's set.",
+    "Option3": "When you need to keep an object alive.",
+    "Option4": "When defining an optional variable.",
+    "Answer": "When the two objects in a cycle have the same lifetime, and the unowned reference will always have a value once it's set."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is a 'Closure' in Swift?",
+    "Option1": "A function that cannot capture values from its surrounding context.",
+    "Option2": "Self-contained blocks of functionality that can be passed around and used in your code, similar to blocks in C or lambdas in other languages.",
+    "Option3": "A global variable.",
+    "Option4": "A type of protocol.",
+    "Answer": "Self-contained blocks of functionality that can be passed around and used in your code, similar to blocks in C or lambdas in other languages."
+  },
+  {
+    "question_no.": 53,
+    "Question": "How do Closures handle capturing values from their surrounding context?",
+    "Option1": "They cannot capture values.",
+    "Option2": "They capture values by value only.",
+    "Option3": "They can capture and store references to any constants or variables from the context in which they are defined.",
+    "Option4": "They only capture global variables.",
+    "Answer": "They can capture and store references to any constants or variables from the context in which they are defined."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a 'Trailing Closure'?",
+    "Option1": "A closure that is defined before the function call.",
+    "Option2": "A closure expression written after the function's parentheses, used when the closure is the function's final argument.",
+    "Option3": "A closure that takes no arguments.",
+    "Option4": "A closure that always returns `nil`.",
+    "Answer": "A closure expression written after the function's parentheses, used when the closure is the function's final argument."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is a 'Capture List' in Closures?",
+    "Option1": "A list of values that a closure cannot capture.",
+    "Option2": "A mechanism to explicitly define how values from the surrounding scope are captured by a closure (e.g., `[weak self]`).",
+    "Option3": "A list of arguments passed to a closure.",
+    "Option4": "A list of errors that a closure can throw.",
+    "Answer": "A mechanism to explicitly define how values from the surrounding scope are captured by a closure (e.g., `[weak self]`)."
+  },
+  {
+    "question_no.": 56,
+    "Question": "When would you use a Capture List with `weak self`?",
+    "Option1": "To create a strong reference cycle.",
+    "Option2": "To prevent strong reference cycles when `self` might be deallocated before the closure finishes executing.",
+    "Option3": "To force unwrap `self`.",
+    "Option4": "When `self` is a value type.",
+    "Answer": "To prevent strong reference cycles when `self` might be deallocated before the closure finishes executing."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Generics' in Swift?",
+    "Option1": "A way to define specific types only.",
+    "Option2": "A powerful feature that allows you to write flexible, reusable functions and types that can work with any type, while maintaining type safety.",
+    "Option3": "A feature for creating universal applications.",
+    "Option4": "A way to define global variables.",
+    "Answer": "A powerful feature that allows you to write flexible, reusable functions and types that can work with any type, while maintaining type safety."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What symbol is used to indicate a generic placeholder type?",
+    "Option1": "`#`",
+    "Option2": "`T`",
+    "Option3": "`*`",
+    "Option4": "`&`",
+    "Answer": "`T`"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'Type Constraint' in Generics?",
+    "Option1": "Restricting a generic type to a specific value.",
+    "Option2": "A way to specify that a generic type parameter must inherit from a specific class or conform to certain protocols.",
+    "Option3": "Defining a new data type.",
+    "Option4": "Preventing type inference.",
+    "Answer": "A way to specify that a generic type parameter must inherit from a specific class or conform to certain protocols."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Associated Type' in Protocols?",
+    "Option1": "A type that must be a specific concrete type.",
+    "Option2": "A placeholder name for a type that is used as part of the protocol's definition, and whose actual type is determined when the protocol is adopted.",
+    "Option3": "A type that is automatically inferred.",
+    "Option4": "A fixed type within a protocol.",
+    "Answer": "A placeholder name for a type that is used as part of the protocol's definition, and whose actual type is determined when the protocol is adopted."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'Opaque Types' (some Protocol) in Swift?",
+    "Option1": "A way to hide the implementation details of a type.",
+    "Option2": "A feature that allows a function to return a value of some type that conforms to a given protocol, without revealing the concrete underlying type.",
+    "Option3": "A type that can be `nil`.",
+    "Option4": "A type that is always a Class.",
+    "Answer": "A feature that allows a function to return a value of some type that conforms to a given protocol, without revealing the concrete underlying type."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is a 'Property Observer'?",
+    "Option1": "A method that is called before a property's value changes.",
+    "Option2": "Allows you to respond to changes in a property's value with `willSet` (before value is stored) and `didSet` (after value is stored).",
+    "Option3": "A function that sets a property's value.",
+    "Option4": "A computed property.",
+    "Answer": "Allows you to respond to changes in a property's value with `willSet` (before value is stored) and `didSet` (after value is stored)."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which keyword is used for the observer that runs before a property's new value is stored?",
+    "Option1": "`didSet`",
+    "Option2": "`willSet`",
+    "Option3": "`observe`",
+    "Option4": "`beforeSet`",
+    "Answer": "`willSet`"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is a 'Computed Property'?",
+    "Option1": "A property that stores a value.",
+    "Option2": "A property that doesn't store a value directly but provides a getter to retrieve a value and an optional setter to set a value, based on other properties.",
+    "Option3": "A property that can only be set once.",
+    "Option4": "A property that is always `nil`.",
+    "Answer": "A property that doesn't store a value directly but provides a getter to retrieve a value and an optional setter to set a value, based on other properties."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is a 'Stored Property'?",
+    "Option1": "A property that doesn't store a value directly.",
+    "Option2": "A property that stores a constant or variable value as part of an instance of a class or structure.",
+    "Option3": "A property that is always calculated.",
+    "Option4": "A property that is shared across all instances.",
+    "Answer": "A property that stores a constant or variable value as part of an instance of a class or structure."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'Type Property' (static property)?",
+    "Option1": "A property that belongs to an instance of a type.",
+    "Option2": "A property that belongs to the type itself, rather than to any one instance of that type.",
+    "Option3": "A property that is unique for each object.",
+    "Option4": "A property that can only be accessed from within a class.",
+    "Answer": "A property that belongs to the type itself, rather than to any one instance of that type."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which keyword is used to declare a type property?",
+    "Option1": "`var`",
+    "Option2": "`let`",
+    "Option3": "`static`",
+    "Option4": "`type`",
+    "Answer": "`static`"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is a 'Subscript' in Swift?",
+    "Option1": "A type of property.",
+    "Option2": "Allows you to define custom getters and setters to access elements in a collection, list, or sequence by index.",
+    "Option3": "A way to define a nested class.",
+    "Option4": "A special type of function.",
+    "Answer": "Allows you to define custom getters and setters to access elements in a collection, list, or sequence by index."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a 'Failable Initializer'?",
+    "Option1": "An initializer that always succeeds.",
+    "Option2": "An initializer that might fail during initialization, returning `nil` if it does.",
+    "Option3": "An initializer that only works with Optionals.",
+    "Option4": "An initializer for error handling only.",
+    "Answer": "An initializer that might fail during initialization, returning `nil` if it does."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you declare a Failable Initializer?",
+    "Option1": "`init()`",
+    "Option2": "`init?()`",
+    "Option3": "`init!()`",
+    "Option4": "`failable init()`",
+    "Answer": "`init?()`"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Deinitialization' in Swift?",
+    "Option1": "The process of initializing an object.",
+    "Option2": "The process by which an instance of a class is deallocated from memory when it's no longer needed.",
+    "Option3": "The process of creating a new object.",
+    "Option4": "The process of resetting an object's properties.",
+    "Answer": "The process by which an instance of a class is deallocated from memory when it's no longer needed."
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which keyword is used for a deinitializer?",
+    "Option1": "`dealloc`",
+    "Option2": "`deinit`",
+    "Option3": "`destroy`",
+    "Option4": "`cleanup`",
+    "Answer": "`deinit`"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Do Structs have deinitializers?",
+    "Option1": "Yes",
+    "Option2": "No, only classes can have deinitializers.",
+    "Option3": "Only if they contain reference types.",
+    "Option4": "Only in specific Swift versions.",
+    "Answer": "No, only classes can have deinitializers."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Enumeration' (Enum) in Swift?",
+    "Option1": "A collection of ordered elements.",
+    "Option2": "A type that defines a common type for a group of related values and enables you to work with those values in a type-safe way.",
+    "Option3": "A way to define constants.",
+    "Option4": "A class with limited functionality.",
+    "Answer": "A type that defines a common type for a group of related values and enables you to work with those values in a type-safe way."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Raw Value' in Enums?",
+    "Option1": "The default integer value of an enum case.",
+    "Option2": "A predefined value of a specific type (e.g., `Int`, `String`) that each case of an enumeration can have.",
+    "Option3": "A calculated value for each enum case.",
+    "Option4": "A value that can be any type.",
+    "Answer": "A predefined value of a specific type (e.g., `Int`, `String`) that each case of an enumeration can have."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What are 'Associated Values' in Enums?",
+    "Option1": "Values that are always `nil`.",
+    "Option2": "Allows you to store additional, type-specific data alongside each case of an enumeration.",
+    "Option3": "Values that are shared across all enum cases.",
+    "Option4": "Fixed values for each enum case.",
+    "Answer": "Allows you to store additional, type-specific data alongside each case of an enumeration."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Nested Types' in Swift?",
+    "Option1": "Defining a type outside of any other type.",
+    "Option2": "Defining classes, structures, and enumerations within the definition of another class, structure, or enumeration.",
+    "Option3": "Creating multiple instances of the same type.",
+    "Option4": "A way to hide types from other parts of the code.",
+    "Answer": "Defining classes, structures, and enumerations within the definition of another class, structure, or enumeration."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Type Casting' in Swift?",
+    "Option1": "Converting a value from one type to an unrelated type.",
+    "Option2": "A way to check the type of an instance and/or to treat that instance as a different superclass or subclass type.",
+    "Option3": "Creating a new type from an existing one.",
+    "Option4": "Inferring the type of a variable.",
+    "Answer": "A way to check the type of an instance and/or to treat that instance as a different superclass or subclass type."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the 'is' operator used for in type casting?",
+    "Option1": "To force cast to a type.",
+    "Option2": "To check if an instance is of a certain type, returning `true` or `false`.",
+    "Option3": "To convert a value to a different type.",
+    "Option4": "To create a new instance.",
+    "Answer": "To check if an instance is of a certain type, returning `true` or `false`."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the 'as?' operator used for in type casting?",
+    "Option1": "To force cast to a type.",
+    "Option2": "To attempt to downcast an instance to a subclass type, returning an Optional of that type.",
+    "Option3": "To check if an instance is of a certain type.",
+    "Option4": "To convert a value to a non-optional type.",
+    "Answer": "To attempt to downcast an instance to a subclass type, returning an Optional of that type."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the 'as!' operator used for in type casting?",
+    "Option1": "To safely downcast to a type.",
+    "Option2": "To force downcast an instance to a subclass type, and will cause a runtime error if the cast fails.",
+    "Option3": "To check if an instance is of a certain type.",
+    "Option4": "To convert a value to an optional type.",
+    "Answer": "To force downcast an instance to a subclass type, and will cause a runtime error if the cast fails."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Any' type in Swift?",
+    "Option1": "Represents an instance of any class type.",
+    "Option2": "Represents an instance of any type at all, including function types.",
+    "Option3": "Represents an instance of any protocol type.",
+    "Option4": "Represents a nullable type.",
+    "Answer": "Represents an instance of any type at all, including function types."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'AnyObject' type in Swift?",
+    "Option1": "Represents an instance of any type at all.",
+    "Option2": "Represents an instance of any class type.",
+    "Option3": "Represents an instance of any protocol type.",
+    "Option4": "Represents a nullable type.",
+    "Answer": "Represents an instance of any class type."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Nested Functions' in Swift?",
+    "Option1": "Functions defined outside of any other function.",
+    "Option2": "Functions defined inside the body of another function.",
+    "Option3": "Functions that are called recursively.",
+    "Option4": "Functions that are part of a class.",
+    "Answer": "Functions defined inside the body of another function."
+  },
+  {
+    "question_no.": 85,
+    "Question": "How do nested functions access variables from their enclosing function?",
+    "Option1": "They cannot access them.",
+    "Option2": "They capture values from their enclosing function's scope.",
+    "Option3": "They only access global variables.",
+    "Option4": "They require explicit passing as arguments.",
+    "Answer": "They capture values from their enclosing function's scope."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'In-Out Parameters' in Swift functions?",
+    "Option1": "Parameters that are passed by value.",
+    "Option2": "Parameters that are passed by reference, allowing a function to modify the value of a variable passed into it.",
+    "Option3": "Parameters that are only used for output.",
+    "Option4": "Parameters that are always optional.",
+    "Answer": "Parameters that are passed by reference, allowing a function to modify the value of a variable passed into it."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which keyword is used for an in-out parameter?",
+    "Option1": "`ref`",
+    "Option2": "`inout`",
+    "Option3": "`var`",
+    "Option4": "`mutating`",
+    "Answer": "`inout`"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is a 'Result Type' in Swift?",
+    "Option1": "A type for successful operations only.",
+    "Option2": "An enumeration that represents either success (`.success`) with an associated value or failure (`.failure`) with an associated error.",
+    "Option3": "A type that always returns `nil`.",
+    "Option4": "A type for asynchronous operations.",
+    "Answer": "An enumeration that represents either success (`.success`) with an associated value or failure (`.failure`) with an associated error."
+  },
+  {
+    "question_no.": 89,
+    "Question": "When would you typically use a 'Result Type'?",
+    "Option1": "For simple function returns.",
+    "Option2": "For functions that can either return a value or throw an error, providing explicit error handling without `throws`.",
+    "Option3": "For looping through collections.",
+    "Option4": "For defining new classes.",
+    "Answer": "For functions that can either return a value or throw an error, providing explicit error handling without `throws`."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Concurrency' in Swift?",
+    "Option1": "Executing tasks sequentially.",
+    "Option2": "Executing multiple parts of a program seemingly at the same time, often using Grand Central Dispatch (GCD) or async/await.",
+    "Option3": "Handling errors.",
+    "Option4": "Managing memory.",
+    "Answer": "Executing multiple parts of a program seemingly at the same time, often using Grand Central Dispatch (GCD) or async/await."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is Grand Central Dispatch (GCD)?",
+    "Option1": "A way to manage app data.",
+    "Option2": "A low-level API for managing concurrent operations by submitting tasks to dispatch queues.",
+    "Option3": "A high-level concurrency framework.",
+    "Option4": "A user interface toolkit.",
+    "Answer": "A low-level API for managing concurrent operations by submitting tasks to dispatch queues."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What are 'Dispatch Queues' in GCD?",
+    "Option1": "Queues for storing data.",
+    "Option2": "Structures that manage tasks and execute them in a specific order (serial) or concurrently (concurrent).",
+    "Option3": "Queues for UI updates only.",
+    "Option4": "Queues for error messages.",
+    "Answer": "Structures that manage tasks and execute them in a specific order (serial) or concurrently (concurrent)."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the 'Main Dispatch Queue' primarily used for?",
+    "Option1": "Background tasks.",
+    "Option2": "Executing tasks on the main thread, primarily for UI updates to ensure responsiveness.",
+    "Option3": "Network operations.",
+    "Option4": "Heavy computations.",
+    "Answer": "Executing tasks on the main thread, primarily for UI updates to ensure responsiveness."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is a 'Serial Dispatch Queue'?",
+    "Option1": "Executes tasks concurrently.",
+    "Option2": "Executes tasks one at a time, in the order they were added, ensuring order but not necessarily speed.",
+    "Option3": "Executes tasks randomly.",
+    "Option4": "Executes tasks based on priority.",
+    "Answer": "Executes tasks one at a time, in the order they were added, ensuring order but not necessarily speed."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is a 'Concurrent Dispatch Queue'?",
+    "Option1": "Executes tasks one at a time.",
+    "Option2": "Executes tasks in parallel, allowing multiple tasks to run simultaneously if system resources permit.",
+    "Option3": "Executes tasks in a specific order only.",
+    "Option4": "Executes tasks only on the main thread.",
+    "Answer": "Executes tasks in parallel, allowing multiple tasks to run simultaneously if system resources permit."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the primary keyword for Swift's structured concurrency (async/await)?",
+    "Option1": "`concurrent`",
+    "Option2": "`task`",
+    "Option3": "`async`",
+    "Option4": "`parallel`",
+    "Answer": "`async`"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which keyword is used to pause the execution of an `async` function until a result is available?",
+    "Option1": "`wait`",
+    "Option2": "`await`",
+    "Option3": "`defer`",
+    "Option4": "`pause`",
+    "Answer": "`await`"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is a 'Task' in Swift concurrency?",
+    "Option1": "A unit of work that always runs on the main thread.",
+    "Option2": "A unit of asynchronous work that can be executed concurrently.",
+    "Option3": "A type of variable.",
+    "Option4": "A type of function that cannot be awaited.",
+    "Answer": "A unit of asynchronous work that can be executed concurrently."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Actors' in Swift concurrency?",
+    "Option1": "A way to share mutable state between concurrent tasks without protection.",
+    "Option2": "Reference types that protect their mutable state from data races by allowing only one task to access their state at a time.",
+    "Option3": "A type of value type.",
+    "Option4": "A mechanism for defining global variables.",
+    "Answer": "Reference types that protect their mutable state from data races by allowing only one task to access their state at a time."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the primary benefit of using Actors?",
+    "Option1": "They increase performance by allowing multiple simultaneous writes.",
+    "Option2": "They simplify concurrent programming by eliminating data races and ensuring thread safety for shared mutable state.",
+    "Option3": "They remove the need for `async/await`.",
+    "Option4": "They are only for UI updates.",
+    "Answer": "They simplify concurrent programming by eliminating data races and ensuring thread safety for shared mutable state."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Sendable' protocol in Swift concurrency?",
+    "Option1": "A protocol for types that can be sent between actors without causing data races.",
+    "Option2": "A protocol for types that cannot be sent across task boundaries.",
+    "Option3": "A protocol for functions that can be executed concurrently.",
+    "Option4": "A protocol for defining errors.",
+    "Answer": "A protocol for types that can be sent between actors without causing data races."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Result Builders' (formerly Function Builders)?",
+    "Option1": "A way to define new functions.",
+    "Option2": "A language feature that allows you to construct complex data structures (like SwiftUI views or custom DSLs) by writing a sequence of components.",
+    "Option3": "A tool for building Swift packages.",
+    "Option4": "A method for handling network requests.",
+    "Answer": "A language feature that allows you to construct complex data structures (like SwiftUI views or custom DSLs) by writing a sequence of components."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which framework heavily utilizes Result Builders for its declarative UI syntax?",
+    "Option1": "UIKit",
+    "Option2": "AppKit",
+    "Option3": "SwiftUI",
+    "Option4": "SpriteKit",
+    "Answer": "SwiftUI"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Property Wrappers' in Swift?",
+    "Option1": "A way to add new stored properties to a type.",
+    "Option2": "A feature that encapsulates logic for how a property is stored or accessed, allowing you to reuse common property management code.",
+    "Option3": "A type of computed property.",
+    "Option4": "A way to observe property changes.",
+    "Answer": "A feature that encapsulates logic for how a property is stored or accessed, allowing you to reuse common property management code."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What symbol is used to denote a Property Wrapper?",
+    "Option1": "`#`",
+    "Option2": "`@`",
+    "Option3": "`*`",
+    "Option4": "`&`",
+    "Answer": "`@`"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `@State` in SwiftUI?",
+    "Option1": "A property wrapper for observing external data.",
+    "Option2": "A property wrapper that declares a source of truth for value types in a SwiftUI view, causing the view to re-render when the state changes.",
+    "Option3": "A property wrapper for binding to UI elements.",
+    "Option4": "A property wrapper for shared application data.",
+    "Answer": "A property wrapper that declares a source of truth for value types in a SwiftUI view, causing the view to re-render when the state changes."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `@Binding` in SwiftUI?",
+    "Option1": "A property wrapper for owning local state.",
+    "Option2": "A property wrapper that allows a view to have two-way access to a mutable state owned by another view, without owning the data itself.",
+    "Option3": "A property wrapper for global data.",
+    "Option4": "A property wrapper for computed values.",
+    "Answer": "A property wrapper that allows a view to have two-way access to a mutable state owned by another view, without owning the data itself."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `@ObservableObject` protocol in SwiftUI?",
+    "Option1": "A protocol for value types.",
+    "Option2": "A protocol that classes conform to, allowing SwiftUI views to automatically observe changes to their published properties.",
+    "Option3": "A protocol for structs.",
+    "Option4": "A protocol for enums.",
+    "Answer": "A protocol that classes conform to, allowing SwiftUI views to automatically observe changes to their published properties."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `@Published` property wrapper in SwiftUI?",
+    "Option1": "Used with `@State` for local state.",
+    "Option2": "A property wrapper used within an `ObservableObject` to automatically emit changes when the wrapped property's value changes.",
+    "Option3": "Used for one-way data flow.",
+    "Option4": "Used for static properties only.",
+    "Answer": "A property wrapper used within an `ObservableObject` to automatically emit changes when the wrapped property's value changes."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `@EnvironmentObject` in SwiftUI?",
+    "Option1": "A property wrapper for local state.",
+    "Option2": "A property wrapper that allows a view to read a shared object from the environment, making it available to all descendant views without manual passing.",
+    "Option3": "A property wrapper for global variables only.",
+    "Option4": "A property wrapper for optional values.",
+    "Answer": "A property wrapper that allows a view to read a shared object from the environment, making it available to all descendant views without manual passing."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Type Aliases' in Swift?",
+    "Option1": "A way to define a new type.",
+    "Option2": "Allows you to define a new name for an existing type, making code more readable and easier to maintain.",
+    "Option3": "A way to cast between types.",
+    "Option4": "A mechanism for type inference.",
+    "Answer": "Allows you to define a new name for an existing type, making code more readable and easier to maintain."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which keyword is used to create a type alias?",
+    "Option1": "`alias`",
+    "Option2": "`typealias`",
+    "Option3": "`rename`",
+    "Option4": "`typedef`",
+    "Answer": "`typealias`"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Mirror' in Swift?",
+    "Option1": "A tool for debugging errors.",
+    "Option2": "A type that allows you to inspect the contents of any value at runtime, providing introspection capabilities.",
+    "Option3": "A way to create copies of objects.",
+    "Option4": "A tool for code generation.",
+    "Answer": "A type that allows you to inspect the contents of any value at runtime, providing introspection capabilities."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Reflection' in Swift?",
+    "Option1": "The ability to modify code at runtime.",
+    "Option2": "The ability of a program to examine or modify its own structure and behavior at runtime, primarily achieved through `Mirror` in Swift.",
+    "Option3": "The process of optimizing code.",
+    "Option4": "The process of compiling code.",
+    "Answer": "The ability of a program to examine or modify its own structure and behavior at runtime, primarily achieved through `Mirror` in Swift."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'KeyPath' in Swift?",
+    "Option1": "A string literal representing a property name.",
+    "Option2": "A type-safe way to refer to a property of a type, allowing you to access or modify properties dynamically.",
+    "Option3": "A unique identifier for an object.",
+    "Option4": "A path to a file on disk.",
+    "Answer": "A type-safe way to refer to a property of a type, allowing you to access or modify properties dynamically."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the syntax for a KeyPath?",
+    "Option1": "\"propertyName\"",
+    "Option2": "\\.propertyName",
+    "Option3": "&propertyName",
+    "Option4": "propertyName()",
+    "Answer": "\\.propertyName"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Conditional Conformance' in Swift?",
+    "Option1": "A type conforms to a protocol regardless of its generic parameters.",
+    "Option2": "A type conforms to a protocol only when its generic type parameters meet certain conditions.",
+    "Option3": "A type can only conform to one protocol.",
+    "Option4": "A type can conform to a protocol only if it's a class.",
+    "Answer": "A type conforms to a protocol only when its generic type parameters meet certain conditions."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is a 'Result Builder' (revisited)?",
+    "Option1": "A tool for generating documentation.",
+    "Option2": "A DSL (Domain Specific Language) tool that simplifies the creation of nested, structured data, often seen in SwiftUI for views.",
+    "Option3": "A build system for Swift projects.",
+    "Option4": "A debugging utility.",
+    "Answer": "A DSL (Domain Specific Language) tool that simplifies the creation of nested, structured data, often seen in SwiftUI for views."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the `defer` statement in Swift?",
+    "Option1": "Executes code immediately.",
+    "Option2": "Executes a block of code just before the current scope exits, regardless of how that exit occurs (return, throw, etc.).",
+    "Option3": "Delays code execution until a specific event.",
+    "Option4": "Executes code only if an error occurs.",
+    "Answer": "Executes a block of code just before the current scope exits, regardless of how that exit occurs (return, throw, etc.)."
+  },
+  {
+    "question_no.": 120,
+    "Question": "When is `defer` most useful?",
+    "Option1": "For initializing resources.",
+    "Option2": "For ensuring that cleanup code (e.g., closing files, releasing locks) is executed reliably, even in the presence of errors.",
+    "Option3": "For creating new objects.",
+    "Option4": "For defining global variables.",
+    "Answer": "For ensuring that cleanup code (e.g., closing files, releasing locks) is executed reliably, even in the presence of errors."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Protocol-Oriented Programming' (POP)?",
+    "Option1": "A programming paradigm focused on classes and inheritance.",
+    "Option2": "A programming paradigm that favors the use of protocols and extensions over class inheritance for code organization and reuse.",
+    "Option3": "A paradigm for functional programming.",
+    "Option4": "A paradigm for imperative programming.",
+    "Answer": "A programming paradigm that favors the use of protocols and extensions over class inheritance for code organization and reuse."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the main advantage of POP over OOP in Swift?",
+    "Option1": "POP offers less flexibility.",
+    "Option2": "POP encourages composition, avoiding the 'fragile base class' problem and promoting more flexible, reusable code.",
+    "Option3": "POP makes debugging harder.",
+    "Option4": "POP is only suitable for small projects.",
+    "Answer": "POP encourages composition, avoiding the 'fragile base class' problem and promoting more flexible, reusable code."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is a 'Memory Leak'?",
+    "Option1": "When an application uses less memory than it needs.",
+    "Option2": "When memory is allocated but never freed, even when it's no longer needed, leading to increased memory consumption over time.",
+    "Option3": "When memory is freed too early.",
+    "Option4": "When an application runs out of memory due to insufficient RAM.",
+    "Answer": "When memory is allocated but never freed, even when it's no longer needed, leading to increased memory consumption over time."
+  },
+  {
+    "question_no.": 124,
+    "Question": "How does ARC help prevent memory leaks?",
+    "Option1": "By manually freeing memory.",
+    "Option2": "By automatically deallocating objects when their reference count drops to zero, ensuring memory is reclaimed when no longer in use.",
+    "Option3": "By using garbage collection.",
+    "Option4": "By ignoring unused objects.",
+    "Answer": "By automatically deallocating objects when their reference count drops to zero, ensuring memory is reclaimed when no longer in use."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is a 'NIL Coalescing Operator'?",
+    "Option1": "A way to force unwrap an Optional.",
+    "Option2": "A binary operator (`??`) that unwraps an Optional, or returns a default value if the Optional is `nil`.",
+    "Option3": "An operator for comparing two optionals.",
+    "Option4": "An operator for creating Optionals.",
+    "Answer": "A binary operator (`??`) that unwraps an Optional, or returns a default value if the Optional is `nil`."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What does `myOptionalValue ?? defaultValue` mean?",
+    "Option1": "If `myOptionalValue` is `nil`, return `myOptionalValue`, otherwise return `defaultValue`.",
+    "Option2": "If `myOptionalValue` is not `nil`, return its unwrapped value, otherwise return `defaultValue`.",
+    "Option3": "Always return `defaultValue`.",
+    "Option4": "Always return `myOptionalValue`.",
+    "Answer": "If `myOptionalValue` is not `nil`, return its unwrapped value, otherwise return `defaultValue`."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Optional Chaining'?",
+    "Option1": "Force unwrapping multiple optionals.",
+    "Option2": "A process for querying and calling properties, methods, and subscripts on an optional that might currently be `nil`.",
+    "Option3": "A way to convert an Optional to a non-Optional.",
+    "Option4": "Creating a chain of related optionals.",
+    "Answer": "A process for querying and calling properties, methods, and subscripts on an optional that might currently be `nil`."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What symbol is used for Optional Chaining?",
+    "Option1": "`!`",
+    "Option2": "`?`",
+    "Option3": "`*`",
+    "Option4": "`#`",
+    "Answer": "`?`"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is a 'Range Operator' in Swift?",
+    "Option1": "Used for comparing numbers.",
+    "Option2": "Operators (`..>`, `...`, `..<`) that represent a range of values, useful for iterating or slicing collections.",
+    "Option3": "Operators for mathematical calculations.",
+    "Option4": "Operators for string concatenation.",
+    "Answer": "Operators (`..>`, `...`, `..<`) that represent a range of values, useful for iterating or slicing collections."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What does the 'Closed Range Operator' (`...`) include?",
+    "Option1": "Only the starting value.",
+    "Option2": "Only the ending value.",
+    "Option3": "Both the starting and ending values.",
+    "Option4": "Neither the starting nor the ending values.",
+    "Answer": "Both the starting and ending values."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What does the 'Half-Open Range Operator' (`..<`) include?",
+    "Option1": "Both the starting and ending values.",
+    "Option2": "The starting value but not the ending value.",
+    "Option3": "The ending value but not the starting value.",
+    "Option4": "Neither the starting nor the ending values.",
+    "Answer": "The starting value but not the ending value."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Tuple Decomposition'?",
+    "Option1": "Creating a new tuple.",
+    "Option2": "Breaking down the elements of a tuple into individual constants or variables.",
+    "Option3": "Combining multiple tuples.",
+    "Option4": "Comparing two tuples.",
+    "Answer": "Breaking down the elements of a tuple into individual constants or variables."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the `fallthrough` keyword in a `switch` statement?",
+    "Option1": "It prevents the next case from executing.",
+    "Option2": "It explicitly allows control to transfer from one `case` to the next, overriding Swift's default no-fallthrough behavior.",
+    "Option3": "It immediately exits the `switch` statement.",
+    "Option4": "It indicates an error.",
+    "Answer": "It explicitly allows control to transfer from one `case` to the next, overriding Swift's default no-fallthrough behavior."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is a 'Variadic Parameter' in functions?",
+    "Option1": "A parameter that can only take a single value.",
+    "Option2": "A parameter that accepts zero or more values of a specified type, passed as an array.",
+    "Option3": "A parameter with a default value.",
+    "Option4": "A parameter that is always optional.",
+    "Answer": "A parameter that accepts zero or more values of a specified type, passed as an array."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What symbol is used for a variadic parameter?",
+    "Option1": "`*`",
+    "Option2": "`&`",
+    "Option3": "`...`",
+    "Option4": "`$$`",
+    "Answer": "`...`"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Function Overloading'?",
+    "Option1": "Defining multiple functions with different names.",
+    "Option2": "Defining multiple functions with the same name in the same scope, but with different numbers or types of parameters.",
+    "Option3": "Defining a function that accepts any type of parameter.",
+    "Option4": "Defining a function that calls another function.",
+    "Answer": "Defining multiple functions with the same name in the same scope, but with different numbers or types of parameters."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Default Parameter Values' in functions?",
+    "Option1": "Parameters that must always be explicitly provided.",
+    "Option2": "Allow you to specify a default value for any parameter in a function definition, which is used if no value is passed for that parameter.",
+    "Option3": "Parameters that are only for internal use.",
+    "Option4": "Parameters that cannot be changed.",
+    "Answer": "Allow you to specify a default value for any parameter in a function definition, which is used if no value is passed for that parameter."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'External Parameter Names' in functions?",
+    "Option1": "Names used inside the function only.",
+    "Option2": "Labels used when calling a function, distinct from the internal parameter names used within the function's body.",
+    "Option3": "Names that are always optional.",
+    "Option4": "Names that can be omitted.",
+    "Answer": "Labels used when calling a function, distinct from the internal parameter names used within the function's body."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is a 'Throwing Function'?",
+    "Option1": "A function that generates random numbers.",
+    "Option2": "A function that signals an error condition by throwing an error.",
+    "Option3": "A function that always returns a value.",
+    "Option4": "A function that takes no parameters.",
+    "Answer": "A function that signals an error condition by throwing an error."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is a 'Rethrowing Function'?",
+    "Option1": "A function that throws a new error.",
+    "Option2": "A function that rethrows an error that was thrown by a function it calls, but does not handle the error itself.",
+    "Option3": "A function that handles all errors.",
+    "Option4": "A function that never throws an error.",
+    "Answer": "A function that rethrows an error that was thrown by a function it calls, but does not handle the error itself."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Assertions' in Swift?",
+    "Option1": "Statements that allow you to declare that a condition must be true for your code to continue executing.",
+    "Option2": "A way to handle errors gracefully.",
+    "Option3": "A mechanism for defining test cases.",
+    "Option4": "A way to print messages to the console.",
+    "Answer": "Statements that allow you to declare that a condition must be true for your code to continue executing."
+  },
+  {
+    "question_no.": 142,
+    "Question": "When are Assertions checked?",
+    "Option1": "Only in production builds.",
+    "Option2": "Only in debug builds.",
+    "Option3": "Both in debug and production builds.",
+    "Option4": "Only during compilation.",
+    "Answer": "Only in debug builds."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Preconditions' in Swift?",
+    "Option1": "Conditions checked only in debug builds.",
+    "Option2": "Conditions that must be true for your code to continue executing, checked in both debug and production builds.",
+    "Option3": "Conditions that are always false.",
+    "Option4": "Conditions for error handling.",
+    "Answer": "Conditions that must be true for your code to continue executing, checked in both debug and production builds."
+  },
+  {
+    "question_no.": 144,
+    "Question": "When are Preconditions checked?",
+    "Option1": "Only in debug builds.",
+    "Option2": "Only in production builds.",
+    "Option3": "Both in debug and production builds.",
+    "Option4": "Only during runtime after an error.",
+    "Answer": "Both in debug and production builds."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Access Control' in Swift?",
+    "Option1": "A way to manage user permissions.",
+    "Option2": "A mechanism to restrict access to parts of your code from other source files or modules.",
+    "Option3": "A feature for controlling network access.",
+    "Option4": "A way to encrypt code.",
+    "Answer": "A mechanism to restrict access to parts of your code from other source files or modules."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the most restrictive access level?",
+    "Option1": "`public`",
+    "Option2": "`internal`",
+    "Option3": "`fileprivate`",
+    "Option4": "`private`",
+    "Answer": "`private`"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the least restrictive access level?",
+    "Option1": "`private`",
+    "Option2": "`fileprivate`",
+    "Option3": "`internal`",
+    "Option4": "`open`",
+    "Answer": "`open`"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the default access level for most declarations in Swift?",
+    "Option1": "`public`",
+    "Option2": "`private`",
+    "Option3": "`internal`",
+    "Option4": "`fileprivate`",
+    "Answer": "`internal`"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is the difference between `private` and `fileprivate`?",
+    "Option1": "`private` allows access from the defining module, `fileprivate` does not.",
+    "Option2": "`private` restricts access to the enclosing declaration, `fileprivate` restricts to the current source file.",
+    "Option3": "There is no difference.",
+    "Option4": "`private` is less restrictive than `fileprivate`.",
+    "Answer": "`private` restricts access to the enclosing declaration, `fileprivate` restricts to the current source file."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is a 'Package Manager' for Swift?",
+    "Option1": "A tool for compiling Swift code.",
+    "Option2": "A tool for managing the distribution of source code, often used to integrate third-party libraries into projects.",
+    "Option3": "A tool for debugging Swift applications.",
+    "Option4": "A tool for creating Swift user interfaces.",
+    "Answer": "A tool for managing the distribution of source code, often used to integrate third-party libraries into projects."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is Swift Package Manager (SPM)?",
+    "Option1": "A third-party package manager for Swift.",
+    "Option2": "Apple's native, integrated dependency management tool for Swift projects.",
+    "Option3": "A command-line tool for installing Xcode.",
+    "Option4": "A tool for publishing apps to the App Store.",
+    "Answer": "Apple's native, integrated dependency management tool for Swift projects."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is a 'Bundle' in macOS/iOS development?",
+    "Option1": "A single executable file.",
+    "Option2": "A directory in the file system that groups code, resources (images, sounds, NIBs), and other files together, often representing an application or framework.",
+    "Option3": "A compressed archive of files.",
+    "Option4": "A type of database.",
+    "Answer": "A directory in the file system that groups code, resources (images, sounds, NIBs), and other files together, often representing an application or framework."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is the primary tool for developing Swift applications on Apple platforms?",
+    "Option1": "Visual Studio Code",
+    "Option2": "Xcode",
+    "Option3": "Android Studio",
+    "Option4": "Eclipse",
+    "Answer": "Xcode"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Storyboard' in iOS development?",
+    "Option1": "A tool for writing code.",
+    "Option2": "A visual representation of the user interface of an iOS application, showing screens (view controllers) and transitions (segues) between them.",
+    "Option3": "A way to manage data.",
+    "Option4": "A type of database.",
+    "Answer": "A visual representation of the user interface of an iOS application, showing screens (view controllers) and transitions (segues) between them."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is a 'XIB' (or 'NIB') file in iOS development?",
+    "Option1": "A file for storing code.",
+    "Option2": "An XML-based file that describes a single user interface object (e.g., a single view controller's view hierarchy).",
+    "Option3": "A file for managing data.",
+    "Option4": "A file for images.",
+    "Answer": "An XML-based file that describes a single user interface object (e.g., a single view controller's view hierarchy)."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Interface Builder'?",
+    "Option1": "A command-line tool.",
+    "Option2": "A visual editor within Xcode that allows you to design and lay out user interfaces using Storyboards and XIB files.",
+    "Option3": "A code editor.",
+    "Option4": "A build system.",
+    "Answer": "A visual editor within Xcode that allows you to design and lay out user interfaces using Storyboards and XIB files."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Auto Layout' in iOS development?",
+    "Option1": "A way to arrange UI elements manually.",
+    "Option2": "A constraint-based layout system that allows you to define the position and size of UI elements in a flexible way, adapting to different screen sizes and orientations.",
+    "Option3": "A system for managing app data.",
+    "Option4": "A way to handle animations.",
+    "Answer": "A constraint-based layout system that allows you to define the position and size of UI elements in a flexible way, adapting to different screen sizes and orientations."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Safe Area' in iOS development?",
+    "Option1": "The entire screen bounds.",
+    "Option2": "The region of a view that is not obscured by bars (navigation bar, tab bar) or other content like notches or home indicator.",
+    "Option3": "A region for user input.",
+    "Option4": "A region for debugging.",
+    "Answer": "The region of a view that is not obscured by bars (navigation bar, tab bar) or other content like notches or home indicator."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `UILabel` in UIKit?",
+    "Option1": "A button.",
+    "Option2": "A view that displays one or more lines of static text.",
+    "Option3": "An image view.",
+    "Option4": "A text input field.",
+    "Answer": "A view that displays one or more lines of static text."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `UIButton` in UIKit?",
+    "Option1": "A text input field.",
+    "Option2": "A control that executes your custom code in response to user interactions.",
+    "Option3": "A view that displays an image.",
+    "Option4": "A slider.",
+    "Answer": "A control that executes your custom code in response to user interactions."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `UITextField` in UIKit?",
+    "Option1": "A view for displaying static text.",
+    "Option2": "A control that displays an editable text area.",
+    "Option3": "A view for displaying images.",
+    "Option4": "A multi-line text input view.",
+    "Answer": "A control that displays an editable text area."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `UITextView` in UIKit?",
+    "Option1": "A single-line text input field.",
+    "Option2": "A view that displays a large amount of scrollable, multi-line text, and can be editable.",
+    "Option3": "A view for displaying images.",
+    "Option4": "A button.",
+    "Answer": "A view that displays a large amount of scrollable, multi-line text, and can be editable."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `UIImageView` in UIKit?",
+    "Option1": "A control for drawing shapes.",
+    "Option2": "A view that displays a single image or an animated sequence of images.",
+    "Option3": "A view for playing videos.",
+    "Option4": "A view for displaying text.",
+    "Answer": "A view that displays a single image or an animated sequence of images."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `UITableView` in UIKit?",
+    "Option1": "A view for displaying a grid of items.",
+    "Option2": "A view that displays a single-column list of rows, organized into sections, often used for lists of data.",
+    "Option3": "A view for displaying images.",
+    "Option4": "A view for displaying static text.",
+    "Answer": "A view that displays a single-column list of rows, organized into sections, often used for lists of data."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `UICollectionView` in UIKit?",
+    "Option1": "A view for displaying a single row of items.",
+    "Option2": "A view that manages an ordered collection of data items and presents them in a customizable layout.",
+    "Option3": "A view for displaying text.",
+    "Option4": "A view for displaying a fixed number of items.",
+    "Answer": "A view that manages an ordered collection of data items and presents them in a customizable layout."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `UIViewController` in UIKit?",
+    "Option1": "A view that displays content.",
+    "Option2": "An object that manages a view hierarchy for your UIKit app, acting as the primary coordinator between the view and your data.",
+    "Option3": "A class for managing data models.",
+    "Option4": "A protocol for UI elements.",
+    "Answer": "An object that manages a view hierarchy for your UIKit app, acting as the primary coordinator between the view and your data."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is a 'Segue' in Storyboards?",
+    "Option1": "A type of UI element.",
+    "Option2": "A transition from one view controller to another in a storyboard.",
+    "Option3": "A way to define data flow.",
+    "Option4": "A property of a view.",
+    "Answer": "A transition from one view controller to another in a storyboard."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the `prepare(for:sender:)` method used for in `UIViewController`?",
+    "Option1": "To set up the initial view.",
+    "Option2": "To prepare for a segue by passing data to the destination view controller before the transition occurs.",
+    "Option3": "To handle user interactions.",
+    "Option4": "To clean up resources.",
+    "Answer": "To prepare for a segue by passing data to the destination view controller before the transition occurs."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `UserDefaults` in iOS development?",
+    "Option1": "A database for large amounts of data.",
+    "Option2": "A system for storing small amounts of user preferences and configuration data persistently.",
+    "Option3": "A temporary storage mechanism.",
+    "Option4": "A cloud storage service.",
+    "Answer": "A system for storing small amounts of user preferences and configuration data persistently."
+  },
+  {
+    "question_no.": 170,
+    "Question": "When should you use `UserDefaults`?",
+    "Option1": "For storing complex objects or large datasets.",
+    "Option2": "For storing simple user settings like a dark mode preference or last viewed item ID.",
+    "Option3": "For sensitive user data.",
+    "Option4": "For temporary data that doesn't need to persist.",
+    "Answer": "For storing simple user settings like a dark mode preference or last viewed item ID."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `Core Data` in iOS development?",
+    "Option1": "A framework for networking.",
+    "Option2": "An object graph management and persistence framework that helps you save, model, and manage your application's data.",
+    "Option3": "A framework for building user interfaces.",
+    "Option4": "A framework for playing audio.",
+    "Answer": "An object graph management and persistence framework that helps you save, model, and manage your application's data."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is an `NSManagedObject` in Core Data?",
+    "Option1": "A transient object.",
+    "Option2": "A generic subclass of `NSObject` that represents a record in a Core Data store, managed by a managed object context.",
+    "Option3": "A type of database.",
+    "Option4": "A view controller.",
+    "Answer": "A generic subclass of `NSObject` that represents a record in a Core Data store, managed by a managed object context."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `Realm` as an alternative to Core Data?",
+    "Option1": "A server-side database.",
+    "Option2": "A mobile database that offers a simpler API and often better performance than Core Data for specific use cases.",
+    "Option3": "A cloud storage service.",
+    "Option4": "A memory management system.",
+    "Answer": "A mobile database that offers a simpler API and often better performance than Core Data for specific use cases."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `Codable` protocol in Swift?",
+    "Option1": "A protocol for sorting data.",
+    "Option2": "A type alias for `Encodable` and `Decodable` protocols, used for easily converting Swift types to and from external representations (e.g., JSON).",
+    "Option3": "A protocol for comparing objects.",
+    "Option4": "A protocol for error handling.",
+    "Answer": "A type alias for `Encodable` and `Decodable` protocols, used for easily converting Swift types to and from external representations (e.g., JSON)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `Encodable` protocol?",
+    "Option1": "A protocol for converting data from an external representation to Swift types.",
+    "Option2": "A protocol that allows a type to encode itself into an external representation, such as JSON or Property List.",
+    "Option3": "A protocol for encrypting data.",
+    "Option4": "A protocol for validating data.",
+    "Answer": "A protocol that allows a type to encode itself into an external representation, such as JSON or Property List."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `Decodable` protocol?",
+    "Option1": "A protocol for converting data from Swift types to an external representation.",
+    "Option2": "A protocol that allows a type to decode itself from an external representation, such as JSON or Property List.",
+    "Option3": "A protocol for decrypting data.",
+    "Option4": "A protocol for compressing data.",
+    "Answer": "A protocol that allows a type to decode itself from an external representation, such as JSON or Property List."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `JSONEncoder` in Swift?",
+    "Option1": "A class for decoding JSON data.",
+    "Option2": "A class that encodes `Encodable` types into JSON data.",
+    "Option3": "A class for parsing XML.",
+    "Option4": "A class for handling database operations.",
+    "Answer": "A class that encodes `Encodable` types into JSON data."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `JSONDecoder` in Swift?",
+    "Option1": "A class for encoding JSON data.",
+    "Option2": "A class that decodes JSON data into `Decodable` Swift types.",
+    "Option3": "A class for parsing HTML.",
+    "Option4": "A class for fetching data from URLs.",
+    "Answer": "A class that decodes JSON data into `Decodable` Swift types."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `URLSession` in iOS development?",
+    "Option1": "A class for managing local files.",
+    "Option2": "A set of classes for handling URL-based networking requests, including data tasks, download tasks, and upload tasks.",
+    "Option3": "A class for managing user interfaces.",
+    "Option4": "A class for database interactions.",
+    "Answer": "A set of classes for handling URL-based networking requests, including data tasks, download tasks, and upload tasks."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the main purpose of a `URLSessionDataTask`?",
+    "Option1": "To download large files.",
+    "Option2": "To retrieve data from a URL and return it as `Data` in memory.",
+    "Option3": "To upload files to a server.",
+    "Option4": "To stream video content.",
+    "Answer": "To retrieve data from a URL and return it as `Data` in memory."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `Combine` framework in Swift?",
+    "Option1": "A framework for UI layout.",
+    "Option2": "A declarative Swift API for processing values over time, handling asynchronous events using publishers and subscribers.",
+    "Option3": "A framework for machine learning.",
+    "Option4": "A framework for 3D graphics.",
+    "Answer": "A declarative Swift API for processing values over time, handling asynchronous events using publishers and subscribers."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is a 'Publisher' in Combine?",
+    "Option1": "An object that receives values.",
+    "Option2": "An object that can emit a sequence of values over time, and can also complete successfully or fail with an error.",
+    "Option3": "An object that performs computations.",
+    "Option4": "An object that stores data.",
+    "Answer": "An object that can emit a sequence of values over time, and can also complete successfully or fail with an error."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a 'Subscriber' in Combine?",
+    "Option1": "An object that emits values.",
+    "Option2": "An object that receives values from a publisher and processes them, often performing side effects or updating UI.",
+    "Option3": "An object that transforms values.",
+    "Option4": "An object that creates publishers.",
+    "Answer": "An object that receives values from a publisher and processes them, often performing side effects or updating UI."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is a 'Cancellable' in Combine?",
+    "Option1": "A type of publisher.",
+    "Option2": "A protocol that an object conforms to if it can be cancelled, often returned by `sink` to stop a subscription.",
+    "Option3": "A type of subscriber.",
+    "Option4": "A type of operator.",
+    "Answer": "A protocol that an object conforms to if it can be cancelled, often returned by `sink` to stop a subscription."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `sink(receiveCompletion:receiveValue:)` in Combine?",
+    "Option1": "An operator that transforms values.",
+    "Option2": "A subscriber that receives all events from a publisher and provides closures to handle successful completion, failure, and received values.",
+    "Option3": "A publisher that only emits a single value.",
+    "Option4": "An operator that filters values.",
+    "Answer": "A subscriber that receives all events from a publisher and provides closures to handle successful completion, failure, and received values."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Map' operator in Combine?",
+    "Option1": "Filters values from a publisher.",
+    "Option2": "Transforms each element emitted by a publisher into a new element of a potentially different type.",
+    "Option3": "Combines multiple publishers.",
+    "Option4": "Handles errors from a publisher.",
+    "Answer": "Transforms each element emitted by a publisher into a new element of a potentially different type."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Filter' operator in Combine?",
+    "Option1": "Transforms values from a publisher.",
+    "Option2": "Removes elements from the stream of a publisher based on a given predicate.",
+    "Option3": "Combines multiple publishers.",
+    "Option4": "Emits only the first value.",
+    "Answer": "Removes elements from the stream of a publisher based on a given predicate."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Debounce' operator in Combine?",
+    "Option1": "Emits all values immediately.",
+    "Option2": "Waits for a specified amount of time after the last emission from a publisher before emitting the value, useful for preventing rapid updates.",
+    "Option3": "Emits values periodically.",
+    "Option4": "Limits the number of values emitted.",
+    "Answer": "Waits for a specified amount of time after the last emission from a publisher before emitting the value, useful for preventing rapid updates."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Observable' protocol (from `RxSwift` or `Combine`'s equivalent `Publisher`)?",
+    "Option1": "A type that can be observed for changes, typically by using property wrappers like `@Published` or conforming to `ObservableObject`.",
+    "Option2": "A type that is immutable.",
+    "Option3": "A type that performs calculations.",
+    "Option4": "A type that stores data.",
+    "Answer": "A type that can be observed for changes, typically by using property wrappers like `@Published` or conforming to `ObservableObject`."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Binding' in SwiftUI (revisited)?",
+    "Option1": "A one-way data flow.",
+    "Option2": "A connection between a value source and a view that enables two-way data flow, where changes in the view update the source and vice versa.",
+    "Option3": "A way to directly modify a view's properties.",
+    "Option4": "A way to create a new view.",
+    "Answer": "A connection between a value source and a view that enables two-way data flow, where changes in the view update the source and vice versa."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'ViewModifier' in SwiftUI?",
+    "Option1": "A type of View.",
+    "Option2": "A protocol that defines a modifier that can be applied to a view, changing its appearance or behavior without altering the view's data.",
+    "Option3": "A way to store view data.",
+    "Option4": "A way to handle user input.",
+    "Answer": "A protocol that defines a modifier that can be applied to a view, changing its appearance or behavior without altering the view's data."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is a 'Custom ViewModifier'?",
+    "Option1": "A modifier provided by Apple.",
+    "Option2": "A user-defined structure that conforms to the `ViewModifier` protocol, allowing for reusable view styling or behavior.",
+    "Option3": "A modifier that changes the view's data.",
+    "Option4": "A modifier that only works with specific views.",
+    "Answer": "A user-defined structure that conforms to the `ViewModifier` protocol, allowing for reusable view styling or behavior."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Environment Values' in SwiftUI?",
+    "Option1": "Global variables accessible anywhere.",
+    "Option2": "A collection of key-value pairs that SwiftUI provides to views, allowing them to access system-wide settings or shared data without explicit passing.",
+    "Option3": "A way to define local view state.",
+    "Option4": "A mechanism for networking.",
+    "Answer": "A collection of key-value pairs that SwiftUI provides to views, allowing them to access system-wide settings or shared data without explicit passing."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `@Environment` property wrapper in SwiftUI?",
+    "Option1": "A property wrapper for local view state.",
+    "Option2": "A property wrapper that allows a view to read a value from the view's environment, such as `\\.colorScheme` or `\\.isPresented`.",
+    "Option3": "A property wrapper for binding to external data.",
+    "Option4": "A property wrapper for observable objects.",
+    "Answer": "A property wrapper that allows a view to read a value from the view's environment, such as `\\.colorScheme` or `\\.isPresented`."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Preview Providers' in SwiftUI?",
+    "Option1": "Used for deploying apps.",
+    "Option2": "Code blocks that allow you to render SwiftUI views directly within Xcode's canvas, enabling iterative UI development without running on a device.",
+    "Option3": "Used for testing UI functionality.",
+    "Option4": "Used for managing app data.",
+    "Answer": "Code blocks that allow you to render SwiftUI views directly within Xcode's canvas, enabling iterative UI development without running on a device."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Layout Priority' in SwiftUI?",
+    "Option1": "Determines the order of views in the hierarchy.",
+    "Option2": "A modifier that influences how a view is sized relative to its siblings when space is constrained or abundant.",
+    "Option3": "Sets the Z-index of a view.",
+    "Option4": "Determines which view receives user input first.",
+    "Answer": "A modifier that influences how a view is sized relative to its siblings when space is constrained or abundant."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Padding' in SwiftUI?",
+    "Option1": "Adds space inside the view's content.",
+    "Option2": "Adds space around the outside of a view's content, pushing other views away.",
+    "Option3": "Adjusts the alignment of a view.",
+    "Option4": "Changes the background color of a view.",
+    "Answer": "Adds space around the outside of a view's content, pushing other views away."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Spacer' in SwiftUI?",
+    "Option1": "A view that adds fixed empty space.",
+    "Option2": "A flexible space that expands to fill available space along an axis, pushing other views apart.",
+    "Option3": "A view for drawing lines.",
+    "Option4": "A view for displaying images.",
+    "Answer": "A flexible space that expands to fill available space along an axis, pushing other views apart."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'LazyVStack' in SwiftUI?",
+    "Option1": "A stack that renders all its content immediately.",
+    "Option2": "A vertical stack that only loads its content views as they become visible, improving performance for long lists.",
+    "Option3": "A horizontal stack.",
+    "Option4": "A stack with fixed height.",
+    "Answer": "A vertical stack that only loads its content views as they become visible, improving performance for long lists."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'LazyHStack' in SwiftUI?",
+    "Option1": "A stack that renders all its content immediately.",
+    "Option2": "A horizontal stack that only loads its content views as they become visible, improving performance for wide lists.",
+    "Option3": "A vertical stack.",
+    "Option4": "A stack with fixed width.",
+    "Answer": "A horizontal stack that only loads its content views as they become visible, improving performance for wide lists."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'NavigationStack' in SwiftUI?",
+    "Option1": "A view for presenting content modally.",
+    "Option2": "A container view that manages a navigation path, allowing you to push and pop views on a navigation stack.",
+    "Option3": "A view for tab-based navigation.",
+    "Option4": "A view for displaying a grid of items.",
+    "Answer": "A container view that manages a navigation path, allowing you to push and pop views on a navigation stack."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `NavigationLink` in SwiftUI?",
+    "Option1": "A button that performs an action.",
+    "Option2": "A view that enables navigation to a destination view when tapped.",
+    "Option3": "A view for displaying text.",
+    "Option4": "A view for showing alerts.",
+    "Answer": "A view that enables navigation to a destination view when tapped."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Modal Presentation' in SwiftUI?",
+    "Option1": "Presenting a view within the current view.",
+    "Option2": "Presenting a new view controller that completely covers the current content, typically for short, self-contained tasks.",
+    "Option3": "Pushing a view onto a navigation stack.",
+    "Option4": "Embedding a view within another view.",
+    "Answer": "Presenting a new view controller that completely covers the current content, typically for short, self-contained tasks."
+  },
+  {
+    "question_no.": 204,
+    "Question": "How do you perform a modal presentation in SwiftUI?",
+    "Option1": "Using `NavigationLink`.",
+    "Option2": "Using the `.sheet()`, `.fullScreenCover()`, or `.alert()` modifiers with a binding to a boolean.",
+    "Option3": "By creating a new `NavigationView`.",
+    "Option4": "By manually pushing a view onto a stack.",
+    "Answer": "Using the `.sheet()`, `.fullScreenCover()`, or `.alert()` modifiers with a binding to a boolean."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Alert' in SwiftUI?",
+    "Option1": "A view for displaying information.",
+    "Option2": "A temporary view that presents a message to the user, typically with one or more buttons for interaction.",
+    "Option3": "A notification that appears at the top of the screen.",
+    "Option4": "A view for user input.",
+    "Answer": "A temporary view that presents a message to the user, typically with one or more buttons for interaction."
+  },
+  {
+    "question_no.": 206,
+    "Question": "What is 'ActionSheet' in SwiftUI?",
+    "Option1": "A small pop-up message.",
+    "Option2": "A sheet of buttons that slides up from the bottom of the screen, offering a set of choices related to the current context.",
+    "Option3": "A view for displaying a list of items.",
+    "Option4": "A full-screen cover.",
+    "Answer": "A sheet of buttons that slides up from the bottom of the screen, offering a set of choices related to the current context."
+  },
+  {
+    "question_no.": 207,
+    "Question": "What is 'ConfirmationDialog' in SwiftUI?",
+    "Option1": "A synonym for Alert.",
+    "Option2": "A more modern and flexible alternative to `ActionSheet`, typically presented as a popover on iPad or a sheet on iPhone.",
+    "Option3": "A dialog for text input.",
+    "Option4": "A dialog for displaying images.",
+    "Answer": "A more modern and flexible alternative to `ActionSheet`, typically presented as a popover on iPad or a sheet on iPhone."
+  },
+  {
+    "question_no.": 208,
+    "Question": "What is 'Gesture Recognizers' in UIKit?",
+    "Option1": "Objects that manage animations.",
+    "Option2": "Objects that interpret touches and other inputs to recognize common gestures (e.g., tap, pinch, swipe) and respond to them.",
+    "Option3": "Objects that handle keyboard input.",
+    "Option4": "Objects that control view layout.",
+    "Answer": "Objects that interpret touches and other inputs to recognize common gestures (e.g., tap, pinch, swipe) and respond to them."
+  },
+  {
+    "question_no.": 209,
+    "Question": "How do you add gestures to SwiftUI views?",
+    "Option1": "By using `UIGestureRecognizer`.",
+    "Option2": "By using the `.gesture()` modifier on the view, passing in a `Gesture` type (e.g., `TapGesture`, `DragGesture`).",
+    "Option3": "By implementing a delegate protocol.",
+    "Option4": "SwiftUI doesn't support gestures.",
+    "Answer": "By using the `.gesture()` modifier on the view, passing in a `Gesture` type (e.g., `TapGesture`, `DragGesture`)."
+  },
+  {
+    "question_no.": 210,
+    "Question": "What is 'Animation' in SwiftUI?",
+    "Option1": "Manually updating view properties over time.",
+    "Option2": "A declarative way to add smooth visual transitions and effects to view changes, often using `.animation()` modifier.",
+    "Option3": "A way to play video files.",
+    "Option4": "A system for handling user input.",
+    "Answer": "A declarative way to add smooth visual transitions and effects to view changes, often using `.animation()` modifier."
+  }
+]

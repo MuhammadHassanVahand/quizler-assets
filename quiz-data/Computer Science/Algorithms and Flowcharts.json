@@ -1,0 +1,1856 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is an algorithm?",
+    "Option1": "A type of computer hardware",
+    "Option2": "A set of instructions for solving a problem or accomplishing a task",
+    "Option3": "A programming language",
+    "Option4": "A specific software application",
+    "Answer": "A set of instructions for solving a problem or accomplishing a task"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a characteristic of a good algorithm?",
+    "Option1": "Definiteness",
+    "Option2": "Finiteness",
+    "Option3": "Ambiguity",
+    "Option4": "Effectiveness",
+    "Answer": "Ambiguity"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What does 'finiteness' mean in the context of an algorithm?",
+    "Option1": "It must be short in length",
+    "Option2": "It must terminate after a finite number of steps",
+    "Option3": "It must produce a finite number of outputs",
+    "Option4": "It must use a finite amount of memory",
+    "Answer": "It must terminate after a finite number of steps"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is a flowchart?",
+    "Option1": "A type of programming language",
+    "Option2": "A textual representation of an algorithm",
+    "Option3": "A graphical representation of an algorithm using symbols and connecting lines",
+    "Option4": "A debugging tool for software",
+    "Answer": "A graphical representation of an algorithm using symbols and connecting lines"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which symbol in a flowchart represents the start or end of a program?",
+    "Option1": "Rectangle",
+    "Option2": "Diamond",
+    "Option3": "Oval (Terminal)",
+    "Option4": "Parallelogram",
+    "Answer": "Oval (Terminal)"
+  },
+  {
+    "question_no.": 6,
+    "Question": "In a flowchart, what does a rectangle symbol typically represent?",
+    "Option1": "Input/Output operation",
+    "Option2": "Decision point",
+    "Option3": "Process or computation",
+    "Option4": "Connector",
+    "Answer": "Process or computation"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What does a diamond symbol in a flowchart signify?",
+    "Option1": "Start/End",
+    "Option2": "Input/Output",
+    "Option3": "Decision or conditional branching",
+    "Option4": "Subroutine",
+    "Answer": "Decision or conditional branching"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which symbol is used for input or output operations in a flowchart?",
+    "Option1": "Rectangle",
+    "Option2": "Oval",
+    "Option3": "Parallelogram",
+    "Option4": "Diamond",
+    "Answer": "Parallelogram"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What do arrows in a flowchart represent?",
+    "Option1": "Data flow",
+    "Option2": "Control flow or direction of logic",
+    "Option3": "Looping",
+    "Option4": "Decision outcomes",
+    "Answer": "Control flow or direction of logic"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the purpose of a loop in an algorithm?",
+    "Option1": "To make a decision",
+    "Option2": "To repeat a set of instructions multiple times",
+    "Option3": "To perform an arithmetic calculation",
+    "Option4": "To terminate the program",
+    "Answer": "To repeat a set of instructions multiple times"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which algorithm finds the largest item in a list?",
+    "Option1": "Sorting algorithm",
+    "Option2": "Searching algorithm",
+    "Option3": "Maximum finding algorithm",
+    "Option4": "Traversal algorithm",
+    "Answer": "Maximum finding algorithm"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the Big O notation used for in algorithm analysis?",
+    "Option1": "To describe the beauty of an algorithm",
+    "Option2": "To measure the exact execution time of an algorithm",
+    "Option3": "To describe the asymptotic upper bound of an algorithm's time or space complexity",
+    "Option4": "To define the output format of an algorithm",
+    "Answer": "To describe the asymptotic upper bound of an algorithm's time or space complexity"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which sorting algorithm repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order?",
+    "Option1": "Merge Sort",
+    "Option2": "Quick Sort",
+    "Option3": "Bubble Sort",
+    "Option4": "Insertion Sort",
+    "Answer": "Bubble Sort"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the worst-case time complexity of Bubble Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(n log n)",
+    "Answer": "O(n^2)"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which sorting algorithm divides the input array into two halves, calls itself for the two halves, and then merges the two sorted halves?",
+    "Option1": "Selection Sort",
+    "Option2": "Insertion Sort",
+    "Option3": "Merge Sort",
+    "Option4": "Heap Sort",
+    "Answer": "Merge Sort"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is the time complexity of Merge Sort in the worst case?",
+    "Option1": "O(n)",
+    "Option2": "O(n log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(log n)",
+    "Answer": "O(n log n)"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which searching algorithm starts checking from one end and continues until the desired element is found or the list ends?",
+    "Option1": "Binary Search",
+    "Option2": "Linear Search",
+    "Option3": "Hash Search",
+    "Option4": "Tree Search",
+    "Answer": "Linear Search"
+  },
+  {
+    "question_no.": 18,
+    "Question": "For which type of list is Binary Search most efficient?",
+    "Option1": "Unsorted list",
+    "Option2": "Randomly ordered list",
+    "Option3": "Sorted list",
+    "Option4": "List with duplicate elements",
+    "Answer": "Sorted list"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the worst-case time complexity of Linear Search?",
+    "Option1": "O(1)",
+    "Option2": "O(log n)",
+    "Option3": "O(n)",
+    "Option4": "O(n^2)",
+    "Answer": "O(n)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the worst-case time complexity of Binary Search?",
+    "Option1": "O(1)",
+    "Option2": "O(log n)",
+    "Option3": "O(n)",
+    "Option4": "O(n log n)",
+    "Answer": "O(log n)"
+  },
+  {
+    "question_no.": 21,
+    "Question": "In a flowchart, what does a predefined process symbol (often a rectangle with double vertical lines) represent?",
+    "Option1": "A simple calculation",
+    "Option2": "A loop",
+    "Option3": "A subroutine or function call",
+    "Option4": "A decision",
+    "Answer": "A subroutine or function call"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the primary benefit of using flowcharts?",
+    "Option1": "They are quick to draw for complex problems",
+    "Option2": "They provide a visual representation of the logic flow, aiding understanding and communication",
+    "Option3": "They are directly executable by a computer",
+    "Option4": "They automatically generate code",
+    "Answer": "They provide a visual representation of the logic flow, aiding understanding and communication"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'definiteness' in an algorithm?",
+    "Option1": "Each step must be short",
+    "Option2": "Each step must be precisely defined and unambiguous",
+    "Option3": "It must be able to solve any problem",
+    "Option4": "It must always produce a positive result",
+    "Answer": "Each step must be precisely defined and unambiguous"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'effectiveness' in an algorithm?",
+    "Option1": "It must be fast",
+    "Option2": "Each step must be simple enough to be done by a human using pencil and paper",
+    "Option3": "It must produce a correct answer",
+    "Option4": "It must be easy to understand",
+    "Answer": "Each step must be simple enough to be done by a human using pencil and paper"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which type of loop executes a block of code a specific number of times?",
+    "Option1": "While loop",
+    "Option2": "Do-while loop",
+    "Option3": "For loop",
+    "Option4": "If-else loop",
+    "Answer": "For loop"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which type of loop executes a block of code as long as a condition is true, checking the condition before each iteration?",
+    "Option1": "For loop",
+    "Option2": "Do-while loop",
+    "Option3": "While loop",
+    "Option4": "Infinite loop",
+    "Answer": "While loop"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which type of loop executes a block of code at least once, then continues as long as a condition is true, checking the condition after the first iteration?",
+    "Option1": "While loop",
+    "Option2": "For loop",
+    "Option3": "Do-while loop",
+    "Option4": "Conditional loop",
+    "Answer": "Do-while loop"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'pseudocode'?",
+    "Option1": "A formal programming language",
+    "Option2": "A graphical representation of an algorithm",
+    "Option3": "An informal high-level description of the operating principle of a computer program or other algorithm",
+    "Option4": "A type of debugging output",
+    "Answer": "An informal high-level description of the operating principle of a computer program or other algorithm"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which of these is generally used for complex algorithms where a visual representation would be too large?",
+    "Option1": "Flowchart",
+    "Option2": "Pseudocode",
+    "Option3": "UML Diagram",
+    "Option4": "Data Flow Diagram",
+    "Answer": "Pseudocode"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the concept of 'divide and conquer' in algorithms?",
+    "Option1": "Breaking a problem into multiple smaller, independent problems, solving them, and combining their solutions",
+    "Option2": "Solving a problem by trying all possible solutions",
+    "Option3": "Using a greedy approach to find a solution",
+    "Option4": "Iteratively refining a single solution",
+    "Answer": "Breaking a problem into multiple smaller, independent problems, solving them, and combining their solutions"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which sorting algorithm is an example of the 'divide and conquer' paradigm?",
+    "Option1": "Bubble Sort",
+    "Option2": "Selection Sort",
+    "Option3": "Merge Sort",
+    "Option4": "Insertion Sort",
+    "Answer": "Merge Sort"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Quick Sort'?",
+    "Option1": "A linear time sorting algorithm",
+    "Option2": "A comparison sorting algorithm that uses a divide-and-conquer approach by picking an element as a pivot and partitioning the array around the picked pivot",
+    "Option3": "A non-comparison sorting algorithm",
+    "Option4": "A stable sorting algorithm with O(n^2) worst-case time complexity",
+    "Answer": "A comparison sorting algorithm that uses a divide-and-conquer approach by picking an element as a pivot and partitioning the array around the picked pivot"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the average-case time complexity of Quick Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(n log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(log n)",
+    "Answer": "O(n log n)"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the worst-case time complexity of Quick Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(n log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(log n)",
+    "Answer": "O(n^2)"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which sorting algorithm builds the final sorted array (or list) one item at a time?",
+    "Option1": "Merge Sort",
+    "Option2": "Quick Sort",
+    "Option3": "Insertion Sort",
+    "Option4": "Selection Sort",
+    "Answer": "Insertion Sort"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the worst-case time complexity of Insertion Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(n log n)",
+    "Answer": "O(n^2)"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which sorting algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning?",
+    "Option1": "Bubble Sort",
+    "Option2": "Insertion Sort",
+    "Option3": "Selection Sort",
+    "Option4": "Merge Sort",
+    "Answer": "Selection Sort"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the worst-case time complexity of Selection Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(n log n)",
+    "Answer": "O(n^2)"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the 'space complexity' of an algorithm?",
+    "Option1": "The number of lines of code",
+    "Option2": "The amount of time it takes to execute",
+    "Option3": "The amount of memory space required by the algorithm to run to completion",
+    "Option4": "The number of inputs the algorithm can handle",
+    "Answer": "The amount of memory space required by the algorithm to run to completion"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What does a circular symbol (Connector) in a flowchart represent?",
+    "Option1": "Start/End",
+    "Option2": "Off-page connector",
+    "Option3": "A point where the flow of logic continues on another part of the same page",
+    "Option4": "Decision",
+    "Answer": "A point where the flow of logic continues on another part of the same page"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is an 'off-page connector' symbol in a flowchart (often a pentagon shape)?",
+    "Option1": "A point where the flow of logic continues on the same page",
+    "Option2": "A point where the flow of logic continues on another page of the diagram",
+    "Option3": "A loop termination point",
+    "Option4": "An input/output operation",
+    "Answer": "A point where the flow of logic continues on another page of the diagram"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the primary advantage of iterative algorithms over recursive algorithms?",
+    "Option1": "Always faster execution",
+    "Option2": "Less memory consumption (stack space)",
+    "Option3": "Easier to understand for complex problems",
+    "Option4": "Directly supported by all programming languages",
+    "Answer": "Less memory consumption (stack space)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is a 'recursive algorithm'?",
+    "Option1": "An algorithm that uses loops repeatedly",
+    "Option2": "An algorithm that solves a problem by calling itself as a subroutine until a base case is reached",
+    "Option3": "An algorithm that generates random numbers",
+    "Option4": "An algorithm that requires user input at each step",
+    "Answer": "An algorithm that solves a problem by calling itself as a subroutine until a base case is reached"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which algorithm commonly uses recursion to solve the problem of finding the factorial of a number?",
+    "Option1": "Iterative Factorial",
+    "Option2": "Recursive Factorial",
+    "Option3": "Dynamic Programming Factorial",
+    "Option4": "Greedy Factorial",
+    "Answer": "Recursive Factorial"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the 'base case' in a recursive algorithm?",
+    "Option1": "The initial input to the algorithm",
+    "Option2": "The condition that stops the recursion and provides a direct solution",
+    "Option3": "The final output of the algorithm",
+    "Option4": "The most complex part of the problem",
+    "Answer": "The condition that stops the recursion and provides a direct solution"
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which algorithm paradigm solves problems by breaking them down into smaller subproblems and solving each subproblem only once, storing the results in a table?",
+    "Option1": "Greedy Algorithm",
+    "Option2": "Divide and Conquer",
+    "Option3": "Dynamic Programming",
+    "Option4": "Backtracking",
+    "Answer": "Dynamic Programming"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the 'principle of optimality' associated with?",
+    "Option1": "Greedy Algorithms",
+    "Option2": "Dynamic Programming",
+    "Option3": "Linear Search",
+    "Option4": "Bubble Sort",
+    "Answer": "Dynamic Programming"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which algorithm approach makes the locally optimal choice at each stage with the hope of finding a global optimum?",
+    "Option1": "Dynamic Programming",
+    "Option2": "Divide and Conquer",
+    "Option3": "Greedy Algorithm",
+    "Option4": "Backtracking",
+    "Answer": "Greedy Algorithm"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is a common example of a problem solved efficiently using a greedy algorithm?",
+    "Option1": "Fibonacci sequence",
+    "Option2": "Knapsack Problem (0/1)",
+    "Option3": "Dijkstra's Shortest Path Algorithm",
+    "Option4": "Tower of Hanoi",
+    "Answer": "Dijkstra's Shortest Path Algorithm"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What does a 'document' symbol (often a wavy bottom rectangle) in a flowchart represent?",
+    "Option1": "Input from a keyboard",
+    "Option2": "Output to a printer or report",
+    "Option3": "Decision point",
+    "Option4": "Process step",
+    "Answer": "Output to a printer or report"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which diagram symbol would you use to represent a list of items that are stored in a database?",
+    "Option1": "Cylinder (Data storage)",
+    "Option2": "Rectangle",
+    "Option3": "Parallelogram",
+    "Option4": "Diamond",
+    "Answer": "Cylinder (Data storage)"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Backtracking' in the context of algorithms?",
+    "Option1": "A method to sort elements in reverse order",
+    "Option2": "A general algorithmic technique for finding solutions by systematically trying all possible paths until a solution is found or it's determined that a path cannot lead to a solution",
+    "Option3": "A technique to optimize memory usage",
+    "Option4": "A method for searching in a linear data structure",
+    "Answer": "A general algorithmic technique for finding solutions by systematically trying all possible paths until a solution is found or it's determined that a path cannot lead to a solution"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which common problem is often solved using a backtracking algorithm?",
+    "Option1": "Finding the shortest path in a graph",
+    "Option2": "N-Queens problem",
+    "Option3": "Calculating factorial",
+    "Option4": "Sorting an array",
+    "Answer": "N-Queens problem"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a 'Brute Force' algorithm?",
+    "Option1": "An optimized algorithm for complex problems",
+    "Option2": "A straightforward but usually inefficient method of solving a problem that typically involves checking all possible solutions or combinations",
+    "Option3": "An algorithm that uses advanced data structures",
+    "Option4": "An algorithm that relies on probability",
+    "Answer": "A straightforward but usually inefficient method of solving a problem that typically involves checking all possible solutions or combinations"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the primary drawback of a brute force algorithm?",
+    "Option1": "Difficulty in implementation",
+    "Option2": "High time complexity, often exponential or factorial",
+    "Option3": "Requires large amounts of memory",
+    "Option4": "Limited to small input sizes",
+    "Answer": "High time complexity, often exponential or factorial"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Graph Traversal'?",
+    "Option1": "Adding new nodes to a graph",
+    "Option2": "The process of visiting (checking and/or updating) each vertex in a graph exactly once",
+    "Option3": "Removing edges from a graph",
+    "Option4": "Creating a new graph from an existing one",
+    "Answer": "The process of visiting (checking and/or updating) each vertex in a graph exactly once"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which graph traversal algorithm explores as far as possible along each branch before backtracking?",
+    "Option1": "Breadth-First Search (BFS)",
+    "Option2": "Depth-First Search (DFS)",
+    "Option3": "Dijkstra's Algorithm",
+    "Option4": "Prim's Algorithm",
+    "Answer": "Depth-First Search (DFS)"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which graph traversal algorithm explores neighbor nodes first, before moving to the next level of neighbors?",
+    "Option1": "Depth-First Search (DFS)",
+    "Option2": "Breadth-First Search (BFS)",
+    "Option3": "Kruskal's Algorithm",
+    "Option4": "Bellman-Ford Algorithm",
+    "Answer": "Breadth-First Search (BFS)"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What data structure is commonly used with Breadth-First Search (BFS)?",
+    "Option1": "Stack",
+    "Option2": "Queue",
+    "Option3": "Heap",
+    "Option4": "Linked List",
+    "Answer": "Queue"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What data structure is commonly used with Depth-First Search (DFS)?",
+    "Option1": "Queue",
+    "Option2": "Heap",
+    "Option3": "Stack",
+    "Option4": "Array",
+    "Answer": "Stack"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which symbol represents a manual input operation in a flowchart (often a trapezoid with slanting top)?",
+    "Option1": "Parallelogram",
+    "Option2": "Rectangle",
+    "Option3": "Manual Input",
+    "Option4": "Process",
+    "Answer": "Manual Input"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the purpose of drawing a flowchart before writing code?",
+    "Option1": "To make the code shorter",
+    "Option2": "To visualize the program logic, identify potential errors, and communicate the algorithm effectively",
+    "Option3": "To measure the execution time of the program",
+    "Option4": "To automatically generate executable code",
+    "Answer": "To visualize the program logic, identify potential errors, and communicate the algorithm effectively"
+  },
+  {
+    "question_no.": 63,
+    "Question": "An algorithm must have zero or more inputs. Is this statement true or false?",
+    "Option1": "True",
+    "Option2": "False",
+    "Option3": "Depends on the algorithm type",
+    "Option4": "Only for sorting algorithms",
+    "Answer": "True"
+  },
+  {
+    "question_no.": 64,
+    "Question": "An algorithm must have one or more outputs. Is this statement true or false?",
+    "Option1": "True",
+    "Option2": "False",
+    "Option3": "Depends on the algorithm type",
+    "Option4": "Only for searching algorithms",
+    "Answer": "True"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Time Complexity' of an algorithm?",
+    "Option1": "The time it takes for a human to understand the algorithm",
+    "Option2": "The amount of time taken by an algorithm to run as a function of the length of the input",
+    "Option3": "The real-world time elapsed during execution",
+    "Option4": "The number of lines of code in the algorithm",
+    "Answer": "The amount of time taken by an algorithm to run as a function of the length of the input"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does O(1) time complexity mean?",
+    "Option1": "Linear time",
+    "Option2": "Logarithmic time",
+    "Option3": "Constant time, meaning the execution time does not depend on the input size",
+    "Option4": "Quadratic time",
+    "Answer": "Constant time, meaning the execution time does not depend on the input size"
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which algorithm is typically O(1) in terms of adding/removing an element from the end of a dynamic array (list)?",
+    "Option1": "Adding to the beginning of a linked list",
+    "Option2": "Accessing an element by index in an array",
+    "Option3": "Searching for an element in an unsorted array",
+    "Option4": "Sorting an array",
+    "Answer": "Accessing an element by index in an array"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does O(log n) time complexity typically indicate?",
+    "Option1": "The algorithm's time grows linearly with input size.",
+    "Option2": "The algorithm's time grows very slowly with input size, often due to operations that halve the search space with each step.",
+    "Option3": "The algorithm's time grows quadratically with input size.",
+    "Option4": "The algorithm's time is constant.",
+    "Answer": "The algorithm's time grows very slowly with input size, often due to operations that halve the search space with each step."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which type of problem is best suited for algorithms with O(log n) time complexity?",
+    "Option1": "Iterating through all elements",
+    "Option2": "Searching in a sorted collection",
+    "Option3": "Performing complex arithmetic operations",
+    "Option4": "Generating all permutations",
+    "Answer": "Searching in a sorted collection"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What does O(n) time complexity mean?",
+    "Option1": "Constant time",
+    "Option2": "The algorithm's time grows linearly with the input size",
+    "Option3": "Quadratic time",
+    "Option4": "Exponential time",
+    "Answer": "The algorithm's time grows linearly with the input size"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which type of algorithm commonly has O(n) time complexity?",
+    "Option1": "Binary Search",
+    "Option2": "Finding the maximum element in an unsorted array",
+    "Option3": "Sorting with Quick Sort",
+    "Option4": "Multiplying two matrices",
+    "Answer": "Finding the maximum element in an unsorted array"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What does O(n^2) time complexity signify?",
+    "Option1": "The algorithm's time grows linearly.",
+    "Option2": "The algorithm's time grows quadratically with the input size, often due to nested loops.",
+    "Option3": "The algorithm's time grows exponentially.",
+    "Option4": "The algorithm's time is constant.",
+    "Answer": "The algorithm's time grows quadratically with the input size, often due to nested loops."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which of these sorting algorithms has a typical time complexity of O(n^2)?",
+    "Option1": "Merge Sort",
+    "Option2": "Quick Sort (average)",
+    "Option3": "Bubble Sort",
+    "Option4": "Heap Sort",
+    "Answer": "Bubble Sort"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What does O(n log n) time complexity represent?",
+    "Option1": "Faster than linear time but slower than logarithmic time",
+    "Option2": "Common for efficient comparison-based sorting algorithms",
+    "Option3": "Slower than quadratic time",
+    "Option4": "Constant time for large inputs",
+    "Answer": "Common for efficient comparison-based sorting algorithms"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which sorting algorithm is guaranteed to have O(n log n) time complexity in all cases (worst, average, best)?",
+    "Option1": "Quick Sort",
+    "Option2": "Bubble Sort",
+    "Option3": "Merge Sort",
+    "Option4": "Insertion Sort",
+    "Answer": "Merge Sort"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the purpose of 'comments' in pseudocode or algorithms?",
+    "Option1": "To make the algorithm run faster",
+    "Option2": "To explain the logic and make the algorithm easier to understand for humans",
+    "Option3": "To define variables",
+    "Option4": "To handle errors",
+    "Answer": "To explain the logic and make the algorithm easier to understand for humans"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the significance of the 'termination condition' in an algorithm?",
+    "Option1": "It determines the input values.",
+    "Option2": "It ensures the algorithm finishes and doesn't run indefinitely.",
+    "Option3": "It defines the output format.",
+    "Option4": "It specifies the data structures to be used.",
+    "Answer": "It ensures the algorithm finishes and doesn't run indefinitely."
+  },
+  {
+    "question_no.": 78,
+    "Question": "A sequence of well-defined, unambiguous instructions is called a/an:",
+    "Option1": "Program",
+    "Option2": "Algorithm",
+    "Option3": "Flowchart",
+    "Option4": "Pseudocode",
+    "Answer": "Algorithm"
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which of these is a pictorial representation of an algorithm?",
+    "Option1": "Pseudocode",
+    "Option2": "Algorithm",
+    "Option3": "Flowchart",
+    "Option4": "Program",
+    "Answer": "Flowchart"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is a 'decision table'?",
+    "Option1": "A visual representation of data",
+    "Option2": "A method to represent complex logic as a set of rules and actions, often used as an alternative to flowcharts for complex conditional logic.",
+    "Option3": "A database schema",
+    "Option4": "A debugging log",
+    "Answer": "A method to represent complex logic as a set of rules and actions, often used as an alternative to flowcharts for complex conditional logic."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'analysis of algorithms'?",
+    "Option1": "Testing an algorithm with different inputs",
+    "Option2": "Determining the computational resources (time and space) required by an algorithm to solve a given problem",
+    "Option3": "Writing an algorithm in a programming language",
+    "Option4": "Designing new algorithms",
+    "Answer": "Determining the computational resources (time and space) required by an algorithm to solve a given problem"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the 'best case' time complexity for an algorithm?",
+    "Option1": "The maximum time required to execute the algorithm",
+    "Option2": "The minimum time required to execute the algorithm, given the most favorable input",
+    "Option3": "The average time required to execute the algorithm",
+    "Option4": "The time required for an algorithm to fail",
+    "Answer": "The minimum time required to execute the algorithm, given the most favorable input"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the 'worst case' time complexity for an algorithm?",
+    "Option1": "The minimum time required to execute the algorithm",
+    "Option2": "The maximum time required to execute the algorithm, given the most unfavorable input",
+    "Option3": "The average time required to execute the algorithm",
+    "Option4": "The time required for an algorithm to complete without errors",
+    "Answer": "The maximum time required to execute the algorithm, given the most unfavorable input"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the 'average case' time complexity for an algorithm?",
+    "Option1": "The minimum time required to execute the algorithm",
+    "Option2": "The maximum time required to execute the algorithm",
+    "Option3": "The expected time required to execute the algorithm over all possible inputs, considering their probability distribution",
+    "Option4": "The time required for an algorithm to run on a typical computer",
+    "Answer": "The expected time required to execute the algorithm over all possible inputs, considering their probability distribution"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'stable sorting'?",
+    "Option1": "A sorting algorithm that is very fast",
+    "Option2": "A sorting algorithm that maintains the relative order of records with equal keys",
+    "Option3": "A sorting algorithm that uses minimal extra space",
+    "Option4": "A sorting algorithm that always produces the same output for the same input",
+    "Answer": "A sorting algorithm that maintains the relative order of records with equal keys"
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which of these sorting algorithms is generally considered stable?",
+    "Option1": "Quick Sort",
+    "Option2": "Heap Sort",
+    "Option3": "Merge Sort",
+    "Option4": "Selection Sort",
+    "Answer": "Merge Sort"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'in-place sorting'?",
+    "Option1": "A sorting algorithm that requires significant extra memory space proportional to input size",
+    "Option2": "A sorting algorithm that sorts the elements within the original array, using only a small, constant amount of auxiliary space",
+    "Option3": "A sorting algorithm that sorts elements by placing them in a separate, sorted array",
+    "Option4": "A sorting algorithm that is very fast",
+    "Answer": "A sorting algorithm that sorts the elements within the original array, using only a small, constant amount of auxiliary space"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which of these sorting algorithms is generally considered in-place?",
+    "Option1": "Merge Sort",
+    "Option2": "Quick Sort",
+    "Option3": "Counting Sort",
+    "Option4": "Radix Sort",
+    "Answer": "Quick Sort"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is a 'comparison sort'?",
+    "Option1": "A sorting algorithm that sorts elements without comparing them",
+    "Option2": "A sorting algorithm that only works on numeric data",
+    "Option3": "A sorting algorithm that relies only on comparisons between elements to determine the sorted order",
+    "Option4": "A sorting algorithm that compares elements to a fixed value",
+    "Answer": "A sorting algorithm that relies only on comparisons between elements to determine the sorted order"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which of these is NOT a comparison sort?",
+    "Option1": "Bubble Sort",
+    "Option2": "Merge Sort",
+    "Option3": "Counting Sort",
+    "Option4": "Insertion Sort",
+    "Answer": "Counting Sort"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Hashing' in the context of algorithms?",
+    "Option1": "A method to sort data",
+    "Option2": "A technique to store and retrieve data quickly by mapping keys to array indices (hash table)",
+    "Option3": "A method to encrypt data",
+    "Option4": "A graphical representation of data flow",
+    "Answer": "A technique to store and retrieve data quickly by mapping keys to array indices (hash table)"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is a 'hash collision'?",
+    "Option1": "When two different keys map to different indices.",
+    "Option2": "When two different keys map to the same index in a hash table.",
+    "Option3": "When a hash table is full.",
+    "Option4": "When a hash function is too slow.",
+    "Answer": "When two different keys map to the same index in a hash table."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which method is used to handle hash collisions by finding the next available slot in the hash table?",
+    "Option1": "Separate Chaining",
+    "Option2": "Quadratic Probing",
+    "Option3": "Linear Probing",
+    "Option4": "Double Hashing",
+    "Answer": "Linear Probing"
+  },
+  {
+    "question_no.": 94,
+    "Question": "Which method to handle hash collisions involves creating a linked list for each bucket in the hash table?",
+    "Option1": "Linear Probing",
+    "Option2": "Quadratic Probing",
+    "Option3": "Separate Chaining",
+    "Option4": "Rehashing",
+    "Answer": "Separate Chaining"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Dynamic Array' (or ArrayList/Vector)?",
+    "Option1": "An array with a fixed size",
+    "Option2": "An array that can dynamically resize itself as elements are added or removed",
+    "Option3": "An array that can only store integers",
+    "Option4": "A type of linked list",
+    "Answer": "An array that can dynamically resize itself as elements are added or removed"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is a 'Linked List'?",
+    "Option1": "A contiguous block of memory",
+    "Option2": "A linear data structure where elements are not stored at contiguous memory locations, but are linked using pointers.",
+    "Option3": "A fixed-size data structure",
+    "Option4": "A type of tree structure",
+    "Answer": "A linear data structure where elements are not stored at contiguous memory locations, but are linked using pointers."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the time complexity for inserting an element at the beginning of a singly linked list?",
+    "Option1": "O(n)",
+    "Option2": "O(log n)",
+    "Option3": "O(1)",
+    "Option4": "O(n^2)",
+    "Answer": "O(1)"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the time complexity for accessing an element by index in a singly linked list?",
+    "Option1": "O(1)",
+    "Option2": "O(log n)",
+    "Option3": "O(n)",
+    "Option4": "O(n log n)",
+    "Answer": "O(n)"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'Stack' data structure?",
+    "Option1": "First-In, First-Out (FIFO)",
+    "Option2": "Last-In, First-Out (LIFO)",
+    "Option3": "Random access",
+    "Option4": "Unordered collection",
+    "Answer": "Last-In, First-Out (LIFO)"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What operation adds an element to the top of a stack?",
+    "Option1": "Dequeue",
+    "Option2": "Pop",
+    "Option3": "Push",
+    "Option4": "Peek",
+    "Answer": "Push"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What operation removes an element from the top of a stack?",
+    "Option1": "Push",
+    "Option2": "Enqueue",
+    "Option3": "Pop",
+    "Option4": "Peek",
+    "Answer": "Pop"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is a 'Queue' data structure?",
+    "Option1": "Last-In, First-Out (LIFO)",
+    "Option2": "First-In, First-Out (FIFO)",
+    "Option3": "Random access",
+    "Option4": "Unordered collection",
+    "Answer": "First-In, First-Out (FIFO)"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What operation adds an element to the rear of a queue?",
+    "Option1": "Dequeue",
+    "Option2": "Pop",
+    "Option3": "Enqueue",
+    "Option4": "Peek",
+    "Answer": "Enqueue"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What operation removes an element from the front of a queue?",
+    "Option1": "Enqueue",
+    "Option2": "Push",
+    "Option3": "Dequeue",
+    "Option4": "Peek",
+    "Answer": "Dequeue"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is a 'Binary Tree'?",
+    "Option1": "A linear data structure",
+    "Option2": "A tree data structure in which each node has at most two children, which are referred to as the left child and the right child.",
+    "Option3": "A graph with no cycles",
+    "Option4": "A special type of linked list",
+    "Answer": "A tree data structure in which each node has at most two children, which are referred to as the left child and the right child."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is a 'Binary Search Tree (BST)'?",
+    "Option1": "A tree where elements are randomly placed.",
+    "Option2": "A binary tree where the value of each node is greater than or equal to the values in its left subtree and less than or equal to the values in its right subtree.",
+    "Option3": "A tree used only for sorting.",
+    "Option4": "A tree where nodes have more than two children.",
+    "Answer": "A binary tree where the value of each node is greater than or equal to the values in its left subtree and less than or equal to the values in its right subtree."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the worst-case time complexity for searching in a Binary Search Tree?",
+    "Option1": "O(1)",
+    "Option2": "O(log n)",
+    "Option3": "O(n)",
+    "Option4": "O(n log n)",
+    "Answer": "O(n)"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the average-case time complexity for searching in a Binary Search Tree?",
+    "Option1": "O(1)",
+    "Option2": "O(log n)",
+    "Option3": "O(n)",
+    "Option4": "O(n log n)",
+    "Answer": "O(log n)"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is a 'balanced binary search tree'?",
+    "Option1": "A BST where all nodes have two children.",
+    "Option2": "A BST where the heights of the left and right subtrees of any node differ by at most 1, ensuring O(log n) operations.",
+    "Option3": "A BST used for sorting numbers.",
+    "Option4": "A BST that stores only unique values.",
+    "Answer": "A BST where the heights of the left and right subtrees of any node differ by at most 1, ensuring O(log n) operations."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Examples of self-balancing binary search trees include:",
+    "Option1": "Unbalanced BST",
+    "Option2": "AVL tree, Red-Black tree",
+    "Option3": "Binary Heap",
+    "Option4": "Trie",
+    "Answer": "AVL tree, Red-Black tree"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is a 'Heap' data structure?",
+    "Option1": "A general tree structure.",
+    "Option2": "A specialized tree-based data structure that satisfies the heap property (parent nodes are either always greater than or always less than their children).",
+    "Option3": "A type of hash table.",
+    "Option4": "A sorted array.",
+    "Answer": "A specialized tree-based data structure that satisfies the heap property (parent nodes are either always greater than or always less than their children)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is a 'Min-Heap'?",
+    "Option1": "A heap where the parent node's value is always greater than its children's values.",
+    "Option2": "A heap where the parent node's value is always less than or equal to its children's values, meaning the smallest element is at the root.",
+    "Option3": "A heap that stores only minimum values.",
+    "Option4": "A heap that can only store negative numbers.",
+    "Answer": "A heap where the parent node's value is always less than or equal to its children's values, meaning the smallest element is at the root."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is a 'Max-Heap'?",
+    "Option1": "A heap where the parent node's value is always less than its children's values.",
+    "Option2": "A heap where the parent node's value is always greater than or equal to its children's values, meaning the largest element is at the root.",
+    "Option3": "A heap that stores only maximum values.",
+    "Option4": "A heap that can only store positive numbers.",
+    "Answer": "A heap where the parent node's value is always greater than or equal to its children's values, meaning the largest element is at the root."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which sorting algorithm uses a heap data structure?",
+    "Option1": "Bubble Sort",
+    "Option2": "Merge Sort",
+    "Option3": "Heap Sort",
+    "Option4": "Quick Sort",
+    "Answer": "Heap Sort"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the worst-case time complexity of Heap Sort?",
+    "Option1": "O(n)",
+    "Option2": "O(n log n)",
+    "Option3": "O(n^2)",
+    "Option4": "O(log n)",
+    "Answer": "O(n log n)"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Graph' data structure?",
+    "Option1": "A linear data structure.",
+    "Option2": "A non-linear data structure consisting of nodes (vertices) and edges (connections between vertices).",
+    "Option3": "A type of array.",
+    "Option4": "A data structure used only for sorting.",
+    "Answer": "A non-linear data structure consisting of nodes (vertices) and edges (connections between vertices)."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is an 'undirected graph'?",
+    "Option1": "A graph where edges have a specific direction.",
+    "Option2": "A graph where edges have no direction, meaning if an edge exists from A to B, it also exists from B to A.",
+    "Option3": "A graph with no cycles.",
+    "Option4": "A graph where all nodes are connected.",
+    "Answer": "A graph where edges have no direction, meaning if an edge exists from A to B, it also exists from B to A."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is a 'directed graph' (or digraph)?",
+    "Option1": "A graph where edges have no specific direction.",
+    "Option2": "A graph where edges have a specific direction, meaning an edge from A to B does not necessarily imply an edge from B to A.",
+    "Option3": "A graph with no vertices.",
+    "Option4": "A graph that is fully connected.",
+    "Answer": "A graph where edges have a specific direction, meaning an edge from A to B does not necessarily imply an edge from B to A."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a 'weighted graph'?",
+    "Option1": "A graph where each edge has a numerical value (weight) associated with it, often representing cost, distance, or time.",
+    "Option2": "A graph with no edges.",
+    "Option3": "A graph with too many nodes.",
+    "Option4": "A graph that is always sorted.",
+    "Answer": "A graph where each edge has a numerical value (weight) associated with it, often representing cost, distance, or time."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is a 'cycle' in a graph?",
+    "Option1": "A path that visits every vertex exactly once.",
+    "Option2": "A path that starts and ends at the same vertex, visiting other vertices and edges along the way.",
+    "Option3": "A disconnected part of a graph.",
+    "Option4": "An edge with a very high weight.",
+    "Answer": "A path that starts and ends at the same vertex, visiting other vertices and edges along the way."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which algorithm finds the shortest path between a single source vertex and all other vertices in a weighted graph with non-negative edge weights?",
+    "Option1": "Bellman-Ford Algorithm",
+    "Option2": "Floyd-Warshall Algorithm",
+    "Option3": "Dijkstra's Algorithm",
+    "Option4": "Prim's Algorithm",
+    "Answer": "Dijkstra's Algorithm"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Minimum Spanning Tree (MST)'?",
+    "Option1": "A graph with the fewest possible edges.",
+    "Option2": "A subgraph of an undirected, connected, weighted graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight.",
+    "Option3": "A tree with the maximum number of nodes.",
+    "Option4": "A path that visits all nodes.",
+    "Answer": "A subgraph of an undirected, connected, weighted graph that connects all the vertices together, without any cycles and with the minimum possible total edge weight."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which algorithm finds the Minimum Spanning Tree (MST) by iteratively adding the cheapest edge that connects a vertex in the MST to a vertex outside the MST?",
+    "Option1": "Kruskal's Algorithm",
+    "Option2": "Bellman-Ford Algorithm",
+    "Option3": "Prim's Algorithm",
+    "Option4": "Dijkstra's Algorithm",
+    "Answer": "Prim's Algorithm"
+  },
+  {
+    "question_no.": 124,
+    "Question": "Which algorithm finds the Minimum Spanning Tree (MST) by adding edges in increasing order of weights, provided that they don't form a cycle?",
+    "Option1": "Prim's Algorithm",
+    "Option2": "Dijkstra's Algorithm",
+    "Option3": "Kruskal's Algorithm",
+    "Option4": "Floyd-Warshall Algorithm",
+    "Answer": "Kruskal's Algorithm"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Topological Sort'?",
+    "Option1": "Sorting elements in a random order.",
+    "Option2": "A linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge uv, vertex u comes before v in the ordering.",
+    "Option3": "Sorting elements by their weights.",
+    "Option4": "Finding the shortest path in a graph.",
+    "Answer": "A linear ordering of vertices in a directed acyclic graph (DAG) such that for every directed edge uv, vertex u comes before v in the ordering."
+  },
+  {
+    "question_no.": 126,
+    "Question": "For what type of graph is Topological Sort applicable?",
+    "Option1": "Undirected Graph",
+    "Option2": "Graph with cycles",
+    "Option3": "Directed Acyclic Graph (DAG)",
+    "Option4": "Weighted Graph",
+    "Answer": "Directed Acyclic Graph (DAG)"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is a 'Trie' (or Prefix Tree)?",
+    "Option1": "A type of binary search tree.",
+    "Option2": "A tree-like data structure that stores a dynamic set or associative array where the keys are usually strings, organized by their prefixes.",
+    "Option3": "A sorted list.",
+    "Option4": "A hash table.",
+    "Answer": "A tree-like data structure that stores a dynamic set or associative array where the keys are usually strings, organized by their prefixes."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the main advantage of using a Trie for string search?",
+    "Option1": "It uses less memory than a hash table.",
+    "Option2": "Faster prefix-based searching and auto-completion.",
+    "Option3": "It handles numerical data efficiently.",
+    "Option4": "It simplifies sorting strings.",
+    "Answer": "Faster prefix-based searching and auto-completion."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'String Matching Algorithm'?",
+    "Option1": "An algorithm for sorting strings.",
+    "Option2": "An algorithm that finds occurrences of a pattern string within a larger text string.",
+    "Option3": "An algorithm for compressing strings.",
+    "Option4": "An algorithm for encrypting strings.",
+    "Answer": "An algorithm that finds occurrences of a pattern string within a larger text string."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Which of these is a well-known string matching algorithm?",
+    "Option1": "Bubble Sort",
+    "Option2": "Binary Search",
+    "Option3": "Knuth-Morris-Pratt (KMP) Algorithm",
+    "Option4": "Dijkstra's Algorithm",
+    "Answer": "Knuth-Morris-Pratt (KMP) Algorithm"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Hashing' (in data structures) typically used for?",
+    "Option1": "To sort data efficiently",
+    "Option2": "To store and retrieve data quickly based on keys",
+    "Option3": "To traverse graphs",
+    "Option4": "To perform mathematical calculations",
+    "Answer": "To store and retrieve data quickly based on keys"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the concept of 'Recursion' in programming?",
+    "Option1": "A loop that runs infinitely",
+    "Option2": "A function calling itself to solve a problem",
+    "Option3": "A method to avoid function calls",
+    "Option4": "A way to use global variables",
+    "Answer": "A function calling itself to solve a problem"
+  },
+  {
+    "question_no.": 133,
+    "Question": "When should an algorithm typically use a 'loop' instead of recursion?",
+    "Option1": "When the problem has a natural recursive structure",
+    "Option2": "When stack overflow is a concern due to deep recursion",
+    "Option3": "When memory usage is not a concern",
+    "Option4": "When the problem is very small",
+    "Answer": "When stack overflow is a concern due to deep recursion"
+  },
+  {
+    "question_no.": 134,
+    "Question": "Which symbol represents a display screen for output in a flowchart (often a cylinder with a flat top and bottom and slanting sides)?",
+    "Option1": "Parallelogram",
+    "Option2": "Document",
+    "Option3": "Display",
+    "Option4": "Process",
+    "Answer": "Display"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is a 'Flowchart Template'?",
+    "Option1": "A pre-written program",
+    "Option2": "A standardized set of symbols and guidelines for creating flowcharts, ensuring consistency and readability.",
+    "Option3": "A software for drawing flowcharts.",
+    "Option4": "A library of common algorithms.",
+    "Answer": "A standardized set of symbols and guidelines for creating flowcharts, ensuring consistency and readability."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Pseudocode' used for?",
+    "Option1": "To directly execute algorithms.",
+    "Option2": "To describe the logic of an algorithm in a human-readable format, bridging the gap between natural language and programming code.",
+    "Option3": "To debug programs.",
+    "Option4": "To create graphical interfaces.",
+    "Answer": "To describe the logic of an algorithm in a human-readable format, bridging the gap between natural language and programming code."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the 'Fibonacci Sequence' algorithm?",
+    "Option1": "A sorting algorithm.",
+    "Option2": "An algorithm that generates a sequence of numbers where each number is the sum of the two preceding ones, typically starting from 0 and 1.",
+    "Option3": "A searching algorithm.",
+    "Option4": "A prime number generator.",
+    "Answer": "An algorithm that generates a sequence of numbers where each number is the sum of the two preceding ones, typically starting from 0 and 1."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which algorithmic technique is best suited to optimize recursive Fibonacci sequence calculation to avoid redundant computations?",
+    "Option1": "Greedy approach",
+    "Option2": "Divide and Conquer",
+    "Option3": "Dynamic Programming (Memoization or Tabulation)",
+    "Option4": "Brute force",
+    "Answer": "Dynamic Programming (Memoization or Tabulation)"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Memoization' in Dynamic Programming?",
+    "Option1": "Storing all possible inputs.",
+    "Option2": "Storing the results of expensive function calls and returning the cached result when the same inputs occur again, typically used with recursive solutions.",
+    "Option3": "Storing the algorithm itself.",
+    "Option4": "Storing the final output only.",
+    "Answer": "Storing the results of expensive function calls and returning the cached result when the same inputs occur again, typically used with recursive solutions."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Tabulation' (Bottom-up approach) in Dynamic Programming?",
+    "Option1": "Solving problems by breaking them into smaller subproblems and solving the smallest ones first, then building up to the solution of the original problem.",
+    "Option2": "Solving problems recursively.",
+    "Option3": "Solving problems using a greedy approach.",
+    "Option4": "Solving problems by trying all combinations.",
+    "Answer": "Solving problems by breaking them into smaller subproblems and solving the smallest ones first, then building up to the solution of the original problem."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the 'Traveling Salesperson Problem (TSP)'?",
+    "Option1": "A problem of finding the shortest path between two specific cities.",
+    "Option2": "A classical optimization problem of finding the shortest possible route that visits each city exactly once and returns to the origin city.",
+    "Option3": "A problem of sorting cities by population.",
+    "Option4": "A problem of finding all possible routes between cities.",
+    "Answer": "A classical optimization problem of finding the shortest possible route that visits each city exactly once and returns to the origin city."
+  },
+  {
+    "question_no.": 142,
+    "Question": "Is the Traveling Salesperson Problem (TSP) generally considered a 'P' or 'NP-hard' problem?",
+    "Option1": "P",
+    "Option2": "NP-hard",
+    "Option3": "Both",
+    "Option4": "Neither",
+    "Answer": "NP-hard"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the 'Knapsack Problem'?",
+    "Option1": "A problem of fitting items into a fixed-size container to maximize the number of items.",
+    "Option2": "A problem where one must choose items with maximum total value from a set of items, each with a weight and a value, given a maximum weight capacity.",
+    "Option3": "A problem of sorting items by weight.",
+    "Option4": "A problem of finding the smallest number of items.",
+    "Answer": "A problem where one must choose items with maximum total value from a set of items, each with a weight and a value, given a maximum weight capacity."
+  },
+  {
+    "question_no.": 144,
+    "Question": "Which algorithmic paradigm is typically used to solve the 0/1 Knapsack problem (items are either taken entirely or not at all)?",
+    "Option1": "Greedy algorithm",
+    "Option2": "Divide and Conquer",
+    "Option3": "Dynamic Programming",
+    "Option4": "Brute Force (for small instances)",
+    "Answer": "Dynamic Programming"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is the 'Fractional Knapsack Problem'?",
+    "Option1": "Items must be taken entirely.",
+    "Option2": "Items can be broken into fractions, allowing for a greedy approach to maximize value.",
+    "Option3": "Only integer weights are allowed.",
+    "Option4": "Only one item can be taken.",
+    "Answer": "Items can be broken into fractions, allowing for a greedy approach to maximize value."
+  },
+  {
+    "question_no.": 146,
+    "Question": "Which algorithmic paradigm is best suited for the Fractional Knapsack Problem?",
+    "Option1": "Dynamic Programming",
+    "Option2": "Greedy Algorithm",
+    "Option3": "Backtracking",
+    "Option4": "Brute Force",
+    "Answer": "Greedy Algorithm"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Shortest Path Algorithm'?",
+    "Option1": "An algorithm for sorting nodes.",
+    "Option2": "An algorithm that finds a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized.",
+    "Option3": "An algorithm for traversing all nodes.",
+    "Option4": "An algorithm for finding cycles in a graph.",
+    "Answer": "An algorithm that finds a path between two vertices (or nodes) in a graph such that the sum of the weights of its constituent edges is minimized."
+  },
+  {
+    "question_no.": 148,
+    "Question": "Which algorithm finds the shortest paths from a single source vertex to all other vertices in a weighted graph, even with negative edge weights (but no negative cycles)?",
+    "Option1": "Dijkstra's Algorithm",
+    "Option2": "Floyd-Warshall Algorithm",
+    "Option3": "Bellman-Ford Algorithm",
+    "Option4": "Prim's Algorithm",
+    "Answer": "Bellman-Ford Algorithm"
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which algorithm finds the shortest paths between all pairs of vertices in a weighted graph (can handle negative weights and detect negative cycles)?",
+    "Option1": "Dijkstra's Algorithm",
+    "Option2": "Bellman-Ford Algorithm",
+    "Option3": "Floyd-Warshall Algorithm",
+    "Option4": "Kruskal's Algorithm",
+    "Answer": "Floyd-Warshall Algorithm"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Big Omega Notation' (Ω) used for?",
+    "Option1": "Describes the tight bound of an algorithm.",
+    "Option2": "Describes the asymptotic lower bound of an algorithm's time or space complexity.",
+    "Option3": "Describes the average case complexity.",
+    "Option4": "Describes the exact running time.",
+    "Answer": "Describes the asymptotic lower bound of an algorithm's time or space complexity."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Big Theta Notation' (Θ) used for?",
+    "Option1": "Describes the upper bound of an algorithm.",
+    "Option2": "Describes the average case complexity.",
+    "Option3": "Describes the tight bound of an algorithm's time or space complexity, indicating both an upper and lower bound.",
+    "Option4": "Describes the best case complexity.",
+    "Answer": "Describes the tight bound of an algorithm's time or space complexity, indicating both an upper and lower bound."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Amortized Analysis' in algorithms?",
+    "Option1": "Analyzing the worst-case time of a single operation.",
+    "Option2": "Analyzing the average performance of an algorithm over a sequence of operations, where the average cost is much lower than the worst-case cost of any single operation.",
+    "Option3": "Analyzing the best-case time of an algorithm.",
+    "Option4": "Analyzing the memory usage over time.",
+    "Answer": "Analyzing the average performance of an algorithm over a sequence of operations, where the average cost is much lower than the worst-case cost of any single operation."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which data structure often benefits from amortized analysis, especially for its `append` operation?",
+    "Option1": "Singly Linked List",
+    "Option2": "Static Array",
+    "Option3": "Dynamic Array (ArrayList/Vector)",
+    "Option4": "Binary Search Tree",
+    "Answer": "Dynamic Array (ArrayList/Vector)"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Hash Function'?",
+    "Option1": "A function that sorts data.",
+    "Option2": "A function that converts an input (or 'key') into a fixed-size string of bytes (or 'hash value'), often used to index data in a hash table.",
+    "Option3": "A function that encrypts data.",
+    "Option4": "A function that generates random numbers.",
+    "Answer": "A function that converts an input (or 'key') into a fixed-size string of bytes (or 'hash value'), often used to index data in a hash table."
+  },
+  {
+    "question_no.": 155,
+    "Question": "A good hash function should ideally exhibit which property?",
+    "Option1": "Produce many collisions.",
+    "Option2": "Be reversible.",
+    "Option3": "Distribute keys uniformly across the hash table, minimizing collisions.",
+    "Option4": "Be very complex to compute.",
+    "Answer": "Distribute keys uniformly across the hash table, minimizing collisions."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the primary role of a 'Program Counter' in CPU operations, related to algorithm execution?",
+    "Option1": "Stores data values.",
+    "Option2": "Keeps track of the next instruction to be executed.",
+    "Option3": "Performs arithmetic operations.",
+    "Option4": "Manages memory allocation.",
+    "Answer": "Keeps track of the next instruction to be executed."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the main difference between 'Algorithms' and 'Programs'?",
+    "Option1": "Algorithms are always faster.",
+    "Option2": "Algorithms are theoretical concepts, while programs are concrete implementations of algorithms in a specific programming language.",
+    "Option3": "Programs do not require logical steps.",
+    "Option4": "Flowcharts are only for programs, not algorithms.",
+    "Answer": "Algorithms are theoretical concepts, while programs are concrete implementations of algorithms in a specific programming language."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is a 'Flowchart symbol for Data (often a parallelogram)' used for?",
+    "Option1": "To indicate a process.",
+    "Option2": "To represent any input or output operation, regardless of the medium.",
+    "Option3": "To make a decision.",
+    "Option4": "To connect different parts of the flowchart.",
+    "Answer": "To represent any input or output operation, regardless of the medium."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What does a 'Preparation' symbol (often a hexagon) in a flowchart indicate?",
+    "Option1": "An input operation.",
+    "Option2": "An initialization, setup, or preparatory step, such as setting variables or initializing loops.",
+    "Option3": "A decision point.",
+    "Option4": "A process step.",
+    "Answer": "An initialization, setup, or preparatory step, such as setting variables or initializing loops."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Iteration' in the context of algorithms?",
+    "Option1": "Solving a problem by breaking it into subproblems.",
+    "Option2": "The repeated execution of a block of statements using loops until a certain condition is met.",
+    "Option3": "A technique for making decisions.",
+    "Option4": "A way to divide elements into smaller groups.",
+    "Answer": "The repeated execution of a block of statements using loops until a certain condition is met."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the primary difference between 'Iteration' and 'Recursion'?",
+    "Option1": "Iteration uses function calls, recursion uses loops.",
+    "Option2": "Iteration uses loops and manages state explicitly; recursion uses function calls and manages state implicitly via the call stack.",
+    "Option3": "Iteration is always faster than recursion.",
+    "Option4": "Recursion can solve problems that iteration cannot.",
+    "Answer": "Iteration uses loops and manages state explicitly; recursion uses function calls and manages state implicitly via the call stack."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is an 'Algorithm Design Paradigm'?",
+    "Option1": "A specific programming language.",
+    "Option2": "A general approach to solving problems, providing a framework for designing algorithms.",
+    "Option3": "A tool for debugging code.",
+    "Option4": "A formal notation for algorithm representation.",
+    "Answer": "A general approach to solving problems, providing a framework for designing algorithms."
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which of these is NOT an algorithm design paradigm?",
+    "Option1": "Greedy Method",
+    "Option2": "Dynamic Programming",
+    "Option3": "Object-Oriented Programming",
+    "Option4": "Divide and Conquer",
+    "Answer": "Object-Oriented Programming"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Permutation Generation'?",
+    "Option1": "Sorting a list of numbers.",
+    "Option2": "An algorithm that lists all possible orderings or arrangements of a set of items.",
+    "Option3": "Selecting items from a set without regard to order.",
+    "Option4": "Finding the smallest or largest element.",
+    "Answer": "An algorithm that lists all possible orderings or arrangements of a set of items."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Combination Generation'?",
+    "Option1": "An algorithm that lists all possible orderings of a set of items.",
+    "Option2": "An algorithm that lists all possible selections of items from a set where the order of selection does not matter.",
+    "Option3": "An algorithm for sorting permutations.",
+    "Option4": "An algorithm for merging lists.",
+    "Answer": "An algorithm that lists all possible selections of items from a set where the order of selection does not matter."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Branch and Bound' in algorithm design?",
+    "Option1": "A technique for sorting data.",
+    "Option2": "A general algorithm for finding optimal solutions to various optimization problems, especially integer programming, by systematically searching through a tree of possible solutions.",
+    "Option3": "A method for graph traversal.",
+    "Option4": "A method for hashing.",
+    "Answer": "A general algorithm for finding optimal solutions to various optimization problems, especially integer programming, by systematically searching through a tree of possible solutions."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the purpose of 'pruning' in Branch and Bound algorithms?",
+    "Option1": "To add more branches to the search tree.",
+    "Option2": "To eliminate branches from the search tree that are guaranteed not to contain an optimal solution, thereby reducing search space.",
+    "Option3": "To combine solutions from different branches.",
+    "Option4": "To visualize the search tree.",
+    "Answer": "To eliminate branches from the search tree that are guaranteed not to contain an optimal solution, thereby reducing search space."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the 'Maximum Flow Problem'?",
+    "Option1": "Finding the shortest path in a network.",
+    "Option2": "Finding the maximum amount of 'flow' that can be sent from a source node to a sink node in a flow network, satisfying capacity constraints.",
+    "Option3": "Finding the minimum cost to send flow.",
+    "Option4": "Finding all paths in a network.",
+    "Answer": "Finding the maximum amount of 'flow' that can be sent from a source node to a sink node in a flow network, satisfying capacity constraints."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which algorithm is commonly used to solve the Maximum Flow Problem?",
+    "Option1": "Dijkstra's Algorithm",
+    "Option2": "Ford-Fulkerson Algorithm",
+    "Option3": "Prim's Algorithm",
+    "Option4": "Bellman-Ford Algorithm",
+    "Answer": "Ford-Fulkerson Algorithm"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Matching' in Graph Theory?",
+    "Option1": "Connecting all vertices in a graph.",
+    "Option2": "A set of edges in a graph such that no two edges share a common vertex.",
+    "Option3": "Finding identical nodes.",
+    "Option4": "Assigning weights to edges.",
+    "Answer": "A set of edges in a graph such that no two edges share a common vertex."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is a 'Bipartite Graph'?",
+    "Option1": "A graph with exactly two vertices.",
+    "Option2": "A graph whose vertices can be divided into two disjoint and independent sets U and V such that every edge connects a vertex in U to one in V.",
+    "Option3": "A graph with only two edges.",
+    "Option4": "A graph with no cycles.",
+    "Answer": "A graph whose vertices can be divided into two disjoint and independent sets U and V such that every edge connects a vertex in U to one in V."
+  },
+  {
+    "question_no.": 172,
+    "Question": "Which algorithm is used to find a maximum cardinality matching in a bipartite graph?",
+    "Option1": "Dijkstra's Algorithm",
+    "Option2": "Hungarian Algorithm",
+    "Option3": "Ford-Fulkerson Algorithm (special case for bipartite matching)",
+    "Option4": "Prim's Algorithm",
+    "Answer": "Ford-Fulkerson Algorithm (special case for bipartite matching)"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Greedy Best-First Search'?",
+    "Option1": "An algorithm that always explores the cheapest available path.",
+    "Option2": "A search algorithm that explores a graph by expanding the most promising node chosen by a heuristic evaluation function.",
+    "Option3": "A search algorithm that explores all nodes at a given depth before moving to the next depth.",
+    "Option4": "A search algorithm that guarantees the optimal solution.",
+    "Answer": "A search algorithm that explores a graph by expanding the most promising node chosen by a heuristic evaluation function."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'A* Search Algorithm'?",
+    "Option1": "A search algorithm that only considers the cost from the start node.",
+    "Option2": "A search algorithm that finds the shortest path in a graph by combining the cost from the start node and an estimated cost to the goal node (heuristic).",
+    "Option3": "A search algorithm that explores randomly.",
+    "Option4": "A search algorithm that always finds the longest path.",
+    "Answer": "A search algorithm that finds the shortest path in a graph by combining the cost from the start node and an estimated cost to the goal node (heuristic)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the primary difference between Dijkstra's algorithm and A* search?",
+    "Option1": "Dijkstra's is for directed graphs, A* for undirected.",
+    "Option2": "Dijkstra's explores blindly, A* uses a heuristic to guide its search towards the goal.",
+    "Option3": "A* cannot handle negative edge weights, Dijkstra's can.",
+    "Option4": "Dijkstra's is only for unweighted graphs.",
+    "Answer": "Dijkstra's explores blindly, A* uses a heuristic to guide its search towards the goal."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Top-down approach' in algorithm design?",
+    "Option1": "Starting with the smallest subproblems.",
+    "Option2": "Breaking down a complex problem into smaller, more manageable subproblems, and then solving each subproblem.",
+    "Option3": "Solving problems using a bottom-up approach.",
+    "Option4": "Starting with the most specific details.",
+    "Answer": "Breaking down a complex problem into smaller, more manageable subproblems, and then solving each subproblem."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Bottom-up approach' in algorithm design?",
+    "Option1": "Breaking down a complex problem.",
+    "Option2": "Starting with the simplest subproblems and solving them, then using those solutions to build up to the solution of larger, more complex subproblems until the original problem is solved.",
+    "Option3": "Solving problems recursively.",
+    "Option4": "Focusing on the overall solution first.",
+    "Answer": "Starting with the simplest subproblems and solving them, then using those solutions to build up to the solution of larger, more complex subproblems until the original problem is solved."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the relationship between 'Algorithm' and 'Data Structure'?",
+    "Option1": "They are unrelated concepts.",
+    "Option2": "Algorithms are the steps to solve a problem, and data structures are the ways to organize data so that algorithms can operate efficiently.",
+    "Option3": "Data structures are always faster than algorithms.",
+    "Option4": "Algorithms are only for data storage.",
+    "Answer": "Algorithms are the steps to solve a problem, and data structures are the ways to organize data so that algorithms can operate efficiently."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What does 'Abstraction' mean in the context of algorithms?",
+    "Option1": "Making an algorithm more complex.",
+    "Option2": "Hiding unnecessary details and showing only the essential features of an algorithm or system to simplify understanding.",
+    "Option3": "Making an algorithm run faster.",
+    "Option4": "Converting an algorithm into a specific programming language.",
+    "Answer": "Hiding unnecessary details and showing only the essential features of an algorithm or system to simplify understanding."
+  },
+  {
+    "question_no.": 180,
+    "Question": "Why is 'Efficiency' a crucial consideration in algorithm design?",
+    "Option1": "To make the algorithm look good.",
+    "Option2": "To ensure the algorithm completes within acceptable time and memory limits, especially for large inputs.",
+    "Option3": "To make the algorithm easier to write.",
+    "Option4": "To impress other programmers.",
+    "Answer": "To ensure the algorithm completes within acceptable time and memory limits, especially for large inputs."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Correctness' in an algorithm?",
+    "Option1": "It runs without errors.",
+    "Option2": "It produces the desired output for all valid inputs, and it terminates.",
+    "Option3": "It is easy to understand.",
+    "Option4": "It is written in a popular programming language.",
+    "Answer": "It produces the desired output for all valid inputs, and it terminates."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What does a 'Subprogram' or 'Predefined Process' symbol represent in a flowchart?",
+    "Option1": "A simple arithmetic operation.",
+    "Option2": "A sequence of operations that are defined elsewhere (e.g., a function, subroutine, or module).",
+    "Option3": "A decision point.",
+    "Option4": "An input/output action.",
+    "Answer": "A sequence of operations that are defined elsewhere (e.g., a function, subroutine, or module)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a 'Data Flow Diagram (DFD)'?",
+    "Option1": "A type of algorithm.",
+    "Option2": "A graphical representation of the flow of data through an information system, showing how data is processed and stored.",
+    "Option3": "A detailed programming instruction.",
+    "Option4": "A method to test algorithms.",
+    "Answer": "A graphical representation of the flow of data through an information system, showing how data is processed and stored."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'System Flowchart'?",
+    "Option1": "A detailed diagram of a single program.",
+    "Option2": "A diagram that shows the overall flow of data and processing steps within an entire system, including manual and automated processes.",
+    "Option3": "A diagram that shows the flow of control within a function.",
+    "Option4": "A diagram used for network topology.",
+    "Answer": "A diagram that shows the overall flow of data and processing steps within an entire system, including manual and automated processes."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Program Flowchart'?",
+    "Option1": "A high-level view of a system.",
+    "Option2": "A detailed diagram that shows the sequence of operations and logic within a specific program or algorithm.",
+    "Option3": "A diagram for data storage.",
+    "Option4": "A diagram for user interaction.",
+    "Answer": "A detailed diagram that shows the sequence of operations and logic within a specific program or algorithm."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is a 'Directed Acyclic Graph (DAG)'?",
+    "Option1": "A graph with directed edges and at least one cycle.",
+    "Option2": "A directed graph that contains no directed cycles.",
+    "Option3": "An undirected graph with cycles.",
+    "Option4": "A graph where all nodes are connected in a cycle.",
+    "Answer": "A directed graph that contains no directed cycles."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which algorithm is used to detect cycles in a directed graph?",
+    "Option1": "BFS",
+    "Option2": "DFS (by checking for back edges)",
+    "Option3": "Dijkstra's",
+    "Option4": "Prim's",
+    "Answer": "DFS (by checking for back edges)"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Parallel Algorithm'?",
+    "Option1": "An algorithm that runs on a single processor.",
+    "Option2": "An algorithm that can be executed on multiple processing units simultaneously to solve a problem faster.",
+    "Option3": "An algorithm that processes data sequentially.",
+    "Option4": "An algorithm that only works on very small datasets.",
+    "Answer": "An algorithm that can be executed on multiple processing units simultaneously to solve a problem faster."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Distributed Algorithm'?",
+    "Option1": "An algorithm that runs on a single machine.",
+    "Option2": "An algorithm designed to run on a network of independent computers, where each computer has only a partial view of the overall system state.",
+    "Option3": "An algorithm for data encryption.",
+    "Option4": "An algorithm for centralized data processing.",
+    "Answer": "An algorithm designed to run on a network of independent computers, where each computer has only a partial view of the overall system state."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Randomized Algorithm'?",
+    "Option1": "An algorithm that produces random outputs.",
+    "Option2": "An algorithm that makes some choices randomly, often to improve its expected running time or find approximate solutions.",
+    "Option3": "An algorithm that takes random inputs.",
+    "Option4": "An algorithm that sorts randomly.",
+    "Answer": "An algorithm that makes some choices randomly, often to improve its expected running time or find approximate solutions."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which of these is an example of a randomized algorithm?",
+    "Option1": "Merge Sort",
+    "Option2": "Deterministic Quick Sort",
+    "Option3": "Randomized Quick Sort (by picking random pivot)",
+    "Option4": "Linear Search",
+    "Answer": "Randomized Quick Sort (by picking random pivot)"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Approximation Algorithm'?",
+    "Option1": "An algorithm that always finds the exact optimal solution.",
+    "Option2": "An algorithm that finds an approximate solution to an optimization problem, typically when finding an exact optimal solution is NP-hard or too slow.",
+    "Option3": "An algorithm for numerical computation.",
+    "Option4": "An algorithm for generating random numbers.",
+    "Answer": "An algorithm that finds an approximate solution to an optimization problem, typically when finding an exact optimal solution is NP-hard or too slow."
+  },
+  {
+    "question_no.": 193,
+    "Question": "For what type of problems are approximation algorithms typically used?",
+    "Option1": "Problems with easy exact solutions.",
+    "Option2": "NP-hard optimization problems.",
+    "Option3": "Simple sorting problems.",
+    "Option4": "Problems with unique solutions.",
+    "Answer": "NP-hard optimization problems."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Backtracking' in the context of solving Constraint Satisfaction Problems (CSPs)?",
+    "Option1": "Trying to satisfy all constraints at once.",
+    "Option2": "A general algorithm that systematically searches for solutions by building a solution step-by-step and abandoning (backtracking) any partial solution that fails to satisfy the constraints.",
+    "Option3": "Ignoring constraints.",
+    "Option4": "Generating random solutions.",
+    "Answer": "A general algorithm that systematically searches for solutions by building a solution step-by-step and abandoning (backtracking) any partial solution that fails to satisfy the constraints."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Pruning' in the context of Backtracking algorithms?",
+    "Option1": "Adding more options to explore.",
+    "Option2": "Eliminating branches of the search space that cannot lead to a valid solution, reducing the number of states to check.",
+    "Option3": "Changing the problem constraints.",
+    "Option4": "Restarting the search from the beginning.",
+    "Answer": "Eliminating branches of the search space that cannot lead to a valid solution, reducing the number of states to check."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is a 'Loop Invariant' in algorithm verification?",
+    "Option1": "A condition that changes with each iteration of the loop.",
+    "Option2": "A property that is true before (and after) each iteration of a loop, used to prove the correctness of iterative algorithms.",
+    "Option3": "A variable that remains constant throughout the loop.",
+    "Option4": "A type of loop that never terminates.",
+    "Answer": "A property that is true before (and after) each iteration of a loop, used to prove the correctness of iterative algorithms."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is a 'Predicate Logic' used for in algorithm verification?",
+    "Option1": "To generate random test cases.",
+    "Option2": "To formally express conditions and properties of an algorithm, aiding in proving its correctness.",
+    "Option3": "To measure algorithm performance.",
+    "Option4": "To draw flowcharts.",
+    "Answer": "To formally express conditions and properties of an algorithm, aiding in proving its correctness."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Proof by Induction' often used for in algorithm analysis?",
+    "Option1": "To determine the best-case time complexity.",
+    "Option2": "To prove the correctness of recursive algorithms or properties of data structures.",
+    "Option3": "To find bugs in programs.",
+    "Option4": "To generate random numbers.",
+    "Answer": "To prove the correctness of recursive algorithms or properties of data structures."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Recurrence Relation' in algorithm analysis?",
+    "Option1": "A mathematical equation describing the relationship between different variables.",
+    "Option2": "An equation or inequality that describes a function in terms of its values on smaller inputs, commonly used to analyze the time complexity of recursive algorithms.",
+    "Option3": "A method to solve linear equations.",
+    "Option4": "A way to generate random numbers.",
+    "Answer": "An equation or inequality that describes a function in terms of its values on smaller inputs, commonly used to analyze the time complexity of recursive algorithms."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the 'Master Theorem' used for in algorithm analysis?",
+    "Option1": "To prove algorithm correctness.",
+    "Option2": "To solve certain types of recurrence relations that arise in the analysis of recursive algorithms, particularly divide-and-conquer algorithms.",
+    "Option3": "To analyze iterative algorithms.",
+    "Option4": "To determine space complexity.",
+    "Answer": "To solve certain types of recurrence relations that arise in the analysis of recursive algorithms, particularly divide-and-conquer algorithms."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is a 'Critical Path' in project management, often analyzed using algorithms?",
+    "Option1": "The longest sequence of tasks that must be completed to finish the project.",
+    "Option2": "The shortest sequence of tasks in a project.",
+    "Option3": "The sequence of tasks that are least important.",
+    "Option4": "A path that can be skipped.",
+    "Answer": "The longest sequence of tasks that must be completed to finish the project."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Which graph algorithm can be adapted to find the Critical Path in a project network (represented as a DAG)?",
+    "Option1": "BFS",
+    "Option2": "DFS (modified to find longest path)",
+    "Option3": "Kruskal's",
+    "Option4": "Prim's",
+    "Answer": "DFS (modified to find longest path)"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Computational Geometry'?",
+    "Option1": "A branch of mathematics focused on numerical calculations.",
+    "Option2": "A field of computer science dedicated to the design and analysis of algorithms for geometric problems.",
+    "Option3": "A field focused on geometric shapes for art.",
+    "Option4": "A field focused on virtual reality.",
+    "Answer": "A field of computer science dedicated to the design and analysis of algorithms for geometric problems."
+  },
+  {
+    "question_no.": 204,
+    "Question": "Which problem is a classic example in computational geometry?",
+    "Option1": "Sorting numbers",
+    "Option2": "Finding the Convex Hull of a set of points",
+    "Option3": "Searching in a linked list",
+    "Option4": "Calculating factorial",
+    "Answer": "Finding the Convex Hull of a set of points"
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Computational Biology' or 'Bioinformatics' in the context of algorithms?",
+    "Option1": "Designing algorithms for biological experiments.",
+    "Option2": "Applying computational techniques and algorithms to analyze large biological datasets, such as DNA sequences and protein structures.",
+    "Option3": "Developing new biological organisms.",
+    "Option4": "Building biological robots.",
+    "Answer": "Applying computational techniques and algorithms to analyze large biological datasets, such as DNA sequences and protein structures."
+  },
+  {
+    "question_no.": 206,
+    "Question": "Which algorithm is fundamental in bioinformatics for sequence alignment?",
+    "Option1": "Quick Sort",
+    "Option2": "Needleman-Wunsch algorithm (for global alignment)",
+    "Option3": "Binary Search",
+    "Option4": "Dijkstra's Algorithm",
+    "Answer": "Needleman-Wunsch algorithm (for global alignment)"
+  }
+]

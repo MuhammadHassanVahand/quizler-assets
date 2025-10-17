@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which command is used to change file permissions in Linux?",
+    "Option1": "chown",
+    "Option2": "chmod",
+    "Option3": "chgrp",
+    "Option4": "ls -l",
+    "Answer": "chmod"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What does the command `sudo` stand for and what is its primary purpose?",
+    "Option1": "Super User Do; to execute commands as the root user or another specified user.",
+    "Option2": "System User Directory; to list system users.",
+    "Option3": "Secure User Data; to encrypt user files.",
+    "Option4": "Substitute User Disable; to disable a user account.",
+    "Answer": "Super User Do; to execute commands as the root user or another specified user."
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which command is used to view running processes on a Linux system?",
+    "Option1": "top",
+    "Option2": "df",
+    "Option3": "free -h",
+    "Option4": "ifconfig",
+    "Answer": "top"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What does the command `passwd` do?",
+    "Option1": "Lists all passwords on the system.",
+    "Option2": "Changes a user's password.",
+    "Option3": "Creates a new user account.",
+    "Option4": "Deletes a user account.",
+    "Answer": "Changes a user's password."
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which file contains the hashed passwords for local user accounts in Linux?",
+    "Option1": "/etc/passwd",
+    "Option2": "/etc/shadow",
+    "Option3": "/etc/group",
+    "Option4": "/etc/fstab",
+    "Answer": "/etc/shadow"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which command is used to change the owner of a file or directory?",
+    "Option1": "chmod",
+    "Option2": "chgrp",
+    "Option3": "chown",
+    "Option4": "mv",
+    "Answer": "chown"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which command allows you to view system logs in real-time?",
+    "Option1": "cat /var/log/syslog",
+    "Option2": "tail -f /var/log/syslog",
+    "Option3": "grep 'error' /var/log/messages",
+    "Option4": "less /var/log/auth.log",
+    "Answer": "tail -f /var/log/syslog"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What does `iptables -L` display?",
+    "Option1": "List of installed packages.",
+    "Option2": "Current firewall rules.",
+    "Option3": "Network interface configurations.",
+    "Option4": "Disk usage statistics.",
+    "Answer": "Current firewall rules."
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which command is used to add a new user to the system?",
+    "Option1": "userdel",
+    "Option2": "usermod",
+    "Option3": "adduser",
+    "Option4": "groupadd",
+    "Answer": "adduser"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the purpose of the `umask` command?",
+    "Option1": "To create new users with specific permissions.",
+    "Option2": "To set default permissions for newly created files and directories.",
+    "Option3": "To change the ownership of a file.",
+    "Option4": "To list the permissions of a directory.",
+    "Answer": "To set default permissions for newly created files and directories."
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which command can be used to scan for open ports on a local system?",
+    "Option1": "ping",
+    "Option2": "netstat -tulnp",
+    "Option3": "traceroute",
+    "Option4": "dig",
+    "Answer": "netstat -tulnp"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What does the `lsattr` command show?",
+    "Option1": "Standard file permissions.",
+    "Option2": "Extended file attributes (e.g., immutable, append-only).",
+    "Option3": "File ownership information.",
+    "Option4": "File modification times.",
+    "Answer": "Extended file attributes (e.g., immutable, append-only)."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which command is used to update the package list for a Debian-based system?",
+    "Option1": "yum update",
+    "Option2": "apt-get update",
+    "Option3": "dnf upgrade",
+    "Option4": "pacman -Syu",
+    "Answer": "apt-get update"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What does `dmesg` display?",
+    "Option1": "User login history.",
+    "Option2": "Kernel ring buffer messages, often containing hardware and driver information.",
+    "Option3": "Network configuration details.",
+    "Option4": "Installed software packages.",
+    "Answer": "Kernel ring buffer messages, often containing hardware and driver information."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which command would you use to forcefully kill a process with PID 1234?",
+    "Option1": "kill 1234",
+    "Option2": "kill -9 1234",
+    "Option3": "pkill 1234",
+    "Option4": "stop 1234",
+    "Answer": "kill -9 1234"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Where would you typically find system boot messages and kernel logs?",
+    "Option1": "/var/log/syslog",
+    "Option2": "/var/log/auth.log",
+    "Option3": "/var/log/dmesg",
+    "Option4": "/var/log/boot.log",
+    "Answer": "/var/log/dmesg"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which command is used to disable a user account without deleting it?",
+    "Option1": "userdel username",
+    "Option2": "passwd -l username",
+    "Option3": "usermod -L username",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What does `stat filename` provide?",
+    "Option1": "The content of the file.",
+    "Option2": "Detailed information about a file, including inode number, access/modify/change times, and permissions.",
+    "Option3": "A summary of file permissions only.",
+    "Option4": "The size of the file in bytes.",
+    "Answer": "Detailed information about a file, including inode number, access/modify/change times, and permissions."
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which command is used to list open files by processes?",
+    "Option1": "ps aux",
+    "Option2": "lsof",
+    "Option3": "netstat",
+    "Option4": "top",
+    "Answer": "lsof"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the purpose of the `/etc/sudoers` file?",
+    "Option1": "To store system user information.",
+    "Option2": "To configure which users or groups can run commands with `sudo` privileges and what commands they can run.",
+    "Option3": "To manage network configurations.",
+    "Option4": "To store encrypted passwords.",
+    "Answer": "To configure which users or groups can run commands with `sudo` privileges and what commands they can run."
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which command allows you to permanently change a file's immutable attribute, preventing deletion or modification even by root?",
+    "Option1": "chmod +i",
+    "Option2": "chattr +i",
+    "Option3": "chown root",
+    "Option4": "rm -f",
+    "Answer": "chattr +i"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you temporarily elevate privileges to root for a single command?",
+    "Option1": "su",
+    "Option2": "sudo -i",
+    "Option3": "sudo command_name",
+    "Option4": "root command_name",
+    "Answer": "sudo command_name"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which command is used to display disk usage?",
+    "Option1": "ls -l",
+    "Option2": "df -h",
+    "Option3": "du -sh",
+    "Option4": "Both Option2 and Option3 depending on the context.",
+    "Answer": "Both Option2 and Option3 depending on the context."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What does the `netstat -a` command show?",
+    "Option1": "Active network connections only.",
+    "Option2": "All active connections and listening ports.",
+    "Option3": "Routing table information.",
+    "Option4": "DNS server addresses.",
+    "Answer": "All active connections and listening ports."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which command can be used to set the SUID bit on an executable file?",
+    "Option1": "chmod u+s filename",
+    "Option2": "chmod +s filename",
+    "Option3": "chown u+s filename",
+    "Option4": "setuid filename",
+    "Answer": "chmod u+s filename"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of the SUID bit on an executable file?",
+    "Option1": "It allows the file to be executed by anyone.",
+    "Option2": "It allows the file to be executed with the permissions of the file owner, regardless of who is executing it.",
+    "Option3": "It restricts execution to the file owner only.",
+    "Option4": "It encrypts the executable file.",
+    "Answer": "It allows the file to be executed with the permissions of the file owner, regardless of who is executing it."
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which command is used to list active network connections and their associated programs/PIDs?",
+    "Option1": "ifconfig",
+    "Option2": "ip a",
+    "Option3": "ss -tulnp",
+    "Option4": "route",
+    "Answer": "ss -tulnp"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What does the `chage -l username` command display?",
+    "Option1": "The user's password history.",
+    "Option2": "Password aging information for a user (last change, min/max days, warning days).",
+    "Option3": "The user's current password.",
+    "Option4": "The user's login history.",
+    "Answer": "Password aging information for a user (last change, min/max days, warning days)."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which directory commonly stores system configuration files?",
+    "Option1": "/bin",
+    "Option2": "/usr",
+    "Option3": "/etc",
+    "Option4": "/var",
+    "Answer": "/etc"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What does `journalctl -xe` do?",
+    "Option1": "Deletes all system logs.",
+    "Option2": "Displays detailed log entries, including explanations for errors, from the systemd journal.",
+    "Option3": "Archives old log files.",
+    "Option4": "Configures journal settings.",
+    "Answer": "Displays detailed log entries, including explanations for errors, from the systemd journal."
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which command is used to remove a user from a group?",
+    "Option1": "deluser username groupname",
+    "Option2": "gpasswd -d username groupname",
+    "Option3": "groupdel username groupname",
+    "Option4": "usermod -G groupname username",
+    "Answer": "gpasswd -d username groupname"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What does the `last` command display?",
+    "Option1": "Recently modified files.",
+    "Option2": "Login and logout history of users.",
+    "Option3": "Last executed commands.",
+    "Option4": "Last system reboots.",
+    "Answer": "Login and logout history of users."
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which command is used to add a new group to the system?",
+    "Option1": "groupdel",
+    "Option2": "groupmod",
+    "Option3": "addgroup",
+    "Option4": "useradd",
+    "Answer": "addgroup"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the purpose of the `Sticky Bit` on a directory?",
+    "Option1": "It prevents users from entering the directory.",
+    "Option2": "It ensures that only the owner of a file (or the root user) can delete or rename files within that directory, even if other users have write permissions to the directory.",
+    "Option3": "It makes all files in the directory executable.",
+    "Option4": "It makes the directory immutable.",
+    "Answer": "It ensures that only the owner of a file (or the root user) can delete or rename files within that directory, even if other users have write permissions to the directory."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which numerical permission represents read, write, and execute for the owner?",
+    "Option1": "4",
+    "Option2": "6",
+    "Option3": "7",
+    "Option4": "2",
+    "Answer": "7"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What does `sudo -i` do?",
+    "Option1": "Runs a single command as root.",
+    "Option2": "Starts a new shell as the root user with the root user's environment.",
+    "Option3": "Lists `sudo` privileges for the current user.",
+    "Option4": "Disables `sudo` for the current session.",
+    "Answer": "Starts a new shell as the root user with the root user's environment."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which command is used to display all network interfaces and their IP addresses?",
+    "Option1": "ping",
+    "Option2": "netstat",
+    "Option3": "ip a",
+    "Option4": "route",
+    "Answer": "ip a"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does `rkhunter` specialize in?",
+    "Option1": "Scanning for open ports.",
+    "Option2": "Scanning for rootkits, backdoors, and local exploits.",
+    "Option3": "Managing firewall rules.",
+    "Option4": "Analyzing network traffic.",
+    "Answer": "Scanning for rootkits, backdoors, and local exploits."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which command is used to view the contents of the `/etc/sysctl.conf` file?",
+    "Option1": "edit /etc/sysctl.conf",
+    "Option2": "cat /etc/sysctl.conf",
+    "Option3": "view /etc/sysctl.conf",
+    "Option4": "nano /etc/sysctl.conf",
+    "Answer": "cat /etc/sysctl.conf"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the purpose of `sysctl` in Linux security?",
+    "Option1": "To manage user accounts.",
+    "Option2": "To modify kernel parameters at runtime, which can include security-related settings.",
+    "Option3": "To control firewall rules.",
+    "Option4": "To update system software.",
+    "Answer": "To modify kernel parameters at runtime, which can include security-related settings."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which command allows you to view the currently configured `umask` value?",
+    "Option1": "umask -s",
+    "Option2": "umask",
+    "Option3": "echo $UMASK",
+    "Option4": "getumask",
+    "Answer": "umask"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the primary function of `ClamAV`?",
+    "Option1": "Network intrusion detection.",
+    "Option2": "Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats.",
+    "Option3": "Hard disk encryption.",
+    "Option4": "Firewall management.",
+    "Answer": "Open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which command is used to check the integrity of a package database on a Debian-based system?",
+    "Option1": "yum check",
+    "Option2": "apt-get check",
+    "Option3": "dpkg --verify",
+    "Option4": "rpm -Va",
+    "Answer": "dpkg --verify"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What does `ps aux` show?",
+    "Option1": "Processes owned by the current user.",
+    "Option2": "All running processes on the system, including those of other users and daemon processes.",
+    "Option3": "Only processes with a GUI.",
+    "Option4": "Recently terminated processes.",
+    "Answer": "All running processes on the system, including those of other users and daemon processes."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which file is commonly used to configure SSH daemon settings?",
+    "Option1": "/etc/ssh/ssh_config",
+    "Option2": "/etc/ssh/sshd_config",
+    "Option3": "/home/user/.ssh/config",
+    "Option4": "/var/log/ssh",
+    "Answer": "/etc/ssh/sshd_config"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What command would you use to force a password change for a user on their next login?",
+    "Option1": "passwd -e username",
+    "Option2": "chage -d 0 username",
+    "Option3": "usermod -e username",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which command helps secure temporary files by mounting `/tmp` with `noexec` and `nosuid` options?",
+    "Option1": "mount /tmp",
+    "Option2": "fstab -a /tmp",
+    "Option3": "modifying `/etc/fstab` and then `mount -a` or rebooting",
+    "Option4": "tmpfs security",
+    "Answer": "modifying `/etc/fstab` and then `mount -a` or rebooting"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the significance of the `PermitRootLogin no` setting in `sshd_config`?",
+    "Option1": "It allows root to log in without a password.",
+    "Option2": "It disables direct root login via SSH, forcing root access via `sudo` from another user.",
+    "Option3": "It encrypts root's password.",
+    "Option4": "It enables root access for all users.",
+    "Answer": "It disables direct root login via SSH, forcing root access via `sudo` from another user."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which command lists system services and their status (e.g., running, stopped)?",
+    "Option1": "ps aux",
+    "Option2": "systemctl status",
+    "Option3": "service --status-all",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What does the `find / -perm -4000` command search for?",
+    "Option1": "Files owned by root.",
+    "Option2": "Files with the SUID bit set.",
+    "Option3": "Files with read-only permissions.",
+    "Option4": "Executable files.",
+    "Answer": "Files with the SUID bit set."
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which command is used to examine system calls made by a process?",
+    "Option1": "strace",
+    "Option2": "ltrace",
+    "Option3": "gdb",
+    "Option4": "top",
+    "Answer": "strace"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What does `fail2ban` primarily protect against?",
+    "Option1": "Malware infections.",
+    "Option2": "Brute-force attacks on services like SSH, FTP, and web servers by blocking IP addresses after multiple failed login attempts.",
+    "Option3": "Unauthorized file access.",
+    "Option4": "Denial of Service (DoS) attacks from a single source.",
+    "Answer": "Brute-force attacks on services like SSH, FTP, and web servers by blocking IP addresses after multiple failed login attempts."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which command is used to ensure a package is removed entirely, including configuration files?",
+    "Option1": "apt-get remove package_name",
+    "Option2": "apt-get purge package_name",
+    "Option3": "dpkg -r package_name",
+    "Option4": "yum erase package_name",
+    "Answer": "apt-get purge package_name"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What does `chkconfig` (on RHEL/CentOS) or `sysv-rc-conf` (on Debian/Ubuntu) manage?",
+    "Option1": "File permissions.",
+    "Option2": "System runlevels and services that start at boot.",
+    "Option3": "Network interfaces.",
+    "Option4": "User accounts.",
+    "Answer": "System runlevels and services that start at boot."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which command can create a password hash directly from the command line?",
+    "Option1": "md5sum 'password'",
+    "Option2": "echo 'password' | sha256sum",
+    "Option3": "openssl passwd -1 'password'",
+    "Option4": "hashgen 'password'",
+    "Answer": "openssl passwd -1 'password'"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the purpose of `SELinux`?",
+    "Option1": "To manage disk partitions.",
+    "Option2": "A security enhancement to Linux that provides mandatory access control (MAC), allowing granular control over processes, files, and other objects beyond traditional DAC.",
+    "Option3": "To encrypt user data.",
+    "Option4": "To manage network firewalls.",
+    "Answer": "A security enhancement to Linux that provides mandatory access control (MAC), allowing granular control over processes, files, and other objects beyond traditional DAC."
+  },
+  {
+    "question_no.": 57,
+    "Question": "How do you check the current status of SELinux?",
+    "Option1": "selinux --status",
+    "Option2": "sestatus",
+    "Option3": "getenforce",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which command would you use to put SELinux into 'permissive' mode?",
+    "Option1": "setenforce 0",
+    "Option2": "setenforce permissive",
+    "Option3": "selinux disable",
+    "Option4": "selinux configure permissive",
+    "Answer": "setenforce 0"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the purpose of `AppArmor`?",
+    "Option1": "To manage application dependencies.",
+    "Option2": "A security module that provides Mandatory Access Control (MAC) by confining programs to a limited set of resources, based on security profiles.",
+    "Option3": "To optimize application performance.",
+    "Option4": "To detect malware in applications.",
+    "Answer": "A security module that provides Mandatory Access Control (MAC) by confining programs to a limited set of resources, based on security profiles."
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which command is used to list all currently logged-in users?",
+    "Option1": "whoami",
+    "Option2": "users",
+    "Option3": "who",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What does `audispd` (audit dispatcher daemon) primarily do?",
+    "Option1": "Collects audit logs.",
+    "Option2": "Relays audit events to other programs and analysis tools.",
+    "Option3": "Generates audit reports.",
+    "Option4": "Configures audit rules.",
+    "Answer": "Relays audit events to other programs and analysis tools."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which directory contains system-wide configuration files for many programs?",
+    "Option1": "/home",
+    "Option2": "/var",
+    "Option3": "/etc",
+    "Option4": "/tmp",
+    "Answer": "/etc"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the purpose of `logrotate`?",
+    "Option1": "To view log files.",
+    "Option2": "To compress, archive, and delete old log files to prevent them from consuming too much disk space.",
+    "Option3": "To send log files to a central server.",
+    "Option4": "To encrypt log files.",
+    "Answer": "To compress, archive, and delete old log files to prevent them from consuming too much disk space."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which command is used to add a user to a supplementary group?",
+    "Option1": "adduser username groupname",
+    "Option2": "usermod -aG groupname username",
+    "Option3": "gpasswd -a username groupname",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What does `df -i` report?",
+    "Option1": "Disk space usage in human-readable format.",
+    "Option2": "Inode usage on filesystems.",
+    "Option3": "Disk I/O statistics.",
+    "Option4": "Free memory.",
+    "Answer": "Inode usage on filesystems."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which command can be used to scan for known malware signatures on a system?",
+    "Option1": "nmap",
+    "Option2": "Clamscan",
+    "Option3": "wireshark",
+    "Option4": "netcat",
+    "Answer": "Clamscan"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What does the `lastlog` command display?",
+    "Option1": "The last commands executed by a user.",
+    "Option2": "The last login time for each user account.",
+    "Option3": "The last entries in syslog.",
+    "Option4": "The last modified files on the system.",
+    "Answer": "The last login time for each user account."
+  },
+  {
+    "question_no.": 68,
+    "Question": "Which command is used to inspect kernel modules?",
+    "Option1": "lsmod",
+    "Option2": "modprobe",
+    "Option3": "rmmod",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the purpose of `sudo -k`?",
+    "Option1": "To keep the `sudo` timestamp file alive.",
+    "Option2": "To invalidate the user's `sudo` timestamp, forcing a password prompt for the next `sudo` command.",
+    "Option3": "To kill all `sudo` processes.",
+    "Option4": "To re-read the `/etc/sudoers` file.",
+    "Answer": "To invalidate the user's `sudo` timestamp, forcing a password prompt for the next `sudo` command."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which command shows the current system load average?",
+    "Option1": "free",
+    "Option2": "uptime",
+    "Option3": "top",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What does the `/etc/login.defs` file control?",
+    "Option1": "Network interface settings.",
+    "Option2": "User account creation parameters and password policies (e.g., password minimum length, aging).",
+    "Option3": "Firewall rules.",
+    "Option4": "System boot options.",
+    "Answer": "User account creation parameters and password policies (e.g., password minimum length, aging)."
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which command can be used to display TCP/IP network connections, routing tables, and interface statistics?",
+    "Option1": "ifconfig",
+    "Option2": "netstat",
+    "Option3": "ip route",
+    "Option4": "ping",
+    "Answer": "netstat"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What does `find / -type f -perm /6000` search for?",
+    "Option1": "Files with read/write permissions for owner.",
+    "Option2": "Files with either SUID or SGID bit set.",
+    "Option3": "Executable files.",
+    "Option4": "Files with no permissions for others.",
+    "Answer": "Files with either SUID or SGID bit set."
+  },
+  {
+    "question_no.": 74,
+    "Question": "Which command is used to display the currently installed packages on a Debian-based system?",
+    "Option1": "yum list installed",
+    "Option2": "dpkg -l",
+    "Option3": "rpm -qa",
+    "Option4": "apt list",
+    "Answer": "dpkg -l"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the primary benefit of using `SSH keys` for authentication over passwords?",
+    "Option1": "They are easier to remember.",
+    "Option2": "They are much more secure against brute-force attacks and eliminate password transmission over the network.",
+    "Option3": "They allow for anonymous access.",
+    "Option4": "They are faster to type.",
+    "Answer": "They are much more secure against brute-force attacks and eliminate password transmission over the network."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which command is used to generate SSH key pairs?",
+    "Option1": "ssh-keygen",
+    "Option2": "genkey",
+    "Option3": "create-ssh-key",
+    "Option4": "openssl genrsa",
+    "Answer": "ssh-keygen"
+  },
+  {
+    "question_no.": 77,
+    "Question": "Where are authorized SSH public keys typically stored for a user?",
+    "Option1": "~/.ssh/id_rsa",
+    "Option2": "~/.ssh/authorized_keys",
+    "Option3": "/etc/ssh/ssh_host_rsa_key.pub",
+    "Option4": "/var/log/ssh_auth",
+    "Answer": "~/.ssh/authorized_keys"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What does the `setfattr` command do?",
+    "Option1": "Sets standard file permissions.",
+    "Option2": "Sets extended file attributes (e.g., ACLs, security contexts).",
+    "Option3": "Changes file ownership.",
+    "Option4": "Displays file attributes.",
+    "Answer": "Sets extended file attributes (e.g., ACLs, security contexts)."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which command is used to test DNS resolution?",
+    "Option1": "ping",
+    "Option2": "telnet",
+    "Option3": "dig",
+    "Option4": "route",
+    "Answer": "dig"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What does the `w` command display?",
+    "Option1": "Current date and time.",
+    "Option2": "Currently logged-in users and what they are doing.",
+    "Option3": "Wireless network information.",
+    "Option4": "System uptime.",
+    "Answer": "Currently logged-in users and what they are doing."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which log file typically records authentication attempts, including failed ones?",
+    "Option1": "/var/log/syslog",
+    "Option2": "/var/log/messages",
+    "Option3": "/var/log/auth.log",
+    "Option4": "/var/log/kern.log",
+    "Answer": "/var/log/auth.log"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of `rlog` in `syslog-ng`?",
+    "Option1": "To view remote logs.",
+    "Option2": "To send log messages to a remote server.",
+    "Option3": "To rotate logs.",
+    "Option4": "To filter log messages.",
+    "Answer": "To send log messages to a remote server."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which command is used to delete a user account and their home directory?",
+    "Option1": "userdel username",
+    "Option2": "userdel -r username",
+    "Option3": "deluser username",
+    "Option4": "rmuser username",
+    "Answer": "userdel -r username"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What does `getenforce` report regarding SELinux?",
+    "Option1": "Current SELinux policy.",
+    "Option2": "Current SELinux enforcement mode (Enforcing, Permissive, Disabled).",
+    "Option3": "SELinux audit logs.",
+    "Option4": "SELinux context of a file.",
+    "Answer": "Current SELinux enforcement mode (Enforcing, Permissive, Disabled)."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which command is used to manually apply `sysctl` settings from `/etc/sysctl.conf`?",
+    "Option1": "sysctl -a",
+    "Option2": "sysctl -p",
+    "Option3": "sysctl --apply",
+    "Option4": "sysctl --reload",
+    "Answer": "sysctl -p"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the function of `pam_tally2`?",
+    "Option1": "To manage user groups.",
+    "Option2": "A PAM module that counts and limits login attempts, used to lock out users after too many failed password attempts.",
+    "Option3": "To enforce password complexity.",
+    "Option4": "To log successful logins.",
+    "Answer": "A PAM module that counts and limits login attempts, used to lock out users after too many failed password attempts."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which command lists all configured cron jobs for the current user?",
+    "Option1": "cat /etc/crontab",
+    "Option2": "crontab -l",
+    "Option3": "ls /etc/cron.d",
+    "Option4": "cron list",
+    "Answer": "crontab -l"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is a common security best practice for the `root` account regarding remote access?",
+    "Option1": "Always allow direct root SSH login.",
+    "Option2": "Disable direct root SSH login and use `sudo` for administrative tasks.",
+    "Option3": "Use a simple password for root.",
+    "Option4": "Share the root password with all administrators.",
+    "Answer": "Disable direct root SSH login and use `sudo` for administrative tasks."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which command sets the SGID bit on a directory?",
+    "Option1": "chmod g+s directory_name",
+    "Option2": "chmod +s directory_name",
+    "Option3": "chown g+s directory_name",
+    "Option4": "setgid directory_name",
+    "Answer": "chmod g+s directory_name"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the effect of the SGID bit on a directory?",
+    "Option1": "New files created in the directory will inherit the owner's group.",
+    "Option2": "New files created in the directory will inherit the directory's group ownership.",
+    "Option3": "Only the group owner can access the directory.",
+    "Option4": "It encrypts files within the directory.",
+    "Answer": "New files created in the directory will inherit the directory's group ownership."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which command is used to reset a user's password without knowing the old password (as root)?",
+    "Option1": "userreset username",
+    "Option2": "passwd username",
+    "Option3": "usermod -p 'new_hash' username",
+    "Option4": "chage -E -1 username",
+    "Answer": "passwd username"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What does `grep -r 'password' /etc` search for?",
+    "Option1": "The word 'password' in all files in `/etc` and its subdirectories, recursively.",
+    "Option2": "Files named 'password' in `/etc`.",
+    "Option3": "Only files with execute permissions in `/etc`.",
+    "Option4": "Encrypted password files.",
+    "Answer": "The word 'password' in all files in `/etc` and its subdirectories, recursively."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which command lists all listening ports and the processes listening on them?",
+    "Option1": "netstat -l",
+    "Option2": "netstat -ltnp",
+    "Option3": "ss -l",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the purpose of the `chroot` command?",
+    "Option1": "To change the ownership of the root directory.",
+    "Option2": "To change the apparent root directory for the current running process and its children, often used to create a more secure environment for certain applications or for system recovery.",
+    "Option3": "To encrypt the root filesystem.",
+    "Option4": "To delete the root directory.",
+    "Answer": "To change the apparent root directory for the current running process and its children, often used to create a more secure environment for certain applications or for system recovery."
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which command is used to disable a network interface?",
+    "Option1": "ifconfig eth0 down",
+    "Option2": "ip link set eth0 down",
+    "Option3": "networkctl disable eth0",
+    "Option4": "All of the above (depending on the system and preferred tool)",
+    "Answer": "All of the above (depending on the system and preferred tool)"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What does `iptables -A INPUT -p tcp --dport 22 -j DROP` do?",
+    "Option1": "Allows SSH access.",
+    "Option2": "Drops incoming TCP traffic to port 22 (SSH).",
+    "Option3": "Redirects SSH traffic.",
+    "Option4": "Logs SSH attempts.",
+    "Answer": "Drops incoming TCP traffic to port 22 (SSH)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which command is used to remove an `iptables` rule?",
+    "Option1": "iptables -D",
+    "Option2": "iptables -R",
+    "Option3": "iptables --flush",
+    "Option4": "iptables --delete-all",
+    "Answer": "iptables -D"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the common purpose of `tripwire` or `aide`?",
+    "Option1": "To manage network configurations.",
+    "Option2": "To detect unauthorized changes to files and directories by creating and comparing baseline snapshots of the system.",
+    "Option3": "To encrypt files.",
+    "Option4": "To block malicious IP addresses.",
+    "Answer": "To detect unauthorized changes to files and directories by creating and comparing baseline snapshots of the system."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which command is used to view the contents of the `/etc/group` file?",
+    "Option1": "cat /etc/passwd",
+    "Option2": "less /etc/group",
+    "Option3": "grep 'root' /etc/group",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What information is typically found in `/etc/group`?",
+    "Option1": "User login shells.",
+    "Option2": "User home directories.",
+    "Option3": "Group names and their members.",
+    "Option4": "Hashed passwords.",
+    "Answer": "Group names and their members."
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which command allows you to view the currently configured default gateway?",
+    "Option1": "ifconfig",
+    "Option2": "ip route show default",
+    "Option3": "netstat -r",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What does `df -h` show?",
+    "Option1": "Disk usage for files and directories.",
+    "Option2": "Free disk space on mounted filesystems in human-readable format.",
+    "Option3": "Disk I/O statistics.",
+    "Option4": "Total disk capacity.",
+    "Answer": "Free disk space on mounted filesystems in human-readable format."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which command is used to check the last modification time of a file?",
+    "Option1": "ls -l",
+    "Option2": "stat filename",
+    "Option3": "find . -mtime -1",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of `SSH hardening` techniques?",
+    "Option1": "To make SSH connections slower.",
+    "Option2": "To improve the security of SSH servers by disabling insecure ciphers, protocols, and authentication methods, and enforcing stronger ones.",
+    "Option3": "To allow more users to connect via SSH.",
+    "Option4": "To reduce the number of SSH keys required.",
+    "Answer": "To improve the security of SSH servers by disabling insecure ciphers, protocols, and authentication methods, and enforcing stronger ones."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which command is used to reload the `sshd` configuration without restarting the service?",
+    "Option1": "systemctl restart sshd",
+    "Option2": "systemctl reload sshd",
+    "Option3": "service sshd stop && service sshd start",
+    "Option4": "sshd --reload",
+    "Answer": "systemctl reload sshd"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What does the `whoami` command display?",
+    "Option1": "The effective username of the current user.",
+    "Option2": "The actual user ID.",
+    "Option3": "The group ID.",
+    "Option4": "The IP address of the user.",
+    "Answer": "The effective username of the current user."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which command is used to view the membership of a specific user in groups?",
+    "Option1": "groups username",
+    "Option2": "id username",
+    "Option3": "cat /etc/group | grep username",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the significance of the `PermitEmptyPasswords no` setting in `sshd_config`?",
+    "Option1": "It allows users to log in with empty passwords.",
+    "Option2": "It prevents users from logging in with empty passwords via SSH.",
+    "Option3": "It encrypts empty passwords.",
+    "Option4": "It ignores password complexity rules.",
+    "Answer": "It prevents users from logging in with empty passwords via SSH."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which command is used to inspect the integrity of system binaries using a package manager (e.g., on RPM-based systems)?",
+    "Option1": "apt-get check",
+    "Option2": "dpkg --verify",
+    "Option3": "rpm -V",
+    "Option4": "yum audit",
+    "Answer": "rpm -V"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What does the `setcap` command do?",
+    "Option1": "Sets standard file permissions.",
+    "Option2": "Sets POSIX capabilities on executable files, allowing specific privileges without needing SUID root.",
+    "Option3": "Changes file ownership.",
+    "Option4": "Displays network capabilities.",
+    "Answer": "Sets POSIX capabilities on executable files, allowing specific privileges without needing SUID root."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which command helps to identify network connections in `TIME_WAIT` state?",
+    "Option1": "netstat -nt | grep TIME_WAIT",
+    "Option2": "ss -s",
+    "Option3": "lsof -i TCP",
+    "Option4": "tcpdump",
+    "Answer": "netstat -nt | grep TIME_WAIT"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the purpose of `fail2ban-client status`?",
+    "Option1": "To check the version of Fail2Ban.",
+    "Option2": "To display the current status of Fail2Ban jails and the banned IP addresses.",
+    "Option3": "To start the Fail2Ban service.",
+    "Option4": "To configure Fail2Ban filters.",
+    "Answer": "To display the current status of Fail2Ban jails and the banned IP addresses."
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which command allows you to control system services using `systemd`?",
+    "Option1": "service",
+    "Option2": "chkconfig",
+    "Option3": "systemctl",
+    "Option4": "rcctl",
+    "Answer": "systemctl"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What does `find /var/log -type f -mtime +30 -delete` do?",
+    "Option1": "Lists all log files older than 30 days.",
+    "Option2": "Deletes log files in `/var/log` that are older than 30 days.",
+    "Option3": "Compresses log files older than 30 days.",
+    "Option4": "Moves log files older than 30 days to another directory.",
+    "Answer": "Deletes log files in `/var/log` that are older than 30 days."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which command is used to enable the firewall in a RHEL/CentOS system using `firewalld`?",
+    "Option1": "iptables enable",
+    "Option2": "ufw enable",
+    "Option3": "firewall-cmd --set-default-zone=public",
+    "Option4": "systemctl enable firewalld && systemctl start firewalld",
+    "Answer": "systemctl enable firewalld && systemctl start firewalld"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the purpose of `nmap -sT localhost`?",
+    "Option1": "To perform a UDP scan on localhost.",
+    "Option2": "To perform a TCP connect scan on localhost, used to discover open TCP ports.",
+    "Option3": "To scan for vulnerabilities on localhost.",
+    "Option4": "To perform a ping scan on localhost.",
+    "Answer": "To perform a TCP connect scan on localhost, used to discover open TCP ports."
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which command displays the routing table?",
+    "Option1": "ifconfig -a",
+    "Option2": "ip route show",
+    "Option3": "netstat -r",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the purpose of `/etc/securetty`?",
+    "Option1": "To list secure network connections.",
+    "Option2": "To specify which TTY devices the root user is allowed to log in on directly.",
+    "Option3": "To list secure file permissions.",
+    "Option4": "To manage encrypted terminals.",
+    "Answer": "To specify which TTY devices the root user is allowed to log in on directly."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which command is used to enable or disable service at boot time using `systemctl`?",
+    "Option1": "systemctl start service_name",
+    "Option2": "systemctl enable service_name",
+    "Option3": "systemctl status service_name",
+    "Option4": "systemctl daemon-reload",
+    "Answer": "systemctl enable service_name"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What does `auditctl -a always,exit -F arch=b64 -S open -F exit=-EACCES -k access_denied` do?",
+    "Option1": "Logs all successful file accesses.",
+    "Option2": "Adds an audit rule to log attempts to open files that result in 'permission denied' errors for 64-bit architectures.",
+    "Option3": "Removes an audit rule.",
+    "Option4": "Lists existing audit rules.",
+    "Answer": "Adds an audit rule to log attempts to open files that result in 'permission denied' errors for 64-bit architectures."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which command is used to view the entire audit log?",
+    "Option1": "cat /var/log/audit/audit.log",
+    "Option2": "ausearch",
+    "Option3": "aureport",
+    "Option4": "Both Option2 and Option3 for more structured viewing.",
+    "Answer": "Both Option2 and Option3 for more structured viewing."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `LVM` (Logical Volume Manager) commonly used for in a security context?",
+    "Option1": "To encrypt individual files.",
+    "Option2": "To provide flexible disk management, often used as a layer for full disk encryption or snapshots for rollback.",
+    "Option3": "To scan for malware.",
+    "Option4": "To manage user quotas.",
+    "Answer": "To provide flexible disk management, often used as a layer for full disk encryption or snapshots for rollback."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which command helps verify the integrity of installed RPM packages?",
+    "Option1": "apt-get verify",
+    "Option2": "dpkg --check",
+    "Option3": "rpm -V",
+    "Option4": "yum validate",
+    "Answer": "rpm -V"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What does `ldd /usr/bin/ls` show?",
+    "Option1": "The size of the `ls` executable.",
+    "Option2": "The shared libraries required by the `ls` executable.",
+    "Option3": "The permissions of the `ls` executable.",
+    "Option4": "The version of the `ls` command.",
+    "Answer": "The shared libraries required by the `ls` executable."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which command allows you to view environment variables for the current shell?",
+    "Option1": "set",
+    "Option2": "env",
+    "Option3": "printenv",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the primary risk associated with `SUID` and `SGID` binaries?",
+    "Option1": "They slow down system performance.",
+    "Option2": "They can be exploited by attackers to gain elevated privileges if the binary has vulnerabilities.",
+    "Option3": "They consume excessive disk space.",
+    "Option4": "They make files read-only.",
+    "Answer": "They can be exploited by attackers to gain elevated privileges if the binary has vulnerabilities."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which command is used to display and modify extended attributes of files (ACLs)?",
+    "Option1": "chmod",
+    "Option2": "chown",
+    "Option3": "setfacl",
+    "Option4": "lsattr",
+    "Answer": "setfacl"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What does `getfacl filename` show?",
+    "Option1": "Standard file permissions.",
+    "Option2": "Access Control List (ACL) entries for a file or directory.",
+    "Option3": "File owner and group.",
+    "Option4": "File size and modification date.",
+    "Answer": "Access Control List (ACL) entries for a file or directory."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which directory contains temporary files that are usually cleared on reboot?",
+    "Option1": "/opt",
+    "Option2": "/var/tmp",
+    "Option3": "/tmp",
+    "Option4": "/usr/local/tmp",
+    "Answer": "/tmp"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the purpose of `noexec` mount option for a partition?",
+    "Option1": "It prevents writing to the partition.",
+    "Option2": "It prevents the execution of binaries on that partition.",
+    "Option3": "It disables read access.",
+    "Option4": "It hides the partition from users.",
+    "Answer": "It prevents the execution of binaries on that partition."
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which command is used to check the last reboot time of the system?",
+    "Option1": "last reboot",
+    "Option2": "uptime",
+    "Option3": "history",
+    "Option4": "who -b",
+    "Answer": "who -b"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What does `uname -a` display?",
+    "Option1": "User information.",
+    "Option2": "All system information, including kernel name, hostname, kernel release, kernel version, machine hardware name, processor, hardware platform, and operating system.",
+    "Option3": "Network configuration.",
+    "Option4": "Disk usage.",
+    "Answer": "All system information, including kernel name, hostname, kernel release, kernel version, machine hardware name, processor, hardware platform, and operating system."
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which command is used to list open network sockets?",
+    "Option1": "lsof -i",
+    "Option2": "netstat -l",
+    "Option3": "ss -a",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the purpose of the `/etc/aliases` file?",
+    "Option1": "To store user passwords.",
+    "Option2": "To configure email aliases for local mail delivery.",
+    "Option3": "To define command shortcuts.",
+    "Option4": "To manage network interfaces.",
+    "Answer": "To configure email aliases for local mail delivery."
+  },
+  {
+    "question_no.": 135,
+    "Question": "Which command checks the security configuration of an OpenSSH server?",
+    "Option1": "ssh -C",
+    "Option2": "ssh-audit",
+    "Option3": "sshd -t",
+    "Option4": "ssh-check",
+    "Answer": "sshd -t"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What does `df` primarily report?",
+    "Option1": "Disk usage of specific files.",
+    "Option2": "Disk Free, displaying available disk space on filesystems.",
+    "Option3": "Directory sizes.",
+    "Option4": "Disk write speeds.",
+    "Answer": "Disk Free, displaying available disk space on filesystems."
+  },
+  {
+    "question_no.": 137,
+    "Question": "Which command can be used to set a file's immutable attribute?",
+    "Option1": "chmod +i filename",
+    "Option2": "chattr +i filename",
+    "Option3": "setimmutable filename",
+    "Option4": "lock filename",
+    "Answer": "chattr +i filename"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What does `netcat -lvnp 8080` do?",
+    "Option1": "Sends data to port 8080.",
+    "Option2": "Listens passively on TCP port 8080, showing port and process details, often used for setting up simple backdoors or testing connectivity.",
+    "Option3": "Scans for open ports.",
+    "Option4": "Connects to a remote server on port 8080.",
+    "Answer": "Listens passively on TCP port 8080, showing port and process details, often used for setting up simple backdoors or testing connectivity."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which command would you use to change the default shell for a user?",
+    "Option1": "usermod -s /bin/bash username",
+    "Option2": "chsh username",
+    "Option3": "passwd -s username",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the primary role of `PAM` (Pluggable Authentication Modules)?",
+    "Option1": "To manage network protocols.",
+    "Option2": "To provide a flexible mechanism for authentication services in applications, allowing system administrators to choose how applications authenticate users without changing the applications themselves.",
+    "Option3": "To encrypt user data.",
+    "Option4": "To control firewall rules.",
+    "Answer": "To provide a flexible mechanism for authentication services in applications, allowing system administrators to choose how applications authenticate users without changing the applications themselves."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which command shows current user limits (e.g., max open files, max processes)?",
+    "Option1": "free -m",
+    "Option2": "ulimit -a",
+    "Option3": "df -h",
+    "Option4": "top",
+    "Answer": "ulimit -a"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the purpose of `rsyslog`?",
+    "Option1": "To manage system users.",
+    "Option2": "A high-performance system for logging, capable of collecting log data from various sources and delivering it to different destinations.",
+    "Option3": "To control network traffic.",
+    "Option4": "To update software packages.",
+    "Answer": "A high-performance system for logging, capable of collecting log data from various sources and delivering it to different destinations."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which command provides a summary of system resource usage, including CPU, memory, and swap?",
+    "Option1": "du -sh",
+    "Option2": "free -h",
+    "Option3": "lsblk",
+    "Option4": "ping",
+    "Answer": "free -h"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What does `ss -s` display?",
+    "Option1": "Detailed network connection information.",
+    "Option2": "A summary of socket statistics.",
+    "Option3": "Listening ports only.",
+    "Option4": "Network interface statistics.",
+    "Answer": "A summary of socket statistics."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which command is typically used to monitor network traffic in real-time?",
+    "Option1": "ping",
+    "Option2": "traceroute",
+    "Option3": "tcpdump",
+    "Option4": "netstat",
+    "Answer": "tcpdump"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the purpose of the `noatime` mount option in `/etc/fstab`?",
+    "Option1": "To prevent file creation.",
+    "Option2": "To prevent the update of file access times when files are read, which can improve performance and reduce disk writes, especially for SSDs, and reduce forensic information.",
+    "Option3": "To disallow execution of files.",
+    "Option4": "To hide files from users.",
+    "Answer": "To prevent the update of file access times when files are read, which can improve performance and reduce disk writes, especially for SSDs, and reduce forensic information."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which command is used to check the last modification time of a user's home directory?",
+    "Option1": "ls -ld ~username",
+    "Option2": "stat /home/username",
+    "Option3": "find /home -maxdepth 1 -type d -name 'username'",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What does `id -Gn username` show?",
+    "Option1": "The user's primary GID.",
+    "Option2": "All group memberships (both primary and supplementary) for a specified user, by group name.",
+    "Option3": "The user's UID.",
+    "Option4": "The user's login shell.",
+    "Answer": "All group memberships (both primary and supplementary) for a specified user, by group name."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which command is used to disable password authentication for SSH and enforce key-based authentication?",
+    "Option1": "PermitRootLogin no",
+    "Option2": "PasswordAuthentication no in sshd_config",
+    "Option3": "PubkeyAuthentication no in sshd_config",
+    "Option4": "ChallengeResponseAuthentication yes",
+    "Answer": "PasswordAuthentication no in sshd_config"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the purpose of `Lynis`?",
+    "Option1": "A network vulnerability scanner.",
+    "Option2": "An open-source security auditing tool for Unix-like systems, performing extensive security checks and providing recommendations.",
+    "Option3": "A web application firewall.",
+    "Option4": "A log management solution.",
+    "Answer": "An open-source security auditing tool for Unix-like systems, performing extensive security checks and providing recommendations."
+  },
+  {
+    "question_no.": 151,
+    "Question": "Which command would you use to apply a security template or baseline to a Linux system?",
+    "Option1": "apt-get install security-template",
+    "Option2": "yum apply security",
+    "Option3": "Using tools like `ansible-hardening` or `puppet-lint` scripts.",
+    "Option4": "linux-secure --apply",
+    "Answer": "Using tools like `ansible-hardening` or `puppet-lint` scripts."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What does `sshd -T` do?",
+    "Option1": "Starts the SSH daemon in test mode.",
+    "Option2": "Tests the `sshd_config` file for syntax errors and prints the effective configuration.",
+    "Option3": "Terminates all SSH connections.",
+    "Option4": "Reloads the SSH configuration.",
+    "Answer": "Tests the `sshd_config` file for syntax errors and prints the effective configuration."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which command helps identify suspicious open ports that are not expected?",
+    "Option1": "netstat -tulnp | grep LISTEN",
+    "Option2": "ping 127.0.0.1",
+    "Option3": "ls -l /dev/tcp",
+    "Option4": "ip addr",
+    "Answer": "netstat -tulnp | grep LISTEN"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the purpose of a `Hardening Guide` for Linux?",
+    "Option1": "To make Linux systems faster.",
+    "Option2": "To provide step-by-step instructions and best practices for configuring a Linux system to reduce its attack surface and improve security.",
+    "Option3": "To install new software.",
+    "Option4": "To troubleshoot hardware issues.",
+    "Answer": "To provide step-by-step instructions and best practices for configuring a Linux system to reduce its attack surface and improve security."
+  },
+  {
+    "question_no.": 155,
+    "Question": "Which command helps to determine if a specific service is running and enabled at boot?",
+    "Option1": "systemctl status service_name",
+    "Option2": "systemctl is-active service_name",
+    "Option3": "systemctl is-enabled service_name",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What does `auditd` primarily do?",
+    "Option1": "Manages user authentication.",
+    "Option2": "The userspace component of the Linux Audit System, responsible for writing audit records to disk based on configured rules.",
+    "Option3": "Encrypts log files.",
+    "Option4": "Analyzes network traffic.",
+    "Answer": "The userspace component of the Linux Audit System, responsible for writing audit records to disk based on configured rules."
+  },
+  {
+    "question_no.": 157,
+    "Question": "Which command is used to restart the `auditd` service?",
+    "Option1": "service auditd restart",
+    "Option2": "systemctl restart auditd",
+    "Option3": "auditctl --restart",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the purpose of the `/etc/rsyslog.conf` file?",
+    "Option1": "To configure network settings.",
+    "Option2": "To configure how system logs are processed, filtered, and where they are stored or sent.",
+    "Option3": "To manage user accounts.",
+    "Option4": "To define firewall rules.",
+    "Answer": "To configure how system logs are processed, filtered, and where they are stored or sent."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which command is used to securely erase a hard drive, preventing data recovery?",
+    "Option1": "rm -rf /dev/sda",
+    "Option2": "dd if=/dev/urandom of=/dev/sda bs=4M status=progress",
+    "Option3": "format /dev/sda",
+    "Option4": "fdisk /dev/sda",
+    "Answer": "dd if=/dev/urandom of=/dev/sda bs=4M status=progress"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the main advantage of using `cryptsetup` with `LUKS` for disk encryption?",
+    "Option1": "It's faster than software encryption.",
+    "Option2": "It provides strong full-disk or partition encryption with flexible key management and anti-forensic features.",
+    "Option3": "It's built into the hardware.",
+    "Option4": "It encrypts individual files automatically.",
+    "Answer": "It provides strong full-disk or partition encryption with flexible key management and anti-forensic features."
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which command is used to enable SELinux enforcing mode?",
+    "Option1": "setenforce 1",
+    "Option2": "setenforce enforcing",
+    "Option3": "selinux enable",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the primary function of `semanage` in SELinux?",
+    "Option1": "To manage SELinux booleans.",
+    "Option2": "To manage SELinux policy, including adding or modifying file contexts, port contexts, and user mappings.",
+    "Option3": "To view SELinux audit logs.",
+    "Option4": "To disable SELinux.",
+    "Answer": "To manage SELinux policy, including adding or modifying file contexts, port contexts, and user mappings."
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which command checks the syntax of `/etc/sudoers` before saving changes?",
+    "Option1": "visudo -c",
+    "Option2": "sudoers -check",
+    "Option3": "validate-sudoers",
+    "Option4": "check-config /etc/sudoers",
+    "Answer": "visudo -c"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What does `visudo` command do?",
+    "Option1": "Views the `/etc/sudoers` file as a regular user.",
+    "Option2": "Edits the `/etc/sudoers` file with syntax checking, preventing errors that could lock out `sudo` access.",
+    "Option3": "Creates a backup of the `/etc/sudoers` file.",
+    "Option4": "Restores the `/etc/sudoers` file from backup.",
+    "Answer": "Edits the `/etc/sudoers` file with syntax checking, preventing errors that could lock out `sudo` access."
+  },
+  {
+    "question_no.": 165,
+    "Question": "Which command is used to apply updates to packages on a RHEL/CentOS system?",
+    "Option1": "apt-get upgrade",
+    "Option2": "yum update",
+    "Option3": "dnf upgrade",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What does `find / -cmin -60` search for?",
+    "Option1": "Files created exactly 60 minutes ago.",
+    "Option2": "Files whose status (metadata, permissions) has changed within the last 60 minutes.",
+    "Option3": "Files accessed within the last 60 minutes.",
+    "Option4": "Files modified within the last 60 minutes.",
+    "Answer": "Files whose status (metadata, permissions) has changed within the last 60 minutes."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which command is used to view the contents of the `/etc/passwd` file?",
+    "Option1": "less /etc/shadow",
+    "Option2": "cat /etc/passwd",
+    "Option3": "grep 'root' /etc/passwd",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What information is typically found in `/etc/passwd`?",
+    "Option1": "Hashed passwords.",
+    "Option2": "User account information, including username, UID, GID, home directory, and login shell (but not the password hash).",
+    "Option3": "Group memberships.",
+    "Option4": "System boot options.",
+    "Answer": "User account information, including username, UID, GID, home directory, and login shell (but not the password hash)."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which command is used to change the group ownership of a file?",
+    "Option1": "chown",
+    "Option2": "chmod",
+    "Option3": "chgrp",
+    "Option4": "grpmod",
+    "Answer": "chgrp"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the purpose of `SSH port forwarding` (tunneling)?",
+    "Option1": "To make SSH connections less secure.",
+    "Option2": "To create a secure tunnel between local and remote ports, often used to access services on a remote network or bypass firewalls.",
+    "Option3": "To open all ports on a firewall.",
+    "Option4": "To change the default SSH port.",
+    "Answer": "To create a secure tunnel between local and remote ports, often used to access services on a remote network or bypass firewalls."
+  },
+  {
+    "question_no.": 171,
+    "Question": "Which command would you use to create a new user and assign them to specific supplementary groups?",
+    "Option1": "adduser --groups group1,group2 username",
+    "Option2": "useradd -G group1,group2 username",
+    "Option3": "mkhomeuser username",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What does `history` command show?",
+    "Option1": "Recent system reboots.",
+    "Option2": "Commands previously executed by the current user in the shell session.",
+    "Option3": "Login attempts.",
+    "Option4": "File modification history.",
+    "Answer": "Commands previously executed by the current user in the shell session."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Which command helps to identify network connections established from your system to external hosts?",
+    "Option1": "netstat -ntu",
+    "Option2": "ss -ntu",
+    "Option3": "lsof -i",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the primary function of `audit.log`?",
+    "Option1": "To store network traffic data.",
+    "Option2": "To record system events, security-relevant information, and user actions for auditing and forensic purposes.",
+    "Option3": "To store only successful logins.",
+    "Option4": "To log application errors only.",
+    "Answer": "To record system events, security-relevant information, and user actions for auditing and forensic purposes."
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which command is used to inspect the integrity of critical system files against a known good database?",
+    "Option1": "diff",
+    "Option2": "md5sum",
+    "Option3": "aide --check",
+    "Option4": "grep",
+    "Answer": "aide --check"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `OSSEC`?",
+    "Option1": "A network scanner.",
+    "Option2": "An open-source Host-based Intrusion Detection System (HIDS) that performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response.",
+    "Option3": "A firewall.",
+    "Option4": "An encryption tool.",
+    "Answer": "An open-source Host-based Intrusion Detection System (HIDS) that performs log analysis, integrity checking, rootkit detection, time-based alerting, and active response."
+  },
+  {
+    "question_no.": 177,
+    "Question": "Which command can show the `last` 10 lines of a log file in real-time?",
+    "Option1": "cat logfile | tail -10",
+    "Option2": "tail -n 10 -f logfile",
+    "Option3": "head -n 10 logfile",
+    "Option4": "grep -n 10 logfile",
+    "Answer": "tail -n 10 -f logfile"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the purpose of `SSH Banner`?",
+    "Option1": "To display a welcome message for all users.",
+    "Option2": "To display a warning or legal notice to users before they authenticate, deterring unauthorized access.",
+    "Option3": "To advertise the SSH server version.",
+    "Option4": "To provide login instructions.",
+    "Answer": "To display a warning or legal notice to users before they authenticate, deterring unauthorized access."
+  },
+  {
+    "question_no.": 179,
+    "Question": "Which command would you use to remove a specific firewall rule in `ufw`?",
+    "Option1": "ufw delete rule_number",
+    "Option2": "ufw remove rule_number",
+    "Option3": "ufw disable rule_number",
+    "Option4": "ufw reset",
+    "Answer": "ufw delete rule_number"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What does `ufw status` display?",
+    "Option1": "UFW version.",
+    "Option2": "Current status of the UFW firewall (enabled/disabled) and active rules.",
+    "Option3": "UFW log files.",
+    "Option4": "UFW configuration options.",
+    "Answer": "Current status of the UFW firewall (enabled/disabled) and active rules."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Which command is used to enable the `ufw` firewall?",
+    "Option1": "ufw start",
+    "Option2": "ufw enable",
+    "Option3": "systemctl enable ufw",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "ufw enable"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the purpose of `chattr +a filename`?",
+    "Option1": "To make the file immutable.",
+    "Option2": "To make the file append-only, meaning data can only be added to the end of the file, but not overwritten or deleted.",
+    "Option3": "To compress the file.",
+    "Option4": "To encrypt the file.",
+    "Answer": "To make the file append-only, meaning data can only be added to the end of the file, but not overwritten or deleted."
+  },
+  {
+    "question_no.": 183,
+    "Question": "Which command is used to verify the checksum (e.g., MD5) of a downloaded file?",
+    "Option1": "sha256sum filename",
+    "Option2": "md5sum filename",
+    "Option3": "cksum filename",
+    "Option4": "All of the above (depending on the checksum type)",
+    "Answer": "All of the above (depending on the checksum type)"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What does `dpkg -L package_name` show?",
+    "Option1": "The size of the installed package.",
+    "Option2": "The files installed by a specified Debian package.",
+    "Option3": "The dependencies of the package.",
+    "Option4": "The version of the package.",
+    "Answer": "The files installed by a specified Debian package."
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which command is used to view a user's current shell?",
+    "Option1": "echo $SHELL",
+    "Option2": "cat /etc/passwd | grep username",
+    "Option3": "id -un",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the purpose of `sshd -D`?",
+    "Option1": "To run `sshd` in debug mode, often used for troubleshooting SSH connectivity issues.",
+    "Option2": "To disable SSH.",
+    "Option3": "To reconfigure `sshd`.",
+    "Option4": "To test SSH authentication.",
+    "Answer": "To run `sshd` in debug mode, often used for troubleshooting SSH connectivity issues."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which command allows you to control which users can log in via SSH?",
+    "Option1": "AllowUsers in sshd_config",
+    "Option2": "DenyUsers in sshd_config",
+    "Option3": "AllowGroups in sshd_config",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `fail2ban`'s primary method of blocking attackers?",
+    "Option1": "Deleting user accounts.",
+    "Option2": "Modifying firewall rules (e.g., `iptables`, `firewalld`) to block attacker IP addresses.",
+    "Option3": "Disabling network interfaces.",
+    "Option4": "Encrypting network traffic.",
+    "Answer": "Modifying firewall rules (e.g., `iptables`, `firewalld`) to block attacker IP addresses."
+  },
+  {
+    "question_no.": 189,
+    "Question": "Which command is used to inspect TCP/UDP port states from the perspective of the server (listening)?",
+    "Option1": "nmap -Pn",
+    "Option2": "netstat -ln",
+    "Option3": "telnet localhost 80",
+    "Option4": "ping -c 1 localhost",
+    "Answer": "netstat -ln"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What does `modprobe -r module_name` do?",
+    "Option1": "Inserts a kernel module.",
+    "Option2": "Removes a kernel module.",
+    "Option3": "Lists information about a kernel module.",
+    "Option4": "Loads a kernel module permanently.",
+    "Answer": "Removes a kernel module."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which directory commonly stores temporary files created by users and applications?",
+    "Option1": "/usr/local/tmp",
+    "Option2": "/var/tmp",
+    "Option3": "/tmp",
+    "Option4": "Both Option2 and Option3 (with different persistence characteristics)",
+    "Answer": "Both Option2 and Option3 (with different persistence characteristics)"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is the purpose of a `reverse shell` in ethical hacking?",
+    "Option1": "To establish a secure SSH connection.",
+    "Option2": "To create an outbound connection from a target machine to an attacker's machine, often bypassing firewall restrictions on inbound connections.",
+    "Option3": "To encrypt network traffic.",
+    "Option4": "To transfer files securely.",
+    "Answer": "To create an outbound connection from a target machine to an attacker's machine, often bypassing firewall restrictions on inbound connections."
+  },
+  {
+    "question_no.": 193,
+    "Question": "Which command is essential for maintaining software security on a Linux system?",
+    "Option1": "ls -l",
+    "Option2": "apt update && apt upgrade (or yum/dnf equivalents)",
+    "Option3": "df -h",
+    "Option4": "ping",
+    "Answer": "apt update && apt upgrade (or yum/dnf equivalents)"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What does `find / -type d -perm -0002` indicate?",
+    "Option1": "Directories that are writable by the owner.",
+    "Option2": "Directories that are writable by 'others' (world-writable), which can be a security risk.",
+    "Option3": "Directories with no execute permissions.",
+    "Option4": "Directories that are owned by root.",
+    "Answer": "Directories that are writable by 'others' (world-writable), which can be a security risk."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which command is used to disable a user's password, forcing them to use key-based authentication (if configured)?",
+    "Option1": "passwd -d username",
+    "Option2": "usermod -p '*' username",
+    "Option3": "chage -M 0 username",
+    "Option4": "Both Option1 and Option2",
+    "Answer": "Both Option1 and Option2"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What does `crontab -r` do?",
+    "Option1": "Restores cron jobs from backup.",
+    "Option2": "Removes the current user's crontab entries without confirmation.",
+    "Option3": "Edits cron jobs.",
+    "Option4": "Lists cron jobs.",
+    "Answer": "Removes the current user's crontab entries without confirmation."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which command is used to inspect the contents of a binary file in hexadecimal and ASCII?",
+    "Option1": "cat filename",
+    "Option2": "less filename",
+    "Option3": "xxd filename",
+    "Option4": "strings filename",
+    "Answer": "xxd filename"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What does `strings filename` extract from a binary file?",
+    "Option1": "Executable code.",
+    "Option2": "Printable character sequences (strings) that are embedded within the binary.",
+    "Option3": "Metadata about the file.",
+    "Option4": "Encrypted data.",
+    "Answer": "Printable character sequences (strings) that are embedded within the binary."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which command provides a quick overview of currently logged-in users and their activity?",
+    "Option1": "history",
+    "Option2": "who",
+    "Option3": "w",
+    "Option4": "Both Option2 and Option3",
+    "Answer": "Both Option2 and Option3"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the purpose of `chage -M 90 username`?",
+    "Option1": "Sets the minimum password age to 90 days.",
+    "Option2": "Sets the maximum password age to 90 days, forcing the user to change their password every 90 days.",
+    "Option3": "Locks the user's account for 90 days.",
+    "Option4": "Sets password expiration to 90 days from now.",
+    "Answer": "Sets the maximum password age to 90 days, forcing the user to change their password every 90 days."
+  },
+  {
+    "question_no.": 201,
+    "Question": "Which command is typically used to enable or disable the `root` user account?",
+    "Option1": "passwd -u root",
+    "Option2": "usermod -U root",
+    "Option3": "passwd -l root (lock) / passwd -u root (unlock)",
+    "Option4": "userdel root",
+    "Answer": "passwd -l root (lock) / passwd -u root (unlock)"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What does the `lastb` command show?",
+    "Option1": "Last successful logins.",
+    "Option2": "Last failed login attempts.",
+    "Option3": "Last executed commands.",
+    "Option4": "Last system reboots.",
+    "Answer": "Last failed login attempts."
+  },
+  {
+    "question_no.": 203,
+    "Question": "Which command is used to monitor system calls and signals of a running process?",
+    "Option1": "top",
+    "Option2": "ps aux",
+    "Option3": "strace -p PID",
+    "Option4": "lsof -p PID",
+    "Answer": "strace -p PID"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the purpose of `kernel parameter tuning` for security?",
+    "Option1": "To make the kernel run faster.",
+    "Option2": "To modify default kernel behavior, often through `sysctl` settings, to enhance security by disabling insecure features or strengthening protective measures.",
+    "Option3": "To update the kernel version.",
+    "Option4": "To install new kernel modules.",
+    "Answer": "To modify default kernel behavior, often through `sysctl` settings, to enhance security by disabling insecure features or strengthening protective measures."
+  }
+]

@@ -1,0 +1,2700 @@
+[
+  {
+    "word_no.": 1,
+    "word": "Prime Number",
+    "hints": [
+      "A natural number greater than 1 that is not a product of two smaller natural numbers.",
+      "Its only divisors are 1 and itself.",
+      "Examples are 2, 3, 5, 7, 11."
+    ]
+  },
+  {
+    "word_no.": 2,
+    "word": "Composite Number",
+    "hints": [
+      "A natural number with at least one divisor other than 1 and itself.",
+      "The opposite of a prime number.",
+      "Examples are 4, 6, 8, 9, 10."
+    ]
+  },
+  {
+    "word_no.": 3,
+    "word": "Integer",
+    "hints": [
+      "A whole number that can be positive, negative, or zero.",
+      "It does not have a fractional component.",
+      "The set of numbers is represented by the symbol Z."
+    ]
+  },
+  {
+    "word_no.": 4,
+    "word": "Rational Number",
+    "hints": [
+      "A number that can be expressed as a fraction p/q of two integers.",
+      "Its decimal representation terminates or repeats.",
+      "Examples are 1/2, -5, 0.75."
+    ]
+  },
+  {
+    "word_no.": 5,
+    "word": "Irrational Number",
+    "hints": [
+      "A real number that cannot be expressed as a simple fraction.",
+      "Its decimal representation is non-terminating and non-repeating.",
+      "Examples include Pi and the square root of 2."
+    ]
+  },
+  {
+    "word_no.": 6,
+    "word": "Euclidean Algorithm",
+    "hints": [
+      "An efficient method for computing the greatest common divisor.",
+      "It involves a sequence of divisions with remainder.",
+      "Used to find the GCD of two integers."
+    ]
+  },
+  {
+    "word_no.": 7,
+    "word": "Greatest Common Divisor",
+    "hints": [
+      "The largest positive integer that divides two or more integers without a remainder.",
+      "Also known as the greatest common factor.",
+      "The GCD of 12 and 18 is 6."
+    ]
+  },
+  {
+    "word_no.": 8,
+    "word": "Least Common Multiple",
+    "hints": [
+      "The smallest positive integer that is a multiple of two or more numbers.",
+      "The LCM of 4 and 6 is 12.",
+      "Useful in adding fractions with different denominators."
+    ]
+  },
+  {
+    "word_no.": 9,
+    "word": "Divisor",
+    "hints": [
+      "A number that divides another number completely without a remainder.",
+      "Also known as a factor.",
+      "The divisors of 12 are 1, 2, 3, 4, 6, and 12."
+    ]
+  },
+  {
+    "word_no.": 10,
+    "word": "Multiple",
+    "hints": [
+      "A number that is the product of a given number and some integer.",
+      "Numbers that can be divided by a given number without a remainder.",
+      "Multiples of 3 are 3, 6, 9, 12, etc."
+    ]
+  },
+  {
+    "word_no.": 11,
+    "word": "Fundamental Theorem of Arithmetic",
+    "hints": [
+      "Every integer greater than 1 is either a prime or a product of primes.",
+      "This factorization is unique.",
+      "Also known as the unique factorization theorem."
+    ]
+  },
+  {
+    "word_no.": 12,
+    "word": "Diophantine Equation",
+    "hints": [
+      "A polynomial equation for which integer solutions are sought.",
+      "Named after an ancient Greek mathematician.",
+      "Fermat's Last Theorem is a famous example."
+    ]
+  },
+  {
+    "word_no.": 13,
+    "word": "Congruence",
+    "hints": [
+      "A concept in modular arithmetic where two integers have the same remainder.",
+      "It is an equivalence relation on the integers.",
+      "10 is congruent to 4 modulo 6."
+    ]
+  },
+  {
+    "word_no.": 14,
+    "word": "Modular Arithmetic",
+    "hints": [
+      "A system of arithmetic for integers, where numbers 'wrap around' after reaching a certain value.",
+      "Often used in clock arithmetic.",
+      "The remainder is the key component."
+    ]
+  },
+  {
+    "word_no.": 15,
+    "word": "Fermat's Last Theorem",
+    "hints": [
+      "A famous theorem stating no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n for any integer value of n greater than 2.",
+      "Proposed by a French lawyer and mathematician.",
+      "Andrew Wiles provided a proof in 1994."
+    ]
+  },
+  {
+    "word_no.": 16,
+    "word": "Goldbach Conjecture",
+    "hints": [
+      "One of the oldest unsolved problems in number theory.",
+      "States that every even integer greater than 2 is the sum of two primes.",
+      "No counterexample has ever been found."
+    ]
+  },
+  {
+    "word_no.": 17,
+    "word": "Riemann Hypothesis",
+    "hints": [
+      "A conjecture about the zeros of the Riemann zeta function.",
+      "Considered one of the most important unsolved problems in mathematics.",
+      "It has major implications for the distribution of prime numbers."
+    ]
+  },
+  {
+    "word_no.": 18,
+    "word": "Perfect Number",
+    "hints": [
+      "A positive integer that is equal to the sum of its proper positive divisors.",
+      "The first example is 6, as 1+2+3=6.",
+      "The next one is 28."
+    ]
+  },
+  {
+    "word_no.": 19,
+    "word": "Abundant Number",
+    "hints": [
+      "A positive integer where the sum of its proper divisors is greater than the number itself.",
+      "The first example is 12, as 1+2+3+4+6=16 which is > 12.",
+      "Also known as an excessive number."
+    ]
+  },
+  {
+    "word_no.": 20,
+    "word": "Deficient Number",
+    "hints": [
+      "A positive integer where the sum of its proper divisors is less than the number itself.",
+      "All prime numbers are in this category.",
+      "1, 2, 3, 4, 5, 7, 8, 9, 10, 11 are examples."
+    ]
+  },
+  {
+    "word_no.": 21,
+    "word": "Amicable Numbers",
+    "hints": [
+      "Two different natural numbers such that the sum of the proper divisors of each is equal to the other.",
+      "The smallest pair is 220 and 284.",
+      "Also known as friendly numbers."
+    ]
+  },
+  {
+    "word_no.": 22,
+    "word": "Fibonacci Numbers",
+    "hints": [
+      "A sequence of numbers where each number is the sum of the two preceding ones.",
+      "The sequence starts with 0 and 1.",
+      "Named after a medieval Italian mathematician."
+    ]
+  },
+  {
+    "word_no.": 23,
+    "word": "Mersenne Prime",
+    "hints": [
+      "A prime number that is one less than a power of two.",
+      "Must be of the form 2^p - 1.",
+      "The first is 3, which is 2^2 - 1."
+    ]
+  },
+  {
+    "word_no.": 24,
+    "word": "Twin Primes",
+    "hints": [
+      "A pair of prime numbers that differ by 2.",
+      "Examples are (3, 5), (5, 7), (11, 13).",
+      "The twin prime conjecture is an unsolved problem."
+    ]
+  },
+  {
+    "word_no.": 25,
+    "word": "Fermat's Little Theorem",
+    "hints": [
+      "States that if p is a prime number, then for any integer a, the number a^p - a is an integer multiple of p.",
+      "A cornerstone of elementary number theory.",
+      "Used in primality testing."
+    ]
+  },
+  {
+    "word_no.": 26,
+    "word": "Euler's Totient Function",
+    "hints": [
+      "Counts the positive integers up to a given integer n that are relatively prime to n.",
+      "Denoted by the Greek letter phi.",
+      "phi(9) = 6."
+    ]
+  },
+  {
+    "word_no.": 27,
+    "word": "Totient Function",
+    "hints": [
+      "Another name for Euler's totient function.",
+      "Calculates the count of numbers that are coprime to a given number.",
+      "Crucial in cryptography."
+    ]
+  },
+  {
+    "word_no.": 28,
+    "word": "Chinese Remainder Theorem",
+    "hints": [
+      "A theorem that gives a unique solution to a system of linear congruences.",
+      "The numbers are relatively prime.",
+      "It has applications in cryptography and coding theory."
+    ]
+  },
+  {
+    "word_no.": 29,
+    "word": "Wilson's Theorem",
+    "hints": [
+      "A theorem stating that a natural number n > 1 is a prime number if and only if (n-1)! + 1 is divisible by n.",
+      "Provides a primality test."
+    ]
+  },
+  {
+    "word_no.": 30,
+    "word": "Quadratic Residue",
+    "hints": [
+      "An integer q that is a perfect square modulo n.",
+      "For a given number p, it's a number that is a square in modular arithmetic.",
+      "Used in cryptography."
+    ]
+  },
+  {
+    "word_no.": 31,
+    "word": "Primitive Root",
+    "hints": [
+      "A number g such that every integer a coprime to n is a power of g modulo n.",
+      "Important concept in modular arithmetic.",
+      "Used in Diffie-Hellman key exchange."
+    ]
+  },
+  {
+    "word_no.": 32,
+    "word": "Euler's Criterion",
+    "hints": [
+      "A formula used to determine if an integer is a quadratic residue modulo a prime.",
+      "It connects quadratic residues with powers in modular arithmetic.",
+      "Used to calculate the Legendre symbol."
+    ]
+  },
+  {
+    "word_no.": 33,
+    "word": "Legendre Symbol",
+    "hints": [
+      "A function that indicates whether an integer is a quadratic residue modulo a prime number.",
+      "Its value is 1, -1, or 0.",
+      "Named after a French mathematician."
+    ]
+  },
+  {
+    "word_no.": 34,
+    "word": "Prime Factorization",
+    "hints": [
+      "Breaking down a composite number into a product of its prime factors.",
+      "The result is unique for every number.",
+      "The prime factors of 12 are 2, 2, and 3."
+    ]
+  },
+  {
+    "word_no.": 35,
+    "word": "Coprime",
+    "hints": [
+      "Two integers are this if their only common positive divisor is 1.",
+      "Also known as relatively prime.",
+      "The numbers 8 and 15 are an example."
+    ]
+  },
+  {
+    "word_no.": 36,
+    "word": "Integers",
+    "hints": [
+      "The set of whole numbers, including negative and positive numbers and zero.",
+      "No fractional or decimal parts.",
+      "The set includes ..., -3, -2, -1, 0, 1, 2, 3, ..."
+    ]
+  },
+  {
+    "word_no.": 37,
+    "word": "Rational Numbers",
+    "hints": [
+      "Numbers that can be expressed as a fraction p/q.",
+      "The set is denoted by the letter Q.",
+      "Includes all integers and common fractions."
+    ]
+  },
+  {
+    "word_no.": 38,
+    "word": "Irrational Numbers",
+    "hints": [
+      "Numbers that cannot be expressed as a fraction.",
+      "They have non-repeating, non-terminating decimal expansions.",
+      "Pi is a famous example."
+    ]
+  },
+  {
+    "word_no.": 39,
+    "word": "Transcendental Number",
+    "hints": [
+      "A number that is not a root of any non-zero polynomial with integer coefficients.",
+      "All transcendental numbers are irrational.",
+      "Pi and e are examples."
+    ]
+  },
+  {
+    "word_no.": 40,
+    "word": "Algebraic Number",
+    "hints": [
+      "A number that is a root of a non-zero polynomial with rational coefficients.",
+      "The square root of 2 is an example.",
+      "All rational numbers are this type of number."
+    ]
+  },
+  {
+    "word_no.": 41,
+    "word": "Binary",
+    "hints": [
+      "A number system with base 2.",
+      "Uses only the digits 0 and 1.",
+      "The language of computers."
+    ]
+  },
+  {
+    "word_no.": 42,
+    "word": "Octal",
+    "hints": [
+      "A number system with base 8.",
+      "Uses digits from 0 to 7.",
+      "Often used in computer science."
+    ]
+  },
+  {
+    "word_no.": 43,
+    "word": "Hexadecimal",
+    "hints": [
+      "A number system with base 16.",
+      "Uses digits 0-9 and letters A-F.",
+      "Common in computing for representing colors and memory addresses."
+    ]
+  },
+  {
+    "word_no.": 44,
+    "word": "Decimal",
+    "hints": [
+      "The number system with base 10.",
+      "The system we use every day.",
+      "Uses digits from 0 to 9."
+    ]
+  },
+  {
+    "word_no.": 45,
+    "word": "Carmichael Number",
+    "hints": [
+      "A composite number n which satisfies the congruence a^(n-1) is congruent to 1 (mod n).",
+      "They are pseudoprimes.",
+      "The smallest example is 561."
+    ]
+  },
+  {
+    "word_no.": 46,
+    "word": "Pseudoprime",
+    "hints": [
+      "A composite number that passes a primality test, for example, Fermat's test.",
+      "Numbers that act like a prime in some tests but are not.",
+      "561 is the smallest example."
+    ]
+  },
+  {
+    "word_no.": 47,
+    "word": "Abelian Group",
+    "hints": [
+      "A group in which the result of applying the group operation to two group elements does not depend on the order.",
+      "The set of integers with addition is an example.",
+      "Named after a Norwegian mathematician."
+    ]
+  },
+  {
+    "word_no.": 48,
+    "word": "Sieve of Eratosthenes",
+    "hints": [
+      "An ancient algorithm for finding all prime numbers up to a specified integer.",
+      "It is an efficient way to find primes.",
+      "Involves marking off multiples of each prime."
+    ]
+  },
+  {
+    "word_no.": 49,
+    "word": "Euler's Phi Function",
+    "hints": [
+      "Another name for Euler's totient function.",
+      "Counts numbers relatively prime to a given integer.",
+      "Denoted as phi(n)."
+    ]
+  },
+  {
+    "word_no.": 50,
+    "word": "Prime Number Theorem",
+    "hints": [
+      "Describes the asymptotic distribution of the prime numbers among the positive integers.",
+      "States that the number of primes less than or equal to x is approximately x/ln(x).",
+      "Proved independently by Hadamard and de la Vallee Poussin."
+    ]
+  },
+  {
+    "word_no.": 51,
+    "word": "Fundamental Theorem of Algebra",
+    "hints": [
+      "Every non-constant single-variable polynomial with complex coefficients has at least one root.",
+      "States that every polynomial of degree n has exactly n roots.",
+      "It's a foundational result in algebra."
+    ]
+  },
+  {
+    "word_no.": 52,
+    "word": "Square Number",
+    "hints": [
+      "An integer that is the square of an integer.",
+      "Also known as a perfect square.",
+      "Examples are 1, 4, 9, 16, 25."
+    ]
+  },
+  {
+    "word_no.": 53,
+    "word": "Cube Number",
+    "hints": [
+      "An integer that is the cube of an integer.",
+      "Examples are 1, 8, 27, 64.",
+      "The volume of a cube with integer side length."
+    ]
+  },
+  {
+    "word_no.": 54,
+    "word": "Triangular Number",
+    "hints": [
+      "A number that is the sum of all positive integers up to a given number.",
+      "Examples are 1, 3, 6, 10, 15.",
+      "Can be represented by a triangular array of dots."
+    ]
+  },
+  {
+    "word_no.": 55,
+    "word": "Lucas Numbers",
+    "hints": [
+      "A sequence of integers similar to the Fibonacci sequence.",
+      "The sequence starts with 2 and 1.",
+      "The first few terms are 2, 1, 3, 4, 7, 11."
+    ]
+  },
+  {
+    "word_no.": 56,
+    "word": "Polygonal Number",
+    "hints": [
+      "A number that can be represented as dots arranged in the shape of a regular polygon.",
+      "Triangular and square numbers are examples.",
+      "Also called a figurate number."
+    ]
+  },
+  {
+    "word_no.": 57,
+    "word": "Catalan Number",
+    "hints": [
+      "A sequence of natural numbers that occur in various counting problems.",
+      "Used to count balanced parenthesis expressions.",
+      "The sequence starts with 1, 1, 2, 5, 14."
+    ]
+  },
+  {
+    "word_no.": 58,
+    "word": "Bell Number",
+    "hints": [
+      "A sequence of numbers that counts the number of partitions of a set.",
+      "The sequence starts with 1, 1, 2, 5, 15.",
+      "Named after Eric Temple Bell."
+    ]
+  },
+  {
+    "word_no.": 59,
+    "word": "Factorial",
+    "hints": [
+      "The product of all positive integers up to a given integer.",
+      "Denoted by an exclamation mark.",
+      "5! = 5 * 4 * 3 * 2 * 1 = 120."
+    ]
+  },
+  {
+    "word_no.": 60,
+    "word": "Combinatorics",
+    "hints": [
+      "A branch of mathematics concerning the study of finite or countable discrete structures.",
+      "Includes the study of permutations and combinations.",
+      "Often used in probability and computer science."
+    ]
+  },
+  {
+    "word_no.": 61,
+    "word": "Permutation",
+    "hints": [
+      "An arrangement of objects in a specific order.",
+      "The number of ways to arrange a set of items.",
+      "The arrangements of ABC are ABC, ACB, BAC, BCA, CAB, CBA."
+    ]
+  },
+  {
+    "word_no.": 62,
+    "word": "Combination",
+    "hints": [
+      "A selection of items from a larger set where the order of selection does not matter.",
+      "Choosing 3 fruits from a basket of 5.",
+      "The number of ways to choose k items from n."
+    ]
+  },
+  {
+    "word_no.": 63,
+    "word": "Number Line",
+    "hints": [
+      "A visual representation of the real numbers.",
+      "Points are placed at equal intervals along a straight line.",
+      "Used to illustrate addition and subtraction."
+    ]
+  },
+  {
+    "word_no.": 64,
+    "word": "Absolute Value",
+    "hints": [
+      "The distance of a number from zero on the number line.",
+      "It is always a positive number or zero.",
+      "The absolute value of -5 is 5."
+    ]
+  },
+  {
+    "word_no.": 65,
+    "word": "Inequality",
+    "hints": [
+      "A mathematical statement that compares two values.",
+      "Uses symbols like <, >, ≤, ≥.",
+      "Example: 3x < 10."
+    ]
+  },
+  {
+    "word_no.": 66,
+    "word": "Euclid",
+    "hints": [
+      "An ancient Greek mathematician.",
+      "Known as the 'Father of Geometry'.",
+      "Wrote a book called 'Elements'."
+    ]
+  },
+  {
+    "word_no.": 67,
+    "word": "Pythagoras",
+    "hints": [
+      "An ancient Greek mathematician and philosopher.",
+      "Known for a famous theorem about right-angled triangles.",
+      "Credited with the discovery of irrational numbers."
+    ]
+  },
+  {
+    "word_no.": 68,
+    "word": "Fermat",
+    "hints": [
+      "A French lawyer and mathematician.",
+      "Known for a famous theorem about primes and a 'last theorem'.",
+      "Considered one of the founders of modern number theory."
+    ]
+  },
+  {
+    "word_no.": 69,
+    "word": "Gauss",
+    "hints": [
+      "A German mathematician and physicist.",
+      "Known as the 'Prince of Mathematicians'.",
+      "Made important contributions to number theory and algebra."
+    ]
+  },
+  {
+    "word_no.": 70,
+    "word": "Euler",
+    "hints": [
+      "A Swiss mathematician and physicist.",
+      "Introduced much of the modern mathematical terminology and notation.",
+      "Known for a famous number and a famous identity."
+    ]
+  },
+  {
+    "word_no.": 71,
+    "word": "Hardy",
+    "hints": [
+      "A prominent English mathematician.",
+      "Worked extensively in number theory and analysis.",
+      "Was a mentor to Ramanujan."
+    ]
+  },
+  {
+    "word_no.": 72,
+    "word": "Ramanujan",
+    "hints": [
+      "An Indian mathematician.",
+      "Known for his incredible intuition and formulas.",
+      "Worked with Hardy on number theory problems."
+    ]
+  },
+  {
+    "word_no.": 73,
+    "word": "Goldbach",
+    "hints": [
+      "A German mathematician.",
+      "Proposed a famous conjecture about even numbers.",
+      "The conjecture remains unproven."
+    ]
+  },
+  {
+    "word_no.": 74,
+    "word": "Euclid's Theorem",
+    "hints": [
+      "A fundamental statement in number theory.",
+      "States that there are infinitely many prime numbers.",
+      "A classic proof is by contradiction."
+    ]
+  },
+  {
+    "word_no.": 75,
+    "word": "Twin Prime Conjecture",
+    "hints": [
+      "One of the great unsolved problems in number theory.",
+      "It asks if there are infinitely many pairs of prime numbers that differ by two.",
+      "Has been verified for very large numbers, but no proof exists."
+    ]
+  },
+  {
+    "word_no.": 76,
+    "word": "Prime Gap",
+    "hints": [
+      "The difference between two consecutive prime numbers.",
+      "The first one is 1 (between 2 and 3).",
+      "The gap between 7 and 11 is 4."
+    ]
+  },
+  {
+    "word_no.": 77,
+    "word": "Sophie Germain Prime",
+    "hints": [
+      "A prime number p such that 2p+1 is also prime.",
+      "The number 23 is an example, since 2(23)+1 = 47, which is also a prime.",
+      "Named after a French mathematician."
+    ]
+  },
+  {
+    "word_no.": 78,
+    "word": "Cousin Primes",
+    "hints": [
+      "A pair of prime numbers that differ by 4.",
+      "Examples are (3, 7) and (7, 11).",
+      "Similar to twin primes."
+    ]
+  },
+  {
+    "word_no.": 79,
+    "word": "Sexy Primes",
+    "hints": [
+      "A pair of prime numbers that differ by 6.",
+      "Examples are (5, 11) and (7, 13).",
+      "The name comes from the Latin word for six."
+    ]
+  },
+  {
+    "word_no.": 80,
+    "word": "Sophie Germain Theorem",
+    "hints": [
+      "A theorem stating that if p is a prime and 2p+1 is prime, then the first case of Fermat's Last Theorem holds for p.",
+      "Pertains to solutions for the Fermat equation."
+    ]
+  },
+  {
+    "word_no.": 81,
+    "word": "Polya's Conjecture",
+    "hints": [
+      "A conjecture about the number of integers less than or equal to x that have an even number of prime factors.",
+      "It was proven to be false in 1958.",
+      "Pertained to the Liouville function."
+    ]
+  },
+  {
+    "word_no.": 82,
+    "word": "Erdos Conjecture",
+    "hints": [
+      "A conjecture stating that for n>1, the sum of the reciprocals of the integers from n to 2n-1 is never an integer.",
+      "A number theory problem involving sums.",
+      "Proposed by a famous Hungarian mathematician."
+    ]
+  },
+  {
+    "word_no.": 83,
+    "word": "Catalan's Conjecture",
+    "hints": [
+      "A theorem that states that the only solution in the natural numbers of the equation x^a - y^b = 1 for a, b > 1, x, y > 0 is x=3, a=2, y=2, b=3.",
+      "Also known as Mihailescu's Theorem.",
+      "Deals with consecutive perfect powers."
+    ]
+  },
+  {
+    "word_no.": 84,
+    "word": "Elliptic Curve",
+    "hints": [
+      "A type of plane curve defined by an equation.",
+      "Central to modern number theory and cryptography.",
+      "Used in the proof of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 85,
+    "word": "Diophantus",
+    "hints": [
+      "An ancient Greek mathematician.",
+      "Known for his work on Diophantine equations.",
+      "Often considered the 'father of algebra'."
+    ]
+  },
+  {
+    "word_no.": 86,
+    "word": "Pell's Equation",
+    "hints": [
+      "A type of Diophantine equation of the form x^2 - Ny^2 = 1.",
+      "Named after an English mathematician.",
+      "Solutions are related to continued fractions."
+    ]
+  },
+  {
+    "word_no.": 87,
+    "word": "Continued Fraction",
+    "hints": [
+      "An expression obtained by an iterative process of representing a number as a sum of its integer part and the reciprocal of another number.",
+      "Example: 1/(2 + 1/(3 + ...)).",
+      "Used to approximate irrational numbers."
+    ]
+  },
+  {
+    "word_no.": 88,
+    "word": "Farey Sequence",
+    "hints": [
+      "The sequence of completely reduced fractions between 0 and 1.",
+      "It is ordered by increasing value.",
+      "Related to the study of rational numbers."
+    ]
+  },
+  {
+    "word_no.": 89,
+    "word": "Liouville Number",
+    "hints": [
+      "An irrational number that can be approximated 'very closely' by sequences of rational numbers.",
+      "A type of transcendental number.",
+      "Named after a French mathematician."
+    ]
+  },
+  {
+    "word_no.": 90,
+    "word": "Algebraic Integer",
+    "hints": [
+      "A root of a monic polynomial with integer coefficients.",
+      "The set of these numbers forms a ring.",
+      "Related to algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 91,
+    "word": "Ring Theory",
+    "hints": [
+      "The study of algebraic structures called rings.",
+      "A ring is a set with two binary operations, addition and multiplication.",
+      "Part of abstract algebra and number theory."
+    ]
+  },
+  {
+    "word_no.": 92,
+    "word": "Field Theory",
+    "hints": [
+      "The study of algebraic structures called fields.",
+      "A field is a ring where every non-zero element has a multiplicative inverse.",
+      "Rational, real, and complex numbers are examples."
+    ]
+  },
+  {
+    "word_no.": 93,
+    "word": "Group Theory",
+    "hints": [
+      "The study of algebraic structures called groups.",
+      "A group is a set with a single binary operation.",
+      "The integers under addition form a group."
+    ]
+  },
+  {
+    "word_no.": 94,
+    "word": "Prime Power",
+    "hints": [
+      "A positive integer that is a positive integer power of a single prime number.",
+      "Examples are 2, 4, 8, 3, 9, 5, 25.",
+      "Used in number theory theorems."
+    ]
+  },
+  {
+    "word_no.": 95,
+    "word": "Primitive Polynomial",
+    "hints": [
+      "In number theory, this is a polynomial that is irreducible over the field of two elements.",
+      "Used in constructing finite fields.",
+      "Important for creating pseudo-random number generators."
+    ]
+  },
+  {
+    "word_no.": 96,
+    "word": "Finite Field",
+    "hints": [
+      "A field that contains a finite number of elements.",
+      "Also known as a Galois field.",
+      "Crucial in cryptography and coding theory."
+    ]
+  },
+  {
+    "word_no.": 97,
+    "word": "P Adic Number",
+    "hints": [
+      "A number system constructed from the integers.",
+      "Important in modern number theory.",
+      "The numbers depend on a chosen prime p."
+    ]
+  },
+  {
+    "word_no.": 98,
+    "word": "Transcendental Proof",
+    "hints": [
+      "A type of proof in number theory.",
+      "Used to prove that a number is transcendental.",
+      "For example, the proof that pi is transcendental."
+    ]
+  },
+  {
+    "word_no.": 99,
+    "word": "Dirichlet's Theorem on Arithmetic Progressions",
+    "hints": [
+      "States that for any two coprime integers a and d, there are infinitely many primes of the form a + nd.",
+      "A fundamental result in analytic number theory.",
+      "Proved by Dirichlet in 1837."
+    ]
+  },
+  {
+    "word_no.": 100,
+    "word": "Landau's Problems",
+    "hints": [
+      "A list of four basic unsolved problems in number theory.",
+      "Includes Goldbach's conjecture and the twin prime conjecture.",
+      "Named after Edmund Landau."
+    ]
+  },
+  {
+    "word_no.": 101,
+    "word": "Euler's Identity",
+    "hints": [
+      "States that e^(i*pi) + 1 = 0.",
+      "Often called the most beautiful equation in mathematics.",
+      "Connects five fundamental constants."
+    ]
+  },
+  {
+    "word_no.": 102,
+    "word": "Lagrange's Four Square Theorem",
+    "hints": [
+      "States that any natural number can be represented as the sum of four integer squares.",
+      "Examples: 3 = 1^2 + 1^2 + 1^2 + 0^2.",
+      "Proved by Lagrange in 1770."
+    ]
+  },
+  {
+    "word_no.": 103,
+    "word": "Fermat Primes",
+    "hints": [
+      "A prime number of the form 2^(2^n) + 1.",
+      "The first few are 3, 5, 17, 257, 65537.",
+      "Related to the construction of regular polygons."
+    ]
+  },
+  {
+    "word_no.": 104,
+    "word": "Mersenne Numbers",
+    "hints": [
+      "Numbers of the form 2^n - 1.",
+      "Named after a French friar and polymath.",
+      "Some of them are prime, known as Mersenne primes."
+    ]
+  },
+  {
+    "word_no.": 105,
+    "word": "Perfect Squares",
+    "hints": [
+      "Another name for a square number.",
+      "An integer that is the square of another integer.",
+      "Examples are 4, 9, 16, 25."
+    ]
+  },
+  {
+    "word_no.": 106,
+    "word": "Unit Fractions",
+    "hints": [
+      "A rational number written as a fraction where the numerator is 1.",
+      "Examples: 1/2, 1/3, 1/10.",
+      "Used in ancient Egyptian mathematics."
+    ]
+  },
+  {
+    "word_no.": 107,
+    "word": "Continued Fractions",
+    "hints": [
+      "An expression representing a number as a sum of its integer part and the reciprocal of another number.",
+      "Can be used to approximate irrational numbers.",
+      "Has applications in number theory."
+    ]
+  },
+  {
+    "word_no.": 108,
+    "word": "Relatively Prime",
+    "hints": [
+      "Two integers are this if their greatest common divisor is 1.",
+      "Also known as coprime.",
+      "The numbers 7 and 10 are an example."
+    ]
+  },
+  {
+    "word_no.": 109,
+    "word": "Infinitude of Primes",
+    "hints": [
+      "The theorem that states there is no largest prime number.",
+      "First proven by Euclid.",
+      "A fundamental result in number theory."
+    ]
+  },
+  {
+    "word_no.": 110,
+    "word": "Primality Test",
+    "hints": [
+      "An algorithm for determining whether an input number is prime.",
+      "Examples include Miller-Rabin and AKS tests.",
+      "Crucial for cryptography."
+    ]
+  },
+  {
+    "word_no.": 111,
+    "word": "Sieve",
+    "hints": [
+      "A method for finding prime numbers up to a given integer.",
+      "A famous example is the Sieve of Eratosthenes.",
+      "It works by iteratively marking composite numbers."
+    ]
+  },
+  {
+    "word_no.": 112,
+    "word": "Prime Quadruplet",
+    "hints": [
+      "A set of four primes of the form (p, p+2, p+6, p+8).",
+      "Example: (5, 7, 11, 13).",
+      "A type of prime constellation."
+    ]
+  },
+  {
+    "word_no.": 113,
+    "word": "Prime Sextuplet",
+    "hints": [
+      "A set of six primes of the form (p, p+4, p+6, p+10, p+12, p+16).",
+      "Example: (7, 11, 13, 17, 19, 23).",
+      "A rare and special kind of prime."
+    ]
+  },
+  {
+    "word_no.": 114,
+    "word": "Semiprime",
+    "hints": [
+      "A composite number that is the product of exactly two prime numbers.",
+      "The two primes can be the same.",
+      "Examples are 4, 6, 9, 10."
+    ]
+  },
+  {
+    "word_no.": 115,
+    "word": "Sphenic Number",
+    "hints": [
+      "A positive integer that is the product of three distinct prime numbers.",
+      "The first example is 30, since 2 * 3 * 5 = 30.",
+      "All these numbers have exactly 8 divisors."
+    ]
+  },
+  {
+    "word_no.": 116,
+    "word": "Perfect Powers",
+    "hints": [
+      "An integer that is a perfect square, cube, or higher integer power.",
+      "Examples are 4, 8, 9, 16.",
+      "A number that can be written as n^k for integers n and k > 1."
+    ]
+  },
+  {
+    "word_no.": 117,
+    "word": "Prime Ideal",
+    "hints": [
+      "A concept from abstract algebra.",
+      "A non-zero ideal p in a ring such that p is a proper subset and if ab is in p, then a or b is in p.",
+      "Generalizes the concept of a prime number."
+    ]
+  },
+  {
+    "word_no.": 118,
+    "word": "Principal Ideal",
+    "hints": [
+      "An ideal generated by a single element.",
+      "In the integers, the ideal generated by 6 is all multiples of 6.",
+      "Related to ring theory."
+    ]
+  },
+  {
+    "word_no.": 119,
+    "word": "Euclidean Domain",
+    "hints": [
+      "An integral domain on which a Euclidean function is defined.",
+      "The integers form a classic example.",
+      "A ring where division with remainder is possible."
+    ]
+  },
+  {
+    "word_no.": 120,
+    "word": "Unique Factorization Domain",
+    "hints": [
+      "An integral domain in which every non-zero, non-unit element can be written as a product of prime elements.",
+      "The integers are a classic example.",
+      "Each factorization is unique up to ordering and units."
+    ]
+  },
+  {
+    "word_no.": 121,
+    "word": "Mobius Function",
+    "hints": [
+      "A multiplicative function in number theory.",
+      "Named after a German mathematician.",
+      "It is part of the Mobius inversion formula."
+    ]
+  },
+  {
+    "word_no.": 122,
+    "word": "Mobius Inversion Formula",
+    "hints": [
+      "An important formula in number theory.",
+      "Relates a function to its sum over divisors.",
+      "Uses the Mobius function."
+    ]
+  },
+  {
+    "word_no.": 123,
+    "word": "Prime Zeta Function",
+    "hints": [
+      "An analog of the Riemann zeta function.",
+      "A sum over the reciprocals of powers of prime numbers.",
+      "Used in analytic number theory."
+    ]
+  },
+  {
+    "word_no.": 124,
+    "word": "Riemann Zeta Function",
+    "hints": [
+      "A function that is a key component of the Riemann Hypothesis.",
+      "Its zeros are of great interest to mathematicians.",
+      "Defined for complex numbers."
+    ]
+  },
+  {
+    "word_no.": 125,
+    "word": "Erdos Piranha",
+    "hints": [
+      "A term for a number that divides its factorial.",
+      "Another name for a perfect number.",
+      "An obscure term in number theory."
+    ]
+  },
+  {
+    "word_no.": 126,
+    "word": "Harshad Number",
+    "hints": [
+      "An integer that is divisible by the sum of its digits.",
+      "Also known as a Niven number.",
+      "The number 18 is an example, as 1+8=9, and 18 is divisible by 9."
+    ]
+  },
+  {
+    "word_no.": 127,
+    "word": "Happy Number",
+    "hints": [
+      "A number that eventually reaches 1 when repeatedly replacing it with the sum of the square of its digits.",
+      "For example, 7 leads to 49 -> 97 -> 130 -> 10 -> 1.",
+      "If the sequence does not reach 1, it's an unhappy number."
+    ]
+  },
+  {
+    "word_no.": 128,
+    "word": "Sad Number",
+    "hints": [
+      "A number that is not a happy number.",
+      "It falls into a cycle that does not include 1.",
+      "Example: 4 -> 16 -> 37 -> 58 -> 89 -> 145 -> 42 -> 20 -> 4."
+    ]
+  },
+  {
+    "word_no.": 129,
+    "word": "Sociable Numbers",
+    "hints": [
+      "A set of numbers whose sum of proper divisors form a cycle.",
+      "The sum of the divisors of the first number is the second, the sum of the second's is the third, and so on, until the last's sum is the first.",
+      "Amicable numbers are a cycle of length 2."
+    ]
+  },
+  {
+    "word_no.": 130,
+    "word": "Relatively Prime Pair",
+    "hints": [
+      "A pair of numbers with a greatest common divisor of 1.",
+      "Their only common factor is 1.",
+      "Also known as coprime pair."
+    ]
+  },
+  {
+    "word_no.": 131,
+    "word": "Catalan's Constant",
+    "hints": [
+      "The value of the alternating sum 1 - 1/3^2 + 1/5^2 - 1/7^2 ...",
+      "It is a mathematical constant.",
+      "It's not known if it's a rational or irrational number."
+    ]
+  },
+  {
+    "word_no.": 132,
+    "word": "Landau's Conjecture",
+    "hints": [
+      "A statement about the number of primes of the form x^2 + 1.",
+      "One of the four problems on Landau's list.",
+      "It remains unproven."
+    ]
+  },
+  {
+    "word_no.": 133,
+    "word": "Mertens Conjecture",
+    "hints": [
+      "A conjecture in number theory about the Mobius function.",
+      "It was proven false in 1985.",
+      "Related to the Liouville function."
+    ]
+  },
+  {
+    "word_no.": 134,
+    "word": "Analytic Number Theory",
+    "hints": [
+      "A branch of number theory that uses methods from mathematical analysis.",
+      "It helps understand the distribution of primes.",
+      "The Riemann zeta function is a key tool."
+    ]
+  },
+  {
+    "word_no.": 135,
+    "word": "Algebraic Number Theory",
+    "hints": [
+      "A branch of number theory that studies algebraic integers.",
+      "It uses algebraic structures to solve number theory problems.",
+      "Elliptic curves are a key topic."
+    ]
+  },
+  {
+    "word_no.": 136,
+    "word": "Elementary Number Theory",
+    "hints": [
+      "A branch of number theory that uses methods that do not rely on complex analysis or abstract algebra.",
+      "It includes topics like divisibility, modular arithmetic, and congruences.",
+      "This is often the first part of number theory taught."
+    ]
+  },
+  {
+    "word_no.": 137,
+    "word": "Computational Number Theory",
+    "hints": [
+      "A branch of number theory concerned with finding and implementing efficient algorithms.",
+      "Used in primality testing and integer factorization.",
+      "Important for modern cryptography."
+    ]
+  },
+  {
+    "word_no.": 138,
+    "word": "Continued Fraction Expansion",
+    "hints": [
+      "The process of representing a number as a continued fraction.",
+      "Useful for rational approximations of irrational numbers.",
+      "Used for solving Pell's equation."
+    ]
+  },
+  {
+    "word_no.": 139,
+    "word": "Continued Fractions of Reals",
+    "hints": [
+      "The representation of a real number as a continued fraction.",
+      "For rational numbers, it terminates.",
+      "For irrational numbers, it is infinite."
+    ]
+  },
+  {
+    "word_no.": 140,
+    "word": "Quadratic Form",
+    "hints": [
+      "A homogeneous polynomial of degree two.",
+      "A key topic in the number theory of Gauss.",
+      "Example: ax^2 + bxy + cy^2."
+    ]
+  },
+  {
+    "word_no.": 141,
+    "word": "Binary Quadratic Form",
+    "hints": [
+      "A quadratic form with two variables.",
+      "Example: ax^2 + bxy + cy^2.",
+      "Used to study representations of integers by certain expressions."
+    ]
+  },
+  {
+    "word_no.": 142,
+    "word": "Cyclotomic Polynomial",
+    "hints": [
+      "A polynomial whose roots are the primitive roots of unity.",
+      "It is a special type of polynomial with integer coefficients.",
+      "Used in number theory and abstract algebra."
+    ]
+  },
+  {
+    "word_no.": 143,
+    "word": "Cyclotomic Field",
+    "hints": [
+      "A field extension of the rational numbers.",
+      "Obtained by adjoining a root of unity to the rational numbers.",
+      "Key to the proof of Fermat's Last Theorem for a large number of exponents."
+    ]
+  },
+  {
+    "word_no.": 144,
+    "word": "Dirichlet Series",
+    "hints": [
+      "A series of the form sum from n=1 to infinity of a_n / n^s.",
+      "The Riemann zeta function is a famous example.",
+      "Used in analytic number theory."
+    ]
+  },
+  {
+    "word_no.": 145,
+    "word": "Zeta Function",
+    "hints": [
+      "A function of a complex variable.",
+      "The Riemann zeta function is the most famous example.",
+      "Used in analytic number theory."
+    ]
+  },
+  {
+    "word_no.": 146,
+    "word": "Liouville's Theorem on Transcendental Numbers",
+    "hints": [
+      "A theorem that gives a sufficient condition for a number to be transcendental.",
+      "It provides a way to construct transcendental numbers.",
+      "The first proof of the existence of transcendental numbers."
+    ]
+  },
+  {
+    "word_no.": 147,
+    "word": "Thue Siegel Roth Theorem",
+    "hints": [
+      "A major result in Diophantine approximation.",
+      "States that algebraic numbers cannot be approximated too well by rationals.",
+      "Named after three mathematicians."
+    ]
+  },
+  {
+    "word_no.": 148,
+    "word": "Schmidt Subspace Theorem",
+    "hints": [
+      "A generalization of the Thue-Siegel-Roth theorem.",
+      "A powerful tool in Diophantine approximation.",
+      "Named after Wolfgang M. Schmidt."
+    ]
+  },
+  {
+    "word_no.": 149,
+    "word": "Mahler's Theorem",
+    "hints": [
+      "A theorem in number theory concerning p-adic numbers.",
+      "It provides a criterion for when a function can be represented by a series.",
+      "Named after Kurt Mahler."
+    ]
+  },
+  {
+    "word_no.": 150,
+    "word": "Baker's Theorem",
+    "hints": [
+      "A theorem that gives lower bounds for linear forms in logarithms of algebraic numbers.",
+      "It is a major result in transcendental number theory.",
+      "Named after Alan Baker."
+    ]
+  },
+  {
+    "word_no.": 151,
+    "word": "Conjugate Primes",
+    "hints": [
+      "A term used for a pair of primes (p, q) such that p+q is a power of 2.",
+      "Example: (3, 5), since 3+5=8=2^3.",
+      "Also known as 'twin prime sum'."
+    ]
+  },
+  {
+    "word_no.": 152,
+    "word": "Sophie Germain's Identity",
+    "hints": [
+      "An algebraic identity.",
+      "States that a^4 + 4b^4 = (a^2 + 2b^2 - 2ab)(a^2 + 2b^2 + 2ab).",
+      "Used to prove that numbers of a certain form are not prime."
+    ]
+  },
+  {
+    "word_no.": 153,
+    "word": "Pythagorean Triples",
+    "hints": [
+      "A set of three integers a, b, and c such that a^2 + b^2 = c^2.",
+      "Example: (3, 4, 5).",
+      "They are integer solutions to a Diophantine equation."
+    ]
+  },
+  {
+    "word_no.": 154,
+    "word": "Diophantine Set",
+    "hints": [
+      "A set of integers which can be defined by a Diophantine equation.",
+      "A set whose elements are the solutions to a polynomial equation.",
+      "This concept is related to Hilbert's tenth problem."
+    ]
+  },
+  {
+    "word_no.": 155,
+    "word": "Goldbach's Strong Conjecture",
+    "hints": [
+      "States that every even integer greater than 2 is the sum of two primes.",
+      "The most famous version of the Goldbach conjecture.",
+      "Remains unproven."
+    ]
+  },
+  {
+    "word_no.": 156,
+    "word": "Goldbach's Weak Conjecture",
+    "hints": [
+      "States that every odd number greater than 5 can be expressed as the sum of three primes.",
+      "Proven by Helfgott in 2013.",
+      "A less famous version of the conjecture."
+    ]
+  },
+  {
+    "word_no.": 157,
+    "word": "Twin Prime Problem",
+    "hints": [
+      "The question of whether there are infinitely many twin primes.",
+      "It is an open problem in number theory.",
+      "Part of Landau's problems."
+    ]
+  },
+  {
+    "word_no.": 158,
+    "word": "Landau's fourth problem",
+    "hints": [
+      "Asks if there are infinitely many primes of the form n^2 + 1.",
+      "One of the four problems on Landau's list.",
+      "It's a special case of Bunyakovsky's conjecture."
+    ]
+  },
+  {
+    "word_no.": 159,
+    "word": "Bunyakovsky's Conjecture",
+    "hints": [
+      "A conjecture in number theory that provides a condition for a polynomial to have infinitely many prime values.",
+      "A generalization of Landau's fourth problem.",
+      "Named after a Russian mathematician."
+    ]
+  },
+  {
+    "word_no.": 160,
+    "word": "Legendre's Conjecture",
+    "hints": [
+      "States that there is a prime number between n^2 and (n+1)^2 for every positive integer n.",
+      "Another open problem in number theory.",
+      "Implies that prime gaps between consecutive primes are small."
+    ]
+  },
+  {
+    "word_no.": 161,
+    "word": "Bertrand's Postulate",
+    "hints": [
+      "States that for any integer n > 1, there is always at least one prime number p such that n < p < 2n.",
+      "Also known as the Chebyshev theorem.",
+      "Proven by Chebyshev in 1852."
+    ]
+  },
+  {
+    "word_no.": 162,
+    "word": "Hardy Littlewood Conjecture",
+    "hints": [
+      "A set of conjectures about the distribution of primes.",
+      "Includes conjectures on twin primes and prime constellations.",
+      "A famous conjecture by G. H. Hardy and J. E. Littlewood."
+    ]
+  },
+  {
+    "word_no.": 163,
+    "word": "Prime Constellation",
+    "hints": [
+      "A sequence of primes with small gaps.",
+      "Twin primes are a type of this.",
+      "Examples are (3, 5, 7) and (11, 13)."
+    ]
+  },
+  {
+    "word_no.": 164,
+    "word": "Hecke Operator",
+    "hints": [
+      "A type of operator in the theory of modular forms.",
+      "Used to study the properties of modular forms.",
+      "Named after Erich Hecke."
+    ]
+  },
+  {
+    "word_no.": 165,
+    "word": "Modular Form",
+    "hints": [
+      "A complex analytic function on the upper half-plane.",
+      "It satisfies a certain kind of functional equation.",
+      "Used in the proof of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 166,
+    "word": "Galois Group",
+    "hints": [
+      "A group associated with a polynomial equation.",
+      "Used to study the roots of a polynomial.",
+      "Named after Evariste Galois."
+    ]
+  },
+  {
+    "word_no.": 167,
+    "word": "Galois Theory",
+    "hints": [
+      "A branch of abstract algebra that provides a connection between field theory and group theory.",
+      "Uses groups to study roots of polynomials.",
+      "Named after Evariste Galois."
+    ]
+  },
+  {
+    "word_no.": 168,
+    "word": "Elliptic Curve Cryptography",
+    "hints": [
+      "A public key cryptography approach based on the algebraic structure of elliptic curves.",
+      "Used for secure communication.",
+      "Offers the same security with smaller key sizes."
+    ]
+  },
+  {
+    "word_no.": 169,
+    "word": "RSA Algorithm",
+    "hints": [
+      "A public key cryptosystem.",
+      "Based on the difficulty of factoring large integers.",
+      "Used for secure data transmission."
+    ]
+  },
+  {
+    "word_no.": 170,
+    "word": "Diffie Hellman Key Exchange",
+    "hints": [
+      "A method of securely exchanging cryptographic keys over a public channel.",
+      "Relies on the difficulty of computing discrete logarithms.",
+      "An early public key protocol."
+    ]
+  },
+  {
+    "word_no.": 171,
+    "word": "Fermat's Spiral",
+    "hints": [
+      "A type of spiral defined by an equation.",
+      "Points on the spiral can be used to visualize numbers.",
+      "Also known as the parabolic spiral."
+    ]
+  },
+  {
+    "word_no.": 172,
+    "word": "Ulam's Spiral",
+    "hints": [
+      "A graphical depiction of the prime numbers.",
+      "The numbers are arranged in a spiral.",
+      "Prime numbers tend to fall along diagonal lines."
+    ]
+  },
+  {
+    "word_no.": 173,
+    "word": "Smarandache Number",
+    "hints": [
+      "A number named after Florentin Smarandache.",
+      "An integer n such that n! is a multiple of n.",
+      "Example: 6, since 6! is divisible by 6."
+    ]
+  },
+  {
+    "word_no.": 174,
+    "word": "Sierpinski Number",
+    "hints": [
+      "An odd positive integer k such that k*2^n + 1 is composite for all n.",
+      "The first example is 78557.",
+      "Named after a Polish mathematician."
+    ]
+  },
+  {
+    "word_no.": 175,
+    "word": "Fermat's Little Theorem",
+    "hints": [
+      "A theorem that states a^(p-1) is congruent to 1 (mod p) for prime p and integer a not divisible by p.",
+      "A cornerstone of number theory.",
+      "Used in primality tests."
+    ]
+  },
+  {
+    "word_no.": 176,
+    "word": "Euler's Theorem",
+    "hints": [
+      "A generalization of Fermat's Little Theorem.",
+      "States that a^phi(n) is congruent to 1 (mod n) for coprime a and n.",
+      "Uses Euler's totient function."
+    ]
+  },
+  {
+    "word_no.": 177,
+    "word": "Carmichael's Theorem",
+    "hints": [
+      "A theorem that describes the primitive divisors of Lucas and Lehmer sequences.",
+      "It is a generalization of Zsigmondy's theorem.",
+      "Named after Robert Carmichael."
+    ]
+  },
+  {
+    "word_no.": 178,
+    "word": "Thabit Number",
+    "hints": [
+      "A number of the form 3*2^n - 1.",
+      "Named after an Arab mathematician.",
+      "Can be related to amicable numbers."
+    ]
+  },
+  {
+    "word_no.": 179,
+    "word": "Lucas Lehmer Test",
+    "hints": [
+      "A primality test for Mersenne numbers.",
+      "It is an extremely efficient test.",
+      "Used to find very large prime numbers."
+    ]
+  },
+  {
+    "word_no.": 180,
+    "word": "Lucas Primality Test",
+    "hints": [
+      "A primality test for a number n.",
+      "Based on a generalization of Fermat's Little Theorem.",
+      "Works for any number n."
+    ]
+  },
+  {
+    "word_no.": 181,
+    "word": "AKS Primality Test",
+    "hints": [
+      "The first primality test that is both general and provably efficient.",
+      "It is a polynomial-time algorithm.",
+      "The letters stand for Agrawal, Kayal, Saxena."
+    ]
+  },
+  {
+    "word_no.": 182,
+    "word": "Twin Prime Conjecture",
+    "hints": [
+      "The conjecture that there are infinitely many twin primes.",
+      "One of the unsolved problems in number theory.",
+      "Also one of the Landau problems."
+    ]
+  },
+  {
+    "word_no.": 183,
+    "word": "Binary Logarithm",
+    "hints": [
+      "The logarithm to base 2.",
+      "Used extensively in computer science and information theory.",
+      "It is the inverse function of powers of 2."
+    ]
+  },
+  {
+    "word_no.": 184,
+    "word": "Decimal Logarithm",
+    "hints": [
+      "The logarithm to base 10.",
+      "Also known as the common logarithm.",
+      "Used for calculations and in engineering."
+    ]
+  },
+  {
+    "word_no.": 185,
+    "word": "Natural Logarithm",
+    "hints": [
+      "The logarithm to base e.",
+      "Used in calculus and mathematics.",
+      "The inverse function of e^x."
+    ]
+  },
+  {
+    "word_no.": 186,
+    "word": "Irrationality Measure",
+    "hints": [
+      "A value that measures how 'irrational' an irrational number is.",
+      "It is a measure of how well a number can be approximated by rational numbers.",
+      "The measure of pi is conjectured to be 2."
+    ]
+  },
+  {
+    "word_no.": 187,
+    "word": "Liouville's Constant",
+    "hints": [
+      "A number that is known to be transcendental.",
+      "It is a sum of powers of 1/10.",
+      "The first number to be proven transcendental."
+    ]
+  },
+  {
+    "word_no.": 188,
+    "word": "Transcendental Number Theory",
+    "hints": [
+      "A subfield of number theory that investigates transcendental numbers.",
+      "It studies the properties of numbers that are not algebraic.",
+      "Key topics are pi and e."
+    ]
+  },
+  {
+    "word_no.": 189,
+    "word": "Thue's Theorem",
+    "hints": [
+      "A theorem about Diophantine equations.",
+      "It limits the number of solutions to certain types of equations.",
+      "Named after Axel Thue."
+    ]
+  },
+  {
+    "word_no.": 190,
+    "word": "Pell's Equation",
+    "hints": [
+      "A Diophantine equation of the form x^2 - Dy^2 = 1.",
+      "It is named after an English mathematician.",
+      "Used in integer factorization algorithms."
+    ]
+  },
+  {
+    "word_no.": 191,
+    "word": "Continued Fraction Algorithm",
+    "hints": [
+      "An algorithm that finds the continued fraction expansion of a real number.",
+      "It uses repeated division.",
+      "The Euclidean algorithm is a specific case of this."
+    ]
+  },
+  {
+    "word_no.": 192,
+    "word": "Fundamental Unit",
+    "hints": [
+      "A special element in a number field.",
+      "It is a generator for the group of units of the field's ring of integers.",
+      "Used in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 193,
+    "word": "Ideal Class Group",
+    "hints": [
+      "A group in algebraic number theory.",
+      "Measures the extent to which the ring of integers of a number field fails to be a unique factorization domain.",
+      "It's a finite group."
+    ]
+  },
+  {
+    "word_no.": 194,
+    "word": "Hilbert's Tenth Problem",
+    "hints": [
+      "The tenth of Hilbert's famous problems.",
+      "It asks for an algorithm to determine if a Diophantine equation has an integer solution.",
+      "It was proven to be unsolvable in 1970."
+    ]
+  },
+  {
+    "word_no.": 195,
+    "word": "Matyasevich's Theorem",
+    "hints": [
+      "A theorem that proved Hilbert's tenth problem is unsolvable.",
+      "It relates recursively enumerable sets to Diophantine sets.",
+      "Named after Yuri Matyasevich."
+    ]
+  },
+  {
+    "word_no.": 196,
+    "word": "Recursively Enumerable Set",
+    "hints": [
+      "A set for which there exists an algorithm to list its members.",
+      "Also known as a Turing-recognizable set.",
+      "Related to Hilbert's tenth problem."
+    ]
+  },
+  {
+    "word_no.": 197,
+    "word": "Turing Machine",
+    "hints": [
+      "A theoretical model of computation.",
+      "Used to formalize the concept of an algorithm.",
+      "Named after Alan Turing."
+    ]
+  },
+  {
+    "word_no.": 198,
+    "word": "Elliptic Curve Method",
+    "hints": [
+      "A method for integer factorization.",
+      "Uses elliptic curves to find a prime factor of a number.",
+      "It is a good choice when the number has a moderately small prime factor."
+    ]
+  },
+  {
+    "word_no.": 199,
+    "word": "Number Field Sieve",
+    "hints": [
+      "The most efficient algorithm for factoring very large numbers.",
+      "It is a general-purpose integer factorization algorithm.",
+      "Used to factor RSA keys."
+    ]
+  },
+  {
+    "word_no.": 200,
+    "word": "Shor's Algorithm",
+    "hints": [
+      "A quantum algorithm for integer factorization.",
+      "It could break public-key cryptography if a large-scale quantum computer is built.",
+      "Named after Peter Shor."
+    ]
+  },
+  {
+    "word_no.": 201,
+    "word": "Prime Power Factorization",
+    "hints": [
+      "The unique way of expressing a number as a product of powers of its prime factors.",
+      "Example: 12 = 2^2 * 3^1.",
+      "A consequence of the Fundamental Theorem of Arithmetic."
+    ]
+  },
+  {
+    "word_no.": 202,
+    "word": "Relatively Prime Integers",
+    "hints": [
+      "A pair of integers that have no common prime factors.",
+      "The greatest common divisor is 1.",
+      "Also known as coprime integers."
+    ]
+  },
+  {
+    "word_no.": 203,
+    "word": "Fundamental Units",
+    "hints": [
+      "A specific set of units in the ring of integers of an algebraic number field.",
+      "They are a basis for the group of units.",
+      "Used in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 204,
+    "word": "Prime Factor",
+    "hints": [
+      "A prime number that divides a given integer.",
+      "The prime factors of 12 are 2 and 3.",
+      "The building blocks of integers."
+    ]
+  },
+  {
+    "word_no.": 205,
+    "word": "Totient",
+    "hints": [
+      "Another name for Euler's totient function.",
+      "It counts the number of positive integers less than or equal to n that are coprime to n.",
+      "Used in Euler's Theorem."
+    ]
+  },
+  {
+    "word_no.": 206,
+    "word": "Divisibility Rules",
+    "hints": [
+      "A set of rules to determine if a number is divisible by another.",
+      "Example: a number is divisible by 2 if it is even.",
+      "A topic in elementary number theory."
+    ]
+  },
+  {
+    "word_no.": 207,
+    "word": "Perfect Number Conjecture",
+    "hints": [
+      "An unsolved problem regarding perfect numbers.",
+      "Asks if there are any odd perfect numbers.",
+      "No one has found an odd perfect number yet."
+    ]
+  },
+  {
+    "word_no.": 208,
+    "word": "Odd Perfect Number",
+    "hints": [
+      "A hypothetical type of perfect number.",
+      "No examples have been found.",
+      "A famous unsolved problem in number theory."
+    ]
+  },
+  {
+    "word_no.": 209,
+    "word": "Euclid's Elements",
+    "hints": [
+      "A treatise on mathematics and geometry.",
+      "Written by Euclid around 300 BC.",
+      "It contains the proof of the infinitude of primes."
+    ]
+  },
+  {
+    "word_no.": 210,
+    "word": "Number Field",
+    "hints": [
+      "A finite degree field extension of the rational numbers.",
+      "It is a fundamental object of study in algebraic number theory.",
+      "It contains all rational numbers."
+    ]
+  },
+  {
+    "word_no.": 211,
+    "word": "Class Number",
+    "hints": [
+      "The number of ideal classes in the ring of integers of a number field.",
+      "Measures the failure of unique factorization.",
+      "A key invariant in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 212,
+    "word": "Ideal Class Group",
+    "hints": [
+      "The group of ideal classes of a number field.",
+      "It's a finite abelian group.",
+      "Its order is the class number."
+    ]
+  },
+  {
+    "word_no.": 213,
+    "word": "Discriminant",
+    "hints": [
+      "A value that characterizes a number field.",
+      "For a quadratic field, it determines the type of numbers in the field.",
+      "It is a measure of how 'complex' the field is."
+    ]
+  },
+  {
+    "word_no.": 214,
+    "word": "Galois Representation",
+    "hints": [
+      "A group homomorphism from a Galois group to a group of matrices.",
+      "It is a key object in modern number theory.",
+      "Used in the proof of the Taniyama-Shimura conjecture."
+    ]
+  },
+  {
+    "word_no.": 215,
+    "word": "Taniyama Shimura Conjecture",
+    "hints": [
+      "A conjecture that states every elliptic curve over the rational numbers is modular.",
+      "A major result in modern number theory.",
+      "It's now the Modularity Theorem."
+    ]
+  },
+  {
+    "word_no.": 216,
+    "word": "Modularity Theorem",
+    "hints": [
+      "The name for the proven Taniyama-Shimura conjecture.",
+      "It connects elliptic curves and modular forms.",
+      "The final step in the proof of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 217,
+    "word": "Gauss's Lemma",
+    "hints": [
+      "A lemma in number theory.",
+      "It provides a way to compute the Legendre symbol.",
+      "Named after Carl Friedrich Gauss."
+    ]
+  },
+  {
+    "word_no.": 218,
+    "word": "Quadratic Reciprocity",
+    "hints": [
+      "A theorem that provides a relationship between the solvability of two quadratic congruences.",
+      "Called the 'Golden Theorem' by Gauss.",
+      "It is a central theorem in number theory."
+    ]
+  },
+  {
+    "word_no.": 219,
+    "word": "Law of Quadratic Reciprocity",
+    "hints": [
+      "Another name for quadratic reciprocity.",
+      "It relates the solvability of x^2 is congruent to q (mod p) and x^2 is congruent to p (mod q).",
+      "A very famous theorem in elementary number theory."
+    ]
+  },
+  {
+    "word_no.": 220,
+    "word": "Prime Power",
+    "hints": [
+      "A positive integer that is a positive integer power of a single prime number.",
+      "Examples are 2, 3, 4, 5, 7, 8, 9.",
+      "Every integer can be written as a product of these."
+    ]
+  },
+  {
+    "word_no.": 221,
+    "word": "Polya's Theorem",
+    "hints": [
+      "A theorem about the number of partitions of an integer.",
+      "It is a result in combinatorial number theory.",
+      "Named after George Polya."
+    ]
+  },
+  {
+    "word_no.": 222,
+    "word": "Partition Function",
+    "hints": [
+      "A function in number theory that gives the number of ways to write an integer as a sum of positive integers.",
+      "p(4) = 5, since 4, 3+1, 2+2, 2+1+1, 1+1+1+1.",
+      "Used to study integer partitions."
+    ]
+  },
+  {
+    "word_no.": 223,
+    "word": "Integer Partition",
+    "hints": [
+      "A way of writing an integer as a sum of positive integers.",
+      "The order of the summands does not matter.",
+      "The partitions of 4 are 4, 3+1, 2+2, 2+1+1, 1+1+1+1."
+    ]
+  },
+  {
+    "word_no.": 224,
+    "word": "Combinatorial Number Theory",
+    "hints": [
+      "A branch of number theory that uses combinatorial methods to solve number theory problems.",
+      "It includes topics like integer partitions and Polya's theorem.",
+      "It overlaps with combinatorics."
+    ]
+  },
+  {
+    "word_no.": 225,
+    "word": "Geometric Number Theory",
+    "hints": [
+      "A branch of number theory that uses geometry to study numbers.",
+      "Minkowski's theorem is a key result.",
+      "It studies questions about Diophantine equations and lattices."
+    ]
+  },
+  {
+    "word_no.": 226,
+    "word": "Minkowski's Theorem",
+    "hints": [
+      "A theorem in the geometry of numbers.",
+      "It gives an upper bound on the volume of a convex body with a symmetric shape.",
+      "Named after Hermann Minkowski."
+    ]
+  },
+  {
+    "word_no.": 227,
+    "word": "Lattice",
+    "hints": [
+      "A repeating pattern of points in space.",
+      "Example: the set of all integer points in the plane.",
+      "Used in geometric number theory."
+    ]
+  },
+  {
+    "word_no.": 228,
+    "word": "Dirichlet's Unit Theorem",
+    "hints": [
+      "A theorem that describes the structure of the group of units in the ring of integers of an algebraic number field.",
+      "It is a major result in algebraic number theory.",
+      "Named after Peter Gustav Lejeune Dirichlet."
+    ]
+  },
+  {
+    "word_no.": 229,
+    "word": "Class Field Theory",
+    "hints": [
+      "A major branch of algebraic number theory.",
+      "It studies abelian extensions of number fields.",
+      "It provides a deep connection between number theory and geometry."
+    ]
+  },
+  {
+    "word_no.": 230,
+    "word": "Mordell Weil Theorem",
+    "hints": [
+      "A theorem that states that the group of rational points on an elliptic curve is finitely generated.",
+      "A key result in the number theory of elliptic curves.",
+      "Named after Louis Mordell and Andre Weil."
+    ]
+  },
+  {
+    "word_no.": 231,
+    "word": "Elliptic Logarithm",
+    "hints": [
+      "A function that maps points on an elliptic curve to a number.",
+      "It is the inverse of the elliptic function.",
+      "Used in the study of elliptic curves."
+    ]
+  },
+  {
+    "word_no.": 232,
+    "word": "Prime Counting Function",
+    "hints": [
+      "A function that counts the number of prime numbers less than or equal to some real number x.",
+      "Denoted by pi(x).",
+      "Example: pi(10) = 4."
+    ]
+  },
+  {
+    "word_no.": 233,
+    "word": "Prime Number Theorem",
+    "hints": [
+      "Describes the asymptotic distribution of prime numbers.",
+      "States that pi(x) is approximately x/ln(x).",
+      "A fundamental result in analytic number theory."
+    ]
+  },
+  {
+    "word_no.": 234,
+    "word": "Bertrand's Postulate",
+    "hints": [
+      "States that for every integer n > 1, there is a prime number p such that n < p < 2n.",
+      "Proven by Chebyshev.",
+      "Also known as the Chebyshev theorem."
+    ]
+  },
+  {
+    "word_no.": 235,
+    "word": "Mertens' Theorems",
+    "hints": [
+      "A set of three theorems in number theory.",
+      "They are results about the sum of the reciprocals of primes.",
+      "Named after Franz Mertens."
+    ]
+  },
+  {
+    "word_no.": 236,
+    "word": "Mertens' Conjecture",
+    "hints": [
+      "A conjecture that was proven false in 1985.",
+      "It stated that the sum of the Mobius function is bounded by 1.",
+      "Related to the Riemann Hypothesis."
+    ]
+  },
+  {
+    "word_no.": 237,
+    "word": "Prime Factorization Algorithm",
+    "hints": [
+      "An algorithm that finds the prime factors of a composite number.",
+      "The Pollard's rho algorithm and the Number Field Sieve are examples.",
+      "Used to break RSA encryption."
+    ]
+  },
+  {
+    "word_no.": 238,
+    "word": "Pollard's Rho Algorithm",
+    "hints": [
+      "A probabilistic algorithm for integer factorization.",
+      "It's a special-purpose algorithm.",
+      "Works well for numbers with small prime factors."
+    ]
+  },
+  {
+    "word_no.": 239,
+    "word": "Pollard's p minus 1 Algorithm",
+    "hints": [
+      "Another algorithm for integer factorization.",
+      "It is a special-purpose algorithm.",
+      "Works well when the number has a prime factor p such that p-1 has only small prime factors."
+    ]
+  },
+  {
+    "word_no.": 240,
+    "word": "Quadratic Sieve",
+    "hints": [
+      "A general-purpose integer factorization algorithm.",
+      "It is the second-fastest algorithm for factoring integers up to 100 digits.",
+      "It is slower than the Number Field Sieve."
+    ]
+  },
+  {
+    "word_no.": 241,
+    "word": "AKS Primality Test",
+    "hints": [
+      "A deterministic polynomial-time algorithm for primality testing.",
+      "The first such algorithm.",
+      "Named after its three discoverers."
+    ]
+  },
+  {
+    "word_no.": 242,
+    "word": "Miller Rabin Test",
+    "hints": [
+      "A probabilistic primality test.",
+      "It determines whether a number is likely to be prime.",
+      "Used in many cryptographic applications."
+    ]
+  },
+  {
+    "word_no.": 243,
+    "word": "Cyclotomic Field",
+    "hints": [
+      "A field extension of the rational numbers.",
+      "It contains the roots of unity.",
+      "Used in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 244,
+    "word": "Kummer's Theorem",
+    "hints": [
+      "A theorem about the exponent of a prime in the prime factorization of a binomial coefficient.",
+      "It is related to the divisibility of binomial coefficients.",
+      "Named after Ernst Kummer."
+    ]
+  },
+  {
+    "word_no.": 245,
+    "word": "Dedekind Zeta Function",
+    "hints": [
+      "A generalization of the Riemann zeta function.",
+      "It is defined for an algebraic number field.",
+      "Used in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 246,
+    "word": "Dirichlet L Function",
+    "hints": [
+      "A type of series used in analytic number theory.",
+      "It is a generalization of the Riemann zeta function.",
+      "Used to prove Dirichlet's theorem on arithmetic progressions."
+    ]
+  },
+  {
+    "word_no.": 247,
+    "word": "Galois Representation",
+    "hints": [
+      "A group homomorphism from a Galois group to a group of matrices.",
+      "It is a fundamental object in modern number theory.",
+      "Used in the proof of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 248,
+    "word": "Waring's Problem",
+    "hints": [
+      "A problem in number theory concerning the representation of integers as sums of powers.",
+      "Example: every number is the sum of 4 squares.",
+      "Named after Edward Waring."
+    ]
+  },
+  {
+    "word_no.": 249,
+    "word": "Landau's Fourth Problem",
+    "hints": [
+      "The problem of whether there are infinitely many primes of the form n^2 + 1.",
+      "One of the four problems on Landau's list.",
+      "It is a major open problem."
+    ]
+  },
+  {
+    "word_no.": 250,
+    "word": "Pell Number",
+    "hints": [
+      "A sequence of numbers defined by a recurrence relation.",
+      "The sequence starts with 0 and 1.",
+      "Related to the integer solutions of Pell's equation."
+    ]
+  },
+  {
+    "word_no.": 251,
+    "word": "Lucas Series",
+    "hints": [
+      "A sequence of integers defined by a recurrence relation.",
+      "The sequence starts with 2 and 1.",
+      "Related to the Fibonacci sequence."
+    ]
+  },
+  {
+    "word_no.": 252,
+    "word": "Liouville Function",
+    "hints": [
+      "A multiplicative function in number theory.",
+      "It is defined as -1 to the power of the number of prime factors of n.",
+      "Related to Polya's Conjecture."
+    ]
+  },
+  {
+    "word_no.": 253,
+    "word": "Dirichlet Convolution",
+    "hints": [
+      "A binary operation on arithmetic functions.",
+      "It is a fundamental tool in analytic number theory.",
+      "It is also known as the Dirichlet product."
+    ]
+  },
+  {
+    "word_no.": 254,
+    "word": "Ramanujan Prime",
+    "hints": [
+      "A prime number with a certain property related to the prime counting function.",
+      "It is the smallest prime for which the prime counting function is greater than a certain value.",
+      "Named after Srinivasa Ramanujan."
+    ]
+  },
+  {
+    "word_no.": 255,
+    "word": "Superperfect Number",
+    "hints": [
+      "A positive integer n such that the sum of the divisors of the sum of the divisors of n is equal to 2n.",
+      "The first example is 2, because the sum of the divisors of 2 is 3, and the sum of the divisors of 3 is 4, which is 2*2.",
+      "All known superperfect numbers are of the form 2^k where 2^(k+1)-1 is a Mersenne prime."
+    ]
+  },
+  {
+    "word_no.": 256,
+    "word": "Harmonic Divisor Number",
+    "hints": [
+      "A positive integer whose harmonic mean of its positive divisors is an integer.",
+      "The first example is 1.",
+      "Also known as an Ore number."
+    ]
+  },
+  {
+    "word_no.": 257,
+    "word": "Harmonic Mean",
+    "hints": [
+      "One of the three Pythagorean means.",
+      "It is the reciprocal of the arithmetic mean of the reciprocals.",
+      "Used in number theory for divisor properties."
+    ]
+  },
+  {
+    "word_no.": 258,
+    "word": "Perfect Power",
+    "hints": [
+      "An integer that is a perfect square, a perfect cube, or a higher integer power.",
+      "Example: 8 = 2^3.",
+      "A number that can be written as m^k for integers m and k > 1."
+    ]
+  },
+  {
+    "word_no.": 259,
+    "word": "Pell's Equation",
+    "hints": [
+      "A Diophantine equation of the form x^2 - Ny^2 = 1.",
+      "Named after an English mathematician.",
+      "Its solutions are related to continued fractions."
+    ]
+  },
+  {
+    "word_no.": 260,
+    "word": "Wieferich Prime",
+    "hints": [
+      "A prime number p such that 2^(p-1) is congruent to 1 (mod p^2).",
+      "Only two are known to exist: 1093 and 3511.",
+      "Related to the first case of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 261,
+    "word": "Wall Sun Sun Prime",
+    "hints": [
+      "A prime number p such that p^2 divides the Fibonacci number F_p.",
+      "No such prime is known to exist.",
+      "Named after D. D. Wall, Zhi Hong Sun, and Zhi Wei Sun."
+    ]
+  },
+  {
+    "word_no.": 262,
+    "word": "Square Free Integer",
+    "hints": [
+      "An integer that is not divisible by any perfect square other than 1.",
+      "Example: 10 is square-free, since 10 = 2*5.",
+      "Example: 12 is not, since 12 = 4*3."
+    ]
+  },
+  {
+    "word_no.": 263,
+    "word": "Achilles Number",
+    "hints": [
+      "A powerful number that is not a perfect power.",
+      "Example: 72 = 2^3 * 3^2, but not a perfect power.",
+      "Named after Achilles from Greek mythology."
+    ]
+  },
+  {
+    "word_no.": 264,
+    "word": "Powerful Number",
+    "hints": [
+      "A positive integer for which for every prime factor p, p^2 is also a divisor.",
+      "Example: 36 = 2^2 * 3^2.",
+      "Every perfect power is a powerful number."
+    ]
+  },
+  {
+    "word_no.": 265,
+    "word": "Primitive Abundant Number",
+    "hints": [
+      "An abundant number whose proper divisors are all deficient or perfect.",
+      "The first is 20.",
+      "It is an abundant number that is not a multiple of a smaller abundant number."
+    ]
+  },
+  {
+    "word_no.": 266,
+    "word": "Odd Abundant Number",
+    "hints": [
+      "An abundant number that is odd.",
+      "The smallest is 945.",
+      "It is a number whose proper divisors sum to more than the number, and it is odd."
+    ]
+  },
+  {
+    "word_no.": 267,
+    "word": "Perfect Number",
+    "hints": [
+      "A positive integer that is equal to the sum of its proper positive divisors.",
+      "The first is 6, as 1+2+3=6.",
+      "All known examples are even."
+    ]
+  },
+  {
+    "word_no.": 268,
+    "word": "Harmonic Number",
+    "hints": [
+      "A number of the form 1 + 1/2 + 1/3 + ... + 1/n.",
+      "They are related to the natural logarithm.",
+      "Also known as harmonic series partial sums."
+    ]
+  },
+  {
+    "word_no.": 269,
+    "word": "Square Free",
+    "hints": [
+      "A number is this if it is not divisible by a perfect square other than 1.",
+      "Example: 10.",
+      "The prime factors appear only once."
+    ]
+  },
+  {
+    "word_no.": 270,
+    "word": "Mersenne Number",
+    "hints": [
+      "A number of the form 2^p - 1.",
+      "If p is prime and this number is prime, it is a Mersenne prime.",
+      "Named after a French monk."
+    ]
+  },
+  {
+    "word_no.": 271,
+    "word": "Perfect Power",
+    "hints": [
+      "A number that is a square, cube, or higher power of an integer.",
+      "Example: 16 is a perfect power because it is 4^2 and 2^4.",
+      "A number of the form n^k for k>1."
+    ]
+  },
+  {
+    "word_no.": 272,
+    "word": "Unit of a Ring",
+    "hints": [
+      "An element of a ring that has a multiplicative inverse.",
+      "In the integers, the only units are 1 and -1.",
+      "Used in abstract algebra and number theory."
+    ]
+  },
+  {
+    "word_no.": 273,
+    "word": "Principal Ideal Domain",
+    "hints": [
+      "An integral domain in which every ideal is a principal ideal.",
+      "The integers form a classic example.",
+      "Every UFD is a PID, but not vice versa."
+    ]
+  },
+  {
+    "word_no.": 274,
+    "word": "Unique Factorization Domain",
+    "hints": [
+      "An integral domain where unique factorization into primes holds.",
+      "The integers are a classic example.",
+      "Also known as a factorial ring."
+    ]
+  },
+  {
+    "word_no.": 275,
+    "word": "Quadratic Number Field",
+    "hints": [
+      "A number field of degree 2 over the rational numbers.",
+      "Example: the field containing square root of 2.",
+      "Its study is a key part of algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 276,
+    "word": "Cyclotomic Field",
+    "hints": [
+      "A number field that is a field extension of the rational numbers.",
+      "It is formed by adjoining a root of unity.",
+      "Plays a key role in the proof of Fermat's Last Theorem."
+    ]
+  },
+  {
+    "word_no.": 277,
+    "word": "Ideal Theory",
+    "hints": [
+      "The study of ideals in ring theory.",
+      "Used to generalize the concept of divisibility to more general rings.",
+      "Developed by Richard Dedekind."
+    ]
+  },
+  {
+    "word_no.": 278,
+    "word": "Fundamental Theorem of Algebra",
+    "hints": [
+      "States that every non-constant single-variable polynomial with complex coefficients has at least one root.",
+      "This implies that a polynomial of degree n has exactly n roots.",
+      "It's a foundational result in algebra."
+    ]
+  },
+  {
+    "word_no.": 279,
+    "word": "Transcendental Number",
+    "hints": [
+      "A real or complex number that is not a root of a non-zero polynomial with integer coefficients.",
+      "Examples are pi and e.",
+      "All transcendental numbers are irrational."
+    ]
+  },
+  {
+    "word_no.": 280,
+    "word": "Algebraic Number",
+    "hints": [
+      "A number that is a root of a non-zero polynomial with rational coefficients.",
+      "Examples are sqrt(2) and 5.",
+      "The set of these numbers is countable."
+    ]
+  },
+  {
+    "word_no.": 281,
+    "word": "Real Number",
+    "hints": [
+      "A value that represents a quantity along a continuous line.",
+      "Includes all rational and irrational numbers.",
+      "The set is denoted by R."
+    ]
+  },
+  {
+    "word_no.": 282,
+    "word": "Complex Number",
+    "hints": [
+      "A number that can be expressed in the form a + bi.",
+      "Where a and b are real numbers and i is the imaginary unit.",
+      "Example: 3 + 2i."
+    ]
+  },
+  {
+    "word_no.": 283,
+    "word": "Prime Ideal",
+    "hints": [
+      "A concept in ring theory that generalizes prime numbers.",
+      "An ideal p in a ring such that if a*b is in p, then a or b is in p.",
+      "Used in algebraic number theory."
+    ]
+  },
+  {
+    "word_no.": 284,
+    "word": "Relatively Prime",
+    "hints": [
+      "Two integers are this if their greatest common divisor is 1.",
+      "Also known as coprime.",
+      "The numbers 8 and 9 are an example."
+    ]
+  },
+  {
+    "word_no.": 285,
+    "word": "Composite Number",
+    "hints": [
+      "A natural number that has divisors other than 1 and itself.",
+      "The opposite of a prime number.",
+      "Example: 15."
+    ]
+  },
+  {
+    "word_no.": 286,
+    "word": "Prime Factor",
+    "hints": [
+      "A prime number that divides a given integer.",
+      "The prime factors of 30 are 2, 3, and 5.",
+      "The building blocks of integers."
+    ]
+  },
+  {
+    "word_no.": 287,
+    "word": "Divisor",
+    "hints": [
+      "A number that divides another number completely without a remainder.",
+      "Also known as a factor.",
+      "The divisors of 15 are 1, 3, 5, and 15."
+    ]
+  },
+  {
+    "word_no.": 288,
+    "word": "Multiple",
+    "hints": [
+      "A number that is the product of a given number and some integer.",
+      "Multiples of 7 are 7, 14, 21, 28, etc.",
+      "The number is divisible by the given number."
+    ]
+  },
+  {
+    "word_no.": 289,
+    "word": "Euclidean Algorithm",
+    "hints": [
+      "An efficient method for computing the greatest common divisor.",
+      "It involves a sequence of divisions with remainder.",
+      "A fundamental algorithm in number theory."
+    ]
+  },
+  {
+    "word_no.": 290,
+    "word": "Prime Number Theorem",
+    "hints": [
+      "Describes the asymptotic distribution of prime numbers.",
+      "States that pi(x) is approximately x/ln(x).",
+      "A fundamental result in analytic number theory."
+    ]
+  },
+  {
+    "word_no.": 291,
+    "word": "Goldbach Conjecture",
+    "hints": [
+      "One of the oldest unsolved problems in number theory.",
+      "States that every even integer greater than 2 is the sum of two primes.",
+      "No counterexample has ever been found."
+    ]
+  },
+  {
+    "word_no.": 292,
+    "word": "Riemann Hypothesis",
+    "hints": [
+      "A conjecture about the zeros of the Riemann zeta function.",
+      "Considered one of the most important unsolved problems in mathematics.",
+      "It has major implications for the distribution of prime numbers."
+    ]
+  },
+  {
+    "word_no.": 293,
+    "word": "Perfect Number",
+    "hints": [
+      "A positive integer that is equal to the sum of its proper positive divisors.",
+      "The first example is 6, as 1+2+3=6.",
+      "The next one is 28."
+    ]
+  },
+  {
+    "word_no.": 294,
+    "word": "Abundant Number",
+    "hints": [
+      "A positive integer where the sum of its proper divisors is greater than the number itself.",
+      "The first is 12.",
+      "Also known as an excessive number."
+    ]
+  },
+  {
+    "word_no.": 295,
+    "word": "Deficient Number",
+    "hints": [
+      "A positive integer where the sum of its proper divisors is less than the number itself.",
+      "All prime numbers are in this category.",
+      "Examples are 1, 2, 3, 4, 5, 7, 8, 9, 10, 11."
+    ]
+  },
+  {
+    "word_no.": 296,
+    "word": "Amicable Numbers",
+    "hints": [
+      "Two different natural numbers such that the sum of the proper divisors of each is equal to the other.",
+      "The smallest pair is 220 and 284.",
+      "Also known as friendly numbers."
+    ]
+  },
+  {
+    "word_no.": 297,
+    "word": "Fibonacci Numbers",
+    "hints": [
+      "A sequence of numbers where each number is the sum of the two preceding ones.",
+      "The sequence starts with 0 and 1.",
+      "Named after a medieval Italian mathematician."
+    ]
+  },
+  {
+    "word_no.": 298,
+    "word": "Mersenne Prime",
+    "hints": [
+      "A prime number that is one less than a power of two.",
+      "Must be of the form 2^p - 1.",
+      "The first is 3, which is 2^2 - 1."
+    ]
+  },
+  {
+    "word_no.": 299,
+    "word": "Twin Primes",
+    "hints": [
+      "A pair of prime numbers that differ by 2.",
+      "Examples are (3, 5), (5, 7), (11, 13).",
+      "The twin prime conjecture is an unsolved problem."
+    ]
+  },
+  {
+    "word_no.": 300,
+    "word": "Fermat's Last Theorem",
+    "hints": [
+      "A famous theorem stating no three positive integers a, b, and c satisfy the equation a^n + b^n = c^n for any integer value of n greater than 2.",
+      "Proposed by a French lawyer and mathematician.",
+      "Andrew Wiles provided a proof in 1994."
+    ]
+  }
+]

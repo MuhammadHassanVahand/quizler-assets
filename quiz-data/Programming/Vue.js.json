@@ -1,0 +1,1829 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Vue.js primarily known for?",
+    "Option1": "A backend framework for building APIs.",
+    "Option2": "A progressive JavaScript framework for building user interfaces.",
+    "Option3": "A database management system.",
+    "Option4": "A mobile application development platform.",
+    "Answer": "A progressive JavaScript framework for building user interfaces."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who created Vue.js?",
+    "Option1": "Facebook",
+    "Option2": "Google",
+    "Option3": "Evan You",
+    "Option4": "Microsoft",
+    "Answer": "Evan You"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What does 'progressive framework' mean in the context of Vue.js?",
+    "Option1": "It constantly updates itself automatically.",
+    "Option2": "It can be incrementally adopted and integrated into existing projects.",
+    "Option3": "It is only for building large, complex applications.",
+    "Option4": "It focuses on server-side rendering.",
+    "Answer": "It can be incrementally adopted and integrated into existing projects."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the core concept of Vue.js for managing the DOM?",
+    "Option1": "Direct DOM manipulation.",
+    "Option2": "Virtual DOM.",
+    "Option3": "Shadow DOM.",
+    "Option4": "Server-side rendering only.",
+    "Answer": "Virtual DOM."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a Vue instance?",
+    "Option1": "A global variable that holds application data.",
+    "Option2": "The root Vue application or component, created with `new Vue()` (Vue 2) or `createApp()` (Vue 3).",
+    "Option3": "A type of database connection.",
+    "Option4": "A command-line interface for Vue projects.",
+    "Answer": "The root Vue application or component, created with `new Vue()` (Vue 2) or `createApp()` (Vue 3)."
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you typically mount a Vue application to an HTML element?",
+    "Option1": "Using `document.getElementById().appendChild()`",
+    "Option2": "Using the `el` option in the Vue instance or `app.mount()`.",
+    "Option3": "By adding a `<vue-app>` tag to the HTML.",
+    "Option4": "Through a server-side configuration.",
+    "Answer": "Using the `el` option in the Vue instance or `app.mount()`."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the `data` option used for in a Vue component?",
+    "Option1": "To define props passed to the component.",
+    "Option2": "To declare reactive data properties for the component instance.",
+    "Option3": "To fetch data from an API.",
+    "Option4": "To define methods for the component.",
+    "Answer": "To declare reactive data properties for the component instance."
+  },
+  {
+    "question_no.": 8,
+    "Question": "Why must `data` be a function in a Vue component (not the root instance)?",
+    "Option1": "To prevent data from being accidentally modified.",
+    "Option2": "To ensure each component instance has its own independent copy of the data.",
+    "Option3": "To improve performance of data binding.",
+    "Option4": "It's a historical artifact and no longer necessary.",
+    "Answer": "To ensure each component instance has its own independent copy of the data."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is 'declarative rendering' in Vue.js?",
+    "Option1": "Manually updating the DOM with JavaScript.",
+    "Option2": "Describing what you want the UI to look like based on data, and Vue handles the DOM updates.",
+    "Option3": "Rendering the UI on the server-side only.",
+    "Option4": "Using a build tool to generate HTML.",
+    "Answer": "Describing what you want the UI to look like based on data, and Vue handles the DOM updates."
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you display a data property `message` within a template?",
+    "Option1": "<p>{{ message }}</p>",
+    "Option2": "<p v-text=\"message\"></p>",
+    "Option3": "<p>message</p>",
+    "Option4": "<p class=\"message\"></p>",
+    "Answer": "<p>{{ message }}</p>"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the purpose of the `v-bind` directive?",
+    "Option1": "To conditionally render an element.",
+    "Option2": "To bind HTML attributes to reactive data.",
+    "Option3": "To loop through an array of data.",
+    "Option4": "To handle user input.",
+    "Answer": "To bind HTML attributes to reactive data."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the shorthand for `v-bind:href`?",
+    "Option1": ":href",
+    "Option2": "#href",
+    "Option3": "@href",
+    "Option4": "bind-href",
+    "Answer": ":href"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the purpose of the `v-on` directive?",
+    "Option1": "To bind data to form inputs.",
+    "Option2": "To conditionally render elements.",
+    "Option3": "To attach event listeners to elements.",
+    "Option4": "To toggle element visibility.",
+    "Answer": "To attach event listeners to elements."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the shorthand for `v-on:click`?",
+    "Option1": ":click",
+    "Option2": "#click",
+    "Option3": "@click",
+    "Option4": "on-click",
+    "Answer": "@click"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'computed property' in Vue.js?",
+    "Option1": "A method that runs only once.",
+    "Option2": "A property that is dynamically calculated based on other reactive data and cached.",
+    "Option3": "A property that is passed down from a parent component.",
+    "Option4": "A piece of data that can only be set by the user.",
+    "Answer": "A property that is dynamically calculated based on other reactive data and cached."
+  },
+  {
+    "question_no.": 16,
+    "Question": "When should you use a computed property instead of a method?",
+    "Option1": "When the logic is simple.",
+    "Option2": "When the calculation is expensive and depends on reactive data, and you want it cached.",
+    "Option3": "When the calculation needs to be performed only once.",
+    "Option4": "When you need to perform side effects.",
+    "Answer": "When the calculation is expensive and depends on reactive data, and you want it cached."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is a 'watcher' in Vue.js?",
+    "Option1": "A function that is called when a component is mounted.",
+    "Option2": "A reactive property that tracks changes in the DOM.",
+    "Option3": "A way to perform side effects in response to data changes.",
+    "Option4": "A built-in utility for debugging.",
+    "Answer": "A way to perform side effects in response to data changes."
+  },
+  {
+    "question_no.": 18,
+    "Question": "When should you use a watcher instead of a computed property?",
+    "Option1": "When you need to perform asynchronous operations or complex side effects in response to data changes.",
+    "Option2": "When the calculation is simple and needs to be cached.",
+    "Option3": "When you want to derive a new piece of data.",
+    "Option4": "When dealing with static data.",
+    "Answer": "When you need to perform asynchronous operations or complex side effects in response to data changes."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the `v-model` directive used for?",
+    "Option1": "One-way data binding for attributes.",
+    "Option2": "Two-way data binding on form input elements.",
+    "Option3": "Looping through arrays.",
+    "Option4": "Conditionally rendering elements.",
+    "Answer": "Two-way data binding on form input elements."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What does `v-model` effectively do behind the scenes for a text input?",
+    "Option1": "Combines `v-bind:value` and `v-on:input`.",
+    "Option2": "Combines `v-bind:text` and `v-on:change`.",
+    "Option3": "Just binds the value.",
+    "Option4": "Just handles the input event.",
+    "Answer": "Combines `v-bind:value` and `v-on:input`."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is the purpose of the `v-if` directive?",
+    "Option1": "To toggle the visibility of an element without removing it from the DOM.",
+    "Option2": "To conditionally render a block of elements based on a truthy/falsy condition, completely removing/re-creating it from the DOM.",
+    "Option3": "To loop through an array.",
+    "Option4": "To bind attributes.",
+    "Answer": "To conditionally render a block of elements based on a truthy/falsy condition, completely removing/re-creating it from the DOM."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the purpose of the `v-show` directive?",
+    "Option1": "To conditionally render a block of elements based on a truthy/falsy condition, completely removing/re-creating it from the DOM.",
+    "Option2": "To toggle the visibility of an element by manipulating its CSS `display` property.",
+    "Option3": "To hide an element permanently.",
+    "Option4": "To display a message in the console.",
+    "Answer": "To toggle the visibility of an element by manipulating its CSS `display` property."
+  },
+  {
+    "question_no.": 23,
+    "Question": "When would you prefer `v-if` over `v-show`?",
+    "Option1": "When frequent toggling is expected.",
+    "Option2": "When the element needs to be completely removed from the DOM for performance or semantic reasons, and the condition rarely changes.",
+    "Option3": "When you want to animate the visibility.",
+    "Option4": "They are always interchangeable.",
+    "Answer": "When the element needs to be completely removed from the DOM for performance or semantic reasons, and the condition rarely changes."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the purpose of the `v-for` directive?",
+    "Option1": "To conditionally render elements.",
+    "Option2": "To iterate over an array or object to render a list of items.",
+    "Option3": "To bind event listeners.",
+    "Option4": "To create forms.",
+    "Answer": "To iterate over an array or object to render a list of items."
+  },
+  {
+    "question_no.": 25,
+    "Question": "When using `v-for`, what is the importance of the `:key` attribute?",
+    "Option1": "It's optional and only for styling.",
+    "Option2": "It helps Vue efficiently update the list when data changes, improving performance and avoiding unexpected behavior.",
+    "Option3": "It's used for accessibility purposes.",
+    "Option4": "It defines the order of elements.",
+    "Answer": "It helps Vue efficiently update the list when data changes, improving performance and avoiding unexpected behavior."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What should typically be used as a `:key` value?",
+    "Option1": "The index of the item in the array.",
+    "Option2": "A unique and stable identifier for each item (e.g., an ID from a database).",
+    "Option3": "Any random string.",
+    "Option4": "The value of the item itself.",
+    "Answer": "A unique and stable identifier for each item (e.g., an ID from a database)."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a 'component' in Vue.js?",
+    "Option1": "A global variable that can be accessed anywhere.",
+    "Option2": "A reusable, self-contained building block for UI that encapsulates its own logic and view.",
+    "Option3": "A type of data structure.",
+    "Option4": "A debugging tool.",
+    "Answer": "A reusable, self-contained building block for UI that encapsulates its own logic and view."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What are 'props' in Vue.js?",
+    "Option1": "Internal data of a component.",
+    "Option2": "Custom attributes that you can register on a component to pass data from a parent component to a child component.",
+    "Option3": "Event emitters for child-to-parent communication.",
+    "Option4": "Global configuration settings.",
+    "Answer": "Custom attributes that you can register on a component to pass data from a parent component to a child component."
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you define a prop `message` in a child component?",
+    "Option1": "data() { return { message: '' } }",
+    "Option2": "props: ['message']",
+    "Option3": "computed: { message() { return '' } }",
+    "Option4": "methods: { getMessage() { return '' } }",
+    "Answer": "props: ['message']"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you pass a prop `myProp` with a value of `Hello` from a parent to a child component?",
+    "Option1": "<ChildComponent myProp=\"Hello\" />",
+    "Option2": "<ChildComponent :myProp=\"'Hello'\" />",
+    "Option3": "<ChildComponent v-bind:myProp=\"'Hello'\" />",
+    "Option4": "<ChildComponent prop-myProp=\"Hello\" />",
+    "Answer": "<ChildComponent :myProp=\"'Hello'\" />"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of 'events' (`$emit`) for component communication?",
+    "Option1": "To pass data from parent to child.",
+    "Option2": "To allow child components to communicate with their parent components.",
+    "Option3": "To manage global state.",
+    "Option4": "To perform network requests.",
+    "Answer": "To allow child components to communicate with their parent components."
+  },
+  {
+    "question_no.": 32,
+    "Question": "How does a child component emit a custom event named `my-event`?",
+    "Option1": "this.$on('my-event')",
+    "Option2": "this.$broadcast('my-event')",
+    "Option3": "this.$emit('my-event')",
+    "Option4": "this.$dispatch('my-event')",
+    "Answer": "this.$emit('my-event')"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How does a parent component listen for a custom event named `my-event` from a child?",
+    "Option1": "<ChildComponent v-on:my-event=\"handler\" />",
+    "Option2": "<ChildComponent @my-event=\"handler\" />",
+    "Option3": "<ChildComponent :my-event=\"handler\" />",
+    "Option4": "<ChildComponent onMyEvent=\"handler\" />",
+    "Answer": "<ChildComponent @my-event=\"handler\" />"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is a 'slot' in Vue.js?",
+    "Option1": "A placeholder for JavaScript code.",
+    "Option2": "A mechanism for passing content (HTML, components) from a parent component into a child component's layout.",
+    "Option3": "A way to define reactive data.",
+    "Option4": "A built-in directive for forms.",
+    "Answer": "A mechanism for passing content (HTML, components) from a parent component into a child component's layout."
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you define a default slot in a child component's template?",
+    "Option1": "`<div><template slot=\"default\"></template></div>`",
+    "Option2": "`<div><slot></slot></div>`",
+    "Option3": "`<div><slot name=\"default\"></slot></div>`",
+    "Option4": "`<div><template v-slot></template></div>`",
+    "Answer": "`<div><slot></slot></div>`"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is a 'named slot'?",
+    "Option1": "A slot that can only accept a single element.",
+    "Option2": "A slot that is explicitly named to allow passing specific content to different placeholders.",
+    "Option3": "A slot that automatically generates content.",
+    "Option4": "A slot used for global components.",
+    "Answer": "A slot that is explicitly named to allow passing specific content to different placeholders."
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you pass content to a named slot `header` from a parent component (Vue 2 syntax)?",
+    "Option1": "`<ChildComponent><template slot=\"header\">...</template></ChildComponent>`",
+    "Option2": "`<ChildComponent><header>...</header></ChildComponent>`",
+    "Option3": "`<ChildComponent v-slot:header=\"...\"></ChildComponent>`",
+    "Option4": "`<ChildComponent slot-header=\"...\"></ChildComponent>`",
+    "Answer": "`<ChildComponent><template slot=\"header\">...</template></ChildComponent>`"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What are 'scoped slots' (or 'slots with props')?",
+    "Option1": "Slots that only work within a specific CSS scope.",
+    "Option2": "Slots that allow the child component to pass data back to the parent component for use within the slot content.",
+    "Option3": "Slots that are only visible to logged-in users.",
+    "Option4": "Slots that are dynamically generated.",
+    "Answer": "Slots that allow the child component to pass data back to the parent component for use within the slot content."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the purpose of the `mounted` lifecycle hook?",
+    "Option1": "Called immediately after the component is rendered to the DOM for the first time.",
+    "Option2": "Called before the component is created.",
+    "Option3": "Called when the component's data changes.",
+    "Option4": "Called before the component is destroyed.",
+    "Answer": "Called immediately after the component is rendered to the DOM for the first time."
+  },
+  {
+    "question_no.": 40,
+    "Question": "In which lifecycle hook would you typically perform initial data fetching from an API?",
+    "Option1": "`created` or `mounted`.",
+    "Option2": "`beforeDestroy`.",
+    "Option3": "`updated`.",
+    "Option4": "`beforeCreate`.",
+    "Answer": "`created` or `mounted`."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which lifecycle hook is called before a component is removed from the DOM?",
+    "Option1": "`mounted`",
+    "Option2": "`updated`",
+    "Option3": "`beforeUnmount` (Vue 3) / `beforeDestroy` (Vue 2)",
+    "Option4": "`created`",
+    "Answer": "`beforeUnmount` (Vue 3) / `beforeDestroy` (Vue 2)"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the purpose of the `updated` lifecycle hook?",
+    "Option1": "Called before the component is updated.",
+    "Option2": "Called after a reactive data change causes the component's DOM to be updated.",
+    "Option3": "Called only when props change.",
+    "Option4": "Called when the component is initially created.",
+    "Answer": "Called after a reactive data change causes the component's DOM to be updated."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the Vue CLI?",
+    "Option1": "A library for building UI components.",
+    "Option2": "A command-line interface tool for rapidly developing Vue.js applications.",
+    "Option3": "A package manager for Vue projects.",
+    "Option4": "A debugger for Vue applications.",
+    "Answer": "A command-line interface tool for rapidly developing Vue.js applications."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What command would you use to create a new Vue project using Vue CLI?",
+    "Option1": "`vue create my-app`",
+    "Option2": "`npm init vue-app`",
+    "Option3": "`create-vue-app my-app`",
+    "Option4": "`vue new my-app`",
+    "Answer": "`vue create my-app`"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a `.vue` single-file component (SFC)?",
+    "Option1": "A JavaScript file containing only Vue logic.",
+    "Option2": "A file that encapsulates a component's template, script (logic), and style in a single `.vue` file.",
+    "Option3": "An HTML file for Vue applications.",
+    "Option4": "A configuration file for Vue CLI.",
+    "Answer": "A file that encapsulates a component's template, script (logic), and style in a single `.vue` file."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What are the three main blocks in a `.vue` SFC?",
+    "Option1": "`<head>`, `<body>`, `<footer>`",
+    "Option2": "`<script>`, `<style>`, `<template>`",
+    "Option3": "`<data>`, `<methods>`, `<computed>`",
+    "Option4": "`<props>`, `<events>`, `<slots>`",
+    "Answer": "`<script>`, `<style>`, `<template>`"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What does the `scoped` attribute on a `<style>` tag in an SFC do?",
+    "Option1": "Makes the styles global.",
+    "Option2": "Limits the styles to only apply to the current component's elements.",
+    "Option3": "Applies styles to all child components.",
+    "Option4": "Disables styling for the component.",
+    "Answer": "Limits the styles to only apply to the current component's elements."
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you define reactive data using the Composition API (Vue 3)?",
+    "Option1": "`data: { count: 0 }`",
+    "Option2": "`const count = ref(0);`",
+    "Option3": "`const count = reactive({ value: 0 });`",
+    "Option4": "`const count = computed(() => 0);`",
+    "Answer": "`const count = ref(0);`"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the difference between `ref` and `reactive` in the Composition API?",
+    "Option1": "`ref` is for objects, `reactive` is for primitives.",
+    "Option2": "`ref` wraps a single value (primitive or object) in a reactive object; `reactive` makes an object itself reactive.",
+    "Option3": "They are interchangeable.",
+    "Option4": "`ref` is for arrays, `reactive` for strings.",
+    "Answer": "`ref` wraps a single value (primitive or object) in a reactive object; `reactive` makes an object itself reactive."
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you access the value of a `ref` inside the `<script setup>` or `setup()` function?",
+    "Option1": "count",
+    "Option2": "count.value",
+    "Option3": "count()",
+    "Option4": "this.count",
+    "Answer": "count.value"
+  },
+  {
+    "question_no.": 51,
+    "Question": "How do you access the value of a `ref` inside the template?",
+    "Option1": "count.value",
+    "Option2": "count",
+    "Option3": "count()",
+    "Option4": "this.count",
+    "Answer": "count"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is `computed` used for in the Composition API?",
+    "Option1": "To define a method.",
+    "Option2": "To create a reactive property based on other reactive data, with caching.",
+    "Option3": "To watch for data changes.",
+    "Option4": "To define props.",
+    "Answer": "To create a reactive property based on other reactive data, with caching."
+  },
+  {
+    "question_no.": 53,
+    "Question": "How do you define a computed property `fullName` from `firstName` and `lastName` refs?",
+    "Option1": "const fullName = computed(() => firstName.value + ' ' + lastName.value);",
+    "Option2": "const fullName = () => firstName.value + ' ' + lastName.value;",
+    "Option3": "const fullName = watch(() => ...);",
+    "Option4": "const fullName = reactive({ ... });",
+    "Answer": "const fullName = computed(() => firstName.value + ' ' + lastName.value);"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `watch` used for in the Composition API?",
+    "Option1": "To declare reactive state.",
+    "Option2": "To perform side effects in response to reactive data changes.",
+    "Option3": "To define computed properties.",
+    "Option4": "To create a component.",
+    "Answer": "To perform side effects in response to reactive data changes."
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you watch a `ref` named `count` and log its new value?",
+    "Option1": "watch(count, (newVal) => console.log(newVal));",
+    "Option2": "watch(() => count.value, (newVal) => console.log(newVal));",
+    "Option3": "watch(count.value, (newVal) => console.log(newVal));",
+    "Option4": "watch: { count(newVal) { console.log(newVal); } }",
+    "Answer": "watch(count, (newVal) => console.log(newVal));"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the `setup()` function in the Composition API?",
+    "Option1": "A lifecycle hook called before `created`.",
+    "Option2": "The entry point for using the Composition API within a component.",
+    "Option3": "A method for defining global configurations.",
+    "Option4": "A function that registers components.",
+    "Answer": "The entry point for using the Composition API within a component."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the purpose of `<script setup>` (Vue 3)?",
+    "Option1": "It's a separate script for unit testing.",
+    "Option2": "A syntactic sugar that simplifies the use of the Composition API within SFCs, eliminating the need for an explicit `setup()` function.",
+    "Option3": "A script that runs on the server.",
+    "Option4": "A way to embed external JavaScript libraries.",
+    "Answer": "A syntactic sugar that simplifies the use of the Composition API within SFCs, eliminating the need for an explicit `setup()` function."
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you define props in `<script setup>`?",
+    "Option1": "const props = defineProps(['message']);",
+    "Option2": "props: ['message']",
+    "Option3": "defineProps({ message: String });",
+    "Option4": "const message = ref('');",
+    "Answer": "defineProps({ message: String });"
+  },
+  {
+    "question_no.": 59,
+    "Question": "How do you emit events in `<script setup>`?",
+    "Option1": "this.$emit('event-name');",
+    "Option2": "const emit = defineEmits(['event-name']); emit('event-name');",
+    "Option3": "emitEvent('event-name');",
+    "Option4": "defineEmits.event('event-name');",
+    "Answer": "const emit = defineEmits(['event-name']); emit('event-name');"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Vue Router' used for?",
+    "Option1": "Managing application state.",
+    "Option2": "Handling client-side routing in single-page applications.",
+    "Option3": "Fetching data from a server.",
+    "Option4": "Validating form inputs.",
+    "Answer": "Handling client-side routing in single-page applications."
+  },
+  {
+    "question_no.": 61,
+    "Question": "How do you define a basic route in Vue Router?",
+    "Option1": "[{ path: '/home', component: Home }]",
+    "Option2": "router.add('/home', Home);",
+    "Option3": "new Router({ routes: [{ path: '/home', component: Home }] });",
+    "Option4": "Router.set('/home', Home);",
+    "Answer": "new Router({ routes: [{ path: '/home', component: Home }] });"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the `<router-view>` component used for?",
+    "Option1": "To display a list of all routes.",
+    "Option2": "To define a navigation link.",
+    "Option3": "To render the component that matches the current route.",
+    "Option4": "To create a nested route.",
+    "Answer": "To render the component that matches the current route."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the `<router-link>` component used for?",
+    "Option1": "To create an `<a>` tag that handles client-side navigation without a full page reload.",
+    "Option2": "To fetch data from a server.",
+    "Option3": "To define a route path.",
+    "Option4": "To dynamically load components.",
+    "Answer": "To create an `<a>` tag that handles client-side navigation without a full page reload."
+  },
+  {
+    "question_no.": 64,
+    "Question": "How do you navigate programmatically using Vue Router?",
+    "Option1": "this.$route.push('/about');",
+    "Option2": "this.$router.push('/about');",
+    "Option3": "router.go('/about');",
+    "Option4": "window.location.href = '/about';",
+    "Answer": "this.$router.push('/about');"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Vuex' (Vue 2) or 'Pinia' (Vue 3) used for?",
+    "Option1": "Component styling.",
+    "Option2": "Global state management for Vue applications.",
+    "Option3": "Animation effects.",
+    "Option4": "Form validation.",
+    "Answer": "Global state management for Vue applications."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What are 'state', 'getters', 'mutations', and 'actions' in Vuex?",
+    "Option1": "Lifecycle hooks.",
+    "Option2": "The core concepts for organizing and interacting with the Vuex store.",
+    "Option3": "Types of components.",
+    "Option4": "Directives.",
+    "Answer": "The core concepts for organizing and interacting with the Vuex store."
+  },
+  {
+    "question_no.": 67,
+    "Question": "In Vuex, what is the only way to change the state synchronously?",
+    "Option1": "Directly modifying the state.",
+    "Option2": "Through getters.",
+    "Option3": "By committing mutations.",
+    "Option4": "By dispatching actions.",
+    "Answer": "By committing mutations."
+  },
+  {
+    "question_no.": 68,
+    "Question": "In Vuex, what are 'actions' used for?",
+    "Option1": "Directly mutate the state.",
+    "Option2": "Perform asynchronous operations and then commit mutations.",
+    "Option3": "Compute derived state.",
+    "Option4": "Define reactive data.",
+    "Answer": "Perform asynchronous operations and then commit mutations."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the primary difference between Vuex and Pinia (Vue 3's new state management library)?",
+    "Option1": "Pinia is for smaller apps, Vuex for larger.",
+    "Option2": "Pinia uses a 'store' concept instead of modules, is more type-safe with TypeScript, and has a simpler API.",
+    "Option3": "Pinia is for server-side rendering only.",
+    "Option4": "Vuex is built on Composition API, Pinia on Options API.",
+    "Answer": "Pinia uses a 'store' concept instead of modules, is more type-safe with TypeScript, and has a simpler API."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you define a store in Pinia?",
+    "Option1": "const useCounterStore = defineStore('counter', { state: () => ({ count: 0 }) });",
+    "Option2": "new Store({ state: { count: 0 } });",
+    "Option3": "createPiniaStore('counter', { count: 0 });",
+    "Option4": "Pinia.store('counter', { count: 0 });",
+    "Answer": "const useCounterStore = defineStore('counter', { state: () => ({ count: 0 }) });"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Directives' in Vue.js?",
+    "Option1": "Special HTML attributes with the `v-` prefix that apply reactive behavior to the DOM.",
+    "Option2": "Component lifecycle hooks.",
+    "Option3": "Methods for data manipulation.",
+    "Option4": "Styling rules for components.",
+    "Answer": "Special HTML attributes with the `v-` prefix that apply reactive behavior to the DOM."
+  },
+  {
+    "question_no.": 72,
+    "Question": "Can you create custom directives in Vue.js?",
+    "Option1": "No, only built-in directives are available.",
+    "Option2": "Yes, to encapsulate DOM manipulation logic that is not suitable for components.",
+    "Option3": "Only in Vue 3.",
+    "Option4": "Only for styling purposes.",
+    "Answer": "Yes, to encapsulate DOM manipulation logic that is not suitable for components."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the `v-once` directive used for?",
+    "Option1": "To render the element and component once, and then skip future updates.",
+    "Option2": "To execute a method only once.",
+    "Option3": "To bind an event listener only once.",
+    "Option4": "To conditionally render an element based on a single condition.",
+    "Answer": "To render the element and component once, and then skip future updates."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the `v-html` directive used for?",
+    "Option1": "To render plain text.",
+    "Option2": "To output raw HTML content, often from untrusted sources (use with caution!).",
+    "Option3": "To bind a variable to the `innerHTML` property.",
+    "Option4": "To create a form input.",
+    "Answer": "To output raw HTML content, often from untrusted sources (use with caution!)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the potential security risk of using `v-html` with untrusted content?",
+    "Option1": "Performance issues.",
+    "Option2": "Cross-Site Scripting (XSS) attacks.",
+    "Option3": "Styling conflicts.",
+    "Option4": "Broken layouts.",
+    "Answer": "Cross-Site Scripting (XSS) attacks."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'mixins' in Vue.js (Vue 2)?",
+    "Option1": "A way to define global components.",
+    "Option2": "A flexible way to distribute reusable functionalities for Vue components.",
+    "Option3": "A method for combining two arrays.",
+    "Option4": "A type of plugin for Vue CLI.",
+    "Answer": "A flexible way to distribute reusable functionalities for Vue components."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the recommended alternative to mixins in Vue 3?",
+    "Option1": "Filters.",
+    "Option2": "Custom directives.",
+    "Option3": "The Composition API (composables).",
+    "Option4": "Global prototypes.",
+    "Answer": "The Composition API (composables)."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What are 'filters' in Vue.js (Vue 2)?",
+    "Option1": "Functions used to transform data before it is displayed in the template.",
+    "Option2": "A way to filter arrays of objects.",
+    "Option3": "A method for conditionally rendering elements.",
+    "Option4": "A lifecycle hook.",
+    "Answer": "Functions used to transform data before it is displayed in the template."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the recommended alternative to filters in Vue 3?",
+    "Option1": "Computed properties or methods.",
+    "Option2": "Mixins.",
+    "Option3": "Custom directives.",
+    "Option4": "Watchers.",
+    "Answer": "Computed properties or methods."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Server-Side Rendering (SSR)' in Vue.js?",
+    "Option1": "Rendering components directly in the browser.",
+    "Option2": "Rendering Vue components into HTML strings on the server and sending them to the client.",
+    "Option3": "A technique for fetching data from a server.",
+    "Option4": "A method for deploying Vue applications.",
+    "Answer": "Rendering Vue components into HTML strings on the server and sending them to the client."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What are the benefits of SSR for Vue applications?",
+    "Option1": "Faster initial page load and better SEO.",
+    "Option2": "Simpler development workflow.",
+    "Option3": "Reduced server load.",
+    "Option4": "More dynamic user interfaces.",
+    "Answer": "Faster initial page load and better SEO."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Nuxt.js'?",
+    "Option1": "A lightweight alternative to Vue CLI.",
+    "Option2": "A full-stack framework built on top of Vue.js for universal (SSR) and static site generation.",
+    "Option3": "A UI component library for Vue.",
+    "Option4": "A state management solution.",
+    "Answer": "A full-stack framework built on top of Vue.js for universal (SSR) and static site generation."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Transition' in Vue.js?",
+    "Option1": "A component that allows you to apply entry/leave transitions for elements or components.",
+    "Option2": "A method for changing routes.",
+    "Option3": "A built-in directive for animating lists.",
+    "Option4": "A CSS property for animations.",
+    "Answer": "A component that allows you to apply entry/leave transitions for elements or components."
+  },
+  {
+    "question_no.": 84,
+    "Question": "How do you apply a basic fade transition to an element?",
+    "Option1": "<div class=\"fade\">...</div>",
+    "Option2": "<transition name=\"fade\"><div v-if=\"show\">...</div></transition>",
+    "Option3": "<fade-animation>...</fade-animation>",
+    "Option4": "<div v-transition=\"fade\">...</div>",
+    "Answer": "<transition name=\"fade\"><div v-if=\"show\">...</div></transition>"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What are the CSS classes that Vue adds during a transition?",
+    "Option1": "e.g., `.fade-enter`, `.fade-enter-active`, `.fade-leave`, `.fade-leave-active`",
+    "Option2": "e.g., `.fade-in`, `.fade-out`",
+    "Option3": "e.g., `.transition-start`, `.transition-end`",
+    "Option4": "e.g., `.entering`, `.leaving`",
+    "Answer": "e.g., `.fade-enter`, `.fade-enter-active`, `.fade-leave`, `.fade-leave-active`"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `TransitionGroup` used for?",
+    "Option1": "Applying transitions to individual elements.",
+    "Option2": "Applying transitions to lists of elements that are inserted, removed, or reordered.",
+    "Option3": "Grouping multiple transitions together.",
+    "Option4": "Creating complex multi-stage animations.",
+    "Answer": "Applying transitions to lists of elements that are inserted, removed, or reordered."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the `keep-alive` component used for?",
+    "Option1": "To keep a component always visible.",
+    "Option2": "To conditionally render a component.",
+    "Option3": "To cache inactive component instances when toggling between them, preventing re-rendering.",
+    "Option4": "To prevent a component from being destroyed.",
+    "Answer": "To cache inactive component instances when toggling between them, preventing re-rendering."
+  },
+  {
+    "question_no.": 88,
+    "Question": "When is `keep-alive` particularly useful?",
+    "Option1": "For static content.",
+    "Option2": "For dynamic components or route views where maintaining state and avoiding costly re-renders is important.",
+    "Option3": "For server-side rendering.",
+    "Option4": "For small, simple components.",
+    "Answer": "For dynamic components or route views where maintaining state and avoiding costly re-renders is important."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What are 'Plugins' in Vue.js?",
+    "Option1": "External JavaScript libraries that enhance Vue's functionality.",
+    "Option2": "Self-contained code that adds global-level functionality to Vue, such as installing a library, adding global methods, or adding instance properties.",
+    "Option3": "Components that can be reused across projects.",
+    "Option4": "Tools for debugging Vue applications.",
+    "Answer": "Self-contained code that adds global-level functionality to Vue, such as installing a library, adding global methods, or adding instance properties."
+  },
+  {
+    "question_no.": 90,
+    "Question": "How do you install a Vue plugin?",
+    "Option1": "Vue.use(MyPlugin); (Vue 2) or app.use(MyPlugin); (Vue 3)",
+    "Option2": "import MyPlugin from 'my-plugin';",
+    "Option3": "npm install my-plugin;",
+    "Option4": "MyPlugin.install(Vue);",
+    "Answer": "Vue.use(MyPlugin); (Vue 2) or app.use(MyPlugin); (Vue 3)"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of `v-text` directive?",
+    "Option1": "To bind raw HTML content.",
+    "Option2": "To update the element's `textContent` with a data property, ensuring plain text rendering.",
+    "Option3": "To display a list of items.",
+    "Option4": "To create a textarea element.",
+    "Answer": "To update the element's `textContent` with a data property, ensuring plain text rendering."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the purpose of `v-cloak` directive?",
+    "Option1": "To hide a Vue instance until it is compiled.",
+    "Option2": "To display a loading spinner.",
+    "Option3": "To apply a specific CSS class.",
+    "Option4": "To prevent JavaScript execution.",
+    "Answer": "To hide a Vue instance until it is compiled."
+  },
+  {
+    "question_no.": 93,
+    "Question": "How do you make a prop required in Vue 2?",
+    "Option1": "props: { message: { type: String, required: true } }",
+    "Option2": "props: ['message!']",
+    "Option3": "props: { message: String, required: true }",
+    "Option4": "props: { message: { default: null } }",
+    "Answer": "props: { message: { type: String, required: true } }"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'prop validation' in Vue.js?",
+    "Option1": "Ensuring props are passed correctly from parent to child.",
+    "Option2": "Defining rules for props to ensure they meet certain types, values, or requirements.",
+    "Option3": "Validating user input in forms.",
+    "Option4": "Checking if a prop exists.",
+    "Answer": "Defining rules for props to ensure they meet certain types, values, or requirements."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the `this.$refs` object used for?",
+    "Option1": "To store global data.",
+    "Option2": "To directly access DOM elements or child component instances after they have been rendered.",
+    "Option3": "To access reactive properties.",
+    "Option4": "To manage routes.",
+    "Answer": "To directly access DOM elements or child component instances after they have been rendered."
+  },
+  {
+    "question_no.": 96,
+    "Question": "How do you assign a `ref` to an HTML element?",
+    "Option1": "<input id=\"my-input\">",
+    "Option2": "<input v-ref=\"myInput\">",
+    "Option3": "<input ref=\"myInput\">",
+    "Option4": "<input data-ref=\"myInput\">",
+    "Answer": "<input ref=\"myInput\">"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Custom Events' in Vue.js?",
+    "Option1": "Events that are built into the browser.",
+    "Option2": "Events that you define and emit from child components to communicate with parents.",
+    "Option3": "Events that are triggered by external APIs.",
+    "Option4": "Events that handle form submissions.",
+    "Answer": "Events that you define and emit from child components to communicate with parents."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Vue Devtools'?",
+    "Option1": "A command-line tool for building Vue applications.",
+    "Option2": "A browser extension for debugging and inspecting Vue applications.",
+    "Option3": "A code editor for Vue development.",
+    "Option4": "A library for testing Vue components.",
+    "Answer": "A browser extension for debugging and inspecting Vue applications."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What information can you typically see in Vue Devtools?",
+    "Option1": "Component hierarchy, data, props, computed properties, events, and Vuex/Pinia state.",
+    "Option2": "Server logs and database queries.",
+    "Option3": "Network traffic and HTTP requests.",
+    "Option4": "Operating system information.",
+    "Answer": "Component hierarchy, data, props, computed properties, events, and Vuex/Pinia state."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of `key` attribute on `v-for` and `transition-group`?",
+    "Option1": "To provide a unique identifier for CSS styling.",
+    "Option2": "To help Vue identify and track nodes for efficient updates and transitions.",
+    "Option3": "To link to external resources.",
+    "Option4": "To define the order of elements in the DOM.",
+    "Answer": "To help Vue identify and track nodes for efficient updates and transitions."
+  },
+  {
+    "question_no.": 101,
+    "Question": "When should you NOT use the index as a `key` for `v-for`?",
+    "Option1": "When the list is static and never changes.",
+    "Option2": "When the list items can be reordered, added, or removed, as it can lead to inefficient updates and state issues.",
+    "Option3": "When the list is very short.",
+    "Option4": "When the items in the list have unique IDs.",
+    "Answer": "When the list items can be reordered, added, or removed, as it can lead to inefficient updates and state issues."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `functional` component (Vue 2)?",
+    "Option1": "A component that has its own state and lifecycle.",
+    "Option2": "A stateless component that doesn't have internal state, lifecycle hooks, or `this` context, primarily used for presentational purposes.",
+    "Option3": "A component that uses the Composition API.",
+    "Option4": "A component that only renders once.",
+    "Answer": "A stateless component that doesn't have internal state, lifecycle hooks, or `this` context, primarily used for presentational purposes."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the equivalent of `functional` components in Vue 3?",
+    "Option1": "They are deprecated.",
+    "Option2": "Regular components with `<script setup>` and no reactive state.",
+    "Option3": "Mixins.",
+    "Option4": "Global components.",
+    "Answer": "Regular components with `<script setup>` and no reactive state."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'dynamic components' in Vue.js?",
+    "Option1": "Components that change their data dynamically.",
+    "Option2": "The ability to dynamically switch between multiple components at runtime using the `<component>` element and the `is` attribute.",
+    "Option3": "Components that are loaded asynchronously.",
+    "Option4": "Components that generate random content.",
+    "Answer": "The ability to dynamically switch between multiple components at runtime using the `<component>` element and the `is` attribute."
+  },
+  {
+    "question_no.": 105,
+    "Question": "How do you render a dynamic component?",
+    "Option1": "<div is=\"MyComponent\"></div>",
+    "Option2": "<component :is=\"currentComponentName\"></component>",
+    "Option3": "<DynamicComponent :name=\"currentComponentName\"></DynamicComponent>",
+    "Option4": "<v-component name=\"currentComponentName\"></v-component>",
+    "Answer": "<component :is=\"currentComponentName\"></component>"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'asynchronous components' (or 'lazy loading components')?",
+    "Option1": "Components that update their data asynchronously.",
+    "Option2": "Components that are loaded on demand, only when they are needed, improving initial load times.",
+    "Option3": "Components that use `async/await` in their methods.",
+    "Option4": "Components that communicate via web sockets.",
+    "Answer": "Components that are loaded on demand, only when they are needed, improving initial load times."
+  },
+  {
+    "question_no.": 107,
+    "Question": "How do you define an asynchronous component?",
+    "Option1": "const MyComponent = () => import('./MyComponent.vue');",
+    "Option2": "const MyComponent = lazyLoad('./MyComponent.vue');",
+    "Option3": "const MyComponent = require('./MyComponent.vue');",
+    "Option4": "const MyComponent = fetch('./MyComponent.vue');",
+    "Answer": "const MyComponent = () => import('./MyComponent.vue');"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'global registration' of components?",
+    "Option1": "Registering a component within a specific file.",
+    "Option2": "Registering a component so it can be used anywhere in your application without explicit import.",
+    "Option3": "Registering a component for server-side rendering.",
+    "Option4": "Registering a component in a build configuration file.",
+    "Answer": "Registering a component so it can be used anywhere in your application without explicit import."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'local registration' of components?",
+    "Option1": "Registering a component globally.",
+    "Option2": "Registering a component within the `components` option of another parent component, making it available only to that component and its children.",
+    "Option3": "Registering a component in a separate JavaScript file.",
+    "Option4": "Registering a component with a unique ID.",
+    "Answer": "Registering a component within the `components` option of another parent component, making it available only to that component and its children."
+  },
+  {
+    "question_no.": 110,
+    "Question": "When would you prefer local registration over global registration?",
+    "Option1": "For very small applications.",
+    "Option2": "For better tree-shaking, smaller bundle sizes, and clearer dependencies in larger applications.",
+    "Option3": "When you want components to be accessible from any part of your code.",
+    "Option4": "Never, global is always better.",
+    "Answer": "For better tree-shaking, smaller bundle sizes, and clearer dependencies in larger applications."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'render functions' in Vue.js?",
+    "Option1": "Functions that return raw HTML strings.",
+    "Option2": "A more programmatic way to create components and their virtual DOM nodes, instead of using templates.",
+    "Option3": "Functions that process data before rendering.",
+    "Option4": "Functions that handle animations.",
+    "Answer": "A more programmatic way to create components and their virtual DOM nodes, instead of using templates."
+  },
+  {
+    "question_no.": 112,
+    "Question": "When might you use render functions instead of templates?",
+    "Option1": "For simple, static components.",
+    "Option2": "For highly dynamic components or when programmatic control over the rendering process is needed.",
+    "Option3": "To improve SEO.",
+    "Option4": "When you only need to display text.",
+    "Answer": "For highly dynamic components or when programmatic control over the rendering process is needed."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Custom Directives' in Vue.js?",
+    "Option1": "Built-in directives like `v-if` or `v-for`.",
+    "Option2": "Directives that you define yourself to encapsulate reusable DOM manipulation logic.",
+    "Option3": "Directives for handling component lifecycle.",
+    "Option4": "Directives for state management.",
+    "Answer": "Directives that you define yourself to encapsulate reusable DOM manipulation logic."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What are the common hooks for custom directives (e.g., `bind`, `inserted`, `update`)?",
+    "Option1": "Lifecycle hooks for components.",
+    "Option2": "Functions that are called at different stages of a directive's lifecycle (e.g., when bound to an element, inserted into the DOM, or updated).",
+    "Option3": "Methods for data manipulation.",
+    "Option4": "Events triggered by user interaction.",
+    "Answer": "Functions that are called at different stages of a directive's lifecycle (e.g., when bound to an element, inserted into the DOM, or updated)."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'provide/inject' in Vue.js?",
+    "Option1": "A way to pass data from a child component to a parent.",
+    "Option2": "A pair of options for 'dependency injection' that allows a parent component to serve as a dependency provider for all its descendants, regardless of how deep the component hierarchy is.",
+    "Option3": "A method for fetching external scripts.",
+    "Option4": "A pattern for global state management (similar to Vuex).",
+    "Answer": "A pair of options for 'dependency injection' that allows a parent component to serve as a dependency provider for all its descendants, regardless of how deep the component hierarchy is."
+  },
+  {
+    "question_no.": 116,
+    "Question": "When would you use `provide/inject` instead of props/events?",
+    "Option1": "For direct parent-child communication.",
+    "Option2": "When passing data down through many levels of nested components ('prop drilling').",
+    "Option3": "For simple data sharing.",
+    "Option4": "When the data needs to be reactive and updated frequently.",
+    "Answer": "When passing data down through many levels of nested components ('prop drilling')."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the `Teleport` component (Vue 3)?",
+    "Option1": "A component for creating portals to other dimensions.",
+    "Option2": "A built-in component that allows you to render a component's content into a different part of the DOM, outside of its normal hierarchy.",
+    "Option3": "A component for asynchronous loading.",
+    "Option4": "A component for managing routing.",
+    "Answer": "A built-in component that allows you to render a component's content into a different part of the DOM, outside of its normal hierarchy."
+  },
+  {
+    "question_no.": 118,
+    "Question": "When is `Teleport` commonly used?",
+    "Option1": "For simple layouts.",
+    "Option2": "For modals, tooltips, and other elements that need to be outside the normal DOM flow to avoid z-index or overflow issues.",
+    "Option3": "For performance optimization.",
+    "Option4": "For creating reusable components.",
+    "Answer": "For modals, tooltips, and other elements that need to be outside the normal DOM flow to avoid z-index or overflow issues."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the purpose of `Suspense` (Vue 3)?",
+    "Option1": "A component for suspending application execution.",
+    "Option2": "A built-in component that allows you to render a fallback content while waiting for asynchronous dependencies to resolve.",
+    "Option3": "A component for handling errors gracefully.",
+    "Option4": "A component for delaying component creation.",
+    "Answer": "A built-in component that allows you to render a fallback content while waiting for asynchronous dependencies to resolve."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What kind of content can `Suspense` wait for?",
+    "Option1": "Only API calls.",
+    "Option2": "Asynchronous components or async setup functions.",
+    "Option3": "User interactions.",
+    "Option4": "CSS animations.",
+    "Answer": "Asynchronous components or async setup functions."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Reactivity' in Vue.js?",
+    "Option1": "The ability of components to react to user input.",
+    "Option2": "The system that automatically tracks changes to data and efficiently updates the DOM in response.",
+    "Option3": "The speed at which components load.",
+    "Option4": "The process of compiling Vue code.",
+    "Answer": "The system that automatically tracks changes to data and efficiently updates the DOM in response."
+  },
+  {
+    "question_no.": 122,
+    "Question": "How does Vue 2 achieve reactivity with the Options API?",
+    "Option1": "By using a virtual DOM only.",
+    "Option2": "By using getters/setters and `Object.defineProperty()` to intercept property access and modification.",
+    "Option3": "Through direct DOM manipulation.",
+    "Option4": "By polling for changes periodically.",
+    "Answer": "By using getters/setters and `Object.defineProperty()` to intercept property access and modification."
+  },
+  {
+    "question_no.": 123,
+    "Question": "How does Vue 3 achieve reactivity with the Composition API?",
+    "Option1": "By using `Proxy` objects to intercept all operations on objects.",
+    "Option2": "Through manual change detection.",
+    "Option3": "By relying solely on `Object.defineProperty()`.",
+    "Option4": "By embedding a web worker.",
+    "Answer": "By using `Proxy` objects to intercept all operations on objects."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the benefit of `Proxy`-based reactivity in Vue 3?",
+    "Option1": "It's faster for initial rendering.",
+    "Option2": "It provides full language coverage for reactivity (e.g., adding/deleting properties, array mutations).",
+    "Option3": "It reduces the bundle size significantly.",
+    "Option4": "It enables server-side rendering by default.",
+    "Answer": "It provides full language coverage for reactivity (e.g., adding/deleting properties, array mutations)."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the purpose of `nextTick`?",
+    "Option1": "To run a function after the next DOM update cycle.",
+    "Option2": "To run a function immediately.",
+    "Option3": "To run a function on the next animation frame.",
+    "Option4": "To debounce a function call.",
+    "Answer": "To run a function after the next DOM update cycle."
+  },
+  {
+    "question_no.": 126,
+    "Question": "When would you typically use `nextTick`?",
+    "Option1": "When you need to perform an action immediately after a data change has been reflected in the DOM.",
+    "Option2": "To fetch data from an API.",
+    "Option3": "To handle user input.",
+    "Option4": "To prevent reactive updates.",
+    "Answer": "When you need to perform an action immediately after a data change has been reflected in the DOM."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Emitting Events' from child components to parent components?",
+    "Option1": "Passing data down as props.",
+    "Option2": "A mechanism for child components to notify parent components of something that has happened.",
+    "Option3": "A way to directly modify parent component data.",
+    "Option4": "A method for listening to global events.",
+    "Answer": "A mechanism for child components to notify parent components of something that has happened."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the difference between `@click` and `click.native` in Vue 2?",
+    "Option1": "`@click` is for native DOM events, `click.native` is for custom events.",
+    "Option2": "`@click` listens for custom component events, `click.native` listens for native DOM events on the root element of a component.",
+    "Option3": "They are the same.",
+    "Option4": "`click.native` is deprecated.",
+    "Answer": "`@click` listens for custom component events, `click.native` listens for native DOM events on the root element of a component."
+  },
+  {
+    "question_no.": 129,
+    "Question": "How do you define a global component in Vue 2?",
+    "Option1": "Vue.component('my-component', { /* ... */ });",
+    "Option2": "app.component('my-component', { /* ... */ });",
+    "Option3": "new Vue({ components: { 'my-component': { /* ... */ } } });",
+    "Option4": "defineComponent('my-component', { /* ... */ });",
+    "Answer": "Vue.component('my-component', { /* ... */ });"
+  },
+  {
+    "question_no.": 130,
+    "Question": "How do you define a global component in Vue 3?",
+    "Option1": "Vue.component('my-component', { /* ... */ });",
+    "Option2": "app.component('my-component', { /* ... */ });",
+    "Option3": "new Vue({ components: { 'my-component': { /* ... */ } } });",
+    "Option4": "defineComponent('my-component', { /* ... */ });",
+    "Answer": "app.component('my-component', { /* ... */ });"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Vue i18n' used for?",
+    "Option1": "Handling international date and time formats.",
+    "Option2": "Internationalization (i18n) and localization of Vue applications.",
+    "Option3": "Managing icon sets.",
+    "Option4": "A library for data validation.",
+    "Answer": "Internationalization (i18n) and localization of Vue applications."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Vue Test Utils' used for?",
+    "Option1": "A utility library for creating Vue applications.",
+    "Option2": "A library that provides common utilities for testing Vue components.",
+    "Option3": "A tool for debugging Vue applications in production.",
+    "Option4": "A framework for end-to-end testing.",
+    "Answer": "A library that provides common utilities for testing Vue components."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Shallow Mount' in Vue Test Utils?",
+    "Option1": "Mounting a component with all its children rendered deeply.",
+    "Option2": "Mounting a component and stubbing out its child components, rendering them as empty placeholders.",
+    "Option3": "Mounting a component without any data.",
+    "Option4": "Mounting a component on the server-side.",
+    "Answer": "Mounting a component and stubbing out its child components, rendering them as empty placeholders."
+  },
+  {
+    "question_no.": 134,
+    "Question": "When would you use 'Shallow Mount'?",
+    "Option1": "For integration tests.",
+    "Option2": "For unit testing a single component in isolation, focusing only on its own logic and template.",
+    "Option3": "For testing the entire application.",
+    "Option4": "For performance testing.",
+    "Answer": "For unit testing a single component in isolation, focusing only on its own logic and template."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Full Mount' in Vue Test Utils?",
+    "Option1": "Mounting a component without any dependencies.",
+    "Option2": "Mounting a component along with all of its child components, rendering the full component tree.",
+    "Option3": "Mounting a component in a headless browser.",
+    "Option4": "Mounting a component for snapshot testing.",
+    "Answer": "Mounting a component along with all of its child components, rendering the full component tree."
+  },
+  {
+    "question_no.": 136,
+    "Question": "When would you use 'Full Mount'?",
+    "Option1": "For isolated unit tests.",
+    "Option2": "For integration tests where you need to verify the interaction between parent and child components.",
+    "Option3": "For faster test execution.",
+    "Option4": "For testing simple functions.",
+    "Answer": "For integration tests where you need to verify the interaction between parent and child components."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the 'Vue CLI UI'?",
+    "Option1": "A web-based graphical user interface for managing Vue CLI projects.",
+    "Option2": "A command-line tool for project creation.",
+    "Option3": "A visual debugger for Vue applications.",
+    "Option4": "A component library for building admin panels.",
+    "Answer": "A web-based graphical user interface for managing Vue CLI projects."
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you open the Vue CLI UI?",
+    "Option1": "`vue ui`",
+    "Option2": "`npm run ui`",
+    "Option3": "`vue open ui`",
+    "Option4": "`npm start ui`",
+    "Answer": "`vue ui`"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Scoped CSS' in Vue.js?",
+    "Option1": "CSS that applies globally to all components.",
+    "Option2": "CSS that is automatically scoped to a specific component, preventing styles from leaking to other components.",
+    "Option3": "CSS that is only applied when certain conditions are met.",
+    "Option4": "CSS that is loaded asynchronously.",
+    "Answer": "CSS that is automatically scoped to a specific component, preventing styles from leaking to other components."
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you achieve Scoped CSS in a `.vue` SFC?",
+    "Option1": "By adding `lang=\"scss\"` to the `<style>` tag.",
+    "Option2": "By adding the `scoped` attribute to the `<style>` tag.",
+    "Option3": "By using CSS modules.",
+    "Option4": "By manually creating unique class names.",
+    "Answer": "By adding the `scoped` attribute to the `<style>` tag."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'CSS Modules' with Vue.js?",
+    "Option1": "A way to use global CSS.",
+    "Option2": "A CSS preprocessor.",
+    "Option3": "A system that automatically scopes CSS class names to components, returning an object of scoped class names.",
+    "Option4": "A method for inline styling.",
+    "Answer": "A system that automatically scopes CSS class names to components, returning an object of scoped class names."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you enable CSS Modules in a `<style>` tag in an SFC?",
+    "Option1": "<style scoped>",
+    "Option2": "<style module>",
+    "Option3": "<style lang=\"css-module\">",
+    "Option4": "<style type=\"css-module\">",
+    "Answer": "<style module>"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Inline Templates'?",
+    "Option1": "Defining templates directly within the JavaScript file.",
+    "Option2": "Defining templates as a string literal within the `template` option of a Vue component.",
+    "Option3": "Using external HTML files for templates.",
+    "Option4": "Templates that are rendered on the server.",
+    "Answer": "Defining templates as a string literal within the `template` option of a Vue component."
+  },
+  {
+    "question_no.": 144,
+    "Question": "When would `inline-template` (Vue 2) be used on a component?",
+    "Option1": "When you want to define the template directly inside the component's custom element in the HTML.",
+    "Option2": "When you need to import templates from external files.",
+    "Option3": "When working with render functions.",
+    "Option4": "When building single-file components.",
+    "Answer": "When you want to define the template directly inside the component's custom element in the HTML."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What are 'Directives arguments'?",
+    "Option1": "Values passed to a directive as a string.",
+    "Option2": "The part of a directive after the colon (e.g., `v-bind:href`, `href` is the argument).",
+    "Option3": "Parameters for custom directives.",
+    "Option4": "The event name in `v-on`.",
+    "Answer": "The part of a directive after the colon (e.g., `v-bind:href`, `href` is the argument)."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What are 'Directive Modifiers'?",
+    "Option1": "Values passed to a directive as a string.",
+    "Option2": "Special postfixes denoted by a dot (`.`) that indicate how a directive should be bound (e.g., `v-on:click.prevent`).",
+    "Option3": "Parameters for custom directives.",
+    "Option4": "The event name in `v-on`.",
+    "Answer": "Special postfixes denoted by a dot (`.`) that indicate how a directive should be bound (e.g., `v-on:click.prevent`)."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Give an example of a directive modifier that prevents the default action of an event.",
+    "Option1": "@click.stop",
+    "Option2": "@click.prevent",
+    "Option3": "@click.capture",
+    "Option4": "@click.self",
+    "Answer": "@click.prevent"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the `event.stopPropagation()` equivalent modifier for `v-on`?",
+    "Option1": ".prevent",
+    "Option2": ".stop",
+    "Option3": ".capture",
+    "Option4": ".self",
+    "Answer": ".stop"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Form Input Bindings'?",
+    "Option1": "Connecting form inputs to a database.",
+    "极2": "Using `v-model` to create two-way bindings between form input elements and component data.",
+    "Option3": "Styling form elements.",
+    "Option4": "Validating form data on the server.",
+    "Answer": "Using `v-model` to create two-way bindings between form input elements and component data."
+  },
+  {
+    "question_no.": 150,
+    "Question": "How do you bind a checkbox to a boolean data property `isChecked`?",
+    "Option1": "<input type=\"checkbox\" v-model=\"isChecked\">",
+    "Option2": "<input type=\"checkbox\" :checked=\"isChecked\">",
+    "Option3": "<input type=\"checkbox\" v-bind:value=\"isChecked\">",
+    "Option4": "<input type=\"checkbox\" v-on:change=\"isChecked = !isChecked\">",
+    "Answer": "<input type=\"checkbox\" v-model=\"isChecked\">"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Vue Animations'?",
+    "Option1": "Using CSS transitions and animations directly.",
+    "Option2": "Vue's built-in `Transition` and `TransitionGroup` components that provide helpers for applying CSS transitions and animations.",
+    "Option3": "A third-party animation library.",
+    "Option4": "Creating animations with JavaScript only.",
+    "Answer": "Vue's built-in `极ansition` and `TransitionGroup` components that provide helpers for applying CSS transitions and animations."
+  },
+  {
+    "question_no.": 152,
+    "Question": "Can you use JavaScript for animations in Vue.js?",
+    "Option1": "No, only CSS is supported.",
+    "Option2": "Yes, by passing JavaScript hooks to the `Transition` component or using a dedicated JavaScript animation library.",
+    "Option3": "Only in Vue 2.",
+    "Option4": "Only for simple effects.",
+    "Answer": "Yes, by passing JavaScript hooks to the `Transition` component or using a dedicated JavaScript animation library."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Global API' (Vue 2) / 'Application API' (Vue 3)?",
+    "Option1": "Methods that are only available within components.",
+    "Option2": "Methods and properties available directly on the `Vue` constructor (Vue 2) or the `app` instance created by `createApp()` (Vue 3).",
+    "Option3": "APIs for interacting with external services.",
+    "Option4": "Methods for managing routing.",
+    "Answer": "Methods and properties available directly on the `Vue` constructor (Vue 2) or the `app` instance created by `createApp()` (Vue 3)."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Instance API'?",
+    "Option1": "Methods available globally.",
+    "Option2": "Methods and properties available on individual Vue component instances (e.g., `this.$data`, `this.$emit`).",
+    "Option3": "APIs for creating new Vue applications.",
+    "Option4": "Methods for interacting with the browser's DOM.",
+    "Answer": "Methods and properties available on individual Vue component instances (e.g., `this.$data`, `this.$emit`)."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the `v-pre` directive used for?",
+    "Option1": "To skip compilation for the element and its children.",
+    "Option2": "To pre-render an element on the server.",
+    "Option3": "To prevent events from bubbling up.",
+    "Option4": "To add a prefix to all attributes.",
+    "Answer": "To skip compilation for the element and its children."
+  },
+  {
+    "question_no.": 156,
+    "Question": "When would you use `v-pre`?",
+    "Option1": "When you need to display mustache tags (`{{ }}`) literally.",
+    "Option2": "When the element contains purely static content and no Vue directives or bindings, to improve compilation performance.",
+    "Option3": "When you want to hide an element.",
+    "Option4": "When you need to apply complex animations.",
+    "Answer": "When the element contains purely static content and no Vue directives or bindings, to improve compilation performance."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `v-once` directive used for?",
+    "Option1": "To render the element and component once, and then skip future updates.",
+    "Option2": "To execute a method only once.",
+    "Option3": "To bind an event listener only once.",
+    "Option4": "To conditionally render an element based on a single condition.",
+    "Answer": "To render the element and component once, and then skip future updates."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `mixins` (Vue 2) used for?",
+    "Option1": "To create new components from scratch.",
+    "Option2": "To reuse component options (data, methods, lifecycle hooks) across multiple components.",
+    "Option3": "To manage global state.",
+    "Option4": "To define custom directives.",
+    "Answer": "To reuse component options (data, methods, lifecycle hooks) across multiple components."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the merging strategy for `data` in mixins?",
+    "Option1": "Data from the mixin overrides component data.",
+    "Option2": "Data from the component overrides mixin data.",
+    "Option3": "Data objects are merged deeply.",
+    "Option4": "Only the first defined data property is used.",
+    "Answer": "Data objects are merged deeply."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the merging strategy for lifecycle hooks in mixins?",
+    "Option1": "Component hooks override mixin hooks.",
+    "Option2": "Mixin hooks override component hooks.",
+    "Option3": "All hooks are called, with mixin hooks being called before component hooks.",
+    "Option4": "Only the component's hooks are called.",
+    "Answer": "All hooks are called, with mixin hooks being called before component hooks."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Vue's Reactivity System'?",
+    "Option1": "A set of tools for debugging.",
+    "Option2": "The mechanism that allows Vue to automatically track changes to data and re-render the DOM efficiently.",
+    "Option3": "A framework for building mobile apps.",
+    "Option4": "A method for handling HTTP requests.",
+    "Answer": "The mechanism that allows Vue to automatically track changes to data and re-render the DOM efficiently."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What are the limitations of reactivity in Vue 2 (when using `Object.defineProperty`)?",
+    "Option1": "Cannot detect property addition/deletion or array length mutations.",
+    "Option2": "Slow performance for large datasets.",
+    "Option3": "Does not work with primitive types.",
+    "Option4": "Requires manual updates for data changes.",
+    "Answer": "Cannot detect property addition/deletion or array length mutations."
+  },
+  {
+    "question_no.": 163,
+    "Question": "How do you overcome the reactivity limitations for adding new properties in Vue 2?",
+    "Option1": "this.myObject.newProp = value;",
+    "Option2": "Vue.set(this.myObject, 'newProp', value); or this.$set(this.myObject, 'newProp', value);",
+    "Option3": "Object.assign(this.myObject, { newProp: value });",
+    "Option4": "this.myObject = { ...this.myObject, newProp: value };",
+    "Answer": "Vue.set(this.myObject, 'newProp', value); or this.$set(this.myObject, 'newProp', value);"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the equivalent of `Vue.set` in Vue 3 Composition API?",
+    "Option1": "It's no longer needed due to `Proxy`-based reactivity.",
+    "Option2": "`ref()`",
+    "Option3": "`reactive()`",
+    "Option4": "`watch()`",
+    "Answer": "It's no longer needed due to `Proxy`-based reactivity."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Custom Directives' in Vue.js used for?",
+    "Option1": "To manage component state.",
+    "Option2": "To encapsulate reusable DOM manipulation that is not directly related to the component's data logic.",
+    "Option3": "To create new HTML elements.",
+    "Option4": "To define computed properties.",
+    "Answer": "To encapsulate reusable DOM manipulation that is not directly related to the component's data logic."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the difference between custom directives and components?",
+    "Option1": "Components are for reusable UI blocks; directives are for reusable DOM manipulation.",
+    "Option2": "Directives have their own state; components do not.",
+    "Option3": "Components are only for styling; directives are for logic.",
+    "Option4": "No significant difference, they are interchangeable.",
+    "Answer": "Components are for reusable UI blocks; directives are for reusable DOM manipulation."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the `provide` and `inject` API in the Options API (Vue 2)?",
+    "Option1": "They are component lifecycle hooks.",
+    "Option2": "A way to pass data down the component tree without prop drilling, allowing a parent to `provide` data and any descendant to `inject` it.",
+    "Option3": "Methods for handling asynchronous operations.",
+    "Option4": "Directives for conditional rendering.",
+    "Answer": "A way to pass data down the component tree without prop drilling, allowing a parent to `provide` data and any descendant to `inject` it."
+  },
+  {
+    "question_no.": 168,
+    "Question": "How do you provide a value `theme` in a parent component (Options API)?",
+    "Option1": "data() { return { theme: 'dark' }; }",
+    "Option2": "provide() { return { theme: 'dark' }; }",
+    "Option3": "props: { theme: 'dark' }",
+    "Option4": "inject: ['theme']",
+    "Answer": "provide() { return { theme: 'dark' }; }"
+  },
+  {
+    "question_no.": 169,
+    "Question": "How do you inject a value `theme` in a child component (Options API)?",
+    "Option1": "data() { return { theme: '' }; }",
+    "Option2": "inject: ['theme']",
+    "Option3": "props: ['theme']",
+    "Option4": "computed: { theme() { return ''; } }",
+    "Answer": "inject: ['theme']"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the `Teleport` component (Vue 3) used for?",
+    "Option1": "To render components outside of their natural DOM hierarchy.",
+    "Option2": "To transfer data between components.",
+    "Option3": "To create animated transitions.",
+    "Option4": "To manage browser history.",
+    "Answer": "To render components outside of their natural DOM hierarchy."
+  },
+  {
+    "question_no.": 171,
+    "Question": "Give an example of `Teleport` usage.",
+    "Option1": "<Teleport to=\"body\"><Modal /></Teleport>",
+    "Option2": "<Modal><Teleport to=\"body\" /></Modal>",
+    "Option3": "<div v-teleport=\"body\"><Modal /></div>",
+    "Option4": "<Teleport name=\"body\" component=\"Modal\" />",
+    "Answer": "<Teleport to=\"body\"><Modal /></Teleport>"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the `Suspense` component (Vue 3) used for?",
+    "Option1": "To create interactive forms.",
+    "Option2": "To handle asynchronous dependencies in components, showing fallback content while waiting.",
+    "Option3": "To suspend JavaScript execution.",
+    "Option4": "To create lazy-loaded images.",
+    "Answer": "To handle asynchronous dependencies in components, showing fallback content while waiting."
+  },
+  {
+    "question_no.": 173,
+    "Question": "How do you use `Suspense`?",
+    "Option1": "<Suspense><template #default><AsyncComponent /></template><template #fallback>Loading...</template></Suspense>",
+    "Option2": "<AsyncComponent v-suspense=\"true\">Loading...</AsyncComponent>",
+    "Option3": "<Suspense><AsyncComponent /></Suspense>",
+    "Option4": "<template v-if=\"loading\">Loading...</template><template v-else><AsyncComponent /></template>",
+    "Answer": "<Suspense><template #default><AsyncComponent /></template><template #fallback>Loading...</template></Suspense>"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the `v-memo` directive (Vue 3)?",
+    "Option1": "A directive for creating memos.",
+    "Option2": "A directive that memoizes a sub-tree of the template, only re-rendering it if certain dependencies change.",
+    "Option3": "A directive for storing data in local storage.",
+    "Option4": "A directive for creating reactive arrays.",
+    "Answer": "A directive that memoizes a sub-tree of the template, only re-rendering it if certain dependencies change."
+  },
+  {
+    "question_no.": 175,
+    "Question": "When would `v-memo` be useful?",
+    "Option1": "For frequently changing content.",
+    "Option2": "For rendering large static lists or complex sub-trees that rarely change, to optimize re-render performance.",
+    "Option3": "For simple text display.",
+    "Option4": "When you need to force a re-render.",
+    "Answer": "For rendering large static lists or complex sub-trees that rarely change, to optimize re-render performance."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'VueUse'?",
+    "Option1": "A library of UI components.",
+    "Option2": "A collection of essential Vue Composition API utilities (composables) for various common tasks.",
+    "Option3": "A state management library.",
+    "Option4": "A routing library for Vue.",
+    "Answer": "A collection of essential Vue Composition API utilities (composables) for various common tasks."
+  },
+  {
+    "question_no.": 177,
+    "Question": "Give an example of a common utility provided by VueUse.",
+    "Option1": "`useRouter`",
+    "Option2": "`useState`",
+    "Option3": "`useMouse` (to track mouse position)",
+    "Option4": "`useHttp`",
+    "Answer": "`useMouse` (to track mouse position)"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What are 'Composables' in Vue 3?",
+    "Option1": "Global helper functions.",
+    "Option2": "Functions that leverage Vue's Composition API to encapsulate and reuse stateless logic.",
+    "Option3": "Components that can be combined together.",
+    "Option4": "Lifecycle hooks in the Composition API.",
+    "Answer": "Functions that leverage Vue's Composition API to encapsulate and reuse stateless logic."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the advantage of composables over mixins?",
+    "Option1": "Composables are harder to use.",
+    "Option2": "Composables provide better type inference, avoid name collisions, and offer more explicit reactivity tracking.",
+    "Option3": "Mixins are more performant.",
+    "Option4": "Composables are only for simple logic.",
+    "Answer": "Composables provide better type inference, avoid name collisions, and offer more explicit reactivity tracking."
+  },
+  {
+    "question_no.": 180,
+    "Question": "How do you typically define a composable?",
+    "Option1": "As a class.",
+    "Option2": "As a simple JavaScript function that exports reactive state or methods.",
+    "Option3": "As a Vue component.",
+    "Option4": "As a global variable.",
+    "Answer": "As a simple JavaScript function that exports reactive state or methods."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Tree-shaking' in the context of Vue.js builds?",
+    "Option1": "Shaking the component tree to reorder elements.",
+    "Option2": "A build optimization that removes unused code from the final bundle, leading to smaller file sizes.",
+    "Option3": "A method for securely transmitting data.",
+    "Option4": "A process of generating random component names.",
+    "Answer": "A build optimization that removes unused code from the final bundle, leading to smaller file sizes."
+  },
+  {
+    "question_no.": 182,
+    "Question": "How does Vue 3's module structure improve tree-shaking compared to Vue 2?",
+    "Option1": "Vue 3 is smaller by default.",
+    "Option2": "Vue 3 uses ES Modules for internal utilities, allowing bundlers to more effectively tree-shake unused features.",
+    "Option3": "Vue 2 did not support tree-shaking.",
+    "Option4": "Vue 3 removes all comments from the code.",
+    "Answer": "Vue 3 uses ES Modules for internal utilities, allowing bundlers to more effectively tree-shake unused features."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Vue compiler'?",
+    "Option1": "A tool that executes Vue code in the browser.",
+    "Option2": "The part of Vue that converts template strings into render functions.",
+    "Option3": "A standalone command-line interface for building Vue projects.",
+    "Option4": "A linter for Vue syntax.",
+    "Answer": "The part of Vue that converts template strings into render functions."
+  },
+  {
+    "question_no.": 184,
+    "Question": "When is the Vue compiler typically run in a modern build setup?",
+    "Option1": "At runtime in the browser.",
+    "Option2": "During the build process (pre-compilation), not in the browser.",
+    "Option3": "Only when developing with Vue CLI.",
+    "Option4": "Whenever a component's data changes.",
+    "Answer": "During the build process (pre-compilation), not in the browser."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the 'Runtime-only' build of Vue.js?",
+    "Option1": "A build that includes the template compiler.",
+    "Option2": "A smaller build that excludes the template compiler, requiring templates to be pre-compiled into render functions.",
+    "Option3": "A build that only supports server-side rendering.",
+    "Option4": "A build that only works in Node.js environments.",
+    "Answer": "A smaller build that excludes the template compiler, requiring templates to be pre-compiled into render functions."
+  },
+  {
+    "question_no.": 186,
+    "Question": "When would you use the 'Runtime-only' build?",
+    "Option1": "When you are directly writing render functions.",
+    "Option2": "When using a build tool (like Vue CLI with Webpack) that pre-compiles templates, to reduce bundle size.",
+    "Option3": "When you need to dynamically compile templates in the browser.",
+    "Option4": "For debugging purposes.",
+    "Answer": "When using a build tool (like Vue CLI with Webpack) that pre-compiles templates, to reduce bundle size."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Vite' in the context of Vue.js?",
+    "Option1": "A UI component library.",
+    "Option2": "A next-generation frontend tool that provides an extremely fast development experience for Vue (and other frameworks).",
+    "Option3": "A new state management solution.",
+    "Option4": "A testing framework.",
+    "Answer": "A next-generation frontend tool that provides an extremely fast development experience for Vue (and other frameworks)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the primary advantage of Vite over older build tools like Webpack for development?",
+    "Option1": "Smaller production bundles.",
+    "Option2": "Significantly faster cold start and hot module replacement (HMR) due to native ES module support.",
+    "Option3": "More extensive plugin ecosystem.",
+    "Option4": "Better browser compatibility.",
+    "Answer": "Significantly faster cold start and hot module replacement (HMR) due to native ES module support."
+  },
+  {
+    "question_no.": 189,
+    "Question": "How do you create a new Vue 3 project with Vite?",
+    "Option1": "`vue create my-app`",
+    "Option2": "`npm init vue@latest`",
+    "Option3": "`vite create vue-app`",
+    "Option4": "`create-vue-app my-app --vite`",
+    "Answer": "`npm init vue@latest`"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Headless UI' for Vue.js?",
+    "Option1": "UI components without any styling.",
+    "Option2": "UI component libraries that provide unstyled, accessible, and highly customizable components, leaving the styling entirely to the developer.",
+    "Option3": "Components that run on the server without a visible interface.",
+    "Option4": "Components for command-line applications.",
+    "Answer": "UI component libraries that provide unstyled, accessible, and highly customizable components, leaving the styling entirely to the developer."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Name a popular headless UI library for Vue.js.",
+    "Option1": "BootstrapVue",
+    "Option2": "Vuetify",
+    "Option3": "Headless UI (by Tailwind Labs)",
+    "Option4": "Element UI",
+    "Answer": "Headless UI (by Tailwind Labs)"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Vue CLI Service'?",
+    "Option1": "A service worker for Vue applications.",
+    "Option2": "The core dependency of Vue CLI projects, abstracting away Webpack configuration.",
+    "Option3": "A cloud service for deploying Vue apps.",
+    "Option4": "A tool for generating API endpoints.",
+    "Answer": "The core dependency of Vue CLI projects, abstracting away Webpack configuration."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Vue CLI Plugins'?",
+    "Option1": "Third-party libraries for Vue components.",
+    "Option2": "NPM packages that extend the functionality of Vue CLI Service, adding features like linting, routing, or state management integrations.",
+    "Option3": "Browser extensions for Vue development.",
+    "Option4": "Built-in features of Vue极I.",
+    "Answer": "NPM packages that extend the functionality of Vue CLI Service, adding features like linting, routing, or state management integrations."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Webpack's role in a Vue CLI project?",
+    "Option1": "It's the JavaScript runtime.",
+    "Option2": "It's the module bundler that processes and packages your application's assets.",
+    "Option3": "It's a server for serving static files.",
+    "Option4": "It's a database management system.",
+    "Answer": "It's the module bundler that processes and packages your application's assets."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Hot Module Replacement (HMR)' in Vue development?",
+    "Option1": "Replacing entire modules on the server.",
+    "Option2": "Automatically updating specific modules in the browser without a full page reload, preserving application state.",
+    "Option3": "A feature for pre-rendering components.",
+    "Option4": "A tool for code minification.",
+    "Answer": "Automatically updating specific modules in the browser without a full page reload, preserving application state."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Vue's reactivity debugging' in Devtools?",
+    "Option1": "A feature to visually inspect which components re-render.",
+    "Option2": "A tool to track changes to reactive data properties and identify their dependencies and effects.",
+    "Option3": "A method for debugging network requests.",
+    "Option4": "A way to see compiled JavaScript code.",
+    "Answer": "A tool to track changes to reactive data properties and identify their dependencies and effects."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `v-once` used for?",
+    "Option1": "To prevent an element from ever being rendered.",
+    "Option2": "To perform a calculation only once.",
+    "Option3": "To only render the element and component once, and then skip all future updates for that element.",
+    "Option4": "To register an event listener once.",
+    "Answer": "To only render the element and component once, and then skip all future updates for that element."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the primary use case for `v-once`?",
+    "Option1": "Dynamic content that changes frequently.",
+    "Option2": "Content that is entirely static and does not need to react to any data changes, for performance optimization.",
+    "Option3": "Forms with user input.",
+    "Option4": "Animations and transitions.",
+    "Answer": "Content that is entirely static and does not need to react to any data changes, for performance optimization."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What are 'Composition API Lifecycle Hooks'?",
+    "Option1": "Old lifecycle hooks from Options API.",
+    "Option2": "Functions like `onMounted`, `onUpdated`, `onUnmounted` that can be imported and used within `setup()` or `<script setup>`.",
+    "Option3": "Methods for handling asynchronous operations.",
+    "Option4": "Global event listeners.",
+    "Answer": "Functions like `onMounted`, `onUpdated`, `onUnmounted` that can be imported and used within `setup()` or `<script setup>`."
+  },
+  {
+    "question_no.": 200,
+    "Question": "How do you use the `onMounted` hook in Composition API?",
+    "Option1": "`mounted() { /* ... */ }`",
+    "Option2": "`onMounted(() => { /* ... */ });`",
+    "Option3": "`this.onMounted(() => { /* ... */ });`",
+    "Option4": "`import { onMounted } from 'vue'; onMounted(() => { /* ... */ });`",
+    "Answer": "`import { onMounted } from 'vue'; onMounted(() => { /* ... */ });`"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the `onUnmounted` hook used for in Composition API?",
+    "Option1": "To run code when a component is mounted.",
+    "Option2": "To clean up side effects (e.g., event listeners, timers) when a component is unmounted (destroyed).",
+    "Option3": "To update a component.",
+    "Option4": "To fetch data from an API.",
+    "Answer": "To clean up side effects (e.g., event listeners, timers) when a component is unmounted (destroyed)."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Vue SFC Playground'?",
+    "Option1": "A local development server for SFCs.",
+    "Option2": "An online interactive environment for quickly trying out Vue SFCs and sharing code snippets.",
+    "Option3": "A tool for generating Vue components.",
+    "Option4": "A testing utility for SFCs.",
+    "Answer": "An online interactive environment for quickly trying out Vue SFCs and sharing code snippets."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Vue 3 Migration Guide'?",
+    "Option1": "A tool to automatically migrate Vue 2 code to Vue 3.",
+    "Option2": "A comprehensive documentation providing guidance on upgrading existing Vue 2 projects to Vue 3.",
+    "Option3": "A list of new features in Vue 3.",
+    "Option4": "A comparison between Vue 2 and Vue 3.",
+    "Answer": "A comprehensive documentation providing guidance on upgrading existing Vue 2 projects to Vue 3."
+  }
+]

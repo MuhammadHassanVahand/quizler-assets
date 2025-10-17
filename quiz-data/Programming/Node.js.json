@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Node.js primarily known for?",
+    "Option1": "A front-end JavaScript framework",
+    "Option2": "A JavaScript runtime built on Chrome's V8 JavaScript engine",
+    "Option3": "A database management system",
+    "Option4": "A CSS preprocessor",
+    "Answer": "A JavaScript runtime built on Chrome's V8 JavaScript engine"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which JavaScript engine does Node.js use?",
+    "Option1": "SpiderMonkey",
+    "Option2": "ChakraCore",
+    "Option3": "V8",
+    "Option4": "JavaScriptCore",
+    "Answer": "V8"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Is Node.js single-threaded or multi-threaded?",
+    "Option1": "Multi-threaded",
+    "Option2": "Single-threaded",
+    "Option3": "Both, depending on configuration",
+    "Option4": "Neither, it uses a pool of threads",
+    "Answer": "Single-threaded"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What mechanism does Node.js use to handle concurrent operations despite being single-threaded?",
+    "Option1": "Multi-threading",
+    "Option2": "Event Loop",
+    "Option3": "Direct asynchronous calls",
+    "Option4": "Blocking I/O",
+    "Answer": "Event Loop"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is `npm` primarily used for in the Node.js ecosystem?",
+    "Option1": "A Node.js specific programming language",
+    "Option2": "A package manager for JavaScript",
+    "Option3": "A debugging tool for Node.js",
+    "Option4": "A testing framework",
+    "Answer": "A package manager for JavaScript"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which command is used to initialize a new Node.js project and create a `package.json` file?",
+    "Option1": "npm start",
+    "Option2": "npm install",
+    "Option3": "npm init",
+    "Option4": "node new",
+    "Answer": "npm init"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What does the `package.json` file contain?",
+    "Option1": "Source code of the application",
+    "Option2": "Metadata about the project and its dependencies",
+    "Option3": "User session data",
+    "Option4": "Database schema",
+    "Answer": "Metadata about the project and its dependencies"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of `node_modules` directory?",
+    "Option1": "To store JavaScript source files",
+    "Option2": "To store compiled binaries of Node.js",
+    "Option3": "To store installed npm packages (dependencies)",
+    "Option4": "To store temporary cache files",
+    "Answer": "To store installed npm packages (dependencies)"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is a 'module' in Node.js?",
+    "Option1": "A function that returns a value",
+    "Option2": "A file that encapsulates related code, which can be exported and imported by other files",
+    "Option3": "A global variable",
+    "Option4": "A class definition",
+    "Answer": "A file that encapsulates related code, which can be exported and imported by other files"
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you export a module in Node.js (CommonJS)?",
+    "Option1": "export default myModule;",
+    "Option2": "module.exports = myModule;",
+    "Option3": "import { myModule } from './myModule';",
+    "Option4": "export const myModule = {};",
+    "Answer": "module.exports = myModule;"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you import a module in Node.js (CommonJS)?",
+    "Option1": "import myModule from './myModule';",
+    "Option2": "require('./myModule');",
+    "Option3": "import { myModule } from './myModule';",
+    "Option4": "load('./myModule');",
+    "Answer": "require('./myModule');"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the built-in module for working with file paths in Node.js?",
+    "Option1": "fs",
+    "Option2": "http",
+    "Option3": "path",
+    "Option4": "url",
+    "Answer": "path"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which built-in module is used for creating HTTP servers in Node.js?",
+    "Option1": "net",
+    "Option2": "http",
+    "Option3": "tcp",
+    "Option4": "server",
+    "Answer": "http"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which built-in module is used for file system operations (e.g., reading, writing files)?",
+    "Option1": "system",
+    "Option2": "disk",
+    "Option3": "io",
+    "Option4": "fs",
+    "Answer": "fs"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the main advantage of Node.js's asynchronous, non-blocking I/O model?",
+    "Option1": "It simplifies code debugging.",
+    "Option2": "It allows a single thread to handle many concurrent connections efficiently.",
+    "Option3": "It makes database operations faster.",
+    "Option4": "It reduces memory consumption.",
+    "Answer": "It allows a single thread to handle many concurrent connections efficiently."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What are 'Callbacks' in Node.js?",
+    "Option1": "Functions that are called immediately.",
+    "Option2": "Functions passed as arguments to other functions, to be executed after the completion of an asynchronous operation.",
+    "Option3": "Error handling mechanisms.",
+    "Option4": "Synchronous functions.",
+    "Answer": "Functions passed as arguments to other functions, to be executed after the completion of an asynchronous operation."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'Callback Hell'?",
+    "Option1": "A large number of synchronous functions.",
+    "Option2": "A situation where deeply nested and unmanageable callback functions lead to unreadable code.",
+    "Option3": "An error that crashes the Node.js server.",
+    "Option4": "A problem with too few callbacks.",
+    "Answer": "A situation where deeply nested and unmanageable callback functions lead to unreadable code."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What are 'Promises' in JavaScript/Node.js?",
+    "Option1": "Synchronous operations.",
+    "Option2": "Objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value.",
+    "Option3": "A way to define global variables.",
+    "Option4": "A type of loop.",
+    "Answer": "Objects that represent the eventual completion (or failure) of an asynchronous operation and its resulting value."
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you handle errors with Promises?",
+    "Option1": "Using `try...catch` directly.",
+    "Option2": "Using the `.catch()` method.",
+    "Option3": "Errors are not handled by Promises.",
+    "Option4": "By checking the return value of the Promise.",
+    "Answer": "Using the `.catch()` method."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is `async/await` in Node.js?",
+    "Option1": "A way to write synchronous code.",
+    "Option2": "Syntactic sugar built on Promises, allowing asynchronous code to be written in a more synchronous-like style.",
+    "Option3": "A method for debugging asynchronous operations.",
+    "Option4": "A new type of loop.",
+    "Answer": "Syntactic sugar built on Promises, allowing asynchronous code to be written in a more synchronous-like style."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What keyword must a function use to be able to use the `await` keyword inside it?",
+    "Option1": "return",
+    "Option2": "function",
+    "Option3": "async",
+    "Option4": "promise",
+    "Answer": "async"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you handle errors with `async/await`?",
+    "Option1": "Using `.catch()`.",
+    "Option2": "Using `try...catch` blocks.",
+    "Option3": "Errors are automatically suppressed.",
+    "Option4": "By ignoring them.",
+    "Answer": "Using `try...catch` blocks."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is `Express.js`?",
+    "Option1": "A front-end framework.",
+    "Option2": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+    "Option3": "A database system.",
+    "Option4": "A testing library.",
+    "Answer": "A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you start an Express.js application?",
+    "Option1": "`express init`",
+    "Option2": "By calling `app.listen()` on an Express app instance.",
+    "Option3": "`npm run express`",
+    "Option4": "It starts automatically.",
+    "Answer": "By calling `app.listen()` on an Express app instance."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Middleware' in Express.js?",
+    "Option1": "Functions that run before an API call.",
+    "Option2": "Functions that have access to the request object (`req`), the response object (`res`), and the next middleware function in the application's request-response cycle.",
+    "Option3": "Functions that handle errors only.",
+    "Option4": "Functions that render views.",
+    "Answer": "Functions that have access to the request object (`req`), the response object (`res`), and the next middleware function in the application's request-response cycle."
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you define a route in Express.js for a GET request?",
+    "Option1": "`app.post('/path', ...)`",
+    "Option2": "`app.get('/path', ...)`",
+    "Option3": "`app.route('/path').get(...)`",
+    "Option4": "`app.send('/path', ...)`",
+    "Answer": "`app.get('/path', ...)`"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you send a JSON response from an Express.js route?",
+    "Option1": "`res.send('json_string')`",
+    "Option2": "`res.json(data)`",
+    "Option3": "`res.end(data)`",
+    "Option4": "`res.text(data)`",
+    "Answer": "`res.json(data)`"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `body-parser` middleware used for?",
+    "Option1": "To parse URL parameters.",
+    "Option2": "To parse incoming request bodies in a middleware before your handlers, available under the `req.body` property.",
+    "Option3": "To parse HTTP headers.",
+    "Option4": "To parse HTML content.",
+    "Answer": "To parse incoming request bodies in a middleware before your handlers, available under the `req.body` property."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Routing' in Express.js?",
+    "Option1": "The process of starting the server.",
+    "Option2": "Determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, etc.).",
+    "Option3": "Managing database connections.",
+    "Option4": "Handling static file serving.",
+    "Answer": "Determining how an application responds to a client request to a particular endpoint, which is a URI (or path) and a specific HTTP request method (GET, POST, etc.)."
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you handle errors globally in Express.js?",
+    "Option1": "Using `try...catch` in every route.",
+    "Option2": "By defining an error-handling middleware function with four arguments: `(err, req, res, next)`.",
+    "Option3": "Errors are automatically handled.",
+    "Option4": "By restarting the server.",
+    "Answer": "By defining an error-handling middleware function with four arguments: `(err, req, res, next)`."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is `nodemon` commonly used for in Node.js development?",
+    "Option1": "To deploy applications.",
+    "Option2": "To automatically restart the Node.js application when file changes are detected.",
+    "Option3": "To manage database migrations.",
+    "Option4": "To bundle JavaScript files.",
+    "Answer": "To automatically restart the Node.js application when file changes are detected."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `dotenv` package used for?",
+    "Option1": "To connect to a database.",
+    "Option2": "To load environment variables from a `.env` file into `process.env`.",
+    "Option3": "To generate random numbers.",
+    "Option4": "To create cryptographic hashes.",
+    "Answer": "To load environment variables from a `.env` file into `process.env`."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you access environment variables in Node.js?",
+    "Option1": "`global.env`",
+    "Option2": "`process.env.VARIABLE_NAME`",
+    "Option3": "`ENV.VARIABLE_NAME`",
+    "Option4": "`config.VARIABLE_NAME`",
+    "Answer": "`process.env.VARIABLE_NAME`"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is `middleware` in a general Node.js context (not just Express)?",
+    "Option1": "A type of database.",
+    "Option2": "Software that acts as a bridge between an operating system or database and applications, allowing them to communicate.",
+    "Option3": "A front-end library.",
+    "Option4": "A styling method.",
+    "Answer": "Software that acts as a bridge between an operating system or database and applications, allowing them to communicate."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the `eventEmitter` module in Node.js used for?",
+    "Option1": "To handle HTTP requests.",
+    "Option2": "To work with file systems.",
+    "Option3": "To implement the observer pattern, allowing objects to emit named events that cause registered listener functions to be called.",
+    "Option4": "To manage global variables.",
+    "Answer": "To implement the observer pattern, allowing objects to emit named events that cause registered listener functions to be called."
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you emit an event using `eventEmitter`?",
+    "Option1": "emitter.listen('event')",
+    "Option2": "emitter.trigger('event')",
+    "Option3": "emitter.emit('event', args)",
+    "Option4": "emitter.on('event', args)",
+    "Answer": "emitter.emit('event', args)"
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you listen for an event using `eventEmitter`?",
+    "Option1": "emitter.emit('event', handler)",
+    "Option2": "emitter.dispatch('event', handler)",
+    "Option3": "emitter.on('event', handler)",
+    "Option4": "emitter.call('event', handler)",
+    "Answer": "emitter.on('event', handler)"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What are 'Streams' in Node.js?",
+    "Option1": "Arrays of data.",
+    "Option2": "Abstract interfaces for working with streaming data in Node.js, allowing data to be processed in chunks rather than all at once.",
+    "Option3": "Network connections.",
+    "Option4": "Functions that return multiple values.",
+    "Answer": "Abstract interfaces for working with streaming data in Node.js, allowing data to be processed in chunks rather than all at once."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Name the four types of streams in Node.js.",
+    "Option1": "Input, Output, Process, Error",
+    "Option2": "Read, Write, Connect, Disconnect",
+    "Option3": "Readable, Writable, Duplex, Transform",
+    "Option4": "Synchronous, Asynchronous, Blocking, Non-blocking",
+    "Answer": "Readable, Writable, Duplex, Transform"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the benefit of using streams for file operations?",
+    "Option1": "It simplifies error handling.",
+    "Option2": "It reduces memory usage for large files by processing them in chunks.",
+    "Option3": "It makes file operations synchronous.",
+    "Option4": "It enables automatic compression.",
+    "Answer": "It reduces memory usage for large files by processing them in chunks."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `pipe()` method used for with streams?",
+    "Option1": "To stop a stream.",
+    "Option2": "To connect a readable stream to a writable stream, flowing data between them.",
+    "Option3": "To modify data in a stream.",
+    "Option4": "To create a new stream.",
+    "Answer": "To connect a readable stream to a writable stream, flowing data between them."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Buffering' in Node.js?",
+    "Option1": "A type of data encryption.",
+    "Option2": "Temporarily storing data in memory before it's processed or sent, often seen with streams.",
+    "Option3": "A method for error handling.",
+    "Option4": "A security vulnerability.",
+    "Answer": "Temporarily storing data in memory before it's processed or sent, often seen with streams."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the `Buffer` class used for in Node.js?",
+    "Option1": "To store JavaScript objects.",
+    "Option2": "To handle binary data directly in memory, outside of the V8 JavaScript engine's heap.",
+    "Option3": "To manage network connections.",
+    "Option4": "To read and write text files.",
+    "Answer": "To handle binary data directly in memory, outside of the V8 JavaScript engine's heap."
+  },
+  {
+    "question_no.": 44,
+    "Question": "When would you typically use the `Buffer` class?",
+    "Option1": "For simple string manipulation.",
+    "Option2": "When dealing with raw binary data like images, audio, or network protocols.",
+    "Option3": "For everyday calculations.",
+    "Option4": "For storing JSON data.",
+    "Answer": "When dealing with raw binary data like images, audio, or network protocols."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `RESTful API` design in the context of Node.js?",
+    "Option1": "A specific database technology.",
+    "Option2": "An architectural style for networked applications that defines a set of constraints for how resources are accessed and manipulated using standard HTTP methods.",
+    "Option3": "A front-end development methodology.",
+    "Option4": "A way to optimize server performance.",
+    "Answer": "An architectural style for networked applications that defines a set of constraints for how resources are accessed and manipulated using standard HTTP methods."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which HTTP methods are commonly used in RESTful APIs?",
+    "Option1": "LOAD, SAVE, DELETE, EDIT",
+    "Option2": "GET, POST, PUT, DELETE, PATCH",
+    "Option3": "FETCH, ADD, REMOVE, UPDATE",
+    "Option4": "CREATE, READ, MODIFY, ERASE",
+    "Answer": "GET, POST, PUT, DELETE, PATCH"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What HTTP status code typically indicates a successful request (e.g., resource fetched)?",
+    "Option1": "404 Not Found",
+    "Option2": "500 Internal Server Error",
+    "Option3": "200 OK",
+    "Option4": "301 Moved Permanently",
+    "Answer": "200 OK"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What HTTP status code typically indicates that a resource was successfully created?",
+    "Option1": "200 OK",
+    "Option2": "201 Created",
+    "Option3": "204 No Content",
+    "Option4": "400 Bad Request",
+    "Answer": "201 Created"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What HTTP status code indicates that the request could not be understood by the server due to malformed syntax?",
+    "Option1": "401 Unauthorized",
+    "Option2": "403 Forbidden",
+    "Option3": "400 Bad Request",
+    "Option4": "404 Not Found",
+    "Answer": "400 Bad Request"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What HTTP status code indicates that the requested resource could not be found?",
+    "Option1": "400 Bad Request",
+    "Option2": "401 Unauthorized",
+    "Option3": "404 Not Found",
+    "Option4": "500 Internal Server Error",
+    "Answer": "404 Not Found"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What HTTP status code indicates that the server encountered an unexpected condition that prevented it from fulfilling the request?",
+    "Option1": "404 Not Found",
+    "Option2": "403 Forbidden",
+    "Option3": "500 Internal Server Error",
+    "Option4": "200 OK",
+    "Answer": "500 Internal Server Error"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is `CORS` (Cross-Origin Resource Sharing)?",
+    "Option1": "A way to prevent all cross-origin requests.",
+    "Option2": "A mechanism that allows a web page to make requests to a different domain than the one that served the web page.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A type of network protocol.",
+    "Answer": "A mechanism that allows a web page to make requests to a different domain than the one that served the web page."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Why is CORS often an issue when building a frontend with a Node.js backend?",
+    "Option1": "Because they use different programming languages.",
+    "Option2": "Because the frontend and backend are often hosted on different origins (domains/ports), triggering browser security policies.",
+    "Option3": "Because Node.js does not support cross-origin requests.",
+    "Option4": "CORS only affects databases, not APIs.",
+    "Answer": "Because the frontend and backend are often hosted on different origins (domains/ports), triggering browser security policies."
+  },
+  {
+    "question_no.": 54,
+    "Question": "How do you enable CORS in an Express.js application?",
+    "Option1": "By manually setting `Access-Control-Allow-Origin` headers in responses.",
+    "Option2": "Using the `cors` npm package.",
+    "Option3": "CORS is enabled by default in Express.",
+    "Option4": "By configuring it in `package.json`.",
+    "Answer": "Using the `cors` npm package."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is `Authentication` in web applications?",
+    "Option1": "Determining what a user can do.",
+    "Option2": "Verifying the identity of a user (who the user is).",
+    "Option3": "Encrypting user data.",
+    "Option4": "Storing user preferences.",
+    "Answer": "Verifying the identity of a user (who the user is)."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `Authorization` in web applications?",
+    "Option1": "Verifying the identity of a user.",
+    "Option2": "Determining what resources a user has permission to access or what actions they can perform (what the user can do).",
+    "Option3": "Logging user activity.",
+    "Option4": "Managing user sessions.",
+    "Answer": "Determining what resources a user has permission to access or what actions they can perform (what the user can do)."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `JWT` (JSON Web Token)?",
+    "Option1": "A type of database.",
+    "Option2": "A compact, URL-safe means of representing claims to be transferred between two parties, often used for authentication and authorization.",
+    "Option3": "A JavaScript framework.",
+    "Option4": "A network protocol.",
+    "Answer": "A compact, URL-safe means of representing claims to be transferred between two parties, often used for authentication and authorization."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What are the three parts of a JWT?",
+    "Option1": "Header, Body, Footer",
+    "Option2": "Header, Payload, Signature",
+    "Option3": "Algorithm, Data, Secret",
+    "Option4": "Key, Value, Type",
+    "Answer": "Header, Payload, Signature"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Is JWT encrypted?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it is digitally signed, not encrypted, meaning its contents can be read but not tampered with.",
+    "Option3": "Only the payload is encrypted.",
+    "Option4": "Only the header is encrypted.",
+    "Answer": "No, it is digitally signed, not encrypted, meaning its contents can be read but not tampered with."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is a 'Hash Function' in the context of passwords?",
+    "Option1": "A function that encrypts a password.",
+    "Option2": "A one-way mathematical function that transforms input data into a fixed-size string of characters, used for securely storing passwords.",
+    "Option3": "A function that decrypts a password.",
+    "Option4": "A function that generates random passwords.",
+    "Answer": "A one-way mathematical function that transforms input data into a fixed-size string of characters, used for securely storing passwords."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Why should you never store plain-text passwords in a database?",
+    "Option1": "It takes up too much space.",
+    "Option2": "Because if the database is compromised, all user passwords would be exposed.",
+    "Option3": "It slows down database queries.",
+    "Option4": "It's difficult to search for plain-text passwords.",
+    "Answer": "Because if the database is compromised, all user passwords would be exposed."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which npm package is commonly used for hashing passwords in Node.js?",
+    "Option1": "crypto-js",
+    "Option2": "bcryptjs",
+    "Option3": "sha256",
+    "Option4": "md5",
+    "Answer": "bcryptjs"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `Mongoose` in Node.js?",
+    "Option1": "A relational database.",
+    "Option2": "An ODM (Object Data Modeling) library for MongoDB and Node.js, providing a schema-based solution to model your application data.",
+    "Option3": "A NoSQL database.",
+    "Option4": "A front-end library.",
+    "Answer": "An ODM (Object Data Modeling) library for MongoDB and Node.js, providing a schema-based solution to model your application data."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `MongoDB`?",
+    "Option1": "A relational database.",
+    "Option2": "A popular NoSQL document database that stores data in flexible, JSON-like documents.",
+    "Option3": "A SQL query language.",
+    "Option4": "A data visualization tool.",
+    "Answer": "A popular NoSQL document database that stores data in flexible, JSON-like documents."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is a 'Schema' in Mongoose?",
+    "Option1": "A representation of a database table.",
+    "Option2": "A definition of the structure of a document in MongoDB, including data types, validation, and defaults.",
+    "Option3": "A database index.",
+    "Option4": "A query language.",
+    "Answer": "A definition of the structure of a document in MongoDB, including data types, validation, and defaults."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'Model' in Mongoose?",
+    "Option1": "A blueprint for a database.",
+    "Option2": "A compiled version of a schema that provides an interface for interacting with the MongoDB database (e.g., `find`, `save`).",
+    "Option3": "A database connection.",
+    "Option4": "A collection of documents.",
+    "Answer": "A compiled version of a schema that provides an interface for interacting with the MongoDB database (e.g., `find`, `save`)."
+  },
+  {
+    "question_no.": 67,
+    "Question": "How do you connect to a MongoDB database using Mongoose?",
+    "Option1": "`mongoose.connect('mongodb://localhost:27017/dbname')`",
+    "Option2": "`mongoose.openDatabase('dbname')`",
+    "Option3": "`mongodb.connect('dbname')`",
+    "Option4": "`db.connect()`",
+    "Answer": "`mongoose.connect('mongodb://localhost:27017/dbname')`"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `SQL`?",
+    "Option1": "A programming language for web development.",
+    "Option2": "A structured query language used for managing and querying relational databases.",
+    "Option3": "A NoSQL database.",
+    "Option4": "A data streaming protocol.",
+    "Answer": "A structured query language used for managing and querying relational databases."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which npm package is commonly used for interacting with relational databases (e.g., PostgreSQL, MySQL) in Node.js?",
+    "Option1": "mongoose",
+    "Option2": "sequelize",
+    "Option3": "mongodb",
+    "Option4": "redis",
+    "Answer": "sequelize"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `Sequelize`?",
+    "Option1": "A NoSQL database.",
+    "Option2": "A Promise-based Node.js ORM (Object-Relational Mapper) for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server.",
+    "Option3": "A front-end library.",
+    "Option4": "A CSS framework.",
+    "Answer": "A Promise-based Node.js ORM (Object-Relational Mapper) for PostgreSQL, MySQL, MariaDB, SQLite, and Microsoft SQL Server."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `ORM` (Object-Relational Mapper)?",
+    "Option1": "A tool for designing user interfaces.",
+    "Option2": "A technique that lets you query and manipulate data from a database using an object-oriented paradigm.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A network protocol.",
+    "Answer": "A technique that lets you query and manipulate data from a database using an object-oriented paradigm."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `Socket.IO`?",
+    "Option1": "A file system module.",
+    "Option2": "A JavaScript library for real-time web applications, enabling bi-directional communication between web clients and servers.",
+    "Option3": "A data validation library.",
+    "Option4": "A routing framework.",
+    "Answer": "A JavaScript library for real-time web applications, enabling bi-directional communication between web clients and servers."
+  },
+  {
+    "question_no.": 73,
+    "Question": "When would you use `Socket.IO`?",
+    "Option1": "For static content delivery.",
+    "Option2": "For applications requiring real-time updates like chat applications, gaming, or live dashboards.",
+    "Option3": "For simple API requests.",
+    "Option4": "For batch processing data.",
+    "Answer": "For applications requiring real-time updates like chat applications, gaming, or live dashboards."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the underlying technology that `Socket.IO` often falls back to if WebSockets are not available?",
+    "Option1": "HTTP/2",
+    "Option2": "Long Polling",
+    "Option3": "FTP",
+    "Option4": "UDP",
+    "Answer": "Long Polling"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Clustering' in Node.js?",
+    "Option1": "Grouping related functions together.",
+    "Option2": "A module that allows you to create child processes (workers) that share server ports, effectively enabling a single Node.js application to leverage multiple CPU cores.",
+    "Option3": "Organizing database tables.",
+    "Option4": "A method for code compression.",
+    "Answer": "A module that allows you to create child processes (workers) that share server ports, effectively enabling a single Node.js application to leverage multiple CPU cores."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Why would you use clustering in Node.js?",
+    "Option1": "To reduce network latency.",
+    "Option2": "To improve application performance and availability by distributing load across multiple CPU cores.",
+    "Option3": "To simplify debugging.",
+    "Option4": "To decrease memory usage.",
+    "Answer": "To improve application performance and availability by distributing load across multiple CPU cores."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the `child_process` module in Node.js used for?",
+    "Option1": "To create new threads.",
+    "Option2": "To spawn new processes and interact with them, allowing Node.js to execute external commands or other Node.js scripts.",
+    "Option3": "To manage parent-child relationships in the DOM.",
+    "Option4": "To handle asynchronous operations within a single process.",
+    "Answer": "To spawn new processes and interact with them, allowing Node.js to execute external commands or other Node.js scripts."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Name a common method for spawning a child process in Node.js.",
+    "Option1": "`child.run()`",
+    "Option2": "`child_process.fork()` or `child_process.spawn()` or `child_process.exec()`",
+    "Option3": "`process.new()`",
+    "Option4": "`createProcess()`",
+    "Answer": "`child_process.fork()` or `child_process.spawn()` or `child_process.exec()`"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the difference between `spawn` and `exec` in `child_process`?",
+    "Option1": "`spawn` is synchronous, `exec` is asynchronous.",
+    "Option2": "`spawn` returns a stream, `exec` returns the entire output in a buffer and is generally for smaller outputs.",
+    "Option3": "`spawn` is only for Linux, `exec` is for Windows.",
+    "Option4": "`exec` is deprecated.",
+    "Answer": "`spawn` returns a stream, `exec` returns the entire output in a buffer and is generally for smaller outputs."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `PM2`?",
+    "Option1": "A Node.js version manager.",
+    "Option2": "A production process manager for Node.js applications with a built-in load balancer, allowing applications to stay alive forever, reload without downtime, and facilitate common system admin tasks.",
+    "Option3": "A testing framework.",
+    "Option4": "A database client.",
+    "Answer": "A production process manager for Node.js applications with a built-in load balancer, allowing applications to stay alive forever, reload without downtime, and facilitate common system admin tasks."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the main benefit of using PM2 for deploying Node.js applications?",
+    "Option1": "It reduces development time.",
+    "Option2": "It ensures high availability and resilience by automatically restarting crashed processes and enabling zero-downtime reloads.",
+    "Option3": "It optimizes database queries.",
+    "Option4": "It encrypts all data.",
+    "Answer": "It ensures high availability and resilience by automatically restarting crashed processes and enabling zero-downtime reloads."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `NVM` (Node Version Manager)?",
+    "Option1": "A package manager for Node.js.",
+    "Option2": "A command-line tool that allows you to easily install, manage, and switch between different versions of Node.js.",
+    "Option3": "A Node.js debugger.",
+    "Option4": "A tool for monitoring Node.js applications.",
+    "Answer": "A command-line tool that allows you to easily install, manage, and switch between different versions of Node.js."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Why would you use NVM?",
+    "Option1": "To speed up application execution.",
+    "Option2": "To manage multiple Node.js projects that might require different Node.js versions.",
+    "Option3": "To install Node.js without npm.",
+    "Option4": "To create new Node.js projects.",
+    "Answer": "To manage multiple Node.js projects that might require different Node.js versions."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `LTS` in Node.js context?",
+    "Option1": "Latest Stable version.",
+    "Option2": "Long Term Support version, which receives extended maintenance and support for stability and security.",
+    "Option3": "Lightweight Testing Suite.",
+    "Option4": "Live Transaction System.",
+    "Answer": "Long Term Support version, which receives extended maintenance and support for stability and security."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Why is it generally recommended to use an LTS version of Node.js for production environments?",
+    "Option1": "Because they have the newest features.",
+    "Option2": "Because they offer more stability, fewer bugs, and longer-term security updates.",
+    "Option3": "Because they are easier to debug.",
+    "Option4": "Because they consume less memory.",
+    "Answer": "Because they offer more stability, fewer bugs, and longer-term security updates."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `REPL` in Node.js?",
+    "Option1": "A routing library.",
+    "Option2": "Read-Eval-Print Loop, an interactive shell that processes Node.js expressions.",
+    "Option3": "A module for real-time communication.",
+    "Option4": "A tool for code minification.",
+    "Answer": "Read-Eval-Print Loop, an interactive shell that processes Node.js expressions."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you start the Node.js REPL?",
+    "Option1": "By typing `node` in the terminal.",
+    "Option2": "By typing `repl` in the terminal.",
+    "Option3": "By typing `node -i` in the terminal.",
+    "Option4": "By running `npm repl`.",
+    "Answer": "By typing `node` in the terminal."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `Global Object` in Node.js?",
+    "Option1": "The `window` object.",
+    "Option2": "An object that contains global variables and functions available anywhere in a Node.js application, accessible as `global`.",
+    "Option3": "A special type of module.",
+    "Option4": "An object used for managing environment variables.",
+    "Answer": "An object that contains global variables and functions available anywhere in a Node.js application, accessible as `global`."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Name two global objects available in Node.js.",
+    "Option1": "`document`, `window`",
+    "Option2": "`console`, `process`, `setTimeout`, `setInterval`",
+    "Option3": "`location`, `navigator`",
+    "Option4": "`alert`, `prompt`",
+    "Answer": "`console`, `process`, `setTimeout`, `setInterval`"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `process` global object used for?",
+    "Option1": "To manage child processes only.",
+    "Option2": "To provide information about, and control over, the current Node.js process (e.g., `process.env`, `process.argv`, `process.exit`).",
+    "Option3": "To process user input.",
+    "Option4": "To manage database connections.",
+    "Answer": "To provide information about, and control over, the current Node.js process (e.g., `process.env`, `process.argv`, `process.exit`)."
+  },
+  {
+    "question_no.": 91,
+    "Question": "How do you get command-line arguments passed to a Node.js script?",
+    "Option1": "`process.args`",
+    "Option2": "`process.argv`",
+    "Option3": "`process.params`",
+    "Option4": "`process.input`",
+    "Answer": "`process.argv`"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `EventEmitter` (revisited)?",
+    "Option1": "A class for handling HTTP requests.",
+    "Option2": "The base class for most of Node.js's asynchronous APIs, implementing the observer pattern.",
+    "Option3": "A class for managing file system operations.",
+    "Option4": "A class for creating web servers.",
+    "Answer": "The base class for most of Node.js's asynchronous APIs, implementing the observer pattern."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `libuv`?",
+    "Option1": "A JavaScript library.",
+    "Option2": "A multi-platform C library that provides asynchronous I/O, used by Node.js to implement the Event Loop and handle non-blocking operations.",
+    "Option3": "A Node.js module for security.",
+    "Option4": "A database management system.",
+    "Answer": "A multi-platform C library that provides asynchronous I/O, used by Node.js to implement the Event Loop and handle non-blocking operations."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What are 'Worker Threads' in Node.js?",
+    "Option1": "A way to make Node.js multi-threaded for CPU-bound tasks.",
+    "Option2": "A feature for handling I/O operations more efficiently.",
+    "Option3": "A module for creating web workers in the browser.",
+    "Option4": "Deprecated feature.",
+    "Answer": "A way to make Node.js multi-threaded for CPU-bound tasks."
+  },
+  {
+    "question_no.": 95,
+    "Question": "When should you use Worker Threads?",
+    "Option1": "For I/O-bound tasks like database queries.",
+    "Option2": "For CPU-bound tasks that would otherwise block the Event Loop, such as heavy computations or image processing.",
+    "Option3": "For simple string manipulations.",
+    "Option4": "For all tasks to maximize performance.",
+    "Answer": "For CPU-bound tasks that would otherwise block the Event Loop, such as heavy computations or image processing."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `WebSockets`?",
+    "Option1": "A one-way communication protocol.",
+    "Option2": "A computer communications protocol, providing full-duplex communication channels over a single TCP connection.",
+    "Option3": "A protocol for sending static files.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "A computer communications protocol, providing full-duplex communication channels over a single TCP connection."
+  },
+  {
+    "question_no.": 97,
+    "Question": "How do WebSockets differ from traditional HTTP requests?",
+    "Option1": "WebSockets are synchronous, HTTP is asynchronous.",
+    "Option2": "WebSockets maintain a persistent, open connection for bi-directional communication, while HTTP is stateless and connectionless (per request).",
+    "Option3": "HTTP is faster than WebSockets.",
+    "Option4": "WebSockets are only for client-side communication.",
+    "Answer": "WebSockets maintain a persistent, open connection for bi-directional communication, while HTTP is stateless and connectionless (per request)."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `GraphQL` in the context of Node.js?",
+    "Option1": "A relational database.",
+    "Option2": "A query language for your API, and a server-side runtime for executing queries using a type system, often implemented with Node.js.",
+    "Option3": "A front-end rendering engine.",
+    "Option4": "A state management library.",
+    "Answer": "A query language for your API, and a server-side runtime for executing queries using a type system, often implemented with Node.js."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the main advantage of GraphQL over traditional REST APIs?",
+    "Option1": "It always returns all data for a resource.",
+    "Option2": "It allows clients to request exactly the data they need, reducing over-fetching or under-fetching.",
+    "Option3": "It is simpler to implement.",
+    "Option4": "It has better caching mechanisms by default.",
+    "Answer": "It allows clients to request exactly the data they need, reducing over-fetching or under-fetching."
+  },
+  {
+    "question_no.": 100,
+    "Question": "Which npm package is commonly used to build GraphQL servers with Node.js?",
+    "Option1": "express-graphql",
+    "Option2": "apollo-server",
+    "Option3": "graphql.js",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is a 'Transpiler'?",
+    "Option1": "A tool that translates code from one programming language to another.",
+    "Option2": "A tool that converts code from one version of a language to another, typically newer syntax to older syntax (e.g., ES6+ to ES5).",
+    "Option3": "A tool for optimizing database queries.",
+    "Option4": "A tool for code minification.",
+    "Answer": "A tool that converts code from one version of a language to another, typically newer syntax to older syntax (e.g., ES6+ to ES5)."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which transpiler is commonly used in Node.js for modern JavaScript features?",
+    "Option1": "TypeScript",
+    "Option2": "Babel",
+    "Option3": "Webpack",
+    "Option4": "ESLint",
+    "Answer": "Babel"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `TypeScript` in the context of Node.js?",
+    "Option1": "A new version of JavaScript.",
+    "Option2": "A superset of JavaScript that adds optional static typing, which can improve code quality and maintainability in large Node.js projects.",
+    "Option3": "A different programming language entirely.",
+    "Option4": "A testing framework.",
+    "Answer": "A superset of JavaScript that adds optional static typing, which can improve code quality and maintainability in large Node.js projects."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the benefit of using TypeScript with Node.js?",
+    "Option1": "It makes the application run faster.",
+    "Option2": "It provides type safety, better tooling, and improved code readability and maintainability, especially for large codebases.",
+    "Option3": "It reduces the bundle size.",
+    "Option4": "It simplifies deployment.",
+    "Answer": "It provides type safety, better tooling, and improved code readability and maintainability, especially for large codebases."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is a `Microservice` architecture?",
+    "Option1": "Building an application as a single, large codebase.",
+    "Option2": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services.",
+    "Option3": "A way to deploy applications on a single server.",
+    "Option4": "A method for reducing database connections.",
+    "Answer": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services."
+  },
+  {
+    "question_no.": 106,
+    "Question": "How does Node.js fit into a microservice architecture?",
+    "Option1": "It can only be used for the frontend part.",
+    "Option2": "Its lightweight and asynchronous nature makes it suitable for building individual microservices that communicate with each other.",
+    "Option3": "It is too slow for microservices.",
+    "Option4": "It forces all microservices to use JavaScript.",
+    "Answer": "Its lightweight and asynchronous nature makes it suitable for building individual microservices that communicate with each other."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `Docker`?",
+    "Option1": "A virtualization software.",
+    "Option2": "A platform for developing, shipping, and running applications in containers, which are lightweight, portable, and self-sufficient units.",
+    "Option3": "A database system.",
+    "Option4": "A cloud hosting provider.",
+    "Answer": "A platform for developing, shipping, and running applications in containers, which are lightweight, portable, and self-sufficient units."
+  },
+  {
+    "question_no.": 108,
+    "Question": "Why use Docker for Node.js applications?",
+    "Option1": "It makes Node.js applications run faster.",
+    "Option2": "It provides consistent environments for development, testing, and production, simplifying deployment and preventing 'it works on my machine' issues.",
+    "Option3": "It reduces the amount of code needed.",
+    "Option4": "It automatically scales the application.",
+    "Answer": "It provides consistent environments for development, testing, and production, simplifying deployment and preventing 'it works on my machine' issues."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is a `Dockerfile`?",
+    "Option1": "A configuration file for a database.",
+    "Option2": "A text file that contains instructions for building a Docker image.",
+    "Option3": "A file used to store environment variables.",
+    "Option4": "A file that lists all dependencies.",
+    "Answer": "A text file that contains instructions for building a Docker image."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `Kubernetes`?",
+    "Option1": "A database management system.",
+    "Option2": "An open-source container orchestration system for automating deployment, scaling, and management of containerized applications.",
+    "Option3": "A cloud computing service.",
+    "Option4": "A version control system.",
+    "Answer": "An open-source container orchestration system for automating deployment, scaling, and management of containerized applications."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Why use Kubernetes with Node.js applications?",
+    "Option1": "To simplify debugging.",
+    "Option2": "To manage the deployment, scaling, and high availability of containerized Node.js microservices in a production environment.",
+    "Option3": "To reduce development time.",
+    "Option4": "To eliminate the need for databases.",
+    "Answer": "To manage the deployment, scaling, and high availability of containerized Node.js microservices in a production environment."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `Unit Testing` in Node.js?",
+    "Option1": "Testing the entire application end-to-end.",
+    "Option2": "Testing individual units or components of a codebase in isolation to ensure they function correctly.",
+    "Option3": "Testing only the database layer.",
+    "Option4": "Testing user interfaces.",
+    "Answer": "Testing individual units or components of a codebase in isolation to ensure they function correctly."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `Integration Testing` in Node.js?",
+    "Option1": "Testing individual components.",
+    "Option2": "Testing how different modules or services interact with each other to ensure they work together as expected.",
+    "Option3": "Testing the deployment process.",
+    "Option4": "Testing only the user interface.",
+    "Answer": "Testing how different modules or services interact with each other to ensure they work together as expected."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which npm package is a popular testing framework for Node.js?",
+    "Option1": "chai",
+    "Option2": "mocha",
+    "Option3": "jest",
+    "Option4": "All of the above (Jest is an all-in-one, Mocha/Chai/Sinon are often used together)",
+    "Answer": "All of the above (Jest is an all-in-one, Mocha/Chai/Sinon are often used together)"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `Chai` typically used for in testing?",
+    "Option1": "Running tests.",
+    "Option2": "An assertion library for helping you write tests, providing various styles of assertions (e.g., `expect`, `should`).",
+    "Option3": "Mocking functions.",
+    "Option4": "Reporting test results.",
+    "Answer": "An assertion library for helping you write tests, providing various styles of assertions (e.g., `expect`, `should`)."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `Mocha` typically used for in testing?",
+    "Option1": "Assertions.",
+    "Option2": "A JavaScript test framework running on Node.js and in the browser, providing a structure for writing and running tests.",
+    "Option3": "Mocking.",
+    "Option4": "Test reporting.",
+    "Answer": "A JavaScript test framework running on Node.js and in the browser, providing a structure for writing and running tests."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `Jest` (revisited)?",
+    "Option1": "A minimalist testing library.",
+    "Option2": "A delightful JavaScript Testing Framework with a focus on simplicity, often used for unit and integration testing in Node.js and React applications.",
+    "Option3": "A browser-based testing tool.",
+    "Option4": "A tool for performance testing.",
+    "Answer": "A delightful JavaScript Testing Framework with a focus on simplicity, often used for unit and integration testing in Node.js and React applications."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `Supertest` commonly used for in Node.js testing?",
+    "Option1": "Testing database interactions.",
+    "Option2": "Testing HTTP servers and APIs, often used with Mocha or Jest for integration tests.",
+    "Option3": "Testing front-end components.",
+    "Option4": "Load testing.",
+    "Answer": "Testing HTTP servers and APIs, often used with Mocha or Jest for integration tests."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `Debugging` in Node.js?",
+    "Option1": "Writing test cases.",
+    "Option2": "The process of identifying and removing errors from computer hardware or software.",
+    "Option3": "Deploying the application.",
+    "Option4": "Optimizing code for performance.",
+    "Answer": "The process of identifying and removing errors from computer hardware or software."
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you start Node.js with its built-in debugger?",
+    "Option1": "`node debug app.js` or `node --inspect app.js`",
+    "Option2": "`npm debug app.js`",
+    "Option3": "`node -d app.js`",
+    "Option4": "`debug app.js`",
+    "Answer": "`node debug app.js` or `node --inspect app.js`"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Nodemon` (revisited)?",
+    "Option1": "A deployment tool.",
+    "Option2": "A utility that monitors for any changes in your source and automatically restarts your server, often used during development.",
+    "Option3": "A database client.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "A utility that monitors for any changes in your source and automatically restarts your server, often used during development."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `Linting` in programming?",
+    "Option1": "Compiling code.",
+    "Option2": "The process of analyzing source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.",
+    "Option3": "Running unit tests.",
+    "Option4": "Deploying applications to production.",
+    "Answer": "The process of analyzing source code to flag programming errors, bugs, stylistic errors, and suspicious constructs."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which npm package is commonly used for linting JavaScript/Node.js code?",
+    "Option1": "prettier",
+    "Option2": "eslint",
+    "Option3": "webpack",
+    "Option4": "babel",
+    "Answer": "eslint"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `Prettier`?",
+    "Option1": "A linter.",
+    "Option2": "An opinionated code formatter that enforces a consistent style across your codebase.",
+    "Option3": "A transpiler.",
+    "Option4": "A testing framework.",
+    "Answer": "An opinionated code formatter that enforces a consistent style across your codebase."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `API Rate Limiting`?",
+    "Option1": "Limiting the number of concurrent users.",
+    "Option2": "A strategy for controlling the number of requests a client can make to a server within a given time frame to prevent abuse or overload.",
+    "Option3": "Limiting the size of API responses.",
+    "Option4": "Limiting the types of data that can be sent.",
+    "Answer": "A strategy for controlling the number of requests a client can make to a server within a given time frame to prevent abuse or overload."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Why is API Rate Limiting important?",
+    "Option1": "To increase response times.",
+    "Option2": "To protect against denial-of-service (DoS) attacks, ensure fair usage, and maintain server stability and performance.",
+    "Option3": "To hide API endpoints.",
+    "Option4": "To reduce network traffic for legitimate users.",
+    "Answer": "To protect against denial-of-service (DoS) attacks, ensure fair usage, and maintain server stability and performance."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `Input Validation` in API development?",
+    "Option1": "Validating the HTTP method.",
+    "Option2": "Ensuring that incoming data (e.g., from request bodies, query parameters) conforms to expected formats and constraints before processing.",
+    "Option3": "Validating user credentials.",
+    "Option4": "Validating the server's response.",
+    "Answer": "Ensuring that incoming data (e.g., from request bodies, query parameters) conforms to expected formats and constraints before processing."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Why is input validation crucial for Node.js APIs?",
+    "Option1": "To make API responses faster.",
+    "Option2": "To prevent security vulnerabilities (e.g., injection attacks) and ensure data integrity.",
+    "Option3": "To reduce the amount of data transferred.",
+    "Option4": "To improve API documentation.",
+    "Answer": "To prevent security vulnerabilities (e.g., injection attacks) and ensure data integrity."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which npm package is commonly used for input validation in Node.js (especially with Express)?",
+    "Option1": "body-parser",
+    "Option2": "express-validator",
+    "Option3": "joi",
+    "Option4": "Both B and C are popular choices.",
+    "Answer": "Both B and C are popular choices."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `Sanitization` in API development?",
+    "Option1": "Removing sensitive user data.",
+    "Option2": "Cleaning or filtering input data to remove or neutralize potentially harmful or malicious characters/patterns.",
+    "Option3": "Encrypting data before storing.",
+    "Option4": "Converting data to JSON format.",
+    "Answer": "Cleaning or filtering input data to remove or neutralize potentially harmful or malicious characters/patterns."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `OWASP Top 10`?",
+    "Option1": "A list of the top 10 Node.js frameworks.",
+    "Option2": "A standard awareness document for developers and web application security professionals, representing a broad consensus about the most critical security risks to web applications.",
+    "Option3": "A list of the 10 most popular npm packages.",
+    "Option4": "A ranking of cloud providers.",
+    "Answer": "A standard awareness document for developers and web application security professionals, representing a broad consensus about the most critical security risks to web applications."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `Cross-Site Scripting (XSS)`?",
+    "Option1": "An attack where malicious code is injected into a website to attack other visitors.",
+    "Option2": "An attack on databases.",
+    "Option3": "An attack that uses a different domain name.",
+    "Option4": "An attack that encrypts user data.",
+    "Answer": "An attack where malicious code is injected into a website to attack other visitors."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `SQL Injection`?",
+    "Option1": "Injecting CSS styles into a website.",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.",
+    "Option3": "Injecting JavaScript into a website.",
+    "Option4": "Injecting HTML elements into a website.",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution."
+  },
+  {
+    "question_no.": 134,
+    "Question": "How can Node.js applications prevent SQL Injection?",
+    "Option1": "By using client-side validation only.",
+    "Option2": "By using parameterized queries or ORMs (like Sequelize) that automatically sanitize inputs.",
+    "Option3": "By encrypting all database fields.",
+    "Option4": "By limiting the length of user input.",
+    "Answer": "By using parameterized queries or ORMs (like Sequelize) that automatically sanitize inputs."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `Middleware Chain` in Express.js?",
+    "Option1": "A sequence of asynchronous operations.",
+    "Option2": "The ordered execution of multiple middleware functions for a single request.",
+    "Option3": "A series of database queries.",
+    "Option4": "A list of connected clients.",
+    "Answer": "The ordered execution of multiple middleware functions for a single request."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How does `next()` function relate to the middleware chain?",
+    "Option1": "It ends the request-response cycle.",
+    "Option2": "It passes control to the next middleware function in the stack.",
+    "Option3": "It handles errors.",
+    "Option4": "It restarts the server.",
+    "Answer": "It passes control to the next middleware function in the stack."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `Authentication Middleware`?",
+    "Option1": "Middleware for logging requests.",
+    "Option2": "Middleware that verifies user credentials and sets up the user's session or token for subsequent requests.",
+    "Option3": "Middleware for parsing request bodies.",
+    "Option4": "Middleware for serving static files.",
+    "Answer": "Middleware that verifies user credentials and sets up the user's session or token for subsequent requests."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `Authorization Middleware`?",
+    "Option1": "Middleware that authenticates users.",
+    "Option2": "Middleware that checks if an authenticated user has the necessary permissions to access a specific resource or perform an action.",
+    "Option3": "Middleware for database connections.",
+    "Option4": "Middleware for compressing responses.",
+    "Answer": "Middleware that checks if an authenticated user has the necessary permissions to access a specific resource or perform an action."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the purpose of `Passport.js` in Node.js?",
+    "Option1": "A routing library.",
+    "Option2": "An authentication middleware for Node.js, providing flexible and modular strategies for various authentication methods (local, OAuth, etc.).",
+    "Option3": "A templating engine.",
+    "Option4": "A database driver.",
+    "Answer": "An authentication middleware for Node.js, providing flexible and modular strategies for various authentication methods (local, OAuth, etc.)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is a `strategy` in Passport.js?",
+    "Option1": "A routing method.",
+    "Option2": "A module that defines a specific authentication method, like local (username/password), Google OAuth, etc.",
+    "Option3": "A database schema.",
+    "Option4": "A way to handle errors.",
+    "Answer": "A module that defines a specific authentication method, like local (username/password), Google OAuth, etc."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `Session-based Authentication`?",
+    "Option1": "Authentication using JWTs.",
+    "Option2": "Authentication where user state is stored on the server in sessions, identified by a session ID stored in a cookie on the client.",
+    "Option3": "Authentication using only client-side storage.",
+    "Option4": "Authentication without storing any state.",
+    "Answer": "Authentication where user state is stored on the server in sessions, identified by a session ID stored in a cookie on the client."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `Token-based Authentication`?",
+    "Option1": "Authentication where user state is stored on the server.",
+    "Option2": "Authentication where the server generates a token (e.g., JWT) after successful login, and the client sends this token with each subsequent request for authorization.",
+    "Option3": "Authentication using only cookies.",
+    "Option4": "Authentication that is only for static websites.",
+    "Answer": "Authentication where the server generates a token (e.g., JWT) after successful login, and the client sends this token with each subsequent request for authorization."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the main benefit of Token-based Authentication over Session-based Authentication for APIs?",
+    "Option1": "It's simpler to implement.",
+    "Option2": "It's stateless on the server, more scalable, and better suited for distributed systems and mobile applications.",
+    "Option3": "It's inherently more secure.",
+    "Option4": "It reduces network traffic.",
+    "Answer": "It's stateless on the server, more scalable, and better suited for distributed systems and mobile applications."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `Serverless Computing`?",
+    "Option1": "Running applications on a physical server.",
+    "Option2": "A cloud execution model where the cloud provider dynamically manages the allocation and provisioning of servers, and you only pay for the compute time consumed.",
+    "Option3": "A method for developing offline applications.",
+    "Option4": "A type of database.",
+    "Answer": "A cloud execution model where the cloud provider dynamically manages the allocation and provisioning of servers, and you only pay for the compute time consumed."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How does Node.js fit into Serverless Computing (e.g., AWS Lambda, Azure Functions)?",
+    "Option1": "It cannot be used for serverless functions.",
+    "Option2": "Its fast startup time and efficient event-driven model make it well-suited for implementing serverless functions.",
+    "Option3": "It is too resource-intensive for serverless environments.",
+    "Option4": "It requires manual server management for serverless.",
+    "Answer": "Its fast startup time and efficient event-driven model make it well-suited for implementing serverless functions."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `REST` (Representational State Transfer)?",
+    "Option1": "A specific programming language.",
+    "Option2": "An architectural style for designing networked applications, using a stateless, client-server approach.",
+    "Option3": "A database query language.",
+    "Option4": "A front-end framework.",
+    "Answer": "An architectural style for designing networked applications, using a stateless, client-server approach."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What does it mean for a REST API to be 'stateless'?",
+    "Option1": "The server stores all client session data.",
+    "Option2": "Each request from a client to the server contains all the information needed to understand the request, and the server does not store any client context between requests.",
+    "Option3": "The API does not return any data.",
+    "Option4": "The API does not use HTTP.",
+    "Answer": "Each request from a client to the server contains all the information needed to understand the request, and the server does not store any client context between requests."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `idempotence` in REST APIs?",
+    "Option1": "A property where a request has different effects each time it is called.",
+    "Option2": "A property where making the same request multiple times has the same effect as making it once (e.g., DELETE, PUT).",
+    "Option3": "A property of asynchronous operations.",
+    "Option4": "A property that describes the speed of a request.",
+    "Answer": "A property where making the same request multiple times has the same effect as making it once (e.g., DELETE, PUT)."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which HTTP methods are generally considered idempotent?",
+    "Option1": "POST",
+    "Option2": "GET, PUT, DELETE, HEAD, OPTIONS",
+    "Option3": "GET, POST",
+    "Option4": "PATCH",
+    "Answer": "GET, PUT, DELETE, HEAD, OPTIONS"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `npm audit` used for?",
+    "Option1": "To check package versions.",
+    "Option2": "To scan your project for security vulnerabilities in its dependencies and provide recommendations.",
+    "Option3": "To optimize package installation.",
+    "Option4": "To list all installed packages.",
+    "Answer": "To scan your project for security vulnerabilities in its dependencies and provide recommendations."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `npm install` versus `npm ci`?",
+    "Option1": "`npm install` installs from `package-lock.json`, `npm ci` installs from `package.json`.",
+    "Option2": "`npm install` is for development, `npm ci` is for production installs from `package-lock.json` and ensures clean state.",
+    "Option3": "`npm ci` is faster but less reliable.`",
+    "Option4": "There is no difference.",
+    "Answer": "`npm install` is for development, `npm ci` is for production installs from `package-lock.json` and ensures clean state."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `npm update` used for?",
+    "Option1": "To install new packages.",
+    "Option2": "To update existing packages to their latest versions within the constraints specified in `package.json`.",
+    "Option3": "To downgrade packages.",
+    "Option4": "To remove packages.",
+    "Answer": "To update existing packages to their latest versions within the constraints specified in `package.json`."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `semver` (Semantic Versioning)?",
+    "Option1": "A naming convention for variables.",
+    "Option2": "A versioning scheme (MAJOR.MINOR.PATCH) where version numbers and their changes convey meaning about the underlying code and modifications.",
+    "Option3": "A type of data encryption.",
+    "Option4": "A protocol for network communication.",
+    "Answer": "A versioning scheme (MAJOR.MINOR.PATCH) where version numbers and their changes convey meaning about the underlying code and modifications."
+  },
+  {
+    "question_no.": 154,
+    "Question": "In semver, what does a change in the `MAJOR` version typically indicate?",
+    "Option1": "Backward-compatible bug fixes.",
+    "Option2": "Backward-compatible new features.",
+    "Option3": "Backward-incompatible API changes.",
+    "Option4": "Performance improvements.",
+    "Answer": "Backward-incompatible API changes."
+  },
+  {
+    "question_no.": 155,
+    "Question": "In semver, what does a change in the `MINOR` version typically indicate?",
+    "Option1": "Backward-incompatible changes.",
+    "Option2": "Backward-compatible new functionality or features.",
+    "Option3": "Bug fixes only.",
+    "Option4": "Major refactoring.",
+    "Answer": "Backward-compatible new functionality or features."
+  },
+  {
+    "question_no.": 156,
+    "Question": "In semver, what does a change in the `PATCH` version typically indicate?",
+    "Option1": "New features.",
+    "Option2": "Backward-compatible bug fixes.",
+    "Option3": "API changes.",
+    "Option4": "Performance changes only.",
+    "Answer": "Backward-compatible bug fixes."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `package-lock.json` file used for?",
+    "Option1": "To prevent package installation.",
+    "Option2": "To record the exact versions of all installed dependencies, ensuring reproducible builds.",
+    "Option3": "To define project scripts.",
+    "Option4": "To store environment variables.",
+    "Answer": "To record the exact versions of all installed dependencies, ensuring reproducible builds."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `Helmet.js` middleware used for in Express applications?",
+    "Option1": "For logging HTTP requests.",
+    "Option2": "To secure Express apps by setting various HTTP headers that protect against common web vulnerabilities.",
+    "Option3": "For parsing request bodies.",
+    "Option4": "For compressing responses.",
+    "Answer": "To secure Express apps by setting various HTTP headers that protect against common web vulnerabilities."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `winston` or `morgan` commonly used for in Node.js applications?",
+    "Option1": "Debugging.",
+    "Option2": "Logging, for recording events and debugging information.",
+    "Option3": "Testing.",
+    "Option4": "Authentication.",
+    "Answer": "Logging, for recording events and debugging information."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `Validation` versus `Sanitization`?",
+    "Option1": "They are the same.",
+    "Option2": "Validation ensures data meets specific criteria; Sanitization cleans data by removing or modifying harmful parts.",
+    "Option3": "Validation is for numbers, Sanitization is for strings.",
+    "Option4": "Validation happens on the client, Sanitization on the server.",
+    "Answer": "Validation ensures data meets specific criteria; Sanitization cleans data by removing or modifying harmful parts."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `npm scripts`?",
+    "Option1": "Scripts written in Node.js.",
+    "Option2": "Custom commands defined in the `scripts` section of `package.json` that can execute shell commands or run other npm scripts.",
+    "Option3": "Pre-installed npm commands.",
+    "Option4": "Scripts for installing npm packages.",
+    "Answer": "Custom commands defined in the `scripts` section of `package.json` that can execute shell commands or run other npm scripts."
+  },
+  {
+    "question_no.": 162,
+    "Question": "How do you run an npm script named `start`?",
+    "Option1": "`start`",
+    "Option2": "`npm run start` or simply `npm start` (for special scripts like `start`, `test`, `install`)",
+    "Option3": "`node start`",
+    "Option4": "`execute start`",
+    "Answer": "`npm run start` or simply `npm start` (for special scripts like `start`, `test`, `install`)"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the `package-lock.json` file for in relation to `npm install`?",
+    "Option1": "It's ignored by `npm install`.",
+    "Option2": "It guides `npm install` to install the exact dependency tree, ensuring reproducible builds.",
+    "Option3": "It prevents `npm install` from running.",
+    "Option4": "It lists all available packages.",
+    "Answer": "It guides `npm install` to install the exact dependency tree, ensuring reproducible builds."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the `callback queue` in the Event Loop?",
+    "Option1": "A queue for synchronous functions.",
+    "Option2": "A queue that holds callback functions from asynchronous operations (like `setTimeout`, I/O) that are ready to be executed.",
+    "Option3": "A queue for Promises.",
+    "Option4": "A queue for microtasks.",
+    "Answer": "A queue that holds callback functions from asynchronous operations (like `setTimeout`, I/O) that are ready to be executed."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is the `microtask queue` in the Event Loop?",
+    "Option1": "A queue for network requests.",
+    "Option2": "A higher-priority queue than the callback queue, holding tasks like Promise callbacks (`.then()`, `.catch()`, `.finally()`) and `process.nextTick`.",
+    "Option3": "A queue for file system operations.",
+    "Option4": "A queue for long-running synchronous tasks.",
+    "Answer": "A higher-priority queue than the callback queue, holding tasks like Promise callbacks (`.then()`, `.catch()`, `.finally()`) and `process.nextTick`."
+  },
+  {
+    "question_no.": 166,
+    "Question": "Which queue gets priority, `microtask queue` or `callback queue`?",
+    "Option1": "Callback queue.",
+    "Option2": "Microtask queue.",
+    "Option3": "It depends on the operating system.",
+    "Option4": "They have equal priority.",
+    "Answer": "Microtask queue."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `process.nextTick()` used for?",
+    "Option1": "To schedule a callback for the next tick of the event loop, before any I/O events, giving it higher priority than `setTimeout(0)`.",
+    "Option2": "To schedule a callback after all I/O events.",
+    "Option3": "To measure the execution time of a function.",
+    "Option4": "To pause the event loop.",
+    "Answer": "To schedule a callback for the next tick of the event loop, before any I/O events, giving it higher priority than `setTimeout(0)`."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `setTimeout(fn, 0)` equivalent to in terms of immediate execution?",
+    "Option1": "It executes immediately.",
+    "Option2": "It defers execution until the next turn of the event loop, after current script and microtasks.",
+    "Option3": "It never executes.",
+    "Option4": "It executes before `process.nextTick()`.",
+    "Answer": "It defers execution until the next turn of the event loop, after current script and microtasks."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `EventEmitter`'s `removeListener()` method for?",
+    "Option1": "To stop listening for an event after it has been emitted.",
+    "Option2": "To remove a specific listener function for a given event.",
+    "Option3": "To clear all listeners for an event.",
+    "Option4": "To prevent an event from being emitted.",
+    "Answer": "To remove a specific listener function for a given event."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `EventEmitter`'s `once()` method for?",
+    "Option1": "To listen for an event indefinitely.",
+    "Option2": "To add a listener function that will be invoked only once, and then automatically removed.",
+    "Option3": "To emit an event only once.",
+    "Option4": "To check if an event has been emitted once.",
+    "Answer": "To add a listener function that will be invoked only once, and then automatically removed."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the `net` module in Node.js used for?",
+    "Option1": "HTTP client and server.",
+    "Option2": "Creating raw TCP or IPC servers and clients.",
+    "Option3": "File system operations.",
+    "Option4": "Database connections.",
+    "Answer": "Creating raw TCP or IPC servers and clients."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `DNS` module in Node.js used for?",
+    "Option1": "To manage network interfaces.",
+    "Option2": "To perform DNS (Domain Name System) lookups and resolve hostnames to IP addresses.",
+    "Option3": "To configure network settings.",
+    "Option4": "To check network connectivity.",
+    "Answer": "To perform DNS (Domain Name System) lookups and resolve hostnames to IP addresses."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the `os` module in Node.js used for?",
+    "Option1": "To interact with databases.",
+    "Option2": "To provide operating system-related utility methods and properties (e.g., CPU info, memory info, platform).",
+    "Option3": "To manage files and folders.",
+    "Option4": "To create HTTP requests.",
+    "Answer": "To provide operating system-related utility methods and properties and properties (e.g., CPU info, memory info, platform)."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the `util` module in Node.js used for?",
+    "Option1": "For creating HTTP servers.",
+    "Option2": "To provide utility functions often needed for Node.js internal APIs and general programming, such as `promisify`.",
+    "Option3": "For managing file streams.",
+    "Option4": "For parsing URLs.",
+    "Answer": "To provide utility functions often needed for Node.js internal APIs and general programming, such as `promisify`."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `util.promisify()`?",
+    "Option1": "A function that converts a Promise into a callback-based function.",
+    "Option2": "A function that converts a callback-based function into a Promise-returning function.",
+    "Option3": "A function that creates a new Promise.",
+    "Option4": "A function that resolves a Promise.",
+    "Answer": "A function that converts a callback-based function into a Promise-returning function."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `Global Error Handling` in Node.js?",
+    "Option1": "Handling errors inside `try...catch` blocks only.",
+    "Option2": "Setting up mechanisms to catch and manage uncaught exceptions and unhandled promise rejections at the application level.",
+    "Option3": "Logging errors to a file.",
+    "Option4": "Ignoring all errors.",
+    "Answer": "Setting up mechanisms to catch and manage uncaught exceptions and unhandled promise rejections at the application level."
+  },
+  {
+    "question_no.": 177,
+    "Question": "How do you set up global uncaught exception handling in Node.js?",
+    "Option1": "`process.on('exception', handler)`",
+    "Option2": "`process.on('uncaughtException', handler)`",
+    "Option3": "`app.on('error', handler)`",
+    "Option4": "`global.onError = handler`",
+    "Answer": "`process.on('uncaughtException', handler)`"
+  },
+  {
+    "question_no.": 178,
+    "Question": "How do you set up global unhandled promise rejection handling in Node.js?",
+    "Option1": "`process.on('promiseError', handler)`",
+    "Option2": "`process.on('unhandledRejection', handler)`",
+    "Option3": "`app.on('promiseFail', handler)`",
+    "Option4": "`global.onUnhandled = handler`",
+    "Answer": "`process.on('unhandledRejection', handler)`"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the importance of graceful shutdown in Node.js applications?",
+    "Option1": "To keep the server running indefinitely.",
+    "Option2": "To allow the application to finish pending requests, close database connections, and release resources before shutting down, preventing data loss or corruption.",
+    "Option3": "To restart the server quickly.",
+    "Option4": "To ignore incoming requests during shutdown.",
+    "Answer": "To allow the application to finish pending requests, close database connections, and release resources before shutting down, preventing data loss or corruption."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Cross-Origin Request Forgery (CSRF)`?",
+    "Option1": "An attack that injects malicious scripts.",
+    "Option2": "An attack where an attacker tricks a victim into submitting a malicious request to a web application they're authenticated to.",
+    "Option3": "An attack that intercepts network traffic.",
+    "Option4": "An attack that targets server-side code.",
+    "Answer": "An attack where an attacker tricks a victim into submitting a malicious request to a web application they're authenticated to."
+  },
+  {
+    "question_no.": 181,
+    "Question": "How can Node.js applications protect against CSRF?",
+    "Option1": "By disabling JavaScript.",
+    "Option2": "By using anti-CSRF tokens (e.g., `csurf` npm package), SameSite cookies, and checking `Origin`/`Referer` headers.",
+    "Option3": "By only allowing GET requests.",
+    "Option4": "By encrypting all user data.",
+    "Answer": "By using anti-CSRF tokens (e.g., `csurf` npm package), SameSite cookies, and checking `Origin`/`Referer` headers."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Rate Limiting Middleware` in Express.js?",
+    "Option1": "Middleware for caching responses.",
+    "Option2": "Middleware (e.g., `express-rate-limit`) that restricts the number of requests from a specific IP address within a given time window.",
+    "Option3": "Middleware for parsing JSON.",
+    "Option4": "Middleware for handling authentication.",
+    "Answer": "Middleware (e.g., `express-rate-limit`) that restricts the number of requests from a specific IP address within a given time window."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Compression Middleware` in Express.js?",
+    "Option1": "Middleware for encrypting data.",
+    "Option2": "Middleware (e.g., `compression`) that compresses HTTP responses before sending them to the client, reducing bandwidth usage.",
+    "Option3": "Middleware for decompressing requests.",
+    "Option4": "Middleware for logging network traffic.",
+    "Answer": "Middleware (e.g., `compression`) that compresses HTTP responses before sending them to the client, reducing bandwidth usage."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the benefit of using `Compression Middleware`?",
+    "Option1": "Increased security.",
+    "Option2": "Faster load times for users due to smaller response sizes, especially for text-based content.",
+    "Option3": "Reduced server CPU usage.",
+    "Option4": "Simplified API development.",
+    "Answer": "Faster load times for users due to smaller response sizes, especially for text-based content."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Graceful Degradation` in API design?",
+    "Option1": "An API that slowly becomes less functional.",
+    "Option2": "Designing an API so that it remains functional (though possibly with reduced features or performance) even if some parts of the system fail.",
+    "Option3": "An API that reduces its features over time.",
+    "Option4": "An API that only supports older clients.",
+    "Answer": "Designing an API so that it remains functional (though possibly with reduced features or performance) even if some parts of the system fail."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `Circuit Breaker Pattern` in microservices?",
+    "Option1": "A pattern for stopping all services.",
+    "Option2": "A pattern for preventing a failing service from continuously impacting other services by quickly returning an error, allowing the failing service time to recover.",
+    "Option3": "A pattern for increasing service complexity.",
+    "Option4": "A pattern for load balancing.",
+    "Answer": "A pattern for preventing a failing service from continuously impacting other services by quickly returning an error, allowing the failing service time to recover."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Centralized Logging`?",
+    "Option1": "Logging only to the console.",
+    "Option2": "Aggregating logs from multiple applications and servers into a central location for easier analysis, monitoring, and debugging.",
+    "Option3": "Logging only critical errors.",
+    "Option4": "Logging only on client-side.",
+    "Answer": "Aggregating logs from multiple applications and servers into a central location for easier analysis, monitoring, and debugging."
+  },
+  {
+    "question_no.": 188,
+    "Question": "Which tools are commonly used for Centralized Logging with Node.js applications?",
+    "Option1": "Local file system.",
+    "Option2": "ELK Stack (Elasticsearch, Logstash, Kibana), Splunk, Datadog.",
+    "Option3": "Browser developer tools.",
+    "Option4": "Plain text editors.",
+    "Answer": "ELK Stack (Elasticsearch, Logstash, Kibana), Splunk, Datadog."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `Monitoring` in the context of Node.js applications?",
+    "Option1": "Checking the CPU temperature.",
+    "Option2": "Collecting and analyzing metrics (e.g., CPU usage, memory, response times, error rates) to understand the health and performance of the application.",
+    "Option3": "Watching user activity.",
+    "Option4": "Tracking code changes.",
+    "Answer": "Collecting and analyzing metrics (e.g., CPU usage, memory, response times, error rates) to understand the health and performance of the application."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `Prometheus` and `Grafana` commonly used for with Node.js?",
+    "Option1": "Database management.",
+    "Option2": "Prometheus for time-series data monitoring and alerting, Grafana for visualizing those metrics and creating dashboards.",
+    "Option3": "Code deployment.",
+    "Option4": "User authentication.",
+    "Answer": "Prometheus for time-series data monitoring and alerting, Grafana for visualizing those metrics and creating dashboards."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `Benchmarking` in Node.js?",
+    "Option1": "Comparing different programming languages.",
+    "Option2": "Measuring the performance of a piece of code or an entire application under specific conditions to evaluate its efficiency and identify bottlenecks.",
+    "Option3": "Estimating project costs.",
+    "Option4": "Writing documentation.",
+    "Answer": "Measuring the performance of a piece of code or an entire application under specific conditions to evaluate its efficiency and identify bottlenecks."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `Event Sourcing`?",
+    "Option1": "A database type.",
+    "Option2": "An architectural pattern where all changes to application state are stored as a sequence of immutable events.",
+    "Option3": "A way to generate random events.",
+    "Option4": "A method for handling real-time data.",
+    "Answer": "An architectural pattern where all changes to application state are stored as a sequence of immutable events."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `CQRS` (Command Query Responsibility Segregation)?",
+    "Option1": "Separating read and write operations on a database.",
+    "Option2": "An architectural pattern that separates the model for updating information (commands) from the model for reading information (queries).",
+    "Option3": "Separating frontend and backend.",
+    "Option4": "Separating synchronous and asynchronous operations.",
+    "Answer": "An architectural pattern that separates the model for updating information (commands) from the model for reading information (queries)."
+  },
+  {
+    "question_no.": 194,
+    "Question": "How can `Caching` improve Node.js application performance?",
+    "Option1": "By increasing network latency.",
+    "Option2": "By storing frequently accessed data in faster memory (e.g., Redis, in-memory cache) to reduce the need for expensive recomputations or database lookups.",
+    "Option3": "By encrypting data.",
+    "Option4": "By reducing the number of server instances.",
+    "Answer": "By storing frequently accessed data in faster memory (e.g., Redis, in-memory cache) to reduce the need for expensive recomputations or database lookups."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which in-memory data store is commonly used for caching with Node.js?",
+    "Option1": "PostgreSQL",
+    "Option2": "MongoDB",
+    "Option3": "Redis",
+    "Option4": "SQLite",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `Message Queues`?",
+    "Option1": "A way to store short messages.",
+    "Option2": "A form of asynchronous service-to-service communication used in serverless and microservices architectures, allowing services to communicate without direct coupling.",
+    "Option3": "A system for real-time chat.",
+    "Option4": "A tool for debugging network requests.",
+    "Answer": "A form of asynchronous service-to-service communication used in serverless and microservices architectures, allowing services to communicate without direct coupling."
+  },
+  {
+    "question_no.": 197,
+    "Question": "When would you use a `Message Queue` in a Node.js application?",
+    "Option1": "For synchronous API calls.",
+    "Option2": "For handling long-running tasks, decoupling services, or ensuring reliable communication between microservices (e.g., processing orders, sending emails).",
+    "Option3": "For simple data storage.",
+    "Option4": "For real-time updates to the UI.",
+    "Answer": "For handling long-running tasks, decoupling services, or ensuring reliable communication between microservices (e.g., processing orders, sending emails)."
+  },
+  {
+    "question_no.": 198,
+    "Question": "Which technologies are commonly used for `Message Queues` with Node.js?",
+    "Option1": "HTTP and FTP.",
+    "Option2": "RabbitMQ, Apache Kafka, AWS SQS, Redis Pub/Sub.",
+    "Option3": "SQL databases.",
+    "Option4": "WebSockets.",
+    "Answer": "RabbitMQ, Apache Kafka, AWS SQS, Redis Pub/Sub."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `Background Jobs` in Node.js?",
+    "Option1": "Tasks that block the main thread.",
+    "Option2": "Long-running, resource-intensive tasks that are executed asynchronously in the background without blocking the main event loop or user interface.",
+    "Option3": "Tasks that are always executed immediately.",
+    "Option4": "Tasks that are only performed on the client-side.",
+    "Answer": "Long-running, resource-intensive tasks that are executed asynchronously in the background without blocking the main event loop or user interface."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Which npm packages are commonly used for managing `Background Jobs` in Node.js?",
+    "Option1": "express, http.",
+    "Option2": "Bull, Agenda.js, Kue.",
+    "Option3": "fs, path.",
+    "Option4": "body-parser, cors.",
+    "Answer": "Bull, Agenda.js, Kue."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `Cron Jobs`?",
+    "Option1": "Jobs that run randomly.",
+    "Option2": "Scheduled tasks that run periodically at fixed times, dates, or intervals, commonly managed by a cron daemon on Unix-like systems.",
+    "Option3": "Jobs that are triggered by user interaction.",
+    "Option4": "Jobs that run only once.",
+    "Answer": "Scheduled tasks that run periodically at fixed times, dates, or intervals, commonly managed by a cron daemon on Unix-like systems."
+  },
+  {
+    "question_no.": 202,
+    "Question": "How can you schedule `Cron Jobs` within a Node.js application?",
+    "Option1": "Using `setTimeout` with a very long delay.",
+    "Option2": "Using npm packages like `node-cron` or `cron`.",
+    "Option3": "It's not possible to schedule cron jobs directly in Node.js.",
+    "Option4": "By manually restarting the server at intervals.",
+    "Answer": "Using npm packages like `node-cron` or `cron`."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `GraphQL Playground` or `GraphiQL`?",
+    "Option1": "A tool for debugging Node.js applications.",
+    "Option2": "Interactive in-browser GraphQL IDEs that allow developers to explore and test GraphQL APIs.",
+    "Option3": "A GraphQL database client.",
+    "Option4": "A GraphQL testing framework.",
+    "Answer": "Interactive in-browser GraphQL IDEs that allow developers to explore and test GraphQL APIs."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `Schema-first` vs `Code-first` approach in GraphQL?",
+    "Option1": "Schema-first focuses on database schema, Code-first on programming language classes.",
+    "Option2": "Schema-first defines the GraphQL schema using SDL, then generates code. Code-first writes code that generates the GraphQL schema.",
+    "Option3": "Schema-first is for REST, Code-first is for GraphQL.",
+    "Option4": "They are synonymous terms.",
+    "Answer": "Schema-first defines the GraphQL schema using SDL, then generates code. Code-first writes code that generates the GraphQL schema."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `Webpack` (in relation to frontend development with Node.js)?",
+    "Option1": "A JavaScript runtime.",
+    "Option2": "A module bundler that takes modules with dependencies and generates static assets for the browser, often used for frontend build processes in Node.js projects.",
+    "Option3": "A database system.",
+    "Option4": "A CSS preprocessor.",
+    "Answer": "A module bundler that takes modules with dependencies and generates static assets for the browser, often used for frontend build processes in Node.js projects."
+  }
+]

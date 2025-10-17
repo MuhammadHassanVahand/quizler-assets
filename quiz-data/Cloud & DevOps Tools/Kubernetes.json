@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Kubernetes primarily used for?",
+    "Option1": "Managing virtual machines",
+    "Option2": "Orchestrating containerized applications",
+    "Option3": "Building web servers",
+    "Option4": "Developing mobile applications",
+    "Answer": "Orchestrating containerized applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is a 'Pod' in Kubernetes?",
+    "Option1": "A single container",
+    "Option2": "The smallest deployable unit of computing in Kubernetes, representing a single instance of a running process in your cluster, which can contain one or more containers.",
+    "Option3": "A virtual machine",
+    "Option4": "A network interface",
+    "Answer": "The smallest deployable unit of computing in Kubernetes, representing a single instance of a running process in your cluster, which can contain one or more containers."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is a 'Node' in Kubernetes?",
+    "Option1": "A single container",
+    "Option2": "A worker machine in Kubernetes, which can be a virtual machine or a physical machine, responsible for running pods.",
+    "Option3": "A network switch",
+    "Option4": "A database server",
+    "Answer": "A worker machine in Kubernetes, which can be a virtual machine or a physical machine, responsible for running pods."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the 'Control Plane' (Master Node) in Kubernetes?",
+    "Option1": "A single worker node",
+    "Option2": "The set of components that manage and control the Kubernetes cluster, including the API server, scheduler, and controller manager.",
+    "Option3": "A load balancer",
+    "Option4": "A storage volume",
+    "Answer": "The set of components that manage and control the Kubernetes cluster, including the API server, scheduler, and controller manager."
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which component of the Kubernetes Control Plane exposes the Kubernetes API?",
+    "Option1": "Scheduler",
+    "Option2": "Kubelet",
+    "Option3": "Kube-apiserver",
+    "Option4": "Kube-proxy",
+    "Answer": "Kube-apiserver"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which component of the Kubernetes Control Plane assigns new pods to nodes?",
+    "Option1": "Kube-apiserver",
+    "Option2": "Scheduler",
+    "Option3": "Controller Manager",
+    "Option4": "Etcd",
+    "Answer": "Scheduler"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which component of the Kubernetes Control Plane is a consistent and highly available key-value store used as Kubernetes' backing store for all cluster data?",
+    "Option1": "MySQL",
+    "Option2": "MongoDB",
+    "Option3": "Etcd",
+    "Option4": "Redis",
+    "Answer": "Etcd"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the agent that runs on each node in the cluster and ensures containers are running in a pod?",
+    "Option1": "Kube-proxy",
+    "Option2": "Kubelet",
+    "Option3": "Container Runtime",
+    "Option4": "Scheduler",
+    "Answer": "Kubelet"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which component of Kubernetes is responsible for network proxy and load balancing for Services?",
+    "Option1": "Kubelet",
+    "Option2": "Kube-proxy",
+    "Option3": "Container Runtime",
+    "Option4": "Scheduler",
+    "Answer": "Kube-proxy"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'Deployment' in Kubernetes?",
+    "Option1": "A single pod",
+    "Option2": "A controller that provides declarative updates for Pods and ReplicaSets, allowing you to manage the lifecycle of your application.",
+    "Option3": "A network configuration",
+    "Option4": "A storage volume",
+    "Answer": "A controller that provides declarative updates for Pods and ReplicaSets, allowing you to manage the lifecycle of your application."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is a 'Service' in Kubernetes?",
+    "Option1": "A single container",
+    "Option2": "An abstract way to expose an application running on a set of Pods as a network service, providing a stable IP address and DNS name.",
+    "Option3": "A storage solution",
+    "Option4": "A monitoring tool",
+    "Answer": "An abstract way to expose an application running on a set of Pods as a network service, providing a stable IP address and DNS name."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which type of Kubernetes Service exposes the application on a cluster-internal IP?",
+    "Option1": "NodePort",
+    "Option2": "LoadBalancer",
+    "Option3": "ClusterIP",
+    "Option4": "ExternalName",
+    "Answer": "ClusterIP"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which type of Kubernetes Service exposes the application on a port on each Node, making it accessible from outside the cluster?",
+    "Option1": "ClusterIP",
+    "Option2": "LoadBalancer",
+    "Option3": "NodePort",
+    "Option4": "ExternalName",
+    "Answer": "NodePort"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which type of Kubernetes Service provisions an external cloud load balancer to expose the application to the internet?",
+    "Option1": "ClusterIP",
+    "Option2": "NodePort",
+    "Option3": "LoadBalancer",
+    "Option4": "ExternalName",
+    "Answer": "LoadBalancer"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is an 'Ingress' in Kubernetes?",
+    "Option1": "An internal load balancer",
+    "Option2": "An API object that manages external access to the services in a cluster, typically HTTP/S, providing routing rules and TLS termination.",
+    "Option3": "A type of storage",
+    "Option4": "A network policy",
+    "Answer": "An API object that manages external access to the services in a cluster, typically HTTP/S, providing routing rules and TLS termination."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'ConfigMap' in Kubernetes?",
+    "Option1": "A way to store sensitive information",
+    "Option2": "An API object used to store non-sensitive data in key-value pairs, allowing configuration data to be decoupled from application code.",
+    "Option3": "A network configuration",
+    "Option4": "A type of volume",
+    "Answer": "An API object used to store non-sensitive data in key-value pairs, allowing configuration data to be decoupled from application code."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is a 'Secret' in Kubernetes?",
+    "Option1": "For storing non-sensitive configuration.",
+    "Option2": "An API object for storing sensitive information, such as passwords, OAuth tokens, and ssh keys.",
+    "Option3": "A public key.",
+    "Option4": "A network policy.",
+    "Answer": "An API object for storing sensitive information, such as passwords, OAuth tokens, and ssh keys."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is a 'Volume' in Kubernetes?",
+    "Option1": "A temporary cache.",
+    "Option2": "A directory, accessible to all containers in a Pod, that persists data beyond the lifecycle of a single container.",
+    "Option3": "A network interface.",
+    "Option4": "A type of service.",
+    "Answer": "A directory, accessible to all containers in a Pod, that persists data beyond the lifecycle of a single container."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a 'PersistentVolume' (PV) in Kubernetes?",
+    "Option1": "Ephemeral storage.",
+    "Option2": "A piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes, independent of a Pod's lifecycle.",
+    "Option3": "A local disk on a node.",
+    "Option4": "A network configuration.",
+    "Answer": "A piece of storage in the cluster that has been provisioned by an administrator or dynamically provisioned using Storage Classes, independent of a Pod's lifecycle."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'PersistentVolumeClaim' (PVC) in Kubernetes?",
+    "Option1": "A request for temporary storage.",
+    "Option2": "A request for storage by a user, abstracting away the underlying storage details from the application.",
+    "Option3": "A type of volume that is not persistent.",
+    "Option4": "A network resource.",
+    "Answer": "A request for storage by a user, abstracting away the underlying storage details from the application."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'StorageClass' in Kubernetes?",
+    "Option1": "A predefined storage volume.",
+    "Option2": "An API object that describes the 'classes' of storage that can be offered in a cluster, enabling dynamic provisioning of PersistentVolumes.",
+    "Option3": "A type of secret.",
+    "Option4": "A network configuration.",
+    "Answer": "An API object that describes the 'classes' of storage that can be offered in a cluster, enabling dynamic provisioning of PersistentVolumes."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'Namespace' in Kubernetes?",
+    "Option1": "A physical cluster.",
+    "Option2": "A way to divide cluster resources among multiple users or teams, providing a scope for names and preventing name collisions.",
+    "Option3": "A network segment.",
+    "Option4": "A security group.",
+    "Answer": "A way to divide cluster resources among multiple users or teams, providing a scope for names and preventing name collisions."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'kubectl'?",
+    "Option1": "A Kubernetes programming language.",
+    "Option2": "The command-line tool for running commands against Kubernetes clusters.",
+    "Option3": "A graphical user interface for Kubernetes.",
+    "Option4": "A monitoring agent for Kubernetes.",
+    "Answer": "The command-line tool for running commands against Kubernetes clusters."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which command is used to get a list of all running pods in the current namespace?",
+    "Option1": "kubectl get nodes",
+    "Option2": "kubectl get deployments",
+    "Option3": "kubectl get pods",
+    "Option4": "kubectl describe pod",
+    "Answer": "kubectl get pods"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which command is used to apply a Kubernetes configuration file?",
+    "Option1": "kubectl delete -f file.yaml",
+    "Option2": "kubectl apply -f file.yaml",
+    "Option3": "kubectl create -f file.yaml",
+    "Option4": "kubectl get -f file.yaml",
+    "Answer": "kubectl apply -f file.yaml"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which command is used to delete a Kubernetes resource defined in a file?",
+    "Option1": "kubectl apply -f file.yaml",
+    "Option2": "kubectl create -f file.yaml",
+    "Option3": "kubectl delete -f file.yaml",
+    "Option4": "kubectl describe -f file.yaml",
+    "Answer": "kubectl delete -f file.yaml"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a 'ReplicaSet' in Kubernetes?",
+    "Option1": "A single instance of an application.",
+    "Option2": "A controller that ensures a specified number of Pod replicas are running at any given time, primarily used by Deployments.",
+    "Option3": "A mechanism for rolling updates.",
+    "Option4": "A way to expose a service.",
+    "Answer": "A controller that ensures a specified number of Pod replicas are running at any given time, primarily used by Deployments."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'DaemonSet' in Kubernetes?",
+    "Option1": "Ensures a single pod runs on one specific node.",
+    "Option2": "Ensures that a copy of a Pod runs on all (or a subset) of nodes in a cluster, typically for cluster-level operations like logging agents or monitoring agents.",
+    "Option3": "Manages a fixed number of pods.",
+    "Option4": "Used for batch processing.",
+    "Answer": "Ensures that a copy of a Pod runs on all (or a subset) of nodes in a cluster, typically for cluster-level operations like logging agents or monitoring agents."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'StatefulSet' in Kubernetes?",
+    "Option1": "For stateless applications only.",
+    "Option2": "A controller that manages the deployment and scaling of a set of Pods, guaranteeing order and uniqueness for stateful applications.",
+    "Option3": "Used for single-instance applications.",
+    "Option4": "A type of service.",
+    "Answer": "A controller that manages the deployment and scaling of a set of Pods, guaranteeing order and uniqueness for stateful applications."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'Job' in Kubernetes?",
+    "Option1": "For long-running services.",
+    "Option2": "Creates one or more Pods and ensures that a specified number of them successfully terminate, typically for batch processing tasks.",
+    "Option3": "For exposing applications.",
+    "Option4": "For continuous deployments.",
+    "Answer": "Creates one or more Pods and ensures that a specified number of them successfully terminate, typically for batch processing tasks."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is a 'CronJob' in Kubernetes?",
+    "Option1": "A one-time job.",
+    "Option2": "Manages time-based jobs, similar to the cron utility in Unix-like systems, for scheduled tasks.",
+    "Option3": "A continuously running service.",
+    "Option4": "A job that runs on demand.",
+    "Answer": "Manages time-based jobs, similar to the cron utility in Unix-like systems, for scheduled tasks."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is a 'Service Account' in Kubernetes?",
+    "Option1": "A human user account.",
+    "Option2": "An identity that processes in Pods can use to access the Kubernetes API and other resources within the cluster.",
+    "Option3": "A billing account.",
+    "Option4": "A network interface.",
+    "Answer": "An identity that processes in Pods can use to access the Kubernetes API and other resources within the cluster."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Role-Based Access Control (RBAC)' in Kubernetes?",
+    "Option1": "Only for network access.",
+    "Option2": "A method of regulating access to computer or network resources based on the roles of individual users within an enterprise.",
+    "Option3": "A type of storage.",
+    "Option4": "A logging mechanism.",
+    "Answer": "A method of regulating access to computer or network resources based on the roles of individual users within an enterprise."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is a 'Role' in Kubernetes RBAC?",
+    "Option1": "Defines who can access a resource.",
+    "Option2": "A set of permissions that can be granted to a Service Account or user within a specific Namespace.",
+    "Option3": "A cluster-wide permission.",
+    "Option4": "A user group.",
+    "Answer": "A set of permissions that can be granted to a Service Account or user within a specific Namespace."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a 'ClusterRole' in Kubernetes RBAC?",
+    "Option1": "A role limited to a Namespace.",
+    "Option2": "A set of permissions that applies across the entire cluster, not limited to a specific Namespace.",
+    "Option3": "A default role for all users.",
+    "Option4": "A role for external access.",
+    "Answer": "A set of permissions that applies across the entire cluster, not limited to a specific Namespace."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is a 'RoleBinding' in Kubernetes RBAC?",
+    "Option1": "Defines a new role.",
+    "Option2": "Grants the permissions defined in a Role to a user, group, or Service Account within a specific Namespace.",
+    "Option3": "Binds a ClusterRole to a user.",
+    "Option4": "Limits access to a specific pod.",
+    "Answer": "Grants the permissions defined in a Role to a user, group, or Service Account within a specific Namespace."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is a 'ClusterRoleBinding' in Kubernetes RBAC?",
+    "Option1": "Binds a Role to a user.",
+    "Option2": "Grants the permissions defined in a ClusterRole to a user, group, or Service Account across the entire cluster.",
+    "Option3": "Limits permissions to a Namespace.",
+    "Option4": "Defines a new ClusterRole.",
+    "Answer": "Grants the permissions defined in a ClusterRole to a user, group, or Service Account across the entire cluster."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'kubeconfig'?",
+    "Option1": "A Kubernetes log file.",
+    "Option2": "A YAML file that contains configurations for accessing Kubernetes clusters, including cluster details, user authentication, and contexts.",
+    "Option3": "A Kubernetes manifest file.",
+    "Option4": "A network configuration file.",
+    "Answer": "A YAML file that contains configurations for accessing Kubernetes clusters, including cluster details, user authentication, and contexts."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Helm' primarily used for in Kubernetes?",
+    "Option1": "Container runtime.",
+    "Option2": "The package manager for Kubernetes, used to define, install, and upgrade applications packaged as 'Charts'.",
+    "Option3": "Network monitoring.",
+    "Option4": "Security scanning.",
+    "Answer": "The package manager for Kubernetes, used to define, install, and upgrade applications packaged as 'Charts'."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'Helm Chart'?",
+    "Option1": "A single Kubernetes YAML file.",
+    "Option2": "A collection of files that describe a related set of Kubernetes resources, packaged together for easy deployment and management.",
+    "Option3": "A graphical representation of a cluster.",
+    "Option4": "A type of Kubernetes service.",
+    "Answer": "A collection of files that describe a related set of Kubernetes resources, packaged together for easy deployment and management."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Prometheus' commonly used for in Kubernetes environments?",
+    "Option1": "Logging.",
+    "Option2": "Monitoring and alerting system, often used for collecting metrics from Kubernetes clusters and applications.",
+    "Option3": "Distributed tracing.",
+    "Option4": "Container orchestration.",
+    "Answer": "Monitoring and alerting system, often used for collecting metrics from Kubernetes clusters and applications."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Grafana' commonly used for in Kubernetes environments?",
+    "Option1": "Log aggregation.",
+    "Option2": "A popular open-source analytics and interactive visualization web application, often used for creating dashboards from Prometheus data.",
+    "Option3": "Container image building.",
+    "Option4": "Configuration management.",
+    "Answer": "A popular open-source analytics and interactive visualization web application, often used for creating dashboards from Prometheus data."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Fluentd' or 'Fluent Bit' commonly used for in Kubernetes?",
+    "Option1": "Metrics collection.",
+    "Option2": "Log collection and forwarding, often deployed as a DaemonSet to gather logs from all nodes and pods.",
+    "Option3": "Network policy enforcement.",
+    "Option4": "Service mesh.",
+    "Answer": "Log collection and forwarding, often deployed as a DaemonSet to gather logs from all nodes and pods."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Ingress Controller'?",
+    "Option1": "An internal DNS server.",
+    "Option2": "A component that processes the Ingress rules, typically a specialized load balancer that routes external traffic to services within the cluster.",
+    "Option3": "A service discovery tool.",
+    "Option4": "A network firewall.",
+    "Answer": "A component that processes the Ingress rules, typically a specialized load balancer that routes external traffic to services within the cluster."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'Readiness Probe' in Kubernetes?",
+    "Option1": "Checks if a container is running.",
+    "Option2": "Determines if a container is ready to serve requests, influencing whether it's included in Service load balancing.",
+    "Option3": "Checks for network connectivity.",
+    "Option4": "Verifies storage availability.",
+    "Answer": "Determines if a container is ready to serve requests, influencing whether it's included in Service load balancing."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'Liveness Probe' in Kubernetes?",
+    "Option1": "Checks if a container is ready to serve requests.",
+    "Option2": "Determines if a container is still running and healthy; if it fails, Kubernetes restarts the container.",
+    "Option3": "Monitors network traffic.",
+    "Option4": "Verifies data integrity.",
+    "Answer": "Determines if a container is still running and healthy; if it fails, Kubernetes restarts the container."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is a 'Horizontal Pod Autoscaler' (HPA) in Kubernetes?",
+    "Option1": "Scales nodes.",
+    "Option2": "Automatically scales the number of Pod replicas in a Deployment or ReplicaSet based on observed CPU utilization or other custom metrics.",
+    "Option3": "Manages storage.",
+    "Option4": "Deploys new versions.",
+    "Answer": "Automatically scales the number of Pod replicas in a Deployment or ReplicaSet based on observed CPU utilization or other custom metrics."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'Vertical Pod Autoscaler' (VPA) in Kubernetes?",
+    "Option1": "Scales the number of pods.",
+    "Option2": "Automatically adjusts the CPU and memory requests and limits for containers in a Pod based on historical usage, to optimize resource utilization.",
+    "Option3": "Scales nodes horizontally.",
+    "Option4": "Manages network bandwidth.",
+    "Answer": "Automatically adjusts the CPU and memory requests and limits for containers in a Pod based on historical usage, to optimize resource utilization."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is a 'Custom Resource Definition' (CRD) in Kubernetes?",
+    "Option1": "A built-in Kubernetes resource.",
+    "Option2": "Extends Kubernetes by allowing users to define their own custom resource types, enabling the creation of custom APIs.",
+    "Option3": "A type of volume.",
+    "Option4": "A network configuration.",
+    "Answer": "Extends Kubernetes by allowing users to define their own custom resource types, enabling the creation of custom APIs."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is an 'Operator' in Kubernetes?",
+    "Option1": "A human administrator.",
+    "Option2": "A method of packaging, deploying, and managing a Kubernetes-native application, extending the Kubernetes API with custom resources and controllers to automate complex tasks.",
+    "Option3": "A monitoring agent.",
+    "Option4": "A networking component.",
+    "Answer": "A method of packaging, deploying, and managing a Kubernetes-native application, extending the Kubernetes API with custom resources and controllers to automate complex tasks."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'kubectl describe' command used for?",
+    "Option1": "To delete resources.",
+    "Option2": "To show detailed information about a specific resource.",
+    "Option3": "To create resources.",
+    "Option4": "To list resources.",
+    "Answer": "To show detailed information about a specific resource."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'kubectl logs' command used for?",
+    "Option1": "To view node logs.",
+    "Option2": "To view logs from a specific container or pod.",
+    "Option3": "To view cluster events.",
+    "Option4": "To view API server logs.",
+    "Answer": "To view logs from a specific container or pod."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'kubectl exec' command used for?",
+    "Option1": "To run a pod.",
+    "Option2": "To execute a command directly inside a running container within a pod.",
+    "Option3": "To get a list of pods.",
+    "Option4": "To describe a service.",
+    "Answer": "To execute a command directly inside a running container within a pod."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Taints' in Kubernetes?",
+    "Option1": "Used for scheduling pods to specific nodes.",
+    "Option2": "A property of a Node that allows a Node to repel a set of Pods, preventing them from being scheduled on that Node unless they explicitly tolerate the taint.",
+    "Option3": "Used for balancing load.",
+    "Option4": "Used for network isolation.",
+    "Answer": "A property of a Node that allows a Node to repel a set of Pods, preventing them from being scheduled on that Node unless they explicitly tolerate the taint."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Tolerations' in Kubernetes?",
+    "Option1": "Prevents pods from being scheduled.",
+    "Option2": "Applied to Pods, allowing them to be scheduled on Nodes that have matching Taints, enabling specific pods to run on 'tainted' nodes.",
+    "Option3": "Defines pod resource limits.",
+    "Option4": "Sets network policies.",
+    "Answer": "Applied to Pods, allowing them to be scheduled on Nodes that have matching Taints, enabling specific pods to run on 'tainted' nodes."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Node Affinity' in Kubernetes?",
+    "Option1": "Hard preference for nodes.",
+    "Option2": "A property of Pods that attracts them to a set of Nodes, based on labels, allowing for flexible and powerful scheduling policies.",
+    "Option3": "Prevents pods from running on specific nodes.",
+    "Option4": "Used for defining pod-to-pod communication.",
+    "Answer": "A property of Pods that attracts them to a set of Nodes, based on labels, allowing for flexible and powerful scheduling policies."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Node Anti-affinity' in Kubernetes?",
+    "Option1": "Attracts pods to certain nodes.",
+    "Option2": "A property of Pods that repels them from a set of Nodes, based on labels, ensuring that pods are not scheduled on certain nodes.",
+    "Option3": "Ensures pods run on every node.",
+    "Option4": "Used for managing pod restarts.",
+    "Answer": "A property of Pods that repels them from a set of Nodes, based on labels, ensuring that pods are not scheduled on certain nodes."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Pod Affinity' in Kubernetes?",
+    "Option1": "Attracts pods to specific nodes.",
+    "Option2": "A property of Pods that attracts them to other Pods, based on labels of pods already running on a node, useful for co-locating related services.",
+    "Option3": "Ensures pods are spread across nodes.",
+    "Option4": "Prevents pods from running on the same node.",
+    "Answer": "A property of Pods that attracts them to other Pods, based on labels of pods already running on a node, useful for co-locating related services."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Pod Anti-affinity' in Kubernetes?",
+    "Option1": "Co-locates related services.",
+    "Option2": "A property of Pods that repels them from other Pods, ensuring that pods are scheduled on different nodes from specific other pods, enhancing availability.",
+    "Option3": "Ensures pods are scheduled on a single node.",
+    "Option4": "Only applies to StatefulSets.",
+    "Answer": "A property of Pods that repels them from other Pods, ensuring that pods are scheduled on different nodes from specific other pods, enhancing availability."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Resource Quotas' in Kubernetes?",
+    "Option1": "Limits CPU usage only.",
+    "Option2": "A mechanism that limits the aggregate resource consumption (CPU, memory, storage) by objects in a Namespace, preventing a single team from overconsuming cluster resources.",
+    "Option3": "Defines pod replica count.",
+    "Option4": "Controls network bandwidth.",
+    "Answer": "A mechanism that limits the aggregate resource consumption (CPU, memory, storage) by objects in a Namespace, preventing a single team from overconsuming cluster resources."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What are 'LimitRanges' in Kubernetes?",
+    "Option1": "Sets cluster-wide resource limits.",
+    "Option2": "Provides constraints on the amount of CPU, memory, and storage that a container or a Pod can request or consume within a Namespace.",
+    "Option3": "Limits the number of nodes.",
+    "Option4": "Controls network traffic.",
+    "Answer": "Provides constraints on the amount of CPU, memory, and storage that a container or a Pod can request or consume within a Namespace."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is a 'Network Policy' in Kubernetes?",
+    "Option1": "Controls external network access only.",
+    "Option2": "An API object that allows you to specify how groups of Pods are allowed to communicate with each other and with other network endpoints, enhancing security.",
+    "Option3": "A global firewall.",
+    "Option4": "A routing table.",
+    "Answer": "An API object that allows you to specify how groups of Pods are allowed to communicate with each other and with other network endpoints, enhancing security."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'kube-dns' or 'CoreDNS' commonly used for in Kubernetes?",
+    "Option1": "Load balancing.",
+    "Option2": "Service discovery and DNS resolution within the Kubernetes cluster, allowing services to find each other by name.",
+    "Option3": "Network monitoring.",
+    "Option4": "Log aggregation.",
+    "Answer": "Service discovery and DNS resolution within the Kubernetes cluster, allowing services to find each other by name."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is a 'Rolling Update' in Kubernetes Deployments?",
+    "Option1": "Downtime required for updates.",
+    "Option2": "A strategy for updating applications by gradually replacing old Pods with new ones, ensuring zero downtime and allowing for rollback if issues arise.",
+    "Option3": "All pods updated simultaneously.",
+    "Option4": "Only applies to StatefulSets.",
+    "Answer": "A strategy for updating applications by gradually replacing old Pods with new ones, ensuring zero downtime and allowing for rollback if issues arise."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is a 'Canary Deployment' strategy in Kubernetes?",
+    "Option1": "All users get the new version at once.",
+    "Option2": "A deployment strategy where a new version of an application is rolled out to a small subset of users, allowing for testing and monitoring before a full rollout.",
+    "Option3": "Only for internal testing.",
+    "Option4": "Requires manual intervention for every user.",
+    "Answer": "A deployment strategy where a new version of an application is rolled out to a small subset of users, allowing for testing and monitoring before a full rollout."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'Blue/Green Deployment' strategy in Kubernetes?",
+    "Option1": "Requires a single environment.",
+    "Option2": "A deployment strategy where two identical environments ('blue' and 'green') are maintained; traffic is switched from the old ('blue') to the new ('green') environment after testing, allowing for quick rollback.",
+    "Option3": "Updates in-place without new resources.",
+    "Option4": "Used for rolling back individual pods.",
+    "Answer": "A deployment strategy where two identical environments ('blue' and 'green') are maintained; traffic is switched from the old ('blue') to the new ('green') environment after testing, allowing for quick rollback."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'kube-scheduler'?",
+    "Option1": "Manages network policies.",
+    "Option2": "The Kubernetes Control Plane component that selects a node for newly created Pods that have no node assigned.",
+    "Option3": "Handles service discovery.",
+    "Option4": "Manages persistent storage.",
+    "Answer": "The Kubernetes Control Plane component that selects a node for newly created Pods that have no node assigned."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the role of 'kube-controller-manager'?",
+    "Option1": "Exposes the API.",
+    "Option2": "Runs controller processes, such as the Node Controller, ReplicaSet Controller, and Deployment Controller, to ensure the desired state of the cluster.",
+    "Option3": "Manages network traffic.",
+    "Option4": "Stores cluster data.",
+    "Answer": "Runs controller processes, such as the Node Controller, ReplicaSet Controller, and Deployment Controller, to ensure the desired state of the cluster."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the role of 'cloud-controller-manager'?",
+    "Option1": "Manages on-premise resources.",
+    "Option2": "Runs controllers that interact with the underlying cloud provider's APIs (e.g., creating load balancers, attaching storage volumes).",
+    "Option3": "Manages container images.",
+    "Option4": "Handles DNS resolution.",
+    "Answer": "Runs controllers that interact with the underlying cloud provider's APIs (e.g., creating load balancers, attaching storage volumes)."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'Container Runtime Interface (CRI)'?",
+    "Option1": "A specification for container images.",
+    "Option2": "A plugin interface that enables the kubelet to use various container runtimes (e.g., containerd, CRI-O, Docker) to run containers in a Pod.",
+    "Option3": "A networking protocol.",
+    "Option4": "A security standard.",
+    "Answer": "A plugin interface that enables the kubelet to use various container runtimes (e.g., containerd, CRI-O, Docker) to run containers in a Pod."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Container Storage Interface (CSI)'?",
+    "Option1": "A standard for networking containers.",
+    "Option2": "A standard for exposing arbitrary block and file storage systems to containerized workloads, enabling third-party storage providers to integrate with Kubernetes.",
+    "Option3": "A standard for container runtime.",
+    "Option4": "A standard for logging.",
+    "Answer": "A standard for exposing arbitrary block and file storage systems to containerized workloads, enabling third-party storage providers to integrate with Kubernetes."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Container Network Interface (CNI)'?",
+    "Option1": "A standard for container orchestration.",
+    "Option2": "A specification for configuring network interfaces for Linux containers, allowing various network plugins to integrate with Kubernetes.",
+    "Option3": "A standard for container image building.",
+    "Option4": "A standard for container security.",
+    "Answer": "A specification for configuring network interfaces for Linux containers, allowing various network plugins to integrate with Kubernetes."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Service Mesh' in Kubernetes?",
+    "Option1": "A physical network.",
+    "Option2": "A dedicated infrastructure layer that handles service-to-service communication, providing capabilities like traffic management, security, and observability (e.g., Istio, Linkerd).",
+    "Option3": "A type of load balancer.",
+    "Option4": "A logging solution.",
+    "Answer": "A dedicated infrastructure layer that handles service-to-service communication, providing capabilities like traffic management, security, and observability (e.g., Istio, Linkerd)."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Istio'?",
+    "Option1": "A container runtime.",
+    "Option2": "An open-source service mesh that layers transparently on top of an existing distributed application, providing traffic management, security, and observability.",
+    "Option3": "A monitoring tool.",
+    "Option4": "A CI/CD tool.",
+    "Answer": "An open-source service mesh that layers transparently on top of an existing distributed application, providing traffic management, security, and observability."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'kubectl port-forward' used for?",
+    "Option1": "To expose a service to the internet.",
+    "Option2": "To forward one or more local ports to a Pod, Service, or Deployment, allowing local access to a remote service.",
+    "Option3": "To open firewall ports.",
+    "Option4": "To create a VPN connection.",
+    "Answer": "To forward one or more local ports to a Pod, Service, or Deployment, allowing local access to a remote service."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'kubectl rollout status' used for?",
+    "Option1": "To restart a deployment.",
+    "Option2": "To check the status of a deployment rollout, indicating whether it's progressing, complete, or failed.",
+    "Option3": "To undo a rollout.",
+    "Option4": "To get a list of all rollouts.",
+    "Answer": "To check the status of a deployment rollout, indicating whether it's progressing, complete, or failed."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'kubectl rollout undo' used for?",
+    "Option1": "To start a new rollout.",
+    "Option2": "To revert a deployment to a previous revision, effectively performing a rollback.",
+    "Option3": "To delete a deployment.",
+    "Option4": "To pause a rollout.",
+    "Answer": "To revert a deployment to a previous revision, effectively performing a rollback."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Kubernetes Dashboard'?",
+    "Option1": "A command-line tool.",
+    "Option2": "A web-based user interface for Kubernetes clusters, allowing users to deploy containerized applications, manage cluster resources, and troubleshoot applications.",
+    "Option3": "A monitoring agent.",
+    "Option4": "A logging platform.",
+    "Answer": "A web-based user interface for Kubernetes clusters, allowing users to deploy containerized applications, manage cluster resources, and troubleshoot applications."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Admission Controllers' in Kubernetes?",
+    "Option1": "Control network traffic.",
+    "Option2": "Plugins that intercept requests to the Kubernetes API server before they are persisted to etcd, allowing for validation or modification of objects.",
+    "Option3": "Manage storage volumes.",
+    "Option4": "Schedule pods to nodes.",
+    "Answer": "Plugins that intercept requests to the Kubernetes API server before they are persisted to etcd, allowing for validation or modification of objects."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Pod Security Policies (PSPs)' (deprecated in favor of Pod Security Admission)?",
+    "Option1": "Ensures container images are secure.",
+    "Option2": "A cluster-level resource that controls security sensitive aspects of the pod specification, such as restricting access to host namespaces, privileged containers, and hostPath volumes.",
+    "Option3": "Manages network policies.",
+    "Option4": "Handles authentication.",
+    "Answer": "A cluster-level resource that controls security sensitive aspects of the pod specification, such as restricting access to host namespaces, privileged containers, and hostPath volumes."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Pod Security Admission'?",
+    "Option1": "A manual security check.",
+    "Option2": "A new, built-in admission controller that implements various levels of pod security (Privileged, Baseline, Restricted) at the namespace level.",
+    "Option3": "A network security policy.",
+    "Option4": "A way to sign container images.",
+    "Answer": "A new, built-in admission controller that implements various levels of pod security (Privileged, Baseline, Restricted) at the namespace level."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What are 'initContainers' in Kubernetes?",
+    "Option1": "Containers that run continuously.",
+    "Option2": "Specialized containers that run to completion before application containers in a Pod are started, often used for setup or initialization tasks.",
+    "Option3": "Sidecar containers.",
+    "Option4": "Monitoring containers.",
+    "Answer": "Specialized containers that run to completion before application containers in a Pod are started, often used for setup or initialization tasks."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What are 'Sidecar Containers'?",
+    "Option1": "Containers that run before the main application.",
+    "Option2": "Auxiliary containers that run alongside the main application container in the same Pod, sharing the Pod's resources and lifecycle, often used for logging, monitoring, or proxying.",
+    "Option3": "Containers that run on a different node.",
+    "Option4": "Containers that run after the main application.",
+    "Answer": "Auxiliary containers that run alongside the main application container in the same Pod, sharing the Pod's resources and lifecycle, often used for logging, monitoring, or proxying."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Resource Requests' in Kubernetes?",
+    "Option1": "The maximum amount of resources a container can use.",
+    "Option2": "The minimum amount of CPU and memory guaranteed to a container, used by the scheduler to place pods on nodes.",
+    "Option3": "The actual resource usage of a container.",
+    "Option4": "A request for a new node.",
+    "Answer": "The minimum amount of CPU and memory guaranteed to a container, used by the scheduler to place pods on nodes."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What are 'Resource Limits' in Kubernetes?",
+    "Option1": "The minimum amount of resources a container needs.",
+    "Option2": "The maximum amount of CPU and memory that a container is allowed to consume; exceeding this can lead to throttling (CPU) or termination (memory).",
+    "Option3": "The recommended resource allocation.",
+    "Option4": "The total resources of a node.",
+    "Answer": "The maximum amount of CPU and memory that a container is allowed to consume; exceeding this can lead to throttling (CPU) or termination (memory)."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'kube-proxy's role in networking?",
+    "Option1": "DNS resolution.",
+    "Option2": "Maintains network rules on nodes, enabling network connectivity to pods, and performing simple TCP/UDP stream forwarding or round robin load balancing.",
+    "Option3": "IP address management.",
+    "Option4": "Network policy enforcement.",
+    "Answer": "Maintains network rules on nodes, enabling network connectivity to pods, and performing simple TCP/UDP stream forwarding or round robin load balancing."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the primary function of the 'kubelet'?",
+    "Option1": "Manages the cluster state.",
+    "Option2": "An agent that runs on each node in the cluster, responsible for registering the node with the API server, running pods, and reporting their status.",
+    "Option3": "Schedules pods.",
+    "Option4": "Provides external access.",
+    "Answer": "An agent that runs on each node in the cluster, responsible for registering the node with the API server, running pods, and reporting their status."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'etcd' used for in Kubernetes?",
+    "Option1": "Temporary storage for logs.",
+    "Option2": "A distributed key-value store that stores the configuration data, state, and metadata for the Kubernetes cluster.",
+    "Option3": "Caching data.",
+    "Option4": "Storing container images.",
+    "Answer": "A distributed key-value store that stores the configuration data, state, and metadata for the Kubernetes cluster."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is a 'Kubernetes API Object'?",
+    "Option1": "A line of code in an application.",
+    "Option2": "A record of intent in Kubernetes, representing the desired state of your cluster, which you communicate to the Kubernetes API server (e.g., Pod, Deployment, Service).",
+    "Option3": "A physical server.",
+    "Option4": "A network cable.",
+    "Answer": "A record of intent in Kubernetes, representing the desired state of your cluster, which you communicate to the Kubernetes API server (e.g., Pod, Deployment, Service)."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Kubernetes Manifest'?",
+    "Option1": "A compiled binary.",
+    "Option2": "A YAML or JSON file that defines a Kubernetes API object, specifying its desired state.",
+    "Option3": "A log file.",
+    "Option4": "An executable script.",
+    "Answer": "A YAML or JSON file that defines a Kubernetes API object, specifying its desired state."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'kubectl get events' used for?",
+    "Option1": "To list all pods.",
+    "Option2": "To retrieve a stream of events occurring in the cluster, useful for debugging and understanding resource lifecycle.",
+    "Option3": "To get deployment status.",
+    "Option4": "To check node health.",
+    "Answer": "To retrieve a stream of events occurring in the cluster, useful for debugging and understanding resource lifecycle."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'kubectl top pods' used for?",
+    "Option1": "To list the top 10 pods.",
+    "Option2": "To display resource (CPU/memory) usage for pods, requiring the Metrics Server to be installed.",
+    "Option3": "To sort pods by name.",
+    "Option4": "To get network statistics.",
+    "Answer": "To display resource (CPU/memory) usage for pods, requiring the Metrics Server to be installed."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Metrics Server' in Kubernetes?",
+    "Option1": "A logging solution.",
+    "Option2": "A scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines (HPA, VPA) and `kubectl top`.",
+    "Option3": "A network monitoring tool.",
+    "Option4": "A security auditing tool.",
+    "Answer": "A scalable, efficient source of container resource metrics for Kubernetes built-in autoscaling pipelines (HPA, VPA) and `kubectl top`."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Kubernetes Federation' (now Federation v2/Karmada)?",
+    "Option1": "A single cluster management.",
+    "Option2": "A way to manage multiple Kubernetes clusters from a single control plane, enabling workload distribution and high availability across different clusters.",
+    "Option3": "A security standard.",
+    "Option4": "A network protocol.",
+    "Answer": "A way to manage multiple Kubernetes clusters from a single control plane, enabling workload distribution and high availability across different clusters."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Kubernetes Admission Webhooks'?",
+    "Option1": "A built-in admission controller.",
+    "Option2": "HTTP callbacks that receive admission requests and respond with admission reviews, allowing external services to validate or mutate Kubernetes resources before persistence.",
+    "Option3": "A type of network policy.",
+    "Option4": "A security audit log.",
+    "Answer": "HTTP callbacks that receive admission requests and respond with admission reviews, allowing external services to validate or mutate Kubernetes resources before persistence."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is a 'Mutating Admission Webhook'?",
+    "Option1": "Only validates resources.",
+    "Option2": "An admission webhook that can modify Kubernetes resources before they are persisted, for example, injecting sidecar containers or adding labels.",
+    "Option3": "Only logs requests.",
+    "Option4": "Prevents resource creation.",
+    "Answer": "An admission webhook that can modify Kubernetes resources before they are persisted, for example, injecting sidecar containers or adding labels."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is a 'Validating Admission Webhook'?",
+    "Option1": "Modifies resources before persistence.",
+    "Option2": "An admission webhook that validates Kubernetes resources based on custom logic, preventing invalid configurations from being persisted.",
+    "Option3": "Injects environment variables.",
+    "Option4": "Only applies to network policies.",
+    "Answer": "An admission webhook that validates Kubernetes resources based on custom logic, preventing invalid configurations from being persisted."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Cilium' in Kubernetes?",
+    "Option1": "A storage solution.",
+    "Option2": "An open-source, cloud-native network policy engine and load balancer, based on eBPF, providing advanced networking and security capabilities.",
+    "Option3": "A container runtime.",
+    "Option4": "A monitoring tool.",
+    "Answer": "An open-source, cloud-native network policy engine and load balancer, based on eBPF, providing advanced networking and security capabilities."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'KubeVirt'?",
+    "Option1": "A container orchestration tool.",
+    "Option2": "An open-source project that allows you to run virtual machines (VMs) alongside containers in a Kubernetes cluster.",
+    "Option3": "A serverless platform.",
+    "Option4": "A logging solution.",
+    "Answer": "An open-source project that allows you to run virtual machines (VMs) alongside containers in a Kubernetes cluster."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'GitOps' in the context of Kubernetes?",
+    "Option1": "Manual deployments.",
+    "Option2": "A methodology that uses Git as the single source of truth for declarative infrastructure and application definitions, driving continuous delivery through Git workflows.",
+    "Option3": "A specific Git branching model.",
+    "Option4": "A tool for merging code.",
+    "Answer": "A methodology that uses Git as the single source of truth for declarative infrastructure and application definitions, driving continuous delivery through Git workflows."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Argo CD'?",
+    "Option1": "A CI tool.",
+    "Option2": "A declarative, GitOps continuous delivery tool for Kubernetes, automatically synchronizing desired application states with the cluster.",
+    "Option3": "A build tool.",
+    "Option4": "A monitoring tool.",
+    "Answer": "A declarative, GitOps continuous delivery tool for Kubernetes, automatically synchronizing desired application states with the cluster."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Flux CD'?",
+    "Option1": "A CI tool.",
+    "Option2": "A GitOps tool that ensures the state of your Kubernetes cluster matches the configurations in a Git repository, automatically applying changes.",
+    "Option3": "A build tool.",
+    "Option4": "A testing framework.",
+    "Answer": "A GitOps tool that ensures the state of your Kubernetes cluster matches the configurations in a Git repository, automatically applying changes."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a 'Kustomization' in Kubernetes?",
+    "Option1": "A way to generate new YAML files from scratch.",
+    "Option2": "A configuration file (`kustomization.yaml`) used by `kustomize` to customize raw, template-free YAML files for different environments without templating.",
+    "Option3": "A type of Kubernetes resource.",
+    "Option4": "A tool for validating YAML files.",
+    "Answer": "A configuration file (`kustomization.yaml`) used by `kustomize` to customize raw, template-free YAML files for different environments without templating."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Kustomize'?",
+    "Option1": "A templating engine for Kubernetes.",
+    "Option2": "A tool for customizing Kubernetes configurations by adding, removing, or updating configuration values without touching the original YAML files.",
+    "Option3": "A build automation tool.",
+    "Option4": "A package manager.",
+    "Answer": "A tool for customizing Kubernetes configurations by adding, removing, or updating configuration values without touching the original YAML files."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'PodDisruptionBudget' (PDB)?",
+    "Option1": "Limits the number of new pods created.",
+    "Option2": "An API object that limits the number of concurrent disruptions that your application experiences, ensuring high availability during voluntary disruptions.",
+    "Option3": "Limits pod resource usage.",
+    "Option4": "Controls network traffic to pods.",
+    "Answer": "An API object that limits the number of concurrent disruptions that your application experiences, ensuring high availability during voluntary disruptions."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Kubernetes Operators'?",
+    "Option1": "Manual cluster management.",
+    "Option2": "Software extensions to Kubernetes that use Custom Resources to manage applications and their components, extending the Kubernetes API to automate complex, stateful application operations.",
+    "Option3": "A type of service account.",
+    "Option4": "A security auditing tool.",
+    "Answer": "Software extensions to Kubernetes that use Custom Resources to manage applications and their components, extending the Kubernetes API to automate complex, stateful application operations."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Helm's Release'?",
+    "Option1": "A Helm Chart.",
+    "Option2": "An instance of a Helm chart running in a Kubernetes cluster, identifiable by a unique name.",
+    "Option3": "A Helm repository.",
+    "Option4": "A Helm template.",
+    "Answer": "An instance of a Helm chart running in a Kubernetes cluster, identifiable by a unique name."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Helm's Repository'?",
+    "Option1": "A Git repository.",
+    "Option2": "A location where packaged Helm Charts can be stored and shared, enabling others to discover and install them.",
+    "Option3": "A Docker registry.",
+    "Option4": "A Kubernetes namespace.",
+    "Answer": "A location where packaged Helm Charts can be stored and shared, enabling others to discover and install them."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Taint-Toleration'?",
+    "Option1": "Used for node affinity.",
+    "Option2": "A mechanism that works in conjunction with Taints to allow pods to be scheduled on nodes that have specific Taints, by declaring a Toleration for that taint in the pod spec.",
+    "Option3": "For managing resource limits.",
+    "Option4": "For controlling network policies.",
+    "Answer": "A mechanism that works in conjunction with Taints to allow pods to be scheduled on nodes that have specific Taints, by declaring a Toleration for that taint in the pod spec."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is a 'Node Selector' in Kubernetes?",
+    "Option1": "A dynamic scheduling mechanism.",
+    "Option2": "A simple way to constrain Pods to nodes with specific labels, by adding a `nodeSelector` field to the Pod's YAML configuration.",
+    "Option3": "A method for resource requests.",
+    "Option4": "A type of network policy.",
+    "Answer": "A simple way to constrain Pods to nodes with specific labels, by adding a `nodeSelector` field to the Pod's YAML configuration."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Affinity and Anti-affinity Rules'?",
+    "Option1": "Only for node selection.",
+    "Option2": "More powerful and flexible ways to control Pod scheduling, allowing attraction/repulsion based on node labels or labels of other pods already on a node.",
+    "Option3": "Used for resource quotas.",
+    "Option4": "For managing secrets.",
+    "Answer": "More powerful and flexible ways to control Pod scheduling, allowing attraction/repulsion based on node labels or labels of other pods already on a node."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Proportional Pod Autoscaler' (PPA)?",
+    "Option1": "Scales based on CPU.",
+    "Option2": "A type of autoscaler that adjusts the replica count based on a ratio to another resource, rather than a direct metric.",
+    "Option3": "Only for vertical scaling.",
+    "Option4": "A deprecated autoscaling method.",
+    "Answer": "A type of autoscaler that adjusts the replica count based on a ratio to another resource, rather than a direct metric."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Custom Metrics' for HPA?",
+    "Option1": "Only CPU and Memory metrics.",
+    "Option2": "The ability to scale Pods based on metrics specific to your application (e.g., requests per second, queue length) that are exposed via an API.",
+    "Option3": "Metrics for nodes only.",
+    "Option4": "Metrics collected from the operating system.",
+    "Answer": "The ability to scale Pods based on metrics specific to your application (e.g., requests per second, queue length) that are exposed via an API."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'External Metrics' for HPA?",
+    "Option1": "Metrics from inside the cluster.",
+    "Option2": "The ability to scale Pods based on metrics that are external to the Kubernetes cluster (e.g., a queue size in a cloud messaging service).",
+    "Option3": "Metrics for hardware usage.",
+    "Option4": "Metrics for network performance.",
+    "Answer": "The ability to scale Pods based on metrics that are external to the Kubernetes cluster (e.g., a queue size in a cloud messaging service)."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Pod Security Context'?",
+    "Option1": "Defines network policies for pods.",
+    "Option2": "Specifies security parameters for a Pod or a container, such as running as a non-root user, setting capabilities, or enabling SELinux.",
+    "Option3": "Manages secret distribution.",
+    "Option4": "Configures readiness probes.",
+    "Answer": "Specifies security parameters for a Pod or a container, such as running as a non-root user, setting capabilities, or enabling SELinux."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'NetworkPolicy Egress Rules'?",
+    "Option1": "Controls incoming traffic.",
+    "Option2": "Rules in a NetworkPolicy that define which outbound connections a Pod is allowed to make.",
+    "Option3": "Controls internal network routing.",
+    "Option4": "Defines DNS resolution.",
+    "Answer": "Rules in a NetworkPolicy that define which outbound connections a Pod is allowed to make."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'NetworkPolicy Ingress Rules'?",
+    "Option1": "Controls outgoing traffic.",
+    "Option2": "Rules in a NetworkPolicy that define which incoming connections a Pod is allowed to receive.",
+    "Option3": "Controls external load balancing.",
+    "Option4": "Defines firewall rules for nodes.",
+    "Answer": "Rules in a NetworkPolicy that define which incoming connections a Pod is allowed to receive."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'External DNS' in Kubernetes?",
+    "Option1": "An internal DNS server.",
+    "Option2": "A tool that synchronizes exposed Kubernetes Services and Ingresses with external DNS providers (e.g., Google Cloud DNS, AWS Route 53), making them discoverable outside the cluster.",
+    "Option3": "A tool for private DNS resolution.",
+    "Option4": "A DNS caching service.",
+    "Answer": "A tool that synchronizes exposed Kubernetes Services and Ingresses with external DNS providers (e.g., Google Cloud DNS, AWS Route 53), making them discoverable outside the cluster."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Cert-Manager' in Kubernetes?",
+    "Option1": "For managing Docker certificates.",
+    "Option2": "A native Kubernetes certificate management controller that helps automate the issuance and renewal of TLS certificates from various issuing sources.",
+    "Option3": "For managing SSH keys.",
+    "Option4": "For signing container images.",
+    "Answer": "A native Kubernetes certificate management controller that helps automate the issuance and renewal of TLS certificates from various issuing sources."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Kubernetes CSI Drivers'?",
+    "Option1": "Drivers for networking.",
+    "Option2": "Implementations of the Container Storage Interface (CSI) specification, allowing Kubernetes to integrate with various storage systems.",
+    "Option3": "Drivers for GPUs.",
+    "Option4": "Drivers for network interfaces.",
+    "Answer": "Implementations of the Container Storage Interface (CSI) specification, allowing Kubernetes to integrate with various storage systems."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Storage Provisioner'?",
+    "Option1": "Manually allocates storage.",
+    "Option2": "A component that watches for PersistentVolumeClaim (PVC) objects and provisions a corresponding PersistentVolume (PV) from the underlying storage system, based on the StorageClass.",
+    "Option3": "A tool for deleting volumes.",
+    "Option4": "A monitoring tool for storage.",
+    "Answer": "A component that watches for PersistentVolumeClaim (PVC) objects and provisions a corresponding PersistentVolume (PV) from the underlying storage system, based on the StorageClass."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Node-local DNSCache'?",
+    "Option1": "A global DNS server.",
+    "Option2": "A feature that runs a DNS caching agent on each node, improving DNS lookup performance and reducing reliance on the cluster DNS service.",
+    "Option3": "External DNS provider.",
+    "Option4": "DNS for specific services only.",
+    "Answer": "A feature that runs a DNS caching agent on each node, improving DNS lookup performance and reducing reliance on the cluster DNS service."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Kube-state-metrics'?",
+    "Option1": "A tool for collecting node metrics.",
+    "Option2": "A simple service that listens to the Kubernetes API server and generates metrics about the state of Kubernetes objects (e.g., number of running pods, deployment status).",
+    "Option3": "A logging agent.",
+    "Option4": "A network monitoring tool.",
+    "Answer": "A simple service that listens to the Kubernetes API server and generates metrics about the state of Kubernetes objects (e.g., number of running pods, deployment status)."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Alertmanager' in the Prometheus ecosystem?",
+    "Option1": "A metric collection tool.",
+    "Option2": "A tool that handles alerts sent by client applications like Prometheus, deduping, grouping, and routing them to the correct receiver integration.",
+    "Option3": "A visualization tool.",
+    "Option4": "A data storage solution.",
+    "Answer": "A tool that handles alerts sent by client applications like Prometheus, deduping, grouping, and routing them to the correct receiver integration."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Loki'?",
+    "Option1": "A metric collection system.",
+    "Option2": "A horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus, designed to store logs efficiently.",
+    "Option3": "A distributed tracing tool.",
+    "Option4": "A security auditing tool.",
+    "Answer": "A horizontally scalable, highly available, multi-tenant log aggregation system inspired by Prometheus, designed to store logs efficiently."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Jaeger' or 'Zipkin' commonly used for in Kubernetes?",
+    "Option1": "Log aggregation.",
+    "Option2": "Distributed tracing systems that help monitor and troubleshoot transactions in complex distributed systems, showing latency across services.",
+    "Option3": "Metric collection.",
+    "Option4": "Network policy enforcement.",
+    "Answer": "Distributed tracing systems that help monitor and troubleshoot transactions in complex distributed systems, showing latency across services."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Helm Hooks'?",
+    "Option1": "A way to install multiple charts.",
+    "Option2": "Mechanisms that allow you to execute commands at specific points in a Helm release lifecycle (e.g., pre-install, post-upgrade).",
+    "Option3": "A way to define dependencies.",
+    "Option4": "A method for rollback.",
+    "Answer": "Mechanisms that allow you to execute commands at specific points in a Helm release lifecycle (e.g., pre-install, post-upgrade)."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Helm Rollback'?",
+    "Option1": "Installing a new chart version.",
+    "Option2": "Reverting a Helm release to a previous, working version, often used after a failed upgrade.",
+    "Option3": "Deleting a Helm release.",
+    "Option4": "Viewing release history.",
+    "Answer": "Reverting a Helm release to a previous, working version, often used after a failed upgrade."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Helm Lint'?",
+    "Option1": "To install a chart.",
+    "Option2": "To analyze a Helm chart for potential issues and best practices adherence, without actually installing it.",
+    "Option3": "To package a chart.",
+    "Option4": "To delete a chart.",
+    "Answer": "To analyze a Helm chart for potential issues and best practices adherence, without actually installing it."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Helm Template'?",
+    "Option1": "To install a chart.",
+    "Option2": "To locally render a Helm chart's Kubernetes manifests, allowing you to inspect the generated YAML without deploying it to a cluster.",
+    "Option3": "To package a chart.",
+    "Option4": "To upload a chart.",
+    "Answer": "To locally render a Helm chart's Kubernetes manifests, allowing you to inspect the generated YAML without deploying it to a cluster."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Kubernetes Upgrades'?",
+    "Option1": "Replacing the entire cluster.",
+    "Option2": "Updating the Kubernetes version of the control plane and nodes in a cluster, often done in a rolling fashion to minimize downtime.",
+    "Option3": "Updating application code.",
+    "Option4": "Only applies to development environments.",
+    "Answer": "Updating the Kubernetes version of the control plane and nodes in a cluster, often done in a rolling fashion to minimize downtime."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Kubernetes Backup and Restore'?",
+    "Option1": "Backing up application data only.",
+    "Option2": "The process of backing up and restoring the etcd data (cluster state) and optionally persistent volumes, crucial for disaster recovery.",
+    "Option3": "Only for single pods.",
+    "Option4": "A feature of Helm.",
+    "Answer": "The process of backing up and restoring the etcd data (cluster state) and optionally persistent volumes, crucial for disaster recovery."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Velero' used for in Kubernetes?",
+    "Option1": "Network monitoring.",
+    "Option2": "An open-source tool for backing up and restoring Kubernetes cluster resources and persistent volumes.",
+    "Option3": "Container image scanning.",
+    "Option4": "Log analysis.",
+    "Answer": "An open-source tool for backing up and restoring Kubernetes cluster resources and persistent volumes."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Pod Eviction'?",
+    "Option1": "A pod voluntarily terminating.",
+    "Option2": "The process by which the kubelet proactively terminates pods on a node to reclaim resources, often due to low resources or node conditions.",
+    "Option3": "A manual pod deletion.",
+    "Option4": "A planned shutdown of a pod.",
+    "Answer": "The process by which the kubelet proactively terminates pods on a node to reclaim resources, often due to low resources or node conditions."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Drain' in Kubernetes?",
+    "Option1": "To add a node to the cluster.",
+    "Option2": "A `kubectl` command that cordons a node (marks it unschedulable) and then safely evicts all pods from it, preparing it for maintenance.",
+    "Option3": "To restart a node.",
+    "Option4": "To get node status.",
+    "Answer": "A `kubectl` command that cordons a node (marks it unschedulable) and then safely evicts all pods from it, preparing it for maintenance."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Cordon' in Kubernetes?",
+    "Option1": "To make a node schedulable.",
+    "Option2": "To mark a node as unschedulable, preventing new pods from being scheduled onto it while allowing existing pods to continue running.",
+    "Option3": "To delete a node.",
+    "Option4": "To get node details.",
+    "Answer": "To mark a node as unschedulable, preventing new pods from being scheduled onto it while allowing existing pods to continue running."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Uncordon' in Kubernetes?",
+    "Option1": "To make a node unschedulable.",
+    "Option2": "To mark a cordoned node as schedulable again, allowing new pods to be scheduled onto it.",
+    "Option3": "To remove a node from the cluster.",
+    "Option4": "To restart a node.",
+    "Answer": "To mark a cordoned node as schedulable again, allowing new pods to be scheduled onto it."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Kubernetes Admission Controllers'?",
+    "Option1": "Only for authentication.",
+    "Option2": "Pieces of code that intercept requests to the Kubernetes API server prior to persistence of the object, but after the request is authenticated and authorized.",
+    "Option3": "Only for logging.",
+    "Option4": "For controlling network traffic.",
+    "Answer": "Pieces of code that intercept requests to the Kubernetes API server prior to persistence of the object, but after the request is authenticated and authorized."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Validating Admission Controller'?",
+    "Option1": "Modifies API objects.",
+    "Option2": "An Admission Controller that checks whether a request to the Kubernetes API server is valid and compliant with certain policies, preventing invalid configurations.",
+    "Option3": "Injects sidecars.",
+    "Option4": "Deletes resources.",
+    "Answer": "An Admission Controller that checks whether a request to the Kubernetes API server is valid and compliant with certain policies, preventing invalid configurations."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Mutating Admission Controller'?",
+    "Option1": "Only validates API objects.",
+    "Option2": "An Admission Controller that can modify API objects before they are persisted, often used for injecting default values or adding specific configurations.",
+    "Option3": "Deletes API objects.",
+    "Option4": "Schedules pods.",
+    "Answer": "An Admission Controller that can modify API objects before they are persisted, often used for injecting default values or adding specific configurations."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'kube-proxy's `iptables` mode?",
+    "Option1": "Uses userspace proxy.",
+    "Option2": "A mode where `kube-proxy` configures `iptables` rules to intercept and redirect traffic for Services, providing efficient load balancing.",
+    "Option3": "Only for Windows nodes.",
+    "Option4": "A deprecated mode.",
+    "Answer": "A mode where `kube-proxy` configures `iptables` rules to intercept and redirect traffic for Services, providing efficient load balancing."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'kube-proxy's `ipvs` mode?",
+    "Option1": "Uses iptables for load balancing.",
+    "Option2": "A mode where `kube-proxy` uses IP Virtual Server (IPVS) for load balancing Services, offering more advanced load balancing algorithms and better performance for large clusters.",
+    "Option3": "A simpler load balancing method.",
+    "Option4": "Only for external traffic.",
+    "Answer": "A mode where `kube-proxy` uses IP Virtual Server (IPVS) for load balancing Services, offering more advanced load balancing algorithms and better performance for large clusters."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'kube-proxy's `userspace` mode?",
+    "Option1": "The most efficient mode.",
+    "Option2": "An older, less performant mode where `kube-proxy` runs a proxy process in userspace, handling traffic forwarding.",
+    "Option3": "The default mode.",
+    "Option4": "Only for internal traffic.",
+    "Answer": "An older, less performant mode where `kube-proxy` runs a proxy process in userspace, handling traffic forwarding."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'EndpointSlice'?",
+    "Option1": "A deprecated API object.",
+    "Option2": "A more scalable and efficient way to track network endpoints for Services, especially in large clusters, by splitting Endpoints into multiple smaller resources.",
+    "Option3": "A type of volume.",
+    "Option4": "A network policy.",
+    "Answer": "A more scalable and efficient way to track network endpoints for Services, especially in large clusters, by splitting Endpoints into multiple smaller resources."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'kube-apiserver's authentication process?",
+    "Option1": "Only uses client certificates.",
+    "Option2": "Verifies the identity of a user or service account making a request to the API, using various methods like client certificates, bearer tokens, or OpenID Connect.",
+    "Option3": "Only uses username/password.",
+    "Option4": "Does not involve any authentication.",
+    "Answer": "Verifies the identity of a user or service account making a request to the API, using various methods like client certificates, bearer tokens, or OpenID Connect."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'kube-apiserver's authorization process?",
+    "Option1": "Determines user identity.",
+    "Option2": "Determines whether an authenticated user or service account has permission to perform a specific action on a specific resource.",
+    "Option3": "Controls network traffic.",
+    "Option4": "Manages storage access.",
+    "Answer": "Determines whether an authenticated user or service account has permission to perform a specific action on a specific resource."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Webhooks for Admission Control'?",
+    "Option1": "A built-in Kubernetes feature only.",
+    "Option2": "External HTTP callbacks that can be used to extend Kubernetes' admission control, allowing custom validation or mutation logic.",
+    "Option3": "For network routing.",
+    "Option4": "For metrics collection.",
+    "Answer": "External HTTP callbacks that can be used to extend Kubernetes' admission control, allowing custom validation or mutation logic."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Kubernetes Security Context'?",
+    "Option1": "Applies to the entire cluster.",
+    "Option2": "Defines privilege and access control settings for a Pod or Container, such as UID/GID, SELinux context, or privilege escalation.",
+    "Option3": "Only for network settings.",
+    "Option4": "For encrypting secrets.",
+    "Answer": "Defines privilege and access control settings for a Pod or Container, such as UID/GID, SELinux context, or privilege escalation."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Pod Security Standards' (PSS)?",
+    "Option1": "A set of deprecated policies.",
+    "Option2": "A set of predefined policies that define various levels of isolation for pods, providing a modern alternative to Pod Security Policies (PSPs).",
+    "Option3": "A tool for image scanning.",
+    "Option4": "A network security framework.",
+    "Answer": "A set of predefined policies that define various levels of isolation for pods, providing a modern alternative to Pod Security Policies (PSPs)."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'NetworkPolicy' in Kubernetes?",
+    "Option1": "A global firewall.",
+    "Option2": "An API object that defines how groups of Pods are allowed to communicate with each other and with other network endpoints, enhancing security.",
+    "Option3": "A routing table.",
+    "Option4": "A load balancing mechanism.",
+    "Answer": "An API object that defines how groups of Pods are allowed to communicate with each other and with other network endpoints, enhancing security."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is a 'Kubernetes Namespace'?",
+    "Option1": "A physical cluster.",
+    "Option2": "A way to divide cluster resources into isolated logical groups, providing a scope for names and preventing conflicts.",
+    "Option3": "A network segment.",
+    "Option4": "A type of storage volume.",
+    "Answer": "A way to divide cluster resources into isolated logical groups, providing a scope for names and preventing conflicts."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Service Discovery' in Kubernetes?",
+    "Option1": "Manually finding services.",
+    "Option2": "The process by which applications running inside the cluster can find and communicate with other services using DNS names or environment variables.",
+    "Option3": "Discovering external IP addresses.",
+    "Option4": "Finding available nodes.",
+    "Answer": "The process by which applications running inside the cluster can find and communicate with other services using DNS names or environment variables."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Headless Service' in Kubernetes?",
+    "Option1": "A service without a selector.",
+    "Option2": "A Service that does not get a ClusterIP, allowing direct access to the Pod IPs, often used with StatefulSets or for custom service discovery.",
+    "Option3": "A service for external access.",
+    "Option4": "A service with no exposed ports.",
+    "Answer": "A Service that does not get a ClusterIP, allowing direct access to the Pod IPs, often used with StatefulSets or for custom service discovery."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Endpoint' object in Kubernetes?",
+    "Option1": "A type of service.",
+    "Option2": "An API object that holds a list of network endpoints (IP addresses and ports) for the Pods that back a Service.",
+    "Option3": "A network policy.",
+    "Option4": "A load balancer.",
+    "Answer": "An API object that holds a list of network endpoints (IP addresses and ports) for the Pods that back a Service."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'ExternalName Service' in Kubernetes?",
+    "Option1": "Exposes an application to the internet.",
+    "Option2": "A Service type that maps a service to a DNS name, without a proxy, used for services external to the Kubernetes cluster.",
+    "Option3": "A service for internal cluster access.",
+    "Option4": "A service with a fixed IP address.",
+    "Answer": "A Service type that maps a service to a DNS name, without a proxy, used for services external to the Kubernetes cluster."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Couchbase Operator' or 'Cassandra Operator' examples of?",
+    "Option1": "Helm Charts.",
+    "Option2": "Kubernetes Operators, which automate the deployment, management, and scaling of specific stateful applications (like databases).",
+    "Option3": "Ingress Controllers.",
+    "Option4": "Network policies.",
+    "Answer": "Kubernetes Operators, which automate the deployment, management, and scaling of specific stateful applications (like databases)."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Kubernetes Garbage Collection'?",
+    "Option1": "Deleting old logs.",
+    "Option2": "The process by which Kubernetes cleans up resources (e.g., old ReplicaSets, terminated Pods) that are no longer needed, based on specific policies.",
+    "Option3": "Deleting unused images.",
+    "Option4": "Cleaning up persistent volumes.",
+    "Answer": "The process by which Kubernetes cleans up resources (e.g., old ReplicaSets, terminated Pods) that are no longer needed, based on specific policies."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Finalizers' in Kubernetes?",
+    "Option1": "A way to automatically delete resources.",
+    "Option2": "Strings in a resource's metadata that prevent it from being deleted until all specified finalizers are removed, often used by controllers for cleanup.",
+    "Option3": "A method for resource renaming.",
+    "Option4": "A way to define resource dependencies.",
+    "Answer": "Strings in a resource's metadata that prevent it from being deleted until all specified finalizers are removed, often used by controllers for cleanup."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Horizontal Scaling' in Kubernetes?",
+    "Option1": "Adding more resources to a single pod.",
+    "Option2": "Increasing or decreasing the number of Pod replicas (instances) of an application to handle varying loads.",
+    "Option3": "Adding more memory to a node.",
+    "Option4": "Upgrading the CPU of a container.",
+    "Answer": "Increasing or decreasing the number of Pod replicas (instances) of an application to handle varying loads."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Vertical Scaling' in Kubernetes?",
+    "Option1": "Increasing the number of pods.",
+    "Option2": "Adjusting the CPU and memory resources allocated to individual Pods (containers) to meet their specific demands.",
+    "Option3": "Adding more nodes to the cluster.",
+    "Option4": "Distributing traffic across multiple services.",
+    "Answer": "Adjusting the CPU and memory resources allocated to individual Pods (containers) to meet their specific demands."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Cluster Autoscaler'?",
+    "Option1": "Scales pods horizontally.",
+    "Option2": "A component that automatically adjusts the number of nodes in your Kubernetes cluster based on resource requests and limits of pending pods.",
+    "Option3": "Scales pods vertically.",
+    "Option4": "Manages network bandwidth.",
+    "Answer": "A component that automatically adjusts the number of nodes in your Kubernetes cluster based on resource requests and limits of pending pods."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'DaemonSet Update Strategy'?",
+    "Option1": "Always uses RollingUpdate.",
+    "Option2": "Defines how DaemonSet Pods are updated, typically `RollingUpdate` (default) or `OnDelete`.",
+    "Option3": "Only allows manual updates.",
+    "Option4": "Only applies to Deployments.",
+    "Answer": "Defines how DaemonSet Pods are updated, typically `RollingUpdate` (default) or `OnDelete`."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Sidecar Pattern' in Kubernetes?",
+    "Option1": "Running multiple main applications in one pod.",
+    "Option2": "Deploying an auxiliary container alongside a main application container in the same pod, sharing resources and simplifying management of cross-cutting concerns (e.g., logging, monitoring, proxying).",
+    "Option3": "Running containers on separate nodes.",
+    "Option4": "A method for horizontal scaling.",
+    "Answer": "Deploying an auxiliary container alongside a main application container in the same pod, sharing resources and simplifying management of cross-cutting concerns (e.g., logging, monitoring, proxying)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'EnvFrom' in Kubernetes Pods?",
+    "Option1": "Setting individual environment variables.",
+    "Option2": "A way to populate all environment variables from a ConfigMap or Secret in a single go, rather than listing each one individually.",
+    "Option3": "Reading environment variables from a file.",
+    "Option4": "Injecting environment variables from the node.",
+    "Answer": "A way to populate all environment variables from a ConfigMap or Secret in a single go, rather than listing each one individually."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'SubPath' in Kubernetes Volumes?",
+    "Option1": "Mounting the entire volume.",
+    "Option2": "Mounting a subdirectory of a volume inside a container, rather than the volume's root, useful for sharing parts of a volume.",
+    "Option3": "Creating a new volume.",
+    "Option4": "Defining persistent storage.",
+    "Answer": "Mounting a subdirectory of a volume inside a container, rather than the volume's root, useful for sharing parts of a volume."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'PreStop Hook' in Kubernetes?",
+    "Option1": "Executes before a container starts.",
+    "Option2": "A hook executed immediately before a container is terminated due to an API request or management event, allowing for graceful shutdown.",
+    "Option3": "Executes after a container starts.",
+    "Option4": "Executes after a container stops.",
+    "Answer": "A hook executed immediately before a container is terminated due to an API request or management event, allowing for graceful shutdown."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'PostStart Hook' in Kubernetes?",
+    "Option1": "Executes after a container stops.",
+    "Option2": "A hook executed immediately after a container is created, allowing for setup or initialization logic.",
+    "Option3": "Executes before a container starts.",
+    "Option4": "Executes before a container is terminated.",
+    "Answer": "A hook executed immediately after a container is created, allowing for setup or initialization logic."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'kubectl debug' command?",
+    "Option1": "To restart a pod.",
+    "Option2": "A command that allows you to debug workloads running in your cluster by creating ephemeral containers or modifying existing ones for debugging purposes.",
+    "Option3": "To get logs from a pod.",
+    "Option4": "To check pod status.",
+    "Answer": "A command that allows you to debug workloads running in your cluster by creating ephemeral containers or modifying existing ones for debugging purposes."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Kubernetes Events'?",
+    "Option1": "Application logs.",
+    "Option2": "Objects that record occurrences in the cluster, such as Pod creation, scheduling decisions, or container restarts, providing insights into cluster activity.",
+    "Option3": "User interactions.",
+    "Option4": "Network traffic details.",
+    "Answer": "Objects that record occurrences in the cluster, such as Pod creation, scheduling decisions, or container restarts, providing insights into cluster activity."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Cluster DNS' in Kubernetes?",
+    "Option1": "External DNS only.",
+    "Option2": "An internal DNS server (like CoreDNS) that provides name resolution for services and pods within the cluster, enabling communication by name.",
+    "Option3": "Manages public DNS records.",
+    "Option4": "A tool for network monitoring.",
+    "Answer": "An internal DNS server (like CoreDNS) that provides name resolution for services and pods within the cluster, enabling communication by name."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Node-problem-detector'?",
+    "Option1": "A tool for network diagnostics.",
+    "Option2": "A tool that monitors node health and reports common node issues (e.g., kernel deadlocks, broken docker daemon) as events and node conditions.",
+    "Option3": "A tool for pod monitoring.",
+    "Option4": "A tool for security scanning.",
+    "Answer": "A tool that monitors node health and reports common node issues (e.g., kernel deadlocks, broken docker daemon) as events and node conditions."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Chaos Engineering' in Kubernetes?",
+    "Option1": "Randomly restarting pods.",
+    "Option2": "The practice of intentionally injecting failures into a Kubernetes system to test its resilience and identify weaknesses before they cause outages.",
+    "Option3": "Uncontrolled deployments.",
+    "Option4": "A method for load testing.",
+    "Answer": "The practice of intentionally injecting failures into a Kubernetes system to test its resilience and identify weaknesses before they cause outages."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Kube-Prometheus Stack'?",
+    "Option1": "Only Prometheus.",
+    "Option2": "A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules for easy deployment of Prometheus and related components for cluster monitoring.",
+    "Option3": "Only Grafana.",
+    "Option4": "A logging solution.",
+    "Answer": "A collection of Kubernetes manifests, Grafana dashboards, and Prometheus rules for easy deployment of Prometheus and related components for cluster monitoring."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'KubeVirt' used for?",
+    "Option1": "Running only containers.",
+    "Option2": "Running virtual machines as Pods in a Kubernetes cluster, enabling unified management of both VMs and containers.",
+    "Option3": "Managing bare-metal servers.",
+    "Option4": "A serverless platform.",
+    "Answer": "Running virtual machines as Pods in a Kubernetes cluster, enabling unified management of both VMs and containers."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Container Registry' in the context of Kubernetes?",
+    "Option1": "A local storage for containers.",
+    "Option2": "A centralized repository for storing and managing Docker images (or other OCI-compatible container images) that can be pulled by Kubernetes nodes.",
+    "Option3": "A tool for building containers.",
+    "Option4": "A network security tool.",
+    "Answer": "A centralized repository for storing and managing Docker images (or other OCI-compatible container images) that can be pulled by Kubernetes nodes."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'ImagePullSecrets' in Kubernetes?",
+    "Option1": "Secrets for accessing public registries.",
+    "Option2": "Secrets that provide credentials (username/password or token) to access private container registries when pulling images for pods.",
+    "Option3": "Secrets for building images.",
+    "Option4": "Secrets for external APIs.",
+    "Answer": "Secrets that provide credentials (username/password or token) to access private container registries when pulling images for pods."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Sidecar Pattern'?",
+    "Option1": "Running multiple main applications in one pod.",
+    "Option2": "Deploying an auxiliary container alongside a main application container in the same Pod, sharing the Pod's resources and lifecycle, often used for cross-cutting concerns like logging or monitoring.",
+    "Option3": "Running containers on separate nodes.",
+    "Option4": "A method for horizontal scaling.",
+    "Answer": "Deploying an auxiliary container alongside a main application container in the same Pod, sharing the Pod's resources and lifecycle, often used for cross-cutting concerns like logging or monitoring."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Init Containers'?",
+    "Option1": "Containers that run continuously.",
+    "Option2": "Specialized containers that run to completion before application containers in a Pod are started, often used for setup or initialization tasks that need to run once.",
+    "Option3": "Sidecar containers.",
+    "Option4": "Monitoring containers.",
+    "Answer": "Specialized containers that run to completion before application containers in a Pod are started, often used for setup or initialization tasks that need to run once."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Preemption' in Kubernetes scheduling?",
+    "Option1": "Always allows new pods.",
+    "Option2": "When the scheduler finds no node where a new Pod can fit, it tries to preempt (evict) lower-priority Pods from nodes to make room for the new, higher-priority Pod.",
+    "Option3": "Prevents pod eviction.",
+    "Option4": "A type of load balancing.",
+    "Answer": "When the scheduler finds no node where a new Pod can fit, it tries to preempt (evict) lower-priority Pods from nodes to make room for the new, higher-priority Pod."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'PriorityClass' in Kubernetes?",
+    "Option1": "Defines network priority.",
+    "Option2": "A non-namespace-scoped object that defines a mapping from a priority class name to the integer value of the priority, influencing pod scheduling and preemption.",
+    "Option3": "Defines resource limits.",
+    "Option4": "A type of storage class.",
+    "Answer": "A non-namespace-scoped object that defines a mapping from a priority class name to the integer value of the priority, influencing pod scheduling and preemption."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Pod Topology Spread Constraints'?",
+    "Option1": "Spreads pods across nodes evenly.",
+    "Option2": "Controls how Pods are distributed across failure domains (e.g., nodes, zones, regions) to achieve high availability or optimize resource utilization.",
+    "Option3": "Spreads containers within a pod.",
+    "Option4": "Spreads network traffic.",
+    "Answer": "Controls how Pods are distributed across failure domains (e.g., nodes, zones, regions) to achieve high availability or optimize resource utilization."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'ClusterRoleBinding'?",
+    "Option1": "Binds a role to a user within a namespace.",
+    "Option2": "Grants the permissions defined in a ClusterRole to a user, group, or service account across the entire cluster.",
+    "Option3": "Defines a new ClusterRole.",
+    "Option4": "Limits permissions to a specific pod.",
+    "Answer": "Grants the permissions defined in a ClusterRole to a user, group, or service account across the entire cluster."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Custom Controllers' in Kubernetes?",
+    "Option1": "Controllers managed by Kubernetes.",
+    "Option2": "Programs that extend the Kubernetes API by watching specific Custom Resources (CRs) and ensuring that the actual state of the cluster matches the desired state defined in those CRs.",
+    "Option3": "Controllers for external systems.",
+    "Option4": "Controllers for physical hardware.",
+    "Answer": "Programs that extend the Kubernetes API by watching specific Custom Resources (CRs) and ensuring that the actual state of the cluster matches the desired state defined in those CRs."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Kubernetes MutatingAdmissionWebhook'?",
+    "Option1": "Only validates resources.",
+    "Option2": "An API server extension point that allows for modification of objects before they are stored.",
+    "Option3": "Prevents resource creation.",
+    "Option4": "Logs all API requests.",
+    "Answer": "An API server extension point that allows for modification of objects before they are stored."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Kubernetes ValidatingAdmissionWebhook'?",
+    "Option1": "Modifies resources.",
+    "Option2": "An API server extension point that allows for validation of objects before they are stored, ensuring they conform to specific policies or schema.",
+    "Option3": "Injects environment variables.",
+    "Option4": "Only applies to network policies.",
+    "Answer": "An API server extension point that allows for validation of objects before they are stored, ensuring they conform to specific policies or schema."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Kubernetes Kube-Proxy Modes'?",
+    "Option1": "Only one mode available.",
+    "Option2": "Different ways `kube-proxy` can operate to provide Service load balancing, primarily `iptables` and `ipvs` modes.",
+    "Option3": "Modes for container runtime.",
+    "Option4": "Modes for storage access.",
+    "Answer": "Different ways `kube-proxy` can operate to provide Service load balancing, primarily `iptables` and `ipvs` modes."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Kubernetes Dashboard'?",
+    "Option1": "A command-line interface.",
+    "Option2": "A web-based UI for Kubernetes clusters, providing a graphical way to manage and monitor applications and cluster resources.",
+    "Option3": "A logging tool.",
+    "Option4": "A metrics collection agent.",
+    "Answer": "A web-based UI for Kubernetes clusters, providing a graphical way to manage and monitor applications and cluster resources."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Kubernetes Readiness Gates'?",
+    "Option1": "Used for liveness probes.",
+    "Option2": "A feature that allows external conditions to influence a Pod's readiness status, in addition to the built-in readiness probes.",
+    "Option3": "Controls network traffic.",
+    "Option4": "For pre-start checks.",
+    "Answer": "A feature that allows external conditions to influence a Pod's readiness status, in addition to the built-in readiness probes."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Kubernetes Pod Security Standards (PSS)'?",
+    "Option1": "A custom security framework.",
+    "Option2": "Predefined security policies that provide a layered approach to pod isolation, replacing Pod Security Policies (PSPs).",
+    "Option3": "A logging standard.",
+    "Option4": "A network policy framework.",
+    "Answer": "Predefined security policies that provide a layered approach to pod isolation, replacing Pod Security Policies (PSPs)."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Kubernetes Service Mesh Interface (SMI)'?",
+    "Option1": "A new service mesh implementation.",
+    "Option2": "A specification that defines a common interface for service meshes on Kubernetes, allowing for interoperability between different mesh implementations.",
+    "Option3": "A network protocol.",
+    "Option4": "A security standard.",
+    "Answer": "A specification that defines a common interface for service meshes on Kubernetes, allowing for interoperability between different mesh implementations."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Kubernetes Gateway API'?",
+    "Option1": "A replacement for Ingress.",
+    "Option2": "A set of API resources that model service networking in Kubernetes, designed to be more expressive and extensible than Ingress, supporting more advanced routing.",
+    "Option3": "For internal services only.",
+    "Option4": "A legacy API.",
+    "Answer": "A set of API resources that model service networking in Kubernetes, designed to be more expressive and extensible than Ingress, supporting more advanced routing."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Kubernetes Node Feature Discovery (NFD)'?",
+    "Option1": "A tool for finding healthy nodes.",
+    "Option2": "A tool that detects hardware capabilities and system configurations on Kubernetes nodes and advertises them as node labels, enabling advanced scheduling.",
+    "Option3": "A tool for node health checks.",
+    "Option4": "A tool for network diagnostics.",
+    "Answer": "A tool that detects hardware capabilities and system configurations on Kubernetes nodes and advertises them as node labels, enabling advanced scheduling."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Kubernetes CSI Snapshotter'?",
+    "Option1": "For backing up entire clusters.",
+    "Option2": "A component that enables taking volume snapshots using CSI drivers, allowing for point-in-time backups of persistent volumes.",
+    "Option3": "For ephemeral storage.",
+    "Option4": "For network configuration.",
+    "Answer": "A component that enables taking volume snapshots using CSI drivers, allowing for point-in-time backups of persistent volumes."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Kubernetes Event-driven Autoscaling (KEDA)'?",
+    "Option1": "Scales based on CPU/memory only.",
+    "Option2": "An open-source component that allows Kubernetes workloads to scale based on the number of events needing to be processed from various event sources (e.g., message queues, streaming platforms).",
+    "Option3": "Only scales horizontally.",
+    "Option4": "A built-in Kubernetes feature.",
+    "Answer": "An open-source component that allows Kubernetes workloads to scale based on the number of events needing to be processed from various event sources (e.g., message queues, streaming platforms)."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Kubernetes Horizontal Pod Autoscaler's 'behavior' field?",
+    "Option1": "Defines metric types.",
+    "Option2": "A field that allows for more fine-grained control over the scaling behavior of the HPA, such as cooldown periods and stabilization windows.",
+    "Option3": "Defines resource requests.",
+    "Option4": "Defines scaling limits.",
+    "Answer": "A field that allows for more fine-grained control over the scaling behavior of the HPA, such as cooldown periods and stabilization windows."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Kubernetes TopologyManager'?",
+    "Option1": "For network topology.",
+    "Option2": "An optional scheduler feature that ensures resource alignment (e.g., CPU and devices) on nodes to improve performance for latency-sensitive or high-performance workloads.",
+    "Option3": "For pod placement.",
+    "Option4": "For node health monitoring.",
+    "Answer": "An optional scheduler feature that ensures resource alignment (e.g., CPU and devices) on nodes to improve performance for latency-sensitive or high-performance workloads."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Kubernetes Kube-state-metrics'?",
+    "Option1": "A tool for collecting node metrics.",
+    "Option2": "A service that exposes metrics about the state of Kubernetes objects (e.g., number of running pods, deployment status) in Prometheus format.",
+    "Option3": "A logging agent.",
+    "Option4": "A network monitoring tool.",
+    "Answer": "A service that exposes metrics about the state of Kubernetes objects (e.g., number of running pods, deployment status) in Prometheus format."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Kubernetes Container Lifecycle Hooks'?",
+    "Option1": "Only for health checks.",
+    "Option2": "Mechanisms that allow containers to react to events in their lifecycle, such as `PostStart` (after creation) and `PreStop` (before termination).",
+    "Option3": "For scaling containers.",
+    "Option4": "For managing container images.",
+    "Answer": "Mechanisms that allow containers to react to events in their lifecycle, such as `PostStart` (after creation) and `PreStop` (before termination)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Kubernetes Probes (Readiness, Liveness, Startup)'?",
+    "Option1": "All do the same thing.",
+    "Option2": "Mechanisms to check the health and readiness of containers, influencing pod lifecycle: `Liveness` for container health, `Readiness` for service availability, `Startup` for initial startup.",
+    "Option3": "Only for network connectivity.",
+    "Option4": "For monitoring external services.",
+    "Answer": "Mechanisms to check the health and readiness of containers, influencing pod lifecycle: `Liveness` for container health, `Readiness` for service availability, `Startup` for initial startup."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Kubernetes StatefulSet's 'volumeClaimTemplates'?",
+    "Option1": "For ephemeral storage.",
+    "Option2": "A template for PersistentVolumeClaims that are automatically created for each replica in a StatefulSet, ensuring stable storage for each instance.",
+    "Option3": "For mounting existing volumes.",
+    "Option4": "For defining ConfigMaps.",
+    "Answer": "A template for PersistentVolumeClaims that are automatically created for each replica in a StatefulSet, ensuring stable storage for each instance."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Kubernetes Rolling Update Strategy' in Deployments?",
+    "Option1": "Causes downtime during updates.",
+    "Option2": "Replaces pods incrementally, bringing up new pods and taking down old ones in a controlled manner to ensure zero downtime during application updates.",
+    "Option3": "Updates all pods at once.",
+    "Option4": "Only applies to DaemonSets.",
+    "Answer": "Replaces pods incrementally, bringing up new pods and taking down old ones in a controlled manner to ensure zero downtime during application updates."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Kubernetes Canary Deployment Strategy'?",
+    "Option1": "Rolls out to all users at once.",
+    "Option2": "Deploys a new version to a small subset of users, monitoring its performance and stability before a wider rollout, reducing risk.",
+    "Option3": "Requires full downtime.",
+    "Option4": "Only for internal testing.",
+    "Answer": "Deploys a new version to a small subset of users, monitoring its performance and stability before a wider rollout, reducing risk."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Kubernetes Blue/Green Deployment Strategy'?",
+    "Option1": "Updates in-place.",
+    "Option2": "Maintains two identical environments (blue and green); traffic is switched from the old (blue) to the new (green) version after validation, allowing for instant rollback.",
+    "Option3": "Only for single-pod applications.",
+    "Option4": "Requires separate physical hardware.",
+    "Answer": "Maintains two identical environments (blue and green); traffic is switched from the old (blue) to the new (green) version after validation, allowing for instant rollback."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Kubernetes Labels and Selectors'?",
+    "Option1": "For naming resources only.",
+    "Option2": "Key/value pairs attached to Kubernetes objects (Labels) for identifying and organizing them, and queries (Selectors) used by controllers to select groups of objects.",
+    "Option3": "For defining network addresses.",
+    "Option4": "For controlling resource limits.",
+    "Answer": "Key/value pairs attached to Kubernetes objects (Labels) for identifying and organizing them, and queries (Selectors) used by controllers to select groups of objects."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Kubernetes Annotations'?",
+    "Option1": "For identifying resources.",
+    "Option2": "Arbitrary non-identifying metadata attached to Kubernetes objects, often used by tools and libraries for storing operational or configuration data that isn't for identification or selection.",
+    "Option3": "For controlling resource limits.",
+    "Option4": "For network policies.",
+    "Answer": "Arbitrary non-identifying metadata attached to Kubernetes objects, often used by tools and libraries for storing operational or configuration data that isn't for identification or selection."
+  }
+]

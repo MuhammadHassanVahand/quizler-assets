@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Angular primarily used for?",
+    "Option1": "Backend development",
+    "Option2": "Mobile game development",
+    "Option3": "Building single-page applications (SPAs)",
+    "Option4": "Database management",
+    "Answer": "Building single-page applications (SPAs)"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which programming language is Angular primarily written in?",
+    "Option1": "JavaScript",
+    "Option2": "Python",
+    "Option3": "TypeScript",
+    "Option4": "Java",
+    "Answer": "TypeScript"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the command-line interface (CLI) tool for Angular?",
+    "Option1": "npm",
+    "Option2": "Angular CLI",
+    "Option3": "Yarn",
+    "Option4": "Webpack",
+    "Answer": "Angular CLI"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is a 'Component' in Angular?",
+    "Option1": "A service that provides data",
+    "Option2": "A reusable UI building block with a template, class, and metadata",
+    "Option3": "A module for routing",
+    "Option4": "A directive for structural changes",
+    "Answer": "A reusable UI building block with a template, class, and metadata"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which decorator is used to define a Component in Angular?",
+    "Option1": "@Injectable()",
+    "Option2": "@Component()",
+    "Option3": "@NgModule()",
+    "Option4": "@Directive()",
+    "Answer": "@Component()"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is 'Data Binding' in Angular?",
+    "Option1": "Connecting to a database",
+    "Option2": "Synchronizing data between the component's class and its template (HTML)",
+    "Option3": "Encrypting data for security",
+    "Option4": "Storing data in local storage",
+    "Answer": "Synchronizing data between the component's class and its template (HTML)"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which type of data binding uses square brackets `[]`?",
+    "Option1": "Event Binding",
+    "Option2": "Property Binding",
+    "Option3": "Two-Way Data Binding",
+    "Option4": "Interpolation",
+    "Answer": "Property Binding"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which type of data binding uses parentheses `()`?",
+    "Option1": "Property Binding",
+    "Option2": "Event Binding",
+    "Option3": "Interpolation",
+    "Option4": "Two-Way Data Binding",
+    "Answer": "Event Binding"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is 'Interpolation' in Angular?",
+    "Option1": "Executing JavaScript code",
+    "Option2": "One-way data binding that displays component property values in the template using `{{}}`",
+    "Option3": "Handling user input",
+    "Option4": "Styling HTML elements",
+    "Answer": "One-way data binding that displays component property values in the template using `{{}}`"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'Module' in Angular?",
+    "Option1": "A single JavaScript file",
+    "Option2": "A way to organize an application into cohesive blocks of functionality",
+    "Option3": "A global variable",
+    "Option4": "A CSS stylesheet",
+    "Answer": "A way to organize an application into cohesive blocks of functionality"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which decorator is used to define an Angular Module?",
+    "Option1": "@Component()",
+    "Option2": "@Injectable()",
+    "Option3": "@NgModule()",
+    "Option4": "@Pipe()",
+    "Answer": "@NgModule()"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'Dependency Injection' (DI) in Angular?",
+    "Option1": "A method for injecting CSS styles",
+    "Option2": "A design pattern that allows a class to receive its dependencies from an external source rather than creating them itself",
+    "Option3": "A way to encrypt data",
+    "Option4": "A technique for routing requests",
+    "Answer": "A design pattern that allows a class to receive its dependencies from an external source rather than creating them itself"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which decorator is used to make a class injectable as a service?",
+    "Option1": "@Component()",
+    "Option2": "@Injectable()",
+    "Option3": "@Directive()",
+    "Option4": "@NgModule()",
+    "Answer": "@Injectable()"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'Routing' in Angular?",
+    "Option1": "Managing network connections",
+    "Option2": "Navigating between different views or components within a single-page application",
+    "Option3": "Handling database queries",
+    "Option4": "Sending emails",
+    "Answer": "Navigating between different views or components within a single-page application"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which module provides routing capabilities in Angular?",
+    "Option1": "HttpClientModule",
+    "Option2": "FormsModule",
+    "Option3": "RouterModule",
+    "Option4": "BrowserModule",
+    "Answer": "RouterModule"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'Directive' in Angular?",
+    "Option1": "A type of component",
+    "Option2": "A class that adds behavior to elements in your application's templates",
+    "Option3": "A service for data fetching",
+    "Option4": "A module for dependency injection",
+    "Answer": "A class that adds behavior to elements in your application's templates"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What are the three types of directives in Angular?",
+    "Option1": "Component, Module, Service",
+    "Option2": "Attribute, Structural, Custom",
+    "Option3": "Component, Attribute, Structural",
+    "Option4": "Input, Output, Event",
+    "Answer": "Component, Attribute, Structural"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which structural directive is used for conditional rendering?",
+    "Option1": "*ngFor",
+    "Option2": "*ngSwitch",
+    "Option3": "*ngIf",
+    "Option4": "ngStyle",
+    "Answer": "*ngIf"
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which structural directive is used to iterate over a collection?",
+    "Option1": "*ngIf",
+    "Option2": "*ngSwitch",
+    "Option3": "*ngFor",
+    "Option4": "ngClass",
+    "Answer": "*ngFor"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Pipe' in Angular?",
+    "Option1": "A way to send data to a server",
+    "Option2": "A function that transforms data for display in the template",
+    "Option3": "A utility for debugging",
+    "Option4": "A component's lifecycle hook",
+    "Answer": "A function that transforms data for display in the template"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which symbol is used to apply a pipe in an Angular template?",
+    "Option1": ".",
+    "Option2": ":",
+    "Option3": "|",
+    "Option4": "!",
+    "Answer": "|"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'HttpClientModule' used for in Angular?",
+    "Option1": "Handling form submissions",
+    "Option2": "Making HTTP requests to backend services",
+    "Option3": "Client-side routing",
+    "Option4": "Managing local storage",
+    "Answer": "Making HTTP requests to backend services"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What are 'Observables' in Angular, often used with HttpClient?",
+    "Option1": "A type of promise for synchronous operations",
+    "Option2": "A stream of data that can be observed for changes over time",
+    "Option3": "A static data structure",
+    "Option4": "A simple event emitter",
+    "Answer": "A stream of data that can be observed for changes over time"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which library provides Observable functionality in Angular?",
+    "Option1": "jQuery",
+    "Option2": "RxJS",
+    "Option3": "Lodash",
+    "Option4": "Moment.js",
+    "Answer": "RxJS"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What method is used to subscribe to an Observable?",
+    "Option1": "then()",
+    "Option2": "catch()",
+    "Option3": "subscribe()",
+    "Option4": "next()",
+    "Answer": "subscribe()"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is a 'Service' in Angular?",
+    "Option1": "A UI component",
+    "Option2": "A class with a focused purpose, often for data retrieval, business logic, or utility functions, designed to be injected into components or other services",
+    "Option3": "A template file",
+    "Option4": "A router outlet",
+    "Answer": "A class with a focused purpose, often for data retrieval, business logic, or utility functions, designed to be injected into components or other services"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the purpose of `ng serve`?",
+    "Option1": "To build the application for production",
+    "Option2": "To compile the TypeScript files",
+    "Option3": "To run a development server with live reload",
+    "Option4": "To create a new Angular project",
+    "Answer": "To run a development server with live reload"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `ng build` used for?",
+    "Option1": "To start the development server",
+    "Option2": "To create a new component",
+    "Option3": "To compile the application into deployable output files",
+    "Option4": "To run unit tests",
+    "Answer": "To compile the application into deployable output files"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Ahead-of-Time (AOT) Compilation' in Angular?",
+    "Option1": "Compiling the application in the browser at runtime",
+    "Option2": "Compiling the application during the build process before the browser downloads and runs it",
+    "Option3": "Compiling JavaScript to TypeScript",
+    "Option4": "Compiling CSS files",
+    "Answer": "Compiling the application during the build process before the browser downloads and runs it"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the benefit of AOT compilation?",
+    "Option1": "Larger application size",
+    "Option2": "Faster runtime performance and smaller bundle sizes",
+    "Option3": "Increased debugging complexity",
+    "Option4": "Requires less memory during development",
+    "Answer": "Faster runtime performance and smaller bundle sizes"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'Lazy Loading' in Angular routing?",
+    "Option1": "Loading all modules at application startup",
+    "Option2": "Loading modules only when they are needed (e.g., when navigating to a specific route)",
+    "Option3": "Loading data from a server on demand",
+    "Option4": "Loading images asynchronously",
+    "Answer": "Loading modules only when they are needed (e.g., when navigating to a specific route)"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Lifecycle Hooks' in Angular?",
+    "Option1": "Methods that are called at specific points in a component's or directive's lifecycle",
+    "Option2": "Functions for handling user input",
+    "Option3": "Events emitted by the browser",
+    "Option4": "Data structures for storing state",
+    "Answer": "Methods that are called at specific points in a component's or directive's lifecycle"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which lifecycle hook is called once after Angular initializes the component's data-bound properties?",
+    "Option1": "ngOnInit()",
+    "Option2": "ngOnChanges()",
+    "Option3": "ngAfterViewInit()",
+    "Option4": "ngDoCheck()",
+    "Answer": "ngOnInit()"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which lifecycle hook is called before Angular destroys the component or directive?",
+    "Option1": "ngOnInit()",
+    "Option2": "ngOnDestroy()",
+    "Option3": "ngAfterContentInit()",
+    "Option4": "ngAfterViewChecked()",
+    "Answer": "ngOnDestroy()"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'View Encapsulation' in Angular?",
+    "Option1": "Encrypting the view's data",
+    "Option2": "Controlling how the component's styles affect the rest of the application",
+    "Option3": "Hiding the view from the user",
+    "Option4": "Creating private variables in the component",
+    "Answer": "Controlling how the component's styles affect the rest of the application"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What are the available `ViewEncapsulation` modes?",
+    "Option1": "None, ShadowDom, Emulated",
+    "Option2": "Private, Public, Protected",
+    "Option3": "Local, Global, External",
+    "Option4": "Static, Dynamic, Inherited",
+    "Answer": "None, ShadowDom, Emulated"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'Forms' in Angular, specifically 'Template-driven Forms'?",
+    "Option1": "Forms built entirely with JavaScript",
+    "Option2": "Forms where the logic is primarily handled in the HTML template using directives like `ngModel`",
+    "Option3": "Forms generated from a database schema",
+    "Option4": "Forms that require no user input",
+    "Answer": "Forms where the logic is primarily handled in the HTML template using directives like `ngModel`"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Reactive Forms' in Angular?",
+    "Option1": "Forms that are built using HTML only",
+    "Option2": "Forms where the form model is created programmatically in the component class using `FormControl`, `FormGroup`, and `FormArray`",
+    "Option3": "Forms that automatically submit data",
+    "Option4": "Forms that use only custom directives",
+    "Answer": "Forms where the form model is created programmatically in the component class using `FormControl`, `FormGroup`, and `FormArray`"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which module is required to use Reactive Forms?",
+    "Option1": "FormsModule",
+    "Option2": "ReactiveFormsModule",
+    "Option3": "BrowserModule",
+    "Option4": "HttpClientModule",
+    "Answer": "ReactiveFormsModule"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'Validation' in Angular Forms?",
+    "Option1": "Encrypting form data",
+    "Option2": "Ensuring that the user's input meets specific criteria before submission",
+    "Option3": "Styling form elements",
+    "Option4": "Storing form data locally",
+    "Answer": "Ensuring that the user's input meets specific criteria before submission"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Input Property' in Angular (using `@Input()`)?",
+    "Option1": "Used to send data from a child component to its parent",
+    "Option2": "Used to receive data from a parent component into a child component",
+    "Option3": "Used for two-way data binding",
+    "Option4": "Used to define a local variable",
+    "Answer": "Used to receive data from a parent component into a child component"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Output Property' in Angular (using `@Output()`)?",
+    "Option1": "Used to receive data from a parent component",
+    "Option2": "Used to send data from a child component to its parent, often via an `EventEmitter`",
+    "Option3": "Used for direct DOM manipulation",
+    "Option4": "Used to define a global variable",
+    "Answer": "Used to send data from a child component to its parent, often via an `EventEmitter`"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'EventEmitter' primarily used for with `@Output()`?",
+    "Option1": "Emitting HTTP requests",
+    "Option2": "Emitting custom events that parent components can listen to",
+    "Option3": "Emitting data to a database",
+    "Option4": "Emitting console logs",
+    "Answer": "Emitting custom events that parent components can listen to"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Content Projection' in Angular?",
+    "Option1": "Projecting a component into a different module",
+    "Option2": "A way to insert content into a component's template from outside the component",
+    "Option3": "Projecting data from a service",
+    "Option4": "Projecting images onto the screen",
+    "Answer": "A way to insert content into a component's template from outside the component"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which tag is used for content projection?",
+    "Option1": "<slot>",
+    "Option2": "<content>",
+    "Option3": "<ng-content>",
+    "Option4": "<template>",
+    "Answer": "<ng-content>"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Service Worker' in Angular?",
+    "Option1": "A background process for server-side logic",
+    "Option2": "A script that runs in the browser background, enabling offline experiences, push notifications, etc.",
+    "Option3": "A service for database interactions",
+    "4": "A tool for performance monitoring",
+    "Answer": "A script that runs in the browser background, enabling offline experiences, push notifications, etc."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What does PWA stand for in the context of Angular?",
+    "Option1": "Programmatic Web Application",
+    "Option2": "Progressive Web Application",
+    "Option3": "Portable Web Assembly",
+    "Option4": "Private Web Access",
+    "Answer": "Progressive Web Application"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'Unit Testing' in Angular?",
+    "Option1": "Testing the entire application end-to-end",
+    "Option2": "Testing individual units or components in isolation",
+    "Option3": "Testing integration between different modules",
+    "Option4": "Testing performance metrics",
+    "Answer": "Testing individual units or components in isolation"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which testing framework is commonly used for Angular unit tests?",
+    "Option1": "Selenium",
+    "Option2": "Cypress",
+    "Option3": "Jasmine and Karma",
+    "Option4": "Jest",
+    "Answer": "Jasmine and Karma"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'End-to-End (E2E) Testing' in Angular?",
+    "Option1": "Testing individual functions",
+    "Option2": "Testing the entire application flow from the user's perspective",
+    "Option3": "Testing database connections",
+    "Option4": "Testing only API endpoints",
+    "Answer": "Testing the entire application flow from the user's perspective"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which E2E testing framework is often used with Angular (historically Protractor, now often Cypress or Playwright)?",
+    "Option1": "Jasmine",
+    "Option2": "Karma",
+    "Option3": "Protractor",
+    "Option4": "Mocha",
+    "Answer": "Protractor"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Angular Universal'?",
+    "Option1": "A tool for mobile app development",
+    "Option2": "A platform for server-side rendering (SSR) of Angular applications",
+    "Option3": "A framework for building desktop applications",
+    "Option4": "A cloud deployment service",
+    "Answer": "A platform for server-side rendering (SSR) of Angular applications"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the benefit of Server-Side Rendering (SSR) with Angular Universal?",
+    "Option1": "Reduced server load",
+    "Option2": "Improved SEO and faster initial page load",
+    "Option3": "Faster development cycle",
+    "Option4": "Easier debugging",
+    "Answer": "Improved SEO and faster initial page load"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Change Detection' in Angular?",
+    "Option1": "Detecting changes in the database",
+    "Option2": "The mechanism by which Angular determines when to re-render the UI based on changes in data",
+    "Option3": "Detecting changes in the file system",
+    "Option4": "Detecting user input changes",
+    "Answer": "The mechanism by which Angular determines when to re-render the UI based on changes in data"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What are the two main Change Detection Strategies?",
+    "Option1": "Always, Never",
+    "Option2": "Default, OnPush",
+    "Option3": "Synchronous, Asynchronous",
+    "Option4": "Manual, Automatic",
+    "Answer": "Default, OnPush"
+  },
+  {
+    "question_no.": 56,
+    "Question": "Which Change Detection Strategy relies on immutability or Observables to trigger change detection only when inputs change?",
+    "Option1": "Default",
+    "Option2": "OnPush",
+    "Option3": "Hybrid",
+    "Option4": "Manual",
+    "Answer": "OnPush"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Zones' in Angular (historically, now less prominent with standalone components and fine-grained reactivity)?",
+    "Option1": "Areas within a component's template",
+    "Option2": "Execution contexts that Angular uses to automatically detect changes and trigger updates",
+    "Option3": "Geographical areas for routing",
+    "Option4": "Security zones for data",
+    "Answer": "Execution contexts that Angular uses to automatically detect changes and trigger updates"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `NgZone` used for?",
+    "Option1": "To manage multiple Angular applications",
+    "Option2": "To run code outside or inside Angular's change detection zone",
+    "Option3": "To create new zones for custom change detection",
+    "Option4": "To define routing paths",
+    "Answer": "To run code outside or inside Angular's change detection zone"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Transclusion' (now known as Content Projection) in Angular.js?",
+    "Option1": "Including external libraries",
+    "Option2": "Embedding content from one component into another's template",
+    "Option3": "Converting HTML to JavaScript",
+    "Option4": "Encrypting data transfers",
+    "Answer": "Embedding content from one component into another's template"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Angular Material'?",
+    "Option1": "A design tool for Angular applications",
+    "Option2": "A UI component library that implements Material Design principles for Angular applications",
+    "Option3": "A new version of Angular",
+    "Option4": "A backend framework for Angular",
+    "Answer": "A UI component library that implements Material Design principles for Angular applications"
+  },
+  {
+    "question_no.": 61,
+    "Question": "How do you add Angular Material to an existing Angular project?",
+    "Option1": "Manually copy files",
+    "Option2": "Using `ng add @angular/material`",
+    "Option3": "Install via npm only",
+    "Option4": "Download from their website",
+    "Answer": "Using `ng add @angular/material`"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Animations' in Angular?",
+    "Option1": "Creating static images",
+    "Option2": "Applying visual transitions to elements using Angular's animation module",
+    "Option3": "Developing interactive games",
+    "Option4": "Adding sound effects",
+    "Answer": "Applying visual transitions to elements using Angular's animation module"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which module is needed to enable Angular animations?",
+    "Option1": "FormsModule",
+    "Option2": "BrowserAnimationsModule",
+    "Option3": "HttpClientModule",
+    "Option4": "RouterModule",
+    "Answer": "BrowserAnimationsModule"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Angular Schematics'?",
+    "Option1": "A tool for debugging Angular applications",
+    "Option2": "A workflow automation tool for generating and modifying code within an Angular project",
+    "Option3": "A module for styling applications",
+    "Option4": "A framework for building reusable components",
+    "Answer": "A workflow automation tool for generating and modifying code within an Angular project"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'RxJS Operators'?",
+    "Option1": "Mathematical operators for numbers",
+    "Option2": "Functions that take an Observable as input and return another Observable as output, allowing for data transformation and manipulation",
+    "Option3": "Operators for logical comparisons",
+    "Option4": "Operators for string concatenation",
+    "Answer": "Functions that take an Observable as input and return another Observable as output, allowing for data transformation and manipulation"
+  },
+  {
+    "question_no.": 66,
+    "Question": "Name a common RxJS operator for transforming data.",
+    "Option1": "filter",
+    "Option2": "tap",
+    "Option3": "map",
+    "Option4": "take",
+    "Answer": "map"
+  },
+  {
+    "question_no.": 67,
+    "Question": "Name a common RxJS operator for filtering data.",
+    "Option1": "map",
+    "Option2": "merge",
+    "Option3": "filter",
+    "Option4": "debounceTime",
+    "Answer": "filter"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'AsyncPipe' in Angular?",
+    "Option1": "A pipe for formatting dates",
+    "Option2": "A pipe that subscribes to an Observable or Promise and returns the latest value it has emitted",
+    "Option3": "A pipe for asynchronous routing",
+    "Option4": "A pipe for loading external scripts",
+    "Answer": "A pipe that subscribes to an Observable or Promise and returns the latest value it has emitted"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the benefit of using `AsyncPipe`?",
+    "Option1": "Reduces boilerplate code for managing subscriptions and automatically unsubscribes",
+    "Option2": "Makes HTTP requests faster",
+    "Option3": "Improves component styling",
+    "Option4": "Enhances security features",
+    "Answer": "Reduces boilerplate code for managing subscriptions and automatically unsubscribes"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'State Management' in Angular?",
+    "Option1": "Managing server-side sessions",
+    "Option2": "The practice of organizing and controlling the data state of an application",
+    "Option3": "Managing the state of individual components only",
+    "Option4": "Managing browser history",
+    "Answer": "The practice of organizing and controlling the data state of an application"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Name a popular state management library for Angular.",
+    "Option1": "jQuery",
+    "Option2": "Redux (or NgRx)",
+    "Option3": "Lodash",
+    "Option4": "Moment.js",
+    "Answer": "Redux (or NgRx)"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'NgRx'?",
+    "Option1": "A routing library for Angular",
+    "Option2": "A reactive state management library for Angular, inspired by Redux",
+    "Option3": "A styling framework",
+    "Option4": "A testing utility",
+    "Answer": "A reactive state management library for Angular, inspired by Redux"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What are 'Actions' in NgRx?",
+    "Option1": "Functions that perform side effects",
+    "Option2": "Plain objects that describe unique events that happen in the application",
+    "Option3": "Selectors for retrieving state",
+    "Option4": "Components that display data",
+    "Answer": "Plain objects that describe unique events that happen in the application"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What are 'Reducers' in NgRx?",
+    "Option1": "Functions that dispatch actions",
+    "Option2": "Pure functions that take the current state and an action, and return a new state",
+    "Option3": "Functions that handle asynchronous operations",
+    "Option4": "Components that manage side effects",
+    "Answer": "Pure functions that take the current state and an action, and return a new state"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What are 'Effects' in NgRx?",
+    "Option1": "Pure functions for state transformation",
+    "Option2": "Classes that listen for dispatched actions and perform side effects (e.g., API calls, routing)",
+    "Option3": "Components that display state",
+    "Option4": "Modules that define the application structure",
+    "Answer": "Classes that listen for dispatched actions and perform side effects (e.g., API calls, routing)"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What are 'Selectors' in NgRx?",
+    "Option1": "Functions that modify the state",
+    "Option2": "Pure functions that select slices of state from the store and compose them",
+    "Option3": "Functions that dispatch actions",
+    "Option4": "Classes that handle side effects",
+    "Answer": "Pure functions that select slices of state from the store and compose them"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the 'Store' in NgRx?",
+    "Option1": "A database",
+    "Option2": "A single, immutable source of truth for your application's state",
+    "Option3": "A service for caching data",
+    "Option4": "A component that displays data",
+    "Answer": "A single, immutable source of truth for your application's state"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Interceptors' in Angular HTTPClient?",
+    "Option1": "Functions that block HTTP requests",
+    "Option2": "Classes that can inspect and transform HTTP requests and responses globally",
+    "Option3": "Services for caching HTTP data",
+    "Option4": "Tools for logging HTTP errors",
+    "Answer": "Classes that can inspect and transform HTTP requests and responses globally"
+  },
+  {
+    "question_no.": 79,
+    "Question": "When would you use an HTTP Interceptor?",
+    "Option1": "To handle form validation",
+    "Option2": "For adding authentication tokens, error handling, or logging for all HTTP requests",
+    "Option3": "To style HTTP responses",
+    "Option4": "To manage component lifecycle",
+    "Answer": "For adding authentication tokens, error handling, or logging for all HTTP requests"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Attribute Directive'?",
+    "Option1": "Changes the DOM structure by adding/removing elements",
+    "Option2": "Changes the appearance or behavior of a DOM element",
+    "Option3": "A component with a template",
+    "Option4": "A service for data fetching",
+    "Answer": "Changes the appearance or behavior of a DOM element"
+  },
+  {
+    "question_no.": 81,
+    "Question": "Give an example of a built-in Attribute Directive.",
+    "Option1": "*ngIf",
+    "Option2": "*ngFor",
+    "Option3": "ngStyle or ngClass",
+    "Option4": "RouterOutlet",
+    "Answer": "ngStyle or ngClass"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Structural Directive'?",
+    "Option1": "Changes the appearance or behavior of a DOM element",
+    "Option2": "Changes the DOM structure by adding, removing, or manipulating elements",
+    "Option3": "A directive that only takes inputs",
+    "Option4": "A directive that emits events",
+    "Answer": "Changes the DOM structure by adding, removing, or manipulating elements"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Give an example of a built-in Structural Directive.",
+    "Option1": "ngClass",
+    "Option2": "ngStyle",
+    "Option3": "*ngIf or *ngFor",
+    "Option4": "ngModel",
+    "Answer": "*ngIf or *ngFor"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Custom Directive'?",
+    "Option1": "A directive provided by a third-party library",
+    "Option2": "A directive created by the developer to add specific behavior to elements",
+    "Option3": "A directive that is part of the Angular core",
+    "Option4": "A directive for routing",
+    "Answer": "A directive created by the developer to add specific behavior to elements"
+  },
+  {
+    "question_no.": 85,
+    "Question": "How do you generate a new directive using Angular CLI?",
+    "Option1": "ng generate component my-directive",
+    "Option2": "ng generate service my-directive",
+    "Option3": "ng generate directive my-directive",
+    "Option4": "ng generate pipe my-directive",
+    "Answer": "ng generate directive my-directive"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `HostListener` used for in directives?",
+    "Option1": "To listen for events on child components",
+    "Option2": "To listen for events on the host DOM element of the directive",
+    "Option3": "To listen for custom events",
+    "Option4": "To listen for routing changes",
+    "Answer": "To listen for events on the host DOM element of the directive"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `HostBinding` used for in directives?",
+    "Option1": "To bind properties to child components",
+    "Option2": "To bind properties of the host DOM element to a directive's property",
+    "Option3": "To bind data from a service",
+    "Option4": "To bind to external URLs",
+    "Answer": "To bind properties of the host DOM element to a directive's property"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'NgModule' responsible for?",
+    "Option1": "Defining the application's user interface",
+    "Option2": "Declaring components, directives, pipes, and importing other modules",
+    "Option3": "Handling HTTP requests",
+    "Option4": "Managing global application state",
+    "Answer": "Declaring components, directives, pipes, and importing other modules"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What are 'Providers' in an NgModule?",
+    "Option1": "Components that can be used globally",
+    "Option2": "Services that are made available for dependency injection within the module's scope",
+    "Option3": "Directives that are applied to the entire module",
+    "Option4": "Pipes that are shared across the application",
+    "Answer": "Services that are made available for dependency injection within the module's scope"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'bootstrap' in an NgModule?",
+    "Option1": "A utility for styling applications",
+    "Option2": "The root component that Angular launches when it bootstraps the application",
+    "Option3": "A framework for building responsive layouts",
+    "Option4": "A command-line tool for starting the application",
+    "Answer": "The root component that Angular launches when it bootstraps the application"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'ng g c' a shortcut for in Angular CLI?",
+    "Option1": "ng generate service",
+    "Option2": "ng generate component",
+    "Option3": "ng generate class",
+    "Option4": "ng generate module",
+    "Answer": "ng generate component"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'ng g s' a shortcut for in Angular CLI?",
+    "Option1": "ng generate component",
+    "Option2": "ng generate service",
+    "Option3": "ng generate stylesheet",
+    "Option4": "ng generate spec",
+    "Answer": "ng generate service"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'TypeScript'?",
+    "Option1": "A JavaScript framework",
+    "Option2": "A superset of JavaScript that compiles to plain JavaScript and adds static typing",
+    "Option3": "A new programming language",
+    "Option4": "A CSS preprocessor",
+    "Answer": "A superset of JavaScript that compiles to plain JavaScript and adds static typing"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the benefit of using TypeScript in Angular?",
+    "Option1": "Dynamic typing",
+    "Option2": "Improved code readability, maintainability, and error detection during development",
+    "Option3": "Smaller bundle sizes",
+    "Option4": "Faster runtime performance",
+    "Answer": "Improved code readability, maintainability, and error detection during development"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `tsconfig.json` in an Angular project?",
+    "Option1": "Configuration for the build process",
+    "Option2": "Configuration file for TypeScript compiler settings",
+    "Option3": "Configuration for the Angular router",
+    "Option4": "Configuration for environment variables",
+    "Answer": "Configuration file for TypeScript compiler settings"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Environment Variables' in Angular?",
+    "Option1": "Variables stored in the browser's local storage",
+    "Option2": "Variables whose values change based on the deployment environment (e.g., development, production)",
+    "Option3": "Variables defined in the global scope",
+    "Option4": "Variables that control CSS styles",
+    "Answer": "Variables whose values change based on the deployment environment (e.g., development, production)"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Where are environment variables typically defined in an Angular project?",
+    "Option1": "In `app.component.ts`",
+    "Option2": "In `environment.ts` and `environment.prod.ts` files",
+    "Option3": "In `index.html`",
+    "Option4": "In `package.json`",
+    "Answer": "In `environment.ts` and `environment.prod.ts` files"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Property Decorator' in TypeScript/Angular?",
+    "Option1": "A function that is called when a property is accessed",
+    "Option2": "A special kind of declaration that can be attached to a class property to modify its behavior",
+    "Option3": "A decorator for functions",
+    "Option4": "A decorator for classes",
+    "Answer": "A special kind of declaration that can be attached to a class property to modify its behavior"
+  },
+  {
+    "question_no.": 99,
+    "Question": "Give an example of a property decorator in Angular.",
+    "Option1": "@Component()",
+    "Option2": "@Injectable()",
+    "Option3": "@Input() or @Output()",
+    "Option4": "@NgModule()",
+    "Answer": "@Input() or @Output()"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Two-Way Data Binding' in Angular?",
+    "Option1": "Data flows from component to template only",
+    "Option2": "Data flows from template to component only",
+    "Option3": "Data flows both ways: component to template and template to component, using `[(ngModel)]`",
+    "Option4": "Data binding between two different components",
+    "Answer": "Data flows both ways: component to template and template to component, using `[(ngModel)]`"
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which directive enables two-way data binding on form elements?",
+    "Option1": "ngIf",
+    "Option2": "ngModel",
+    "Option3": "ngFor",
+    "Option4": "ngStyle",
+    "Answer": "ngModel"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Custom Pipe' in Angular?",
+    "Option1": "A pipe provided by a third-party library",
+    "Option2": "A pipe created by the developer to transform data for display in a specific way",
+    "Option3": "A pipe that only works with numbers",
+    "Option4": "A pipe for sorting arrays",
+    "Answer": "A pipe created by the developer to transform data for display in a specific way"
+  },
+  {
+    "question_no.": 103,
+    "Question": "How do you generate a new pipe using Angular CLI?",
+    "Option1": "ng generate component my-pipe",
+    "Option2": "ng generate service my-pipe",
+    "Option3": "ng generate pipe my-pipe",
+    "Option4": "ng generate module my-pipe",
+    "Answer": "ng generate pipe my-pipe"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'ActivatedRoute' in Angular Routing?",
+    "Option1": "A service for navigating between routes",
+    "Option2": "A service that provides access to information about a route associated with a component that is loaded in an outlet",
+    "Option3": "A directive for displaying route parameters",
+    "Option4": "A pipe for transforming route data",
+    "Answer": "A service that provides access to information about a route associated with a component that is loaded in an outlet"
+  },
+  {
+    "question_no.": 105,
+    "Question": "How do you access route parameters in a component?",
+    "Option1": "Using `Router.params`",
+    "Option2": "Subscribing to `ActivatedRoute.paramMap` or `ActivatedRoute.snapshot.paramMap`",
+    "Option3": "Using `RouterLink`",
+    "Option4": "Directly from the component's template",
+    "Answer": "Subscribing to `ActivatedRoute.paramMap` or `ActivatedRoute.snapshot.paramMap`"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'RouterLink' directive?",
+    "Option1": "A directive for navigating programmatically",
+    "Option2": "A directive used in templates to create navigation links between routes",
+    "Option3": "A directive for displaying route data",
+    "Option4": "A directive for handling route errors",
+    "Answer": "A directive used in templates to create navigation links between routes"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'RouterOutlet'?",
+    "Option1": "A directive for defining route paths",
+    "Option2": "A directive where routed components are displayed",
+    "Option3": "A directive for navigating back to the previous route",
+    "Option4": "A directive for handling external links",
+    "Answer": "A directive where routed components are displayed"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Route Guards' in Angular?",
+    "Option1": "Functions that prevent direct access to URLs",
+    "Option2": "Interfaces that control access to routes based on certain conditions (e.g., authentication, authorization)",
+    "Option3": "Components that protect routes from malicious attacks",
+    "Option4": "Services that log route changes",
+    "Answer": "Interfaces that control access to routes based on certain conditions (e.g., authentication, authorization)"
+  },
+  {
+    "question_no.": 109,
+    "Question": "Name a common type of Route Guard.",
+    "Option1": "CanLoad",
+    "Option2": "CanRead",
+    "Option3": "CanWrite",
+    "Option4": "CanUpdate",
+    "Answer": "CanLoad"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Async Validator' in Reactive Forms?",
+    "Option1": "A validator that runs synchronously",
+    "Option2": "A validator that performs validation asynchronously, often used for server-side validation (e.g., checking if a username is available)",
+    "Option3": "A validator that applies to multiple form controls",
+    "Option4": "A validator that only checks for required fields",
+    "Answer": "A validator that performs validation asynchronously, often used for server-side validation (e.g., checking if a username is available)"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'RxJS Subjects'?",
+    "Option1": "Observables that can only emit one value",
+    "Option2": "Special type of Observable that can multicast values to multiple Observers, and also act as an Observer",
+    "Option3": "A static data structure",
+    "Option4": "A type of operator",
+    "Answer": "Special type of Observable that can multicast values to multiple Observers, and also act as an Observer"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'BehaviorSubject'?",
+    "Option1": "A Subject that does not have an initial value",
+    "Option2": "A Subject that always emits its last value to new subscribers immediately, and then continues to emit any new values",
+    "Option3": "A Subject that only emits values when all subscribers are ready",
+    "Option4": "A Subject that only emits errors",
+    "Answer": "A Subject that always emits its last value to new subscribers immediately, and then continues to emit any new values"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'ReplaySubject'?",
+    "Option1": "A Subject that replays a certain number of its past values to new subscribers",
+    "Option2": "A Subject that only replays values on demand",
+    "Option3": "A Subject that only replays the last value",
+    "Option4": "A Subject that never replays values",
+    "Answer": "A Subject that replays a certain number of its past values to new subscribers"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'AsyncSubject'?",
+    "Option1": "A Subject that emits all values to new subscribers",
+    "Option2": "A Subject that only emits the last value produced by the Observable sequence upon completion",
+    "Option3": "A Subject that emits values asynchronously without waiting for completion",
+    "Option4": "A Subject that emits values at a fixed interval",
+    "Answer": "A Subject that only emits the last value produced by the Observable sequence upon completion"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Web Workers' in Angular?",
+    "Option1": "A tool for debugging web applications",
+    "Option2": "Scripts that run in the background thread of the browser, enabling long-running computations without blocking the UI",
+    "Option3": "A service for handling user input",
+    "Option4": "A method for optimizing image loading",
+    "Answer": "Scripts that run in the background thread of the browser, enabling long-running computations without blocking the UI"
+  },
+  {
+    "question_no.": 116,
+    "Question": "When would you use a Web Worker?",
+    "Option1": "For simple UI updates",
+    "Option2": "For CPU-intensive tasks like heavy calculations or image processing to avoid freezing the main thread",
+    "Option3": "For making HTTP requests",
+    "Option4": "For managing routing in the application",
+    "Answer": "For CPU-intensive tasks like heavy calculations or image processing to avoid freezing the main thread"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Protractor' (now deprecated in favor of Cypress/Playwright) used for?",
+    "Option1": "Unit testing Angular applications",
+    "Option2": "End-to-end testing of Angular applications",
+    "Option3": "Performance profiling",
+    "Option4": "Dependency management",
+    "Answer": "End-to-end testing of Angular applications"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Cypress' in the context of Angular testing?",
+    "Option1": "A unit testing framework",
+    "Option2": "A modern end-to-end testing framework often used as an alternative to Protractor",
+    "Option3": "A performance monitoring tool",
+    "Option4": "A code coverage tool",
+    "Answer": "A modern end-to-end testing framework often used as an alternative to Protractor"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Playwright'?",
+    "Option1": "A backend framework",
+    "Option2": "A Node.js library to automate Chromium, Firefox, and WebKit with a single API, also used for E2E testing",
+    "Option3": "A UI component library",
+    "Option4": "A state management library",
+    "Answer": "A Node.js library to automate Chromium, Firefox, and WebKit with a single API, also used for E2E testing"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Karma' used for in Angular?",
+    "Option1": "Running E2E tests",
+    "Option2": "A test runner for executing JavaScript unit tests",
+    "Option3": "Analyzing code quality",
+    "Option4": "Deploying applications",
+    "Answer": "A test runner for executing JavaScript unit tests"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Jasmine' used for in Angular?",
+    "Option1": "A test runner",
+    "Option2": "A behavior-driven development (BDD) framework for testing JavaScript code",
+    "Option3": "A dependency injection library",
+    "Option4": "A build tool",
+    "Answer": "A behavior-driven development (BDD) framework for testing JavaScript code"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `TestBed` in Angular testing?",
+    "Option1": "A utility for running tests in a browser",
+    "Option2": "An Angular testing utility that configures and initializes a testing module for unit tests",
+    "Option3": "A mock database for testing",
+    "Option4": "A tool for generating test data",
+    "Answer": "An Angular testing utility that configures and initializes a testing module for unit tests"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `fixture` in Angular testing?",
+    "Option1": "A way to reset the testing environment",
+    "Option2": "A wrapper for a component and its associated template, used to interact with and test the component's view",
+    "Option3": "A mock service for testing",
+    "Option4": "A tool for logging test results",
+    "Answer": "A wrapper for a component and its associated template, used to interact with and test the component's view"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Component Harnesses' in Angular testing?",
+    "Option1": "Tools for testing services",
+    "Option2": "APIs that allow tests to interact with components as a user would, without worrying about the component's internal DOM structure",
+    "Option3": "Utilities for testing pipes",
+    "Option4": "Tools for measuring component performance",
+    "Answer": "APIs that allow tests to interact with components as a user would, without worrying about the component's internal DOM structure"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Angular CLI Workspace'?",
+    "Option1": "A single Angular project",
+    "Option2": "A collection of one or more Angular projects managed by the Angular CLI",
+    "Option3": "A deployment environment",
+    "Option4": "A version control repository",
+    "Answer": "A collection of one or more Angular projects managed by the Angular CLI"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Angular Ivy'?",
+    "Option1": "A new version of TypeScript",
+    "Option2": "Angular's next-generation compilation and rendering pipeline, aiming for smaller bundle sizes and faster compilation",
+    "Option3": "A state management library",
+    "Option4": "A new routing module",
+    "Answer": "Angular's next-generation compilation and rendering pipeline, aiming for smaller bundle sizes and faster compilation"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Standalone Components' in Angular?",
+    "Option1": "Components that don't use templates",
+    "Option2": "Components, directives, and pipes that can be used without being declared in an NgModule, simplifying the application structure",
+    "Option3": "Components that are entirely self-contained and cannot interact with others",
+    "Option4": "Components that only work on mobile devices",
+    "Answer": "Components, directives, and pipes that can be used without being declared in an NgModule, simplifying the application structure"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the benefit of Standalone Components?",
+    "Option1": "Larger bundle sizes",
+    "Option2": "Reduced NgModule boilerplate, improved tree-shaking, and simplified mental model",
+    "Option3": "Slower development cycle",
+    "Option4": "Limited reusability",
+    "Answer": "Reduced NgModule boilerplate, improved tree-shaking, and simplified mental model"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Signals' in Angular?",
+    "Option1": "A new routing mechanism",
+    "Option2": "A new reactivity primitive for fine-grained reactivity and change detection, replacing Zones in some contexts",
+    "Option3": "A way to send notifications to users",
+    "Option4": "A tool for debugging errors",
+    "Answer": "A new reactivity primitive for fine-grained reactivity and change detection, replacing Zones in some contexts"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the primary benefit of Angular Signals?",
+    "Option1": "Increased bundle size",
+    "Option2": "More precise and efficient change detection, potentially leading to better performance",
+    "Option3": "More complex data flow",
+    "Option4": "Reduced testability",
+    "Answer": "More precise and efficient change detection, potentially leading to better performance"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Custom Decorator' in Angular?",
+    "Option1": "A decorator built into Angular",
+    "Option2": "A decorator created by the developer to add custom metadata or behavior to classes, properties, or methods",
+    "Option3": "A decorator for styling HTML elements",
+    "Option4": "A decorator for manipulating the DOM directly",
+    "Answer": "A decorator created by the developer to add custom metadata or behavior to classes, properties, or methods"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'HttpClient'?",
+    "Option1": "A library for routing",
+    "Option2": "An Angular service for making HTTP requests to a backend server",
+    "Option3": "A tool for building user interfaces",
+    "Option4": "A database client",
+    "Answer": "An Angular service for making HTTP requests to a backend server"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What method is used for making a GET request using HttpClient?",
+    "Option1": "post()",
+    "Option2": "put()",
+    "Option3": "get()",
+    "Option4": "delete()",
+    "Answer": "get()"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What method is used for making a POST request using HttpClient?",
+    "Option1": "get()",
+    "Option2": "put()",
+    "Option3": "post()",
+    "Option4": "delete()",
+    "Answer": "post()"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Subject' in RxJS?",
+    "Option1": "An Observable that can only be subscribed to once",
+    "Option2": "A special type of Observable that is also an Observer, allowing values to be pushed to multiple Observers",
+    "Option3": "A data structure for storing values",
+    "Option4": "A function that transforms data",
+    "Answer": "A special type of Observable that is also an Observer, allowing values to be pushed to multiple Observers"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'DebounceTime' operator in RxJS?",
+    "Option1": "Emits the first value of the source Observable",
+    "Option2": "Delays the emission of values until a specified time has passed without another emission, useful for search inputs",
+    "Option3": "Emits values at regular intervals",
+    "Option4": "Emits values only when a certain condition is met",
+    "Answer": "Delays the emission of values until a specified time has passed without another emission, useful for search inputs"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'SwitchMap' operator in RxJS?",
+    "Option1": "Maps each value to an Observable and flattens all of them",
+    "Option2": "Maps each value to an Observable and unsubscribes from the previous inner Observable when a new value is emitted",
+    "Option3": "Maps values to a new array",
+    "Option4": "Maps values to a different type",
+    "Answer": "Maps each value to an Observable and unsubscribes from the previous inner Observable when a new value is emitted"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'MergeMap' (or `flatMap`) operator in RxJS?",
+    "Option1": "Maps each value to an Observable and only processes the last one",
+    "Option2": "Maps each value to an Observable and flattens the resulting Observables into a single Observable, maintaining concurrent subscriptions",
+    "Option3": "Combines two Observables into one",
+    "Option4": "Filters values based on a condition",
+    "Answer": "Maps each value to an Observable and flattens the resulting Observables into a single Observable, maintaining concurrent subscriptions"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'ConcatMap' operator in RxJS?",
+    "Option1": "Maps each value to an Observable and processes them in parallel",
+    "Option2": "Maps each value to an Observable and flattens the resulting Observables into a single Observable, preserving order and processing one after another",
+    "Option3": "Combines values from multiple Observables",
+    "Option4": "Filters values from a stream",
+    "Answer": "Maps each value to an Observable and flattens the resulting Observables into a single Observable, preserving order and processing one after another"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'RxJS take' operator?",
+    "Option1": "Takes all values from the source Observable",
+    "Option2": "Takes only the first N values from the source Observable and then completes",
+    "Option3": "Takes values at random intervals",
+    "Option4": "Takes values only when a condition is met",
+    "Answer": "Takes only the first N values from the source Observable and then completes"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'RxJS tap' (or `do`) operator?",
+    "Option1": "Transforms values in the stream",
+    "Option2": "Performs a side effect for each value emitted by the source Observable, without modifying the stream itself",
+    "Option3": "Filters values from the stream",
+    "Option4": "Combines multiple streams",
+    "Answer": "Performs a side effect for each value emitted by the source Observable, without modifying the stream itself"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Hot Observable' in RxJS?",
+    "Option1": "An Observable that emits values only when subscribed to",
+    "Option2": "An Observable that begins emitting values immediately upon creation, regardless of whether there are subscribers",
+    "Option3": "An Observable that only emits a single value",
+    "Option4": "An Observable that never completes",
+    "Answer": "An Observable that begins emitting values immediately upon creation, regardless of whether there are subscribers"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Cold Observable' in RxJS?",
+    "Option1": "An Observable that begins emitting values immediately upon creation",
+    "Option2": "An Observable that starts emitting values only when it has at least one subscriber, and each subscriber gets its own independent execution",
+    "Option3": "An Observable that never emits values",
+    "Option4": "An Observable that emits values at fixed intervals",
+    "Answer": "An Observable that starts emitting values only when it has at least one subscriber, and each subscriber gets its own independent execution"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Unsubscribe' from an Observable?",
+    "Option1": "Pausing the emission of values temporarily",
+    "Option2": "Stopping the reception of values from an Observable and releasing resources, preventing memory leaks",
+    "Option3": "Changing the type of values emitted",
+    "Option4": "Replaying previous values",
+    "Answer": "Stopping the reception of values from an Observable and releasing resources, preventing memory leaks"
+  },
+  {
+    "question_no.": 145,
+    "Question": "When should you manually unsubscribe from an Observable?",
+    "Option1": "Never, `AsyncPipe` handles it",
+    "Option2": "When using `AsyncPipe`",
+    "Option3": "When subscribing to an Observable that is not automatically completed (e.g., from a service or a long-lived event stream) to prevent memory leaks",
+    "Option4": "Only in unit tests",
+    "Answer": "When subscribing to an Observable that is not automatically completed (e.g., from a service or a long-lived event stream) to prevent memory leaks"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Renderer2' in Angular?",
+    "Option1": "A service for rendering HTML templates",
+    "Option2": "An abstract class that provides methods to manipulate the DOM without directly accessing it, making applications easier to run on different platforms (e.g., web workers, SSR)",
+    "Option3": "A component for displaying 3D graphics",
+    "Option4": "A tool for debugging rendering issues",
+    "Answer": "An abstract class that provides methods to manipulate the DOM without directly accessing it, making applications easier to run on different platforms (e.g., web workers, SSR)"
+  },
+  {
+    "question_no.": 147,
+    "Question": "When would you use `Renderer2` instead of direct DOM manipulation?",
+    "Option1": "When you want to improve performance for all DOM operations",
+    "Option2": "When working with server-side rendering or web workers, or when you need a safer way to manipulate the DOM that doesn't bypass Angular's change detection",
+    "Option3": "Only for simple styling changes",
+    "Option4": "Only for unit testing purposes",
+    "Answer": "When working with server-side rendering or web workers, or when you need a safer way to manipulate the DOM that doesn't bypass Angular's change detection"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'ElementRef' in Angular?",
+    "Option1": "A reference to a component class",
+    "Option2": "A wrapper around a native DOM element, allowing direct access to the underlying element",
+    "Option3": "A reference to a service",
+    "Option4": "A reference to a template variable",
+    "Answer": "A wrapper around a native DOM element, allowing direct access to the underlying element"
+  },
+  {
+    "question_no.": 149,
+    "Question": "When would you use `ElementRef`?",
+    "Option1": "For all DOM manipulations",
+    "Option2": "For direct access to the DOM element for specific use cases (e.g., integrating with third-party libraries that require direct DOM access), but generally discouraged for routine DOM manipulation",
+    "Option3": "To create new HTML elements",
+    "Option4": "To style components dynamically",
+    "Answer": "For direct access to the DOM element for specific use cases (e.g., integrating with third-party libraries that require direct DOM access), but generally discouraged for routine DOM manipulation"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'ViewChild' in Angular?",
+    "Option1": "A decorator for injecting services",
+    "Option2": "A decorator used to query and get a reference to a child component or directive in the component's own view",
+    "Option3": "A decorator for receiving input properties",
+    "Option4": "A decorator for emitting output events",
+    "Answer": "A decorator used to query and get a reference to a child component or directive in the component's own view"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'ViewChildren' in Angular?",
+    "Option1": "A decorator for querying a single child",
+    "Option2": "A decorator used to query and get references to multiple child components or directives in the component's own view",
+    "Option3": "A decorator for querying parent components",
+    "Option4": "A decorator for querying external elements",
+    "Answer": "A decorator used to query and get references to multiple child components or directives in the component's own view"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'ContentChild' in Angular?",
+    "Option1": "A decorator for querying a single child in the component's own view",
+    "Option2": "A decorator used to query and get a reference to a projected content child (i.e., a child from `<ng-content>`)",
+    "Option3": "A decorator for querying services",
+    "Option4": "A decorator for querying global elements",
+    "Answer": "A decorator used to query and get a reference to a projected content child (i.e., a child from `<ng-content>`)"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'ContentChildren' in Angular?",
+    "Option1": "A decorator for querying multiple children in the component's own view",
+    "Option2": "A decorator used to query and get references to multiple projected content children",
+    "Option3": "A decorator for querying components in other modules",
+    "Option4": "A decorator for querying elements in the parent's template",
+    "Answer": "A decorator used to query and get references to multiple projected content children"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'TemplateRef' in Angular?",
+    "Option1": "A reference to a component's class",
+    "Option2": "A reference to an embedded template (e.g., defined with `<ng-template>`) that can be instantiated dynamically",
+    "Option3": "A reference to a CSS stylesheet",
+    "Option4": "A reference to an external HTML file",
+    "Answer": "A reference to an embedded template (e.g., defined with `<ng-template>`) that can be instantiated dynamically"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'ViewContainerRef' in Angular?",
+    "Option1": "A reference to a view within a component",
+    "Option2": "A reference to a container where one or more views can be attached or detached dynamically",
+    "Option3": "A reference to a static HTML element",
+    "Option4": "A reference to a component's styles",
+    "Answer": "A reference to a container where one or more views can be attached or detached dynamically"
+  },
+  {
+    "question_no.": 156,
+    "Question": "When would you use `TemplateRef` and `ViewContainerRef`?",
+    "Option1": "For static UI elements",
+    "Option2": "For creating dynamic views, such as modals, tooltips, or components that can be inserted at runtime",
+    "Option3": "For simple data binding",
+    "Option4": "For handling form submissions",
+    "Answer": "For creating dynamic views, such as modals, tooltips, or components that can be inserted at runtime"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'RendererFactory2'?",
+    "Option1": "A factory for creating components",
+    "Option2": "A service that provides `Renderer2` instances, particularly useful for applications with multiple rendering contexts",
+    "Option3": "A factory for creating services",
+    "Option4": "A factory for creating modules",
+    "Answer": "A service that provides `Renderer2` instances, particularly useful for applications with multiple rendering contexts"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'ChangeDetectionRef'?",
+    "Option1": "A service for automatic change detection",
+    "Option2": "A reference to the component's change detector, allowing for manual control over change detection",
+    "Option3": "A service for logging change detection cycles",
+    "Option4": "A tool for debugging change detection issues",
+    "Answer": "A reference to the component's change detector, allowing for manual control over change detection"
+  },
+  {
+    "question_no.": 159,
+    "Question": "When would you use `ChangeDetectionRef.detectChanges()` or `markForCheck()`?",
+    "Option1": "With Default change detection strategy",
+    "Option2": "Primarily when using the OnPush change detection strategy to manually trigger change detection when external events occur (e.g., changes from a WebSocket, or non-Angular initiated events)",
+    "Option3": "To disable change detection",
+    "Option4": "To force a full application re-render",
+    "Answer": "Primarily when using the OnPush change detection strategy to manually trigger change detection when external events occur (e.g., changes from a WebSocket, or non-Angular initiated events)"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Router History'?",
+    "Option1": "A log of all server requests",
+    "Option2": "The browser's history API, managed by the Angular Router to enable back/forward navigation",
+    "Option3": "A history of all component changes",
+    "Option4": "A history of all user interactions",
+    "Answer": "The browser's history API, managed by the Angular Router to enable back/forward navigation"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'LocationStrategy' in Angular routing?",
+    "Option1": "Defines how the router handles URL parameters",
+    "Option2": "Defines how the browser interacts with the URL to reflect the current route (e.g., HashLocationStrategy, PathLocationStrategy)",
+    "Option3": "Defines how the router loads modules lazily",
+    "Option4": "Defines how the router resolves conflicts",
+    "Answer": "Defines how the browser interacts with the URL to reflect the current route (e.g., HashLocationStrategy, PathLocationStrategy)"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'HashLocationStrategy'?",
+    "Option1": "Uses the HTML5 pushState API",
+    "Option2": "Uses a hash symbol (`#`) in the URL to separate the base URL from the application's internal path",
+    "Option3": "Removes all hashes from the URL",
+    "Option4": "Only works with static files",
+    "Answer": "Uses a hash symbol (`#`) in the URL to separate the base URL from the application's internal path"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'PathLocationStrategy'?",
+    "Option1": "Uses a hash symbol (`#`) in the URL",
+    "Option2": "Uses the HTML5 history API (pushState) for clean URLs without hashes, requiring server-side configuration for deep linking",
+    "Option3": "Only works with static paths",
+    "Option4": "Automatically redirects all paths",
+    "Answer": "Uses the HTML5 history API (pushState) for clean URLs without hashes, requiring server-side configuration for deep linking"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Router Events'?",
+    "Option1": "Events emitted by the browser",
+    "Option2": "A stream of events emitted by the Angular Router during navigation, allowing you to react to lifecycle changes of the routing process",
+    "Option3": "Events emitted by components",
+    "Option4": "Events related to user interactions on routes",
+    "Answer": "A stream of events emitted by the Angular Router during navigation, allowing you to react to lifecycle changes of the routing process"
+  },
+  {
+    "question_no.": 165,
+    "Question": "Name a common Router Event.",
+    "Option1": "ClickEvent",
+    "Option2": "NavigationEnd",
+    "Option3": "KeyEvent",
+    "Option4": "ChangeEvent",
+    "Answer": "NavigationEnd"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Preloading Strategy' in Angular routing?",
+    "Option1": "Preloading all modules at application startup",
+    "Option2": "A strategy that determines when lazy-loaded modules are preloaded in the background to improve user experience for subsequent navigations",
+    "Option3": "Preloading data from a server",
+    "Option4": "Preloading images before they are displayed",
+    "Answer": "A strategy that determines when lazy-loaded modules are preloaded in the background to improve user experience for subsequent navigations"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'NoPreloading' strategy?",
+    "Option1": "Preloads all modules immediately",
+    "Option2": "Does not preload any lazy-loaded modules",
+    "Option3": "Preloads only selected modules",
+    "Option4": "Preloads modules only when the network is idle",
+    "Answer": "Does not preload any lazy-loaded modules"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'PreloadAllModules' strategy?",
+    "Option1": "Preloads modules only when navigated to",
+    "Option2": "Preloads all lazy-loaded modules immediately after the main application bundle is loaded",
+    "Option3": "Does not preload any modules",
+    "Option4": "Preloads modules based on user behavior",
+    "Answer": "Preloads all lazy-loaded modules immediately after the main application bundle is loaded"
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Custom Preloading Strategy'?",
+    "Option1": "A strategy defined by Angular itself",
+    "Option2": "A custom implementation of the `PreloadingStrategy` interface to define specific logic for preloading modules",
+    "Option3": "A strategy that caches preloaded modules",
+    "Option4": "A strategy that disables preloading for certain routes",
+    "Answer": "A custom implementation of the `PreloadingStrategy` interface to define specific logic for preloading modules"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'NgOptimizedImage' directive?",
+    "Option1": "A directive for loading static images only",
+    "Option2": "A directive in Angular that helps optimize image loading and performance in web applications",
+    "Option3": "A directive for compressing images",
+    "Option4": "A directive for converting image formats",
+    "Answer": "A directive in Angular that helps optimize image loading and performance in web applications"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Zone.js'?",
+    "Option1": "A library for routing",
+    "Option2": "A library that patches asynchronous operations (like `setTimeout`, `XMLHttpRequest`, `EventTarget`) to provide a mechanism for change detection in Angular (historically, less critical with Signals)",
+    "Option3": "A library for building user interfaces",
+    "4": "A library for state management",
+    "Answer": "A library that patches asynchronous operations (like `setTimeout`, `XMLHttpRequest`, `EventTarget`) to provide a mechanism for change detection in Angular (historically, less critical with Signals)"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Aria Attributes' in Angular accessibility?",
+    "Option1": "Attributes for styling elements",
+    "Option2": "HTML attributes (`aria-*`) that provide semantic meaning to web content, improving accessibility for users with disabilities",
+    "Option3": "Attributes for controlling animations",
+    "Option4": "Attributes for handling form validation",
+    "Answer": "HTML attributes (`aria-*`) that provide semantic meaning to web content, improving accessibility for users with disabilities"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Angular Schematics' used for?",
+    "Option1": "To generate only components",
+    "Option2": "To generate, modify, or update code in an Angular workspace, following best practices",
+    "Option3": "To deploy applications",
+    "Option4": "To run unit tests",
+    "Answer": "To generate, modify, or update code in an Angular workspace, following best practices"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Builder' in Angular CLI?",
+    "Option1": "A tool for building custom components",
+    "Option2": "A function that transforms the Angular application code into deployable artifacts (e.g., webpack builder)",
+    "Option3": "A tool for creating new projects",
+    "Option4": "A tool for serving applications locally",
+    "Answer": "A function that transforms the Angular application code into deployable artifacts (e.g., webpack builder)"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Angular DevTools'?",
+    "Option1": "A mobile debugging tool",
+    "Option2": "A browser extension for debugging Angular applications, inspecting components, profiling performance, and more",
+    "Option3": "A command-line tool for development",
+    "Option4": "A build tool for Angular",
+    "Answer": "A browser extension for debugging Angular applications, inspecting components, profiling performance, and more"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Angular Elements'?",
+    "Option1": "Angular components that can be used as custom elements (Web Components) in any HTML-based environment",
+    "Option2": "Built-in HTML elements in Angular",
+    "Option3": "Elements that are only available in specific Angular versions",
+    "Option4": "Elements used for routing",
+    "Answer": "Angular components that can be used as custom elements (Web Components) in any HTML-based environment"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is the benefit of Angular Elements?",
+    "Option1": "Tighter coupling between applications",
+    "Option2": "Interoperability, allowing Angular components to be used in non-Angular frameworks or plain JavaScript projects",
+    "Option3": "Reduced bundle size for Angular applications",
+    "Option4": "Faster development time within an Angular ecosystem",
+    "Answer": "Interoperability, allowing Angular components to be used in non-Angular frameworks or plain JavaScript projects"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Content Security Policy (CSP)' in Angular?",
+    "Option1": "A policy for content caching",
+    "Option2": "A security standard that helps mitigate cross-site scripting (XSS) and other code injection attacks by specifying trusted sources of content",
+    "Option3": "A policy for content distribution networks",
+    "Option4": "A policy for managing user content",
+    "Answer": "A security standard that helps mitigate cross-site scripting (XSS) and other code injection attacks by specifying trusted sources of content"
+  },
+  {
+    "question_no.": 179,
+    "Question": "How does Angular help mitigate XSS vulnerabilities?",
+    "Option1": "By disabling all external scripts",
+    "Option2": "By automatically sanitizing untrusted values before inserting them into the DOM, and by providing CSP support",
+    "Option3": "By encrypting all data transmitted",
+    "Option4": "By forcing developers to write secure code manually",
+    "Answer": "By automatically sanitizing untrusted values before inserting them into the DOM, and by providing CSP support"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Sanitization' in Angular?",
+    "Option1": "Cleaning up unused code",
+    "Option2": "The process of inspecting an untrusted value and transforming it into a value that is safe to insert into the DOM",
+    "Option3": "Formatting code for readability",
+    "Option4": "Optimizing image assets",
+    "Answer": "The process of inspecting an untrusted value and transforming it into a value that is safe to insert into the DOM"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'DomSanitizer' service used for?",
+    "Option1": "To clean up invalid HTML",
+    "Option2": "To explicitly mark a value as safe for use in the DOM, bypassing Angular's default sanitization (use with caution!)",
+    "Option3": "To format dates for display",
+    "Option4": "To manage the DOM structure",
+    "Answer": "To explicitly mark a value as safe for use in the DOM, bypassing Angular's default sanitization (use with caution!)"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Platform-Specific Development' in Angular?",
+    "Option1": "Building applications for a single operating system",
+    "Option2": "Developing applications that run on various platforms (web, mobile with NativeScript/Ionic, desktop with Electron), leveraging Angular's core",
+    "Option3": "Developing applications for specific web browsers",
+    "Option4": "Developing applications for specific server environments",
+    "Answer": "Developing applications that run on various platforms (web, mobile with NativeScript/Ionic, desktop with Electron), leveraging Angular's core"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Ionic' in the context of Angular?",
+    "Option1": "A CSS framework for Angular",
+    "Option2": "An open-source UI toolkit for building high-quality, cross-platform mobile and desktop apps using web technologies (often with Angular)",
+    "Option3": "A state management library",
+    "Option4": "A testing framework",
+    "Answer": "An open-source UI toolkit for building high-quality, cross-platform mobile and desktop apps using web technologies (often with Angular)"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'NativeScript' in the context of Angular?",
+    "Option1": "A framework for building web applications",
+    "Option2": "An open-source framework for building truly native mobile apps with JavaScript, TypeScript, or Angular",
+    "Option3": "A tool for developing desktop applications",
+    "Option4": "A library for game development",
+    "Answer": "An open-source framework for building truly native mobile apps with JavaScript, TypeScript, or Angular"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Electron' in the context of Angular?",
+    "Option1": "A framework for building mobile apps",
+    "Option2": "A framework for building cross-platform desktop applications with web technologies (HTML, CSS, JavaScript/Angular)",
+    "Option3": "A tool for server-side rendering",
+    "Option4": "A cloud deployment platform",
+    "Answer": "A framework for building cross-platform desktop applications with web technologies (HTML, CSS, JavaScript/Angular)"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Service Lifecycle'?",
+    "Option1": "The lifecycle of a component",
+    "Option2": "The lifespan of an injectable service, typically controlled by the injector that provides it (e.g., root, module, component)",
+    "Option3": "The lifecycle of an HTTP request",
+    "Option4": "The lifecycle of a module",
+    "Answer": "The lifespan of an injectable service, typically controlled by the injector that provides it (e.g., root, module, component)"
+  },
+  {
+    "question_no.": 187,
+    "Question": "How do you make a service a 'singleton' across the entire application?",
+    "Option1": "By providing it in a specific component",
+    "Option2": "By providing it in the root `AppModule` or by using `providedIn: 'root'` in the `@Injectable()` decorator",
+    "Option3": "By creating multiple instances of the service",
+    "Option4": "By using a custom factory",
+    "Answer": "By providing it in the root `AppModule` or by using `providedIn: 'root'` in the `@Injectable()` decorator"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Tree Shaking' in Angular?",
+    "Option1": "A method for debugging large applications",
+    "Option2": "An optimization technique that removes unused code from the final JavaScript bundle, resulting in smaller application sizes",
+    "Option3": "A feature for randomly changing code structure",
+    "Option4": "A method for organizing files in a project",
+    "Answer": "An optimization technique that removes unused code from the final JavaScript bundle, resulting in smaller application sizes"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What contributes to effective tree shaking in Angular?",
+    "Option1": "Writing all code in a single file",
+    "Option2": "Using ES Modules (import/export), AOT compilation, and avoiding side effects in modules that might be tree-shaken",
+    "Option3": "Using global variables extensively",
+    "Option4": "Disabling optimization flags",
+    "Answer": "Using ES Modules (import/export), AOT compilation, and avoiding side effects in modules that might be tree-shaken"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Package.json' in an Angular project?",
+    "Option1": "A file for storing application data",
+    "Option2": "A manifest file that contains metadata about the project, including its dependencies, scripts, and other configuration",
+    "Option3": "A file for defining CSS styles",
+    "Option4": "A file for storing environment variables",
+    "Answer": "A manifest file that contains metadata about the project, including its dependencies, scripts, and other configuration"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Node_modules' folder?",
+    "Option1": "A folder for storing application components",
+    "Option2": "A directory where npm installs all the project's dependencies (third-party libraries and packages)",
+    "Option3": "A folder for compiled application code",
+    "Option4": "A folder for storing static assets",
+    "Answer": "A directory where npm installs all the project's dependencies (third-party libraries and packages)"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Webpack' (used internally by Angular CLI)?",
+    "Option1": "A task runner for automation",
+    "Option2": "A module bundler that takes various assets (JS, CSS, images) and bundles them into optimized files for the browser",
+    "Option3": "A testing framework",
+    "Option4": "A dependency injection container",
+    "Answer": "A module bundler that takes various assets (JS, CSS, images) and bundles them into optimized files for the browser"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Hot Module Replacement (HMR)' in Angular development?",
+    "Option1": "Replacing modules without restarting the application server",
+    "Option2": "A feature that allows for live updates of modules in a running application without a full page reload, preserving application state during development",
+    "Option3": "Replacing modules in production environments",
+    "Option4": "Replacing only CSS files",
+    "Answer": "A feature that allows for live updates of modules in a running application without a full page reload, preserving application state during development"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Angular Language Service'?",
+    "Option1": "A tool for internationalization",
+    "Option2": "A service that provides IDE extensions for autocompletion, error checking, and navigation within Angular templates and TypeScript files",
+    "Option3": "A service for translating Angular code",
+    "Option4": "A service for optimizing Angular applications",
+    "Answer": "A service that provides IDE extensions for autocompletion, error checking, and navigation within Angular templates and TypeScript files"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Augury' (deprecated)?",
+    "Option1": "A performance monitoring tool",
+    "Option2": "A Chrome DevTools extension for debugging and profiling Angular applications",
+    "Option3": "A code editor for Angular",
+    "Option4": "A tool for generating Angular components",
+    "Answer": "A Chrome DevTools extension for debugging and profiling Angular applications"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'ng update' used for?",
+    "Option1": "To install new dependencies",
+    "Option2": "To update Angular libraries and their dependencies to newer versions, often with automated migrations",
+    "Option3": "To rebuild the application",
+    "Option4": "To deploy the application to a server",
+    "Answer": "To update Angular libraries and their dependencies to newer versions, often with automated migrations"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Angular Elements Schematics'?",
+    "Option1": "Schematics for generating Angular Material components",
+    "Option2": "Schematics that help with building and packaging Angular components as custom elements (Web Components)",
+    "Option3": "Schematics for setting up routing",
+    "Option4": "Schematics for configuring NgRx",
+    "Answer": "Schematics that help with building and packaging Angular components as custom elements (Web Components)"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'SSR' in Angular context?",
+    "Option1": "Single Source of Truth",
+    "Option2": "Server-Side Rendering",
+    "Option3": "Static Site Generation",
+    "Option4": "Security System Review",
+    "Answer": "Server-Side Rendering"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'SSG' in Angular context?",
+    "Option1": "Server-Side Rendering",
+    "Option2": "Stateful Service Gateway",
+    "Option3": "Static Site Generation",
+    "Option4": "Security System Guard",
+    "Answer": "Static Site Generation"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the main difference between SSR and SSG?",
+    "Option1": "SSR renders pages at build time, SSG renders on demand",
+    "Option2": "SSR renders pages at runtime on the server, SSG generates static HTML files at build time",
+    "Option3": "SSR is for dynamic content, SSG is for static content",
+    "Option4": "SSR is for development, SSG is for production",
+    "Answer": "SSR renders pages at runtime on the server, SSG generates static HTML files at build time"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `APP_INITIALIZER` token in Angular?",
+    "Option1": "A token for injecting the root component",
+    "Option2": "A multi-provider token that allows you to define functions that run during application initialization before any components are rendered",
+    "Option3": "A token for defining environment variables",
+    "Option4": "A token for configuring the router",
+    "Answer": "A multi-provider token that allows you to define functions that run during application initialization before any components are rendered"
+  },
+  {
+    "question_no.": 202,
+    "Question": "When would you use `APP_INITIALIZER`?",
+    "Option1": "To load data after the application has fully loaded",
+    "Option2": "To perform tasks that must complete before the application starts, such as loading configuration or user data",
+    "Option3": "To define global styles",
+    "Option4": "To register new components dynamically",
+    "Answer": "To perform tasks that must complete before the application starts, such as loading configuration or user data"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'DI Token'?",
+    "Option1": "A unique identifier for a component",
+    "Option2": "A JavaScript object or string that uniquely identifies a dependency in the dependency injection system",
+    "Option3": "A token for authentication",
+    "Option4": "A token for managing state",
+    "Answer": "A JavaScript object or string that uniquely identifies a dependency in the dependency injection system"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'InjectionToken'?",
+    "Option1": "A decorator for services",
+    "Option2": "A class used to create a custom, non-class token for a dependency that doesn't have a class-based type",
+    "Option3": "A token for registering components",
+    "Option4": "A token for defining modules",
+    "Answer": "A class used to create a custom, non-class token for a dependency that doesn't have a class-based type"
+  }
+]

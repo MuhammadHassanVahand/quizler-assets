@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the primary goal of Natural Language Processing (NLP)?",
+    "Option1": "To process numerical data exclusively.",
+    "Option2": "To enable computers to understand, interpret, and generate human language.",
+    "Option3": "To create visual representations of data.",
+    "Option4": "To manage database systems.",
+    "Answer": "To enable computers to understand, interpret, and generate human language."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which NLP task involves breaking down a text into individual words or tokens?",
+    "Option1": "Lemmatization",
+    "Option2": "Stemming",
+    "Option3": "Tokenization",
+    "Option4": "Part-of-Speech Tagging",
+    "Answer": "Tokenization"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is 'Stemming' in NLP?",
+    "Option1": "Converting words to their base or root form, often by chopping off suffixes.",
+    "Option2": "Converting words to their dictionary form.",
+    "Option3": "Removing stop words from text.",
+    "Option4": "Identifying named entities in text.",
+    "Answer": "Converting words to their base or root form, often by chopping off suffixes."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is 'Lemmatization' in NLP?",
+    "Option1": "Removing prefixes from words.",
+    "Option2": "Reducing words to their base or dictionary form (lemma), considering context.",
+    "Option3": "Counting word frequencies.",
+    "Option4": "Converting text to numerical vectors.",
+    "Answer": "Reducing words to their base or dictionary form (lemma), considering context."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What are 'Stop Words' in NLP?",
+    "Option1": "Important keywords that define the topic of a document.",
+    "Option2": "Common words (e.g., 'the', 'is', 'a') that are often removed from text as they carry little semantic meaning for analysis.",
+    "Option3": "Words that indicate negative sentiment.",
+    "Option4": "Words that are difficult for computers to process.",
+    "Answer": "Common words (e.g., 'the', 'is', 'a') that are often removed from text as they carry little semantic meaning for analysis."
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which NLP task assigns a grammatical category (e.g., noun, verb, adjective) to each word in a sentence?",
+    "Option1": "Named Entity Recognition (NER)",
+    "Option2": "Part-of-Speech (POS) Tagging",
+    "Option3": "Sentiment Analysis",
+    "Option4": "Text Summarization",
+    "Answer": "Part-of-Speech (POS) Tagging"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is 'Named Entity Recognition' (NER) in NLP?",
+    "Option1": "Identifying all verbs in a text.",
+    "Option2": "Locating and classifying named entities (e.g., persons, organizations, locations) in text.",
+    "Option3": "Determining the sentiment of a sentence.",
+    "Option4": "Generating new sentences.",
+    "Answer": "Locating and classifying named entities (e.g., persons, organizations, locations) in text."
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the 'Bag-of-Words' (BoW) model in NLP?",
+    "Option1": "A model that considers the order of words in a sentence.",
+    "Option2": "A text representation that counts word occurrences, discarding grammatical structure and word order.",
+    "Option3": "A model for generating new text.",
+    "Option4": "A technique for correcting spelling errors.",
+    "Answer": "A text representation that counts word occurrences, discarding grammatical structure and word order."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What does 'TF-IDF' stand for in NLP?",
+    "Option1": "Term Frequency - Inverse Document Frequency",
+    "Option2": "Text Feature - Importance Document Factor",
+    "Option3": "Tokenization Factor - Data Interpretation Feature",
+    "Option4": "Training Frequency - Information Discovery Feature",
+    "Answer": "Term Frequency - Inverse Document Frequency"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is 'Word Embedding' in NLP?",
+    "Option1": "Counting the number of words in a document.",
+    "Option2": "Converting words into dense numerical vectors that capture their semantic relationships and context.",
+    "Option3": "Removing punctuation from text.",
+    "Option4": "Tokenizing text into individual characters.",
+    "Answer": "Converting words into dense numerical vectors that capture their semantic relationships and context."
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which word embedding model learns representations by predicting context words from a target word, or vice versa?",
+    "Option1": "TF-IDF",
+    "Option2": "Word2Vec (Skip-gram or CBOW)",
+    "Option3": "One-Hot Encoding",
+    "Option4": "Bag-of-Words",
+    "Answer": "Word2Vec (Skip-gram or CBOW)"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'Sentiment Analysis' in NLP?",
+    "Option1": "Summarizing text documents.",
+    "Option2": "Determining the emotional tone or opinion expressed in a piece of text (e.g., positive, negative, neutral).",
+    "Option3": "Translating text from one language to another.",
+    "Option4": "Identifying the author of a text.",
+    "Answer": "Determining the emotional tone or opinion expressed in a piece of text (e.g., positive, negative, neutral)."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which type of neural network is typically used for sequence modeling tasks in NLP, such as machine translation or speech recognition, due to its ability to handle sequential dependencies?",
+    "Option1": "Convolutional Neural Network (CNN)",
+    "Option2": "Feedforward Neural Network (FNN)",
+    "Option3": "Recurrent Neural Network (RNN)",
+    "Option4": "Generative Adversarial Network (GAN)",
+    "Answer": "Recurrent Neural Network (RNN)"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'Long Short-Term Memory' (LSTM) an extension of?",
+    "Option1": "Feedforward Networks",
+    "Option2": "Convolutional Networks",
+    "Option3": "Recurrent Neural Networks (RNNs)",
+    "Option4": "Autoencoders",
+    "Answer": "Recurrent Neural Networks (RNNs)"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What problem do LSTMs and GRUs primarily address in traditional RNNs?",
+    "Option1": "Overfitting",
+    "Option2": "Exploding gradients and vanishing gradients for long sequences.",
+    "Option3": "Underfitting",
+    "Option4": "Slow training times on short sequences.",
+    "Answer": "Exploding gradients and vanishing gradients for long sequences."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is 'Machine Translation' in NLP?",
+    "Option1": "Converting speech to text.",
+    "Option2": "Translating text or speech from one natural language to another using computer software.",
+    "Option3": "Summarizing documents in multiple languages.",
+    "Option4": "Identifying the language of a given text.",
+    "Answer": "Translating text or speech from one natural language to another using computer software."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'Text Summarization' in NLP?",
+    "Option1": "Expanding a short text into a longer one.",
+    "Option2": "Creating a concise and coherent summary of a longer text document.",
+    "Option3": "Translating text into different formats.",
+    "Option4": "Extracting all sentences from a document.",
+    "Answer": "Creating a concise and coherent summary of a longer text document."
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which type of text summarization aims to identify and extract the most important sentences or phrases from the original text?",
+    "Option1": "Abstractive Summarization",
+    "Option2": "Extractive Summarization",
+    "Option3": "Generative Summarization",
+    "Option4": "Interpretive Summarization",
+    "Answer": "Extractive Summarization"
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which type of text summarization generates new phrases and sentences to form the summary, potentially not directly present in the original text?",
+    "Option1": "Extractive Summarization",
+    "Option2": "Abstractive Summarization",
+    "Option3": "Rule-based Summarization",
+    "Option4": "Keyword Summarization",
+    "Answer": "Abstractive Summarization"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Transformer' model in NLP?",
+    "Option1": "A type of recurrent neural network.",
+    "Option2": "A neural network architecture that relies solely on attention mechanisms, without recurrent or convolutional layers, highly effective for sequence-to-sequence tasks.",
+    "Option3": "A model for image recognition.",
+    "Option4": "A traditional statistical model for text classification.",
+    "Answer": "A neural network architecture that relies solely on attention mechanisms, without recurrent or convolutional layers, highly effective for sequence-to-sequence tasks."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is 'Self-Attention' (or Multi-Head Attention) in Transformer models?",
+    "Option1": "A mechanism for the model to pay attention to external data sources.",
+    "Option2": "A mechanism that allows the model to weigh the importance of different words in the input sequence relative to each other.",
+    "Option3": "A technique to reduce overfitting.",
+    "Option4": "A type of regularization.",
+    "Answer": "A mechanism that allows the model to weigh the importance of different words in the input sequence relative to each other."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'Positional Encoding' used for in Transformer models?",
+    "Option1": "To encode the position of objects in an image.",
+    "Option2": "To provide information about the relative or absolute position of tokens in the sequence, as self-attention is permutation-invariant.",
+    "Option3": "To randomize the order of tokens in a sequence.",
+    "Option4": "To reduce the dimensionality of word embeddings.",
+    "Answer": "To provide information about the relative or absolute position of tokens in the sequence, as self-attention is permutation-invariant."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What does 'BERT' stand for in NLP?",
+    "Option1": "Basic English Recognition Tool",
+    "Option2": "Bi-directional Encoder Representations from Transformers",
+    "Option3": "Binary Encoded Recurrent Text",
+    "Option4": "Broadly Enhanced Recursive Transformation",
+    "Answer": "Bi-directional Encoder Representations from Transformers"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'Masked Language Modeling' (MLM) a pre-training objective for models like BERT?",
+    "Option1": "Predicting the next word in a sequence.",
+    "Option2": "Predicting missing (masked) words in a sentence, based on their context.",
+    "Option3": "Translating masked sentences to another language.",
+    "Option4": "Generating new sentences based on a mask.",
+    "Answer": "Predicting missing (masked) words in a sentence, based on their context."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Next Sentence Prediction' (NSP) a pre-training objective for models like BERT?",
+    "Option1": "Predicting the next word in a sequence.",
+    "Option2": "Determining if a given sentence B immediately follows sentence A in the original document.",
+    "Option3": "Generating the next sentence based on a topic.",
+    "Option4": "Classifying the sentiment of the next sentence.",
+    "Answer": "Determining if a given sentence B immediately follows sentence A in the original document."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which type of language model is trained to predict the next word in a sequence, usually in a left-to-right manner?",
+    "Option1": "Masked Language Model",
+    "Option2": "Autoregressive Language Model (e.g., GPT)",
+    "Option3": "Autoencoder",
+    "Option4": "Generative Adversarial Network",
+    "Answer": "Autoregressive Language Model (e.g., GPT)"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What does 'GPT' stand for in NLP?",
+    "Option1": "General Pre-trained Text",
+    "Option2": "Generative Pre-trained Transformer",
+    "Option3": "Global Processing Tool",
+    "Option4": "Guided Pattern Translator",
+    "Answer": "Generative Pre-trained Transformer"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'Prompt Engineering' primarily used for in the context of Large Language Models (LLMs)?",
+    "Option1": "Training new LLMs from scratch.",
+    "Option2": "Designing effective input prompts to elicit desired outputs from pre-trained LLMs.",
+    "Option3": "Evaluating the internal mechanisms of LLMs.",
+    "Option4": "Optimizing the computational graph of LLMs.",
+    "Answer": "Designing effective input prompts to elicit desired outputs from pre-trained LLMs."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Zero-shot Learning' in NLP?",
+    "Option1": "Training a model without any labeled data.",
+    "Option2": "The ability of a model to generalize to new tasks or categories it has not seen during training, typically by leveraging semantic information.",
+    "Option3": "Learning from a single example.",
+    "Option4": "A type of unsupervised learning.",
+    "Answer": "The ability of a model to generalize to new tasks or categories it has not seen during training, typically by leveraging semantic information."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'Few-Shot Learning' in NLP?",
+    "Option1": "Training a model for only one epoch.",
+    "Option2": "The ability to learn new concepts or tasks from a very small number of examples.",
+    "Option3": "A type of unsupervised learning.",
+    "Option4": "A method for hyperparameter tuning.",
+    "Answer": "The ability to learn new concepts or tasks from a very small number of examples."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'Text Classification' in NLP?",
+    "Option1": "Converting text to speech.",
+    "Option2": "Assigning predefined categories or labels to entire text documents (e.g., spam detection, topic categorization).",
+    "Option3": "Generating new text based on a category.",
+    "Option4": "Summarizing text documents.",
+    "Answer": "Assigning predefined categories or labels to entire text documents (e.g., spam detection, topic categorization)."
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which NLP task involves determining the relationships between words in a sentence, often represented as a tree structure?",
+    "Option1": "Tokenization",
+    "Option2": "Parsing (Syntactic Parsing)",
+    "Option3": "Named Entity Recognition",
+    "Option4": "Sentiment Analysis",
+    "Answer": "Parsing (Syntactic Parsing)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Coreference Resolution' in NLP?",
+    "Option1": "Identifying the main topic of a document.",
+    "Option2": "Identifying when two or more expressions in a text refer to the same entity (e.g., 'John' and 'he').",
+    "Option3": "Resolving spelling errors.",
+    "Option4": "Determining the sentiment of a conversation.",
+    "Answer": "Identifying when two or more expressions in a text refer to the same entity (e.g., 'John' and 'he')."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'Discourse Analysis' in NLP?",
+    "Option1": "Analyzing individual words in isolation.",
+    "Option2": "Studying language beyond the sentence level to understand how sentences and utterances combine to form coherent texts and conversations.",
+    "Option3": "Analyzing only grammatical structures.",
+    "Option4": "Focusing on phonetics and phonology.",
+    "Answer": "Studying language beyond the sentence level to understand how sentences and utterances combine to form coherent texts and conversations."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'Word Sense Disambiguation' (WSD) in NLP?",
+    "Option1": "Removing ambiguous words from text.",
+    "Option2": "Identifying the correct meaning of a word when it has multiple possible meanings based on context.",
+    "Option3": "Translating words into different languages.",
+    "Option4": "Generating synonyms for words.",
+    "Answer": "Identifying the correct meaning of a word when it has multiple possible meanings based on context."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'Topic Modeling' in NLP?",
+    "Option1": "Classifying documents into predefined categories.",
+    "Option2": "Discovering abstract topics that occur in a collection of documents.",
+    "Option3": "Summarizing text based on key phrases.",
+    "Option4": "Translating topics into different languages.",
+    "Answer": "Discovering abstract topics that occur in a collection of documents."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which topic modeling algorithm is a popular probabilistic model?",
+    "Option1": "K-Means",
+    "Option2": "Latent Dirichlet Allocation (LDA)",
+    "Option3": "Principal Component Analysis (PCA)",
+    "Option4": "Support Vector Machine (SVM)",
+    "Answer": "Latent Dirichlet Allocation (LDA)"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Speech Recognition' in NLP?",
+    "Option1": "Converting text to speech.",
+    "Option2": "The process of converting spoken language into text.",
+    "Option3": "Analyzing vocal emotions.",
+    "Option4": "Identifying different speakers in a conversation.",
+    "Answer": "The process of converting spoken language into text."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Text-to-Speech' (TTS) synthesis?",
+    "Option1": "Converting spoken language into text.",
+    "Option2": "Generating artificial human speech from written text.",
+    "Option3": "Analyzing the sentiment of speech.",
+    "Option4": "Identifying accents in speech.",
+    "Answer": "Generating artificial human speech from written text."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'Chatbot' an application of?",
+    "Option1": "Image processing.",
+    "Option2": "Natural Language Processing and conversational AI.",
+    "Option3": "Numerical analysis.",
+    "Option4": "Database management.",
+    "Answer": "Natural Language Processing and conversational AI."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Query Understanding' in search engines related to NLP?",
+    "Option1": "Indexing web pages.",
+    "Option2": "Interpreting the user's intent and meaning behind their search query.",
+    "Option3": "Ranking search results.",
+    "Option4": "Displaying advertisements.",
+    "Answer": "Interpreting the user's intent and meaning behind their search query."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Text Generation' in NLP?",
+    "Option1": "Converting text to numerical vectors.",
+    "Option2": "Creating new, coherent, and often human-like text from scratch or based on a prompt.",
+    "Option3": "Summarizing existing text.",
+    "Option4": "Identifying key phrases in a document.",
+    "Answer": "Creating new, coherent, and often human-like text from scratch or based on a prompt."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Information Extraction' in NLP?",
+    "Option1": "Summarizing documents.",
+    "Option2": "Automatically extracting structured information (e.g., entities, relationships, events) from unstructured text.",
+    "Option3": "Generating new text based on extracted information.",
+    "Option4": "Classifying documents by their length.",
+    "Answer": "Automatically extracting structured information (e.g., entities, relationships, events) from unstructured text."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Relationship Extraction' an example of within Information Extraction?",
+    "Option1": "Identifying individual words.",
+    "Option2": "Identifying semantic relationships between named entities (e.g., 'founded by', 'located in').",
+    "Option3": "Extracting all numbers from a text.",
+    "Option4": "Counting sentence length.",
+    "Answer": "Identifying semantic relationships between named entities (e.g., 'founded by', 'located in')."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Question Answering' (QA) in NLP?",
+    "Option1": "Generating questions from a given text.",
+    "Option2": "Automatically answering questions posed in natural language.",
+    "Option3": "Summarizing answers to questions.",
+    "Option4": "Translating questions into different languages.",
+    "Answer": "Automatically answering questions posed in natural language."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Semantic Parsing' in NLP?",
+    "Option1": "Parsing grammatical structures.",
+    "Option2": "Converting natural language sentences into formal, machine-understandable representations of their meaning.",
+    "Option3": "Identifying parts of speech.",
+    "Option4": "Extracting named entities.",
+    "Answer": "Converting natural language sentences into formal, machine-understandable representations of their meaning."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Natural Language Understanding' (NLU) a component of?",
+    "Option1": "Speech Synthesis.",
+    "Option2": "Natural Language Generation.",
+    "Option3": "Natural Language Processing, focusing on interpreting the meaning of text.",
+    "Option4": "Image Recognition.",
+    "Answer": "Natural Language Processing, focusing on interpreting the meaning of text."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'Natural Language Generation' (NLG) a component of?",
+    "Option1": "Speech Recognition.",
+    "Option2": "Natural Language Processing, focusing on producing human-like text.",
+    "Option3": "Sentiment Analysis.",
+    "Option4": "Text Classification.",
+    "Answer": "Natural Language Processing, focusing on producing human-like text."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which type of language model focuses on understanding the context of a word by looking at both its preceding and succeeding words?",
+    "Option1": "Unidirectional Language Model",
+    "Option2": "Bidirectional Language Model (e.g., BERT)",
+    "Option3": "Autoregressive Language Model",
+    "Option4": "N-gram Model",
+    "Answer": "Bidirectional Language Model (e.g., BERT)"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Transfer Learning' in the context of NLP?",
+    "Option1": "Training a model from scratch on a new dataset.",
+    "Option2": "Using a pre-trained language model (e.g., BERT, GPT) as a starting point for a new, related NLP task by fine-tuning it.",
+    "Option3": "Transferring data between different NLP models.",
+    "Option4": "Learning from different language sources simultaneously.",
+    "Answer": "Using a pre-trained language model (e.g., BERT, GPT) as a starting point for a new, related NLP task by fine-tuning it."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Fine-tuning' in Transfer Learning for NLP?",
+    "Option1": "Training a model from scratch with a very small learning rate.",
+    "Option2": "Adjusting the weights of a pre-trained language model on a new, smaller, task-specific dataset.",
+    "Option3": "Only training the last layer of a pre-trained model.",
+    "Option4": "Using a fixed set of weights from a pre-trained model without modification.",
+    "Answer": "Adjusting the weights of a pre-trained language model on a new, smaller, task-specific dataset."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Embeddings from Language Models' (ELMo) known for?",
+    "Option1": "Generating static word embeddings.",
+    "Option2": "Producing context-sensitive word embeddings, where the same word can have different embeddings based on its context.",
+    "Option3": "Being a purely statistical model.",
+    "Option4": "Only working with short sentences.",
+    "Answer": "Producing context-sensitive word embeddings, where the same word can have different embeddings based on its context."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which type of 'tokenizer' breaks down text into subword units, handling out-of-vocabulary words better?",
+    "Option1": "Word-level tokenizer",
+    "Option2": "Character-level tokenizer",
+    "Option3": "Subword tokenizer (e.g., WordPiece, Byte Pair Encoding - BPE)",
+    "Option4": "Sentence-level tokenizer",
+    "Answer": "Subword tokenizer (e.g., WordPiece, Byte Pair Encoding - BPE)"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'N-gram' model in NLP?",
+    "Option1": "A model that ignores word order.",
+    "Option2": "A probabilistic language model that predicts the next item in a sequence based on the (N-1) preceding items.",
+    "Option3": "A neural network for text classification.",
+    "Option4": "A method for generating random text.",
+    "Answer": "A probabilistic language model that predicts the next item in a sequence based on the (N-1) preceding items."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Syntactic Analysis' (Parsing) in NLP?",
+    "Option1": "Understanding the emotional tone of text.",
+    "Option2": "Analyzing the grammatical structure of sentences to determine how words are related to each other.",
+    "Option3": "Identifying named entities.",
+    "Option4": "Converting speech to text.",
+    "Answer": "Analyzing the grammatical structure of sentences to determine how words are related to each other."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Semantic Analysis' in NLP?",
+    "Option1": "Analyzing only the surface form of words.",
+    "Option2": "Understanding the meaning of words, phrases, and sentences, and how they combine to form overall meaning.",
+    "Option3": "Counting word frequencies in documents.",
+    "Option4": "Identifying parts of speech.",
+    "Answer": "Understanding the meaning of words, phrases, and sentences, and how they combine to form overall meaning."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is a 'Corpus' in NLP?",
+    "Option1": "A single document.",
+    "Option2": "A large and structured collection of texts, often used for training and evaluating NLP models.",
+    "Option3": "A type of word embedding.",
+    "Option4": "A specific NLP algorithm.",
+    "Answer": "A large and structured collection of texts, often used for training and evaluating NLP models."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Tokenization' essential for in NLP?",
+    "Option1": "Generating new sentences.",
+    "Option2": "Breaking down text into manageable units (tokens) for further processing.",
+    "Option3": "Determining the overall sentiment of a document.",
+    "Option4": "Translating text into different languages.",
+    "Answer": "Breaking down text into manageable units (tokens) for further processing."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Padding' used for in NLP when processing sequences with varying lengths?",
+    "Option1": "To remove important information from sequences.",
+    "Option2": "To make all sequences in a batch the same length, usually by adding dummy tokens.",
+    "Option3": "To increase the number of tokens in a sequence.",
+    "Option4": "To replace words with numerical values.",
+    "Answer": "To make all sequences in a batch the same length, usually by adding dummy tokens."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Masking' used for in NLP, especially with padded sequences?",
+    "Option1": "To hide important information from the model.",
+    "Option2": "To ignore padded tokens during computations (e.g., attention, loss calculation) to prevent them from influencing the model's learning.",
+    "Option3": "To convert words into numerical vectors.",
+    "Option4": "To highlight specific words in a sentence.",
+    "Answer": "To ignore padded tokens during computations (e.g., attention, loss calculation) to prevent them from influencing the model's learning."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'GloVe' (Global Vectors for Word Representation)?",
+    "Option1": "A type of RNN.",
+    "Option2": "A word embedding technique that combines global matrix factorization and local context window methods.",
+    "Option3": "A method for text summarization.",
+    "Option4": "A speech recognition algorithm.",
+    "Answer": "A word embedding technique that combines global matrix factorization and local context window methods."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'FastText' a word embedding model known for?",
+    "Option1": "Ignoring subword information.",
+    "Option2": "Learning word embeddings based on character n-grams, allowing it to handle out-of-vocabulary words and morphological variations.",
+    "Option3": "Only working with very large corpora.",
+    "Option4": "Requiring extensive manual feature engineering.",
+    "Answer": "Learning word embeddings based on character n-grams, allowing it to handle out-of-vocabulary words and morphological variations."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Character-level Embedding'?",
+    "Option1": "Representing entire sentences as single vectors.",
+    "Option2": "Representing words as sequences of characters, allowing models to learn morphological patterns.",
+    "Option3": "Ignoring individual characters in words.",
+    "Option4": "Only suitable for very long documents.",
+    "Answer": "Representing words as sequences of characters, allowing models to learn morphological patterns."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Lexical Analysis' in NLP?",
+    "Option1": "Understanding sentence structure.",
+    "Option2": "Breaking down text into words, morphemes, and other meaningful units.",
+    "Option3": "Analyzing the sentiment of text.",
+    "Option4": "Generating new words.",
+    "Answer": "Breaking down text into words, morphemes, and other meaningful units."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Syntax' in NLP?",
+    "Option1": "The study of meaning in language.",
+    "Option2": "The set of rules that govern how words are combined to form grammatically correct phrases and sentences.",
+    "Option3": "The study of sound patterns in language.",
+    "Option4": "The study of language use in context.",
+    "Answer": "The set of rules that govern how words are combined to form grammatically correct phrases and sentences."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Semantics' in NLP?",
+    "Option1": "The study of grammatical rules.",
+    "Option2": "The study of meaning in language, including word meanings and sentence meanings.",
+    "Option3": "The study of sound systems.",
+    "Option4": "The study of how language is used in social contexts.",
+    "Answer": "The study of meaning in language, including word meanings and sentence meanings."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Pragmatics' in NLP?",
+    "Option1": "The study of word structure.",
+    "Option2": "The study of how language is used in context and how meaning is influenced by context.",
+    "Option3": "The study of sentence structure.",
+    "Option4": "The study of sound patterns.",
+    "Answer": "The study of how language is used in context and how meaning is influenced by context."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Phonetics' in NLP?",
+    "Option1": "The study of word meanings.",
+    "Option2": "The study of the physical properties of speech sounds and their production.",
+    "Option3": "The study of sentence structure.",
+    "Option4": "The study of language history.",
+    "Answer": "The study of the physical properties of speech sounds and their production."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Phonology' in NLP?",
+    "Option1": "The study of the physical properties of speech sounds.",
+    "Option2": "The study of how sounds are organized and function within a particular language system.",
+    "Option3": "The study of grammar.",
+    "Option4": "The study of language acquisition.",
+    "Answer": "The study of how sounds are organized and function within a particular language system."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'Morphology' in NLP?",
+    "Option1": "The study of sentence structure.",
+    "Option2": "The study of word structure and how words are formed from smaller units (morphemes).",
+    "Option3": "The study of language sounds.",
+    "Option4": "The study of text meaning.",
+    "Answer": "The study of word structure and how words are formed from smaller units (morphemes)."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Dependency Parsing' in NLP?",
+    "Option1": "Identifying parts of speech.",
+    "Option2": "Analyzing the grammatical relationships between words in a sentence, showing which words modify or depend on others.",
+    "Option3": "Extracting named entities.",
+    "Option4": "Summarizing text.",
+    "Answer": "Analyzing the grammatical relationships between words in a sentence, showing which words modify or depend on others."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Constituency Parsing' in NLP?",
+    "Option1": "Identifying word dependencies.",
+    "Option2": "Breaking down sentences into their constituent phrases (e.g., noun phrases, verb phrases) to represent syntactic structure.",
+    "Option3": "Analyzing sentence sentiment.",
+    "Option4": "Generating new sentences.",
+    "Answer": "Breaking down sentences into their constituent phrases (e.g., noun phrases, verb phrases) to represent syntactic structure."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Lexical Semantics'?",
+    "Option1": "The study of sentence meaning.",
+    "Option2": "The study of word meanings and relationships between words (e.g., synonyms, antonyms).",
+    "Option3": "The study of grammar rules.",
+    "Option4": "The study of sound systems.",
+    "Answer": "The study of word meanings and relationships between words (e.g., synonyms, antonyms)."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Compositional Semantics'?",
+    "Option1": "The study of individual word meanings.",
+    "Option2": "The study of how the meanings of individual words combine to form the meaning of larger units like phrases and sentences.",
+    "Option3": "The study of how words are pronounced.",
+    "Option4": "The study of text formatting.",
+    "Answer": "The study of how the meanings of individual words combine to form the meaning of larger units like phrases and sentences."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Text Preprocessing' in NLP?",
+    "Option1": "The final step in building an NLP model.",
+    "Option2": "A series of steps (e.g., tokenization, stemming, stop word removal) to clean and prepare raw text data for analysis.",
+    "Option3": "Generating new text from existing data.",
+    "Option4": "Translating text into different languages.",
+    "Answer": "A series of steps (e.g., tokenization, stemming, stop word removal) to clean and prepare raw text data for analysis."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'Vocabulary' in NLP?",
+    "Option1": "The total number of sentences in a corpus.",
+    "Option2": "The set of all unique words (or tokens) present in a given corpus or dataset.",
+    "Option3": "A list of stop words.",
+    "Option4": "A specific type of word embedding.",
+    "Answer": "The set of all unique words (or tokens) present in a given corpus or dataset."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Out-of-Vocabulary' (OOV) problem in NLP?",
+    "Option1": "When a word appears too frequently in a corpus.",
+    "Option2": "When a word encountered during testing or inference was not present in the model's training vocabulary.",
+    "Option3": "When a word has multiple meanings.",
+    "Option4": "When words are too long.",
+    "Answer": "When a word encountered during testing or inference was not present in the model's training vocabulary."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Character-level Model' in NLP?",
+    "Option1": "A model that processes text at the word level.",
+    "Option2": "A model that processes text character by character, often used for handling OOV words or tasks like spelling correction.",
+    "Option3": "A model that ignores individual characters.",
+    "Option4": "A model for speech recognition.",
+    "Answer": "A model that processes text character by character, often used for handling OOV words or tasks like spelling correction."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Recurrent Neural Network' (RNN) particularly well-suited for in NLP?",
+    "Option1": "Image recognition and classification.",
+    "Option2": "Sequential data processing like natural language, speech, and time series, due to its memory.",
+    "Option3": "Clustering large datasets.",
+    "Option4": "Simple linear regression tasks.",
+    "Answer": "Sequential data processing like natural language, speech, and time series, due to its memory."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Encoder-Decoder' architecture commonly used for in NLP?",
+    "Option1": "Text classification.",
+    "Option2": "Sequence-to-sequence tasks like machine translation and text summarization.",
+    "Option3": "Simple regression problems.",
+    "Option4": "Clustering unlabeled text data.",
+    "Answer": "Sequence-to-sequence tasks like machine translation and text summarization."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Attention Mechanism' commonly used for in NLP?",
+    "Option1": "To make the model less complex.",
+    "Option2": "To allow the model to focus on specific parts of the input sequence that are most relevant for predicting the output, especially in sequence-to-sequence models.",
+    "Option3": "To reduce the dimensionality of word embeddings.",
+    "Option4": "To accelerate the training of convolutional layers.",
+    "Answer": "To allow the model to focus on specific parts of the input sequence that are most relevant for predicting the output, especially in sequence-to-sequence models."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Byte Pair Encoding' (BPE) a technique for?",
+    "Option1": "Generating random text.",
+    "Option2": "Subword tokenization, compressing text by iteratively replacing the most frequent byte pairs with a new, unused byte.",
+    "Option3": "Part-of-Speech tagging.",
+    "Option4": "Sentiment analysis.",
+    "Answer": "Subword tokenization, compressing text by iteratively replacing the most frequent byte pairs with a new, unused byte."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'WordPiece' a tokenizer known for?",
+    "Option1": "Always splitting words into individual characters.",
+    "Option2": "A subword tokenization algorithm used in BERT and other Transformer models.",
+    "Option3": "Only working with a fixed vocabulary of whole words.",
+    "Option4": "Removing all punctuation from text.",
+    "Answer": "A subword tokenization algorithm used in BERT and other Transformer models."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'SentencePiece' a tokenizer known for?",
+    "Option1": "Tokenizing sentences into words without considering subwords.",
+    "Option2": "A language-independent subword tokenizer that handles both unknown words and whitespace by training on raw sentences.",
+    "Option3": "Only working with English text.",
+    "Option4": "Generating new sentences.",
+    "Answer": "A language-independent subword tokenizer that handles both unknown words and whitespace by training on raw sentences."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Concatenation' often used for with word embeddings?",
+    "Option1": "To reduce the dimensionality of embeddings.",
+    "Option2": "To combine multiple types of embeddings (e.g., pre-trained and character-level) to enrich the word representation.",
+    "Option3": "To remove stop words.",
+    "Option4": "To perform stemming.",
+    "Answer": "To combine multiple types of embeddings (e.g., pre-trained and character-level) to enrich the word representation."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Co-occurrence Matrix' in NLP?",
+    "Option1": "A matrix showing the frequency of individual words.",
+    "Option2": "A matrix that records how often pairs of words appear together in a specified context (e.g., within a window).",
+    "Option3": "A matrix for sentence similarity.",
+    "Option4": "A matrix used for image processing.",
+    "Answer": "A matrix that records how often pairs of words appear together in a specified context (e.g., within a window)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Skip-gram' model (part of Word2Vec) designed to do?",
+    "Option1": "Predict the target word given its context words.",
+    "Option2": "Predict the context words given a target word.",
+    "Option3": "Count word frequencies in documents.",
+    "Option4": "Remove stop words from text.",
+    "Answer": "Predict the context words given a target word."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Continuous Bag-of-Words' (CBOW) model (part of Word2Vec) designed to do?",
+    "Option1": "Predict the context words given a target word.",
+    "Option2": "Predict the target word given its context words.",
+    "Option3": "Translate sentences.",
+    "Option4": "Summarize documents.",
+    "Answer": "Predict the target word given its context words."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Negative Sampling' in Word2Vec?",
+    "Option1": "Sampling only negative sentiment words.",
+    "Option2": "A technique that updates only a small percentage of the weights for each training example by sampling negative examples, making training more efficient.",
+    "Option3": "A method for generating negative reviews.",
+    "Option4": "A way to remove bias from word embeddings.",
+    "Answer": "A technique that updates only a small percentage of the weights for each training example by sampling negative examples, making training more efficient."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Subword Unit' in NLP?",
+    "Option1": "An entire word.",
+    "Option2": "A unit of text smaller than a word but larger than a character (e.g., 'ing', 'pre').",
+    "Option3": "A punctuation mark.",
+    "Option4": "A stop word.",
+    "Answer": "A unit of text smaller than a word but larger than a character (e.g., 'ing', 'pre')."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Attention Mechanism' particularly useful for in sequence-to-sequence NLP models?",
+    "Option1": "To reduce the vocabulary size.",
+    "Option2": "To allow the decoder to look at different parts of the input sequence at each decoding step, improving translation quality for long sentences.",
+    "Option3": "To speed up word embedding generation.",
+    "Option4": "To simplify the network architecture.",
+    "Answer": "To allow the decoder to look at different parts of the input sequence at each decoding step, improving translation quality for long sentences."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Bleu Score' commonly used for?",
+    "Option1": "Evaluating text summarization quality.",
+    "Option2": "Evaluating machine translation quality by comparing candidate translations to reference translations.",
+    "Option3": "Evaluating sentiment analysis accuracy.",
+    "Option4": "Evaluating named entity recognition performance.",
+    "Answer": "Evaluating machine translation quality by comparing candidate translations to reference translations."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'ROUGE Score' commonly used for?",
+    "Option1": "Evaluating machine translation quality.",
+    "Option2": "Evaluating text summarization quality by comparing generated summaries to reference summaries.",
+    "Option3": "Evaluating part-of-speech tagging accuracy.",
+    "Option4": "Evaluating question answering systems.",
+    "Answer": "Evaluating text summarization quality by comparing generated summaries to reference summaries."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'perplexity' a common metric for evaluating?",
+    "Option1": "Text classification models.",
+    "Option2": "Language models, measuring how well a probability distribution predicts a sample.",
+    "Option3": "Sentiment analysis models.",
+    "Option4": "Named entity recognition systems.",
+    "Answer": "Language models, measuring how well a probability distribution predicts a sample."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Fine-tuning' on a downstream NLP task?",
+    "Option1": "Training a large language model from scratch.",
+    "Option2": "Continuing the training of a pre-trained language model on a specific task (e.g., sentiment analysis) with a smaller, task-specific dataset.",
+    "Option3": "Removing unnecessary layers from a model.",
+    "Option4": "Randomly initializing model weights.",
+    "Answer": "Continuing the training of a pre-trained language model on a specific task (e.g., sentiment analysis) with a smaller, task-specific dataset."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Semantic Search' in NLP?",
+    "Option1": "Searching for keywords only.",
+    "Option2": "A search approach that goes beyond keyword matching to understand the meaning and context of search queries and documents.",
+    "Option3": "Searching for images based on text descriptions.",
+    "Option4": "Translating search queries.",
+    "Answer": "A search approach that goes beyond keyword matching to understand the meaning and context of search queries and documents."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Knowledge Graph' in NLP?",
+    "Option1": "A type of word embedding.",
+    "Option2": "A structured representation of facts and relationships between entities, often used to enhance NLP systems with external knowledge.",
+    "Option3": "A model for text generation.",
+    "Option4": "A method for speech synthesis.",
+    "Answer": "A structured representation of facts and relationships between entities, often used to enhance NLP systems with external knowledge."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Knowledge Graph Embedding' in NLP?",
+    "Option1": "Generating new knowledge graphs.",
+    "Option2": "Learning continuous vector representations for entities and relationships in a knowledge graph.",
+    "Option3": "Classifying knowledge graphs.",
+    "Option4": "Extracting facts from text.",
+    "Answer": "Learning continuous vector representations for entities and relationships in a knowledge graph."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Zero-shot Translation'?",
+    "Option1": "Translating between languages that the model was explicitly trained on.",
+    "Option2": "Translating between a language pair that the model has never seen together during training, leveraging a shared representation.",
+    "Option3": "Translating with zero errors.",
+    "Option4": "Translating a very short sentence.",
+    "Answer": "Translating between a language pair that the model has never seen together during training, leveraging a shared representation."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'Cross-lingual Transfer Learning' in NLP?",
+    "Option1": "Training a separate model for each language.",
+    "Option2": "Applying a model trained on one language to a task in a different language, often by leveraging multilingual embeddings or shared representations.",
+    "Option3": "Translating text directly without learning.",
+    "Option4": "Comparing different languages.",
+    "Answer": "Applying a model trained on one language to a task in a different language, often by leveraging multilingual embeddings or shared representations."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Data Augmentation' in NLP for text data?",
+    "Option1": "Reducing the size of the dataset.",
+    "Option2": "Generating artificial training data by applying transformations (e.g., synonym replacement, back-translation) to existing text.",
+    "Option3": "Removing noise from text.",
+    "Option4": "Compressing text files for faster processing.",
+    "Answer": "Generating artificial training data by applying transformations (e.g., synonym replacement, back-translation) to existing text."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'Back-translation' a technique for in NLP data augmentation?",
+    "Option1": "Translating text from a target language to a source language.",
+    "Option2": "Translating text from one language to another and then translating it back to the original language, often with minor changes, to create new training examples.",
+    "Option3": "Translating text word by word.",
+    "Option4": "Reversing the order of words in a sentence.",
+    "Answer": "Translating text from one language to another and then translating it back to the original language, often with minor changes, to create new training examples."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Contextual Word Embedding'?",
+    "Option1": "A fixed vector representation for each word.",
+    "Option2": "Word embeddings that vary based on the context in which the word appears in a sentence (e.g., ELMo, BERT embeddings).",
+    "Option3": "Embeddings based on the frequency of words.",
+    "Option4": "Embeddings that ignore context.",
+    "Answer": "Word embeddings that vary based on the context in which the word appears in a sentence (e.g., ELMo, BERT embeddings)."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Static Word Embedding'?",
+    "Option1": "Word embeddings that change based on context.",
+    "Option2": "Word embeddings where each word has a single, fixed vector representation regardless of its context (e.g., Word2Vec, GloVe).",
+    "Option3": "Embeddings that are only used for very short texts.",
+    "Option4": "Embeddings that are randomly generated.",
+    "Answer": "Word embeddings where each word has a single, fixed vector representation regardless of its context (e.g., Word2Vec, GloVe)."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Universal Sentence Encoder' (USE) designed for?",
+    "Option1": "Generating word embeddings.",
+    "Option2": "Encoding text into high-dimensional vectors that capture semantic meaning at the sentence level.",
+    "Option3": "Performing Part-of-Speech tagging.",
+    "Option4": "Translating sentences into different languages.",
+    "Answer": "Encoding text into high-dimensional vectors that capture semantic meaning at the sentence level."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Sentence Embedding' or 'Sentence Vector'?",
+    "Option1": "A numerical representation of a single word.",
+    "Option2": "A numerical representation of an entire sentence that captures its semantic meaning.",
+    "Option3": "A sequence of word embeddings.",
+    "Option4": "A list of tokens in a sentence.",
+    "Answer": "A numerical representation of an entire sentence that captures its semantic meaning."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Document Embedding' or 'Document Vector'?",
+    "Option1": "A numerical representation of a single paragraph.",
+    "Option2": "A numerical representation of an entire document that captures its semantic meaning.",
+    "Option3": "A list of sentences in a document.",
+    "Option4": "A summary of a document.",
+    "Answer": "A numerical representation of an entire document that captures its semantic meaning."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Cosine Similarity' often used for with text embeddings?",
+    "Option1": "Measuring the length of text.",
+    "Option2": "Measuring the semantic similarity between two text embeddings (e.g., words, sentences, documents).",
+    "Option3": "Counting the number of common words.",
+    "Option4": "Normalizing text data.",
+    "Answer": "Measuring the semantic similarity between two text embeddings (e.g., words, sentences, documents)."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Embeddings' in general for NLP?",
+    "Option1": "Raw text data.",
+    "Option2": "Dense, low-dimensional vector representations of discrete linguistic units (words, sentences, documents) that capture their semantic properties.",
+    "Option3": "Sparse one-hot encoded vectors.",
+    "Option4": "Simple counts of occurrences.",
+    "Answer": "Dense, low-dimensional vector representations of discrete linguistic units (words, sentences, documents) that capture their semantic properties."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Text Normalization' in NLP?",
+    "Option1": "Generating new text data.",
+    "Option2": "Converting text into a canonical or standard form (e.g., lowercasing, removing punctuation, handling contractions).",
+    "Option3": "Translating text into a different language.",
+    "Option4": "Summarizing text documents.",
+    "Answer": "Converting text into a canonical or standard form (e.g., lowercasing, removing punctuation, handling contractions)."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Regular Expression' (RegEx) often used for in NLP?",
+    "Option1": "Building neural networks.",
+    "Option2": "Pattern matching and text manipulation (e.g., finding specific patterns, extracting data, replacing text).",
+    "Option3": "Generating random text.",
+    "Option4": "Performing sentiment analysis.",
+    "Answer": "Pattern matching and text manipulation (e.g., finding specific patterns, extracting data, replacing text)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Spacy' a popular library for in NLP?",
+    "Option1": "Deep learning model development.",
+    "Option2": "Production-ready NLP, providing efficient tools for tasks like tokenization, POS tagging, NER, and dependency parsing.",
+    "Option3": "Image processing.",
+    "Option4": "Numerical computation.",
+    "Answer": "Production-ready NLP, providing efficient tools for tasks like tokenization, POS tagging, NER, and dependency parsing."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'NLTK' a popular library for in NLP?",
+    "Option1": "Scalable deep learning.",
+    "Option2": "Natural Language Toolkit, a comprehensive library for research and education in NLP, providing various text processing tools and corpora.",
+    "Option3": "Speech recognition only.",
+    "Option4": "Computer vision tasks.",
+    "Answer": "Natural Language Toolkit, a comprehensive library for research and education in NLP, providing various text processing tools and corpora."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Hugging Face Transformers' library primarily known for?",
+    "Option1": "Traditional machine learning algorithms for text.",
+    "Option2": "Providing pre-trained state-of-the-art Transformer models (e.g., BERT, GPT, T5) for various NLP tasks.",
+    "Option3": "Only supporting rule-based NLP systems.",
+    "Option4": "Focusing on image processing.",
+    "Answer": "Providing pre-trained state-of-the-art Transformer models (e.g., BERT, GPT, T5) for various NLP tasks."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Language Modeling' in NLP?",
+    "Option1": "Translating text between languages.",
+    "Option2": "The task of predicting the next word in a sequence given the preceding words, or estimating the probability of a sequence of words.",
+    "Option3": "Classifying the language of a document.",
+    "Option4": "Summarizing documents.",
+    "Answer": "The task of predicting the next word in a sequence given the preceding words, or estimating the probability of a sequence of words."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is a 'Language Model'?",
+    "Option1": "A set of rules for grammatical correctness.",
+    "Option2": "A statistical or neural model that assigns a probability to a sequence of words, reflecting how likely it is to occur.",
+    "Option3": "A list of all possible words in a language.",
+    "Option4": "A dictionary of synonyms.",
+    "Answer": "A statistical or neural model that assigns a probability to a sequence of words, reflecting how likely it is to occur."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Autoregressive Language Model'?",
+    "Option1": "A model that predicts words based on future context.",
+    "Option2": "A language model that predicts each token in a sequence based on the tokens that have already been generated.",
+    "Option3": "A model that fills in masked tokens.",
+    "Option4": "A model that does not consider word order.",
+    "Answer": "A language model that predicts each token in a sequence based on the tokens that have already been generated."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Conditional Language Model'?",
+    "Option1": "A language model that generates text unconditionally.",
+    "Option2": "A language model that generates text based on a given input or condition (e.g., a prompt, an image description).",
+    "Option3": "A language model that always produces the same output.",
+    "Option4": "A language model that only works with short sequences.",
+    "Answer": "A language model that generates text based on a given input or condition (e.g., a prompt, an image description)."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Fine-grained Sentiment Analysis'?",
+    "Option1": "Classifying sentiment as only positive or negative.",
+    "Option2": "Classifying sentiment into more specific categories (e.g., very positive, positive, neutral, negative, very negative) or on a continuous scale.",
+    "Option3": "Analyzing sentiment at the document level only.",
+    "Option4": "Ignoring nuanced emotional expressions.",
+    "Answer": "Classifying sentiment into more specific categories (e.g., very positive, positive, neutral, negative, very negative) or on a continuous scale."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Aspect-Based Sentiment Analysis'?",
+    "Option1": "Analyzing the overall sentiment of a text.",
+    "Option2": "Identifying and analyzing the sentiment expressed towards specific aspects or entities within a text.",
+    "Option3": "Classifying the sentiment of individual words.",
+    "Option4": "Ignoring specific topics in sentiment analysis.",
+    "Answer": "Identifying and analyzing the sentiment expressed towards specific aspects or entities within a text."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Emotional AI' or 'Emotion Recognition' in NLP?",
+    "Option1": "Determining if a text is factual.",
+    "Option2": "Identifying and categorizing human emotions (e.g., joy, anger, sadness) expressed in text or speech.",
+    "Option3": "Analyzing the grammatical correctness of emotional expressions.",
+    "Option4": "Generating emotional responses.",
+    "Answer": "Identifying and categorizing human emotions (e.g., joy, anger, sadness) expressed in text or speech."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Text-to-Image Generation' (e.g., DALL-E) a recent application of?",
+    "Option1": "Only computer vision.",
+    "Option2": "Combining NLP (for text understanding) and deep generative models (for image generation).",
+    "Option3": "Only natural language understanding.",
+    "Option4": "Traditional image processing techniques.",
+    "Answer": "Combining NLP (for text understanding) and deep generative models (for image generation)."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Code-switching' in NLP?",
+    "Option1": "Converting programming code to natural language.",
+    "Option2": "The practice of alternating between two or more languages or language varieties in a single conversation or text.",
+    "Option3": "Switching between different tokenization methods.",
+    "Option4": "Changing the programming language of an NLP model.",
+    "Answer": "The practice of alternating between two or more languages or language varieties in a single conversation or text."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Stylometry' in NLP?",
+    "Option1": "Analyzing the sentiment of text.",
+    "Option2": "The study of measurable linguistic style, often used for author identification or plagiarism detection.",
+    "Option3": "Summarizing documents based on writing style.",
+    "Option4": "Translating text into a specific style.",
+    "Answer": "The study of measurable linguistic style, often used for author identification or plagiarism detection."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Typo Correction' in NLP?",
+    "Option1": "Generating new words.",
+    "Option2": "Automatically detecting and correcting spelling errors in text.",
+    "Option3": "Translating text into different languages.",
+    "Option4": "Summarizing text documents.",
+    "Answer": "Automatically detecting and correcting spelling errors in text."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Grammar Correction' in NLP?",
+    "Option1": "Analyzing only word meanings.",
+    "Option2": "Automatically identifying and correcting grammatical errors in text.",
+    "Option3": "Generating grammatically incorrect sentences.",
+    "Option4": "Translating text into a different grammatical structure.",
+    "Answer": "Automatically identifying and correcting grammatical errors in text."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Machine Comprehension' in NLP?",
+    "Option1": "Translating text from one language to another.",
+    "Option2": "The ability of a computer system to understand and answer questions about a given text or document.",
+    "Option3": "Generating new text based on a topic.",
+    "Option4": "Summarizing documents.",
+    "Answer": "The ability of a computer system to understand and answer questions about a given text or document."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Common Crawl' in the context of NLP datasets?",
+    "Option1": "A small dataset for specific NLP tasks.",
+    "Option2": "A massive, open-source dataset of web crawl data, often used to train large language models.",
+    "Option3": "A dataset exclusively for speech recognition.",
+    "Option4": "A dataset of labeled images.",
+    "Answer": "A massive, open-source dataset of web crawl data, often used to train large language models."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'WordNet' in NLP?",
+    "Option1": "A type of neural network architecture.",
+    "Option2": "A large lexical database of English, grouping words into sets of cognitive synonyms (synsets) and recording various semantic relations between them.",
+    "Option3": "A method for generating word embeddings.",
+    "Option4": "A tool for text summarization.",
+    "Answer": "A large lexical database of English, grouping words into sets of cognitive synonyms (synsets) and recording various semantic relations between them."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'ConceptNet' in NLP?",
+    "Option1": "A dataset for image recognition.",
+    "Option2": "A semantic network that connects words and phrases with high-quality commonsense knowledge.",
+    "Option3": "A tool for generating random text.",
+    "Option4": "A system for speech synthesis.",
+    "Answer": "A semantic network that connects words and phrases with high-quality commonsense knowledge."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Text Normalization' also often called for text preprocessing?",
+    "Option1": "Text Generation",
+    "Option2": "Text Cleaning",
+    "Option3": "Text Summarization",
+    "Option4": "Text Classification",
+    "Answer": "Text Cleaning"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Spelling Correction' in NLP?",
+    "Option1": "Generating new words.",
+    "Option2": "Identifying and correcting misspelled words in text.",
+    "Option3": "Translating text to another language.",
+    "Option4": "Analyzing the sentiment of text.",
+    "Answer": "Identifying and correcting misspelled words in text."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is a 'Spam Detector' an application of?",
+    "Option1": "Image recognition.",
+    "Option2": "Text classification in NLP.",
+    "Option3": "Speech recognition.",
+    "Option4": "Reinforcement learning.",
+    "Answer": "Text classification in NLP."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Intent Recognition' in NLP for conversational AI?",
+    "Option1": "Translating user queries.",
+    "Option2": "Identifying the user's goal or intention behind their utterance (e.g., 'book a flight', 'check weather').",
+    "Option3": "Generating responses to user queries.",
+    "Option4": "Summarizing conversations.",
+    "Answer": "Identifying the user's goal or intention behind their utterance (e.g., 'book a flight', 'check weather')."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Slot Filling' in NLP for conversational AI?",
+    "Option1": "Filling empty spaces in a document.",
+    "Option2": "Extracting specific pieces of information (slots) from a user's utterance that are necessary to fulfill their intent.",
+    "Option3": "Generating random words to fill slots.",
+    "Option4": "Summarizing conversations.",
+    "Answer": "Extracting specific pieces of information (slots) from a user's utterance that are necessary to fulfill their intent."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Dialogue Management' in conversational AI?",
+    "Option1": "Generating random responses.",
+    "Option2": "The component that decides how to respond to the user based on the recognized intent and extracted slots, managing the flow of conversation.",
+    "Option3": "Only handling grammar correction.",
+    "Option4": "Translating user input.",
+    "Answer": "The component that decides how to respond to the user based on the recognized intent and extracted slots, managing the flow of conversation."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Graph Neural Network' (GNN) for NLP?",
+    "Option1": "A type of CNN for text.",
+    "Option2": "A neural network that operates on graph-structured data, enabling the modeling of relationships between words or entities in a text (e.g., syntax trees, knowledge graphs).",
+    "Option3": "A recurrent neural network for time series.",
+    "Option4": "A generative model for text.",
+    "Answer": "A neural network that operates on graph-structured data, enabling the modeling of relationships between words or entities in a text (e.g., syntax trees, knowledge graphs)."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Syntactic Tree' in NLP?",
+    "Option1": "A tree structure representing the semantic relationships between words.",
+    "Option2": "A tree structure representing the grammatical relationships and hierarchical structure of a sentence.",
+    "Option3": "A data structure for storing word embeddings.",
+    "Option4": "A visualization of word frequencies.",
+    "Answer": "A tree structure representing the grammatical relationships and hierarchical structure of a sentence."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Semantic Role Labeling' (SRL) in NLP?",
+    "Option1": "Identifying parts of speech.",
+    "Option2": "Identifying the semantic roles played by words and phrases in a sentence (e.g., who did what to whom, when, where, why).",
+    "Option3": "Extracting named entities.",
+    "Option4": "Performing text summarization.",
+    "Answer": "Identifying the semantic roles played by words and phrases in a sentence (e.g., who did what to whom, when, where, why)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Information Retrieval' (IR) often combined with NLP for?",
+    "Option1": "Generating new text.",
+    "Option2": "Finding relevant documents or information from a large collection in response to a user query.",
+    "Option3": "Translating documents.",
+    "Option4": "Summarizing search results.",
+    "Answer": "Finding relevant documents or information from a large collection in response to a user query."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Cross-attention' mechanism in Transformer models?",
+    "Option1": "Attention between different parts of the same sequence.",
+    "Option2": "Attention between tokens from two different sequences (e.g., encoder and decoder in machine translation).",
+    "Option3": "Attention only to the first token in a sequence.",
+    "Option4": "Attention that ignores word order.",
+    "Answer": "Attention between tokens from two different sequences (e.g., encoder and decoder in machine translation)."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Multi-task Learning' in NLP?",
+    "Option1": "Training a separate model for each task.",
+    "Option2": "Training a single model to perform multiple related NLP tasks simultaneously, often leading to better generalization and efficiency.",
+    "Option3": "Training a model on unrelated tasks.",
+    "Option4": "Training multiple models sequentially.",
+    "Answer": "Training a single model to perform multiple related NLP tasks simultaneously, often leading to better generalization and efficiency."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Multilingual NLP'?",
+    "Option1": "NLP that only works with a single language.",
+    "Option2": "NLP that deals with processing and understanding text in multiple languages.",
+    "Option3": "NLP that translates between any two languages.",
+    "Option4": "NLP that uses only English text.",
+    "Answer": "NLP that deals with processing and understanding text in multiple languages."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Dialogue Systems' a broader term for?",
+    "Option1": "Simple chatbots.",
+    "Option2": "AI systems designed to interact with humans using natural language, encompassing chatbots, voice assistants, etc.",
+    "Option3": "Text classification systems.",
+    "Option4": "Machine translation systems.",
+    "Answer": "AI systems designed to interact with humans using natural language, encompassing chatbots, voice assistants, etc."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Spacy' often preferred over NLTK for in production NLP systems?",
+    "Option1": "Its extensive academic research focus.",
+    "Option2": "Its speed, efficiency, and pre-built pipelines for common NLP tasks.",
+    "Option3": "Its smaller memory footprint.",
+    "Option4": "Its ability to generate human-like text.",
+    "Answer": "Its speed, efficiency, and pre-built pipelines for common NLP tasks."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Rule-based NLP'?",
+    "Option1": "Using machine learning algorithms exclusively.",
+    "Option2": "NLP systems that rely on manually crafted linguistic rules and patterns to process text.",
+    "Option3": "Systems that learn rules automatically from data.",
+    "Option4": "Systems that only perform statistical analysis.",
+    "Answer": "NLP systems that rely on manually crafted linguistic rules and patterns to process text."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Statistical NLP'?",
+    "Option1": "NLP systems that rely on linguistic rules only.",
+    "Option2": "NLP systems that use statistical methods and machine learning algorithms to learn patterns from large datasets.",
+    "Option3": "NLP systems that only process numerical data.",
+    "Option4": "NLP systems that do not require any data.",
+    "Answer": "NLP systems that use statistical methods and machine learning algorithms to learn patterns from large datasets."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Neural NLP'?",
+    "Option1": "NLP systems that use traditional statistical methods.",
+    "Option2": "NLP systems that employ deep learning and neural network architectures for various language tasks.",
+    "Option3": "NLP systems that rely heavily on human-defined rules.",
+    "Option4": "NLP systems that only process spoken language.",
+    "Answer": "NLP systems that employ deep learning and neural network architectures for various language tasks."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Cross-document Coreference Resolution'?",
+    "Option1": "Resolving coreferences within a single document.",
+    "Option2": "Identifying when expressions across multiple documents refer to the same real-world entity.",
+    "Option3": "Identifying coreferences between different languages.",
+    "Option4": "Resolving coreferences in speech.",
+    "Answer": "Identifying when expressions across multiple documents refer to the same real-world entity."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Open Information Extraction' (Open IE)?",
+    "Option1": "Extracting information based on predefined schemas.",
+    "Option2": "Automatically extracting relations from text without requiring pre-specified relations or domains, typically as triples (argument1, relation, argument2).",
+    "Option3": "Extracting only named entities.",
+    "Option4": "Summarizing information from open web sources.",
+    "Answer": "Automatically extracting relations from text without requiring pre-specified relations or domains, typically as triples (argument1, relation, argument2)."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Reinforcement Learning' applied to NLP for?",
+    "Option1": "Text classification.",
+    "Option2": "Training agents to interact with environments (e.g., dialogue systems, game playing with text) by maximizing rewards.",
+    "Option3": "Generating static word embeddings.",
+    "Option4": "Performing Part-of-Speech tagging.",
+    "Answer": "Training agents to interact with environments (e.g., dialogue systems, game playing with text) by maximizing rewards."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Sequence Tagging' in NLP (e.g., POS tagging, NER)?",
+    "Option1": "Classifying an entire sequence.",
+    "Option2": "Assigning a label to each token in a sequence.",
+    "Option3": "Generating new sequences.",
+    "Option4": "Summarizing sequences.",
+    "Answer": "Assigning a label to each token in a sequence."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Sequence-to-Sequence (Seq2Seq) Model'?",
+    "Option1": "A model where input and output are fixed-length vectors.",
+    "Option2": "A model designed for tasks where both the input and output are sequences (e.g., machine translation, text summarization).",
+    "Option3": "A model that only processes single words.",
+    "Option4": "A model for image classification.",
+    "Answer": "A model designed for tasks where both the input and output are sequences (e.g., machine translation, text summarization)."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Beam Search' algorithm used for in NLP generation tasks (e.g., machine translation)?",
+    "Option1": "To find the single most likely sequence of words.",
+    "Option2": "To find a sequence of words that is locally optimal, by exploring a fixed number of most promising hypotheses at each step.",
+    "Option3": "To randomly generate sequences.",
+    "Option4": "To perform sentiment analysis on generated text.",
+    "Answer": "To find a sequence of words that is locally optimal, by exploring a fixed number of most promising hypotheses at each step."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Greedy Decoding' in NLP generation tasks?",
+    "Option1": "Selecting the best word at each step based on the highest probability, without considering future consequences.",
+    "Option2": "Exploring multiple potential sequences simultaneously.",
+    "Option3": "Randomly selecting the next word.",
+    "Option4": "Generating all possible sequences.",
+    "Answer": "Selecting the best word at each step based on the highest probability, without considering future consequences."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Temperature' parameter used for in text generation?",
+    "Option1": "To control the length of the generated text.",
+    "Option2": "To control the randomness or creativity of the generated text by scaling the logits before softmax.",
+    "Option3": "To control the number of attention heads.",
+    "Option4": "To measure the accuracy of text generation.",
+    "Answer": "To control the randomness or creativity of the generated text by scaling the logits before softmax."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Top-K Sampling' in text generation?",
+    "Option1": "Selecting only the highest probability word.",
+    "Option2": "Sampling the next word from the top K most probable words, then renormalizing their probabilities.",
+    "Option3": "Selecting words uniformly at random.",
+    "Option4": "Always choosing the lowest probability word.",
+    "Answer": "Sampling the next word from the top K most probable words, then renormalizing their probabilities."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Nucleus Sampling' (Top-P Sampling) in text generation?",
+    "Option1": "Sampling from a fixed number of words.",
+    "Option2": "Sampling the next word from the smallest set of most probable words whose cumulative probability exceeds a threshold P.",
+    "Option3": "Sampling words based on their frequency.",
+    "Option4": "Sampling words that have appeared before.",
+    "Answer": "Sampling the next word from the smallest set of most probable words whose cumulative probability exceeds a threshold P."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Recurrent Dropout' in RNNs/LSTMs?",
+    "Option1": "Applying dropout to the input of each recurrent step.",
+    "Option2": "Applying the same dropout mask at each recurrent time step, preserving the 'memory' aspect.",
+    "Option3": "Applying dropout only to the final layer.",
+    "Option4": "Randomly dropping entire layers.",
+    "Answer": "Applying the same dropout mask at each recurrent time step, preserving the 'memory' aspect."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Padding Token' in NLP?",
+    "Option1": "A token that marks the end of a sentence.",
+    "Option2": "A special token added to short sequences to make them the same length as longer sequences in a batch.",
+    "Option3": "A token used for unknown words.",
+    "Option4": "A token that indicates a new paragraph.",
+    "Answer": "A special token added to short sequences to make them the same length as longer sequences in a batch."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Start-of-Sequence (SOS) Token'?",
+    "Option1": "A token indicating the end of a sequence.",
+    "Option2": "A special token added to the beginning of a sequence, especially in generative models, to signal the start of generation.",
+    "Option3": "A token used for unknown words.",
+    "Option4": "A token for sentence segmentation.",
+    "Answer": "A special token added to the beginning of a sequence, especially in generative models, to signal the start of generation."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'End-of-Sequence (EOS) Token'?",
+    "Option1": "A token indicating the start of a sequence.",
+    "Option2": "A special token added to the end of a sequence to signal its completion, especially in generative models.",
+    "Option3": "A token for unknown words.",
+    "Option4": "A token for splitting sentences.",
+    "Answer": "A special token added to the end of a sequence to signal its completion, especially in generative models."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Unknown Token' (UNK) in NLP?",
+    "Option1": "A token representing a word that is known to the vocabulary.",
+    "Option2": "A special token representing words that are not present in the model's vocabulary (out-of-vocabulary words).",
+    "Option3": "A token used for numerical values.",
+    "Option4": "A token for punctuation marks.",
+    "Answer": "A special token representing words that are not present in the model's vocabulary (out-of-vocabulary words)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Mask Token' used for in models like BERT?",
+    "Option1": "To indicate the end of a sentence.",
+    "Option2": "A special token used to replace words that are to be predicted during pre-training (e.g., Masked Language Modeling).",
+    "Option3": "A token for unknown words.",
+    "Option4": "A token to indicate the start of a sequence.",
+    "Answer": "A special token used to replace words that are to be predicted during pre-training (e.g., Masked Language Modeling)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Homonym' in linguistics?",
+    "Option1": "Words with different spellings but similar meanings.",
+    "Option2": "Words that are spelled and pronounced the same but have different meanings (e.g., 'bank' river bank vs. financial bank).",
+    "Option3": "Words that are antonyms.",
+    "Option4": "Words that are always used together.",
+    "Answer": "Words that are spelled and pronounced the same but have different meanings (e.g., 'bank' river bank vs. financial bank)."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Homograph' in linguistics?",
+    "Option1": "Words that sound the same but are spelled differently.",
+    "Option2": "Words that are spelled the same but have different meanings and sometimes different pronunciations (e.g., 'read' present vs. past tense).",
+    "Option3": "Words with identical meanings.",
+    "Option4": "Words with opposite meanings.",
+    "Answer": "Words that are spelled the same but have different meanings and sometimes different pronunciations (e.g., 'read' present vs. past tense)."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Homophone' in linguistics?",
+    "Option1": "Words that are spelled the same but sound different.",
+    "Option2": "Words that are pronounced the same but have different meanings and often different spellings (e.g., 'to', 'too', 'two').",
+    "Option3": "Words with identical spellings and meanings.",
+    "Option4": "Words with similar origins.",
+    "Answer": "Words that are pronounced the same but have different meanings and often different spellings (e.g., 'to', 'too', 'two')."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Synonym' in linguistics?",
+    "Option1": "Words with opposite meanings.",
+    "Option2": "Words that have the same or very similar meanings (e.g., 'happy' and 'joyful').",
+    "Option3": "Words that sound the same.",
+    "Option4": "Words with different grammatical categories.",
+    "Answer": "Words that have the same or very similar meanings (e.g., 'happy' and 'joyful')."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Antonym' in linguistics?",
+    "Option1": "Words with similar meanings.",
+    "Option2": "Words that have opposite meanings (e.g., 'hot' and 'cold').",
+    "Option3": "Words that rhyme.",
+    "Option4": "Words that are always used together.",
+    "Answer": "Words that have opposite meanings (e.g., 'hot' and 'cold')."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Hypernym' in linguistics?",
+    "Option1": "A word with a narrower meaning.",
+    "Option2": "A word whose meaning includes the meanings of other words (e.g., 'animal' is a hypernym of 'dog').",
+    "Option3": "A word that is a part of another word.",
+    "Option4": "A word that sounds similar.",
+    "Answer": "A word whose meaning includes the meanings of other words (e.g., 'animal' is a hypernym of 'dog')."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Hyponym' in linguistics?",
+    "Option1": "A word with a broader meaning.",
+    "Option2": "A word whose meaning is included in the meaning of another word (e.g., 'dog' is a hyponym of 'animal').",
+    "Option3": "A word that contains another word.",
+    "Option4": "A word that has an opposite meaning.",
+    "Answer": "A word whose meaning is included in the meaning of another word (e.g., 'dog' is a hyponym of 'animal')."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Meronym' in linguistics?",
+    "Option1": "A word that represents a whole.",
+    "Option2": "A word that names a part of a larger whole (e.g., 'wheel' is a meronym of 'car').",
+    "Option3": "A word that is a synonym.",
+    "Option4": "A word that describes a characteristic.",
+    "Answer": "A word that names a part of a larger whole (e.g., 'wheel' is a meronym of 'car')."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Holonym' in linguistics?",
+    "Option1": "A word that names a part of a whole.",
+    "Option2": "A word that names the whole of which another word is a part (e.g., 'car' is a holonym of 'wheel').",
+    "Option3": "A word that has an opposite meaning.",
+    "Option4": "A word that is a hyponym.",
+    "Answer": "A word that names the whole of which another word is a part (e.g., 'car' is a holonym of 'wheel')."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Affix' in morphology?",
+    "Option1": "A standalone word.",
+    "Option2": "A morpheme that is attached to a word stem to form a new word or word form (e.g., prefixes, suffixes).",
+    "Option3": "A root word.",
+    "Option4": "A stop word.",
+    "Answer": "A morpheme that is attached to a word stem to form a new word or word form (e.g., prefixes, suffixes)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Prefix' in morphology?",
+    "Option1": "An affix added to the end of a word.",
+    "Option2": "An affix placed before the root word (e.g., 'un-' in 'unhappy').",
+    "Option3": "A standalone word.",
+    "Option4": "A word that describes a quality.",
+    "Answer": "An affix placed before the root word (e.g., 'un-' in 'unhappy')."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Suffix' in morphology?",
+    "Option1": "An affix added to the beginning of a word.",
+    "Option2": "An affix placed after the root word (e.g., '-ing' in 'running').",
+    "Option3": "A root word.",
+    "Option4": "A word that describes an action.",
+    "Answer": "An affix placed after the root word (e.g., '-ing' in 'running')."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Infix' in morphology?",
+    "Option1": "An affix added at the beginning of a word.",
+    "Option2": "An affix inserted within the root of a word (less common in English).",
+    "Option3": "An affix added at the end of a word.",
+    "Option4": "A type of root word.",
+    "Answer": "An affix inserted within the root of a word (less common in English)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Circumfix' in morphology?",
+    "Option1": "An affix that appears only at the beginning of a word.",
+    "Option2": "An affix that consists of two parts, one placed at the beginning and one at the end of a word stem.",
+    "Option3": "An affix inserted within a word.",
+    "Option4": "A type of root word.",
+    "Answer": "An affix that consists of two parts, one placed at the beginning and one at the end of a word stem."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Punctuation Removal' in NLP preprocessing?",
+    "Option1": "Adding punctuation to text.",
+    "Option2": "Removing punctuation marks (e.g., periods, commas, question marks) from text, as they often don't carry significant semantic meaning for certain tasks.",
+    "Option3": "Replacing punctuation with special tokens.",
+    "Option4": "Translating punctuation marks.",
+    "Answer": "Removing punctuation marks (e.g., periods, commas, question marks) from text, as they often don't carry significant semantic meaning for certain tasks."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Lowercasing' in NLP preprocessing?",
+    "Option1": "Converting all text to uppercase.",
+    "Option2": "Converting all text to lowercase, treating 'Word' and 'word' as the same token.",
+    "Option3": "Removing numbers from text.",
+    "Option4": "Adding special characters to text.",
+    "Answer": "Converting all text to lowercase, treating 'Word' and 'word' as the same token."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Regular Expression' often used for in NLP text cleaning?",
+    "Option1": "Generating new text data.",
+    "Option2": "Defining patterns to find and replace specific strings, remove unwanted characters, or extract structured information.",
+    "Option3": "Performing sentiment analysis.",
+    "Option4": "Building machine translation models.",
+    "Answer": "Defining patterns to find and replace specific strings, remove unwanted characters, or extract structured information."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Sentence Segmentation' or 'Sentence Boundary Detection'?",
+    "Option1": "Tokenizing words within a sentence.",
+    "Option2": "Identifying the boundaries between sentences in a raw text document.",
+    "Option3": "Removing sentences from text.",
+    "Option4": "Translating sentences.",
+    "Answer": "Identifying the boundaries between sentences in a raw text document."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Chunking' or 'Shallow Parsing' in NLP?",
+    "Option1": "Analyzing deep grammatical structures.",
+    "Option2": "Dividing a sentence into syntactically correlated word groups (chunks), such as noun phrases or verb phrases, without fully parsing the sentence.",
+    "Option3": "Identifying named entities only.",
+    "Option4": "Removing stop words.",
+    "Answer": "Dividing a sentence into syntactically correlated word groups (chunks), suchs as noun phrases or verb phrases, without fully parsing the sentence."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'CoNLL' format often used for in NLP datasets?",
+    "Option1": "Storing images.",
+    "Option2": "A widely used tabular format for representing linguistic annotations like POS tags, NER tags, and dependency parses.",
+    "Option3": "Storing audio data.",
+    "Option4": "Storing numerical data only.",
+    "Answer": "A widely used tabular format for representing linguistic annotations like POS tags, NER tags, and dependency parses."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Universal Dependencies' (UD) in NLP?",
+    "Option1": "A dataset for machine translation.",
+    "Option2": "A framework for consistent annotation of grammatical relations across different languages.",
+    "Option3": "A specific type of word embedding.",
+    "Option4": "A tool for text summarization.",
+    "Answer": "A framework for consistent annotation of grammatical relations across different languages."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Graph-based Dependency Parsing'?",
+    "Option1": "Parsing sentences into constituency trees.",
+    "Option2": "A parsing approach that models dependencies as edges in a graph, connecting words directly.",
+    "Option3": "Parsing only short sentences.",
+    "Option4": "Ignoring word order during parsing.",
+    "Answer": "A parsing approach that models dependencies as edges in a graph, connecting words directly."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Transition-based Dependency Parsing'?",
+    "Option1": "A parsing approach that builds dependency trees by performing a sequence of shift-reduce operations.",
+    "Option2": "Parsing based on predefined rules.",
+    "Option3": "Parsing that only identifies parts of speech.",
+    "Option4": "Parsing that requires manual intervention.",
+    "Answer": "A parsing approach that builds dependency trees by performing a sequence of shift-reduce operations."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Pre-trained Language Model' (PLM)?",
+    "Option1": "A language model trained only on a specific task.",
+    "Option2": "A language model that has been pre-trained on a massive amount of text data in an unsupervised or self-supervised manner to learn general language understanding capabilities.",
+    "Option3": "A language model that requires no training.",
+    "Option4": "A language model that only works with small vocabularies.",
+    "Answer": "A language model that has been pre-trained on a massive amount of text data in an unsupervised or self-supervised manner to learn general language understanding capabilities."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Encoder-only Transformer' architecture (e.g., BERT)?",
+    "Option1": "Primarily used for text generation.",
+    "Option2": "A Transformer model consisting only of an encoder stack, suitable for tasks that require understanding of input text (e.g., classification, NER).",
+    "Option3": "Primarily used for machine translation.",
+    "Option4": "Only processes speech data.",
+    "Answer": "A Transformer model consisting only of an encoder stack, suitable for tasks that require understanding of input text (e.g., classification, NER)."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Decoder-only Transformer' architecture (e.g., GPT)?",
+    "Option1": "Primarily used for text classification.",
+    "Option2": "A Transformer model consisting only of a decoder stack, suitable for generative tasks (e.g., text generation, conversational AI).",
+    "Option3": "Primarily used for object detection.",
+    "Option4": "Only processes structured data.",
+    "Answer": "A Transformer model consisting only of a decoder stack, suitable for generative tasks (e.g., text generation, conversational AI)."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Encoder-Decoder Transformer' architecture (e.g., T5)?",
+    "Option1": "Primarily used for sentiment analysis.",
+    "Option2": "A Transformer model with both an encoder and a decoder stack, suitable for sequence-to-sequence tasks like machine translation and summarization.",
+    "Option3": "Only processes numerical data.",
+    "Option4": "Generates random sequences of words.",
+    "Answer": "A Transformer model with both an encoder and a decoder stack, suitable for sequence-to-sequence tasks like machine translation and summarization."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Sentence Transformers' library known for?",
+    "Option1": "Training new large language models.",
+    "Option2": "Providing pre-trained models to compute dense vector embeddings for sentences, paragraphs, and images, often used for semantic search or clustering.",
+    "Option3": "Only performing tokenization.",
+    "Option4": "Generating new text from scratch.",
+    "Answer": "Providing pre-trained models to compute dense vector embeddings for sentences, paragraphs, and images, often used for semantic search or clustering."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Data Drift' in NLP?",
+    "Option1": "When the model's performance improves over time.",
+    "Option2": "When the statistical properties of the incoming data change over time, causing the deployed NLP model's performance to degrade.",
+    "Option3": "When new data is added to the training set.",
+    "Option4": "When the model weights are randomly reinitialized.",
+    "Answer": "When the statistical properties of the incoming data change over time, causing the deployed NLP model's performance to degrade."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Concept Drift' in NLP?",
+    "Option1": "When the underlying concept being modeled changes over time (e.g., what constitutes 'spam' evolves).",
+    "Option2": "When the model's architecture changes.",
+    "Option3": "When new features are added to the dataset.",
+    "Option4": "When the training data is static.",
+    "Answer": "When the underlying concept being modeled changes over time (e.g., what constitutes 'spam' evolves)."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Model Monitoring' essential for in deployed NLP systems?",
+    "Option1": "Only tracking computational resources.",
+    "Option2": "Continuously tracking the performance, health, and behavior of NLP models in production to detect issues like data drift or performance degradation.",
+    "Option3": "Generating new training data.",
+    "Option4": "Performing ad-hoc analysis on demand.",
+    "Answer": "Continuously tracking the performance, health, and behavior of NLP models in production to detect issues like data drift or performance degradation."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Few-shot Fine-tuning'?",
+    "Option1": "Fine-tuning a pre-trained model on a very large dataset.",
+    "Option2": "Fine-tuning a pre-trained language model with only a handful of labeled examples for a new task.",
+    "Option3": "Training a model from scratch with a small learning rate.",
+    "Option4": "Training a model with no labeled examples.",
+    "Answer": "Fine-tuning a pre-trained language model with only a handful of labeled examples for a new task."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Prompt-based Learning' (or Prompting) for LLMs?",
+    "Option1": "Training LLMs from scratch.",
+    "Option2": "Formulating tasks as textual prompts to guide the LLM's generation or prediction, without traditional fine-tuning.",
+    "Option3": "Using LLMs only for classification tasks.",
+    "Option4": "Focusing on interpreting LLM's internal mechanisms.",
+    "Answer": "Formulating tasks as textual prompts to guide the LLM's generation or prediction, without traditional fine-tuning."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'In-context Learning' in the context of LLMs?",
+    "Option1": "Training the model to learn new concepts permanently.",
+    "Option2": "The ability of large language models to learn new tasks or adapt to new instructions based on examples provided directly within the prompt, without weight updates.",
+    "Option3": "Learning only from previous conversations.",
+    "Option4": "Learning by adjusting model parameters.",
+    "Answer": "The ability of large language models to learn new tasks or adapt to new instructions based on examples provided directly within the prompt, without weight updates."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Hallucination' in LLMs?",
+    "Option1": "When the model generates highly creative and innovative text.",
+    "Option2": "When the LLM generates text that is factually incorrect, nonsensical, or not supported by its training data or input prompt.",
+    "Option3": "When the model performs perfectly on all tasks.",
+    "Option4": "When the model translates text accurately.",
+    "Answer": "When the LLM generates text that is factually incorrect, nonsensical, or not supported by its training data or input prompt."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Alignment' in LLM development?",
+    "Option1": "Aligning text with images.",
+    "Option2": "The process of training LLMs to align their outputs with human values, intentions, and ethical guidelines.",
+    "Option3": "Aligning word embeddings from different languages.",
+    "Option4": "Aligning the model's predictions with historical data.",
+    "Answer": "The process of training LLMs to align their outputs with human values, intentions, and ethical guidelines."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Reinforcement Learning from Human Feedback' (RLHF) often used for in LLM alignment?",
+    "Option1": "Generating synthetic training data.",
+    "Option2": "Training LLMs to produce outputs that are preferred by humans, often by using human feedback as a reward signal.",
+    "Option3": "Improving the accuracy of machine translation.",
+    "Option4": "Creating new vocabulary words.",
+    "Answer": "Training LLMs to produce outputs that are preferred by humans, often by using human feedback as a reward signal."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Fine-tuning' a pre-trained LLM usually called when adapting it to a specific task?",
+    "Option1": "Pre-training",
+    "Option2": "Downstream Task Fine-tuning",
+    "Option3": "Zero-shot Learning",
+    "Option4": "In-context Learning",
+    "Answer": "Downstream Task Fine-tuning"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Quantization' in the context of deploying LLMs?",
+    "Option1": "Adding more parameters to the model.",
+    "Option2": "Reducing the precision of the model's weights and activations (e.g., from 32-bit to 8-bit) to reduce memory usage and speed up inference.",
+    "Option3": "Increasing the size of the input data.",
+    "Option4": "Making the model more complex.",
+    "Answer": "Reducing the precision of the model's weights and activations (e.g., from 32-bit to 8-bit) to reduce memory usage and speed up inference."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Retrieval-Augmented Generation' (RAG) an approach for LLMs?",
+    "Option1": "Generating text without external information.",
+    "Option2": "Combining a pre-trained language model with a retrieval system to access and incorporate information from an external knowledge base during text generation.",
+    "Option3": "Only retrieving information from the internet.",
+    "Option4": "Only generating text without external input.",
+    "Answer": "Combining a pre-trained language model with a retrieval system to access and incorporate information from an external knowledge base during text generation."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Long-form Text Generation' in NLP?",
+    "Option1": "Generating only single sentences.",
+    "Option2": "Generating coherent and extended pieces of text, such as articles, stories, or reports.",
+    "Option3": "Summarizing long documents.",
+    "Option4": "Translating very long sentences.",
+    "Answer": "Generating coherent and extended pieces of text, such as articles, stories, or reports."
+  }
+]

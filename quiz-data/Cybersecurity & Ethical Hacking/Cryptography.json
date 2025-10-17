@@ -1,0 +1,1837 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the primary goal of cryptography?",
+    "Option1": "To make data publicly accessible",
+    "Option2": "To hide data from all users",
+    "Option3": "To secure communications and data from unauthorized access and tampering",
+    "Option4": "To speed up data transmission",
+    "Answer": "To secure communications and data from unauthorized access and tampering"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a fundamental principle of cryptography (CIA Triad + Non-repudiation)?",
+    "Option1": "Confidentiality",
+    "Option2": "Integrity",
+    "Option3": "Scalability",
+    "Option4": "Availability",
+    "Answer": "Scalability"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is 'Confidentiality' in cryptography?",
+    "Option1": "Ensuring data is accurate and complete",
+    "Option2": "Protecting information from being accessed by unauthorized individuals or entities",
+    "Option3": "Ensuring data is available when needed",
+    "Option4": "Verifying the identity of the sender",
+    "Answer": "Protecting information from being accessed by unauthorized individuals or entities"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What does 'Integrity' mean in cryptography?",
+    "Option1": "Keeping data secret from everyone",
+    "Option2": "Guaranteeing that information has not been tampered with or altered in an unauthorized manner",
+    "Option3": "Ensuring systems are operational 24/7",
+    "Option4": "Providing access to data only through a specific network",
+    "Answer": "Guaranteeing that information has not been tampered with or altered in an unauthorized manner"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is 'Availability' in cryptography?",
+    "Option1": "Restricting access to data to a select few",
+    "Option2": "Ensuring that authorized users have timely and uninterrupted access to encrypted information and cryptographic services when needed",
+    "Option3": "Protecting data during transmission only",
+    "Option4": "Keeping backups of all data on an external drive",
+    "Answer": "Ensuring that authorized users have timely and uninterrupted access to encrypted information and cryptographic services when needed"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is 'Non-repudiation' in cryptography?",
+    "Option1": "The ability to deny having sent a message or performed an action",
+    "Option2": "The assurance that someone cannot deny the validity of something, typically a digital transaction, providing irrefutable proof of origin and integrity",
+    "Option3": "Ensuring data confidentiality only",
+    "Option4": "A method for recovering lost data",
+    "Answer": "The assurance that someone cannot deny the validity of something, typically a digital transaction, providing irrefutable proof of origin and integrity"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is 'Plaintext'?",
+    "Option1": "Encrypted data that is unreadable",
+    "Option2": "The original, readable form of information before it is encrypted or after it is decrypted",
+    "Option3": "A cryptographic algorithm",
+    "Option4": "A digital certificate",
+    "Answer": "The original, readable form of information before it is encrypted or after it is decrypted"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is 'Ciphertext'?",
+    "Option1": "The original, readable form of data",
+    "Option2": "Encrypted or encoded information that is unreadable without the proper decryption key",
+    "Option3": "The key used for encryption",
+    "Option4": "A security protocol for network communication",
+    "Answer": "Encrypted or encoded information that is unreadable without the proper decryption key"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is 'Encryption'?",
+    "Option1": "Converting encrypted data back to its original form",
+    "Option2": "The process of encoding information in such a way that only authorized parties can access it and those who are not authorized cannot, ensuring confidentiality",
+    "Option3": "Tracking data changes for integrity",
+    "Option4": "Making data publicly available",
+    "Answer": "The process of encoding information in such a way that only authorized parties can access it and those who are not authorized cannot, ensuring confidentiality"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is 'Decryption'?",
+    "Option1": "Converting original data into an unreadable format",
+    "Option2": "The process of converting encrypted or encoded data back into its original readable form using a key or algorithm",
+    "Option3": "Protecting data from unauthorized access",
+    "Option4": "Creating a digital signature",
+    "Answer": "The process of converting encrypted or encoded data back into its original readable form using a key or algorithm"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is a 'Cryptographic Key'?",
+    "Option1": "A unique identifier for a system",
+    "Option2": "A piece of information (a parameter) that determines the functional output of a cryptographic algorithm, used for encryption and decryption",
+    "Option3": "A type of physical security device",
+    "Option4": "A method for backing up data",
+    "Answer": "A piece of information (a parameter) that determines the functional output of a cryptographic algorithm, used for encryption and decryption"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which type of encryption uses the same key for both encryption and decryption?",
+    "Option1": "Asymmetric Encryption",
+    "Option2": "Symmetric Encryption",
+    "Option3": "Hashing",
+    "Option4": "Digital Signatures",
+    "Answer": "Symmetric Encryption"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which type of encryption uses a pair of mathematically related keys (public and private) for encryption and decryption?",
+    "Option1": "Symmetric Encryption",
+    "Option2": "Asymmetric Encryption",
+    "Option3": "Hashing",
+    "Option4": "Salting",
+    "Answer": "Asymmetric Encryption"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which of the following is an example of a symmetric encryption algorithm?",
+    "Option1": "RSA",
+    "Option2": "AES",
+    "Option3": "Diffie-Hellman",
+    "Option4": "Elliptic Curve Cryptography (ECC)",
+    "Answer": "AES"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which of the following is an example of an asymmetric encryption algorithm?",
+    "Option1": "DES",
+    "Option2": "3DES",
+    "Option3": "RSA",
+    "Option4": "Blowfish",
+    "Answer": "RSA"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'Hash Function' (Cryptographic Hash)?",
+    "Option1": "A function that encrypts data using a key",
+    "Option2": "A mathematical algorithm that takes an input and produces a fixed-size, irreversible string (hash value) such that a small change in input produces a significantly different output",
+    "Option3": "A function used for digital signatures only",
+    "Option4": "A function that allows data to be recovered from its output",
+    "Answer": "A mathematical algorithm that takes an input and produces a fixed-size, irreversible string (hash value) such that a small change in input produces a significantly different output"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which property of a cryptographic hash function ensures that it is computationally infeasible to find two different inputs that produce the same hash output?",
+    "Option1": "Collision resistance",
+    "Option2": "Pre-image resistance",
+    "Option3": "Second pre-image resistance",
+    "Option4": "One-way property",
+    "Answer": "Collision resistance"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which cryptographic primitive is primarily used for ensuring data integrity?",
+    "Option1": "Symmetric Encryption",
+    "Option2": "Asymmetric Encryption",
+    "Option3": "Hashing",
+    "Option4": "Digital Certificates",
+    "Answer": "Hashing"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a 'Digital Signature' primarily used for?",
+    "Option1": "To encrypt confidential data",
+    "Option2": "To verify the authenticity and integrity of digital messages or documents and provide non-repudiation",
+    "Option3": "To hide malicious code in a program",
+    "Option4": "To speed up network communication",
+    "Answer": "To verify the authenticity and integrity of digital messages or documents and provide non-repudiation"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which key is used to create a digital signature?",
+    "Option1": "The sender's public key",
+    "Option2": "The sender's private key",
+    "Option3": "The recipient's public key",
+    "Option4": "The recipient's private key",
+    "Answer": "The sender's private key"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which key is used to verify a digital signature?",
+    "Option1": "The sender's private key",
+    "Option2": "The sender's public key",
+    "Option3": "The recipient's private key",
+    "Option4": "A shared symmetric key",
+    "Answer": "The sender's public key"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'Public Key Infrastructure (PKI)'?",
+    "Option1": "A system for managing physical access to buildings",
+    "Option2": "A set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption",
+    "Option3": "A network protocol for secure Browse only",
+    "Option4": "A type of intrusion detection system",
+    "Answer": "A set of roles, policies, and procedures needed to create, manage, distribute, use, store, and revoke digital certificates and manage public-key encryption"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the role of a 'Certificate Authority (CA)' in PKI?",
+    "Option1": "To encrypt all network traffic",
+    "Option2": "To issue and manage digital certificates, binding public keys to identities, and vouching for their authenticity",
+    "Option3": "To block malicious websites",
+    "Option4": "To store private keys for users",
+    "Answer": "To issue and manage digital certificates, binding public keys to identities, and vouching for their authenticity"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a 'Digital Certificate'?",
+    "Option1": "A document granting permission to access a website",
+    "Option2": "An electronic document used to prove the ownership of a public key, issued by a trusted Certificate Authority (CA)",
+    "Option3": "A physical smart card for authentication",
+    "Option4": "A report on network vulnerabilities",
+    "Answer": "An electronic document used to prove the ownership of a public key, issued by a trusted Certificate Authority (CA)"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'SSL/TLS' primarily used for?",
+    "Option1": "Sending unencrypted email",
+    "Option2": "Providing secure communication over a computer network, ensuring confidentiality and integrity, especially for web Browse (HTTPS)",
+    "Option3": "Managing local network addresses",
+    "Option4": "Creating virtual private networks",
+    "Answer": "Providing secure communication over a computer network, ensuring confidentiality and integrity, especially for web Browse (HTTPS)"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which cryptographic concept ensures that data, once hashed, cannot be easily reverted to its original form?",
+    "Option1": "Reversibility",
+    "Option2": "One-way property",
+    "Option3": "Collision",
+    "Option4": "Key stretching",
+    "Answer": "One-way property"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'Key Exchange' in cryptography?",
+    "Option1": "Sharing keys via unsecured email",
+    "Option2": "The process by which two or more parties establish a shared secret key, often over an insecure communication channel, without directly transmitting the key",
+    "Option3": "Storing all keys in a central database",
+    "Option4": "Physically handing over encryption keys",
+    "Answer": "The process by which two or more parties establish a shared secret key, often over an insecure communication channel, without directly transmitting the key"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which algorithm is commonly used for secure key exchange over an insecure channel?",
+    "Option1": "AES",
+    "Option2": "RSA",
+    "Option3": "Diffie-Hellman",
+    "Option4": "MD5",
+    "Answer": "Diffie-Hellman"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'Message Authentication Code (MAC)'?",
+    "Option1": "A type of encryption algorithm",
+    "Option2": "A short piece of information used to authenticate a message, providing data integrity and authentication of the message source, but not non-repudiation on its own",
+    "Option3": "A cryptographic hash function",
+    "Option4": "A digital certificate",
+    "Answer": "A short piece of information used to authenticate a message, providing data integrity and authentication of the message source, but not non-repudiation on its own"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'HMAC' (Hash-based Message Authentication Code)?",
+    "Option1": "A symmetric encryption algorithm",
+    "Option2": "A specific type of MAC that uses a cryptographic hash function and a secret key to verify data integrity and authenticity",
+    "Option3": "An asymmetric encryption algorithm",
+    "Option4": "A digital signature algorithm",
+    "Answer": "A specific type of MAC that uses a cryptographic hash function and a secret key to verify data integrity and authenticity"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of 'Salting' in password hashing?",
+    "Option1": "To encrypt the password before hashing",
+    "Option2": "To add a unique, random value to each password before hashing, making rainbow table attacks ineffective and protecting against pre-computed hash attacks",
+    "Option3": "To reduce the length of the hash output",
+    "Option4": "To make hashing faster",
+    "Answer": "To add a unique, random value to each password before hashing, making rainbow table attacks ineffective and protecting against pre-computed hash attacks"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Key Stretching'?",
+    "Option1": "Making encryption keys longer in length",
+    "Option2": "A technique used to make a weaker key (like a password) more secure by increasing the computational cost of brute-forcing it, typically by running it through a KDF multiple times (e.g., PBKDF2, bcrypt)",
+    "Option3": "Distributing keys across multiple servers",
+    "Option4": "Recovering lost encryption keys",
+    "Answer": "A technique used to make a weaker key (like a password) more secure by increasing the computational cost of brute-forcing it, typically by running it through a KDF multiple times (e.g., PBKDF2, bcrypt)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which of the following hashing algorithms is considered cryptographically broken and unsuitable for security purposes due to known collision vulnerabilities?",
+    "Option1": "SHA-256",
+    "Option2": "MD5",
+    "Option3": "SHA-3",
+    "Option4": "BLAKE2",
+    "Answer": "MD5"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'Elliptic Curve Cryptography (ECC)' known for?",
+    "Option1": "Requiring very large key sizes for equivalent security compared to RSA",
+    "Option2": "Providing strong security with shorter key lengths compared to traditional asymmetric algorithms like RSA, making it more efficient for mobile and low-power devices",
+    "Option3": "Being a symmetric encryption algorithm",
+    "Option4": "Being primarily used for data integrity, not confidentiality",
+    "Answer": "Providing strong security with shorter key lengths compared to traditional asymmetric algorithms like RSA, making it more efficient for mobile and low-power devices"
+  },
+  {
+    "question_no. 35,": "Which cryptographic attack involves trying every possible key until the correct one is found?",
+    "Option1": "Rainbow Table Attack",
+    "Option2": "Dictionary Attack",
+    "Option3": "Brute-Force Attack",
+    "Option4": "Birthday Attack",
+    "Answer": "Brute-Force Attack"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is a 'Rainbow Table Attack'?",
+    "Option1": "An attack that uses rainbow-colored passwords",
+    "Option2": "A type of password cracking attack that uses pre-computed tables of hash values to quickly find the original plaintext password corresponding to a given hash",
+    "Option3": "An attack that targets encrypted communications",
+    "Option4": "A method for generating random passwords",
+    "Answer": "A type of password cracking attack that uses pre-computed tables of hash values to quickly find the original plaintext password corresponding to a given hash"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'Steganography'?",
+    "Option1": "The study of codes and ciphers",
+    "Option2": "The art and science of hiding a message, image, or file within another message, image, or file, such that the presence of the hidden message is not immediately apparent",
+    "Option3": "A type of encryption algorithm",
+    "Option4": "A method for securely storing cryptographic keys",
+    "Answer": "The art and science of hiding a message, image, or file within another message, image, or file, such that the presence of the hidden message is not immediately apparent"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the main difference between cryptography and steganography?",
+    "Option1": "Cryptography hides the existence of the message, while steganography hides the meaning of the message.",
+    "Option2": "Cryptography hides the meaning of the message, while steganography hides the existence of the message.",
+    "Option3": "Cryptography is only for text, steganography is for images.",
+    "Option4": "There is no significant difference; they are interchangeable terms.",
+    "Answer": "Cryptography hides the meaning of the message, while steganography hides the existence of the message."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Cipher Block Chaining (CBC)' mode in symmetric encryption?",
+    "Option1": "Each block is encrypted independently.",
+    "Option2": "Each block of plaintext is XORed with the previous ciphertext block before being encrypted, introducing dependency and spreading errors.",
+    "Option3": "A mode used only for hashing.",
+    "Option4": "A mode specific to asymmetric encryption.",
+    "Answer": "Each block of plaintext is XORed with the previous ciphertext block before being encrypted, introducing dependency and spreading errors."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'Electronic Codebook (ECB)' mode in symmetric encryption?",
+    "Option1": "A highly secure mode recommended for all data.",
+    "Option2": "Each block of plaintext is encrypted independently with the same key, making it susceptible to pattern analysis and not recommended for messages longer than one block.",
+    "Option3": "A mode that uses a different key for each block.",
+    "Option4": "A mode primarily used for digital signatures.",
+    "Answer": "Each block of plaintext is encrypted independently with the same key, making it susceptible to pattern analysis and not recommended for messages longer than one block."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Stream Cipher'?",
+    "Option1": "An encryption method that encrypts data in large blocks.",
+    "Option2": "An encryption method that encrypts plaintext digits (bytes or bits) one at a time, often by XORing them with a keystream.",
+    "Option3": "A type of hashing algorithm.",
+    "Option4": "An asymmetric encryption technique.",
+    "Answer": "An encryption method that encrypts plaintext digits (bytes or bits) one at a time, often by XORing them with a keystream."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Block Cipher'?",
+    "Option1": "An encryption method that encrypts data one bit at a time.",
+    "Option2": "An encryption method that encrypts a fixed-size block of plaintext as a single unit, producing a ciphertext block of the same size.",
+    "Option3": "A type of digital signature algorithm.",
+    "Option4": "A method for generating random numbers.",
+    "Answer": "An encryption method that encrypts a fixed-size block of plaintext as a single unit, producing a ciphertext block of the same size."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Ephemeral Key'?",
+    "Option1": "A long-lasting key used for multiple sessions.",
+    "Option2": "A cryptographic key that is generated for each execution of a key establishment process and is used for a limited period or a single session, providing forward secrecy.",
+    "Option3": "A key used only for decryption.",
+    "Option4": "A key that never changes.",
+    "Answer": "A cryptographic key that is generated for each execution of a key establishment process and is used for a limited period or a single session, providing forward secrecy."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Perfect Forward Secrecy' (PFS)?",
+    "Option1": "Ensuring that keys are never exchanged.",
+    "Option2": "A property of a key exchange system that ensures that if the long-term secret key is compromised in the future, past communications encrypted with keys derived from it cannot be decrypted.",
+    "Option3": "A feature that makes encryption keys unbreakable.",
+    "Option4": "A method for quickly recovering lost keys.",
+    "Answer": "A property of a key exchange system that ensures that if the long-term secret key is compromised in the future, past communications encrypted with keys derived from it cannot be decrypted."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'Cryptographic Nonce'?",
+    "Option1": "A secret key used for encryption.",
+    "Option2": "A number used once in a cryptographic communication, often a random or pseudo-random number, to prevent replay attacks and ensure uniqueness.",
+    "Option3": "A timestamp for encrypted messages.",
+    "Option4": "A fixed string used in all encryption processes.",
+    "Answer": "A number used once in a cryptographic communication, often a random or pseudo-random number, to prevent replay attacks and ensure uniqueness."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Quantum Cryptography'?",
+    "Option1": "A type of classical cryptography using very large numbers.",
+    "Option2": "A field of cryptography that uses principles of quantum mechanics to ensure the security of communication, offering theoretically unbreakable encryption through quantum key distribution.",
+    "Option3": "A method for breaking existing encryption algorithms.",
+    "Option4": "Cryptography designed for quantum computers only.",
+    "Answer": "A field of cryptography that uses principles of quantum mechanics to ensure the security of communication, offering theoretically unbreakable encryption through quantum key distribution."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Post-Quantum Cryptography'?",
+    "Option1": "Cryptography that has been broken by quantum computers.",
+    "Option2": "Cryptographic algorithms designed to be secure against attacks by future large-scale quantum computers, as classical algorithms like RSA and ECC are vulnerable to quantum attacks.",
+    "Option3": "Cryptography that uses quantum computers to encrypt data.",
+    "Option4": "A subfield of quantum physics.",
+    "Answer": "Cryptographic algorithms designed to be secure against attacks by future large-scale quantum computers, as classical algorithms like RSA and ECC are vulnerable to quantum attacks."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'Cipher Suite'?",
+    "Option1": "A collection of different encryption keys.",
+    "Option2": "A set of algorithms that are used together to secure network connections (e.g., in SSL/TLS), including algorithms for key exchange, authentication, encryption, and message authentication.",
+    "Option3": "A type of encryption hardware.",
+    "Option4": "A software package for decrypting files.",
+    "Answer": "A set of algorithms that are used together to secure network connections (e.g., in SSL/TLS), including algorithms for key exchange, authentication, encryption, and message authentication."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Homomorphic Encryption'?",
+    "Option1": "An encryption method that only works for small data sets.",
+    "Option2": "A form of encryption that allows computation on ciphertext, generating an encrypted result which, when decrypted, matches the result of the operations as if they had been performed on the plaintext.",
+    "Option3": "An encryption method that is easily reversible.",
+    "Option4": "Encryption that uses a single, fixed key for all operations.",
+    "Answer": "A form of encryption that allows computation on ciphertext, generating an encrypted result which, when decrypted, matches the result of the operations as if they had been performed on the plaintext."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Zero-Knowledge Proof'?",
+    "Option1": "A cryptographic method that proves data is incorrect.",
+    "Option2": "A method by which one party (the prover) can prove to another party (the verifier) that a given statement is true, without revealing any information apart from the veracity of the statement itself.",
+    "Option3": "A technique for creating secret keys.",
+    "Option4": "A method for breaking encryption without a key.",
+    "Answer": "A method by which one party (the prover) can prove to another party (the verifier) that a given statement is true, without revealing any information apart from the veracity of the statement itself."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of 'Digital Rights Management (DRM)'?",
+    "Option1": "To freely share digital content without restrictions.",
+    "Option2": "To control access to and usage of copyrighted digital content, typically using cryptographic techniques.",
+    "Option3": "To enhance the quality of digital media.",
+    "Option4": "To convert digital content to analog format.",
+    "Answer": "To control access to and usage of copyrighted digital content, typically using cryptographic techniques."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Cryptanalysis'?",
+    "Option1": "The design and study of cryptographic algorithms.",
+    "Option2": "The study of methods for obtaining the meaning of encrypted information, without access to the secret information (e.g., key) that is normally required to do so, essentially breaking ciphers.",
+    "Option3": "The process of generating random cryptographic keys.",
+    "Option4": "The art of creating unbreakable codes.",
+    "Answer": "The study of methods for obtaining the meaning of encrypted information, without access to the secret information (e.g., key) that is normally required to do so, essentially breaking ciphers."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Known-Plaintext Attack (KPA)'?",
+    "Option1": "An attack where the attacker only has access to ciphertext.",
+    "Option2": "A cryptanalytic attack where the attacker has access to both the plaintext and its corresponding ciphertext, attempting to discover the key or algorithm used.",
+    "Option3": "An attack where the attacker can choose the plaintext to be encrypted.",
+    "Option4": "An attack that only targets hashing algorithms.",
+    "Answer": "A cryptanalytic attack where the attacker has access to both the plaintext and its corresponding ciphertext, attempting to discover the key or algorithm used."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Chosen-Plaintext Attack (CPA)'?",
+    "Option1": "An attack where the attacker only has access to ciphertext.",
+    "Option2": "A cryptanalytic attack where the attacker can choose arbitrary plaintexts to be encrypted and obtain the corresponding ciphertexts, using this information to deduce the key or algorithm.",
+    "Option3": "An attack where the attacker can only decrypt a small portion of the ciphertext.",
+    "Option4": "An attack that targets digital signatures only.",
+    "Answer": "A cryptanalytic attack where the attacker can choose arbitrary plaintexts to be encrypted and obtain the corresponding ciphertexts, using this information to deduce the key or algorithm."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Chosen-Ciphertext Attack (CCA)'?",
+    "Option1": "An attack where the attacker can only encrypt plaintexts.",
+    "Option2": "A cryptanalytic attack where the attacker can choose arbitrary ciphertexts and obtain their corresponding decryptions, using this information to deduce the key or algorithm.",
+    "Option3": "An attack that only focuses on symmetric encryption.",
+    "Option4": "An attack where the attacker only observes encrypted traffic.",
+    "Answer": "A cryptanalytic attack where the attacker can choose arbitrary ciphertexts and obtain their corresponding decryptions, using this information to deduce the key or algorithm."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Side-Channel Attack'?",
+    "Option1": "An attack that targets the cryptographic algorithm directly.",
+    "Option2": "An attack that extracts cryptographic keys or sensitive information by analyzing information leaked from the physical implementation of a cryptosystem (e.g., timing information, power consumption, electromagnetic emanations).",
+    "Option3": "An attack that relies on guessing passwords.",
+    "Option4": "An attack that exploits software vulnerabilities only.",
+    "Answer": "An attack that extracts cryptographic keys or sensitive information by analyzing information leaked from the physical implementation of a cryptosystem (e.g., timing information, power consumption, electromagnetic emanations)."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Man-in-the-Middle (MitM) Attack' in the context of cryptography?",
+    "Option1": "An attack where an attacker directly obtains the private key.",
+    "Option2": "An attack where an attacker secretly intercepts and relays communications between two parties who believe they are communicating directly, enabling the attacker to eavesdrop or alter messages.",
+    "Option3": "An attack that only affects hashing algorithms.",
+    "Option4": "An attack that targets unencrypted data only.",
+    "Answer": "An attack where an attacker secretly intercepts and relays communications between two parties who believe they are communicating directly, enabling the attacker to eavesdrop or alter messages."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the purpose of a 'Revocation List' (e.g., CRL) in PKI?",
+    "Option1": "To list all valid digital certificates.",
+    "Option2": "To provide a list of digital certificates that have been revoked and are no longer trustworthy before their scheduled expiration date.",
+    "Option3": "To store the private keys of revoked certificates.",
+    "Option4": "To issue new digital certificates.",
+    "Answer": "To provide a list of digital certificates that have been revoked and are no longer trustworthy before their scheduled expiration date."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'Session Key'?",
+    "Option1": "A long-term key used for all communications.",
+    "Option2": "A temporary symmetric key generated for a specific communication session, often established using asymmetric key exchange, to encrypt and decrypt data for that session.",
+    "Option3": "A public key used for authentication.",
+    "Option4": "A key used only for digital signatures.",
+    "Answer": "A temporary symmetric key generated for a specific communication session, often established using asymmetric key exchange, to encrypt and decrypt data for that session."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Key Escrow'?",
+    "Option1": "A method for destroying cryptographic keys.",
+    "Option2": "A system where cryptographic keys are held in trust by a third party, allowing access to encrypted data under specific circumstances (e.g., law enforcement access).",
+    "Option3": "A technique for generating random keys.",
+    "Option4": "A process of distributing keys to multiple users.",
+    "Answer": "A system where cryptographic keys are held in trust by a third party, allowing access to encrypted data under specific circumstances (e.g., law enforcement access)."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is a 'Hardware Security Module (HSM)'?",
+    "Option1": "A software program for managing keys.",
+    "Option2": "A physical computing device that safeguards and manages digital keys for strong authentication and provides cryptographic processing, offering a high level of security for critical keys.",
+    "Option3": "A type of firewall.",
+    "Option4": "A virtual machine for testing cryptographic algorithms.",
+    "Answer": "A physical computing device that safeguards and manages digital keys for strong authentication and provides cryptographic processing, offering a high level of security for critical keys."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Cipher Block Chaining Message Authentication Code (CBC-MAC)'?",
+    "Option1": "A type of encryption mode for block ciphers.",
+    "Option2": "A technique for constructing a MAC using a block cipher in CBC mode, providing both integrity and authenticity for messages.",
+    "Option3": "A method for generating random numbers.",
+    "Option4": "An asymmetric encryption algorithm.",
+    "Answer": "A technique for constructing a MAC using a block cipher in CBC mode, providing both integrity and authenticity for messages."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Galois/Counter Mode (GCM)'?",
+    "Option1": "An outdated encryption mode.",
+    "Option2": "An authenticated encryption mode for symmetric key block ciphers that provides both confidentiality (encryption) and authenticity (integrity and origin authentication), widely used in TLS and IPSec.",
+    "Option3": "A mode specific to asymmetric encryption.",
+    "Option4": "A mode that only provides confidentiality.",
+    "Answer": "An authenticated encryption mode for symmetric key block ciphers that provides both confidentiality (encryption) and authenticity (integrity and origin authentication), widely used in TLS and IPSec."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Diffie-Hellman Key Exchange' primarily used for?",
+    "Option1": "Encrypting data at rest.",
+    "Option2": "Securely exchanging cryptographic keys over an insecure communication channel, allowing two parties to establish a shared secret.",
+    "Option3": "Creating digital signatures.",
+    "Option4": "Hashing passwords.",
+    "Answer": "Securely exchanging cryptographic keys over an insecure communication channel, allowing two parties to establish a shared secret."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Ephemeral Diffie-Hellman (DHE)'?",
+    "Option1": "A method that uses fixed Diffie-Hellman parameters.",
+    "Option2": "A variant of Diffie-Hellman that uses a new, temporary key pair for each session, providing perfect forward secrecy.",
+    "Option3": "A method for encrypting data directly.",
+    "Option4": "A technique for breaking Diffie-Hellman.",
+    "Answer": "A variant of Diffie-Hellman that uses a new, temporary key pair for each session, providing perfect forward secrecy."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Key Length' in cryptography?",
+    "Option1": "The number of algorithms used in encryption.",
+    "Option2": "The size of a cryptographic key, typically measured in bits, directly impacting the strength and computational difficulty of breaking the encryption.",
+    "Option3": "The duration for which a key is valid.",
+    "Option4": "The number of users who can share a key.",
+    "Answer": "The size of a cryptographic key, typically measured in bits, directly impacting the strength and computational difficulty of breaking the encryption."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Cryptographic Agility'?",
+    "Option1": "The ability to quickly encrypt and decrypt data.",
+    "Option2": "The ability of a system to switch between different cryptographic algorithms, modes, and key lengths without requiring major system changes, allowing adaptation to new threats or standards.",
+    "Option3": "The speed of generating cryptographic keys.",
+    "Option4": "The resistance of an algorithm to brute-force attacks.",
+    "Answer": "The ability of a system to switch between different cryptographic algorithms, modes, and key lengths without requiring major system changes, allowing adaptation to new threats or standards."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Quantum Supremacy' in cryptography?",
+    "Option1": "The point at which quantum computers become commercially available.",
+    "Option2": "The point at which a quantum computer can perform a computation that no classical computer can perform in a feasible amount of time, potentially rendering current cryptographic algorithms insecure.",
+    "Option3": "A new encryption standard based on quantum physics.",
+    "Option4": "The ability of classical computers to simulate quantum computers.",
+    "Answer": "The point at which a quantum computer can perform a computation that no classical computer can perform in a feasible amount of time, potentially rendering current cryptographic algorithms insecure."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a 'Cryptographic Backdoor'?",
+    "Option1": "A hidden feature to improve encryption strength.",
+    "Option2": "A secret method or vulnerability intentionally built into a cryptographic system that allows unauthorized access to encrypted data or bypasses security controls.",
+    "Option3": "A legitimate way to recover lost keys.",
+    "Option4": "A tool for generating random numbers.",
+    "Answer": "A secret method or vulnerability intentionally built into a cryptographic system that allows unauthorized access to encrypted data or bypasses security controls."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'Homomorphic Hashing'?",
+    "Option1": "A hash function that produces a fixed-size output.",
+    "Option2": "A concept (not yet fully practical for general use) where operations performed on the original data would result in the same operations being performed on the hash values, allowing computation on hashed data.",
+    "Option3": "A type of reversible hashing algorithm.",
+    "Option4": "A hashing technique used for digital signatures only.",
+    "Answer": "A concept (not yet fully practical for general use) where operations performed on the original data would result in the same operations being performed on the hash values, allowing computation on hashed data."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Secure Multi-Party Computation (SMC)'?",
+    "Option1": "A method for securely sharing private keys.",
+    "Option2": "A cryptographic technique that allows multiple parties to jointly compute a function over their inputs while keeping those inputs private, without revealing individual inputs to other parties.",
+    "Option3": "A protocol for group encryption.",
+    "Option4": "A system for distributing digital certificates.",
+    "Answer": "A cryptographic technique that allows multiple parties to jointly compute a function over their inputs while keeping those inputs private, without revealing individual inputs to other parties."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of a 'Cryptographic Primitive'?",
+    "Option1": "To provide a complete cryptographic solution.",
+    "Option2": "To be the basic, well-established cryptographic algorithms (like block ciphers, hash functions, etc.) that are used as building blocks to construct more complex cryptographic systems and protocols.",
+    "Option3": "To break existing encryption.",
+    "Option4": "To only be used in theoretical cryptography.",
+    "Answer": "To be the basic, well-established cryptographic algorithms (like block ciphers, hash functions, etc.) that are used as building blocks to construct more complex cryptographic systems and protocols."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Elliptic Curve Digital Signature Algorithm (ECDSA)'?",
+    "Option1": "A symmetric encryption algorithm.",
+    "Option2": "A variant of the Digital Signature Algorithm (DSA) that uses elliptic curve cryptography, offering high security with smaller key sizes.",
+    "Option3": "A hashing algorithm.",
+    "Option4": "A key exchange protocol.",
+    "Answer": "A variant of the Digital Signature Algorithm (DSA) that uses elliptic curve cryptography, offering high security with smaller key sizes."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Digital Envelope'?",
+    "Option1": "A physical envelope for storing digital data.",
+    "Option2": "A method that combines symmetric and asymmetric encryption to securely transmit data, where data is encrypted with a symmetric key (session key), and the session key is then encrypted with the recipient's public key.",
+    "Option3": "A digital file format for encrypted documents.",
+    "Option4": "A system for managing email encryption.",
+    "Answer": "A method that combines symmetric and asymmetric encryption to securely transmit data, where data is encrypted with a symmetric key (session key), and the session key is then encrypted with the recipient's public key."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Pretty Good Privacy (PGP)'?",
+    "Option1": "A weak encryption standard for short messages.",
+    "Option2": "A popular computer program often used for email encryption and decryption to increase the security of email communications by providing cryptographic privacy and authentication.",
+    "Option3": "A type of virus scanner.",
+    "Option4": "A protocol for network routing.",
+    "Answer": "A popular computer program often used for email encryption and decryption to increase the security of email communications by providing cryptographic privacy and authentication."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'GNU Privacy Guard (GPG)'?",
+    "Option1": "A proprietary encryption software.",
+    "Option2": "A free and open-source implementation of the OpenPGP standard, providing cryptographic privacy and authentication for data communication.",
+    "Option3": "A firewall management tool.",
+    "Option4": "A hardware security module.",
+    "Answer": "A free and open-source implementation of the OpenPGP standard, providing cryptographic privacy and authentication for data communication."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'S/MIME' (Secure/Multipurpose Internet Mail Extensions)?",
+    "Option1": "An email protocol for unencrypted messages.",
+    "Option2": "A standard for public key encryption and signing of MIME data, commonly used for securing email communication.",
+    "Option3": "A protocol for instant messaging.",
+    "Option4": "A method for sending bulk emails securely.",
+    "Answer": "A standard for public key encryption and signing of MIME data, commonly used for securing email communication."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'X.509 Certificate'?",
+    "Option1": "A type of physical identification card.",
+    "Option2": "A standard for public key certificates that specifies the format for public key certificates, commonly used in PKI to bind a public key to an identity.",
+    "Option3": "A standard for symmetric encryption keys.",
+    "Option4": "A document describing a cryptographic algorithm.",
+    "Answer": "A standard for public key certificates that specifies the format for public key certificates, commonly used in PKI to bind a public key to an identity."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Online Certificate Status Protocol (OCSP)'?",
+    "Option1": "A protocol for requesting new digital certificates.",
+    "Option2": "A protocol used for obtaining the revocation status of an X.509 digital certificate in real-time, providing a more immediate status than a Certificate Revocation List (CRL).",
+    "Option3": "A protocol for distributing private keys.",
+    "Option4": "A protocol for encrypted web Browse.",
+    "Answer": "A protocol used for obtaining the revocation status of an X.509 digital certificate in real-time, providing a more immediate status than a Certificate Revocation List (CRL)."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Certificate Pinning'?",
+    "Option1": "Using a very short validity period for certificates.",
+    "Option2": "A security mechanism where a client (e.g., a web browser or mobile app) remembers or 'pins' the expected cryptographic public key or certificate for a particular host, preventing Man-in-the-Middle attacks if a fraudulent certificate is presented.",
+    "Option3": "A method for revoking digital certificates.",
+    "Option4": "A process for issuing new certificates.",
+    "Answer": "A security mechanism where a client (e.g., a web browser or mobile app) remembers or 'pins' the expected cryptographic public key or certificate for a particular host, preventing Man-in-the-Middle attacks if a fraudulent certificate is presented."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is a 'Root Certificate'?",
+    "Option1": "A certificate issued to individual users.",
+    "Option2": "The top-most certificate in a PKI hierarchy, which is self-signed and serves as the ultimate trust anchor for all certificates issued by the Certificate Authority.",
+    "Option3": "A certificate used for encrypting web traffic.",
+    "Option4": "A certificate for server authentication only.",
+    "Answer": "The top-most certificate in a PKI hierarchy, which is self-signed and serves as the ultimate trust anchor for all certificates issued by the Certificate Authority."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is an 'Intermediate Certificate'?",
+    "Option1": "A certificate issued by end-users.",
+    "Option2": "A certificate issued by a root Certificate Authority to another CA, which then issues certificates to end-entities, forming a chain of trust.",
+    "Option3": "A temporary certificate for a single session.",
+    "Option4": "A certificate used only for testing purposes.",
+    "Answer": "A certificate issued by a root Certificate Authority to another CA, which then issues certificates to end-entities, forming a chain of trust."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Certificate Chaining'?",
+    "Option1": "Connecting multiple unrelated certificates.",
+    "Option2": "The process of linking a digital certificate to its issuing Certificate Authority (CA) and then up to the root CA, establishing a chain of trust that verifies the certificate's authenticity.",
+    "Option3": "A method for encrypting certificate data.",
+    "Option4": "A process for revoking certificates.",
+    "Answer": "The process of linking a digital certificate to its issuing Certificate Authority (CA) and then up to the root CA, establishing a chain of trust that verifies the certificate's authenticity."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Key Management'?",
+    "Option1": "Sharing keys openly with all users.",
+    "Option2": "The set of practices and procedures involved in handling cryptographic keys throughout their lifecycle, including generation, distribution, storage, usage, backup, recovery, and destruction.",
+    "Option3": "A method for breaking encryption keys.",
+    "Option4": "Creating new encryption algorithms.",
+    "Answer": "The set of practices and procedures involved in handling cryptographic keys throughout their lifecycle, including generation, distribution, storage, usage, backup, recovery, and destruction."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is a 'Cryptographic Module'?",
+    "Option1": "A software-only implementation of cryptography.",
+    "Option2": "A hardware, software, or firmware component that implements cryptographic functions and protects cryptographic keys, often certified to security standards like FIPS 140-2.",
+    "Option3": "A theoretical concept in cryptography.",
+    "Option4": "A network device for encrypted communication.",
+    "Answer": "A hardware, software, or firmware component that implements cryptographic functions and protects cryptographic keys, often certified to security standards like FIPS 140-2."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'FIPS 140-2'?",
+    "Option1": "A standard for secure web Browse.",
+    "Option2": "A U.S. government standard that specifies security requirements for cryptographic modules, ensuring that they meet certain levels of cryptographic strength and tamper resistance.",
+    "Option3": "An encryption algorithm.",
+    "Option4": "A protocol for digital signatures.",
+    "Answer": "A U.S. government standard that specifies security requirements for cryptographic modules, ensuring that they meet certain levels of cryptographic strength and tamper resistance."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is a 'Cryptographic Attack'?",
+    "Option1": "A method for generating strong keys.",
+    "Option2": "An attempt to defeat the security services provided by a cryptosystem, often by finding weaknesses in algorithms, protocols, or implementations to recover plaintext or keys.",
+    "Option3": "A process for verifying digital signatures.",
+    "Option4": "A legitimate use of cryptography for security.",
+    "Answer": "An attempt to defeat the security services provided by a cryptosystem, often by finding weaknesses in algorithms, protocols, or implementations to recover plaintext or keys."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Birthday Attack' in cryptography?",
+    "Option1": "An attack related to calendar dates.",
+    "Option2": "A type of cryptographic attack that exploits the mathematics behind the birthday problem, used to find collisions in hash functions more efficiently than a brute-force approach.",
+    "Option3": "An attack that targets asymmetric encryption.",
+    "Option4": "An attack that involves guessing random numbers.",
+    "Answer": "A type of cryptographic attack that exploits the mathematics behind the birthday problem, used to find collisions in hash functions more efficiently than a brute-force approach."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Replay Attack'?",
+    "Option1": "An attack that encrypts data repeatedly.",
+    "Option2": "A network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed, often to trick a system into granting unauthorized access or performing an action again.",
+    "Option3": "An attack that records and plays back video.",
+    "Option4": "An attack that uses pre-computed hashes.",
+    "Answer": "A network attack in which a valid data transmission is maliciously or fraudulently repeated or delayed, often to trick a system into granting unauthorized access or performing an action again."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Padding Oracle Attack'?",
+    "Option1": "An attack on hash functions.",
+    "Option2": "A cryptographic attack carried out against a block cipher in CBC mode (or similar modes that use padding) that exploits the 'oracle' (server's response) when padding is incorrect, allowing an attacker to decrypt ciphertext.",
+    "Option3": "An attack that guesses encryption keys randomly.",
+    "Option4": "An attack that targets digital signatures.",
+    "Answer": "A cryptographic attack carried out against a block cipher in CBC mode (or similar modes that use padding) that exploits the 'oracle' (server's response) when padding is incorrect, allowing an attacker to decrypt ciphertext."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Key Distribution Center (KDC)'?",
+    "Option1": "A centralized database for storing plaintext passwords.",
+    "Option2": "A trusted third party in a cryptographic system that shares secret keys with each participant in the communication, acting as a secure intermediary for key exchange.",
+    "Option3": "A place where cryptographic keys are publicly shared.",
+    "Option4": "A software for generating random numbers.",
+    "Answer": "A trusted third party in a cryptographic system that shares secret keys with each participant in the communication, acting as a secure intermediary for key exchange."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Certificate Transparency (CT)'?",
+    "Option1": "A method to hide digital certificates.",
+    "Option2": "An open framework designed to detect mis-issued digital certificates and to verify certificate ownership, by maintaining publicly auditable logs of all issued certificates.",
+    "Option3": "A protocol for issuing temporary certificates.",
+    "Option4": "A standard for secure certificate storage.",
+    "Answer": "An open framework designed to detect mis-issued digital certificates and to verify certificate ownership, by maintaining publicly auditable logs of all issued certificates."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'One-Time Pad (OTP)'?",
+    "Option1": "A practically unbreakable encryption scheme if used correctly, where a random, truly secret key (the 'pad') of the same length as the plaintext is used only once to encrypt a message.",
+    "Option2": "An encryption method for short messages only.",
+    "Option3": "A symmetric encryption algorithm that is prone to brute-force attacks.",
+    "Option4": "A method for generating reusable encryption keys.",
+    "Answer": "A practically unbreakable encryption scheme if used correctly, where a random, truly secret key (the 'pad') of the same length as the plaintext is used only once to encrypt a message."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the main requirement for a One-Time Pad to be perfectly secure?",
+    "Option1": "The key must be short.",
+    "Option2": "The key must be used multiple times.",
+    "Option3": "The key must be truly random, at least as long as the plaintext, and never reused.",
+    "Option4": "The key must be publicly known.",
+    "Answer": "The key must be truly random, at least as long as the plaintext, and never reused."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Quantum Key Distribution (QKD)'?",
+    "Option1": "A method for distributing classical encryption keys.",
+    "Option2": "A technique that uses principles of quantum mechanics to establish a secret cryptographic key between two distant parties in a way that detects any eavesdropping attempt.",
+    "Option3": "A method for breaking existing encryption schemes.",
+    "Option4": "A technique for creating shorter encryption keys.",
+    "Answer": "A technique that uses principles of quantum mechanics to establish a secret cryptographic key between two distant parties in a way that detects any eavesdropping attempt."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Confidentiality' in Cryptography?",
+    "Option1": "Ensuring data is available to authorized users.",
+    "Option2": "Protecting information from unauthorized access.",
+    "Option3": "Ensuring data accuracy.",
+    "Option4": "Verifying the identity of the sender.",
+    "Answer": "Protecting information from unauthorized access."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Integrity' in Cryptography?",
+    "Option1": "Keeping data secret.",
+    "Option2": "Ensuring data has not been altered or tampered with.",
+    "Option3": "Making data accessible.",
+    "Option4": "Proving the origin of a message.",
+    "Answer": "Ensuring data has not been altered or tampered with."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Availability' in Cryptography?",
+    "Option1": "Restricting access.",
+    "Option2": "Ensuring authorized users can access information when needed.",
+    "Option3": "Preventing data modification.",
+    "Option4": "Authenticating users.",
+    "Answer": "Ensuring authorized users can access information when needed."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Non-repudiation' in Cryptography?",
+    "Option1": "Denying a past action.",
+    "Option2": "Providing irrefutable proof of an action's origin and integrity.",
+    "Option3": "Ensuring data secrecy.",
+    "Option4": "Restricting data access.",
+    "Answer": "Providing irrefutable proof of an action's origin and integrity."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is a 'Symmetric Key'?",
+    "Option1": "A key used for encryption only.",
+    "Option2": "A key used for decryption only.",
+    "Option3": "A single secret key used for both encryption and decryption.",
+    "Option4": "A public key.",
+    "Answer": "A single secret key used for both encryption and decryption."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is an 'Asymmetric Key Pair'?",
+    "Option1": "Two identical keys.",
+    "Option2": "A public key for encryption and a private key for decryption (or vice versa).",
+    "Option3": "A single secret key.",
+    "Option4": "Keys used only for hashing.",
+    "Answer": "A public key for encryption and a private key for decryption (or vice versa)."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which type of encryption is faster for bulk data encryption?",
+    "Option1": "Asymmetric Encryption",
+    "Option2": "Symmetric Encryption",
+    "Option3": "Hashing",
+    "Option4": "Digital Signatures",
+    "Answer": "Symmetric Encryption"
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which type of encryption is suitable for secure key exchange?",
+    "Option1": "Symmetric Encryption",
+    "Option2": "Asymmetric Encryption",
+    "Option3": "Hashing",
+    "Option4": "Stream Cipher",
+    "Answer": "Asymmetric Encryption"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is a 'Collision' in hashing?",
+    "Option1": "When two different inputs produce the same hash output.",
+    "Option2": "When a hash function is easily reversible.",
+    "Option3": "When a hash value is too short.",
+    "Option4": "When a hash function is too slow.",
+    "Answer": "When two different inputs produce the same hash output."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which of the following is considered a modern and secure hash algorithm?",
+    "Option1": "MD5",
+    "Option2": "SHA-1",
+    "Option3": "SHA-256",
+    "Option4": "DES",
+    "Answer": "SHA-256"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is a 'Public Key Certificate'?",
+    "Option1": "A document proving ownership of a private key.",
+    "Option2": "A digital document issued by a CA that binds a public key to an identity.",
+    "Option3": "A secret key for encryption.",
+    "Option4": "A list of revoked certificates.",
+    "Answer": "A digital document issued by a CA that binds a public key to an identity."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What does 'SSL' stand for?",
+    "Option1": "Secure System Layer",
+    "Option2": "Security Socket Link",
+    "Option3": "Secure Sockets Layer",
+    "Option4": "System Security Layer",
+    "Answer": "Secure Sockets Layer"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What replaced SSL as the standard for secure communication?",
+    "Option1": "HTTPS",
+    "Option2": "TLS",
+    "Option3": "FTP",
+    "Option4": "SSH",
+    "Answer": "TLS"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is the primary function of the private key in asymmetric encryption?",
+    "Option1": "To encrypt data for anyone.",
+    "Option2": "To decrypt data encrypted with its corresponding public key.",
+    "Option3": "To share with multiple users.",
+    "Option4": "To publicly verify identities.",
+    "Answer": "To decrypt data encrypted with its corresponding public key."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the primary function of the public key in asymmetric encryption?",
+    "Option1": "To decrypt data.",
+    "Option2": "To keep secret from everyone.",
+    "Option3": "To encrypt data for the private key owner and verify digital signatures.",
+    "Option4": "To generate random numbers.",
+    "Answer": "To encrypt data for the private key owner and verify digital signatures."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which type of attack does 'Salting' primarily protect against?",
+    "Option1": "Man-in-the-Middle attacks",
+    "Option2": "Denial-of-Service attacks",
+    "Option3": "Rainbow Table attacks",
+    "Option4": "Phishing attacks",
+    "Answer": "Rainbow Table attacks"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is a 'Keystore'?",
+    "Option1": "A database for storing unencrypted data.",
+    "Option2": "A file or hardware device that securely stores cryptographic keys and certificates.",
+    "Option3": "A public directory of cryptographic algorithms.",
+    "Option4": "A tool for generating random passwords.",
+    "Answer": "A file or hardware device that securely stores cryptographic keys and certificates."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Key Revocation'?",
+    "Option1": "Creating a new cryptographic key.",
+    "Option2": "The process of invalidating a cryptographic key or certificate before its scheduled expiration date, typically due to compromise or change in status.",
+    "Option3": "Sharing a key with another party.",
+    "Option4": "Encrypting a key for storage.",
+    "Answer": "The process of invalidating a cryptographic key or certificate before its scheduled expiration date, typically due to compromise or change in status."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the purpose of an 'Initialization Vector (IV)' in block cipher modes?",
+    "Option1": "To increase the key length.",
+    "Option2": "To provide a unique input to the encryption process for each encryption operation, ensuring that identical plaintext blocks produce different ciphertext blocks.",
+    "Option3": "To verify the integrity of the ciphertext.",
+    "Option4": "To reduce the computational overhead of encryption.",
+    "Answer": "To provide a unique input to the encryption process for each encryption operation, ensuring that identical plaintext blocks produce different ciphertext blocks."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Counter Mode (CTR)' in symmetric encryption?",
+    "Option1": "A mode that links each block to the previous one.",
+    "Option2": "A stream cipher mode of operation that generates a keystream by encrypting a constantly increasing counter, which is then XORed with the plaintext, allowing parallel encryption/decryption.",
+    "Option3": "A mode used for hashing only.",
+    "Option4": "A mode that only provides integrity.",
+    "Answer": "A stream cipher mode of operation that generates a keystream by encrypting a constantly increasing counter, which is then XORed with the plaintext, allowing parallel encryption/decryption."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Data at Rest' encryption?",
+    "Option1": "Encrypting data as it is transmitted over a network.",
+    "Option2": "Encrypting data when it is stored on a persistent storage device, such as a hard drive or flash drive.",
+    "Option3": "Encrypting data while it is being processed in memory.",
+    "Option4": "Encrypting data that is publicly accessible.",
+    "Answer": "Encrypting data when it is stored on a persistent storage device, such as a hard drive or flash drive."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Data in Transit' encryption?",
+    "Option1": "Encrypting data stored on servers.",
+    "Option2": "Encrypting data as it moves between locations, such as over a network or the internet.",
+    "Option3": "Encrypting data while it's being accessed by a user.",
+    "Option4": "Encrypting data for backup purposes only.",
+    "Answer": "Encrypting data as it moves between locations, such as over a network or the internet."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Data in Use' encryption?",
+    "Option1": "Encrypting data during network transmission.",
+    "Option2": "Encrypting data while it is being processed, calculated, or analyzed in volatile memory (RAM) or CPU registers.",
+    "Option3": "Encrypting data before it is stored.",
+    "Option4": "Encrypting data after it has been retrieved from storage.",
+    "Answer": "Encrypting data while it is being processed, calculated, or analyzed in volatile memory (RAM) or CPU registers."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a 'Cryptographic Protocol'?",
+    "Option1": "A single encryption algorithm.",
+    "Option2": "A standardized sequence of operations and messages involving cryptographic primitives to achieve specific security objectives (e.g., secure key exchange, secure communication).",
+    "Option3": "A physical device for encryption.",
+    "Option4": "A document describing a single key.",
+    "Answer": "A standardized sequence of operations and messages involving cryptographic primitives to achieve specific security objectives (e.g., secure key exchange, secure communication)."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the primary weakness of the 'Caesar Cipher'?",
+    "Option1": "It uses very long keys.",
+    "Option2": "It is susceptible to frequency analysis due to its fixed shift, making it easy to break.",
+    "Option3": "It requires a complex key exchange.",
+    "Option4": "It is a modern and strong encryption algorithm.",
+    "Answer": "It is susceptible to frequency analysis due to its fixed shift, making it easy to break."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is a 'Vigenere Cipher'?",
+    "Option1": "A simple substitution cipher.",
+    "Option2": "A method of encrypting alphabetic text by using a series of different Caesar ciphers, based on the letters of a keyword, making it more robust than a simple Caesar cipher.",
+    "Option3": "A type of asymmetric encryption.",
+    "Option4": "A hashing algorithm.",
+    "Answer": "A method of encrypting alphabetic text by using a series of different Caesar ciphers, based on the letters of a keyword, making it more robust than a simple Caesar cipher."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Disk Encryption'?",
+    "Option1": "Encrypting individual files only.",
+    "Option2": "The process of converting data on a hard drive or other storage device into ciphertext, rendering it unreadable to unauthorized users.",
+    "Option3": "Encrypting network traffic only.",
+    "Option4": "Encrypting data in memory.",
+    "Answer": "The process of converting data on a hard drive or other storage device into ciphertext, rendering it unreadable to unauthorized users."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Full Disk Encryption (FDE)'?",
+    "Option1": "Encrypting only specific folders.",
+    "Option2": "Encryption of all data on a disk, including the operating system and user files, from the moment the computer boots up.",
+    "Option3": "Encryption that requires user interaction for every file.",
+    "Option4": "Encryption that only applies to external drives.",
+    "Answer": "Encryption of all data on a disk, including the operating system and user files, from the moment the computer boots up."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Trusted Platform Module (TPM)'?",
+    "Option1": "A software-only security solution.",
+    "Option2": "A secure cryptoprocessor (a dedicated microcontroller) designed to secure hardware by integrating cryptographic keys into devices, used for secure boot, disk encryption, and authentication.",
+    "Option3": "A cloud-based storage service.",
+    "Option4": "A type of network firewall.",
+    "Answer": "A secure cryptoprocessor (a dedicated microcontroller) designed to secure hardware by integrating cryptographic keys into devices, used for secure boot, disk encryption, and authentication."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Hardware Root of Trust'?",
+    "Option1": "A software component that manages trust.",
+    "Option2": "A set of immutable functions or processes, typically implemented in hardware, that are always trusted and serve as the foundation for verifying the integrity of all other components in a system.",
+    "Option3": "A digital certificate for hardware devices.",
+    "Option4": "A remote server that verifies system integrity.",
+    "Answer": "A set of immutable functions or processes, typically implemented in hardware, that are always trusted and serve as the foundation for verifying the integrity of all other components in a system."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'True Random Number Generator (TRNG)'?",
+    "Option1": "A software algorithm that generates predictable numbers.",
+    "Option2": "A device or algorithm that generates numbers from a physical source of entropy (e.g., atmospheric noise, thermal noise), producing truly unpredictable and non-deterministic random numbers for cryptographic use.",
+    "Option3": "A generator that creates numbers from a fixed seed.",
+    "Option4": "A generator that requires user input for randomness.",
+    "Answer": "A device or algorithm that generates numbers from a physical source of entropy (e.g., atmospheric noise, thermal noise), producing truly unpredictable and non-deterministic random numbers for cryptographic use."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Pseudo-Random Number Generator (PRNG)'?",
+    "Option1": "A generator that produces truly unpredictable numbers.",
+    "Option2": "An algorithm that generates a sequence of numbers that approximates the properties of random numbers but are deterministic, meaning they can be reproduced if the initial 'seed' is known.",
+    "Option3": "A generator that relies on physical phenomena.",
+    "Option4": "A generator only used for cryptographic keys.",
+    "Answer": "An algorithm that generates a sequence of numbers that approximates the properties of random numbers but are deterministic, meaning they can be reproduced if the initial 'seed' is known."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Why are truly random numbers crucial for cryptography?",
+    "Option1": "They speed up encryption algorithms.",
+    "Option2": "They ensure the unpredictability of keys and nonces, which is essential for preventing attackers from guessing or predicting them.",
+    "Option3": "They reduce the size of encrypted data.",
+    "Option4": "They make encryption algorithms easier to implement.",
+    "Answer": "They ensure the unpredictability of keys and nonces, which is essential for preventing attackers from guessing or predicting them."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Hashing' primarily used for in the context of file downloads?",
+    "Option1": "To encrypt the downloaded file.",
+    "Option2": "To verify the integrity of the downloaded file by comparing its hash value with a known good hash value.",
+    "Option3": "To hide the downloaded file from others.",
+    "Option4": "To compress the downloaded file size.",
+    "Answer": "To verify the integrity of the downloaded file by comparing its hash value with a known good hash value."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is a 'Symmetric Block Cipher'?",
+    "Option1": "An algorithm that encrypts data bit by bit.",
+    "Option2": "A type of symmetric cipher that encrypts data in fixed-size blocks (e.g., 128 bits for AES) using the same key for both encryption and decryption.",
+    "Option3": "An algorithm that uses public and private keys.",
+    "Option4": "A method for generating random numbers.",
+    "Answer": "A type of symmetric cipher that encrypts data in fixed-size blocks (e.g., 128 bits for AES) using the same key for both encryption and decryption."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the 'Data Encryption Standard (DES)'?",
+    "Option1": "A modern, highly secure symmetric cipher.",
+    "Option2": "An older symmetric-key algorithm that encrypts data in 64-bit blocks with a 56-bit key, now considered insecure due to its short key length.",
+    "Option3": "An asymmetric encryption algorithm.",
+    "Option4": "A hashing function.",
+    "Answer": "An older symmetric-key algorithm that encrypts data in 64-bit blocks with a 56-bit key, now considered insecure due to its short key length."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Triple DES (3DES)'?",
+    "Option1": "A new and faster version of AES.",
+    "Option2": "A symmetric-key block cipher that applies the DES algorithm three times to each data block, providing increased security over plain DES, but still being phased out due to its relatively slow performance and block size.",
+    "Option3": "An asymmetric encryption algorithm.",
+    "Option4": "A stream cipher.",
+    "Answer": "A symmetric-key block cipher that applies the DES algorithm three times to each data block, providing increased security over plain DES, but still being phased out due to its relatively slow performance and block size."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Advanced Encryption Standard (AES)'?",
+    "Option1": "An outdated and insecure encryption algorithm.",
+    "Option2": "A symmetric-key encryption standard adopted by the U.S. government, supporting key sizes of 128, 192, and 256 bits, widely considered highly secure and efficient.",
+    "Option3": "An asymmetric encryption algorithm.",
+    "Option4": "A hashing algorithm only.",
+    "Answer": "A symmetric-key encryption standard adopted by the U.S. government, supporting key sizes of 128, 192, and 256 bits, widely considered highly secure and efficient."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Blowfish'?",
+    "Option1": "An asymmetric encryption algorithm.",
+    "Option2": "A symmetric-key block cipher designed by Bruce Schneier, known for its speed and security, using a variable-length key up to 448 bits.",
+    "Option3": "A hashing algorithm.",
+    "Option4": "A digital signature scheme.",
+    "Answer": "A symmetric-key block cipher designed by Bruce Schneier, known for its speed and security, using a variable-length key up to 448 bits."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Twofish'?",
+    "Option1": "A weaker version of Blowfish.",
+    "Option2": "A symmetric key block cipher, one of the five finalists in the AES competition, offering strong security and flexibility with key sizes up to 256 bits.",
+    "Option3": "A stream cipher only.",
+    "Option4": "An asymmetric encryption algorithm.",
+    "Answer": "A symmetric key block cipher, one of the five finalists in the AES competition, offering strong security and flexibility with key sizes up to 256 bits."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'RC4'?",
+    "Option1": "A modern, highly secure block cipher.",
+    "Option2": "A stream cipher, widely used in early versions of SSL/TLS and WEP, but now considered insecure due to various vulnerabilities and biases in its keystream generation.",
+    "Option3": "An asymmetric encryption algorithm.",
+    "Option4": "A hashing algorithm.",
+    "Answer": "A stream cipher, widely used in early versions of SSL/TLS and WEP, but now considered insecure due to various vulnerabilities and biases in its keystream generation."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the primary difference between a stream cipher and a block cipher?",
+    "Option1": "Stream ciphers are faster than block ciphers.",
+    "Option2": "Stream ciphers encrypt data bit by bit or byte by byte, while block ciphers encrypt data in fixed-size blocks.",
+    "Option3": "Block ciphers are more vulnerable to attacks.",
+    "Option4": "Stream ciphers use asymmetric keys, block ciphers use symmetric keys.",
+    "Answer": "Stream ciphers encrypt data bit by bit or byte by byte, while block ciphers encrypt data in fixed-size blocks."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Perfect Forward Secrecy'?",
+    "Option1": "Ensuring that keys are never reused.",
+    "Option2": "A feature that ensures compromised long-term keys do not compromise past session keys, protecting past communications.",
+    "Option3": "A property of stream ciphers.",
+    "Option4": "A method for generating random keys.",
+    "Answer": "A feature that ensures compromised long-term keys do not compromise past session keys, protecting past communications."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Digital Signature Algorithm (DSA)'?",
+    "Option1": "A symmetric encryption algorithm.",
+    "Option2": "A Federal Information Processing Standard for digital signatures, using a public-key algorithm to sign digital documents.",
+    "Option3": "A hashing algorithm.",
+    "Option4": "A key exchange protocol.",
+    "Answer": "A Federal Information Processing Standard for digital signatures, using a public-key algorithm to sign digital documents."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Message Digest'?",
+    "Option1": "The original message before encryption.",
+    "Option2": "The fixed-size output of a hash function, also known as a hash value or fingerprint, used to represent the original message uniquely.",
+    "Option3": "Encrypted data.",
+    "Option4": "A secret key.",
+    "Answer": "The fixed-size output of a hash function, also known as a hash value or fingerprint, used to represent the original message uniquely."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the role of 'Certificate Revocation List (CRL)'?",
+    "Option1": "To issue new certificates.",
+    "Option2": "To maintain a publicly accessible list of digital certificates that have been revoked by the Certificate Authority and should no longer be trusted.",
+    "Option3": "To store private keys.",
+    "Option4": "To speed up certificate validation.",
+    "Answer": "To maintain a publicly accessible list of digital certificates that have been revoked by the Certificate Authority and should no longer be trusted."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Timestamping' in cryptography?",
+    "Option1": "Adding the current time to a message for faster delivery.",
+    "Option2": "A cryptographic technique that proves that certain data existed at a particular point in time, providing non-repudiation for the existence of data at that time.",
+    "Option3": "A method for synchronizing clocks between systems.",
+    "Option4": "A technique for encrypting time-sensitive data.",
+    "Answer": "A cryptographic technique that proves that certain data existed at a particular point in time, providing non-repudiation for the existence of data at that time."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Key Escrow' primarily controversial for?",
+    "Option1": "Its high cost of implementation.",
+    "Option2": "The potential for government or unauthorized access to encrypted data, raising privacy concerns.",
+    "Option3": "Its slow encryption speeds.",
+    "Option4": "The difficulty of managing keys.",
+    "Answer": "The potential for government or unauthorized access to encrypted data, raising privacy concerns."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Ephemeral' in the context of cryptographic keys?",
+    "Option1": "Long-lasting and persistent.",
+    "Option2": "Temporary and single-use, providing perfect forward secrecy.",
+    "Option3": "Reused across multiple sessions.",
+    "Option4": "Publicly accessible.",
+    "Answer": "Temporary and single-use, providing perfect forward secrecy."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is a 'Cryptographic Strength'?",
+    "Option1": "The physical size of the encryption key.",
+    "Option2": "A measure of how resistant a cryptographic algorithm is to attack, typically expressed in terms of the number of operations an attacker would need to perform to break it.",
+    "Option3": "The speed of encryption and decryption.",
+    "Option4": "The number of users an algorithm can support.",
+    "Answer": "A measure of how resistant a cryptographic algorithm is to attack, typically expressed in terms of the number of operations an attacker would need to perform to break it."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Key Generation'?",
+    "Option1": "Sharing existing cryptographic keys.",
+    "Option2": "The process of creating cryptographic keys, often involving a source of randomness to ensure unpredictability and strength.",
+    "Option3": "Storing keys in a secure location.",
+    "Option4": "Encrypting existing keys.",
+    "Answer": "The process of creating cryptographic keys, often involving a source of randomness to ensure unpredictability and strength."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Key Distribution'?",
+    "Option1": "Generating new cryptographic keys.",
+    "Option2": "The process of securely sharing cryptographic keys between communicating parties, ensuring that only authorized parties obtain the keys.",
+    "Option3": "Destroying cryptographic keys.",
+    "Option4": "Encrypting data with a key.",
+    "Answer": "The process of securely sharing cryptographic keys between communicating parties, ensuring that only authorized parties obtain the keys."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Key Storage'?",
+    "Option1": "Sharing keys publicly.",
+    "Option2": "The practice of securely storing cryptographic keys to prevent unauthorized access, compromise, or loss, often in hardware security modules or encrypted files.",
+    "Option3": "Destroying keys after use.",
+    "Option4": "Generating new keys for each session.",
+    "Answer": "The practice of securely storing cryptographic keys to prevent unauthorized access, compromise, or loss, often in hardware security modules or encrypted files."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Key Usage'?",
+    "Option1": "Using a single key for all cryptographic purposes.",
+    "Option2": "The defined purpose or function for which a cryptographic key is authorized to be used (e.g., encryption, signing, key exchange), as specified in a digital certificate.",
+    "Option3": "Sharing a key with multiple users.",
+    "Option4": "Encrypting all data with the same key.",
+    "Answer": "The defined purpose or function for which a cryptographic key is authorized to be used (e.g., encryption, signing, key exchange), as specified in a digital certificate."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Key Archiving'?",
+    "Option1": "Permanently deleting old keys.",
+    "Option2": "The process of securely storing cryptographic keys, often in an encrypted form, for long-term retention and potential future retrieval, typically for data recovery or legal compliance.",
+    "Option3": "Distributing keys to multiple users.",
+    "Option4": "Generating new keys for each session.",
+    "Answer": "The process of securely storing cryptographic keys, often in an encrypted form, for long-term retention and potential future retrieval, typically for data recovery or legal compliance."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Key Destruction'?",
+    "Option1": "Storing keys in an insecure location.",
+    "Option2": "The process of securely and irretrievably destroying cryptographic keys when they are no longer needed, to prevent their compromise and misuse.",
+    "Option3": "Making keys publicly available.",
+    "Option4": "Reusing old keys for new encryption.",
+    "Answer": "The process of securely and irretrievably destroying cryptographic keys when they are no longer needed, to prevent their compromise and misuse."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Cryptographic Hash Function'?",
+    "Option1": "An algorithm used for encryption and decryption.",
+    "Option2": "A mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size, used for data integrity and as part of digital signatures, and designed to be one-way and collision-resistant.",
+    "Option3": "A method for generating random numbers.",
+    "Option4": "A type of symmetric encryption key.",
+    "Answer": "A mathematical algorithm that maps data of arbitrary size to a bit string of a fixed size, used for data integrity and as part of digital signatures, and designed to be one-way and collision-resistant."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which cryptographic property is crucial for a hash function used in password storage?",
+    "Option1": "Reversibility",
+    "Option2": "Collision resistance",
+    "Option3": "Speed of computation",
+    "Option4": "Low randomness",
+    "Answer": "Collision resistance"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Digital Signature Standard (DSS)'?",
+    "Option1": "A standard for symmetric encryption.",
+    "Option2": "A U.S. Federal Information Processing Standard (FIPS) that defines the Digital Signature Algorithm (DSA), used for creating and verifying digital signatures.",
+    "Option3": "A standard for key exchange.",
+    "Option4": "A standard for hashing algorithms.",
+    "Answer": "A U.S. Federal Information Processing Standard (FIPS) that defines the Digital Signature Algorithm (DSA), used for creating and verifying digital signatures."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Cryptographic Primitives'?",
+    "Option1": "Complex cryptographic systems.",
+    "Option2": "Basic, low-level cryptographic algorithms like block ciphers, hash functions, and asymmetric algorithms that serve as building blocks for more complex protocols.",
+    "Option3": "Tools used for cryptanalysis.",
+    "Option4": "A type of attack on cryptographic systems.",
+    "Answer": "Basic, low-level cryptographic algorithms like block ciphers, hash functions, and asymmetric algorithms that serve as building blocks for more complex protocols."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Ciphertext-only Attack (COA)'?",
+    "Option1": "An attack where the attacker has some plaintext.",
+    "Option2": "A cryptanalytic attack model where the attacker has access only to a collection of ciphertexts and attempts to recover the plaintext or the encryption key.",
+    "Option3": "An attack where the attacker can choose the plaintext.",
+    "Option4": "An attack that only targets digital signatures.",
+    "Answer": "A cryptanalytic attack model where the attacker has access only to a collection of ciphertexts and attempts to recover the plaintext or the encryption key."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Authenticated Encryption with Associated Data (AEAD)'?",
+    "Option1": "An encryption mode that only provides confidentiality.",
+    "Option2": "A type of encryption that simultaneously provides confidentiality (encryption) and integrity and authenticity (via a MAC) for the encrypted data, and also integrity/authenticity for unencrypted 'associated data'.",
+    "Option3": "An encryption method for data at rest only.",
+    "Option4": "A method for generating random numbers.",
+    "Answer": "A type of encryption that simultaneously provides confidentiality (encryption) and integrity and authenticity (via a MAC) for the encrypted data, and also integrity/authenticity for unencrypted 'associated data'."
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which of the following is an example of an AEAD mode?",
+    "Option1": "ECB",
+    "Option2": "CBC",
+    "Option3": "GCM",
+    "Option4": "CTR",
+    "Answer": "GCM"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Message Authentication Code (MAC)'?",
+    "Option1": "A type of encryption algorithm.",
+    "Option2": "A short piece of information used to authenticate a message and provide integrity, generated using a symmetric key.",
+    "Option3": "A cryptographic hash function.",
+    "Option4": "A digital certificate.",
+    "Answer": "A short piece of information used to authenticate a message and provide integrity, generated using a symmetric key."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the key difference between a MAC and a digital signature?",
+    "Option1": "MACs provide non-repudiation, digital signatures do not.",
+    "Option2": "MACs use symmetric keys, digital signatures use asymmetric keys (private key to sign, public key to verify).",
+    "Option3": "Digital signatures only provide integrity, MACs provide confidentiality.",
+    "Option4": "There is no difference.",
+    "Answer": "MACs use symmetric keys, digital signatures use asymmetric keys (private key to sign, public key to verify)."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Cryptolocker' (as a type of malware)?",
+    "Option1": "A virus that deletes files.",
+    "Option2": "A specific variant of ransomware that encrypts files and demands a ransom, often using strong encryption algorithms like AES and RSA.",
+    "Option3": "A tool for recovering lost keys.",
+    "Option4": "A legitimate encryption software.",
+    "Answer": "A specific variant of ransomware that encrypts files and demands a ransom, often using strong encryption algorithms like AES and RSA."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Password-Based Key Derivation Function 2 (PBKDF2)'?",
+    "Option1": "A fast hashing algorithm for passwords.",
+    "Option2": "A key derivation function that applies a pseudorandom function (like a hash or HMAC) repeatedly to a password along with a salt, to produce a derived key, making brute-force attacks computationally intensive.",
+    "Option3": "An encryption algorithm for short passwords.",
+    "Option4": "A method for sharing passwords securely.",
+    "Answer": "A key derivation function that applies a pseudorandom function (like a hash or HMAC) repeatedly to a password along with a salt, to produce a derived key, making brute-force attacks computationally intensive."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'bcrypt'?",
+    "Option1": "A fast hashing algorithm for general data.",
+    "Option2": "A password hashing function designed to be computationally slow and resistant to brute-force and rainbow table attacks, often used for securely storing passwords.",
+    "Option3": "An encryption algorithm for files.",
+    "Option4": "A method for generating symmetric keys.",
+    "Answer": "A password hashing function designed to be computationally slow and resistant to brute-force and rainbow table attacks, often used for securely storing passwords."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Scrypt'?",
+    "Option1": "A faster alternative to bcrypt.",
+    "Option2": "A password-based key derivation function designed to be memory-hard, meaning it requires significant amounts of RAM, making it resistant to GPU-based brute-force attacks and custom hardware attacks.",
+    "Option3": "A general-purpose hashing algorithm.",
+    "Option4": "An encryption algorithm for small data blocks.",
+    "Answer": "A password-based key derivation function designed to be memory-hard, meaning it requires significant amounts of RAM, making it resistant to GPU-based brute-force attacks and custom hardware attacks."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Transport Layer Security (TLS) Handshake'?",
+    "Option1": "The process of encrypting application data.",
+    "Option2": "The initial negotiation process between a client and server in a TLS connection to establish the cryptographic parameters, authenticate identities, and exchange session keys before encrypted data transfer begins.",
+    "Option3": "The final stage of a TLS connection.",
+    "Option4": "A method for revoking digital certificates.",
+    "Answer": "The initial negotiation process between a client and server in a TLS connection to establish the cryptographic parameters, authenticate identities, and exchange session keys before encrypted data transfer begins."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'PKCS #7' (Cryptographic Message Syntax Standard)?",
+    "Option1": "A standard for secure password storage.",
+    "Option2": "A standard that defines generic syntax for cryptographic messages, including digital signatures, encrypted data, and digital envelopes, widely used in PKI and secure email.",
+    "Option3": "A standard for symmetric key algorithms.",
+    "Option4": "A standard for quantum cryptography.",
+    "Answer": "A standard that defines generic syntax for cryptographic messages, including digital signatures, encrypted data, and digital envelopes, widely used in PKI and secure email."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Key Management System (KMS)'?",
+    "Option1": "A system that stores all keys in plain text.",
+    "Option2": "A system for managing cryptographic keys throughout their lifecycle, including creation, storage, distribution, usage, and destruction, providing secure and centralized control.",
+    "Option3": "A system for breaking encryption.",
+    "Option4": "A system for generating random numbers only.",
+    "Answer": "A system for managing cryptographic keys throughout their lifecycle, including creation, storage, distribution, usage, and destruction, providing secure and centralized control."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Data Remanence'?",
+    "Option1": "The process of securely erasing data.",
+    "Option2": "The residual representation of data that remains even after attempts have been made to erase or remove it, which can be recovered through forensic techniques.",
+    "Option3": "Data that is stored in encrypted format.",
+    "Option4": "Data that is actively being used in memory.",
+    "Answer": "The residual representation of data that remains even after attempts have been made to erase or remove it, which can be recovered through forensic techniques."
+  },
+  {
+    "question_no.": 169,
+    "Question": "How does encryption help mitigate data remanence risk?",
+    "Option1": "By physically destroying storage devices.",
+    "Option2": "By making any remaining residual data unintelligible and unusable without the decryption key, even if it can be recovered.",
+    "Option3": "By automatically overwriting data multiple times.",
+    "Option4": "By only storing data temporarily.",
+    "Answer": "By making any remaining residual data unintelligible and unusable without the decryption key, even if it can be recovered."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Homomorphic Hashing'?",
+    "Option1": "A type of reversible hashing.",
+    "Option2": "A concept where certain operations on original data are reflected in the hash value, allowing for specific computations on the hash without decrypting the data (still largely theoretical).",
+    "Option3": "A hashing method for small files only.",
+    "Option4": "A technique to reduce hash collisions.",
+    "Answer": "A concept where certain operations on original data are reflected in the hash value, allowing for specific computations on the hash without decrypting the data (still largely theoretical)."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Blind Signature'?",
+    "Option1": "A digital signature that reveals the content of the message.",
+    "Option2": "A type of digital signature where the content of the message is hidden from the signer, allowing for privacy-preserving digital transactions (e.g., in digital cash systems).",
+    "Option3": "A signature that cannot be verified.",
+    "Option4": "A signature used for physical documents.",
+    "Answer": "A type of digital signature where the content of the message is hidden from the signer, allowing for privacy-preserving digital transactions (e.g., in digital cash systems)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Digital Watermarking'?",
+    "Option1": "A type of encryption for images.",
+    "Option2": "The process of embedding information (a 'watermark') into a digital signal (e.g., image, audio, video) in a way that is difficult to remove, often for copyright protection or proof of ownership.",
+    "Option3": "A method for compressing digital files.",
+    "Option4": "A technique for securing network protocols.",
+    "Answer": "The process of embedding information (a 'watermark') into a digital signal (e.g., image, audio, video) in a way that is difficult to remove, often for copyright protection or proof of ownership."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Cryptographic Primitives'?",
+    "Option1": "Complex cryptographic systems.",
+    "Option2": "Basic, low-level cryptographic algorithms that serve as building blocks for more complex protocols.",
+    "Option3": "Tools used for cryptanalysis.",
+    "Option4": "A type of attack on cryptographic systems.",
+    "Answer": "Basic, low-level cryptographic algorithms that serve as building blocks for more complex protocols."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Cryptographic Algorithm Agility'?",
+    "Option1": "The ability to quickly encrypt and decrypt data.",
+    "Option2": "The ability of a system to easily switch between different cryptographic algorithms, modes, and key lengths.",
+    "Option3": "The speed of generating cryptographic keys.",
+    "Option4": "The resistance of an algorithm to brute-force attacks.",
+    "Answer": "The ability of a system to easily switch between different cryptographic algorithms, modes, and key lengths."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Transport Layer Security (TLS)'?",
+    "Option1": "An outdated protocol for secure communication.",
+    "Option2": "A cryptographic protocol that provides secure communication over a computer network, widely used for secure web Browse (HTTPS).",
+    "Option3": "A protocol for unencrypted file transfer.",
+    "Option4": "A standard for physical security.",
+    "Answer": "A cryptographic protocol that provides secure communication over a computer network, widely used for secure web Browse (HTTPS)."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Authentication Header (AH)' in IPSec?",
+    "Option1": "A protocol for encrypting data.",
+    "Option2": "An IPsec protocol that provides connectionless data integrity, data authentication, and anti-replay services, but does not offer confidentiality (encryption).",
+    "Option3": "A protocol for key exchange only.",
+    "Option4": "A protocol for digital signatures.",
+    "Answer": "An IPsec protocol that provides connectionless data integrity, data authentication, and anti-replay services, but does not offer confidentiality (encryption)."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Encapsulating Security Payload (ESP)' in IPSec?",
+    "Option1": "An IPsec protocol that only provides integrity.",
+    "Option2": "An IPsec protocol that provides confidentiality (encryption), data origin authentication, connectionless integrity, an anti-replay service, and limited traffic flow confidentiality.",
+    "Option3": "A protocol for key management only.",
+    "Option4": "A protocol for secure routing.",
+    "Answer": "An IPsec protocol that provides confidentiality (encryption), data origin authentication, connectionless integrity, an anti-replay service, and limited traffic flow confidentiality."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'IPsec'?",
+    "Option1": "A protocol for application-layer security.",
+    "Option2": "A suite of protocols for securing Internet Protocol (IP) communications by authenticating and encrypting each IP packet of a communication session.",
+    "Option3": "A standard for wireless network security.",
+    "Option4": "A method for firewall configuration.",
+    "Answer": "A suite of protocols for securing Internet Protocol (IP) communications by authenticating and encrypting each IP packet of a communication session."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Key Agreement'?",
+    "Option1": "A process where one party generates and sends a key to another.",
+    "Option2": "A process where two or more parties compute a shared secret key without either party having explicitly chosen the key.",
+    "Option3": "A method for recovering lost keys.",
+    "Option4": "A system for distributing public keys.",
+    "Answer": "A process where two or more parties compute a shared secret key without either party having explicitly chosen the key."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Key Transport'?",
+    "Option1": "A process where two or more parties compute a shared secret key.",
+    "Option2": "A process where one party encrypts a key and sends it to another party.",
+    "Option3": "A method for destroying cryptographic keys.",
+    "Option4": "A system for managing key generation.",
+    "Answer": "A process where one party encrypts a key and sends it to another party."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is a 'Session Key'?",
+    "Option1": "A long-term key used for all communications.",
+    "Option2": "A temporary symmetric key used for the duration of a single communication session.",
+    "Option3": "A public key for authentication.",
+    "Option4": "A key used only for digital signatures.",
+    "Answer": "A temporary symmetric key used for the duration of a single communication session."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Digital Certificate Revocation'?",
+    "Option1": "Issuing a new digital certificate.",
+    "Option2": "Invalidating a digital certificate before its expiration date.",
+    "Option3": "Renewing an expired certificate.",
+    "Option4": "Creating a backup of a certificate.",
+    "Answer": "Invalidating a digital certificate before its expiration date."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is the purpose of 'Certificate Pinning'?",
+    "Option1": "To make certificates easier to share.",
+    "Option2": "To prevent Man-in-the-Middle attacks by pre-configuring clients to trust only specific certificates or public keys for a given domain.",
+    "Option3": "To increase the lifespan of digital certificates.",
+    "Option4": "To automate certificate renewal.",
+    "Answer": "To prevent Man-in-the-Middle attacks by pre-configuring clients to trust only specific certificates or public keys for a given domain."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is a 'Wildcard Certificate'?",
+    "Option1": "A certificate for a single domain name only.",
+    "Option2": "A digital certificate that can be used to secure multiple subdomains of a primary domain (e.g., *.example.com).",
+    "Option3": "A certificate that covers multiple unrelated domain names.",
+    "Option4": "A certificate that does not require validation.",
+    "Answer": "A digital certificate that can be used to secure multiple subdomains of a primary domain (e.g., *.example.com)."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is a 'Subject Alternative Name (SAN) Certificate'?",
+    "Option1": "A certificate that secures only one domain name.",
+    "Option2": "A digital certificate that allows a single certificate to secure multiple domain names, host names, or IP addresses (e.g., example.com, example.net, mail.example.com).",
+    "Option3": "A certificate used only for testing.",
+    "Option4": "A certificate for internal networks only.",
+    "Answer": "A digital certificate that allows a single certificate to secure multiple domain names, host names, or IP addresses (e.g., example.com, example.net, mail.example.com)."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is a 'Self-Signed Certificate'?",
+    "Option1": "A certificate issued by a trusted Certificate Authority.",
+    "Option2": "A digital certificate that is signed by the entity it identifies, rather than by a trusted third-party CA, often used for internal or testing purposes.",
+    "Option3": "A certificate that encrypts itself.",
+    "Option4": "A certificate that can only be used once.",
+    "Answer": "A digital certificate that is signed by the entity it identifies, rather than by a trusted third-party CA, often used for internal or testing purposes."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Hardware Cryptography'?",
+    "Option1": "Cryptography implemented purely in software.",
+    "Option2": "Cryptographic operations performed by dedicated hardware devices (e.g., HSMs, TPMs) rather than software, offering increased security and performance.",
+    "Option3": "A theoretical concept in cryptography.",
+    "Option4": "A type of attack on cryptographic systems.",
+    "Answer": "Cryptographic operations performed by dedicated hardware devices (e.g., HSMs, TPMs) rather than software, offering increased security and performance."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Software Cryptography'?",
+    "Option1": "Cryptography implemented by dedicated hardware.",
+    "Option2": "Cryptographic operations performed by software running on a general-purpose processor, offering flexibility but generally less security and performance than hardware cryptography.",
+    "Option3": "A type of physical security measure.",
+    "Option4": "A method for generating random numbers.",
+    "Answer": "Cryptographic operations performed by software running on a general-purpose processor, offering flexibility but generally less security and performance than hardware cryptography."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Cryptographic Hash Collision'?",
+    "Option1": "When two identical inputs produce different hash outputs.",
+    "Option2": "When two different inputs produce the exact same hash output, which is a critical weakness for cryptographic hash functions.",
+    "Option3": "When a hash function is too slow.",
+    "Option4": "When a hash value is too short.",
+    "Answer": "When two different inputs produce the exact same hash output, which is a critical weakness for cryptographic hash functions."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Pre-image Resistance' in hashing?",
+    "Option1": "It's easy to find an input that produces a specific hash output.",
+    "Option2": "Given a hash output, it is computationally infeasible to find the original input that produced it.",
+    "Option3": "It's easy to find two different inputs that produce the same hash.",
+    "Option4": "It's easy to find a second input that produces the same hash as a given input.",
+    "Answer": "Given a hash output, it is computationally infeasible to find the original input that produced it."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Second Pre-image Resistance' in hashing?",
+    "Option1": "Given an input and its hash output, it is computationally easy to find a different input with the same hash output.",
+    "Option2": "Given an input and its hash output, it is computationally infeasible to find a second, different input that produces the same hash output.",
+    "Option3": "It is easy to find any two inputs with the same hash output.",
+    "Option4": "It is easy to reverse the hash function.",
+    "Answer": "Given an input and its hash output, it is computationally infeasible to find a second, different input that produces the same hash output."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is a 'Cryptosystem'?",
+    "Option1": "A single cryptographic algorithm.",
+    "Option2": "A complete suite of algorithms, protocols, and procedures for secure communication, including key management, encryption, decryption, and authentication processes.",
+    "Option3": "A physical device for encryption.",
+    "Option4": "A software program for generating keys.",
+    "Answer": "A complete suite of algorithms, protocols, and procedures for secure communication, including key management, encryption, decryption, and authentication processes."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Confidentiality Attack' in cryptography?",
+    "Option1": "An attack that aims to modify data.",
+    "Option2": "An attack that aims to reveal the plaintext of encrypted data to unauthorized parties.",
+    "Option3": "An attack that aims to make data unavailable.",
+    "Option4": "An attack that aims to compromise integrity.",
+    "Answer": "An attack that aims to reveal the plaintext of encrypted data to unauthorized parties."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Integrity Attack' in cryptography?",
+    "Option1": "An attack that aims to reveal data.",
+    "Option2": "An attack that aims to modify or corrupt data without detection.",
+    "Option3": "An attack that aims to make data unavailable.",
+    "Option4": "An attack that aims to steal cryptographic keys.",
+    "Answer": "An attack that aims to modify or corrupt data without detection."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Availability Attack' in cryptography?",
+    "Option1": "An attack that aims to reveal data.",
+    "Option2": "An attack that aims to prevent authorized users from accessing encrypted data or cryptographic services (e.g., DoS attack on a CA).",
+    "Option3": "An attack that aims to modify data.",
+    "Option4": "An attack that aims to steal private keys.",
+    "Answer": "An attack that aims to prevent authorized users from accessing encrypted data or cryptographic services (e.g., DoS attack on a CA)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is a 'Quantum Computer' in the context of cryptography?",
+    "Option1": "A faster version of a classical computer.",
+    "Option2": "A type of computer that uses quantum-mechanical phenomena (superposition, entanglement) to perform calculations, posing a potential threat to current public-key cryptography.",
+    "Option3": "A computer specifically designed for encryption.",
+    "Option4": "A computer that can only run quantum algorithms.",
+    "Answer": "A type of computer that uses quantum-mechanical phenomena (superposition, entanglement) to perform calculations, posing a potential threat to current public-key cryptography."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Shor's Algorithm'?",
+    "Option1": "A classical algorithm for factoring large numbers.",
+    "Option2": "A quantum algorithm that can efficiently factor large integers and compute discrete logarithms, which would break widely used public-key cryptosystems like RSA and ECC.",
+    "Option3": "A quantum algorithm for symmetric key encryption.",
+    "Option4": "A classical algorithm for hashing.",
+    "Answer": "A quantum algorithm that can efficiently factor large integers and compute discrete logarithms, which would break widely used public-key cryptosystems like RSA and ECC."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Grover's Algorithm'?",
+    "Option1": "A quantum algorithm that can solve the factoring problem.",
+    "Option2": "A quantum algorithm that provides a quadratic speedup for unstructured search problems, potentially reducing the effective key length of symmetric-key ciphers by half (e.g., AES 128-bit becomes 64-bit equivalent).",
+    "Option3": "A quantum algorithm for digital signatures.",
+    "Option4": "A classical algorithm for brute-force attacks.",
+    "Answer": "A quantum algorithm that provides a quadratic speedup for unstructured search problems, potentially reducing the effective key length of symmetric-key ciphers by half (e.g., AES 128-bit becomes 64-bit equivalent)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Why is 'Post-Quantum Cryptography' necessary?",
+    "Option1": "To make current encryption faster.",
+    "Option2": "Because current asymmetric (RSA, ECC) and symmetric (AES with sufficiently large key sizes) algorithms are vulnerable to attacks by future large-scale quantum computers.",
+    "Option3": "To simplify key management.",
+    "Option4": "To eliminate the need for digital certificates.",
+    "Answer": "Because current asymmetric (RSA, ECC) and symmetric (AES with sufficiently large key sizes) algorithms are vulnerable to attacks by future large-scale quantum computers."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is a 'Cryptographic Backdoor'?",
+    "Option1": "A legitimate way to recover lost keys.",
+    "Option2": "A secret method or vulnerability intentionally built into a cryptographic system that allows unauthorized access or bypasses security.",
+    "Option3": "A tool for generating random numbers.",
+    "Option4": "A feature that enhances cryptographic strength.",
+    "Answer": "A secret method or vulnerability intentionally built into a cryptographic system that allows unauthorized access or bypasses security."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Key Ceremony'?",
+    "Option1": "A process for rapidly distributing cryptographic keys.",
+    "Option2": "A formal, audited process for generating, distributing, and activating cryptographic keys, especially for root CAs or master keys, often involving multiple participants to ensure trust and transparency.",
+    "Option3": "A method for destroying cryptographic keys.",
+    "Option4": "A simple, automated key generation process.",
+    "Answer": "A formal, audited process for generating, distributing, and activating cryptographic keys, especially for root CAs or master keys, often involving multiple participants to ensure trust and transparency."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Cryptographic Period'?",
+    "Option1": "The duration of an encryption process.",
+    "Option2": "The length of time a cryptographic key or algorithm remains effective and secure before it needs to be retired or replaced due to advancements in cryptanalysis or key compromise.",
+    "Option3": "The time it takes to decrypt a message.",
+    "Option4": "The interval between generating new keys.",
+    "Answer": "The length of time a cryptographic key or algorithm remains effective and secure before it needs to be retired or replaced due to advancements in cryptanalysis or key compromise."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Zero-Knowledge Proof'?",
+    "Option1": "A method that reveals all information during authentication.",
+    "Option2": "A cryptographic method allowing one party to prove they know a secret without revealing the secret itself.",
+    "Option3": "A technique for creating secret keys.",
+    "Option4": "A method for breaking encryption without a key.",
+    "Answer": "A cryptographic method allowing one party to prove they know a secret without revealing the secret itself."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Homomorphic Encryption'?",
+    "Option1": "An encryption method that is easily reversible.",
+    "Option2": "A form of encryption that allows computations on ciphertext, producing an encrypted result that matches the computation if performed on plaintext.",
+    "Option3": "An encryption method that only works for small data sets.",
+    "Option4": "Encryption that uses a single, fixed key for all operations.",
+    "Answer": "A form of encryption that allows computations on ciphertext, producing an encrypted result that matches the computation if performed on plaintext."
+  }
+]

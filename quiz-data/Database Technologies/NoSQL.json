@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does NoSQL stand for?",
+    "Option1": "No Structured Query Language",
+    "Option2": "Not Only SQL",
+    "Option3": "New Standard Query Language",
+    "Option4": "Non-Standard Query Logic",
+    "Answer": "Not Only SQL"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a characteristic typically associated with NoSQL databases?",
+    "Option1": "Schema-less or flexible schema",
+    "Option2": "Horizontal scalability",
+    "Option3": "ACID compliance for all operations",
+    "Option4": "Distributed architecture",
+    "Answer": "ACID compliance for all operations"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which NoSQL database type stores data in key-value pairs?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value database"
+  },
+  {
+    "question_no.": 4,
+    "Question": "MongoDB is an example of which type of NoSQL database?",
+    "Option1": "Key-Value database",
+    "Option2": "Document database",
+    "Option3": "Graph database",
+    "Option4": "Column-Family database",
+    "Answer": "Document database"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which NoSQL database type stores data as nodes and edges?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Graph database"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Cassandra is an example of which type of NoSQL database?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Column-Family database"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the primary advantage of horizontal scalability in NoSQL databases?",
+    "Option1": "Reduced hardware costs",
+    "Option2": "Increased storage capacity and performance by adding more servers",
+    "Option3": "Improved data consistency",
+    "Option4": "Simplified data modeling",
+    "Answer": "Increased storage capacity and performance by adding more servers"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which consistency model is often adopted by NoSQL databases for high availability?",
+    "Option1": "Strict Consistency",
+    "Option2": "Immediate Consistency",
+    "Option3": "Eventual Consistency",
+    "Option4": "Transactional Consistency",
+    "Answer": "Eventual Consistency"
+  },
+  {
+    "question_no.": 9,
+    "Question": "The CAP theorem states that a distributed system can only guarantee two out of three properties. What do C, A, and P stand for?",
+    "Option1": "Consistency, Availability, Partition Tolerance",
+    "Option2": "Concurrency, Atomicity, Performance",
+    "Option3": "Cohesion, Access, Persistence",
+    "Option4": "Complexity, Administration, Portability",
+    "Answer": "Consistency, Availability, Partition Tolerance"
+  },
+  {
+    "question_no.": 10,
+    "Question": "In a document database, what is a 'document' typically represented as?",
+    "Option1": "A row in a table",
+    "Option2": "A single, self-contained data structure, often JSON or BSON",
+    "Option3": "A relationship between two entities",
+    "Option4": "A column family",
+    "Answer": "A single, self-contained data structure, often JSON or BSON"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which use case is most suitable for a Key-Value NoSQL database?",
+    "Option1": "Complex analytical queries",
+    "Option2": "Storing user sessions or caching data",
+    "Option3": "Managing highly interconnected data like social networks",
+    "Option4": "Storing hierarchical documents with varying structures",
+    "Answer": "Storing user sessions or caching data"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the primary characteristic that makes Column-Family databases different from relational databases?",
+    "Option1": "They store data in rows instead of columns.",
+    "Option2": "They organize data into column families, where columns within a row can be sparse.",
+    "Option3": "They enforce strict schemas.",
+    "Option4": "They do not support indexing.",
+    "Answer": "They organize data into column families, where columns within a row can be sparse."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which NoSQL database is known for its flexible schema and ability to handle large volumes of unstructured or semi-structured data?",
+    "Option1": "MySQL",
+    "Option2": "Oracle Database",
+    "Option3": "MongoDB",
+    "Option4": "PostgreSQL",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Neo4j is a popular example of which NoSQL database type?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Graph database"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is 'Sharding' in the context of NoSQL databases?",
+    "Option1": "Creating backups of the database.",
+    "Option2": "Distributing data across multiple servers (shards) to achieve horizontal scalability.",
+    "Option3": "Encrypting data for security.",
+    "Option4": "Optimizing queries for faster execution.",
+    "Answer": "Distributing data across multiple servers (shards) to achieve horizontal scalability."
+  },
+  {
+    "question_no.": 16,
+    "Question": "When would you generally choose a NoSQL database over a traditional relational database?",
+    "Option1": "When ACID compliance is strictly required for all transactions.",
+    "Option2": "When dealing with highly structured data and complex joins.",
+    "Option3": "When requiring high scalability, flexible schema, and handling large volumes of unstructured data.",
+    "Option4": "When legacy systems need to be integrated without changes.",
+    "Answer": "When requiring high scalability, flexible schema, and handling large volumes of unstructured data."
+  },
+  {
+    "question_no.": 17,
+    "Question": "Redis is commonly used as a cache. Which NoSQL database type is Redis?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value database"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What does 'Eventual Consistency' imply in a distributed NoSQL database?",
+    "Option1": "All replicas are immediately consistent after a write operation.",
+    "Option2": "Reads always return the latest written value.",
+    "Option3": "Data will eventually propagate to all replicas, but there might be a delay.",
+    "Option4": "Data consistency is never guaranteed.",
+    "Answer": "Data will eventually propagate to all replicas, but there might be a delay."
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which NoSQL database typically excels at handling time-series data due to its column-oriented nature?",
+    "Option1": "MongoDB",
+    "Option2": "Neo4j",
+    "Option3": "Cassandra",
+    "Option4": "Redis",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'collection' in a Document database like MongoDB analogous to in a relational database?",
+    "Option1": "A table",
+    "Option2": "A row",
+    "Option3": "A column",
+    "Option4": "A database",
+    "Answer": "A table"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which characteristic is NOT a typical benefit of NoSQL databases?",
+    "Option1": "Agile development",
+    "Option2": "Complex ad-hoc querying with joins",
+    "Option3": "Handling big data",
+    "Option4": "High performance for specific use cases",
+    "Answer": "Complex ad-hoc querying with joins"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which NoSQL database uses a query language called Cypher?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "Neo4j"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the primary way to achieve scalability in relational databases?",
+    "Option1": "Horizontal scaling (sharding)",
+    "Option2": "Vertical scaling (adding more powerful hardware)",
+    "Option3": "Eventual consistency",
+    "Option4": "Flexible schemas",
+    "Answer": "Vertical scaling (adding more powerful hardware)"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which NoSQL database is well-suited for real-time analytics and personalization engines?",
+    "Option1": "Couchbase (Document/Key-Value Hybrid)",
+    "Option2": "Neo4j (Graph)",
+    "Option3": "Redis (Key-Value)",
+    "Option4": "All of the above, depending on the specific use case",
+    "Answer": "All of the above, depending on the specific use case"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'MapReduce' in the context of NoSQL databases (especially older ones like CouchDB or Hadoop ecosystem)?",
+    "Option1": "A data modeling technique.",
+    "Option2": "A programming model for processing large datasets with a parallel, distributed algorithm.",
+    "Option3": "A method for database backup.",
+    "Option4": "A type of data visualization tool.",
+    "Answer": "A programming model for processing large datasets with a parallel, distributed algorithm."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Amazon DynamoDB is a managed NoSQL database service. Which type of NoSQL database is it?",
+    "Option1": "Document database",
+    "Option2": "Key-Value and Document database",
+    "Option3": "Graph database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value and Document database"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the main characteristic of a 'schema-less' database?",
+    "Option1": "It does not require any data types.",
+    "Option2": "It requires a fixed schema for every table.",
+    "Option3": "It allows documents or records to have different structures within the same collection.",
+    "Option4": "It cannot store any metadata.",
+    "Answer": "It allows documents or records to have different structures within the same collection."
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which of the following is a common use case for Graph databases?",
+    "Option1": "Storing simple user profiles.",
+    "Option2": "Managing highly interconnected data, such as social networks, fraud detection, or recommendation engines.",
+    "Option3": "Logging application events.",
+    "Option4": "Storing large binary objects.",
+    "Answer": "Managing highly interconnected data, such as social networks, fraud detection, or recommendation engines."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'partition key' in a NoSQL database?",
+    "Option1": "A key used for encrypting data.",
+    "Option2": "A key that determines how data is distributed across different nodes or partitions.",
+    "Option3": "A key used for sorting data within a single partition.",
+    "Option4": "A key that uniquely identifies a record across the entire database.",
+    "Answer": "A key that determines how data is distributed across different nodes or partitions."
+  },
+  {
+    "question_no.": 30,
+    "Question": "Apache CouchDB is an example of which NoSQL database type?",
+    "Option1": "Key-Value database",
+    "Option2": "Document database",
+    "Option3": "Graph database",
+    "Option4": "Column-Family database",
+    "Answer": "Document database"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which of the following ACID properties is often relaxed in NoSQL databases to achieve higher availability and scalability?",
+    "Option1": "Atomicity",
+    "Option2": "Consistency",
+    "Option3": "Isolation",
+    "Option4": "Durability",
+    "Answer": "Consistency"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Data Denormalization' in the context of NoSQL databases?",
+    "Option1": "Breaking down data into smaller, more granular tables.",
+    "Option2": "Storing redundant copies of data to improve read performance and reduce joins.",
+    "Option3": "Normalizing data to reduce redundancy.",
+    "Option4": "Encrypting data for security.",
+    "Answer": "Storing redundant copies of data to improve read performance and reduce joins."
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which query language is typically NOT used with NoSQL databases?",
+    "Option1": "SQL",
+    "Option2": "MongoDB Query Language (MQL)",
+    "Option3": "Cypher",
+    "Option4": "Gremlin",
+    "Answer": "SQL"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is a 'Node' in a Graph database?",
+    "Option1": "A relationship between two entities.",
+    "Option2": "An entity or an object, similar to a row in a relational database.",
+    "Option3": "A property of a relationship.",
+    "Option4": "A query language element.",
+    "Answer": "An entity or an object, similar to a row in a relational database."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is an 'Edge' in a Graph database?",
+    "Option1": "An entity or an object.",
+    "Option2": "A property of a node.",
+    "Option3": "A relationship between two nodes.",
+    "Option4": "A type of index.",
+    "Answer": "A relationship between two nodes."
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which NoSQL database is often used for internet of things (IoT) data ingestion and processing?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the main benefit of a flexible schema in Document databases?",
+    "Option1": "Faster query execution.",
+    "Option2": "Easier to adapt to changing data requirements and evolve applications.",
+    "Option3": "Stronger data integrity.",
+    "Option4": "Reduced storage space.",
+    "Answer": "Easier to adapt to changing data requirements and evolve applications."
+  },
+  {
+    "question_no.": 38,
+    "Question": "When migrating from a relational database to a NoSQL database, what is a key consideration regarding data modeling?",
+    "Option1": "Strict adherence to normalization forms.",
+    "Option2": "Focus on denormalization and embedding data where appropriate.",
+    "Option3": "Maintaining primary and foreign key relationships.",
+    "Option4": "Using SQL for complex queries.",
+    "Answer": "Focus on denormalization and embedding data where appropriate."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which type of NoSQL database is best for storing user preferences and real-time inventory counts?",
+    "Option1": "Document database",
+    "Option2": "Key-Value database",
+    "Option3": "Graph database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value database"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the concept of 'Event Sourcing' often used with NoSQL databases?",
+    "Option1": "Storing only the latest state of an entity.",
+    "Option2": "Storing all changes to an application's state as a sequence of immutable events.",
+    "Option3": "A method for data migration.",
+    "Option4": "A technique for querying data.",
+    "Answer": "Storing all changes to an application's state as a sequence of immutable events."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which NoSQL database is known for its ability to handle both key-value and document-oriented data?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "Couchbase",
+    "Option4": "Cassandra",
+    "Answer": "Couchbase"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Atomicity' in ACID properties?",
+    "Option1": "Transactions can be broken down into smaller units.",
+    "Option2": "Transactions are treated as a single, indivisible unit; either all operations succeed, or none do.",
+    "Option3": "Transactions are executed concurrently.",
+    "Option4": "Transactions are permanently stored.",
+    "Answer": "Transactions are treated as a single, indivisible unit; either all operations succeed, or none do."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which NoSQL database type would be ideal for a recommendation engine that suggests friends or products based on relationships?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the 'Query Language' used by MongoDB?",
+    "Option1": "SQL",
+    "Option2": "Cypher",
+    "Option3": "MQL (MongoDB Query Language)",
+    "Option4": "Gremlin",
+    "Answer": "MQL (MongoDB Query Language)"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the benefit of 'eventual consistency' in a distributed system?",
+    "Option1": "Guaranteed immediate data consistency.",
+    "Option2": "Higher availability and better performance, especially in highly distributed environments.",
+    "Option3": "Simplified data modeling.",
+    "Option4": "Reduced data storage.",
+    "Answer": "Higher availability and better performance, especially in highly distributed environments."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which NoSQL database is an open-source, highly scalable, and high-performance distributed database designed to handle large amounts of data across many commodity servers?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is a 'BSON' document in MongoDB?",
+    "Option1": "A compressed image format.",
+    "Option2": "A binary-encoded serialization of JSON-like documents, designed for efficient storage and traversal.",
+    "Option3": "A textual representation of data.",
+    "Option4": "A type of index.",
+    "Answer": "A binary-encoded serialization of JSON-like documents, designed for efficient storage and traversal."
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which factor is most likely to lead to choosing a NoSQL database over a relational one?",
+    "Option1": "Need for complex joins and ACID transactions.",
+    "Option2": "Requirement for high throughput and low latency at scale with flexible data structures.",
+    "Option3": "Strict adherence to a predefined schema.",
+    "Option4": "Limited data volume.",
+    "Answer": "Requirement for high throughput and low latency at scale with flexible data structures."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Time-to-Live (TTL)' in the context of NoSQL databases like Cassandra or DynamoDB?",
+    "Option1": "The maximum query execution time.",
+    "Option2": "A mechanism to automatically expire and delete data after a specified period.",
+    "Option3": "The duration a database remains online.",
+    "Option4": "The time it takes to backup data.",
+    "Answer": "A mechanism to automatically expire and delete data after a specified period."
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which NoSQL database is often considered a good choice for content management systems and blogging platforms due to its document-oriented nature?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "MongoDB",
+    "Option4": "Cassandra",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is a 'Super Column' in a Column-Family database like Cassandra?",
+    "Option1": "A column with a very long name.",
+    "Option2": "A column that contains other columns, providing a nested structure.",
+    "Option3": "A column that stores binary data.",
+    "Option4": "A primary key column.",
+    "Answer": "A column that contains other columns, providing a nested structure."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which language is used for graph traversal in many Graph databases, including Neo4j and Amazon Neptune?",
+    "Option1": "SQL",
+    "Option2": "Cypher",
+    "Option3": "Gremlin",
+    "Option4": "Both Cypher and Gremlin (depending on the database)",
+    "Answer": "Both Cypher and Gremlin (depending on the database)"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What does 'CAP' stand for in the CAP theorem?",
+    "Option1": "Confidentiality, Authenticity, Privacy",
+    "Option2": "Consistency, Availability, Partition tolerance",
+    "Option3": "Client, Application, Processor",
+    "Option4": "Cache, Access, Performance",
+    "Answer": "Consistency, Availability, Partition tolerance"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Distributed Consensus' in the context of NoSQL databases (e.g., Raft, Paxos)?",
+    "Option1": "A method for sharding data.",
+    "Option2": "A protocol that allows multiple servers to agree on a single value or state, ensuring data consistency in distributed systems.",
+    "Option3": "A technique for data replication.",
+    "Option4": "A strategy for handling network failures.",
+    "Answer": "A protocol that allows multiple servers to agree on a single value or state, ensuring data consistency in distributed systems."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which NoSQL database type is known for its high performance for simple read/write operations and is often used for caching?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value database"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is a 'Document-Oriented Database'?",
+    "Option1": "A database that stores data in structured tables.",
+    "Option2": "A database that stores data in flexible, self-describing JSON-like documents.",
+    "Option3": "A database designed for storing large binary files.",
+    "Option4": "A database that focuses on relationships between entities.",
+    "Answer": "A database that stores data in flexible, self-describing JSON-like documents."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the primary motivation behind using NoSQL databases for 'Big Data' applications?",
+    "Option1": "Their strict schema enforcement.",
+    "Option2": "Their ability to scale horizontally and handle diverse, high-volume data.",
+    "Option3": "Their strong support for complex joins.",
+    "Option4": "Their mature SQL querying capabilities.",
+    "Answer": "Their ability to scale horizontally and handle diverse, high-volume data."
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which NoSQL database provides a highly available, eventually consistent key-value store with support for rich data types and Lua scripting?",
+    "Option1": "Cassandra",
+    "Option2": "Neo4j",
+    "Option3": "Redis",
+    "Option4": "MongoDB",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Index' in a NoSQL database?",
+    "Option1": "A method for encrypting data.",
+    "Option2": "A data structure that improves the speed of data retrieval operations on a database table or collection.",
+    "Option3": "A type of data backup.",
+    "Option4": "A way to define relationships between documents.",
+    "Answer": "A data structure that improves the speed of data retrieval operations on a database table or collection."
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which NoSQL database offers powerful aggregation framework for complex data analysis?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "MongoDB",
+    "Option4": "Cassandra",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is a 'Graph traversal' in Graph databases?",
+    "Option1": "A method for creating new nodes.",
+    "Option2": "The process of navigating through the nodes and edges of a graph to find patterns or relationships.",
+    "Option3": "A technique for data indexing.",
+    "Option4": "A way to define data schema.",
+    "Answer": "The process of navigating through the nodes and edges of a graph to find patterns or relationships."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which of the following is an open-source, distributed document database known for its RESTful API and eventual consistency?",
+    "Option1": "MongoDB",
+    "Option2": "CouchDB",
+    "Option3": "RethinkDB",
+    "Option4": "RavenDB",
+    "Answer": "CouchDB"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Replication' in NoSQL databases?",
+    "Option1": "Creating multiple copies of a single document.",
+    "Option2": "Duplicating data across multiple servers to ensure high availability and fault tolerance.",
+    "Option3": "Migrating data between different database types.",
+    "Option4": "Backing up data to external storage.",
+    "Answer": "Duplicating data across multiple servers to ensure high availability and fault tolerance."
+  },
+  {
+    "question_no.": 64,
+    "Question": "When is a 'Column-Family database' a good choice?",
+    "Option1": "For highly relational data with complex joins.",
+    "Option2": "For applications requiring high write throughput and scalability with time-series or event logging data.",
+    "Option3": "For simple key-value lookups.",
+    "Option4": "For storing documents with varying structures.",
+    "Answer": "For applications requiring high write throughput and scalability with time-series or event logging data."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the concept of 'BASE' in NoSQL databases?",
+    "Option1": "Basic Availability, Soft state, Eventual consistency",
+    "Option2": "Big, Accessible, Scalable, Easy",
+    "Option3": "Binary, Atomic, Sequential, Encrypted",
+    "Option4": "Balanced, Agile, Secure, Efficient",
+    "Answer": "Basic Availability, Soft state, Eventual consistency"
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which NoSQL database is designed to handle very large data sets using a distributed file system (HDFS)?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "HBase",
+    "Option4": "Redis",
+    "Answer": "HBase"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is a 'Composite Key' in Cassandra?",
+    "Option1": "A key made up of a single column.",
+    "Option2": "A primary key composed of multiple columns, used to define the partition key and clustering columns.",
+    "Option3": "A key used for indexing data.",
+    "Option4": "A foreign key relationship.",
+    "Answer": "A primary key composed of multiple columns, used to define the partition key and clustering columns."
+  },
+  {
+    "question_no.": 68,
+    "Question": "Which NoSQL database is best suited for scenarios where data relationships are complex and frequently traversed?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'ACID' property of traditional relational databases?",
+    "Option1": "Accessibility, Consistency, Integrity, Durability",
+    "Option2": "Atomicity, Consistency, Isolation, Durability",
+    "Option3": "Agility, Concurrency, Indexing, Data integrity",
+    "Option4": "Automation, Caching, Input, Output",
+    "Answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which NoSQL database is commonly used for real-time leaderboards in gaming applications?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the primary difference in data access patterns between SQL and NoSQL databases?",
+    "Option1": "SQL is designed for complex, flexible queries; NoSQL for simple, optimized queries.",
+    "Option2": "SQL uses tables and joins; NoSQL uses collections, documents, or graph traversals.",
+    "Option3": "SQL is only for reads; NoSQL is only for writes.",
+    "Option4": "SQL uses stored procedures; NoSQL uses functions.",
+    "Answer": "SQL uses tables and joins; NoSQL uses collections, documents, or graph traversals."
+  },
+  {
+    "question_no.": 72,
+    "Question": "When would you prefer a relational database over a NoSQL database?",
+    "Option1": "When dealing with rapidly changing, unstructured data.",
+    "Option2": "When requiring complex joins, strong consistency, and adherence to a predefined schema.",
+    "Option3": "When building a highly scalable, distributed system.",
+    "Option4": "When needing to store petabytes of data.",
+    "Answer": "When requiring complex joins, strong consistency, and adherence to a predefined schema."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which NoSQL database is well-suited for a real-time analytics dashboard with high write velocity?",
+    "Option1": "Neo4j",
+    "Option2": "Redis",
+    "Option3": "Cassandra",
+    "Option4": "MongoDB",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'JSON' in the context of Document databases?",
+    "Option1": "A programming language.",
+    "Option2": "A lightweight data-interchange format often used for representing documents.",
+    "Option3": "A type of database index.",
+    "Option4": "A security protocol.",
+    "Answer": "A lightweight data-interchange format often used for representing documents."
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which NoSQL database is known for its flexible schema, native JSON support, and rich query language?",
+    "Option1": "Cassandra",
+    "Option2": "Redis",
+    "Option3": "MongoDB",
+    "Option4": "Neo4j",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is a 'Primary Key' in a Key-Value database?",
+    "Option1": "A value associated with a key.",
+    "Option2": "The unique identifier used to retrieve the associated value.",
+    "Option3": "A way to group multiple key-value pairs.",
+    "Option4": "An index on the value.",
+    "Answer": "The unique identifier used to retrieve the associated value."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Data Locality' in distributed NoSQL databases?",
+    "Option1": "Storing all data on a single server.",
+    "Option2": "Processing data on the node where it is stored to minimize network transfer.",
+    "Option3": "Ensuring data is consistent across all locations.",
+    "Option4": "Encrypting data based on geographical location.",
+    "Answer": "Processing data on the node where it is stored to minimize network transfer."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Which NoSQL database would be suitable for managing user profiles that evolve frequently with new fields?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Document"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Scalability' in the context of databases?",
+    "Option1": "The ability to reduce database size.",
+    "Option2": "The ability of a system to handle a growing amount of work by adding resources.",
+    "Option3": "The ability to secure data.",
+    "Option4": "The ability to perform complex joins.",
+    "Answer": "The ability of a system to handle a growing amount of work by adding resources."
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which NoSQL database is optimized for heavy write workloads and has a ring-based architecture for distributed data?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Adjacency List' representation often used in Graph databases?",
+    "Option1": "A list of all properties of a node.",
+    "Option2": "A way to represent a graph using a list of neighbors for each node.",
+    "Option3": "A method for indexing edges.",
+    "Option4": "A format for exporting graph data.",
+    "Answer": "A way to represent a graph using a list of neighbors for each node."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Apache HBase'?",
+    "Option1": "A SQL database.",
+    "Option2": "An open-source, non-relational, distributed database modeled after Google's Bigtable, often used on top of HDFS.",
+    "Option3": "A graph database.",
+    "Option4": "A key-value cache.",
+    "Answer": "An open-source, non-relational, distributed database modeled after Google's Bigtable, often used on top of HDFS."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which consistency level in Cassandra ensures that a write must be written to at least 'n' replicas before being acknowledged?",
+    "Option1": "ONE",
+    "Option2": "LOCAL_QUORUM",
+    "Option3": "ALL",
+    "Option4": "EACH_QUORUM",
+    "Answer": "LOCAL_QUORUM"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Data Modeling' in NoSQL databases?",
+    "Option1": "Designing tables with strict schemas.",
+    "Option2": "Designing how data is structured and accessed, often favoring denormalization and specific access patterns.",
+    "Option3": "The process of creating backups.",
+    "Option4": "The act of encrypting data fields.",
+    "Answer": "Designing how data is structured and accessed, often favoring denormalization and specific access patterns."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which NoSQL database is most suitable for a real-time messaging application requiring low latency and high concurrency?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the primary difference between 'sharding' and 'replication' in NoSQL databases?",
+    "Option1": "Sharding creates copies of data, replication distributes data.",
+    "Option2": "Sharding distributes data across nodes for scalability, replication copies data for high availability.",
+    "Option3": "Sharding is for reads, replication is for writes.",
+    "Option4": "There is no difference.",
+    "Answer": "Sharding distributes data across nodes for scalability, replication copies data for high availability."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which NoSQL database is a good choice for managing a product catalog with diverse product attributes?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Document"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Horizontal Scaling'?",
+    "Option1": "Adding more powerful hardware to a single server.",
+    "Option2": "Adding more servers (nodes) to a system to distribute the workload.",
+    "Option3": "Optimizing existing hardware for better performance.",
+    "Option4": "Reducing the size of the database.",
+    "Answer": "Adding more servers (nodes) to a system to distribute the workload."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Vertical Scaling'?",
+    "Option1": "Adding more servers to a system.",
+    "Option2": "Adding more powerful hardware (CPU, RAM) to a single server.",
+    "Option3": "Distributing data across multiple nodes.",
+    "Option4": "Implementing replication for high availability.",
+    "Answer": "Adding more powerful hardware (CPU, RAM) to a single server."
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which NoSQL database uses a columnar storage model and is often integrated with the Hadoop ecosystem?",
+    "Option1": "MongoDB",
+    "Option2": "Neo4j",
+    "Option3": "HBase",
+    "Option4": "Redis",
+    "Answer": "HBase"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'MongoDB Atlas'?",
+    "Option1": "A self-managed MongoDB instance.",
+    "Option2": "A fully managed cloud database service for MongoDB.",
+    "Option3": "A tool for migrating data to MongoDB.",
+    "Option4": "A local development environment for MongoDB.",
+    "Answer": "A fully managed cloud database service for MongoDB."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Conflict Resolution' in eventually consistent NoSQL databases?",
+    "Option1": "Ensuring all writes are immediately consistent.",
+    "Option2": "A mechanism to handle and reconcile conflicting updates to the same data across different replicas.",
+    "Option3": "A way to prevent network partitions.",
+    "Option4": "A method for auditing data changes.",
+    "Answer": "A mechanism to handle and reconcile conflicting updates to the same data across different replicas."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which NoSQL database is known for its strong support for geospatial data and powerful indexing capabilities?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "MongoDB",
+    "Option4": "Cassandra",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is a 'Keyspace' in Cassandra analogous to in a relational database?",
+    "Option1": "A table",
+    "Option2": "A database",
+    "Option3": "A row",
+    "Option4": "A column",
+    "Answer": "A database"
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which NoSQL database type is best for storing a very large number of relatively small objects, such as user session data or shopping cart contents?",
+    "Option1": "Document database",
+    "Option2": "Graph database",
+    "Option3": "Key-Value database",
+    "Option4": "Column-Family database",
+    "Answer": "Key-Value database"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What does 'CQL' stand for in Cassandra?",
+    "Option1": "Cassandra Query Language",
+    "Option2": "Columnar Query Logic",
+    "Option3": "Consistent Query Layer",
+    "Option4": "Core Query Library",
+    "Answer": "Cassandra Query Language"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which NoSQL database allows you to query data using SQL-like syntax (e.g., N1QL for Couchbase)?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Couchbase",
+    "Option4": "Neo4j",
+    "Answer": "Couchbase"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Eventual Consistency' a trade-off for in distributed systems?",
+    "Option1": "Stronger ACID properties.",
+    "Option2": "Higher availability and partition tolerance.",
+    "Option3": "Simpler data modeling.",
+    "Option4": "Reduced storage costs.",
+    "Answer": "Higher availability and partition tolerance."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which NoSQL database is suitable for a fraud detection system that needs to analyze complex relationships between transactions and entities?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'MongoDB Replica Set'?",
+    "Option1": "A single MongoDB instance.",
+    "Option2": "A group of MongoDB processes that maintain the same data set, providing high availability and data redundancy.",
+    "Option3": "A method for sharding data.",
+    "Option4": "A backup of a single database.",
+    "Answer": "A group of MongoDB processes that maintain the same data set, providing high availability and data redundancy."
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which NoSQL database is best for a real-time analytics application where you need to quickly access aggregated data points?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Column-Family"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the primary benefit of 'Denormalization' in NoSQL databases?",
+    "Option1": "Reduces data redundancy.",
+    "Option2": "Improves read performance by reducing the need for joins.",
+    "Option3": "Ensures strong data consistency.",
+    "Option4": "Simplifies data schema design.",
+    "Answer": "Improves read performance by reducing the need for joins."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which NoSQL database would you choose for storing a large volume of unstructured log data?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "Cassandra or MongoDB",
+    "Option4": "MySQL",
+    "Answer": "Cassandra or MongoDB"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'DynamoDB's primary consistency model for reads by default?",
+    "Option1": "Strongly Consistent Reads",
+    "Option2": "Eventually Consistent Reads",
+    "Option3": "Transactional Reads",
+    "Option4": "Causal Consistency",
+    "Answer": "Eventually Consistent Reads"
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which NoSQL database provides an in-memory data store for caching and real-time data processing?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the purpose of a 'Secondary Index' in a NoSQL database?",
+    "Option1": "To enforce uniqueness on the primary key.",
+    "Option2": "To allow efficient queries on non-primary key fields.",
+    "Option3": "To speed up write operations.",
+    "Option4": "To define relationships between documents.",
+    "Answer": "To allow efficient queries on non-primary key fields."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which type of NoSQL database is most effective for handling complex social graphs and relationship queries?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Distributed Computing' in the context of NoSQL databases?",
+    "Option1": "Running all database operations on a single powerful server.",
+    "Option2": "Using multiple interconnected computers (nodes) to solve a single problem or manage a large dataset.",
+    "Option3": "Performing calculations in a cloud environment.",
+    "Option4": "Encrypting data across different geographical locations.",
+    "Answer": "Using multiple interconnected computers (nodes) to solve a single problem or manage a large dataset."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Consistency' in the CAP theorem?",
+    "Option1": "Every read receives the most recent write or an error.",
+    "Option2": "The system remains operational even if some nodes fail.",
+    "Option3": "The system continues to operate despite network partitions.",
+    "Option4": "Data is consistent across different database types.",
+    "Answer": "Every read receives the most recent write or an error."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Availability' in the CAP theorem?",
+    "Option1": "Every read receives the most recent write or an error.",
+    "Option2": "Every request receives a (non-error) response, without guarantee that it contains the most recent write.",
+    "Option3": "The system continues to operate despite network partitions.",
+    "Option4": "Data is always accessible from any location.",
+    "Answer": "Every request receives a (non-error) response, without guarantee that it contains the most recent write."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Partition Tolerance' in the CAP theorem?",
+    "Option1": "The system can tolerate data fragmentation.",
+    "Option2": "The system continues to operate despite arbitrary numbers of messages being dropped (or delayed) by the network between nodes.",
+    "Option3": "The system can tolerate power outages.",
+    "Option4": "The system can recover from data corruption.",
+    "Answer": "The system continues to operate despite arbitrary numbers of messages being dropped (or delayed) by the network between nodes."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which NoSQL database would be suitable for building a real-time bidding platform where high throughput writes are critical?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Eventual Consistency' a characteristic of?",
+    "Option1": "Strongly consistent systems.",
+    "Option2": "Distributed systems that prioritize availability over immediate consistency.",
+    "Option3": "Centralized database systems.",
+    "Option4": "Systems that never achieve consistency.",
+    "Answer": "Distributed systems that prioritize availability over immediate consistency."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the role of a 'Shard Key' in a sharded NoSQL database?",
+    "Option1": "To encrypt data on each shard.",
+    "Option2": "To determine how data is partitioned across different shards.",
+    "Option3": "To uniquely identify a document within a shard.",
+    "Option4": "To provide a secondary index for querying.",
+    "Answer": "To determine how data is partitioned across different shards."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which NoSQL database supports complex geospatial queries and text search capabilities?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "MongoDB",
+    "Option4": "Cassandra",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Graph Theory' relevant to in the context of NoSQL?",
+    "Option1": "Key-value stores.",
+    "Option2": "Document databases.",
+    "Option3": "Graph databases.",
+    "Option4": "Column-family databases.",
+    "Answer": "Graph databases."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Polyglot Persistence'?",
+    "Option1": "Using only one type of database for all data.",
+    "Option2": "Using different types of databases for different data storage needs within a single application.",
+    "Option3": "Storing data in multiple programming languages.",
+    "Option4": "A method for encrypting data across various systems.",
+    "Answer": "Using different types of databases for different data storage needs within a single application."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Which NoSQL database is often used for real-time leaderboards and counting, given its in-memory nature and support for various data structures?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "HBase",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Apache Kafka' often used in conjunction with NoSQL databases for?",
+    "Option1": "Directly storing relational data.",
+    "Option2": "Real-time data streaming, event sourcing, and integrating with NoSQL databases for data ingestion.",
+    "Option3": "Performing complex SQL joins.",
+    "Option4": "Managing user authentication.",
+    "Answer": "Real-time data streaming, event sourcing, and integrating with NoSQL databases for data ingestion."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the main characteristic of a 'Wide-Column Store' (Column-Family) database?",
+    "Option1": "Each row has a fixed number of columns.",
+    "Option2": "Rows can have varying numbers of columns, organized into column families, and optimized for reads across columns.",
+    "Option3": "Data is stored in a hierarchical tree structure.",
+    "Option4": "It supports complex relationships like a graph database.",
+    "Answer": "Rows can have varying numbers of columns, organized into column families, and optimized for reads across columns."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which type of NoSQL database would be suitable for storing large amounts of sensor data where writes are frequent and reads are mostly range-based?",
+    "Option1": "Document",
+    "Option2": "Graph",
+    "Option3": "Key-Value",
+    "Option4": "Column-Family",
+    "Answer": "Column-Family"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'CouchDB'?",
+    "Option1": "A key-value store.",
+    "Option2": "A document-oriented NoSQL database that uses JSON for documents and JavaScript for queries (MapReduce).",
+    "Option3": "A graph database.",
+    "Option4": "A column-family database.",
+    "Answer": "A document-oriented NoSQL database that uses JSON for documents and JavaScript for queries (MapReduce)."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which NoSQL database offers 'multi-model' capabilities, meaning it can handle different data models (e.g., document, graph, key-value) within a single database system?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "ArangoDB",
+    "Option4": "Redis",
+    "Answer": "ArangoDB"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Materialized View' in the context of NoSQL databases (e.g., Cassandra's Materialized Views)?",
+    "Option1": "A real-time snapshot of the database.",
+    "Option2": "A pre-computed result set based on a query, physically stored for faster access.",
+    "Option3": "A temporary view for specific queries.",
+    "Option4": "A method for encrypting views.",
+    "Answer": "A pre-computed result set based on a query, physically stored for faster access."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which cloud provider offers 'Cosmos DB' as a globally distributed, multi-model NoSQL database service?",
+    "Option1": "Amazon Web Services (AWS)",
+    "Option2": "Google Cloud Platform (GCP)",
+    "Option3": "Microsoft Azure",
+    "Option4": "IBM Cloud",
+    "Answer": "Microsoft Azure"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Data Partitioning'?",
+    "Option1": "Encrypting data for security.",
+    "Option2": "Dividing a large dataset into smaller, independent chunks (partitions) that can be stored and managed separately.",
+    "Option3": "Creating backups of data.",
+    "Option4": "Normalizing data to reduce redundancy.",
+    "Answer": "Dividing a large dataset into smaller, independent chunks (partitions) that can be stored and managed separately."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which NoSQL database is well-suited for a real-time personalization engine that analyzes user behavior and delivers tailored content?",
+    "Option1": "Cassandra",
+    "Option2": "Neo4j",
+    "Option3": "Redis",
+    "Option4": "MongoDB",
+    "Answer": "Neo4j"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is a 'Time-Series Database' (TSDB)?",
+    "Option1": "A database that stores data in a fixed, unchanging schema.",
+    "Option2": "A database optimized for storing and querying data points indexed by time.",
+    "Option3": "A database used for historical archiving only.",
+    "Option4": "A database that processes transactions in real-time.",
+    "Answer": "A database optimized for storing and querying data points indexed by time."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which NoSQL database is known for its ability to handle extremely high write throughput and is used by companies like Netflix and Apple for large-scale data storage?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Event Sourcing' in the context of distributed systems?",
+    "Option1": "Storing the current state of an application.",
+    "Option2": "Storing all changes to an application's state as a sequence of immutable events, rather than just the final state.",
+    "Option3": "A method for querying historical data.",
+    "Option4": "A technique for data compression.",
+    "Answer": "Storing all changes to an application's state as a sequence of immutable events, rather than just the final state."
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which NoSQL database is optimized for heavy write workloads and has a ring-based architecture for distributed data?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is a 'Document' in a Document database?",
+    "Option1": "A row in a relational table.",
+    "Option2": "A self-contained unit of data, typically in JSON or BSON format, that can have varying structures.",
+    "Option3": "A collection of tables.",
+    "Option4": "A single piece of data like a string or number.",
+    "Answer": "A self-contained unit of data, typically in JSON or BSON format, that can have varying structures."
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which NoSQL database is best for a content management system where articles have varying fields and sub-documents?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Document"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Distributed Tracing' relevant to in NoSQL applications?",
+    "Option1": "Tracking SQL query execution.",
+    "Option2": "Monitoring requests as they flow through multiple services and databases in a distributed system.",
+    "Option3": "Debugging local application errors.",
+    "Option4": "Analyzing database backup times.",
+    "Answer": "Monitoring requests as they flow through multiple services and databases in a distributed system."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Aggregation Framework' in MongoDB?",
+    "Option1": "A tool for indexing documents.",
+    "Option2": "A powerful framework for performing complex data aggregations and transformations on documents within collections.",
+    "Option3": "A method for sharding data.",
+    "Option4": "A way to define document schemas.",
+    "Answer": "A powerful framework for performing complex data aggregations and transformations on documents within collections."
+  },
+  {
+    "question_no.": 136,
+    "Question": "Which NoSQL database is commonly used for caching, real-time analytics, and as a message broker?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Data Gravity' in the context of distributed systems and NoSQL?",
+    "Option1": "The tendency of data to move towards the center of a data center.",
+    "Option2": "The idea that data, especially large datasets, attracts applications and services to itself.",
+    "Option3": "The force that prevents data from being lost.",
+    "Option4": "A concept related to data encryption.",
+    "Answer": "The idea that data, especially large datasets, attracts applications and services to itself."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which NoSQL database is an ideal choice for managing large-scale IoT sensor data that streams in rapidly and needs to be stored and analyzed quickly?",
+    "Option1": "MongoDB",
+    "Option2": "Neo4j",
+    "Option3": "Cassandra",
+    "Option4": "Redis",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is a 'TTL' (Time-to-Live) setting useful for in NoSQL databases?",
+    "Option1": "To increase the lifespan of data.",
+    "Option2": "To automatically delete stale or expired data, e.g., session tokens or temporary logs.",
+    "Option3": "To restrict access to data over time.",
+    "Option4": "To prioritize data for faster access.",
+    "Answer": "To automatically delete stale or expired data, e.g., session tokens or temporary logs."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'ACID transactions' in the context of NoSQL?",
+    "Option1": "All NoSQL databases support full ACID compliance.",
+    "Option2": "Some NoSQL databases offer varying levels of ACID guarantees, often for single-document or specific operations.",
+    "Option3": "NoSQL databases never support ACID properties.",
+    "Option4": "ACID is a concept exclusive to relational databases.",
+    "Answer": "Some NoSQL databases offer varying levels of ACID guarantees, often for single-document or specific operations."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which NoSQL database would you use for a highly available, globally distributed user profile store?",
+    "Option1": "Neo4j",
+    "Option2": "Redis",
+    "Option3": "Cassandra or Couchbase",
+    "Option4": "MySQL",
+    "Answer": "Cassandra or Couchbase"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the primary difference between 'MongoDB' and 'Cassandra'?",
+    "Option1": "MongoDB is a key-value store, Cassandra is a document store.",
+    "Option2": "MongoDB is a document database with flexible schema; Cassandra is a wide-column store optimized for high write throughput and eventual consistency.",
+    "Option3": "MongoDB is a graph database, Cassandra is a relational database.",
+    "Option4": "MongoDB is in-memory, Cassandra is disk-based only.",
+    "Answer": "MongoDB is a document database with flexible schema; Cassandra is a wide-column store optimized for high write throughput and eventual consistency."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is a 'Gossip Protocol' in distributed NoSQL databases (e.g., Cassandra)?",
+    "Option1": "A method for encrypting communication.",
+    "Option2": "A peer-to-peer communication mechanism where nodes periodically exchange state information with their neighbors to maintain cluster knowledge.",
+    "Option3": "A query optimization technique.",
+    "Option4": "A protocol for managing transactions.",
+    "Answer": "A peer-to-peer communication mechanism where nodes periodically exchange state information with their neighbors to maintain cluster knowledge."
+  },
+  {
+    "question_no.": 144,
+    "Question": "Which NoSQL database is designed to handle very high read/write loads and is used for use cases like fraud detection, personalized experiences, and IoT?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is a 'Vertex' in a Graph database?",
+    "Option1": "A relationship.",
+    "Option2": "An entity or node in the graph.",
+    "Option3": "A property of an edge.",
+    "Option4": "A type of index.",
+    "Answer": "An entity or node in the graph."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Gremlin' in the context of Graph databases?",
+    "Option1": "A data modeling technique.",
+    "Option2": "A graph traversal language and query language, part of Apache TinkerPop.",
+    "Option3": "A NoSQL database.",
+    "Option4": "A method for graph visualization.",
+    "Answer": "A graph traversal language and query language, part of Apache TinkerPop."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which NoSQL database excels at analyzing patterns and relationships in highly connected datasets, such as social networks or supply chains?",
+    "Option1": "Key-Value",
+    "Option2": "Document",
+    "Option3": "Graph",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the primary benefit of 'flexible schema' in Document databases?",
+    "Option1": "It enforces strict data validation.",
+    "Option2": "It allows developers to evolve their data models quickly without requiring schema migrations.",
+    "Option3": "It reduces the storage size of documents.",
+    "Option4": "It simplifies complex query writing.",
+    "Answer": "It allows developers to evolve their data models quickly without requiring schema migrations."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which NoSQL database is often chosen for mobile application backends due to its offline-first capabilities and synchronization features?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "Couchbase (especially Couchbase Mobile)",
+    "Option4": "HBase",
+    "Answer": "Couchbase (especially Couchbase Mobile)"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Distributed Hash Table (DHT)' in NoSQL?",
+    "Option1": "A hashing algorithm for passwords.",
+    "Option2": "A distributed system that provides a lookup service similar to a hash table, where (key, value) pairs are stored across many nodes.",
+    "Option3": "A method for caching data.",
+    "Option4": "A technique for querying data.",
+    "Answer": "A distributed system that provides a lookup service similar to a hash table, where (key, value) pairs are stored across many nodes."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Data Durability' in ACID properties?",
+    "Option1": "Data must be stored in memory.",
+    "Option2": "Once a transaction is committed, its changes are permanent and survive system failures.",
+    "Option3": "Data must be available at all times.",
+    "Option4": "Data should be easily deleted.",
+    "Answer": "Once a transaction is committed, its changes are permanent and survive system failures."
+  },
+  {
+    "question_no.": 152,
+    "Question": "Which NoSQL database supports JSON documents and also offers full-text search, geospatial indexing, and real-time analytics with its aggregation framework?",
+    "Option1": "Cassandra",
+    "Option2": "Redis",
+    "Option3": "MongoDB",
+    "Option4": "Neo4j",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'HDFS' often associated with in the context of NoSQL databases like HBase?",
+    "Option1": "A relational database system.",
+    "Option2": "A distributed file system designed to store very large files across multiple machines.",
+    "Option3": "A network protocol.",
+    "Option4": "A query language.",
+    "Answer": "A distributed file system designed to store very large files across multiple machines."
+  },
+  {
+    "question_no.": 154,
+    "Question": "Which NoSQL database provides a highly performant, in-memory data structure store that supports various data types like strings, hashes, lists, sets, and sorted sets?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Document Validation' in MongoDB?",
+    "Option1": "Checking if a document exists.",
+    "Option2": "Enforcing schema rules on documents during insertion or update operations.",
+    "Option3": "Encrypting document content.",
+    "Option4": "Optimizing document size.",
+    "Answer": "Enforcing schema rules on documents during insertion or update operations."
+  },
+  {
+    "question_no.": 156,
+    "Question": "Which NoSQL database would be suitable for building a real-time recommendations engine where relationships between items and users are crucial?",
+    "Option1": "Document",
+    "Option2": "Graph",
+    "Option3": "Key-Value",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Consistency Levels' in Cassandra?",
+    "Option1": "The number of replicas for data.",
+    "Option2": "A configurable parameter that determines how many replicas must respond to a read or write operation for it to be considered successful.",
+    "Option3": "The level of data encryption.",
+    "Option4": "The frequency of data synchronization.",
+    "Answer": "A configurable parameter that determines how many replicas must respond to a read or write operation for it to be considered successful."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Atomic Counters' in Redis?",
+    "Option1": "Counters that can only be incremented.",
+    "Option2": "Operations that guarantee atomicity for incrementing or decrementing numerical values, useful for real-time counting.",
+    "Option3": "Counters that reset after a certain time.",
+    "Option4": "Counters used for tracking database errors.",
+    "Answer": "Operations that guarantee atomicity for incrementing or decrementing numerical values, useful for real-time counting."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which NoSQL database uses 'view's (MapReduce functions) to query data and achieve eventual consistency?",
+    "Option1": "MongoDB",
+    "Option2": "CouchDB",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "CouchDB"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Sharded Cluster' in MongoDB?",
+    "Option1": "A single MongoDB instance with multiple databases.",
+    "Option2": "A group of MongoDB instances (shards) that horizontally scale data distribution and storage for large datasets.",
+    "Option3": "A replication setup for high availability.",
+    "Option4": "A backup solution for MongoDB.",
+    "Answer": "A group of MongoDB instances (shards) that horizontally scale data distribution and storage for large datasets."
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which NoSQL database is open-source, written in Java, and designed for managing large amounts of data across a distributed cluster?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'JSON Schema' used for in Document databases?",
+    "Option1": "To convert JSON to other formats.",
+    "Option2": "To validate the structure and content of JSON documents.",
+    "Option3": "To optimize JSON queries.",
+    "Option4": "To encrypt JSON data.",
+    "Answer": "To validate the structure and content of JSON documents."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Apache Spark' often used for in conjunction with NoSQL databases?",
+    "Option1": "Transactional processing.",
+    "Option2": "Big data processing, analytics, and machine learning on data stored in NoSQL databases.",
+    "Option3": "Managing data consistency.",
+    "Option4": "Implementing real-time data replication.",
+    "Answer": "Big data processing, analytics, and machine learning on data stored in NoSQL databases."
+  },
+  {
+    "question_no.": 164,
+    "Question": "Which NoSQL database is highly optimized for traversing relationships and finding shortest paths, making it suitable for route optimization?",
+    "Option1": "Document",
+    "Option2": "Graph",
+    "Option3": "Key-Value",
+    "Option4": "Column-Family",
+    "Answer": "Graph"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Conflict-Free Replicated Data Type (CRDT)'?",
+    "Option1": "A data type that requires strict consistency.",
+    "Option2": "A data type that can be replicated across multiple servers without requiring coordination for updates, always converging to a consistent state.",
+    "Option3": "A data type that can only be read once.",
+    "Option4": "A data type used for encryption.",
+    "Answer": "A data type that can be replicated across multiple servers without requiring coordination for updates, always converging to a consistent state."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Redis Enterprise'?",
+    "Option1": "A community-driven version of Redis.",
+    "Option2": "A commercial version of Redis with enterprise-grade features like active-active geo-distribution and enhanced security.",
+    "Option3": "A deprecated version of Redis.",
+    "Option4": "A cloud-based Redis only offering.",
+    "Answer": "A commercial version of Redis with enterprise-grade features like active-active geo-distribution and enhanced security."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which NoSQL database would be suitable for storing user activity feeds where new events are constantly being appended?",
+    "Option1": "MongoDB",
+    "Option2": "Neo4j",
+    "Option3": "Cassandra (due to its append-only nature for writes)",
+    "Option4": "Redis",
+    "Answer": "Cassandra (due to its append-only nature for writes)"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the primary role of a 'Router' (e.g., mongos in MongoDB) in a sharded NoSQL cluster?",
+    "Option1": "To store data.",
+    "Option2": "To direct client requests to the correct shard based on the query criteria.",
+    "Option3": "To manage replica sets.",
+    "Option4": "To perform data backups.",
+    "Answer": "To direct client requests to the correct shard based on the query criteria."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Vector Search' in the context of NoSQL databases (e.g., MongoDB, Cassandra)?",
+    "Option1": "Searching for data using vector graphics.",
+    "Option2": "A technique to find data points that are 'similar' to a given query vector, often used in AI/ML applications for semantic search.",
+    "Option3": "A method for encrypting vectors.",
+    "Option4": "A way to visualize data relationships.",
+    "Answer": "A technique to find data points that are 'similar' to a given query vector, often used in AI/ML applications for semantic search."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which NoSQL database is known for its ability to perform powerful graph analytics and supports algorithms like shortest path, PageRank, and community detection?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "Neo4j"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is a 'Change Stream' in MongoDB?",
+    "Option1": "A method for auditing database changes.",
+    "Option2": "A feature that allows applications to access real-time data changes as they happen, enabling real-time analytics and reactivity.",
+    "Option3": "A tool for data migration.",
+    "Option4": "A way to backup data to a stream.",
+    "Answer": "A feature that allows applications to access real-time data changes as they happen, enabling real-time analytics and reactivity."
+  },
+  {
+    "question_no.": 172,
+    "Question": "Which NoSQL database is considered eventually consistent by default and is designed for high availability and partition tolerance over strong consistency?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Time Series' data?",
+    "Option1": "Data that remains constant over time.",
+    "Option2": "A sequence of data points indexed or listed in time order.",
+    "Option3": "Data related to scheduling tasks.",
+    "Option4": "Data that tracks historical changes of documents.",
+    "Answer": "A sequence of data points indexed or listed in time order."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which NoSQL database supports 'Triggers' for executing custom code in response to data changes?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "MongoDB (via Change Streams and application logic)",
+    "Option4": "Cassandra (limited support via UDFs, but not typical RDBMS triggers)",
+    "Answer": "MongoDB (via Change Streams and application logic)"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Optimistic Locking' often used for in NoSQL databases?",
+    "Option1": "To prevent concurrent writes to the same document by checking a version number.",
+    "Option2": "To apply exclusive locks during read operations.",
+    "Option3": "To improve query performance.",
+    "Option4": "To encrypt data during updates.",
+    "Answer": "To prevent concurrent writes to the same document by checking a version number."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which NoSQL database is ACID compliant for single-document transactions and provides features like multi-document transactions in recent versions?",
+    "Option1": "Cassandra",
+    "Option2": "Redis",
+    "Option3": "MongoDB",
+    "Option4": "Neo4j",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Data Analytics' in the context of NoSQL databases?",
+    "Option1": "Performing transactional operations.",
+    "Option2": "Processing and examining large datasets stored in NoSQL databases to discover patterns, insights, and support decision-making.",
+    "Option3": "Managing database security.",
+    "Option4": "Creating database backups.",
+    "Answer": "Processing and examining large datasets stored in NoSQL databases to discover patterns, insights, and support decision-making."
+  },
+  {
+    "question_no.": 178,
+    "Question": "Which NoSQL database is known for its ability to handle both key-value and JSON document models natively, offering a flexible schema and high performance?",
+    "Option1": "Redis",
+    "Option2": "Neo4j",
+    "Option3": "Couchbase",
+    "Option4": "HBase",
+    "Answer": "Couchbase"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Distributed Transactions' in the context of NoSQL?",
+    "Option1": "Transactions that occur on a single node.",
+    "Option2": "Transactions that involve multiple nodes or databases, ensuring atomicity across the distributed system.",
+    "Option3": "Transactions that are not consistent.",
+    "Option4": "Transactions that are only used for read operations.",
+    "Answer": "Transactions that involve multiple nodes or databases, ensuring atomicity across the distributed system."
+  },
+  {
+    "question_no.": 180,
+    "Question": "Which NoSQL database uses a query language called Cypher?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Neo4j",
+    "Option4": "Redis",
+    "Answer": "Neo4j"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Data Modeling for Reads' in NoSQL databases?",
+    "Option1": "Prioritizing write performance during schema design.",
+    "Option2": "Designing data structures to optimize for the most frequent read patterns, often involving denormalization.",
+    "Option3": "Focusing on strict normalization.",
+    "Option4": "Ignoring read patterns during design.",
+    "Answer": "Designing data structures to optimize for the most frequent read patterns, often involving denormalization."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Amazon DynamoDB'?",
+    "Option1": "A relational database service.",
+    "Option2": "A fully managed, serverless NoSQL database service offered by AWS, supporting key-value and document data models.",
+    "Option3": "A graph database service.",
+    "Option4": "A traditional SQL database.",
+    "Answer": "A fully managed, serverless NoSQL database service offered by AWS, supporting key-value and document data models."
+  },
+  {
+    "question_no.": 183,
+    "Question": "Which NoSQL database is suitable for handling real-time chat messages and user activity logs where data needs to be highly available and eventually consistent?",
+    "Option1": "MongoDB",
+    "Option2": "Neo4j",
+    "Option3": "Cassandra",
+    "Option4": "Redis",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Cloud Computing' in the context of NoSQL databases?",
+    "Option1": "Running NoSQL databases only on local servers.",
+    "Option2": "Deploying and managing NoSQL databases on cloud infrastructure, leveraging scalability and managed services.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A type of data storage.",
+    "Answer": "Deploying and managing NoSQL databases on cloud infrastructure, leveraging scalability and managed services."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the primary characteristic that distinguishes a 'Document Database' from a 'Key-Value Database'?",
+    "Option1": "Key-value stores have more complex query languages.",
+    "Option2": "Document databases store data in structured documents with internal structure, while key-value stores treat values as opaque blobs.",
+    "Option3": "Key-value stores are always in-memory, document databases are always on disk.",
+    "Option4": "Document databases enforce strict schemas.",
+    "Answer": "Document databases store data in structured documents with internal structure, while key-value stores treat values as opaque blobs."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Data Federation' in a NoSQL context?",
+    "Option1": "Combining data from multiple NoSQL databases into a single logical view.",
+    "Option2": "A technique for sharding data.",
+    "Option3": "A method for data encryption.",
+    "Option4": "A strategy for physical data storage.",
+    "Answer": "Combining data from multiple NoSQL databases into a single logical view."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which NoSQL database is often used for session management, leaderboards, and real-time analytics due to its speed and support for various data structures?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Graph Algorithms' in Graph databases?",
+    "Option1": "Algorithms for data compression.",
+    "Option2": "Algorithms used to analyze relationships and patterns within a graph, such as shortest path, centrality, and community detection.",
+    "Option3": "Algorithms for encrypting graph data.",
+    "Option4": "Algorithms for designing graph visualization.",
+    "Answer": "Algorithms used to analyze relationships and patterns within a graph, such as shortest path, centrality, and community detection."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Load Balancing' in distributed NoSQL databases?",
+    "Option1": "Manually distributing queries to specific nodes.",
+    "Option2": "Distributing incoming network traffic across multiple servers to ensure no single server is overloaded.",
+    "Option3": "A technique for reducing data storage.",
+    "Option4": "A method for optimizing data replication.",
+    "Answer": "Distributing incoming network traffic across multiple servers to ensure no single server is overloaded."
+  },
+  {
+    "question_no.": 190,
+    "Question": "Which NoSQL database is an open-source, highly scalable, and high-performance distributed database designed to handle large amounts of data across many commodity servers?",
+    "Option1": "MongoDB",
+    "Option2": "Cassandra",
+    "Option3": "Redis",
+    "Option4": "Neo4j",
+    "Answer": "Cassandra"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Schema on Read' in NoSQL databases?",
+    "Option1": "Defining the schema before writing data.",
+    "Option2": "The flexibility to define the schema during the read operation, allowing for varying data structures.",
+    "Option3": "A method for strict schema enforcement.",
+    "Option4": "A technique for preventing data inconsistencies.",
+    "Answer": "The flexibility to define the schema during the read operation, allowing for varying data structures."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Which NoSQL database would be suitable for storing a customer's shopping cart items, where each cart is uniquely identified and needs fast retrieval?",
+    "Option1": "Document",
+    "Option2": "Graph",
+    "Option3": "Key-Value",
+    "Option4": "Column-Family",
+    "Answer": "Key-Value"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Distributed Cache'?",
+    "Option1": "A cache located on a single server.",
+    "Option2": "A cache that is distributed across multiple servers, allowing for shared access and scalability.",
+    "Option3": "A temporary storage for local application data.",
+    "Option4": "A method for encrypting cached data.",
+    "Answer": "A cache that is distributed across multiple servers, allowing for shared access and scalability."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Index Optimization' in NoSQL databases?",
+    "Option1": "Reducing the number of indexes.",
+    "Option2": "Designing and tuning indexes to improve query performance for specific access patterns.",
+    "Option3": "Automatically creating all possible indexes.",
+    "Option4": "Encrypting index data.",
+    "Answer": "Designing and tuning indexes to improve query performance for specific access patterns."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which NoSQL database is known for its flexible schema and ability to handle unstructured and semi-structured data, making it popular for content management and user profiles?",
+    "Option1": "Cassandra",
+    "Option2": "Redis",
+    "Option3": "MongoDB",
+    "Option4": "Neo4j",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Polyglot Persistence'?",
+    "Option1": "Using a single type of database for all data storage needs.",
+    "Option2": "The practice of using multiple data storage technologies, each chosen for the specific data type or use case it handles best.",
+    "Option3": "Storing data in multiple programming languages.",
+    "Option4": "A method for encrypting data across disparate systems.",
+    "Answer": "The practice of using multiple data storage technologies, each chosen for the specific data type or use case it handles best."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which NoSQL database is most effective for applications that rely heavily on complex relationships and graph traversals, such as social networking or recommendation engines?",
+    "Option1": "Key-Value database",
+    "Option2": "Document database",
+    "Option3": "Graph database",
+    "Option4": "Column-Family database",
+    "Answer": "Graph database"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Polyglot Persistence'?",
+    "Option1": "Using only one type of database for all data.",
+    "Option2": "Employing different data storage technologies to handle various data types and use cases within a single system.",
+    "Option3": "Storing data in multiple programming languages.",
+    "Option4": "A method for encrypting data across various systems.",
+    "Answer": "Employing different data storage technologies to handle various data types and use cases within a single system."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is a 'Composite Primary Key' in Cassandra?",
+    "Option1": "A key made up of a single column.",
+    "Option2": "A primary key formed by combining a partition key (for distribution) and clustering columns (for sorting within a partition).",
+    "Option3": "A key used for indexing data.",
+    "Option4": "A foreign key relationship.",
+    "Answer": "A primary key formed by combining a partition key (for distribution) and clustering columns (for sorting within a partition)."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Which NoSQL database provides a highly available, eventually consistent key-value store with support for rich data types and Lua scripting?",
+    "Option1": "Cassandra",
+    "Option2": "Neo4j",
+    "Option3": "Redis",
+    "Option4": "MongoDB",
+    "Answer": "Redis"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Distributed Database Management System (DDBMS)'?",
+    "Option1": "A database system where all data is stored on a single server.",
+    "Option2": "A database system where data is distributed across multiple physical locations, and the system manages data access and consistency transparently.",
+    "Option3": "A database system that only supports local transactions.",
+    "Option4": "A database system primarily used for data warehousing.",
+    "Answer": "A database system where data is distributed across multiple physical locations, and the system manages data access and consistency transparently."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Consistency Models' in NoSQL databases?",
+    "Option1": "Ensuring all data is perfectly consistent at all times.",
+    "Option2": "The guarantees a database provides regarding the visibility and ordering of data updates across a distributed system, ranging from strong to eventual consistency.",
+    "Option3": "A method for data encryption.",
+    "Option4": "A tool for data validation.",
+    "Answer": "The guarantees a database provides regarding the visibility and ordering of data updates across a distributed system, ranging from strong to eventual consistency."
+  }
+]

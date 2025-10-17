@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is jQuery?",
+    "Option1": "A server-side programming language",
+    "Option2": "A JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax",
+    "Option3": "A CSS framework",
+    "Option4": "A database management system",
+    "Answer": "A JavaScript library designed to simplify HTML DOM tree traversal and manipulation, as well as event handling, CSS animation, and Ajax"
+  },
+  {
+    "question_no.": 2,
+    "Question": "How do you include jQuery in an HTML page?",
+    "Option1": "<script src='jquery.js'></script>",
+    "Option2": "<link rel='stylesheet' href='jquery.css'>",
+    "Option3": "<javascript src='jquery.js'></javascript>",
+    "Option4": "<include jquery='true'>",
+    "Answer": "<script src='jquery.js'></script>"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the primary symbol used to access jQuery functions?",
+    "Option1": "#",
+    "Option2": ".",
+    "Option3": "$",
+    "Option4": "@",
+    "Answer": "$"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you select an HTML element with the ID 'myElement' using jQuery?",
+    "Option1": "jQuery('#myElement')",
+    "Option2": "$('myElement')",
+    "Option3": "$('#myElement')",
+    "Option4": "$(myElement)",
+    "Answer": "$('#myElement')"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you select all HTML elements with the class 'myClass' using jQuery?",
+    "Option1": "$('myClass')",
+    "Option2": "$('.myClass')",
+    "Option3": "jQuery('.myClass')",
+    "Option4": "$('#myClass')",
+    "Answer": "$('.myClass')"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you select all paragraph (<p>) elements using jQuery?",
+    "Option1": "$('p')",
+    "Option2": "$('#p')",
+    "Option3": "$('.p')",
+    "Option4": "jQuery.p()",
+    "Answer": "$('p')"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the purpose of the `$(document).ready()` function?",
+    "Option1": "To execute code when the page is fully loaded, including images and external resources.",
+    "Option2": "To execute code when the DOM is fully loaded and parsed, without waiting for images and external resources.",
+    "Option3": "To declare global variables.",
+    "Option4": "To perform an AJAX request.",
+    "Answer": "To execute code when the DOM is fully loaded and parsed, without waiting for images and external resources."
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you hide an element with the ID 'myDiv' using jQuery?",
+    "Option1": "$('#myDiv').invisible();",
+    "Option2": "$('#myDiv').display('none');",
+    "Option3": "$('#myDiv').hide();",
+    "Option4": "$('#myDiv').remove();",
+    "Answer": "$('#myDiv').hide();"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you show an element with the ID 'myDiv' using jQuery?",
+    "Option1": "$('#myDiv').visible();",
+    "Option2": "$('#myDiv').display('block');",
+    "Option3": "$('#myDiv').show();",
+    "Option4": "$('#myDiv').add();",
+    "Answer": "$('#myDiv').show();"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which jQuery method is used to toggle the visibility of an element?",
+    "Option1": "toggleVisibility()",
+    "Option2": "fadeToggle()",
+    "Option3": "slideToggle()",
+    "Option4": "toggle()",
+    "Answer": "toggle()"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you set the text content of an element with the ID 'mySpan' to 'New Text'?",
+    "Option1": "$('#mySpan').html('New Text');",
+    "Option2": "$('#mySpan').text('New Text');",
+    "Option3": "$('#mySpan').content('New Text');",
+    "Option4": "$('#mySpan').value('New Text');",
+    "Answer": "$('#mySpan').text('New Text');"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you set the HTML content of an element with the ID 'myDiv' to '<b>Hello</b> World'?",
+    "Option1": "$('#myDiv').text('<b>Hello</b> World');",
+    "Option2": "$('#myDiv').val('<b>Hello</b> World');",
+    "Option3": "$('#myDiv').html('<b>Hello</b> World');",
+    "Option4": "$('#myDiv').data('<b>Hello</b> World');",
+    "Answer": "$('#myDiv').html('<b>Hello</b> World');"
+  },
+  {
+    "question_no.": 13,
+    "Question": "How do you get the value of an input field with the ID 'myInput'?",
+    "Option1": "$('#myInput').text();",
+    "Option2": "$('#myInput').html();",
+    "Option3": "$('#myInput').val();",
+    "Option4": "$('#myInput').attr('value');",
+    "Answer": "$('#myInput').val();"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you add a CSS class 'active' to an element with the ID 'myButton'?",
+    "Option1": "$('#myButton').addClass('active');",
+    "Option2": "$('#myButton').cssClass('active');",
+    "Option3": "$('#myButton').addCss('active');",
+    "Option4": "$('#myButton').class('active');",
+    "Answer": "$('#myButton').addClass('active');"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you remove a CSS class 'active' from an element with the ID 'myButton'?",
+    "Option1": "$('#myButton').removeClass('active');",
+    "Option2": "$('#myButton').cssClassRemove('active');",
+    "Option3": "$('#myButton').deleteClass('active');",
+    "Option4": "$('#myButton').classRemove('active');",
+    "Answer": "$('#myButton').removeClass('active');"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which jQuery method is used to toggle a CSS class on an element?",
+    "Option1": "toggleAddRemoveClass()",
+    "Option2": "toggleCss()",
+    "Option3": "toggleClass()",
+    "Option4": "switchClass()",
+    "Answer": "toggleClass()"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you set the CSS `color` property of an element with the ID 'myText' to 'red'?",
+    "Option1": "$('#myText').style('color', 'red');",
+    "Option2": "$('#myText').css('color: red');",
+    "Option3": "$('#myText').css('color', 'red');",
+    "Option4": "$('#myText').setProperty('color', 'red');",
+    "Answer": "$('#myText').css('color', 'red');"
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you get the CSS `width` property of an element with the ID 'myBox'?",
+    "Option1": "$('#myBox').css('width');",
+    "Option2": "$('#myBox').style('width');",
+    "Option3": "$('#myBox').getWidth();",
+    "Option4": "$('#myBox').width();",
+    "Answer": "$('#myBox').css('width');"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you attach a click event handler to a button with the ID 'myBtn'?",
+    "Option1": "$('#myBtn').on('click', function() { /* code */ });",
+    "Option2": "$('#myBtn').click(function() { /* code */ });",
+    "Option3": "$('#myBtn').addEventListener('click', function() { /* code */ });",
+    "Option4": "Both A and B",
+    "Answer": "Both A and B"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which jQuery method is used for event delegation?",
+    "Option1": "delegate()",
+    "Option2": "on()",
+    "Option3": "bind()",
+    "Option4": "live()",
+    "Answer": "on()"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you prevent the default action of an event in jQuery?",
+    "Option1": "event.stopPropagation();",
+    "Option2": "event.preventDefault();",
+    "Option3": "return false;",
+    "Option4": "Both B and C",
+    "Answer": "Both B and C"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which jQuery method is used to animate CSS properties?",
+    "Option1": "animate()",
+    "Option2": "transition()",
+    "Option3": "cssAnimate()",
+    "Option4": "performAnimation()",
+    "Answer": "animate()"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What does `fadeIn()` do in jQuery?",
+    "Option1": "Fades an element out of view.",
+    "Option2": "Fades an element into view (from hidden to visible).",
+    "Option3": "Changes the color of an element.",
+    "Option4": "Slides an element into view.",
+    "Answer": "Fades an element into view (from hidden to visible)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What does `fadeOut()` do in jQuery?",
+    "Option1": "Fades an element into view.",
+    "Option2": "Fades an element out of view (from visible to hidden).",
+    "Option3": "Changes the size of an element.",
+    "Option4": "Slides an element out of view.",
+    "Answer": "Fades an element out of view (from visible to hidden)."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which jQuery method loads data from the server using a GET HTTP request?",
+    "Option1": "$.post()",
+    "Option2": "$.ajax()",
+    "Option3": "$.get()",
+    "Option4": "$.load()",
+    "Answer": "$.get()"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which jQuery method loads data from the server using a POST HTTP request?",
+    "Option1": "$.get()",
+    "Option2": "$.ajax()",
+    "Option3": "$.post()",
+    "Option4": "$.load()",
+    "Answer": "$.post()"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which jQuery method is used to perform an asynchronous HTTP (Ajax) request?",
+    "Option1": "$.request()",
+    "Option2": "$.http()",
+    "Option3": "$.ajax()",
+    "Option4": "$.fetch()",
+    "Answer": "$.ajax()"
+  },
+  {
+    "question_no.": 28,
+    "Question": "How do you add content to the end of an element with the ID 'myContainer'?",
+    "Option1": "$('#myContainer').prepend('New Content');",
+    "Option2": "$('#myContainer').before('New Content');",
+    "Option3": "$('#myContainer').after('New Content');",
+    "Option4": "$('#myContainer').append('New Content');",
+    "Answer": "$('#myContainer').append('New Content');"
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you add content to the beginning of an element with the ID 'myContainer'?",
+    "Option1": "$('#myContainer').append('New Content');",
+    "Option2": "$('#myContainer').after('New Content');",
+    "Option3": "$('#myContainer').before('New Content');",
+    "Option4": "$('#myContainer').prepend('New Content');",
+    "Answer": "$('#myContainer').prepend('New Content');"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you insert content *before* an element with the ID 'myElement'?",
+    "Option1": "$('#myElement').after('New Content');",
+    "Option2": "$('#myElement').append('New Content');",
+    "Option3": "$('#myElement').before('New Content');",
+    "Option4": "$('#myElement').prepend('New Content');",
+    "Answer": "$('#myElement').before('New Content');"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you insert content *after* an element with the ID 'myElement'?",
+    "Option1": "$('#myElement').before('New Content');",
+    "Option2": "$('#myElement').prepend('New Content');",
+    "Option3": "$('#myElement').after('New Content');",
+    "Option4": "$('#myElement').append('New Content');",
+    "Answer": "$('#myElement').after('New Content');"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you remove an element with the ID 'oldDiv' from the DOM?",
+    "Option1": "$('#oldDiv').empty();",
+    "Option2": "$('#oldDiv').hide();",
+    "Option3": "$('#oldDiv').remove();",
+    "Option4": "$('#oldDiv').delete();",
+    "Answer": "$('#oldDiv').remove();"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you empty the content of an element with the ID 'myDiv' (but not remove the element itself)?",
+    "Option1": "$('#myDiv').remove();",
+    "Option2": "$('#myDiv').hide();",
+    "Option3": "$('#myDiv').empty();",
+    "Option4": "$('#myDiv').clear();",
+    "Answer": "$('#myDiv').empty();"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which jQuery method is used to get or set HTML attributes?",
+    "Option1": "prop()",
+    "Option2": "attr()",
+    "Option3": "attribute()",
+    "Option4": "data()",
+    "Answer": "attr()"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you get the 'href' attribute of a link with the ID 'myLink'?",
+    "Option1": "$('#myLink').property('href');",
+    "Option2": "$('#myLink').attr('href');",
+    "Option3": "$('#myLink').getHref();",
+    "Option4": "$('#myLink').data('href');",
+    "Answer": "$('#myLink').attr('href');"
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you set the 'src' attribute of an image with the ID 'myImage' to 'new_image.jpg'?",
+    "Option1": "$('#myImage').attr('src', 'new_image.jpg');",
+    "Option2": "$('#myImage').src('new_image.jpg');",
+    "Option3": "$('#myImage').setProperty('src', 'new_image.jpg');",
+    "Option4": "$('#myImage').val('new_image.jpg');",
+    "Answer": "$('#myImage').attr('src', 'new_image.jpg');"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the difference between `.attr()` and `.prop()` in jQuery?",
+    "Option1": "`.attr()` handles HTML attributes, `.prop()` handles DOM properties.",
+    "Option2": "`.prop()` handles HTML attributes, `.attr()` handles DOM properties.",
+    "Option3": "There is no difference, they are interchangeable.",
+    "Option4": "`.attr()` is for setting, `.prop()` is for getting.",
+    "Answer": "`.attr()` handles HTML attributes, `.prop()` handles DOM properties."
+  },
+  {
+    "question_no.": 38,
+    "Question": "Which jQuery method is used to get the parent element of a selected element?",
+    "Option1": "children()",
+    "Option2": "siblings()",
+    "Option3": "parent()",
+    "Option4": "ancestors()",
+    "Answer": "parent()"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which jQuery method is used to get all direct child elements of a selected element?",
+    "Option1": "parent()",
+    "Option2": "find()",
+    "Option3": "children()",
+    "Option4": "descendants()",
+    "Answer": "children()"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which jQuery method is used to find descendant elements that match a specified selector?",
+    "Option1": "children()",
+    "Option2": "parent()",
+    "Option3": "siblings()",
+    "Option4": "find()",
+    "Answer": "find()"
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which jQuery method is used to get all sibling elements of a selected element?",
+    "Option1": "parent()",
+    "Option2": "siblings()",
+    "Option3": "children()",
+    "Option4": "nextAll()",
+    "Answer": "siblings()"
+  },
+  {
+    "question_no.": 42,
+    "Question": "How do you get the next sibling element of a selected element using jQuery?",
+    "Option1": "prev()",
+    "Option2": "next()",
+    "Option3": "sibling()",
+    "Option4": "nextElementSibling()",
+    "Answer": "next()"
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you get the previous sibling element of a selected element using jQuery?",
+    "Option1": "next()",
+    "Option2": "prev()",
+    "Option3": "sibling()",
+    "Option4": "previousElementSibling()",
+    "Answer": "prev()"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which jQuery method filters the selected elements and returns only those that match a specified selector?",
+    "Option1": "each()",
+    "Option2": "map()",
+    "Option3": "filter()",
+    "Option4": "find()",
+    "Answer": "filter()"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which jQuery method loops through each element in the current jQuery object?",
+    "Option1": "for()",
+    "Option2": "loop()",
+    "Option3": "each()",
+    "Option4": "iterate()",
+    "Answer": "each()"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the purpose of the `$(this)` keyword within a jQuery event handler?",
+    "Option1": "It refers to the global window object.",
+    "Option2": "It refers to the jQuery object itself.",
+    "Option3": "It refers to the HTML DOM element that triggered the event.",
+    "Option4": "It refers to the parent element of the event target.",
+    "Answer": "It refers to the HTML DOM element that triggered the event."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you check if an element has a specific class 'highlight'?",
+    "Option1": "$('#myDiv').hasClass('highlight');",
+    "Option2": "$('#myDiv').hasCssClass('highlight');",
+    "Option3": "$('#myDiv').is('.highlight');",
+    "Option4": "Both A and C are valid.",
+    "Answer": "Both A and C are valid."
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you create a new HTML element (e.g., a new div) using jQuery?",
+    "Option1": "$('<div>');",
+    "Option2": "document.createElement('div');",
+    "Option3": "jQuery.create('div');",
+    "Option4": "newDiv();",
+    "Answer": "$('<div>');"
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you append a newly created div to the body of the HTML document?",
+    "Option1": "$('body').append($('<div>'));",
+    "Option2": "$('<div>').appendTo('body');",
+    "Option3": "Both A and B",
+    "Option4": "$('body').add('<div>');",
+    "Answer": "Both A and B"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which jQuery method is used to unbind an event handler?",
+    "Option1": "removeEvent()",
+    "Option2": "off()",
+    "Option3": "unbind()",
+    "Option4": "Both B and C",
+    "Answer": "Both B and C"
+  },
+  {
+    "question_no.": 51,
+    "Question": "How do you set multiple CSS properties at once for an element with the ID 'myBox'?",
+    "Option1": "$('#myBox').css('width: 100px; height: 50px;');",
+    "Option2": "$('#myBox').css({width: '100px', height: '50px'});",
+    "Option3": "$('#myBox').setStyles({width: '100px', height: '50px'});",
+    "Option4": "$('#myBox').applyCss({width: '100px', height: '50px'});",
+    "Answer": "$('#myBox').css({width: '100px', height: '50px'});"
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which jQuery method is used to get or set the width of an element (excluding padding, border, and margin)?",
+    "Option1": "outerWidth()",
+    "Option2": "innerWidth()",
+    "Option3": "width()",
+    "Option4": "css('width')",
+    "Answer": "width()"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which jQuery method is used to get or set the height of an element (excluding padding, border, and margin)?",
+    "Option1": "outerHeight()",
+    "Option2": "innerHeight()",
+    "Option3": "height()",
+    "Option4": "css('height')",
+    "Answer": "height()"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What does `outerWidth()` (without arguments) return?",
+    "Option1": "Width including padding.",
+    "Option2": "Width including padding and border.",
+    "Option3": "Width including padding, border, and margin.",
+    "Option4": "Width of the content box only.",
+    "Answer": "Width including padding and border."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What does `outerHeight(true)` return?",
+    "Option1": "Height including padding and border.",
+    "Option2": "Height including padding, border, and margin.",
+    "Option3": "Height of the content box only.",
+    "Option4": "Height including padding.",
+    "Answer": "Height including padding, border, and margin."
+  },
+  {
+    "question_no.": 56,
+    "Question": "Which jQuery method is used to get the horizontal position of an element relative to the document?",
+    "Option1": "position().left",
+    "Option2": "offset().left",
+    "Option3": "css('left')",
+    "Option4": "scrollLeft()",
+    "Answer": "offset().left"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which jQuery method is used to get the vertical position of an element relative to its offset parent?",
+    "Option1": "offset().top",
+    "Option2": "position().top",
+    "Option3": "scrollTop()",
+    "Option4": "css('top')",
+    "Answer": "position().top"
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you iterate over a collection of elements selected by jQuery?",
+    "Option1": "$('selector').forEach(function() {});",
+    "Option2": "$('selector').loop(function() {});",
+    "Option3": "$('selector').each(function() {});",
+    "Option4": "$('selector').map(function() {});",
+    "Answer": "$('selector').each(function() {});"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Inside an `each()` loop, how do you refer to the current element in the iteration?",
+    "Option1": "this",
+    "Option2": "element",
+    "Option3": "$(this)",
+    "Option4": "item",
+    "Answer": "$(this)"
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which jQuery method is used to traverse up the DOM tree to find an ancestor that matches a specified selector?",
+    "Option1": "parent()",
+    "Option2": "closest()",
+    "Option3": "parents()",
+    "Option4": "find()",
+    "Answer": "closest()"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the difference between `parent()` and `parents()`?",
+    "Option1": "There is no difference.",
+    "Option2": "`parent()` returns all ancestors, `parents()` returns only the direct parent.",
+    "Option3": "`parent()` returns only the direct parent, `parents()` returns all ancestors.",
+    "Option4": "`parent()` is for immediate parents, `parents()` is for siblings.",
+    "Answer": "`parent()` returns only the direct parent, `parents()` returns all ancestors."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which jQuery method is used to get the first element in the set of matched elements?",
+    "Option1": "last()",
+    "Option2": "eq(0)",
+    "Option3": "first()",
+    "Option4": "Both B and C",
+    "Answer": "Both B and C"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which jQuery method is used to get the last element in the set of matched elements?",
+    "Option1": "first()",
+    "Option2": "eq(-1)",
+    "Option3": "last()",
+    "Option4": "Both B and C",
+    "Answer": "Both B and C"
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which jQuery method is used to get an element at a specific index from the set of matched elements?",
+    "Option1": "get(index)",
+    "Option2": "at(index)",
+    "Option3": "index(index)",
+    "Option4": "eq(index)",
+    "Answer": "eq(index)"
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you add multiple event handlers for the same event to an element?",
+    "Option1": "$('#myDiv').click(handler1).click(handler2);",
+    "Option2": "$('#myDiv').on('click', handler1).on('click', handler2);",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#myDiv').addEvent('click', handler1, handler2);",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which jQuery method is used to perform a custom animation that changes CSS properties over a period of time?",
+    "Option1": "effect()",
+    "Option2": "animate()",
+    "Option3": "transition()",
+    "Option4": "tween()",
+    "Answer": "animate()"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the default duration for most jQuery animation methods (e.g., `hide()`, `fadeIn()`)?",
+    "Option1": "100ms",
+    "Option2": "400ms",
+    "Option3": "600ms",
+    "Option4": "1000ms",
+    "Answer": "400ms"
+  },
+  {
+    "question_no.": 68,
+    "Question": "How do you make an animation execute faster (e.g., in 200 milliseconds)?",
+    "Option1": "$('#myDiv').hide('fast');",
+    "Option2": "$('#myDiv').hide(200);",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#myDiv').hide().duration(200);",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a 'callback function' in jQuery animations?",
+    "Option1": "A function that is executed before the animation starts.",
+    "Option2": "A function that is executed after the animation completes.",
+    "Option3": "A function that pauses the animation.",
+    "Option4": "A function that reverts the animation.",
+    "Answer": "A function that is executed after the animation completes."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you stop a running animation on an element with the ID 'myAnimDiv'?",
+    "Option1": "$('#myAnimDiv').pause();",
+    "Option2": "$('#myAnimDiv').cancel();",
+    "Option3": "$('#myAnimDiv').stop();",
+    "Option4": "$('#myAnimDiv').reset();",
+    "Answer": "$('#myAnimDiv').stop();"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which method is used to get the value of a CSS property?",
+    "Option1": "css('property')",
+    "Option2": "getStyle('property')",
+    "Option3": "property('property')",
+    "Option4": "style('property')",
+    "Answer": "css('property')"
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which jQuery method is used to set the `display` property of an element to 'none' and remove it from the document flow?",
+    "Option1": "remove()",
+    "Option2": "empty()",
+    "Option3": "hide()",
+    "Option4": "toggle()",
+    "Answer": "hide()"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which jQuery method is used to set the `display` property of an element back to its original value (e.g., 'block', 'inline-block') and make it visible?",
+    "Option1": "show()",
+    "Option2": "appear()",
+    "Option3": "display()",
+    "Option4": "visible()",
+    "Answer": "show()"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the purpose of the `noConflict()` method in jQuery?",
+    "Option1": "To prevent jQuery from being loaded.",
+    "Option2": "To allow multiple versions of jQuery on the same page.",
+    "Option3": "To release the `$` symbol, allowing other libraries to use it.",
+    "Option4": "To clear the jQuery cache.",
+    "Answer": "To release the `$` symbol, allowing other libraries to use it."
+  },
+  {
+    "question_no.": 75,
+    "Question": "After calling `$.noConflict()`, how would you typically use jQuery while still using `$` for another library?",
+    "Option1": "Use `jQuery` instead of `$` (e.g., `jQuery('#myDiv')`).",
+    "Option2": "You cannot use jQuery at all.",
+    "Option3": "Define a new alias for jQuery.",
+    "Option4": "Restart the browser.",
+    "Answer": "Use `jQuery` instead of `$` (e.g., `jQuery('#myDiv')`)."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which jQuery method is used to get or set the outer HTML of an element?",
+    "Option1": "html()",
+    "Option2": "text()",
+    "Option3": "outerHTML()",
+    "Option4": "wrap()",
+    "Answer": "html()"
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you wrap an element with the ID 'myDiv' inside another div?",
+    "Option1": "$('#myDiv').parent('<div></div>');",
+    "Option2": "$('#myDiv').wrap('<div></div>');",
+    "Option3": "$('<div></div>').append($('#myDiv'));",
+    "Option4": "$('#myDiv').addWrapper('<div></div>');",
+    "Answer": "$('#myDiv').wrap('<div></div>');"
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you wrap each element in a set of matched elements individually with specified HTML content?",
+    "Option1": "wrapAll()",
+    "Option2": "wrapInner()",
+    "Option3": "wrap()",
+    "Option4": "unwrap()",
+    "Answer": "wrap()"
+  },
+  {
+    "question_no.": 79,
+    "Question": "How do you wrap the inner content of each element in a set of matched elements with specified HTML content?",
+    "Option1": "wrap()",
+    "Option2": "wrapAll()",
+    "Option3": "wrapInner()",
+    "Option4": "unwrap()",
+    "Answer": "wrapInner()"
+  },
+  {
+    "question_no.": 80,
+    "Question": "How do you remove the parent of each element in the set of matched elements, leaving the selected elements in place?",
+    "Option1": "removeParent()",
+    "Option2": "unwrap()",
+    "Option3": "deleteParent()",
+    "Option4": "emptyParent()",
+    "Answer": "unwrap()"
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which jQuery method is used to prepend content to the matched elements?",
+    "Option1": "append()",
+    "Option2": "prepend()",
+    "Option3": "before()",
+    "Option4": "after()",
+    "Answer": "prepend()"
+  },
+  {
+    "question_no.": 82,
+    "Question": "Which jQuery method is used to add new HTML elements/content after the selected elements?",
+    "Option1": "before()",
+    "Option2": "append()",
+    "Option3": "after()",
+    "Option4": "prepend()",
+    "Answer": "after()"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which jQuery method is used to add new HTML elements/content before the selected elements?",
+    "Option1": "after()",
+    "Option2": "append()",
+    "Option3": "before()",
+    "Option4": "prepend()",
+    "Answer": "before()"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What does `slideDown()` do?",
+    "Option1": "Slides an element up to hide it.",
+    "Option2": "Slides an element down to show it.",
+    "Option3": "Fades an element in.",
+    "Option4": "Moves an element horizontally.",
+    "Answer": "Slides an element down to show it."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What does `slideUp()` do?",
+    "Option1": "Slides an element down to show it.",
+    "Option2": "Slides an element up to hide it.",
+    "Option3": "Fades an element out.",
+    "Option4": "Moves an element vertically.",
+    "Answer": "Slides an element up to hide it."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the effect of `slideToggle()`?",
+    "Option1": "It slides an element to the left or right.",
+    "Option2": "It toggles between sliding up and sliding down states for an element.",
+    "Option3": "It toggles the fade effect.",
+    "Option4": "It toggles between visible and hidden by changing display property only.",
+    "Answer": "It toggles between sliding up and sliding down states for an element."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you add a deferred function to be called after an animation completes?",
+    "Option1": "chain()",
+    "Option2": "done()",
+    "Option3": "promise()",
+    "Option4": "delay()",
+    "Answer": "done()"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which jQuery method is used to delay the execution of an animation or a function?",
+    "Option1": "setTimeout()",
+    "Option2": "wait()",
+    "Option3": "delay()",
+    "Option4": "pause()",
+    "Answer": "delay()"
+  },
+  {
+    "question_no.": 89,
+    "Question": "How do you check if an element is currently hidden using jQuery?",
+    "Option1": "$('#myElement').is(':hidden');",
+    "Option2": "$('#myElement').isHidden();",
+    "Option3": "$('#myElement').css('display') == 'none';",
+    "Option4": "Both A and C are valid.",
+    "Answer": "Both A and C are valid."
+  },
+  {
+    "question_no.": 90,
+    "Question": "How do you check if an element is currently visible using jQuery?",
+    "Option1": "$('#myElement').is(':visible');",
+    "Option2": "$('#myElement').isVisible();",
+    "Option3": "$('#myElement').css('display') != 'none';",
+    "Option4": "Both A and C are valid.",
+    "Answer": "Both A and C are valid."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which jQuery method is used to get the index of an element within its siblings?",
+    "Option1": "position()",
+    "Option2": "index()",
+    "Option3": "eq()",
+    "Option4": "siblings().indexOf()",
+    "Answer": "index()"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the purpose of `$.each()` (the global utility method)?",
+    "Option1": "To iterate over a jQuery object (HTML elements).",
+    "Option2": "To iterate over any object or array (for general purpose iteration).",
+    "Option3": "To iterate over CSS properties.",
+    "Option4": "To iterate over event handlers.",
+    "Answer": "To iterate over any object or array (for general purpose iteration)."
+  },
+  {
+    "question_no.": 93,
+    "Question": "How do you serialize a form (convert form data into a URL-encoded string) using jQuery?",
+    "Option1": "$('form').toArray();",
+    "Option2": "$('form').toJson();",
+    "Option3": "$('form').serialize();",
+    "Option4": "$('form').data();",
+    "Answer": "$('form').serialize();"
+  },
+  {
+    "question_no.": 94,
+    "Question": "Which jQuery method is used to submit a form?",
+    "Option1": "$('form').click();",
+    "Option2": "$('form').send();",
+    "Option3": "$('form').submit();",
+    "Option4": "$('form').action();",
+    "Answer": "$('form').submit()"
+  },
+  {
+    "question_no.": 95,
+    "Question": "How do you get the children elements that are specific tags, e.g., only 'div' children?",
+    "Option1": "$('#parent').find('div');",
+    "Option2": "$('#parent').children('div');",
+    "Option3": "$('#parent').get('div');",
+    "Option4": "$('#parent').select('div');",
+    "Answer": "$('#parent').children('div');"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the purpose of `$.trim()`?",
+    "Option1": "To remove HTML tags from a string.",
+    "Option2": "To remove whitespace from the beginning and end of a string.",
+    "Option3": "To shorten a string.",
+    "Option4": "To convert a string to an array.",
+    "Answer": "To remove whitespace from the beginning and end of a string."
+  },
+  {
+    "question_no.": 97,
+    "Question": "How do you add inline CSS styles to an element using `css()`?",
+    "Option1": "$('#myDiv').css('background-color: blue');",
+    "Option2": "$('#myDiv').css({backgroundColor: 'blue'});",
+    "Option3": "$('#myDiv').addStyle('background-color', 'blue');",
+    "Option4": "$('#myDiv').style.backgroundColor = 'blue';",
+    "Answer": "$('#myDiv').css({backgroundColor: 'blue'});"
+  },
+  {
+    "question_no.": 98,
+    "Question": "Which jQuery method is used to prepend an HTML string to an existing element?",
+    "Option1": "$('content').prependTo('#element');",
+    "Option2": "$('#element').prepend('content');",
+    "Option3": "Both A and B",
+    "Option4": "$('content').before('#element');",
+    "Answer": "Both A and B"
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which jQuery method is used to append an HTML string to an existing element?",
+    "Option1": "$('content').appendTo('#element');",
+    "Option2": "$('#element').append('content');",
+    "Option3": "Both A and B",
+    "Option4": "$('content').after('#element');",
+    "Answer": "Both A and B"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What does `$.data()` do?",
+    "Option1": "Stores data directly in the DOM element's attributes.",
+    "Option2": "Attaches arbitrary data to matched elements or returns the value at the named data store for the first element in the set of matched elements.",
+    "Option3": "Retrieves data from a server.",
+    "Option4": "Converts data to JSON format.",
+    "Answer": "Attaches arbitrary data to matched elements or returns the value at the named data store for the first element in the set of matched elements."
+  },
+  {
+    "question_no.": 101,
+    "Question": "How do you add an element `<span>Hello</span>` inside a div with ID `container`?",
+    "Option1": "$('#container').html('<span>Hello</span>');",
+    "Option2": "$('#container').append('<span>Hello</span>');",
+    "Option3": "$('<span>Hello</span>').appendTo('#container');",
+    "Option4": "All of the above, depending on desired effect (overwrite vs. add).",
+    "Answer": "All of the above, depending on desired effect (overwrite vs. add)."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which jQuery selector selects all elements that are the first child of their parent?",
+    "Option1": ":first",
+    "Option2": ":first-child",
+    "Option3": ":nth-child(1)",
+    "Option4": "All of the above, depending on context and specific needs.",
+    "Answer": "All of the above, depending on context and specific needs."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which jQuery selector selects all visible elements?",
+    "Option1": ":hidden",
+    "Option2": ":display",
+    "Option3": ":visible",
+    "Option4": ":active",
+    "Answer": ":visible"
+  },
+  {
+    "question_no.": 104,
+    "Question": "Which jQuery selector selects all elements that are currently hidden?",
+    "Option1": ":show",
+    "Option2": ":invisible",
+    "Option3": ":hidden",
+    "Option4": ":inactive",
+    "Answer": ":hidden"
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which jQuery method is used to get the scroll position of the document (vertical)?",
+    "Option1": "$(window).scrollLeft()",
+    "Option2": "$(document).scrollTop()",
+    "Option3": "$(window).scrollTop()",
+    "Option4": "$('body').scrollTop()",
+    "Answer": "$(window).scrollTop()"
+  },
+  {
+    "question_no.": 106,
+    "Question": "How do you set the scroll position of the document (vertical) to 100px?",
+    "Option1": "$(window).scrollTop(100);",
+    "Option2": "$('body').scrollTop(100);",
+    "Option3": "Both A and B can achieve this depending on browser/doctype.",
+    "Option4": "$(document).scrollTo(100);",
+    "Answer": "Both A and B can achieve this depending on browser/doctype."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which jQuery method is used to add or subtract from a CSS property value during an animation?",
+    "Option1": "addCss()",
+    "Option2": "changeCss()",
+    "Option3": "In the `animate()` method, use `'+=value'` or `'-=value'`.",
+    "Option4": "alterCss()",
+    "Answer": "In the `animate()` method, use `'+=value'` or `'-=value'`."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How do you select the first list item (<li>) of an unordered list (<ul>) with the ID 'myList'?",
+    "Option1": "$('#myList li:first')",
+    "Option2": "$('#myList li:eq(0)')",
+    "Option3": "$('#myList li').first()",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which event is triggered when an element receives focus?",
+    "Option1": "click",
+    "Option2": "hover",
+    "Option3": "focus",
+    "Option4": "change",
+    "Answer": "focus"
+  },
+  {
+    "question_no.": 110,
+    "Question": "Which event is triggered when an element loses focus?",
+    "Option1": "focusin",
+    "Option2": "blur",
+    "Option3": "mouseout",
+    "Option4": "keyup",
+    "Answer": "blur"
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which event is triggered when a key is pressed down?",
+    "Option1": "keyup",
+    "Option2": "keypress",
+    "Option3": "keydown",
+    "Option4": "keyrelease",
+    "Answer": "keydown"
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which event is triggered when a key is released?",
+    "Option1": "keydown",
+    "Option2": "keypress",
+    "Option3": "keyup",
+    "Option4": "keyhold",
+    "Answer": "keyup"
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which event is triggered when the value of an input element changes (e.g., after typing and losing focus, or selecting an option from a dropdown)?",
+    "Option1": "input",
+    "Option2": "change",
+    "Option3": "select",
+    "Option4": "update",
+    "Answer": "change"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the purpose of the `stopImmediatePropagation()` method in an event object?",
+    "Option1": "To prevent the default action of the event.",
+    "Option2": "To stop the event from bubbling up the DOM tree.",
+    "Option3": "To stop the event from bubbling up the DOM tree and also prevent other handlers on the *current* element from executing.",
+    "Option4": "To cancel all future events.",
+    "Answer": "To stop the event from bubbling up the DOM tree and also prevent other handlers on the *current* element from executing."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which jQuery method is used to remove elements from the DOM, but keep them in memory to re-insert later?",
+    "Option1": "remove()",
+    "Option2": "empty()",
+    "Option3": "detach()",
+    "Option4": "hide()",
+    "Answer": "detach()"
+  },
+  {
+    "question_no.": 116,
+    "Question": "How do you clone an element with its event handlers using jQuery?",
+    "Option1": "$('#myDiv').copy();",
+    "Option2": "$('#myDiv').clone(true);",
+    "Option3": "$('#myDiv').duplicate();",
+    "Option4": "$('#myDiv').clone().withEvents();",
+    "Answer": "$('#myDiv').clone(true);"
+  },
+  {
+    "question_no.": 117,
+    "Question": "How do you clone an element without its event handlers using jQuery?",
+    "Option1": "$('#myDiv').clone(false);",
+    "Option2": "$('#myDiv').clone();",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#myDiv').copyWithoutEvents();",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the purpose of the `not()` filter method?",
+    "Option1": "To select all elements that match a selector.",
+    "Option2": "To remove elements from the set of matched elements that match a specified selector.",
+    "Option3": "To select elements that do not have a specific attribute.",
+    "Option4": "To invert a selection.",
+    "Answer": "To remove elements from the set of matched elements that match a specified selector."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which jQuery selector selects elements that contain a specific text string?",
+    "Option1": ":hasText(text)",
+    "Option2": ":contains(text)",
+    "Option3": ":text(text)",
+    "Option4": ":content(text)",
+    "Answer": ":contains(text)"
+  },
+  {
+    "question_no.": 120,
+    "Question": "Which jQuery selector selects input elements that are checked (checkboxes, radio buttons)?",
+    "Option1": ":selected",
+    "Option2": ":active",
+    "Option3": ":checked",
+    "Option4": ":enabled",
+    "Answer": ":checked"
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which jQuery selector selects option elements that are selected in a dropdown?",
+    "Option1": ":checked",
+    "Option2": ":active",
+    "Option3": ":selected",
+    "Option4": ":option",
+    "Answer": ":selected"
+  },
+  {
+    "question_no.": 122,
+    "Question": "How do you select all disabled input elements?",
+    "Option1": "$('input:disabled')",
+    "Option2": "$('input.disabled')",
+    "Option3": "$('input[disabled]')",
+    "Option4": "Both A and C are valid.",
+    "Answer": "Both A and C are valid."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the purpose of `$.isEmptyObject()`?",
+    "Option1": "To check if an array is empty.",
+    "Option2": "To check if an object has no properties.",
+    "Option3": "To check if a string is empty.",
+    "Option4": "To check if an element exists.",
+    "Answer": "To check if an object has no properties."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the purpose of `$.isArray()`?",
+    "Option1": "To check if a variable is a jQuery object.",
+    "Option2": "To check if an object is an array.",
+    "Option3": "To check if a string is an array.",
+    "Option4": "To check if an element is an array.",
+    "Answer": "To check if an object is an array."
+  },
+  {
+    "question_no.": 125,
+    "Question": "How do you prevent animation queues from building up for an element?",
+    "Option1": "Using `stop(true)` or `stop(true, true)` before starting a new animation.",
+    "Option2": "By setting a very short duration.",
+    "Option3": "By disabling animations globally.",
+    "Option4": "By removing the element from the DOM.",
+    "Answer": "Using `stop(true)` or `stop(true, true)` before starting a new animation."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What does `stop(true)` do in jQuery animation?",
+    "Option1": "Stops the current animation and immediately jumps to the end of the animation.",
+    "Option2": "Stops the current animation and clears the animation queue.",
+    "Option3": "Stops the current animation and clears all animation queues.",
+    "Option4": "Pauses the current animation.",
+    "Answer": "Stops the current animation and clears the animation queue."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What does `stop(true, true)` do in jQuery animation?",
+    "Option1": "Stops the current animation and immediately jumps to the end of the animation and clears the animation queue.",
+    "Option2": "Stops the current animation and clears all animation queues.",
+    "Option3": "Stops the current animation without jumping to the end.",
+    "Option4": "Restarts the animation.",
+    "Answer": "Stops the current animation and immediately jumps to the end of the animation and clears the animation queue."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `$.when()` used for?",
+    "Option1": "To execute a function after a delay.",
+    "Option2": "To perform actions when one or more Deferred objects are resolved or rejected.",
+    "Option3": "To check for an element's visibility.",
+    "Option4": "To bind an event handler.",
+    "Answer": "To perform actions when one or more Deferred objects are resolved or rejected."
+  },
+  {
+    "question_no.": 129,
+    "Question": "How do you add a deferred callback that is executed when the Deferred object is resolved (success)?",
+    "Option1": "promise.fail()",
+    "Option2": "promise.always()",
+    "Option3": "promise.done()",
+    "Option4": "promise.catch()",
+    "Answer": "promise.done()"
+  },
+  {
+    "question_no.": 130,
+    "Question": "How do you add a deferred callback that is executed when the Deferred object is rejected (failure)?",
+    "Option1": "promise.done()",
+    "Option2": "promise.always()",
+    "Option3": "promise.fail()",
+    "Option4": "promise.then()",
+    "Answer": "promise.fail()"
+  },
+  {
+    "question_no.": 131,
+    "Question": "How do you add a deferred callback that is executed when the Deferred object is either resolved or rejected?",
+    "Option1": "promise.done()",
+    "Option2": "promise.fail()",
+    "Option3": "promise.always()",
+    "Option4": "promise.complete()",
+    "Answer": "promise.always()"
+  },
+  {
+    "question_no.": 132,
+    "Question": "Which jQuery method is used for simple, direct JSONP requests?",
+    "Option1": "$.ajax()",
+    "Option2": "$.getJSON()",
+    "Option3": "$.getScript()",
+    "Option4": "$.load()",
+    "Answer": "$.getJSON()"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `JSONP` and why is it sometimes used with jQuery?",
+    "Option1": "A secure way to send data over HTTP.",
+    "Option2": "JSON with Padding, a method for making cross-domain AJAX requests (bypassing same-origin policy) before CORS was widely supported.",
+    "Option3": "A format for storing JSON data locally.",
+    "Option4": "A type of database query.",
+    "Answer": "JSON with Padding, a method for making cross-domain AJAX requests (bypassing same-origin policy) before CORS was widely supported."
+  },
+  {
+    "question_no.": 134,
+    "Question": "How do you get the total number of matched elements in a jQuery object?",
+    "Option1": "$('selector').count()",
+    "Option2": "$('selector').length",
+    "Option3": "$('selector').size()",
+    "Option4": "Both B and C (size() is deprecated in newer jQuery versions)",
+    "Answer": "Both B and C (size() is deprecated in newer jQuery versions)"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the purpose of the `$.fn` alias in jQuery?",
+    "Option1": "It's a shorthand for `jQuery.extend()`.",
+    "Option2": "It's an alias for `jQuery.prototype`, used for adding new methods to the jQuery object.",
+    "Option3": "It's a utility function for functional programming.",
+    "Option4": "It's used for defining global functions.",
+    "Answer": "It's an alias for `jQuery.prototype`, used for adding new methods to the jQuery object."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How would you create a custom jQuery method called `myCustomMethod`?",
+    "Option1": "jQuery.myCustomMethod = function() {};",
+    "Option2": "$.fn.myCustomMethod = function() {};",
+    "Option3": "$.extend({myCustomMethod: function() {}});",
+    "Option4": "jQuery.prototype.addMyCustomMethod = function() {};",
+    "Answer": "$.fn.myCustomMethod = function() {};"
+  },
+  {
+    "question_no.": 137,
+    "Question": "Which jQuery method is used to remove all event handlers previously attached to the elements?",
+    "Option1": "clearEvents()",
+    "Option2": "off()",
+    "Option3": "removeAllEvents()",
+    "Option4": "unregisterEvents()",
+    "Answer": "off()"
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you attach a `hover` event to an element in jQuery?",
+    "Option1": "$('#myDiv').on('mouseover mouseout', handler);",
+    "Option2": "$('#myDiv').hover(handlerIn, handlerOut);",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#myDiv').mouseHover();",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which jQuery method is used to add or subtract numeric values from the current `width` of an element?",
+    "Option1": "width(value)",
+    "Option2": "width('+=value')",
+    "Option3": "width('-=value')",
+    "Option4": "All of the above for setting relative width.",
+    "Answer": "All of the above for setting relative width."
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you trigger a click event programmatically on an element with ID 'myBtn'?",
+    "Option1": "$('#myBtn').click();",
+    "Option2": "$('#myBtn').trigger('click');",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#myBtn').fire('click');",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the purpose of the `$.extend()` method?",
+    "Option1": "To merge the contents of two or more objects together into the first object.",
+    "Option2": "To extend a jQuery object with new methods.",
+    "Option3": "To create a deep copy of an object.",
+    "Option4": "All of the above.",
+    "Answer": "All of the above."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you deep copy an object using `$.extend()`?",
+    "Option1": "$.extend(myObject);",
+    "Option2": "$.extend(true, {}, myObject);",
+    "Option3": "$.extend({}, myObject, true);",
+    "Option4": "$.extend(myObject, deep: true);",
+    "Answer": "$.extend(true, {}, myObject);"
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which jQuery method is used to add HTML to the beginning of the inner content of the selected elements?",
+    "Option1": "append()",
+    "Option2": "after()",
+    "Option3": "prepend()",
+    "Option4": "before()",
+    "Answer": "prepend()"
+  },
+  {
+    "question_no.": 144,
+    "Question": "Which jQuery method is used to add HTML to the end of the inner content of the selected elements?",
+    "Option1": "prepend()",
+    "Option2": "before()",
+    "Option3": "after()",
+    "Option4": "append()",
+    "Answer": "append()"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What does `jQuery.inArray(value, array)` do?",
+    "Option1": "Checks if an array contains a specific value and returns true/false.",
+    "Option2": "Returns the index of the first occurrence of the specified value in the array, or -1 if not found.",
+    "Option3": "Removes a value from an array.",
+    "Option4": "Adds a value to an array.",
+    "Answer": "Returns the index of the first occurrence of the specified value in the array, or -1 if not found."
+  },
+  {
+    "question_no.": 146,
+    "Question": "Which jQuery method is used to filter out elements that do not match a given selector?",
+    "Option1": "find()",
+    "Option2": "has()",
+    "Option3": "not()",
+    "Option4": "exclude()",
+    "Answer": "not()"
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which jQuery method is used to retrieve the value of an element's custom data attribute (e.g., `data-id`)?",
+    "Option1": "attr('data-id')",
+    "Option2": "data('id')",
+    "Option3": "prop('data-id')",
+    "Option4": "Both A and B are common (though data() is preferred for custom data).",
+    "Answer": "Both A and B are common (though data() is preferred for custom data)."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of `$.parseJSON()` (deprecated in newer versions, superseded by `JSON.parse`)?",
+    "Option1": "To convert a JavaScript object to a JSON string.",
+    "Option2": "To parse a JSON string and return a JavaScript object.",
+    "Option3": "To validate a JSON string.",
+    "Option4": "To convert an array to a JSON string.",
+    "Answer": "To parse a JSON string and return a JavaScript object."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which jQuery selector selects elements based on their position among siblings (e.g., the third element)?",
+    "Option1": ":nth-child(n)",
+    "Option2": ":eq(n)",
+    "Option3": ":lt(n)",
+    "Option4": "All of the above, depending on the specific use case.",
+    "Answer": "All of the above, depending on the specific use case."
+  },
+  {
+    "question_no.": 150,
+    "Question": "How do you select all elements with the attribute `data-role` set to `button`?",
+    "Option1": "$('[data-role=\"button\"]')",
+    "Option2": "$(':attr(data-role=\"button\")')",
+    "Option3": "$('.data-role-button')",
+    "Option4": "$('[data-role]:button')",
+    "Answer": "$('[data-role=\"button\"]')"
+  },
+  {
+    "question_no.": 151,
+    "Question": "Which jQuery method is used to change the type of an input element (e.g., from text to password)?",
+    "Option1": "prop('type', 'password')",
+    "Option2": "attr('type', 'password')",
+    "Option3": "changeType('password')",
+    "Option4": "setType('password')",
+    "Answer": "attr('type', 'password')"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the difference between `empty()` and `remove()`?",
+    "Option1": "`empty()` removes the element itself, `remove()` empties its content.",
+    "Option2": "`remove()` removes the element itself and its data/events, `empty()` empties its content but keeps the element.",
+    "Option3": "There is no functional difference.",
+    "Option4": "`empty()` hides the element, `remove()` deletes it permanently.",
+    "Answer": "`remove()` removes the element itself and its data/events, `empty()` empties its content but keeps the element."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which jQuery method is used to get the HTML content of the first element in the set of matched elements?",
+    "Option1": "text()",
+    "Option2": "val()",
+    "Option3": "html()",
+    "Option4": "content()",
+    "Answer": "html()"
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you get the plain text content of the first element in the set of matched elements, including that of its descendants?",
+    "Option1": "html()",
+    "Option2": "val()",
+    "Option3": "text()",
+    "Option4": "innerText()",
+    "Answer": "text()"
+  },
+  {
+    "question_no.": 155,
+    "Question": "Which jQuery method is used to get the calculated width of an element, including padding but not border or margin?",
+    "Option1": "width()",
+    "Option2": "outerWidth()",
+    "Option3": "innerWidth()",
+    "Option4": "css('width')",
+    "Answer": "innerWidth()"
+  },
+  {
+    "question_no.": 156,
+    "Question": "Which jQuery method is used to get the calculated height of an element, including padding but not border or margin?",
+    "Option1": "height()",
+    "Option2": "outerHeight()",
+    "Option3": "innerHeight()",
+    "Option4": "css('height')",
+    "Answer": "innerHeight()"
+  },
+  {
+    "question_no.": 157,
+    "Question": "How do you chain multiple jQuery methods on the same selection?",
+    "Option1": "By separating them with semicolons.",
+    "Option2": "By putting each method call on a new line.",
+    "Option3": "By calling methods sequentially on the returned jQuery object.",
+    "Option4": "You cannot chain methods in jQuery.",
+    "Answer": "By calling methods sequentially on the returned jQuery object."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the benefit of method chaining in jQuery?",
+    "Option1": "It makes the code less readable.",
+    "Option2": "It reduces the number of times you have to select elements, improving performance and making code more concise.",
+    "Option3": "It prevents errors from occurring.",
+    "Option4": "It is required for all jQuery operations.",
+    "Answer": "It reduces the number of times you have to select elements, improving performance and making code more concise."
+  },
+  {
+    "question_no.": 159,
+    "Question": "How do you select elements that are direct children of a specific parent (e.g., all `span` elements that are direct children of a `div` with ID `parentDiv`)?",
+    "Option1": "$('#parentDiv span')",
+    "Option2": "$('#parentDiv > span')",
+    "Option3": "$('#parentDiv + span')",
+    "Option4": "$('#parentDiv ~ span')",
+    "Answer": "$('#parentDiv > span')"
+  },
+  {
+    "question_no.": 160,
+    "Question": "Which selector selects the next sibling element that matches a specified selector?",
+    "Option1": "+",
+    "Option2": "~",
+    "Option3": " ",
+    "Option4": ">",
+    "Answer": "+"
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which selector selects all sibling elements that come after the first element and match a specified selector?",
+    "Option1": "+",
+    "Option2": "~",
+    "Option3": ">",
+    "Option4": " ",
+    "Answer": "~"
+  },
+  {
+    "question_no.": 162,
+    "Question": "How do you select elements based on a pseudo-class, such as elements that are currently being hovered over?",
+    "Option1": "$(':hover')",
+    "Option2": "$('.hover')",
+    "Option3": "$('[hover]')",
+    "Option4": "You cannot select based on hover state in CSS selectors.",
+    "Answer": "$(':hover')"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What does `$.fn.jquery` return?",
+    "Option1": "The number of jQuery elements on the page.",
+    "Option2": "The version of jQuery currently in use.",
+    "Option3": "The current date.",
+    "Option4": "A boolean indicating if jQuery is loaded.",
+    "Answer": "The version of jQuery currently in use."
+  },
+  {
+    "question_no.": 164,
+    "Question": "How do you find all `input` elements with a `type` attribute of `text`?",
+    "Option1": "$('input[type=\"text\"]')",
+    "Option2": "$('input:text')",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('input[text]')",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 165,
+    "Question": "Which jQuery method sets the `text-align` CSS property to `center` for an element with the ID 'myElement'?",
+    "Option1": "$('#myElement').align('center');",
+    "Option2": "$('#myElement').css('text-align', 'center');",
+    "Option3": "$('#myElement').setTextAlign('center');",
+    "Option4": "$('#myElement').style.textAlign = 'center';",
+    "Answer": "$('#myElement').css('text-align', 'center');"
+  },
+  {
+    "question_no.": 166,
+    "Question": "How do you iterate over a simple JavaScript array named `myArray` using jQuery's utility methods?",
+    "Option1": "myArray.each(function() {});",
+    "Option2": "$.each(myArray, function(index, value) {});",
+    "Option3": "for (let item of myArray) {}",
+    "Option4": "myArray.forEach(function() {});",
+    "Answer": "$.each(myArray, function(index, value) {});"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the purpose of the `$.grep()` method?",
+    "Option1": "To sort an array.",
+    "Option2": "To filter an array by a function, returning a new array containing only the elements for which the callback function returns true.",
+    "Option3": "To map an array to new values.",
+    "Option4": "To search for a specific element in an array.",
+    "Answer": "To filter an array by a function, returning a new array containing only the elements for which the callback function returns true."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What does `$.map()` do?",
+    "Option1": "Iterates over an array or object and modifies its contents in place.",
+    "Option2": "Translates all items in an array or object into a new array of items.",
+    "Option3": "Finds a specific element in an array.",
+    "Option4": "Removes elements from an array.",
+    "Answer": "Translates all items in an array or object into a new array of items."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which jQuery method is used to remove a previously set custom data attribute (e.g., `data-info`)?",
+    "Option1": "$('#myDiv').removeData('info');",
+    "Option2": "$('#myDiv').deleteData('info');",
+    "Option3": "$('#myDiv').removeProp('info');",
+    "Option4": "$('#myDiv').removeAttr('data-info');",
+    "Answer": "$('#myDiv').removeData('info');"
+  },
+  {
+    "question_no.": 170,
+    "Question": "How do you prevent the browser's default behavior when a form is submitted (without using `return false;`)?",
+    "Option1": "$('form').on('submit', function(event) { event.stopImmediatePropagation(); });",
+    "Option2": "$('form').on('submit', function(event) { event.preventDefault(); });",
+    "Option3": "$('form').on('submit', function() { /* do nothing */ });",
+    "Option4": "$('form').submit().off();",
+    "Answer": "$('form').on('submit', function(event) { event.preventDefault(); });"
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you get the `target` element of an event in jQuery?",
+    "Option1": "this",
+    "Option2": "event.target",
+    "Option3": "$(this)",
+    "Option4": "Both B and C (when referring to the jQuery object).",
+    "Answer": "Both B and C (when referring to the jQuery object)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the purpose of `$.noConflict(true)`?",
+    "Option1": "To release the `$` alias for jQuery only.",
+    "Option2": "To release both the `$` and `jQuery` aliases, allowing other libraries to use them.",
+    "Option3": "To prevent jQuery from loading at all.",
+    "Option4": "To restore the previous jQuery version.",
+    "Answer": "To release both the `$` and `jQuery` aliases, allowing other libraries to use them."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Which jQuery method is used to get the value of an attribute for the first element in the set of matched elements?",
+    "Option1": "prop('attributeName')",
+    "Option2": "attr('attributeName')",
+    "Option3": "getAttribute('attributeName')",
+    "Option4": "Both A and B (depending on if it's a true attribute or DOM property).",
+    "Answer": "Both A and B (depending on if it's a true attribute or DOM property)."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which jQuery method is used to get the text content of selected elements, including the content of their descendants?",
+    "Option1": "html()",
+    "Option2": "val()",
+    "Option3": "text()",
+    "Option4": "innerText()",
+    "Answer": "text()"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the purpose of `$.param()`?",
+    "Option1": "To parse a query string into an object.",
+    "Option2": "To create a URL-encoded string from an array or object, suitable for use in a URL query string or AJAX request.",
+    "Option3": "To validate parameters.",
+    "Option4": "To extract parameters from a URL.",
+    "Answer": "To create a URL-encoded string from an array or object, suitable for use in a URL query string or AJAX request."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which jQuery method adds CSS properties and values to the selected elements?",
+    "Option1": "addCss()",
+    "Option2": "css()",
+    "Option3": "style()",
+    "Option4": "setProperty()",
+    "Answer": "css()"
+  },
+  {
+    "question_no.": 177,
+    "Question": "How do you insert an element (e.g., `myElement`) after another element (e.g., `targetElement`)?",
+    "Option1": "$('#targetElement').after(myElement);",
+    "Option2": "$(myElement).insertAfter('#targetElement');",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#targetElement').addAfter(myElement);",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 178,
+    "Question": "How do you insert an element (e.g., `myElement`) before another element (e.g., `targetElement`)?",
+    "Option1": "$('#targetElement').before(myElement);",
+    "Option2": "$(myElement).insertBefore('#targetElement');",
+    "Option3": "Both A and B are valid.",
+    "Option4": "$('#targetElement').addBefore(myElement);",
+    "Answer": "Both A and B are valid."
+  },
+  {
+    "question_no.": 179,
+    "Question": "Which jQuery method is used to attach a single event handler for a single event to an element?",
+    "Option1": "on()",
+    "Option2": "one()",
+    "Option3": "bind()",
+    "Option4": "live()",
+    "Answer": "one()"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the primary difference in behavior between `on()` and `click()` (and other shorthand event methods)?",
+    "Option1": "There is no difference.",
+    "Option2": "`on()` supports event delegation, `click()` does not.",
+    "Option3": "`click()` is faster than `on()`.",
+    "Option4": "`on()` only works with modern browsers.",
+    "Answer": "`on()` supports event delegation, `click()` does not."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Which jQuery method is used to return the direct parent of an element?",
+    "Option1": "parents()",
+    "Option2": "parent()",
+    "Option3": "closest()",
+    "Option4": "offsetParent()",
+    "Answer": "parent()"
+  },
+  {
+    "question_no.": 182,
+    "Question": "Which jQuery method is used to return all ancestor elements of a selected element?",
+    "Option1": "parent()",
+    "Option2": "parents()",
+    "Option3": "closest()",
+    "Option4": "offsetParent()",
+    "Answer": "parents()"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What does `siblings()` method return?",
+    "Option1": "All child elements of the selected element.",
+    "Option2": "All sibling elements of the selected element.",
+    "Option3": "All parent elements of the selected element.",
+    "Option4": "Only the immediate next and previous sibling elements.",
+    "Answer": "All sibling elements of the selected element."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Which jQuery method is used to get the next sibling element that matches a selector?",
+    "Option1": "next()",
+    "Option2": "nextAll()",
+    "Option3": "nextUntil()",
+    "Option4": "siblings().next()",
+    "Answer": "next()"
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which jQuery method is used to get all following sibling elements that match a selector?",
+    "Option1": "next()",
+    "Option2": "nextAll()",
+    "Option3": "nextUntil()",
+    "Option4": "siblings().nextAll()",
+    "Answer": "nextAll()"
+  },
+  {
+    "question_no.": 186,
+    "Question": "Which jQuery method is used to get the previous sibling element that matches a selector?",
+    "Option1": "prev()",
+    "Option2": "prevAll()",
+    "Option3": "prevUntil()",
+    "Option4": "siblings().prev()",
+    "Answer": "prev()"
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which jQuery method is used to get all preceding sibling elements that match a selector?",
+    "Option1": "prev()",
+    "Option2": "prevAll()",
+    "Option3": "prevUntil()",
+    "Option4": "siblings().prevAll()",
+    "Answer": "prevAll()"
+  },
+  {
+    "question_no.": 188,
+    "Question": "Which jQuery method is used to filter out elements that don't match the current selection?",
+    "Option1": "filter()",
+    "Option2": "not()",
+    "Option3": "is()",
+    "Option4": "has()",
+    "Answer": "not()"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the purpose of `is()` method?",
+    "Option1": "To check if an element matches a specific selector, returning true or false.",
+    "Option2": "To find all elements matching a selector.",
+    "Option3": "To filter elements based on a condition.",
+    "Option4": "To compare two elements.",
+    "Answer": "To check if an element matches a specific selector, returning true or false."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What does `has(selector)` do?",
+    "Option1": "Filters the set of matched elements to those that have a descendant that matches the selector.",
+    "Option2": "Checks if the element has an attribute.",
+    "Option3": "Checks if the element has a class.",
+    "Option4": "Checks if the element contains specific text.",
+    "Answer": "Filters the set of matched elements to those that have a descendant that matches the selector."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which jQuery method is used to iterate over a plain JavaScript object?",
+    "Option1": "Object.keys().forEach()",
+    "Option2": "$.each(myObject, function(key, value) {});",
+    "Option3": "for...in loop",
+    "Option4": "Both B and C are valid, though $.each provides consistency with jQuery objects.",
+    "Answer": "Both B and C are valid, though $.each provides consistency with jQuery objects."
+  },
+  {
+    "question_no.": 192,
+    "Question": "How do you select the first child of every list item (li) in an unordered list?",
+    "Option1": "$('ul li:first')",
+    "Option2": "$('ul li:first-child')",
+    "Option3": "$('ul li').first()",
+    "Option4": "$('ul li:eq(0)')",
+    "Answer": "$('ul li:first-child')"
+  },
+  {
+    "question_no.": 193,
+    "Question": "How do you select the *n*th child (e.g., the 3rd) of every paragraph element?",
+    "Option1": "$('p:nth-child(3)')",
+    "Option2": "$('p:eq(2)')",
+    "Option3": "$('p:nth-of-type(3)')",
+    "Option4": "All of the above, depending on specific HTML structure and desired selection.",
+    "Answer": "All of the above, depending on specific HTML structure and desired selection."
+  },
+  {
+    "question_no.": 194,
+    "Question": "Which jQuery method allows you to execute a function immediately after the current animation completes, and before the next one starts in the queue?",
+    "Option1": "done()",
+    "Option2": "queue()",
+    "Option3": "promise()",
+    "Option4": "dequeue()",
+    "Answer": "queue()"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the purpose of the `$.Deferred()` object?",
+    "Option1": "To create new events.",
+    "Option2": "To create and manage custom asynchronous operations, allowing you to chain callbacks for success and failure.",
+    "Option3": "To delay code execution synchronously.",
+    "Option4": "To handle form submissions.",
+    "Answer": "To create and manage custom asynchronous operations, allowing you to chain callbacks for success and failure."
+  },
+  {
+    "question_no.": 196,
+    "Question": "How do you resolve a `Deferred` object to trigger its success callbacks?",
+    "Option1": "deferred.reject();",
+    "Option2": "deferred.notify();",
+    "Option3": "deferred.resolve();",
+    "Option4": "deferred.complete();",
+    "Answer": "deferred.resolve();"
+  },
+  {
+    "question_no.": 197,
+    "Question": "How do you reject a `Deferred` object to trigger its failure callbacks?",
+    "Option1": "deferred.resolve();",
+    "Option2": "deferred.notify();",
+    "Option3": "deferred.reject();",
+    "Option4": "deferred.fail();",
+    "Answer": "deferred.reject();"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the purpose of `$.ajaxSetup()`?",
+    "Option1": "To configure individual AJAX requests.",
+    "Option2": "To set default values for future AJAX requests.",
+    "Option3": "To disable all AJAX requests.",
+    "Option4": "To send a single AJAX request.",
+    "Answer": "To set default values for future AJAX requests."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What does the `param` option do in `$.ajax()`?",
+    "Option1": "Specifies the URL for the request.",
+    "Option2": "Specifies the data to be sent to the server.",
+    "Option3": "Specifies whether to cache the request.",
+    "Option4": "Specifies the timeout for the request.",
+    "Answer": "Specifies the data to be sent to the server."
+  },
+  {
+    "question_no.": 200,
+    "Question": "How do you get the value of a CSS `margin-top` property for an element with the ID 'myElement'?",
+    "Option1": "$('#myElement').css('margin-top');",
+    "Option2": "$('#myElement').marginTop();",
+    "Option3": "$('#myElement').css('marginTop');",
+    "Option4": "Both A and C are valid.",
+    "Answer": "Both A and C are valid."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the common way to refer to the jQuery object within a closure (e.g., `(function($){ /* code */ })(jQuery);`)?",
+    "Option1": "By using the `jQuery` keyword directly.",
+    "Option2": "By passing `jQuery` as an argument and aliasing it to `$`.",
+    "Option3": "By avoiding the use of the `$` symbol.",
+    "Option4": "This pattern is deprecated.",
+    "Answer": "By passing `jQuery` as an argument and aliasing it to `$`."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Which jQuery method is used to trigger a custom event on an element?",
+    "Option1": "on()",
+    "Option2": "trigger()",
+    "Option3": "dispatch()",
+    "Option4": "emit()",
+    "Answer": "trigger()"
+  },
+  {
+    "question_no.": 203,
+    "Question": "How do you remove an attribute `data-temp` from an element with the ID 'myElement'?",
+    "Option1": "$('#myElement').deleteAttr('data-temp');",
+    "Option2": "$('#myElement').removeProp('data-temp');",
+    "Option3": "$('#myElement').removeAttr('data-temp');",
+    "Option4": "$('#myElement').clearAttr('data-temp');",
+    "Answer": "$('#myElement').removeAttr('data-temp');"
+  },
+  {
+    "question_no.": 204,
+    "Question": "Which jQuery method is used to get the content of selected elements, including the `html` tags?",
+    "Option1": "text()",
+    "Option2": "val()",
+    "Option3": "html()",
+    "Option4": "markup()",
+    "Answer": "html()"
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `jQuery.Deferred()` useful for in AJAX contexts?",
+    "Option1": "It simplifies handling multiple sequential AJAX requests.",
+    "Option2": "It provides a robust way to manage the state and callbacks of asynchronous operations, including AJAX.",
+    "Option3": "It makes AJAX requests synchronous.",
+    "Option4": "It's a debugging tool for AJAX.",
+    "Answer": "It provides a robust way to manage the state and callbacks of asynchronous operations, including AJAX."
+  }
+]

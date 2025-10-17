@@ -1,0 +1,1829 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is TypeScript?",
+    "Option1": "A new programming language entirely separate from JavaScript.",
+    "Option2": "A superset of JavaScript that adds optional static typing.",
+    "Option3": "A framework for building web applications.",
+    "Option4": "A transpiler that converts Python code to JavaScript.",
+    "Answer": "A superset of JavaScript that adds optional static typing."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who developed TypeScript?",
+    "Option1": "Google",
+    "Option2": "Facebook",
+    "Option3": "Microsoft",
+    "Option4": "Mozilla Foundation",
+    "Answer": "Microsoft"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Why is TypeScript gaining popularity in web development?",
+    "Option1": "It makes JavaScript run faster in browsers.",
+    "Option2": "It introduces new syntax that is incompatible with JavaScript.",
+    "Option3": "It helps catch errors early during development, leading to more robust code.",
+    "Option4": "It removes the need for JavaScript entirely.",
+    "Answer": "It helps catch errors early during development, leading to more robust code."
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the file extension for TypeScript files?",
+    "Option1": ".js",
+    "Option2": ".ts",
+    "Option3": ".jsx",
+    "Option4": ".tsx",
+    "Answer": ".ts"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the process of converting TypeScript code into JavaScript code called?",
+    "Option1": "Compiling",
+    "Option2": "Interpreting",
+    "Option3": "Debugging",
+    "Option4": "Executing",
+    "Answer": "Compiling"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which command-line tool is used to compile TypeScript files?",
+    "Option1": "node",
+    "Option2": "npm",
+    "Option3": "tsc",
+    "Option4": "webpack",
+    "Answer": "tsc"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is a 'type' in TypeScript?",
+    "Option1": "A keyword used for loops.",
+    "Option2": "A way to define the shape and behavior of values.",
+    "Option3": "A special kind of variable.",
+    "Option4": "A method for commenting code.",
+    "Answer": "A way to define the shape and behavior of values."
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you declare a variable with a specific type in TypeScript?",
+    "Option1": "let x = 10 as number;",
+    "Option2": "let x: number = 10;",
+    "Option3": "var x type number = 10;",
+    "Option4": "const number x = 10;",
+    "Answer": "let x: number = 10;"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is 'type inference' in TypeScript?",
+    "Option1": "The ability to define custom types.",
+    "Option2": "The compiler's ability to automatically determine the type of a variable.",
+    "Option3": "A feature for converting types at runtime.",
+    "Option4": "A tool for debugging type errors.",
+    "Answer": "The compiler's ability to automatically determine the type of a variable."
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the `any` type in TypeScript?",
+    "Option1": "A type that can hold any value, effectively opting out of type checking for that variable.",
+    "Option2": "A type used for mathematical operations.",
+    "Option3": "A strict type that only allows specific values.",
+    "Option4": "A type representing an empty object.",
+    "Answer": "A type that can hold any value, effectively opting out of type checking for that variable."
+  },
+  {
+    "question_no.": 11,
+    "Question": "Is `any` type recommended for general use in TypeScript?",
+    "Option1": "Yes, always use `any` for flexibility.",
+    "Option2": "No, it defeats the purpose of static typing and should be used sparingly.",
+    "Option3": "Only when working with numbers.",
+    "Option4": "It depends on the framework being used.",
+    "Answer": "No, it defeats the purpose of static typing and should be used sparingly."
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you define an array of numbers in TypeScript?",
+    "Option1": "let numbers: Array = [1, 2, 3];",
+    "Option2": "let numbers: number[] = [1, 2, 3];",
+    "Option3": "let numbers = [1, 2, 3] as number;",
+    "Option4": "let numbers: numbers = [1, 2, 3];",
+    "Answer": "let numbers: number[] = [1, 2, 3];"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is a 'tuple' in TypeScript?",
+    "Option1": "An array that can contain elements of any type.",
+    "Option2": "A fixed-size array where each element can have a different, known type.",
+    "Option3": "A dynamic list that can grow or shrink.",
+    "Option4": "A special object for storing key-value pairs.",
+    "Answer": "A fixed-size array where each element can have a different, known type."
+  },
+  {
+    "question_no.": 14,
+    "Question": "Give an example of a tuple declaration in TypeScript.",
+    "Option1": "let person: [string, number] = ['Alice', 30];",
+    "Option2": "let person = ['Alice', 30];",
+    "Option3": "let person: Array<string|number> = ['Alice', 30];",
+    "Option4": "let person: object = { name: 'Alice', age: 30 };",
+    "Answer": "let person: [string, number] = ['Alice', 30];"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is an 'enum' in TypeScript?",
+    "Option1": "A function that returns a list of values.",
+    "Option2": "A way to define a set of named constants, often related to each other.",
+    "Option3": "A type for representing complex data structures.",
+    "Option4": "A built-in method for array iteration.",
+    "Answer": "A way to define a set of named constants, often related to each other."
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you define a numeric enum in TypeScript?",
+    "Option1": "enum Color { Red = 1, Green, Blue };",
+    "Option2": "const Color = { Red: 1, Green: 2, Blue: 3 };",
+    "Option3": "type Color = 'Red' | 'Green' | 'Blue';",
+    "Option4": "enum Color = { 1: 'Red', 2: 'Green', 3: 'Blue' };",
+    "Answer": "enum Color { Red = 1, Green, Blue };"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the `void` type used for in TypeScript?",
+    "Option1": "To indicate that a function returns no value.",
+    "Option2": "To represent an empty string.",
+    "Option3": "To declare a variable that can be null or undefined.",
+    "Option4": "To specify an optional parameter.",
+    "Answer": "To indicate that a function returns no value."
+  },
+  {
+    "question_no.": 18,
+    "Question": "When would you typically use the `never` type?",
+    "Option1": "For functions that always return a string.",
+    "Option2": "For functions that never return, e.g., throwing an error or infinite loop.",
+    "Option3": "To declare a variable that cannot be reassigned.",
+    "Option4": "To define a type that is always 'null'.",
+    "Answer": "For functions that never return, e.g., throwing an error or infinite loop."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is an 'interface' in TypeScript?",
+    "Option1": "A keyword for creating new classes.",
+    "Option2": "A way to define the shape of an object, acting as a contract.",
+    "Option3": "A global variable that holds configuration settings.",
+    "Option4": "A built-in data structure for storing collections.",
+    "Answer": "A way to define the shape of an object, acting as a contract."
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you define an interface for a `User` object with `name` (string) and `age` (number)?",
+    "Option1": "type User = { name: string, age: number };",
+    "Option2": "class User { name: string; age: number; }",
+    "Option3": "interface User { name: string; age: number; }",
+    "Option4": "const User = { name: string, age: number };",
+    "Answer": "interface User { name: string; age: number; }"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Can an interface in TypeScript define properties that are optional?",
+    "Option1": "No, all properties in an interface must be mandatory.",
+    "Option2": "Yes, using the `?` symbol after the property name.",
+    "Option3": "Only if the property is a string.",
+    "Option4": "Optional properties are only for classes, not interfaces.",
+    "Answer": "Yes, using the `?` symbol after the property name."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'type alias' in TypeScript?",
+    "Option1": "A way to create a new name for a type.",
+    "Option2": "A function that returns a type.",
+    "Option3": "A special type of interface.",
+    "Option4": "A method for type conversion.",
+    "Answer": "A way to create a new name for a type."
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you define a type alias `Point` for an object with `x` and `y` properties (both numbers)?",
+    "Option1": "interface Point { x: number; y: number; }",
+    "Option2": "type Point = { x: number, y: number };",
+    "Option3": "class Point { x: number; y: number; }",
+    "Option4": "let Point: object = { x: number, y: number };",
+    "Answer": "type Point = { x: number, y: number };"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the key difference between an 'interface' and a 'type alias' when defining object shapes?",
+    "Option1": "Interfaces can extend other interfaces, while type aliases cannot.",
+    "Option2": "Type aliases can define union and intersection types, while interfaces cannot.",
+    "Option3": "Interfaces are for primitive types, type aliases are for objects.",
+    "Option4": "There is no significant difference; they are interchangeable.",
+    "Answer": "Type aliases can define union and intersection types, while interfaces cannot."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is a 'union type' in TypeScript?",
+    "Option1": "A type that combines multiple types into one, allowing a variable to be one of several types.",
+    "Option2": "A type that strictly enforces a single data type.",
+    "Option3": "A type used for database connections.",
+    "Option4": "A type that represents a mathematical union of sets.",
+    "Answer": "A type that combines multiple types into one, allowing a variable to be one of several types."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Give an example of a union type for a variable that can be either a `string` or a `number`.",
+    "Option1": "let value: string & number;",
+    "Option2": "let value: string | number;",
+    "Option3": "let value: (string, number);",
+    "Option4": "let value: typeof string | typeof number;",
+    "Answer": "let value: string | number;"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is an 'intersection type' in TypeScript?",
+    "Option1": "A type that allows a variable to be one of several types.",
+    "Option2": "A type that combines multiple types into one, requiring a variable to have all properties of all combined types.",
+    "Option3": "A type used for internal compiler optimizations.",
+    "Option4": "A type representing a logical 'OR' operation.",
+    "Answer": "A type that combines multiple types into one, requiring a variable to have all properties of all combined types."
+  },
+  {
+    "question_no.": 28,
+    "Question": "How do you combine two interfaces, `Person` (name: string) and `Employee` (id: number), into an intersection type?",
+    "Option1": "type Worker = Person | Employee;",
+    "Option2": "type Worker = Person & Employee;",
+    "Option3": "interface Worker extends Person, Employee {}",
+    "Option4": "const Worker: Person & Employee;",
+    "Answer": "type Worker = Person & Employee;"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'type assertion' in TypeScript?",
+    "Option1": "A way to automatically infer types.",
+    "Option2": "A mechanism to tell the compiler that you know more about the type of a value than it currently does.",
+    "Option3": "A process of converting JavaScript to TypeScript.",
+    "Option4": "A method for enforcing strict type checking.",
+    "Answer": "A mechanism to tell the compiler that you know more about the type of a value than it currently does."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What are the two common syntaxes for type assertion?",
+    "Option1": "`typeof` and `instanceof`",
+    "Option2": "`as` keyword and angle-bracket syntax (`<Type>value`)",
+    "Option3": "`is` and `has`",
+    "Option4": "`let` and `const`",
+    "Answer": "`as` keyword and angle-bracket syntax (`<Type>value`)"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'type guarding' in TypeScript?",
+    "Option1": "Preventing any type from being used.",
+    "Option2": "A technique to narrow down the type of a variable within a conditional block.",
+    "Option3": "Encrypting type definitions for security.",
+    "Option4": "A compile-time error prevention system.",
+    "Answer": "A technique to narrow down the type of a variable within a conditional block."
+  },
+  {
+    "question_no.": 32,
+    "Question": "Give an example of a simple type guard using `typeof`.",
+    "Option1": "if (typeof value === 'string') { /* ... */ }",
+    "Option2": "if (value is string) { /* ... */ }",
+    "Option3": "if (value.type === 'string') { /* ... */ }",
+    "Option4": "if (value as string) { /* ... */ }",
+    "Answer": "if (typeof value === 'string') { /* ... */ }"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the purpose of `tsconfig.json`?",
+    "Option1": "To define database schemas for a TypeScript project.",
+    "Option2": "To configure the TypeScript compiler options for a project.",
+    "Option3": "To manage server-side dependencies in a TypeScript application.",
+    "Option4": "To store user authentication tokens.",
+    "Answer": "To configure the TypeScript compiler options for a project."
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which `tsconfig.json` option controls the JavaScript target version?",
+    "Option1": "`outDir`",
+    "Option2": "`module`",
+    "Option3": "`target`",
+    "Option4": "`lib`",
+    "Answer": "`target`"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What does the `strict` flag do in `tsconfig.json`?",
+    "Option1": "Disables all type checking.",
+    "Option2": "Enables a broad range of strict type-checking options.",
+    "Option3": "Forces all variables to be `any` type.",
+    "Option4": "Only compiles files with specific comments.",
+    "Answer": "Enables a broad range of strict type-checking options."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What are 'declaration files' (`.d.ts` files) in TypeScript?",
+    "Option1": "Files that contain actual TypeScript code for compilation.",
+    "Option2": "Files that provide type information for existing JavaScript libraries.",
+    "Option3": "Configuration files for the TypeScript compiler.",
+    "Option4": "Test files for TypeScript applications.",
+    "Answer": "Files that provide type information for existing JavaScript libraries."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Why are declaration files important when working with JavaScript libraries in TypeScript?",
+    "Option1": "They are necessary for JavaScript libraries to function in a browser.",
+    "Option2": "They allow the TypeScript compiler to understand the types in untyped JavaScript code, enabling type checking.",
+    "Option3": "They convert JavaScript libraries into TypeScript libraries.",
+    "Option4": "They enhance the performance of JavaScript libraries.",
+    "Answer": "They allow the TypeScript compiler to understand the types in untyped JavaScript code, enabling type checking."
+  },
+  {
+    "question_no.": 38,
+    "Question": "How do you typically get declaration files for popular JavaScript libraries?",
+    "Option1": "They are automatically generated by the TypeScript compiler.",
+    "Option2": "From the `@types` organization on npm (e.g., `@types/react`).",
+    "Option3": "By manually creating them for each library.",
+    "Option4": "They are embedded directly within the JavaScript library files.",
+    "Answer": "From the `@types` organization on npm (e.g., `@types/react`)."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is a 'namespace' in TypeScript?",
+    "Option1": "A way to organize code into logical groups, preventing global scope pollution.",
+    "Option2": "A type that represents a set of string literals.",
+    "Option3": "A special class that cannot be instantiated.",
+    "Option4": "A built-in module loader for JavaScript.",
+    "Answer": "A way to organize code into logical groups, preventing global scope pollution."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the modern alternative to 'namespaces' in TypeScript?",
+    "Option1": "Enums",
+    "Option2": "Modules (ES Modules or CommonJS Modules)",
+    "Option3": "Interfaces",
+    "Option4": "Tuples",
+    "Answer": "Modules (ES Modules or CommonJS Modules)"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the `readonly` modifier used for in TypeScript?",
+    "Option1": "To make a variable accessible only for reading, not modification.",
+    "Option2": "To define a property that can only be set once during initialization.",
+    "Option3": "To prevent a class from being extended.",
+    "Option4": "To make a function return an immutable value.",
+    "Answer": "To define a property that can only be set once during initialization."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Can you reassign a `readonly` property after its initial assignment?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it will result in a compile-time error.",
+    "Option3": "Only within the constructor of a class.",
+    "Option4": "Only if using `any` type.",
+    "Answer": "No, it will result in a compile-time error."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'type checking' in TypeScript?",
+    "Option1": "The process of verifying data at runtime.",
+    "Option2": "The static analysis of code to ensure type compatibility during compilation.",
+    "Option3": "A debugging technique for finding logical errors.",
+    "Option4": "A feature for optimizing code performance.",
+    "Answer": "The static analysis of code to ensure type compatibility during compilation."
+  },
+  {
+    "question_no.": 44,
+    "Question": "Does TypeScript's type checking happen at runtime or compile-time?",
+    "Option1": "Runtime",
+    "Option2": "Compile-time",
+    "Option3": "Both runtime and compile-time",
+    "Option4": "Neither",
+    "Answer": "Compile-time"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the 'non-null assertion operator' (`!`) used for?",
+    "Option1": "To negate a boolean value.",
+    "Option2": "To assert that an expression is not `null` or `undefined`.",
+    "Option3": "To declare a variable that cannot be null.",
+    "Option4": "To check if a variable has a value.",
+    "Answer": "To assert that an expression is not `null` or `undefined`."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Is using the non-null assertion operator always safe?",
+    "Option1": "Yes, it guarantees the value is not null.",
+    "Option2": "No, it bypasses type safety and can lead to runtime errors if the assumption is wrong.",
+    "Option3": "Only when used with numbers.",
+    "Option4": "It's a feature for production environments only.",
+    "Answer": "No, it bypasses type safety and can lead to runtime errors if the assumption is wrong."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is a 'literal type' in TypeScript?",
+    "Option1": "A type that can only be a specific string, number, or boolean literal value.",
+    "Option2": "A type that infers its value from a literal string.",
+    "Option3": "A type used for defining string templates.",
+    "Option4": "A type for representing large integer values.",
+    "Answer": "A type that can only be a specific string, number, or boolean literal value."
+  },
+  {
+    "question_no.": 48,
+    "Question": "Give an example of a literal type for a variable that can only be 'red', 'green', or 'blue'.",
+    "Option1": "type Color = string;",
+    "Option2": "type Color = 'red' | 'green' | 'blue';",
+    "Option3": "let Color = ['red', 'green', 'blue'];",
+    "Option4": "const Color: enum { 'red', 'green', 'blue' };",
+    "Answer": "type Color = 'red' | 'green' | 'blue';"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is a 'discriminating union' in TypeScript?",
+    "Option1": "A union type where each member has a common, literal property (the 'discriminant') that allows for narrowing.",
+    "Option2": "A type that excludes certain values from a union.",
+    "Option3": "A method for filtering arrays based on type.",
+    "Option4": "A type that dynamically changes its shape.",
+    "Answer": "A union type where each member has a common, literal property (the 'discriminant') that allows for narrowing."
+  },
+  {
+    "question_no.": 50,
+    "Question": "Why are 'discriminating unions' useful?",
+    "Option1": "They improve runtime performance.",
+    "Option2": "They enable powerful type narrowing with `switch` statements or `if/else` blocks.",
+    "Option3": "They reduce the size of compiled JavaScript files.",
+    "Option4": "They automatically generate documentation for types.",
+    "Answer": "They enable powerful type narrowing with `switch` statements or `if/else` blocks."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the `unknown` type in TypeScript?",
+    "Option1": "A type that can hold any value, similar to `any`, but requires type assertions or narrowing before use.",
+    "Option2": "A type for values that are not yet known.",
+    "Option3": "A placeholder type for future implementations.",
+    "Option4": "A type that indicates a variable has no assigned value.",
+    "Answer": "A type that can hold any value, similar to `any`, but requires type assertions or narrowing before use."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the main difference between `any` and `unknown`?",
+    "Option1": "`any` is strict, `unknown` is loose.",
+    "Option2": "`any` allows direct operations without type checking; `unknown` requires narrowing or assertion.",
+    "Option3": "They are identical in functionality.",
+    "Option4": "`unknown` is for primitive types, `any` for objects.",
+    "Answer": "`any` allows direct operations without type checking; `unknown` requires narrowing or assertion."
+  },
+  {
+    "question_no.": 53,
+    "Question": "When would you prefer `unknown` over `any`?",
+    "Option1": "When you want to completely disable type checking.",
+    "Option2": "When you receive data from an external source and want to ensure type safety before using it.",
+    "Option3": "When working with highly dynamic objects.",
+    "Option4": "Never, `any` is always better.",
+    "Answer": "When you receive data from an external source and want to ensure type safety before using it."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a 'function overload' in TypeScript?",
+    "Option1": "Defining multiple functions with the same name but different argument counts or types.",
+    "Option2": "Creating a function that accepts any number of arguments.",
+    "Option3": "A technique for optimizing function calls.",
+    "Option4": "A way to define a function that can call itself.",
+    "Answer": "Defining multiple functions with the same name but different argument counts or types."
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you define a function that can accept either a `string` or a `number` argument and return `string` or `number` respectively?",
+    "Option1": "function greet(arg: string | number): string | number { /* ... */ }",
+    "Option2": "function greet(arg: any): any { /* ... */ }",
+    "Option3": "function greet(arg: string): string; function greet(arg: number): number; function greet(arg: string | number): string | number { /* ... */ }",
+    "Option4": "function greet(arg): string | number { /* ... */ }",
+    "Answer": "function greet(arg: string): string; function greet(arg: number): number; function greet(arg: string | number): string | number { /* ... */ }"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is a 'generic' in TypeScript?",
+    "Option1": "A type that is very general and can be used for anything.",
+    "Option2": "A way to write code that works with a variety of types while maintaining type safety.",
+    "Option3": "A built-in class for handling errors.",
+    "Option4": "A specific type of interface.",
+    "Answer": "A way to write code that works with a variety of types while maintaining type safety."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Give an example of a generic function that returns the input value of any type.",
+    "Option1": "function identity(arg: any): any { return arg; }",
+    "Option2": "function identity<T>(arg: T): T { return arg; }",
+    "Option3": "function identity(arg): typeof arg { return arg; }",
+    "Option4": "function identity<Type>(arg: Type): Type { return arg; }",
+    "Answer": "function identity<T>(arg: T): T { return arg; }"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is a 'generic constraint'?",
+    "Option1": "A way to limit the types that a generic type parameter can be.",
+    "Option2": "A method for restricting the number of generic parameters.",
+    "Option3": "A compiler error when using generics incorrectly.",
+    "Option4": "A performance optimization for generic functions.",
+    "Answer": "A way to limit the types that a generic type parameter can be."
+  },
+  {
+    "question_no.": 59,
+    "Question": "How do you define a generic function `printLength` that accepts an argument with a `length` property?",
+    "Option1": "function printLength<T>(arg: T): void { console.log(arg.length); }",
+    "Option2": "function printLength<T extends { length: number }>(arg: T): void { console.log(arg.length); }",
+    "Option3": "function printLength(arg: { length: number }): void { console.log(arg.length); }",
+    "Option4": "function printLength<T extends any[]>(arg: T): void { console.log(arg.length); }",
+    "Answer": "function printLength<T extends { length: number }>(arg: T): void { console.log(arg.length); }"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'mapped types' in TypeScript?",
+    "Option1": "A way to create new types by transforming the properties of an existing type.",
+    "Option2": "A method for mapping data from one format to another.",
+    "Option3": "A type used for geographical coordinates.",
+    "Option4": "A built-in utility for array manipulation.",
+    "Answer": "A way to create new types by transforming the properties of an existing type."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Give an example of a mapped type that makes all properties of an existing type `User` (name: string, age: number) `readonly`.",
+    "Option1": "type ReadonlyUser = { readonly [P in keyof User]: User[P] };",
+    "Option2": "interface ReadonlyUser extends User { readonly: true; }",
+    "Option3": "type ReadonlyUser = Readonly<User>;",
+    "Option4": "const ReadonlyUser: User & { readonly: true };",
+    "Answer": "type ReadonlyUser = Readonly<User>;"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What are 'conditional types' in TypeScript?",
+    "Option1": "Types that are defined based on a conditional expression (e.g., `extends`).",
+    "Option2": "Types that are only available under certain compiler flags.",
+    "Option3": "Types that can be `null` or `undefined`.",
+    "Option4": "Types that are used within `if/else` statements.",
+    "Answer": "Types that are defined based on a conditional expression (e.g., `extends`)."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Give an example of a conditional type that checks if a type `T` is a `string`.",
+    "Option1": "type IsString<T> = T extends string ? true : false;",
+    "Option2": "type IsString = (T is string);",
+    "Option3": "type IsString<T> = typeof T === 'string';",
+    "Option4": "type IsString = T extends String;",
+    "Answer": "type IsString<T> = T extends string ? true : false;"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'declaration merging' in TypeScript?",
+    "Option1": "Combining multiple declaration files into one.",
+    "Option2": "The compiler's ability to combine multiple declarations of the same name into a single definition.",
+    "Option3": "A feature for merging JavaScript and TypeScript files.",
+    "Option4": "A process of resolving type conflicts.",
+    "Answer": "The compiler's ability to combine multiple declarations of the same name into a single definition."
+  },
+  {
+    "question_no.": 65,
+    "Question": "When is declaration merging most commonly used?",
+    "Option1": "When defining new classes.",
+    "Option2": "For extending existing interfaces or namespaces.",
+    "Option3": "For combining different enum types.",
+    "Option4": "When defining generic types.",
+    "Answer": "For extending existing interfaces or namespaces."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'type guard function'?",
+    "Option1": "A function that returns a boolean indicating if a value is of a certain type, and narrows the type within the `if` block.",
+    "Option2": "A function that prevents type errors from occurring.",
+    "Option3": "A function that converts one type to another.",
+    "Option4": "A function that generates type definitions.",
+    "Answer": "A function that returns a boolean indicating if a value is of a certain type, and narrows the type within the `if` block."
+  },
+  {
+    "question_no.": 67,
+    "Question": "How do you define a type guard function `isNumber`?",
+    "Option1": "function isNumber(value: any): boolean { return typeof value === 'number'; }",
+    "Option2": "function isNumber(value: any): value is number { return typeof value === 'number'; }",
+    "Option3": "function isNumber(value: number): boolean { return true; }",
+    "Option4": "function isNumber(value: any): number { return value; }",
+    "Answer": "function isNumber(value: any): value is number { return typeof value === 'number'; }"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the `keyof` operator used for?",
+    "Option1": "To get the keys of an array.",
+    "Option2": "To get a union type of the literal string or number keys of a type.",
+    "Option3": "To check if a key exists in an object.",
+    "Option4": "To define an object with specific keys.",
+    "Answer": "To get a union type of the literal string or number keys of a type."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Given `interface User { name: string; age: number; }`, what type does `keyof User` resolve to?",
+    "Option1": "`'name' | 'age'`",
+    "Option2": "`['name', 'age']`",
+    "Option3": "`string | number`",
+    "Option4": "`object`",
+    "Answer": "`'name' | 'age'`"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the `typeof` operator used for in type positions?",
+    "Option1": "To get the runtime type of a variable.",
+    "Option2": "To obtain the TypeScript type of a variable or property.",
+    "Option3": "To convert a string to a number.",
+    "Option4": "To check if a variable is defined.",
+    "Answer": "To obtain the TypeScript type of a variable or property."
+  },
+  {
+    "question_no.": 71,
+    "Question": "Given `const myString = 'hello';`, what type does `typeof myString` resolve to?",
+    "Option1": "`string`",
+    "Option2": "`'hello'` (a literal type)",
+    "Option3": "`any`",
+    "Option4": "`String` (the object wrapper)",
+    "Answer": "`'hello'` (a literal type)"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of the `noImplicitAny` compiler option?",
+    "Option1": "To disable all type inference.",
+    "Option2": "To flag variables, parameters, or members that are implicitly typed as `any`.",
+    "Option3": "To automatically convert `any` types to a specific type.",
+    "Option4": "To allow `any` type to be used without warnings.",
+    "Answer": "To flag variables, parameters, or members that are implicitly typed as `any`."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Is `noImplicitAny` part of the `strict` flag?",
+    "Option1": "No, it's a separate option.",
+    "Option2": "Yes, enabling `strict` also enables `noImplicitAny`.",
+    "Option3": "Only in specific versions of TypeScript.",
+    "Option4": "It's deprecated.",
+    "Answer": "Yes, enabling `strict` also enables `noImplicitAny`."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the `strictNullChecks` compiler option?",
+    "Option1": "It allows `null` and `undefined` to be assigned to any type.",
+    "Option2": "It prevents `null` and `undefined` from being assigned to types that don't explicitly include them.",
+    "Option3": "It converts `null` and `undefined` to empty strings.",
+    "Option4": "It's only for checking array bounds.",
+    "Answer": "It prevents `null` and `undefined` from being assigned to types that don't explicitly include them."
+  },
+  {
+    "question_no.": 75,
+    "Question": "When `strictNullChecks` is enabled, how do you allow a variable to be `string | null`?",
+    "Option1": "let x: string | null = null;",
+    "Option2": "let x: string = null as string;",
+    "Option3": "let x: string & null = null;",
+    "Option4": "let x: string? = null;",
+    "Answer": "let x: string | null = null;"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is a 'type assertion' with `as const`?",
+    "Option1": "It asserts that a variable is a constant, preventing reassignment.",
+    "Option2": "It infers the narrowest possible literal types for properties of an object or elements of an array.",
+    "Option3": "It converts an `any` type to a specific constant value.",
+    "Option4": "It makes all properties of an object `readonly`.",
+    "Answer": "It infers the narrowest possible literal types for properties of an object or elements of an array."
+  },
+  {
+    "question_no.": 77,
+    "Question": "Given `const arr = ['a', 'b'];`, what type would `arr` have without `as const` and with `as const`?",
+    "Option1": "Without: `string[]`, With: `['a', 'b']`",
+    "Option2": "Without: `any[]`, With: `(string | number)[]`",
+    "Option3": "Without: `(string | number)[]`, With: `readonly string[]`",
+    "Option4": "Without: `string[]`, With: `readonly ['a', 'b']`",
+    "Answer": "Without: `string[]`, With: `readonly ['a', 'b']`"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'utility types' in TypeScript?",
+    "Option1": "Custom types created by developers.",
+    "Option2": "Built-in generic types provided by TypeScript for common type transformations.",
+    "Option3": "Types used for logging and debugging.",
+    "Option4": "Types that are automatically inferred by the compiler.",
+    "Answer": "Built-in generic types provided by TypeScript for common type transformations."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Name one common utility type and its purpose.",
+    "Option1": "`Array<T>`: for defining arrays.",
+    "Option2": "`Partial<T>`: makes all properties of `T` optional.",
+    "Option3": "`Function`: for defining function types.",
+    "Option4": "`Object`: for defining general objects.",
+    "Answer": "`Partial<T>`: makes all properties of `T` optional."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What does `Readonly<T>` do?",
+    "Option1": "Makes all properties of type `T` required.",
+    "Option2": "Makes all properties of type `T` optional.",
+    "Option3": "Makes all properties of type `T` read-only.",
+    "Option4": "Removes properties from type `T`.",
+    "Answer": "Makes all properties of type `T` read-only."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What does `Pick<T, K>` do?",
+    "Option1": "Selects all properties from type `T`.",
+    "Option2": "Constructs a type by picking a set of properties `K` from type `T`.",
+    "Option3": "Removes properties `K` from type `T`.",
+    "Option4": "Makes properties `K` optional in type `T`.",
+    "Answer": "Constructs a type by picking a set of properties `K` from type `T`."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What does `Omit<T, K>` do?",
+    "Option1": "Selects all properties from type `T`.",
+    "Option2": "Constructs a type by picking a set of properties `K` from type `T`.",
+    "Option3": "Constructs a type by omitting a set of properties `K` from type `T`.",
+    "Option4": "Makes properties `K` optional in type `T`.",
+    "Answer": "Constructs a type by omitting a set of properties `K` from type `T`."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What does `Exclude<UnionType, ExcludedMembers>` do?",
+    "Option1": "Includes `ExcludedMembers` in `UnionType`.",
+    "Option2": "Constructs a type by excluding from `UnionType` all union members that are assignable to `ExcludedMembers`.",
+    "Option3": "Creates an intersection of `UnionType` and `ExcludedMembers`.",
+    "Option4": "Transforms `UnionType` into an array.",
+    "Answer": "Constructs a type by excluding from `UnionType` all union members that are assignable to `ExcludedMembers`."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What does `Extract<Type, Union>` do?",
+    "Option1": "Removes members from `Type` that are in `Union`.",
+    "Option2": "Constructs a type by extracting from `Type` all union members that are assignable to `Union`.",
+    "Option3": "Converts `Type` to a union type.",
+    "Option4": "Forces `Type` to be exactly `Union`.",
+    "Answer": "Constructs a type by extracting from `Type` all union members that are assignable to `Union`."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What does `NonNullable<Type>` do?",
+    "Option1": "Makes all properties of `Type` nullable.",
+    "Option2": "Constructs a type by excluding `null` and `undefined` from `Type`.",
+    "Option3": "Adds `null` and `undefined` to `Type`.",
+    "Option4": "Checks if `Type` is null or undefined.",
+    "Answer": "Constructs a type by excluding `null` and `undefined` from `Type`."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What does `Parameters<Type>` do?",
+    "Option1": "Extracts the return type of a function type `Type`.",
+    "Option2": "Extracts the parameter types of a function type `Type` as a tuple.",
+    "Option3": "Gets the properties of an object `Type`.",
+    "Option4": "Checks if `Type` has any parameters.",
+    "Answer": "Extracts the parameter types of a function type `Type` as a tuple."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What does `ReturnType<Type>` do?",
+    "Option1": "Extracts the parameter types of a function type `Type`.",
+    "Option2": "Extracts the return type of a function type `Type`.",
+    "Option3": "Gets the properties of an object `Type`.",
+    "Option4": "Checks if `Type` returns any value.",
+    "Answer": "Extracts the return type of a function type `Type`."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What does `InstanceType<Type>` do?",
+    "Option1": "Extracts the type of the `this` parameter of a function type `Type`.",
+    "Option2": "Extracts the return type of a constructor function type `Type`.",
+    "Option3": "Constructs a type consisting of the instance type of a constructor function type `Type`.",
+    "Option4": "Checks if `Type` is an instance of a class.",
+    "Answer": "Constructs a type consisting of the instance type of a constructor function type `Type`."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the `declare` keyword used for in TypeScript?",
+    "Option1": "To define a new variable in the global scope.",
+    "Option2": "To declare the existence of variables, functions, or classes that are defined elsewhere (e.g., in JavaScript).",
+    "Option3": "To create a new type from an existing one.",
+    "Option4": "To import modules from external libraries.",
+    "Answer": "To declare the existence of variables, functions, or classes that are defined elsewhere (e.g., in JavaScript)."
+  },
+  {
+    "question_no.": 90,
+    "Question": "When would you use `declare module 'some-module'`?",
+    "Option1": "To define a new module within your TypeScript project.",
+    "Option2": "To declare a module that doesn't have its own type definitions, often a JavaScript module.",
+    "Option3": "To import a module from a specific path.",
+    "Option4": "To create a module that exports only types.",
+    "Answer": "To declare a module that doesn't have its own type definitions, often a JavaScript module."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'callable signature' in TypeScript interfaces?",
+    "Option1": "Defining a function's parameters and return type directly within an interface.",
+    "Option2": "A signature for a method inside a class.",
+    "Option3": "A way to indicate that an interface can be used as a constructor.",
+    "Option4": "A type for a function that always throws an error.",
+    "Answer": "Defining a function's parameters and return type directly within an interface."
+  },
+  {
+    "question_no.": 92,
+    "Question": "How do you define an interface `SumFunction` that describes a function taking two numbers and returning a number?",
+    "Option1": "interface SumFunction { (a: number, b: number): number; }",
+    "Option2": "type SumFunction = (a: number, b: number) => number;",
+    "Option3": "interface SumFunction extends Function { add(a: number, b: number): number; }",
+    "Option4": "const SumFunction: (a: number, b: number) => number;",
+    "Answer": "interface SumFunction { (a: number, b: number): number; }"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'index signature' in TypeScript interfaces?",
+    "Option1": "Defining the type for properties whose names are not known in advance, typically for objects used as dictionaries.",
+    "Option2": "A signature for accessing array elements by index.",
+    "Option3": "A special type for database indices.",
+    "Option4": "A way to define the order of properties in an object.",
+    "Answer": "Defining the type for properties whose names are not known in advance, typically for objects used as dictionaries."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do you define an interface `StringDictionary` where keys are strings and values are numbers?",
+    "Option1": "interface StringDictionary { [key: string]: number; }",
+    "Option2": "interface StringDictionary { string: number; }",
+    "Option3": "type StringDictionary = Record<string, number>;",
+    "Option4": "class StringDictionary { [key: string]: number; }",
+    "Answer": "interface StringDictionary { [key: string]: number; }"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the 'private' modifier in TypeScript classes?",
+    "Option1": "Makes a property or method accessible only from outside the class.",
+    "Option2": "Makes a property or method accessible only from within the class itself.",
+    "Option3": "Makes a property or method accessible only to subclasses.",
+    "Option4": "Hides a property or method from the compiled JavaScript.",
+    "Answer": "Makes a property or method accessible only from within the class itself."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the 'protected' modifier in TypeScript classes?",
+    "Option1": "Makes a property or method accessible only from outside the class.",
+    "Option2": "Makes a property or method accessible only from within the class itself.",
+    "Option3": "Makes a property or method accessible within the class and its subclasses.",
+    "Option4": "Prevents a property or method from being overridden.",
+    "Answer": "Makes a property or method accessible within the class and its subclasses."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the 'public' modifier in TypeScript classes?",
+    "Option1": "Makes a property or method accessible only from within the class itself.",
+    "Option2": "Makes a property or method accessible within the class and its subclasses.",
+    "Option3": "Makes a property or method accessible from anywhere.",
+    "Option4": "Hides a property or method from the compiled JavaScript.",
+    "Answer": "Makes a property or method accessible from anywhere."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What happens if you don't specify an access modifier for a class member?",
+    "Option1": "It defaults to `private`.",
+    "Option2": "It defaults to `protected`.",
+    "Option3": "It defaults to `public`.",
+    "Option4": "It causes a compilation error.",
+    "Answer": "It defaults to `public`."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is an 'abstract class' in TypeScript?",
+    "Option1": "A class that can be instantiated directly.",
+    "Option2": "A class that cannot be instantiated directly and must be extended by other classes.",
+    "Option3": "A class that contains only abstract methods.",
+    "Option4": "A class used for utility functions only.",
+    "Answer": "A class that cannot be instantiated directly and must be extended by other classes."
+  },
+  {
+    "question_no.": 100,
+    "Question": "Can an abstract class have concrete (non-abstract) methods?",
+    "Option1": "No, all methods in an abstract class must be abstract.",
+    "Option2": "Yes, an abstract class can have both abstract and concrete methods.",
+    "Option3": "Only if it implements an interface.",
+    "Option4": "Only if it has no constructors.",
+    "Answer": "Yes, an abstract class can have both abstract and concrete methods."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is an 'abstract method' in an abstract class?",
+    "Option1": "A method that is declared without an implementation and must be implemented by subclasses.",
+    "Option2": "A method that returns an abstract type.",
+    "Option3": "A method that cannot be overridden by subclasses.",
+    "Option4": "A method that is only accessible privately.",
+    "Answer": "A method that is declared without an implementation and must be implemented by subclasses."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'method overloading' in TypeScript classes?",
+    "Option1": "Defining multiple methods with the same name but different return types.",
+    "Option2": "Defining multiple methods with the same name but different parameter types or counts.",
+    "Option3": "Overriding a method from a parent class.",
+    "Option4": "Creating a method that accepts a variable number of arguments.",
+    "Answer": "Defining multiple methods with the same name but different parameter types or counts."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the `super()` keyword used for in class constructors?",
+    "Option1": "To call a static method of the parent class.",
+    "Option2": "To call the constructor of the parent class.",
+    "Option3": "To access properties of the child class.",
+    "Option4": "To create a new instance of the current class.",
+    "Answer": "To call the constructor of the parent class."
+  },
+  {
+    "question_no.": 104,
+    "Question": "When extending a class, is `super()` mandatory in the subclass constructor?",
+    "Option1": "No, it's optional.",
+    "Option2": "Yes, if the subclass has its own constructor.",
+    "Option3": "Only if the parent class has a constructor.",
+    "Option4": "Only if you want to pass arguments to the parent constructor.",
+    "Answer": "Yes, if the subclass has its own constructor."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the purpose of the `implements` keyword in TypeScript classes?",
+    "Option1": "To extend another class.",
+    "Option2": "To declare that a class adheres to the contract defined by an interface or multiple interfaces.",
+    "Option3": "To include methods from a separate file.",
+    "Option4": "To define static properties for a class.",
+    "Answer": "To declare that a class adheres to the contract defined by an interface or multiple interfaces."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Can a class implement multiple interfaces?",
+    "Option1": "No, a class can only implement one interface.",
+    "Option2": "Yes, a class can implement multiple interfaces.",
+    "Option3": "Only if the interfaces are related.",
+    "Option4": "It depends on the TypeScript version.",
+    "Answer": "Yes, a class can implement multiple interfaces."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a 'static' member in a TypeScript class?",
+    "Option1": "A member that belongs to instances of the class.",
+    "Option2": "A member that belongs to the class itself, not to any particular instance.",
+    "Option3": "A member that cannot be modified.",
+    "Option4": "A member that is only accessible privately.",
+    "Answer": "A member that belongs to the class itself, not to any particular instance."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How do you access a static property `count` on a class `MyClass`?",
+    "Option1": "this.count",
+    "Option2": "MyClass.count",
+    "Option3": "new MyClass().count",
+    "Option4": "super.count",
+    "Answer": "MyClass.count"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'decorators' in TypeScript?",
+    "Option1": "Functions that wrap other functions for logging purposes.",
+    "Option2": "Special declarations that can be attached to classes, methods, accessors, properties, or parameters.",
+    "Option3": "HTML tags used for styling.",
+    "Option4": "A pattern for creating reusable components.",
+    "Answer": "Special declarations that can be attached to classes, methods, accessors, properties, or parameters."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Are decorators enabled by default in TypeScript?",
+    "Option1": "Yes, always.",
+    "Option2": "No, they require enabling the `experimentalDecorators` compiler option.",
+    "Option3": "Only in strict mode.",
+    "Option4": "They are a runtime feature, not a compiler feature.",
+    "Answer": "No, they require enabling the `experimentalDecorators` compiler option."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'ambient declarations' in TypeScript?",
+    "Option1": "Declarations that define the concrete implementation of a class or function.",
+    "Option2": "Declarations that describe the shape of existing JavaScript code or environments without generating code.",
+    "Option3": "Declarations that are automatically generated by the compiler.",
+    "Option4": "Declarations used for type inference only.",
+    "Answer": "Declarations that describe the shape of existing JavaScript code or environments without generating code."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the primary keyword used for ambient declarations?",
+    "Option1": "`import`",
+    "Option2": "`export`",
+    "Option3": "`declare`",
+    "Option4": "`type`",
+    "Answer": "`declare`"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the `jsx` compiler option in `tsconfig.json` used for?",
+    "Option1": "To enable JSX/TSX support for React applications.",
+    "Option2": "To compile TypeScript into JavaScript only.",
+    "Option3": "To disable all JSX processing.",
+    "Option4": "To integrate with a different templating engine.",
+    "Answer": "To enable JSX/TSX support for React applications."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which `jsx` option value is commonly used for React projects?",
+    "Option1": "`preserve`",
+    "Option2": "`react`",
+    "Option3": "`react-jsx`",
+    "Option4": "`react-native`",
+    "Answer": "`react-jsx`"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Module Resolution' in TypeScript?",
+    "Option1": "The process of resolving type conflicts between modules.",
+    "Option2": "The compiler's strategy for finding modules referenced in `import` statements.",
+    "Option3": "A technique for bundling modules together.",
+    "Option4": "A feature for optimizing module loading.",
+    "Answer": "The compiler's strategy for finding modules referenced in `import` statements."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Which `tsconfig.json` option controls module resolution strategy?",
+    "Option1": "`target`",
+    "Option2": "`module`",
+    "Option3": "`moduleResolution`",
+    "Option4": "`baseUrl`",
+    "Answer": "`moduleResolution`"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Path Mapping' in `tsconfig.json` (`paths` option)?",
+    "Option1": "Defining aliases for module paths to simplify imports.",
+    "Option2": "Mapping file paths to URLs for deployment.",
+    "Option3": "A feature for defining external module dependencies.",
+    "Option4": "A way to automatically resolve absolute paths.",
+    "Answer": "Defining aliases for module paths to simplify imports."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Give an example of a `paths` mapping for `@components` to `./src/components`.",
+    "Option1": "{ 'baseUrl': '.', 'paths': { '@components': ['./src/components'] } }",
+    "Option2": "{ 'paths': { '@components': 'src/components' } }",
+    "Option3": "{ 'map': { '@components': './src/components' } }",
+    "Option4": "{ 'aliases': { '@components': './src/components' } }",
+    "Answer": "{ 'baseUrl': '.', 'paths': { '@components': ['./src/components'] } }"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the 'lib' compiler option in `tsconfig.json`?",
+    "Option1": "To specify external libraries to include in the compilation.",
+    "Option2": "To define the built-in type definitions to be included in the project.",
+    "Option3": "To link with native C++ libraries.",
+    "Option4": "To configure a specific library's version.",
+    "Answer": "To define the built-in type definitions to be included in the project."
+  },
+  {
+    "question_no.": 120,
+    "Question": "Which `lib` value would you typically include for a modern web application targeting ES2017 with DOM types?",
+    "Option1": "es5, dom",
+    "Option2": "es2015, dom",
+    "Option3": "es2017, dom",
+    "Option4": "esnext, dom",
+    "Answer": "es2017, dom"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the `emitDecoratorMetadata` compiler option for?",
+    "Option1": "To emit design-time type metadata for decorators.",
+    "Option2": "To control the output file names.",
+    "Option3": "To disable decorator support.",
+    "Option4": "To optimize metadata generation.",
+    "Answer": "To emit design-time type metadata for decorators."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Which runtime library typically consumes the metadata emitted by `emitDecoratorMetadata`?",
+    "Option1": "React",
+    "Option2": "Angular",
+    "Option3": "Vue.js",
+    "Option4": "jQuery",
+    "Answer": "Angular"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the `downlevelIteration` compiler option?",
+    "Option1": "Enables faster iteration over arrays.",
+    "Option2": "Provides better support for iteration protocols (`for...of`, spread) when targeting older JavaScript versions.",
+    "Option3": "Converts loops into recursive functions.",
+    "Option4": "Optimizes iteration for large datasets.",
+    "Answer": "Provides better support for iteration protocols (`for...of`, spread) when targeting older JavaScript versions."
+  },
+  {
+    "question_no.": 124,
+    "Question": "When would you typically enable `downlevelIteration`?",
+    "Option1": "When targeting `ESNext`.",
+    "Option2": "When targeting `ES5` or `ES3` and using features like `for...of` loops.",
+    "Option3": "When using `async/await`.",
+    "Option4": "When building a backend application.",
+    "Answer": "When targeting `ES5` or `ES3` and using features like `for...of` loops."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the `esModuleInterop` compiler option?",
+    "Option1": "Disables ES module syntax.",
+    "Option2": "Enables compatibility between CommonJS/AMD modules and ES Modules.",
+    "Option3": "Forces all modules to be ES Modules.",
+    "Option4": "Allows dynamic module imports.",
+    "Answer": "Enables compatibility between CommonJS/AMD modules and ES Modules."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Why is `esModuleInterop` often recommended to be set to `true`?",
+    "Option1": "It reduces file size.",
+    "Option2": "It improves runtime performance.",
+    "Option3": "It makes module imports more ergonomic and aligns with Babel's behavior.",
+    "Option4": "It enables strict type checking for modules.",
+    "Answer": "It makes module imports more ergonomic and aligns with Babel's behavior."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the `isolatedModules` compiler option?",
+    "Option1": "Ensures that each file can be safely transpiled without requiring knowledge of other files.",
+    "Option2": "Forces all modules to be in isolation.",
+    "Option3": "Prevents global variable declarations.",
+    "Option4": "Optimizes module bundling.",
+    "Answer": "Ensures that each file can be safely transpiled without requiring knowledge of other files."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Which build tool often benefits from `isolatedModules` being enabled?",
+    "Option1": "Webpack",
+    "Option2": "Rollup",
+    "Option3": "esbuild or Babel's `transform-typescript`",
+    "Option4": "Grunt",
+    "Answer": "esbuild or Babel's `transform-typescript`"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `noEmit` in `tsconfig.json`?",
+    "Option1": "Prevents the compiler from generating any output files (JavaScript, .d.ts files).",
+    "Option2": "Disables all compilation errors.",
+    "Option3": "Only emits declaration files.",
+    "Option4": "Forces the compiler to emit only `.js` files.",
+    "Answer": "Prevents the compiler from generating any output files (JavaScript, .d.ts files)."
+  },
+  {
+    "question_no.": 130,
+    "Question": "When would you typically use `noEmit: true`?",
+    "Option1": "When deploying to production.",
+    "Option2": "When using TypeScript for type checking only, with another transpiler (like Babel) handling code generation.",
+    "Option3": "When building a library that only provides types.",
+    "Option4": "When debugging compilation issues.",
+    "Answer": "When using TypeScript for type checking only, with another transpiler (like Babel) handling code generation."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the `skipLibCheck` compiler option?",
+    "Option1": "Skips type checking of all files.",
+    "Option2": "Skips type checking of declaration files (`.d.ts`) that are part of libraries.",
+    "Option3": "Only checks type definitions, not implementation files.",
+    "Option4": "Enables stricter checking for library types.",
+    "Answer": "Skips type checking of declaration files (`.d.ts`) that are part of libraries."
+  },
+  {
+    "question_no.": 132,
+    "Question": "Why would you consider enabling `skipLibCheck`?",
+    "Option1": "To catch more errors.",
+    "Option2": "To speed up compilation times, especially in large projects with many dependencies.",
+    "Option3": "To make your code more robust.",
+    "Option4": "To ensure full compatibility with all libraries.",
+    "Answer": "To speed up compilation times, especially in large projects with many dependencies."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the `sourceMap` compiler option?",
+    "Option1": "Generates a map of your source code for better debugging in browsers.",
+    "Option2": "Maps network requests to source files.",
+    "Option3": "Provides a visual representation of your project structure.",
+    "Option4": "A tool for code minification.",
+    "Answer": "Generates a map of your source code for better debugging in browsers."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Why are source maps important for debugging TypeScript in a browser?",
+    "Option1": "They help reduce the size of the compiled JavaScript.",
+    "Option2": "They allow you to debug your original TypeScript code in the browser's developer tools.",
+    "Option3": "They improve the performance of your web application.",
+    "Option4": "They enable server-side debugging.",
+    "Answer": "They allow you to debug your original TypeScript code in the browser's developer tools."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'ambient module declaration'?",
+    "Option1": "Declaring modules that are not yet implemented.",
+    "Option2": "Declaring a module for a global library that doesn't use standard module syntax.",
+    "Option3": "Defining a module that can be imported anywhere.",
+    "Option4": "A special type of module that can only contain interfaces.",
+    "Answer": "Declaring a module for a global library that doesn't use standard module syntax."
+  },
+  {
+    "question_no.": 136,
+    "Question": "When would you use `declare global { ... }`?",
+    "Option1": "To declare variables specific to a single file.",
+    "Option2": "To extend existing global types or declare new global variables/functions.",
+    "Option3": "To create a new module in the global scope.",
+    "Option4": "To define a new namespace.",
+    "Answer": "To extend existing global types or declare new global variables/functions."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the `this` type in TypeScript?",
+    "Option1": "It refers to the current class instance.",
+    "Option2": "It allows you to specify the type of `this` inside a function or method.",
+    "Option3": "It's a placeholder for `any`.",
+    "Option4": "It's used for defining static methods.",
+    "Answer": "It allows you to specify the type of `this` inside a function or method."
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you specify the `this` type for a function in TypeScript?",
+    "Option1": "function foo(this: MyType, arg: string) { ... }",
+    "Option2": "function foo(arg: string, this: MyType) { ... }",
+    "Option3": "function foo(arg: string) => this: MyType { ... }",
+    "Option4": "this: MyType function foo(arg: string) { ... }",
+    "Answer": "function foo(this: MyType, arg: string) { ... }"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the `asserts` keyword used for in TypeScript?",
+    "Option1": "To assert that a variable is always true.",
+    "Option2": "In type guard functions, to assert that a condition implies a specific type for its arguments.",
+    "Option3": "To perform runtime assertions.",
+    "Option4": "To assert that a function will always throw an error.",
+    "Answer": "In type guard functions, to assert that a condition implies a specific type for its arguments."
+  },
+  {
+    "question_no.": 140,
+    "Question": "Give an example of a function signature using `asserts`.",
+    "Option1": "function assertNonNull(value: any): asserts value is NonNullable<any> { /* ... */ }",
+    "Option2": "function assertNonNull(value: any): boolean { /* ... */ }",
+    "Option3": "function assertNonNull(value: any) asserts value is string { /* ... */ }",
+    "Option4": "function assertNonNull(value: any) { /* ... */ }",
+    "Answer": "function assertNonNull(value: any): asserts value is NonNullable<any> { /* ... */ }"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'control flow analysis' in TypeScript?",
+    "Option1": "Analyzing the execution order of functions.",
+    "Option2": "The process by which the compiler tracks the types of variables based on the program's control flow (e.g., `if` statements, loops).",
+    "Option3": "A tool for visualizing program flow.",
+    "Option4": "A technique for optimizing runtime performance.",
+    "Answer": "The process by which the compiler tracks the types of variables based on the program's control flow (e.g., `if` statements, loops)."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How does control flow analysis help with type checking?",
+    "Option1": "It disables type checking in certain branches.",
+    "Option2": "It enables type narrowing, allowing the compiler to understand more precise types within specific code blocks.",
+    "Option3": "It generates runtime type checks.",
+    "Option4": "It converts dynamic types to static types.",
+    "Answer": "It enables type narrowing, allowing the compiler to understand more precise types within specific code blocks."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the `satisfies` operator (introduced in TypeScript 4.9)?",
+    "Option1": "A runtime check to ensure type compatibility.",
+    "Option2": "A compile-time operator that checks if an expression satisfies a type without changing its inferred type.",
+    "Option3": "An operator for type casting.",
+    "Option4": "A way to compare two types for equality.",
+    "Answer": "A compile-time operator that checks if an expression satisfies a type without changing its inferred type."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the benefit of `satisfies` over a simple type annotation (`: Type`)?",
+    "Option1": "It forces the annotated type, even if narrower.",
+    "Option2": "It allows the expression's inferred type to be preserved while ensuring it meets the specified type requirements.",
+    "Option3": "It reduces boilerplate code.",
+    "Option4": "It's purely for documentation purposes.",
+    "Answer": "It allows the expression's inferred type to be preserved while ensuring it meets the specified type requirements."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Template Literal Types' in TypeScript?",
+    "Option1": "Types that represent string literals formed by concatenating other string literals or types.",
+    "Option2": "Types used for defining HTML templates.",
+    "Option3": "A feature for creating dynamic function names.",
+    "Option4": "A type for literal numbers only.",
+    "Answer": "Types that represent string literals formed by concatenating other string literals or types."
+  },
+  {
+    "question_no.": 146,
+    "Question": "Given `type Direction = 'up' | 'down';`, how would you define a type `MoveEvent` that could be 'move-up' or 'move-down'?",
+    "Option1": "type MoveEvent = `move-${Direction}`;",
+    "Option2": "type MoveEvent = 'move-' + Direction;",
+    "Option3": "type MoveEvent = `move-${'up' | 'down'}`;",
+    "Option4": "type MoveEvent = `move-${string}`;",
+    "Answer": "type MoveEvent = `move-${Direction}`;"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What are 'Indexed Access Types' (Lookup Types)?",
+    "Option1": "Accessing elements in an array by index.",
+    "Option2": "Obtaining the type of a property within another type using bracket notation.",
+    "Option3": "A type for indexing database records.",
+    "Option4": "A way to iterate over object properties.",
+    "Answer": "Obtaining the type of a property within another type using bracket notation."
+  },
+  {
+    "question_no.": 148,
+    "Question": "Given `interface User { name: string; age: number; }`, what type does `User['name']` resolve to?",
+    "Option1": "`string | number`",
+    "Option2": "`string`",
+    "Option3": "`any`",
+    "Option4": "`'name'`",
+    "Answer": "`string`"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is the `in` operator used for in type positions?",
+    "Option1": "To check if a property exists on an object at runtime.",
+    "Option2": "To iterate over the properties of a type in a mapped type.",
+    "Option3": "To check if a value is contained within an array.",
+    "Option4": "To define an `enum`.",
+    "Answer": "To iterate over the properties of a type in a mapped type."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `infer` keyword used for in conditional types?",
+    "Option1": "To infer the return type of a function.",
+    "Option2": "To declare a type variable that can be inferred from the type of the `extends` clause.",
+    "Option3": "To infer the type of a local variable.",
+    "Option4": "To automatically infer the best possible type.",
+    "Answer": "To declare a type variable that can be inferred from the type of the `extends` clause."
+  },
+  {
+    "question_no.": 151,
+    "Question": "How do you extract the element type of an array using `infer`?",
+    "Option1": "type ElementType<T> = T extends (infer U)[] ? U : T;",
+    "Option2": "type ElementType<T> = T[0];",
+    "Option3": "type ElementType<T> = T.inferType;",
+    "Option4": "type ElementType<T> = infer T[];",
+    "Answer": "type ElementType<T> = T extends (infer U)[] ? U : T;"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Declaration Files' (`.d.ts`) generation in TypeScript?",
+    "Option1": "Manually writing type definitions for JavaScript files.",
+    "Option2": "The compiler's ability to automatically generate `.d.ts` files from your TypeScript source code.",
+    "Option3": "A tool for converting JavaScript to TypeScript.",
+    "Option4": "A process of combining type definitions.",
+    "Answer": "The compiler's ability to automatically generate `.d.ts` files from your TypeScript source code."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which `tsconfig.json` option enables `.d.ts` file generation?",
+    "Option1": "`outDir`",
+    "Option2": "`declaration`",
+    "Option3": "`emitDeclarationOnly`",
+    "Option4": "`typeRoots`",
+    "Answer": "`declaration`"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the difference between `declaration: true` and `emitDeclarationOnly: true`?",
+    "Option1": "`declaration` emits both JS and .d.ts; `emitDeclarationOnly` emits only .d.ts.",
+    "Option2": "`declaration` only emits JS; `emitDeclarationOnly` emits both.",
+    "Option3": "No difference, they are aliases.",
+    "Option4": "`emitDeclarationOnly` is deprecated.",
+    "Answer": "`declaration` emits both JS and .d.ts; `emitDeclarationOnly` emits only .d.ts."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the `esModuleInterop` flag primarily used to address?",
+    "Option1": "Issues with `import * as React from 'react';` with CommonJS modules.",
+    "Option2": "Compatibility with older browser environments.",
+    "Option3": "Performance issues in large projects.",
+    "Option4": "Strict type checking errors.",
+    "Answer": "Issues with `import * as React from 'react';` with CommonJS modules."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'ReadonlyArray<T>'?",
+    "Option1": "An array that can be modified, but its elements cannot be reassigned.",
+    "Option2": "An array whose length and elements cannot be changed after creation.",
+    "Option3": "An array that can only contain primitive values.",
+    "Option4": "A type alias for `Array<T>`.",
+    "Answer": "An array whose length and elements cannot be changed after creation."
+  },
+  {
+    "question_no.": 157,
+    "Question": "Can you push new elements into a `ReadonlyArray`?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it will result in a compile-time error.",
+    "Option3": "Only if the elements are of the same type.",
+    "Option4": "Only at runtime.",
+    "Answer": "No, it will result in a compile-time error."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the `typeRoots` compiler option?",
+    "Option1": "To specify the root directories where declaration files for external modules are located.",
+    "Option2": "To define the root of your source code.",
+    "Option3": "To create a tree structure of your types.",
+    "Option4": "To specify the output directory for types.",
+    "Answer": "To specify the root directories where declaration files for external modules are located."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the `types` compiler option?",
+    "Option1": "To automatically include specific type declaration packages from `node_modules/@types`.",
+    "Option2": "To define custom types directly in `tsconfig.json`.",
+    "Option3": "To specify the type of project being built.",
+    "Option4": "To disable all type checking.",
+    "Answer": "To automatically include specific type declaration packages from `node_modules/@types`."
+  },
+  {
+    "question_no.": 160,
+    "Question": "If you have `types: ['node']` in `tsconfig.json`, what does it do?",
+    "Option1": "It installs the `node` package.",
+    "Option2": "It includes all type definitions from the `@types/node` package.",
+    "Option3": "It sets the target environment to Node.js.",
+    "Option4": "It restricts your code to only use Node.js specific types.",
+    "Answer": "It includes all type definitions from the `@types/node` package."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the `allowJs` compiler option?",
+    "Option1": "Allows TypeScript files to import from other TypeScript files.",
+    "Option2": "Allows JavaScript files to be included in your TypeScript project for compilation/type checking.",
+    "Option3": "Allows JavaScript to be run directly without compilation.",
+    "Option4": "Allows dynamic imports in JavaScript.",
+    "Answer": "Allows JavaScript files to be included in your TypeScript project for compilation/type checking."
+  },
+  {
+    "question_no.": 162,
+    "Question": "Why might you enable `allowJs`?",
+    "Option1": "To force all files to be JavaScript.",
+    "Option2": "For migrating a JavaScript codebase incrementally to TypeScript.",
+    "Option3": "To improve JavaScript performance.",
+    "Option4": "To remove the need for `tsconfig.json`.",
+    "Answer": "For migrating a JavaScript codebase incrementally to TypeScript."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `checkJs` in `tsconfig.json`?",
+    "Option1": "Enables type checking of JavaScript files that are included in the project.",
+    "Option2": "Disables JavaScript code generation.",
+    "Option3": "A tool for linting JavaScript code.",
+    "Option4": "Only checks JavaScript files for syntax errors.",
+    "Answer": "Enables type checking of JavaScript files that are included in the project."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the purpose of `jsdoc` comments in JavaScript files when `checkJs` is enabled?",
+    "Option1": "They are ignored by the TypeScript compiler.",
+    "Option2": "They provide type hints to the TypeScript compiler for better type checking.",
+    "Option3": "They are used to generate documentation only.",
+    "Option4": "They are converted to TypeScript syntax during compilation.",
+    "Answer": "They provide type hints to the TypeScript compiler for better type checking."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'strictPropertyInitialization'?",
+    "Option1": "Ensures that all properties of a class are initialized in the constructor.",
+    "Option2": "Prevents properties from being initialized to `null` or `undefined`.",
+    "Option3": "Requires all properties to be `readonly`.",
+    "Option4": "Automatically initializes properties with default values.",
+    "Answer": "Ensures that all properties of a class are initialized in the constructor."
+  },
+  {
+    "question_no.": 166,
+    "Question": "Is `strictPropertyInitialization` part of the `strict` flag?",
+    "Option1": "No, it's a separate option.",
+    "Option2": "Yes, enabling `strict` also enables `strictPropertyInitialization`.",
+    "Option3": "Only in specific versions of TypeScript.",
+    "Option4": "It's deprecated.",
+    "Answer": "Yes, enabling `strict` also enables `strictPropertyInitialization`."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the `useDefineForClassFields` compiler option?",
+    "Option1": "Controls how class fields are defined in the emitted JavaScript (using `Object.defineProperty` or direct assignment).",
+    "Option2": "Forces all class fields to be `readonly`.",
+    "Option3": "Enables private class fields syntax.",
+    "Option4": "Disables class fields entirely.",
+    "Answer": "Controls how class fields are defined in the emitted JavaScript (using `Object.defineProperty` or direct assignment)."
+  },
+  {
+    "question_no.": 168,
+    "Question": "When would `useDefineForClassFields` be relevant?",
+    "Option1": "When targeting older JavaScript versions.",
+    "Option2": "When dealing with inheritance and class field initialization order.",
+    "Option3": "When using function components.",
+    "Option4": "When building a static website.",
+    "Answer": "When dealing with inheritance and class field initialization order."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'optional chaining' in TypeScript/JavaScript?",
+    "Option1": "A way to make function arguments optional.",
+    "Option2": "A syntax (`?.`) that allows you to safely access properties deep within an object, returning `undefined` if an intermediate property is null or undefined.",
+    "Option3": "A pattern for connecting multiple functions.",
+    "Option4": "A method for handling asynchronous operations.",
+    "Answer": "A syntax (`?.`) that allows you to safely access properties deep within an object, returning `undefined` if an intermediate property is null or undefined."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Give an example of optional chaining.",
+    "Option1": "user.address && user.address.street",
+    "Option2": "user?.address?.street",
+    "Option3": "user.address?.street()",
+    "Option4": "user.address.street || undefined",
+    "Answer": "user?.address?.street"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the 'Nullish Coalescing Operator' (`??`) in TypeScript/JavaScript?",
+    "Option1": "A logical OR operator that returns the right-hand operand if the left-hand operand is null or undefined.",
+    "Option2": "A logical AND operator.",
+    "Option3": "A shorthand for if-else statements.",
+    "Option4": "An operator for checking strict equality.",
+    "Answer": "A logical OR operator that returns the right-hand operand if the left-hand operand is null or undefined."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What's the difference between `||` and `??`?",
+    "Option1": "`||` checks for any falsy value (0, '', null, undefined); `??` checks only for null or undefined.",
+    "Option2": "They are identical.",
+    "Option3": "`??` works with numbers, `||` with strings.",
+    "Option4": "`||` is for booleans, `??` for objects.",
+    "Answer": "`||` checks for any falsy value (0, '', null, undefined); `??` checks only for null or undefined."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Tuple Types with Labeled Elements'?",
+    "Option1": "Assigning names to array indices for better readability and documentation.",
+    "Option2": "Creating objects with specific key names.",
+    "Option3": "A feature for defining named arguments in functions.",
+    "Option4": "A way to label elements in an HTML document.",
+    "Answer": "Assigning names to array indices for better readability and documentation."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Give an example of a tuple type with labeled elements.",
+    "Option1": "type UserInfo = [name: string, age: number];",
+    "Option2": "let UserInfo = { name: string, age: number };",
+    "Option3": "type UserInfo = string, number;",
+    "Option4": "type UserInfo = [string: name, number: age];",
+    "Answer": "type UserInfo = [name: string, age: number];"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Variadic Tuple Types'?",
+    "Option1": "Tuples that can contain a fixed number of elements.",
+    "Option2": "Tuples that can represent an arbitrary number of elements with type safety.",
+    "Option3": "Tuples that combine different types into a single type.",
+    "Option4": "Tuples used for function arguments only.",
+    "Answer": "Tuples that can represent an arbitrary number of elements with type safety."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Give an example of a variadic tuple type that prepends a string to any number of numbers.",
+    "Option1": "type Event = [string, ...number[]];",
+    "Option2": "type Event = string | number[];",
+    "Option3": "type Event = [string, number];",
+    "Option4": "type Event = string & number[];",
+    "Answer": "type Event = [string, ...number[]];"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Recursive Type Aliases'?",
+    "Option1": "Type aliases that refer to themselves in their own definition, allowing for representation of tree-like structures.",
+    "Option2": "Type aliases that are stored in a recursive data structure.",
+    "Option3": "Type aliases that call functions recursively.",
+    "Option4": "Type aliases that automatically generate code.",
+    "Answer": "Type aliases that refer to themselves in their own definition, allowing for representation of tree-like structures."
+  },
+  {
+    "question_no.": 178,
+    "Question": "Can interfaces be recursive?",
+    "Option1": "No, only type aliases can be recursive.",
+    "Option2": "Yes, interfaces can also be recursive.",
+    "Option3": "Only if they define a property of their own type.",
+    "Option4": "Only in specific versions of TypeScript.",
+    "Answer": "Yes, interfaces can also be recursive."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the `target` compiler option in `tsconfig.json`?",
+    "Option1": "Specifies the runtime environment for the compiled JavaScript.",
+    "Option2": "Specifies the ECMAScript target version for the compiled JavaScript.",
+    "Option3": "Specifies the output directory for compilation.",
+    "Option4": "Specifies the entry point of your application.",
+    "Answer": "Specifies the ECMAScript target version for the compiled JavaScript."
+  },
+  {
+    "question_no.": 180,
+    "Question": "Why is choosing the correct `target` important?",
+    "Option1": "It affects the bundle size of your application.",
+    "Option2": "It determines which JavaScript features are polyfilled or transpiled down.",
+    "Option3": "It changes how TypeScript performs type checking.",
+    "Option4": "It impacts the type of module resolution used.",
+    "Answer": "It determines which JavaScript features are polyfilled or transpiled down."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is the `module` compiler option in `tsconfig.json`?",
+    "Option1": "Specifies the module system to be used in the compiled JavaScript output.",
+    "Option2": "Specifies the input modules for compilation.",
+    "Option3": "Defines custom modules for your project.",
+    "Option4": "Disables module resolution.",
+    "Answer": "Specifies the module system to be used in the compiled JavaScript output."
+  },
+  {
+    "question_no.": 182,
+    "Question": "Which `module` value is commonly used for modern web development (e.g., with Webpack, Rollup)?",
+    "Option1": "CommonJS",
+    "Option2": "AMD",
+    "Option3": "ESNext",
+    "Option4": "None",
+    "Answer": "ESNext"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'strictFunctionTypes'?",
+    "Option1": "Ensures that all function parameters have explicit types.",
+    "Option2": "Enables stricter checking for function types, particularly for parameters in callbacks.",
+    "Option3": "Prevents functions from returning `any`.",
+    "Option4": "Forces all functions to be arrow functions.",
+    "Answer": "Enables stricter checking for function types, particularly for parameters in callbacks."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Is `strictFunctionTypes` part of the `strict` flag?",
+    "Option1": "No, it's a separate option.",
+    "Option2": "Yes, enabling `strict` also enables `strictFunctionTypes`.",
+    "Option3": "Only in specific versions of TypeScript.",
+    "Option4": "It's deprecated.",
+    "Answer": "Yes, enabling `strict` also enables `strictFunctionTypes`."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'strictBindCallApply'?",
+    "Option1": "Ensures that `bind`, `call`, and `apply` methods are used correctly with `this` types.",
+    "Option2": "Prevents the use of `bind`, `call`, and `apply`.",
+    "Option3": "Forces all functions to be bound to a specific context.",
+    "Option4": "Optimizes the performance of `bind`, `call`, and `apply`.",
+    "Answer": "Ensures that `bind`, `call`, and `apply` methods are used correctly with `this` types."
+  },
+  {
+    "question_no.": 186,
+    "Question": "Is `strictBindCallApply` part of the `strict` flag?",
+    "Option1": "No, it's a separate option.",
+    "Option2": "Yes, enabling `strict` also enables `strictBindCallApply`.",
+    "Option3": "Only in specific versions of TypeScript.",
+    "Option4": "It's deprecated.",
+    "Answer": "Yes, enabling `strict` also enables `strictBindCallApply`."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'noUnusedLocals'?",
+    "Option1": "Reports errors on unused local variables.",
+    "Option2": "Removes unused local variables during compilation.",
+    "Option3": "Prevents the declaration of local variables.",
+    "Option4": "Only reports errors for unused global variables.",
+    "Answer": "Reports errors on unused local variables."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'noUnusedParameters'?",
+    "Option1": "Reports errors on unused function parameters.",
+    "Option2": "Removes unused function parameters during compilation.",
+    "Option3": "Prevents functions from having parameters.",
+    "Option4": "Only reports errors for unused optional parameters.",
+    "Answer": "Reports errors on unused function parameters."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'noImplicitReturns'?",
+    "Option1": "Reports an error when a function has some return paths that don't return a value.",
+    "Option2": "Prevents functions from explicitly returning a value.",
+    "Option3": "Automatically adds `return undefined;` to functions.",
+    "Option4": "Only applies to arrow functions.",
+    "Answer": "Reports an error when a function has some return paths that don't return a value."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'noFallthroughCasesInSwitch'?",
+    "Option1": "Reports errors for non-empty `case` clauses in `switch` statements that fall through to the next case.",
+    "Option2": "Prevents `switch` statements from having any `break` statements.",
+    "Option3": "Forces every `case` in a `switch` to have a `return`.",
+    "Option4": "Only applies to `switch` statements without `default` cases.",
+    "Answer": "Reports errors for non-empty `case` clauses in `switch` statements that fall through to the next case."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'forceConsistentCasingInFileNames'?",
+    "Option1": "Forces all filenames to be lowercase.",
+    "Option2": "Ensures that file names and import paths use consistent casing.",
+    "Option3": "Renames files automatically during compilation.",
+    "Option4": "Only applies to files with `.ts` extension.",
+    "Answer": "Ensures that file names and import paths use consistent casing."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Why is `forceConsistentCasingInFileNames` useful?",
+    "Option1": "It improves code readability.",
+    "Option2": "It helps prevent issues related to case-sensitive file systems and module resolution.",
+    "Option3": "It reduces the likelihood of merge conflicts.",
+    "Option4": "It enables faster compilation.",
+    "Answer": "It helps prevent issues related to case-sensitive file systems and module resolution."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'stripInternal'?",
+    "Option1": "Removes private members from compiled JavaScript.",
+    "Option2": "Excludes declarations with `@internal` JSDoc tag from generated declaration files.",
+    "Option3": "Strips comments from compiled JavaScript.",
+    "Option4": "Removes unused imports.",
+    "Answer": "Excludes declarations with `@internal` JSDoc tag from generated declaration files."
+  },
+  {
+    "question_no.": 194,
+    "Question": "When would you typically use `stripInternal`?",
+    "Option1": "When sharing an internal library publicly.",
+    "Option2": "When building an application for production.",
+    "Option3": "When debugging type errors.",
+    "Option4": "When migrating from JavaScript to TypeScript.",
+    "Answer": "When sharing an internal library publicly."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'declarationMap'?",
+    "Option1": "Generates source maps for your JavaScript files.",
+    "Option2": "Generates source maps for your `.d.ts` files, allowing Go-to-Definition to work across compiled code.",
+    "Option3": "A map of all declared types in your project.",
+    "Option4": "A tool for visualizing type relationships.",
+    "Answer": "Generates source maps for your `.d.ts` files, allowing Go-to-Definition to work across compiled code."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the `isolatedModules` flag related to?",
+    "Option1": "Ensuring each file can be transpiled independently.",
+    "Option2": "Preventing global variables.",
+    "Option3": "Strict module imports.",
+    "Option4": "Optimizing module loading.",
+    "Answer": "Ensuring each file can be transpiled independently."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the `composite` compiler option?",
+    "Option1": "Allows combining multiple TypeScript projects into one.",
+    "Option2": "Enables building composite projects, where one project can depend on another.",
+    "Option3": "Forces all files to be part of a single compilation unit.",
+    "Option4": "A feature for creating web components.",
+    "Answer": "Enables building composite projects, where one project can depend on another."
+  },
+  {
+    "question_no.": 198,
+    "Question": "Why are composite projects useful?",
+    "Option1": "For better performance during development and for organizing large codebases.",
+    "Option2": "To enforce stricter type checking.",
+    "Option3": "To reduce the number of files in a project.",
+    "Option4": "To integrate with external build tools.",
+    "Answer": "For better performance during development and for organizing large codebases."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the `project references` feature in TypeScript?",
+    "Option1": "A way to link to external npm packages.",
+    "Option2": "A mechanism for defining dependencies between different TypeScript projects within a monorepo.",
+    "Option3": "A tool for generating project documentation.",
+    "Option4": "A method for automatically updating project dependencies.",
+    "Answer": "A mechanism for defining dependencies between different TypeScript projects within a monorepo."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Which `tsconfig.json` option is used to define project references?",
+    "Option1": "`references`",
+    "Option2": "`projectDependencies`",
+    "Option3": "`composite`",
+    "Option4": "`includes`",
+    "Answer": "`references`"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is '`this` parameters' in TypeScript?",
+    "Option1": "A special parameter that controls the scope of `this` in a function.",
+    "Option2": "A way to explicitly declare the type of the `this` context for a function.",
+    "Option3": "A parameter that is always an object.",
+    "Option4": "A built-in parameter for all arrow functions.",
+    "Answer": "A way to explicitly declare the type of the `this` context for a function."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Where must a `this` parameter be placed in a function signature?",
+    "Option1": "Anywhere in the parameter list.",
+    "Option2": "As the last parameter.",
+    "Option3": "As the first parameter.",
+    "Option4": "It cannot be placed in the function signature.",
+    "Answer": "As the first parameter."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Function Types with `this` parameters' used for?",
+    "Option1": "To create polymorphic `this` types.",
+    "Option2": "To allow functions to be called with a specific `this` context while maintaining type safety.",
+    "Option3": "To prevent `this` from being used inside a function.",
+    "Option4": "To bind `this` to the global object.",
+    "Answer": "To allow functions to be called with a specific `this` context while maintaining type safety."
+  }
+]

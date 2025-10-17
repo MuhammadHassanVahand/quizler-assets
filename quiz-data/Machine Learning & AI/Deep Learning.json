@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the core difference between Machine Learning and Deep Learning?",
+    "Option1": "Deep Learning uses traditional statistical models.",
+    "Option2": "Deep Learning uses neural networks with many layers, while ML can use simpler algorithms.",
+    "Option3": "Machine Learning only works with small datasets.",
+    "Option4": "Deep Learning does not require data.",
+    "Answer": "Deep Learning uses neural networks with many layers, while ML can use simpler algorithms."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which type of neural network is primarily used for image recognition and computer vision tasks?",
+    "Option1": "Recurrent Neural Network (RNN)",
+    "Option2": "Feedforward Neural Network (FNN)",
+    "Option3": "Convolutional Neural Network (CNN)",
+    "Option4": "Generative Adversarial Network (GAN)",
+    "Answer": "Convolutional Neural Network (CNN)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is 'backpropagation' in the context of neural networks?",
+    "Option1": "The process of feeding input forward through the network.",
+    "Option2": "The algorithm used to adjust the weights of a neural network by propagating errors backward.",
+    "Option3": "A method for random initialization of weights.",
+    "Option4": "A technique for dimensionality reduction.",
+    "Answer": "The algorithm used to adjust the weights of a neural network by propagating errors backward."
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which activation function is most commonly used in the hidden layers of deep neural networks due to its ability to mitigate vanishing gradients?",
+    "Option1": "Sigmoid",
+    "Option2": "Tanh",
+    "Option3": "ReLU (Rectified Linear Unit)",
+    "Option4": "Softmax",
+    "Answer": "ReLU (Rectified Linear Unit)"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the 'vanishing gradient problem' in deep learning?",
+    "Option1": "When the learning rate is too high.",
+    "Option2": "When gradients become extremely small during backpropagation, making it difficult for earlier layers to learn.",
+    "Option3": "When the model converges too quickly.",
+    "Option4": "When the dataset is too small for gradient descent.",
+    "Answer": "When gradients become extremely small during backpropagation, making it difficult for earlier layers to learn."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the purpose of a 'convolutional layer' in a CNN?",
+    "Option1": "To introduce non-linearity.",
+    "Option2": "To reduce the spatial dimensions of the input.",
+    "Option3": "To extract features from the input data using filters.",
+    "Option4": "To flatten the input into a 1D vector.",
+    "Answer": "To extract features from the input data using filters."
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which type of neural network is best suited for processing sequential data like natural language or time series?",
+    "Option1": "Convolutional Neural Network (CNN)",
+    "Option2": "Recurrent Neural Network (RNN)",
+    "Option3": "Generative Adversarial Network (GAN)",
+    "Option4": "Autoencoder",
+    "Answer": "Recurrent Neural Network (RNN)"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is a 'pooling layer' commonly used for in CNNs?",
+    "Option1": "To add more features to the image.",
+    "Option2": "To reduce the spatial dimensions, computational cost, and extract dominant features.",
+    "Option3": "To apply an activation function.",
+    "Option4": "To perform classification.",
+    "Answer": "To reduce the spatial dimensions, computational cost, and extract dominant features."
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which activation function is typically used in the output layer of a multi-class classification neural network to produce probability distributions?",
+    "Option1": "Sigmoid",
+    "Option2": "ReLU",
+    "Option3": "Softmax",
+    "Option4": "Tanh",
+    "Answer": "Softmax"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is 'Dropout' primarily used for in deep neural networks?",
+    "Option1": "To add more layers to the network.",
+    "Option2": "To prevent overfitting by randomly dropping out units (neurons) during training.",
+    "Option3": "To speed up the training process.",
+    "Option4": "To improve feature selection.",
+    "Answer": "To prevent overfitting by randomly dropping out units (neurons) during training."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is 'Batch Normalization' used for in deep learning?",
+    "Option1": "To reduce the number of layers in a neural network.",
+    "Option2": "To normalize the inputs of each layer, speeding up training and improving stability.",
+    "Option3": "To regularize the model weights.",
+    "Option4": "To create new features from existing ones.",
+    "Answer": "To normalize the inputs of each layer, speeding up training and improving stability."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is a 'Generative Adversarial Network' (GAN)?",
+    "Option1": "A type of supervised learning algorithm for classification.",
+    "Option2": "A neural network architecture composed of a generator and a discriminator, used for generating new data.",
+    "Option3": "A reinforcement learning agent for game playing.",
+    "Option4": "A model used for anomaly detection.",
+    "Answer": "A neural network architecture composed of a generator and a discriminator, used for generating new data."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which component of a neural network introduces non-linearity, allowing the network to learn complex patterns?",
+    "Option1": "Input Layer",
+    "Option2": "Output Layer",
+    "Option3": "Activation Function",
+    "Option4": "Loss Function",
+    "Answer": "Activation Function"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the 'exploding gradient problem' in deep learning?",
+    "Option1": "When gradients become extremely small during backpropagation.",
+    "Option2": "When gradients become extremely large, leading to unstable network training.",
+    "Option3": "When the model converges too slowly.",
+    "Option4": "When the dataset is too large for efficient training.",
+    "Answer": "When gradients become extremely large, leading to unstable network training."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What does 'LSTM' stand for in the context of Recurrent Neural Networks?",
+    "Option1": "Long Short-Term Memory",
+    "Option2": "Layered Sequential Training Model",
+    "Option3": "Linear State Transition Machine",
+    "Option4": "Long Sequence Training Mechanism",
+    "Answer": "Long Short-Term Memory"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is 'Transfer Learning' in deep learning?",
+    "Option1": "Training a model from scratch on a new dataset.",
+    "Option2": "Using a pre-trained model (e.g., on a large image dataset) as a starting point for a new, related task.",
+    "Option3": "Transferring data between different neural networks.",
+    "Option4": "Learning from different data sources simultaneously.",
+    "Answer": "Using a pre-trained model (e.g., on a large image dataset) as a starting point for a new, related task."
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which type of neural network is composed of an encoder and a decoder, used for tasks like dimensionality reduction or data denoising?",
+    "Option1": "Convolutional Neural Network (CNN)",
+    "Option2": "Recurrent Neural Network (RNN)",
+    "Option3": "Autoencoder",
+    "Option4": "Generative Adversarial Network (GAN)",
+    "Answer": "Autoencoder"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is a 'Tensor' in deep learning frameworks like TensorFlow or PyTorch?",
+    "Option1": "A single numerical value.",
+    "Option2": "A multi-dimensional array or matrix used to represent data.",
+    "Option3": "A type of activation function.",
+    "Option4": "A specific type of neural network layer.",
+    "Answer": "A multi-dimensional array or matrix used to represent data."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of 'padding' in convolutional layers?",
+    "Option1": "To increase the computational speed.",
+    "Option2": "To ensure the output feature map has the same spatial dimensions as the input, preventing information loss at borders.",
+    "Option3": "To reduce the number of parameters.",
+    "Option4": "To add noise to the input image.",
+    "Answer": "To ensure the output feature map has the same spatial dimensions as the input, preventing information loss at borders."
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which optimizer is a popular choice in deep learning for its adaptive learning rate capabilities, combining ideas from AdaGrad and RMSprop?",
+    "Option1": "Stochastic Gradient Descent (SGD)",
+    "Option2": "Adam (Adaptive Moment Estimation)",
+    "Option3": "Adagrad",
+    "Option4": "RMSprop",
+    "Answer": "Adam (Adaptive Moment Estimation)"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is 'Data Augmentation' in deep learning for image tasks?",
+    "Option1": "Reducing the size of the dataset.",
+    "Option2": "Generating artificial training data by applying transformations (e.g., rotations, flips) to existing images.",
+    "Option3": "Removing noise from images.",
+    "Option4": "Compressing image files for faster processing.",
+    "Answer": "Generating artificial training data by applying transformations (e.g., rotations, flips) to existing images."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'Fine-tuning' in the context of Transfer Learning?",
+    "Option1": "Training a model from scratch with a very small learning rate.",
+    "Option2": "Adjusting the weights of a pre-trained model on a new, smaller dataset for a specific task.",
+    "Option3": "Only training the last layer of a pre-trained network.",
+    "Option4": "Using a fixed set of weights from a pre-trained model without modification.",
+    "Answer": "Adjusting the weights of a pre-trained model on a new, smaller dataset for a specific task."
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which type of layer in a CNN typically follows convolutional layers to reduce the spatial dimensions of the feature maps?",
+    "Option1": "Dense Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Activation Layer",
+    "Option4": "Input Layer",
+    "Answer": "Pooling Layer"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the 'kernel' or 'filter' in a convolutional layer?",
+    "Option1": "The entire image being processed.",
+    "Option2": "A small matrix of learnable weights that slides over the input to detect features.",
+    "Option3": "The activation function applied after convolution.",
+    "Option4": "The output of the convolutional layer.",
+    "Answer": "A small matrix of learnable weights that slides over the input to detect features."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Recurrent Neural Network' (RNN) particularly well-suited for?",
+    "Option1": "Image recognition and classification.",
+    "Option2": "Time series prediction, speech recognition, and natural language processing due to its memory.",
+    "Option3": "Clustering large datasets.",
+    "Option4": "Simple linear regression tasks.",
+    "Answer": "Time series prediction, speech recognition, and natural language processing due to its memory."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the primary function of the 'fully connected layer' (or Dense layer) in a neural network?",
+    "Option1": "To extract local features from the input.",
+    "Option2": "To reduce the dimensionality of the data.",
+    "Option3": "To perform classification or regression on the features learned by previous layers.",
+    "Option4": "To introduce non-linearity.",
+    "Answer": "To perform classification or regression on the features learned by previous layers."
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which type of 'pooling' operation in CNNs takes the maximum value from a patch of features?",
+    "Option1": "Average Pooling",
+    "Option2": "Max Pooling",
+    "Option3": "Min Pooling",
+    "Option4": "Global Pooling",
+    "Answer": "Max Pooling"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is an 'epoch' in neural network training?",
+    "Option1": "A single forward pass through the network.",
+    "Option2": "The entire dataset passed through the neural network once, both forward and backward.",
+    "Option3": "The size of the mini-batch.",
+    "Option4": "The number of hidden layers.",
+    "Answer": "The entire dataset passed through the neural network once, both forward and backward."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which loss function is commonly used for binary classification tasks in neural networks?",
+    "Option1": "Mean Squared Error (MSE)",
+    "Option2": "Categorical Cross-Entropy",
+    "Option3": "Binary Cross-Entropy",
+    "Option4": "Huber Loss",
+    "Answer": "Binary Cross-Entropy"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'RNN unrolling'?",
+    "Option1": "A technique to reduce the number of layers in an RNN.",
+    "Option2": "Representing an RNN as a deep feedforward network where each time step is a layer.",
+    "Option3": "A method for visualizing RNN activations.",
+    "Option4": "A way to convert an RNN into a CNN.",
+    "Answer": "Representing an RNN as a deep feedforward network where each time step is a layer."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is a 'Dense Layer' also known as in a neural network?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Fully Connected Layer",
+    "Option4": "Recurrent Layer",
+    "Answer": "Fully Connected Layer"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which type of neural network is designed to handle very long sequences and overcome the vanishing/exploding gradient problems of traditional RNNs?",
+    "Option1": "Standard RNN",
+    "Option2": "Gated Recurrent Unit (GRU) or Long Short-Term Memory (LSTM)",
+    "Option3": "Convolutional Neural Network (CNN)",
+    "Option4": "Perceptron",
+    "Answer": "Gated Recurrent Unit (GRU) or Long Short-Term Memory (LSTM)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the purpose of a 'stride' in a convolutional layer?",
+    "Option1": "The number of filters used.",
+    "Option2": "The step size by which the filter moves across the input image.",
+    "Option3": "The amount of padding added.",
+    "Option4": "The size of the pooling window.",
+    "Answer": "The step size by which the filter moves across the input image."
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which technique helps to mitigate the exploding gradient problem by clipping gradients if they exceed a certain threshold?",
+    "Option1": "Dropout",
+    "Option2": "Batch Normalization",
+    "Option3": "Gradient Clipping",
+    "Option4": "L1 Regularization",
+    "Answer": "Gradient Clipping"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the 'Adam' optimizer's full name?",
+    "Option1": "Adaptive Momentum",
+    "Option2": "Adaptive Mean Square",
+    "Option3": "Adaptive Moment Estimation",
+    "Option4": "Accelerated Descent Method",
+    "Answer": "Adaptive Moment Estimation"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'Encoder-Decoder' architecture commonly used for in deep learning?",
+    "Option1": "Image classification.",
+    "Option2": "Sequence-to-sequence tasks like machine translation and text summarization.",
+    "Option3": "Simple regression problems.",
+    "Option4": "Clustering unlabeled data.",
+    "Answer": "Sequence-to-sequence tasks like machine translation and text summarization."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'Pre-training' in deep learning?",
+    "Option1": "Training a model from scratch on a small dataset.",
+    "Option2": "Training a large model on a massive dataset for a general task before fine-tuning.",
+    "Option3": "Evaluating model performance before deployment.",
+    "Option4": "Adjusting hyperparameters manually.",
+    "Answer": "Training a large model on a massive dataset for a general task before fine-tuning."
+  },
+  {
+    "question_no.": 38,
+    "Question": "Which type of layer in a neural network has connections between all neurons in the current layer and all neurons in the next layer?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Fully Connected Layer",
+    "Option4": "Embedding Layer",
+    "Answer": "Fully Connected Layer"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the 'Rectified Linear Unit' (ReLU) activation function?",
+    "Option1": "f(x) = 1 / (1 + exp(-x))",
+    "Option2": "f(x) = max(0, x)",
+    "Option3": "f(x) = (exp(x) - exp(-x)) / (exp(x) + exp(-x))",
+    "Option4": "f(x) = x",
+    "Answer": "f(x) = max(0, x)"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'Word Embedding' in Natural Language Processing, often generated by deep learning models?",
+    "Option1": "Counting the frequency of words in a document.",
+    "Option2": "Converting words into numerical vectors that capture their semantic relationships.",
+    "Option3": "Removing stop words from text.",
+    "Option4": "Tokenizing text into individual words.",
+    "Answer": "Converting words into numerical vectors that capture their semantic relationships."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which framework is widely used for building and training deep learning models, developed by Google?",
+    "Option1": "Scikit-learn",
+    "Option2": "PyTorch",
+    "Option3": "TensorFlow",
+    "Option4": "Keras",
+    "Answer": "TensorFlow"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the concept of 'Learnable Parameters' in deep learning?",
+    "Option1": "Hyperparameters set before training.",
+    "Option2": "Weights and biases that are adjusted by the optimization algorithm during training.",
+    "Option3": "The input features of the dataset.",
+    "Option4": "The number of layers in a neural network.",
+    "Answer": "Weights and biases that are adjusted by the optimization algorithm during training."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which type of neural network is characterized by connections that form cycles, allowing information to persist over time?",
+    "Option1": "Feedforward Neural Network",
+    "Option2": "Convolutional Neural Network",
+    "Option3": "Recurrent Neural Network",
+    "Option4": "Autoencoder",
+    "Answer": "Recurrent Neural Network"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Max Pooling'?",
+    "Option1": "Calculating the average of features in a region.",
+    "Option2": "Selecting the largest feature value from a patch.",
+    "Option3": "Summing all feature values in a region.",
+    "Option4": "Multiplying features by a learnable weight.",
+    "Answer": "Selecting the largest feature value from a patch."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which loss function is commonly used for multi-class classification tasks in neural networks?",
+    "Option1": "Mean Squared Error (MSE)",
+    "Option2": "Binary Cross-Entropy",
+    "Option3": "Categorical Cross-Entropy (or Sparse Categorical Cross-Entropy)",
+    "Option4": "Huber Loss",
+    "Answer": "Categorical Cross-Entropy (or Sparse Categorical Cross-Entropy)"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Regularization' in deep learning?",
+    "Option1": "Increasing the number of layers in a network.",
+    "Option2": "Techniques used to prevent overfitting, such as L1/L2 regularization or dropout.",
+    "Option3": "Normalizing the input data.",
+    "Option4": "Tuning hyperparameters for faster training.",
+    "Answer": "Techniques used to prevent overfitting, such as L1/L2 regularization or dropout."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the purpose of 'Early Stopping' during neural network training?",
+    "Option1": "To finish training quickly regardless of performance.",
+    "Option2": "To stop training when the model's performance on a validation set starts to degrade, preventing overfitting.",
+    "Option3": "To pause training and resume later.",
+    "Option4": "To reset model weights if performance is poor.",
+    "Answer": "To stop training when the model's performance on a validation set starts to degrade, preventing overfitting."
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which optimizer calculates adaptive learning rates for each parameter, but can suffer from decaying learning rates?",
+    "Option1": "SGD",
+    "Option2": "Adam",
+    "Option3": "Adagrad",
+    "Option4": "RMSprop",
+    "Answer": "Adagrad"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Semantic Segmentation' in computer vision?",
+    "Option1": "Detecting objects in an image.",
+    "Option2": "Classifying an entire image into one category.",
+    "Option3": "Assigning a class label to every pixel in an image.",
+    "Option4": "Generating new images from scratch.",
+    "Answer": "Assigning a class label to every pixel in an image."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the function of the 'bias' term in a neural network neuron?",
+    "Option1": "It acts as a threshold, determining when a neuron activates.",
+    "Option2": "It scales the input features.",
+    "Option3": "It is always zero.",
+    "Option4": "It is only used in the output layer.",
+    "Answer": "It acts as a threshold, determining when a neuron activates."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What are 'Hyperparameters' in deep learning?",
+    "Option1": "Parameters learned by the model during training.",
+    "Option2": "Parameters whose values are set before the learning process begins, such as learning rate or number of layers.",
+    "Option3": "The input features of the dataset.",
+    "Option4": "The predicted output of the model.",
+    "Answer": "Parameters whose values are set before the learning process begins, such as learning rate or number of layers."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which type of layer is often used at the beginning of an NLP deep learning model to convert discrete words into continuous vector representations?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Embedding Layer",
+    "Option4": "Dense Layer",
+    "Answer": "Embedding Layer"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Gradient Descent' primarily used for in deep learning?",
+    "Option1": "To visualize high-dimensional data.",
+    "Option2": "To minimize the loss function by iteratively adjusting model weights.",
+    "Option3": "To cluster data points.",
+    "Option4": "To perform feature selection.",
+    "Answer": "To minimize the loss function by iteratively adjusting model weights."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which is a common challenge when training deep neural networks from scratch?",
+    "Option1": "Lack of computational power.",
+    "Option2": "The need for very large labeled datasets to avoid overfitting.",
+    "Option3": "Difficulty in interpreting simple models.",
+    "Option4": "Limited number of available activation functions.",
+    "Answer": "The need for very large labeled datasets to avoid overfitting."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Attention Mechanism' commonly used for in deep learning for NLP?",
+    "Option1": "To make the model less complex.",
+    "Option2": "To allow the model to focus on specific parts of the input sequence that are most relevant for predicting the output.",
+    "Option3": "To reduce the dimensionality of word embeddings.",
+    "Option4": "To accelerate the training of convolutional layers.",
+    "Answer": "To allow the model to focus on specific parts of the input sequence that are most relevant for predicting the output."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What does 'ReLU' stand for?",
+    "Option1": "Random Error Linear Unit",
+    "Option2": "Rectified Linear Unit",
+    "Option3": "Recurrent Learning Unit",
+    "Option4": "Regularized Linear Underflow",
+    "Answer": "Rectified Linear Unit"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which type of layer in a CNN combines features from different spatial locations and channels to reduce computational cost and capture high-level abstractions?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Flatten Layer",
+    "Option4": "Global Average Pooling Layer",
+    "Answer": "Global Average Pooling Layer"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Softmax' activation function primarily used for?",
+    "Option1": "Regression tasks.",
+    "Option2": "Outputting binary classification probabilities.",
+    "Option3": "Converting raw output scores into a probability distribution for multi-class classification.",
+    "Option4": "Adding non-linearity to hidden layers.",
+    "Answer": "Converting raw output scores into a probability distribution for multi-class classification."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Pre-trained Word Embeddings' (e.g., Word2Vec, GloVe, FastText) used for?",
+    "Option1": "Generating random words for text generation.",
+    "Option2": "Providing rich, contextualized numerical representations of words learned from vast amounts of text data.",
+    "Option3": "Classifying documents into categories.",
+    "Option4": "Removing punctuation from text.",
+    "Answer": "Providing rich, contextualized numerical representations of words learned from vast amounts of text data."
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which framework is known for its Pythonic interface and dynamic computation graph, popular for research and flexibility?",
+    "Option1": "TensorFlow",
+    "Option2": "Keras",
+    "Option3": "PyTorch",
+    "Option4": "Theano",
+    "Answer": "PyTorch"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is a 'Perceptron'?",
+    "Option1": "A type of recurrent neural network.",
+    "Option2": "The simplest form of an artificial neuron, a building block of neural networks.",
+    "Option3": "A complex deep learning architecture.",
+    "Option4": "An algorithm for clustering data.",
+    "Answer": "The simplest form of an artificial neuron, a building block of neural networks."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which optimizer adjusts the learning rate for each parameter by dividing it by the square root of the sum of squared past gradients?",
+    "Option1": "SGD",
+    "Option2": "Adam",
+    "Option3": "Adagrad",
+    "Option4": "RMSprop",
+    "Answer": "Adagrad"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Object Detection' in computer vision?",
+    "Option1": "Classifying an image into a single category.",
+    "Option2": "Identifying and locating objects within an image, often by drawing bounding boxes.",
+    "Option3": "Generating new images from text descriptions.",
+    "Option4": "Removing noise from images.",
+    "Answer": "Identifying and locating objects within an image, often by drawing bounding boxes."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Hyperparameter Optimization' in deep learning?",
+    "Option1": "Manually setting hyperparameters based on intuition.",
+    "Option2": "The process of automatically finding the best set of hyperparameters for a deep learning model.",
+    "Option3": "Adjusting the weights of the network during training.",
+    "Option4": "Choosing the right dataset for training.",
+    "Answer": "The process of automatically finding the best set of hyperparameters for a deep learning model."
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which type of layer flattens the output of convolutional and pooling layers into a 1D vector before feeding it to fully connected layers?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Flatten Layer",
+    "Option4": "Recurrent Layer",
+    "Answer": "Flatten Layer"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'skip connection' or 'residual connection' in deep learning (e.g., ResNet)?",
+    "Option1": "A connection that skips an entire layer, leading to vanishing gradients.",
+    "Option2": "A direct connection that bypasses one or more layers, allowing gradients to flow more easily.",
+    "Option3": "A connection that only passes information forward, not backward.",
+    "Option4": "A connection that regularizes the network.",
+    "Answer": "A direct connection that bypasses one or more layers, allowing gradients to flow more easily."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Attention Is All You Need' referring to in the context of deep learning?",
+    "Option1": "The idea that attention mechanisms are the only component needed for any deep learning model.",
+    "Option2": "The seminal paper that introduced the Transformer architecture, heavily relying on attention mechanisms.",
+    "Option3": "A new activation function.",
+    "Option4": "A specific type of pooling layer.",
+    "Answer": "The seminal paper that introduced the Transformer architecture, heavily relying on attention mechanisms."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Weight Decay' in deep learning?",
+    "Option1": "A phenomenon where weights become too small during training.",
+    "Option2": "A form of regularization (L2 regularization) that adds a penalty to the loss function based on the size of the weights.",
+    "Option3": "The process of reducing the number of weights in a network.",
+    "Option4": "A method for initializing weights.",
+    "Answer": "A form of regularization (L2 regularization) that adds a penalty to the loss function based on the size of the weights."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which type of GAN aims to generate images that resemble real images but can also be conditioned on a class label to generate specific types of images?",
+    "Option1": "Vanilla GAN",
+    "Option2": "Conditional GAN (cGAN)",
+    "Option3": "CycleGAN",
+    "Option4": "Deep Convolutional GAN (DCGAN)",
+    "Answer": "Conditional GAN (cGAN)"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'One-Hot Encoding' typically used for in deep learning preprocessing?",
+    "Option1": "Scaling numerical data.",
+    "Option2": "Converting categorical labels into a binary vector format for classification.",
+    "Option3": "Reducing the dimensionality of images.",
+    "Option4": "Handling missing data.",
+    "Answer": "Converting categorical labels into a binary vector format for classification."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the primary role of the 'optimizer' during neural network training?",
+    "Option1": "To define the network's architecture.",
+    "Option2": "To measure the model's performance on the validation set.",
+    "Option3": "To adjust the model's weights and biases to minimize the loss function.",
+    "Option4": "To preprocess the input data.",
+    "Answer": "To adjust the model's weights and biases to minimize the loss function."
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which type of layer in an RNN has an internal state that is updated at each time step based on the current input and previous state?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Dense Layer",
+    "Option3": "Recurrent Layer",
+    "Option4": "Pooling Layer",
+    "Answer": "Recurrent Layer"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Stochastic Gradient Descent' (SGD)?",
+    "Option1": "A type of regularization technique.",
+    "Option2": "A variant of gradient descent that uses only one randomly chosen data point (or a small batch) at each step to update weights.",
+    "Option3": "An algorithm for clustering data.",
+    "Option4": "A method for hyperparameter tuning.",
+    "Answer": "A variant of gradient descent that uses only one randomly chosen data point (or a small batch) at each step to update weights."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is a 'Batch Size' in deep learning training?",
+    "Option1": "The total number of training examples.",
+    "Option2": "The number of training examples processed at once before updating the model's weights.",
+    "Option3": "The number of epochs.",
+    "Option4": "The size of the input image.",
+    "Answer": "The number of training examples processed at once before updating the model's weights."
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which deep learning architecture uses self-attention mechanisms and is highly successful in natural language processing tasks?",
+    "Option1": "Recurrent Neural Network (RNN)",
+    "Option2": "Convolutional Neural Network (CNN)",
+    "Option3": "Long Short-Term Memory (LSTM)",
+    "Option4": "Transformer",
+    "Answer": "Transformer"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'ImageNet' in the context of deep learning?",
+    "Option1": "A type of convolutional layer.",
+    "Option2": "A large visual database designed for use in visual object recognition software research.",
+    "Option3": "A framework for building neural networks.",
+    "Option4": "A specific type of image augmentation technique.",
+    "Answer": "A large visual database designed for use in visual object recognition software research."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Learning Rate Scheduling'?",
+    "Option1": "Randomly changing the learning rate during training.",
+    "Option2": "Adjusting the learning rate dynamically over the course of training to improve convergence.",
+    "Option3": "Keeping the learning rate constant throughout training.",
+    "Option4": "Setting a very low learning rate from the start.",
+    "Answer": "Adjusting the learning rate dynamically over the course of training to improve convergence."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Which type of activation function squashes its input to a range of [0, 1] and is often used in output layers for binary classification?",
+    "Option1": "Tanh",
+    "Option2": "ReLU",
+    "Option3": "Sigmoid",
+    "Option4": "Leaky ReLU",
+    "Answer": "Sigmoid"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What are 'Embeddings' in deep learning, particularly for categorical data or words?",
+    "Option1": "Direct numerical values of the categories.",
+    "Option2": "Dense, low-dimensional vector representations that capture semantic relationships.",
+    "Option3": "Sparse one-hot encoded vectors.",
+    "Option4": "Simple counts of occurrences.",
+    "Answer": "Dense, low-dimensional vector representations that capture semantic relationships."
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which technique is used to measure the difference between the predicted output and the actual target value, guiding the optimization process?",
+    "Option1": "Activation Function",
+    "Option2": "Optimizer",
+    "Option3": "Loss Function (or Cost Function)",
+    "Option4": "Regularizer",
+    "Answer": "Loss Function (or Cost Function)"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is a 'Neuron' in a neural network?",
+    "Option1": "A training example.",
+    "Option2": "A computational unit that receives inputs, performs a weighted sum, adds a bias, and applies an activation function.",
+    "Option3": "A layer within the network.",
+    "Option4": "The entire neural network model.",
+    "Answer": "A computational unit that receives inputs, performs a weighted sum, adds a bias, and applies an activation function."
+  },
+  {
+    "question_no.": 82,
+    "Question": "Which type of layer typically consists of neurons that are fully connected to all activations in the previous layer?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Dense Layer",
+    "Option4": "Recurrent Layer",
+    "Answer": "Dense Layer"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Gradient Clipping' used to address?",
+    "Option1": "Vanishing gradients.",
+    "Option2": "Exploding gradients.",
+    "Option3": "Overfitting.",
+    "Option4": "Underfitting.",
+    "Answer": "Exploding gradients."
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which term refers to the depth of a neural network, i.e., the number of hidden layers?",
+    "Option1": "Width",
+    "Option2": "Complexity",
+    "Option3": "Depth",
+    "Option4": "Dimension",
+    "Answer": "Depth"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the primary benefit of using a 'GPU' for deep learning?",
+    "Option1": "Less memory consumption.",
+    "Option2": "Faster sequential processing of data.",
+    "Option3": "Massive parallel processing capabilities, ideal for matrix multiplications in neural networks.",
+    "Option4": "Lower power consumption.",
+    "Answer": "Massive parallel processing capabilities, ideal for matrix multiplications in neural networks."
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which optimizer maintains a per-parameter learning rate, adapting it based on the square of past gradients, addressing AdaGrad's decaying learning rate issue?",
+    "Option1": "SGD",
+    "Option2": "Adam",
+    "Option3": "Adagrad",
+    "Option4": "RMSprop",
+    "Answer": "RMSprop"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Long Short-Term Memory' (LSTM) specifically designed to solve?",
+    "Option1": "Image classification problems.",
+    "Option2": "The vanishing gradient problem in standard RNNs for long sequences.",
+    "Option3": "The exploding gradient problem.",
+    "Option4": "Overfitting in deep neural networks.",
+    "Answer": "The vanishing gradient problem in standard RNNs for long sequences."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Image Captioning' in deep learning?",
+    "Option1": "Generating a detailed text description for a given image.",
+    "Option2": "Classifying images into categories.",
+    "Option3": "Detecting objects in an image.",
+    "Option4": "Translating text from one language to another.",
+    "Answer": "Generating a detailed text description for a given image."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the 'Softplus' activation function?",
+    "Option1": "A linear function.",
+    "Option2": "A smooth approximation of the ReLU function.",
+    "Option3": "A step function.",
+    "Option4": "A sigmoid function.",
+    "Answer": "A smooth approximation of the ReLU function."
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which type of layer in a CNN detects local patterns like edges, textures, or shapes?",
+    "Option1": "Pooling Layer",
+    "Option2": "Fully Connected Layer",
+    "Option3": "Convolutional Layer",
+    "Option4": "Normalization Layer",
+    "Answer": "Convolutional Layer"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Transformer' architecture's key innovation that allows for parallelization and captures long-range dependencies effectively?",
+    "Option1": "Convolutional layers.",
+    "Option2": "Recurrent connections.",
+    "Option3": "Self-attention mechanisms.",
+    "Option4": "Pooling layers.",
+    "Answer": "Self-attention mechanisms."
+  },
+  {
+    "question_no.": 92,
+    "Question": "Which term describes the process of converting raw image pixel values into a standardized range, typically [0, 1] or [-1, 1]?",
+    "Option1": "Image Augmentation",
+    "Option2": "Image Normalization",
+    "Option3": "Image Filtering",
+    "Option4": "Image Resizing",
+    "Answer": "Image Normalization"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'BERT' (Bidirectional Encoder Representations from Transformers) primarily used for?",
+    "Option1": "Image generation.",
+    "Option2": "Predicting numerical values in regression.",
+    "Option3": "Natural Language Understanding (e.g., question answering, sentiment analysis).",
+    "Option4": "Controlling robotic arms.",
+    "Answer": "Natural Language Understanding (e.g., question answering, sentiment analysis)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the 'Generator' in a GAN responsible for?",
+    "Option1": "Distinguishing real data from fake data.",
+    "Option2": "Generating new data samples that resemble the real data distribution.",
+    "Option3": "Calculating the loss function.",
+    "Option4": "Providing feedback to the discriminator.",
+    "Answer": "Generating new data samples that resemble the real data distribution."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Model Parallelism' in deep learning?",
+    "Option1": "Training multiple models on the same dataset.",
+    "Option2": "Distributing different parts of a single neural network model across multiple devices (e.g., GPUs).",
+    "Option3": "Running multiple training jobs simultaneously.",
+    "Option4": "Using different optimizers in parallel.",
+    "Answer": "Distributing different parts of a single neural network model across multiple devices (e.g., GPUs)."
+  },
+  {
+    "question_no.": 96,
+    "Question": "Which activation function is suitable for classification layers where each input can belong to multiple categories, as it outputs independent probabilities?",
+    "Option1": "Sigmoid",
+    "Option2": "Softmax",
+    "Option3": "ReLU",
+    "Option4": "Leaky ReLU",
+    "Answer": "Sigmoid"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is a 'Recurrent Neural Network' (RNN) cell?",
+    "Option1": "A single neuron in the network.",
+    "Option2": "The basic computational unit of an RNN that processes a single time step and updates its internal state.",
+    "Option3": "A layer of convolutional filters.",
+    "Option4": "The output of the network.",
+    "Answer": "The basic computational unit of an RNN that processes a single time step and updates its internal state."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Object Detection' generally used for?",
+    "Option1": "Sentiment analysis on text.",
+    "Option2": "Identifying and locating multiple objects within an image or video.",
+    "Option3": "Generating human-like text.",
+    "Option4": "Predicting continuous numerical values.",
+    "Answer": "Identifying and locating multiple objects within an image or video."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which deep learning framework provides a high-level API for building and training models, often running on top of TensorFlow or Theano?",
+    "Option1": "PyTorch",
+    "Option2": "Keras",
+    "Option3": "Caffe",
+    "Option4": "MXNet",
+    "Answer": "Keras"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the primary purpose of 'Batch Size' in deep learning?",
+    "Option1": "To control the number of layers in the network.",
+    "Option2": "To determine how many samples are processed before the model's parameters are updated, influencing training stability and speed.",
+    "Option3": "To set the learning rate.",
+    "Option4": "To define the number of epochs.",
+    "Answer": "To determine how many samples are processed before the model's parameters are updated, influencing training stability and speed."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Self-Attention' in Transformer models?",
+    "Option1": "A mechanism for the model to pay attention to external data sources.",
+    "Option2": "A mechanism that allows the model to weigh the importance of different parts of the input sequence relative to each other.",
+    "Option3": "A technique to reduce overfitting.",
+    "Option4": "A type of regularization.",
+    "Answer": "A mechanism that allows the model to weigh the importance of different parts of the input sequence relative to each other."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which optimizer calculates adaptive learning rates for each parameter, and also incorporates momentum?",
+    "Option1": "SGD",
+    "Option2": "Adam",
+    "Option3": "Adagrad",
+    "Option4": "RMSprop",
+    "Answer": "Adam"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Masked Language Modeling' (MLM) a pre-training objective for models like BERT?",
+    "Option1": "Predicting the next word in a sequence.",
+    "Option2": "Predicting missing words in a sentence.",
+    "Option3": "Translating masked sentences to another language.",
+    "Option4": "Generating new sentences based on a mask.",
+    "Answer": "Predicting missing words in a sentence."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Deepfake' technology an application of?",
+    "Option1": "Regression analysis.",
+    "Option2": "Generative Adversarial Networks (GANs) and other deep learning techniques.",
+    "Option3": "Traditional image classification.",
+    "Option4": "Clustering algorithms.",
+    "Answer": "Generative Adversarial Networks (GANs) and other deep learning techniques."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Hyperparameter Tuning' in deep learning?",
+    "Option1": "Adjusting the weights and biases of the neural network.",
+    "Option2": "The process of finding the optimal values for parameters that control the learning process, such as learning rate or number of layers.",
+    "Option3": "Cleaning and preprocessing the data.",
+    "Option4": "Evaluating the model's performance on unseen data.",
+    "Answer": "The process of finding the optimal values for parameters that control the learning process, such as learning rate or number of layers."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Which type of pooling operation calculates the average of features in a given region?",
+    "Option1": "Max Pooling",
+    "Option2": "Average Pooling",
+    "Option3": "Min Pooling",
+    "Option4": "Global Max Pooling",
+    "Answer": "Average Pooling"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a 'Sequence-to-Sequence' model often used for?",
+    "Option1": "Image classification.",
+    "Option2": "Tasks where the input and output are both sequences, e.g., machine translation, text summarization.",
+    "Option3": "Predicting a single numerical value.",
+    "Option4": "Anomaly detection.",
+    "Answer": "Tasks where the input and output are both sequences, e.g., machine translation, text summarization."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Zero-shot Learning' in deep learning?",
+    "Option1": "Training a model without any labeled data.",
+    "Option2": "The ability of a model to generalize to new classes it has not seen during training, typically by leveraging semantic information.",
+    "Option3": "Learning from a single example.",
+    "Option4": "A type of unsupervised learning.",
+    "Answer": "The ability of a model to generalize to new classes it has not seen during training, typically by leveraging semantic information."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is the main role of the 'Discriminator' in a GAN?",
+    "Option1": "To generate new data samples.",
+    "Option2": "To learn to distinguish between real data and fake data generated by the generator.",
+    "Option3": "To calculate the gradient for backpropagation.",
+    "Option4": "To optimize the loss function.",
+    "Answer": "To learn to distinguish between real data and fake data generated by the generator."
+  },
+  {
+    "question_no.": 110,
+    "Question": "Which type of layer is essential for transforming the multi-dimensional output of convolutional and pooling layers into a 1D vector suitable for fully connected layers?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Flatten Layer",
+    "Option4": "Softmax Layer",
+    "Answer": "Flatten Layer"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Generative AI' primarily concerned with?",
+    "Option1": "Classifying existing data.",
+    "Option2": "Creating new and original content (e.g., images, text, audio) that resembles real data.",
+    "Option3": "Predicting numerical values.",
+    "Option4": "Reducing data dimensionality.",
+    "Answer": "Creating new and original content (e.g., images, text, audio) that resembles real data."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What are 'Feature Maps' in CNNs?",
+    "Option1": "The raw input images.",
+    "Option2": "The output of convolutional layers, representing the detected features from the input.",
+    "Option3": "The weights of the filters.",
+    "Option4": "The pooling regions.",
+    "Answer": "The output of convolutional layers, representing the detected features from the input."
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which activation function outputs values between -1 and 1, similar to Sigmoid but centered around zero?",
+    "Option1": "ReLU",
+    "Option2": "Sigmoid",
+    "Option3": "Tanh (Hyperbolic Tangent)",
+    "Option4": "Softmax",
+    "Answer": "Tanh (Hyperbolic Tangent)"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Pre-training' usually followed by in Transfer Learning?",
+    "Option1": "Random initialization of weights.",
+    "Option2": "Fine-tuning on a smaller, task-specific dataset.",
+    "Option3": "Deleting the pre-trained model.",
+    "Option4": "More data augmentation without training.",
+    "Answer": "Fine-tuning on a smaller, task-specific dataset."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which framework, built on top of TensorFlow, is known for its user-friendliness and rapid prototyping capabilities?",
+    "Option1": "PyTorch",
+    "Option2": "Keras",
+    "Option3": "MXNet",
+    "Option4": "Theano",
+    "Answer": "Keras"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Object Recognition' in computer vision?",
+    "Option1": "Generating new images.",
+    "Option2": "Identifying specific instances of objects in an image.",
+    "Option3": "Classifying an entire image into a category.",
+    "Option4": "Tracking objects in video.",
+    "Answer": "Identifying specific instances of objects in an image."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is a 'Skip Connection' in ResNet architectures designed to address?",
+    "Option1": "The exploding gradient problem.",
+    "Option2": "The vanishing gradient problem, by allowing gradients to flow directly through the network.",
+    "Option3": "Overfitting in shallow networks.",
+    "Option4": "Computational inefficiency.",
+    "Answer": "The vanishing gradient problem, by allowing gradients to flow directly through the network."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Graph Neural Network' (GNN) designed to process?",
+    "Option1": "Image data.",
+    "Option2": "Sequential text data.",
+    "Option3": "Data structured as graphs (e.g., social networks, molecular structures).",
+    "Option4": "Time series data.",
+    "Answer": "Data structured as graphs (e.g., social networks, molecular structures)."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Gradient Descent with Momentum'?",
+    "Option1": "An optimizer that only uses the current gradient.",
+    "Option2": "An optimizer that accelerates SGD in the relevant direction and dampens oscillations by adding a fraction of the previous update vector.",
+    "Option3": "An optimizer that randomly updates weights.",
+    "Option4": "An optimizer that has a fixed learning rate.",
+    "Answer": "An optimizer that accelerates SGD in the relevant direction and dampens oscillations by adding a fraction of the previous update vector."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the 'Adam' optimizer's key characteristic regarding learning rates?",
+    "Option1": "It uses a fixed learning rate for all parameters.",
+    "Option2": "It adapts the learning rates for each parameter based on estimates of first and second moments of the gradients.",
+    "Option3": "It always decreases the learning rate over time.",
+    "Option4": "It always increases the learning rate over time.",
+    "Answer": "It adapts the learning rates for each parameter based on estimates of first and second moments of the gradients."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Word Embedding' also known as in some contexts?",
+    "Option1": "One-Hot Encoding",
+    "Option2": "Word Vector",
+    "Option3": "Bag of Words",
+    "Option4": "TF-IDF",
+    "Answer": "Word Vector"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the primary role of 'BatchNorm' (Batch Normalization) in a neural network?",
+    "Option1": "To increase the expressiveness of the model.",
+    "Option2": "To stabilize and speed up training by normalizing layer inputs to have zero mean and unit variance.",
+    "Option3": "To reduce the number of parameters.",
+    "Option4": "To prevent information from flowing backward.",
+    "Answer": "To stabilize and speed up training by normalizing layer inputs to have zero mean and unit variance."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Neural Style Transfer'?",
+    "Option1": "Changing the content of an image while preserving its style.",
+    "Option2": "Combining the content of one image with the artistic style of another image.",
+    "Option3": "Generating new artistic styles from scratch.",
+    "Option4": "Classifying artistic styles.",
+    "Answer": "Combining the content of one image with the artistic style of another image."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Seq2Seq' an abbreviation for?",
+    "Option1": "Sequential-to-Sequential",
+    "Option2": "Sequence-to-Sequence",
+    "Option3": "Semantic-to-Sequence",
+    "Option4": "Structured-to-Structured",
+    "Answer": "Sequence-to-Sequence"
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which deep learning model is known for its ability to generate highly coherent and realistic text, trained on massive datasets?",
+    "Option1": "AlexNet",
+    "Option2": "BERT",
+    "Option3": "GPT (Generative Pre-trained Transformer)",
+    "Option4": "ResNet",
+    "Answer": "GPT (Generative Pre-trained Transformer)"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the 'Kernel Size' in a convolutional layer?",
+    "Option1": "The number of convolutional filters.",
+    "Option2": "The dimensions (height and width) of the filter.",
+    "Option3": "The stride of the filter.",
+    "Option4": "The amount of padding.",
+    "Answer": "The dimensions (height and width) of the filter."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which type of layer reduces the number of parameters and computations while maintaining important information in CNNs?",
+    "Option1": "Dense Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Activation Layer",
+    "Option4": "Input Layer",
+    "Answer": "Pooling Layer"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Regularization' in the context of deep learning?",
+    "Option1": "Adding more layers to the network.",
+    "Option2": "Techniques used to prevent overfitting and improve generalization.",
+    "Option3": "Increasing the learning rate during training.",
+    "Option4": "Making the network more complex.",
+    "Answer": "Techniques used to prevent overfitting and improve generalization."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What are 'Recurrent connections' a hallmark of?",
+    "Option1": "Convolutional Neural Networks.",
+    "Option2": "Feedforward Neural Networks.",
+    "Option3": "Recurrent Neural Networks.",
+    "Option4": "Autoencoders.",
+    "Answer": "Recurrent Neural Networks."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Residual Learning' a core concept of?",
+    "Option1": "AlexNet",
+    "Option2": "ResNet (Residual Network)",
+    "Option3": "LeNet",
+    "Option4": "InceptionNet",
+    "Answer": "ResNet (Residual Network)"
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which type of 'activation' for a neuron simply outputs the input if it's positive, and zero otherwise?",
+    "Option1": "Sigmoid",
+    "Option2": "Tanh",
+    "Option3": "ReLU",
+    "Option4": "Softmax",
+    "Answer": "ReLU"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the primary advantage of 'Mini-Batch Gradient Descent' over 'Stochastic Gradient Descent'?",
+    "Option1": "It is faster for very small datasets.",
+    "Option2": "It provides a more stable estimate of the gradient and better convergence properties.",
+    "Option3": "It requires less memory.",
+    "Option4": "It always finds the global minimum.",
+    "Answer": "It provides a more stable estimate of the gradient and better convergence properties."
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which deep learning technique involves training a separate network (the Generator) to create new data, and another network (the Discriminator) to evaluate its realism?",
+    "Option1": "Autoencoders",
+    "Option2": "Recurrent Neural Networks",
+    "Option3": "Generative Adversarial Networks (GANs)",
+    "Option4": "Transfer Learning",
+    "Answer": "Generative Adversarial Networks (GANs)"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Instance Segmentation' in computer vision?",
+    "Option1": "Detecting objects in an image.",
+    "Option2": "Classifying an entire image.",
+    "Option3": "Detecting each instance of an object in an image and segmenting its exact pixel area.",
+    "Option4": "Generating new images based on a mask.",
+    "Answer": "Detecting each instance of an object in an image and segmenting its exact pixel area."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What does 'NLP' stand for?",
+    "Option1": "Neural Learning Processes",
+    "Option2": "Natural Language Programming",
+    "Option3": "Natural Language Processing",
+    "Option4": "Network Layer Protocols",
+    "Answer": "Natural Language Processing"
+  },
+  {
+    "question_no.": 136,
+    "Question": "Which metric is commonly used to evaluate the quality of images generated by a GAN?",
+    "Option1": "Accuracy",
+    "Option2": "Mean Squared Error (MSE)",
+    "Option3": "Inception Score (IS) or Frechet Inception Distance (FID)",
+    "Option4": "F1-Score",
+    "Answer": "Inception Score (IS) or Frechet Inception Distance (FID)"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'One-Shot Learning' in the context of deep learning?",
+    "Option1": "Training a model for only one epoch.",
+    "Option2": "The ability to learn new concepts from a single training example.",
+    "Option3": "A type of unsupervised learning.",
+    "Option4": "A method for hyperparameter tuning.",
+    "Answer": "The ability to learn new concepts from a single training example."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Bidirectional RNN' designed to capture?",
+    "Option1": "Information from past time steps only.",
+    "Option2": "Information from future time steps only.",
+    "Option3": "Information from both past and future time steps in a sequence.",
+    "Option4": "Only short-term dependencies.",
+    "Answer": "Information from both past and future time steps in a sequence."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which type of layer performs a linear transformation on the inputs using weights and biases?",
+    "Option1": "Activation Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Linear (or Dense) Layer",
+    "Option4": "Convolutional Layer",
+    "Answer": "Linear (or Dense) Layer"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Unsupervised Pre-training' in deep learning?",
+    "Option1": "Training a model from scratch with labeled data.",
+    "Option2": "Training a model on unlabeled data to learn useful representations before fine-tuning on a supervised task.",
+    "Option3": "Training a model without any data.",
+    "Option4": "Using a pre-trained model directly without any further training.",
+    "Answer": "Training a model on unlabeled data to learn useful representations before fine-tuning on a supervised task."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Graph Convolutional Network' (GCN)?",
+    "Option1": "A type of CNN for image data.",
+    "Option2": "A neural network designed to operate on graph-structured data by aggregating information from neighboring nodes.",
+    "Option3": "A recurrent neural network for time series.",
+    "Option4": "A generative model for text.",
+    "Answer": "A neural network designed to operate on graph-structured data by aggregating information from neighboring nodes."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Adversarial Training' in deep learning?",
+    "Option1": "Training a model to classify adversarial examples.",
+    "Option2": "A training process where two neural networks (generator and discriminator) compete against each other to improve performance.",
+    "Option3": "Training a model on noisy data to improve robustness.",
+    "Option4": "Training a model with multiple optimizers.",
+    "Answer": "A training process where two neural networks (generator and discriminator) compete against each other to improve performance."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which regularization technique randomly sets a fraction of neuron outputs to zero during training?",
+    "Option1": "L1 Regularization",
+    "Option2": "L2 Regularization",
+    "Option3": "Dropout",
+    "Option4": "Batch Normalization",
+    "Answer": "Dropout"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Pose Estimation' in computer vision?",
+    "Option1": "Detecting human faces in an image.",
+    "Option2": "Estimating the spatial position and orientation of objects or body parts in an image or video.",
+    "Option3": "Classifying different types of poses.",
+    "Option4": "Generating new poses.",
+    "Answer": "Estimating the spatial position and orientation of objects or body parts in an image or video."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is a 'Hook' in PyTorch or TensorFlow for debugging or extracting intermediate activations?",
+    "Option1": "A type of optimizer.",
+    "Option2": "A function that can be registered to execute at specific points during the forward or backward pass.",
+    "Option3": "A specialized layer type.",
+    "Option4": "A method for weight initialization.",
+    "Answer": "A function that can be registered to execute at specific points during the forward or backward pass."
+  },
+  {
+    "question_no.": 146,
+    "Question": "Which type of Recurrent Neural Network uses 'gates' to control the flow of information, effectively addressing the vanishing gradient problem?",
+    "Option1": "Simple RNN",
+    "Option2": "Long Short-Term Memory (LSTM)",
+    "Option3": "Elman Network",
+    "Option4": "Jordan Network",
+    "Answer": "Long Short-Term Memory (LSTM)"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Fine-tuning' in Transfer Learning primarily for?",
+    "Option1": "Training a model for a completely different task.",
+    "Option2": "Adapting a pre-trained model to a specific, often smaller, dataset and task by continuing to train its weights.",
+    "Option3": "Evaluating the performance of the original pre-trained model.",
+    "Option4": "Randomly initializing the weights of the last layer.",
+    "Answer": "Adapting a pre-trained model to a specific, often smaller, dataset and task by continuing to train its weights."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Contrastive Learning' in deep learning?",
+    "Option1": "Training a model to distinguish between different classes.",
+    "Option2": "Learning representations by pushing positive pairs closer and negative pairs further apart in an embedding space.",
+    "Option3": "A technique for generating synthetic data.",
+    "Option4": "A form of supervised learning.",
+    "Answer": "Learning representations by pushing positive pairs closer and negative pairs further apart in an embedding space."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Weight Initialization' in deep learning?",
+    "Option1": "Setting all weights to zero.",
+    "Option2": "Assigning initial values to the learnable parameters (weights and biases) of the neural network before training starts.",
+    "Option3": "Normalizing the input data.",
+    "Option4": "A type of regularization.",
+    "Answer": "Assigning initial values to the learnable parameters (weights and biases) of the neural network before training starts."
+  },
+  {
+    "question_no.": 150,
+    "Question": "Which concept allows a model to learn how to learn, improving its own learning process over time?",
+    "Option1": "Transfer Learning",
+    "Option2": "Meta-Learning (Learning to Learn)",
+    "Option3": "Active Learning",
+    "Option4": "Continual Learning",
+    "Answer": "Meta-Learning (Learning to Learn)"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'BERT' an acronym for?",
+    "Option1": "Bi-directional Encoder Representations from Transformers",
+    "Option2": "Basic English Recognition Tool",
+    "Option3": "Binary Encoded Recurrent Text",
+    "Option4": "Broadly Enhanced Recursive Transformation",
+    "Answer": "Bi-directional Encoder Representations from Transformers"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'GAN' an acronym for?",
+    "Option1": "General Artificial Networks",
+    "Option2": "Generative Adversarial Networks",
+    "Option3": "Global Auxiliary Networks",
+    "Option4": "Gradient Averaged Networks",
+    "Answer": "Generative Adversarial Networks"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Leaky ReLU' activation function designed to address?",
+    "Option1": "The exploding gradient problem.",
+    "Option2": "The 'dying ReLU' problem, where neurons can become inactive and stop learning.",
+    "Option3": "Overfitting in deep networks.",
+    "Option4": "The computational cost of ReLU.",
+    "Answer": "The 'dying ReLU' problem, where neurons can become inactive and stop learning."
+  },
+  {
+    "question_no.": 154,
+    "Question": "Which type of layer typically uses fixed, non-learnable operations to downsample feature maps?",
+    "Option1": "Convolutional Layer",
+    "Option2": "Pooling Layer",
+    "Option3": "Dense Layer",
+    "Option4": "Activation Layer",
+    "Answer": "Pooling Layer"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Reinforcement Learning' often combined with Deep Learning to create?",
+    "Option1": "Supervised image classification models.",
+    "Option2": "Deep Reinforcement Learning (DRL) agents for complex decision-making tasks.",
+    "Option3": "Unsupervised clustering algorithms.",
+    "Option4": "Generative text models.",
+    "Answer": "Deep Reinforcement Learning (DRL) agents for complex decision-making tasks."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Positional Encoding' used for in Transformer models?",
+    "Option1": "To encode the position of objects in an image.",
+    "Option2": "To provide information about the relative or absolute position of tokens in the sequence, as self-attention is permutation-invariant.",
+    "Option3": "To randomize the order of tokens in a sequence.",
+    "Option4": "To reduce the dimensionality of word embeddings.",
+    "Answer": "To provide information about the relative or absolute position of tokens in the sequence, as self-attention is permutation-invariant."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What does 'GPU' stand for in computing?",
+    "Option1": "General Processing Unit",
+    "Option2": "Graphical Processing Unit",
+    "Option3": "Gigabit Per Unit",
+    "Option4": "Global Parallel Unit",
+    "Answer": "Graphical Processing Unit"
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which deep learning framework is known for its eager execution mode, making debugging easier?",
+    "Option1": "TensorFlow (default is now eager)",
+    "Option2": "Keras",
+    "Option3": "PyTorch",
+    "Option4": "Theano",
+    "Answer": "PyTorch"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Knowledge Distillation' in deep learning?",
+    "Option1": "Training a large model to condense its knowledge into a smaller, more efficient model.",
+    "Option2": "Extracting knowledge from text data.",
+    "Option3": "Transferring knowledge between different domains.",
+    "Option4": "A method for visualizing hidden layer activations.",
+    "Answer": "Training a large model to condense its knowledge into a smaller, more efficient model."
+  },
+  {
+    "question_no.": 160,
+    "Question": "Which type of learning involves training a model to map input features to discrete categories using multiple hidden layers?",
+    "Option1": "Deep Regression",
+    "Option2": "Deep Classification",
+    "Option3": "Deep Clustering",
+    "Option4": "Deep Reinforcement Learning",
+    "Answer": "Deep Classification"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'GAN collapse' or 'mode collapse'?",
+    "Option1": "When the generator produces diverse and realistic samples.",
+    "Option2": "When the generator produces a limited variety of samples, failing to capture the full diversity of the real data.",
+    "Option3": "When the discriminator always outputs random predictions.",
+    "Option4": "When the training of a GAN finishes too quickly.",
+    "Answer": "When the generator produces a limited variety of samples, failing to capture the full diversity of the real data."
+  },
+  {
+    "question_no.": 162,
+    "Question": "Which activation function is suitable for hidden layers and outputs values between -1 and 1?",
+    "Option1": "Sigmoid",
+    "Option2": "ReLU",
+    "Option3": "Tanh",
+    "Option4": "Softmax",
+    "Answer": "Tanh"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is a 'Feature Extractor' in the context of deep learning and transfer learning?",
+    "Option1": "The final classification layer of a pre-trained model.",
+    "Option2": "The initial layers of a pre-trained CNN (without the final classification head) used to extract relevant features from new data.",
+    "Option3": "A separate algorithm for feature engineering.",
+    "Option4": "A tool for visualizing features.",
+    "Answer": "The initial layers of a pre-trained CNN (without the final classification head) used to extract relevant features from new data."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Self-Supervised Learning' in deep learning?",
+    "Option1": "Learning from labeled data only.",
+    "Option2": "Learning representations from unlabeled data by creating proxy supervised tasks (e.g., predicting missing parts of data).",
+    "Option3": "Learning through human feedback.",
+    "Option4": "Learning without any form of supervision.",
+    "Answer": "Learning representations from unlabeled data by creating proxy supervised tasks (e.g., predicting missing parts of data)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "Which deep learning model is renowned for its ability to classify a wide variety of images, trained on ImageNet?",
+    "Option1": "Word2Vec",
+    "Option2": "VGG16 or ResNet",
+    "Option3": "BERT",
+    "Option4": "LSTM",
+    "Answer": "VGG16 or ResNet"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Learning Rate' in an optimizer?",
+    "Option1": "The number of epochs.",
+    "Option2": "The size of the step taken in the direction opposite to the gradient of the loss function.",
+    "Option3": "The batch size.",
+    "Option4": "The number of layers.",
+    "Answer": "The size of the step taken in the direction opposite to the gradient of the loss function."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Image Segmentation' in computer vision?",
+    "Option1": "Detecting faces in an image.",
+    "Option2": "Dividing an image into multiple segments (pixel-wise classification) to simplify its representation.",
+    "Option3": "Generating new images from scratch.",
+    "Option4": "Classifying the overall image.",
+    "Answer": "Dividing an image into multiple segments (pixel-wise classification) to simplify its representation."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is a 'Residual Block' in a ResNet?",
+    "Option1": "A block that creates a shortcut connection to skip one or more layers, allowing direct gradient flow.",
+    "Option2": "A block that only contains convolutional layers.",
+    "Option3": "A block that performs only pooling operations.",
+    "Option4": "A block used only in the output layer.",
+    "Answer": "A block that creates a shortcut connection to skip one or more layers, allowing direct gradient flow."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Adversarial Examples' in deep learning?",
+    "Option1": "Training examples that are easy for the model to classify.",
+    "Option2": "Inputs specifically crafted to fool a deep learning model, often by making imperceptible perturbations.",
+    "Option3": "Examples generated by a GAN's generator.",
+    "Option4": "Data points used for validation only.",
+    "Answer": "Inputs specifically crafted to fool a deep learning model, often by making imperceptible perturbations."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which technique helps to prevent overfitting by introducing noise to the weights during training by adding a penalty term to the loss function based on the sum of squared weights?",
+    "Option1": "Dropout",
+    "Option2": "L2 Regularization (Weight Decay)",
+    "Option3": "Batch Normalization",
+    "Option4": "Early Stopping",
+    "Answer": "L2 Regularization (Weight Decay)"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Reinforcement Learning' often combined with Deep Learning to create?",
+    "Option1": "Models for medical diagnosis.",
+    "Option2": "Agents that can learn to play complex games or control robots by learning optimal policies.",
+    "Option3": "Text generation models.",
+    "Option4": "Image compression algorithms.",
+    "Answer": "Agents that can learn to play complex games or control robots by learning optimal policies."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Prompt Engineering' primarily used for in the context of Large Language Models (LLMs)?",
+    "Option1": "Training new LLMs from scratch.",
+    "Option2": "Designing effective input prompts to elicit desired outputs from pre-trained LLMs.",
+    "Option3": "Evaluating the internal mechanisms of LLMs.",
+    "Option4": "Optimizing the computational graph of LLMs.",
+    "Answer": "Designing effective input prompts to elicit desired outputs from pre-trained LLMs."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Which type of layer learns a hierarchical representation of features in an image by applying filters and then non-linear activation?",
+    "Option1": "Pooling Layer",
+    "Option2": "Fully Connected Layer",
+    "Option3": "Convolutional Layer",
+    "Option4": "Flatten Layer",
+    "Answer": "Convolutional Layer"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Transfer Learning' fundamentally about?",
+    "Option1": "Sharing data between different models.",
+    "Option2": "Leveraging knowledge gained from one task or domain to improve learning in another related task or domain.",
+    "Option3": "Training a model on a completely new dataset every time.",
+    "Option4": "Performing random hyperparameter searches.",
+    "Answer": "Leveraging knowledge gained from one task or domain to improve learning in another related task or domain."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is a 'Generative Model' in deep learning?",
+    "Option1": "A model that predicts labels for new data.",
+    "Option2": "A model that learns the underlying distribution of the training data to generate new, similar samples.",
+    "Option3": "A model that classifies data into different categories.",
+    "Option4": "A model that reduces the dimensionality of data.",
+    "Answer": "A model that learns the underlying distribution of the training data to generate new, similar samples."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which type of AI system is designed to understand, interpret, and generate human-like text?",
+    "Option1": "Computer Vision",
+    "Option2": "Natural Language Processing (NLP)",
+    "Option3": "Robotics",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Natural Language Processing (NLP)"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What does 'MLOps' stand for?",
+    "Option1": "Machine Learning Optimizations",
+    "Option2": "Model Life-cycle Operations",
+    "Option3": "Machine Learning Operations",
+    "Option4": "Mainstream Learning Orchestration Systems",
+    "Answer": "Machine Learning Operations"
+  },
+  {
+    "question_no.": 178,
+    "Question": "Which of the following is a common issue when training very deep neural networks without skip connections?",
+    "Option1": "Overfitting on small datasets.",
+    "Option2": "Vanishing gradients and difficulty in training deeper layers.",
+    "Option3": "Exploding gradients leading to unstable training.",
+    "Option4": "Requirement for less computational power.",
+    "Answer": "Vanishing gradients and difficulty in training deeper layers."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Image-to-Image Translation'?",
+    "Option1": "Classifying images into different languages.",
+    "Option2": "Transforming an image from one domain to another (e.g., converting a sketch to a realistic photo).",
+    "Option3": "Translating image captions.",
+    "Option4": "Converting images to text.",
+    "Answer": "Transforming an image from one domain to another (e.g., converting a sketch to a realistic photo)."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the primary function of a 'Loss Function' in deep learning?",
+    "Option1": "To determine the network's architecture.",
+    "Option2": "To quantify the difference between the model's predictions and the actual target values.",
+    "Option3": "To select the input features.",
+    "Option4": "To perform non-linear transformations.",
+    "Answer": "To quantify the difference between the model's predictions and the actual target values."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Transformer' architecture's key advantage over traditional RNNs for sequence modeling?",
+    "Option1": "Simpler architecture.",
+    "Option2": "Ability to process sequences in parallel, leading to faster training on long sequences.",
+    "Option3": "Requires less data for training.",
+    "Option4": "Better at handling very short sequences.",
+    "Answer": "Ability to process sequences in parallel, leading to faster training on long sequences."
+  },
+  {
+    "question_no.": 182,
+    "Question": "Which deep learning concept refers to the ability of a model to perform better than human-level performance on specific tasks?",
+    "Option1": "Underfitting",
+    "Option2": "Superhuman Performance",
+    "Option3": "Bias-Variance Tradeoff",
+    "Option4": "Model Interpretability",
+    "Answer": "Superhuman Performance"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a 'Perceptron' in the context of neural networks?",
+    "Option1": "A multi-layered neural network.",
+    "Option2": "The simplest form of an artificial neuron, capable of binary classification.",
+    "Option3": "A specialized type of convolutional filter.",
+    "Option4": "A method for weight initialization.",
+    "Answer": "The simplest form of an artificial neuron, capable of binary classification."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Which term describes the process of distributing the workload of training a deep learning model across multiple GPUs or machines?",
+    "Option1": "Sequential Training",
+    "Option2": "Distributed Training",
+    "Option3": "Single-Device Training",
+    "Option4": "CPU Training",
+    "Answer": "Distributed Training"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the 'Softmax' activation function used for in the output layer of a multi-class classification neural network?",
+    "Option1": "To output a single continuous value.",
+    "Option2": "To normalize the outputs into a probability distribution over the classes.",
+    "Option3": "To apply a linear transformation.",
+    "Option4": "To introduce sparsity.",
+    "Answer": "To normalize the outputs into a probability distribution over the classes."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Autoencoder' primarily used for?",
+    "Option1": "Image classification.",
+    "Option2": "Generating new, realistic images.",
+    "Option3": "Dimensionality reduction and learning efficient data representations in an unsupervised manner.",
+    "Option4": "Predicting the next word in a sequence.",
+    "Answer": "Dimensionality reduction and learning efficient data representations in an unsupervised manner."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which deep learning concept refers to the ability of a model to learn from a small amount of data by leveraging pre-existing knowledge?",
+    "Option1": "Overfitting",
+    "Option2": "Zero-shot Learning",
+    "Option3": "Few-Shot Learning",
+    "Option4": "Transfer Learning",
+    "Answer": "Few-Shot Learning"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Capsule Networks' (CapsNets) designed to address in CNNs?",
+    "Option1": "Vanishing gradients.",
+    "Option2": "The problem of losing spatial hierarchy information during pooling operations.",
+    "Option3": "Exploding gradients.",
+    "Option4": "The need for larger datasets.",
+    "Answer": "The problem of losing spatial hierarchy information during pooling operations."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Reinforcement Learning' often used to train for?",
+    "Option1": "Image generation.",
+    "Option2": "Game playing, robotics control, and recommendation systems.",
+    "Option3": "Sentiment analysis.",
+    "Option4": "Predicting numerical outcomes.",
+    "Answer": "Game playing, robotics control, and recommendation systems."
+  },
+  {
+    "question_no.": 190,
+    "Question": "Which type of 'optimization' involves randomly sampling hyperparameters from a defined distribution?",
+    "Option1": "Grid Search",
+    "Option2": "Random Search",
+    "Option3": "Bayesian Optimization",
+    "Option4": "Manual Tuning",
+    "Answer": "Random Search"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Gradient-weighted Class Activation Mapping' (Grad-CAM) used for?",
+    "Option1": "To generate new images.",
+    "Option2": "To visualize which parts of an image a CNN focuses on when making a prediction (model interpretability).",
+    "Option3": "To perform image augmentation.",
+    "Option4": "To filter out noise from images.",
+    "Answer": "To visualize which parts of an image a CNN focuses on when making a prediction (model interpretability)."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Which loss function calculates the sum of the absolute differences between the actual and predicted values, suitable for regression tasks?",
+    "Option1": "Mean Squared Error (MSE)",
+    "Option2": "Mean Absolute Error (MAE)",
+    "Option3": "Binary Cross-Entropy",
+    "Option4": "Categorical Cross-Entropy",
+    "Answer": "Mean Absolute Error (MAE)"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is a 'Generative Pre-trained Transformer' (GPT) model primarily designed for?",
+    "Option1": "Image classification.",
+    "Option2": "Generating human-like text based on a given prompt.",
+    "Option3": "Object detection in videos.",
+    "Option4": "Numerical regression tasks.",
+    "Answer": "Generating human-like text based on a given prompt."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Knowledge Graph Embedding' in deep learning?",
+    "Option1": "Generating new knowledge graphs.",
+    "Option2": "Learning continuous vector representations for entities and relationships in a knowledge graph.",
+    "Option3": "Classifying knowledge graphs.",
+    "Option4": "Extracting facts from text.",
+    "Answer": "Learning continuous vector representations for entities and relationships in a knowledge graph."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Domain Adaptation' in deep learning?",
+    "Option1": "Training a model on a single domain only.",
+    "Option2": "Adapting a model trained on a source domain to perform well on a related but different target domain with limited labeled data.",
+    "Option3": "Changing the activation functions based on the domain.",
+    "Option4": "Generating new domains for training.",
+    "Answer": "Adapting a model trained on a source domain to perform well on a related but different target domain with limited labeled data."
+  },
+  {
+    "question_no.": 196,
+    "Question": "Which type of 'pooling' is less commonly used but takes the minimum value from a patch of features?",
+    "Option1": "Max Pooling",
+    "Option2": "Average Pooling",
+    "Option3": "Min Pooling",
+    "Option4": "Global Average Pooling",
+    "Answer": "Min Pooling"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is a 'Sequential Model' in Keras?",
+    "Option1": "A model with a single input and single output, where layers are stacked linearly.",
+    "Option2": "A model with multiple inputs and outputs.",
+    "Option3": "A model designed for recurrent neural networks only.",
+    "Option4": "A model that requires custom layers.",
+    "Answer": "A model with a single input and single output, where layers are stacked linearly."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Transformer' architecture most famous for revolutionizing?",
+    "Option1": "Computer Vision",
+    "Option2": "Natural Language Processing (NLP)",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Traditional Machine Learning",
+    "Answer": "Natural Language Processing (NLP)"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the function of the 'Decoder' in an Encoder-Decoder architecture?",
+    "Option1": "To transform the input sequence into a fixed-length context vector.",
+    "Option2": "To generate the output sequence based on the context vector from the encoder.",
+    "Option3": "To classify the input sequence.",
+    "Option4": "To reduce the dimensionality of the input.",
+    "Answer": "To generate the output sequence based on the context vector from the encoder."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Which problem does 'GRU' (Gated Recurrent Unit) also aim to address, similar to LSTM?",
+    "Option1": "Exploding gradients.",
+    "Option2": "Vanishing gradients in recurrent neural networks.",
+    "Option3": "Overfitting in convolutional networks.",
+    "Option4": "The dying ReLU problem.",
+    "Answer": "Vanishing gradients in recurrent neural networks."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Fine-tuning' usually done with a much smaller learning rate compared to pre-training?",
+    "Option1": "To speed up the training process.",
+    "Option2": "To avoid disrupting the valuable pre-trained features and only gently adjust them for the new task.",
+    "Option3": "To prevent exploding gradients.",
+    "Option4": "To increase the model's capacity.",
+    "Answer": "To avoid disrupting the valuable pre-trained features and only gently adjust them for the new task."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is a 'Capsule' in a Capsule Network?",
+    "Option1": "A scalar output of a neuron.",
+    "Option2": "A vector of activity that represents a specific entity and its properties (e.g., pose, texture).",
+    "Option3": "A type of activation function.",
+    "Option4": "A regularization technique.",
+    "Answer": "A vector of activity that represents a specific entity and its properties (e.g., pose, texture)."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the main advantage of 'Distributed Training' in deep learning?",
+    "Option1": "It always guarantees better model performance.",
+    "Option2": "It allows training larger models on larger datasets and significantly reduces training time by utilizing multiple computational resources.",
+    "Option3": "It simplifies the model architecture.",
+    "Option4": "It removes the need for data preprocessing.",
+    "Answer": "It allows training larger models on larger datasets and significantly reduces training time by utilizing multiple computational resources."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Generative Modeling' primarily concerned with?",
+    "Option1": "Predicting labels for existing data.",
+    "Option2": "Learning the underlying probability distribution of data to generate new, similar data points.",
+    "Option3": "Clustering data into groups.",
+    "Option4": "Reducing the dimensionality of datasets.",
+    "Answer": "Learning the underlying probability distribution of data to generate new, similar data points."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Knowledge Distillation' a method for?",
+    "Option1": "Increasing the size of deep learning models.",
+    "Option2": "Compressing large, complex 'teacher' models into smaller, more efficient 'student' models.",
+    "Option3": "Extracting features from raw data.",
+    "Option4": "Generating new training data.",
+    "Answer": "Compressing large, complex 'teacher' models into smaller, more efficient 'student' models."
+  }
+]

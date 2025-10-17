@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Git primarily used for?",
+    "Option1": "Database management",
+    "Option2": "Version control",
+    "Option3": "Network monitoring",
+    "Option4": "Graphic design",
+    "Answer": "Version control"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who created Git?",
+    "Option1": "Bill Gates",
+    "Option2": "Linus Torvalds",
+    "Option3": "Mark Zuckerberg",
+    "Option4": "Steve Jobs",
+    "Answer": "Linus Torvalds"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is a 'repository' in Git?",
+    "Option1": "A single file",
+    "Option2": "A folder containing all project files and the complete history of changes",
+    "Option3": "A network drive",
+    "Option4": "A user account",
+    "Answer": "A folder containing all project files and the complete history of changes"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What command initializes a new Git repository?",
+    "Option1": "git start",
+    "Option2": "git new",
+    "Option3": "git init",
+    "Option4": "git create",
+    "Answer": "git init"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the 'staging area' (or index) in Git?",
+    "Option1": "Where files are stored after committing",
+    "Option2": "An intermediate area where changes are prepared before committing",
+    "Option3": "A temporary storage for deleted files",
+    "Option4": "The remote repository",
+    "Answer": "An intermediate area where changes are prepared before committing"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What command adds changes to the staging area?",
+    "Option1": "git save",
+    "Option2": "git commit",
+    "Option3": "git add",
+    "Option4": "git update",
+    "Answer": "git add"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What command records the staged changes to the repository history?",
+    "Option1": "git save",
+    "Option2": "git push",
+    "Option3": "git commit",
+    "Option4": "git log",
+    "Answer": "git commit"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is a 'commit' in Git?",
+    "Option1": "A temporary save of files",
+    "Option2": "A snapshot of your repository at a specific point in time, along with a message",
+    "Option3": "A branch",
+    "Option4": "A merge operation",
+    "Answer": "A snapshot of your repository at a specific point in time, along with a message"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What command shows the commit history?",
+    "Option1": "git status",
+    "Option2": "git diff",
+    "Option3": "git log",
+    "Option4": "git show",
+    "Answer": "git log"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'branch' in Git?",
+    "Option1": "A separate copy of the entire repository",
+    "Option2": "A lightweight movable pointer to a commit, allowing parallel development",
+    "Option3": "A remote repository",
+    "Option4": "A tag",
+    "Answer": "A lightweight movable pointer to a commit, allowing parallel development"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What command lists all local branches?",
+    "Option1": "git status",
+    "Option2": "git log --branches",
+    "Option3": "git branch",
+    "Option4": "git show-branch",
+    "Answer": "git branch"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What command creates a new branch?",
+    "Option1": "git new-branch",
+    "Option2": "git branch <branch-name>",
+    "Option3": "git checkout -b <branch-name>",
+    "Option4": "git make-branch",
+    "Answer": "git branch <branch-name>"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What command switches to an existing branch?",
+    "Option1": "git move <branch-name>",
+    "Option2": "git change <branch-name>",
+    "Option3": "git checkout <branch-name>",
+    "Option4": "git go <branch-name>",
+    "Answer": "git checkout <branch-name>"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What command creates a new branch and switches to it?",
+    "Option1": "git branch -new <branch-name>",
+    "Option2": "git checkout -b <branch-name>",
+    "Option3": "git new-branch <branch-name>",
+    "Option4": "git switch <branch-name> --create",
+    "Answer": "git checkout -b <branch-name>"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What command combines changes from one branch into another?",
+    "Option1": "git rebase",
+    "Option2": "git squash",
+    "Option3": "git merge",
+    "Option4": "git cherry-pick",
+    "Answer": "git merge"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'merge conflict'?",
+    "Option1": "When two branches are identical",
+    "Option2": "When Git cannot automatically combine conflicting changes from two branches",
+    "Option3": "When a branch is deleted",
+    "Option4": "When a file is corrupted",
+    "Answer": "When Git cannot automatically combine conflicting changes from two branches"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What command pushes local commits to a remote repository?",
+    "Option1": "git pull",
+    "Option2": "git fetch",
+    "Option3": "git send",
+    "Option4": "git push",
+    "Answer": "git push"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What command fetches changes from a remote repository and integrates them into the current branch?",
+    "Option1": "git push",
+    "Option2": "git fetch",
+    "Option3": "git pull",
+    "Option4": "git clone",
+    "Answer": "git pull"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What command downloads a remote repository to your local machine?",
+    "Option1": "git pull",
+    "Option2": "git fetch",
+    "Option3": "git get",
+    "Option4": "git clone",
+    "Answer": "git clone"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'origin' in Git?",
+    "Option1": "The first commit in a repository",
+    "Option2": "A common default name for the remote repository from which a project was originally cloned",
+    "Option3": "The main branch",
+    "Option4": "The root directory of a project",
+    "Answer": "A common default name for the remote repository from which a project was originally cloned"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is 'HEAD' in Git?",
+    "Option1": "The main branch name",
+    "Option2": "A pointer to the current commit in the current branch",
+    "Option3": "The first commit in the history",
+    "Option4": "The remote repository",
+    "Answer": "A pointer to the current commit in the current branch"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What command shows the difference between the working directory and the staging area?",
+    "Option1": "git log",
+    "Option2": "git status",
+    "Option3": "git diff",
+    "Option4": "git show",
+    "Answer": "git diff"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What command shows the difference between the staging area and the last commit?",
+    "Option1": "git diff --staged",
+    "Option2": "git diff HEAD",
+    "Option3": "git diff master",
+    "Option4": "git diff --cached",
+    "Answer": "git diff --cached"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What command removes a file from the staging area?",
+    "Option1": "git remove",
+    "Option2": "git reset",
+    "Option3": "git restore --staged <file>",
+    "Option4": "git unadd",
+    "Answer": "git restore --staged <file>"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What command discards changes in the working directory for a specific file?",
+    "Option1": "git revert <file>",
+    "Option2": "git checkout <file>",
+    "Option3": "git clean <file>",
+    "Option4": "git reset <file>",
+    "Answer": "git checkout <file>"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is a '.gitignore' file?",
+    "Option1": "A file that lists all committed files",
+    "Option2": "A file that specifies intentionally untracked files that Git should ignore",
+    "Option3": "A file that stores Git configurations",
+    "Option4": "A file that logs Git commands",
+    "Answer": "A file that specifies intentionally untracked files that Git should ignore"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is GitHub?",
+    "Option1": "A local Git client",
+    "Option2": "A cloud-based Git repository hosting service",
+    "Option3": "A programming language",
+    "Option4": "An operating system",
+    "Answer": "A cloud-based Git repository hosting service"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'pull request' in GitHub?",
+    "Option1": "A request to pull changes from a remote repository",
+    "Option2": "A proposal to merge changes from one branch into another in a shared repository",
+    "Option3": "A request to delete a repository",
+    "Option4": "A request to clone a repository",
+    "Answer": "A proposal to merge changes from one branch into another in a shared repository"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'fork' in GitHub?",
+    "Option1": "Creating a copy of a repository within the same user account",
+    "Option2": "Creating a personal copy of another user's repository",
+    "Option3": "Splitting a repository into multiple smaller repositories",
+    "Option4": "Merging two repositories",
+    "Answer": "Creating a personal copy of another user's repository"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'cloning a repository' on GitHub?",
+    "Option1": "Creating a new repository on GitHub",
+    "Option2": "Downloading a copy of a remote GitHub repository to your local machine",
+    "Option3": "Forking a repository",
+    "Option4": "Pushing changes to GitHub",
+    "Answer": "Downloading a copy of a remote GitHub repository to your local machine"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the main branch typically called in new Git repositories?",
+    "Option1": "development",
+    "Option2": "feature",
+    "Option3": "master (or main)",
+    "Option4": "test",
+    "Answer": "master (or main)"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What command deletes a local branch?",
+    "Option1": "git remove-branch <branch-name>",
+    "Option2": "git branch -d <branch-name>",
+    "Option3": "git delete-branch <branch-name>",
+    "Option4": "git destroy-branch <branch-name>",
+    "Answer": "git branch -d <branch-name>"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What command fetches all branches from the remote but does not merge them?",
+    "Option1": "git pull",
+    "Option2": "git merge origin/master",
+    "Option3": "git fetch",
+    "Option4": "git clone",
+    "Answer": "git fetch"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'Git rebase'?",
+    "Option1": "To create a new branch",
+    "Option2": "To integrate changes from one branch onto another by moving or combining a sequence of commits to a new base commit",
+    "Option3": "To merge branches with a merge commit",
+    "Option4": "To revert commits",
+    "Answer": "To integrate changes from one branch onto another by moving or combining a sequence of commits to a new base commit"
+  },
+  {
+    "question_no.": 35,
+    "Question": "When should you generally avoid rebasing?",
+    "Option1": "On your local development branch",
+    "Option2": "On branches that have been pushed to a shared remote repository",
+    "Option3": "Before merging to the main branch",
+    "Option4": "When you have merge conflicts",
+    "Answer": "On branches that have been pushed to a shared remote repository"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What command temporarily shelves (stashes) changes in your working directory?",
+    "Option1": "git save",
+    "Option2": "git stash",
+    "Option3": "git hold",
+    "Option4": "git park",
+    "Answer": "git stash"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What command applies the most recently stashed changes?",
+    "Option1": "git stash apply",
+    "Option2": "git stash pop",
+    "Option3": "git stash get",
+    "Option4": "git stash retrieve",
+    "Answer": "git stash pop"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is a 'tag' in Git?",
+    "Option1": "A lightweight branch",
+    "Option2": "A reference to a specific point in history, usually used to mark release points (e.g., v1.0)",
+    "Option3": "A comment on a commit",
+    "Option4": "A type of merge",
+    "Answer": "A reference to a specific point in history, usually used to mark release points (e.g., v1.0)"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What command creates a new lightweight tag?",
+    "Option1": "git tag <tag-name>",
+    "Option2": "git new-tag <tag-name>",
+    "Option3": "git create-tag <tag-name>",
+    "Option4": "git mark <tag-name>",
+    "Answer": "git tag <tag-name>"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What command reverts a commit?",
+    "Option1": "git reset <commit-hash>",
+    "Option2": "git revert <commit-hash>",
+    "Option3": "git undo <commit-hash>",
+    "Option4": "git delete <commit-hash>",
+    "Answer": "git revert <commit-hash>"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the difference between `git revert` and `git reset`?",
+    "Option1": "Revert discards changes, Reset creates a new commit.",
+    "Option2": "Revert creates a new commit that undoes changes, Reset moves the HEAD pointer to a previous commit, discarding subsequent history.",
+    "Option3": "Revert works on local only, Reset works on remote.",
+    "Option4": "They are identical.",
+    "Answer": "Revert creates a new commit that undoes changes, Reset moves the HEAD pointer to a previous commit, discarding subsequent history."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the purpose of 'Git hooks'?",
+    "Option1": "To connect to external services",
+    "Option2": "To execute custom scripts at specific points in the Git workflow (e.g., pre-commit, post-merge)",
+    "Option3": "To create new branches",
+    "Option4": "To resolve merge conflicts automatically",
+    "Answer": "To execute custom scripts at specific points in the Git workflow (e.g., pre-commit, post-merge)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Where are local Git hooks stored?",
+    "Option1": ".git/config",
+    "Option2": ".git/hooks/",
+    "Option3": ".git/info/",
+    "Option4": "The project root directory",
+    "Answer": ".git/hooks/"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'GitHub Actions'?",
+    "Option1": "A way to host websites on GitHub",
+    "Option2": "A CI/CD platform for automating workflows (e.g., build, test, deploy) directly within GitHub repositories",
+    "Option3": "A project management tool",
+    "Option4": "A code editor",
+    "Answer": "A CI/CD platform for automating workflows (e.g., build, test, deploy) directly within GitHub repositories"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What file format is used to define GitHub Actions workflows?",
+    "Option1": "JSON",
+    "Option2": "XML",
+    "Option3": "YAML",
+    "Option4": "Markdown",
+    "Answer": "YAML"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'workflow' in GitHub Actions?",
+    "Option1": "A single command",
+    "Option2": "An automated process configured to run specific jobs in response to events (e.g., push, pull request)",
+    "Option3": "A branch name",
+    "Option4": "A pull request review",
+    "Answer": "An automated process configured to run specific jobs in response to events (e.g., push, pull request)"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What are 'runners' in GitHub Actions?",
+    "Option1": "The virtual machines or containers where your workflows execute",
+    "Option2": "The users who trigger workflows",
+    "Option3": "The build artifacts",
+    "Option4": "The source code files",
+    "Answer": "The virtual machines or containers where your workflows execute"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'GitFlow'?",
+    "Option1": "A specific Git command",
+    "Option2": "A branching model that defines a strict branching strategy for managing releases, features, and hotfixes",
+    "Option3": "A GitHub feature for visualizing commit history",
+    "Option4": "A tool for merging branches",
+    "Answer": "A branching model that defines a strict branching strategy for managing releases, features, and hotfixes"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which branches are central to the GitFlow branching model?",
+    "Option1": "main and dev",
+    "Option2": "master and develop",
+    "Option3": "release and hotfix",
+    "Option4": "feature and bugfix",
+    "Answer": "master and develop"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is a 'hotfix' branch used for in GitFlow?",
+    "Option1": "Developing new features",
+    "Option2": "Quickly patching production releases",
+    "Option3": "Experimental development",
+    "Option4": "Minor bug fixes for the development branch",
+    "Answer": "Quickly patching production releases"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of 'Git LFS' (Large File Storage)?",
+    "Option1": "To store large text files",
+    "Option2": "To handle large binary files (e.g., audio, video, graphics) efficiently in Git repositories by replacing them with pointers",
+    "Option3": "To store database backups",
+    "Option4": "To compress small files",
+    "Answer": "To handle large binary files (e.g., audio, video, graphics) efficiently in Git repositories by replacing them with pointers"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Git subtree'?",
+    "Option1": "A way to manage nested Git repositories without separate clones",
+    "Option2": "A specific type of branch",
+    "Option3": "A tool for visualizing repository history",
+    "Option4": "A command for deleting subfolders",
+    "Answer": "A way to manage nested Git repositories without separate clones"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Git submodule'?",
+    "Option1": "A way to embed one Git repository as a subdirectory inside another Git repository",
+    "Option2": "A small utility script for Git",
+    "Option3": "A feature for tagging commits",
+    "Option4": "A tool for squashing commits",
+    "Answer": "A way to embed one Git repository as a subdirectory inside another Git repository"
+  },
+  {
+    "question_no.": 54,
+    "Question": "When comparing Git submodules and Git subtree, which one typically makes the host repository dependent on external repository updates?",
+    "Option1": "Git subtree",
+    "Option2": "Git submodule",
+    "Option3": "Neither",
+    "Option4": "Both equally",
+    "Answer": "Git submodule"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Git cherry-pick'?",
+    "Option1": "To merge an entire branch",
+    "Option2": "To apply a specific commit from one branch to another",
+    "Option3": "To revert the last commit",
+    "Option4": "To discard unstaged changes",
+    "Answer": "To apply a specific commit from one branch to another"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Git clean'?",
+    "Option1": "To remove committed files",
+    "Option2": "To remove untracked files from the working directory",
+    "Option3": "To clear the Git history",
+    "Option4": "To remove remote branches",
+    "Answer": "To remove untracked files from the working directory"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What command shows the status of your working directory and staging area?",
+    "Option1": "git log",
+    "Option2": "git diff",
+    "Option3": "git status",
+    "Option4": "git show",
+    "Answer": "git status"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Git blame' used for?",
+    "Option1": "To find who introduced an error",
+    "Option2": "To show what revision last modified each line of a file and who the author was",
+    "Option3": "To assign tasks to team members",
+    "Option4": "To track file permissions",
+    "Answer": "To show what revision last modified each line of a file and who the author was"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'remote' in Git?",
+    "Option1": "A local backup of the repository",
+    "Option2": "A version of your repository hosted on the Internet or network",
+    "Option3": "A specific branch",
+    "Option4": "A commit hash",
+    "Answer": "A version of your repository hosted on the Internet or network"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What command adds a new remote repository?",
+    "Option1": "git add-remote <name> <url>",
+    "Option2": "git remote add <name> <url>",
+    "Option3": "git link <name> <url>",
+    "Option4": "git connect <name> <url>",
+    "Answer": "git remote add <name> <url>"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What command lists existing remotes?",
+    "Option1": "git show-remotes",
+    "Option2": "git remote",
+    "Option3": "git list-remotes",
+    "Option4": "git get-remotes",
+    "Answer": "git remote"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the purpose of 'Git pull --rebase'?",
+    "Option1": "To create a new merge commit",
+    "Option2": "To fetch changes and reapply your local commits on top of the fetched branch, avoiding merge commits",
+    "Option3": "To discard local changes",
+    "Option4": "To only fetch changes without merging",
+    "Answer": "To fetch changes and reapply your local commits on top of the fetched branch, avoiding merge commits"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is a 'squash commit'?",
+    "Option1": "A commit that undoes previous changes",
+    "Option2": "Combining multiple commits into a single, more meaningful commit",
+    "Option3": "A commit with no changes",
+    "Option4": "A commit that splits a large change into smaller ones",
+    "Answer": "Combining multiple commits into a single, more meaningful commit"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What Git command is often used to perform a squash commit interactively?",
+    "Option1": "git merge --squash",
+    "Option2": "git rebase -i",
+    "Option3": "git commit --amend",
+    "Option4": "git reset --soft",
+    "Answer": "git rebase -i"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Git reflog'?",
+    "Option1": "A log of all remote repository changes",
+    "Option2": "A local log of all actions that modify the HEAD in your repository, including commits, merges, resets, etc.",
+    "Option3": "A log of network activity",
+    "Option4": "A log of GitHub actions workflows",
+    "Answer": "A local log of all actions that modify the HEAD in your repository, including commits, merges, resets, etc."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Can you recover lost commits using `git reflog`?",
+    "Option1": "No, once lost, they are gone.",
+    "Option2": "Yes, `git reflog` shows the history of HEAD, which can be used to recover lost commits.",
+    "Option3": "Only if the repository is pushed to remote.",
+    "Option4": "Only if you have a backup.",
+    "Answer": "Yes, `git reflog` shows the history of HEAD, which can be used to recover lost commits."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Git bisect'?",
+    "Option1": "A tool for splitting a branch into two",
+    "Option2": "A command that helps find the commit that introduced a bug by performing a binary search on the commit history",
+    "Option3": "A tool for comparing two branches",
+    "Option4": "A command for merging two branches",
+    "Answer": "A command that helps find the commit that introduced a bug by performing a binary search on the commit history"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'GitHub Pages'?",
+    "Option1": "A service for hosting dynamic web applications.",
+    "Option2": "A service for hosting static websites directly from a GitHub repository.",
+    "Option3": "A feature for creating private wikis.",
+    "Option4": "A tool for generating documentation.",
+    "Answer": "A service for hosting static websites directly from a GitHub repository."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a 'GitHub Issue'?",
+    "Option1": "A general discussion forum.",
+    "Option2": "A way to track bugs, enhancements, and other tasks related to a repository.",
+    "Option3": "A new pull request.",
+    "Option4": "A merge conflict resolution.",
+    "Answer": "A way to track bugs, enhancements, and other tasks related to a repository."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is a 'GitHub Milestone'?",
+    "Option1": "A specific commit point.",
+    "Option2": "A way to group issues or pull requests together to track progress towards a larger goal or release.",
+    "Option3": "A historical record of repository size.",
+    "Option4": "A type of tag.",
+    "Answer": "A way to group issues or pull requests together to track progress towards a larger goal or release."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'GitHub Projects'?",
+    "Option1": "A list of all public repositories.",
+    "Option2": "A customizable Kanban board or spreadsheet-like view for organizing and tracking issues and pull requests.",
+    "Option3": "A way to host multiple repositories under one name.",
+    "Option4": "A feature for creating internal wikis.",
+    "Answer": "A customizable Kanban board or spreadsheet-like view for organizing and tracking issues and pull requests."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'GitHub Wiki'?",
+    "Option1": "A public forum for discussion.",
+    "Option2": "A feature for creating collaborative documentation directly within a repository.",
+    "Option3": "A code snippet sharing platform.",
+    "Option4": "A feature for managing binary files.",
+    "Answer": "A feature for creating collaborative documentation directly within a repository."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the purpose of 'Git aliases'?",
+    "Option1": "To rename branches.",
+    "Option2": "To create shortcuts for frequently used Git commands.",
+    "Option3": "To create new repositories.",
+    "Option4": "To change the Git version.",
+    "Answer": "To create shortcuts for frequently used Git commands."
+  },
+  {
+    "question_no.": 74,
+    "Question": "Where are Git aliases configured?",
+    "Option1": ".gitignore file",
+    "Option2": ".git/hooks directory",
+    "Option3": "Git configuration files (.git/config or ~/.gitconfig)",
+    "Option4": "package.json",
+    "Answer": "Git configuration files (.git/config or ~/.gitconfig)"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of `git config`?",
+    "Option1": "To create new repositories.",
+    "Option2": "To set Git configuration options (e.g., user name, email, aliases).",
+    "Option3": "To view commit history.",
+    "Option4": "To manage remote repositories.",
+    "Answer": "To set Git configuration options (e.g., user name, email, aliases)."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What command sets your global Git username?",
+    "Option1": "git user.name \"Your Name\"",
+    "Option2": "git config --global user.name \"Your Name\"",
+    "Option3": "git set user.name \"Your Name\"",
+    "Option4": "git global user.name \"Your Name\"",
+    "Answer": "git config --global user.name \"Your Name\""
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the difference between `git fetch` and `git pull`?",
+    "Option1": "Fetch only downloads changes, pull downloads and merges.",
+    "Option2": "Fetch is for local, pull is for remote.",
+    "Option3": "Fetch requires an internet connection, pull does not.",
+    "Option4": "They are the same.",
+    "Answer": "Fetch only downloads changes, pull downloads and merges."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'detached HEAD' state in Git?",
+    "Option1": "When you are on the main branch.",
+    "Option2": "When HEAD points directly to a commit rather than to a named branch.",
+    "Option3": "When your repository is corrupted.",
+    "Option4": "When you have no remote repository.",
+    "Answer": "When HEAD points directly to a commit rather than to a named branch."
+  },
+  {
+    "question_no.": 79,
+    "Question": "How do you usually get out of a detached HEAD state?",
+    "Option1": "By deleting the repository.",
+    "Option2": "By creating a new branch at the current commit (`git checkout -b <new-branch-name>`) or checking out an existing branch.",
+    "Option3": "By running `git reset --hard HEAD`.",
+    "Option4": "By pushing to the remote.",
+    "Answer": "By creating a new branch at the current commit (`git checkout -b <new-branch-name>`) or checking out an existing branch."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the purpose of the `git ignore` file?",
+    "Option1": "To list files that Git should track.",
+    "Option2": "To specify files and directories that Git should exclude from tracking.",
+    "Option3": "To store commit messages.",
+    "Option4": "To define merge strategies.",
+    "Answer": "To specify files and directories that Git should exclude from tracking."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Where should the `.gitignore` file typically be placed?",
+    "Option1": "In the `.git` directory.",
+    "Option2": "In the root directory of your Git repository.",
+    "Option3": "In the user's home directory.",
+    "Option4": "Anywhere in the project.",
+    "Answer": "In the root directory of your Git repository."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is a 'bare repository' in Git?",
+    "Option1": "A repository without any branches.",
+    "Option2": "A Git repository that does not have a working directory, typically used as a central repository for collaboration (e.g., on a server).",
+    "Option3": "A repository with only one commit.",
+    "Option4": "A read-only repository.",
+    "Answer": "A Git repository that does not have a working directory, typically used as a central repository for collaboration (e.g., on a server)."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'GitHub Enterprise'?",
+    "Option1": "A free version of GitHub.",
+    "Option2": "A self-hosted or cloud-hosted version of GitHub designed for large organizations with advanced security and compliance needs.",
+    "Option3": "A service for small teams.",
+    "Option4": "A public API for GitHub.",
+    "Answer": "A self-hosted or cloud-hosted version of GitHub designed for large organizations with advanced security and compliance needs."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'GitHub Codespaces'?",
+    "Option1": "A local development environment.",
+    "Option2": "Cloud-powered development environments accessible directly from GitHub, allowing you to code from anywhere.",
+    "Option3": "A feature for code reviews.",
+    "Option4": "A way to host static websites.",
+    "Answer": "Cloud-powered development environments accessible directly from GitHub, allowing you to code from anywhere."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'GitHub Copilot'?",
+    "Option1": "A project management tool.",
+    "Option2": "An AI pair programmer that suggests code and entire functions in real-time.",
+    "Option3": "A tool for automated testing.",
+    "Option4": "A visual Git client.",
+    "Answer": "An AI pair programmer that suggests code and entire functions in real-time."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Git hooks `pre-commit`' used for?",
+    "Option1": "To run after a commit is created.",
+    "Option2": "To check code quality, style, or run tests before a commit is finalized.",
+    "Option3": "To push changes to remote.",
+    "Option4": "To merge branches.",
+    "Answer": "To check code quality, style, or run tests before a commit is finalized."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Git hooks `post-merge`' used for?",
+    "Option1": "To run before a merge.",
+    "Option2": "To run after a merge commit is created, often used for clean-up or notification tasks.",
+    "Option3": "To create new branches.",
+    "Option4": "To resolve merge conflicts.",
+    "Answer": "To run after a merge commit is created, often used for clean-up or notification tasks."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What command shows the differences between two commits?",
+    "Option1": "git log",
+    "Option2": "git status",
+    "Option3": "git diff <commit1> <commit2>",
+    "Option4": "git show",
+    "Answer": "git diff <commit1> <commit2>"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the purpose of `git diff --name-only`?",
+    "Option1": "To show the full diff.",
+    "Option2": "To show only the names of the files that have changed.",
+    "Option3": "To show the author of changes.",
+    "Option4": "To show the number of lines changed.",
+    "Answer": "To show only the names of the files that have changed."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Git stash list'?",
+    "Option1": "A list of all branches.",
+    "Option2": "A list of all stashed changes.",
+    "Option3": "A list of all untracked files.",
+    "Option4": "A list of all remote repositories.",
+    "Answer": "A list of all stashed changes."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Git reset --hard'?",
+    "Option1": "To keep local changes.",
+    "Option2": "To discard all changes in the working directory and staging area, and reset the HEAD to a specific commit.",
+    "Option3": "To move changes to the staging area.",
+    "Option4": "To commit changes.",
+    "Answer": "To discard all changes in the working directory and staging area, and reset the HEAD to a specific commit."
+  },
+  {
+    "question_no.": 92,
+    "Question": "When should you use `git reset --hard` with caution?",
+    "Option1": "Always, as it discards changes permanently.",
+    "Option2": "Only on the main branch.",
+    "Option3": "Only when you have no untracked files.",
+    "Option4": "Never.",
+    "Answer": "Always, as it discards changes permanently."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Git reset --soft'?",
+    "Option1": "To discard all changes.",
+    "Option2": "To move the HEAD pointer to a specific commit, but keep the changes in the staging area and working directory.",
+    "Option3": "To move changes to a new branch.",
+    "Option4": "To reset the remote repository.",
+    "Answer": "To move the HEAD pointer to a specific commit, but keep the changes in the staging area and working directory."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Git revert --no-commit'?",
+    "Option1": "To create a new commit.",
+    "Option2": "To apply the inverse changes of a commit to the working directory without immediately creating a new revert commit.",
+    "Option3": "To discard the revert operation.",
+    "Option4": "To only revert the last change.",
+    "Answer": "To apply the inverse changes of a commit to the working directory without immediately creating a new revert commit."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Git interactive rebase'?",
+    "Option1": "A rebase that automatically resolves conflicts.",
+    "Option2": "A rebase that allows you to modify commits in the history (e.g., reword, squash, delete, reorder).",
+    "Option3": "A rebase that only works on remote branches.",
+    "Option4": "A rebase that creates a new branch.",
+    "Answer": "A rebase that allows you to modify commits in the history (e.g., reword, squash, delete, reorder)."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Git filter-branch' used for?",
+    "Option1": "To filter out merge commits.",
+    "Option2": "To rewrite Git history (e.g., remove sensitive data, split a repository).",
+    "Option3": "To filter branches by name.",
+    "Option4": "To filter commits by author.",
+    "Answer": "To rewrite Git history (e.g., remove sensitive data, split a repository)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Why is `git filter-branch` considered a dangerous command?",
+    "Option1": "It can only be run once.",
+    "Option2": "It rewrites history, which can cause issues for collaborators if pushed to a shared remote.",
+    "Option3": "It deletes all branches.",
+    "Option4": "It consumes too much memory.",
+    "Answer": "It rewrites history, which can cause issues for collaborators if pushed to a shared remote."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'GitHub Flow'?",
+    "Option1": "A complex branching model like GitFlow.",
+    "Option2": "A simpler branching strategy focused on small, frequent deployments using feature branches and pull requests.",
+    "Option3": "A workflow for managing issues only.",
+    "Option4": "A method for deploying to production directly from master.",
+    "Answer": "A simpler branching strategy focused on small, frequent deployments using feature branches and pull requests."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Trunk-Based Development'?",
+    "Option1": "A branching strategy with many long-lived branches.",
+    "Option2": "A development practice where developers merge small, frequent updates to a single shared 'trunk' (main) branch.",
+    "Option3": "A method of developing features in isolation.",
+    "Option4": "A strategy for managing releases only.",
+    "Answer": "A development practice where developers merge small, frequent updates to a single shared 'trunk' (main) branch."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the primary advantage of Trunk-Based Development?",
+    "Option1": "Reduced merge conflicts.",
+    "Option2": "Faster integration, continuous delivery, and reduced complexity compared to long-lived feature branches.",
+    "Option3": "Easier to isolate features.",
+    "Option4": "Better for large teams.",
+    "Answer": "Faster integration, continuous delivery, and reduced complexity compared to long-lived feature branches."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Git hooks `commit-msg`' used for?",
+    "Option1": "To modify the committed code.",
+    "Option2": "To validate and format commit messages before a commit is created.",
+    "Option3": "To encrypt commit messages.",
+    "Option4": "To send commit notifications.",
+    "Answer": "To validate and format commit messages before a commit is created."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'GitHub Sponsors'?",
+    "Option1": "A program for sponsoring open-source projects or developers on GitHub.",
+    "Option2": "A feature for advertising on GitHub.",
+    "Option3": "A program for enterprise clients.",
+    "Option4": "A way to get free private repositories.",
+    "Answer": "A program for sponsoring open-source projects or developers on GitHub."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'GitHub Packages'?",
+    "Option1": "A service for hosting npm packages only.",
+    "Option2": "A package hosting service for various package types (e.g., npm, NuGet, Maven, Docker images) integrated with GitHub.",
+    "Option3": "A service for selling software.",
+    "Option4": "A tool for creating executables.",
+    "Answer": "A package hosting service for various package types (e.g., npm, NuGet, Maven, Docker images) integrated with GitHub."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Git stash clear'?",
+    "Option1": "To clear the working directory.",
+    "Option2": "To remove all stashed changes from the stash list.",
+    "Option3": "To clear the Git history.",
+    "Option4": "To clear the `.gitignore` file.",
+    "Answer": "To remove all stashed changes from the stash list."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Git restore' used for?",
+    "Option1": "To revert a commit.",
+    "Option2": "To restore working tree files to a specific version from the index or another commit, replacing `git checkout` for this purpose.",
+    "Option3": "To restore deleted branches.",
+    "Option4": "To restore remote repositories.",
+    "Answer": "To restore working tree files to a specific version from the index or another commit, replacing `git checkout` for this purpose."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Git switch' used for?",
+    "Option1": "To create a new repository.",
+    "Option2": "To switch branches, replacing `git checkout` for this purpose.",
+    "Option3": "To switch between remotes.",
+    "Option4": "To switch between commits.",
+    "Answer": "To switch branches, replacing `git checkout` for this purpose."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Git blame -L' used for?",
+    "Option1": "To blame the entire file.",
+    "Option2": "To show the blame information for specific lines within a file.",
+    "Option3": "To blame only the last line.",
+    "Option4": "To show the file size.",
+    "Answer": "To show the blame information for specific lines within a file."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Git log --oneline'?",
+    "Option1": "To show a very detailed commit log.",
+    "Option2": "To show a concise one-line summary for each commit.",
+    "Option3": "To show only the commit messages.",
+    "Option4": "To show only the author and date.",
+    "Answer": "To show a concise one-line summary for each commit."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Git log --graph'?",
+    "Option1": "To show a graphical representation of the commit history, including branches and merges.",
+    "Option2": "To show a list of files in each commit.",
+    "Option3": "To show commit statistics.",
+    "Option4": "To show the raw commit data.",
+    "Answer": "To show a graphical representation of the commit history, including branches and merges."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Git log --pretty=format'?",
+    "Option1": "To use a predefined format for the log.",
+    "Option2": "To customize the output format of `git log` using placeholders.",
+    "Option3": "To make the log output prettier.",
+    "Option4": "To filter the log output.",
+    "Answer": "To customize the output format of `git log` using placeholders."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Git remote -v'?",
+    "Option1": "To show only the remote names.",
+    "Option2": "To show the names and URLs of all remote repositories.",
+    "Option3": "To add a new remote.",
+    "Option4": "To remove a remote.",
+    "Answer": "To show the names and URLs of all remote repositories."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Git push --force'?",
+    "Option1": "To push changes without checking for conflicts.",
+    "Option2": "To overwrite the remote branch with your local branch history, potentially losing commits on the remote.",
+    "Option3": "To push only specific commits.",
+    "Option4": "To push to all remotes.",
+    "Answer": "To overwrite the remote branch with your local branch history, potentially losing commits on the remote."
+  },
+  {
+    "question_no.": 113,
+    "Question": "When should you use `git push --force` with extreme caution?",
+    "Option1": "When pushing to a personal branch.",
+    "Option2": "When pushing to shared or public branches, as it rewrites history and can break collaborators' repositories.",
+    "Option3": "When pushing small changes.",
+    "Option4": "Never.",
+    "Answer": "When pushing to shared or public branches, as it rewrites history and can break collaborators' repositories."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Git tag --list'?",
+    "Option1": "To create a new tag.",
+    "Option2": "To list all tags in the repository.",
+    "Option3": "To delete a tag.",
+    "Option4": "To push tags to the remote.",
+    "Answer": "To list all tags in the repository."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Git tag -a' (annotated tag)?",
+    "Option1": "A lightweight tag.",
+    "Option2": "A tag that stores extra metadata like the tagger name, email, date, and a message, and can be signed with GPG.",
+    "Option3": "A tag that points to a specific file.",
+    "Option4": "A temporary tag.",
+    "Answer": "A tag that stores extra metadata like the tagger name, email, date, and a message, and can be signed with GPG."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Git tag -d'?",
+    "Option1": "To create a new tag.",
+    "Option2": "To delete a local tag.",
+    "Option3": "To list tags.",
+    "Option4": "To push tags to remote.",
+    "Answer": "To delete a local tag."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Git push --tags'?",
+    "Option1": "To push only branches.",
+    "Option2": "To push all local tags to the remote repository.",
+    "Option3": "To delete remote tags.",
+    "Option4": "To push only specific tags.",
+    "Answer": "To push all local tags to the remote repository."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'GitHub Security Advisories'?",
+    "Option1": "A feature for reporting general issues.",
+    "Option2": "A platform for maintaining and publishing security advisories for vulnerabilities in open source projects.",
+    "Option3": "A service for tracking security audits.",
+    "Option4": "A tool for encrypting code.",
+    "Answer": "A platform for maintaining and publishing security advisories for vulnerabilities in open source projects."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'GitHub Dependabot'?",
+    "Option1": "A tool for managing dependencies manually.",
+    "Option2": "A service that automatically scans for and creates pull requests to update vulnerable or outdated dependencies.",
+    "Option3": "A bot for answering questions about dependencies.",
+    "Option4": "A tool for generating dependency graphs.",
+    "Answer": "A service that automatically scans for and creates pull requests to update vulnerable or outdated dependencies."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'GitHub Code Scanning'?",
+    "Option1": "A tool for scanning for malicious code.",
+    "Option2": "A feature that automatically detects security vulnerabilities and coding errors in your code using static analysis.",
+    "Option3": "A service for code plagiarism detection.",
+    "Option4": "A tool for code formatting.",
+    "Answer": "A feature that automatically detects security vulnerabilities and coding errors in your code using static analysis."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'GitHub Secrets' in GitHub Actions?",
+    "Option1": "Environment variables that are publicly visible.",
+    "Option2": "Encrypted environment variables that you create in a repository or organization to store sensitive information (e.g., API keys, tokens).",
+    "Option3": "Temporary files created during workflow runs.",
+    "Option4": "Configuration files for runners.",
+    "Answer": "Encrypted environment variables that you create in a repository or organization to store sensitive information (e.g., API keys, tokens)."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Can GitHub Secrets be directly accessed in workflow logs?",
+    "Option1": "Yes, they are visible for debugging.",
+    "Option2": "No, they are redacted from logs to prevent accidental exposure.",
+    "Option3": "Only if the workflow fails.",
+    "Option4": "Only by repository administrators.",
+    "Answer": "No, they are redacted from logs to prevent accidental exposure."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'GitHub Environments' in GitHub Actions?",
+    "Option1": "A way to define different operating systems for runners.",
+    "Option2": "A way to configure deployment protection rules, secrets, and environment-specific variables for different deployment stages (e.g., staging, production).",
+    "Option3": "A tool for testing workflows locally.",
+    "Option4": "A list of available actions.",
+    "Answer": "A way to configure deployment protection rules, secrets, and environment-specific variables for different deployment stages (e.g., staging, production)."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is a 'forking workflow' in Git?",
+    "Option1": "A workflow for merging branches.",
+    "Option2": "A collaboration workflow where contributors work on a personal copy (fork) of the repository, then submit pull requests to the upstream.",
+    "Option3": "A workflow where all development happens on the main branch.",
+    "Option4": "A workflow for creating multiple local branches.",
+    "Answer": "A collaboration workflow where contributors work on a personal copy (fork) of the repository, then submit pull requests to the upstream."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the 'upstream' remote in a forking workflow?",
+    "Option1": "Your personal fork.",
+    "Option2": "The original repository from which you created your fork.",
+    "Option3": "Another developer's fork.",
+    "Option4": "A temporary remote.",
+    "Answer": "The original repository from which you created your fork."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Git sparse checkout'?",
+    "Option1": "Checking out only specific branches.",
+    "Option2": "A feature that allows you to clone a repository but only check out a subset of its files and directories to your working directory.",
+    "Option3": "Checking out only a specific commit.",
+    "Option4": "Checking out only untracked files.",
+    "Answer": "A feature that allows you to clone a repository but only check out a subset of its files and directories to your working directory."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Git hooks `post-receive`' used for?",
+    "Option1": "To run on the client-side after a push.",
+    "Option2": "To run on the remote repository after a push has completed, typically for updating the website or sending notifications.",
+    "Option3": "To validate incoming pushes.",
+    "Option4": "To clean up temporary files.",
+    "Answer": "To run on the remote repository after a push has completed, typically for updating the website or sending notifications."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Git rebase --continue'?",
+    "Option1": "To stop a rebase operation.",
+    "Option2": "To resume a rebase operation after resolving conflicts.",
+    "Option3": "To start a new rebase.",
+    "Option4": "To undo the last rebase step.",
+    "Answer": "To resume a rebase operation after resolving conflicts."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Git rebase --abort'?",
+    "Option1": "To continue a rebase.",
+    "Option2": "To cancel a rebase operation and return to the state before the rebase started.",
+    "Option3": "To merge branches.",
+    "Option4": "To discard all commits.",
+    "Answer": "To cancel a rebase operation and return to the state before the rebase started."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Git reset --mixed' (default mode)?",
+    "Option1": "To discard all changes.",
+    "Option2": "To move the HEAD pointer and unstage changes from the specified commit, but keep them in the working directory.",
+    "Option3": "To keep changes staged.",
+    "Option4": "To only change the commit message.",
+    "Answer": "To move the HEAD pointer and unstage changes from the specified commit, but keep them in the working directory."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Git reflog expire'?",
+    "Option1": "To clean up old reflog entries, making them unavailable for recovery.",
+    "Option2": "To show expired reflog entries.",
+    "Option3": "To extend reflog history.",
+    "Option4": "To backup reflog entries.",
+    "Answer": "To clean up old reflog entries, making them unavailable for recovery."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Git fsck'?",
+    "Option1": "To check file permissions.",
+    "Option2": "To verify the integrity of the Git repository's objects and database.",
+    "Option3": "To fix file corruption.",
+    "Option4": "To check disk space.",
+    "Answer": "To verify the integrity of the Git repository's objects and database."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Git garbage collection' (`git gc`)?",
+    "Option1": "To delete untracked files.",
+    "Option2": "To clean up unnecessary files and optimize the local repository, making it more efficient.",
+    "Option3": "To clear the staging area.",
+    "Option4": "To remove remote branches.",
+    "Answer": "To clean up unnecessary files and optimize the local repository, making it more efficient."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'GitHub Gist'?",
+    "Option1": "A tool for creating full repositories.",
+    "Option2": "A simple way to share code snippets, notes, or parts of files with others.",
+    "Option3": "A platform for hosting websites.",
+    "Option4": "A feature for private discussions.",
+    "Answer": "A simple way to share code snippets, notes, or parts of files with others."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'GitHub Discussions'?",
+    "Option1": "A feature for personal conversations.",
+    "Option2": "A collaborative communication space for communities within repositories to ask questions, share ideas, and engage in general conversations.",
+    "Option3": "A chat application.",
+    "Option4": "A tool for code review.",
+    "Answer": "A collaborative communication space for communities within repositories to ask questions, share ideas, and engage in general conversations."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'GitHub Codeowners'?",
+    "Option1": "A list of all contributors.",
+    "Option2": "A file that defines individuals or teams responsible for specific code paths in a repository, who are automatically requested for review in pull requests.",
+    "Option3": "A tool for assigning issues.",
+    "Option4": "A feature for tracking file changes.",
+    "Answer": "A file that defines individuals or teams responsible for specific code paths in a repository, who are automatically requested for review in pull requests."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'GitHub Actions Matrix Strategy'?",
+    "Option1": "To run workflows sequentially.",
+    "Option2": "To run a single workflow across multiple combinations of variables (e.g., OS, programming language versions) in parallel.",
+    "Option3": "To define complex conditional logic.",
+    "Option4": "To create a visual representation of workflows.",
+    "Answer": "To run a single workflow across multiple combinations of variables (e.g., OS, programming language versions) in parallel."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'GitHub Actions Self-Hosted Runners'?",
+    "Option1": "Runners managed by GitHub.",
+    "Option2": "Runners that you deploy and manage on your own infrastructure, allowing custom environments and greater control.",
+    "Option3": "Runners that are only available for private repositories.",
+    "Option4": "Runners that run on your local machine.",
+    "Answer": "Runners that you deploy and manage on your own infrastructure, allowing custom environments and greater control."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Git hooks `post-checkout`' used for?",
+    "Option1": "To run before checking out a branch.",
+    "Option2": "To run after a successful `git checkout` operation, often used for setting up the working directory or activating virtual environments.",
+    "Option3": "To clean up after a merge.",
+    "Option4": "To update the remote repository.",
+    "Answer": "To run after a successful `git checkout` operation, often used for setting up the working directory or activating virtual environments."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the output of `git branch -a`?",
+    "Option1": "Only local branches.",
+    "Option2": "All local and remote-tracking branches.",
+    "Option3": "Only remote branches.",
+    "Option4": "Only the current branch.",
+    "Answer": "All local and remote-tracking branches."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Git clean -f'?",
+    "Option1": "To clean only tracked files.",
+    "Option2": "To forcibly remove untracked files from the working directory.",
+    "Option3": "To clean the Git history.",
+    "Option4": "To clean up staged files.",
+    "Answer": "To forcibly remove untracked files from the working directory."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Git clean -df'?",
+    "Option1": "To delete only files.",
+    "Option2": "To forcibly remove untracked files and directories from the working directory.",
+    "Option3": "To delete only empty directories.",
+    "Option4": "To delete only staged files.",
+    "Answer": "To forcibly remove untracked files and directories from the working directory."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Git push --set-upstream'?",
+    "Option1": "To push to a new remote.",
+    "Option2": "To push a local branch to a remote and set up the tracking relationship between them.",
+    "Option3": "To rename a remote branch.",
+    "Option4": "To force a push.",
+    "Answer": "To push a local branch to a remote and set up the tracking relationship between them."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Git commit --amend'?",
+    "Option1": "To create a new commit.",
+    "Option2": "To modify the most recent commit, often to update its message or add/remove staged changes.",
+    "Option3": "To undo the last commit.",
+    "Option4": "To split a commit.",
+    "Answer": "To modify the most recent commit, often to update its message or add/remove staged changes."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Git log -p'?",
+    "Option1": "To show a summary of commits.",
+    "Option2": "To show the patch (diff) for each commit.",
+    "Option3": "To show only the commit messages.",
+    "Option4": "To show the author of commits.",
+    "Answer": "To show the patch (diff) for each commit."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Git merge --no-ff' (no fast-forward)?",
+    "Option1": "To prevent a merge.",
+    "Option2": "To always create a new merge commit, even if a fast-forward merge would be possible.",
+    "Option3": "To force a fast-forward merge.",
+    "Option4": "To rebase before merging.",
+    "Answer": "To always create a new merge commit, even if a fast-forward merge would be possible."
+  },
+  {
+    "question_no.": 147,
+    "Question": "When is `git merge --no-ff` often used?",
+    "Option1": "For small bug fixes.",
+    "Option2": "In development workflows like GitFlow to preserve a linear history of feature branches.",
+    "Option3": "When rebasing is preferred.",
+    "Option4": "For discarding changes.",
+    "Answer": "In development workflows like GitFlow to preserve a linear history of feature branches."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Git stash save \"message\"'?",
+    "Option1": "To save the stash without a message.",
+    "Option2": "To stash current changes with a descriptive message for easier identification later.",
+    "Option3": "To apply a stash.",
+    "Option4": "To list stashes.",
+    "Answer": "To stash current changes with a descriptive message for easier identification later."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Git checkout --orphan'?",
+    "Option1": "To create a new branch from an existing one.",
+    "Option2": "To create a new branch with no history from any other branch, suitable for initial commits or new, unrelated projects within a repository.",
+    "Option3": "To check out a specific commit.",
+    "Option4": "To delete a branch.",
+    "Answer": "To create a new branch with no history from any other branch, suitable for initial commits or new, unrelated projects within a repository."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Git show' used for?",
+    "Option1": "To show the overall status.",
+    "Option2": "To show information about a specific Git object (commit, tag, tree, or blob), often showing a commit and its changes.",
+    "Option3": "To show log messages.",
+    "Option4": "To show the working directory content.",
+    "Answer": "To show information about a specific Git object (commit, tag, tree, or blob), often showing a commit and its changes."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'GitHub pull request reviews'?",
+    "Option1": "Automated checks on pull requests.",
+    "Option2": "A feature allowing collaborators to comment on, approve, or request changes to code in a pull request before it's merged.",
+    "Option3": "A way to track pull request history.",
+    "Option4": "A tool for creating new pull requests.",
+    "Answer": "A feature allowing collaborators to comment on, approve, or request changes to code in a pull request before it's merged."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'GitHub Protected Branches'?",
+    "Option1": "Branches that are hidden from public view.",
+    "Option2": "Branches that have enforced rules (e.g., require pull request reviews, status checks) to prevent direct pushes and ensure code quality.",
+    "Option3": "Branches that can only be accessed by the repository owner.",
+    "Option4": "Branches that are automatically deleted after a period of inactivity.",
+    "Answer": "Branches that have enforced rules (e.g., require pull request reviews, status checks) to prevent direct pushes and ensure code quality."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'GitHub Actions Artifacts'?",
+    "Option1": "The workflow definition files.",
+    "Option2": "Files produced by a workflow run (e.g., build outputs, test reports) that can be uploaded and shared between jobs or downloaded.",
+    "Option3": "The source code of the project.",
+    "Option4": "The commit history.",
+    "Answer": "Files produced by a workflow run (e.g., build outputs, test reports) that can be uploaded and shared between jobs or downloaded."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'GitHub Actions Checkout Action'?",
+    "Option1": "An action for checking out new branches.",
+    "Option2": "A commonly used action that checks out your repository code into the runner's workspace, making it available for subsequent steps.",
+    "Option3": "An action for deploying code.",
+    "Option4": "An action for running tests.",
+    "Answer": "A commonly used action that checks out your repository code into the runner's workspace, making it available for subsequent steps."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Git hooks `pre-rebase`' used for?",
+    "Option1": "To run after a rebase.",
+    "Option2": "To prevent a rebase from happening if certain conditions are not met.",
+    "Option3": "To automatically resolve rebase conflicts.",
+    "Option4": "To log rebase operations.",
+    "Answer": "To prevent a rebase from happening if certain conditions are not met."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Git stash drop'?",
+    "Option1": "To apply a stash.",
+    "Option2": "To remove a specific stash from the stash list.",
+    "Option3": "To list stashes.",
+    "Option4": "To save a new stash.",
+    "Answer": "To remove a specific stash from the stash list."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Git cherry-pick --no-commit'?",
+    "Option1": "To commit the cherry-picked changes immediately.",
+    "Option2": "To apply the changes from a specific commit to the working directory without creating a new commit.",
+    "Option3": "To discard the cherry-picked changes.",
+    "Option4": "To cherry-pick multiple commits.",
+    "Answer": "To apply the changes from a specific commit to the working directory without creating a new commit."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Git reflog show'?",
+    "Option1": "To delete reflog entries.",
+    "Option2": "To show the reflog entries for a specific reference (e.g., a branch).",
+    "Option3": "To clean up reflog.",
+    "Option4": "To change reflog settings.",
+    "Answer": "To show the reflog entries for a specific reference (e.g., a branch)."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Git rebase -i HEAD~N' used for?",
+    "Option1": "To rebase the last N commits non-interactively.",
+    "Option2": "To start an interactive rebase session for the last N commits.",
+    "Option3": "To rebase a specific branch.",
+    "Option4": "To rebase with the remote.",
+    "Answer": "To start an interactive rebase session for the last N commits."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Git commit --allow-empty'?",
+    "Option1": "To commit an empty directory.",
+    "Option2": "To create a commit even if there are no changes in the working directory or staging area, useful for marking milestones or historical points.",
+    "Option3": "To commit deleted files.",
+    "Option4": "To commit only untracked files.",
+    "Answer": "To create a commit even if there are no changes in the working directory or staging area, useful for marking milestones or historical points."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Git rm --cached'?",
+    "Option1": "To delete a file from the working directory.",
+    "Option2": "To unstage a file and keep it in the working directory, effectively telling Git to stop tracking it.",
+    "Option3": "To delete a file from the remote repository.",
+    "Option4": "To remove a file from history.",
+    "Answer": "To unstage a file and keep it in the working directory, effectively telling Git to stop tracking it."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Git log --grep'?",
+    "Option1": "To filter log messages by author.",
+    "Option2": "To filter the commit log by searching for specific patterns in commit messages.",
+    "Option3": "To filter log by date.",
+    "Option4": "To filter log by file name.",
+    "Answer": "To filter the commit log by searching for specific patterns in commit messages."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Git log --author'?",
+    "Option1": "To filter log messages by commit message.",
+    "Option2": "To filter the commit log by a specific author.",
+    "Option3": "To show only the author of commits.",
+    "Option4": "To show the email of the author.",
+    "Answer": "To filter the commit log by a specific author."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Git diff --color-words'?",
+    "Option1": "To show diff in plain text.",
+    "Option2": "To show diff by highlighting changed words instead of entire lines, useful for line-level changes.",
+    "Option3": "To show diff with line numbers.",
+    "Option4": "To show diff in a graphical interface.",
+    "Answer": "To show diff by highlighting changed words instead of entire lines, useful for line-level changes."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Git remote show origin'?",
+    "Option1": "To add a new remote.",
+    "Option2": "To display detailed information about the 'origin' remote, including its URL, branches, and tracking status.",
+    "Option3": "To delete the origin remote.",
+    "Option4": "To rename the origin remote.",
+    "Answer": "To display detailed information about the 'origin' remote, including its URL, branches, and tracking status."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Git push -u origin <branch-name>' used for?",
+    "Option1": "To push without setting upstream.",
+    "Option2": "To push the specified branch to origin and set it as the upstream tracking branch for future pulls and pushes.",
+    "Option3": "To force push.",
+    "Option4": "To push all branches.",
+    "Answer": "To push the specified branch to origin and set it as the upstream tracking branch for future pulls and pushes."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Git tag -s' (signed tag)?",
+    "Option1": "An unsigned tag.",
+    "Option2": "An annotated tag that is cryptographically signed using GPG, providing verifiable authenticity.",
+    "Option3": "A tag that points to a specific file.",
+    "Option4": "A tag that can be easily modified.",
+    "Answer": "An annotated tag that is cryptographically signed using GPG, providing verifiable authenticity."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Git submodule update --init --recursive'?",
+    "Option1": "To only update existing submodules.",
+    "Option2": "To initialize, clone, and update all submodules and their nested submodules in a repository.",
+    "Option3": "To remove all submodules.",
+    "Option4": "To add new submodules.",
+    "Answer": "To initialize, clone, and update all submodules and their nested submodules in a repository."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'GitHub Marketplace'?",
+    "Option1": "A place to buy GitHub subscriptions.",
+    "Option2": "A platform for discovering and installing apps and actions to extend GitHub's functionality.",
+    "Option3": "A place to sell code.",
+    "Option4": "A forum for developers.",
+    "Answer": "A platform for discovering and installing apps and actions to extend GitHub's functionality."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'GitHub Releases'?",
+    "Option1": "A feature for creating temporary branches.",
+    "Option2": "A way to package and deliver software to users, typically including release notes, binaries, and source code archives.",
+    "Option3": "A tool for managing open issues.",
+    "Option4": "A feature for private discussions.",
+    "Answer": "A way to package and deliver software to users, typically including release notes, binaries, and source code archives."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'GitHub Webhooks'?",
+    "Option1": "A way to send emails from GitHub.",
+    "Option2": "Automated callbacks that notify external services when specific events occur in a GitHub repository (e.g., push, pull request open).",
+    "Option3": "A tool for creating custom API endpoints.",
+    "Option4": "A feature for creating pull requests.",
+    "Answer": "Automated callbacks that notify external services when specific events occur in a GitHub repository (e.g., push, pull request open)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'GitHub Apps'?",
+    "Option1": "Mobile applications for GitHub.",
+    "Option2": "Automated tools and services that can be integrated with GitHub to extend its functionality, often performing tasks on behalf of users.",
+    "Option3": "Desktop applications for Git.",
+    "Option4": "Plugins for code editors.",
+    "Answer": "Automated tools and services that can be integrated with GitHub to extend its functionality, often performing tasks on behalf of users."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'GitHub Teams'?",
+    "Option1": "A feature for individual user accounts.",
+    "Option2": "Groups of users within an organization that can be assigned permissions to repositories and manage access.",
+    "Option3": "A way to categorize repositories.",
+    "Option4": "A feature for project discussions.",
+    "Answer": "Groups of users within an organization that can be assigned permissions to repositories and manage access."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Git merge --abort'?",
+    "Option1": "To complete a merge.",
+    "Option2": "To stop a merge operation and revert the repository to its state before the merge attempt.",
+    "Option3": "To force a merge.",
+    "Option4": "To create a new merge commit.",
+    "Answer": "To stop a merge operation and revert the repository to its state before the merge attempt."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Git diff --stat'?",
+    "Option1": "To show the full diff.",
+    "Option2": "To show a summary of changes, including modified files and the number of lines added/deleted.",
+    "Option3": "To show only the file names.",
+    "Option4": "To show commit messages.",
+    "Answer": "To show a summary of changes, including modified files and the number of lines added/deleted."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Git clean -x'?",
+    "Option1": "To clean only tracked files.",
+    "Option2": "To also remove ignored files (specified in .gitignore) from the working directory.",
+    "Option3": "To clean only untracked files.",
+    "Option4": "To clean only empty directories.",
+    "Answer": "To also remove ignored files (specified in .gitignore) from the working directory."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Git config --list'?",
+    "Option1": "To set new configurations.",
+    "Option2": "To list all configured Git settings (system, global, and local).",
+    "Option3": "To delete configurations.",
+    "Option4": "To set global configurations.",
+    "Answer": "To list all configured Git settings (system, global, and local)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Git config --global'?",
+    "Option1": "To set configuration for the current repository only.",
+    "Option2": "To set configuration options that apply to all Git repositories for the current user.",
+    "Option3": "To set configuration for system-wide Git.",
+    "Option4": "To view global configurations only.",
+    "Answer": "To set configuration options that apply to all Git repositories for the current user."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Git config --system'?",
+    "Option1": "To set configuration for the current user only.",
+    "Option2": "To set configuration options that apply to all users and repositories on the system.",
+    "Option3": "To set configuration for the current repository only.",
+    "Option4": "To view system configurations only.",
+    "Answer": "To set configuration options that apply to all users and repositories on the system."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Git checkout <commit-hash>' used for?",
+    "Option1": "To create a new branch at that commit.",
+    "Option2": "To switch to a detached HEAD state pointing to a specific commit.",
+    "Option3": "To delete that commit.",
+    "Option4": "To merge that commit.",
+    "Answer": "To switch to a detached HEAD state pointing to a specific commit."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Git blame -p'?",
+    "Option1": "To show a summary of blame.",
+    "Option2": "To show blame information in a portable format, including commit full hashes, author email, and more.",
+    "Option3": "To show blame only for changes.",
+    "Option4": "To show blame without line numbers.",
+    "Answer": "To show blame information in a portable format, including commit full hashes, author email, and more."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Git shortlog'?",
+    "Option1": "To show a detailed commit log.",
+    "Option2": "To summarize `git log` output by author, showing the number of commits and their messages.",
+    "Option3": "To show log messages only.",
+    "Option4": "To show the shortest commit message.",
+    "Answer": "To summarize `git log` output by author, showing the number of commits and their messages."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Git worktree'?",
+    "Option1": "A temporary copy of the repository.",
+    "Option2": "A feature that allows you to have multiple working directories for a single repository, each with a different branch checked out.",
+    "Option3": "A tool for managing multiple remote repositories.",
+    "Option4": "A way to archive old branches.",
+    "Answer": "A feature that allows you to have multiple working directories for a single repository, each with a different branch checked out."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'GitHub Security Advisories - Private Vulnerability Reporting'?",
+    "Option1": "Publicly reporting vulnerabilities.",
+    "Option2": "A feature that allows security researchers to privately report vulnerabilities to maintainers before public disclosure.",
+    "Option3": "Automated vulnerability scanning.",
+    "Option4": "A tool for fixing vulnerabilities.",
+    "Answer": "A feature that allows security researchers to privately report vulnerabilities to maintainers before public disclosure."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'GitHub Codespaces - Dotfiles'?",
+    "Option1": "Configuration files for Codespaces.",
+    "Option2": "A way to automatically configure your Codespaces environment with your preferred settings, aliases, and tools by linking a dotfiles repository.",
+    "Option3": "Temporary files in Codespaces.",
+    "Option4": "Files that store Codespaces history.",
+    "Answer": "A way to automatically configure your Codespaces environment with your preferred settings, aliases, and tools by linking a dotfiles repository."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'GitHub Actions - `on: workflow_dispatch`'?",
+    "Option1": "To trigger a workflow automatically on push.",
+    "Option2": "To manually trigger a workflow from the GitHub UI, API, or GitHub CLI.",
+    "Option3": "To trigger a workflow on pull request.",
+    "Option4": "To trigger a workflow on a schedule.",
+    "Answer": "To manually trigger a workflow from the GitHub UI, API, or GitHub CLI."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'GitHub Actions - `jobs.<job_id>.strategy.matrix`'?",
+    "Option1": "To define a single execution path.",
+    "Option2": "To define a set of parameters for a matrix strategy, allowing a job to run multiple times with different configurations.",
+    "Option3": "To define conditions for job execution.",
+    "Option4": "To define job dependencies.",
+    "Answer": "To define a set of parameters for a matrix strategy, allowing a job to run multiple times with different configurations."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'GitHub Actions - `uses` keyword'?",
+    "Option1": "To define a custom script.",
+    "Option2": "To reference and use a pre-built action from the GitHub Marketplace or a local path within a workflow step.",
+    "Option3": "To define input parameters for a step.",
+    "Option4": "To define output variables from a step.",
+    "Answer": "To reference and use a pre-built action from the GitHub Marketplace or a local path within a workflow step."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'GitHub Actions - `run` keyword'?",
+    "Option1": "To include a reusable action.",
+    "Option2": "To execute command-line commands or scripts directly within a workflow step.",
+    "Option3": "To define a job name.",
+    "Option4": "To define a workflow trigger.",
+    "Answer": "To execute command-line commands or scripts directly within a workflow step."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Git hooks `post-update`' used for?",
+    "Option1": "To run after a repository is cloned.",
+    "Option2": "To run on the remote repository after any new references (branches or tags) are pushed, typically for updating external systems.",
+    "Option3": "To run after a pull request merge.",
+    "Option4": "To run after a commit.",
+    "Answer": "To run on the remote repository after any new references (branches or tags) are pushed, typically for updating external systems."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Git stash branch'?",
+    "Option1": "To create a new stash.",
+    "Option2": "To create a new branch from the commit the stash was based on, and then apply the stashed changes to that new branch.",
+    "Option3": "To apply a stash to the current branch.",
+    "Option4": "To delete a branch from a stash.",
+    "Answer": "To create a new branch from the commit the stash was based on, and then apply the stashed changes to that new branch."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Git cherry-pick -m'?",
+    "Option1": "To cherry-pick with a new message.",
+    "Option2": "To cherry-pick a merge commit, requiring you to specify the parent number from which to replay the changes.",
+    "Option3": "To cherry-pick without committing.",
+    "Option4": "To cherry-pick multiple commits.",
+    "Answer": "To cherry-pick a merge commit, requiring you to specify the parent number from which to replay the changes."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Git rebase --preserve-merges' (or `-p`)?",
+    "Option1": "To flatten all merge commits.",
+    "Option2": "To rebase while trying to preserve merge commits within the rebased segment, maintaining a less linear history.",
+    "Option3": "To ignore merge commits.",
+    "Option4": "To rebase only non-merge commits.",
+    "Answer": "To rebase while trying to preserve merge commits within the rebased segment, maintaining a less linear history."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Git clone --depth 1'?",
+    "Option1": "To clone the full history of the repository.",
+    "Option2": "To create a shallow clone with a history truncated to a specified number of commits, useful for quick access to latest code.",
+    "Option3": "To clone only the current branch.",
+    "Option4": "To clone only a single file.",
+    "Answer": "To create a shallow clone with a history truncated to a specified number of commits, useful for quick access to latest code."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Git fetch --all'?",
+    "Option1": "To fetch from a specific remote.",
+    "Option2": "To fetch all remote-tracking branches from all configured remotes.",
+    "Option3": "To fetch only the main branch.",
+    "Option4": "To fetch and merge all changes.",
+    "Answer": "To fetch all remote-tracking branches from all configured remotes."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Git diff HEAD~1'?",
+    "Option1": "To show the difference with the next commit.",
+    "Option2": "To show the difference between the current working directory and the commit before the last one.",
+    "Option3": "To show the difference between two arbitrary commits.",
+    "Option4": "To show the difference with the remote.",
+    "Answer": "To show the difference between the current working directory and the commit before the last one."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Git log --since=\"2 weeks ago\"'?",
+    "Option1": "To show commits before 2 weeks ago.",
+    "Option2": "To show commits that occurred within the last 2 weeks.",
+    "Option3": "To show commits by a specific author 2 weeks ago.",
+    "Option4": "To show commits with a specific message from 2 weeks ago.",
+    "Answer": "To show commits that occurred within the last 2 weeks."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Git log --until=\"yesterday\"'?",
+    "Option1": "To show commits from yesterday onwards.",
+    "Option2": "To show commits that occurred up to yesterday.",
+    "Option3": "To show commits created exactly yesterday.",
+    "Option4": "To show commits that were merged yesterday.",
+    "Answer": "To show commits that occurred up to yesterday."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Git log --grep=\"bugfix\" --author=\"John Doe\"'?",
+    "Option1": "To show all bug fixes by any author.",
+    "Option2": "To show commits with 'bugfix' in the message and authored by 'John Doe'.",
+    "Option3": "To show all commits by John Doe.",
+    "Option4": "To show all bug fixes regardless of author.",
+    "Answer": "To show commits with 'bugfix' in the message and authored by 'John Doe'."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Git blame --track-contents'?",
+    "Option1": "To ignore content changes.",
+    "Option2": "To follow content across file renames, providing more accurate blame history even if a file was moved.",
+    "Option3": "To track only file renames.",
+    "Option4": "To track only file additions.",
+    "Answer": "To follow content across file renames, providing more accurate blame history even if a file was moved."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Git stash push -m \"My work in progress\"'?",
+    "Option1": "To apply a stash with a message.",
+    "Option2": "To save current changes to the stash with a specific message.",
+    "Option3": "To list stashes with messages.",
+    "Option4": "To clear stashes with a message.",
+    "Answer": "To save current changes to the stash with a specific message."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Git reset HEAD^'?",
+    "Option1": "To reset to the current commit.",
+    "Option2": "To reset the HEAD to the commit before the current one (one commit back), typically in `--mixed` mode.",
+    "Option3": "To reset to the very first commit.",
+    "Option4": "To reset the remote HEAD.",
+    "Answer": "To reset the HEAD to the commit before the current one (one commit back), typically in `--mixed` mode."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Git reset --hard HEAD~3'?",
+    "Option1": "To reset to the third commit from the beginning.",
+    "Option2": "To discard all changes and reset the HEAD to three commits before the current one.",
+    "Option3": "To reset the remote to three commits back.",
+    "Option4": "To reset and keep the last three commits staged.",
+    "Answer": "To discard all changes and reset the HEAD to three commits before the current one."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Git revert HEAD'?",
+    "Option1": "To discard the most recent commit.",
+    "Option2": "To create a new commit that undoes the changes introduced by the most recent commit.",
+    "Option3": "To delete the most recent commit.",
+    "Option4": "To reset to the commit before the most recent one.",
+    "Answer": "To create a new commit that undoes the changes introduced by the most recent commit."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Git branch -m <old-name> <new-name>'?",
+    "Option1": "To create a new branch.",
+    "Option2": "To rename a local branch.",
+    "Option3": "To delete a branch.",
+    "Option4": "To merge branches.",
+    "Answer": "To rename a local branch."
+  }
+]

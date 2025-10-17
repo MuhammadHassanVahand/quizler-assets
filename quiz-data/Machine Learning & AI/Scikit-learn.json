@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the primary goal of Scikit-learn?",
+    "Option1": "Deep learning research and development.",
+    "Option2": "Providing simple and efficient tools for data mining and data analysis.",
+    "Option3": "Building web applications with machine learning integration.",
+    "Option4": "High-performance distributed computing.",
+    "Answer": "Providing simple and efficient tools for data mining and data analysis."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a core principle of Scikit-learn API design?",
+    "Option1": "Consistency (all objects share a common interface).",
+    "Option2": "Inspection (all parameter values exposed as public attributes).",
+    "Option3": "Object-oriented programming (heavy reliance on inheritance hierarchies).",
+    "Option4": "Composition (estimators can be built from other estimators).",
+    "Answer": "Object-oriented programming (heavy reliance on inheritance hierarchies)."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What method is used to train a machine learning model in Scikit-learn?",
+    "Option1": "predict()",
+    "Option2": "evaluate()",
+    "Option3": "fit()",
+    "Option4": "transform()",
+    "Answer": "fit()"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What method is used to make predictions with a trained model in Scikit-learn?",
+    "Option1": "train()",
+    "Option2": "score()",
+    "Option3": "fit_transform()",
+    "Option4": "predict()",
+    "Answer": "predict()"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which module in Scikit-learn provides various classification algorithms?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.cluster",
+    "Option3": "sklearn.linear_model",
+    "Option4": "sklearn.metrics",
+    "Answer": "sklearn.linear_model"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which module in Scikit-learn provides algorithms for dimensionality reduction?",
+    "Option1": "sklearn.feature_selection",
+    "Option2": "sklearn.decomposition",
+    "Option3": "sklearn.ensemble",
+    "Option4": "sklearn.tree",
+    "Answer": "sklearn.decomposition"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which Scikit-learn class is commonly used for standardizing features (mean 0, variance 1)?",
+    "Option1": "MinMaxScaler",
+    "Option2": "Normalizer",
+    "Option3": "StandardScaler",
+    "Option4": "RobustScaler",
+    "Answer": "StandardScaler"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of `fit_transform()` method in transformers?",
+    "Option1": "It fits the transformer and then makes predictions.",
+    "Option2": "It applies the transformation and then fits the transformer.",
+    "Option3": "It fits the transformer on the data and then transforms the same data.",
+    "Option4": "It transforms the data without fitting.",
+    "Answer": "It fits the transformer on the data and then transforms the same data."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the main purpose of `sklearn.model_selection.train_test_split`?",
+    "Option1": "To split data into training, validation, and test sets.",
+    "Option2": "To split arrays or matrices into random train and test subsets.",
+    "Option3": "To split data for cross-validation.",
+    "Option4": "To split data into features and targets.",
+    "Answer": "To split arrays or matrices into random train and test subsets."
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which of the following metrics is suitable for evaluating a regression model?",
+    "Option1": "Accuracy",
+    "Option2": "Precision",
+    "Option3": "Recall",
+    "Option4": "Mean Squared Error (MSE)",
+    "Answer": "Mean Squared Error (MSE)"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which of the following metrics is suitable for evaluating a classification model?",
+    "Option1": "R-squared",
+    "Option2": "Root Mean Squared Error (RMSE)",
+    "Option3": "F1-score",
+    "Option4": "Mean Absolute Error (MAE)",
+    "Answer": "F1-score"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What does `GridSearchCV` do in Scikit-learn?",
+    "Option1": "Trains a model with a single set of hyperparameters.",
+    "Option2": "Performs a systematic search over a specified parameter grid to find the best performing hyperparameter combination.",
+    "Option3": "Randomly searches for hyperparameters.",
+    "Option4": "Evaluates model performance without hyperparameter tuning.",
+    "Answer": "Performs a systematic search over a specified parameter grid to find the best performing hyperparameter combination."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the purpose of `Pipeline` in Scikit-learn?",
+    "Option1": "To perform hyperparameter tuning.",
+    "Option2": "To chain multiple estimators into a single object, simplifying the workflow and preventing data leakage.",
+    "Option3": "To parallelize model training.",
+    "Option4": "To visualize model performance.",
+    "Answer": "To chain multiple estimators into a single object, simplifying the workflow and preventing data leakage."
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which algorithm is used by `sklearn.linear_model.LogisticRegression`?",
+    "Option1": "Linear Regression",
+    "Option2": "Logistic Regression",
+    "Option3": "Support Vector Machine",
+    "Option4": "Decision Tree",
+    "Answer": "Logistic Regression"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the default solver for `LogisticRegression` in recent Scikit-learn versions?",
+    "Option1": "liblinear",
+    "Option2": "newton-cg",
+    "Option3": "lbfgs",
+    "Option4": "sag",
+    "Answer": "lbfgs"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which of the following is a clustering algorithm available in Scikit-learn?",
+    "Option1": "Linear Regression",
+    "Option2": "K-Means",
+    "Option3": "Support Vector Classifier",
+    "Option4": "Random Forest Regressor",
+    "Answer": "K-Means"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the purpose of `sklearn.metrics.accuracy_score`?",
+    "Option1": "To calculate the mean squared error.",
+    "Option2": "To calculate the proportion of correctly classified instances (samples).",
+    "Option3": "To calculate the precision and recall.",
+    "Option4": "To calculate the R-squared value.",
+    "Answer": "To calculate the proportion of correctly classified instances (samples)."
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which Scikit-learn class is used for performing Principal Component Analysis (PCA)?",
+    "Option1": "LinearDiscriminantAnalysis",
+    "Option2": "KernelPCA",
+    "Option3": "PCA",
+    "Option4": "FactorAnalysis",
+    "Answer": "PCA"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of `sklearn.feature_selection.SelectKBest`?",
+    "Option1": "To select the worst K features.",
+    "Option2": "To select the K highest scoring features based on a specified scoring function.",
+    "Option3": "To perform dimensionality reduction.",
+    "Option4": "To generate new features.",
+    "Answer": "To select the K highest scoring features based on a specified scoring function."
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which technique is used by `sklearn.preprocessing.OneHotEncoder`?",
+    "Option1": "Scaling numerical features.",
+    "Option2": "Converting categorical features into a one-hot numeric array.",
+    "Option3": "Filling missing values.",
+    "Option4": "Reducing the number of features.",
+    "Answer": "Converting categorical features into a one-hot numeric array."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is the purpose of `sklearn.impute.SimpleImputer`?",
+    "Option1": "To encode categorical features.",
+    "Option2": "To scale numerical features.",
+    "Option3": "To fill missing values using simple strategies (e.g., mean, median, most frequent).",
+    "Option4": "To select important features.",
+    "Answer": "To fill missing values using simple strategies (e.g., mean, median, most frequent)."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which Scikit-learn model is an ensemble method for classification and regression?",
+    "Option1": "KNeighborsClassifier",
+    "Option2": "SupportVectorMachine",
+    "Option3": "RandomForestClassifier",
+    "Option4": "LinearRegression",
+    "Answer": "RandomForestClassifier"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'stratified sampling' used for in `train_test_split`?",
+    "Option1": "To ensure an equal number of samples in train and test sets.",
+    "Option2": "To preserve the proportion of samples for each target class in both train and test sets.",
+    "Option3": "To randomly select samples without regard to class distribution.",
+    "Option4": "To sort the data before splitting.",
+    "Answer": "To preserve the proportion of samples for each target class in both train and test sets."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which Scikit-learn class provides various cross-validation iterators?",
+    "Option1": "sklearn.model_selection.ShuffleSplit",
+    "Option2": "sklearn.model_selection.KFold",
+    "Option3": "sklearn.model_selection.StratifiedKFold",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What does `cv` parameter mean in `GridSearchCV`?",
+    "Option1": "The number of folds for cross-validation.",
+    "Option2": "The confidence interval.",
+    "Option3": "The convergence criterion.",
+    "Option4": "The cost function value.",
+    "Answer": "The number of folds for cross-validation."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which Scikit-learn module contains `make_pipeline`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.compose",
+    "Option3": "sklearn.pipeline",
+    "Option4": "sklearn.utils",
+    "Answer": "sklearn.pipeline"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the purpose of `sklearn.metrics.confusion_matrix`?",
+    "Option1": "To plot the decision boundary of a classifier.",
+    "Option2": "To evaluate the performance of a classification model by showing the counts of true-positives, true-negatives, false-positives, and false-negatives.",
+    "Option3": "To calculate the distance between clusters.",
+    "Option4": "To visualize data distributions.",
+    "Answer": "To evaluate the performance of a classification model by showing the counts of true-positives, true-negatives, false-positives, and false-negatives."
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which Scikit-learn class implements Support Vector Machines for classification?",
+    "Option1": "LinearSVC",
+    "Option2": "NuSVC",
+    "Option3": "SVC",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What does `sklearn.datasets.load_iris()` return?",
+    "Option1": "A pandas DataFrame.",
+    "Option2": "A NumPy array.",
+    "Option3": "A SciPy sparse matrix.",
+    "Option4": "A Bunch object, which is a dictionary-like object.",
+    "Answer": "A Bunch object, which is a dictionary-like object."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the primary use of `sklearn.feature_extraction.text.TfidfVectorizer`?",
+    "Option1": "Converting text to numerical embeddings.",
+    "Option2": "Converting a collection of raw documents to a matrix of TF-IDF features.",
+    "Option3": "Performing topic modeling.",
+    "Option4": "Text summarization.",
+    "Answer": "Converting a collection of raw documents to a matrix of TF-IDF features."
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which parameter in `KMeans` determines the number of clusters?",
+    "Option1": "max_iter",
+    "Option2": "random_state",
+    "Option3": "n_clusters",
+    "Option4": "algorithm",
+    "Answer": "n_clusters"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `sklearn.cluster.DBSCAN` used for?",
+    "Option1": "Clustering data based on centroids.",
+    "Option2": "Density-based clustering of applications with noise.",
+    "Option3": "Hierarchical clustering.",
+    "Option4": "Spectral clustering.",
+    "Answer": "Density-based clustering of applications with noise."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the main advantage of `RandomizedSearchCV` over `GridSearchCV`?",
+    "Option1": "It always finds the optimal hyperparameters faster.",
+    "Option2": "It is more efficient when the number of hyperparameters and their possible values is very large, by sampling randomly from the parameter space.",
+    "Option3": "It guarantees finding the global optimum.",
+    "Option4": "It doesn't require cross-validation.",
+    "Answer": "It is more efficient when the number of hyperparameters and their possible values is very large, by sampling randomly from the parameter space."
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which Scikit-learn module provides functions for model persistence (saving and loading models)?",
+    "Option1": "sklearn.utils",
+    "Option2": "sklearn.externals",
+    "Option3": "joblib or pickle (standard Python modules)",
+    "Option4": "sklearn.io",
+    "Answer": "joblib or pickle (standard Python modules)"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'data leakage' in the context of machine learning, and how does Scikit-learn's `Pipeline` help prevent it?",
+    "Option1": "It's when training data is accidentally mixed with test data; `Pipeline` ensures transformers are fitted only on training data.",
+    "Option2": "It's when models overfit the training data; `Pipeline` adds regularization.",
+    "Option3": "It's when data is lost during processing; `Pipeline` has built-in error handling.",
+    "Option4": "It's when sensitive data is exposed; `Pipeline` encrypts data.",
+    "Answer": "It's when training data is accidentally mixed with test data; `Pipeline` ensures transformers are fitted only on training data."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the primary use of `sklearn.ensemble.GradientBoostingClassifier`?",
+    "Option1": "Decision tree based ensemble for classification.",
+    "Option2": "Boosting algorithm for regression.",
+    "Option3": "Bagging algorithm for classification.",
+    "Option4": "Clustering algorithm.",
+    "Answer": "Decision tree based ensemble for classification."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which parameter controls the maximum depth of a decision tree in Scikit-learn?",
+    "Option1": "n_estimators",
+    "Option2": "min_samples_leaf",
+    "Option3": "max_features",
+    "Option4": "max_depth",
+    "Answer": "max_depth"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does `sklearn.preprocessing.LabelEncoder` do?",
+    "Option1": "Encodes categorical features as a one-hot numeric array.",
+    "Option2": "Encodes target labels with values between 0 and n_classes-1.",
+    "Option3": "Scales numerical features.",
+    "Option4": "Converts text to numerical features.",
+    "Answer": "Encodes target labels with values between 0 and n_classes-1."
+  },
+  {
+    "question_no.": 39,
+    "Question": "When would you typically use `LabelEncoder` versus `OneHotEncoder`?",
+    "Option1": "LabelEncoder for features, OneHotEncoder for targets.",
+    "Option2": "LabelEncoder for targets, OneHotEncoder for nominal categorical features.",
+    "Option3": "They are interchangeable.",
+    "Option4": "LabelEncoder for numerical data, OneHotEncoder for text data.",
+    "Answer": "LabelEncoder for targets, OneHotEncoder for nominal categorical features."
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which Scikit-learn module provides metrics like `precision_score`, `recall_score`, and `f1_score`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.metrics",
+    "Option3": "sklearn.model_selection",
+    "Option4": "sklearn.utils",
+    "Answer": "sklearn.metrics"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the purpose of `sklearn.metrics.classification_report`?",
+    "Option1": "To generate a confusion matrix.",
+    "Option2": "To build a text report showing the main classification metrics (precision, recall, F1-score) per class.",
+    "Option3": "To summarize regression results.",
+    "Option4": "To plot ROC curves.",
+    "Answer": "To build a text report showing the main classification metrics (precision, recall, F1-score) per class."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which class is used for polynomial feature transformation?",
+    "Option1": "PolynomialRegressor",
+    "Option2": "PolynomialFeatures",
+    "Option3": "FeatureHasher",
+    "Option4": "VarianceThreshold",
+    "Answer": "PolynomialFeatures"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What does `sklearn.neighbors.KNeighborsClassifier` do?",
+    "Option1": "Fits a linear model to the data.",
+    "Option2": "Classifies data points based on the majority class among their K nearest neighbors.",
+    "Option3": "Builds a decision tree.",
+    "Option4": "Performs clustering.",
+    "Answer": "Classifies data points based on the majority class among their K nearest neighbors."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the `n_neighbors` parameter in `KNeighborsClassifier`?",
+    "Option1": "The number of features to consider.",
+    "Option2": "The number of neighbors to use for classification.",
+    "Option3": "The number of training samples.",
+    "Option4": "The number of classes.",
+    "Answer": "The number of neighbors to use for classification."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the default distance metric for `KNeighborsClassifier`?",
+    "Option1": "Manhattan distance",
+    "Option2": "Euclidean distance",
+    "Option3": "Chebyshev distance",
+    "Option4": "Minkowski distance with p=1",
+    "Answer": "Euclidean distance"
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which Scikit-learn module contains `ColumnTransformer`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.compose",
+    "Option3": "sklearn.pipeline",
+    "Option4": "sklearn.utils",
+    "Answer": "sklearn.compose"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the primary use of `ColumnTransformer`?",
+    "Option1": "To apply the same transformation to all columns.",
+    "Option2": "To apply different transformers to different columns of an array or DataFrame.",
+    "Option3": "To convert columns to rows.",
+    "Option4": "To filter out specific columns.",
+    "Answer": "To apply different transformers to different columns of an array or DataFrame."
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which class is used for `Min-Max Scaling`?",
+    "Option1": "StandardScaler",
+    "Option2": "MinMaxScaler",
+    "Option3": "Normalizer",
+    "Option4": "RobustScaler",
+    "Answer": "MinMaxScaler"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What does `MinMaxScaler` scale features to?",
+    "Option1": "Mean 0, variance 1.",
+    "Option2": "A range between -1 and 1.",
+    "Option3": "A specified range, typically [0, 1].",
+    "Option4": "A normal distribution.",
+    "Answer": "A specified range, typically [0, 1]."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of `sklearn.ensemble.BaggingClassifier`?",
+    "Option1": "To build a single decision tree.",
+    "Option2": "To create an ensemble of models using bagging (bootstrap aggregating).",
+    "Option3": "To boost weak learners sequentially.",
+    "Option4": "To combine different types of models.",
+    "Answer": "To create an ensemble of models using bagging (bootstrap aggregating)."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `sklearn.ensemble.AdaBoostClassifier`?",
+    "Option1": "A bagging ensemble method.",
+    "Option2": "An adaptive boosting ensemble method that combines multiple weak learners.",
+    "Option3": "A stacking ensemble method.",
+    "Option4": "A clustering algorithm.",
+    "Answer": "An adaptive boosting ensemble method that combines multiple weak learners."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the purpose of `sklearn.metrics.roc_curve` and `roc_auc_score`?",
+    "Option1": "To evaluate regression models.",
+    "Option2": "To assess the performance of binary classifiers, showing the trade-off between true positive rate and false positive rate, and the area under this curve.",
+    "Option3": "To plot feature importance.",
+    "Option4": "To visualize clustering results.",
+    "Answer": "To assess the performance of binary classifiers, showing the trade-off between true positive rate and false positive rate, and the area under this curve."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is `sklearn.calibration.CalibratedClassifierCV` used for?",
+    "Option1": "To calibrate the predictions of a regression model.",
+    "Option2": "To calibrate the predicted probabilities of a classifier, making them more reliable.",
+    "Option3": "To calibrate the hyperparameters of a classifier.",
+    "Option4": "To adjust the decision boundary of a classifier.",
+    "Answer": "To calibrate the predicted probabilities of a classifier, making them more reliable."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which Scikit-learn module provides `CountVectorizer`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.feature_extraction.text",
+    "Option3": "sklearn.decomposition",
+    "Option4": "sklearn.naive_bayes",
+    "Answer": "sklearn.feature_extraction.text"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What does `CountVectorizer` do?",
+    "Option1": "Converts a collection of text documents to a matrix of token counts.",
+    "Option2": "Calculates TF-IDF scores.",
+    "Option3": "Embeds words into dense vectors.",
+    "Option4": "Performs stemming and lemmatization.",
+    "Answer": "Converts a collection of text documents to a matrix of token counts."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `sklearn.feature_selection.RFE` (Recursive Feature Elimination)?",
+    "Option1": "A method for feature creation.",
+    "Option2": "A wrapper method for feature selection that recursively removes features and builds a model on the remaining features.",
+    "Option3": "A filter method for feature selection.",
+    "Option4": "An embedded method for feature selection.",
+    "Answer": "A wrapper method for feature selection that recursively removes features and builds a model on the remaining features."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which Scikit-learn algorithm is robust to outliers and can be used for both classification and regression?",
+    "Option1": "LinearRegression",
+    "Option2": "DecisionTreeClassifier",
+    "Option3": "SVR (Support Vector Regressor)",
+    "Option4": "KMeans",
+    "Answer": "SVR (Support Vector Regressor)"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the purpose of `sklearn.decomposition.NMF` (Non-negative Matrix Factorization)?",
+    "Option1": "For principal component analysis.",
+    "Option2": "For decomposing data into two non-negative matrices, often used in topic modeling and image processing.",
+    "Option3": "For linear regression.",
+    "Option4": "For clustering analysis.",
+    "Answer": "For decomposing data into two non-negative matrices, often used in topic modeling and image processing."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does `sklearn.metrics.silhouette_score` measure?",
+    "Option1": "The quality of a regression model.",
+    "Option2": "The compactness and separation of clusters in clustering results.",
+    "Option3": "The accuracy of a classification model.",
+    "Option4": "The feature importance in a tree-based model.",
+    "Answer": "The compactness and separation of clusters in clustering results."
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which of the following is a common strategy for handling imbalanced datasets in Scikit-learn (though not a direct Scikit-learn class, it integrates well)?",
+    "Option1": "Standard Scaling",
+    "Option2": "Oversampling (e.g., SMOTE) or Undersampling (libraries like imbalanced-learn).",
+    "Option3": "PCA",
+    "Option4": "One-Hot Encoding",
+    "Answer": "Oversampling (e.g., SMOTE) or Undersampling (libraries like imbalanced-learn)."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the purpose of `sklearn.preprocessing.PolynomialFeatures`?",
+    "Option1": "To scale data to a specific range.",
+    "Option2": "To generate polynomial and interaction features from existing features.",
+    "Option3": "To convert numerical features to categorical.",
+    "Option4": "To impute missing values with polynomial interpolation.",
+    "Answer": "To generate polynomial and interaction features from existing features."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which Scikit-learn class implements `ridge regression`?",
+    "Option1": "Lasso",
+    "Option2": "Ridge",
+    "Option3": "ElasticNet",
+    "Option4": "LinearRegression",
+    "Answer": "Ridge"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the primary difference between `Ridge` and `Lasso` regression?",
+    "Option1": "Ridge performs feature selection, Lasso does not.",
+    "Option2": "Ridge uses L2 regularization, Lasso uses L1 regularization (leading to sparsity/feature selection).",
+    "Option3": "Ridge is for classification, Lasso for regression.",
+    "Option4": "Ridge is for linear models, Lasso for non-linear models.",
+    "Answer": "Ridge uses L2 regularization, Lasso uses L1 regularization (leading to sparsity/feature selection)."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `sklearn.preprocessing.Normalizer` used for?",
+    "Option1": "Scaling features to a zero mean and unit variance.",
+    "Option2": "Normalizing individual samples to have unit norm (sum of squares is 1).",
+    "Option3": "Converting data to a Gaussian distribution.",
+    "Option4": "Handling missing values.",
+    "Answer": "Normalizing individual samples to have unit norm (sum of squares is 1)."
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which of the following is an unsupervised learning method?",
+    "Option1": "Logistic Regression",
+    "Option2": "K-Means Clustering",
+    "Option3": "Support Vector Machine",
+    "Option4": "Random Forest",
+    "Answer": "K-Means Clustering"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the 'kernel trick' primarily used for in `SVC` and `SVR`?",
+    "Option1": "To speed up training with very large datasets.",
+    "Option2": "To map data into a higher-dimensional space implicitly, allowing for non-linear decision boundaries without explicitly computing the coordinates in that space.",
+    "Option3": "To reduce the dimensionality of the data.",
+    "Option4": "To handle missing values efficiently.",
+    "Answer": "To map data into a higher-dimensional space implicitly, allowing for non-linear decision boundaries without explicitly computing the coordinates in that space."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `sklearn.metrics.make_scorer` used for?",
+    "Option1": "To create a custom loss function.",
+    "Option2": "To create a scorer from a custom metric function, suitable for use in `GridSearchCV` or `cross_val_score`.",
+    "Option3": "To calculate all available metrics.",
+    "Option4": "To compare different metrics.",
+    "Answer": "To create a scorer from a custom metric function, suitable for use in `GridSearchCV` or `cross_val_score`."
+  },
+  {
+    "question_no.": 68,
+    "Question": "Which Scikit-learn module provides `cross_val_score`?",
+    "Option1": "sklearn.metrics",
+    "Option2": "sklearn.model_selection",
+    "Option3": "sklearn.utils",
+    "Option4": "sklearn.pipeline",
+    "Answer": "sklearn.model_selection"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What does `cross_val_score` do?",
+    "Option1": "Trains a model on the entire dataset and returns a single score.",
+    "Option2": "Evaluates a score by cross-validation, training and scoring an estimator multiple times on different train/test splits.",
+    "Option3": "Performs hyperparameter tuning.",
+    "Option4": "Visualizes the training process.",
+    "Answer": "Evaluates a score by cross-validation, training and scoring an estimator multiple times on different train/test splits."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `sklearn.discriminant_analysis.LinearDiscriminantAnalysis` (LDA) primarily used for?",
+    "Option1": "Regression.",
+    "Option2": "Supervised dimensionality reduction and classification, finding a linear combination of features that best separates classes.",
+    "Option3": "Clustering.",
+    "Option4": "Unsupervised dimensionality reduction.",
+    "Answer": "Supervised dimensionality reduction and classification, finding a linear combination of features that best separates classes."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `sklearn.manifold.TSNE` used for?",
+    "Option1": "High-dimensional classification.",
+    "Option2": "Non-linear dimensionality reduction for visualization of high-dimensional datasets.",
+    "Option3": "Clustering with many features.",
+    "Option4": "Feature selection for text data.",
+    "Answer": "Non-linear dimensionality reduction for visualization of high-dimensional datasets."
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which Scikit-learn class is suitable for outlier detection using an ensemble of isolation trees?",
+    "Option1": "OneClassSVM",
+    "Option2": "LocalOutlierFactor",
+    "Option3": "IsolationForest",
+    "Option4": "EllipticEnvelope",
+    "Answer": "IsolationForest"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the primary function of `sklearn.metrics.accuracy_score` in binary classification?",
+    "Option1": "Measures how many negative predictions were correct.",
+    "Option2": "Measures the overall proportion of correct predictions (true positives + true negatives) out of the total number of cases.",
+    "Option3": "Measures how many positive predictions were correct.",
+    "Option4": "Measures the completeness of the positive predictions.",
+    "Answer": "Measures the overall proportion of correct predictions (true positives + true negatives) out of the total number of cases."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `sklearn.metrics.precision_score`?",
+    "Option1": "The ratio of correctly predicted positive observations to the total actual positives.",
+    "Option2": "The ratio of correctly predicted positive observations to the total predicted positives.",
+    "Option3": "The ratio of correctly predicted negative observations to the total actual negatives.",
+    "Option4": "The ratio of correctly predicted negative observations to the total predicted negatives.",
+    "Answer": "The ratio of correctly predicted positive observations to the total predicted positives."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `sklearn.metrics.recall_score`?",
+    "Option1": "The ratio of correctly predicted positive observations to the total predicted positives.",
+    "Option2": "The ratio of correctly predicted positive observations to the total actual positives.",
+    "Option3": "The ratio of correctly predicted negative observations to the total actual negatives.",
+    "Option4": "The ratio of correctly predicted negative observations to the total predicted negatives.",
+    "Answer": "The ratio of correctly predicted positive observations to the total actual positives."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What does `sklearn.metrics.f1_score` represent?",
+    "Option1": "The arithmetic mean of precision and recall.",
+    "Option2": "The harmonic mean of precision and recall, providing a single metric that balances both.",
+    "Option3": "The average of true positives and true negatives.",
+    "Option4": "The sum of precision and recall.",
+    "Answer": "The harmonic mean of precision and recall, providing a single metric that balances both."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the purpose of `sklearn.model_selection.learning_curve`?",
+    "Option1": "To plot the training loss over epochs.",
+    "Option2": "To determine how much training data is required by plotting model performance as a function of training set size.",
+    "Option3": "To visualize decision boundaries.",
+    "Option4": "To compare different machine learning algorithms.",
+    "Answer": "To determine how much training data is required by plotting model performance as a function of training set size."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What does `sklearn.inspection.permutation_importance` measure?",
+    "Option1": "How much a model's performance decreases when a feature is randomly shuffled, indicating its importance.",
+    "Option2": "The correlation between features.",
+    "Option3": "The statistical significance of features.",
+    "Option4": "The linearity of feature relationships.",
+    "Answer": "How much a model's performance decreases when a feature is randomly shuffled, indicating its importance."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which Scikit-learn module offers `VotingClassifier` and `VotingRegressor`?",
+    "Option1": "sklearn.tree",
+    "Option2": "sklearn.ensemble",
+    "Option3": "sklearn.linear_model",
+    "Option4": "sklearn.neighbors",
+    "Answer": "sklearn.ensemble"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the primary idea behind `VotingClassifier`?",
+    "Option1": "To train a single powerful model.",
+    "Option2": "To combine multiple diverse base classifiers by majority vote (hard voting) or by averaging predicted probabilities (soft voting).",
+    "Option3": "To select the best single classifier.",
+    "Option4": "To perform feature selection and then classification.",
+    "Answer": "To combine multiple diverse base classifiers by majority vote (hard voting) or by averaging predicted probabilities (soft voting)."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `sklearn.ensemble.StackingClassifier`?",
+    "Option1": "An ensemble method that trains base models independently and combines their predictions using a meta-model.",
+    "Option2": "A simple ensemble method that averages predictions.",
+    "Option3": "A boosting ensemble method.",
+    "Option4": "A method for hierarchical clustering.",
+    "Answer": "An ensemble method that trains base models independently and combines their predictions using a meta-model."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the role of `final_estimator` in `StackingClassifier`?",
+    "Option1": "It's the first model in the stack.",
+    "Option2": "It's the meta-model that learns to combine the predictions of the base estimators.",
+    "Option3": "It's a regularization parameter.",
+    "Option4": "It's used for data preprocessing.",
+    "Answer": "It's the meta-model that learns to combine the predictions of the base estimators."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What does `sklearn.preprocessing.QuantileTransformer` do?",
+    "Option1": "Scales data to a specific range.",
+    "Option2": "Transforms features to follow a uniform or normal distribution, useful for non-linear relationships.",
+    "Option3": "Encodes categorical features.",
+    "Option4": "Fills missing values based on quantiles.",
+    "Answer": "Transforms features to follow a uniform or normal distribution, useful for non-linear relationships."
+  },
+  {
+    "question_no.": 84,
+    "Question": "When would you prefer `RobustScaler` over `StandardScaler` or `MinMaxScaler`?",
+    "Option1": "When data is perfectly normally distributed.",
+    "Option2": "When your data contains many outliers, as it scales features using statistics that are robust to outliers (median and interquartile range).",
+    "Option3": "When features have a small range.",
+    "Option4": "When you need to keep data in a specific range like [0, 1].",
+    "Answer": "When your data contains many outliers, as it scales features using statistics that are robust to outliers (median and interquartile range)."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the purpose of `sklearn.feature_selection.VarianceThreshold`?",
+    "Option1": "To select features with high correlation.",
+    "Option2": "To remove features with low variance (i.e., features that are constant or almost constant), as they carry little information.",
+    "Option3": "To select features based on their mean value.",
+    "Option4": "To transform feature distributions.",
+    "Answer": "To remove features with low variance (i.e., features that are constant or almost constant), as they carry little information."
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which Scikit-learn module provides `RANSACRegressor`?",
+    "Option1": "sklearn.ensemble",
+    "Option2": "sklearn.linear_model",
+    "Option3": "sklearn.svm",
+    "Option4": "sklearn.tree",
+    "Answer": "sklearn.linear_model"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `RANSACRegressor` used for?",
+    "Option1": "Standard linear regression.",
+    "Option2": "Robustly fitting a linear model to data containing a significant number of outliers.",
+    "Option3": "Non-linear regression.",
+    "Option4": "Ridge regression with outlier handling.",
+    "Answer": "Robustly fitting a linear model to data containing a significant number of outliers."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `sklearn.neural_network.MLPClassifier`?",
+    "Option1": "A convolutional neural network.",
+    "Option2": "A multi-layer perceptron (feedforward neural network) for classification.",
+    "Option3": "A recurrent neural network.",
+    "Option4": "A generative adversarial network.",
+    "Answer": "A multi-layer perceptron (feedforward neural network) for classification."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `sklearn.neural_network.MLPRegressor`?",
+    "Option1": "A multi-layer perceptron for classification.",
+    "Option2": "A multi-layer perceptron (feedforward neural network) for regression.",
+    "Option3": "A linear regression model.",
+    "Option4": "A decision tree regressor.",
+    "Answer": "A multi-layer perceptron (feedforward neural network) for regression."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the primary role of `random_state` parameter in Scikit-learn functions?",
+    "Option1": "To specify the number of iterations.",
+    "Option2": "To control the randomness of the process, ensuring reproducibility of results.",
+    "Option3": "To set the learning rate.",
+    "Option4": "To define the initial state of the model.",
+    "Answer": "To control the randomness of the process, ensuring reproducibility of results."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which method of an estimator object (e.g., `LogisticRegression`) is used to return the coefficient of determination R^2 of the prediction?",
+    "Option1": "predict()",
+    "Option2": "score()",
+    "Option3": "evaluate()",
+    "Option4": "metrics()",
+    "Answer": "score()"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `sklearn.cluster.AgglomerativeClustering`?",
+    "Option1": "A partitioning clustering algorithm.",
+    "Option2": "A hierarchical clustering algorithm that starts with each data point as a single cluster and merges them until a single cluster remains.",
+    "Option3": "A density-based clustering algorithm.",
+    "Option4": "A centroid-based clustering algorithm.",
+    "Answer": "A hierarchical clustering algorithm that starts with each data point as a single cluster and merges them until a single cluster remains."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the purpose of `sklearn.feature_selection.GenericUnivariateSelect`?",
+    "Option1": "To perform multivariate feature selection.",
+    "Option2": "To perform univariate feature selection based on different modes (e.g., 'percentile', 'k_best', 'fpr', 'fdr', 'fwe').",
+    "Option3": "To select features using an embedded method.",
+    "Option4": "To create new features.",
+    "Answer": "To perform univariate feature selection based on different modes (e.g., 'percentile', 'k_best', 'fpr', 'fdr', 'fwe')."
+  },
+  {
+    "question_no.": 94,
+    "Question": "Which Scikit-learn module provides `IsotonicRegression`?",
+    "Option1": "sklearn.ensemble",
+    "Option2": "sklearn.linear_model",
+    "Option3": "sklearn.isotonic",
+    "Option4": "sklearn.calibration",
+    "Answer": "sklearn.isotonic"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `IsotonicRegression` used for?",
+    "Option1": "Fitting a linear model.",
+    "Option2": "Fitting a non-decreasing or non-increasing function to data, useful for calibration or monotonic relationships.",
+    "Option3": "Fitting a polynomial function.",
+    "Option4": "Fitting a robust regression model.",
+    "Answer": "Fitting a non-decreasing or non-increasing function to data, useful for calibration or monotonic relationships."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the 'sparse' parameter for in `OneHotEncoder` or `CountVectorizer`?",
+    "Option1": "To indicate if the input data is sparse.",
+    "Option2": "To control whether the output is a dense NumPy array or a sparse matrix, saving memory for high-dimensional, sparse data.",
+    "Option3": "To specify the sparsity level for regularization.",
+    "Option4": "To enable sparse matrix operations on GPU.",
+    "Answer": "To control whether the output is a dense NumPy array or a sparse matrix, saving memory for high-dimensional, sparse data."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the purpose of `sklearn.metrics.balanced_accuracy_score`?",
+    "Option1": "To calculate accuracy for balanced datasets.",
+    "Option2": "To calculate accuracy for imbalanced datasets, defined as the average of recall obtained on each class.",
+    "Option3": "To calculate the F1-score.",
+    "Option4": "To calculate the precision-recall trade-off.",
+    "Answer": "To calculate accuracy for imbalanced datasets, defined as the average of recall obtained on each class."
+  },
+  {
+    "question_no.": 98,
+    "Question": "Which Scikit-learn class is used for `Local Outlier Factor` (LOF)?",
+    "Option1": "IsolationForest",
+    "Option2": "OneClassSVM",
+    "Option3": "LocalOutlierFactor",
+    "Option4": "EllipticEnvelope",
+    "Answer": "LocalOutlierFactor"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `LocalOutlierFactor` (LOF) primarily used for?",
+    "Option1": "Identifying clusters in data.",
+    "Option2": "Detecting anomalies by measuring the local deviation of density of a given data point with respect to its neighbors.",
+    "Option3": "Performing linear regression.",
+    "Option4": "Feature selection.",
+    "Answer": "Detecting anomalies by measuring the local deviation of density of a given data point with respect to its neighbors."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the `n_jobs` parameter in many Scikit-learn estimators and utilities (e.g., `GridSearchCV`)?",
+    "Option1": "The number of training iterations.",
+    "Option2": "The number of CPU cores to use for parallel processing. -1 means use all available cores.",
+    "Option3": "The number of features.",
+    "Option4": "The number of data points.",
+    "Answer": "The number of CPU cores to use for parallel processing. -1 means use all available cores."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `sklearn.compose.TransformedTargetRegressor` used for?",
+    "Option1": "To transform input features.",
+    "Option2": "To transform the target variable (y) before fitting a regressor and then inverse-transform the predictions back to the original scale.",
+    "Option3": "To transform the coefficients of a regression model.",
+    "Option4": "To transform the loss function.",
+    "Answer": "To transform the target variable (y) before fitting a regressor and then inverse-transform the predictions back to the original scale."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the purpose of `sklearn.impute.KNNImputer`?",
+    "Option1": "To fill missing values using a fixed value.",
+    "Option2": "To impute missing values using the k-nearest neighbors approach, where missing values are estimated using the values of k-nearest complete neighbors.",
+    "Option3": "To remove rows with missing values.",
+    "Option4": "To predict missing values using a linear model.",
+    "Answer": "To impute missing values using the k-nearest neighbors approach, where missing values are estimated using the values of k-nearest complete neighbors."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which Scikit-learn module provides `Binarizer`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.feature_selection",
+    "Option3": "sklearn.impute",
+    "Option4": "sklearn.cluster",
+    "Answer": "sklearn.preprocessing"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What does `Binarizer` do?",
+    "Option1": "Converts numerical features to categorical.",
+    "Option2": "Binarizes data (sets values greater than a threshold to 1, and others to 0).",
+    "Option3": "Converts categorical features to binary.",
+    "Option4": "Encodes labels as binary.",
+    "Answer": "Binarizes data (sets values greater than a threshold to 1, and others to 0)."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `sklearn.metrics.log_loss` used for?",
+    "Option1": "Evaluating regression models.",
+    "Option2": "Evaluating the performance of a probabilistic classifier, measuring the uncertainty of its predictions.",
+    "Option3": "Evaluating clustering algorithms.",
+    "Option4": "Evaluating feature importance.",
+    "Answer": "Evaluating the performance of a probabilistic classifier, measuring the uncertainty of its predictions."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `sklearn.metrics.davies_bouldin_score` used for?",
+    "Option1": "Evaluating classification models.",
+    "Option2": "Evaluating clustering performance, where a lower score indicates better clustering.",
+    "Option3": "Evaluating regression models.",
+    "Option4": "Evaluating the effectiveness of feature selection.",
+    "Answer": "Evaluating clustering performance, where a lower score indicates better clustering."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `sklearn.metrics.calinski_harabasz_score` used for?",
+    "Option1": "Evaluating classification models.",
+    "Option2": "Evaluating clustering performance, where a higher score indicates better clustering.",
+    "Option3": "Evaluating regression models.",
+    "Option4": "Evaluating the effectiveness of dimensionality reduction.",
+    "Answer": "Evaluating clustering performance, where a higher score indicates better clustering."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the 'scoring' parameter in `GridSearchCV` used for?",
+    "Option1": "To specify the loss function for training.",
+    "Option2": "To specify the metric used to evaluate the performance of the candidate models during cross-validation.",
+    "Option3": "To control the number of folds.",
+    "Option4": "To define how the data is split.",
+    "Answer": "To specify the metric used to evaluate the performance of the candidate models during cross-validation."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which attribute of a fitted `GridSearchCV` object stores the best found parameters?",
+    "Option1": "best_estimator_",
+    "Option2": "cv_results_",
+    "Option3": "best_params_",
+    "Option4": "best_score_",
+    "Answer": "best_params_"
+  },
+  {
+    "question_no.": 110,
+    "Question": "Which attribute of a fitted `GridSearchCV` object stores the best estimator found?",
+    "Option1": "best_params_",
+    "Option2": "cv_results_",
+    "Option3": "best_estimator_",
+    "Option4": "best_score_",
+    "Answer": "best_estimator_"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `sklearn.preprocessing.LabelBinarizer` used for?",
+    "Option1": "Similar to OneHotEncoder but for single-column labels, converting them to a one-hot representation.",
+    "Option2": "Binarizing numerical features.",
+    "Option3": "Encoding categorical features as numerical integers.",
+    "Option4": "Normalizing labels.",
+    "Answer": "Similar to OneHotEncoder but for single-column labels, converting them to a one-hot representation."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which Scikit-learn class is used for `Polynomial Regression`?",
+    "Option1": "LinearRegression with PolynomialFeatures",
+    "Option2": "PolynomialRegressor",
+    "Option3": "Ridge with PolynomialFeatures",
+    "Option4": "Both A and C are common approaches",
+    "Answer": "Both A and C are common approaches"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the purpose of `sklearn.metrics.plot_confusion_matrix` (or `ConfusionMatrixDisplay` in newer versions)?",
+    "Option1": "To plot ROC curves.",
+    "Option2": "To visually represent the confusion matrix for a classifier.",
+    "Option3": "To plot feature importance.",
+    "Option4": "To visualize decision boundaries.",
+    "Answer": "To visually represent the confusion matrix for a classifier."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `sklearn.metrics.plot_roc_curve` (or `RocCurveDisplay` in newer versions)?",
+    "Option1": "To plot precision-recall curves.",
+    "Option2": "To plot the Receiver Operating Characteristic (ROC) curve for a binary classifier.",
+    "Option3": "To plot the training loss.",
+    "Option4": "To plot the distribution of predictions.",
+    "Answer": "To plot the Receiver Operating Characteristic (ROC) curve for a binary classifier."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which Scikit-learn module offers `DictVectorizer`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.feature_extraction",
+    "Option3": "sklearn.compose",
+    "Option4": "sklearn.utils",
+    "Answer": "sklearn.feature_extraction"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `DictVectorizer` used for?",
+    "Option1": "Converting a list of feature mappings to a feature matrix.",
+    "Option2": "Converting dictionaries to categorical features.",
+    "Option3": "Extracting features from text.",
+    "Option4": "Transforming sparse matrices to dense.",
+    "Answer": "Converting a list of feature mappings to a feature matrix."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the main idea behind `sklearn.calibration.calibration_curve`?",
+    "Option1": "To plot ROC curves.",
+    "Option2": "To plot the reliability diagram (calibration curve) for a probabilistic classifier, showing how well its predicted probabilities match the true probabilities.",
+    "Option3": "To plot the learning curve.",
+    "Option4": "To plot the feature importance.",
+    "Answer": "To plot the reliability diagram (calibration curve) for a probabilistic classifier, showing how well its predicted probabilities match the true probabilities."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `sklearn.exceptions.NotFittedError`?",
+    "Option1": "An error that occurs when input data contains missing values.",
+    "Option2": "An error raised when an estimator is used before it has been fitted (i.e., before calling its `fit()` method).",
+    "Option3": "An error indicating incorrect hyperparameter values.",
+    "Option4": "An error related to incompatible data types.",
+    "Answer": "An error raised when an estimator is used before it has been fitted (i.e., before calling its `fit()` method)."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which Scikit-learn module provides `make_scorer`?",
+    "Option1": "sklearn.model_selection",
+    "Option2": "sklearn.metrics",
+    "Option3": "sklearn.utils",
+    "Option4": "sklearn.pipeline",
+    "Answer": "sklearn.metrics"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the `prefit` parameter in `VotingClassifier` for?",
+    "Option1": "To automatically fit the base estimators.",
+    "Option2": "To specify that the base estimators are already fitted, skipping the fitting step for them.",
+    "Option3": "To perform preprocessing before fitting.",
+    "Option4": "To enable cross-validation.",
+    "Answer": "To specify that the base estimators are already fitted, skipping the fitting step for them."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which `DecisionTreeClassifier` parameter helps prevent overfitting by setting a minimum number of samples required to be at a leaf node?",
+    "Option1": "max_depth",
+    "Option2": "min_samples_split",
+    "Option3": "min_samples_leaf",
+    "Option4": "min_impurity_decrease",
+    "Answer": "min_samples_leaf"
+  },
+  {
+    "question_no.": 122,
+    "Question": "Which `DecisionTreeClassifier` parameter helps prevent overfitting by setting a minimum number of samples required to split an internal node?",
+    "Option1": "max_depth",
+    "Option2": "min_samples_split",
+    "Option3": "min_samples_leaf",
+    "Option4": "min_impurity_decrease",
+    "Answer": "min_samples_split"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `sklearn.preprocessing.FunctionTransformer` used for?",
+    "Option1": "To apply any arbitrary Python function to the data, as a transformer in a pipeline.",
+    "Option2": "To transform data using a predefined mathematical function.",
+    "Option3": "To convert functions to classes.",
+    "Option4": "To automatically select the best transformation function.",
+    "Answer": "To apply any arbitrary Python function to the data, as a transformer in a pipeline."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the `inverse_transform` method of a scaler (e.g., `StandardScaler`) used for?",
+    "Option1": "To apply the scaling transformation.",
+    "Option2": "To revert the transformed data back to its original scale.",
+    "Option3": "To fit the scaler to new data.",
+    "Option4": "To check the inverse of the transformation.",
+    "Answer": "To revert the transformed data back to its original scale."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which Scikit-learn class is used for `DBSCAN`?",
+    "Option1": "KMeans",
+    "Option2": "MiniBatchKMeans",
+    "Option3": "DBSCAN",
+    "Option4": "MeanShift",
+    "Answer": "DBSCAN"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What are the two main parameters for `DBSCAN`?",
+    "Option1": "n_clusters and max_iter",
+    "Option2": "eps (maximum distance) and min_samples (minimum number of samples)",
+    "Option3": "n_components and random_state",
+    "Option4": "affinity and linkage",
+    "Answer": "eps (maximum distance) and min_samples (minimum number of samples)"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `sklearn.decomposition.KernelPCA` used for?",
+    "Option1": "Linear dimensionality reduction.",
+    "Option2": "Non-linear dimensionality reduction by mapping data into a higher-dimensional space and then applying PCA.",
+    "Option3": "Feature selection for high-dimensional data.",
+    "Option4": "Clustering with kernel methods.",
+    "Answer": "Non-linear dimensionality reduction by mapping data into a higher-dimensional space and then applying PCA."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `sklearn.gaussian_process.GaussianProcessClassifier` used for?",
+    "Option1": "Non-parametric regression.",
+    "Option2": "Probabilistic classification based on Gaussian processes, useful for small datasets with complex non-linear relationships.",
+    "Option3": "Linear classification.",
+    "Option4": "Clustering with Gaussian mixtures.",
+    "Answer": "Probabilistic classification based on Gaussian processes, useful for small datasets with complex non-linear relationships."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is the purpose of `sklearn.inspection.plot_partial_dependence`?",
+    "Option1": "To plot feature importance.",
+    "Option2": "To show the effect of one or two features on the predicted outcome of a model, while accounting for the average effect of other features.",
+    "Option3": "To plot the decision boundary.",
+    "Option4": "To visualize the correlation matrix.",
+    "Answer": "To show the effect of one or two features on the predicted outcome of a model, while accounting for the average effect of other features."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `sklearn.linear_model.HuberRegressor` for?",
+    "Option1": "Standard linear regression.",
+    "Option2": "Robust linear regression that is less sensitive to outliers than `LinearRegression`.",
+    "Option3": "Polynomial regression.",
+    "Option4": "Logistic regression for continuous outcomes.",
+    "Answer": "Robust linear regression that is less sensitive to outliers than `LinearRegression`."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `sklearn.linear_model.TheilSenRegressor` for?",
+    "Option1": "A fast and efficient linear regression model.",
+    "Option2": "A robust linear regression estimator that is highly resistant to outliers in the data.",
+    "Option3": "A non-linear regression model.",
+    "Option4": "A linear model with built-in feature selection.",
+    "Answer": "A robust linear regression estimator that is highly resistant to outliers in the data."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `sklearn.linear_model.PassiveAggressiveClassifier`?",
+    "Option1": "An online learning algorithm for classification that updates its weights only when a misclassification occurs.",
+    "Option2": "A batch learning algorithm.",
+    "Option3": "A non-linear classifier.",
+    "Option4": "A clustering algorithm.",
+    "Answer": "An online learning algorithm for classification that updates its weights only when a misclassification occurs."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `sklearn.linear_model.SGDClassifier`?",
+    "Option1": "A classifier that uses full batch gradient descent.",
+    "Option2": "A linear classifier (e.g., SVM, Logistic Regression) optimized using Stochastic Gradient Descent (SGD), suitable for large datasets.",
+    "Option3": "A non-linear classifier.",
+    "Option4": "A clustering algorithm.",
+    "Answer": "A linear classifier (e.g., SVM, Logistic Regression) optimized using Stochastic Gradient Descent (SGD), suitable for large datasets."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the `partial_fit()` method for in some Scikit-learn estimators (e.g., `SGDClassifier`, `MiniBatchKMeans`)?",
+    "Option1": "To fit the model on a subset of the data once.",
+    "Option2": "To allow for online/incremental learning by fitting the model with mini-batches of data, without retraining on the entire dataset each time.",
+    "Option3": "To partially train the model for a few epochs.",
+    "Option4": "To fit the model on a single feature.",
+    "Answer": "To allow for online/incremental learning by fitting the model with mini-batches of data, without retraining on the entire dataset each time."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `sklearn.mixture.GaussianMixture` (GMM) used for?",
+    "Option1": "Clustering based on centroids.",
+    "Option2": "Density estimation and clustering by modeling data as a mixture of Gaussian distributions.",
+    "Option3": "Outlier detection.",
+    "Option4": "Linear regression with Gaussian noise.",
+    "Answer": "Density estimation and clustering by modeling data as a mixture of Gaussian distributions."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `sklearn.model_selection.learning_curve` parameter `train_sizes` for?",
+    "Option1": "To specify the number of training iterations.",
+    "Option2": "To specify the number of samples to use for training at each point in the curve.",
+    "Option3": "To specify the number of features.",
+    "Option4": "To specify the batch size.",
+    "Answer": "To specify the number of samples to use for training at each point in the curve."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `sklearn.model_selection.validation_curve` used for?",
+    "Option1": "To plot the performance of a model as a function of training data size.",
+    "Option2": "To evaluate the impact of a single hyperparameter on the model's performance, plotting training and validation scores for different values of that parameter.",
+    "Option3": "To compare different models.",
+    "Option4": "To visualize the confusion matrix.",
+    "Answer": "To evaluate the impact of a single hyperparameter on the model's performance, plotting training and validation scores for different values of that parameter."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What does `sklearn.neighbors.NearestNeighbors` do?",
+    "Option1": "Performs classification.",
+    "Option2": "Finds the K-nearest neighbors of a point or set of points, useful for density estimation, clustering, or recommendations.",
+    "Option3": "Builds a decision tree.",
+    "Option4": "Performs linear regression.",
+    "Answer": "Finds the K-nearest neighbors of a point or set of points, useful for density estimation, clustering, or recommendations."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which Scikit-learn module provides `KernelDensity`?",
+    "Option1": "sklearn.preprocessing",
+    "Option2": "sklearn.neighbors",
+    "Option3": "sklearn.cluster",
+    "Option4": "sklearn.mixture",
+    "Answer": "sklearn.neighbors"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `KernelDensity` used for?",
+    "Option1": "Estimating a probability density function from a set of samples.",
+    "Option2": "Performing classification with kernels.",
+    "Option3": "Clustering based on density.",
+    "Option4": "Reducing dimensionality.",
+    "Answer": "Estimating a probability density function from a set of samples."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the purpose of `sklearn.preprocessing.PowerTransformer`?",
+    "Option1": "To scale features to a specific range.",
+    "Option2": "To transform data to be more Gaussian-like, using techniques like Yeo-Johnson or Box-Cox transformations.",
+    "Option3": "To convert categorical features to numerical.",
+    "Option4": "To generate polynomial features.",
+    "Answer": "To transform data to be more Gaussian-like, using techniques like Yeo-Johnson or Box-Cox transformations."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `sklearn.preprocessing.MaxAbsScaler`?",
+    "Option1": "Scales data to a specific range like [0, 1].",
+    "Option2": "Scales each feature by its maximum absolute value, typically scaling data to the range [-1, 1].",
+    "Option3": "Scales data based on mean and variance.",
+    "Option4": "Normalizes individual samples.",
+    "Answer": "Scales each feature by its maximum absolute value, typically scaling data to the range [-1, 1]."
+  },
+  {
+    "question_no.": 143,
+    "Question": "When would `MaxAbsScaler` be particularly useful?",
+    "Option1": "When data contains many outliers.",
+    "Option2": "When dealing with sparse data, as it does not shift or center the data, preserving sparsity.",
+    "Option3": "When data is normally distributed.",
+    "Option4": "When you need a fixed range of [0, 1].",
+    "Answer": "When dealing with sparse data, as it does not shift or center the data, preserving sparsity."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `sklearn.feature_selection.SelectFromModel`?",
+    "Option1": "A method to select features based on a predefined statistical test.",
+    "Option2": "A meta-transformer that selects features based on importance weights (coefficients, feature_importances_) determined by a base estimator.",
+    "Option3": "A method for manual feature selection.",
+    "Option4": "A method for generating new features.",
+    "Answer": "A meta-transformer that selects features based on importance weights (coefficients, feature_importances_) determined by a base estimator."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `sklearn.feature_selection.SequentialFeatureSelector`?",
+    "Option1": "A method to select features randomly.",
+    "Option2": "A greedy feature selection algorithm that adds or removes features sequentially to improve model performance.",
+    "Option3": "A method to remove features with low variance.",
+    "Option4": "A method to select features based on their correlation.",
+    "Answer": "A greedy feature selection algorithm that adds or removes features sequentially to improve model performance."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What does `scoring='neg_mean_squared_error'` mean in `GridSearchCV`?",
+    "Option1": "It tries to maximize the MSE.",
+    "Option2": "It uses the negative of the Mean Squared Error as the metric, effectively minimizing MSE (since GridSearchCV maximizes by default).",
+    "Option3": "It computes the absolute mean squared error.",
+    "Option4": "It computes the square root of MSE.",
+    "Answer": "It uses the negative of the Mean Squared Error as the metric, effectively minimizing MSE (since GridSearchCV maximizes by default)."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the primary purpose of `sklearn.metrics.make_scorer(accuracy_score, greater_is_better=False)`?",
+    "Option1": "To use accuracy as a metric where higher is better (default).",
+    "Option2": "To use accuracy as a metric where lower is better (e.g., for error rates).",
+    "Option3": "To use accuracy as a metric for regression.",
+    "Option4": "To disable accuracy scoring.",
+    "Answer": "To use accuracy as a metric where lower is better (e.g., for error rates)."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `sklearn.model_selection.ShuffleSplit` useful for?",
+    "Option1": "Cross-validation with stratified folds.",
+    "Option2": "Random permutation cross-validator, useful for controlling the number of iterations and test size directly.",
+    "Option3": "Generating train/test splits with equal sizes.",
+    "Option4": "Splitting data without shuffling.",
+    "Answer": "Random permutation cross-validator, useful for controlling the number of iterations and test size directly."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `sklearn.preprocessing.add_dummy_feature` used for?",
+    "Option1": "To add a feature filled with random values.",
+    "Option2": "To add a constant (e.g., intercept) feature to the dataset, making it easier to fit linear models without explicit bias terms.",
+    "Option3": "To add a one-hot encoded feature.",
+    "Option4": "To add a missing value indicator feature.",
+    "Answer": "To add a constant (e.g., intercept) feature to the dataset, making it easier to fit linear models without explicit bias terms."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `sklearn.datasets.make_classification` used for?",
+    "Option1": "Loading real-world classification datasets.",
+    "Option2": "Generating a random n-class classification dataset, useful for testing algorithms or demonstrating concepts.",
+    "Option3": "Performing classification on synthetic data.",
+    "Option4": "Preprocessing classification datasets.",
+    "Answer": "Generating a random n-class classification dataset, useful for testing algorithms or demonstrating concepts."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `sklearn.datasets.make_regression` used for?",
+    "Option1": "Loading real-world regression datasets.",
+    "Option2": "Generating a random regression problem, useful for testing algorithms or demonstrating concepts.",
+    "Option3": "Performing regression on synthetic data.",
+    "Option4": "Preprocessing regression datasets.",
+    "Answer": "Generating a random regression problem, useful for testing algorithms or demonstrating concepts."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `sklearn.datasets.make_blobs` used for?",
+    "Option1": "Generating data with a linear relationship.",
+    "Option2": "Generating isotropic Gaussian blobs for clustering, useful for testing clustering algorithms.",
+    "Option3": "Generating spiral data.",
+    "Option4": "Generating time series data.",
+    "Answer": "Generating isotropic Gaussian blobs for clustering, useful for testing clustering algorithms."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is the `n_components` parameter in `PCA`?",
+    "Option1": "The number of features to keep.",
+    "Option2": "The number of principal components to keep after dimensionality reduction.",
+    "Option3": "The number of samples.",
+    "Option4": "The number of clusters.",
+    "Answer": "The number of principal components to keep after dimensionality reduction."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `sklearn.metrics.cohen_kappa_score` used for?",
+    "Option1": "Evaluating regression models.",
+    "Option2": "Measuring inter-rater agreement for categorical items, often used to evaluate classification performance beyond simple accuracy, especially with imbalanced classes.",
+    "Option3": "Evaluating clustering performance.",
+    "Option4": "Evaluating feature importance.",
+    "Answer": "Measuring inter-rater agreement for categorical items, often used to evaluate classification performance beyond simple accuracy, especially with imbalanced classes."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `sklearn.metrics.jaccard_score` used for?",
+    "Option1": "Measuring similarity between two binary sets, often used for multi-label classification evaluation.",
+    "Option2": "Measuring distance between clusters.",
+    "Option3": "Evaluating regression residuals.",
+    "Option4": "Comparing two numerical arrays.",
+    "Answer": "Measuring similarity between two binary sets, often used for multi-label classification evaluation."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `sklearn.metrics.hamming_loss` used for?",
+    "Option1": "Measuring the distance between two strings.",
+    "Option2": "Measuring the average Hamming distance (fraction of labels incorrectly predicted) between predictions and true labels in multi-label classification.",
+    "Option3": "A loss function for regression.",
+    "Option4": "A metric for unsupervised learning.",
+    "Answer": "Measuring the average Hamming distance (fraction of labels incorrectly predicted) between predictions and true labels in multi-label classification."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `sklearn.metrics.pairwise.pairwise_distances` used for?",
+    "Option1": "Calculating distances within a single dataset.",
+    "Option2": "Calculating distances between all pairs of samples in two arrays (or within one array), useful for clustering or manifold learning.",
+    "Option3": "Calculating correlations between features.",
+    "Option4": "Calculating angles between vectors.",
+    "Answer": "Calculating distances between all pairs of samples in two arrays (or within one array), useful for clustering or manifold learning."
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which parameter in `LogisticRegression` controls the regularization strength?",
+    "Option1": "alpha",
+    "Option2": "penalty",
+    "Option3": "C",
+    "Option4": "gamma",
+    "Answer": "C"
+  },
+  {
+    "question_no.": 159,
+    "Question": "In `LogisticRegression`, what does a smaller value of `C` imply?",
+    "Option1": "Less regularization (stronger model).",
+    "Option2": "More regularization (weaker model, higher penalty).",
+    "Option3": "Faster convergence.",
+    "Option4": "Slower convergence.",
+    "Answer": "More regularization (weaker model, higher penalty)."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `sklearn.model_selection.TimeSeriesSplit` used for?",
+    "Option1": "Randomly splitting time series data.",
+    "Option2": "Cross-validation for time series data, where training sets are chronologically ordered and test sets are always future observations.",
+    "Option3": "Splitting data for independent experiments.",
+    "Option4": "Handling missing values in time series.",
+    "Answer": "Cross-validation for time series data, where training sets are chronologically ordered and test sets are always future observations."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `sklearn.model_selection.LeaveOneOut` (LOO) cross-validation?",
+    "Option1": "A cross-validation strategy where one sample is left out as the test set for each fold.",
+    "Option2": "A strategy where a random subset is left out as the test set.",
+    "Option3": "A strategy where k-folds are used.",
+    "Option4": "A strategy for time series data.",
+    "Answer": "A cross-validation strategy where one sample is left out as the test set for each fold."
+  },
+  {
+    "question_no.": 162,
+    "Question": "When is `LeaveOneOut` cross-validation typically used?",
+    "Option1": "For very large datasets.",
+    "Option2": "For small datasets, as it can be computationally expensive but provides a more accurate estimate of generalization error.",
+    "Option3": "For time series data.",
+    "Option4": "For highly imbalanced datasets.",
+    "Answer": "For small datasets, as it can be computationally expensive but provides a more accurate estimate of generalization error."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `sklearn.model_selection.RepeatedKFold`?",
+    "Option1": "Standard K-Fold cross-validation.",
+    "Option2": "Repeats K-Fold n times with different randomization in each repetition, providing more robust evaluation.",
+    "Option3": "A custom K-Fold implementation.",
+    "Option4": "K-Fold specifically for time series data.",
+    "Answer": "Repeats K-Fold n times with different randomization in each repetition, providing more robust evaluation."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `sklearn.metrics.mean_absolute_error` (MAE)?",
+    "Option1": "The average of the squared differences between predicted and actual values.",
+    "Option2": "The average of the absolute differences between predicted and actual values, less sensitive to outliers than MSE.",
+    "Option3": "The square root of the mean squared error.",
+    "Option4": "The coefficient of determination.",
+    "Answer": "The average of the absolute differences between predicted and actual values, less sensitive to outliers than MSE."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `sklearn.metrics.mean_squared_log_error` (MSLE)?",
+    "Option1": "A regression loss function for negative values.",
+    "Option2": "A regression loss function that measures the mean squared error of the logarithmic transformed targets, useful when targets have exponential growth.",
+    "Option3": "A classification loss function.",
+    "Option4": "A robust loss function for outliers.",
+    "Answer": "A regression loss function that measures the mean squared error of the logarithmic transformed targets, useful when targets have exponential growth."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `sklearn.metrics.median_absolute_error` (MedAE)?",
+    "Option1": "The mean of absolute errors.",
+    "Option2": "The median of the absolute differences between predicted and actual values, highly robust to outliers.",
+    "Option3": "The sum of absolute errors.",
+    "Option4": "The maximum absolute error.",
+    "Answer": "The median of the absolute differences between predicted and actual values, highly robust to outliers."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the `coef_` attribute of a fitted linear model (e.g., `LinearRegression`)?",
+    "Option1": "The intercept of the model.",
+    "Option2": "The coefficients (weights) assigned to the features by the model.",
+    "Option3": "The R-squared value.",
+    "Option4": "The number of iterations.",
+    "Answer": "The coefficients (weights) assigned to the features by the model."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the `intercept_` attribute of a fitted linear model?",
+    "Option1": "The coefficients of the features.",
+    "Option2": "The independent term in the linear model.",
+    "Option3": "The mean of the target variable.",
+    "Option4": "The standard deviation of the residuals.",
+    "Answer": "The independent term in the linear model."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `sklearn.ensemble.IsolationForest` used for?",
+    "Option1": "Clustering high-dimensional data.",
+    "Option2": "Anomaly detection by isolating anomalies as points that are 'far' from the rest of the data and require fewer splits to be isolated in a tree.",
+    "Option3": "Feature selection for ensemble models.",
+    "Option4": "Regression with ensembles of trees.",
+    "Answer": "Anomaly detection by isolating anomalies as points that are 'far' from the rest of the data and require fewer splits to be isolated in a tree."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `sklearn.semi_supervised.LabelSpreading` used for?",
+    "Option1": "Fully supervised classification.",
+    "Option2": "Semi-supervised learning where labels are propagated from labeled data points to unlabeled ones based on similarity.",
+    "Option3": "Unsupervised clustering.",
+    "Option4": "Regression with few labels.",
+    "Answer": "Semi-supervised learning where labels are propagated from labeled data points to unlabeled ones based on similarity."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `sklearn.semi_supervised.LabelPropagation`?",
+    "Option1": "A hard assignment semi-supervised algorithm.",
+    "Option2": "Similar to LabelSpreading, but with hard assignment of labels to unlabeled data points.",
+    "Option3": "A fully unsupervised algorithm.",
+    "Option4": "A method for active learning.",
+    "Answer": "Similar to LabelSpreading, but with hard assignment of labels to unlabeled data points."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `sklearn.cluster.MeanShift`?",
+    "Option1": "A centroid-based clustering algorithm.",
+    "Option2": "A centroid-based clustering algorithm that discovers clusters by shifting data points towards the modes (peaks) of the density distribution.",
+    "Option3": "A density-based clustering algorithm for noisy data.",
+    "Option4": "A hierarchical clustering algorithm.",
+    "Answer": "A centroid-based clustering algorithm that discovers clusters by shifting data points towards the modes (peaks) of the density distribution."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `sklearn.cluster.SpectralClustering` used for?",
+    "Option1": "Clustering dense, spherical clusters.",
+    "Option2": "Clustering data by analyzing the eigenvalues of a similarity matrix, useful for non-convex cluster shapes.",
+    "Option3": "Clustering high-dimensional data efficiently.",
+    "Option4": "Clustering with a fixed number of clusters.",
+    "Answer": "Clustering data by analyzing the eigenvalues of a similarity matrix, useful for non-convex cluster shapes."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `sklearn.feature_extraction.image.extract_patches_2d` used for?",
+    "Option1": "Extracting features from 1D signals.",
+    "Option2": "Extracting 2D patches from images, useful for image processing or feature learning on local regions.",
+    "Option3": "Resizing images.",
+    "Option4": "Performing image classification.",
+    "Answer": "Extracting 2D patches from images, useful for image processing or feature learning on local regions."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the primary function of `sklearn.metrics.adjusted_rand_score` and `adjusted_mutual_info_score`?",
+    "Option1": "To evaluate classification models.",
+    "Option2": "To evaluate clustering performance by comparing two clusterings, adjusting for chance.",
+    "Option3": "To evaluate regression models.",
+    "Option4": "To evaluate feature selection methods.",
+    "Answer": "To evaluate clustering performance by comparing two clusterings, adjusting for chance."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `sklearn.metrics.completeness_score` and `homogeneity_score` in clustering evaluation?",
+    "Option1": "Measures of cluster compactness.",
+    "Option2": "Completeness: all members of a given class are in the same cluster. Homogeneity: all clusters contain only data points which are members of a single class.",
+    "Option3": "Measures of cluster separation.",
+    "Option4": "Measures of algorithm speed.",
+    "Answer": "Completeness: all members of a given class are in the same cluster. Homogeneity: all clusters contain only data points which are members of a single class."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `sklearn.preprocessing.LabelEncoder().inverse_transform()` used for?",
+    "Option1": "To encode new labels.",
+    "Option2": "To convert numerical labels back to their original categorical string representations.",
+    "Option3": "To transform numerical features.",
+    "Option4": "To inverse one-hot encoding.",
+    "Answer": "To convert numerical labels back to their original categorical string representations."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `sklearn.impute.MissingIndicator` used for?",
+    "Option1": "To fill missing values.",
+    "Option2": "To create binary features that indicate the presence of missing values, useful for models that can leverage this information.",
+    "Option3": "To remove rows with missing values.",
+    "Option4": "To predict missing values.",
+    "Answer": "To create binary features that indicate the presence of missing values, useful for models that can leverage this information."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `sklearn.preprocessing.Normalizer` and `StandardScaler` typically applied to?",
+    "Option1": "Categorical features.",
+    "Option2": "Numerical features.",
+    "Option3": "Text features.",
+    "Option4": "Target labels.",
+    "Answer": "Numerical features."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `sklearn.feature_extraction.image.img_to_graph` used for?",
+    "Option1": "Converting an image to a 2D array.",
+    "Option2": "Converting a 2D image into a graph of connected pixels, where edges represent relationships between pixels, useful for graph-based image processing.",
+    "Option3": "Converting an image to a tree structure.",
+    "Option4": "Converting an image to a set of features.",
+    "Answer": "Converting a 2D image into a graph of connected pixels, where edges represent relationships between pixels, useful for graph-based image processing."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `sklearn.multiclass.OneVsRestClassifier` used for?",
+    "Option1": "Binary classification only.",
+    "Option2": "Multiclass classification by training one binary classifier for each class against all other classes.",
+    "Option3": "Multiclass classification by combining binary classifiers in a tree structure.",
+    "Option4": "Regression for multiple outputs.",
+    "Answer": "Multiclass classification by training one binary classifier for each class against all other classes."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `sklearn.multiclass.OneVsOneClassifier` used for?",
+    "Option1": "Multiclass classification by training one binary classifier for each pair of classes.",
+    "Option2": "Binary classification only.",
+    "Option3": "Multiclass classification by training a single classifier.",
+    "Option4": "Regression with multiple outputs.",
+    "Answer": "Multiclass classification by training one binary classifier for each pair of classes."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `sklearn.metrics.log_loss` typically used to evaluate?",
+    "Option1": "The performance of regression models.",
+    "Option2": "The performance of probabilistic classification models (models that output probabilities).",
+    "Option3": "The performance of clustering algorithms.",
+    "Option4": "The performance of unsupervised models.",
+    "Answer": "The performance of probabilistic classification models (models that output probabilities)."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `sklearn.inspection.DecisionBoundaryDisplay` used for?",
+    "Option1": "To display the feature importance.",
+    "Option2": "To visualize the decision boundary of a 2D or 3D classifier.",
+    "Option3": "To plot the training loss over time.",
+    "Option4": "To show the clustering results.",
+    "Answer": "To visualize the decision boundary of a 2D or 3D classifier."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `sklearn.inspection.PartialDependenceDisplay` used for?",
+    "Option1": "To display individual feature importance.",
+    "Option2": "To visualize partial dependence plots, showing the marginal effect of one or two features on the predicted outcome.",
+    "Option3": "To display feature interactions.",
+    "Option4": "To plot the model's coefficients.",
+    "Answer": "To visualize partial dependence plots, showing the marginal effect of one or two features on the predicted outcome."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the purpose of `sklearn.preprocessing.SplineTransformer`?",
+    "Option1": "To fit linear models.",
+    "Option2": "To generate new features using spline interpolation, allowing models to capture non-linear relationships.",
+    "Option3": "To smooth noisy data.",
+    "Option4": "To remove outliers.",
+    "Answer": "To generate new features using spline interpolation, allowing models to capture non-linear relationships."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `sklearn.linear_model.PoissonRegressor` used for?",
+    "Option1": "Standard linear regression.",
+    "Option2": "Regression for count data where the target variable follows a Poisson distribution.",
+    "Option3": "Logistic regression.",
+    "Option4": "Robust regression.",
+    "Answer": "Regression for count data where the target variable follows a Poisson distribution."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `sklearn.linear_model.GammaRegressor` used for?",
+    "Option1": "Regression for data that follows a normal distribution.",
+    "Option2": "Regression for target variables with positive values and that are skewed, where the target follows a Gamma distribution.",
+    "Option3": "Regression for binary outcomes.",
+    "Option4": "Regression for categorical data.",
+    "Answer": "Regression for target variables with positive values and that are skewed, where the target follows a Gamma distribution."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `sklearn.linear_model.TweedieRegressor`?",
+    "Option1": "A general linear regression model.",
+    "Option2": "A generalized linear model for various distributions, including Poisson, Gamma, and inverse Gaussian, suitable for a wide range of count and continuous data.",
+    "Option3": "A non-linear regression model.",
+    "Option4": "A robust regression model for outliers.",
+    "Answer": "A generalized linear model for various distributions, including Poisson, Gamma, and inverse Gaussian, suitable for a wide range of count and continuous data."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `sklearn.ensemble.HistGradientBoostingClassifier`?",
+    "Option1": "A traditional Gradient Boosting Classifier.",
+    "Option2": "An optimized and faster implementation of Gradient Boosting Classifier for large datasets, using histograms to bin continuous features.",
+    "Option3": "A bagging classifier with histograms.",
+    "Option4": "A clustering algorithm based on histograms.",
+    "Answer": "An optimized and faster implementation of Gradient Boosting Classifier for large datasets, using histograms to bin continuous features."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the main advantage of `HistGradientBoostingClassifier` over `GradientBoostingClassifier` for large datasets?",
+    "Option1": "It always achieves higher accuracy.",
+    "Option2": "It is significantly faster and more memory-efficient due to histogram-based splitting, especially for large datasets with many features.",
+    "Option3": "It supports multi-class classification natively.",
+    "Option4": "It automatically handles missing values without imputation.",
+    "Answer": "It is significantly faster and more memory-efficient due to histogram-based splitting, especially for large datasets with many features."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `sklearn.naive_bayes.GaussianNB` used for?",
+    "Option1": "Classification of categorical features.",
+    "Option2": "Classification based on Bayes' theorem, assuming features follow a Gaussian (normal) distribution.",
+    "Option3": "Classification of text data.",
+    "Option4": "Regression with Gaussian noise.",
+    "Answer": "Classification based on Bayes' theorem, assuming features follow a Gaussian (normal) distribution."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `sklearn.naive_bayes.MultinomialNB` used for?",
+    "Option1": "Classification with normally distributed features.",
+    "Option2": "Classification for discrete counts (e.g., word counts in text classification), assuming a multinomial distribution.",
+    "Option3": "Classification for binary features.",
+    "Option4": "Regression with counts.",
+    "Answer": "Classification for discrete counts (e.g., word counts in text classification), assuming a multinomial distribution."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `sklearn.naive_bayes.BernoulliNB` used for?",
+    "Option1": "Classification with continuous features.",
+    "Option2": "Classification for binary or boolean features, assuming a Bernoulli distribution.",
+    "Option3": "Classification with multi-valued discrete features.",
+    "Option4": "Regression with binary outcomes.",
+    "Answer": "Classification for binary or boolean features, assuming a Bernoulli distribution."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which Scikit-learn module offers `KernelRidge`?",
+    "Option1": "sklearn.linear_model",
+    "Option2": "sklearn.kernel_ridge",
+    "Option3": "sklearn.gaussian_process",
+    "Option4": "sklearn.svm",
+    "Answer": "sklearn.kernel_ridge"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `KernelRidge` used for?",
+    "Option1": "Linear regression with L2 regularization.",
+    "Option2": "Regression that combines Ridge regression with the kernel trick, allowing for non-linear relationships.",
+    "Option3": "Support Vector Regression.",
+    "Option4": "Polynomial regression.",
+    "Answer": "Regression that combines Ridge regression with the kernel trick, allowing for non-linear relationships."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `sklearn.manifold.MDS` (Multi-dimensional Scaling) used for?",
+    "Option1": "Linear dimensionality reduction.",
+    "Option2": "Dimensionality reduction that attempts to place points in a lower-dimensional space such that the distances between points are preserved as much as possible.",
+    "Option3": "Feature selection based on distances.",
+    "Option4": "Clustering based on Euclidean distances.",
+    "Answer": "Dimensionality reduction that attempts to place points in a lower-dimensional space such that the distances between points are preserved as much as possible."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the purpose of `sklearn.cross_decomposition.PLSRegression` (Partial Least Squares Regression)?",
+    "Option1": "Linear regression only.",
+    "Option2": "Dimensionality reduction and regression, modeling the relationship between two matrices (X and Y) by projecting them onto a new space.",
+    "Option3": "Non-linear regression.",
+    "Option4": "Feature selection for correlated features.",
+    "Answer": "Dimensionality reduction and regression, modeling the relationship between two matrices (X and Y) by projecting them onto a new space."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which method is used for returning predicted class probabilities for classifiers in Scikit-learn?",
+    "Option1": "predict()",
+    "Option2": "predict_proba()",
+    "Option3": "predict_log_proba()",
+    "Option4": "score_proba()",
+    "Answer": "predict_proba()"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What does `predict_log_proba()` return?",
+    "Option1": "The logarithm of the predicted class labels.",
+    "Option2": "The predicted class probabilities transformed by the natural logarithm, which can be more numerically stable than `predict_proba()` for very small probabilities.",
+    "Option3": "The logarithm of the feature importances.",
+    "Option4": "The logarithm of the loss function.",
+    "Answer": "The predicted class probabilities transformed by the natural logarithm, which can be more numerically stable than `predict_proba()` for very small probabilities."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `sklearn.metrics.davies_bouldin_score` primarily used for?",
+    "Option1": "Comparing supervised models.",
+    "Option2": "Evaluating clustering performance where a lower score indicates better clustering, representing the average similarity ratio of each cluster with its most similar cluster.",
+    "Option3": "Determining optimal number of features.",
+    "Option4": "Assessing model complexity.",
+    "Answer": "Evaluating clustering performance where a lower score indicates better clustering, representing the average similarity ratio of each cluster with its most similar cluster."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `sklearn.metrics.calinski_harabasz_score` primarily used for?",
+    "Option1": "Evaluating classification accuracy.",
+    "Option2": "Evaluating clustering performance where a higher score indicates better clustering, defined as the ratio of the between-cluster variance to the within-cluster variance.",
+    "Option3": "Assessing feature multicollinearity.",
+    "Option4": "Measuring model interpretability.",
+    "Answer": "Evaluating clustering performance where a higher score indicates better clustering, defined as the ratio of the between-cluster variance to the within-cluster variance."
+  },
+  {
+    "question_no.": 203,
+    "Question": "Which parameter in `RandomForestClassifier` controls the number of trees in the forest?",
+    "Option1": "max_depth",
+    "Option2": "min_samples_leaf",
+    "Option3": "n_estimators",
+    "Option4": "max_features",
+    "Answer": "n_estimators"
+  },
+  {
+    "question_no.": 204,
+    "Question": "In `RandomForestClassifier`, what does `max_features='sqrt'` mean?",
+    "Option1": "It considers all features for splitting.",
+    "Option2": "It considers `sqrt(n_features)` features when looking for the best split, a common heuristic for classification.",
+    "Option3": "It considers `log2(n_features)` features.",
+    "Option4": "It considers a fixed number of features.",
+    "Answer": "It considers `sqrt(n_features)` features when looking for the best split, a common heuristic for classification."
+  }
+]

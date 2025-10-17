@@ -1,0 +1,1830 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Xamarin primarily used for?",
+    "Option1": "Developing web applications.",
+    "Option2": "Building cross-platform mobile applications using C#.",
+    "Option3": "Creating desktop software for Windows.",
+    "Option4": "Backend API development.",
+    "Answer": "Building cross-platform mobile applications using C#."
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who acquired Xamarin in 2016?",
+    "Option1": "Google",
+    "Option2": "Apple",
+    "Option3": "Microsoft",
+    "Option4": "Facebook",
+    "Answer": "Microsoft"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What programming language is used to develop Xamarin applications?",
+    "Option1": "Java",
+    "Option2": "Swift",
+    "Option3": "C#",
+    "Option4": "Python",
+    "Answer": "C#"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What are the two main approaches to building UIs in Xamarin?",
+    "Option1": "Xamarin.iOS and Xamarin.Android.",
+    "Option2": "Xamarin.Forms and Xamarin.Native (Xamarin.iOS/Android).",
+    "Option3": "XAML and C# code-behind.",
+    "Option4": "MVVM and MVC.",
+    "Answer": "Xamarin.Forms and Xamarin.Native (Xamarin.iOS/Android)."
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the primary benefit of Xamarin.Forms?",
+    "Option1": "Maximum platform-specific UI customization.",
+    "Option2": "Code sharing for UI across platforms.",
+    "Option3": "Faster native performance than Xamarin.Native.",
+    "Option4": "Direct access to native APIs without abstraction.",
+    "Answer": "Code sharing for UI across platforms."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the primary benefit of Xamarin.Native (Xamarin.iOS/Android)?",
+    "Option1": "Maximum code sharing.",
+    "Option2": "Faster development time for simple UIs.",
+    "Option3": "Full access to platform-specific APIs and UI controls for highly customized experiences.",
+    "Option4": "Automatic UI generation.",
+    "Answer": "Full access to platform-specific APIs and UI controls for highly customized experiences."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is XAML used for in Xamarin.Forms?",
+    "Option1": "Writing backend logic.",
+    "Option2": "Defining the user interface declaratively.",
+    "Option3": "Handling database operations.",
+    "Option4": "Managing application state.",
+    "Answer": "Defining the user interface declaratively."
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of a 'Code-behind' file in Xamarin.Forms?",
+    "Option1": "To define the UI layout.",
+    "Option2": "To contain the C# logic associated with a XAML page.",
+    "Option3": "To store static resources.",
+    "Option4": "To define custom renderers.",
+    "Answer": "To contain the C# logic associated with a XAML page."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What architectural pattern is commonly used in Xamarin.Forms?",
+    "Option1": "MVC (Model-View-Controller)",
+    "Option2": "MVP (Model-View-Presenter)",
+    "Option3": "MVVM (Model-View-ViewModel)",
+    "Option4": "MVT (Model-View-Template)",
+    "Answer": "MVVM (Model-View-ViewModel)"
+  },
+  {
+    "question_no.": 10,
+    "Question": "In MVVM, what does the 'View' represent?",
+    "Option1": "The application's data.",
+    "Option2": "The user interface (UI) elements (e.g., XAML).",
+    "Option3": "The business logic.",
+    "Option4": "The database interaction.",
+    "Answer": "The user interface (UI) elements (e.g., XAML)."
+  },
+  {
+    "question_no.": 11,
+    "Question": "In MVVM, what does the 'ViewModel' represent?",
+    "Option1": "The data layer.",
+    "Option2": "The UI logic and state, exposed to the View via data binding.",
+    "Option3": "The platform-specific code.",
+    "Option4": "The raw user input.",
+    "Answer": "The UI logic and state, exposed to the View via data binding."
+  },
+  {
+    "question_no.": 12,
+    "Question": "In MVVM, what does the 'Model' represent?",
+    "Option1": "The UI layout.",
+    "Option2": "The ViewModel's properties.",
+    "Option3": "The application's business logic and data (e.g., data models, services).",
+    "Option4": "The rendering engine.",
+    "Answer": "The application's business logic and data (e.g., data models, services)."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is 'Data Binding' in Xamarin.Forms?",
+    "Option1": "Connecting a database to the UI.",
+    "Option2": "A mechanism that automatically synchronizes data between the UI (View) and the underlying data source (ViewModel).",
+    "Option3": "Encrypting data for secure transmission.",
+    "Option4": "Storing data in local storage.",
+    "Answer": "A mechanism that automatically synchronizes data between the UI (View) and the underlying data source (ViewModel)."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What are the two main types of data binding modes?",
+    "Option1": "Read-only and Write-only.",
+    "Option2": "OneWay, OneWayToSource, TwoWay, OneTime.",
+    "Option3": "Static and Dynamic.",
+    "Option4": "Explicit and Implicit.",
+    "Answer": "OneWay, OneWayToSource, TwoWay, OneTime."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which binding mode is typically used for `Entry` (text input) controls for automatic updates?",
+    "Option1": "OneWay",
+    "Option2": "OneWayToSource",
+    "Option3": "TwoWay",
+    "Option4": "OneTime",
+    "Answer": "TwoWay"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What interface must a ViewModel implement for data binding to work effectively with property changes?",
+    "Option1": "`IDisposable`",
+    "Option2": "`INotifyPropertyChanged`",
+    "Option3": "`ICommand`",
+    "Option4": "`IEnumerable`",
+    "Answer": "`INotifyPropertyChanged`"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you raise the `PropertyChanged` event in a ViewModel property's setter?",
+    "Option1": "PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(\"PropertyName\"));",
+    "Option2": "OnPropertyChanged(\"PropertyName\");",
+    "Option3": "RaisePropertyChanged(\"PropertyName\");",
+    "Option4": "NotifyPropertyChange(\"PropertyName\");",
+    "Answer": "PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(\"PropertyName\"));"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is `ICommand` used for in MVVM?",
+    "Option1": "To manage asynchronous operations.",
+    "Option2": "To encapsulate actions (methods) that can be bound to UI elements like buttons.",
+    "Option3": "To define the application's startup logic.",
+    "Option4": "To control navigation.",
+    "Answer": "To encapsulate actions (methods) that can be bound to UI elements like buttons."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a common implementation of `ICommand` used in Xamarin.Forms?",
+    "Option1": "`AsyncCommand`",
+    "Option2": "`RelayCommand` (or `DelegateCommand`)",
+    "Option3": "`ActionCommand`",
+    "Option4": "`EventCommand`",
+    "Answer": "`RelayCommand` (or `DelegateCommand`)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you bind a button's `Command` property to a command in the ViewModel?",
+    "Option1": "<Button Click=\"{Binding MyCommand}\" />",
+    "Option2": "<Button Command=\"{Binding MyCommand}\" />",
+    "Option3": "<Button Tap=\"{Binding MyCommand}\" />",
+    "Option4": "<Button CommandName=\"MyCommand\" />",
+    "Answer": "<Button Command=\"{Binding MyCommand}\" />"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is `CommandParameter` used for?",
+    "Option1": "To pass multiple commands to a button.",
+    "Option2": "To pass an argument to the `Execute` method of an `ICommand`.",
+    "Option3": "To define the command's display text.",
+    "Option4": "To change the command's visual appearance.",
+    "Answer": "To pass an argument to the `Execute` method of an `ICommand`."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'Navigation' in Xamarin.Forms?",
+    "Option1": "Changing the orientation of the device.",
+    "Option2": "Moving between different pages (screens) within an application.",
+    "Option3": "Navigating external websites.",
+    "Option4": "Controlling GPS functionality.",
+    "Answer": "Moving between different pages (screens) within an application."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What are the common types of navigation in Xamarin.Forms?",
+    "Option1": "Push and Pull.",
+    "Option2": "Modal, Hierarchical (Stack), Tabbed, and Master-Detail.",
+    "Option3": "Sequential and Random.",
+    "Option4": "Local and Global.",
+    "Answer": "Modal, Hierarchical (Stack), Tabbed, and Master-Detail."
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you push a new page onto the navigation stack (hierarchical navigation)?",
+    "Option1": "`await Navigation.PushAsync(new MyPage());`",
+    "Option2": "`Navigation.GoToAsync(new MyPage());`",
+    "Option3": "`this.NavigateTo(new MyPage());`",
+    "Option4": "`Page.Show(new MyPage());`",
+    "Answer": "`await Navigation.PushAsync(new MyPage());`"
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you pop the current page from the navigation stack?",
+    "Option1": "`await Navigation.PopAsync();`",
+    "Option2": "`Navigation.Back();`",
+    "Option3": "`this.ClosePage();`",
+    "Option4": "`Page.Hide();`",
+    "Answer": "`await Navigation.PopAsync();`"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is `Shell` in Xamarin.Forms?",
+    "Option1": "A custom renderer for all controls.",
+    "Option2": "A feature introduced in Xamarin.Forms 4.0 to simplify and accelerate mobile application development by providing a single structure for common navigation patterns.",
+    "Option3": "A new layout container.",
+    "Option4": "A tool for debugging UI issues.",
+    "Answer": "A feature introduced in Xamarin.Forms 4.0 to simplify and accelerate mobile application development by providing a single structure for common navigation patterns."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What are some benefits of using Xamarin.Forms Shell?",
+    "Option1": "Increased app size.",
+    "Option2": "Reduced development time, simplified URI-based navigation, and built-in search and dark mode support.",
+    "Option3": "Limited navigation options.",
+    "Option4": "Only supports single-page applications.",
+    "Answer": "Reduced development time, simplified URI-based navigation, and built-in search and dark mode support."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'Custom Renderers' in Xamarin.Forms?",
+    "Option1": "Pre-built UI components.",
+    "Option2": "A mechanism to customize the appearance and behavior of Xamarin.Forms controls on each native platform.",
+    "Option3": "A way to create custom data bindings.",
+    "Option4": "A tool for generating XAML.",
+    "Answer": "A mechanism to customize the appearance and behavior of Xamarin.Forms controls on each native platform."
+  },
+  {
+    "question_no.": 29,
+    "Question": "When would you use a Custom Renderer?",
+    "Option1": "For standard UI requirements.",
+    "Option2": "When a Xamarin.Forms control's default behavior or appearance does not meet specific platform design requirements.",
+    "Option3": "For simple data display.",
+    "Option4": "To improve application performance.",
+    "Answer": "When a Xamarin.Forms control's default behavior or appearance does not meet specific platform design requirements."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is an 'Effect' in Xamarin.Forms?",
+    "Option1": "A type of animation.",
+    "Option2": "A lightweight alternative to Custom Renderers for customizing native controls.",
+    "Option3": "A visual styling property.",
+    "Option4": "A network request.",
+    "Answer": "A lightweight alternative to Custom Renderers for customizing native controls."
+  },
+  {
+    "question_no.": 31,
+    "Question": "When would you prefer an Effect over a Custom Renderer?",
+    "Option1": "When you need complete control over the native UI.",
+    "Option2": "For small, isolated changes to an existing native control's properties or behavior.",
+    "Option3": "When creating entirely new custom controls.",
+    "Option4": "When targeting only one platform.",
+    "Answer": "For small, isolated changes to an existing native control's properties or behavior."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'DependencyService' in Xamarin.Forms?",
+    "Option1": "A service for managing external dependencies.",
+    "Option2": "A mechanism for invoking platform-specific functionality from shared Xamarin.Forms code.",
+    "Option3": "A tool for resolving dependency injection issues.",
+    "Option4": "A service for handling data storage.",
+    "Answer": "A mechanism for invoking platform-specific functionality from shared Xamarin.Forms code."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you register a platform-specific implementation for `DependencyService`?",
+    "Option1": "Using `[assembly: Dependency(typeof(MyPlatformService))]` attribute.",
+    "Option2": "`DependencyService.Register<MyPlatformService>();`",
+    "Option3": "Adding an entry to the `App.xaml` file.",
+    "Option4": "Implementing an interface directly in the platform project.",
+    "Answer": "Using `[assembly: Dependency(typeof(MyPlatformService))]` attribute."
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you retrieve a platform-specific implementation using `DependencyService`?",
+    "Option1": "`new MyPlatformService();`",
+    "Option2": "`DependencyService.Get<IMyService>();`",
+    "Option3": "`ServiceLocator.Resolve<IMyService>();`",
+    "Option4": "`GetPlatformService<IMyService>();`",
+    "Answer": "`DependencyService.Get<IMyService>();`"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'Platform-specifics' in Xamarin.Forms?",
+    "Option1": "Features only available in Xamarin.Native.",
+    "Option2": "A set of APIs that allow you to use specific native platform features directly from Xamarin.Forms shared code without custom renderers or `DependencyService`.",
+    "Option3": "Styling properties that are different on each platform.",
+    "Option4": "Configuration files for each platform.",
+    "Answer": "A set of APIs that allow you to use specific native platform features directly from Xamarin.Forms shared code without custom renderers or `DependencyService`."
+  },
+  {
+    "question_no.": 36,
+    "Question": "Give an example of a Xamarin.Forms Platform-specific.",
+    "Option1": "Setting the status bar color on iOS.",
+    "Option2": "Accessing the camera directly.",
+    "Option3": "Implementing custom gestures.",
+    "Option4": "Playing a video.",
+    "Answer": "Setting the status bar color on iOS."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'XAML Markup Extensions'?",
+    "Option1": "Custom XAML tags.",
+    "Option2": "Classes that allow XAML properties to be set from code and provide a powerful way to extend the power and flexibility of XAML.",
+    "Option3": "Attributes for XAML elements.",
+    "Option4": "Tools for generating XAML.",
+    "Answer": "Classes that allow XAML properties to be set from code and provide a powerful way to extend the power and flexibility of XAML."
+  },
+  {
+    "question_no.": 38,
+    "Question": "Give an example of a built-in XAML Markup Extension.",
+    "Option1": "`<StaticResource>`, `<DynamicResource>`, `{Binding}`, `{x:Static}`",
+    "Option2": "`<Color>`",
+    "Option3": "`<Text>`",
+    "Option4": "`<Image>`",
+    "Answer": "`<StaticResource>`, `<DynamicResource>`, `{Binding}`, `{x:Static}`"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is `StaticResource` used for?",
+    "Option1": "To bind to a dynamic resource.",
+    "Option2": "To reference resources defined in a `ResourceDictionary` that are resolved once at compile time.",
+    "Option3": "To link to external files.",
+    "Option4": "To declare static variables.",
+    "Answer": "To reference resources defined in a `ResourceDictionary` that are resolved once at compile time."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is `DynamicResource` used for?",
+    "Option1": "To reference resources defined in a `ResourceDictionary` that are re-evaluated at runtime when the resource changes.",
+    "Option2": "To bind to a static resource.",
+    "Option3": "To load resources dynamically from a server.",
+    "Option4": "To create new resources.",
+    "Answer": "To reference resources defined in a `ResourceDictionary` that are re-evaluated at runtime when the resource changes."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is a 'ResourceDictionary' in Xamarin.Forms?",
+    "Option1": "A collection of strings for translation.",
+    "Option2": "A repository for reusable styles, templates, colors, and other UI resources.",
+    "Option3": "A database schema.",
+    "Option4": "A dictionary of application settings.",
+    "Answer": "A repository for reusable styles, templates, colors, and other UI resources."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Where can `ResourceDictionary` instances be defined?",
+    "Option1": "Only in the `App.xaml` file.",
+    "Option2": "At the application level (`App.xaml`), page level, or control level.",
+    "Option3": "Only in C# code.",
+    "Option4": "In separate files, but not within pages.",
+    "Answer": "At the application level (`App.xaml`), page level, or control level."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Styles' in Xamarin.Forms?",
+    "Option1": "A set of fonts and colors.",
+    "Option2": "A collection of property values that can be applied to multiple UI elements, promoting consistency and reusability.",
+    "Option3": "Animations and transitions.",
+    "Option4": "Platform-specific UI themes.",
+    "Answer": "A collection of property values that can be applied to multiple UI elements, promoting consistency and reusability."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the difference between an 'Explicit Style' and an 'Implicit Style'?",
+    "Option1": "Explicit styles apply to specific controls by name; implicit styles apply to all controls of a certain type without needing a `Style` property.",
+    "Option2": "Explicit styles are defined in XAML; implicit styles are defined in C#.",
+    "Option3": "Explicit styles override implicit styles.",
+    "Option4": "Explicit styles are for global use; implicit styles are for local use.",
+    "Answer": "Explicit styles apply to specific controls by name; implicit styles apply to all controls of a certain type without needing a `Style` property."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'Control Template' in Xamarin.Forms?",
+    "Option1": "A template for creating new controls.",
+    "Option2": "A XAML structure that defines the visual tree of a control, allowing complete customization of its appearance without affecting its behavior.",
+    "Option3": "A template for data binding.",
+    "Option4": "A template for creating custom renderers.",
+    "Answer": "A XAML structure that defines the visual tree of a control, allowing complete customization of its appearance without affecting its behavior."
+  },
+  {
+    "question_no.": 46,
+    "Question": "When would you use a `ControlTemplate`?",
+    "Option1": "For simple styling changes.",
+    "Option2": "When you need to completely change the visual layout and structure of an existing control (e.g., customizing a `Button` to look like a complex custom view).",
+    "Option3": "For minor behavioral modifications.",
+    "Option4": "For creating platform-specific UI.",
+    "Answer": "When you need to completely change the visual layout and structure of an existing control (e.g., customizing a `Button` to look like a complex custom view)."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Behaviors' in Xamarin.Forms?",
+    "Option1": "A way to define application logic.",
+    "Option2": "Reusable pieces of code that encapsulate functionality and can be attached to UI elements without subclassing them.",
+    "Option3": "Custom gestures.",
+    "Option4": "Animations for controls.",
+    "Answer": "Reusable pieces of code that encapsulate functionality and can be attached to UI elements without subclassing them."
+  },
+  {
+    "question_no.": 48,
+    "Question": "When would you use a `Behavior`?",
+    "Option1": "When you need to create a new UI control.",
+    "Option2": "When you want to add functionality to an existing control in a reusable way, without modifying its code-behind or subclassing it (e.g., input validation).",
+    "Option3": "For simple styling.",
+    "Option4": "For defining global application settings.",
+    "Answer": "When you want to add functionality to an existing control in a reusable way, without modifying its code-behind or subclassing it (e.g., input validation)."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Triggers' in Xamarin.Forms?",
+    "Option1": "A type of event handler.",
+    "Option2": "Conditions that, when met, cause a property to change or an action to be performed.",
+    "Option3": "Methods for executing code on a timer.",
+    "Option4": "A mechanism for handling gestures.",
+    "Answer": "Conditions that, when met, cause a property to change or an action to be performed."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What are the different types of Triggers?",
+    "Option1": "Click, Tap, LongPress.",
+    "Option2": "PropertyTrigger, DataTrigger, EventTrigger, MultiTrigger.",
+    "Option3": "Start, Stop, Pause.",
+    "Option4": "Implicit, Explicit.",
+    "Answer": "PropertyTrigger, DataTrigger, EventTrigger, MultiTrigger."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'MessagingCenter' in Xamarin.Forms?",
+    "Option1": "A service for sending SMS messages.",
+    "Option2": "A publish/subscribe mechanism for communication between loosely coupled components.",
+    "Option3": "A notification service for push notifications.",
+    "Option4": "A built-in chat application.",
+    "Answer": "A publish/subscribe mechanism for communication between loosely coupled components."
+  },
+  {
+    "question_no.": 52,
+    "Question": "When would you use `MessagingCenter`?",
+    "Option1": "For direct parent-child communication.",
+    "Option2": "For communication between unrelated components or across different layers of an application without tight coupling.",
+    "Option3": "For sending data to a server.",
+    "Option4": "For handling user input within a single page.",
+    "Answer": "For communication between unrelated components or across different layers of an application without tight coupling."
+  },
+  {
+    "question_no.": 53,
+    "Question": "How do you subscribe to a message in `MessagingCenter`?",
+    "Option1": "`MessagingCenter.Subscribe<SenderType>(this, \"MyMessage\", (sender) => { /* ... */ });`",
+    "Option2": "`MessagingCenter.Listen(\"MyMessage\", (sender) => { /* ... */ });`",
+    "Option3": "`MessagingCenter.OnReceive<SenderType>(this, \"MyMessage\", (sender) => { /* ... */ });`",
+    "Option4": "`MessagingCenter.Register(\"MyMessage\", (sender) => { /* ... */ });`",
+    "Answer": "`MessagingCenter.Subscribe<SenderType>(this, \"MyMessage\", (sender) => { /* ... */ });`"
+  },
+  {
+    "question_no.": 54,
+    "Question": "How do you send a message using `MessagingCenter`?",
+    "Option1": "`MessagingCenter.Publish<SenderType>(this, \"MyMessage\");`",
+    "Option2": "`MessagingCenter.Send(\"MyMessage\");`",
+    "Option3": "`MessagingCenter.Broadcast(\"MyMessage\");`",
+    "Option4": "`MessagingCenter.Emit(\"MyMessage\");`",
+    "Answer": "`MessagingCenter.Publish<SenderType>(this, \"MyMessage\");`"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Layouts' in Xamarin.Forms?",
+    "Option1": "The styling of UI elements.",
+    "Option2": "Containers that organize and position child views on a page.",
+    "Option3": "The data structure of the application.",
+    "Option4": "The animation engine.",
+    "Answer": "Containers that organize and position child views on a page."
+  },
+  {
+    "question_no.": 56,
+    "Question": "Name some common Xamarin.Forms Layouts.",
+    "Option1": "Div, Span, Table.",
+    "Option2": "StackLayout, GridLayout, AbsoluteLayout, RelativeLayout, FlexLayout.",
+    "Option3": "LinearLayout, FrameLayout.",
+    "Option4": "Panel, ScrollView.",
+    "Answer": "StackLayout, GridLayout, AbsoluteLayout, RelativeLayout, FlexLayout."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which layout arranges child views in a single row or column?",
+    "Option1": "GridLayout",
+    "Option2": "AbsoluteLayout",
+    "Option3": "StackLayout",
+    "Option4": "RelativeLayout",
+    "Answer": "StackLayout"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which layout arranges child views in a grid of rows and columns?",
+    "Option1": "StackLayout",
+    "Option2": "AbsoluteLayout",
+    "Option3": "GridLayout",
+    "Option4": "FlexLayout",
+    "Answer": "GridLayout"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which layout positions child views using explicit coordinates?",
+    "Option1": "StackLayout",
+    "Option2": "AbsoluteLayout",
+    "Option3": "GridLayout",
+    "Option4": "RelativeLayout",
+    "Answer": "AbsoluteLayout"
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which layout positions and sizes child views relative to the layout itself or other views?",
+    "Option1": "StackLayout",
+    "Option2": "AbsoluteLayout",
+    "Option3": "GridLayout",
+    "Option4": "RelativeLayout",
+    "Answer": "RelativeLayout"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'CollectionView' in Xamarin.Forms?",
+    "Option1": "A control for displaying a single item.",
+    "Option2": "A flexible and performant view for displaying lists of data with customizable layouts and item templates.",
+    "Option3": "A collection of images.",
+    "Option4": "A control for displaying web content.",
+    "Answer": "A flexible and performant view for displaying lists of data with customizable layouts and item templates."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the predecessor of `CollectionView`?",
+    "Option1": "`StackLayout`",
+    "Option2": "`ListView`",
+    "Option3": "`ScrollView`",
+    "Option4": "`TableLayout`",
+    "Answer": "`ListView`"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What are the advantages of `CollectionView` over `ListView`?",
+    "Option1": "Less customizable.",
+    "Option2": "Improved performance, support for different layouts (grid, horizontal), and more flexible templating.",
+    "Option3": "Simpler API, but fewer features.",
+    "Option4": "Only supports vertical scrolling.",
+    "Answer": "Improved performance, support for different layouts (grid, horizontal), and more flexible templating."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What property is used to bind a collection of items to a `CollectionView`?",
+    "Option1": "`DataSource`",
+    "Option2": "`ItemsSource`",
+    "Option3": "`Items`",
+    "Option4": "`Content`",
+    "Answer": "`ItemsSource`"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'DataTemplate' used for in `CollectionView`?",
+    "Option1": "To define the data source.",
+    "Option2": "To define the visual representation of each item in the collection.",
+    "Option3": "To filter the items.",
+    "Option4": "To sort the items.",
+    "Answer": "To define the visual representation of each item in the collection."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Platform Projects' in a Xamarin.Forms solution?",
+    "Option1": "Projects for creating custom renderers.",
+    "Option2": "Separate projects (e.g., .NET Standard Library, Android, iOS, UWP) that contain platform-specific code and assets.",
+    "Option3": "Projects for testing applications.",
+    "Option4": "Projects for backend services.",
+    "Answer": "Separate projects (e.g., .NET Standard Library, Android, iOS, UWP) that contain platform-specific code and assets."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the purpose of the '.NET Standard Library' project in Xamarin.Forms?",
+    "Option1": "To contain platform-specific UI.",
+    "Option2": "To contain the shared code, business logic, ViewModels, and XAML pages that are common across all platforms.",
+    "Option3": "To build the application installer.",
+    "Option4": "To manage third-party dependencies.",
+    "Answer": "To contain the shared code, business logic, ViewModels, and XAML pages that are common across all platforms."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Application Lifecycle' in Xamarin.Forms?",
+    "Option1": "The development process of an application.",
+    "Option2": "The sequence of states an application goes through from launch to termination (e.g., starting, sleeping, resuming, shutting down).",
+    "Option3": "The release cycle of new versions.",
+    "Option4": "The process of continuous integration.",
+    "Answer": "The sequence of states an application goes through from launch to termination (e.g., starting, sleeping, resuming, shutting down)."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Name some common application lifecycle methods.",
+    "Option1": "`Initialize`, `Run`, `Exit`.",
+    "Option2": "`OnStart()`, `OnSleep()`, `OnResume()`.",
+    "Option3": "`Create()`, `Destroy()`, `Update()`.",
+    "Option4": "`Load()`, `Unload()`, `Refresh()`.",
+    "Answer": "`OnStart()`, `OnSleep()`, `OnResume()`."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which method is called when the application is launched?",
+    "Option1": "`OnSleep()`",
+    "Option2": "`OnStart()`",
+    "Option3": "`OnResume()`",
+    "Option4": "`OnDestroy()`",
+    "Answer": "`OnStart()`"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which method is called when the application goes into the background or is suspended?",
+    "Option1": "`OnStart()`",
+    "Option2": "`OnSleep()`",
+    "Option3": "`OnResume()`",
+    "Option4": "`OnDestroy()`",
+    "Answer": "`OnSleep()`"
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which method is called when the application returns from the background?",
+    "Option1": "`OnStart()`",
+    "Option2": "`OnSleep()`",
+    "Option3": "`OnResume()`",
+    "Option4": "`OnDestroy()`",
+    "Answer": "`OnResume()`"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Local Notifications' in mobile development?",
+    "Option1": "Notifications sent from a server.",
+    "Option2": "Notifications scheduled and displayed by the device itself, without needing a network connection.",
+    "Option3": "Notifications for in-app events.",
+    "Option4": "Notifications from other applications.",
+    "Answer": "Notifications scheduled and displayed by the device itself, without needing a network connection."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Push Notifications' in mobile development?",
+    "Option1": "Notifications triggered by user actions within the app.",
+    "Option2": "Notifications sent from a remote server to a mobile device.",
+    "Option3": "Notifications that appear only when the app is open.",
+    "Option4": "Notifications about software updates.",
+    "Answer": "Notifications sent from a remote server to a mobile device."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Essentials' in Xamarin.Forms?",
+    "Option1": "A set of basic UI controls.",
+    "Option2": "A cross-platform API for accessing common native device features from shared code.",
+    "Option3": "A package for database access.",
+    "Option4": "A tool for debugging.",
+    "Answer": "A cross-platform API for accessing common native device features from shared code."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Give an example of a feature provided by Xamarin.Essentials.",
+    "Option1": "Custom rendering of controls.",
+    "Option2": "Accessing device battery info, geolocation, connectivity status, or photo picker.",
+    "Option3": "Building complex animations.",
+    "Option4": "Defining custom commands.",
+    "Answer": "Accessing device battery info, geolocation, connectivity status, or photo picker."
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you check device connectivity using Xamarin.Essentials?",
+    "Option1": "`Network.IsConnected();`",
+    "Option2": "`Connectivity.NetworkAccess == NetworkAccess.Internet;`",
+    "Option3": "`Device.IsOnline();`",
+    "Option4": "`ConnectionStatus.IsAvailable();`",
+    "Answer": "`Connectivity.NetworkAccess == NetworkAccess.Internet;`"
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you get the current device location using Xamarin.Essentials?",
+    "Option1": "`await Geolocation.GetLocationAsync();`",
+    "Option2": "`Device.Location.GetCurrent();`",
+    "Option3": "`LocationService.GetCoordinates();`",
+    "Option4": "`await Sensors.Location.ReadAsync();`",
+    "Answer": "`await Geolocation.GetLocationAsync();`"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Platform-Specific Projects' (e.g., `Xamarin.Android`, `Xamarin.iOS`)?",
+    "Option1": "Projects that contain only UI code.",
+    "Option2": "Projects that contain the native application entry points, platform-specific resources, and any code that directly interacts with native APIs for Android or iOS.",
+    "Option3": "Projects for shared logic.",
+    "Option4": "Projects for web services.",
+    "Answer": "Projects that contain the native application entry points, platform-specific resources, and any code that directly interacts with native APIs for Android or iOS."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the main entry point for a Xamarin.Android application?",
+    "Option1": "`MainActivity.cs`",
+    "Option2": "`App.cs`",
+    "Option3": "`AppDelegate.cs`",
+    "Option4": "`Program.cs`",
+    "Answer": "`MainActivity.cs`"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the main entry point for a Xamarin.iOS application?",
+    "Option1": "`MainActivity.cs`",
+    "Option2": "`App.cs`",
+    "Option3": "`AppDelegate.cs`",
+    "Option4": "`Program.cs`",
+    "Answer": "`AppDelegate.cs`"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'UI Testing' in Xamarin?",
+    "Option1": "Testing the backend API.",
+    "Option2": "Automating interactions with the user interface to verify its correctness and functionality.",
+    "Option3": "Unit testing business logic.",
+    "Option4": "Performance testing of the application.",
+    "Answer": "Automating interactions with the user interface to verify its correctness and functionality."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What tool is commonly used for UI testing in Xamarin?",
+    "Option1": "NUnit",
+    "Option2": "XUnit",
+    "Option3": "Xamarin.UITest",
+    "Option4": "Selenium",
+    "Answer": "Xamarin.UITest"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'App Center' in the context of Xamarin development?",
+    "Option1": "An app store for Xamarin applications.",
+    "Option2": "A continuous integration and delivery (CI/CD) platform for building, testing, distributing, and monitoring mobile apps.",
+    "Option3": "A code editor for Xamarin.",
+    "Option4": "A debugging tool for mobile devices.",
+    "Answer": "A continuous integration and delivery (CI/CD) platform for building, testing, distributing, and monitoring mobile apps."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What are some services offered by App Center?",
+    "Option1": "Database hosting and web server management.",
+    "Option2": "Build, Test, Distribute, Analytics, Crash, Push.",
+    "Option3": "Graphic design and marketing.",
+    "Option4": "Code generation and automated refactoring.",
+    "Answer": "Build, Test, Distribute, Analytics, Crash, Push."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Code Sharing Strategy' in Xamarin development?",
+    "Option1": "Sharing code across multiple developers.",
+    "Option2": "The approach used to maximize code reuse across different platforms while still enabling platform-specific features.",
+    "Option3": "Using open-source libraries.",
+    "Option4": "Sharing code with external applications.",
+    "Answer": "The approach used to maximize code reuse across different platforms while still enabling platform-specific features."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What are the common code sharing strategies in Xamarin?",
+    "Option1": "Copy-pasting and Git.",
+    "Option2": "Shared Projects and .NET Standard Libraries.",
+    "Option3": "MonoGame and Unity.",
+    "Option4": "WebViews and Native Views.",
+    "Answer": "Shared Projects and .NET Standard Libraries."
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which code sharing strategy is generally recommended for Xamarin.Forms and why?",
+    "Option1": "Shared Projects, because they are simpler.",
+    "Option2": ".NET Standard Libraries, because they enable better modularity, stricter API contracts, and easier referencing.",
+    "Option3": "Both are equally good.",
+    "Option4": "Neither, you should write separate code for each platform.",
+    "Answer": ".NET Standard Libraries, because they enable better modularity, stricter API contracts, and easier referencing."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Fast Renderers' in Xamarin.Forms?",
+    "Option1": "Renderers that are optimized for speed.",
+    "Option2": "Renderers that significantly improve the performance of Xamarin.Forms controls by flattening the visual hierarchy and reducing native control overhead.",
+    "Option3": "Renderers that create custom animations.",
+    "Option4": "Renderers for complex graphics.",
+    "Answer": "Renderers that significantly improve the performance of Xamarin.Forms controls by flattening the visual hierarchy and reducing native control overhead."
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which platform supports Fast Renderers by default?",
+    "Option1": "iOS and UWP.",
+    "Option2": "Android.",
+    "Option3": "All platforms equally.",
+    "Option4": "Only specific older versions of iOS.",
+    "Answer": "Android."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Hot Reload' in Xamarin.Forms?",
+    "Option1": "Reloading the entire application after every change.",
+    "Option2": "A feature that allows you to make changes to your XAML UI and immediately see them reflected in the running application without recompiling or restarting.",
+    "Option3": "A feature for debugging network requests.",
+    "Option4": "A tool for performing live unit tests.",
+    "Answer": "A feature that allows you to make changes to your XAML UI and immediately see them reflected in the running application without recompiling or restarting."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Live Visual Tree' in Visual Studio for Xamarin?",
+    "Option1": "A tree view of project files.",
+    "Option2": "A tool window that displays the visual hierarchy of your running Xamarin.Forms application, allowing you to inspect elements and their properties.",
+    "Option3": "A graph of data dependencies.",
+    "Option4": "A list of active processes.",
+    "Answer": "A tool window that displays the visual hierarchy of your running Xamarin.Forms application, allowing you to inspect elements and their properties."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the purpose of 'Themes' in Xamarin.Forms?",
+    "Option1": "To provide dark mode functionality.",
+    "Option2": "To provide a consistent look and feel across an application by defining a set of colors, fonts, and other visual properties.",
+    "Option3": "To change the application's icon.",
+    "Option4": "To modify app behavior based on user preferences.",
+    "Answer": "To provide a consistent look and feel across an application by defining a set of colors, fonts, and other visual properties."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Data Converters' in Xamarin.Forms?",
+    "Option1": "Tools for converting data formats.",
+    "Option2": "Classes that implement `IValueConverter` to transform data before it is displayed in the UI or before it is passed from the UI to the ViewModel.",
+    "Option3": "Libraries for encryption.",
+    "Option4": "Methods for data validation.",
+    "Answer": "Classes that implement `IValueConverter` to transform data before it is displayed in the UI or before it is passed from the UI to the ViewModel."
+  },
+  {
+    "question_no.": 95,
+    "Question": "When would you use a `IValueConverter`?",
+    "Option1": "When directly binding a value without any transformation.",
+    "Option2": "When the data in your ViewModel needs to be presented in a different format or type in the UI (e.g., converting a boolean to 'Yes'/'No').",
+    "Option3": "For complex business logic.",
+    "Option4": "For handling user input directly.",
+    "Answer": "When the data in your ViewModel needs to be presented in a different format or type in the UI (e.g., converting a boolean to 'Yes'/'No')."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'Dependency Injection' (DI) in Xamarin.Forms?",
+    "Option1": "Injecting dependencies directly into XAML.",
+    "Option2": "A software design pattern that enables loose coupling between components by providing dependencies to an object rather than the object creating them itself.",
+    "Option3": "A method for securely storing user credentials.",
+    "Option4": "A technique for animating UI elements.",
+    "Answer": "A software design pattern that enables loose coupling between components by providing dependencies to an object rather than the object creating them itself."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What are the benefits of using Dependency Injection?",
+    "Option1": "Tighter coupling and increased complexity.",
+    "Option2": "Improved testability, maintainability, and reusability of code.",
+    "Option3": "Faster application startup time.",
+    "Option4": "Reduced memory consumption.",
+    "Answer": "Improved testability, maintainability, and reusability of code."
+  },
+  {
+    "question_no.": 98,
+    "Question": "Name a popular DI container used with Xamarin.Forms.",
+    "Option1": "Unity",
+    "Option2": "Autofac",
+    "Option3": "DryIoc",
+    "Option4": "All of the above (and others like Prism's container, MvvmCross's IoC).",
+    "Answer": "All of the above (and others like Prism's container, MvvmCross's IoC)."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Prism' in Xamarin.Forms?",
+    "Option1": "A UI component library.",
+    "Option2": "A comprehensive framework for building loosely coupled, maintainable, and testable XAML applications, providing a rich set of features for MVVM, navigation, and DI.",
+    "Option3": "A graphics rendering engine.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "A comprehensive framework for building loosely coupled, maintainable, and testable XAML applications, providing a rich set of features for MVVM, navigation, and DI."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'MvvmCross' in Xamarin.Forms?",
+    "Option1": "A routing library.",
+    "Option2": "A cross-platform MVVM framework that supports Xamarin.iOS, Xamarin.Android, Xamarin.Forms, and other platforms, focusing on code sharing and testability.",
+    "Option3": "A data persistence solution.",
+    "Option4": "A UI animation framework.",
+    "Answer": "A cross-platform MVVM framework that supports Xamarin.iOS, Xamarin.Android, Xamarin.Forms, and other platforms, focusing on code sharing and testability."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Platform Specific Code'?",
+    "Option1": "Code that runs on any platform.",
+    "Option2": "Code written specifically for a single mobile operating system (e.g., iOS, Android) to access features unique to that platform.",
+    "Option3": "Code for web APIs.",
+    "Option4": "Code for shared UI.",
+    "Answer": "Code written specifically for a single mobile operating system (e.g., iOS, Android) to access features unique to that platform."
+  },
+  {
+    "question_no.": 102,
+    "Question": "When is platform-specific code necessary in a Xamarin.Forms application?",
+    "Option1": "Always, for every feature.",
+    "Option2": "When Xamarin.Essentials, Platform-specifics, or custom renderers/effects are not sufficient to achieve the desired native functionality or UI customization.",
+    "Option3": "Only for debugging purposes.",
+    "Option4": "Never, Xamarin.Forms handles everything.",
+    "Answer": "When Xamarin.Essentials, Platform-specifics, or custom renderers/effects are not sufficient to achieve the desired native functionality or UI customization."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'App Linking' (or Deep Linking) in mobile apps?",
+    "Option1": "Linking an app to a social media account.",
+    "Option2": "Allowing users to navigate directly to specific content within a mobile application using a URL.",
+    "Option3": "Linking multiple apps together.",
+    "Option4": "Creating shortcuts to an app.",
+    "Answer": "Allowing users to navigate directly to specific content within a mobile application using a URL."
+  },
+  {
+    "question_no.": 104,
+    "Question": "How is App Linking typically handled in Xamarin.Forms Shell?",
+    "Option1": "Through explicit button clicks.",
+    "Option2": "Using URI-based navigation.",
+    "Option3": "By hardcoding page names.",
+    "Option4": "Through global events.",
+    "Answer": "Using URI-based navigation."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Shell URI-based navigation'?",
+    "Option1": "Navigation using traditional URLs.",
+    "Option2": "A navigation system in Xamarin.Forms Shell that allows you to define routes for pages and navigate using URI strings.",
+    "Option3": "Navigation based on gestures.",
+    "Option4": "Navigation only for web pages.",
+    "Answer": "A navigation system in Xamarin.Forms Shell that allows you to define routes for pages and navigate using URI strings."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Theming' in Xamarin.Forms (beyond basic styles)?",
+    "Option1": "Applying different color schemes.",
+    "Option2": "A more comprehensive approach to styling that involves defining a consistent visual language across the entire application, often including light/dark modes and dynamic resource changes.",
+    "Option3": "Changing the app's launch screen.",
+    "Option4": "Modifying only text properties.",
+    "Answer": "A more comprehensive approach to styling that involves defining a consistent visual language across the entire application, often including light/dark modes and dynamic resource changes."
+  },
+  {
+    "question_no.": 107,
+    "Question": "How can you implement light and dark themes in Xamarin.Forms?",
+    "Option1": "Using two separate apps.",
+    "Option2": "By using `AppThemeBinding` and `DynamicResource` with a `ResourceDictionary` that provides different values based on the current theme.",
+    "Option3": "By manually changing all colors in code.",
+    "Option4": "By using platform-specific settings only.",
+    "Answer": "By using `AppThemeBinding` and `DynamicResource` with a `ResourceDictionary` that provides different values based on the current theme."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Modal Navigation'?",
+    "Option1": "Navigation within a single page.",
+    "Option2": "Presenting a new page that takes over the entire screen and requires an explicit dismissal before returning to the previous page.",
+    "Option3": "Navigation that allows multiple pages to be open simultaneously.",
+    "Option4": "Navigation controlled by voice commands.",
+    "Answer": "Presenting a new page that takes over the entire screen and requires an explicit dismissal before returning to the previous page."
+  },
+  {
+    "question_no.": 109,
+    "Question": "When would you use Modal Navigation?",
+    "Option1": "For primary navigation within the app.",
+    "Option2": "For presenting critical information, requesting user input for a specific task, or showing temporary content that interrupts the user's workflow.",
+    "Option3": "For simple page transitions.",
+    "Option4": "For displaying a list of items.",
+    "Answer": "For presenting critical information, requesting user input for a specific task, or showing temporary content that interrupts the user's workflow."
+  },
+  {
+    "question_no.": 110,
+    "Question": "How do you present a modal page?",
+    "Option1": "`await Navigation.PushAsync(new MyModalPage());`",
+    "Option2": "`await Navigation.PushModalAsync(new MyModalPage());`",
+    "Option3": "`ModalPage.Show(new MyModalPage());`",
+    "Option4": "`this.DisplayModal(new MyModalPage());`",
+    "Answer": "`await Navigation.PushModalAsync(new MyModalPage());`"
+  },
+  {
+    "question_no.": 111,
+    "Question": "How do you dismiss a modal page?",
+    "Option1": "`await Navigation.PopAsync();`",
+    "Option2": "`await Navigation.PopModalAsync();`",
+    "Option3": "`ModalPage.Hide();`",
+    "Option4": "`this.DismissModal();`",
+    "Answer": "`await Navigation.PopModalAsync();`"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Hardware Back Button behavior' in Android?",
+    "Option1": "A button on the screen to go back.",
+    "Option2": "The default behavior of the physical or virtual back button on Android devices, which typically pops the current page from the navigation stack.",
+    "Option3": "A button to return to the home screen.",
+    "Option4": "A button to close the application.",
+    "Answer": "The default behavior of the physical or virtual back button on Android devices, which typically pops the current page from the navigation stack."
+  },
+  {
+    "question_no.": 113,
+    "Question": "How can you override the hardware back button behavior in Xamarin.Forms?",
+    "Option1": "It cannot be overridden.",
+    "Option2": "By overriding the `OnBackButtonPressed()` method in a `ContentPage` or using `Shell.SetBackButtonBehavior()` in Shell.",
+    "Option3": "By handling a global event.",
+    "Option4": "By modifying the Android manifest only.",
+    "Answer": "By overriding the `OnBackButtonPressed()` method in a `ContentPage` or using `Shell.SetBackButtonBehavior()` in Shell."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Animations' in Xamarin.Forms?",
+    "Option1": "Static visual effects.",
+    "Option2": "APIs for creating fluid and engaging user interface transitions and effects.",
+    "Option3": "A tool for generating videos.",
+    "Option4": "A way to play GIF files.",
+    "Answer": "APIs for creating fluid and engaging user interface transitions and effects."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What are the common types of animations in Xamarin.Forms?",
+    "Option1": "Simple (e.g., `FadeTo`, `TranslateTo`) and Custom (`Animation` class).",
+    "Option2": "Keyframe and Frame-by-frame.",
+    "Option3": "2D and 3D.",
+    "Option4": "Path and Sprite.",
+    "Answer": "Simple (e.g., `FadeTo`, `TranslateTo`) and Custom (`Animation` class)."
+  },
+  {
+    "question_no.": 116,
+    "Question": "How do you perform a simple fade animation on an element?",
+    "Option1": "`MyElement.Opacity = 0;`",
+    "Option2": "`await MyElement.FadeTo(0, 500);`",
+    "Option3": "`Animation.Fade(MyElement, 0, 500);`",
+    "Option4": "`MyElement.Animate(\"Opacity\", 0, 500);`",
+    "Answer": "`await MyElement.FadeTo(0, 500);`"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Custom Controls' in Xamarin.Forms?",
+    "Option1": "Built-in controls with modified styles.",
+    "Option2": "New UI elements created from scratch or by combining existing controls, often inheriting from `ContentView` or `TemplatedView`.",
+    "Option3": "Components for custom rendering only.",
+    "Option4": "Controls generated by a design tool.",
+    "Answer": "New UI elements created from scratch or by combining existing controls, often inheriting from `ContentView` or `TemplatedView`."
+  },
+  {
+    "question_no.": 118,
+    "Question": "When would you create a Custom Control?",
+    "Option1": "When existing Xamarin.Forms controls meet all your requirements.",
+    "Option2": "When no existing Xamarin.Forms control or combination of controls can provide the required functionality and appearance.",
+    "Option3": "For minor UI adjustments.",
+    "Option4": "To improve application performance.",
+    "Answer": "When no existing Xamarin.Forms control or combination of controls can provide the required functionality and appearance."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Platform Specific Markup Extensions'?",
+    "Option1": "Markup extensions for XAML styling.",
+    "Option2": "Markup extensions that allow you to define platform-specific values directly within XAML.",
+    "Option3": "Markup extensions for data binding.",
+    "Option4": "Markup extensions for creating custom renderers.",
+    "Answer": "Markup extensions that allow you to define platform-specific values directly within XAML."
+  },
+  {
+    "question_no.": 120,
+    "Question": "Give an example of a Platform Specific Markup Extension.",
+    "Option1": "`{Binding}`",
+    "Option2": "`{OnPlatform}` or `{OnIdiom}`",
+    "Option3": "`{StaticResource}`",
+    "Option4": "`{x:Static}`",
+    "Answer": "`{OnPlatform}` or `{OnIdiom}`"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `OnPlatform` Markup Extension used for?",
+    "Option1": "To apply different styles based on the device's idiom (phone, tablet).",
+    "Option2": "To set property values differently based on the target operating system (iOS, Android, UWP).",
+    "Option3": "To dynamically load platform-specific libraries.",
+    "Option4": "To detect the current platform at runtime.",
+    "Answer": "To set property values differently based on the target operating system (iOS, Android, UWP)."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `OnIdiom` Markup Extension used for?",
+    "Option1": "To set property values based on the target operating system.",
+    "Option2": "To set property values differently based on the device's idiom (e.g., Phone, Tablet, Desktop).",
+    "Option3": "To translate text into different languages.",
+    "Option4": "To adjust layouts for different screen sizes.",
+    "Answer": "To set property values differently based on the device's idiom (e.g., Phone, Tablet, Desktop)."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Device Class' in Xamarin.Forms (now largely replaced by Essentials)?",
+    "Option1": "A class for interacting with external hardware.",
+    "Option2": "A class that provided platform-specific information and methods for interacting with the device (e.g., `Device.RuntimePlatform`).",
+    "Option3": "A class for managing user preferences.",
+    "Option4": "A class for defining custom controls.",
+    "Answer": "A class that provided platform-specific information and methods for interacting with the device (e.g., `Device.RuntimePlatform`)."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Xamarin.Mac'?",
+    "Option1": "Xamarin for iPhone.",
+    "Option2": "A framework for building native macOS applications using C# and .NET.",
+    "Option3": "Xamarin on a Mac computer.",
+    "Option4": "A version of Xamarin for old Mac OS versions.",
+    "Answer": "A framework for building native macOS applications using C# and .NET."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Xamarin.Tizen'?",
+    "Option1": "Xamarin for smart TVs.",
+    "Option2": "A platform binding that enables developing applications for Tizen-powered devices (e.g., smart TVs, wearables) using C#.",
+    "Option3": "Xamarin for specific Android devices.",
+    "Option4": "A custom renderer for Tizen.",
+    "Answer": "A platform binding that enables developing applications for Tizen-powered devices (e.g., smart TVs, wearables) using C#."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Xamarin.UWP'?",
+    "Option1": "Xamarin for old Windows Phone devices.",
+    "Option2": "A platform binding for building Universal Windows Platform (UWP) applications for Windows 10 devices using C#.",
+    "Option3": "Xamarin for web browsers.",
+    "Option4": "A testing framework for Windows applications.",
+    "Answer": "A platform binding for building Universal Windows Platform (UWP) applications for Windows 10 devices using C#."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Embedding Xamarin.Forms in Native Apps'?",
+    "Option1": "Running native apps inside a Xamarin.Forms app.",
+    "Option2": "The capability to integrate Xamarin.Forms pages or controls directly into existing native iOS, Android, or UWP applications.",
+    "Option3": "Converting a native app to Xamarin.Forms.",
+    "Option4": "A feature for sharing code between native and Forms.",
+    "Answer": "The capability to integrate Xamarin.Forms pages or controls directly into existing native iOS, Android, or UWP applications."
+  },
+  {
+    "question_no.": 128,
+    "Question": "When would you consider embedding Xamarin.Forms in a native app?",
+    "Option1": "When building a brand new application entirely in Xamarin.Forms.",
+    "Option2": "When modernizing parts of an existing native application or incrementally adding cross-platform UI to a native codebase.",
+    "Option3": "To improve the performance of a native app.",
+    "Option4": "To completely replace native UI with Xamarin.Forms.",
+    "Answer": "When modernizing parts of an existing native application or incrementally adding cross-platform UI to a native codebase."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Platform Handlers' (in .NET MAUI, but conceptually important for Xamarin transitions)?",
+    "Option1": "Event handlers for platform-specific events.",
+    "Option2": "A new approach to native control mapping that simplifies customization and improves performance compared to custom renderers.",
+    "Option3": "Error handlers for platform exceptions.",
+    "Option4": "Managers for platform permissions.",
+    "Answer": "A new approach to native control mapping that simplifies customization and improves performance compared to custom renderers."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Hot Restart' for iOS development with Xamarin?",
+    "Option1": "Restarting the iOS device without unplugging.",
+    "Option2": "A feature that allows you to build and debug your iOS app directly on a local iOS device without needing a Mac, by deploying changes quickly.",
+    "Option3": "A feature to automatically update the app in the App Store.",
+    "Option4": "A way to hot-swap code on a running iOS simulator.",
+    "Answer": "A feature that allows you to build and debug your iOS app directly on a local iOS device without needing a Mac, by deploying changes quickly."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the primary function of `App.xaml.cs` in a Xamarin.Forms project?",
+    "Option1": "To define the application's main page.",
+    "Option2": "To handle application lifecycle events and initialize the main page.",
+    "Option3": "To store static resources.",
+    "Option4": "To define custom renderers.",
+    "Answer": "To handle application lifecycle events and initialize the main page."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'CollectionView EmptyView'?",
+    "Option1": "A view that is always empty.",
+    "Option2": "A template that is displayed when the `ItemsSource` of a `CollectionView` is empty or null.",
+    "Option3": "A placeholder for uninitialized data.",
+    "Option4": "A view for displaying loading indicators.",
+    "Answer": "A template that is displayed when the `ItemsSource` of a `CollectionView` is empty or null."
+  },
+  {
+    "question_no.": 133,
+    "Question": "How do you bind a `Command` to a `TapGestureRecognizer`?",
+    "Option1": "<Label Command=\"{Binding MyTapCommand}\" />",
+    "Option2": "<Label><Label.GestureRecognizers><TapGestureRecognizer Command=\"{Binding MyTapCommand}\" /></Label.GestureRecognizers></Label>",
+    "Option3": "<Label TapCommand=\"{Binding MyTapCommand}\" />",
+    "Option4": "<Label Event=\"Tap\" Command=\"{Binding MyTapCommand}\" />",
+    "Answer": "<TapGestureRecognizer Command=\"{Binding MyTapCommand}\" />"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'MessagingCenter' best suited for?",
+    "Option1": "Direct communication between parent and child components.",
+    "Option2": "Broadcasting messages between loosely coupled parts of the application that don't have direct references to each other.",
+    "Option3": "Passing complex data structures between pages.",
+    "Option4": "Managing global application state.",
+    "Answer": "Broadcasting messages between loosely coupled parts of the application that don't have direct references to each other."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What are 'Attached Properties' in Xamarin.Forms?",
+    "Option1": "Properties that are attached to a specific object.",
+    "Option2": "Properties defined in one class but attached to elements of another class, often used for behaviors or layout constraints.",
+    "Option3": "Properties that automatically update their values.",
+    "Option4": "Properties that are only accessible from code-behind.",
+    "Answer": "Properties defined in one class but attached to elements of another class, often used for behaviors or layout constraints."
+  },
+  {
+    "question_no.": 136,
+    "Question": "Give an example of a common use case for Attached Properties.",
+    "Option1": "Setting the `Text` property of a `Label`.",
+    "Option2": "Defining row and column properties for children within a `Grid` (e.g., `Grid.Row`, `Grid.Column`).",
+    "Option3": "Binding a `Command` to a `Button`.",
+    "Option4": "Setting the `FontSize` of a `Label`.",
+    "Answer": "Defining row and column properties for children within a `Grid` (e.g., `Grid.Row`, `Grid.Column`)."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'VisualStateManager' in Xamarin.Forms?",
+    "Option1": "A tool for visualizing the UI tree.",
+    "Option2": "A mechanism for defining visual states of controls (e.g., normal, focused, disabled) and the visual changes that occur when those states change.",
+    "Option3": "A manager for visual assets.",
+    "Option4": "A manager for handling animations.",
+    "Answer": "A mechanism for defining visual states of controls (e.g., normal, focused, disabled) and the visual changes that occur when those states change."
+  },
+  {
+    "question_no.": 138,
+    "Question": "When would you use `VisualStateManager`?",
+    "Option1": "For creating complex custom controls.",
+    "Option2": "To manage the visual appearance of a control based on its internal state or external property changes.",
+    "Option3": "For simple one-time styling.",
+    "Option4": "For controlling navigation flow.",
+    "Answer": "To manage the visual appearance of a control based on its internal state or external property changes."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Device.InvokeOnMainThreadAsync' (or `Device.BeginInvokeOnMainThread`) used for?",
+    "Option1": "To perform background operations.",
+    "Option2": "To execute UI-related code on the main UI thread, especially when called from a background thread, to prevent UI freezing.",
+    "Option3": "To invoke a method asynchronously.",
+    "Option4": "To run code after a delay.",
+    "Answer": "To execute UI-related code on the main UI thread, especially when called from a background thread, to prevent UI freezing."
+  },
+  {
+    "question_no.": 140,
+    "Question": "Why is it important to execute UI operations on the main thread?",
+    "Option1": "To reduce memory consumption.",
+    "Option2": "Because UI elements are not thread-safe and attempting to modify them from a background thread can lead to crashes or unexpected behavior.",
+    "Option3": "To improve network performance.",
+    "Option4": "To ensure data consistency.",
+    "Answer": "Because UI elements are not thread-safe and attempting to modify them from a background thread can lead to crashes or unexpected behavior."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Behavior Packs' or 'Community Toolkit (MVVM Toolkit)' for Xamarin.Forms?",
+    "Option1": "Collections of pre-built UI controls.",
+    "Option2": "Libraries that provide a set of common behaviors, converters, and other MVVM helpers to accelerate development.",
+    "Option3": "Packages for platform-specific functionalities.",
+    "Option4": "Tools for generating code.",
+    "Answer": "Libraries that provide a set of common behaviors, converters, and other MVVM helpers to accelerate development."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'ObservableCollection<T>' used for in data binding?",
+    "Option1": "A static collection of data.",
+    "Option2": "A dynamic collection that automatically notifies the UI when items are added, removed, or refreshed.",
+    "Option3": "A collection that stores only primitive types.",
+    "Option4": "A collection for read-only data.",
+    "Answer": "A dynamic collection that automatically notifies the UI when items are added, removed, or refreshed."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Why is `ObservableCollection<T>` preferred over `List<T>` for data-bound lists?",
+    "Option1": "`List<T>` is more performant.",
+    "Option2": "`List<T>` does not provide change notifications, so the UI would not automatically update when items are added or removed.",
+    "Option3": "`ObservableCollection<T>` supports more data types.",
+    "Option4": "`List<T>` can only be used in code-behind.",
+    "Answer": "`List<T>` does not provide change notifications, so the UI would not automatically update when items are added or removed."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Visual State Manager' (VSM) useful for?",
+    "Option1": "Managing application lifecycle states.",
+    "Option2": "Defining how a control's appearance changes in response to different visual states (e.g., `Normal`, `Disabled`, `Focused`, `Selected`).",
+    "Option3": "Debugging visual issues.",
+    "Option4": "Organizing visual assets.",
+    "Answer": "Defining how a control's appearance changes in response to different visual states (e.g., `Normal`, `Disabled`, `Focused`, `Selected`)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How do you define visual states in XAML using `VisualStateManager`?",
+    "Option1": "<VisualStateManager.VisualStateGroups><VisualStateGroupList>...</VisualStateGroupList></VisualStateManager.VisualStateGroups>",
+    "Option2": "<Style.Triggers><Trigger /></Style.Triggers>",
+    "Option3": "<ControlTemplate><VisualStateGroupList /></ControlTemplate>",
+    "Option4": "<Layout.Children><VisualStateGroupList /></Layout.Children>",
+    "Answer": "<VisualStateManager.VisualStateGroups><VisualStateGroupList>...</VisualStateGroupList></VisualStateManager.VisualStateGroups>"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Effect Groups'?",
+    "Option1": "A collection of visual effects.",
+    "Option2": "A way to group multiple `Effect` instances for easier management and application.",
+    "Option3": "A type of animation group.",
+    "Option4": "A mechanism for global effects.",
+    "Answer": "A way to group multiple `Effect` instances for easier management and application."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `ICommand`'s `CanExecute` method for?",
+    "Option1": "To check if the command can be executed asynchronously.",
+    "Option2": "To determine if the command should be enabled or disabled in the UI.",
+    "Option3": "To execute the command without any parameters.",
+    "Option4": "To cancel a running command.",
+    "Answer": "To determine if the command should be enabled or disabled in the UI."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `ICommand`'s `Execute` method for?",
+    "Option1": "To check if the command can be executed.",
+    "Option2": "To perform the actual action associated with the command.",
+    "Option3": "To determine if the command is currently running.",
+    "Option4": "To update the UI after a command has finished.",
+    "Answer": "To perform the actual action associated with the command."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `RelayCommand` (or `DelegateCommand`) typically based on?",
+    "Option1": "A complex state machine.",
+    "Option2": "Encapsulating `Action` and `Func<bool>` delegates for `Execute` and `CanExecute` respectively.",
+    "Option3": "Direct calls to platform-specific APIs.",
+    "Option4": "A set of pre-defined behaviors.",
+    "Answer": "Encapsulating `Action` and `Func<bool>` delegates for `Execute` and `CanExecute` respectively."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Relative Binding'?",
+    "Option1": "Binding to a property of the current object.",
+    "Option2": "Binding to a property of an ancestor in the visual tree or to an element identified by its name.",
+    "Option3": "Binding to an external data source.",
+    "Option4": "Binding to a property in a different application.",
+    "Answer": "Binding to a property of an ancestor in the visual tree or to an element identified by its name."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What are the common `RelativeSource` modes for Relative Binding?",
+    "Option1": "Self, Parent, Child.",
+    "Option2": "Self, TemplatedParent, FindAncestor, Mode.",
+    "Option3": "Local, Global, External.",
+    "Option4": "Static, Dynamic, Absolute.",
+    "Answer": "Self, TemplatedParent, FindAncestor, Mode."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `x:DataType` in XAML?",
+    "Option1": "A property that specifies the data type of the current element.",
+    "Option2": "A markup extension that provides type information to XAML for compile-time checking of data bindings, improving performance and developer experience.",
+    "Option3": "A property for defining custom data types.",
+    "Option4": "A way to convert data types.",
+    "Answer": "A markup extension that provides type information to XAML for compile-time checking of data bindings, improving performance and developer experience."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is the benefit of using `x:DataType`?",
+    "Option1": "It makes the app run faster at runtime.",
+    "Option2": "It enables compile-time checking of data bindings, catching errors earlier and providing better IntelliSense.",
+    "Option3": "It reduces the size of the XAML file.",
+    "Option4": "It allows dynamic data types.",
+    "Answer": "It enables compile-time checking of data bindings, catching errors earlier and providing better IntelliSense."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Platform-specific configuration' in Xamarin projects?",
+    "Option1": "Configuration for shared code.",
+    "Option2": "Settings and manifest files (e.g., `AndroidManifest.xml`, `Info.plist`) that control app behavior, permissions, and appearance on each native platform.",
+    "Option3": "Configuration for external APIs.",
+    "Option4": "Configuration for database connections.",
+    "Answer": "Settings and manifest files (e.g., `AndroidManifest.xml`, `Info.plist`) that control app behavior, permissions, and appearance on each native platform."
+  },
+  {
+    "question_no.": 155,
+    "Question": "Where do you typically set app permissions for an Android Xamarin app?",
+    "Option1": "`App.xaml.cs`",
+    "Option2": "`AndroidManifest.xml`",
+    "Option3": "`MainActivity.cs`",
+    "Option4": "In a C# code file.",
+    "Answer": "`AndroidManifest.xml`"
+  },
+  {
+    "question_no.": 156,
+    "Question": "Where do you typically set app permissions for an iOS Xamarin app?",
+    "Option1": "`AppDelegate.cs`",
+    "Option2": "`Info.plist`",
+    "Option3": "`Main.cs`",
+    "Option4": "In a C# code file.",
+    "Answer": "`Info.plist`"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `NavigationPage.HasNavigationBar` attached property for?",
+    "Option1": "To add a new navigation bar.",
+    "Option2": "To show or hide the navigation bar on a `ContentPage` within a `NavigationPage`.",
+    "Option3": "To change the color of the navigation bar.",
+    "Option4": "To change the height of the navigation bar.",
+    "Answer": "To show or hide the navigation bar on a `ContentPage` within a `NavigationPage`."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'CarouselView' in Xamarin.Forms?",
+    "Option1": "A view for displaying a single item.",
+    "Option2": "A view for presenting items in a horizontally scrolling, looping list, often used for image carousels or onboarding flows.",
+    "Option3": "A view for displaying data in a grid.",
+    "Option4": "A view for playing videos.",
+    "Answer": "A view for presenting items in a horizontally scrolling, looping list, often used for image carousels or onboarding flows."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `IndicatorView` in Xamarin.Forms?",
+    "Option1": "A view to display loading indicators.",
+    "Option2": "A view that displays indicators (e.g., dots) for the current position in a `CarouselView` or `CollectionView`.",
+    "Option3": "A view for displaying progress bars.",
+    "Option4": "A view for displaying status messages.",
+    "Answer": "A view that displays indicators (e.g., dots) for the current position in a `CarouselView` or `CollectionView`."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `SwipeView` in Xamarin.Forms?",
+    "Option1": "A view for swiping between pages.",
+    "Option2": "A container control that wraps content and provides context-sensitive swipe-to-reveal menu items.",
+    "Option3": "A view for detecting swipe gestures.",
+    "Option4": "A view for image galleries.",
+    "Answer": "A container control that wraps content and provides context-sensitive swipe-to-reveal menu items."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Layout Compression' in Xamarin.Forms?",
+    "Option1": "Compressing images in layouts.",
+    "Option2": "A feature that attempts to remove redundant layers from the visual tree at runtime, potentially improving UI rendering performance.",
+    "Option3": "Compressing the XAML file size.",
+    "Option4": "Reducing the number of controls in a layout.",
+    "Answer": "A feature that attempts to remove redundant layers from the visual tree at runtime, potentially improving UI rendering performance."
+  },
+  {
+    "question_no.": 162,
+    "Question": "When would you enable Layout Compression?",
+    "Option1": "Always, by default.",
+    "Option2": "For complex layouts with many nested views, where it can offer performance improvements.",
+    "Option3": "Only for simple, flat layouts.",
+    "Option4": "When debugging performance issues.",
+    "Answer": "For complex layouts with many nested views, where it can offer performance improvements."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Font Icons' in Xamarin.Forms?",
+    "Option1": "Images used as icons.",
+    "Option2": "Using font files (e.g., Font Awesome) to display scalable vector icons within your application, leveraging text properties for styling.",
+    "Option3": "Custom drawn icons.",
+    "Option4": "Icons downloaded from a web service.",
+    "Answer": "Using font files (e.g., Font Awesome) to display scalable vector icons within your application, leveraging text properties for styling."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What are the advantages of using Font Icons over image files for icons?",
+    "Option1": "Larger file sizes.",
+    "Option2": "Scalability without pixelation, easier recoloring, and smaller asset sizes.",
+    "Option3": "Better performance for animations.",
+    "Option4": "Only supports black and white icons.",
+    "Answer": "Scalability without pixelation, easier recoloring, and smaller asset sizes."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Platform-specific Fonts'?",
+    "Option1": "Fonts that are only available on one platform.",
+    "Option2": "Using fonts that are natively available on iOS, Android, or UWP devices without embedding them in the app package.",
+    "Option3": "Custom fonts downloaded from the internet.",
+    "Option4": "Fonts for different languages.",
+    "Answer": "Using fonts that are natively available on iOS, Android, or UWP devices without embedding them in the app package."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Embedded Fonts'?",
+    "Option1": "Fonts that are linked dynamically.",
+    "Option2": "Including custom font files directly within your Xamarin.Forms application package, making them available across all platforms.",
+    "Option3": "Fonts that are part of the operating system.",
+    "Option4": "Fonts used in web views.",
+    "Answer": "Including custom font files directly within your Xamarin.Forms application package, making them available across all platforms."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Gradient Brushes' in Xamarin.Forms?",
+    "Option1": "Brushes for drawing lines.",
+    "Option2": "A feature that allows you to paint areas with linear or radial color gradients.",
+    "Option3": "Brushes for painting images.",
+    "Option4": "Brushes for drawing text.",
+    "Answer": "A feature that allows you to paint areas with linear or radial color gradients."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What are the two main types of Gradient Brushes?",
+    "Option1": "Solid and Dashed.",
+    "Option2": "LinearGradientBrush and RadialGradientBrush.",
+    "Option3": "Top-to-Bottom and Left-to-Right.",
+    "Option4": "Circular and Rectangular.",
+    "Answer": "LinearGradientBrush and RadialGradientBrush."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Shapes' in Xamarin.Forms?",
+    "Option1": "Pre-defined geometric shapes.",
+    "Option2": "A set of controls (e.g., `Rectangle`, `Ellipse`, `Polygon`, `Path`) for drawing 2D shapes on the UI, often using SVG-like path data.",
+    "Option3": "Shapes for data visualization.",
+    "Option4": "Shapes for creating animations.",
+    "Answer": "A set of controls (e.g., `Rectangle`, `Ellipse`, `Polygon`, `Path`) for drawing 2D shapes on the UI, often using SVG-like path data."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Visual State Manager'?",
+    "Option1": "A tool to manage the visual hierarchy.",
+    "Option2": "A set of properties for managing the visual appearance of elements based on their state (e.g., `IsFocused`, `IsEnabled`).",
+    "Option3": "A manager for visual assets.",
+    "Option4": "A manager for UI testing.",
+    "Answer": "A set of properties for managing the visual appearance of elements based on their state (e.g., `IsFocused`, `IsEnabled`)."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Custom Markup Extensions'?",
+    "Option1": "Built-in markup extensions.",
+    "Option2": "Custom classes that extend `IMarkupExtension` to provide specialized XAML syntax for specific scenarios.",
+    "Option3": "Extensions for code-behind files.",
+    "Option4": "Extensions for adding new controls.",
+    "Answer": "Custom classes that extend `IMarkupExtension` to provide specialized XAML syntax for specific scenarios."
+  },
+  {
+    "question_no.": 172,
+    "Question": "When would you create a Custom Markup Extension?",
+    "Option1": "For simple data binding.",
+    "Option2": "When you need to perform complex logic or retrieve data at design-time or compile-time within XAML, often for reusable values or calculations.",
+    "Option3": "For creating new UI elements.",
+    "Option4": "For handling user input.",
+    "Answer": "When you need to perform complex logic or retrieve data at design-time or compile-time within XAML, often for reusable values or calculations."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Compiled Bindings' in Xamarin.Forms?",
+    "Option1": "Bindings that are compiled at runtime.",
+    "Option2": "Data bindings that are processed and optimized at compile time, leading to improved performance and earlier error detection compared to traditional reflection-based bindings.",
+    "Option3": "Bindings for native APIs.",
+    "Option4": "Bindings that are not affected by data changes.",
+    "Answer": "Data bindings that are processed and optimized at compile time, leading to improved performance and earlier error detection compared to traditional reflection-based bindings."
+  },
+  {
+    "question_no.": 174,
+    "Question": "How do you enable Compiled Bindings in XAML?",
+    "Option1": "By adding `x:Compile` attribute.",
+    "Option2": "By setting the `x:DataType` attribute on the page or view containing the bindings.",
+    "Option3": "By configuring a build setting.",
+    "Option4": "They are enabled by default.",
+    "Answer": "By setting the `x:DataType` attribute on the page or view containing the bindings."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Shell Flyout'?",
+    "Option1": "A type of page transition.",
+    "Option2": "The sliding menu (hamburger menu) in Xamarin.Forms Shell that provides access to the application's top-level navigation items.",
+    "Option3": "A pop-up notification.",
+    "Option4": "A floating action button.",
+    "Answer": "The sliding menu (hamburger menu) in Xamarin.Forms Shell that provides access to the application's top-level navigation items."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Shell TabBar'?",
+    "Option1": "A bar at the top of the screen.",
+    "Option2": "The tab bar at the bottom of the screen (or top on Android) in Xamarin.Forms Shell that provides quick access to different sections of the app.",
+    "Option3": "A search bar in the Shell.",
+    "Option4": "A bar for displaying notifications.",
+    "Answer": "The tab bar at the bottom of the screen (or top on Android) in Xamarin.Forms Shell that provides quick access to different sections of the app."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Shell Items'?",
+    "Option1": "Individual items within a list.",
+    "Option2": "The content within a Shell application, which can be `FlyoutItem` (for main navigation) or `TabBar` (for bottom tabs).",
+    "Option3": "Items in a `CollectionView`.",
+    "Option4": "Items that appear in search results.",
+    "Answer": "The content within a Shell application, which can be `FlyoutItem` (for main navigation) or `TabBar` (for bottom tabs)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Data Annotations' in C# for Xamarin.Forms?",
+    "Option1": "Adding comments to code.",
+    "Option2": "Attributes (e.g., `[Required]`, `[StringLength]`) used for validation and metadata on ViewModel properties.",
+    "Option3": "Annotations for database schemas.",
+    "Option4": "Annotations for UI elements.",
+    "Answer": "Attributes (e.g., `[Required]`, `[StringLength]`) used for validation and metadata on ViewModel properties."
+  },
+  {
+    "question_no.": 179,
+    "Question": "How can you integrate Data Annotations with Xamarin.Forms validation?",
+    "Option1": "They are automatically integrated.",
+    "Option2": "By using a validation framework or writing custom logic that leverages the `System.ComponentModel.DataAnnotations` namespace.",
+    "Option3": "By manually checking each property.",
+    "Option4": "They cannot be integrated.",
+    "Answer": "By using a validation framework or writing custom logic that leverages the `System.ComponentModel.DataAnnotations` namespace."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Performance Considerations' in Xamarin.Forms?",
+    "Option1": "Ensuring the app looks good.",
+    "Option2": "Practices and techniques to optimize application speed, responsiveness, and memory usage.",
+    "Option3": "Focusing only on development time.",
+    "Option4": "Ensuring the app is compatible with all devices.",
+    "Answer": "Practices and techniques to optimize application speed, responsiveness, and memory usage."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Name some common performance optimization techniques in Xamarin.Forms.",
+    "Option1": "Using more complex layouts.",
+    "Option2": "Using `CollectionView` over `ListView`, enabling `Fast Renderers` and `Layout Compression`, optimizing image sizes, and virtualizing lists.",
+    "Option3": "Loading all data at once.",
+    "Option4": "Disabling animations.",
+    "Answer": "Using `CollectionView` over `ListView`, enabling `Fast Renderers` and `Layout Compression`, optimizing image sizes, and virtualizing lists."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'AOT Compilation' (Ahead-of-Time) in Xamarin?",
+    "Option1": "Compiling code at runtime.",
+    "Option2": "Compiling .NET Intermediate Language (IL) code directly into native machine code during the build process, leading to faster startup times and better performance.",
+    "Option3": "Compiling code in the cloud.",
+    "Option4": "Compiling code only when needed.",
+    "Answer": "Compiling .NET Intermediate Language (IL) code directly into native machine code during the build process, leading to faster startup times and better performance."
+  },
+  {
+    "question_no.": 183,
+    "Question": "Which platform primarily benefits from AOT compilation in Xamarin?",
+    "Option1": "Android (due to Mono's JIT).",
+    "Option2": "iOS (because Apple does not allow JIT compilation).",
+    "Option3": "UWP.",
+    "Option4": "All platforms equally.",
+    "Answer": "iOS (because Apple does not allow JIT compilation)."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'JIT Compilation' (Just-in-Time) in Xamarin?",
+    "Option1": "Compiling code during the build process.",
+    "Option2": "Compiling .NET Intermediate Language (IL) code into native machine code at runtime, as the code is executed.",
+    "Option3": "Compiling code before deployment.",
+    "Option4": "Compiling code for specific platforms only.",
+    "Answer": "Compiling .NET Intermediate Language (IL) code into native machine code at runtime, as the code is executed."
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which platform primarily uses JIT compilation in Xamarin?",
+    "Option1": "iOS.",
+    "Option2": "Android.",
+    "Option3": "UWP.",
+    "Option4": "macOS.",
+    "Answer": "Android."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Linking' (or Linker) in Xamarin?",
+    "Option1": "Linking to external libraries.",
+    "Option2": "A build process that removes unused code (classes, methods) from your application's assemblies, reducing the final app size.",
+    "Option3": "Linking UI elements to data sources.",
+    "Option4": "Linking native libraries to the C# project.",
+    "Answer": "A build process that removes unused code (classes, methods) from your application's assemblies, reducing the final app size."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What are the common Linker behaviors in Xamarin?",
+    "Option1": "Full, Partial, None.",
+    "Option2": "Don't Link, Link Sdk Assemblies Only, Link All Assemblies.",
+    "Option3": "Debug, Release.",
+    "Option4": "Optimized, Standard.",
+    "Answer": "Don't Link, Link Sdk Assemblies Only, Link All Assemblies."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the trade-off with aggressive linking?",
+    "Option1": "Larger app size.",
+    "Option2": "Smaller app size, but increased risk of removing code that is actually needed (false positives), leading to runtime errors.",
+    "Option3": "Slower build times.",
+    "Option4": "Reduced performance.",
+    "Answer": "Smaller app size, but increased risk of removing code that is actually needed (false positives), leading to runtime errors."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Startup Time Optimization' in Xamarin?",
+    "Option1": "Reducing app size only.",
+    "Option2": "Techniques to make the application launch faster, improving the user's initial experience.",
+    "Option3": "Optimizing network requests.",
+    "Option4": "Improving data loading speed.",
+    "Answer": "Techniques to make the application launch faster, improving the user's initial experience."
+  },
+  {
+    "question_no.": 190,
+    "Question": "Name a technique for optimizing Xamarin.Forms startup time.",
+    "Option1": "Loading all data on startup.",
+    "Option2": "Deferring expensive initialization, using `AOT` compilation (iOS), and optimizing the main page's visual tree.",
+    "Option3": "Using more complex animations.",
+    "Option4": "Loading all resources at once.",
+    "Answer": "Deferring expensive initialization, using `AOT` compilation (iOS), and optimizing the main page's visual tree."
+  },
+  {
+    "question_no. 191": {
+      "Question": "What is the purpose of `OnAppearing()` and `OnDisappearing()` methods in a Xamarin.Forms `ContentPage`?",
+      "Option1": "To handle application lifecycle events.",
+      "Option2": "To perform actions when a page is displayed or hidden on the screen.",
+      "Option3": "To control element visibility.",
+      "Option4": "To load and unload data from a database.",
+      "Answer": "To perform actions when a page is displayed or hidden on the screen."
+    }
+  },
+  {
+    "question_no.": 192,
+    "Question": "When would `OnAppearing()` be useful?",
+    "Option1": "When a page is first initialized.",
+    "Option2": "To refresh data, subscribe to events, or start animations every time the page becomes visible.",
+    "Option3": "To save data before leaving the page.",
+    "Option4": "To clean up resources.",
+    "Answer": "To refresh data, subscribe to events, or start animations every time the page becomes visible."
+  },
+  {
+    "question_no.": 193,
+    "Question": "When would `OnDisappearing()` be useful?",
+    "Option1": "To load data.",
+    "Option2": "To unsubscribe from events, stop animations, or save transient state before the page is no longer visible.",
+    "Option3": "To update UI elements.",
+    "Option4": "To perform background tasks.",
+    "Answer": "To unsubscribe from events, stop animations, or save transient state before the page is no longer visible."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Accessibility' in Xamarin.Forms?",
+    "Option1": "Making the app visually appealing.",
+    "Option2": "Ensuring the application can be used by people with disabilities (e.g., visual impairment, motor impairment) using features like screen readers, keyboard navigation, and increased contrast.",
+    "Option3": "Making the app easy to download.",
+    "Option4": "Ensuring the app runs on old devices.",
+    "Answer": "Ensuring the application can be used by people with disabilities (e.g., visual impairment, motor impairment) using features like screen readers, keyboard navigation, and increased contrast."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What Xamarin.Forms properties are important for accessibility?",
+    "Option1": "`FontSize`, `TextColor`.",
+    "Option2": "`AutomationProperties.Name`, `AutomationProperties.HelpText`, `AutomationProperties.IsInAccessibleTree`.",
+    "Option3": "`Margin`, `Padding`.",
+    "Option4": "`HeightRequest`, `WidthRequest`.",
+    "Answer": "`AutomationProperties.Name`, `AutomationProperties.HelpText`, `AutomationProperties.IsInAccessibleTree`."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Internationalization (i18n)' in Xamarin.Forms?",
+    "Option1": "Translating the app into one language.",
+    "Option2": "Designing and developing an application to support multiple languages and regions without requiring engineering changes.",
+    "Option3": "Displaying currency symbols.",
+    "Option4": "Adapting the app for different screen sizes.",
+    "Answer": "Designing and developing an application to support multiple languages and regions without requiring engineering changes."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Localization (l10n)' in Xamarin.Forms?",
+    "Option1": "Making the app available in specific geographic locations.",
+    "Option2": "The process of adapting an internationalized application for a specific locale (e.g., translating text, formatting dates and numbers).",
+    "Option3": "Using device location services.",
+    "Option4": "Optimizing app for local network conditions.",
+    "Answer": "The process of adapting an internationalized application for a specific locale (e.g., translating text, formatting dates and numbers)."
+  },
+  {
+    "question_no.": 198,
+    "Question": "How are strings typically localized in Xamarin.Forms?",
+    "Option1": "Using hardcoded strings in XAML.",
+    "Option2": "Using .NET `RESX` resource files.",
+    "Option3": "By fetching strings from a remote server.",
+    "Option4": "By using `DependencyService` for each string.",
+    "Answer": "Using .NET `RESX` resource files."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Layout Options' in Xamarin.Forms?",
+    "Option1": "Options for the layout of the entire app.",
+    "Option2": "Properties (e.g., `Start`, `Center`, `End`, `Fill`, `Expand`) that determine how a view should be positioned and sized within its parent layout.",
+    "Option3": "Options for background images.",
+    "Option4": "Options for text alignment.",
+    "Answer": "Properties (e.g., `Start`, `Center`, `End`, `Fill`, `Expand`) that determine how a view should be positioned and sized within its parent layout."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the difference between `Center` and `CenterAndExpand`?",
+    "Option1": "`Center` positions the view in the center; `CenterAndExpand` attempts to center it and then expand it to fill available space if there's any remaining space.",
+    "Option2": "`Center` works horizontally; `CenterAndExpand` works vertically.",
+    "Option3": "`CenterAndExpand` is deprecated.",
+    "Option4": "No practical difference.",
+    "Answer": "`Center` positions the view in the center; `CenterAndExpand` attempts to center it and then expand it to fill available space if there's any remaining space."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `Frame` in Xamarin.Forms?",
+    "Option1": "A basic layout container.",
+    "Option2": "A control that can display a border, shadow, and rounded corners around its content.",
+    "Option3": "A control for embedding web content.",
+    "Option4": "A control for displaying images.",
+    "Answer": "A control that can display a border, shadow, and rounded corners around its content."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `AbsoluteLayout.LayoutFlags` attached property for?",
+    "Option1": "To specify the orientation of elements in `AbsoluteLayout`.",
+    "Option2": "To control how position and size values are interpreted (e.g., `All`, `XProportional`, `SizeProportional`).",
+    "Option3": "To set the background color of elements.",
+    "Option4": "To define the visibility of elements.",
+    "Answer": "To control how position and size values are interpreted (e.g., `All`, `XProportional`, `SizeProportional`)."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Toolbar Items' in Xamarin.Forms?",
+    "Option1": "Items in a context menu.",
+    "Option2": "Menu items that appear in the navigation bar or toolbar of a page, typically defined using the `ToolbarItems` collection on a `ContentPage`.",
+    "Option3": "Items in a list view.",
+    "Option4": "Items in a bottom tab bar.",
+    "Answer": "Menu items that appear in the navigation bar or toolbar of a page, typically defined using the `ToolbarItems` collection on a `ContentPage`."
+  }
+]

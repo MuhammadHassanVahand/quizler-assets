@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which programming paradigm does C++ primarily support?",
+    "Option1": "Functional Programming",
+    "Option2": "Object-Oriented Programming",
+    "Option3": "Procedural Programming",
+    "Option4": "Logic Programming",
+    "Answer": "Object-Oriented Programming"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the entry point function for a C++ program?",
+    "Option1": "start()",
+    "Option2": "run()",
+    "Option3": "main()",
+    "Option4": "execute()",
+    "Answer": "main()"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which header file is used for input/output operations in C++?",
+    "Option1": "<stdio.h>",
+    "Option2": "<iostream>",
+    "Option3": "<conio.h>",
+    "Option4": "<fstream>",
+    "Answer": "<iostream>"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which keyword is used to declare a class in C++?",
+    "Option1": "object",
+    "Option2": "struct",
+    "Option3": "class",
+    "Option4": "type",
+    "Answer": "class"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a constructor in C++?",
+    "Option1": "A function that destroys an object.",
+    "Option2": "A special member function that initializes objects of a class.",
+    "Option3": "A function that returns the size of an object.",
+    "Option4": "A function that modifies the state of an object.",
+    "Answer": "A special member function that initializes objects of a class."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is a destructor in C++?",
+    "Option1": "A function that initializes an object.",
+    "Option2": "A special member function that is automatically called when an object is destroyed.",
+    "Option3": "A function that copies an object.",
+    "Option4": "A function that creates a new object.",
+    "Answer": "A special member function that is automatically called when an object is destroyed."
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which operator is used for dynamic memory allocation in C++?",
+    "Option1": "alloc",
+    "Option2": "malloc",
+    "Option3": "new",
+    "Option4": "create",
+    "Answer": "new"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which operator is used for dynamic memory deallocation in C++?",
+    "Option1": "free",
+    "Option2": "delete",
+    "Option3": "dealloc",
+    "Option4": "destroy",
+    "Answer": "delete"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is inheritance in C++?",
+    "Option1": "The ability of an object to take on many forms.",
+    "Option2": "A mechanism by which one class acquires the properties and behaviors of another class.",
+    "Option3": "Hiding the implementation details of a class.",
+    "Option4": "Defining multiple functions with the same name.",
+    "Answer": "A mechanism by which one class acquires the properties and behaviors of another class."
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which keyword is used for public inheritance?",
+    "Option1": "private",
+    "Option2": "protected",
+    "Option3": "public",
+    "Option4": "friend",
+    "Answer": "public"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is polymorphism in C++?",
+    "Option1": "The ability to hide data.",
+    "Option2": "The ability of objects of different classes to respond to the same message in different ways.",
+    "Option3": "The process of creating new classes.",
+    "Option4": "The act of combining data and functions into a single unit.",
+    "Answer": "The ability of objects of different classes to respond to the same message in different ways."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is function overloading?",
+    "Option1": "Defining multiple functions with different names but similar functionality.",
+    "Option2": "Defining multiple functions with the same name but different parameters (number, type, or order).",
+    "Option3": "Overwriting a base class function in a derived class.",
+    "Option4": "A function that takes too many arguments.",
+    "Answer": "Defining multiple functions with the same name but different parameters (number, type, or order)."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is operator overloading?",
+    "Option1": "Defining new operators in C++.",
+    "Option2": "Giving existing operators new meanings when applied to user-defined data types.",
+    "Option3": "Removing operators from a class.",
+    "Option4": "Changing the precedence of operators.",
+    "Answer": "Giving existing operators new meanings when applied to user-defined data types."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is a virtual function?",
+    "Option1": "A function that is never called.",
+    "Option2": "A member function that is declared in a base class and redefined in a derived class, allowing for runtime polymorphism.",
+    "Option3": "A function that is only called once.",
+    "Option4": "A function that returns a virtual object.",
+    "Answer": "A member function that is declared in a base class and redefined in a derived class, allowing for runtime polymorphism."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which keyword is used to declare a virtual function?",
+    "Option1": "abstract",
+    "Option2": "dynamic",
+    "Option3": "virtual",
+    "Option4": "override",
+    "Answer": "virtual"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is an abstract class in C++?",
+    "Option1": "A class that cannot be inherited.",
+    "Option2": "A class that contains at least one pure virtual function and cannot be instantiated directly.",
+    "Option3": "A class with no member functions.",
+    "Option4": "A class with only static members.",
+    "Answer": "A class that contains at least one pure virtual function and cannot be instantiated directly."
+  },
+  {
+    "question_no.": 17,
+    "Question": "How is a pure virtual function declared?",
+    "Option1": "virtual void func();",
+    "Option2": "void func() = 0;",
+    "Option3": "virtual void func() = 0;",
+    "Option4": "abstract void func();",
+    "Answer": "virtual void func() = 0;"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is a friend function in C++?",
+    "Option1": "A function that can access private and protected members of a class, but is not a member of that class.",
+    "Option2": "A function that is a member of multiple classes.",
+    "Option3": "A function that can only access public members.",
+    "Option4": "A function that is automatically inherited.",
+    "Answer": "A function that can access private and protected members of a class, but is not a member of that class."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a static member variable?",
+    "Option1": "A variable that belongs to an object.",
+    "Option2": "A variable that is shared by all objects of a class and exists only once.",
+    "Option3": "A variable that is constant.",
+    "Option4": "A variable that can only be accessed by friend functions.",
+    "Answer": "A variable that is shared by all objects of a class and exists only once."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a static member function?",
+    "Option1": "A function that can only be called from an object.",
+    "Option2": "A function that belongs to the class itself, not to any specific object, and can access only static members.",
+    "Option3": "A function that is virtual.",
+    "Option4": "A function that cannot access any data members.",
+    "Answer": "A function that belongs to the class itself, not to any specific object, and can access only static members."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is the `this` pointer in C++?",
+    "Option1": "A pointer to the base class.",
+    "Option2": "A pointer that points to the current object instance.",
+    "Option3": "A pointer to a static member.",
+    "Option4": "A pointer to a global variable.",
+    "Answer": "A pointer that points to the current object instance."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the scope resolution operator in C++?",
+    "Option1": ".",
+    "Option2": "->",
+    "Option3": "::",
+    "Option4": "*",
+    "Answer": "::"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is a namespace in C++?",
+    "Option1": "A keyword for declaring variables.",
+    "Option2": "A declarative region that provides a scope for the identifiers (names of types, functions, variables, etc.) inside it.",
+    "Option3": "A way to define global functions.",
+    "Option4": "A type of data structure.",
+    "Answer": "A declarative region that provides a scope for the identifiers (names of types, functions, variables, etc.) inside it."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which keyword is used to bring a namespace into scope?",
+    "Option1": "import",
+    "Option2": "include",
+    "Option3": "using",
+    "Option4": "namespace",
+    "Answer": "using"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the difference between `cout` and `printf`?",
+    "Option1": "`cout` is for C, `printf` is for C++.",
+    "Option2": "`cout` is type-safe and belongs to iostream, `printf` is not type-safe and belongs to cstdio.",
+    "Option3": "`cout` is faster than `printf`.",
+    "Option4": "`printf` is object-oriented, `cout` is not.",
+    "Answer": "`cout` is type-safe and belongs to iostream, `printf` is not type-safe and belongs to cstdio."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is a reference in C++?",
+    "Option1": "A pointer that cannot be dereferenced.",
+    "Option2": "An alias or alternative name for an existing variable.",
+    "Option3": "A copy of a variable.",
+    "Option4": "A variable that stores a memory address.",
+    "Answer": "An alias or alternative name for an existing variable."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the difference between a pointer and a reference?",
+    "Option1": "Pointers can be null, references cannot.",
+    "Option2": "References can be reassigned, pointers cannot.",
+    "Option3": "Pointers are aliases, references store memory addresses.",
+    "Option4": "Pointers are faster than references.",
+    "Answer": "Pointers can be null, references cannot."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a `const` keyword used for in C++?",
+    "Option1": "To declare a variable that can be changed.",
+    "Option2": "To declare a variable or object whose value cannot be modified after initialization.",
+    "Option3": "To declare a static variable.",
+    "Option4": "To declare a global variable.",
+    "Answer": "To declare a variable or object whose value cannot be modified after initialization."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is `const correctness`?",
+    "Option1": "Ensuring all variables are constant.",
+    "Option2": "Using `const` appropriately to indicate that a variable, pointer, reference, or member function does not modify the data it refers to.",
+    "Option3": "Making sure constant values are always correct.",
+    "Option4": "A compiler optimization technique.",
+    "Answer": "Using `const` appropriately to indicate that a variable, pointer, reference, or member function does not modify the data it refers to."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `pass by value`?",
+    "Option1": "Passing the memory address of a variable.",
+    "Option2": "Passing a copy of the argument to a function.",
+    "Option3": "Passing a reference to a variable.",
+    "Option4": "Passing a global variable.",
+    "Answer": "Passing a copy of the argument to a function."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is `pass by reference`?",
+    "Option1": "Passing a copy of the argument.",
+    "Option2": "Passing the memory address of a variable using a pointer.",
+    "Option3": "Passing an alias to the original variable, allowing the function to modify the original variable.",
+    "Option4": "Passing a constant value.",
+    "Answer": "Passing an alias to the original variable, allowing the function to modify the original variable."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `pass by pointer`?",
+    "Option1": "Passing a copy of the argument.",
+    "Option2": "Passing the memory address of a variable, allowing the function to modify the original variable through dereferencing.",
+    "Option3": "Passing an alias to the original variable.",
+    "Option4": "Passing a constant value.",
+    "Answer": "Passing the memory address of a variable, allowing the function to modify the original variable through dereferencing."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is a pure virtual destructor?",
+    "Option1": "A destructor that is never called.",
+    "Option2": "A destructor declared as `virtual ~ClassName() = 0;`, making the class abstract and preventing direct instantiation.",
+    "Option3": "A destructor that cannot be overridden.",
+    "Option4": "A destructor that takes no arguments.",
+    "Answer": "A destructor declared as `virtual ~ClassName() = 0;`, making the class abstract and preventing direct instantiation."
+  },
+  {
+    "question_no.": 34,
+    "Question": "Can a class with a pure virtual destructor be instantiated?",
+    "Option1": "Yes",
+    "Option2": "No, it becomes an abstract class.",
+    "Option3": "Only if all its other methods are implemented.",
+    "Option4": "Only through a friend function.",
+    "Answer": "No, it becomes an abstract class."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is `virtual inheritance`?",
+    "Option1": "A type of multiple inheritance where a common base class is inherited only once by the most derived class, avoiding duplicate sub-objects.",
+    "Option2": "Inheritance of virtual functions only.",
+    "Option3": "Inheritance from an abstract class.",
+    "Option4": "A way to inherit from a sealed class.",
+    "Answer": "A type of multiple inheritance where a common base class is inherited only once by the most derived class, avoiding duplicate sub-objects."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the `diamond problem` in C++?",
+    "Option1": "A problem with circular dependencies.",
+    "Option2": "A problem occurring in multiple inheritance where a class inherits from two classes that have a common base class, leading to ambiguity in accessing members of the common base.",
+    "Option3": "A problem with too many virtual functions.",
+    "Option4": "A problem related to memory leaks.",
+    "Answer": "A problem occurring in multiple inheritance where a class inherits from two classes that have a common base class, leading to ambiguity in accessing members of the common base."
+  },
+  {
+    "question_no.": 37,
+    "Question": "How can the `diamond problem` be resolved in C++?",
+    "Option1": "By using private inheritance.",
+    "Option2": "By using virtual inheritance.",
+    "Option3": "By avoiding multiple inheritance.",
+    "Option4": "By declaring all members as static.",
+    "Answer": "By using virtual inheritance."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is a `template` in C++?",
+    "Option1": "A blueprint for creating functions.",
+    "Option2": "A feature that allows functions and classes to operate with generic types, without specifying the exact data type at compile time.",
+    "Option3": "A predefined class.",
+    "Option4": "A way to define constants.",
+    "Answer": "A feature that allows functions and classes to operate with generic types, without specifying the exact data type at compile time."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What are the two types of templates in C++?",
+    "Option1": "Class templates and Function templates",
+    "Option2": "Static templates and Dynamic templates",
+    "Option3": "Abstract templates and Concrete templates",
+    "Option4": "Public templates and Private templates",
+    "Answer": "Class templates and Function templates"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is `Standard Template Library (STL)`?",
+    "Option1": "A collection of C++ functions.",
+    "Option2": "A set of C++ template classes and functions that provide common data structures and algorithms.",
+    "Option3": "A standard for C++ syntax.",
+    "Option4": "A library for graphical user interfaces.",
+    "Answer": "A set of C++ template classes and functions that provide common data structures and algorithms."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Name some components of STL.",
+    "Option1": "Variables, Loops, Conditions",
+    "Option2": "Containers, Algorithms, Iterators, Functors",
+    "Option3": "Classes, Objects, Inheritance",
+    "Option4": "Pointers, References, Arrays",
+    "Answer": "Containers, Algorithms, Iterators, Functors"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is a `container` in STL?",
+    "Option1": "A function that manipulates data.",
+    "Option2": "An object that stores a collection of other objects (elements).",
+    "Option3": "An algorithm for sorting data.",
+    "Option4": "A way to iterate through elements.",
+    "Answer": "An object that stores a collection of other objects (elements)."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Name some sequential containers in STL.",
+    "Option1": "map, set, unordered_map",
+    "Option2": "vector, list, deque, array",
+    "Option3": "stack, queue, priority_queue",
+    "Option4": "string, complex",
+    "Answer": "vector, list, deque, array"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Name some associative containers in STL.",
+    "Option1": "vector, list",
+    "Option2": "map, set, multimap, multiset",
+    "Option3": "stack, queue",
+    "Option4": "array, deque",
+    "Answer": "map, set, multimap, multiset"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is an `iterator` in STL?",
+    "Option1": "A loop control variable.",
+    "Option2": "An object that points to an element within a container, allowing traversal and access to elements.",
+    "Option3": "A function that performs mathematical operations.",
+    "Option4": "A special type of container.",
+    "Answer": "An object that points to an element within a container, allowing traversal and access to elements."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is an `algorithm` in STL?",
+    "Option1": "A set of data structures.",
+    "Option2": "A function that performs operations on containers or ranges of elements, such as sorting, searching, or transforming.",
+    "Option3": "A way to define classes.",
+    "Option4": "A method for input/output.",
+    "Answer": "A function that performs operations on containers or ranges of elements, suchs as sorting, searching, or transforming."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is an `exception handling` in C++?",
+    "Option1": "A way to prevent errors from occurring.",
+    "Option2": "A mechanism to handle runtime errors or exceptional conditions gracefully, separating error-handling code from normal program logic.",
+    "Option3": "A technique for optimizing code.",
+    "Option4": "A method for debugging programs.",
+    "Answer": "A mechanism to handle runtime errors or exceptional conditions gracefully, separating error-handling code from normal program logic."
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which keywords are used for exception handling in C++?",
+    "Option1": "start, stop, error",
+    "Option2": "begin, end, abort",
+    "Option3": "try, catch, throw",
+    "Option4": "if, else, finally",
+    "Answer": "try, catch, throw"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of the `throw` keyword?",
+    "Option1": "To catch an exception.",
+    "Option2": "To signal that an error or exceptional condition has occurred.",
+    "Option3": "To define a new exception type.",
+    "Option4": "To ignore an exception.",
+    "Answer": "To signal that an error or exceptional condition has occurred."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of the `catch` block?",
+    "Option1": "To execute code that might throw an exception.",
+    "Option2": "To handle or process a thrown exception.",
+    "Option3": "To define the flow of control.",
+    "Option4": "To clean up resources regardless of exceptions.",
+    "Answer": "To handle or process a thrown exception."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `RAII` (Resource Acquisition Is Initialization) in C++?",
+    "Option1": "A programming pattern for managing memory.",
+    "Option2": "A programming idiom where resource acquisition (like opening a file or acquiring a lock) is coupled with object initialization, and resource deallocation is coupled with object destruction, ensuring resources are always released.",
+    "Option3": "A technique for writing recursive functions.",
+    "Option4": "A method for optimizing I/O operations.",
+    "Answer": "A programming idiom where resource acquisition (like opening a file or acquiring a lock) is coupled with object initialization, and resource deallocation is coupled with object destruction, ensuring resources are always released."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Give an example of RAII in C++.",
+    "Option1": "Using raw pointers for memory management.",
+    "Option2": "Using `std::unique_ptr` or `std::shared_ptr` for memory management, or `std::lock_guard` for mutexes.",
+    "Option3": "Manually calling `delete` for every `new`.",
+    "Option4": "Using global variables for resources.",
+    "Answer": "Using `std::unique_ptr` or `std::shared_ptr` for memory management, or `std::lock_guard` for mutexes."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is a `smart pointer` in C++?",
+    "Option1": "A regular pointer with extra features.",
+    "Option2": "An object that acts like a pointer but automatically manages the memory it points to, preventing memory leaks.",
+    "Option3": "A pointer that can point to multiple memory locations.",
+    "Option4": "A pointer used for network communication.",
+    "Answer": "An object that acts like a pointer but automatically manages the memory it points to, preventing memory leaks."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Name three types of smart pointers in C++11 and later.",
+    "Option1": "raw_ptr, auto_ptr, unique_ptr",
+    "Option2": "unique_ptr, shared_ptr, weak_ptr",
+    "Option3": "static_ptr, dynamic_ptr, global_ptr",
+    "Option4": "fast_ptr, slow_ptr, safe_ptr",
+    "Answer": "unique_ptr, shared_ptr, weak_ptr"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is `std::unique_ptr` used for?",
+    "Option1": "Shared ownership of a resource.",
+    "Option2": "Exclusive ownership of a dynamically allocated object, ensuring it's deleted when the `unique_ptr` goes out of scope.",
+    "Option3": "Weak references to objects.",
+    "Option4": "Managing arrays only.",
+    "Answer": "Exclusive ownership of a dynamically allocated object, ensuring it's deleted when the `unique_ptr` goes out of scope."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `std::shared_ptr` used for?",
+    "Option1": "Exclusive ownership of a resource.",
+    "Option2": "Shared ownership of a dynamically allocated object, using a reference count to delete the object when the last `shared_ptr` goes out of scope.",
+    "Option3": "Managing only stack-allocated objects.",
+    "Option4": "Weak references to objects.",
+    "Answer": "Shared ownership of a dynamically allocated object, using a reference count to delete the object when the last `shared_ptr` goes out of scope."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `std::weak_ptr` used for?",
+    "Option1": "Strong ownership of a resource.",
+    "Option2": "Providing a non-owning ('weak') reference to an object managed by a `std::shared_ptr`, preventing circular references that would cause memory leaks.",
+    "Option3": "Exclusive ownership of a resource.",
+    "Option4": "Managing objects on the stack.",
+    "Answer": "Providing a non-owning ('weak') reference to an object managed by a `std::shared_ptr`, preventing circular references that would cause memory leaks."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `move semantics` in C++11?",
+    "Option1": "Copying objects between memory locations.",
+    "Option2": "A mechanism that allows transferring ownership of resources from one object to another without deep copying, improving performance.",
+    "Option3": "Moving object definitions between files.",
+    "Option4": "Moving code between functions.",
+    "Answer": "A mechanism that allows transferring ownership of resources from one object to another without deep copying, improving performance."
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which two special member functions are related to move semantics?",
+    "Option1": "Copy constructor and copy assignment operator.",
+    "Option2": "Move constructor and move assignment operator.",
+    "Option3": "Default constructor and destructor.",
+    "Option4": "Copy constructor and move constructor.",
+    "Answer": "Move constructor and move assignment operator."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is an `rvalue reference` in C++11?",
+    "Option1": "A reference to a modifiable object.",
+    "Option2": "A reference that binds to temporary objects (rvalues) and allows for move semantics.",
+    "Option3": "A reference that always points to null.",
+    "Option4": "A reference to a constant object.",
+    "Answer": "A reference that binds to temporary objects (rvalues) and allows for move semantics."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `std::move()` in C++11?",
+    "Option1": "It moves an object from one memory location to another.",
+    "Option2": "It is a utility function that casts its argument to an rvalue reference, enabling the use of move semantics.",
+    "Option3": "It deallocates memory.",
+    "Option4": "It copies an object.",
+    "Answer": "It is a utility function that casts its argument to an rvalue reference, enabling the use of move semantics."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is `lambda expressions` in C++11?",
+    "Option1": "Named functions with explicit return types.",
+    "Option2": "Anonymous functions (unnamed, inline functions) that can capture variables from their surrounding scope.",
+    "Option3": "Predefined functions in the standard library.",
+    "Option4": "Functions that always return boolean values.",
+    "Answer": "Anonymous functions (unnamed, inline functions) that can capture variables from their surrounding scope."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the capture clause `[]` in a lambda expression?",
+    "Option1": "It indicates no variables are captured.",
+    "Option2": "It specifies which variables from the enclosing scope are accessible within the lambda and how they are captured (by value or by reference).",
+    "Option3": "It defines the return type of the lambda.",
+    "Option4": "It specifies the parameters of the lambda.",
+    "Answer": "It specifies which variables from the enclosing scope are accessible within the lambda and how they are captured (by value or by reference)."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What does `[=]` capture in a lambda?",
+    "Option1": "Captures all variables by reference.",
+    "Option2": "Captures all local variables used in the lambda by value.",
+    "Option3": "Captures no variables.",
+    "Option4": "Captures only static variables.",
+    "Answer": "Captures all local variables used in the lambda by value."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What does `[&]` capture in a lambda?",
+    "Option1": "Captures all local variables used in the lambda by value.",
+    "Option2": "Captures all local variables used in the lambda by reference.",
+    "Option3": "Captures no variables.",
+    "Option4": "Captures only global variables.",
+    "Answer": "Captures all local variables used in the lambda by reference."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `constexpr` in C++11?",
+    "Option1": "A keyword for declaring variables at runtime.",
+    "Option2": "A keyword that indicates a value or function can be evaluated at compile time, leading to performance optimizations.",
+    "Option3": "A keyword for defining complex expressions.",
+    "Option4": "A keyword for constant pointers.",
+    "Answer": "A keyword that indicates a value or function can be evaluated at compile time, leading to performance optimizations."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `auto` keyword in C++11?",
+    "Option1": "It declares a variable with a fixed type.",
+    "Option2": "It allows the compiler to deduce the type of a variable from its initialization expression.",
+    "Option3": "It declares a global variable.",
+    "Option4": "It declares a static variable.",
+    "Answer": "It allows the compiler to deduce the type of a variable from its initialization expression."
+  },
+  {
+    "question_no.": 68,
+    "Question": "When can `auto` keyword NOT be used?",
+    "Option1": "When initializing with a literal.",
+    "Option2": "For function parameters or return types (prior to C++14 for return types, C++20 for parameters).",
+    "Option3": "For local variables.",
+    "Option4": "For complex data types.",
+    "Answer": "For function parameters or return types (prior to C++14 for return types, C++20 for parameters)."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is `range-based for loop` in C++11?",
+    "Option1": "A loop for iterating over numerical ranges.",
+    "Option2": "A simpler syntax for iterating over elements of a range (e.g., arrays, containers), eliminating the need for explicit iterators.",
+    "Option3": "A loop for parallel processing.",
+    "Option4": "A loop that always executes a fixed number of times.",
+    "Answer": "A simpler syntax for iterating over elements of a range (e.g., arrays, containers), eliminating the need for explicit iterators."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `nullptr` in C++11?",
+    "Option1": "A macro for NULL.",
+    "Option2": "A keyword that represents a null pointer constant, providing type safety over `NULL` or `0`.",
+    "Option3": "A type of integer.",
+    "Option4": "A boolean value.",
+    "Answer": "A keyword that represents a null pointer constant, providing type safety over `NULL` or `0`."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `initializer lists` in C++11?",
+    "Option1": "Lists that can only be initialized once.",
+    "Option2": "A mechanism (using `std::initializer_list`) for uniform initialization of objects, especially containers and constructors.",
+    "Option3": "Lists of initialization functions.",
+    "Option4": "Lists that can only contain integer values.",
+    "Answer": "A mechanism (using `std::initializer_list`) for uniform initialization of objects, especially containers and constructors."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `Delegating Constructors` in C++11?",
+    "Option1": "Constructors that can be called from outside the class.",
+    "Option2": "Allows one constructor to call another constructor of the same class, reducing code duplication.",
+    "Option3": "Constructors that delegate their work to a base class constructor.",
+    "Option4": "Constructors that are always public.",
+    "Answer": "Allows one constructor to call another constructor of the same class, reducing code duplication."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `explicit override` in C++11?",
+    "Option1": "It forces a method to be virtual.",
+    "Option2": "It explicitly states that a member function is intended to override a virtual function in a base class, helping to catch errors at compile time.",
+    "Option3": "It makes a method private.",
+    "Option4": "It prevents a method from being overridden.",
+    "Answer": "It explicitly states that a member function is intended to override a virtual function in a base class, helping to catch errors at compile time."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `final` keyword in C++11?",
+    "Option1": "It indicates a class cannot be inherited, or a virtual function cannot be overridden further.",
+    "Option2": "It declares a constant variable.",
+    "Option3": "It terminates a program.",
+    "Option4": "It makes a function static.",
+    "Answer": "It indicates a class cannot be inherited, or a virtual function cannot be overridden further."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `noexcept` in C++11?",
+    "Option1": "It indicates a function will always throw an exception.",
+    "Option2": "It specifies that a function is guaranteed not to throw any exceptions.",
+    "Option3": "It disables exception handling.",
+    "Option4": "It makes a function private.",
+    "Answer": "It specifies that a function is guaranteed not to throw any exceptions."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `atomic operations` in C++11?",
+    "Option1": "Operations that cannot be reversed.",
+    "Option2": "Operations that are guaranteed to be performed entirely or not at all, without interruption by other threads, essential for concurrent programming.",
+    "Option3": "Operations that run in parallel.",
+    "Option4": "Operations that consume very little memory.",
+    "Answer": "Operations that are guaranteed to be performed entirely or not at all, without interruption by other threads, essential for concurrent programming."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `threads` in C++11?",
+    "Option1": "A way to manage multiple processes.",
+    "Option2": "A mechanism for achieving concurrency, allowing multiple sequences of instructions to run independently within the same program.",
+    "Option3": "A data structure for linked lists.",
+    "Option4": "A protocol for network communication.",
+    "Answer": "A mechanism for achieving concurrency, allowing multiple sequences of instructions to run independently within the same program."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `mutex` in C++11?",
+    "Option1": "A type of shared variable.",
+    "Option2": "A synchronization primitive used to protect shared resources from concurrent access by multiple threads, ensuring mutual exclusion.",
+    "Option3": "A function that generates random numbers.",
+    "Option4": "A data structure for queues.",
+    "Answer": "A synchronization primitive used to protect shared resources from concurrent access by multiple threads, ensuring mutual exclusion."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `std::thread`?",
+    "Option1": "A function to sleep a thread.",
+    "Option2": "A class template that represents a single thread of execution.",
+    "Option3": "A method for checking thread status.",
+    "Option4": "A static member of a class.",
+    "Answer": "A class template that represents a single thread of execution."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `std::async`?",
+    "Option1": "A function for synchronous execution.",
+    "Option2": "A function template that runs a function asynchronously, potentially in a new thread, and returns a `std::future` to retrieve the result.",
+    "Option3": "A function that runs on the main thread.",
+    "Option4": "A function for I/O operations.",
+    "Answer": "A function template that runs a function asynchronously, potentially in a new thread, and returns a `std::future` to retrieve the result."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `std::future`?",
+    "Option1": "A prediction of future events.",
+    "Option2": "A class template that provides a mechanism to access the result of an asynchronous operation when it becomes available.",
+    "Option3": "A method for generating random numbers.",
+    "Option4": "A type of array.",
+    "Answer": "A class template that provides a mechanism to access the result of an asynchronous operation when it becomes available."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `std::promise`?",
+    "Option1": "A commitment to a future task.",
+    "Option2": "A class template that provides a way to store a value or an exception that will be retrieved by a `std::future` object.",
+    "Option3": "A function for creating threads.",
+    "Option4": "A class for handling errors.",
+    "Answer": "A class template that provides a way to store a value or an exception that will be retrieved by a `std::future` object."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `std::packaged_task`?",
+    "Option1": "A task that is already completed.",
+    "Option2": "A class template that wraps a callable object and automatically sets its associated `std::future`'s result when the callable is invoked.",
+    "Option3": "A task that cannot be executed.",
+    "4": "A task that only performs I/O.",
+    "Answer": "A class template that wraps a callable object and automatically sets its associated `std::future`'s result when the callable is invoked."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `std::chrono` library?",
+    "Option1": "A library for string manipulation.",
+    "Option2": "A library for dealing with time durations, time points, and clocks in a type-safe and precise manner.",
+    "Option3": "A library for file operations.",
+    "4": "A library for mathematical calculations.",
+    "Answer": "A library for dealing with time durations, time points, and clocks in a type-safe and precise manner."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `std::tuple` in C++11?",
+    "Option1": "A fixed-size array.",
+    "Option2": "A fixed-size collection of heterogeneous values (different types) that can be accessed by index.",
+    "Option3": "A dynamic list of elements.",
+    "4": "A key-value pair container.",
+    "Answer": "A fixed-size collection of heterogeneous values (different types) that can be accessed by index."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `std::array` in C++11?",
+    "Option1": "A dynamic array.",
+    "Option2": "A fixed-size array that wraps a C-style array, providing STL container benefits like iterators and size information.",
+    "Option3": "A list that grows automatically.",
+    "4": "A two-dimensional array.",
+    "Answer": "A fixed-size array that wraps a C-style array, providing STL container benefits like iterators and size information."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `nullptr_t`?",
+    "Option1": "The type of the `NULL` macro.",
+    "Option2": "The special type of the `nullptr` keyword, designed to avoid ambiguities with integer types.",
+    "Option3": "A type for null objects.",
+    "4": "A type for void pointers.",
+    "Answer": "The special type of the `nullptr` keyword, designed to avoid ambiguities with integer types."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the role of `CMake` in C++ development?",
+    "Option1": "It's a C++ compiler.",
+    "Option2": "It's a cross-platform open-source build system generator that manages the build process in a compiler-independent way.",
+    "Option3": "It's a debugger for C++.",
+    "4": "It's a code editor.",
+    "Answer": "It's a cross-platform open-source build system generator that manages the build process in a compiler-independent way."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `make`?",
+    "Option1": "A text editor.",
+    "Option2": "A utility that automatically builds executable programs and libraries from source code by reading files called Makefiles.",
+    "Option3": "A debugger.",
+    "4": "A version control system.",
+    "Answer": "A utility that automatically builds executable programs and libraries from source code by reading files called Makefiles."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `GCC`?",
+    "Option1": "Google Code Compiler",
+    "Option2": "GNU C++ Compiler",
+    "Option3": "General Computing Compiler",
+    "4": "Global Code Creator",
+    "Answer": "GNU C++ Compiler"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Clang`?",
+    "Option1": "A C++ IDE.",
+    "Option2": "A frontend for the LLVM compiler infrastructure, supporting C, C++, Objective-C, and Objective-C++.",
+    "Option3": "A debugging tool.",
+    "4": "A build system.",
+    "Answer": "A frontend for the LLVM compiler infrastructure, supporting C, C++, Objective-C, and Objective-C++."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `virtual destructor` good for?",
+    "Option1": "To prevent memory leaks in base classes.",
+    "Option2": "To ensure that the correct destructor (most derived) is called when an object is deleted through a pointer to a base class, preventing resource leaks in polymorphic hierarchies.",
+    "Option3": "To make a destructor static.",
+    "4": "To make a destructor private.",
+    "Answer": "To ensure that the correct destructor (most derived) is called when an object is deleted through a pointer to a base class, preventing resource leaks in polymorphic hierarchies."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the `Rule of Three/Five/Zero`?",
+    "Option1": "Rules for class naming conventions.",
+    "Option2": "Guidelines for which special member functions (constructor, destructor, copy constructor, copy assignment operator, move constructor, move assignment operator) should be user-defined if any of them are user-defined, to avoid memory leaks or incorrect behavior.",
+    "Option3": "Rules for function overloading.",
+    "4": "Rules for inheritance hierarchy.",
+    "Answer": "Guidelines for which special member functions (constructor, destructor, copy constructor, copy assignment operator, move constructor, move assignment operator) should be user-defined if any of them are user-defined, to avoid memory leaks or incorrect behavior."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is a `copy constructor`?",
+    "Option1": "A constructor that initializes an object from a pre-existing object of the same class.",
+    "Option2": "A constructor that takes no arguments.",
+    "Option3": "A constructor that moves resources.",
+    "4": "A constructor that creates a new class.",
+    "Answer": "A constructor that initializes an object from a pre-existing object of the same class."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is a `copy assignment operator`?",
+    "Option1": "An operator that moves data.",
+    "Option2": "An operator that assigns the contents of one object to another existing object of the same class.",
+    "Option3": "An operator that compares two objects.",
+    "4": "An operator that creates a new object.",
+    "Answer": "An operator that assigns the contents of one object to another existing object of the same class."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `explicit keyword` used for constructors?",
+    "Option1": "To allow implicit conversions.",
+    "Option2": "To prevent implicit conversions from a single-argument constructor's type to the class type.",
+    "Option3": "To force a constructor to be public.",
+    "4": "To make a constructor static.",
+    "Answer": "To prevent implicit conversions from a single-argument constructor's type to the class type."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `placement new`?",
+    "Option1": "A special form of `new` operator that allocates memory on the heap.",
+    "Option2": "A special form of `new` operator that constructs an object at a pre-allocated memory location.",
+    "Option3": "A new operator for static memory.",
+    "4": "A new operator that allocates memory on the stack.",
+    "Answer": "A special form of `new` operator that constructs an object at a pre-allocated memory location."
+  },
+  {
+    "question_no.": 98,
+    "Question": "When would you use `placement new`?",
+    "Option1": "For general dynamic memory allocation.",
+    "Option2": "When you have a specific memory buffer where you want to construct an object, e.g., in custom memory pools or embedded systems.",
+    "Option3": "When creating large arrays.",
+    "4": "When defining constant objects.",
+    "Answer": "When you have a specific memory buffer where you want to construct an object, e.g., in custom memory pools or embedded systems."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the difference between `delete` and `delete[]`?",
+    "Option1": "`delete` is for objects, `delete[]` is for arrays.",
+    "Option2": "`delete` deallocates memory allocated by `new` for a single object, while `delete[]` deallocates memory allocated by `new[]` for an array of objects.",
+    "Option3": "`delete` calls destructors, `delete[]` does not.",
+    "4": "There is no functional difference.",
+    "Answer": "`delete` deallocates memory allocated by `new` for a single object, while `delete[]` deallocates memory allocated by `new[]` for an array of objects."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `forward declaration`?",
+    "Option1": "Declaring a variable before its use.",
+    "Option2": "Declaring a class, function, or other entity before its full definition, allowing its use in other declarations (e.g., as a pointer or reference) without knowing its full details.",
+    "Option3": "Declaring a function as virtual.",
+    "4": "Declaring a namespace.",
+    "Answer": "Declaring a class, function, or other entity before its full definition, allowing its use in other declarations (e.g., as a pointer or reference) without knowing its full details."
+  },
+  {
+    "question_no.": 101,
+    "Question": "Why use `forward declaration` instead of `#include`?",
+    "Option1": "It's always faster to compile.",
+    "Option2": "To reduce compilation time and avoid circular dependencies, as it only declares the existence of a type, not its full definition.",
+    "Option3": "It prevents all errors.",
+    "4": "It allows more complex inheritance.",
+    "Answer": "To reduce compilation time and avoid circular dependencies, as it only declares the existence of a type, not its full definition."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is a `virtual table` (vtable) in C++?",
+    "Option1": "A table for virtual memory.",
+    "Option2": "A lookup table used by C++ compilers to resolve calls to virtual functions at runtime, enabling dynamic dispatch (polymorphism).",
+    "Option3": "A table for storing static variables.",
+    "4": "A table for optimizing loops.",
+    "Answer": "A lookup table used by C++ compilers to resolve calls to virtual functions at runtime, enabling dynamic dispatch (polymorphism)."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a `vptr` (virtual pointer)?",
+    "Option1": "A pointer to a static function.",
+    "Option2": "A hidden pointer added to objects of classes with virtual functions, pointing to the class's `vtable`.",
+    "Option3": "A pointer to a global variable.",
+    "4": "A pointer to a constant.",
+    "Answer": "A hidden pointer added to objects of classes with virtual functions, pointing to the class's `vtable`."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `explicit type conversion` (casting)?",
+    "Option1": "Automatic conversion by the compiler.",
+    "Option2": "Converting a value from one data type to another using explicit syntax (e.g., `static_cast`, `dynamic_cast`).",
+    "Option3": "Implicit conversion between types.",
+    "4": "Converting a string to a number.",
+    "Answer": "Converting a value from one data type to another using explicit syntax (e.g., `static_cast`, `dynamic_cast`)."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `implicit type conversion`?",
+    "Option1": "Conversion that requires explicit syntax.",
+    "Option2": "Automatic conversion performed by the compiler without explicit syntax, typically for safe conversions (e.g., `int` to `double`).",
+    "Option3": "Conversion that throws an exception.",
+    "4": "Conversion that is always unsafe.",
+    "Answer": "Automatic conversion performed by the compiler without explicit syntax, typically for safe conversions (e.g., `int` to `double`)."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `static_cast` used for?",
+    "Option1": "Performing dynamic type checking.",
+    "Option2": "Performing compile-time type conversions, primarily for safe conversions between related types (e.g., base to derived, numeric types).",
+    "Option3": "Converting between unrelated types.",
+    "4": "Casting away constness.",
+    "Answer": "Performing compile-time type conversions, primarily for safe conversions between related types (e.g., base to derived, numeric types)."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `dynamic_cast` used for?",
+    "Option1": "Performing compile-time type checking.",
+    "Option2": "Performing runtime type checking and safe downcasting in polymorphic class hierarchies; returns `nullptr` on failure for pointers, throws `bad_cast` for references.",
+    "Option3": "Converting between unrelated types.",
+    "4": "Casting away constness.",
+    "Answer": "Performing runtime type checking and safe downcasting in polymorphic class hierarchies; returns `nullptr` on failure for pointers, throws `bad_cast` for references."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `reinterpret_cast` used for?",
+    "Option1": "Converting between related types.",
+    "Option2": "Converting a pointer of one type to a pointer of another, unrelated type, or to an integer type. It's low-level and potentially unsafe.",
+    "Option3": "Performing safe downcasting.",
+    "4": "Casting away constness.",
+    "Answer": "Converting a pointer of one type to a pointer of another, unrelated type, or to an integer type. It's low-level and potentially unsafe."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `const_cast` used for?",
+    "Option1": "Adding constness to a variable.",
+    "Option2": "Removing or adding `const` or `volatile` qualifiers from a pointer or reference.",
+    "Option3": "Converting between different data types.",
+    "4": "Performing dynamic type checking.",
+    "Answer": "Removing or adding `const` or `volatile` qualifiers from a pointer or reference."
+  },
+  {
+    "question_no.": 110,
+    "Question": "When should you generally avoid `reinterpret_cast`?",
+    "Option1": "When converting between integers and floating-point numbers.",
+    "Option2": "In most cases, as it bypasses type safety and can lead to undefined behavior if misused.",
+    "Option3": "When dealing with smart pointers.",
+    "4": "When performing upcasting.",
+    "Answer": "In most cases, as it bypasses type safety and can lead to undefined behavior if misused."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is a `union` in C++?",
+    "Option1": "A data structure that stores multiple values simultaneously.",
+    "Option2": "A special class type that can hold only one of its non-static data members at a time, sharing the same memory location.",
+    "Option3": "A function that combines two structures.",
+    "4": "A type of abstract class.",
+    "Answer": "A special class type that can hold only one of its non-static data members at a time, sharing the same memory location."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is an `enum` (enumeration) in C++?",
+    "Option1": "A collection of functions.",
+    "Option2": "A user-defined data type that consists of a set of named integer constants.",
+    "Option3": "A type of array.",
+    "4": "A mechanism for creating classes.",
+    "Answer": "A user-defined data type that consists of a set of named integer constants."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `enum class` (scoped enum) in C++11?",
+    "Option1": "An enum that can be implicitly converted to integers.",
+    "Option2": "An enum that provides strong typing and scope, preventing implicit conversions to integers and name clashes with other enums or variables.",
+    "Option3": "An enum that only stores floating-point numbers.",
+    "4": "An enum that allows duplicate names.",
+    "Answer": "An enum that provides strong typing and scope, preventing implicit conversions to integers and name clashes with other enums or variables."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `extern` keyword used for in C++?",
+    "Option1": "To define a global variable.",
+    "Option2": "To declare a variable or function that is defined in another translation unit (source file), preventing multiple definitions.",
+    "Option3": "To create an external link.",
+    "4": "To make a variable accessible only within a function.",
+    "Answer": "To declare a variable or function that is defined in another translation unit (source file), preventing multiple definitions."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `static` keyword used for at global scope?",
+    "Option1": "To make a variable visible everywhere.",
+    "Option2": "To limit the scope of a global variable or function to the current translation unit (file) only.",
+    "Option3": "To make a variable constant.",
+    "4": "To make a variable thread-safe.",
+    "Answer": "To limit the scope of a global variable or function to the current translation unit (file) only."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `inline` keyword?",
+    "Option1": "It forces the compiler to expand a function call inline.",
+    "Option2": "A hint to the compiler that a function's code should be inserted directly into the calling code instead of generating a separate function call, potentially improving performance (but not guaranteed).",
+    "Option3": "It makes a function static.",
+    "4": "It makes a function virtual.",
+    "Answer": "A hint to the compiler that a function's code should be inserted directly into the calling code instead of generating a separate function call, potentially improving performance (but not guaranteed)."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `mutable` keyword?",
+    "Option1": "It makes a member variable constant.",
+    "Option2": "It allows a member variable of a `const` object to be modified.",
+    "Option3": "It makes a member function virtual.",
+    "4": "It makes a member function static.",
+    "Answer": "It allows a member variable of a `const` object to be modified."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `volatile` keyword?",
+    "Option1": "It indicates a variable cannot be changed.",
+    "Option2": "It informs the compiler that a variable's value might change unexpectedly (e.g., by hardware or another thread), preventing aggressive optimizations.",
+    "Option3": "It makes a variable thread-safe.",
+    "4": "It makes a variable a pointer.",
+    "Answer": "It informs the compiler that a variable's value might change unexpectedly (e.g., by hardware or another thread), preventing aggressive optimizations."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `template metaprogramming`?",
+    "Option1": "Writing templates for functions.",
+    "Option2": "A programming technique where templates are used to perform computations and generate code at compile time, often for compile-time optimization or generating highly specialized code.",
+    "Option3": "Programming with meta-classes.",
+    "4": "A way to generate code at runtime.",
+    "Answer": "A programming technique where templates are used to perform computations and generate code at compile time, often for compile-time optimization or generating highly specialized code."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `SFINAE` in C++ templates?",
+    "Option1": "Syntax For Iterating And Extending.",
+    "Option2": "Substitution Failure Is Not An Error – a principle that allows overloads to be chosen based on whether a template instantiation would be valid, leading to powerful metaprogramming techniques.",
+    "Option3": "Secure Function Interface And Evaluation.",
+    "4": "Standard Function Interface And Exceptions.",
+    "Answer": "Substitution Failure Is Not An Error – a principle that allows overloads to be chosen based on whether a template instantiation would be valid, leading to powerful metaprogramming techniques."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `variadic templates` in C++11?",
+    "Option1": "Templates that accept a fixed number of arguments.",
+    "Option2": "Templates that can take a variable number of template arguments (types or non-types).",
+    "Option3": "Templates that only accept a single argument.",
+    "4": "Templates that can be explicitly specialized.",
+    "Answer": "Templates that can take a variable number of template arguments (types or non-types)."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `perfect forwarding` in C++11?",
+    "Option1": "Passing arguments by value.",
+    "Option2": "The ability to pass arguments to another function while preserving their original value category (lvalue or rvalue) and const/volatile qualifiers.",
+    "Option3": "Forwarding all arguments to a base class.",
+    "4": "Passing arguments by a global variable.",
+    "Answer": "The ability to pass arguments to another function while preserving their original value category (lvalue or rvalue) and const/volatile qualifiers."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `universal references` (or forwarding references) in C++11?",
+    "Option1": "References that can bind to any type.",
+    "Option2": "Template type parameters that can bind to both lvalues and rvalues, allowing perfect forwarding.",
+    "Option3": "References that are always null.",
+    "4": "References that are only used with smart pointers.",
+    "Answer": "Template type parameters that can bind to both lvalues and rvalues, allowing perfect forwarding."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `uniform initialization` in C++11?",
+    "Option1": "Initializing all variables to zero.",
+    "Option2": "A consistent syntax for initializing objects of any type using brace-enclosed initializer lists (`{}`), avoiding parsing ambiguities.",
+    "Option3": "Initializing variables only at compile time.",
+    "4": "Initializing only primitive types.",
+    "Answer": "A consistent syntax for initializing objects of any type using brace-enclosed initializer lists (`{}`), avoiding parsing ambiguities."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `strong enums` (enum class) in C++11?",
+    "Option1": "Enums that can be implicitly converted to integers.",
+    "Option2": "Enums that have their own scope and do not implicitly convert to integers, providing better type safety.",
+    "Option3": "Enums that are faster to access.",
+    "4": "Enums that can only have string values.",
+    "Answer": "Enums that have their own scope and do not implicitly convert to integers, providing better type safety."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `user-defined literals` in C++11?",
+    "Option1": "Literals defined by the compiler.",
+    "Option2": "The ability to define custom suffixes for numeric and string literals, allowing for compile-time validation or semantic meaning.",
+    "Option3": "Literals that can only be integers.",
+    "4": "Literals that are always constant.",
+    "Answer": "The ability to define custom suffixes for numeric and string literals, allowing for compile-time validation or semantic meaning."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `shared_from_this` in C++?",
+    "Option1": "A way to get a raw pointer to `this`.",
+    "Option2": "A mechanism to obtain a `std::shared_ptr` to the current object (this) from within a member function, safely participating in `shared_ptr` ownership.",
+    "Option3": "A function that shares data with other objects.",
+    "4": "A method to clone an object.",
+    "Answer": "A mechanism to obtain a `std::shared_ptr` to the current object (this) from within a member function, safely participating in `shared_ptr` ownership."
+  },
+  {
+    "question_no.": 128,
+    "Question": "When should you use `std::shared_from_this`?",
+    "Option1": "Always, when returning `this` from a function.",
+    "Option2": "When a class instance needs to pass a `shared_ptr` of itself to another function or store it in a container, to avoid creating a new, independent `shared_ptr`.",
+    "Option3": "Only for static methods.",
+    "4": "Only when working with raw pointers.",
+    "Answer": "When a class instance needs to pass a `shared_ptr` of itself to another function or store it in a container, to avoid creating a new, independent `shared_ptr`."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `std::function` in C++11?",
+    "Option1": "A function that takes another function as input.",
+    "Option2": "A general-purpose polymorphic function wrapper that can store, copy, and invoke any callable target (functions, lambda expressions, function objects, member functions).",
+    "Option3": "A type of template.",
+    "4": "A class for defining virtual functions.",
+    "Answer": "A general-purpose polymorphic function wrapper that can store, copy, and invoke any callable target (functions, lambda expressions, function objects, member functions)."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `std::bind` in C++11?",
+    "Option1": "A function that combines multiple functions.",
+    "Option2": "A function template that generates a new callable object (a 'binder') by binding arguments to an existing callable object, useful for adapting functions for specific purposes.",
+    "Option3": "A function for type conversion.",
+    "4": "A function for memory allocation.",
+    "Answer": "A function template that generates a new callable object (a 'binder') by binding arguments to an existing callable object, useful for adapting functions for specific purposes."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `decltype` in C++11?",
+    "Option1": "A keyword that declares a new type.",
+    "Option2": "A keyword that yields the type of an expression at compile time.",
+    "Option3": "A keyword that defines a variable.",
+    "4": "A keyword that checks the type of a variable at runtime.",
+    "Answer": "A keyword that yields the type of an expression at compile time."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `long long` in C++11?",
+    "Option1": "A data type for floating-point numbers.",
+    "Option2": "A new integer type that is at least 64 bits wide, providing a larger range for integer values.",
+    "Option3": "A data type for long strings.",
+    "4": "A data type for boolean values.",
+    "Answer": "A new integer type that is at least 64 bits wide, providing a larger range for integer values."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `range-v3` library?",
+    "Option1": "A library for mathematical ranges.",
+    "Option2": "A C++ library (often seen as a precursor to C++20 Ranges) that provides a powerful and composable way to work with sequences of data without modifying the underlying containers.",
+    "Option3": "A library for random number generation.",
+    "4": "A library for networking operations.",
+    "Answer": "A C++ library (often seen as a precursor to C++20 Ranges) that provides a powerful and composable way to work with sequences of data without modifying the underlying containers."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `concept` in C++20?",
+    "Option1": "A type of class.",
+    "Option2": "A language feature that allows you to specify constraints on template parameters, improving compile-time error messages and enabling more robust generic code.",
+    "Option3": "A new data type.",
+    "4": "A way to define interfaces.",
+    "Answer": "A language feature that allows you to specify constraints on template parameters, improving compile-time error messages and enabling more robust generic code."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `modules` in C++20?",
+    "Option1": "A way to organize functions.",
+    "Option2": "A new system for organizing and compiling code, aiming to replace header files by providing better encapsulation, faster compilation, and improved build times.",
+    "Option3": "A mechanism for dynamic linking.",
+    "4": "A tool for code analysis.",
+    "Answer": "A new system for organizing and compiling code, aiming to replace header files by providing better encapsulation, faster compilation, and improved build times."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `coroutine` in C++20?",
+    "Option1": "A function that always runs synchronously.",
+    "Option2": "A function that can be paused and resumed, allowing for more flexible asynchronous programming and state management.",
+    "Option3": "A function that never returns.",
+    "4": "A function that runs in a separate thread.",
+    "Answer": "A function that can be paused and resumed, allowing for more flexible asynchronous programming and state management."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `ranges` in C++20?",
+    "Option1": "A feature for defining numeric ranges.",
+    "Option2": "A set of concepts and utilities that simplify working with sequences of elements (ranges) in a functional and composable manner, enhancing STL algorithms.",
+    "Option3": "A new data structure for ordered elements.",
+    "4": "A method for random number generation.",
+    "Answer": "A set of concepts and utilities that simplify working with sequences of elements (ranges) in a functional and composable manner, enhancing STL algorithms."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `std::span` in C++20?",
+    "Option1": "A dynamic array.",
+    "Option2": "A non-owning view over a contiguous sequence of objects, providing a safe and efficient way to pass data between functions without copying.",
+    "Option3": "A fixed-size array.",
+    "4": "A linked list.",
+    "Answer": "A non-owning view over a contiguous sequence of objects, providing a safe and efficient way to pass data between functions without copying."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `constinit` in C++20?",
+    "Option1": "A keyword that enforces dynamic initialization.",
+    "Option2": "A keyword that ensures a variable is initialized at compile time, leading to constant initialization.",
+    "Option3": "A keyword for run-time constants.",
+    "4": "A keyword for thread-safe initialization.",
+    "Answer": "A keyword that ensures a variable is initialized at compile time, leading to constant initialization."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `requires` clause in C++20 (Concepts)?",
+    "Option1": "It specifies preconditions for a function.",
+    "Option2": "It is used to specify constraints on template parameters within a concept definition or a template declaration, ensuring types meet certain requirements.",
+    "Option3": "It defines a new type.",
+    "4": "It declares a variable.",
+    "Answer": "It is used to specify constraints on template parameters within a concept definition or a template declaration, ensuring types meet certain requirements."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `three-way comparison operator` (`<=>`) (spaceship operator) in C++20?",
+    "Option1": "An operator for logical comparison.",
+    "Option2": "An operator that compares two values and returns an object indicating their relative order (less, equal, greater), simplifying comparison logic.",
+    "Option3": "An operator for bitwise comparison.",
+    "4": "An operator for string concatenation.",
+    "Answer": "An operator that compares two values and returns an object indicating their relative order (less, equal, greater), simplifying comparison logic."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is a `design pattern` in C++?",
+    "Option1": "A specific code snippet.",
+    "Option2": "A general, reusable solution to a commonly occurring problem within a given context in software design.",
+    "Option3": "A syntax rule.",
+    "4": "A compiler optimization technique.",
+    "Answer": "A general, reusable solution to a commonly occurring problem within a given context in software design."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Name some common design patterns.",
+    "Option1": "Variables, Loops, Functions",
+    "Option2": "Singleton, Factory, Observer, Strategy, Decorator",
+    "Option3": "Classes, Objects, Inheritance",
+    "4": "Pointers, References, Arrays",
+    "Answer": "Singleton, Factory, Observer, Strategy, Decorator"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the `Singleton` design pattern?",
+    "Option1": "Ensures a class has multiple instances.",
+    "Option2": "Ensures that a class has only one instance and provides a global point of access to that instance.",
+    "Option3": "Creates objects without specifying the exact class.",
+    "4": "Defines a one-to-many dependency between objects.",
+    "Answer": "Ensures that a class has only one instance and provides a global point of access to that instance."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is the `Factory` design pattern?",
+    "Option1": "A pattern for destroying objects.",
+    "Option2": "A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.",
+    "Option3": "A pattern for observing changes.",
+    "4": "A pattern for decorating objects.",
+    "Answer": "A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the `Observer` design pattern?",
+    "Option1": "A pattern for creating objects.",
+    "Option2": "A behavioral pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.",
+    "Option3": "A pattern for hiding implementation details.",
+    "4": "A pattern for single instance creation.",
+    "Answer": "A behavioral pattern that defines a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `SOLID` principles?",
+    "Option1": "A set of rules for debugging.",
+    "Option2": "Five design principles intended to make software designs more understandable, flexible, and maintainable.",
+    "Option3": "Principles for hardware design.",
+    "4": "Principles for database management.",
+    "Answer": "Five design principles intended to make software designs more understandable, flexible, and maintainable."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What does 'S' stand for in SOLID?",
+    "Option1": "Scalability",
+    "Option2": "Security",
+    "Option3": "Single Responsibility Principle",
+    "4": "Simplicity",
+    "Answer": "Single Responsibility Principle"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What does 'O' stand for in SOLID?",
+    "Option1": "Optimization",
+    "Option2": "Open/Closed Principle",
+    "Option3": "Object-Oriented",
+    "4": "Overloading",
+    "Answer": "Open/Closed Principle"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What does 'L' stand for in SOLID?",
+    "Option1": "Looping Principle",
+    "Option2": "Liskov Substitution Principle",
+    "Option3": "Lazy Loading Principle",
+    "4": "Logging Principle",
+    "Answer": "Liskov Substitution Principle"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What does 'I' stand for in SOLID?",
+    "Option1": "Inheritance Principle",
+    "Option2": "Interface Segregation Principle",
+    "Option3": "Information Hiding Principle",
+    "4": "Instantiation Principle",
+    "Answer": "Interface Segregation Principle"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What does 'D' stand for in SOLID?",
+    "Option1": "Debugging Principle",
+    "Option2": "Design Principle",
+    "Option3": "Dependency Inversion Principle",
+    "4": "Data Abstraction Principle",
+    "Answer": "Dependency Inversion Principle"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is the `Single Responsibility Principle`?",
+    "Option1": "A class should have multiple responsibilities.",
+    "Option2": "A class should have only one reason to change, meaning it should have only one responsibility.",
+    "Option3": "A class should be responsible for all its dependencies.",
+    "4": "A class should only implement a single interface.",
+    "Answer": "A class should have only one reason to change, meaning it should have only one responsibility."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the `Open/Closed Principle`?",
+    "Option1": "Software entities should be open for modification, but closed for extension.",
+    "Option2": "Software entities should be open for extension, but closed for modification.",
+    "Option3": "Software entities should be open for both modification and extension.",
+    "4": "Software entities should be closed for both modification and extension.",
+    "Answer": "Software entities should be open for extension, but closed for modification."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the `Liskov Substitution Principle`?",
+    "Option1": "Derived classes should be substitutable for their base classes without altering the correctness of the program.",
+    "Option2": "Derived classes should always be able to replace base classes.",
+    "Option3": "Base classes should be substitutable for derived classes.",
+    "4": "Any class can be substituted for any other class.",
+    "Answer": "Derived classes should be substitutable for their base classes without altering the correctness of the program."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the `Interface Segregation Principle`?",
+    "Option1": "Clients should be forced to depend on interfaces they do not use.",
+    "Option2": "Clients should not be forced to depend on interfaces they do not use; instead, many client-specific interfaces are better than one general-purpose interface.",
+    "Option3": "Interfaces should be as large as possible.",
+    "4": "Interfaces should only have a single method.",
+    "Answer": "Clients should not be forced to depend on interfaces they do not use; instead, many client-specific interfaces are better than one general-purpose interface."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `Dependency Inversion Principle`?",
+    "Option1": "High-level modules should depend on low-level modules.",
+    "Option2": "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.",
+    "Option3": "Dependencies should always be resolved at compile time.",
+    "4": "Dependencies should always be tightly coupled.",
+    "Answer": "High-level modules should not depend on low-level modules. Both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `unit testing` in C++?",
+    "Option1": "Testing the entire application.",
+    "Option2": "Testing individual units or components of a software application in isolation to ensure they work as expected.",
+    "Option3": "Testing system integration.",
+    "4": "Testing user interfaces.",
+    "Answer": "Testing individual units or components of a software application in isolation to ensure they work as expected."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Name a popular unit testing framework for C++.",
+    "Option1": "JUnit",
+    "Option2": "NUnit",
+    "Option3": "Google Test (gtest), Catch2, Boost.Test",
+    "4": "PyTest",
+    "Answer": "Google Test (gtest), Catch2, Boost.Test"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `Test-Driven Development (TDD)`?",
+    "Option1": "Writing code first, then tests.",
+    "Option2": "A software development process where tests are written before the code, and then the code is written to pass those tests.",
+    "Option3": "Debugging code using tests.",
+    "4": "A process of testing after deployment.",
+    "Answer": "A software development process where tests are written before the code, and then the code is written to pass those tests."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `Continuous Integration (CI)`?",
+    "Option1": "Integrating code only once a week.",
+    "Option2": "A development practice where developers frequently integrate their code changes into a central repository, followed by automated builds and tests.",
+    "Option3": "A process of manual testing.",
+    "4": "A method for deploying software.",
+    "Answer": "A development practice where developers frequently integrate their code changes into a central repository, followed by automated builds and tests."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Continuous Delivery (CD)`?",
+    "Option1": "Delivering software to customers manually.",
+    "Option2": "An extension of CI that ensures software can be released to production at any time, usually through automated pipelines.",
+    "Option3": "A process of continuous debugging.",
+    "4": "A method for managing source code.",
+    "Answer": "An extension of CI that ensures software can be released to production at any time, usually through automated pipelines."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `Version Control System (VCS)`?",
+    "Option1": "A system for managing hardware.",
+    "Option2": "A system that records changes to a file or set of files over time so that you can recall specific versions later.",
+    "Option3": "A system for deploying software.",
+    "4": "A system for testing software.",
+    "Answer": "A system that records changes to a file or set of files over time so that you can recall specific versions later."
+  },
+  {
+    "question_no.": 164,
+    "Question": "Name a popular Distributed Version Control System (DVCS).",
+    "Option1": "SVN",
+    "Option2": "Perforce",
+    "Option3": "Git",
+    "4": "CVS",
+    "Answer": "Git"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `Git`?",
+    "Option1": "A programming language.",
+    "Option2": "A free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.",
+    "Option3": "A build tool.",
+    "4": "A debugger.",
+    "Answer": "A free and open-source distributed version control system designed to handle everything from small to very large projects with speed and efficiency."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is a `repository` in Git?",
+    "Option1": "A single file.",
+    "Option2": "A directory that contains all the project files and the complete history of changes.",
+    "Option3": "A temporary storage location.",
+    "4": "A compiled executable.",
+    "Answer": "A directory that contains all the project files and the complete history of changes."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is a `commit` in Git?",
+    "Option1": "A temporary change.",
+    "Option2": "A snapshot of the project at a particular point in time, representing a set of changes.",
+    "Option3": "A new branch.",
+    "4": "A merge operation.",
+    "Answer": "A snapshot of the project at a particular point in time, representing a set of changes."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is a `branch` in Git?",
+    "Option1": "A separate repository.",
+    "Option2": "A lightweight, movable pointer to a commit, allowing developers to work on new features or bug fixes independently without affecting the main codebase.",
+    "Option3": "A tag for releases.",
+    "4": "A copy of the entire repository.",
+    "Answer": "A lightweight, movable pointer to a commit, allowing developers to work on new features or bug fixes independently without affecting the main codebase."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `merging` in Git?",
+    "Option1": "Creating a new branch.",
+    "Option2": "The process of integrating changes from one branch into another.",
+    "Option3": "Undoing changes.",
+    "4": "Deleting a branch.",
+    "Answer": "The process of integrating changes from one branch into another."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `rebasing` in Git?",
+    "Option1": "Integrating changes by creating a new merge commit.",
+    "Option2": "The process of moving or combining a sequence of commits to a new base commit, effectively rewriting commit history.",
+    "Option3": "Undoing all commits.",
+    "4": "Creating a new repository.",
+    "Answer": "The process of moving or combining a sequence of commits to a new base commit, effectively rewriting commit history."
+  },
+  {
+    "question_no.": 171,
+    "Question": "When should you avoid rebasing?",
+    "Option1": "When working on your own local branch.",
+    "Option2": "When working on shared branches that other developers have already pulled, as it rewrites history and can cause conflicts.",
+    "Option3": "When performing small bug fixes.",
+    "4": "When merging two independent branches.",
+    "Answer": "When working on shared branches that other developers have already pulled, as it rewrites history and can cause conflicts."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the purpose of `.gitignore` file?",
+    "Option1": "To specify files that should always be committed.",
+    "Option2": "To specify intentionally untracked files that Git should ignore.",
+    "Option3": "To hide files from users.",
+    "4": "To store backup copies of files.",
+    "Answer": "To specify intentionally untracked files that Git should ignore."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `ABI` (Application Binary Interface) in C++?",
+    "Option1": "A standard for writing C++ code.",
+    "Option2": "A set of conventions that defines how compiled code interacts at the binary level, including calling conventions, data layout, and name mangling.",
+    "Option3": "A compiler optimization technique.",
+    "4": "A network protocol.",
+    "Answer": "A set of conventions that defines how compiled code interacts at the binary level, including calling conventions, data layout, and name mangling."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Why is ABI stability important?",
+    "Option1": "To ensure code runs faster.",
+    "Option2": "To allow different versions of libraries or components to be linked together without requiring recompilation of all dependent code.",
+    "Option3": "To prevent memory leaks.",
+    "4": "To improve code readability.",
+    "Answer": "To allow different versions of libraries or components to be linked together without requiring recompilation of all dependent code."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `name mangling` (or name decoration) in C++?",
+    "Option1": "A technique for making variable names shorter.",
+    "Option2": "The process by which C++ compilers encode information about a function (like its parameters and namespace) into its symbol name to support function overloading and other language features.",
+    "Option3": "A way to hide function names.",
+    "4": "A process of encrypting code.",
+    "Answer": "The process by which C++ compilers encode information about a function (like its parameters and namespace) into its symbol name to support function overloading and other language features."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `extern \"C\"` used for?",
+    "Option1": "To link C++ code with Java code.",
+    "Option2": "To specify that the enclosed code (functions or variables) should be linked using the C calling convention and name mangling, allowing interoperability with C code.",
+    "Option3": "To include C libraries.",
+    "4": "To make C++ code compatible with Python.",
+    "Answer": "To specify that the enclosed code (functions or variables) should be linked using the C calling convention and name mangling, allowing interoperability with C code."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `stack unwinding`?",
+    "Option1": "The process of pushing elements onto the stack.",
+    "Option2": "The process of destroying stack-allocated objects as control leaves a block (e.g., due to an exception being thrown), ensuring destructors are called.",
+    "Option3": "The process of allocating memory on the stack.",
+    "4": "The process of optimizing stack usage.",
+    "Answer": "The process of destroying stack-allocated objects as control leaves a block (e.g., due to an exception being thrown), ensuring destructors are called."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `static analysis`?",
+    "Option1": "Analyzing code at runtime.",
+    "Option2": "Analyzing source code or compiled code without actually executing the program, to find potential errors, vulnerabilities, or deviations from coding standards.",
+    "Option3": "Analyzing user behavior.",
+    "4": "Analyzing system performance.",
+    "Answer": "Analyzing source code or compiled code without actually executing the program, to find potential errors, vulnerabilities, or deviations from coding standards."
+  },
+  {
+    "question_no.": 179,
+    "Question": "Name a common static analysis tool for C++.",
+    "Option1": "GDB",
+    "Option2": "Valgrind",
+    "Option3": "Clang-Tidy, Cppcheck, SonarQube",
+    "4": "Perf",
+    "Answer": "Clang-Tidy, Cppcheck, SonarQube"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `profiling` in C++?",
+    "Option1": "Debugging code.",
+    "Option2": "The process of measuring and analyzing the performance of a program (e.g., CPU usage, memory consumption, function call times) to identify bottlenecks and areas for optimization.",
+    "Option3": "Compiling code.",
+    "4": "Generating documentation.",
+    "Answer": "The process of measuring and analyzing the performance of a program (e.g., CPU usage, memory consumption, function call times) to identify bottlenecks and areas for optimization."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Name a common profiling tool for C++.",
+    "Option1": "Valgrind",
+    "Option2": "GDB",
+    "Option3": "Perf, gprof, Visual Studio Profiler",
+    "4": "Git",
+    "Answer": "Perf, gprof, Visual Studio Profiler"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Valgrind` used for in C++?",
+    "Option1": "Compiling code.",
+    "Option2": "A memory debugging and profiling tool, especially useful for detecting memory leaks and errors (e.g., use-after-free, out-of-bounds access).",
+    "Option3": "Generating build files.",
+    "4": "Managing dependencies.",
+    "Answer": "A memory debugging and profiling tool, especially useful for detecting memory leaks and errors (e.g., use-after-free, out-of-bounds access)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a `memory leak`?",
+    "Option1": "When memory is allocated but not used.",
+    "Option2": "When dynamically allocated memory is no longer accessible or referenced by the program but has not been deallocated, leading to gradual memory consumption.",
+    "Option3": "When memory is overwritten.",
+    "4": "When memory is allocated on the stack.",
+    "Answer": "When dynamically allocated memory is no longer accessible or referenced by the program but has not been deallocated, leading to gradual memory consumption."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `stack overflow`?",
+    "Option1": "When too much memory is allocated on the heap.",
+    "Option2": "A runtime error that occurs when a program tries to use more stack space than is available, often due to infinite recursion or very large local variables.",
+    "Option3": "When too many files are open.",
+    "4": "When an array index is out of bounds.",
+    "Answer": "A runtime error that occurs when a program tries to use more stack space than is available, often due to infinite recursion or very large local variables."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `heap corruption`?",
+    "Option1": "Errors related to stack memory.",
+    "Option2": "Errors that occur when memory in the heap is improperly managed (e.g., writing past allocated bounds, double-freeing), leading to unpredictable behavior or crashes.",
+    "Option3": "Errors in static memory.",
+    "4": "Errors related to global variables.",
+    "Answer": "Errors that occur when memory in the heap is improperly managed (e.g., writing past allocated bounds, double-freeing), leading to unpredictable behavior or crashes."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `Undefined Behavior` (UB) in C++?",
+    "Option1": "Behavior that is always deterministic but unexpected.",
+    "Option2": "Situations where the C++ standard imposes no requirements on the behavior of the program, leading to unpredictable results that can vary between compilers, platforms, or even runs.",
+    "Option3": "Behavior that is explicitly defined by the compiler.",
+    "4": "Behavior that leads to a compile-time error.",
+    "Answer": "Situations where the C++ standard imposes no requirements on the behavior of the program, leading to unpredictable results that can vary between compilers, platforms, or even runs."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Give an example of Undefined Behavior.",
+    "Option1": "Dividing by zero, dereferencing a null pointer, accessing an array out of bounds.",
+    "Option2": "Using a `for` loop.",
+    "Option3": "Declaring a variable.",
+    "4": "Calling a function.",
+    "Answer": "Dividing by zero, dereferencing a null pointer, accessing an array out of bounds."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `Dangling Pointer`?",
+    "Option1": "A pointer that points to valid memory.",
+    "Option2": "A pointer that points to a memory location that has been deallocated or freed, but the pointer itself still holds that address.",
+    "Option3": "A pointer that is always null.",
+    "4": "A pointer to a constant.",
+    "Answer": "A pointer that points to a memory location that has been deallocated or freed, but the pointer itself still holds that address."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `Wild Pointer`?",
+    "Option1": "A pointer that points to a specific, valid memory location.",
+    "Option2": "An uninitialized pointer that holds a garbage value, pointing to an arbitrary memory location, often leading to crashes or unpredictable behavior.",
+    "Option3": "A pointer that is always null.",
+    "4": "A pointer that is explicitly set to `nullptr`.",
+    "Answer": "An uninitialized pointer that holds a garbage value, pointing to an arbitrary memory location, often leading to crashes or unpredictable behavior."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is a `Callback function`?",
+    "Option1": "A function that always returns a value.",
+    "Option2": "A function that is passed as an argument to another function and is invoked at a later time or when a specific event occurs.",
+    "Option3": "A function that calls itself.",
+    "4": "A function that cannot take arguments.",
+    "Answer": "A function that is passed as an argument to another function and is invoked at a later time or when a specific event occurs."
+  },
+  {
+    "question_no.": 191,
+    "Question": "How are `callback functions` typically implemented in C++?",
+    "Option1": "Using classes only.",
+    "Option2": "Using function pointers, `std::function`, or lambda expressions.",
+    "Option3": "Using global variables.",
+    "4": "Using only primitive data types.",
+    "Answer": "Using function pointers, `std::function`, or lambda expressions."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is a `functor` (function object) in C++?",
+    "Option1": "A function that performs mathematical operations.",
+    "Option2": "An object of a class that overloads the function call operator (`operator()`), allowing it to be called like a function.",
+    "Option3": "A pointer to a function.",
+    "4": "A type of lambda expression.",
+    "Answer": "An object of a class that overloads the function call operator (`operator()`), allowing it to be called like a function."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What are the advantages of `functors` over regular functions?",
+    "Option1": "They are always faster.",
+    "Option2": "They can maintain state, be polymorphic, and be passed as objects.",
+    "Option3": "They use less memory.",
+    "4": "They can only be used with built-in types.",
+    "Answer": "They can maintain state, be polymorphic, and be passed as objects."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `copy elision`?",
+    "Option1": "Forcing copies of objects.",
+    "Option2": "A compiler optimization technique where a copy operation is omitted, even if it has side effects, typically during return-value optimization (RVO) or named return-value optimization (NRVO).",
+    "Option3": "A technique for making copies thread-safe.",
+    "4": "A method for deep copying objects.",
+    "Answer": "A compiler optimization technique where a copy operation is omitted, even if it has side effects, typically during return-value optimization (RVO) or named return-value optimization (NRVO)."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `Small Object Optimization` (SSO)?",
+    "Option1": "Optimizing memory for large objects.",
+    "Option2": "A technique used by some standard library containers (like `std::string` and `std::vector`) to store small amounts of data directly within the object itself, avoiding heap allocation and improving performance.",
+    "Option3": "Optimizing small functions.",
+    "4": "Optimizing the number of objects created.",
+    "Answer": "A technique used by some standard library containers (like `std::string` and `std::vector`) to store small amounts of data directly within the object itself, avoiding heap allocation and improving performance."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `perfect forwarding` related to?",
+    "Option1": "Copy semantics.",
+    "Option2": "Move semantics and generic programming.",
+    "Option3": "Value semantics.",
+    "4": "Compile-time polymorphism.",
+    "Answer": "Move semantics and generic programming."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is a `rule of zero` in C++?",
+    "Option1": "A class should have zero member variables.",
+    "Option2": "If a class does not manage any raw resources, it should not need to declare any of the special member functions (destructor, copy/move constructors/assignments).",
+    "Option3": "A class should have zero methods.",
+    "4": "A class should not use any pointers.",
+    "Answer": "If a class does not manage any raw resources, it should not need to declare any of the special member functions (destructor, copy/move constructors/assignments)."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `constexpr if` in C++17?",
+    "Option1": "An `if` statement evaluated at runtime.",
+    "Option2": "An `if` statement whose condition is evaluated at compile time, allowing for conditional compilation based on compile-time constants.",
+    "Option3": "An `if` statement that only works with constant variables.",
+    "4": "An `if` statement that throws an exception if false.",
+    "Answer": "An `if` statement whose condition is evaluated at compile time, allowing for conditional compilation based on compile-time constants."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `structured bindings` in C++17?",
+    "Option1": "A way to define new types.",
+    "Option2": "A feature that allows you to declare multiple variables initialized from the elements of an array, struct, or tuple in a single statement.",
+    "Option3": "A method for linking libraries.",
+    "4": "A way to create anonymous types.",
+    "Answer": "A feature that allows you to declare multiple variables initialized from the elements of an array, struct, or tuple in a single statement."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `class template argument deduction` (CTAD) in C++17?",
+    "Option1": "Deducing function arguments from class templates.",
+    "Option2": "The ability of the compiler to deduce the template arguments for a class template from the arguments passed to its constructor, simplifying template instantiation.",
+    "Option3": "Deducing the return type of a class template.",
+    "4": "Deducing the number of template parameters.",
+    "Answer": "The ability of the compiler to deduce the template arguments for a class template from the arguments passed to its constructor, simplifying template instantiation."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `if with initializer` in C++17?",
+    "Option1": "An `if` statement where the condition is always true.",
+    "Option2": "An `if` statement that allows you to declare and initialize a variable directly within the `if` statement's scope, making the variable scoped to the `if` and `else` blocks.",
+    "Option3": "An `if` statement without a condition.",
+    "4": "An `if` statement that uses global variables for initialization.",
+    "Answer": "An `if` statement that allows you to declare and initialize a variable directly within the `if` statement's scope, making the variable scoped to the `if` and `else` blocks."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `std::optional` in C++17?",
+    "Option1": "A type for mandatory values.",
+    "Option2": "A class template that represents an optional value, meaning it may or may not contain a value, useful for handling situations where a value might be absent.",
+    "Option3": "A type for constant values.",
+    "4": "A type for unique values.",
+    "Answer": "A class template that represents an optional value, meaning it may or may not contain a value, useful for handling situations where a value might be absent."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which type of machine learning involves training a model on a labeled dataset?",
+    "Option1": "Unsupervised Learning",
+    "Option2": "Reinforcement Learning",
+    "Option3": "Supervised Learning",
+    "Option4": "Semi-supervised Learning",
+    "Answer": "Supervised Learning"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the primary goal of regression in machine learning?",
+    "Option1": "Classifying data into categories",
+    "Option2": "Predicting a continuous output value",
+    "Option3": "Grouping similar data points",
+    "Option4": "Finding optimal actions in an environment",
+    "Answer": "Predicting a continuous output value"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which algorithm is commonly used for classification tasks and creates a tree-like model of decisions?",
+    "Option1": "K-Means",
+    "Option2": "Linear Regression",
+    "Option3": "Decision Tree",
+    "Option4": "Principal Component Analysis",
+    "Answer": "Decision Tree"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is 'overfitting' in the context of machine learning?",
+    "Option1": "When a model performs well on training data but poorly on unseen data",
+    "Option2": "When a model is too simple to capture the underlying patterns",
+    "Option3": "When the training data is too small",
+    "Option4": "When the model takes too long to train",
+    "Answer": "When a model performs well on training data but poorly on unseen data"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which metric is used to evaluate a classification model's ability to correctly identify positive instances?",
+    "Option1": "Accuracy",
+    "Option2": "Precision",
+    "Option3": "Recall",
+    "Option4": "F1-Score",
+    "Answer": "Recall"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What does 'EDA' stand for in machine learning?",
+    "Option1": "Early Data Analysis",
+    "Option2": "Exploratory Data Analysis",
+    "Option3": "Essential Data Algorithm",
+    "Option4": "Experimental Data Application",
+    "Answer": "Exploratory Data Analysis"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which of the following is an example of an unsupervised learning algorithm?",
+    "Option1": "Support Vector Machine",
+    "Option2": "Logistic Regression",
+    "Option3": "K-Means Clustering",
+    "Option4": "Random Forest",
+    "Answer": "K-Means Clustering"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of a 'validation set' in machine learning?",
+    "Option1": "To train the model",
+    "Option2": "To test the final performance of the model",
+    "Option3": "To tune hyperparameters and prevent overfitting",
+    "Option4": "To preprocess the data",
+    "Answer": "To tune hyperparameters and prevent overfitting"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which concept refers to the problem of a model being too simple and unable to capture the underlying complexity of the data?",
+    "Option1": "Overfitting",
+    "Option2": "Underfitting",
+    "Option3": "Bias",
+    "Option4": "Variance",
+    "Answer": "Underfitting"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'feature' in a machine learning dataset?",
+    "Option1": "The predicted output value",
+    "Option2": "An individual measurable property or characteristic",
+    "Option3": "The type of algorithm used",
+    "Option4": "The number of data points",
+    "Answer": "An individual measurable property or characteristic"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which type of learning involves an agent interacting with an environment to learn optimal behavior?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Active Learning",
+    "Answer": "Reinforcement Learning"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the main advantage of using a 'Neural Network'?",
+    "Option1": "Simplicity and interpretability",
+    "Option2": "Ability to handle non-linear relationships",
+    "Option3": "Guaranteed optimal solution",
+    "Option4": "Fast training time on small datasets",
+    "Answer": "Ability to handle non-linear relationships"
+  },
+  {
+    "question_no.": 13,
+    "Question": "In machine learning, what is a 'label'?",
+    "Option1": "The input data",
+    "Option2": "The expected output or target variable",
+    "Option3": "A measure of model complexity",
+    "Option4": "A specific feature in the dataset",
+    "Answer": "The expected output or target variable"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which method is used to reduce the dimensionality of data while preserving most of its variance?",
+    "Option1": "Gradient Descent",
+    "Option2": "Principal Component Analysis (PCA)",
+    "Option3": "Cross-validation",
+    "Option4": "Feature Scaling",
+    "Answer": "Principal Component Analysis (PCA)"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the purpose of 'cross-validation'?",
+    "Option1": "To speed up the training process",
+    "Option2": "To evaluate the model's performance robustly on unseen data",
+    "Option3": "To select the best features",
+    "Option4": "To prevent data leakage",
+    "Answer": "To evaluate the model's performance robustly on unseen data"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which term describes the process of converting raw data into a clean and suitable format for machine learning?",
+    "Option1": "Model Training",
+    "Option2": "Data Visualization",
+    "Option3": "Data Preprocessing",
+    "Option4": "Hyperparameter Tuning",
+    "Answer": "Data Preprocessing"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is a 'hyperparameter' in machine learning?",
+    "Option1": "A parameter learned by the model during training",
+    "Option2": "A parameter whose value is set before the learning process begins",
+    "Option3": "A feature of the input data",
+    "Option4": "The predicted output of the model",
+    "Answer": "A parameter whose value is set before the learning process begins"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which type of bias occurs when the training data does not accurately represent the real-world distribution?",
+    "Option1": "Algorithm Bias",
+    "Option2": "Sampling Bias",
+    "Option3": "Selection Bias",
+    "Option4": "Confirmation Bias",
+    "Answer": "Sampling Bias"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'transfer learning'?",
+    "Option1": "Training a model from scratch on a new dataset",
+    "Option2": "Using a pre-trained model as a starting point for a new task",
+    "Option3": "Transferring data between different models",
+    "Option4": "Learning from different data sources simultaneously",
+    "Answer": "Using a pre-trained model as a starting point for a new task"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which activation function is commonly used in the output layer of a binary classification neural network?",
+    "Option1": "ReLU",
+    "Option2": "Sigmoid",
+    "Option3": "Softmax",
+    "Option4": "Tanh",
+    "Answer": "Sigmoid"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which technique is used to combat overfitting by randomly dropping out a percentage of neurons during training?",
+    "Option1": "Batch Normalization",
+    "Option2": "Dropout",
+    "Option3": "L1 Regularization",
+    "Option4": "Early Stopping",
+    "Answer": "Dropout"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the goal of 'feature engineering'?",
+    "Option1": "To reduce the number of features",
+    "Option2": "To create new features from existing ones to improve model performance",
+    "Option3": "To visualize the features",
+    "Option4": "To remove irrelevant features",
+    "Answer": "To create new features from existing ones to improve model performance"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which type of neural network is best suited for image recognition tasks?",
+    "Option1": "Recurrent Neural Network (RNN)",
+    "Option2": "Convolutional Neural Network (CNN)",
+    "Option3": "Feedforward Neural Network (FNN)",
+    "Option4": "Generative Adversarial Network (GAN)",
+    "Answer": "Convolutional Neural Network (CNN)"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'gradient descent' primarily used for in machine learning?",
+    "Option1": "To visualize high-dimensional data",
+    "Option2": "To find the minimum of a cost function",
+    "Option3": "To cluster data points",
+    "Option4": "To perform feature selection",
+    "Answer": "To find the minimum of a cost function"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which metric is most suitable for evaluating a model on an imbalanced dataset?",
+    "Option1": "Accuracy",
+    "Option2": "Precision",
+    "Option3": "Recall",
+    "Option4": "F1-Score",
+    "Answer": "F1-Score"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of a 'loss function' in machine learning?",
+    "Option1": "To define the model's architecture",
+    "Option2": "To measure the discrepancy between predicted and actual values",
+    "Option3": "To visualize the data distribution",
+    "Option4": "To optimize hyperparameter values",
+    "Answer": "To measure the discrepancy between predicted and actual values"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which type of machine learning task involves predicting the next value in a sequence?",
+    "Option1": "Classification",
+    "Option2": "Regression",
+    "Option3": "Time Series Forecasting",
+    "Option4": "Clustering",
+    "Answer": "Time Series Forecasting"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the role of the 'activation function' in a neural network?",
+    "Option1": "To calculate the error",
+    "Option2": "To introduce non-linearity into the model",
+    "Option3": "To initialize the weights",
+    "Option4": "To normalize the input data",
+    "Answer": "To introduce non-linearity into the model"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which term refers to the process of training a machine learning model on a subset of the dataset and testing it on another subset?",
+    "Option1": "Feature Scaling",
+    "Option2": "Data Augmentation",
+    "Option3": "Train-Test Split",
+    "Option4": "Model Deployment",
+    "Answer": "Train-Test Split"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the main idea behind 'Ensemble Learning'?",
+    "Option1": "Training a single, complex model",
+    "Option2": "Combining multiple models to improve overall performance",
+    "Option3": "Using different datasets for training",
+    "Option4": "Focusing on a single, powerful algorithm",
+    "Answer": "Combining multiple models to improve overall performance"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which of the following is a common method for handling missing data?",
+    "Option1": "Feature Scaling",
+    "Option2": "Imputation",
+    "Option3": "One-Hot Encoding",
+    "Option4": "Dimensionality Reduction",
+    "Answer": "Imputation"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the 'bias-variance tradeoff'?",
+    "Option1": "A concept relating to the cost of training a model",
+    "Option2": "The balance between a model's ability to fit training data and generalize to unseen data",
+    "Option3": "A method for selecting optimal hyperparameters",
+    "Option4": "The trade-off between model accuracy and interpretability",
+    "Answer": "The balance between a model's ability to fit training data and generalize to unseen data"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which algorithm is suitable for finding patterns and structures in unlabeled data?",
+    "Option1": "Linear Regression",
+    "Option2": "K-Nearest Neighbors",
+    "Option3": "Clustering Algorithms",
+    "Option4": "Support Vector Machines",
+    "Answer": "Clustering Algorithms"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the primary purpose of 'regularization' in machine learning?",
+    "Option1": "To speed up the training process",
+    "Option2": "To prevent overfitting by penalizing large coefficients",
+    "Option3": "To select the most important features",
+    "Option4": "To normalize the input data",
+    "Answer": "To prevent overfitting by penalizing large coefficients"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which type of neural network is often used for processing sequential data like natural language or time series?",
+    "Option1": "Convolutional Neural Network (CNN)",
+    "Option2": "Recurrent Neural Network (RNN)",
+    "Option3": "Generative Adversarial Network (GAN)",
+    "Option4": "Autoencoder",
+    "Answer": "Recurrent Neural Network (RNN)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What does 'AUC-ROC' stand for in machine learning evaluation?",
+    "Option1": "Area Under Curve - Receiver Operating Characteristic",
+    "Option2": "Accuracy Under Classification - Regression Output Curve",
+    "Option3": "Algorithm Utility Coefficient - Random Order Comparison",
+    "Option4": "Average Unsupervised Clustering - Relative Optimal Criterion",
+    "Answer": "Area Under Curve - Receiver Operating Characteristic"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which technique is used to convert categorical features into a numerical format that machine learning models can understand?",
+    "Option1": "Feature Scaling",
+    "Option2": "One-Hot Encoding",
+    "Option3": "Dimensionality Reduction",
+    "Option4": "Normalization",
+    "Answer": "One-Hot Encoding"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Reinforcement Learning' primarily concerned with?",
+    "Option1": "Learning from labeled data to make predictions",
+    "Option2": "Discovering hidden patterns in unlabeled data",
+    "Option3": "Training agents to make sequential decisions in an environment",
+    "Option4": "Transferring knowledge from one domain to another",
+    "Answer": "Training agents to make sequential decisions in an and environment"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which type of machine learning problem involves predicting a discrete outcome, like 'spam' or 'not spam'?",
+    "Option1": "Regression",
+    "Option2": "Clustering",
+    "Option3": "Classification",
+    "Option4": "Dimensionality Reduction",
+    "Answer": "Classification"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the role of an 'optimizer' in training neural networks?",
+    "Option1": "To visualize the network's architecture",
+    "Option2": "To measure the model's performance",
+    "Option3": "To adjust the model's weights to minimize the loss function",
+    "Option4": "To preprocess the input data",
+    "Answer": "To adjust the model's weights to minimize the loss function"
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which type of machine learning involves humans providing feedback to the model during training?",
+    "Option1": "Active Learning",
+    "Option2": "Semi-supervised Learning",
+    "Option3": "Human-in-the-Loop Learning",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Human-in-the-Loop Learning"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Generative AI' primarily used for?",
+    "Option1": "Classifying existing data",
+    "Option2": "Creating new and original content (e.g., images, text)",
+    "Option3": "Predicting numerical values",
+    "Option4": "Reducing data dimensionality",
+    "Answer": "Creating new and original content (e.g., images, text)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which algorithm is known for its ability to handle both linear and non-linear relationships by finding an optimal hyperplane?",
+    "Option1": "K-Means",
+    "Option2": "Decision Tree",
+    "Option3": "Support Vector Machine (SVM)",
+    "Option4": "Naive Bayes",
+    "Answer": "Support Vector Machine (SVM)"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'data leakage' in machine learning?",
+    "Option1": "When confidential data is exposed",
+    "Option2": "When information from the test set is used to train the model",
+    "Option3": "When the dataset is too small",
+    "Option4": "When features are highly correlated",
+    "Answer": "When information from the test set is used to train the model"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which technique is used to make numerical features have a similar scale, preventing larger values from dominating the learning process?",
+    "Option1": "One-Hot Encoding",
+    "Option2": "Data Imputation",
+    "Option3": "Feature Scaling",
+    "Option4": "Principal Component Analysis",
+    "Answer": "Feature Scaling"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'batch normalization' used for in deep learning?",
+    "Option1": "To reduce the number of layers in a neural network",
+    "Option2": "To normalize the inputs of each layer, speeding up training and improving stability",
+    "Option3": "To regularize the model weights",
+    "Option4": "To create new features from existing ones",
+    "Answer": "To normalize the inputs of each layer, speeding up training and improving stability"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which metric is sensitive to both precision and recall, providing a balanced evaluation for classification problems?",
+    "Option1": "Accuracy",
+    "Option2": "F1-Score",
+    "Option3": "True Positive Rate",
+    "Option4": "False Positive Rate",
+    "Answer": "F1-Score"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the primary advantage of 'Random Forest' over a single Decision Tree?",
+    "Option1": "It's simpler to interpret",
+    "Option2": "It's less prone to overfitting and generally more accurate",
+    "Option3": "It trains faster",
+    "Option4": "It can handle missing values automatically",
+    "Answer": "It's less prone to overfitting and generally more accurate"
+  },
+  {
+    "question_no.": 49,
+    "Question": "In the context of NLP, what does 'Word Embedding' refer to?",
+    "Option1": "Converting words into numerical vectors that capture their semantic meaning",
+    "Option2": "Counting the frequency of words in a document",
+    "Option3": "Removing stop words from text",
+    "Option4": "Tokenizing text into individual words",
+    "Answer": "Converting words into numerical vectors that capture their semantic meaning"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'early stopping' in machine learning?",
+    "Option1": "Stopping training early if the model is underfitting",
+    "Option2": "Stopping training when the validation loss starts to increase",
+    "Option3": "Stopping training after a fixed number of epochs",
+    "Option4": "Stopping training if the accuracy is too low",
+    "Answer": "Stopping training when the validation loss starts to increase"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which term describes the process of automatically finding the best set of hyperparameters for a machine learning model?",
+    "Option1": "Feature Engineering",
+    "Option2": "Model Evaluation",
+    "Option3": "Hyperparameter Tuning",
+    "Option4": "Data Augmentation",
+    "Answer": "Hyperparameter Tuning"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the main purpose of 'data augmentation' in deep learning, especially for image tasks?",
+    "Option1": "To reduce the size of the dataset",
+    "Option2": "To increase the diversity of the training data and prevent overfitting",
+    "Option3": "To remove noise from images",
+    "Option4": "To compress image files",
+    "Answer": "To increase the diversity of the training data and prevent overfitting"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which type of AI focuses on enabling machines to learn from data without being explicitly programmed?",
+    "Option1": "Robotics",
+    "Option2": "Expert Systems",
+    "Option3": "Machine Learning",
+    "Option4": "Natural Language Processing",
+    "Answer": "Machine Learning"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'supervised learning' primarily used for?",
+    "Option1": "Discovering hidden patterns in data",
+    "Option2": "Making predictions based on labeled examples",
+    "Option3": "Training agents through trial and error",
+    "Option4": "Generating new data samples",
+    "Answer": "Making predictions based on labeled examples"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which common problem in machine learning occurs when a model learns the training data too well, including its noise?",
+    "Option1": "Underfitting",
+    "Option2": "Overfitting",
+    "Option3": "Bias",
+    "Option4": "Variance",
+    "Answer": "Overfitting"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is a 'confusion matrix' used for?",
+    "Option1": "To visualize the distribution of features",
+    "Option2": "To summarize the performance of a classification algorithm",
+    "Option3": "To identify outliers in the data",
+    "Option4": "To select optimal hyperparameters",
+    "Answer": "To summarize the performance of a classification algorithm"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which algorithm aims to partition 'n' observations into 'k' clusters where each observation belongs to the cluster with the nearest mean?",
+    "Option1": "Linear Regression",
+    "Option2": "Support Vector Machine",
+    "Option3": "K-Means",
+    "Option4": "Decision Tree",
+    "Answer": "K-Means"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does 'NLP' stand for?",
+    "Option1": "Neural Learning Processes",
+    "Option2": "Natural Language Programming",
+    "Option3": "Natural Language Processing",
+    "Option4": "Network Layer Protocols",
+    "Answer": "Natural Language Processing"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which type of learning involves training a model on a small amount of labeled data and a large amount of unlabeled data?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Semi-supervised Learning",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Semi-supervised Learning"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the purpose of 'feature selection'?",
+    "Option1": "To create new features",
+    "Option2": "To select the most relevant features for model training",
+    "Option3": "To scale numerical features",
+    "Option4": "To visualize feature importance",
+    "Answer": "To select the most relevant features for model training"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which type of AI aims to simulate human-like intelligence, including reasoning, problem-solving, and learning?",
+    "Option1": "Machine Learning",
+    "Option2": "Deep Learning",
+    "Option3": "Artificial Intelligence",
+    "Option4": "Data Science",
+    "Answer": "Artificial Intelligence"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the core idea behind 'Deep Learning'?",
+    "Option1": "Using very large datasets for simple models",
+    "Option2": "Employing neural networks with multiple hidden layers",
+    "Option3": "Focusing on linear regression models",
+    "Option4": "Learning without any human supervision",
+    "Answer": "Employing neural networks with multiple hidden layers"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which component of a neural network processes the input and passes it to the next layer?",
+    "Option1": "Output Layer",
+    "Option2": "Hidden Layer",
+    "Option3": "Input Layer",
+    "Option4": "Activation Function",
+    "Answer": "Input Layer"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Natural Language Generation' (NLG)?",
+    "Option1": "Understanding human language",
+    "Option2": "Converting text to speech",
+    "Option3": "Generating human-like text from data",
+    "Option4": "Translating between languages",
+    "Answer": "Generating human-like text from data"
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which technique helps to reduce the variance of a model by training multiple models on different subsets of the data?",
+    "Option1": "Bagging (e.g., Random Forest)",
+    "Option2": "Boosting (e.g., Gradient Boosting)",
+    "Option3": "Stacking",
+    "Option4": "Dropout",
+    "Answer": "Bagging (e.g., Random Forest)"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the primary difference between 'bias' and 'variance' in machine learning?",
+    "Option1": "Bias is error from assumptions in the learning algorithm, variance is error from sensitivity to training data",
+    "Option2": "Bias is about model complexity, variance is about data size",
+    "Option3": "Bias is related to overfitting, variance to underfitting",
+    "Option4": "Bias is about feature selection, variance is about hyperparameter tuning",
+    "Answer": "Bias is error from assumptions in the learning algorithm, variance is error from sensitivity to training data"
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which activation function outputs values between 0 and 1, making it suitable for probabilities in classification?",
+    "Option1": "ReLU",
+    "Option2": "Tanh",
+    "Option3": "Sigmoid",
+    "Option4": "Leaky ReLU",
+    "Answer": "Sigmoid"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'data cleaning' in the context of machine learning?",
+    "Option1": "Removing unnecessary files from the computer",
+    "Option2": "Identifying and correcting errors or inconsistencies in data",
+    "Option3": "Encrypting sensitive data",
+    "Option4": "Backing up data to a cloud storage",
+    "Answer": "Identifying and correcting errors or inconsistencies in data"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which type of AI system is designed to mimic human expertise in a specific domain?",
+    "Option1": "Machine Learning Model",
+    "Option2": "Expert System",
+    "Option3": "Neural Network",
+    "Option4": "Robotic Process Automation",
+    "Answer": "Expert System"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the main challenge of 'imbalanced datasets' in classification?",
+    "Option1": "The model learns too slowly",
+    "Option2": "The model tends to ignore the minority class",
+    "Option3": "It leads to overfitting",
+    "Option4": "It increases computational cost",
+    "Answer": "The model tends to ignore the minority class"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which algorithm builds a series of weak learners that combine to form a strong learner, often sequentially?",
+    "Option1": "K-Nearest Neighbors",
+    "Option2": "Support Vector Machine",
+    "Option3": "Boosting (e.g., AdaBoost, Gradient Boosting)",
+    "Option4": "K-Means",
+    "Answer": "Boosting (e.g., AdaBoost, Gradient Boosting)"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What does 'Computer Vision' primarily deal with?",
+    "Option1": "Processing and understanding text data",
+    "Option2": "Enabling computers to 'see' and interpret images/videos",
+    "Option3": "Predicting numerical values from tabular data",
+    "Option4": "Controlling robotic movements",
+    "Answer": "Enabling computers to 'see' and interpret images/videos"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which metric is used to evaluate regression models and represents the average squared difference between predicted and actual values?",
+    "Option1": "Accuracy",
+    "Option2": "Mean Squared Error (MSE)",
+    "Option3": "F1-Score",
+    "Option4": "Precision",
+    "Answer": "Mean Squared Error (MSE)"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the 'vanishing gradient problem' in deep learning?",
+    "Option1": "When the learning rate is too high",
+    "Option2": "When gradients become extremely small, making it difficult for the network to learn",
+    "Option3": "When the model converges too quickly",
+    "Option4": "When the dataset is too small for gradient descent",
+    "Answer": "When gradients become extremely small, making it difficult for the network to learn"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which type of machine learning involves predicting a categorical outcome with more than two classes?",
+    "Option1": "Binary Classification",
+    "Option2": "Multi-class Classification",
+    "Option3": "Regression",
+    "Option4": "Clustering",
+    "Answer": "Multi-class Classification"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'feature scaling' used for?",
+    "Option1": "To reduce the number of features",
+    "Option2": "To ensure that all features have a similar scale, improving algorithm performance",
+    "Option3": "To create new features",
+    "Option4": "To visualize the relationships between features",
+    "Answer": "To ensure that all features have a similar scale, improving algorithm performance"
+  },
+  {
+    "question_no.": 77,
+    "Question": "Which AI concept describes a system that can understand, interpret, and generate human language?",
+    "Option1": "Computer Vision",
+    "Option2": "Robotics",
+    "Option3": "Natural Language Processing (NLP)",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Natural Language Processing (NLP)"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the purpose of the 'learning rate' in gradient descent?",
+    "Option1": "The number of training epochs",
+    "Option2": "The size of each step taken down the gradient to find the minimum",
+    "Option3": "The initial weights of the model",
+    "Option4": "The number of hidden layers in a neural network",
+    "Answer": "The size of each step taken down the gradient to find the minimum"
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which type of algorithm learns to map inputs to outputs based on example input-output pairs?",
+    "Option1": "Unsupervised Learning",
+    "Option2": "Supervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Active Learning",
+    "Answer": "Supervised Learning"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is a 'confusion matrix' row and column representing?",
+    "Option1": "Input features and output labels",
+    "Option2": "True positives and false positives",
+    "Option3": "Actual classes and predicted classes",
+    "Option4": "Model accuracy and loss",
+    "Answer": "Actual classes and predicted classes"
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which type of machine learning problem involves grouping similar data points without prior labels?",
+    "Option1": "Classification",
+    "Option2": "Regression",
+    "Option3": "Clustering",
+    "Option4": "Dimensionality Reduction",
+    "Answer": "Clustering"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the main goal of 'Dimensionality Reduction'?",
+    "Option1": "To increase the number of features",
+    "Option2": "To reduce the number of features while retaining important information",
+    "Option3": "To normalize the data",
+    "Option4": "To handle missing values",
+    "Answer": "To reduce the number of features while retaining important information"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which common measure is used to evaluate how well a regression model predicts a continuous target variable?",
+    "Option1": "Accuracy",
+    "Option2": "F1-Score",
+    "Option3": "R-squared (Coefficient of Determination)",
+    "Option4": "Precision",
+    "Answer": "R-squared (Coefficient of Determination)"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Stochastic Gradient Descent' (SGD)?",
+    "Option1": "A type of regularization technique",
+    "Option2": "A variant of gradient descent that uses only one randomly chosen data point at each step",
+    "Option3": "An algorithm for clustering data",
+    "Option4": "A method for hyperparameter tuning",
+    "Answer": "A variant of gradient descent that uses only one randomly chosen data point at each step"
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which technique is used to prevent overfitting by penalizing the absolute size of the weights in a linear model?",
+    "Option1": "L2 Regularization (Ridge Regression)",
+    "Option2": "L1 Regularization (Lasso Regression)",
+    "Option3": "Dropout",
+    "Option4": "Early Stopping",
+    "Answer": "L1 Regularization (Lasso Regression)"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Reinforcement Learning' often used for?",
+    "Option1": "Image classification",
+    "Option2": "Predicting housing prices",
+    "Option3": "Training AI to play games or control robots",
+    "Option4": "Customer segmentation",
+    "Answer": "Training AI to play games or control robots"
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which evaluation metric for classification is the ratio of correctly predicted positive observations to the total actual positives?",
+    "Option1": "Precision",
+    "Option2": "Recall",
+    "Option3": "Accuracy",
+    "Option4": "F1-Score",
+    "Answer": "Recall"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the primary function of a 'kernel trick' in Support Vector Machines (SVMs)?",
+    "Option1": "To reduce the number of support vectors",
+    "Option2": "To transform non-linearly separable data into a higher-dimensional space where it is separable",
+    "Option3": "To speed up the training process",
+    "Option4": "To handle missing values in the data",
+    "Answer": "To transform non-linearly separable data into a higher-dimensional space where it is separable"
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which type of AI deals with the development of intelligent robots capable of performing tasks in the physical world?",
+    "Option1": "Natural Language Processing",
+    "Option2": "Computer Vision",
+    "Option3": "Robotics",
+    "Option4": "Machine Learning",
+    "Answer": "Robotics"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the role of a 'dataset' in machine learning?",
+    "Option1": "It's the output of the model",
+    "Option2": "It's the collection of data used for training and testing",
+    "Option3": "It's the algorithm used for training",
+    "Option4": "It's the evaluation metric",
+    "Answer": "It's the collection of data used for training and testing"
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which concept in AI refers to the ability of a machine to learn and apply knowledge from one domain to another related domain?",
+    "Option1": "Supervised Learning",
+    "Option2": "Transfer Learning",
+    "Option3": "Active Learning",
+    "Option4": "Meta-Learning",
+    "Answer": "Transfer Learning"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Model Interpretability' in machine learning?",
+    "Option1": "How fast the model trains",
+    "Option2": "The ability to understand why a model makes certain predictions",
+    "Option3": "The size of the model",
+    "Option4": "How well the model performs on new data",
+    "Answer": "The ability to understand why a model makes certain predictions"
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which type of learning involves an agent learning to make decisions in a sequential manner to maximize a reward signal?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Generative Learning",
+    "Answer": "Reinforcement Learning"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Deepfake' technology an application of?",
+    "Option1": "Regression",
+    "Option2": "Clustering",
+    "Option3": "Generative Adversarial Networks (GANs)",
+    "Option4": "Decision Trees",
+    "Answer": "Generative Adversarial Networks (GANs)"
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which metric in binary classification measures the ratio of correctly predicted negative observations to the total actual negatives?",
+    "Option1": "True Positive Rate",
+    "Option2": "False Negative Rate",
+    "Option3": "Specificity (True Negative Rate)",
+    "Option4": "Precision",
+    "Answer": "Specificity (True Negative Rate)"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the 'epoch' in neural network training?",
+    "Option1": "A single forward pass through the network",
+    "Option2": "The entire dataset passed through the neural network once",
+    "Option3": "The size of the mini-batch",
+    "Option4": "The number of hidden layers",
+    "Answer": "The entire dataset passed through the neural network once"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which problem occurs when a model is too simple and cannot capture the underlying pattern of the data, leading to high bias?",
+    "Option1": "Overfitting",
+    "Option2": "Underfitting",
+    "Option3": "Vanishing Gradient",
+    "Option4": "Exploding Gradient",
+    "Answer": "Underfitting"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the main goal of 'clustering' algorithms?",
+    "Option1": "To predict continuous values",
+    "Option2": "To group data points into meaningful clusters based on similarity",
+    "Option3": "To classify data into predefined categories",
+    "Option4": "To reduce the number of features",
+    "Answer": "To group data points into meaningful clusters based on similarity"
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which concept is crucial for training deep neural networks and involves calculating the gradient of the loss function with respect to the weights?",
+    "Option1": "Forward Propagation",
+    "Option2": "Backpropagation",
+    "Option3": "Pooling",
+    "Option4": "Convolution",
+    "Answer": "Backpropagation"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of 'stratified sampling' in a train-test split?",
+    "Option1": "To ensure an equal number of samples in training and test sets",
+    "Option2": "To maintain the same proportion of target classes in both subsets",
+    "Option3": "To randomly select samples without replacement",
+    "Option4": "To speed up the splitting process",
+    "Answer": "To maintain the same proportion of target classes in both subsets"
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which AI field focuses on enabling machines to understand and generate human speech?",
+    "Option1": "Natural Language Processing (NLP)",
+    "Option2": "Speech Recognition",
+    "Option3": "Computer Vision",
+    "Option4": "Robotics",
+    "Answer": "Speech Recognition"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is a 'Perceptron' in the context of neural networks?",
+    "Option1": "A type of recurrent neural network",
+    "Option2": "The simplest form of an artificial neuron, a building block of neural networks",
+    "Option3": "A complex deep learning architecture",
+    "Option4": "An algorithm for clustering data",
+    "Answer": "The simplest form of an artificial neuron, a building block of neural networks"
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which type of machine learning model is often used for credit scoring and predicts the probability of an event?",
+    "Option1": "Linear Regression",
+    "Option2": "Logistic Regression",
+    "Option3": "K-Means",
+    "Option4": "Principal Component Analysis",
+    "Answer": "Logistic Regression"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What does 'RMSE' stand for and what is it used for?",
+    "Option1": "Root Mean Squared Error, used for classification evaluation",
+    "Option2": "Root Mean Squared Error, used for regression evaluation",
+    "Option3": "Recall and Mean Squared Error, used for both classification and regression",
+    "Option4": "Random Model Selection Error, used for model comparison",
+    "Answer": "Root Mean Squared Error, used for regression evaluation"
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which technique is used to prevent the 'exploding gradient problem' in recurrent neural networks?",
+    "Option1": "Dropout",
+    "Option2": "Gradient Clipping",
+    "Option3": "Batch Normalization",
+    "Option4": "L1 Regularization",
+    "Answer": "Gradient Clipping"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Sentiment Analysis' an application of?",
+    "Option1": "Computer Vision",
+    "Option2": "Robotics",
+    "Option3": "Natural Language Processing (NLP)",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Natural Language Processing (NLP)"
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which term refers to the process of deploying a trained machine learning model into a production environment for real-world use?",
+    "Option1": "Model Training",
+    "Option2": "Model Evaluation",
+    "Option3": "Model Deployment",
+    "Option4": "Data Collection",
+    "Answer": "Model Deployment"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the 'ReLU' activation function known for?",
+    "Option1": "Outputting values between -1 and 1",
+    "Option2": "Preventing vanishing gradients and being computationally efficient",
+    "Option3": "Being used in the output layer for multi-class classification",
+    "Option4": "Introducing linear relationships into the network",
+    "Answer": "Preventing vanishing gradients and being computationally efficient"
+  },
+  {
+    "question_no.": 109,
+    "Question": "In supervised learning, what is a 'training set'?",
+    "Option1": "The data used to evaluate the final model performance",
+    "Option2": "The data used to tune hyperparameters",
+    "Option3": "The data used to train the machine learning model",
+    "Option4": "The entire dataset before splitting",
+    "Answer": "The data used to train the machine learning model"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'One-Shot Learning'?",
+    "Option1": "Learning from a single training example",
+    "Option2": "Training a model for only one epoch",
+    "Option3": "A type of unsupervised learning",
+    "Option4": "A method for hyperparameter tuning",
+    "Answer": "Learning from a single training example"
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which type of AI involves creating machines that can understand and interpret visual information from the real world?",
+    "Option1": "Natural Language Processing",
+    "Option2": "Robotics",
+    "Option3": "Computer Vision",
+    "Option4": "Expert Systems",
+    "Answer": "Computer Vision"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the primary difference between a 'classifier' and a 'regressor'?",
+    "Option1": "Classifiers predict continuous values, regressors predict discrete categories",
+    "Option2": "Classifiers predict discrete categories, regressors predict continuous values",
+    "Option3": "Classifiers use supervised learning, regressors use unsupervised learning",
+    "Option4": "Classifiers are for deep learning, regressors are for traditional ML",
+    "Answer": "Classifiers predict discrete categories, regressors predict continuous values"
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which algorithm is a non-parametric method used for classification and regression that finds the 'k' closest points in the training data?",
+    "Option1": "K-Means",
+    "Option2": "Linear Regression",
+    "Option3": "K-Nearest Neighbors (KNN)",
+    "Option4": "Decision Tree",
+    "Answer": "K-Nearest Neighbors (KNN)"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'data normalization' in data preprocessing?",
+    "Option1": "Removing duplicate entries",
+    "Option2": "Scaling data to a standard range (e.g., 0 to 1 or mean 0, std dev 1)",
+    "Option3": "Handling missing values",
+    "Option4": "Converting numerical data to categorical",
+    "Answer": "Scaling data to a standard range (e.g., 0 to 1 or mean 0, std dev 1)"
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which type of learning involves no explicit reward signal but learns by finding structure in the data?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Semi-supervised Learning",
+    "Answer": "Unsupervised Learning"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the 'output layer' in a neural network?",
+    "Option1": "The layer that receives the input data",
+    "Option2": "The layer where the final predictions or outputs are generated",
+    "Option3": "A layer between the input and output layers",
+    "Option4": "The layer where regularization is applied",
+    "Answer": "The layer where the final predictions or outputs are generated"
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which term describes the process of converting raw text into a numerical format that machine learning models can process?",
+    "Option1": "Image Processing",
+    "Option2": "Text Vectorization (e.g., TF-IDF, Word Embeddings)",
+    "Option3": "Audio Preprocessing",
+    "Option4": "Feature Scaling",
+    "Answer": "Text Vectorization (e.g., TF-IDF, Word Embeddings)"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the role of 'evaluation metrics' in machine learning?",
+    "Option1": "To determine the best algorithm for a problem",
+    "Option2": "To quantify the performance of a machine learning model",
+    "Option3": "To select the input features",
+    "Option4": "To preprocess the data",
+    "Answer": "To quantify the performance of a machine learning model"
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which of the following is a common challenge in Reinforcement Learning?",
+    "Option1": "Lack of labeled data",
+    "Option2": "The exploration-exploitation dilemma",
+    "Option3": "Overfitting to training data",
+    "Option4": "High dimensionality of features",
+    "Answer": "The exploration-exploitation dilemma"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'A/B Testing' often used for in the context of deployed ML models?",
+    "Option1": "To compare two different models or versions of a model in a real-world setting",
+    "Option2": "To preprocess data before training",
+    "Option3": "To fine-tune hyperparameters",
+    "Option4": "To visualize model performance",
+    "Answer": "To compare two different models or versions of a model in a real-world setting"
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which type of neural network excels at processing hierarchical patterns in images, such as edges, textures, and objects?",
+    "Option1": "Recurrent Neural Network (RNN)",
+    "Option2": "Convolutional Neural Network (CNN)",
+    "Option3": "Feedforward Neural Network (FNN)",
+    "Option4": "Long Short-Term Memory (LSTM)",
+    "Answer": "Convolutional Neural Network (CNN)"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the 'Curse of Dimensionality'?",
+    "Option1": "The challenge of training models with too little data",
+    "Option2": "The phenomenon where data analysis becomes more difficult as the number of features increases",
+    "Option3": "The problem of low model interpretability",
+    "Option4": "The computational cost of hyperparameter tuning",
+    "Answer": "The phenomenon where data analysis becomes more difficult as the number of features increases"
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which algorithm minimizes the sum of squared differences between actual and predicted values?",
+    "Option1": "Logistic Regression",
+    "Option2": "Linear Regression",
+    "Option3": "K-Means",
+    "Option4": "Decision Tree",
+    "Answer": "Linear Regression"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Supervised Learning' characterized by?",
+    "Option1": "The absence of a target variable",
+    "Option2": "Learning from labeled data to map inputs to outputs",
+    "Option3": "Discovering hidden structures in data",
+    "Option4": "Trial-and-error learning with reward signals",
+    "Answer": "Learning from labeled data to map inputs to outputs"
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which technique is used to create artificial training data from existing data, often by applying transformations?",
+    "Option1": "Feature Engineering",
+    "Option2": "Data Augmentation",
+    "Option3": "Data Normalization",
+    "Option4": "Data Cleaning",
+    "Answer": "Data Augmentation"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the main purpose of 'Principal Component Analysis' (PCA)?",
+    "Option1": "Classification",
+    "Option2": "Regression",
+    "Option3": "Dimensionality Reduction",
+    "Option4": "Clustering",
+    "Answer": "Dimensionality Reduction"
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which type of AI deals with machines making decisions and performing actions based on reasoning and knowledge?",
+    "Option1": "Machine Learning",
+    "Option2": "Symbolic AI (Good Old-Fashioned AI)",
+    "Option3": "Deep Learning",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Symbolic AI (Good Old-Fashioned AI)"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Bagging' in ensemble learning?",
+    "Option1": "Training models sequentially to correct errors",
+    "Option2": "Training multiple models independently and averaging their predictions",
+    "Option3": "Using a single very deep neural network",
+    "Option4": "Training on only a small portion of the data",
+    "Answer": "Training multiple models independently and averaging their predictions"
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which activation function is commonly used in hidden layers of deep neural networks due to its non-linear properties and efficiency?",
+    "Option1": "Sigmoid",
+    "Option2": "Tanh",
+    "Option3": "ReLU (Rectified Linear Unit)",
+    "Option4": "Softmax",
+    "Answer": "ReLU (Rectified Linear Unit)"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Feature Importance' in machine learning?",
+    "Option1": "The process of adding more features to the dataset",
+    "Option2": "A measure of how much each feature contributes to the model's predictions",
+    "Option3": "The cost of collecting feature data",
+    "Option4": "The range of values a feature can take",
+    "Answer": "A measure of how much each feature contributes to the model's predictions"
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which approach to AI involves programming explicit rules and knowledge into a system?",
+    "Option1": "Machine Learning",
+    "Option2": "Symbolic AI",
+    "Option3": "Deep Learning",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Symbolic AI"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the main advantage of 'Recurrent Neural Networks' (RNNs) for sequential data?",
+    "Option1": "They are very simple to train",
+    "Option2": "They can maintain an internal memory of past information in sequences",
+    "Option3": "They are good for image classification",
+    "Option4": "They do not require much data",
+    "Answer": "They can maintain an internal memory of past information in sequences"
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which of the following is a type of 'non-parametric' machine learning algorithm?",
+    "Option1": "Linear Regression",
+    "Option2": "Logistic Regression",
+    "Option3": "K-Nearest Neighbors (KNN)",
+    "Option4": "Support Vector Machine (Linear Kernel)",
+    "Answer": "K-Nearest Neighbors (KNN)"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Model Regularization' used for?",
+    "Option1": "To increase the complexity of the model",
+    "Option2": "To prevent overfitting by adding a penalty to the loss function",
+    "Option3": "To speed up model training",
+    "Option4": "To select the best set of features",
+    "Answer": "To prevent overfitting by adding a penalty to the loss function"
+  },
+  {
+    "question_no.": 135,
+    "Question": "Which term refers to the process of finding patterns and structure in data without using explicit labels?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Active Learning",
+    "Answer": "Unsupervised Learning"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Hyperparameter Tuning'?",
+    "Option1": "Adjusting the weights of a neural network",
+    "Option2": "Selecting the optimal values for parameters that control the learning process",
+    "Option3": "Cleaning and preprocessing the data",
+    "Option4": "Evaluating the model's performance on unseen data",
+    "Answer": "Selecting the optimal values for parameters that control the learning process"
+  },
+  {
+    "question_no.": 137,
+    "Question": "Which type of AI involves systems that can recognize and understand human speech?",
+    "Option1": "Natural Language Generation",
+    "Option2": "Speech Recognition",
+    "Option3": "Machine Translation",
+    "Option4": "Image Classification",
+    "Answer": "Speech Recognition"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the 'input layer' of a neural network?",
+    "Option1": "The layer that produces the final output",
+    "Option2": "The first layer that receives the raw input data",
+    "Option3": "A layer that performs complex computations",
+    "Option4": "The layer that regularizes the network",
+    "Answer": "The first layer that receives the raw input data"
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which evaluation metric is defined as True Positives / (True Positives + False Positives) and measures the accuracy of positive predictions?",
+    "Option1": "Recall",
+    "Option2": "Precision",
+    "Option3": "F1-Score",
+    "Option4": "Accuracy",
+    "Answer": "Precision"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Generative Adversarial Networks' (GANs) primarily used for?",
+    "Option1": "Predicting numerical values",
+    "Option2": "Generating realistic new data samples (e.g., images, audio)",
+    "Option3": "Clustering similar data points",
+    "Option4": "Classifying text documents",
+    "Answer": "Generating realistic new data samples (e.g., images, audio)"
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which concept relates to a model's inability to generalize to unseen data due to learning the noise in the training data?",
+    "Option1": "Bias",
+    "Option2": "Variance",
+    "Option3": "Underfitting",
+    "Option4": "Regularization",
+    "Answer": "Variance"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Deep Learning' often considered a subfield of?",
+    "Option1": "Robotics",
+    "Option2": "Machine Learning",
+    "Option3": "Data Visualization",
+    "Option4": "Expert Systems",
+    "Answer": "Machine Learning"
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which type of machine learning involves a human expert actively selecting the data points for the model to learn from?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Active Learning",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Active Learning"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the 'activation function' in a neural network?",
+    "Option1": "A function that calculates the error of the network",
+    "Option2": "A function applied to the output of each neuron to introduce non-linearity",
+    "Option3": "A method for initializing network weights",
+    "Option4": "A technique for feature selection",
+    "Answer": "A function applied to the output of each neuron to introduce non-linearity"
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which term describes a machine learning model that is able to explain its predictions in an understandable way?",
+    "Option1": "Black Box Model",
+    "Option2": "Interpretable Model",
+    "Option3": "Complex Model",
+    "Option4": "High-Bias Model",
+    "Answer": "Interpretable Model"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Model Selection' in machine learning?",
+    "Option1": "Choosing the right dataset for training",
+    "Option2": "Choosing the best machine learning model for a given task and dataset",
+    "Option3": "Selecting the most important features",
+    "Option4": "Deploying the model to production",
+    "Answer": "Choosing the best machine learning model for a given task and dataset"
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which type of AI system can learn to play games by trying different actions and receiving rewards or penalties?",
+    "Option1": "Supervised Learning",
+    "Option2": "Unsupervised Learning",
+    "Option3": "Reinforcement Learning",
+    "Option4": "Expert Systems",
+    "Answer": "Reinforcement Learning"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Stochastic Gradient Descent (SGD)' generally used to optimize?",
+    "Option1": "The number of hidden layers",
+    "Option2": "The weights of a neural network",
+    "Option3": "The learning rate",
+    "Option4": "The number of epochs",
+    "Answer": "The weights of a neural network"
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which metric provides a single score that balances both precision and recall?",
+    "Option1": "Accuracy",
+    "Option2": "F1-Score",
+    "Option3": "ROC AUC",
+    "Option4": "Mean Absolute Error",
+    "Answer": "F1-Score"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is a 'Tensor' in the context of deep learning frameworks like TensorFlow or PyTorch?",
+    "Option1": "A single numerical value",
+    "Option2": "A multi-dimensional array or matrix used to represent data",
+    "Option3": "A type of activation function",
+    "Option4": "A specific type of neural network layer",
+    "Answer": "A multi-dimensional array or matrix used to represent data"
+  },
+  {
+    "question_no.": 151,
+    "Question": "Which problem occurs when the gradient values become too large, leading to unstable network training?",
+    "Option1": "Vanishing Gradient",
+    "Option2": "Exploding Gradient",
+    "Option3": "Overfitting",
+    "Option4": "Underfitting",
+    "Answer": "Exploding Gradient"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Semi-supervised Learning'?",
+    "Option1": "Learning from only unlabeled data",
+    "Option2": "Learning from a mixture of labeled and unlabeled data",
+    "Option3": "Learning with human feedback at every step",
+    "Option4": "Learning by transferring knowledge from other models",
+    "Answer": "Learning from a mixture of labeled and unlabeled data"
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which algorithm can be used for both classification and regression tasks by partitioning the feature space into regions?",
+    "Option1": "K-Means",
+    "Option2": "Linear Regression",
+    "Option3": "Decision Tree",
+    "Option4": "Support Vector Machine",
+    "Answer": "Decision Tree"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Feature Engineering'?",
+    "Option1": "The process of removing features from a dataset",
+    "Option2": "The process of creating new features or transforming existing ones to improve model performance",
+    "Option3": "The process of selecting the best features for a model",
+    "Option4": "The process of scaling features to a common range",
+    "Answer": "The process of creating new features or transforming existing ones to improve model performance"
+  },
+  {
+    "question_no.": 155,
+    "Question": "Which AI concept is concerned with enabling machines to learn continuously throughout their lifetime, adapting to new information?",
+    "Option1": "Transfer Learning",
+    "Option2": "Continual Learning (Lifelong Learning)",
+    "Option3": "Active Learning",
+    "Option4": "Meta-Learning",
+    "Answer": "Continual Learning (Lifelong Learning)"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the purpose of 'Batch Normalization' in neural networks?",
+    "Option1": "To increase the number of layers",
+    "Option2": "To normalize the outputs of the activation functions",
+    "Option3": "To regularize the model and speed up training by normalizing inputs to each layer",
+    "Option4": "To remove dead neurons",
+    "Answer": "To regularize the model and speed up training by normalizing inputs to each layer"
+  },
+  {
+    "question_no.": 157,
+    "Question": "Which type of machine learning involves predicting a future value based on past observations?",
+    "Option1": "Classification",
+    "Option2": "Regression",
+    "Option3": "Time Series Forecasting",
+    "Option4": "Clustering",
+    "Answer": "Time Series Forecasting"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Dropout' primarily used for in neural networks?",
+    "Option1": "To add more layers",
+    "Option2": "To prevent overfitting by randomly dropping out units during training",
+    "Option3": "To speed up the training process",
+    "Option4": "To improve feature selection",
+    "Answer": "To prevent overfitting by randomly dropping out units during training"
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which technique is used to measure the similarity between two text documents by counting word frequencies?",
+    "Option1": "Word Embeddings",
+    "Option2": "TF-IDF (Term Frequency-Inverse Document Frequency)",
+    "Option3": "Semantic Analysis",
+    "Option4": "Part-of-Speech Tagging",
+    "Answer": "TF-IDF (Term Frequency-Inverse Document Frequency)"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is a 'Generative Model' in machine learning?",
+    "Option1": "A model that predicts labels for new data",
+    "Option2": "A model that learns the distribution of input data to generate new samples",
+    "Option3": "A model that separates data into clusters",
+    "Option4": "A model that reduces data dimensionality",
+    "Answer": "A model that learns the distribution of input data to generate new samples"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Bias' in the context of machine learning model evaluation?",
+    "Option1": "The error introduced by the model's sensitivity to small fluctuations in the training data.",
+    "Option2": "The error introduced by approximating a real-world problem, due to overly simplistic assumptions.",
+    "Option3": "The error caused by missing values in the dataset.",
+    "Option4": "The error due to incorrect hyperparameter settings.",
+    "Answer": "The error introduced by approximating a real-world problem, due to overly simplistic assumptions."
+  },
+  {
+    "question_no.": 162,
+    "Question": "Which type of problem does 'Logistic Regression' typically solve?",
+    "Option1": "Regression",
+    "Option2": "Clustering",
+    "Option3": "Classification (binary and multi-class)",
+    "Option4": "Dimensionality Reduction",
+    "Answer": "Classification (binary and multi-class)"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Reinforcement Learning' often contrasted with?",
+    "Option1": "Computer Vision",
+    "Option2": "Supervised Learning and Unsupervised Learning",
+    "Option3": "Natural Language Processing",
+    "Option4": "Robotics",
+    "Answer": "Supervised Learning and Unsupervised Learning"
+  },
+  {
+    "question_no.": 164,
+    "Question": "Which concept allows a machine to learn how to learn, improving its own learning process over time?",
+    "Option1": "Transfer Learning",
+    "Option2": "Meta-Learning (Learning to Learn)",
+    "Option3": "Active Learning",
+    "Option4": "Continual Learning",
+    "Answer": "Meta-Learning (Learning to Learn)"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is a 'Recurrent Neural Network' (RNN) particularly well-suited for?",
+    "Option1": "Image recognition",
+    "Option2": "Time series prediction and natural language processing",
+    "Option3": "Clustering large datasets",
+    "Option4": "Simple linear regression tasks",
+    "Answer": "Time series prediction and natural language processing"
+  },
+  {
+    "question_no.": 166,
+    "Question": "Which component of a neural network determines the output of a neuron given its inputs?",
+    "Option1": "Weight",
+    "Option2": "Bias",
+    "Option3": "Activation Function",
+    "Option4": "Loss Function",
+    "Answer": "Activation Function"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Unsupervised Learning' used for when no labeled data is available?",
+    "Option1": "Predicting exact outcomes",
+    "Option2": "Discovering hidden structures, patterns, or groupings in data",
+    "Option3": "Training agents for decision-making",
+    "Option4": "Generating new data samples based on existing ones",
+    "Answer": "Discovering hidden structures, patterns, or groupings in data"
+  },
+  {
+    "question_no.": 168,
+    "Question": "Which type of algorithm builds a series of decision trees sequentially, with each new tree correcting the errors of the previous ones?",
+    "Option1": "Random Forest",
+    "Option2": "Gradient Boosting (e.g., XGBoost, LightGBM)",
+    "Option3": "Bagging",
+    "Option4": "K-Nearest Neighbors",
+    "Answer": "Gradient Boosting (e.g., XGBoost, LightGBM)"
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Word2Vec' an example of?",
+    "Option1": "Text Classification Algorithm",
+    "Option2": "A technique for creating word embeddings",
+    "Option3": "A method for sentiment analysis",
+    "Option4": "A type of recurrent neural network",
+    "Answer": "A technique for creating word embeddings"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Data Drift' in machine learning operations (MLOps)?",
+    "Option1": "When the training data is corrupted",
+    "Option2": "When the statistical properties of the target variable change over time",
+    "Option3": "When the distribution of the input data changes over time in a deployed model",
+    "Option4": "When the model's accuracy decreases due to hardware issues",
+    "Answer": "When the distribution of the input data changes over time in a deployed model"
+  },
+  {
+    "question_no.": 171,
+    "Question": "Which type of AI system attempts to mimic the biological structure and function of the human brain?",
+    "Option1": "Expert Systems",
+    "Option2": "Artificial Neural Networks",
+    "Option3": "Robotic Process Automation",
+    "Option4": "Logic Programming",
+    "Answer": "Artificial Neural Networks"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Bias-Variance Decomposition' primarily concerned with?",
+    "Option1": "Breaking down the total error of a model into components of bias, variance, and irreducible error",
+    "Option2": "Decomposing the dataset into training and testing sets",
+    "Option3": "Analyzing the computational complexity of algorithms",
+    "Option4": "Splitting hyperparameters into trainable parameters",
+    "Answer": "Breaking down the total error of a model into components of bias, variance, and irreducible error"
+  },
+  {
+    "question_no.": 173,
+    "Question": "In machine learning, what is a 'Feature Vector'?",
+    "Option1": "A single numerical value representing a feature",
+    "Option2": "A list of predicted outputs for a single data point",
+    "Option3": "A numerical representation of a data point, where each element corresponds to a feature",
+    "Option4": "The algorithm's parameters",
+    "Answer": "A numerical representation of a data point, where each element corresponds to a feature"
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which technique transforms data by rotating it such that the new features (principal components) are orthogonal?",
+    "Option1": "Feature Scaling",
+    "Option2": "One-Hot Encoding",
+    "Option3": "Principal Component Analysis (PCA)",
+    "Option4": "Standardization",
+    "Answer": "Principal Component Analysis (PCA)"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the 'Softmax' activation function used for?",
+    "Option1": "Binary classification in the output layer",
+    "Option2": "Regression tasks in the output layer",
+    "Option3": "Multi-class classification in the output layer to produce probability distributions",
+    "Option4": "Hidden layers for non-linearity",
+    "Answer": "Multi-class classification in the output layer to produce probability distributions"
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which type of algorithm learns decision rules from data by recursively partitioning the dataset?",
+    "Option1": "K-Means",
+    "Option2": "Linear Regression",
+    "Option3": "Decision Tree",
+    "Option4": "Support Vector Machine",
+    "Answer": "Decision Tree"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Prompt Engineering' primarily associated with?",
+    "Option1": "Training traditional machine learning models",
+    "Option2": "Designing effective inputs for large language models (LLMs) to get desired outputs",
+    "Option3": "Optimizing neural network architectures",
+    "Option4": "Feature selection for computer vision tasks",
+    "Answer": "Designing effective inputs for large language models (LLMs) to get desired outputs"
+  },
+  {
+    "question_no.": 178,
+    "Question": "Which measure indicates the number of correctly classified instances divided by the total number of instances?",
+    "Option1": "Precision",
+    "Option2": "Recall",
+    "Option3": "Accuracy",
+    "Option4": "F1-Score",
+    "Answer": "Accuracy"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Backpropagation'?",
+    "Option1": "The process of feeding input forward through the network",
+    "Option2": "The algorithm used to adjust the weights of a neural network by propagating errors backward",
+    "Option3": "A method for random initialization of weights",
+    "Option4": "A technique for dimensionality reduction",
+    "Answer": "The algorithm used to adjust the weights of a neural network by propagating errors backward"
+  },
+  {
+    "question_no.": 180,
+    "Question": "Which type of AI system focuses on creating artificial agents that can perceive their environment and take actions to maximize their chances of achieving goals?",
+    "Option1": "Expert Systems",
+    "Option2": "Robotics",
+    "Option3": "Intelligent Agents",
+    "Option4": "Natural Language Understanding",
+    "Answer": "Intelligent Agents"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Autoencoders' commonly used for?",
+    "Option1": "Supervised classification",
+    "Option2": "Dimensionality reduction and feature learning (unsupervised)",
+    "Option3": "Time series forecasting",
+    "Option4": "Reinforcement learning tasks",
+    "Answer": "Dimensionality reduction and feature learning (unsupervised)"
+  },
+  {
+    "question_no.": 182,
+    "Question": "Which metric is the area under the Receiver Operating Characteristic curve, evaluating the diagnostic ability of a binary classifier?",
+    "Option1": "Precision-Recall Curve",
+    "Option2": "ROC AUC",
+    "Option3": "Confusion Matrix",
+    "Option4": "Mean Absolute Error",
+    "Answer": "ROC AUC"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Reinforcement Learning' typically used to train?",
+    "Option1": "Image classifiers",
+    "Option2": "Chatbots for general conversation",
+    "Option3": "Autonomous agents (e.g., self-driving cars, game-playing AI)",
+    "Option4": "Models for predicting stock prices",
+    "Answer": "Autonomous agents (e.g., self-driving cars, game-playing AI)"
+  },
+  {
+    "question_no.": 184,
+    "Question": "Which type of bias arises when certain outcomes or groups are underrepresented in the training data?",
+    "Option1": "Algorithmic Bias",
+    "Option2": "Selection Bias",
+    "Option3": "Reporting Bias",
+    "Option4": "Automation Bias",
+    "Answer": "Selection Bias"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the primary role of a 'hidden layer' in a neural network?",
+    "Option1": "To receive the initial input",
+    "Option2": "To produce the final output",
+    "Option3": "To learn complex patterns and representations from the input data",
+    "Option4": "To perform regularization",
+    "Answer": "To learn complex patterns and representations from the input data"
+  },
+  {
+    "question_no.": 186,
+    "Question": "Which concept allows a model to generalize well to unseen data after being trained on a diverse dataset?",
+    "Option1": "Memorization",
+    "Option2": "Robustness",
+    "Option3": "Generalization",
+    "Option4": "Specificity",
+    "Answer": "Generalization"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Transfer Learning' commonly applied to in deep learning?",
+    "Option1": "Training very simple models",
+    "Option2": "Leveraging pre-trained models on large datasets for new, related tasks with limited data",
+    "Option3": "Learning from scratch with small datasets",
+    "Option4": "Unsupervised clustering tasks",
+    "Answer": "Leveraging pre-trained models on large datasets for new, related tasks with limited data"
+  },
+  {
+    "question_no.": 188,
+    "Question": "Which AI concept deals with ethical considerations, fairness, and transparency in AI systems?",
+    "Option1": "AI Ethics",
+    "Option2": "AI Engineering",
+    "Option3": "AI Optimization",
+    "Option4": "AI Deployment",
+    "Answer": "AI Ethics"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the 'validation set' used for in the machine learning workflow?",
+    "Option1": "Initial data exploration",
+    "Option2": "Final evaluation of the chosen model",
+    "Option3": "Hyperparameter tuning and model selection during training",
+    "Option4": "Feature engineering",
+    "Answer": "Hyperparameter tuning and model selection during training"
+  },
+  {
+    "question_no.": 190,
+    "Question": "Which algorithm is a powerful and flexible ensemble method that can be used for both classification and regression, by fitting simple models sequentially?",
+    "Option1": "K-Means",
+    "Option2": "Support Vector Machine",
+    "Option3": "Gradient Boosting",
+    "Option4": "Logistic Regression",
+    "Answer": "Gradient Boosting"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the primary goal of 'Reinforcement Learning'?",
+    "Option1": "To classify data into categories.",
+    "Option2": "To predict continuous values.",
+    "Option3": "To learn optimal actions in an environment to maximize cumulative reward.",
+    "Option4": "To find hidden patterns in unlabeled data.",
+    "Answer": "To learn optimal actions in an environment to maximize cumulative reward."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Which type of algorithm would you use to predict whether a customer will churn (yes/no)?",
+    "Option1": "Regression",
+    "Option2": "Clustering",
+    "Option3": "Classification",
+    "Option4": "Dimensionality Reduction",
+    "Answer": "Classification"
+  },
+  {
+    "question_no.": 193,
+    "Question": "In a neural network, what does 'weight initialization' refer to?",
+    "Option1": "Setting the learning rate before training.",
+    "Option2": "Assigning initial values to the parameters (weights and biases) of the network.",
+    "Option3": "Choosing the activation function for each layer.",
+    "Option4": "Normalizing the input data.",
+    "Answer": "Assigning initial values to the parameters (weights and biases) of the network."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Convolutional Neural Network' (CNN) particularly good at?",
+    "Option1": "Generating text summaries.",
+    "Option2": "Predicting stock market trends.",
+    "Option3": "Image and video processing.",
+    "Option4": "Clustering customer data.",
+    "Answer": "Image and video processing."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which technique for handling missing data replaces missing values with the mean, median, or mode of the column?",
+    "Option1": "Deletion",
+    "Option2": "Imputation",
+    "Option3": "Outlier Removal",
+    "Option4": "Feature Engineering",
+    "Answer": "Imputation"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Feature Scaling' useful for in algorithms sensitive to feature magnitudes, like K-Means or SVM?",
+    "Option1": "To increase the number of features.",
+    "Option2": "To ensure that all features contribute equally to the distance calculations.",
+    "Option3": "To create non-linear decision boundaries.",
+    "Option4": "To reduce model complexity.",
+    "Answer": "To ensure that all features contribute equally to the distance calculations."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which term describes when a machine learning model's performance degrades over time in a production environment due to changes in the data distribution?",
+    "Option1": "Overfitting",
+    "Option2": "Underfitting",
+    "Option3": "Model Decay (or concept drift/data drift)",
+    "Option4": "Bias-Variance Tradeoff",
+    "Answer": "Model Decay (or concept drift/data drift)"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the role of the 'test set' in machine learning?",
+    "Option1": "To train the model.",
+    "Option2": "To tune the model's hyperparameters.",
+    "Option3": "To provide an unbiased evaluation of the final model's performance.",
+    "Option4": "To clean and preprocess data.",
+    "Answer": "To provide an unbiased evaluation of the final model's performance."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which AI problem involves a machine attempting to reason and make decisions like a human, given incomplete or uncertain information?",
+    "Option1": "Game Playing",
+    "Option2": "Knowledge Representation and Reasoning",
+    "Option3": "Natural Language Generation",
+    "Option4": "Computer Vision",
+    "Answer": "Knowledge Representation and Reasoning"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What does 'MLOps' stand for?",
+    "Option1": "Machine Learning Operations",
+    "Option2": "Model Learning Optimization Systems",
+    "Option3": "Machine Logic Output Processes",
+    "Option4": "Management of Learning Outcomes and Predictions",
+    "Answer": "Machine Learning Operations"
+  },
+  {
+    "question_no.": 201,
+    "Question": "Which metric is sensitive to class imbalance and measures the weighted average of precision and recall?",
+    "Option1": "Accuracy",
+    "Option2": "Precision",
+    "Option3": "Recall",
+    "Option4": "F1-Score",
+    "Answer": "F1-Score"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is a 'Transformer' architecture commonly used for in deep learning?",
+    "Option1": "Image classification",
+    "Option2": "Recurrent computations in time series",
+    "Option3": "Natural Language Processing tasks like machine translation and text generation",
+    "Option4": "Unsupervised clustering",
+    "Answer": "Natural Language Processing tasks like machine translation and text generation"
+  },
+  {
+    "question_no.": 203,
+    "Question": "Which type of learning involves training a model to map input features to discrete categories?",
+    "Option1": "Regression",
+    "Option2": "Classification",
+    "Option3": "Clustering",
+    "Option4": "Reinforcement Learning",
+    "Answer": "Classification"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the main goal of 'Regularization' in machine learning?",
+    "Option1": "To increase model complexity.",
+    "Option2": "To prevent overfitting by adding a penalty for complex models.",
+    "Option3": "To speed up the training process.",
+    "Option4": "To improve data quality.",
+    "Answer": "To prevent overfitting by adding a penalty for complex models."
+  },
+  {
+    "question_no.": 205,
+    "Question": "Which algorithm finds patterns in data by iteratively assigning data points to clusters and updating cluster centroids?",
+    "Option1": "Linear Regression",
+    "Option2": "Support Vector Machine",
+    "Option3": "K-Means Clustering",
+    "Option4": "Decision Tree",
+    "Answer": "K-Means Clustering"
+  }
+]
