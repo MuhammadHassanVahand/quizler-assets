@@ -1,0 +1,1829 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the primary function of an Operating System (OS)?",
+    "Option1": "To run application programs directly",
+    "Option2": "To manage computer hardware and software resources",
+    "Option3": "To design new hardware components",
+    "Option4": "To create spreadsheets and documents",
+    "Answer": "To manage computer hardware and software resources"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following is NOT a core component of an Operating System?",
+    "Option1": "Kernel",
+    "Option2": "Shell",
+    "Option3": "Application Software",
+    "Option4": "File System",
+    "Answer": "Application Software"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the 'kernel' in an Operating System?",
+    "Option1": "The user interface of the OS",
+    "Option2": "The core component that manages system resources and facilitates communication between hardware and software",
+    "Option3": "A program for editing text files",
+    "Option4": "A utility for cleaning temporary files",
+    "Answer": "The core component that manages system resources and facilitates communication between hardware and software"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is 'process management' in an OS?",
+    "Option1": "Managing network connections",
+    "Option2": "Handling the creation, scheduling, termination, and communication of processes (running programs)",
+    "Option3": "Organizing files on disk",
+    "Option4": "Controlling printer access",
+    "Answer": "Handling the creation, scheduling, termination, and communication of processes (running programs)"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which of these is a common type of Operating System?",
+    "Option1": "Calculator OS",
+    "Option2": "Mobile OS",
+    "Option3": "Game Console OS (not a general purpose OS)",
+    "Option4": "Word Processor OS",
+    "Answer": "Mobile OS"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is 'memory management' in an OS?",
+    "Option1": "Managing external storage devices",
+    "Option2": "Allocating and deallocating memory space to processes and ensuring processes don't interfere with each other's memory",
+    "Option3": "Managing CPU cache",
+    "Option4": "Controlling the flow of data over a network",
+    "Answer": "Allocating and deallocating memory space to processes and ensuring processes don't interfere with each other's memory"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is a 'deadlock' in an Operating System?",
+    "Option1": "A program crash",
+    "Option2": "A situation where two or more processes are blocked indefinitely, waiting for each other to release resources",
+    "Option3": "A fast system boot",
+    "Option4": "A memory overflow error",
+    "Answer": "A situation where two or more processes are blocked indefinitely, waiting for each other to release resources"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is 'virtual memory'?",
+    "Option1": "RAM that is not physically present",
+    "Option2": "A memory management technique that allows the OS to use secondary storage as if it were part of the main memory, extending apparent RAM capacity",
+    "Option3": "Memory on a graphics card",
+    "Option4": "Memory used by the BIOS",
+    "Answer": "A memory management technique that allows the OS to use secondary storage as if it were part of the main memory, extending apparent RAM capacity"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which scheduling algorithm gives each process a small unit of CPU time (time slice)?",
+    "Option1": "First-Come, First-Served (FCFS)",
+    "Option2": "Shortest Job Next (SJN)",
+    "Option3": "Round Robin",
+    "Option4": "Priority Scheduling",
+    "Answer": "Round Robin"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is the purpose of a 'device driver'?",
+    "Option1": "To install new software applications",
+    "Option2": "To provide an interface between the operating system and hardware devices, allowing the OS to control the device",
+    "Option3": "To optimize network speed",
+    "Option4": "To manage user accounts",
+    "Answer": "To provide an interface between the operating system and hardware devices, allowing the OS to control the device"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is a 'shell' in an Operating System context?",
+    "Option1": "The internal memory of the computer",
+    "Option2": "A command-line interpreter or graphical user interface that provides an interface for users to interact with the OS kernel",
+    "Option3": "A type of virus",
+    "Option4": "A hardware component for input/output",
+    "Answer": "A command-line interpreter or graphical user interface that provides an interface for users to interact with the OS kernel"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'bootstrapping' (booting) the OS?",
+    "Option1": "Restarting a single application",
+    "Option2": "The process of starting up a computer and loading the operating system into memory",
+    "Option3": "Installing new updates to the OS",
+    "Option4": "Removing old software from the system",
+    "Answer": "The process of starting up a computer and loading the operating system into memory"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which of these is an example of a 'Graphical User Interface (GUI)'?",
+    "Option1": "Command Prompt",
+    "Option2": "Windows Desktop",
+    "Option3": "Linux Terminal",
+    "Option4": "PowerShell",
+    "Answer": "Windows Desktop"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'thrashing' in virtual memory?",
+    "Option1": "Excessive swapping of pages between main memory and secondary storage, leading to poor system performance",
+    "Option2": "A type of memory error",
+    "Option3": "Efficient memory access",
+    "Option4": "The process of freeing up memory",
+    "Answer": "Excessive swapping of pages between main memory and secondary storage, leading to poor system performance"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the purpose of 'file system' management?",
+    "Option1": "To manage network traffic",
+    "Option2": "To organize, store, retrieve, and manage files and directories on storage devices",
+    "Option3": "To control CPU clock speed",
+    "Option4": "To manage printer queues",
+    "Answer": "To organize, store, retrieve, and manage files and directories on storage devices"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'thread' in an Operating System?",
+    "Option1": "A separate program",
+    "Option2": "A lightweight unit of execution within a process that can run concurrently",
+    "Option3": "A type of data file",
+    "Option4": "A network connection",
+    "Answer": "A lightweight unit of execution within a process that can run concurrently"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'multitasking' in an OS?",
+    "Option1": "Running only one program at a time",
+    "Option2": "The ability of an OS to execute multiple tasks or processes concurrently, typically by rapidly switching between them",
+    "Option3": "Downloading multiple files simultaneously",
+    "Option4": "Connecting to multiple networks",
+    "Answer": "The ability of an OS to execute multiple tasks or processes concurrently, typically by rapidly switching between them"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the role of the 'scheduler' in an OS?",
+    "Option1": "To manage printer jobs",
+    "Option2": "To select which process should be executed next by the CPU and for how long",
+    "Option3": "To defragment hard drives",
+    "Option4": "To handle network packet routing",
+    "Answer": "To select which process should be executed next by the CPU and for how long"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is an 'interrupt'?",
+    "Option1": "A scheduled task",
+    "Option2": "A signal from a hardware device or software program that temporarily stops the current process to handle an event",
+    "Option3": "A type of memory segment",
+    "Option4": "A user command",
+    "Answer": "A signal from a hardware device or software program that temporarily stops the current process to handle an event"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'paging' in memory management?",
+    "Option1": "Storing data on a USB drive",
+    "Option2": "A memory management scheme by which a computer stores and retrieves data from secondary storage for use in main memory in fixed-size blocks (pages)",
+    "Option3": "Compressing memory contents",
+    "Option4": "Managing network addresses",
+    "Answer": "A memory management scheme by which a computer stores and retrieves data from secondary storage for use in main memory in fixed-size blocks (pages)"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which OS is open-source and based on the Linux kernel?",
+    "Option1": "Windows",
+    "Option2": "macOS",
+    "Option3": "Ubuntu",
+    "Option4": "MS-DOS",
+    "Answer": "Ubuntu"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the primary purpose of 'system calls'?",
+    "Option1": "To allow users to type commands",
+    "Option2": "To provide an interface for user programs to request services from the operating system kernel",
+    "Option3": "To manage external devices without OS intervention",
+    "Option4": "To display graphical elements on the screen",
+    "Answer": "To provide an interface for user programs to request services from the operating system kernel"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is a 'process control block (PCB)'?",
+    "Option1": "A physical block of memory",
+    "Option2": "A data structure in the OS kernel that contains information about a process (state, ID, registers, etc.)",
+    "Option3": "A security feature to block processes",
+    "Option4": "A graphical representation of running processes",
+    "Answer": "A data structure in the OS kernel that contains information about a process (state, ID, registers, etc.)"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'concurrency' in Operating Systems?",
+    "Option1": "Executing only one task at a time",
+    "Option2": "The ability of different parts of a program or system to be executed at the same time or appear to be executed simultaneously",
+    "Option3": "Sequential execution of tasks",
+    "Option4": "Managing database transactions",
+    "Answer": "The ability of different parts of a program or system to be executed at the same time or appear to be executed simultaneously"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'disk scheduling'?",
+    "Option1": "Arranging files on a disk",
+    "Option2": "The method by which the operating system decides the order in which disk I/O requests are serviced",
+    "Option3": "Monitoring disk health",
+    "Option4": "Formatting a disk drive",
+    "Answer": "The method by which the operating system decides the order in which disk I/O requests are serviced"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the role of 'I/O management'?",
+    "Option1": "Managing CPU operations",
+    "Option2": "Handling input and output operations, including device communication, buffering, and spooling",
+    "Option3": "Managing user passwords",
+    "Option4": "Controlling software licenses",
+    "Answer": "Handling input and output operations, including device communication, buffering, and spooling"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'fragmentation' in disk storage?",
+    "Option1": "Increasing disk space",
+    "Option2": "The scattering of files and free space across a disk drive, making it less efficient for data access",
+    "Option3": "Protecting data from viruses",
+    "Option4": "Formatting a new disk",
+    "Answer": "The scattering of files and free space across a disk drive, making it less efficient for data access"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is 'time-sharing' Operating System?",
+    "Option1": "An OS designed for single-user systems",
+    "Option2": "An OS that allows multiple users to share a single computer simultaneously by providing each user with a slice of CPU time",
+    "Option3": "An OS for embedded systems",
+    "Option4": "An OS for real-time applications",
+    "Answer": "An OS that allows multiple users to share a single computer simultaneously by providing each user with a slice of CPU time"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a 'fork' system call?",
+    "Option1": "To terminate a process",
+    "Option2": "To create a new process (child process) that is a copy of the calling process (parent process)",
+    "Option3": "To change process priority",
+    "Option4": "To pause a running process",
+    "Answer": "To create a new process (child process) that is a copy of the calling process (parent process)"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'swapping' in memory management?",
+    "Option1": "Exchanging data between CPU registers",
+    "Option2": "Moving an entire process from main memory to secondary storage (and vice-versa) to make space for other processes",
+    "Option3": "Changing memory types (e.g., RAM to ROM)",
+    "Option4": "Copying files between different drives",
+    "Answer": "Moving an entire process from main memory to secondary storage (and vice-versa) to make space for other processes"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which of these is a typical function of a 'kernel mode' operation?",
+    "Option1": "Playing a video game",
+    "Option2": "Direct hardware access",
+    "Option3": "Writing a document in a word processor",
+    "Option4": "Browse the internet",
+    "Answer": "Direct hardware access"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'mutual exclusion' in concurrency?",
+    "Option1": "Allowing all processes to access resources simultaneously",
+    "Option2": "A mechanism to ensure that only one process can access a shared resource (critical section) at any given time",
+    "Option3": "Excluding certain processes from running",
+    "Option4": "Granting unlimited resource access",
+    "Answer": "A mechanism to ensure that only one process can access a shared resource (critical section) at any given time"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'buffering' in I/O operations?",
+    "Option1": "Directly writing data to a device without delay",
+    "Option2": "Storing data temporarily in a memory area (buffer) during transfer between devices or processes to smooth out speed differences",
+    "Option3": "Compressing data before transfer",
+    "Option4": "Encrypting data during transfer",
+    "Answer": "Storing data temporarily in a memory area (buffer) during transfer between devices or processes to smooth out speed differences"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'context switching'?",
+    "Option1": "Changing users on a computer",
+    "Option2": "The process of saving the state of one process or thread so that it can be restored later and restoring the state of another process or thread",
+    "Option3": "Switching between different operating systems",
+    "Option4": "Turning off and on the computer",
+    "Answer": "The process of saving the state of one process or thread so that it can be restored later and restoring the state of another process or thread"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a 'system call interface'?",
+    "Option1": "A graphical interface for hardware",
+    "Option2": "A set of functions that applications can call to request services from the operating system kernel",
+    "Option3": "A program for managing system updates",
+    "Option4": "A utility for disk defragmentation",
+    "Answer": "A set of functions that applications can call to request services from the operating system kernel"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'firmware'?",
+    "Option1": "Application software",
+    "Option2": "Software that is permanently stored in a hardware device's read-only memory (ROM) and controls its basic functions",
+    "Option3": "Temporary files",
+    "Option4": "Network configuration settings",
+    "Answer": "Software that is permanently stored in a hardware device's read-only memory (ROM) and controls its basic functions"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'semaphores' used for in OS?",
+    "Option1": "Managing file permissions",
+    "Option2": "A synchronization tool that can be used to control access to common resources in a concurrent system",
+    "Option3": "Scheduling network packets",
+    "Option4": "Allocating disk space",
+    "Answer": "A synchronization tool that can be used to control access to common resources in a concurrent system"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'segmentation' in memory management?",
+    "Option1": "Dividing memory into fixed-size pages",
+    "Option2": "Dividing memory into logical segments of varying sizes, corresponding to parts of a program (e.g., code, data, stack)",
+    "Option3": "Combining multiple memory blocks",
+    "Option4": "Creating virtual disk drives",
+    "Answer": "Dividing memory into logical segments of varying sizes, corresponding to parts of a program (e.g., code, data, stack)"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'spooling' in I/O?",
+    "Option1": "Directly printing to a printer",
+    "Option2": "Holding data for a device in a buffer until the device is ready, commonly used for printers",
+    "Option3": "Encrypting print jobs",
+    "Option4": "Monitoring printer status",
+    "Answer": "Holding data for a device in a buffer until the device is ready, commonly used for printers"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'microkernel' architecture?",
+    "Option1": "A kernel where all OS services run in kernel mode",
+    "Option2": "A kernel design where only essential services (e.g., inter-process communication, basic memory management) run in kernel mode, with other services (e.g., device drivers, file systems) running as user-space processes",
+    "Option3": "A kernel that only supports a single process",
+    "Option4": "A kernel used exclusively for embedded systems",
+    "Answer": "A kernel design where only essential services (e.g., inter-process communication, basic memory management) run in kernel mode, with other services (e.g., device drivers, file systems) running as user-space processes"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'process synchronization'?",
+    "Option1": "Making processes run independently",
+    "Option2": "The coordination of the execution of processes to ensure correct and consistent data access and shared resource usage",
+    "Option3": "Starting multiple processes at the same time",
+    "Option4": "Assigning unique IDs to processes",
+    "Answer": "The coordination of the execution of processes to ensure correct and consistent data access and shared resource usage"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'demand paging'?",
+    "Option1": "Loading all program pages into memory at once",
+    "Option2": "A virtual memory technique where pages are only loaded into main memory when they are actually needed (on demand)",
+    "Option3": "Storing data only on disk",
+    "Option4": "A method for encrypting memory pages",
+    "Answer": "A virtual memory technique where pages are only loaded into main memory when they are actually needed (on demand)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is a 'monolithic kernel'?",
+    "Option1": "A kernel with services running in user space",
+    "Option2": "A kernel architecture where all operating system services (process management, memory management, file systems, device drivers) are included in a single large executable",
+    "Option3": "A kernel used for distributed systems",
+    "Option4": "A kernel that only supports graphical interfaces",
+    "Answer": "A kernel architecture where all operating system services (process management, memory management, file systems, device drivers) are included in a single large executable"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'inter-process communication (IPC)'?",
+    "Option1": "Communication between different computers",
+    "Option2": "Mechanisms provided by the operating system that allow different processes to communicate and synchronize their actions",
+    "Option3": "Communication within a single process",
+    "Option4": "Communication between users and the OS",
+    "Answer": "Mechanisms provided by the operating system that allow different processes to communicate and synchronize their actions"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'race condition' in concurrency?",
+    "Option1": "A competition between fast processes",
+    "Option2": "A situation where the outcome of multiple threads accessing shared resources depends on the relative order of their execution, leading to unpredictable results",
+    "Option3": "A scheduled event for processes",
+    "Option4": "A memory allocation strategy",
+    "Answer": "A situation where the outcome of multiple threads accessing shared resources depends on the relative order of their execution, leading to unpredictable results"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'dispatcher' in CPU scheduling?",
+    "Option1": "A component that loads programs into memory",
+    "Option2": "The module that gives control of the CPU to the process selected by the short-term scheduler",
+    "Option3": "A network packet router",
+    "Option4": "A file manager",
+    "Answer": "The module that gives control of the CPU to the process selected by the short-term scheduler"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'bootloader'?",
+    "Option1": "A virus that infects the boot sector",
+    "Option2": "A small program that initiates the operating system's startup process when a computer is turned on",
+    "Option3": "A utility for disk defragmentation",
+    "Option4": "A program for updating device drivers",
+    "Answer": "A small program that initiates the operating system's startup process when a computer is turned on"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'internal fragmentation'?",
+    "Option1": "Free space outside allocated memory blocks",
+    "Option2": "Unused memory within an allocated block that cannot be used by other processes",
+    "Option3": "Fragmentation on a hard drive",
+    "Option4": "Memory used by the operating system itself",
+    "Answer": "Unused memory within an allocated block that cannot be used by other processes"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'external fragmentation'?",
+    "Option1": "Unused memory within an allocated block",
+    "Option2": "Total free memory space exists to satisfy a request, but it is not contiguous, preventing allocation",
+    "Option3": "Fragmentation within a file",
+    "Option4": "Fragmentation of network packets",
+    "Answer": "Total free memory space exists to satisfy a request, but it is not contiguous, preventing allocation"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of 'BIOS' (Basic Input/Output System)?",
+    "Option1": "To manage application software",
+    "Option2": "To initialize hardware components and load the bootloader during the computer startup process",
+    "Option3": "To provide a graphical user interface",
+    "Option4": "To connect to the internet",
+    "Answer": "To initialize hardware components and load the bootloader during the computer startup process"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'multiprocessing'?",
+    "Option1": "Running multiple applications on a single CPU",
+    "Option2": "The use of two or more central processing units (CPUs) within a single computer system to perform multiple tasks concurrently",
+    "Option3": "Using multiple monitors",
+    "Option4": "Connecting to multiple printers",
+    "Answer": "The use of two or more central processing units (CPUs) within a single computer system to perform multiple tasks concurrently"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'dispatcher latency'?",
+    "Option1": "The time it takes for a program to open",
+    "Option2": "The time taken by the dispatcher to stop one process and start another",
+    "Option3": "The delay in network communication",
+    "Option4": "The time taken to save a file",
+    "Answer": "The time taken by the dispatcher to stop one process and start another"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'paging table'?",
+    "Option1": "A list of all installed programs",
+    "Option2": "A data structure used by the virtual memory system to store the mapping between virtual addresses and physical addresses",
+    "Option3": "A table of network connections",
+    "Option4": "A list of user accounts",
+    "Answer": "A data structure used by the virtual memory system to store the mapping between virtual addresses and physical addresses"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'direct memory access (DMA)'?",
+    "Option1": "CPU accessing memory directly",
+    "Option2": "A feature that allows certain hardware subsystems to access main system memory (RAM) independently of the central processing unit (CPU)",
+    "Option3": "A type of memory caching",
+    "Option4": "Accessing network drives directly",
+    "Answer": "A feature that allows certain hardware subsystems to access main system memory (RAM) independently of the central processing unit (CPU)"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'system monitoring'?",
+    "Option1": "Only checking CPU temperature",
+    "Option2": "Observing and tracking the performance, health, and resource usage of a computer system or network",
+    "Option3": "Editing system files",
+    "Option4": "Installing new software",
+    "Answer": "Observing and tracking the performance, health, and resource usage of a computer system or network"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'boot sector'?",
+    "Option1": "A region on the hard drive for storing user data",
+    "Option2": "A section of a persistent storage device (like a hard disk or SSD) that contains code to load the operating system",
+    "Option3": "A temporary storage area for booting",
+    "Option4": "A part of RAM used during startup",
+    "Answer": "A section of a persistent storage device (like a hard disk or SSD) that contains code to load the operating system"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'context switch overhead'?",
+    "Option1": "The time saved by context switching",
+    "Option2": "The time taken by the OS to perform a context switch, which includes saving and restoring process states",
+    "Option3": "Memory usage by background processes",
+    "Option4": "CPU temperature during heavy load",
+    "Answer": "The time taken by the OS to perform a context switch, which includes saving and restoring process states"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'trap' in OS?",
+    "Option1": "A type of network error",
+    "Option2": "A software-generated interrupt, typically caused by an error (e.g., division by zero) or a user-initiated system call",
+    "Option3": "A system shutdown command",
+    "Option4": "A scheduled system maintenance event",
+    "Answer": "A software-generated interrupt, typically caused by an error (e.g., division by zero) or a user-initiated system call"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'resource allocation graph'?",
+    "Option1": "A graph showing network traffic",
+    "Option2": "A directed graph used to describe the state of a system with respect to deadlocks, showing processes and resources",
+    "Option3": "A chart of CPU usage",
+    "Option4": "A diagram of memory layout",
+    "Answer": "A directed graph used to describe the state of a system with respect to deadlocks, showing processes and resources"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'symmetric multiprocessing (SMP)'?",
+    "Option1": "Only one CPU is active at a time",
+    "Option2": "A multiprocessing system where all processors are equal and can perform any task, sharing common memory and I/O resources",
+    "Option3": "Processors are assigned specific tasks permanently",
+    "Option4": "Only applies to single-core CPUs",
+    "Answer": "A multiprocessing system where all processors are equal and can perform any task, sharing common memory and I/O resources"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'asymmetric multiprocessing'?",
+    "Option1": "All processors are equal",
+    "Option2": "A multiprocessing system where each processor is assigned a specific task, or one processor acts as a master and controls the others",
+    "Option3": "Processors don't share memory",
+    "Option4": "A system with only one CPU",
+    "Answer": "A multiprocessing system where each processor is assigned a specific task, or one processor acts as a master and controls the others"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'starvation' in Operating Systems?",
+    "Option1": "A process finishing quickly",
+    "Option2": "A situation where a process is perpetually denied necessary resources or CPU time, even though they become available, preventing it from completing its task",
+    "Option3": "Efficient resource allocation",
+    "Option4": "A system without any running processes",
+    "Answer": "A situation where a process is perpetually denied necessary resources or CPU time, even though they become available, preventing it from completing its task"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'aging' in CPU scheduling?",
+    "Option1": "Reducing the priority of old processes",
+    "Option2": "A technique used to prevent starvation by gradually increasing the priority of processes that have been waiting for a long time",
+    "Option3": "Scheduling processes based on their creation time",
+    "Option4": "Monitoring process memory usage",
+    "Answer": "A technique used to prevent starvation by gradually increasing the priority of processes that have been waiting for a long time"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'memory mapped I/O'?",
+    "Option1": "I/O operations using dedicated ports",
+    "Option2": "A method of I/O where hardware devices are mapped into the memory address space of the CPU, allowing the CPU to interact with them using standard memory access instructions",
+    "Option3": "I/O operations that bypass RAM",
+    "Option4": "I/O operations through network protocols",
+    "Answer": "A method of I/O where hardware devices are mapped into the memory address space of the CPU, allowing the CPU to interact with them using standard memory access instructions"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'polling' in I/O?",
+    "Option1": "Devices sending interrupts to the CPU",
+    "Option2": "A method where the CPU repeatedly checks the status of a device or I/O operation to see if it's ready, rather than waiting for an interrupt",
+    "Option3": "A fast method for data transfer",
+    "Option4": "A technique for error checking in I/O",
+    "Answer": "A method where the CPU repeatedly checks the status of a device or I/O operation to see if it's ready, rather than waiting for an interrupt"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'kernel panic'?",
+    "Option1": "A warning message from an application",
+    "Option2": "A state in which the operating system kernel detects an internal fatal error from which it cannot safely recover, often leading to a system crash",
+    "Option3": "A low battery warning",
+    "Option4": "A notification about low disk space",
+    "Answer": "A state in which the operating system kernel detects an internal fatal error from which it cannot safely recover, often leading to a system crash"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'RAID' in the context of file systems/storage?",
+    "Option1": "A single hard drive",
+    "Option2": "Redundant Array of Independent Disks, a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for data redundancy or performance improvement",
+    "Option3": "A type of memory chip",
+    "Option4": "A network protocol",
+    "Answer": "Redundant Array of Independent Disks, a data storage virtualization technology that combines multiple physical disk drive components into one or more logical units for data redundancy or performance improvement"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is a 'hybrid kernel'?",
+    "Option1": "A kernel that combines elements of both monolithic and microkernel architectures, often with some services in kernel space and others in user space",
+    "Option2": "A kernel that only supports mobile devices",
+    "Option3": "A kernel used for real-time systems only",
+    "Option4": "A kernel that runs entirely in user mode",
+    "Answer": "A kernel that combines elements of both monolithic and microkernel architectures, often with some services in kernel space and others in user space"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'boot sector virus'?",
+    "Option1": "A virus that infects application programs",
+    "Option2": "A type of virus that infects the boot sector of a hard disk or floppy disk, executed when the system starts up",
+    "Option3": "A virus that only affects network connections",
+    "Option4": "A virus that modifies system settings",
+    "Answer": "A type of virus that infects the boot sector of a hard disk or floppy disk, executed when the system starts up"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'system tray' (or notification area)?",
+    "Option1": "The main desktop background",
+    "Option2": "An area in the graphical user interface where icons for running programs and system functions are displayed, often providing quick access to features",
+    "Option3": "The start menu",
+    "Option4": "The taskbar without icons",
+    "Answer": "An area in the graphical user interface where icons for running programs and system functions are displayed, often providing quick access to features"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'dirty bit' in memory management?",
+    "Option1": "Indicates a corrupted memory page",
+    "Option2": "A bit associated with each page or segment that indicates whether the page has been modified since it was loaded into memory, used in paging algorithms",
+    "Option3": "Indicates a memory error",
+    "Option4": "Indicates if a page is currently being accessed",
+    "Answer": "A bit associated with each page or segment that indicates whether the page has been modified since it was loaded into memory, used in paging algorithms"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'page fault'?",
+    "Option1": "An error in a program's code",
+    "Option2": "An event that occurs when a program tries to access a memory page that is not currently in main memory but is available in virtual memory on disk",
+    "Option3": "A hard disk error",
+    "Option4": "A network connection failure",
+    "Answer": "An event that occurs when a program tries to access a memory page that is not currently in main memory but is available in virtual memory on disk"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'thrashing' (in general terms for OS)?",
+    "Option1": "Efficient system performance",
+    "Option2": "A state where the system spends more time managing resources (e.g., swapping pages, context switching) than performing useful work, leading to severe performance degradation",
+    "Option3": "Optimal resource utilization",
+    "Option4": "A quick system shutdown",
+    "Answer": "A state where the system spends more time managing resources (e.g., swapping pages, context switching) than performing useful work, leading to severe performance degradation"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'demand segmentation'?",
+    "Option1": "Loading all segments at once",
+    "Option2": "A memory management technique where segments are loaded into main memory only when they are referenced (on demand)",
+    "Option3": "Combining segments into one large block",
+    "Option4": "Converting segments to pages",
+    "Answer": "A memory management technique where segments are loaded into main memory only when they are referenced (on demand)"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'DMA controller'?",
+    "Option1": "A software component for memory management",
+    "Option2": "A hardware component that manages direct memory access (DMA) transfers, allowing devices to access memory without CPU intervention",
+    "Option3": "A chip for managing network traffic",
+    "Option4": "A component for managing CPU scheduling",
+    "Answer": "A hardware component that manages direct memory access (DMA) transfers, allowing devices to access memory without CPU intervention"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'seek time' in disk I/O?",
+    "Option1": "The time it takes to transfer data",
+    "Option2": "The time required for the disk arm to move the read/write heads to the cylinder containing the desired track",
+    "Option3": "The time for disk rotation",
+    "Option4": "The time to format a disk",
+    "Answer": "The time required for the disk arm to move the read/write heads to the cylinder containing the desired track"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'rotational latency' in disk I/O?",
+    "Option1": "The time for disk arm movement",
+    "Option2": "The time required for the desired sector of the disk to rotate under the read/write head",
+    "Option3": "The time taken to write data",
+    "Option4": "The time to power on the disk",
+    "Answer": "The time required for the desired sector of the disk to rotate under the read/write head"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'transfer time' in disk I/O?",
+    "Option1": "The time for arm movement",
+    "Option2": "The time taken to actually transfer the data between the disk and main memory once the head is positioned",
+    "Option3": "The time for disk rotation",
+    "Option4": "The total time for an I/O request",
+    "Answer": "The time taken to actually transfer the data between the disk and main memory once the head is positioned"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'FCFS' (First-Come, First-Served) disk scheduling?",
+    "Option1": "Prioritizing shortest requests",
+    "Option2": "Servicing disk I/O requests in the order they arrive in the queue",
+    "Option3": "Moving heads across the entire disk",
+    "Option4": "Optimizing for rotational latency",
+    "Answer": "Servicing disk I/O requests in the order they arrive in the queue"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'SSTF' (Shortest Seek Time First) disk scheduling?",
+    "Option1": "Servicing requests in order of arrival",
+    "Option2": "Servicing the request that requires the minimum movement of the disk arm from its current position",
+    "Option3": "Scanning disk from one end to another",
+    "Option4": "Prioritizing requests from specific processes",
+    "Answer": "Servicing the request that requires the minimum movement of the disk arm from its current position"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'SCAN' (Elevator) disk scheduling?",
+    "Option1": "Servicing requests randomly",
+    "Option2": "The disk arm moves from one end of the disk to the other, servicing all requests in its path, then reverses direction",
+    "Option3": "Only servicing requests in increasing cylinder order",
+    "Option4": "Only servicing requests in decreasing cylinder order",
+    "Answer": "The disk arm moves from one end of the disk to the other, servicing all requests in its path, then reverses direction"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'C-SCAN' (Circular SCAN) disk scheduling?",
+    "Option1": "Moving the arm in both directions",
+    "Option2": "The disk arm moves in only one direction, servicing requests, and when it reaches the end, it immediately returns to the beginning without servicing requests on the return trip",
+    "Option3": "Prioritizing outer cylinder requests",
+    "Option4": "Prioritizing inner cylinder requests",
+    "Answer": "The disk arm moves in only one direction, servicing requests, and when it reaches the end, it immediately returns to the beginning without servicing requests on the return trip"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'log-structured file system'?",
+    "Option1": "Files are stored in contiguous blocks",
+    "Option2": "A file system where all data and metadata updates are written sequentially to a log, rather than overwriting existing data in place, improving write performance",
+    "Option3": "A file system optimized for read-only data",
+    "Option4": "A file system without journaling",
+    "Answer": "A file system where all data and metadata updates are written sequentially to a log, rather than overwriting existing data in place, improving write performance"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'journaling file system'?",
+    "Option1": "A file system without crash recovery",
+    "Option2": "A file system that keeps a log (journal) of changes that are about to be made to the file system, ensuring data consistency and quicker recovery after a crash",
+    "Option3": "A file system that encrypts all data",
+    "Option4": "A file system that stores data in memory only",
+    "Answer": "A file system that keeps a log (journal) of changes that are about to be made to the file system, ensuring data consistency and quicker recovery after a crash"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'inode' in Unix-like file systems?",
+    "Option1": "The actual data of a file",
+    "Option2": "A data structure that stores information about a file or directory (metadata), such as ownership, permissions, and location of data blocks on disk",
+    "Option3": "A directory entry",
+    "Option4": "A symbolic link",
+    "Answer": "A data structure that stores information about a file or directory (metadata), such as ownership, permissions, and location of data blocks on disk"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is a 'superblock' in a file system?",
+    "Option1": "A block storing user data",
+    "Option2": "A crucial data structure that contains essential information about the file system itself, such as its size, block size, and state",
+    "Option3": "A block used for temporary files",
+    "Option4": "A block containing directory entries",
+    "Answer": "A crucial data structure that contains essential information about the file system itself, such as its size, block size, and state"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'boot partition'?",
+    "Option1": "A partition for user documents",
+    "Option2": "A primary partition on a hard drive that contains the operating system's boot loader and kernel, necessary for starting the OS",
+    "Option3": "A partition for backup data",
+    "Option4": "A partition for temporary files",
+    "Answer": "A primary partition on a hard drive that contains the operating system's boot loader and kernel, necessary for starting the OS"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'root directory'?",
+    "Option1": "A sub-directory within another folder",
+    "Option2": "The top-most directory in a hierarchical file system, from which all other directories and files branch off",
+    "Option3": "A hidden directory for system files",
+    "Option4": "A directory for temporary user files",
+    "Answer": "The top-most directory in a hierarchical file system, from which all other directories and files branch off"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'system calls' vs. 'library calls'?",
+    "Option1": "They are the same",
+    "Option2": "System calls directly invoke kernel services, while library calls are higher-level functions that often wrap one or more system calls for convenience",
+    "Option3": "Library calls access hardware directly",
+    "Option4": "System calls are only for network operations",
+    "Answer": "System calls directly invoke kernel services, while library calls are higher-level functions that often wrap one or more system calls for convenience"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'virtual machine (VM)'?",
+    "Option1": "A physical computer",
+    "Option2": "An emulation of a computer system, providing the functionality of a physical computer within a software environment, allowing multiple operating systems to run on one physical machine",
+    "Option3": "A network switch",
+    "Option4": "A hardware component for graphics processing",
+    "Answer": "An emulation of a computer system, providing the functionality of a physical computer within a software environment, allowing multiple operating systems to run on one physical machine"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is a 'hypervisor'?",
+    "Option1": "A type of operating system for a single computer",
+    "Option2": "Software or hardware that creates and runs virtual machines (VMs), isolating them from each other and managing their access to the underlying physical hardware",
+    "Option3": "A component for network security",
+    "Option4": "A utility for disk defragmentation",
+    "Answer": "Software or hardware that creates and runs virtual machines (VMs), isolating them from each other and managing their access to the underlying physical hardware"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Type 1 Hypervisor' (Bare-metal hypervisor)?",
+    "Option1": "Runs as an application on top of an OS",
+    "Option2": "Runs directly on the host computer's hardware, controlling the hardware and managing guest operating systems",
+    "Option3": "Used only for cloud computing",
+    "Option4": "Only supports a single virtual machine",
+    "Answer": "Runs directly on the host computer's hardware, controlling the hardware and managing guest operating systems"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Type 2 Hypervisor' (Hosted hypervisor)?",
+    "Option1": "Runs directly on the hardware",
+    "Option2": "Runs as a software layer on top of a host operating system, which then manages guest operating systems",
+    "Option3": "Used only for server virtualization",
+    "Option4": "Provides direct hardware access to guests",
+    "Answer": "Runs as a software layer on top of a host operating system, which then manages guest operating systems"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'CPU scheduling'?",
+    "Option1": "Managing memory allocation",
+    "Option2": "The process of determining which process gets access to the CPU and for how long, from the ready queue",
+    "Option3": "Organizing files on disk",
+    "Option4": "Controlling network bandwidth",
+    "Answer": "The process of determining which process gets access to the CPU and for how long, from the ready queue"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'preemptive scheduling'?",
+    "Option1": "A process runs until it completes or voluntarily gives up the CPU",
+    "Option2": "The CPU can be taken away from a process by the operating system (e.g., when its time slice expires or a higher-priority process arrives)",
+    "Option3": "Processes are scheduled based on arrival time only",
+    "Option4": "Only applies to batch processing systems",
+    "Answer": "The CPU can be taken away from a process by the operating system (e.g., when its time slice expires or a higher-priority process arrives)"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'non-preemptive scheduling'?",
+    "Option1": "The CPU can be taken away at any time",
+    "Option2": "Once a process starts executing, it continues until it completes its task or voluntarily yields the CPU (e.g., for I/O operation)",
+    "Option3": "Processes are always interrupted",
+    "Option4": "Used only in real-time systems",
+    "Answer": "Once a process starts executing, it continues until it completes its task or voluntarily yields the CPU (e.g., for I/O operation)"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'CPU utilization'?",
+    "Option1": "The total memory used by processes",
+    "Option2": "The percentage of time that the CPU is busy executing processes",
+    "Option3": "The amount of data transferred by the CPU",
+    "Option4": "The number of processes waiting for the CPU",
+    "Answer": "The percentage of time that the CPU is busy executing processes"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'throughput' in OS scheduling?",
+    "Option1": "The average time to complete a process",
+    "Option2": "The number of processes completed per unit of time",
+    "Option3": "The amount of data processed per second",
+    "Option4": "The time a process spends waiting in the ready queue",
+    "Answer": "The number of processes completed per unit of time"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'turnaround time' in OS scheduling?",
+    "Option1": "The time a process spends executing on the CPU",
+    "Option2": "The total time from a process's arrival until its completion, including waiting time, execution time, and I/O time",
+    "Option3": "The time a process spends waiting for I/O",
+    "Option4": "The time a process spends in the ready queue",
+    "Answer": "The total time from a process's arrival until its completion, including waiting time, execution time, and I/O time"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'waiting time' in OS scheduling?",
+    "Option1": "The time a process spends executing on the CPU",
+    "Option2": "The amount of time a process spends waiting in the ready queue, waiting for the CPU",
+    "Option3": "The total time until process completion",
+    "Option4": "The time spent performing I/O operations",
+    "Answer": "The amount of time a process spends waiting in the ready queue, waiting for the CPU"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'response time' in OS scheduling (for interactive systems)?",
+    "Option1": "The total time to complete a process",
+    "Option2": "The time from when a request is submitted until the first response is produced (not outputting the full result, but beginning to respond)",
+    "Option3": "The time spent on I/O operations",
+    "Option4": "The time a process spends on the CPU",
+    "Answer": "The time from when a request is submitted until the first response is produced (not outputting the full result, but beginning to respond)"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'priority scheduling'?",
+    "Option1": "Processes are executed based on arrival order",
+    "Option2": "A CPU scheduling algorithm where processes are assigned a priority, and the CPU is allocated to the process with the highest priority",
+    "Option3": "Each process gets an equal time slice",
+    "Option4": "Processes with the shortest burst time are executed first",
+    "Answer": "A CPU scheduling algorithm where processes are assigned a priority, and the CPU is allocated to the process with the highest priority"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'shortest-job-first (SJF)' scheduling?",
+    "Option1": "Prioritizing long-running processes",
+    "Option2": "A CPU scheduling algorithm that assigns the CPU to the process that has the smallest next CPU burst time",
+    "Option3": "Processes are executed in a round-robin fashion",
+    "Option4": "Processes with high I/O are prioritized",
+    "Answer": "A CPU scheduling algorithm that assigns the CPU to the process that has the smallest next CPU burst time"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'memory-mapped files'?",
+    "Option1": "Files stored only in RAM",
+    "Option2": "A segment of virtual memory that has been assigned a direct byte-for-byte correlation with some portion of a file or file-like resource",
+    "Option3": "Files that are only accessible over a network",
+    "Option4": "Temporary files created by the OS",
+    "Answer": "A segment of virtual memory that has been assigned a direct byte-for-byte correlation with some portion of a file or file-like resource"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'system calls'?",
+    "Option1": "Commands typed by users in the shell",
+    "Option2": "The programmatic interface to the services provided by the operating system",
+    "Option3": "Notifications from applications",
+    "Option4": "Hardware interrupts",
+    "Answer": "The programmatic interface to the services provided by the operating system"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the 'user mode' vs 'kernel mode'?",
+    "Option1": "They are different types of operating systems",
+    "Option2": "Kernel mode grants full access to system hardware and OS functions, while user mode restricts access for safety and stability",
+    "Option3": "User mode is for advanced users only",
+    "Option4": "Kernel mode is only for network operations",
+    "Answer": "Kernel mode grants full access to system hardware and OS functions, while user mode restricts access for safety and stability"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'multilevel queue scheduling'?",
+    "Option1": "A single queue for all processes",
+    "Option2": "Processes are permanently assigned to different queues (e.g., foreground, background), each with its own scheduling algorithm",
+    "Option3": "Processes move between queues dynamically",
+    "Option4": "Queues for different hardware devices",
+    "Answer": "Processes are permanently assigned to different queues (e.g., foreground, background), each with its own scheduling algorithm"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'multilevel feedback queue scheduling'?",
+    "Option1": "Processes are static in their assigned queue",
+    "Option2": "Processes can move between queues based on their CPU burst characteristics, allowing for more flexible scheduling and preventing starvation",
+    "Option3": "Only one queue is used",
+    "Option4": "Queues are based on process size",
+    "Answer": "Processes can move between queues based on their CPU burst characteristics, allowing for more flexible scheduling and preventing starvation"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'real-time operating system (RTOS)'?",
+    "Option1": "An OS for general-purpose computing",
+    "Option2": "An OS designed to process data and events within specific, strict time constraints, critical for embedded systems and control applications",
+    "Option3": "An OS that prioritizes user interface responsiveness",
+    "Option4": "An OS for cloud servers",
+    "Answer": "An OS designed to process data and events within specific, strict time constraints, critical for embedded systems and control applications"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'hard real-time system'?",
+    "Option1": "Tasks have flexible deadlines",
+    "Option2": "Systems where missing a deadline can result in catastrophic failure or significant damage; strict deadlines must be met",
+    "Option3": "Systems with high throughput requirements",
+    "Option4": "Systems that are slow to respond",
+    "Answer": "Systems where missing a deadline can result in catastrophic failure or significant damage; strict deadlines must be met"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'soft real-time system'?",
+    "Option1": "Tasks must always meet deadlines",
+    "Option2": "Systems where missing a deadline is undesirable but does not lead to catastrophic failure, though it may degrade performance or quality",
+    "Option3": "Systems with no deadlines",
+    "Option4": "Systems that are not designed for real-time applications",
+    "Answer": "Systems where missing a deadline is undesirable but does not lead to catastrophic failure, though it may degrade performance or quality"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'CPU affinity'?",
+    "Option1": "A process can run on any CPU core",
+    "Option2": "A technique that binds a process or thread to a specific CPU core or a set of cores, aiming to improve performance by reducing cache misses",
+    "Option3": "CPU temperature monitoring",
+    "Option4": "CPU overclocking",
+    "Answer": "A technique that binds a process or thread to a specific CPU core or a set of cores, aiming to improve performance by reducing cache misses"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'load balancing' (in distributed systems/OS)?",
+    "Option1": "Distributing workloads unevenly",
+    "Option2": "Distributing computing workloads across multiple computing resources (e.g., CPUs, servers, network links) to optimize resource utilization, maximize throughput, minimize response time, and avoid overload",
+    "Option3": "Only for single-processor systems",
+    "Option4": "Increasing the processing load on one server",
+    "Answer": "Distributing computing workloads across multiple computing resources (e.g., CPUs, servers, network links) to optimize resource utilization, maximize throughput, minimize response time, and avoid overload"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'distributed operating system'?",
+    "Option1": "An OS that runs on a single computer",
+    "Option2": "An OS that manages a collection of independent computers and makes them appear to the users as a single coherent system",
+    "Option3": "An OS used for mobile phones",
+    "Option4": "An OS without network capabilities",
+    "Answer": "An OS that manages a collection of independent computers and makes them appear to the users as a single coherent system"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'network operating system (NOS)'?",
+    "Option1": "An OS that only supports a single user",
+    "Option2": "An OS designed to support networking, allowing multiple users to share files and resources over a network; each computer has its own independent OS",
+    "Option3": "An OS for embedded systems",
+    "Option4": "An OS that does not support printing",
+    "Answer": "An OS designed to support networking, allowing multiple users to share files and resources over a network; each computer has its own independent OS"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'cloud operating system'?",
+    "Option1": "An OS that runs on local hardware only",
+    "Option2": "A software environment that manages cloud computing resources and workloads, providing services like resource provisioning, orchestration, and scaling for applications deployed in the cloud",
+    "Option3": "An OS for personal computers",
+    "Option4": "An OS that is always offline",
+    "Answer": "A software environment that manages cloud computing resources and workloads, providing services like resource provisioning, orchestration, and scaling for applications deployed in the cloud"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'embedded operating system'?",
+    "Option1": "An OS for general-purpose desktops",
+    "Option2": "A specialized operating system designed to run on embedded systems, often with limited hardware resources and dedicated functions (e.g., in appliances, IoT devices)",
+    "Option3": "An OS for supercomputers",
+    "Option4": "An OS that requires a large amount of RAM",
+    "Answer": "A specialized operating system designed to run on embedded systems, often with limited hardware resources and dedicated functions (e.g., in appliances, IoT devices)"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'memory leak'?",
+    "Option1": "Memory that is intentionally released",
+    "Option2": "A type of resource leak that occurs when a computer program incorrectly manages memory allocations, failing to deallocate memory that is no longer needed, leading to performance degradation or crashes",
+    "Option3": "Memory being read too quickly",
+    "Option4": "Memory being swapped to disk too often",
+    "Answer": "A type of resource leak that occurs when a computer program incorrectly manages memory allocations, failing to deallocate memory that is no longer needed, leading to performance degradation or crashes"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'buffer overflow'?",
+    "Option1": "A security vulnerability that occurs when a program attempts to write data beyond the boundaries of a fixed-size buffer, potentially overwriting adjacent memory and leading to crashes or execution of malicious code",
+    "Option2": "A feature for increasing buffer size",
+    "Option3": "A fast method for data transfer using buffers",
+    "Option4": "An error in reading from a buffer",
+    "Answer": "A security vulnerability that occurs when a program attempts to write data beyond the boundaries of a fixed-size buffer, potentially overwriting adjacent memory and leading to crashes or execution of malicious code"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'privileged instructions'?",
+    "Option1": "Instructions executable in user mode",
+    "Option2": "CPU instructions that can only be executed when the CPU is in kernel mode (privileged mode), typically involving direct hardware access or system-critical operations",
+    "Option3": "Instructions that improve CPU performance",
+    "Option4": "Instructions that manage application software",
+    "Answer": "CPU instructions that can only be executed when the CPU is in kernel mode (privileged mode), typically involving direct hardware access or system-critical operations"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'system startup sequence'?",
+    "Option1": "The order of opening applications",
+    "Option2": "The series of steps a computer takes from being powered on to having a fully functional operating system loaded and ready for user interaction",
+    "Option3": "The process of shutting down the computer",
+    "Option4": "The order of connecting external devices",
+    "Answer": "The series of steps a computer takes from being powered on to having a fully functional operating system loaded and ready for user interaction"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'dual booting'?",
+    "Option1": "Running two programs simultaneously",
+    "Option2": "Having two or more operating systems installed on a single computer, with the ability to choose which one to start during the boot process",
+    "Option3": "Having two hard drives in a computer",
+    "Option4": "Connecting to two monitors",
+    "Answer": "Having two or more operating systems installed on a single computer, with the ability to choose which one to start during the boot process"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'multibooting'?",
+    "Option1": "Installing only one OS",
+    "Option2": "The practice of installing and being able to boot into multiple operating systems on a single computer, typically selected from a boot manager",
+    "Option3": "Running an OS in a virtual machine",
+    "Option4": "Using a recovery partition",
+    "Answer": "The practice of installing and being able to boot into multiple operating systems on a single computer, typically selected from a boot manager"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'boot manager'?",
+    "Option1": "A utility for disk cleanup",
+    "Option2": "A program that loads before the operating system and allows the user to select which operating system to boot if multiple are installed",
+    "Option3": "A tool for creating backup images",
+    "Option4": "A security feature to block unauthorized boots",
+    "Answer": "A program that loads before the operating system and allows the user to select which operating system to boot if multiple are installed"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'system log'?",
+    "Option1": "A log of user activities only",
+    "Option2": "A record of events and activities that occur within an operating system, often used for troubleshooting, auditing, and security analysis",
+    "Option3": "A log of installed software",
+    "Option4": "A log of network connections only",
+    "Answer": "A record of events and activities that occur within an operating system, often used for troubleshooting, auditing, and security analysis"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'disk partitioning'?",
+    "Option1": "Combining multiple disks into one",
+    "Option2": "Dividing a single physical hard drive into multiple logical storage units (partitions), each behaving like a separate drive",
+    "Option3": "Formatting a hard drive",
+    "Option4": "Encrypting a disk drive",
+    "Answer": "Dividing a single physical hard drive into multiple logical storage units (partitions), each behaving like a separate drive"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'file allocation table (FAT)'?",
+    "Option1": "A modern file system for large drives",
+    "Option2": "An older file system architecture developed by Microsoft that stores information about file locations on a disk, commonly used in flash drives and older systems",
+    "Option3": "A file system for network drives",
+    "Option4": "A journaling file system",
+    "Answer": "An older file system architecture developed by Microsoft that stores information about file locations on a disk, commonly used in flash drives and older systems"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'NTFS' (New Technology File System)?",
+    "Option1": "An older file system for floppy disks",
+    "Option2": "The default journaling file system for Windows NT and later versions, offering improved security, reliability, and support for larger files and partitions compared to FAT",
+    "Option3": "A file system for Linux",
+    "Option4": "A file system for macOS",
+    "Answer": "The default journaling file system for Windows NT and later versions, offering improved security, reliability, and support for larger files and partitions compared to FAT"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'ext4' (Fourth Extended Filesystem)?",
+    "Option1": "A file system for Windows",
+    "Option2": "A widely used journaling file system for Linux operating systems, offering performance, reliability, and features like extents for large files",
+    "Option3": "A file system for macOS",
+    "Option4": "A file system primarily for network attached storage",
+    "Answer": "A widely used journaling file system for Linux operating systems, offering performance, reliability, and features like extents for large files"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'HFS+' (Hierarchical File System Plus)?",
+    "Option1": "A file system for Windows",
+    "Option2": "A proprietary file system developed by Apple for macOS and iOS devices, predecessor to APFS",
+    "Option3": "A file system for Linux",
+    "Option4": "A file system for Android devices",
+    "Answer": "A proprietary file system developed by Apple for macOS and iOS devices, predecessor to APFS"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'APFS' (Apple File System)?",
+    "Option1": "An older file system for macOS",
+    "Option2": "A proprietary file system developed by Apple for macOS, iOS, tvOS, and watchOS, designed for flash and solid-state storage with features like snapshots and encryption",
+    "Option3": "A general-purpose file system for servers",
+    "Option4": "A file system for embedded systems",
+    "Answer": "A proprietary file system developed by Apple for macOS, iOS, tvOS, and watchOS, designed for flash and solid-state storage with features like snapshots and encryption"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'root account' (or superuser/administrator)?",
+    "Option1": "A regular user account",
+    "Option2": "A special user account in Unix-like systems (and analogous in Windows) with all privileges to modify the system and access all files",
+    "Option3": "An account for network access only",
+    "Option4": "A guest account with limited access",
+    "Answer": "A special user account in Unix-like systems (and analogous in Windows) with all privileges to modify the system and access all files"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'user authentication'?",
+    "Option1": "Granting specific permissions to files",
+    "Option2": "The process of verifying the identity of a user attempting to access a computer system or resource, typically using credentials like username and password",
+    "Option3": "Logging system events",
+    "Option4": "Encrypting user data",
+    "Answer": "The process of verifying the identity of a user attempting to access a computer system or resource, typically using credentials like username and password"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'access control list (ACL)'?",
+    "Option1": "A list of installed applications",
+    "Option2": "A list of permissions attached to an object (e.g., file, directory) that specifies which users or groups have what level of access to that object",
+    "Option3": "A list of network devices",
+    "Option4": "A list of system processes",
+    "Answer": "A list of permissions attached to an object (e.g., file, directory) that specifies which users or groups have what level of access to that object"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'role-based access control (RBAC)'?",
+    "Option1": "Access based on individual user names",
+    "Option2": "An access control mechanism where permissions are associated with roles, and users are assigned to roles, simplifying management and improving security",
+    "Option3": "Access based on file type",
+    "Option4": "Access based on network location",
+    "Answer": "An access control mechanism where permissions are associated with roles, and users are assigned to roles, simplifying management and improving security"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'digital signature' (in OS security)?",
+    "Option1": "A scanned image of a signature",
+    "Option2": "A cryptographic mechanism used to verify the authenticity and integrity of digital documents or software, ensuring it hasn't been tampered with and comes from a trusted source",
+    "Option3": "A type of password",
+    "Option4": "A physical security key",
+    "Answer": "A cryptographic mechanism used to verify the authenticity and integrity of digital documents or software, ensuring it hasn't been tampered with and comes from a trusted source"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'firewall' (in OS security)?",
+    "Option1": "A program to speed up internet Browse",
+    "Option2": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules, often integrated into an OS",
+    "Option3": "A utility for backing up data",
+    "Option4": "A software for scanning for viruses",
+    "Answer": "A network security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules, often integrated into an OS"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'antivirus software'?",
+    "Option1": "Software that speeds up computer performance",
+    "Option2": "Software designed to detect, prevent, and remove malicious software (malware) like viruses, worms, and Trojans from a computer system",
+    "Option3": "Software for creating presentations",
+    "Option4": "Software for managing printer queues",
+    "Answer": "Software designed to detect, prevent, and remove malicious software (malware) like viruses, worms, and Trojans from a computer system"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'disk quotas'?",
+    "Option1": "Limiting the number of files a user can create",
+    "Option2": "A feature that allows system administrators to limit the amount of disk space or the number of files that a user or group can consume on a file system",
+    "Option3": "A way to increase disk space",
+    "Option4": "A method for disk defragmentation",
+    "Answer": "A feature that allows system administrators to limit the amount of disk space or the number of files that a user or group can consume on a file system"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'system restore point'?",
+    "Option1": "A backup of all user data",
+    "Option2": "A snapshot of system files, installed applications, Windows Registry, and system settings at a particular point in time, allowing users to revert their system to an earlier state",
+    "Option3": "A full disk image",
+    "Option4": "A recovery method for individual files",
+    "Answer": "A snapshot of system files, installed applications, Windows Registry, and system settings at a particular point in time, allowing users to revert their system to an earlier state"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'safe mode' in an OS?",
+    "Option1": "A mode for faster performance",
+    "Option2": "A diagnostic startup mode that starts the operating system with only essential drivers and services, useful for troubleshooting problems",
+    "Option3": "A mode for gaming",
+    "Option4": "A mode that encrypts all system data",
+    "Answer": "A diagnostic startup mode that starts the operating system with only essential drivers and services, useful for troubleshooting problems"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'paging file' (or swap file)?",
+    "Option1": "A file for temporary program data in RAM",
+    "Option2": "A hidden system file on a hard drive that is used by the operating system as virtual memory when RAM is full or insufficient",
+    "Option3": "A file for storing system logs",
+    "Option4": "A file for backup images",
+    "Answer": "A hidden system file on a hard drive that is used by the operating system as virtual memory when RAM is full or insufficient"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'page replacement algorithms'?",
+    "Option1": "Algorithms for CPU scheduling",
+    "Option2": "Algorithms used by the OS to decide which page to remove from main memory when a new page needs to be loaded and memory is full (e.g., FIFO, LRU, OPT)",
+    "Option3": "Algorithms for disk scheduling",
+    "Option4": "Algorithms for file encryption",
+    "Answer": "Algorithms used by the OS to decide which page to remove from main memory when a new page needs to be loaded and memory is full (e.g., FIFO, LRU, OPT)"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'least recently used (LRU)' page replacement algorithm?",
+    "Option1": "Replaces the page that has been in memory the longest",
+    "Option2": "Replaces the page that has not been used for the longest period of time",
+    "Option3": "Replaces a randomly selected page",
+    "Option4": "Replaces the page that will be used furthest in the future",
+    "Answer": "Replaces the page that has not been used for the longest period of time"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'first-in, first-out (FIFO)' page replacement algorithm?",
+    "Option1": "Replaces the page that was most recently used",
+    "Option2": "Replaces the page that has been in memory for the longest time",
+    "Option3": "Replaces the page with the lowest page number",
+    "Option4": "Replaces a page based on future usage",
+    "Answer": "Replaces the page that has been in memory for the longest time"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'optimal (OPT)' page replacement algorithm?",
+    "Option1": "Replaces the page that has not been used for the longest time",
+    "Option2": "Replaces the page that will not be used for the longest period of time in the future (theoretically optimal, but not practically implementable without future knowledge)",
+    "Option3": "Replaces the least frequently used page",
+    "Option4": "Replaces a randomly chosen page",
+    "Answer": "Replaces the page that will not be used for the longest period of time in the future (theoretically optimal, but not practically implementable without future knowledge)"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'clock algorithm' (or Second Chance) for page replacement?",
+    "Option1": "A simple FIFO algorithm",
+    "Option2": "A page replacement algorithm that is a variation of FIFO, giving pages a 'second chance' before being replaced, often using a reference bit",
+    "Option3": "An algorithm that counts page references",
+    "Option4": "An algorithm based on memory usage",
+    "Answer": "A page replacement algorithm that is a variation of FIFO, giving pages a 'second chance' before being replaced, often using a reference bit"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'swapping in' and 'swapping out'?",
+    "Option1": "Transferring data between CPU and cache",
+    "Option2": "Swapping in is bringing a process from secondary storage to main memory; swapping out is moving a process from main memory to secondary storage",
+    "Option3": "Copying files to a USB drive",
+    "Option4": "Changing network configurations",
+    "Answer": "Swapping in is bringing a process from secondary storage to main memory; swapping out is moving a process from main memory to secondary storage"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'memory protection'?",
+    "Option1": "Encrypting all memory contents",
+    "Option2": "Mechanisms provided by the OS and hardware to prevent processes from accessing memory that they are not authorized to use, ensuring system stability and security",
+    "Option3": "Increasing the size of RAM",
+    "Option4": "Backing up memory contents to disk",
+    "Answer": "Mechanisms provided by the OS and hardware to prevent processes from accessing memory that they are not authorized to use, ensuring system stability and security"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'relocation register' in memory management?",
+    "Option1": "A register storing CPU instructions",
+    "Option2": "A hardware register that helps convert logical addresses to physical addresses by holding the base address of a program in memory, used in dynamic relocation",
+    "Option3": "A register for I/O operations",
+    "Option4": "A register for network addresses",
+    "Answer": "A hardware register that helps convert logical addresses to physical addresses by holding the base address of a program in memory, used in dynamic relocation"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'limit register' in memory management?",
+    "Option1": "A register for setting memory speed",
+    "Option2": "A hardware register that defines the size or limit of a program's logical address space, used with the relocation register for memory protection",
+    "Option3": "A register for network bandwidth",
+    "Option4": "A register for CPU clock speed",
+    "Answer": "A hardware register that defines the size or limit of a program's logical address space, used with the relocation register for memory protection"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'contiguous memory allocation'?",
+    "Option1": "Allocating memory in non-adjacent blocks",
+    "Option2": "A memory allocation scheme where each process is given a single, contiguous block of memory, which can lead to external fragmentation",
+    "Option3": "Allocating memory in fixed-size pages",
+    "Option4": "Allocating memory based on demand",
+    "Answer": "A memory allocation scheme where each process is given a single, contiguous block of memory, which can lead to external fragmentation"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'non-contiguous memory allocation'?",
+    "Option1": "Allocating memory in a single block",
+    "Option2": "A memory allocation scheme where processes are allocated memory in multiple, non-adjacent blocks, typically using paging or segmentation",
+    "Option3": "Allocating memory sequentially",
+    "Option4": "Allocating memory only to the kernel",
+    "Answer": "A memory allocation scheme where processes are allocated memory in multiple, non-adjacent blocks, typically using paging or segmentation"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'buddy system' in memory management?",
+    "Option1": "A fixed-partition allocation scheme",
+    "Option2": "A dynamic memory allocation technique that divides memory into blocks of powers of two, allowing for efficient allocation and deallocation by splitting and merging blocks",
+    "Option3": "A paging algorithm",
+    "Option4": "A segmentation technique",
+    "Answer": "A dynamic memory allocation technique that divides memory into blocks of powers of two, allowing for efficient allocation and deallocation by splitting and merging blocks"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'TLB' (Translation Lookaside Buffer)?",
+    "Option1": "A cache for CPU instructions",
+    "Option2": "A special, small, and fast cache in the CPU that stores recent translations of virtual memory addresses to physical memory addresses, speeding up memory access",
+    "Option3": "A cache for disk data",
+    "Option4": "A buffer for network packets",
+    "Answer": "A special, small, and fast cache in the CPU that stores recent translations of virtual memory addresses to physical memory addresses, speeding up memory access"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'copy-on-write (COW)'?",
+    "Option1": "Copying all data immediately",
+    "Option2": "A resource management technique where resources that would otherwise be copied are shared until one of the copies is modified, at which point the copy is actually made",
+    "Option3": "Writing data only once",
+    "Option4": "Preventing data from being copied",
+    "Answer": "A resource management technique where resources that would otherwise be copied are shared until one of the copies is modified, at which point the copy is actually made"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'page replacement policy'?",
+    "Option1": "How pages are loaded into memory",
+    "Option2": "The set of rules or algorithms used by the operating system to decide which page in main memory should be replaced when a new page needs to be loaded and there is no free frame",
+    "Option3": "How pages are created on disk",
+    "Option4": "The size of a memory page",
+    "Answer": "The set of rules or algorithms used by the operating system to decide which page in main memory should be replaced when a new page needs to be loaded and there is no free frame"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'belady's anomaly'?",
+    "Option1": "More frames always lead to fewer page faults",
+    "Option2": "An anomaly where increasing the number of available memory frames can sometimes lead to an increase in the number of page faults for certain page replacement algorithms (like FIFO)",
+    "Option3": "An issue with LRU algorithm",
+    "Option4": "A problem with optimal page replacement",
+    "Answer": "An anomaly where increasing the number of available memory frames can sometimes lead to an increase in the number of page faults for certain page replacement algorithms (like FIFO)"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'working set model' in memory management?",
+    "Option1": "A model for predicting CPU usage",
+    "Option2": "A concept that identifies the set of pages that a process is actively using at a given time, aiming to keep these pages in memory to prevent thrashing",
+    "Option3": "A model for disk I/O optimization",
+    "Option4": "A model for network bandwidth allocation",
+    "Answer": "A concept that identifies the set of pages that a process is actively using at a given time, aiming to keep these pages in memory to prevent thrashing"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'global page replacement'?",
+    "Option1": "Each process has its own fixed set of frames",
+    "Option2": "When a page fault occurs, any page in memory can be a candidate for replacement, regardless of which process it belongs to",
+    "Option3": "Only pages from the current process can be replaced",
+    "Option4": "Replacing pages across multiple computers",
+    "Answer": "When a page fault occurs, any page in memory can be a candidate for replacement, regardless of which process it belongs to"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'local page replacement'?",
+    "Option1": "Any page in memory can be replaced",
+    "Option2": "When a page fault occurs for a process, only pages belonging to that specific process are considered as candidates for replacement",
+    "Option3": "Replacing pages on a remote server",
+    "Option4": "Replacing pages in a shared memory segment",
+    "Answer": "When a page fault occurs for a process, only pages belonging to that specific process are considered as candidates for replacement"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'demand loading' (general term)?",
+    "Option1": "Loading all resources at startup",
+    "Option2": "Loading data or code into memory only when it is actually needed by the program, rather than loading everything at once",
+    "Option3": "Loading data from a network drive",
+    "Option4": "Loading encrypted data",
+    "Answer": "Loading data or code into memory only when it is actually needed by the program, rather than loading everything at once"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'shared memory' in IPC?",
+    "Option1": "Processes communicate by sending messages",
+    "Option2": "A region of memory that is shared by multiple processes, allowing for fast and direct communication between them without involving the kernel for every data transfer",
+    "Option3": "Memory used by the OS only",
+    "Option4": "Memory that is read-only for processes",
+    "Answer": "A region of memory that is shared by multiple processes, allowing for fast and direct communication between them without involving the kernel for every data transfer"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'message passing' in IPC?",
+    "Option1": "Processes communicate via shared memory",
+    "Option2": "A mechanism for inter-process communication where processes exchange information by sending and receiving messages, typically managed by the kernel",
+    "Option3": "Direct hardware communication",
+    "Option4": "Only for inter-computer communication",
+    "Answer": "A mechanism for inter-process communication where processes exchange information by sending and receiving messages, typically managed by the kernel"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'pipe' in IPC?",
+    "Option1": "A two-way communication channel",
+    "Option2": "A unidirectional communication channel between two related processes (typically parent and child), allowing data to flow from one end to the other",
+    "Option3": "A network connection",
+    "Option4": "A shared file for communication",
+    "Answer": "A unidirectional communication channel between two related processes (typically parent and child), allowing data to flow from one end to the other"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'named pipe' (FIFO) in IPC?",
+    "Option1": "Only for related processes",
+    "Option2": "A type of pipe that has a name in the file system, allowing unrelated processes to communicate with each other",
+    "Option3": "A volatile memory structure",
+    "Option4": "A network protocol",
+    "Answer": "A type of pipe that has a name in the file system, allowing unrelated processes to communicate with each other"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'socket' in IPC?",
+    "Option1": "Only for local process communication",
+    "Option2": "An endpoint of a two-way communication link between two programs running on the network or on the same machine, widely used for network communication",
+    "Option3": "A simple file operation",
+    "Option4": "A hardware port",
+    "Answer": "An endpoint of a two-way communication link between two programs running on the network or on the same machine, widely used for network communication"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'mutex' (mutual exclusion object)?",
+    "Option1": "A tool for concurrent data access",
+    "Option2": "A synchronization primitive that provides mutual exclusion, meaning it ensures that only one thread can access a shared resource or critical section at a time",
+    "Option3": "A type of inter-process communication",
+    "Option4": "A memory allocation technique",
+    "Answer": "A synchronization primitive that provides mutual exclusion, meaning it ensures that only one thread can access a shared resource or critical section at a time"
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'condition variable'?",
+    "Option1": "Used for simple locking",
+    "Option2": "A synchronization primitive that allows threads to wait until a particular condition is true and be signaled by other threads when the condition changes, often used with mutexes",
+    "Option3": "A variable for storing boolean values",
+    "Option4": "A variable to control CPU speed",
+    "Answer": "A synchronization primitive that allows threads to wait until a particular condition is true and be signaled by other threads when the condition changes, often used with mutexes"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'monitor' (synchronization construct)?",
+    "Option1": "A hardware device for display",
+    "Option2": "A programming language construct or module that encapsulates shared data and procedures to access that data, ensuring mutual exclusion and providing condition variables for synchronization",
+    "Option3": "A tool for process monitoring",
+    "Option4": "A type of input device",
+    "Answer": "A programming language construct or module that encapsulates shared data and procedures to access that data, ensuring mutual exclusion and providing condition variables for synchronization"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'dining philosophers problem'?",
+    "Option1": "A problem in CPU scheduling",
+    "Option2": "A classic synchronization problem that illustrates the challenges of allocating multiple resources among multiple processes while avoiding deadlock and starvation",
+    "Option3": "A problem in memory allocation",
+    "Option4": "A problem in file system design",
+    "Answer": "A classic synchronization problem that illustrates the challenges of allocating multiple resources among multiple processes while avoiding deadlock and starvation"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'producer-consumer problem'?",
+    "Option1": "A problem in network communication",
+    "Option2": "A classic synchronization problem that illustrates how to synchronize processes (producer adds items, consumer removes items) sharing a common fixed-size buffer",
+    "Option3": "A problem in resource monitoring",
+    "Option4": "A problem in process creation",
+    "Answer": "A classic synchronization problem that illustrates how to synchronize processes (producer adds items, consumer removes items) sharing a common fixed-size buffer"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'readers-writers problem'?",
+    "Option1": "A problem of file system security",
+    "Option2": "A classic synchronization problem where multiple processes (readers) can read a shared data concurrently, but only one process (writer) can write at a time, and no readers can read while a writer is writing",
+    "Option3": "A problem of memory fragmentation",
+    "Option4": "A problem of CPU scheduling fairness",
+    "Answer": "A classic synchronization problem where multiple processes (readers) can read a shared data concurrently, but only one process (writer) can write at a time, and no readers can read while a writer is writing"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'banker's algorithm'?",
+    "Option1": "An algorithm for CPU scheduling",
+    "Option2": "A resource allocation and deadlock avoidance algorithm that tests for safe state by simulating the allocation of maximum possible resources to all processes and makes an 's-state' check to test for possible activities, before deciding whether allocation should be allowed to continue",
+    "Option3": "An algorithm for memory compression",
+    "Option4": "An algorithm for network routing",
+    "Answer": "A resource allocation and deadlock avoidance algorithm that tests for safe state by simulating the allocation of maximum possible resources to all processes and makes an 's-state' check to test for possible activities, before deciding whether allocation should be allowed to continue"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What are the four necessary conditions for a deadlock?",
+    "Option1": "High CPU usage, low memory, fast disk, slow network",
+    "Option2": "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait",
+    "Option3": "High priority, short burst time, frequent I/O, long waiting time",
+    "Option4": "Single core CPU, no virtual memory, no file system, no device drivers",
+    "Answer": "Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'deadlock prevention'?",
+    "Option1": "Allowing deadlocks to occur and then recovering",
+    "Option2": "Designing a system such that at least one of the four necessary conditions for deadlock (mutual exclusion, hold & wait, no preemption, circular wait) cannot hold",
+    "Option3": "Detecting deadlocks when they happen",
+    "Option4": "Ignoring deadlocks",
+    "Answer": "Designing a system such that at least one of the four necessary conditions for deadlock (mutual exclusion, hold & wait, no preemption, circular wait) cannot hold"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'deadlock avoidance'?",
+    "Option1": "Preventing deadlocks by eliminating one of the conditions",
+    "Option2": "Dynamically checking the resource-allocation state to ensure that there is no circular wait, allowing the system to grant a resource if and only if the system remains in a safe state",
+    "Option3": "Terminating processes involved in a deadlock",
+    "Option4": "Restarting the entire system to clear deadlocks",
+    "Answer": "Dynamically checking the resource-allocation state to ensure that there is no circular wait, allowing the system to grant a resource if and only if the system remains in a safe state"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'deadlock detection'?",
+    "Option1": "Preventing deadlocks from occurring",
+    "Option2": "An algorithm that determines whether a deadlock has occurred, and if so, identifies the processes and resources involved, typically followed by recovery strategies",
+    "Option3": "Ensuring fair resource allocation",
+    "Option4": "Only applies to single-resource systems",
+    "Answer": "An algorithm that determines whether a deadlock has occurred, and if so, identifies the processes and resources involved, typically followed by recovery strategies"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'deadlock recovery'?",
+    "Option1": "Ignoring the deadlock and continuing operations",
+    "Option2": "Mechanisms to break a deadlock once it has been detected, typically by process termination or resource preemption",
+    "Option3": "Optimizing system performance to avoid deadlocks",
+    "Option4": "Scheduling resources more efficiently",
+    "Answer": "Mechanisms to break a deadlock once it has been detected, typically by process termination or resource preemption"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'thread-safe' code?",
+    "Option1": "Code that runs only on a single thread",
+    "Option2": "Code that behaves correctly when executed concurrently by multiple threads, without causing data corruption or unexpected behavior due to race conditions",
+    "Option3": "Code that is protected by a firewall",
+    "Option4": "Code that uses minimal memory",
+    "Answer": "Code that behaves correctly when executed concurrently by multiple threads, without causing data corruption or unexpected behavior due to race conditions"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'user-level threads'?",
+    "Option1": "Threads managed by the kernel",
+    "Option2": "Threads managed by a user-level library without direct kernel support, making context switching faster but blocking the entire process if one thread blocks",
+    "Option3": "Threads used only for I/O operations",
+    "Option4": "Threads that always run in kernel mode",
+    "Answer": "Threads managed by a user-level library without direct kernel support, making context switching faster but blocking the entire process if one thread blocks"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'kernel-level threads'?",
+    "Option1": "Threads managed by a user-level library",
+    "Option2": "Threads directly supported and managed by the operating system kernel, allowing the kernel to schedule multiple threads from the same process on different CPU cores",
+    "Option3": "Threads that cannot be preempted",
+    "Option4": "Threads that are invisible to the OS",
+    "Answer": "Threads directly supported and managed by the operating system kernel, allowing the kernel to schedule multiple threads from the same process on different CPU cores"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'many-to-one threading model'?",
+    "Option1": "Each user thread maps to a kernel thread",
+    "Option2": "Many user-level threads are mapped to a single kernel thread, efficient but if one user thread blocks, the entire process blocks",
+    "Option3": "One user thread maps to many kernel threads",
+    "Option4": "No mapping between user and kernel threads",
+    "Answer": "Many user-level threads are mapped to a single kernel thread, efficient but if one user thread blocks, the entire process blocks"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'one-to-one threading model'?",
+    "Option1": "Many user threads map to one kernel thread",
+    "Option2": "Each user-level thread maps to a distinct kernel thread, allowing true concurrency on multiprocessor systems and preventing the entire process from blocking",
+    "Option3": "One kernel thread maps to many user threads",
+    "Option4": "Threads are not mapped to the kernel",
+    "Answer": "Each user-level thread maps to a distinct kernel thread, allowing true concurrency on multiprocessor systems and preventing the entire process from blocking"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'many-to-many threading model'?",
+    "Option1": "Only one user thread and one kernel thread",
+    "Option2": "Maps many user-level threads to a smaller or equal number of kernel threads, combining advantages of one-to-one and many-to-one models",
+    "Option3": "User threads cannot access kernel threads",
+    "Option4": "Threads run independently of the kernel",
+    "Answer": "Maps many user-level threads to a smaller or equal number of kernel threads, combining advantages of one-to-one and many-to-one models"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'fork-exec' paradigm?",
+    "Option1": "Creating a new process and immediately terminating it",
+    "Option2": "A common sequence in Unix-like systems where 'fork' creates a child process (copy of parent), and then 'exec' replaces the child's program image with a new one",
+    "Option3": "Executing a program without creating a new process",
+    "Option4": "Creating multiple threads within a single process",
+    "Answer": "A common sequence in Unix-like systems where 'fork' creates a child process (copy of parent), and then 'exec' replaces the child's program image with a new one"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'orphan process'?",
+    "Option1": "A process that creates many child processes",
+    "Option2": "A child process whose parent process has terminated before the child process has finished, often adopted by the 'init' (or 'systemd') process",
+    "Option3": "A process that has no open files",
+    "Option4": "A process that is waiting for I/O indefinitely",
+    "Answer": "A child process whose parent process has terminated before the child process has finished, often adopted by the 'init' (or 'systemd') process"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'zombie process'?",
+    "Option1": "A process that is actively running",
+    "Option2": "A process that has completed its execution but still has an entry in the process table because its parent process has not yet read its exit status, consuming minimal system resources",
+    "Option3": "A process that is blocked indefinitely",
+    "Option4": "A process that has been suspended by the OS",
+    "Answer": "A process that has completed its execution but still has an entry in the process table because its parent process has not yet read its exit status, consuming minimal system resources"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'init process' (or systemd)?",
+    "Option1": "A process that manages network connections",
+    "Option2": "The first process started during boot-up in Unix-like systems, responsible for starting all other processes and managing orphaned processes",
+    "Option3": "A process for graphical user interface",
+    "Option4": "A process for running user applications",
+    "Answer": "The first process started during boot-up in Unix-like systems, responsible for starting all other processes and managing orphaned processes"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'signal' (in Unix/Linux)?",
+    "Option1": "A notification from an application to the user",
+    "Option2": "A limited form of inter-process communication used to notify a process of an event (e.g., termination, interrupt, error)",
+    "Option3": "A type of network packet",
+    "Option4": "A hardware component for communication",
+    "Answer": "A limited form of inter-process communication used to notify a process of an event (e.g., termination, interrupt, error)"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'system uptime'?",
+    "Option1": "The total time a computer has been powered off",
+    "Option2": "The total time that a computer or a network system has been running without being shut down or restarted",
+    "Option3": "The time it takes to boot the system",
+    "Option4": "The time since the last software update",
+    "Answer": "The total time that a computer or a network system has been running without being shut down or restarted"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'page replacement algorithm's goal'?",
+    "Option1": "To maximize page faults",
+    "Option2": "To minimize the number of page faults by keeping frequently used pages in memory and replacing less useful pages when needed",
+    "Option3": "To increase thrashing",
+    "Option4": "To load all pages into memory at once",
+    "Answer": "To minimize the number of page faults by keeping frequently used pages in memory and replacing less useful pages when needed"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'system monitor' utility?",
+    "Option1": "A tool for creating documents",
+    "Option2": "A software tool that displays real-time information about the performance and resource usage of a computer system (e.g., CPU usage, memory usage, disk activity, network activity)",
+    "Option3": "A tool for editing images",
+    "Option4": "A tool for managing user accounts",
+    "Answer": "A software tool that displays real-time information about the performance and resource usage of a computer system (e.g., CPU usage, memory usage, disk activity, network activity)"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'command-line interface (CLI)'?",
+    "Option1": "A graphical user interface with icons",
+    "Option2": "A text-based interface used to interact with a computer by typing commands into a terminal or console",
+    "Option3": "A touch-screen interface",
+    "Option4": "An audio-based interface",
+    "Answer": "A text-based interface used to interact with a computer by typing commands into a terminal or console"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'GUI toolkit'?",
+    "Option1": "A set of command-line utilities",
+    "Option2": "A library of graphical widgets and tools that developers use to construct graphical user interfaces for applications (e.g., GTK, Qt, Swing)",
+    "Option3": "A hardware component for display",
+    "Option4": "A language for kernel programming",
+    "Answer": "A library of graphical widgets and tools that developers use to construct graphical user interfaces for applications (e.g., GTK, Qt, Swing)"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'desktop environment'?",
+    "Option1": "Only the background image",
+    "Option2": "A collection of graphical components and utilities that provide a complete graphical user interface for an operating system (e.g., GNOME, KDE, Windows Desktop)",
+    "Option3": "A single application program",
+    "Option4": "The kernel of the OS",
+    "Answer": "A collection of graphical components and utilities that provide a complete graphical user interface for an operating system (e.g., GNOME, KDE, Windows Desktop)"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'window manager'?",
+    "Option1": "A program for managing network connections",
+    "Option2": "Software that controls the placement and appearance of windows within a graphical user interface, allowing users to resize, move, minimize, and maximize windows",
+    "Option3": "A utility for file compression",
+    "Option4": "A component for audio output",
+    "Answer": "Software that controls the placement and appearance of windows within a graphical user interface, allowing users to resize, move, minimize, and maximize windows"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'filesystem in userspace (FUSE)'?",
+    "Option1": "A kernel-level file system",
+    "Option2": "A software interface for Unix-like computer operating systems that allows non-privileged users to create their own file systems without modifying kernel code",
+    "Option3": "A file system for network storage only",
+    "Option4": "A proprietary file system",
+    "Answer": "A software interface for Unix-like computer operating systems that allows non-privileged users to create their own file systems without modifying kernel code"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'overlay filesystem'?",
+    "Option1": "A single, read-only file system",
+    "Option2": "A type of file system that combines multiple file systems into a single, unified view, typically with a writable layer on top of one or more read-only layers",
+    "Option3": "A file system for encrypted data",
+    "Option4": "A temporary file system for RAM",
+    "Answer": "A type of file system that combines multiple file systems into a single, unified view, typically with a writable layer on top of one or more read-only layers"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'disk cloning'?",
+    "Option1": "Deleting all data from a disk",
+    "Option2": "Creating an exact, sector-by-sector copy of an entire hard drive or partition, including the operating system, applications, and data, often used for backup or deployment",
+    "Option3": "Formatting a disk drive",
+    "Option4": "Defragmenting a disk",
+    "Answer": "Creating an exact, sector-by-sector copy of an entire hard drive or partition, including the operating system, applications, and data, often used for backup or deployment"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'file compression'?",
+    "Option1": "Increasing file size for faster access",
+    "Option2": "Reducing the size of a file by encoding its data more efficiently, removing redundant information, often used for storage space saving or faster transmission",
+    "Option3": "Encrypting file contents",
+    "Option4": "Changing file permissions",
+    "Answer": "Reducing the size of a file by encoding its data more efficiently, removing redundant information, often used for storage space saving or faster transmission"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'memory defragmentation'?",
+    "Option1": "Increasing memory size",
+    "Option2": "Reorganizing memory contents to collect free space into a single contiguous block, reducing internal fragmentation and improving allocation efficiency",
+    "Option3": "Only for disk drives",
+    "Option4": "A process of clearing temporary files from memory",
+    "Answer": "Reorganizing memory contents to collect free space into a single contiguous block, reducing internal fragmentation and improving allocation efficiency"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'power management' (in OS)?",
+    "Option1": "Controlling the brightness of the screen only",
+    "Option2": "The operating system's ability to manage the power supplied to system components, optimizing power consumption for battery life or energy efficiency (e.g., sleep, hibernate modes)",
+    "Option3": "Managing network power cables",
+    "Option4": "Controlling the power supply to external peripherals only",
+    "Answer": "The operating system's ability to manage the power supplied to system components, optimizing power consumption for battery life or energy efficiency (e.g., sleep, hibernate modes)"
+  }
+]

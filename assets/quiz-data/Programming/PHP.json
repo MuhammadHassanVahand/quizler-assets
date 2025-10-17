@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does PHP stand for?",
+    "Option1": "Personal Home Page",
+    "Option2": "PHP: Hypertext Preprocessor",
+    "Option3": "Private Home Processor",
+    "Option4": "Programming Home Page",
+    "Answer": "PHP: Hypertext Preprocessor"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Is PHP a client-side or server-side scripting language?",
+    "Option1": "Client-side",
+    "Option2": "Server-side",
+    "Option3": "Both",
+    "Option4": "Neither",
+    "Answer": "Server-side"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which type of language is PHP primarily used for?",
+    "Option1": "Frontend development",
+    "Option2": "Backend web development",
+    "Option3": "Desktop application development",
+    "Option4": "Mobile app development",
+    "Answer": "Backend web development"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you start a PHP code block in an HTML file?",
+    "Option1": "<php>",
+    "Option2": "<?php",
+    "Option3": "<script language='php'>",
+    "Option4": "<?",
+    "Answer": "<?php"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you end a PHP code block?",
+    "Option1": "</php>",
+    "Option2": "?>",
+    "Option3": "</script>",
+    "Option4": "</php>",
+    "Answer": "?>"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you output text in PHP?",
+    "Option1": "print()",
+    "Option2": "echo()",
+    "Option3": "Both print() and echo()",
+    "Option4": "write()",
+    "Answer": "Both print() and echo()"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which symbol is used to declare a variable in PHP?",
+    "Option1": "@",
+    "Option2": "#",
+    "Option3": "$",
+    "Option4": "&",
+    "Answer": "$"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Are PHP variable names case-sensitive?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only for some variable types",
+    "Option4": "Depends on the server configuration",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the correct way to concatenate two strings in PHP?",
+    "Option1": "+",
+    "Option2": "&",
+    "Option3": ".",
+    "Option4": "concat()",
+    "Answer": "."
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which operator is used for comparison (equality) in PHP, considering type?",
+    "Option1": "==",
+    "Option2": "===",
+    "Option3": "=",
+    "Option4": "!=",
+    "Answer": "==="
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which operator is used for comparison (equality) in PHP, ignoring type?",
+    "Option1": "==",
+    "Option2": "===",
+    "Option3": "=",
+    "Option4": "!=",
+    "Answer": "=="
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you define a constant in PHP?",
+    "Option1": "const MY_CONSTANT = 'value';",
+    "Option2": "define('MY_CONSTANT', 'value');",
+    "Option3": "$MY_CONSTANT = 'value';",
+    "Option4": "constant MY_CONSTANT = 'value';",
+    "Answer": "define('MY_CONSTANT', 'value');"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Can you redefine a constant in PHP after it has been defined?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only if it's an integer",
+    "Option4": "Only in certain PHP versions",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you create an array in PHP?",
+    "Option1": "$arr = {};",
+    "Option2": "$arr = [];",
+    "Option3": "$arr = array();",
+    "Option4": "Both $arr = [] and $arr = array()",
+    "Answer": "Both $arr = [] and $arr = array()"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you access the first element of an array named `$fruits`?",
+    "Option1": "$fruits[0]",
+    "Option2": "$fruits(0)",
+    "Option3": "$fruits.0",
+    "Option4": "$fruits{0}",
+    "Answer": "$fruits[0]"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which loop iterates over an array's elements and their keys?",
+    "Option1": "for loop",
+    "Option2": "while loop",
+    "Option3": "foreach loop",
+    "Option4": "do-while loop",
+    "Answer": "foreach loop"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is `$_GET` used for in PHP?",
+    "Option1": "To retrieve data from a POST request",
+    "Option2": "To retrieve data sent via the URL query string",
+    "Option3": "To retrieve data from cookies",
+    "Option4": "To retrieve data from a session",
+    "Answer": "To retrieve data sent via the URL query string"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is `$_POST` used for in PHP?",
+    "Option1": "To retrieve data from the URL query string",
+    "Option2": "To retrieve data sent via an HTTP POST method",
+    "Option3": "To retrieve data from server variables",
+    "Option4": "To retrieve data from uploaded files",
+    "Answer": "To retrieve data sent via an HTTP POST method"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is `$_REQUEST` used for in PHP?",
+    "Option1": "To retrieve only GET data",
+    "Option2": "To retrieve only POST data",
+    "Option3": "To retrieve data from both GET and POST requests, and cookies",
+    "Option4": "To retrieve data from session variables",
+    "Answer": "To retrieve data from both GET and POST requests, and cookies"
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you start a session in PHP?",
+    "Option1": "start_session();",
+    "Option2": "session_start();",
+    "Option3": "begin_session();",
+    "Option4": "session_create();",
+    "Answer": "session_start();"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is `$_SESSION` used for?",
+    "Option1": "To store temporary data on the client-side",
+    "Option2": "To store data that persists across multiple pages for a single user",
+    "Option3": "To store global application settings",
+    "Option4": "To store database connection details",
+    "Answer": "To store data that persists across multiple pages for a single user"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you destroy a PHP session?",
+    "Option1": "session_destroy();",
+    "Option2": "end_session();",
+    "Option3": "unset($_SESSION);",
+    "Option4": "session_reset();",
+    "Answer": "session_destroy();"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is `$_COOKIE` used for?",
+    "Option1": "To store temporary data on the server-side",
+    "Option2": "To store small pieces of data on the client's browser",
+    "Option3": "To manage database connections",
+    "Option4": "To handle file uploads",
+    "Answer": "To store small pieces of data on the client's browser"
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you set a cookie in PHP?",
+    "Option1": "create_cookie('name', 'value');",
+    "Option2": "setcookie('name', 'value');",
+    "Option3": "$_COOKIE['name'] = 'value';",
+    "Option4": "cookie_set('name', 'value');",
+    "Answer": "setcookie('name', 'value');"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `include` in PHP?",
+    "Option1": "A function to include a file, halting execution if the file is not found.",
+    "Option2": "A construct to include a file, issuing a warning if the file is not found but continuing execution.",
+    "Option3": "A statement to import a library.",
+    "Option4": "A command to execute an external script.",
+    "Answer": "A construct to include a file, issuing a warning if the file is not found but continuing execution."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is `require` in PHP?",
+    "Option1": "A construct to include a file, issuing a warning if the file is not found but continuing execution.",
+    "Option2": "A construct to include a file, halting execution with a fatal error if the file is not found.",
+    "Option3": "A statement to import a class.",
+    "Option4": "A command to check file permissions.",
+    "Answer": "A construct to include a file, halting execution with a fatal error if the file is not found."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the difference between `include` and `require`?",
+    "Option1": "`include` is for HTML, `require` is for PHP.",
+    "Option2": "`include` issues a warning, `require` issues a fatal error if the file is missing.",
+    "Option3": "`include` is faster than `require`.",
+    "Option4": "There is no functional difference.",
+    "Answer": "`include` issues a warning, `require` issues a fatal error if the file is missing."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `include_once` or `require_once` used for?",
+    "Option1": "To include a file only if it hasn't been included before.",
+    "Option2": "To include a file once, and then ignore it.",
+    "Option3": "To force a file to be included only one time.",
+    "Option4": "To optimize file loading.",
+    "Answer": "To include a file only if it hasn't been included before."
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you connect to a MySQL database in PHP using the MySQLi extension?",
+    "Option1": "$conn = new PDO(...);",
+    "Option2": "$conn = mysqli_connect(...);",
+    "Option3": "$conn = mysql_connect(...);",
+    "Option4": "$conn = db_connect(...);",
+    "Answer": "$conn = mysqli_connect(...);"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What does `PDO` stand for in PHP?",
+    "Option1": "PHP Data Objects",
+    "Option2": "Process Database Operations",
+    "Option3": "Persistent Data Object",
+    "Option4": "Programmed Data Output",
+    "Answer": "PHP Data Objects"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the main advantage of using PDO over MySQLi for database interactions?",
+    "Option1": "PDO is faster.",
+    "Option2": "PDO supports multiple databases, provides a consistent API, and offers better security features like prepared statements.",
+    "Option3": "MySQLi is deprecated.",
+    "Option4": "PDO uses less memory.",
+    "Answer": "PDO supports multiple databases, provides a consistent API, and offers better security features like prepared statements."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `SQL Injection`?",
+    "Option1": "Inserting JavaScript into a webpage.",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.",
+    "Option3": "Injecting HTML code into a database.",
+    "Option4": "A method for encrypting database queries.",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How can you prevent SQL Injection in PHP?",
+    "Option1": "By using client-side validation only.",
+    "Option2": "By using prepared statements with PDO or MySQLi.",
+    "Option3": "By encrypting all database fields.",
+    "Option4": "By limiting the length of user input.",
+    "Answer": "By using prepared statements with PDO or MySQLi."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is `Cross-Site Scripting (XSS)`?",
+    "Option1": "An attack that targets servers.",
+    "Option2": "An attack where malicious scripts are injected into otherwise benign and trusted websites.",
+    "Option3": "An attack that modifies database schema.",
+    "Option4": "An attack that slows down network traffic.",
+    "Answer": "An attack where malicious scripts are injected into otherwise benign and trusted websites."
+  },
+  {
+    "question_no.": 35,
+    "Question": "How can you prevent XSS attacks in PHP?",
+    "Option1": "By validating user input on the client-side.",
+    "Option2": "By sanitizing and escaping all user-generated output before displaying it in HTML, typically using `htmlspecialchars()`.",
+    "Option3": "By using strong passwords.",
+    "Option4": "By disabling cookies.",
+    "Answer": "By sanitizing and escaping all user-generated output before displaying it in HTML, typically using `htmlspecialchars()`."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `Cross-Site Request Forgery (CSRF)`?",
+    "Option1": "An attack that targets database connections.",
+    "Option2": "An attack where an attacker tricks a victim into submitting a malicious request to a web application they're authenticated to.",
+    "Option3": "An attack that steals user credentials.",
+    "Option4": "An attack that floods the server with requests.",
+    "Answer": "An attack where an attacker tricks a victim into submitting a malicious request to a web application they're authenticated to."
+  },
+  {
+    "question_no.": 37,
+    "Question": "How can you prevent CSRF attacks in PHP?",
+    "Option1": "By always using GET requests.",
+    "Option2": "By implementing anti-CSRF tokens in forms, checking `Referer` headers, or using SameSite cookies.",
+    "Option3": "By encrypting all communication.",
+    "Option4": "By limiting session duration.",
+    "Answer": "By implementing anti-CSRF tokens in forms, checking `Referer` headers, or using SameSite cookies."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `Magic Quotes` in PHP?",
+    "Option1": "A feature for automatic string escaping, now deprecated.",
+    "Option2": "A function for string encryption.",
+    "Option3": "A special type of string literal.",
+    "Option4": "A tool for code generation.",
+    "Answer": "A feature for automatic string escaping, now deprecated."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Is `Magic Quotes` still recommended for security in modern PHP?",
+    "Option1": "Yes, it's highly secure.",
+    "Option2": "No, it's deprecated and should not be relied upon; manual escaping/prepared statements are required.",
+    "Option3": "Only for small projects.",
+    "Option4": "Only if used with specific frameworks.",
+    "Answer": "No, it's deprecated and should not be relied upon; manual escaping/prepared statements are required."
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you handle file uploads in PHP?",
+    "Option1": "Using `$_FILES` superglobal.",
+    "Option2": "Using `$_POST` with specific file types.",
+    "Option3": "Using `$_GET` and converting file data.",
+    "Option4": "PHP does not support file uploads directly.",
+    "Answer": "Using `$_FILES` superglobal."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `__construct()` in PHP?",
+    "Option1": "A function called before an object is destroyed.",
+    "Option2": "A magic method that is automatically called when a new object is created.",
+    "Option3": "A function used to build HTML elements.",
+    "Option4": "A method for defining constants.",
+    "Answer": "A magic method that is automatically called when a new object is created."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is `__destruct()` in PHP?",
+    "Option1": "A magic method called when a new object is created.",
+    "Option2": "A magic method that is automatically called when an object is destroyed or goes out of scope.",
+    "Option3": "A function for database destruction.",
+    "Option4": "A method for defining class properties.",
+    "Answer": "A magic method that is automatically called when an object is destroyed or goes out of scope."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you define a class in PHP?",
+    "Option1": "object MyClass {}",
+    "Option2": "class MyClass {}",
+    "Option3": "function MyClass() {}",
+    "Option4": "new MyClass {}",
+    "Answer": "class MyClass {}"
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you create an object of a class `MyClass` in PHP?",
+    "Option1": "$obj = MyClass;",
+    "Option2": "$obj = new MyClass();",
+    "Option3": "$obj = create MyClass;",
+    "Option4": "$obj = (MyClass);",
+    "Answer": "$obj = new MyClass();"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `public`, `protected`, and `private` in PHP classes?",
+    "Option1": "Keywords for variable types.",
+    "Option2": "Access modifiers that control the visibility of properties and methods.",
+    "Option3": "Data encryption levels.",
+    "Option4": "Keywords for defining constants.",
+    "Answer": "Access modifiers that control the visibility of properties and methods."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What does `public` access modifier mean?",
+    "Option1": "Accessible only within the class.",
+    "Option2": "Accessible only within the class and by its children.",
+    "Option3": "Accessible from anywhere.",
+    "Option4": "Accessible only by static methods.",
+    "Answer": "Accessible from anywhere."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What does `protected` access modifier mean?",
+    "Option1": "Accessible only within the class.",
+    "Option2": "Accessible within the class and by its children (subclasses).",
+    "Option3": "Accessible from anywhere.",
+    "Option4": "Accessible only by other objects of the same class.",
+    "Answer": "Accessible within the class and by its children (subclasses)."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What does `private` access modifier mean?",
+    "Option1": "Accessible within the class and by its children.",
+    "Option2": "Accessible from anywhere.",
+    "Option3": "Accessible only within the class where it's defined.",
+    "Option4": "Accessible only by static methods.",
+    "Answer": "Accessible only within the class where it's defined."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is `static` keyword used for in PHP classes?",
+    "Option1": "To create constant properties.",
+    "Option2": "To define properties or methods that belong to the class itself, rather than to any specific object instance.",
+    "Option3": "To prevent method overriding.",
+    "Option4": "To make properties read-only.",
+    "Answer": "To define properties or methods that belong to the class itself, rather than to any specific object instance."
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you access a `static` property `count` of a class `MyClass`?",
+    "Option1": "$obj->count",
+    "Option2": "MyClass::count",
+    "Option3": "MyClass->count",
+    "Option4": "$MyClass.count",
+    "Answer": "MyClass::count"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `abstract class` in PHP?",
+    "Option1": "A class that cannot have any methods.",
+    "Option2": "A class that cannot be instantiated on its own and must be extended by another class.",
+    "Option3": "A class with all private members.",
+    "Option4": "A class that can only be extended by abstract classes.",
+    "Answer": "A class that cannot be instantiated on its own and must be extended by another class."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Can an `abstract class` have concrete (non-abstract) methods?",
+    "Option1": "No, all methods must be abstract.",
+    "Option2": "Yes, it can have both abstract and concrete methods.",
+    "Option3": "Only if they are private.",
+    "Option4": "Only if they are static.",
+    "Answer": "Yes, it can have both abstract and concrete methods."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is an `interface` in PHP?",
+    "Option1": "A blueprint for a class, defining methods that a class must implement, without providing implementation details.",
+    "Option2": "A class that cannot be instantiated.",
+    "Option3": "A way to define constants.",
+    "Option4": "A graphical user interface component.",
+    "Answer": "A blueprint for a class, defining methods that a class must implement, without providing implementation details."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Can an interface define properties?",
+    "Option1": "Yes, both properties and methods.",
+    "Option2": "No, only method signatures.",
+    "Option3": "Only public properties.",
+    "Option4": "Only static properties.",
+    "Answer": "No, only method signatures."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What keyword is used to implement an interface in PHP?",
+    "Option1": "extends",
+    "Option2": "uses",
+    "Option3": "implements",
+    "Option4": "inherits",
+    "Answer": "implements"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `trait` in PHP?",
+    "Option1": "A type of interface.",
+    "Option2": "A mechanism for code reuse in single inheritance languages like PHP, allowing horizontal composition of behaviors.",
+    "Option3": "A specialized class for data storage.",
+    "Option4": "A feature for defining global functions.",
+    "Answer": "A mechanism for code reuse in single inheritance languages like PHP, allowing horizontal composition of behaviors."
+  },
+  {
+    "question_no.": 57,
+    "Question": "When would you use a `trait` instead of an `abstract class` or `interface`?",
+    "Option1": "When you need to define shared properties and method implementations across unrelated classes.",
+    "Option2": "When you need to define a contract for classes to implement.",
+    "Option3": "When you want to prevent direct instantiation of a class.",
+    "Option4": "When you want to define a class hierarchy.",
+    "Answer": "When you need to define shared properties and method implementations across unrelated classes."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `autoloading` in PHP?",
+    "Option1": "Automatically loading external JavaScript files.",
+    "Option2": "Automatically loading PHP classes and interfaces when they are first used, rather than explicitly including them.",
+    "Option3": "Automatically refreshing the webpage.",
+    "Option4": "Automatically connecting to a database.",
+    "Answer": "Automatically loading PHP classes and interfaces when they are first used, rather than explicitly including them."
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which function is commonly used for autoloading in PHP?",
+    "Option1": "auto_load_class()",
+    "Option2": "spl_autoload_register()",
+    "Option3": "class_loader()",
+    "Option4": "require_class()",
+    "Answer": "spl_autoload_register()"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `Composer` in PHP?",
+    "Option1": "A PHP framework.",
+    "Option2": "A dependency management tool for PHP, used to declare and manage libraries your project depends on.",
+    "Option3": "A database client.",
+    "Option4": "A code editor.",
+    "Answer": "A dependency management tool for PHP, used to declare and manage libraries your project depends on."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `PSR` (PHP Standard Recommendation)?",
+    "Option1": "A set of guidelines for writing secure PHP code.",
+    "Option2": "A set of recommendations for PHP coding style, autoloading, interfaces, and more, created by the PHP Framework Interoperability Group (PHP-FIG).",
+    "Option3": "A standard for PHP database connections.",
+    "Option4": "A protocol for PHP server communication.",
+    "Answer": "A set of recommendations for PHP coding style, autoloading, interfaces, and more, created by the PHP Framework Interoperability Group (PHP-FIG)."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which PSR deals with basic coding style (e.g., indentation, line endings)?",
+    "Option1": "PSR-0",
+    "Option2": "PSR-1",
+    "Option3": "PSR-2",
+    "Option4": "PSR-4",
+    "Answer": "PSR-1"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which PSR deals with autoloading standard?",
+    "Option1": "PSR-0 (deprecated) and PSR-4",
+    "Option2": "PSR-1",
+    "Option3": "PSR-7",
+    "Option4": "PSR-12",
+    "Answer": "PSR-0 (deprecated) and PSR-4"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `Laravel`?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A popular open-source PHP web framework, known for its elegant syntax and developer-friendly features.",
+    "Option3": "A database management system.",
+    "Option4": "A content management system.",
+    "Answer": "A popular open-source PHP web framework, known for its elegant syntax and developer-friendly features."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `Symfony`?",
+    "Option1": "A CSS framework.",
+    "Option2": "A set of reusable PHP components and a web application framework, known for its flexibility and extensibility.",
+    "Option3": "A mobile development platform.",
+    "Option4": "A testing library.",
+    "Answer": "A set of reusable PHP components and a web application framework, known for its flexibility and extensibility."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `CodeIgniter`?",
+    "Option1": "A front-end library.",
+    "Option2": "A powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications.",
+    "Option3": "A database tool.",
+    "Option4": "A server environment.",
+    "Answer": "A powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit to create full-featured web applications."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `Zend Framework` (now Laminas Project)?",
+    "Option1": "A templating engine.",
+    "Option2": "An open-source, object-oriented web application framework for PHP, providing a collection of professional PHP packages.",
+    "Option3": "A JavaScript library.",
+    "Option4": "A content management system.",
+    "Answer": "An open-source, object-oriented web application framework for PHP, providing a collection of professional PHP packages."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `Yii`?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A high-performance, component-based PHP framework for rapidly developing large-scale Web applications.",
+    "Option3": "A database system.",
+    "Option4": "A design pattern.",
+    "Answer": "A high-performance, component-based PHP framework for rapidly developing large-scale Web applications."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is `MVC` (Model-View-Controller) architecture in PHP frameworks?",
+    "Option1": "A design pattern for database interaction.",
+    "Option2": "An architectural pattern that separates an application into three main logical components: the Model (data), the View (UI), and the Controller (logic).",
+    "Option3": "A method for caching data.",
+    "Option4": "A security standard.",
+    "Answer": "An architectural pattern that separates an application into three main logical components: the Model (data), the View (UI), and the Controller (logic)."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the `Model` responsible for in MVC?",
+    "Option1": "Presenting data to the user.",
+    "Option2": "Handling data logic, business rules, and interacting with the database.",
+    "Option3": "Handling user input.",
+    "Option4": "Routing requests.",
+    "Answer": "Handling data logic, business rules, and interacting with the database."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the `View` responsible for in MVC?",
+    "Option1": "Handling business logic.",
+    "Option2": "Presenting data to the user, typically HTML output.",
+    "Option3": "Handling user input.",
+    "Option4": "Interacting with the database.",
+    "Answer": "Presenting data to the user, typically HTML output."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the `Controller` responsible for in MVC?",
+    "Option1": "Storing data.",
+    "Option2": "Handling user input, processing requests, and coordinating between the Model and View.",
+    "Option3": "Displaying output.",
+    "Option4": "Managing sessions.",
+    "Answer": "Handling user input, processing requests, and coordinating between the Model and View."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `OOP` (Object-Oriented Programming) in PHP?",
+    "Option1": "A procedural programming paradigm.",
+    "Option2": "A programming paradigm based on the concept of 'objects', which can contain data and code.",
+    "Option3": "A functional programming approach.",
+    "Option4": "A way to write faster code.",
+    "Answer": "A programming paradigm based on the concept of 'objects', which can contain data and code."
+  },
+  {
+    "question_no.": 74,
+    "Question": "Name the four main pillars of OOP.",
+    "Option1": "Variables, Functions, Loops, Conditionals",
+    "Option2": "Abstraction, Encapsulation, Inheritance, Polymorphism",
+    "Option3": "Classes, Objects, Methods, Properties",
+    "Option4": "Input, Process, Output, Storage",
+    "Answer": "Abstraction, Encapsulation, Inheritance, Polymorphism"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `Encapsulation` in OOP?",
+    "Option1": "Allowing objects to take on multiple forms.",
+    "Option2": "Bundling data (properties) and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components.",
+    "Option3": "Creating hierarchical relationships between classes.",
+    "Option4": "Hiding implementation details.",
+    "Answer": "Bundling data (properties) and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `Inheritance` in OOP?",
+    "Option1": "Allowing an object to have multiple behaviors.",
+    "Option2": "A mechanism where a new class (subclass/child class) is derived from an existing class (superclass/parent class), inheriting its properties and methods.",
+    "Option3": "Hiding internal implementation details.",
+    "Option4": "Defining common interfaces.",
+    "Answer": "A mechanism where a new class (subclass/child class) is derived from an existing class (superclass/parent class), inheriting its properties and methods."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `Polymorphism` in OOP?",
+    "Option1": "The ability to define multiple classes.",
+    "Option2": "The ability of objects of different classes to be treated as objects of a common type, or the ability of a method to take on multiple forms.",
+    "Option3": "The process of creating new objects.",
+    "Option4": "The concept of hiding data.",
+    "Answer": "The ability of objects of different classes to be treated as objects of a common type, or the ability of a method to take on multiple forms."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `Abstraction` in OOP?",
+    "Option1": "Showing all details of an object.",
+    "Option2": "Hiding the complex implementation details and showing only the essential features of an object.",
+    "Option3": "The process of storing data.",
+    "Option4": "The ability to modify code at runtime.",
+    "Answer": "Hiding the complex implementation details and showing only the essential features of an object."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `final` keyword used for in PHP?",
+    "Option1": "To define constants.",
+    "Option2": "To prevent a class from being inherited or a method from being overridden.",
+    "Option3": "To declare variables that cannot be changed.",
+    "Option4": "To mark a class as complete.",
+    "Answer": "To prevent a class from being inherited or a method from being overridden."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `namespace` in PHP?",
+    "Option1": "A way to define global variables.",
+    "Option2": "A way of encapsulating items to prevent naming collisions between classes, functions, or constants from different libraries or applications.",
+    "Option3": "A method for defining environment variables.",
+    "Option4": "A security feature to restrict access.",
+    "Answer": "A way of encapsulating items to prevent naming collisions between classes, functions, or constants from different libraries or applications."
+  },
+  {
+    "question_no.": 81,
+    "Question": "How do you declare a namespace in PHP?",
+    "Option1": "using MyNamespace;",
+    "Option2": "namespace MyNamespace;",
+    "Option3": "import MyNamespace;",
+    "Option4": "define_namespace('MyNamespace');",
+    "Answer": "namespace MyNamespace;"
+  },
+  {
+    "question_no.": 82,
+    "Question": "How do you import a class from a namespace in PHP?",
+    "Option1": "include 'MyClass';",
+    "Option2": "require 'MyClass';",
+    "Option3": "use MyNamespace\\MyClass;",
+    "Option4": "load MyNamespace\\MyClass;",
+    "Answer": "use MyNamespace\\MyClass;"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `trait conflict resolution` in PHP?",
+    "Option1": "Handling errors when traits are used.",
+    "Option2": "Mechanisms to resolve naming collisions when multiple traits used by a class define methods or properties with the same name.",
+    "Option3": "A way to define new traits.",
+    "Option4": "Preventing traits from being extended.",
+    "Answer": "Mechanisms to resolve naming collisions when multiple traits used by a class define methods or properties with the same name."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `Type Hinting` (or Type Declarations) in PHP?",
+    "Option1": "Suggesting variable types in comments.",
+    "Option2": "Specifying the expected data type for function arguments, return values, and class properties to improve code readability and catch errors early.",
+    "Option3": "A feature for automatic type conversion.",
+    "Option4": "A way to dynamically change variable types.",
+    "Answer": "Specifying the expected data type for function arguments, return values, and class properties to improve code readability and catch errors early."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `Strict Types` in PHP?",
+    "Option1": "A mode where PHP implicitly converts data types.",
+    "Option2": "A mode enabled with `declare(strict_types=1);` that enforces strict type checking for scalar type declarations, preventing implicit type coercion.",
+    "Option3": "A feature that makes all variables constants.",
+    "Option4": "A way to disable type declarations.",
+    "Answer": "A mode enabled with `declare(strict_types=1);` that enforces strict type checking for scalar type declarations, preventing implicit type coercion."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `Generators` in PHP?",
+    "Option1": "Functions that generate random numbers.",
+    "Option2": "Functions that return traversable objects and allow writing iterable code that can be paused and resumed, yielding values on demand without creating arrays in memory.",
+    "Option3": "Functions that create new classes.",
+    "Option4": "Functions that handle database connections.",
+    "Answer": "Functions that return traversable objects and allow writing iterable code that can be paused and resumed, yielding values on demand without creating arrays in memory."
+  },
+  {
+    "question_no.": 87,
+    "Question": "When would you use `Generators`?",
+    "Option1": "For simple calculations.",
+    "Option2": "When working with large datasets or infinite sequences to save memory, as they yield values one by one rather than building a full array.",
+    "Option3": "For quick database queries.",
+    "Option4": "For user input validation.",
+    "Answer": "When working with large datasets or infinite sequences to save memory, as they yield values one by one rather than building a full array."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `Closures` (Anonymous Functions) in PHP?",
+    "Option1": "Functions without a return value.",
+    "Option2": "Functions that can be created without a specified name and can be assigned to a variable or passed as arguments to other functions, often with access to variables from their parent scope.",
+    "Option3": "Functions that are only used for security.",
+    "Option4": "Functions that automatically close resources.",
+    "Answer": "Functions that can be created without a specified name and can be assigned to a variable or passed as arguments to other functions, often with access to variables from their parent scope."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the `use` keyword used for in `Closures`?",
+    "Option1": "To define global variables.",
+    "Option2": "To import variables from the parent scope into the closure's scope.",
+    "Option3": "To declare a new variable.",
+    "Option4": "To specify the return type of the closure.",
+    "Answer": "To import variables from the parent scope into the closure's scope."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `Variadic Functions` in PHP?",
+    "Option1": "Functions that take no arguments.",
+    "Option2": "Functions that accept a variable number of arguments, typically using the `...` (splat) operator.",
+    "Option3": "Functions that return multiple values.",
+    "Option4": "Functions that can only be called once.",
+    "Answer": "Functions that accept a variable number of arguments, typically using the `...` (splat) operator."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Array Destructuring` in PHP?",
+    "Option1": "Breaking an array into individual elements.",
+    "Option2": "A feature that allows you to extract values from arrays into distinct variables using a concise syntax.",
+    "Option3": "A way to sort arrays.",
+    "Option4": "A method to convert an array to a string.",
+    "Answer": "A feature that allows you to extract values from arrays into distinct variables using a concise syntax."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the `null coalescing operator` (`??`) in PHP?",
+    "Option1": "An operator for comparing two values.",
+    "Option2": "An operator that returns its first operand if it exists and is not `null`; otherwise, it returns its second operand.",
+    "Option3": "An operator for type casting.",
+    "Option4": "An operator for logical AND.",
+    "Answer": "An operator that returns its first operand if it exists and is not `null`; otherwise, it returns its second operand."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the `spaceship operator` (`<=>`) in PHP?",
+    "Option1": "An operator for assigning values.",
+    "Option2": "A combined comparison operator that returns 0 if operands are equal, 1 if the left is greater, and -1 if the right is greater.",
+    "Option3": "An operator for string concatenation.",
+    "Option4": "An operator for logical OR.",
+    "Answer": "A combined comparison operator that returns 0 if operands are equal, 1 if the left is greater, and -1 if the right is greater."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `anonymous classes` in PHP?",
+    "Option1": "Classes without methods.",
+    "Option2": "Classes that can be instantiated without being given a name, often used for one-off objects.",
+    "Option3": "Classes that can only be accessed internally.",
+    "Option4": "Classes that are automatically generated.",
+    "Answer": "Classes that can be instantiated without being given a name, often used for one-off objects."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `error reporting` in PHP?",
+    "Option1": "A feature for sending error emails.",
+    "Option2": "The mechanism by which PHP reports errors, warnings, and notices, configurable via `error_reporting()` and `display_errors`.",
+    "Option3": "A tool for debugging JavaScript.",
+    "Option4": "A method for logging user activity.",
+    "Answer": "The mechanism by which PHP reports errors, warnings, and notices, configurable via `error_reporting()` and `display_errors`."
+  },
+  {
+    "question_no.": 96,
+    "Question": "How do you enable all error reporting in PHP for development?",
+    "Option1": "error_reporting(0);",
+    "Option2": "error_reporting(E_ALL);",
+    "Option3": "display_errors = Off;",
+    "Option4": "ini_set('display_errors', 0);",
+    "Answer": "error_reporting(E_ALL);"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Should `display_errors` be `On` in a production environment?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it should be `Off` to prevent sensitive information from being exposed to users.",
+    "Option3": "Only for critical errors.",
+    "Option4": "Only for administrators.",
+    "Answer": "No, it should be `Off` to prevent sensitive information from being exposed to users."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `try...catch` block used for in PHP?",
+    "Option1": "For looping through arrays.",
+    "Option2": "For handling exceptions (runtime errors) in a structured way.",
+    "Option3": "For defining conditional statements.",
+    "Option4": "For creating new functions.",
+    "Answer": "For handling exceptions (runtime errors) in a structured way."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `finally` block in `try...catch...finally`?",
+    "Option1": "It executes only if an exception occurs.",
+    "Option2": "It executes only if no exception occurs.",
+    "Option3": "It always executes, regardless of whether an exception was caught or not.",
+    "Option4": "It's optional and rarely used.",
+    "Answer": "It always executes, regardless of whether an exception was caught or not."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `error_log()` function used for?",
+    "Option1": "To display errors on the screen.",
+    "Option2": "To send an error message to the web server's error log or a specified file.",
+    "Option3": "To send an error message via email.",
+    "Option4": "To clear the error log.",
+    "Answer": "To send an error message to the web server's error log or a specified file."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the `php.ini` file?",
+    "Option1": "A file for configuring Apache.",
+    "Option2": "The main configuration file for PHP, controlling various aspects of PHP's behavior.",
+    "Option3": "A file for storing database credentials.",
+    "Option4": "A file for defining custom functions.",
+    "Answer": "The main configuration file for PHP, controlling various aspects of PHP's behavior."
+  },
+  {
+    "question_no.": 102,
+    "Question": "How do you temporarily change a `php.ini` setting within a PHP script?",
+    "Option1": "set_ini('setting', 'value');",
+    "Option2": "ini_set('setting', 'value');",
+    "Option3": "config_set('setting', 'value');",
+    "Option4": "php_config('setting', 'value');",
+    "Answer": "ini_set('setting', 'value');"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `CGI` (Common Gateway Interface) in relation to PHP?",
+    "Option1": "A database connection protocol.",
+    "Option2": "An old standard for web servers to execute external programs (like PHP scripts) and pass user requests to them.",
+    "Option3": "A PHP templating engine.",
+    "Option4": "A type of server hardware.",
+    "Answer": "An old standard for web servers to execute external programs (like PHP scripts) and pass user requests to them."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `FastCGI` in relation to PHP?",
+    "Option1": "A faster version of CGI that keeps the PHP interpreter resident in memory, improving performance.",
+    "Option2": "A method for secure communication.",
+    "Option3": "A new PHP language feature.",
+    "Option4": "A protocol for real-time applications.",
+    "Answer": "A faster version of CGI that keeps the PHP interpreter resident in memory, improving performance."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `FPM` (FastCGI Process Manager)?",
+    "Option1": "A PHP debugging tool.",
+    "Option2": "An alternative PHP FastCGI implementation with some additional features useful for heavily loaded sites.",
+    "Option3": "A PHP package manager.",
+    "Option4": "A PHP testing framework.",
+    "Answer": "An alternative PHP FastCGI implementation with some additional features useful for heavily loaded sites."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `APCu` (Alternative PHP Cache) used for?",
+    "Option1": "Storing database results permanently.",
+    "Option2": "Caching PHP opcode and data in shared memory to improve performance for subsequent requests.",
+    "Option3": "Caching CSS and JavaScript files.",
+    "Option4": "Caching user session data.",
+    "Answer": "Caching PHP opcode and data in shared memory to improve performance for subsequent requests."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `Opcache` in PHP?",
+    "Option1": "A deprecated caching mechanism.",
+    "Option2": "A built-in opcode cache that improves PHP performance by storing precompiled script bytecode in shared memory, avoiding re-parsing on each request.",
+    "Option3": "A type of database cache.",
+    "Option4": "A cache for HTTP requests.",
+    "Answer": "A built-in opcode cache that improves PHP performance by storing precompiled script bytecode in shared memory, avoiding re-parsing on each request."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How does `Opcache` improve PHP performance?",
+    "Option1": "By reducing network latency.",
+    "Option2": "By eliminating the need to re-parse and re-compile PHP scripts on every request.",
+    "Option3": "By compressing output.",
+    "Option4": "By optimizing database queries.",
+    "Answer": "By eliminating the need to re-parse and re-compile PHP scripts on every request."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `Xdebug` used for in PHP?",
+    "Option1": "A PHP framework.",
+    "Option2": "A debugging and profiling tool for PHP, providing features like step debugging, stack traces, and code coverage analysis.",
+    "Option3": "A database client.",
+    "Option4": "A PHP compiler.",
+    "Answer": "A debugging and profiling tool for PHP, providing features like step debugging, stack traces, and code coverage analysis."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `PHPUnit`?",
+    "Option1": "A PHP code formatter.",
+    "Option2": "A programmer-oriented testing framework for PHP, used for unit testing.",
+    "Option3": "A PHP package manager.",
+    "Option4": "A PHP debugging tool.",
+    "Answer": "A programmer-oriented testing framework for PHP, used for unit testing."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `Unit Testing`?",
+    "Option1": "Testing the entire application functionality.",
+    "Option2": "Testing individual units or components of a software in isolation to ensure they function correctly.",
+    "Option3": "Testing database interactions.",
+    "Option4": "Testing user interfaces.",
+    "Answer": "Testing individual units or components of a software in isolation to ensure they function correctly."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `Integration Testing`?",
+    "Option1": "Testing individual components.",
+    "Option2": "Testing how different modules or services interact with each other to ensure they work together as expected.",
+    "Option3": "Testing the deployment process.",
+    "Option4": "Testing the user interface.",
+    "Answer": "Testing how different modules or services interact with each other to ensure they work together as expected."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `Refactoring` in programming?",
+    "Option1": "Rewriting code from scratch.",
+    "Option2": "Restructuring existing computer code without changing its external behavior, to improve readability, maintainability, or reduce complexity.",
+    "Option3": "Adding new features to an application.",
+    "Option4": "Debugging code.",
+    "Answer": "Restructuring existing computer code without changing its external behavior, to improve readability, maintainability, or reduce complexity."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What are `Design Patterns` in PHP?",
+    "Option1": "Pre-defined code templates for user interfaces.",
+    "Option2": "Reusable solutions to common problems in software design, offering a blueprint for how to solve specific problems.",
+    "Option3": "Specific algorithms for encryption.",
+    "Option4": "A way to organize files in a project.",
+    "Answer": "Reusable solutions to common problems in software design, offering a blueprint for how to solve specific problems."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Name a common design pattern used in PHP frameworks.",
+    "Option1": "Singleton, Factory, Observer, MVC",
+    "Option2": "Bubble Sort",
+    "Option3": "Binary Search",
+    "Option4": "Quick Sort",
+    "Answer": "Singleton, Factory, Observer, MVC"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the `Singleton` design pattern?",
+    "Option1": "A pattern that ensures a class has only one instance and provides a global point of access to it.",
+    "Option2": "A pattern for creating multiple instances of a class.",
+    "Option3": "A pattern for connecting to a single database.",
+    "Option4": "A pattern for handling single-threaded applications.",
+    "Answer": "A pattern that ensures a class has only one instance and provides a global point of access to it."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the `Factory` design pattern?",
+    "Option1": "A pattern for building user interfaces.",
+    "Option2": "A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created.",
+    "Option3": "A pattern for managing database connections.",
+    "Option4": "A pattern for handling errors.",
+    "Answer": "A creational pattern that provides an interface for creating objects in a superclass, but allows subclasses to alter the type of objects that will be created."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the `Observer` design pattern?",
+    "Option1": "A pattern for observing user behavior.",
+    "Option2": "A behavioral pattern where an object (subject) maintains a list of its dependents (observers) and notifies them of any state changes.",
+    "Option3": "A pattern for monitoring server performance.",
+    "Option4": "A pattern for managing data streams.",
+    "Answer": "A behavioral pattern where an object (subject) maintains a list of its dependents (observers) and notifies them of any state changes."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `Dependency Injection` (DI)?",
+    "Option1": "A method for injecting malicious code.",
+    "Option2": "A software design pattern that implements inversion of control for resolving dependencies, where components receive their dependencies from an external source rather than creating them.",
+    "Option3": "A way to remove dependencies from a project.",
+    "Option4": "A technique for encrypting dependencies.",
+    "Answer": "A software design pattern that implements inversion of control for resolving dependencies, where components receive their dependencies from an external source rather than creating them."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the benefit of `Dependency Injection`?",
+    "Option1": "It makes code harder to test.",
+    "Option2": "It improves code reusability, testability, and maintainability by decoupling components.",
+    "Option3": "It reduces the number of classes in an application.",
+    "Option4": "It increases application performance.",
+    "Answer": "It improves code reusability, testability, and maintainability by decoupling components."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Composer's `vendor` directory?",
+    "Option1": "A directory for storing your custom PHP code.",
+    "Option2": "A directory where all project dependencies (libraries) managed by Composer are installed.",
+    "Option3": "A directory for temporary files.",
+    "Option4": "A directory for storing configuration files.",
+    "Answer": "A directory where all project dependencies (libraries) managed by Composer are installed."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the `composer.json` file?",
+    "Option1": "A file used for database configuration.",
+    "Option2": "The main configuration file for Composer, defining project metadata and its dependencies.",
+    "Option3": "A file for storing user data.",
+    "Option4": "A file for logging Composer operations.",
+    "Answer": "The main configuration file for Composer, defining project metadata and its dependencies."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the `composer.lock` file?",
+    "Option1": "A file that prevents Composer from installing packages.",
+    "Option2": "A file generated by Composer that records the exact versions of all installed dependencies, ensuring reproducible builds.",
+    "Option3": "A file for locking user sessions.",
+    "Option4": "A file for storing encrypted data.",
+    "Answer": "A file generated by Composer that records the exact versions of all installed dependencies, ensuring reproducible builds."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `PSR-7`?",
+    "Option1": "A standard for database connections.",
+    "Option2": "A standard for HTTP message interfaces, defining how HTTP requests and responses should be represented.",
+    "Option3": "A standard for logging.",
+    "Option4": "A standard for caching.",
+    "Answer": "A standard for HTTP message interfaces, defining how HTTP requests and responses should be represented."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `PSR-11`?",
+    "Option1": "A standard for dependency injection containers.",
+    "Option2": "A standard for HTTP server-side middleware.",
+    "Option3": "A standard for error handling.",
+    "Option4": "A standard for routing.",
+    "Answer": "A standard for dependency injection containers."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `PHP-FIG`?",
+    "Option1": "A PHP framework.",
+    "Option2": "The PHP Framework Interoperability Group, a group that created the PHP Standard Recommendations (PSRs).",
+    "Option3": "A PHP user group.",
+    "Option4": "A PHP consulting company.",
+    "Answer": "The PHP Framework Interoperability Group, a group that created the PHP Standard Recommendations (PSRs)."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `phpinfo()` function used for?",
+    "Option1": "To display PHP version information only.",
+    "Option2": "To output a large amount of information about the current state of PHP, including compilation options, extensions, server information, and more.",
+    "Option3": "To display errors.",
+    "Option4": "To get user input.",
+    "Answer": "To output a large amount of information about the current state of PHP, including compilation options, extensions, server information, and more."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Should `phpinfo()` be accessible in a production environment?",
+    "Option1": "Yes, it helps with debugging.",
+    "Option2": "No, it exposes too much sensitive server and PHP configuration information.",
+    "Option3": "Only if password protected.",
+    "Option4": "Only for internal APIs.",
+    "Answer": "No, it exposes too much sensitive server and PHP configuration information."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `superglobal` in PHP?",
+    "Option1": "A variable that can only be accessed within a function.",
+    "Option2": "Built-in variables that are always available in all scopes (e.g., `$_GET`, `$_POST`, `$_SESSION`).",
+    "Option3": "A variable that cannot be changed.",
+    "Option4": "A variable used for global settings.",
+    "Answer": "Built-in variables that are always available in all scopes (e.g., `$_GET`, `$_POST`, `$_SESSION`)."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Name at least three PHP superglobals.",
+    "Option1": "`$GLOBALS`, `$_SERVER`, `$_REQUEST`, `$_POST`, `$_GET`, `$_FILES`, `$_ENV`, `$_COOKIE`, `$_SESSION`",
+    "Option2": "`$var1`, `$var2`, `$var3`",
+    "Option3": "`$myArray`, `$myObject`, `$myFunction`",
+    "Option4": "`$_USER`, `$_PASS`, `$_DB`",
+    "Answer": "`$GLOBALS`, `$_SERVER`, `$_REQUEST`, `$_POST`, `$_GET`, `$_FILES`, `$_ENV`, `$_COOKIE`, `$_SESSION`"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `$_SERVER` superglobal used for?",
+    "Option1": "To retrieve user data.",
+    "Option2": "To hold information about the server and execution environment, as well as HTTP headers.",
+    "Option3": "To store session data.",
+    "Option4": "To manage file uploads.",
+    "Answer": "To hold information about the server and execution environment, as well as HTTP headers."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `json_encode()` and `json_decode()` used for?",
+    "Option1": "Encrypting and decrypting data.",
+    "Option2": "Converting PHP arrays/objects to JSON strings and vice-versa.",
+    "Option3": "Encoding and decoding URLs.",
+    "Option4": "Handling file compression.",
+    "Answer": "Converting PHP arrays/objects to JSON strings and vice-versa."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `date()` function used for?",
+    "Option1": "To perform mathematical calculations with dates.",
+    "Option2": "To format a local date and time.",
+    "Option3": "To get the current timestamp.",
+    "Option4": "To set the system date.",
+    "Answer": "To format a local date and time."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `time()` function used for?",
+    "Option1": "To get the current date.",
+    "Option2": "To return the current Unix timestamp.",
+    "Option3": "To set a timer.",
+    "Option4": "To format time strings.",
+    "Answer": "To return the current Unix timestamp."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `strtotime()` function used for?",
+    "Option1": "To format a date string.",
+    "Option2": "To parse an English textual datetime description into a Unix timestamp.",
+    "Option3": "To convert a string to a date object.",
+    "Option4": "To get the string representation of current time.",
+    "Answer": "To parse an English textual datetime description into a Unix timestamp."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `header()` function used for in PHP?",
+    "Option1": "To include header files.",
+    "Option2": "To send a raw HTTP header to the client browser (e.g., redirects, content type).",
+    "Option3": "To set the page title.",
+    "Option4": "To define HTML meta tags.",
+    "Answer": "To send a raw HTTP header to the client browser (e.g., redirects, content type)."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the `redirect` function used for in PHP?",
+    "Option1": "A built-in function to go to another page.",
+    "Option2": "It's not a built-in function, typically achieved using `header('Location: ...')`.",
+    "Option3": "To redirect to a specific error page.",
+    "Option4": "To redirect to an external website only.",
+    "Answer": "It's not a built-in function, typically achieved using `header('Location: ...')`."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Why is it important to call `exit()` after `header('Location: ...')` for redirects?",
+    "Option1": "To clear the browser cache.",
+    "Option2": "To prevent further script execution and potential unintended output or vulnerabilities after sending the redirect header.",
+    "Option3": "To ensure the redirect happens immediately.",
+    "Option4": "To log the redirect action.",
+    "Answer": "To prevent further script execution and potential unintended output or vulnerabilities after sending the redirect header."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `GET` vs `POST` in forms?",
+    "Option1": "`GET` is for large data, `POST` is for small data.",
+    "Option2": "`GET` appends data to the URL, `POST` sends data in the HTTP body (more secure for sensitive data).",
+    "Option3": "`GET` is for files, `POST` is for text.",
+    "Option4": "`GET` is for database reads, `POST` is for database writes.",
+    "Answer": "`GET` appends data to the URL, `POST` sends data in the HTTP body (more secure for sensitive data)."
+  },
+  {
+    "question_no.": 140,
+    "Question": "When should you use the `GET` method?",
+    "Option1": "For submitting sensitive data.",
+    "Option2": "For retrieving data where the request is idempotent and can be bookmarked (e.g., search queries, filtering).",
+    "Option3": "For file uploads.",
+    "Option4": "For creating new records in a database.",
+    "Answer": "For retrieving data where the request is idempotent and can be bookmarked (e.g., search queries, filtering)."
+  },
+  {
+    "question_no.": 141,
+    "Question": "When should you use the `POST` method?",
+    "Option1": "For retrieving data.",
+    "Option2": "For submitting data that causes a change on the server (e.g., creating a new record, updating data, file uploads), especially sensitive data.",
+    "Option3": "For simple page navigation.",
+    "Option4": "For displaying static content.",
+    "Answer": "For submitting data that causes a change on the server (e.g., creating a new record, updating data, file uploads), especially sensitive data."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `filter_var()` function used for?",
+    "Option1": "To sort arrays.",
+    "Option2": "To filter (validate/sanitize) data, often user input, against various criteria.",
+    "Option3": "To convert variable types.",
+    "Option4": "To check if a variable is set.",
+    "Answer": "To filter (validate/sanitize) data, often user input, against various criteria."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `Validation` versus `Sanitization` in PHP?",
+    "Option1": "They are the same.",
+    "Option2": "Validation ensures data meets specific criteria; Sanitization cleans data by removing or modifying harmful parts.",
+    "Option3": "Validation is for numbers, Sanitization is for strings.",
+    "Option4": "Validation happens on the client, Sanitization on the server.",
+    "Answer": "Validation ensures data meets specific criteria; Sanitization cleans data by removing or modifying harmful parts."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `empty()` function used for?",
+    "Option1": "To check if a variable is `null`.",
+    "Option2": "To check if a variable is considered empty (e.g., `false`, `0`, empty string, empty array, `null`).",
+    "Option3": "To clear the contents of a variable.",
+    "Option4": "To check if a variable is an empty object.",
+    "Answer": "To check if a variable is considered empty (e.g., `false`, `0`, empty string, empty array, `null`)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `isset()` function used for?",
+    "Option1": "To check if a variable has a value, including `null`.",
+    "Option2": "To check if a variable is declared and is not `null`.",
+    "Option3": "To check if a variable is empty.",
+    "Option4": "To check the type of a variable.",
+    "Answer": "To check if a variable is declared and is not `null`."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `spl_autoload_register()` used for (revisited)?",
+    "Option1": "To manually load a class.",
+    "Option2": "To register functions to be called when a class is referenced for the first time, simplifying class loading.",
+    "Option3": "To check if a class exists.",
+    "Option4": "To define a class.",
+    "Answer": "To register functions to be called when a class is referenced for the first time, simplifying class loading."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `Traits` (revisited)?",
+    "Option1": "A feature for defining global constants.",
+    "Option2": "A mechanism for code reuse that enables a class to use methods from other classes without needing to inherit from them.",
+    "Option3": "A type of abstract class.",
+    "Option4": "A way to define interfaces.",
+    "Answer": "A mechanism for code reuse that enables a class to use methods from other classes without needing to inherit from them."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `Type Coercion` in PHP?",
+    "Option1": "Strict type checking.",
+    "Option2": "The automatic conversion of a value from one data type to another by PHP when an operation requires it.",
+    "Option3": "Explicit type casting.",
+    "Option4": "A type of error.",
+    "Answer": "The automatic conversion of a value from one data type to another by PHP when an operation requires it."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `Fatal Error` in PHP?",
+    "Option1": "An error that can be recovered from.",
+    "Option2": "A critical error that causes the immediate termination of the script execution.",
+    "Option3": "A warning message.",
+    "Option4": "A notice that can be ignored.",
+    "Answer": "A critical error that causes the immediate termination of the script execution."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `Parse Error` (Syntax Error) in PHP?",
+    "Option1": "An error that occurs during script execution.",
+    "Option2": "An error caused by incorrect syntax in the PHP code, preventing the script from being parsed and executed.",
+    "Option3": "An error related to database connections.",
+    "Option4": "An error that occurs due to file permissions.",
+    "Answer": "An error caused by incorrect syntax in the PHP code, preventing the script from being parsed and executed."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `Warning` in PHP?",
+    "Option1": "An error that stops script execution.",
+    "Option2": "A non-fatal runtime error that typically indicates a problem but does not halt script execution (e.g., trying to include a missing file with `include`).",
+    "Option3": "A syntax error.",
+    "Option4": "A security vulnerability alert.",
+    "Answer": "A non-fatal runtime error that typically indicates a problem but does not halt script execution (e.g., trying to include a missing file with `include`)."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `Notice` in PHP?",
+    "Option1": "A critical error.",
+    "Option2": "A minor, non-critical error or runtime issue that typically indicates a problem that could lead to errors, but doesn't halt execution (e.g., using an undefined variable).",
+    "Option3": "A fatal error.",
+    "Option4": "A security warning.",
+    "Answer": "A minor, non-critical error or runtime issue that typically indicates a problem that could lead to errors, but doesn't halt execution (e.g., using an undefined variable)."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `error_get_last()` function used for?",
+    "Option1": "To retrieve all errors.",
+    "Option2": "To get information about the last error that occurred in the script.",
+    "Option3": "To clear the error log.",
+    "Option4": "To set custom error handlers.",
+    "Answer": "To get information about the last error that occurred in the script."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `set_error_handler()` function used for?",
+    "Option1": "To disable error reporting.",
+    "Option2": "To set a user-defined function to handle errors, overriding PHP's default error handler.",
+    "Option3": "To log errors to a file.",
+    "Option4": "To display errors on the screen.",
+    "Answer": "To set a user-defined function to handle errors, overriding PHP's default error handler."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `register_shutdown_function()`?",
+    "Option1": "A function that registers a callback to be executed when the script completes or is shut down.",
+    "Option2": "A function that shuts down the PHP server.",
+    "Option3": "A function for exiting the script immediately.",
+    "Option4": "A function for stopping background processes.",
+    "Answer": "A function that registers a callback to be executed when the script completes or is shut down."
+  },
+  {
+    "question_no.": 156,
+    "Question": "When would you use `register_shutdown_function()`?",
+    "Option1": "To handle user input.",
+    "Option2": "To perform cleanup tasks like closing database connections or logging final state, even if a fatal error occurred.",
+    "Option3": "To perform calculations.",
+    "Option4": "To send HTTP responses.",
+    "Answer": "To perform cleanup tasks like closing database connections or logging final state, even if a fatal error occurred."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `session_id()` used for?",
+    "Option1": "To generate a new session ID.",
+    "Option2": "To get or set the current session ID.",
+    "Option3": "To destroy a session.",
+    "Option4": "To check if a session is active.",
+    "Answer": "To get or set the current session ID."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `session_regenerate_id()` used for?",
+    "Option1": "To destroy the current session.",
+    "Option2": "To update the current session ID with a newly generated one, often used to prevent session fixation attacks.",
+    "Option3": "To create a new session.",
+    "Option4": "To retrieve a list of all active sessions.",
+    "Answer": "To update the current session ID with a newly generated one, often used to prevent session fixation attacks."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the `session.save_path` directive in `php.ini`?",
+    "Option1": "The path where session cookies are stored.",
+    "Option2": "The directory where session files are stored on the server.",
+    "Option3": "The path to the session configuration file.",
+    "Option4": "The path for saving uploaded files.",
+    "Answer": "The directory where session files are stored on the server."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `garbage collection` in PHP (for sessions)?",
+    "Option1": "Deleting old user accounts.",
+    "Option2": "The process of deleting old or expired session data files from the server's session save path.",
+    "Option3": "Cleaning up unused variables in memory.",
+    "Option4": "Removing old log files.",
+    "Answer": "The process of deleting old or expired session data files from the server's session save path."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `session.gc_maxlifetime` directive in `php.ini`?",
+    "Option1": "The maximum time a session cookie can live.",
+    "Option2": "The number of seconds after which a session file will be seen as 'garbage' and potentially cleaned up.",
+    "Option3": "The maximum duration a user can be logged in.",
+    "Option4": "The maximum size of a session file.",
+    "Answer": "The number of seconds after which a session file will be seen as 'garbage' and potentially cleaned up."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `HTTP Headers` in PHP?",
+    "Option1": "The HTML head section.",
+    "Option2": "Information sent by the web server to the client's browser (and vice-versa) before the actual content, specifying details like content type, cookies, and caching instructions.",
+    "Option3": "The title of the webpage.",
+    "Option4": "The first line of PHP code.",
+    "Answer": "Information sent by the web server to the client's browser (and vice-versa) before the actual content, specifying details like content type, cookies, and caching instructions."
+  },
+  {
+    "question_no.": 163,
+    "Question": "Why is it important to send `HTTP Headers` before any actual output in PHP?",
+    "Option1": "It makes the page load faster.",
+    "Option2": "Because once output is sent, PHP enters a 'headers already sent' state, and `header()` function calls will fail.",
+    "Option3": "It improves search engine optimization.",
+    "Option4": "It prevents security vulnerabilities.",
+    "Answer": "Because once output is sent, PHP enters a 'headers already sent' state, and `header()` function calls will fail."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `output buffering` in PHP?",
+    "Option1": "A way to force output to the browser immediately.",
+    "Option2": "A mechanism that stores output in a buffer before sending it to the browser, allowing you to modify headers or output later in the script.",
+    "Option3": "A method for compressing output.",
+    "Option4": "A technique for logging output.",
+    "Answer": "A mechanism that stores output in a buffer before sending it to the browser, allowing you to modify headers or output later in the script."
+  },
+  {
+    "question_no.": 165,
+    "Question": "How do you start `output buffering` in PHP?",
+    "Option1": "start_output();",
+    "Option2": "ob_start();",
+    "Option3": "buffer_on();",
+    "Option4": "echo_buffer();",
+    "Answer": "ob_start();"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `ob_get_contents()` used for?",
+    "Option1": "To clear the output buffer.",
+    "Option2": "To return the contents of the output buffer.",
+    "Option3": "To send the output buffer to the browser.",
+    "Option4": "To check the size of the output buffer.",
+    "Answer": "To return the contents of the output buffer."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `ob_end_clean()` used for?",
+    "Option1": "To send the output buffer to the browser and then clear it.",
+    "Option2": "To discard the contents of the output buffer and turn off output buffering.",
+    "Option3": "To clear the output buffer but keep buffering on.",
+    "Option4": "To retrieve and then clear the output buffer.",
+    "Answer": "To discard the contents of the output buffer and turn off output buffering."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `ob_end_flush()` used for?",
+    "Option1": "To discard the contents of the output buffer.",
+    "Option2": "To send the contents of the output buffer to the browser and turn off output buffering.",
+    "Option3": "To clear the output buffer but keep buffering on.",
+    "Option4": "To retrieve the output buffer contents.",
+    "Answer": "To send the contents of the output buffer to the browser and turn off output buffering."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `URL Rewriting` in PHP (via Apache/Nginx)?",
+    "Option1": "Changing the domain name of a website.",
+    "Option2": "Modifying the URL structure to create cleaner, more user-friendly, and SEO-friendly URLs without changing the actual file paths on the server.",
+    "Option3": "Encrypting URLs for security.",
+    "Option4": "Generating dynamic URLs.",
+    "Answer": "Modifying the URL structure to create cleaner, more user-friendly, and SEO-friendly URLs without changing the actual file paths on the server."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which Apache module is typically used for URL rewriting?",
+    "Option1": "mod_headers",
+    "Option2": "mod_rewrite",
+    "Option3": "mod_alias",
+    "Option4": "mod_proxy",
+    "Answer": "mod_rewrite"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the purpose of `.htaccess` file?",
+    "Option1": "To store database credentials.",
+    "Option2": "To provide directory-level configuration overrides for web servers, commonly used for URL rewriting, access control, and redirects.",
+    "Option3": "To store PHP configuration.",
+    "Option4": "To manage server logs.",
+    "Answer": "To provide directory-level configuration overrides for web servers, commonly used for URL rewriting, access control, and redirects."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `PHP-FPM` used for (revisited)?",
+    "Option1": "Managing PHP libraries.",
+    "Option2": "A FastCGI Process Manager that improves performance by managing a pool of PHP processes to handle requests efficiently.",
+    "Option3": "A PHP debugger.",
+    "Option4": "A PHP templating engine.",
+    "Answer": "A FastCGI Process Manager that improves performance by managing a pool of PHP processes to handle requests efficiently."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `Composer Autoload`?",
+    "Option1": "A custom autoloading function.",
+    "Option2": "A PSR-4 compliant autoloader generated by Composer that automatically loads project classes and dependencies, eliminating the need for manual `require`/`include` statements.",
+    "Option3": "A feature for optimizing page loading.",
+    "Option4": "A tool for code generation.",
+    "Answer": "A PSR-4 compliant autoloader generated by Composer that automatically loads project classes and dependencies, eliminating the need for manual `require`/`include` statements."
+  },
+  {
+    "question_no.": 174,
+    "Question": "How do you update Composer dependencies?",
+    "Option1": "composer install",
+    "Option2": "composer update",
+    "Option3": "composer require",
+    "Option4": "composer refresh",
+    "Answer": "composer update"
+  },
+  {
+    "question_no.": 175,
+    "Question": "How do you install Composer dependencies for the first time or ensure exact versions?",
+    "Option1": "composer update",
+    "Option2": "composer require",
+    "Option3": "composer install",
+    "Option4": "composer init",
+    "Answer": "composer install"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `Composer dump-autoload` used for?",
+    "Option1": "To clear the Composer cache.",
+    "Option2": "To regenerate the autoloader files without re-downloading dependencies, useful after adding new classes or namespaces.",
+    "Option3": "To remove unused dependencies.",
+    "Option4": "To check for outdated packages.",
+    "Answer": "To regenerate the autoloader files without re-downloading dependencies, useful after adding new classes or namespaces."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `Dependency Inversion Principle` (DIP) from SOLID?",
+    "Option1": "High-level modules should depend on low-level modules.",
+    "Option2": "High-level modules should not depend on low-level modules. Both should depend on abstractions.",
+    "Option3": "Abstractions should depend on details.",
+    "Option4": "Details should depend on abstractions.",
+    "Answer": "High-level modules should not depend on low-level modules. Both should depend on abstractions."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `SOLID` principles in OOP?",
+    "Option1": "A set of design patterns.",
+    "Option2": "An acronym for five design principles intended to make software designs more understandable, flexible, and maintainable.",
+    "Option3": "A standard for database design.",
+    "Option4": "A method for writing secure code.",
+    "Answer": "An acronym for five design principles intended to make software designs more understandable, flexible, and maintainable."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What does 'S' stand for in SOLID?",
+    "Option1": "Security",
+    "Option2": "Single Responsibility Principle",
+    "Option3": "Scalability",
+    "Option4": "Simplicity",
+    "Answer": "Single Responsibility Principle"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What does 'O' stand for in SOLID?",
+    "Option1": "Object-Oriented",
+    "Option2": "Open/Closed Principle",
+    "Option3": "Optimization",
+    "Option4": "Organization",
+    "Answer": "Open/Closed Principle"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What does 'L' stand for in SOLID?",
+    "Option1": "Loose Coupling",
+    "Option2": "Liskov Substitution Principle",
+    "Option3": "Logging",
+    "Option4": "Laziness",
+    "Answer": "Liskov Substitution Principle"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What does 'I' stand for in SOLID?",
+    "Option1": "Inheritance",
+    "Option2": "Interface Segregation Principle",
+    "Option3": "Integration",
+    "Option4": "Idempotence",
+    "Answer": "Interface Segregation Principle"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What does 'D' stand for in SOLID?",
+    "Option1": "Database",
+    "Option2": "Dependency Inversion Principle",
+    "Option3": "Deployment",
+    "Option4": "Design",
+    "Answer": "Dependency Inversion Principle"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Reflection API` in PHP?",
+    "Option1": "A tool for debugging errors.",
+    "Option2": "A powerful feature that allows inspection of classes, interfaces, functions, methods, and extensions at runtime.",
+    "Option3": "A method for optimizing code.",
+    "Option4": "A way to encrypt data.",
+    "Answer": "A powerful feature that allows inspection of classes, interfaces, functions, methods, and extensions at runtime."
+  },
+  {
+    "question_no.": 185,
+    "Question": "When would you use `Reflection API`?",
+    "Option1": "For simple web page development.",
+    "Option2": "For frameworks, ORMs, dependency injection containers, or when building dynamic code generation tools.",
+    "Option3": "For basic arithmetic operations.",
+    "Option4": "For storing session data.",
+    "Answer": "For frameworks, ORMs, dependency injection containers, or when building dynamic code generation tools."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `PSR-12`?",
+    "Option1": "An old coding standard.",
+    "Option2": "The extended coding style guide that supersedes and expands upon PSR-2.",
+    "Option3": "A standard for HTTP clients.",
+    "Option4": "A standard for database connections.",
+    "Answer": "The extended coding style guide that supersedes and expands upon PSR-2."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Composer's `scripts` section?",
+    "Option1": "A section for defining custom PHP functions.",
+    "Option2": "A section in `composer.json` where you can define custom commands or hooks that run at various stages of Composer's workflow (e.g., `post-install-cmd`).",
+    "Option3": "A section for storing JavaScript code.",
+    "Option4": "A section for configuring web servers.",
+    "Answer": "A section in `composer.json` where you can define custom commands or hooks that run at various stages of Composer's workflow (e.g., `post-install-cmd`)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `CLI` (Command Line Interface) in PHP?",
+    "Option1": "A graphical user interface for PHP.",
+    "Option2": "Running PHP scripts directly from the command line, often used for background tasks, cron jobs, or development tools.",
+    "Option3": "A PHP framework for API development.",
+    "Option4": "A tool for connecting to databases.",
+    "Answer": "Running PHP scripts directly from the command line, often used for background tasks, cron jobs, or development tools."
+  },
+  {
+    "question_no.": 189,
+    "Question": "How do you run a PHP script from the command line?",
+    "Option1": "php run script.php",
+    "Option2": "php script.php",
+    "Option3": "execute script.php",
+    "Option4": "run-php script.php",
+    "Answer": "php script.php"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `PHP-CLI` primarily used for in modern PHP applications?",
+    "Option1": "Serving web pages directly.",
+    "Option2": "Running console commands for frameworks (e.g., artisan in Laravel), queue workers, and cron jobs.",
+    "Option3": "Generating HTML output for browsers.",
+    "Option4": "Handling real-time communication.",
+    "Answer": "Running console commands for frameworks (e.g., artisan in Laravel), queue workers, and cron jobs."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the `php -S` command used for?",
+    "Option1": "To install PHP extensions.",
+    "Option2": "To start a built-in PHP development server, useful for local development without Apache or Nginx.",
+    "Option3": "To check PHP syntax.",
+    "Option4": "To run a PHP script in a secure mode.",
+    "Answer": "To start a built-in PHP development server, useful for local development without Apache or Nginx."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `php.net`?",
+    "Option1": "A PHP hosting company.",
+    "Option2": "The official website for the PHP language, hosting documentation, downloads, and community resources.",
+    "Option3": "A PHP online compiler.",
+    "Option4": "A PHP social network.",
+    "Answer": "The official website for the PHP language, hosting documentation, downloads, and community resources."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `RFC` (Request for Comments) in the context of PHP?",
+    "Option1": "A request for user feedback on PHP applications.",
+    "Option2": "Proposals for new features or changes to the PHP language, which are then discussed and voted upon by the community.",
+    "Option3": "Comments in PHP code.",
+    "Option4": "A type of PHP documentation.",
+    "Answer": "Proposals for new features or changes to the PHP language, which are then discussed and voted upon by the community."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `Packagist.org`?",
+    "Option1": "A website for PHP news.",
+    "Option2": "The main Composer package repository for PHP, where most public PHP packages are listed.",
+    "Option3": "A PHP framework documentation site.",
+    "Option4": "A forum for PHP developers.",
+    "Answer": "The main Composer package repository for PHP, where most public PHP packages are listed."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the primary role of `php-fpm.conf`?",
+    "Option1": "To configure PHP extensions.",
+    "Option2": "To configure the behavior of the PHP FastCGI Process Manager, including pool settings, processes, and logging.",
+    "Option3": "To configure database connections for PHP-FPM.",
+    "Option4": "To define virtual hosts for web servers.",
+    "Answer": "To configure the behavior of the PHP FastCGI Process Manager, including pool settings, processes, and logging."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `OPcache` (revisited)?",
+    "Option1": "A cache for database queries.",
+    "Option2": "A PHP extension that improves performance by caching compiled PHP bytecode in shared memory.",
+    "Option3": "A cache for web server logs.",
+    "Option4": "A cache for user session data.",
+    "Answer": "A PHP extension that improves performance by caching compiled PHP bytecode in shared memory."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `php -l` (or `php --lint`) used for?",
+    "Option1": "To execute a PHP script.",
+    "Option2": "To perform a syntax check (lint) on a PHP file without executing it.",
+    "Option3": "To list all PHP extensions.",
+    "Option4": "To get PHP version information.",
+    "Answer": "To perform a syntax check (lint) on a PHP file without executing it."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `E_ALL` in `error_reporting()`?",
+    "Option1": "A constant that reports only fatal errors.",
+    "Option2": "A constant that reports all errors and warnings.",
+    "Option3": "A constant that reports only security vulnerabilities.",
+    "Option4": "A constant that disables error reporting.",
+    "Answer": "A constant that reports all errors and warnings."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `__DIR__` and `__FILE__` in PHP?",
+    "Option1": "Constants for current date and time.",
+    "Option2": "Magic constants representing the directory of the current file and the full path and filename of the current file, respectively.",
+    "Option3": "Constants for global variables.",
+    "Option4": "Functions for file system operations.",
+    "Answer": "Magic constants representing the directory of the current file and the full path and filename of the current file, respectively."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the purpose of `exit()` or `die()` in PHP?",
+    "Option1": "To terminate the script execution.",
+    "Option2": "To pause the script execution.",
+    "Option3": "To restart the script.",
+    "Option4": "To log a message and continue execution.",
+    "Answer": "To terminate the script execution."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the `mysqli_real_escape_string()` function used for?",
+    "Option1": "To escape special characters in a string for use in an HTML output.",
+    "Option2": "To escape special characters in a string for use in an SQL statement, preventing SQL injection.",
+    "Option3": "To escape characters for URL encoding.",
+    "Option4": "To remove all special characters from a string.",
+    "Answer": "To escape special characters in a string for use in an SQL statement, preventing SQL injection."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Is `mysqli_real_escape_string()` sufficient for preventing all SQL injection attacks?",
+    "Option1": "Yes, it's fully secure.",
+    "Option2": "No, prepared statements are generally safer and more recommended.",
+    "Option3": "Only for simple queries.",
+    "Option4": "It depends on the database system.",
+    "Answer": "No, prepared statements are generally safer and more recommended."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `Prepared Statements` in database interactions?",
+    "Option1": "Pre-written SQL queries without parameters.",
+    "Option2": "A feature used to execute the same or similar SQL statements repeatedly with high efficiency and security, by separating the SQL logic from the data.",
+    "Option3": "Statements that are cached by the database server.",
+    "Option4": "SQL statements that only retrieve data.",
+    "Answer": "A feature used to execute the same or similar SQL statements repeatedly with high efficiency and security, by separating the SQL logic from the data."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `Dependency Container` (or IoC Container) in PHP frameworks?",
+    "Option1": "A container for storing application data.",
+    "Option2": "A tool that automatically manages dependencies between classes, injecting them as needed, centralizing object creation and configuration.",
+    "Option3": "A container for holding database connections.",
+    "Option4": "A tool for code deployment.",
+    "Answer": "A tool that automatically manages dependencies between classes, injecting them as needed, centralizing object creation and configuration."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is the role of `php-cli.ini`?",
+    "Option1": "It's the same as `php.ini`.",
+    "Option2": "A specific `php.ini` configuration file used when PHP is run from the command line, allowing different settings for CLI scripts vs. web requests.",
+    "Option3": "A configuration for the PHP web server.",
+    "Option4": "A configuration for PHP-FPM.",
+    "Answer": "A specific `php.ini` configuration file used when PHP is run from the command line, allowing different settings for CLI scripts vs. web requests."
+  }
+]

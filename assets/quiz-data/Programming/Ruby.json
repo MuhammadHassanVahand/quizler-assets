@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of programming language is Ruby?",
+    "Option1": "Statically typed, compiled",
+    "Option2": "Dynamically typed, interpreted",
+    "Option3": "Statically typed, interpreted",
+    "Option4": "Dynamically typed, compiled",
+    "Answer": "Dynamically typed, interpreted"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who created Ruby?",
+    "Option1": "Brendan Eich",
+    "Option2": "Guido van Rossum",
+    "Option3": "Yukihiro 'Matz' Matsumoto",
+    "Option4": "James Gosling",
+    "Answer": "Yukihiro 'Matz' Matsumoto"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is Ruby on Rails?",
+    "Option1": "A Ruby gem for mathematical calculations",
+    "Option2": "A web application framework written in Ruby",
+    "Option3": "A database management system",
+    "Option4": "A mobile development platform",
+    "Answer": "A web application framework written in Ruby"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you print 'Hello, World!' in Ruby?",
+    "Option1": "console.log('Hello, World!')",
+    "Option2": "print('Hello, World!')",
+    "Option3": "System.out.println('Hello, World!')",
+    "Option4": "echo 'Hello, World!'",
+    "Answer": "print('Hello, World!')"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a 'gem' in Ruby?",
+    "Option1": "A type of variable",
+    "Option2": "A package manager for Ruby libraries and applications",
+    "Option3": "A built-in data structure",
+    "Option4": "A comment type",
+    "Answer": "A package manager for Ruby libraries and applications"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you define a method in Ruby?",
+    "Option1": "function my_method() { ... }",
+    "Option2": "def my_method; ... end",
+    "Option3": "void my_method() { ... }",
+    "Option4": "let my_method = () => { ... }",
+    "Answer": "def my_method; ... end"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the return value of a Ruby method if `return` is not explicitly used?",
+    "Option1": "nil",
+    "Option2": "The value of the last evaluated expression",
+    "Option3": "0",
+    "Option4": "true",
+    "Answer": "The value of the last evaluated expression"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you define a class in Ruby?",
+    "Option1": "class MyClass { ... }",
+    "Option2": "Class MyClass do ... end",
+    "Option3": "class MyClass; ... end",
+    "Option4": "def class MyClass; ... end",
+    "Answer": "class MyClass; ... end"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What does `self` refer to in Ruby?",
+    "Option1": "The global object",
+    "Option2": "The current instance of the class or object",
+    "Option3": "The parent class",
+    "Option4": "The current method being executed",
+    "Answer": "The current instance of the class or object"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is an 'instance variable' in Ruby?",
+    "Option1": "A variable declared within a method",
+    "Option2": "A variable that belongs to an instance of a class, prefixed with `@`",
+    "Option3": "A global variable",
+    "Option4": "A static variable",
+    "Answer": "A variable that belongs to an instance of a class, prefixed with `@`"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you define an 'initializer' (constructor) in a Ruby class?",
+    "Option1": "def constructor; ... end",
+    "Option2": "def new; ... end",
+    "Option3": "def initialize; ... end",
+    "Option4": "def create; ... end",
+    "Answer": "def initialize; ... end"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is a 'class method' in Ruby?",
+    "Option1": "A method defined within an instance of a class",
+    "Option2": "A method that operates on the class itself, not an instance, prefixed with `self.` or `ClassName.`",
+    "Option3": "A private method",
+    "Option4": "A method that returns a class",
+    "Answer": "A method that operates on the class itself, not an instance, prefixed with `self.` or `ClassName.`"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is 'inheritance' in Ruby?",
+    "Option1": "The ability of a method to return multiple values",
+    "Option2": "The mechanism by which one class acquires the properties and behaviors of another class",
+    "Option3": "A way to restrict access to class members",
+    "Option4": "The process of converting data types",
+    "Answer": "The mechanism by which one class acquires the properties and behaviors of another class"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you indicate inheritance in Ruby?",
+    "Option1": "class Child < Parent; end",
+    "Option2": "class Child extends Parent; end",
+    "Option3": "class Child inherits Parent; end",
+    "Option4": "class Child implements Parent; end",
+    "Answer": "class Child < Parent; end"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'module' in Ruby?",
+    "Option1": "A container for classes only",
+    "Option2": "A collection of methods and constants that can be mixed into classes to share functionality (mixins)",
+    "Option3": "A type of variable",
+    "Option4": "A database table",
+    "Answer": "A collection of methods and constants that can be mixed into classes to share functionality (mixins)"
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you include a module in a class or another module?",
+    "Option1": "require 'MyModule'",
+    "Option2": "use MyModule",
+    "Option3": "include MyModule",
+    "Option4": "import MyModule",
+    "Answer": "include MyModule"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the difference between `include` and `extend` for modules?",
+    "Option1": "`include` adds module methods as class methods, `extend` adds them as instance methods.",
+    "Option2": "`include` adds module methods as instance methods, `extend` adds them as class methods.",
+    "Option3": "They are synonyms.",
+    "Option4": "`include` is for classes, `extend` is for objects.",
+    "Answer": "`include` adds module methods as instance methods, `extend` adds them as class methods."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is a 'block' in Ruby?",
+    "Option1": "A type of comment",
+    "Option2": "A chunk of code enclosed in `do...end` or `{...}`, typically passed to methods for iteration or custom behavior",
+    "Option3": "A global variable",
+    "Option4": "A data type",
+    "Answer": "A chunk of code enclosed in `do...end` or `{...}`, typically passed to methods for iteration or custom behavior"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is an 'iterator' in Ruby?",
+    "Option1": "A loop that runs infinitely",
+    "Option2": "A method that accepts a block and calls it for each item in a collection",
+    "Option3": "A way to declare variables",
+    "Option4": "A control flow statement",
+    "Answer": "A method that accepts a block and calls it for each item in a collection"
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you create an array in Ruby?",
+    "Option1": "array = ()",
+    "Option2": "array = []",
+    "Option3": "array = new Array()",
+    "Option4": "array = {}",
+    "Answer": "array = []"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you create a hash (dictionary/object) in Ruby?",
+    "Option1": "hash = []",
+    "Option2": "hash = new Hash()",
+    "Option3": "hash = {}",
+    "Option4": "hash = ()",
+    "Answer": "hash = {}"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is `nil` in Ruby?",
+    "Option1": "An empty string",
+    "Option2": "Represents the absence of a value, similar to `null` in other languages",
+    "Option3": "The number zero",
+    "Option4": "A boolean value for false",
+    "Answer": "Represents the absence of a value, similar to `null` in other languages"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the difference between `==` and `eql?` in Ruby?",
+    "Option1": "`==` checks for object identity, `eql?` checks for value equality.",
+    "Option2": "`==` checks for value equality, `eql?` checks for hash key equality (value and type).",
+    "Option3": "They are identical.",
+    "Option4": "`==` is for numbers, `eql?` is for strings.",
+    "Answer": "`==` checks for value equality, `eql?` checks for hash key equality (value and type)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the difference between `nil` and `false` in Ruby?",
+    "Option1": "They are both considered 'falsy' in conditional contexts, but `nil` represents 'no value' while `false` is a boolean 'false'.",
+    "Option2": "`nil` is truthy, `false` is falsy.",
+    "Option3": "`nil` is a string, `false` is a boolean.",
+    "Option4": "There is no difference.",
+    "Answer": "They are both considered 'falsy' in conditional contexts, but `nil` represents 'no value' while `false` is a boolean 'false'."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you comment out a single line in Ruby?",
+    "Option1": "// This is a comment",
+    "Option2": "# This is a comment",
+    "Option3": "/* This is a comment */",
+    "Option4": "-- This is a comment",
+    "Answer": "# This is a comment"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you comment out multiple lines in Ruby?",
+    "Option1": "/* multi-line comment */",
+    "Option2": "=begin multi-line comment =end",
+    "Option3": "/// multi-line comment",
+    "Option4": "",
+    "Answer": "=begin multi-line comment =end"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'symbol' in Ruby?",
+    "Option1": "A string that can be modified",
+    "Option2": "An immutable, unique identifier (e.g., `:my_symbol`), often used as hash keys or to represent names in Ruby code",
+    "Option3": "A type of number",
+    "Option4": "A boolean value",
+    "Answer": "An immutable, unique identifier (e.g., `:my_symbol`), often used as hash keys or to represent names in Ruby code"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the primary difference between a `String` and a `Symbol` in Ruby?",
+    "Option1": "Strings are immutable, Symbols are mutable.",
+    "Option2": "Strings are mutable and can be duplicated, Symbols are immutable and unique within the application.",
+    "Option3": "Strings are for user input, Symbols are for internal logic.",
+    "Option4": "There is no functional difference.",
+    "Answer": "Strings are mutable and can be duplicated, Symbols are immutable and unique within the application."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is `attr_accessor` (or `attr_reader`, `attr_writer`) used for?",
+    "Option1": "To define private methods.",
+    "Option2": "To automatically create getter and setter methods for instance variables.",
+    "Option3": "To declare class variables.",
+    "Option4": "To define constants.",
+    "Answer": "To automatically create getter and setter methods for instance variables."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'duck typing' in Ruby?",
+    "Option1": "A type of error handling.",
+    "Option2": "A programming style where the type of an object is determined by its methods and properties, rather than its explicit class or interface.",
+    "Option3": "A way to define abstract classes.",
+    "Option4": "A method for type conversion.",
+    "Answer": "A programming style where the type of an object is determined by its methods and properties, rather than its explicit class or interface."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What does 'If it walks like a duck and quacks like a duck, then it's a duck' refer to?",
+    "Option1": "Polymorphism",
+    "Option2": "Duck Typing",
+    "Option3": "Inheritance",
+    "Option4": "Encapsulation",
+    "Answer": "Duck Typing"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `yield` in Ruby?",
+    "Option1": "A keyword to return a value from a method.",
+    "Option2": "A keyword that transfers control from a method to the block it was called with, executing the block's code.",
+    "Option3": "A way to define a new method.",
+    "Option4": "A statement for conditional execution.",
+    "Answer": "A keyword that transfers control from a method to the block it was called with, executing the block's code."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is a `Proc` in Ruby?",
+    "Option1": "A type of loop.",
+    "Option2": "An object that encapsulates a block of code and its environment, allowing it to be passed around and invoked later.",
+    "Option3": "A process on the operating system.",
+    "Option4": "A method that takes no arguments.",
+    "Answer": "An object that encapsulates a block of code and its environment, allowing it to be passed around and invoked later."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is a `Lambda` in Ruby?",
+    "Option1": "A type of loop.",
+    "Option2": "A type of `Proc` that has stricter argument checking and returns control to the calling method (like a normal method).",
+    "Option3": "A block that always returns nil.",
+    "Option4": "A method that takes only one argument.",
+    "Answer": "A type of `Proc` that has stricter argument checking and returns control to the calling method (like a normal method)."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the difference between `Proc` and `Lambda`?",
+    "Option1": "`Proc` has strict argument checking and `Lambda` does not.",
+    "Option2": "`Proc` has lenient argument checking and returns from the defining scope, while `Lambda` has strict argument checking and returns from itself.",
+    "Option3": "They are completely interchangeable.",
+    "Option4": "`Proc` can be passed as an argument, `Lambda` cannot.",
+    "Answer": "`Proc` has lenient argument checking and returns from the defining scope, while `Lambda` has strict argument checking and returns from itself."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `splat operator` (`*`) in Ruby?",
+    "Option1": "Used for multiplication.",
+    "Option2": "Used to capture multiple arguments into an array when defining a method, or to expand an array into individual arguments when calling a method.",
+    "Option3": "Used to concatenate strings.",
+    "Option4": "Used to define default argument values.",
+    "Answer": "Used to capture multiple arguments into an array when defining a method, or to expand an array into individual arguments when calling a method."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the `double splat operator` (`**`) in Ruby?",
+    "Option1": "Used for exponentiation.",
+    "Option2": "Used to capture multiple keyword arguments into a hash when defining a method, or to expand a hash into keyword arguments when calling a method.",
+    "Option3": "Used for string interpolation.",
+    "Option4": "Used to define optional arguments.",
+    "Answer": "Used to capture multiple keyword arguments into a hash when defining a method, or to expand a hash into keyword arguments when calling a method."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `super` in Ruby?",
+    "Option1": "A keyword to call a method in the same class.",
+    "Option2": "A keyword to call the method with the same name in the parent class.",
+    "Option3": "A keyword to call a global function.",
+    "Option4": "A keyword to define a class method.",
+    "Answer": "A keyword to call the method with the same name in the parent class."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is `private` access modifier in Ruby?",
+    "Option1": "Methods can be called from anywhere.",
+    "Option2": "Methods can only be called without an explicit receiver (i.e., `self` is implied).",
+    "Option3": "Methods can only be called from inside the class.",
+    "Option4": "Methods can only be called by child classes.",
+    "Answer": "Methods can only be called without an explicit receiver (i.e., `self` is implied)."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is `protected` access modifier in Ruby?",
+    "Option1": "Methods can only be called by instances of the same class or its subclasses.",
+    "Option2": "Methods can be called from anywhere.",
+    "Option3": "Methods can only be called without an explicit receiver.",
+    "Option4": "Methods are visible only within the module.",
+    "Answer": "Methods can only be called by instances of the same class or its subclasses."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `public` access modifier in Ruby?",
+    "Option1": "Methods can only be called by child classes.",
+    "Option2": "Methods are accessible from anywhere.",
+    "Option3": "Methods can only be called without an explicit receiver.",
+    "Option4": "Methods are only for internal use.",
+    "Answer": "Methods are accessible from anywhere."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is a 'singleton method' in Ruby?",
+    "Option1": "A method that can only be defined once.",
+    "Option2": "A method defined on a specific object, making it unique to that instance.",
+    "Option3": "A method that takes no arguments.",
+    "Option4": "A method defined in a module.",
+    "Answer": "A method defined on a specific object, making it unique to that instance."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you define a 'singleton method'?",
+    "Option1": "def my_object.my_method; end",
+    "Option2": "my_object.define_method(:my_method) { ... }",
+    "Option3": "MyObject::my_method = -> { ... }",
+    "Option4": "my_object.method_missing(:my_method) { ... }",
+    "Answer": "def my_object.my_method; end"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'metaprogramming' in Ruby?",
+    "Option1": "Writing programs that generate other programs.",
+    "Option2": "Writing code that manipulates or generates other code at runtime.",
+    "Option3": "Writing programs that analyze compiler output.",
+    "Option4": "Writing programs in a meta-language.",
+    "Answer": "Writing code that manipulates or generates other code at runtime."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Name a common metaprogramming technique in Ruby.",
+    "Option1": "Strict type checking.",
+    "Option2": "Defining methods dynamically using `define_method`, `method_missing`, or `send`.",
+    "Option3": "Using static analysis tools.",
+    "Option4": "Pre-compiling code.",
+    "Answer": "Defining methods dynamically using `define_method`, `method_missing`, or `send`."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `method_missing` in Ruby?",
+    "Option1": "A method that explicitly raises an error.",
+    "Option2": "A method called by Ruby when a method is invoked on an object that does not respond to that method, allowing for dynamic method handling.",
+    "Option3": "A method that is never defined.",
+    "Option4": "A method that removes other methods.",
+    "Answer": "A method called by Ruby when a method is invoked on an object that does not respond to that method, allowing for dynamic method handling."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `send` method in Ruby?",
+    "Option1": "Used to send network requests.",
+    "Option2": "Used to dynamically call a method on an object by its name (as a string or symbol), allowing you to call private/protected methods if you know their names.",
+    "Option3": "Used to send data to a block.",
+    "Option4": "Used to send messages between objects.",
+    "Answer": "Used to dynamically call a method on an object by its name (as a string or symbol), allowing you to call private/protected methods if you know their names."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `Object-Oriented Programming (OOP)` in Ruby?",
+    "Option1": "A procedural programming paradigm.",
+    "Option2": "A programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods) that operate on that data.",
+    "Option3": "A functional programming paradigm.",
+    "Option4": "A declarative programming paradigm.",
+    "Answer": "A programming paradigm based on the concept of 'objects', which can contain data (attributes) and code (methods) that operate on that data."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What are the four pillars of OOP?",
+    "Option1": "Variables, Functions, Loops, Conditionals",
+    "Option2": "Encapsulation, Inheritance, Polymorphism, Abstraction",
+    "Option3": "Modules, Gems, Classes, Methods",
+    "Option4": "Input, Process, Output, Storage",
+    "Answer": "Encapsulation, Inheritance, Polymorphism, Abstraction"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Encapsulation' in Ruby?",
+    "Option1": "Making all data public.",
+    "Option2": "Bundling data (attributes) and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components.",
+    "Option3": "Allowing direct access to all internal data.",
+    "Option4": "The ability to define multiple methods with the same name.",
+    "Answer": "Bundling data (attributes) and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Polymorphism' in Ruby?",
+    "Option1": "The ability of an object to take on many forms (e.g., different classes responding to the same method call in their own way).",
+    "Option2": "The ability to inherit from multiple classes.",
+    "Option3": "The ability to encapsulate data.",
+    "Option4": "The ability to define methods dynamically.",
+    "Answer": "The ability of an object to take on many forms (e.g., different classes responding to the same method call in their own way)."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Abstraction' in Ruby?",
+    "Option1": "Showing all the complex details of implementation.",
+    "Option2": "Hiding the complex implementation details and showing only the essential features of an object or system to the user.",
+    "Option3": "Creating many small methods.",
+    "Option4": "Converting data types.",
+    "Answer": "Hiding the complex implementation details and showing only the essential features of an object or system to the user."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the role of `Kernel` module in Ruby?",
+    "Option1": "It contains all the core classes.",
+    "Option2": "It is implicitly included in `Object`, providing many global functions (like `puts`, `gets`, `raise`) that are available everywhere.",
+    "Option3": "It is the base class for all modules.",
+    "Option4": "It handles file I/O operations.",
+    "Answer": "It is implicitly included in `Object`, providing many global functions (like `puts`, `gets`, `raise`) that are available everywhere."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `Enumerable` module in Ruby?",
+    "Option1": "A module for string manipulation.",
+    "Option2": "A module that provides iteration and search methods (like `each`, `map`, `select`) for collections, and is typically included by `Array`, `Hash`, etc.",
+    "Option3": "A module for mathematical operations.",
+    "Option4": "A module for network communication.",
+    "Answer": "A module that provides iteration and search methods (like `each`, `map`, `select`) for collections, and is typically included by `Array`, `Hash`, etc."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the `Comparable` module in Ruby?",
+    "Option1": "A module for comparing strings.",
+    "Option2": "A module that provides comparison operators (`<`, `<=`, `==`, `>=`, `>`) for objects, provided that the including class defines the `<=>` (spaceship) operator.",
+    "Option3": "A module for comparing numbers.",
+    "Option4": "A module for comparing objects based on their identity.",
+    "Answer": "A module that provides comparison operators (`<`, `<=`, `==`, `>=`, `>`) for objects, provided that the including class defines the `<=>` (spaceship) operator."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What does the `<=>` (spaceship) operator do in Ruby?",
+    "Option1": "Performs addition.",
+    "Option2": "Compares two objects and returns -1 (less than), 0 (equal to), or 1 (greater than).",
+    "Option3": "Performs string concatenation.",
+    "Option4": "Checks for inequality.",
+    "Answer": "Compares two objects and returns -1 (less than), 0 (equal to), or 1 (greater than)."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is an 'exception' in Ruby?",
+    "Option1": "A special type of variable.",
+    "Option2": "An event that occurs during the execution of a program that disrupts the normal flow of instructions, indicating an error or unusual condition.",
+    "Option3": "A syntax error.",
+    "Option4": "A warning message.",
+    "Answer": "An event that occurs during the execution of a program that disrupts the normal flow of instructions, indicating an error or unusual condition."
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you handle exceptions in Ruby?",
+    "Option1": "try { ... } catch (e) { ... }",
+    "Option2": "begin ... rescue ... end",
+    "Option3": "throw ... catch ...",
+    "Option4": "on_error { ... }",
+    "Answer": "begin ... rescue ... end"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is `raise` used for in Ruby?",
+    "Option1": "To print a message to the console.",
+    "Option2": "To explicitly raise an exception.",
+    "Option3": "To define a new method.",
+    "Option4": "To return a value from a method.",
+    "Answer": "To explicitly raise an exception."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `ensure` block in exception handling?",
+    "Option1": "Code that runs only if an error occurs.",
+    "Option2": "A block of code that is guaranteed to execute, regardless of whether an exception occurred or not.",
+    "Option3": "Code that runs only if no error occurs.",
+    "Option4": "Code that defines the exception type.",
+    "Answer": "A block of code that is guaranteed to execute, regardless of whether an exception occurred or not."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `else` block in exception handling?",
+    "Option1": "Code that runs if an exception is caught.",
+    "Option2": "Code that runs if no exception is raised within the `begin` block.",
+    "Option3": "Code that runs after the `ensure` block.",
+    "Option4": "Code that defines alternative behavior.",
+    "Answer": "Code that runs if no exception is raised within the `begin` block."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'garbage collection' in Ruby?",
+    "Option1": "Manually deleting unused memory.",
+    "Option2": "Automatic memory management where the Ruby interpreter identifies and reclaims memory that is no longer being used by the program.",
+    "Option3": "A tool for cleaning up files.",
+    "Option4": "A process for optimizing database queries.",
+    "Answer": "Automatic memory management where the Ruby interpreter identifies and reclaims memory that is no longer being used by the program."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `CSV` in Ruby?",
+    "Option1": "A command-line interface.",
+    "Option2": "A built-in library for parsing and generating Comma Separated Values files.",
+    "Option3": "A type of database.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "A built-in library for parsing and generating Comma Separated Values files."
+  },
+  {
+    "question_no.": 64,
+    "Question": "How do you read a file in Ruby?",
+    "Option1": "File.write('file.txt')",
+    "Option2": "File.read('file.txt')",
+    "Option3": "File.open('file.txt', 'w')",
+    "Option4": "File.create('file.txt')",
+    "Answer": "File.read('file.txt')"
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you write to a file in Ruby?",
+    "Option1": "File.read('file.txt')",
+    "Option2": "File.write('file.txt', 'content')",
+    "Option3": "File.open('file.txt', 'r')",
+    "Option4": "File.delete('file.txt')",
+    "Answer": "File.write('file.txt', 'content')"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What are 'regular expressions' in Ruby?",
+    "Option1": "Mathematical equations.",
+    "Option2": "A sequence of characters that define a search pattern, used for pattern matching and text manipulation.",
+    "Option3": "Rules for variable naming.",
+    "Option4": "Types of loops.",
+    "Answer": "A sequence of characters that define a search pattern, used for pattern matching and text manipulation."
+  },
+  {
+    "question_no.": 67,
+    "Question": "How do you define a regular expression literal in Ruby?",
+    "Option1": "'pattern'",
+    "Option2": "/pattern/",
+    "Option3": "`pattern`",
+    "Option4": "[pattern]",
+    "Answer": "/pattern/"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `match` method used for with regular expressions?",
+    "Option1": "To replace text.",
+    "Option2": "To attempt a match of a regular expression against a string, returning a `MatchData` object or `nil`.",
+    "Option3": "To split a string.",
+    "Option4": "To join strings.",
+    "Answer": "To attempt a match of a regular expression against a string, returning a `MatchData` object or `nil`."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is `sub` vs `gsub` in Ruby for string manipulation?",
+    "Option1": "`sub` replaces all occurrences, `gsub` replaces the first occurrence.",
+    "Option2": "`sub` replaces the first occurrence, `gsub` replaces all occurrences.",
+    "Option3": "They are identical.",
+    "Option4": "`sub` is for numbers, `gsub` is for strings.",
+    "Answer": "`sub` replaces the first occurrence, `gsub` replaces all occurrences."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `String Interpolation` in Ruby?",
+    "Option1": "Concatenating strings using the `+` operator.",
+    "Option2": "Embedding expressions directly within double-quoted strings using `#{}` to evaluate them and insert their string representation.",
+    "Option3": "Replacing characters in a string.",
+    "Option4": "Converting a string to an integer.",
+    "Answer": "Embedding expressions directly within double-quoted strings using `#{}` to evaluate them and insert their string representation."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the difference between single and double quotes for strings in Ruby?",
+    "Option1": "No difference.",
+    "Option2": "Double quotes (`\"\"`) allow string interpolation and escape sequences, while single quotes (`''`) treat content literally.",
+    "Option3": "Single quotes are for numbers, double quotes are for text.",
+    "Option4": "Double quotes are faster.",
+    "Answer": "Double quotes (`\"\"`) allow string interpolation and escape sequences, while single quotes (`''`) treat content literally."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `Symbols` (revisited) and why use them as Hash keys?",
+    "Option1": "They are less efficient than strings.",
+    "Option2": "Symbols are immutable and unique, making them memory-efficient and faster for hash lookups compared to strings, especially when used repeatedly.",
+    "Option3": "They allow for string interpolation.",
+    "Option4": "They are easier to type.",
+    "Answer": "Symbols are immutable and unique, making them memory-efficient and faster for hash lookups compared to strings, especially when used repeatedly."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `Open Classes` in Ruby?",
+    "Option1": "Classes that can be viewed publicly.",
+    "Option2": "The ability to add or modify methods and attributes of existing classes at runtime, even built-in classes like `String` or `Array`.",
+    "Option3": "Classes that are not yet fully defined.",
+    "Option4": "Classes that can be inherited from any other class.",
+    "Answer": "The ability to add or modify methods and attributes of existing classes at runtime, even built-in classes like `String` or `Array`."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Monkey Patching' in Ruby?",
+    "Option1": "A term for fixing bugs in existing code.",
+    "Option2": "A potentially risky practice of adding, changing, or removing methods of existing classes or objects at runtime, often used for extending functionality or fixing bugs without modifying original source code.",
+    "Option3": "A method for code obfuscation.",
+    "Option4": "A way to version control code.",
+    "Answer": "A potentially risky practice of adding, changing, or removing methods of existing classes or objects at runtime, often used for extending functionality or fixing bugs without modifying original source code."
+  },
+  {
+    "question_no.": 75,
+    "Question": "When should 'Monkey Patching' be used with caution?",
+    "Option1": "Always, it's a best practice.",
+    "Option2": "It can lead to unexpected behavior, conflicts with other libraries, and make code harder to debug and maintain, so it should be used sparingly and with clear justification.",
+    "Option3": "Only when working with small projects.",
+    "Option4": "Never, it's considered bad practice.",
+    "Answer": "It can lead to unexpected behavior, conflicts with other libraries, and make code harder to debug and maintain, so it should be used sparingly and with clear justification."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `Mixins` (revisited) and why are they used?",
+    "Option1": "For creating multiple inheritance.",
+    "Option2": "For sharing functionality among classes without using traditional inheritance, addressing the 'diamond problem' and promoting code reuse in a flexible way.",
+    "Option3": "For defining global variables.",
+    "Option4": "For styling applications.",
+    "Answer": "For sharing functionality among classes without using traditional inheritance, addressing the 'diamond problem' and promoting code reuse in a flexible way."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `ActiveRecord` in Ruby on Rails?",
+    "Option1": "A JavaScript library.",
+    "Option2": "An Object-Relational Mapping (ORM) layer that connects Ruby objects to database tables, providing an easy way to interact with databases using Ruby code.",
+    "Option3": "A templating engine.",
+    "Option4": "A routing library.",
+    "Answer": "An Object-Relational Mapping (ORM) layer that connects Ruby objects to database tables, providing an easy way to interact with databases using Ruby code."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is an `ORM`?",
+    "Option1": "Object Request Modeler",
+    "Option2": "Object-Relational Mapping",
+    "Option3": "Operational Resource Manager",
+    "Option4": "Online Reporting Module",
+    "Answer": "Object-Relational Mapping"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `Bundler` in Ruby?",
+    "Option1": "A tool for creating executables.",
+    "Option2": "A dependency manager for Ruby applications, ensuring that the correct versions of gems are installed and used for a project.",
+    "Option3": "A web server.",
+    "Option4": "A testing framework.",
+    "Answer": "A dependency manager for Ruby applications, ensuring that the correct versions of gems are installed and used for a project."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `Gemfile` used for?",
+    "Option1": "To list all available gems.",
+    "Option2": "To declare a Ruby application's gem dependencies, specifying which gems and versions are required for the project.",
+    "Option3": "To store gem metadata.",
+    "Option4": "To manage gem installations globally.",
+    "Answer": "To declare a Ruby application's gem dependencies, specifying which gems and versions are required for the project."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `Gemfile.lock` used for?",
+    "Option1": "To prevent gem updates.",
+    "Option2": "To record the exact versions of all gems and their transitive dependencies used in a project, ensuring consistent installations across environments.",
+    "Option3": "To backup the Gemfile.",
+    "Option4": "To store sensitive gem information.",
+    "Answer": "To record the exact versions of all gems and their transitive dependencies used in a project, ensuring consistent installations across environments."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `Rake` in Ruby?",
+    "Option1": "A testing framework.",
+    "Option2": "A Ruby build program (like Make) that provides a way to define and run common tasks and automate processes in Ruby projects.",
+    "Option3": "A web server.",
+    "Option4": "A database migration tool.",
+    "Answer": "A Ruby build program (like Make) that provides a way to define and run common tasks and automate processes in Ruby projects."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `irb`?",
+    "Option1": "A Ruby compiler.",
+    "Option2": "Interactive Ruby Shell, a command-line tool that allows you to execute Ruby code interactively and get immediate feedback.",
+    "Option3": "A Ruby debugger.",
+    "Option4": "A Ruby package manager.",
+    "Answer": "Interactive Ruby Shell, a command-line tool that allows you to execute Ruby code interactively and get immediate feedback."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `pry`?",
+    "Option1": "A web framework.",
+    "Option2": "A powerful runtime developer console and debugger for Ruby, offering enhanced features over `irb`.",
+    "Option3": "A testing library.",
+    "Option4": "A database client.",
+    "Answer": "A powerful runtime developer console and debugger for Ruby, offering enhanced features over `irb`."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is a 'Proc Object' (revisited)?",
+    "Option1": "A variable that holds a method's name.",
+    "Option2": "An object that stores a block of code, allowing it to be passed as an argument, stored in a variable, and executed later.",
+    "Option3": "A system process.",
+    "Option4": "A temporary file.",
+    "Answer": "An object that stores a block of code, allowing it to be passed as an argument, stored in a variable, and executed later."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `Chaining Methods` in Ruby?",
+    "Option1": "Calling methods on separate lines.",
+    "Option2": "Invoking multiple methods consecutively on the same object, where each method returns the object itself or another object that can have methods called on it.",
+    "Option3": "Defining methods within other methods.",
+    "Option4": "Creating a sequence of functions.",
+    "Answer": "Invoking multiple methods consecutively on the same object, where each method returns the object itself or another object that can have methods called on it."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the `map` method in Ruby (for collections)?",
+    "Option1": "Iterates over a collection without transforming it.",
+    "Option2": "Iterates over a collection, applies a given block to each element, and returns a new array containing the results.",
+    "Option3": "Filters elements based on a condition.",
+    "Option4": "Sorts the elements of a collection.",
+    "Answer": "Iterates over a collection, applies a given block to each element, and returns a new array containing the results."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the `select` (or `filter`) method in Ruby?",
+    "Option1": "Transforms elements in a collection.",
+    "Option2": "Iterates over a collection and returns a new array containing only the elements for which the given block evaluates to true.",
+    "Option3": "Reduces a collection to a single value.",
+    "Option4": "Randomly selects elements from a collection.",
+    "Answer": "Iterates over a collection and returns a new array containing only the elements for which the given block evaluates to true."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the `reduce` (or `inject`) method in Ruby?",
+    "Option1": "Iterates over a collection and returns a new array.",
+    "Option2": "Combines all elements of an enumerable collection by applying a binary operation (given in a block) to each element, eventually reducing it to a single value.",
+    "Option3": "Removes duplicate elements.",
+    "Option4": "Reverses the order of elements.",
+    "Answer": "Combines all elements of an enumerable collection by applying a binary operation (given in a block) to each element, eventually reducing it to a single value."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `nil?` vs `empty?` vs `blank?` in Ruby on Rails?",
+    "Option1": "They are all synonyms for checking if something is empty.",
+    "Option2": "`nil?` checks if an object is `nil`. `empty?` checks if a collection/string has no elements/characters. `blank?` (Rails) checks if an object is `nil`, empty, or consists only of whitespace.",
+    "Option3": "`nil?` is for strings, `empty?` is for arrays, `blank?` is for hashes.",
+    "Option4": "Only `nil?` is a standard Ruby method.",
+    "Answer": "`nil?` checks if an object is `nil`. `empty?` checks if a collection/string has no elements/characters. `blank?` (Rails) checks if an object is `nil`, empty, or consists only of whitespace."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `present?` in Ruby on Rails?",
+    "Option1": "Returns true if an object is `blank?`.",
+    "Option2": "Returns true if an object is not `blank?` (i.e., it has a value).",
+    "Option3": "Checks if an object is currently being used.",
+    "Option4": "Checks if an object is defined.",
+    "Answer": "Returns true if an object is not `blank?` (i.e., it has a value)."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `bang methods` (e.g., `!` suffix) in Ruby?",
+    "Option1": "Methods that are dangerous to use.",
+    "Option2": "Conventionally, methods that modify the object in place (mutate) rather than returning a new modified object.",
+    "Option3": "Methods that raise exceptions.",
+    "Option4": "Methods that are very fast.",
+    "Answer": "Conventionally, methods that modify the object in place (mutate) rather than returning a new modified object."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `predicate methods` (e.g., `?` suffix) in Ruby?",
+    "Option1": "Methods that return a value.",
+    "Option2": "Conventionally, methods that return a boolean value (true or false).",
+    "Option3": "Methods that accept a block.",
+    "Option4": "Methods that are private.",
+    "Answer": "Conventionally, methods that return a boolean value (true or false)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `respond_to?` method in Ruby?",
+    "Option1": "Checks if an object can receive messages.",
+    "Option2": "Checks if an object responds to a given method name (i.e., if it defines or inherits that method).",
+    "Option3": "Checks if an object is a class.",
+    "Option4": "Checks if an object has any attributes.",
+    "Answer": "Checks if an object responds to a given method name (i.e., if it defines or inherits that method)."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `is_a?` method in Ruby?",
+    "Option1": "Checks if an object is an instance of a specific class or module, or a descendant of that class/module.",
+    "Option2": "Checks if two objects are identical.",
+    "Option3": "Checks if an object is callable.",
+    "Option4": "Checks if an object is mutable.",
+    "Answer": "Checks if an object is an instance of a specific class or module, or a descendant of that class/module."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `kind_of?` method in Ruby?",
+    "Option1": "Checks if an object is an instance of a specific class only.",
+    "Option2": "Alias for `is_a?`, checking if an object is an instance of a specific class or module, or a descendant.",
+    "Option3": "Checks the type of a variable.",
+    "Option4": "Checks if an object has a certain kind of behavior.",
+    "Answer": "Alias for `is_a?`, checking if an object is an instance of a specific class or module, or a descendant."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `instance_of?` method in Ruby?",
+    "Option1": "Checks if an object is an instance of a specific class or module, or a descendant.",
+    "Option2": "Checks if an object is an *exact* instance of a specific class (not a subclass).",
+    "Option3": "Checks if an object has multiple instances.",
+    "Option4": "Checks if an object is a singleton.",
+    "Answer": "Checks if an object is an *exact* instance of a specific class (not a subclass)."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `class` method used for on an object?",
+    "Option1": "To define a new class.",
+    "Option2": "To return the class of the object.",
+    "Option3": "To check if an object is a class.",
+    "Option4": "To get the name of the object.",
+    "Answer": "To return the class of the object."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `instance_eval` in Ruby?",
+    "Option1": "Evaluates code in the context of a class.",
+    "Option2": "Evaluates a string or block of Ruby code in the context of the receiver object's instance, giving access to its instance variables and methods.",
+    "Option3": "Evaluates code in the global scope.",
+    "Option4": "Evaluates code during compilation.",
+    "Answer": "Evaluates a string or block of Ruby code in the context of the receiver object's instance, giving access to its instance variables and methods."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `class_eval` (or `module_eval`) in Ruby?",
+    "Option1": "Evaluates code in the context of an instance.",
+    "Option2": "Evaluates a string or block of Ruby code in the context of the receiver class or module, allowing you to add methods, modify constants, etc.",
+    "Option3": "Evaluates code within a method.",
+    "Option4": "Evaluates code in a separate thread.",
+    "Answer": "Evaluates a string or block of Ruby code in the context of the receiver class or module, allowing you to add methods, modify constants, etc."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `alias` in Ruby?",
+    "Option1": "Used to rename a variable.",
+    "Option2": "Used to create an alternative name for a method, allowing you to override a method while still being able to call the original.",
+    "Option3": "Used to create a shortcut for a class name.",
+    "Option4": "Used to define a new class.",
+    "Answer": "Used to create an alternative name for a method, allowing you to override a method while still being able to call the original."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the `begin...end` block used for without `rescue`?",
+    "Option1": "To define a method.",
+    "Option2": "To create a block of code with its own scope, often used with `break` or `next` for loop control.",
+    "Option3": "To define a class.",
+    "Option4": "To define a module.",
+    "Answer": "To create a block of code with its own scope, often used with `break` or `next` for loop control."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `unless` in Ruby?",
+    "Option1": "An alternative to `if` that executes code if the condition is true.",
+    "Option2": "An alternative to `if` that executes code if the condition is false.",
+    "Option3": "A loop control statement.",
+    "Option4": "A method for error handling.",
+    "Answer": "An alternative to `if` that executes code if the condition is false."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `case` statement in Ruby?",
+    "Option1": "A way to define object properties.",
+    "Option2": "A multi-way conditional statement that evaluates an expression and matches it against various `when` clauses.",
+    "Option3": "A method for string comparison.",
+    "Option4": "A loop that runs a fixed number of times.",
+    "Answer": "A multi-way conditional statement that evaluates an expression and matches it against various `when` clauses."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `for...in` loop in Ruby?",
+    "Option1": "The most common way to iterate.",
+    "Option2": "A basic loop structure that iterates over elements of an enumerable object, though `each` is generally preferred in Ruby.",
+    "Option3": "A loop for numerical ranges only.",
+    "Option4": "A loop that modifies the original collection.",
+    "Answer": "A basic loop structure that iterates over elements of an enumerable object, though `each` is generally preferred in Ruby."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `each` method in Ruby?",
+    "Option1": "A method that transforms a collection.",
+    "Option2": "An iterator method available on `Enumerable` objects that calls a block once for each element, without creating a new collection.",
+    "Option3": "A method that returns a single value.",
+    "Option4": "A method for sorting elements.",
+    "Answer": "An iterator method available on `Enumerable` objects that calls a block once for each element, without creating a new collection."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the primary difference between `for` loop and `each` method?",
+    "Option1": "`for` is faster than `each`.",
+    "Option2": "`for` introduces a new local variable for each iteration, `each` operates within the current scope and is more idiomatic Ruby for iteration.",
+    "Option3": "`for` can modify the original collection, `each` cannot.",
+    "Option4": "There is no difference.",
+    "Answer": "`for` introduces a new local variable for each iteration, `each` operates within the current scope and is more idiomatic Ruby for iteration."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `loop do...end` in Ruby?",
+    "Option1": "A loop that runs once.",
+    "Option2": "An infinite loop that continues executing until a `break` statement is encountered.",
+    "Option3": "A loop for iterating over arrays.",
+    "Option4": "A loop with a predefined number of iterations.",
+    "Answer": "An infinite loop that continues executing until a `break` statement is encountered."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `while` loop in Ruby?",
+    "Option1": "A loop that always runs at least once.",
+    "Option2": "A loop that repeatedly executes a block of code as long as a specified condition is true.",
+    "Option3": "A loop that iterates over a collection.",
+    "Option4": "A loop that runs a fixed number of times.",
+    "Answer": "A loop that repeatedly executes a block of code as long as a specified condition is true."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `until` loop in Ruby?",
+    "Option1": "A loop that executes as long as a condition is true.",
+    "Option2": "A loop that repeatedly executes a block of code as long as a specified condition is false.",
+    "Option3": "A loop for conditional statements.",
+    "Option4": "A loop for handling exceptions.",
+    "Answer": "A loop that repeatedly executes a block of code as long as a specified condition is false."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `break` statement in loops?",
+    "Option1": "Skips the current iteration.",
+    "Option2": "Terminates the loop immediately and transfers control to the statement following the loop.",
+    "Option3": "Restarts the loop from the beginning.",
+    "Option4": "Exits the current method.",
+    "Answer": "Terminates the loop immediately and transfers control to the statement following the loop."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `next` statement in loops?",
+    "Option1": "Exits the loop.",
+    "Option2": "Skips the rest of the current iteration and moves to the next iteration of the loop.",
+    "Option3": "Restarts the loop from the beginning.",
+    "Option4": "Returns from the current method.",
+    "Answer": "Skips the rest of the current iteration and moves to the next iteration of the loop."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `redo` statement in loops?",
+    "Option1": "Exits the loop.",
+    "Option2": "Restarts the current iteration of the loop from the beginning without re-evaluating the loop's condition.",
+    "Option3": "Skips the current iteration.",
+    "Option4": "Repeats the entire loop.",
+    "Answer": "Restarts the current iteration of the loop from the beginning without re-evaluating the loop's condition."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `retry` statement in loops (and rescue blocks)?",
+    "Option1": "Restarts the current iteration.",
+    "Option2": "Used within a `rescue` block to restart the execution of the `begin` block from the beginning.",
+    "Option3": "Skips to the next iteration.",
+    "Option4": "Exits the loop.",
+    "Answer": "Used within a `rescue` block to restart the execution of the `begin` block from the beginning."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What are `global variables` in Ruby?",
+    "Option1": "Variables accessible only within a method.",
+    "Option2": "Variables accessible from anywhere in the program, prefixed with `$` (e.g., `$stdout`, `$stdin`).",
+    "Option3": "Variables accessible only within a class.",
+    "Option4": "Variables accessible only within a module.",
+    "Answer": "Variables accessible from anywhere in the program, prefixed with `$` (e.g., `$stdout`, `$stdin`)."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Are global variables generally encouraged in Ruby?",
+    "Option1": "Yes, always.",
+    "Option2": "No, they should generally be avoided as they make code harder to reason about, test, and maintain due to potential side effects and lack of encapsulation.",
+    "Option3": "Only for very small scripts.",
+    "Option4": "Only when working with a team.",
+    "Answer": "No, they should generally be avoided as they make code harder to reason about, test, and maintain due to potential side effects and lack of encapsulation."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What are `class variables` in Ruby?",
+    "Option1": "Variables unique to each instance.",
+    "Option2": "Variables shared among all instances of a class and its subclasses, prefixed with `@@` (e.g., `@@count`).",
+    "Option3": "Variables accessible from anywhere.",
+    "Option4": "Variables accessible only within a method.",
+    "Answer": "Variables shared among all instances of a class and its subclasses, prefixed with `@@` (e.g., `@@count`)."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What are `constants` in Ruby?",
+    "Option1": "Variables that can change values.",
+    "Option2": "Values that are meant to be constant and typically defined with uppercase letters (e.g., `MY_CONSTANT`). Ruby issues a warning if they are reassigned, but doesn't prevent it.",
+    "Option3": "Variables accessible only within a class.",
+    "Option4": "Variables accessible only within a method.",
+    "Answer": "Values that are meant to be constant and typically defined with uppercase letters (e.g., `MY_CONSTANT`). Ruby issues a warning if they are reassigned, but doesn't prevent it."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `Object` class in Ruby?",
+    "Option1": "The base class for all numbers.",
+    "Option2": "The default superclass for all classes in Ruby, providing fundamental methods that every object inherits.",
+    "Option3": "The base class for all strings.",
+    "Option4": "A class for defining modules.",
+    "Answer": "The default superclass for all classes in Ruby, providing fundamental methods that every object inherits."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `BasicObject` class in Ruby?",
+    "Option1": "The same as `Object`.",
+    "Option2": "A minimal base class that is useful for creating objects that do not inherit the extensive methods from `Object`, often used for proxy objects.",
+    "Option3": "A class for defining basic data types.",
+    "Option4": "A class for defining simple methods.",
+    "Answer": "A minimal base class that is useful for creating objects that do not inherit the extensive methods from `Object`, often used for proxy objects."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Load Path` in Ruby?",
+    "Option1": "The path to the Ruby interpreter.",
+    "Option2": "A list of directories that Ruby searches when you use `require` or `load` to find files.",
+    "Option3": "The path where gems are installed.",
+    "Option4": "The path to the current working directory.",
+    "Answer": "A list of directories that Ruby searches when you use `require` or `load` to find files."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `require` vs `load` in Ruby?",
+    "Option1": "`require` loads files only once, `load` loads them every time.",
+    "Option2": "`require` loads and executes a file once, usually for libraries/gems. `load` executes a file every time it's called, often for reloading configuration or test files.",
+    "Option3": "They are identical.",
+    "Option4": "`require` is for Ruby files, `load` is for other file types.",
+    "Answer": "`require` loads and executes a file once, usually for libraries/gems. `load` executes a file every time it's called, often for reloading configuration or test files."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `binding` in Ruby?",
+    "Option1": "A way to link files together.",
+    "Option2": "An object that encapsulates the current scope (local variables, `self`, etc.) and can be passed around, allowing code to be executed later in that original context.",
+    "Option3": "A way to define constants.",
+    "Option4": "A method for type checking.",
+    "Answer": "An object that encapsulates the current scope (local variables, `self`, etc.) and can be passed around, allowing code to be executed later in that original context."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `eval` in Ruby?",
+    "Option1": "A method for mathematical calculations.",
+    "Option2": "A method that evaluates a string as Ruby code in the current scope or a specified binding.",
+    "Option3": "A method for string comparison.",
+    "Option4": "A method for parsing JSON.",
+    "Answer": "A method that evaluates a string as Ruby code in the current scope or a specified binding."
+  },
+  {
+    "question_no.": 125,
+    "Question": "When should `eval` be used with caution?",
+    "Option1": "Always, it's a security risk if used with untrusted input, and can make code harder to debug and optimize.",
+    "Option2": "Only for small scripts.",
+    "Option3": "Only during development.",
+    "Option4": "Never, it's never safe to use.",
+    "Answer": "Always, it's a security risk if used with untrusted input, and can make code harder to debug and optimize."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `Thread` in Ruby?",
+    "Option1": "A lightweight process that runs concurrently within the same program, sharing the same memory space.",
+    "Option2": "A separate program that runs in parallel.",
+    "Option3": "A way to organize code into modules.",
+    "Option4": "A technique for network communication.",
+    "Answer": "A lightweight process that runs concurrently within the same program, sharing the same memory space."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `GIL` (Global Interpreter Lock) in Ruby?",
+    "Option1": "Allows true parallel execution of Ruby code.",
+    "Option2": "A mechanism that ensures only one thread can execute Ruby code at a time, limiting true parallelism for CPU-bound tasks in MRI Ruby.",
+    "Option3": "A lock for database access.",
+    "Option4": "A lock for file system access.",
+    "Answer": "A mechanism that ensures only one thread can execute Ruby code at a time, limiting true parallelism for CPU-bound tasks in MRI Ruby."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Does Ruby's `GIL` prevent concurrency for I/O-bound tasks?",
+    "Option1": "Yes, it prevents all forms of concurrency.",
+    "Option2": "No, it allows threads to pause and switch when performing I/O operations (like network requests or file access), enabling concurrency for I/O-bound tasks.",
+    "Option3": "Only for certain types of I/O.",
+    "Option4": "It depends on the operating system.",
+    "Answer": "No, it allows threads to pause and switch when performing I/O operations (like network requests or file access), enabling concurrency for I/O-bound tasks."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `Mutex` in Ruby?",
+    "Option1": "A mechanism for inter-process communication.",
+    "Option2": "A synchronization primitive used to protect shared resources from being accessed by multiple threads simultaneously, preventing race conditions.",
+    "Option3": "A way to stop a thread.",
+    "Option4": "A method for creating new threads.",
+    "Answer": "A synchronization primitive used to protect shared resources from being accessed by multiple threads simultaneously, preventing race conditions."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is a `Fiber` in Ruby?",
+    "Option1": "A traditional thread.",
+    "Option2": "A lightweight, user-level execution context that can be paused and resumed, allowing for cooperative multitasking and asynchronous programming without true parallelism.",
+    "Option3": "A type of network connection.",
+    "Option4": "A data structure for storing collections.",
+    "Answer": "A lightweight, user-level execution context that can be paused and resumed, allowing for cooperative multitasking and asynchronous programming without true parallelism."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the primary difference between `Threads` and `Fibers`?",
+    "Option1": "Threads are for synchronous tasks, Fibers are for asynchronous tasks.",
+    "Option2": "Threads are scheduled by the operating system (preemptive multitasking), Fibers are cooperatively scheduled by the developer.",
+    "Option3": "Threads cannot share memory, Fibers can.",
+    "Option4": "Threads are slower than Fibers.",
+    "Answer": "Threads are scheduled by the operating system (preemptive multitasking), Fibers are cooperatively scheduled by the developer."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `lambda` syntax `->` in Ruby?",
+    "Option1": "Used for comments.",
+    "Option2": "A concise syntax for creating a `Lambda` (a type of `Proc`), often called the 'stabby lambda'.",
+    "Option3": "Used for defining methods.",
+    "Option4": "Used for string concatenation.",
+    "Answer": "A concise syntax for creating a `Lambda` (a type of `Proc`), often called the 'stabby lambda'."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `block_given?` method in Ruby?",
+    "Option1": "Checks if a method has arguments.",
+    "Option2": "A method that returns `true` if a block was passed to the current method call, and `false` otherwise.",
+    "Option3": "Checks if a variable is defined.",
+    "Option4": "Checks if an object is not `nil`.",
+    "Answer": "A method that returns `true` if a block was passed to the current method call, and `false` otherwise."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `send` vs `public_send`?",
+    "Option1": "`send` can call private methods, `public_send` only calls public methods.",
+    "Option2": "`send` and `public_send` are identical.",
+    "Option3": "`send` is for objects, `public_send` is for classes.",
+    "Option4": "`send` raises an error for non-existent methods, `public_send` returns nil.",
+    "Answer": "`send` can call private methods, `public_send` only calls public methods."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `Object#tap` in Ruby?",
+    "Option1": "A method to modify an object in place.",
+    "Option2": "A method that yields the receiver to a block and then returns the receiver itself, useful for method chaining with intermediate operations.",
+    "Option3": "A method to check if an object is null.",
+    "Option4": "A method to create a copy of an object.",
+    "Answer": "A method that yields the receiver to a block and then returns the receiver itself, useful for method chaining with intermediate operations."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `Object#try` (Rails specific) or `&.` (safe navigation operator)?",
+    "Option1": "Used for error handling.",
+    "Option2": "Methods/operators that call a method on an object only if the object is not `nil`, preventing `NoMethodError`.",
+    "Option3": "Used for conditional assignment.",
+    "Option4": "Used for type conversion.",
+    "Answer": "Methods/operators that call a method on an object only if the object is not `nil`, preventing `NoMethodError`."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `OpenStruct` in Ruby?",
+    "Option1": "A class for defining fixed structures.",
+    "Option2": "A class that creates objects whose attributes can be defined dynamically at runtime, often used for converting hashes into objects with dot notation access.",
+    "Option3": "A class for handling file I/O.",
+    "Option4": "A class for mathematical operations.",
+    "Answer": "A class that creates objects whose attributes can be defined dynamically at runtime, often used for converting hashes into objects with dot notation access."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `Struct` in Ruby?",
+    "Option1": "A class for creating dynamic objects.",
+    "Option2": "A class that allows you to create simple classes with accessors for attributes, similar to a lightweight data structure with predefined fields.",
+    "Option3": "A class for handling exceptions.",
+    "Option4": "A class for defining modules.",
+    "Answer": "A class that allows you to create simple classes with accessors for attributes, similar to a lightweight data structure with predefined fields."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the main difference between `OpenStruct` and `Struct`?",
+    "Option1": "`OpenStruct` requires predefined attributes, `Struct` allows dynamic attributes.",
+    "Option2": "`OpenStruct` allows dynamic attributes at runtime, `Struct` requires predefined attributes at definition time.",
+    "Option3": "`OpenStruct` is immutable, `Struct` is mutable.",
+    "Option4": "They are functionally identical.",
+    "Answer": "`OpenStruct` allows dynamic attributes at runtime, `Struct` requires predefined attributes at definition time."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `Marshal` in Ruby?",
+    "Option1": "A tool for debugging.",
+    "Option2": "A built-in module for serializing and deserializing Ruby objects into a byte stream, allowing them to be stored in files or transmitted over a network.",
+    "Option3": "A method for encryption.",
+    "Option4": "A method for parsing JSON.",
+    "Answer": "A built-in module for serializing and deserializing Ruby objects into a byte stream, allowing them to be stored in files or transmitted over a network."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `YAML` in Ruby?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A human-friendly data serialization standard, often used for configuration files, and Ruby has built-in support for parsing and generating it.",
+    "Option3": "A database language.",
+    "Option4": "A testing framework.",
+    "Answer": "A human-friendly data serialization standard, often used for configuration files, and Ruby has built-in support for parsing and generating it."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `JSON` in Ruby?",
+    "Option1": "A markup language.",
+    "Option2": "JavaScript Object Notation, a lightweight data-interchange format, commonly used for data exchange between web applications, and Ruby has a standard library for it.",
+    "Option3": "A database query language.",
+    "Option4": "A styling language.",
+    "Answer": "JavaScript Object Notation, a lightweight data-interchange format, commonly used for data exchange between web applications, and Ruby has a standard library for it."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `CSV` (revisited)?",
+    "Option1": "A data visualization tool.",
+    "Option2": "Comma Separated Values, a common file format for tabular data, easily parsed and generated using Ruby's built-in `CSV` library.",
+    "Option3": "A file compression format.",
+    "Option4": "A type of network protocol.",
+    "Answer": "Comma Separated Values, a common file format for tabular data, easily parsed and generated using Ruby's built-in `CSV` library."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `Rack` in Ruby?",
+    "Option1": "A web server.",
+    "Option2": "A modular interface between web servers and Ruby web frameworks (like Rails or Sinatra), providing a minimal API for building web applications.",
+    "Option3": "A database adapter.",
+    "Option4": "A templating engine.",
+    "Answer": "A modular interface between web servers and Ruby web frameworks (like Rails or Sinatra), providing a minimal API for building web applications."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `Sinatra` in Ruby?",
+    "Option1": "A full-stack web framework like Rails.",
+    "Option2": "A minimalist web application framework written in Ruby, offering a domain-specific language for quickly creating web applications with minimal effort.",
+    "Option3": "A testing framework.",
+    "Option4": "A database management system.",
+    "Answer": "A minimalist web application framework written in Ruby, offering a domain-specific language for quickly creating web applications with minimal effort."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `Puma` or `Unicorn`?",
+    "Option1": "Database servers.",
+    "Option2": "Web servers for Ruby applications, designed to serve Rack-compatible applications.",
+    "Option3": "Caching mechanisms.",
+    "Option4": "Frontend frameworks.",
+    "Answer": "Web servers for Ruby applications, designed to serve Rack-compatible applications."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `Capybara` in Ruby?",
+    "Option1": "A unit testing framework.",
+    "Option2": "A web automation library for Ruby that helps you test web applications by simulating how a real user would interact with the application.",
+    "Option3": "A performance monitoring tool.",
+    "Option4": "A data parsing library.",
+    "Answer": "A web automation library for Ruby that helps you test web applications by simulating how a real user would interact with the application."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `RSpec` in Ruby?",
+    "Option1": "A debugging tool.",
+    "Option2": "A popular testing framework for Ruby, known for its behavior-driven development (BDD) syntax and expressiveness.",
+    "Option3": "A deployment tool.",
+    "Option4": "A code formatter.",
+    "Answer": "A popular testing framework for Ruby, known for its behavior-driven development (BDD) syntax and expressiveness."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `Minitest` in Ruby?",
+    "Option1": "A third-party testing framework.",
+    "Option2": "A standard library in Ruby that provides a small, fast, and full-featured testing framework, offering both TDD and BDD styles.",
+    "Option3": "A tool for code analysis.",
+    "Option4": "A performance testing tool.",
+    "Answer": "A standard library in Ruby that provides a small, fast, and full-featured testing framework, offering both TDD and BDD styles."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `FactoryBot` (formerly Factory Girl) in Ruby on Rails?",
+    "Option1": "A tool for creating database schemas.",
+    "Option2": "A library for creating test data (factories) in Ruby, helping to manage test setup and avoid repetitive data creation in tests.",
+    "Option3": "A build automation tool.",
+    "Option4": "A code generation tool.",
+    "Answer": "A library for creating test data (factories) in Ruby, helping to manage test setup and avoid repetitive data creation in tests."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `Faker` in Ruby?",
+    "Option1": "A library for validating data.",
+    "Option2": "A gem for generating realistic-looking fake data (names, addresses, emails, etc.) for testing and development purposes.",
+    "Option3": "A library for data encryption.",
+    "Option4": "A library for parsing real data.",
+    "Answer": "A gem for generating realistic-looking fake data (names, addresses, emails, etc.) for testing and development purposes."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `Guard` in Ruby?",
+    "Option1": "A security gem.",
+    "Option2": "A command-line tool that watches file system modifications and automatically runs tasks (like tests) based on those changes.",
+    "Option3": "A tool for code obfuscation.",
+    "Option4": "A performance monitoring tool.",
+    "Answer": "A command-line tool that watches file system modifications and automatically runs tasks (like tests) based on those changes."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `Pry` (revisited) and why is it preferred over `irb` by some?",
+    "Option1": "Pry is faster for large datasets.",
+    "Option2": "Pry offers enhanced features like syntax highlighting, source code Browse, method lookup, and better debugging capabilities, making it more powerful for interactive development.",
+    "Option3": "Pry is built into Ruby, `irb` is a gem.",
+    "Option4": "Pry has a simpler syntax.",
+    "Answer": "Pry offers enhanced features like syntax highlighting, source code Browse, method lookup, and better debugging capabilities, making it more powerful for interactive development."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `Rails Console`?",
+    "Option1": "A separate command-line interface for databases.",
+    "Option2": "An interactive Ruby console that provides access to the Rails application's environment, including models, controllers, and helpers.",
+    "Option3": "A tool for deploying Rails applications.",
+    "Option4": "A web-based debugger for Rails.",
+    "Answer": "An interactive Ruby console that provides access to the Rails application's environment, including models, controllers, and helpers."
+  },
+  {
+    "question_no.": 155,
+    "Question": "How do you start the Rails console?",
+    "Option1": "ruby console",
+    "Option2": "rails c",
+    "Option3": "bundle exec rails server",
+    "Option4": "irb rails",
+    "Answer": "rails c"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `rake db:migrate` in Rails?",
+    "Option1": "Creates a new database.",
+    "Option2": "Runs pending database migrations, applying schema changes to the database.",
+    "Option3": "Seeds the database with initial data.",
+    "Option4": "Rolls back the last migration.",
+    "Answer": "Runs pending database migrations, applying schema changes to the database."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `rake db:seed` in Rails?",
+    "Option1": "Creates database tables.",
+    "Option2": "Populates the database with initial data defined in `db/seeds.rb`.",
+    "Option3": "Resets the database.",
+    "Option4": "Deletes all data from the database.",
+    "Answer": "Populates the database with initial data defined in `db/seeds.rb`."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `Rails Guides`?",
+    "Option1": "A set of Ruby tutorials.",
+    "Option2": "The official documentation for Ruby on Rails, providing comprehensive guides on various aspects of the framework.",
+    "Option3": "A list of best practices for Ruby.",
+    "Option4": "A book about Ruby programming.",
+    "Answer": "The official documentation for Ruby on Rails, providing comprehensive guides on various aspects of the framework."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `Convention over Configuration` in Rails?",
+    "Option1": "Developers must explicitly configure everything.",
+    "Option2": "A principle where the framework makes assumptions about the best way to do things, reducing the need for explicit configuration, as long as developers follow established conventions.",
+    "Option3": "Configuration is always prioritized over convention.",
+    "Option4": "No configuration is ever needed.",
+    "Answer": "A principle where the framework makes assumptions about the best way to do things, reducing the need for explicit configuration, as long as developers follow established conventions."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `DRY` principle in Rails/Ruby?",
+    "Option1": "Don't Repeat Yourself",
+    "Option2": "Do Remember Your Code",
+    "Option3": "Develop Rapidly Yourself",
+    "Option4": "Design Responsive Yields",
+    "Answer": "Don't Repeat Yourself"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `MVC` architecture in Rails?",
+    "Option1": "Model-View-Compute",
+    "Option2": "Model-View-Controller",
+    "Option3": "Module-Value-Cache",
+    "Option4": "Method-Variable-Class",
+    "Answer": "Model-View-Controller"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the role of the `Model` in MVC?",
+    "Option1": "Handles user interactions.",
+    "Option2": "Represents the application's data, business logic, and rules for manipulating data.",
+    "Option3": "Displays data to the user.",
+    "Option4": "Manages routing.",
+    "Answer": "Represents the application's data, business logic, and rules for manipulating data."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the role of the `View` in MVC?",
+    "Option1": "Handles user input.",
+    "Option2": "Presents the data to the user, typically as an HTML template.",
+    "Option3": "Processes data logic.",
+    "Option4": "Manages database connections.",
+    "Answer": "Presents the data to the user, typically as an HTML template."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the role of the `Controller` in MVC?",
+    "Option1": "Stores application data.",
+    "Option2": "Acts as an intermediary, receiving user input, coordinating with the Model to retrieve/update data, and selecting the appropriate View to display.",
+    "Option3": "Generates HTML.",
+    "Option4": "Manages external APIs.",
+    "Answer": "Acts as an intermediary, receiving user input, coordinating with the Model to retrieve/update data, and selecting the appropriate View to display."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `RESTful API` in Rails?",
+    "Option1": "An API that uses SOAP protocol.",
+    "Option2": "An architectural style for networked applications that defines a set of constraints for how resources are accessed and manipulated using standard HTTP methods (GET, POST, PUT, DELETE).",
+    "Option3": "An API that uses only GET requests.",
+    "Option4": "An API for real-time communication.",
+    "Answer": "An architectural style for networked applications that defines a set of constraints for how resources are accessed and manipulated using standard HTTP methods (GET, POST, PUT, DELETE)."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What are the standard HTTP verbs used in RESTful APIs?",
+    "Option1": "CREATE, READ, UPDATE, DESTROY",
+    "Option2": "GET, POST, PUT, DELETE",
+    "Option3": "FETCH, SAVE, MODIFY, REMOVE",
+    "Option4": "REQUEST, RESPOND, EXECUTE, TERMINATE",
+    "Answer": "GET, POST, PUT, DELETE"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `Routing` in Rails?",
+    "Option1": "Defining database relationships.",
+    "Option2": "The process of mapping incoming HTTP requests (URLs) to specific controller actions.",
+    "Option3": "Managing user authentication.",
+    "Option4": "Generating HTML views.",
+    "Answer": "The process of mapping incoming HTTP requests (URLs) to specific controller actions."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `resources :photos` in `config/routes.rb` do?",
+    "Option1": "Creates a single route for photos.",
+    "Option2": "A Rails helper that generates a full set of RESTful routes (index, show, new, create, edit, update, destroy) for the 'photos' resource.",
+    "Option3": "Defines a database table for photos.",
+    "Option4": "Generates a photo gallery.",
+    "Answer": "A Rails helper that generates a full set of RESTful routes (index, show, new, create, edit, update, destroy) for the 'photos' resource."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `Flash Messages` in Rails?",
+    "Option1": "Messages that appear for a long time.",
+    "Option2": "Temporary messages (e.g., success, error notices) that are displayed to the user on the next page request and then disappear.",
+    "Option3": "Messages that are permanently stored in the database.",
+    "Option4": "Messages that are sent to the server.",
+    "Answer": "Temporary messages (e.g., success, error notices) that are displayed to the user on the next page request and then disappear."
+  },
+  {
+    "question_no.": 170,
+    "Question": "How do you set a flash message in a Rails controller?",
+    "Option1": "message = 'Hello'",
+    "Option2": "flash[:notice] = 'Item created successfully!'",
+    "Option3": "render_message 'Hello'",
+    "Option4": "puts 'Hello'",
+    "Answer": "flash[:notice] = 'Item created successfully!'"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `Partials` in Rails views?",
+    "Option1": "Incomplete HTML files.",
+    "Option2": "Reusable chunks of view code (e.g., forms, navigation bars) that can be rendered within other views, promoting the DRY principle.",
+    "Option3": "A way to define global variables in views.",
+    "Option4": "A method for dynamically generating HTML.",
+    "Answer": "Reusable chunks of view code (e.g., forms, navigation bars) that can be rendered within other views, promoting the DRY principle."
+  },
+  {
+    "question_no.": 172,
+    "Question": "How do you render a partial in a Rails view?",
+    "Option1": "<%= include 'my_partial' %>",
+    "Option2": "<%= render 'my_partial' %>",
+    "Option3": "<%= partial 'my_partial' %>",
+    "Option4": "<%= import 'my_partial' %>",
+    "Answer": "<%= render 'my_partial' %>"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What are `Layouts` in Rails views?",
+    "Option1": "Specific sections of a view.",
+    "Option2": "Templates that define the common structure of multiple views, including shared elements like headers, footers, and navigation.",
+    "Option3": "Styling definitions for views.",
+    "Option4": "Data structures for views.",
+    "Answer": "Templates that define the common structure of multiple views, including shared elements like headers, footers, and navigation."
+  },
+  {
+    "question_no.": 174,
+    "Question": "How do you embed content into a Rails layout?",
+    "Option1": "<%= body %>",
+    "Option2": "<%= yield %>",
+    "Option3": "<%= content %>",
+    "Option4": "<%= main %>",
+    "Answer": "<%= yield %>"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `Asset Pipeline` in Rails?",
+    "Option1": "A tool for managing database assets.",
+    "Option2": "A framework that provides a way to concatenate, minify, and serve CSS, JavaScript, and image assets for web applications, improving performance.",
+    "Option3": "A tool for handling server-side assets.",
+    "Option4": "A tool for managing user accounts.",
+    "Answer": "A framework that provides a way to concatenate, minify, and serve CSS, JavaScript, and image assets for web applications, improving performance."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `Sprockets` in Rails?",
+    "Option1": "A templating engine.",
+    "Option2": "The gem that powers the Asset Pipeline, providing concatenation, minification, and preprocessor support for assets.",
+    "Option3": "A routing library.",
+    "Option4": "A database migration tool.",
+    "Answer": "The gem that powers the Asset Pipeline, providing concatenation, minification, and preprocessor support for assets."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `webpacker` in Rails (for newer Rails versions)?",
+    "Option1": "A tool for bundling Ruby code.",
+    "Option2": "A gem that integrates Webpack with Rails, allowing the use of modern JavaScript tools, frameworks, and asset bundling strategies.",
+    "Option3": "A tool for database management.",
+    "Option4": "A tool for generating static sites.",
+    "Answer": "A gem that integrates Webpack with Rails, allowing the use of modern JavaScript tools, frameworks, and asset bundling strategies."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Active Job` in Rails?",
+    "Option1": "A background process manager.",
+    "Option2": "A framework for declaring and running background jobs, providing a common interface over various queueing backends (e.g., Sidekiq, Resque).",
+    "Option3": "A tool for managing active users.",
+    "Option4": "A tool for real-time communication.",
+    "Answer": "A framework for declaring and running background jobs, providing a common interface over various queueing backends (e.g., Sidekiq, Resque)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "When would you use `Active Job`?",
+    "Option1": "For immediate, synchronous tasks.",
+    "Option2": "For long-running tasks, computationally intensive operations, or tasks that don't need immediate user feedback (e.g., sending emails, processing images).",
+    "Option3": "For simple data retrieval.",
+    "Option4": "For styling components.",
+    "Answer": "For long-running tasks, computationally intensive operations, or tasks that don't need immediate user feedback (e.g., sending emails, processing images)."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Action Cable` in Rails?",
+    "Option1": "A way to send emails asynchronously.",
+    "Option2": "A framework for integrating WebSockets with Rails applications, allowing for real-time communication between clients and servers.",
+    "Option3": "A tool for API versioning.",
+    "Option4": "A tool for building command-line applications.",
+    "Answer": "A framework for integrating WebSockets with Rails applications, allowing for real-time communication between clients and servers."
+  },
+  {
+    "question_no.": 181,
+    "Question": "When would you use `Action Cable`?",
+    "Option1": "For static content.",
+    "Option2": "For features requiring real-time updates, such as chat applications, live notifications, or collaborative editing.",
+    "Option3": "For traditional HTTP requests.",
+    "Option4": "For basic form submissions.",
+    "Answer": "For features requiring real-time updates, such as chat applications, live notifications, or collaborative editing."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Action Mailer` in Rails?",
+    "Option1": "A tool for sending faxes.",
+    "Option2": "A framework for sending and receiving emails from a Rails application.",
+    "Option3": "A tool for managing user mailboxes.",
+    "Option4": "A tool for generating email templates.",
+    "Answer": "A framework for sending and receiving emails from a Rails application."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Rails API Mode`?",
+    "Option1": "A mode for building full-stack web applications.",
+    "Option2": "A stripped-down version of Rails designed for building API-only applications, excluding components typically used for browser rendering (e.g., asset pipeline, Action View).",
+    "Option3": "A mode that optimizes database performance.",
+    "Option4": "A mode for developing mobile applications.",
+    "Answer": "A stripped-down version of Rails designed for building API-only applications, excluding components typically used for browser rendering (e.g., asset pipeline, Action View)."
+  },
+  {
+    "question_no.": 184,
+    "Question": "When would you use `Rails API Mode`?",
+    "Option1": "When building a traditional web application with server-rendered views.",
+    "Option2": "When building a backend API for a separate frontend (e.g., a single-page application, mobile app) or for microservices.",
+    "Option3": "When you don't need any routing.",
+    "Option4": "When deploying to a static web host.",
+    "Answer": "When building a backend API for a separate frontend (e.g., a single-page application, mobile app) or for microservices."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Strong Parameters` in Rails?",
+    "Option1": "A way to make parameters immutable.",
+    "Option2": "A security feature that requires you to explicitly permit which parameters are allowed to be mass-assigned to a model, preventing malicious users from injecting unwanted data.",
+    "Option3": "A way to encrypt parameters.",
+    "Option4": "A way to validate parameter types.",
+    "Answer": "A security feature that requires you to explicitly permit which parameters are allowed to be mass-assigned to a model, preventing malicious users from injecting unwanted data."
+  },
+  {
+    "question_no.": 186,
+    "Question": "How do you implement `Strong Parameters` in a Rails controller?",
+    "Option1": "params.permit(:name, :email)",
+    "Option2": "params[:user].allow(:name, :email)",
+    "Option3": "params.require(:user).permit(:name, :email)",
+    "Option4": "params.get(:name, :email)",
+    "Answer": "params.require(:user).permit(:name, :email)"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What are `Callbacks` in Rails (Active Record)?",
+    "Option1": "Methods that are called explicitly by the developer.",
+    "Option2": "Hooks that allow you to attach code to events in the lifecycle of an Active Record object (e.g., `before_save`, `after_create`).",
+    "Option3": "Methods that handle HTTP requests.",
+    "Option4": "Methods that define database schemas.",
+    "Answer": "Hooks that allow you to attach code to events in the lifecycle of an Active Record object (e.g., `before_save`, `after_create`)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "Name some common Active Record callbacks.",
+    "Option1": "start, end, run",
+    "Option2": "before_validation, after_save, before_destroy, after_commit",
+    "Option3": "init, process, finish",
+    "Option4": "get_data, set_data, delete_data",
+    "Answer": "before_validation, after_save, before_destroy, after_commit"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `Concerns` in Rails?",
+    "Option1": "A way to define global variables.",
+    "Option2": "A module-based approach to extract and share reusable logic (e.g., methods, callbacks, associations) across multiple models, controllers, or other classes, promoting the DRY principle.",
+    "Option3": "A way to handle exceptions.",
+    "Option4": "A way to organize views.",
+    "Answer": "A module-based approach to extract and share reusable logic (e.g., methods, callbacks, associations) across multiple models, controllers, or other classes, promoting the DRY principle."
+  },
+  {
+    "question_no.": 190,
+    "Question": "When would you use `Concerns`?",
+    "Option1": "For very small, single-purpose methods.",
+    "Option2": "When you have a set of related methods, callbacks, or associations that are shared by multiple models or controllers, to avoid code duplication and improve organization.",
+    "Option3": "When dealing with external APIs.",
+    "Option4": "When defining routes.",
+    "Answer": "When you have a set of related methods, callbacks, or associations that are shared by multiple models or controllers, to avoid code duplication and improve organization."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `i18n` in Rails?",
+    "Option1": "Internationalization, providing tools to support multiple languages and locales in your application.",
+    "Option2": "Integration with external APIs.",
+    "Option3": "Internal network communication.",
+    "Option4": "Input validation.",
+    "Answer": "Internationalization, providing tools to support multiple languages and locales in your application."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `L10n` in Rails?",
+    "Option1": "Localization, adapting the application to a specific language, region, or culture, which includes translating text and formatting data.",
+    "Option2": "Logging information.",
+    "Option3": "Loading data from a database.",
+    "Option4": "Linking external files.",
+    "Answer": "Localization, adapting the application to a specific language, region, or culture, which includes translating text and formatting data."
+  },
+  {
+    "question_no.": 193,
+    "Question": "How do you translate content in Rails views using `i18n`?",
+    "Option1": "t('hello_world')",
+    "Option2": "translate('hello_world')",
+    "Option3": "I18n.t('hello_world')",
+    "Option4": "I18n.translate_text('hello_world')",
+    "Answer": "I18n.t('hello_world')"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `polymorphic associations` in Rails?",
+    "Option1": "Associations between two models.",
+    "Option2": "A single association that can belong to multiple different models on the other side, providing flexibility when models share a common concept but differ in type.",
+    "Option3": "Associations with multiple foreign keys.",
+    "Option4": "Associations that inherit properties from each other.",
+    "Answer": "A single association that can belong to multiple different models on the other side, providing flexibility when models share a common concept but differ in type."
+  },
+  {
+    "question_no.": 195,
+    "Question": "When would you use `polymorphic associations`?",
+    "Option1": "When two models have a simple one-to-one relationship.",
+    "Option2": "When you have a model (e.g., `Comment`) that can belong to multiple other models (e.g., `Article`, `Photo`) without creating separate foreign keys for each.",
+    "Option3": "When you need to define many-to-many relationships.",
+    "Option4": "When you want to avoid using foreign keys.",
+    "Answer": "When you have a model (e.g., `Comment`) that can belong to multiple other models (e.g., `Article`, `Photo`) without creating separate foreign keys for each."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `Scaffolding` in Rails?",
+    "Option1": "A tool for deploying applications.",
+    "Option2": "A code generation feature that quickly creates basic CRUD (Create, Read, Update, Delete) functionality for a resource, including model, controller, views, and routes.",
+    "Option3": "A tool for building complex UIs.",
+    "Option4": "A way to manage database transactions.",
+    "Answer": "A code generation feature that quickly creates basic CRUD (Create, Read, Update, Delete) functionality for a resource, including model, controller, views, and routes."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Is `Scaffolding` typically used in production applications?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it's primarily a development tool for rapidly prototyping and getting started, as the generated code is generic and often needs customization for production.",
+    "Option3": "Only for small projects.",
+    "Option4": "Only for testing purposes.",
+    "Answer": "No, it's primarily a development tool for rapidly prototyping and getting started, as the generated code is generic and often needs customization for production."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `Active Model` in Rails?",
+    "Option1": "A framework for managing database interactions.",
+    "Option2": "A module that provides a set of features (e.g., validations, callbacks, serialization) to plain Ruby objects, making them behave like Active Record models without needing a database connection.",
+    "Option3": "A tool for generating models.",
+    "Option4": "A tool for testing models.",
+    "Answer": "A module that provides a set of features (e.g., validations, callbacks, serialization) to plain Ruby objects, making them behave like Active Record models without needing a database connection."
+  },
+  {
+    "question_no.": 199,
+    "Question": "When would you use `Active Model`?",
+    "Option1": "When working with database-backed models only.",
+    "Option2": "When you need to add validation, callbacks, or other model-like behavior to non-Active Record objects, such as form objects or objects from external APIs.",
+    "Option3": "When building a RESTful API.",
+    "Option4": "When defining complex relationships.",
+    "Answer": "When you need to add validation, callbacks, or other model-like behavior to non-Active Record objects, such as form objects or objects from external APIs."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `Action View` in Rails?",
+    "Option1": "The component that handles routing.",
+    "Option2": "The component responsible for handling the presentation layer, including rendering templates (ERB, Haml, Slim), partials, and layouts.",
+    "Option3": "The component that manages database connections.",
+    "Option4": "The component that handles user input.",
+    "Answer": "The component responsible for handling the presentation layer, including rendering templates (ERB, Haml, Slim), partials, and layouts."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `Action Controller` in Rails?",
+    "Option1": "The component that manages database interactions.",
+    "Option2": "The component responsible for processing incoming requests, interacting with models, and orchestrating the response (rendering views, redirecting, etc.).",
+    "Option3": "The component that handles background jobs.",
+    "Option4": "The component that manages asset compilation.",
+    "Answer": "The component responsible for processing incoming requests, interacting with models, and orchestrating the response (rendering views, redirecting, etc.)."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `Action Record` (Oops, Active Record) in Rails?",
+    "Option1": "A tool for managing user sessions.",
+    "Option2": "The ORM layer that maps Ruby objects to database tables, simplifying database interactions by providing an object-oriented interface.",
+    "Option3": "A tool for sending emails.",
+    "Option4": "A tool for handling real-time communication.",
+    "Answer": "The ORM layer that maps Ruby objects to database tables, simplifying database interactions by providing an object-oriented interface."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `Active Support` in Rails?",
+    "Option1": "A gem for database administration.",
+    "Option2": "A collection of utility classes and extensions to standard Ruby libraries, providing common functionalities needed in Rails applications (e.g., time calculations, inflections).",
+    "Option3": "A library for testing.",
+    "Option4": "A tool for deployment.",
+    "Answer": "A collection of utility classes and extensions to standard Ruby libraries, providing common functionalities needed in Rails applications (e.g., time calculations, inflections)."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `Active Storage` in Rails?",
+    "Option1": "A database management system.",
+    "Option2": "A gem that provides services for uploading files to a cloud storage service (e.g., Amazon S3, Google Cloud Storage, Azure Storage) and attaching them to Active Record objects.",
+    "Option3": "A tool for managing user authentication.",
+    "Option4": "A tool for managing in-memory data.",
+    "Answer": "A gem that provides services for uploading files to a cloud storage service (e.g., Amazon S3, Google Cloud Storage, Azure Storage) and attaching them to Active Record objects."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `Active Text` (Rails 6+)?",
+    "Option1": "A rich text editor for markdown.",
+    "Option2": "A rich text editor that provides easy attachment of images and other files, integrating seamlessly with Active Storage.",
+    "Option3": "A tool for text-to-speech conversion.",
+    "Option4": "A tool for natural language processing.",
+    "Answer": "A rich text editor that provides easy attachment of images and other files, integrating seamlessly with Active Storage."
+  }
+]

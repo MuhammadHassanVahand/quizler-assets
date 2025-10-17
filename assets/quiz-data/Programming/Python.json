@@ -1,0 +1,1846 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of language is Python?",
+    "Option1": "Compiled",
+    "Option2": "Interpreted",
+    "Option3": "Both compiled and interpreted",
+    "Option4": "Assembly",
+    "Answer": "Interpreted"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which of the following data types is immutable in Python?",
+    "Option1": "List",
+    "Option2": "Dictionary",
+    "Option3": "Tuple",
+    "Option4": "Set",
+    "Answer": "Tuple"
+  },
+  {
+    "question_no.": 3,
+    "Question": "How do you comment out a single line in Python?",
+    "Option1": "// This is a comment",
+    "Option2": "/* This is a comment */",
+    "Option3": "# This is a comment",
+    "Option4": "",
+    "Answer": "# This is a comment"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which keyword is used to define a function in Python?",
+    "Option1": "function",
+    "Option2": "def",
+    "Option3": "func",
+    "Option4": "define",
+    "Answer": "def"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you assign a value to a variable in Python?",
+    "Option1": "x == 10",
+    "Option2": "x = 10",
+    "Option3": "x := 10",
+    "Option4": "let x = 10",
+    "Answer": "x = 10"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which built-in function is used to print output to the console?",
+    "Option1": "console.log()",
+    "Option2": "print()",
+    "Option3": "display()",
+    "Option4": "output()",
+    "Answer": "print()"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which operator is used for exponentiation in Python?",
+    "Option1": "^",
+    "Option2": "**",
+    "Option3": "//",
+    "Option4": "%",
+    "Answer": "**"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the result of `5 // 2` in Python?",
+    "Option1": "2.5",
+    "Option2": "2",
+    "Option3": "3",
+    "Option4": "1",
+    "Answer": "2"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you check the type of a variable in Python?",
+    "Option1": "typeof(variable)",
+    "Option2": "type(variable)",
+    "Option3": "get_type(variable)",
+    "Option4": "variable.type()",
+    "Answer": "type(variable)"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which of the following is used to create a list in Python?",
+    "Option1": "{}",
+    "Option2": "()",
+    "Option3": "[]",
+    "Option4": "<>",
+    "Answer": "[]"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you access the first element of a list named `my_list`?",
+    "Option1": "my_list[1]",
+    "Option2": "my_list.first()",
+    "Option3": "my_list[0]",
+    "Option4": "my_list(0)",
+    "Answer": "my_list[0]"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What method is used to add an element to the end of a list?",
+    "Option1": "insert()",
+    "Option2": "add()",
+    "Option3": "append()",
+    "Option4": "push()",
+    "Answer": "append()"
+  },
+  {
+    "question_no.": 13,
+    "Question": "How do you remove an element from a list by its value?",
+    "Option1": "delete()",
+    "Option2": "pop()",
+    "Option3": "remove()",
+    "Option4": "discard()",
+    "Answer": "remove()"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is slicing in Python lists?",
+    "Option1": "Dividing a list into multiple sub-lists.",
+    "Option2": "A way to access a range of elements in a list.",
+    "Option3": "Sorting a list alphabetically.",
+    "Option4": "Converting a list to a string.",
+    "Answer": "A way to access a range of elements in a list."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What does `my_list[1:4]` return?",
+    "Option1": "Elements from index 1 to 4, including 4.",
+    "Option2": "Elements from index 1 to 3, excluding 4.",
+    "Option3": "Elements at index 1 and 4.",
+    "Option4": "An error.",
+    "Answer": "Elements from index 1 to 3, excluding 4."
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which loop is used to iterate over a sequence (like a list or string) in Python?",
+    "Option1": "while loop",
+    "Option2": "do-while loop",
+    "Option3": "for loop",
+    "Option4": "repeat loop",
+    "Answer": "for loop"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you create a dictionary in Python?",
+    "Option1": "my_dict = []",
+    "Option2": "my_dict = ()",
+    "Option3": "my_dict = {}",
+    "Option4": "my_dict = new Dictionary()",
+    "Answer": "my_dict = {}"
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you access a value associated with a key 'name' in a dictionary `my_dict`?",
+    "Option1": "my_dict('name')",
+    "Option2": "my_dict.name",
+    "Option3": "my_dict['name']",
+    "Option4": "my_dict.get_key('name')",
+    "Answer": "my_dict['name']"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What method is used to get all keys from a dictionary?",
+    "Option1": "get_keys()",
+    "Option2": "keys()",
+    "Option3": "all_keys()",
+    "Option4": "dict_keys()",
+    "Answer": "keys()"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'set' in Python?",
+    "Option1": "An ordered collection of unique elements.",
+    "Option2": "An unordered collection of unique elements.",
+    "Option3": "An ordered collection of non-unique elements.",
+    "Option4": "A key-value pair collection.",
+    "Answer": "An unordered collection of unique elements."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you create an empty set in Python?",
+    "Option1": "my_set = {}",
+    "Option2": "my_set = []",
+    "Option3": "my_set = set()",
+    "Option4": "my_set = new Set()",
+    "Answer": "my_set = set()"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which statement is used for conditional execution in Python?",
+    "Option1": "if-then-else",
+    "Option2": "if-else",
+    "Option3": "conditional",
+    "Option4": "check",
+    "Answer": "if-else"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the correct way to write an `else if` condition in Python?",
+    "Option1": "else if",
+    "Option2": "elseif",
+    "Option3": "elif",
+    "Option4": "otherwise if",
+    "Answer": "elif"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is `indentation` used for in Python?",
+    "Option1": "To make the code look pretty.",
+    "Option2": "To define code blocks (e.g., in loops, functions, conditionals).",
+    "Option3": "To speed up code execution.",
+    "Option4": "To highlight comments.",
+    "Answer": "To define code blocks (e.g., in loops, functions, conditionals)."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What will happen if indentation is incorrect in Python?",
+    "Option1": "A warning will be issued.",
+    "Option2": "The code will run with unexpected behavior.",
+    "Option3": "An IndentationError will occur.",
+    "Option4": "Nothing, Python ignores indentation.",
+    "Answer": "An IndentationError will occur."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which keyword is used to exit from a loop prematurely?",
+    "Option1": "exit",
+    "Option2": "stop",
+    "Option3": "break",
+    "Option4": "continue",
+    "Answer": "break"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which keyword is used to skip the current iteration of a loop and move to the next?",
+    "Option1": "skip",
+    "Option2": "pass",
+    "Option3": "next",
+    "Option4": "continue",
+    "Answer": "continue"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `pass` statement used for in Python?",
+    "Option1": "To skip a line of code.",
+    "Option2": "As a placeholder for future code, doing nothing.",
+    "Option3": "To exit a function.",
+    "Option4": "To throw an exception.",
+    "Answer": "As a placeholder for future code, doing nothing."
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you import a module named `math` in Python?",
+    "Option1": "include math",
+    "Option2": "require math",
+    "Option3": "import math",
+    "Option4": "using math",
+    "Answer": "import math"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you import only the `sqrt` function from the `math` module?",
+    "Option1": "import math.sqrt",
+    "Option2": "from math import sqrt",
+    "Option3": "use math.sqrt",
+    "Option4": "load sqrt from math",
+    "Answer": "from math import sqrt"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is a `docstring` in Python?",
+    "Option1": "A type of comment that is ignored by the interpreter.",
+    "Option2": "A string literal that occurs as the first statement in a module, function, class, or method definition, used for documentation.",
+    "Option3": "A special type of string for error messages.",
+    "Option4": "A string used for variable names.",
+    "Answer": "A string literal that occurs as the first statement in a module, function, class, or method definition, used for documentation."
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which method is used to read a line from a file in Python?",
+    "Option1": "read_line()",
+    "Option2": "readline()",
+    "Option3": "get_line()",
+    "Option4": "read_text()",
+    "Answer": "readline()"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you open a file for writing (and create it if it doesn't exist)?",
+    "Option1": "open('file.txt', 'r')",
+    "Option2": "open('file.txt', 'w')",
+    "Option3": "open('file.txt', 'a')",
+    "Option4": "open('file.txt', 'x')",
+    "Answer": "open('file.txt', 'w')"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What does the `with` statement ensure when dealing with files?",
+    "Option1": "The file is opened in read-only mode.",
+    "Option2": "The file is automatically closed after its block is exited, even if errors occur.",
+    "Option3": "The file is encrypted.",
+    "Option4": "The file can only be accessed by one process at a time.",
+    "Answer": "The file is automatically closed after its block is exited, even if errors occur."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a `try-except` block used for in Python?",
+    "Option1": "To define a conditional statement.",
+    "Option2": "To handle exceptions (errors) that occur during code execution.",
+    "Option3": "To create a loop.",
+    "Option4": "To define a new function.",
+    "Answer": "To handle exceptions (errors) that occur during code execution."
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which block executes regardless of whether an exception occurred in a `try-except` block?",
+    "Option1": "else",
+    "Option2": "finally",
+    "Option3": "always",
+    "Option4": "then",
+    "Answer": "finally"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is `PEP 8` in Python?",
+    "Option1": "A specific Python version.",
+    "Option2": "The official style guide for Python code, providing recommendations on how to write Python code cleanly.",
+    "Option3": "A module for web development.",
+    "Option4": "A standard for database connections.",
+    "Answer": "The official style guide for Python code, providing recommendations on how to write Python code cleanly."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `pip` in Python?",
+    "Option1": "A Python IDE.",
+    "Option2": "The package installer for Python, used to install and manage third-party libraries.",
+    "Option3": "A built-in data structure.",
+    "Option4": "A debugging tool.",
+    "Answer": "The package installer for Python, used to install and manage third-party libraries."
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you install a package named `requests` using pip?",
+    "Option1": "install requests",
+    "Option2": "pip install requests",
+    "Option3": "python install requests",
+    "Option4": "get requests",
+    "Answer": "pip install requests"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a `virtual environment` in Python?",
+    "Option1": "A remote server for running Python code.",
+    "Option2": "A self-contained directory containing a Python installation and its own set of packages, isolated from other Python projects.",
+    "Option3": "A cloud computing service.",
+    "Option4": "A way to run multiple Python versions simultaneously.",
+    "Answer": "A self-contained directory containing a Python installation and its own set of packages, isolated from other Python projects."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Why are virtual environments recommended in Python development?",
+    "Option1": "They make code run faster.",
+    "Option2": "They ensure project dependencies don't conflict with each other or global Python installations.",
+    "Option3": "They provide better security for web applications.",
+    "Option4": "They are required for all Python projects.",
+    "Answer": "They ensure project dependencies don't conflict with each other or global Python installations."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What command is typically used to create a virtual environment?",
+    "Option1": "python -m venv myenv",
+    "Option2": "venv create myenv",
+    "Option3": "virtualenv myenv",
+    "Option4": "make virtualenv myenv",
+    "Answer": "python -m venv myenv"
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you activate a virtual environment on Linux/macOS?",
+    "Option1": "activate myenv",
+    "Option2": "source myenv/bin/activate",
+    "Option3": "call myenv/Scripts/activate",
+    "Option4": "myenv activate",
+    "Answer": "source myenv/bin/activate"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is a `class` in Python?",
+    "Option1": "A function that returns multiple values.",
+    "Option2": "A blueprint for creating objects (instances), providing initial values for state (member variables) and implementations of behavior (member functions).",
+    "Option3": "A type of variable that stores a list of numbers.",
+    "Option4": "A module for mathematical operations.",
+    "Answer": "A blueprint for creating objects (instances), providing initial values for state (member variables) and implementations of behavior (member functions)."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which method is the constructor for a class in Python?",
+    "Option1": "__init__()",
+    "Option2": "constructor()",
+    "Option3": "new()",
+    "Option4": "create()",
+    "Answer": "__init__()"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What does `self` refer to inside a class method?",
+    "Option1": "The class itself.",
+    "Option2": "The instance of the class (the object) on which the method was called.",
+    "Option3": "The parent class.",
+    "Option4": "A global variable.",
+    "Answer": "The instance of the class (the object) on which the method was called."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you create an instance of a class `MyClass`?",
+    "Option1": "obj = MyClass()",
+    "Option2": "obj = new MyClass()",
+    "Option3": "obj = create MyClass",
+    "Option4": "obj = MyClass.instance()",
+    "Answer": "obj = MyClass()"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `inheritance` in OOP?",
+    "Option1": "Bundling data and methods into a single unit.",
+    "Option2": "The mechanism by which one class acquires the properties and methods of another class.",
+    "Option3": "Allowing objects to take on multiple forms.",
+    "Option4": "Hiding implementation details.",
+    "Answer": "The mechanism by which one class acquires the properties and methods of another class."
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you inherit from a class `ParentClass` when defining `ChildClass`?",
+    "Option1": "class ChildClass extends ParentClass:",
+    "Option2": "class ChildClass inherits ParentClass:",
+    "Option3": "class ChildClass(ParentClass):",
+    "Option4": "class ChildClass from ParentClass:",
+    "Answer": "class ChildClass(ParentClass):"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is `polymorphism` in OOP?",
+    "Option1": "The ability of a single function name to have different behaviors in different classes.",
+    "Option2": "The ability to define multiple classes.",
+    "Option3": "The process of hiding implementation details.",
+    "Option4": "The ability to inherit from multiple classes.",
+    "Answer": "The ability of a single function name to have different behaviors in different classes."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `encapsulation` in OOP?",
+    "Option1": "Creating multiple objects from a single class.",
+    "Option2": "The bundling of data and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components.",
+    "Option3": "Allowing objects to have different types.",
+    "Option4": "Defining abstract methods.",
+    "Answer": "The bundling of data and methods that operate on the data within a single unit (class), and restricting direct access to some of the object's components."
+  },
+  {
+    "question_no.": 52,
+    "Question": "In Python, how do you indicate a 'private' member (by convention)?",
+    "Option1": "Using `private` keyword.",
+    "Option2": "Starting the name with a single underscore (e.g., `_my_variable`).",
+    "Option3": "Starting the name with a double underscore (e.g., `__my_variable`) for name mangling.",
+    "Option4": "Python does not support private members.",
+    "Answer": "Starting the name with a double underscore (e.g., `__my_variable`) for name mangling."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What are `decorators` in Python?",
+    "Option1": "Functions that enhance the appearance of code.",
+    "Option2": "Functions that take another function as an argument and extend or modify the behavior of the wrapped function.",
+    "Option3": "Special keywords for defining classes.",
+    "Option4": "Tools for debugging.",
+    "Answer": "Functions that take another function as an argument and extend or modify the behavior of the wrapped function."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is a `lambda function` (anonymous function) in Python?",
+    "Option1": "A function that can only be called once.",
+    "Option2": "A small, anonymous function defined with the `lambda` keyword, typically used for simple operations that can be defined in a single expression.",
+    "Option3": "A function that does not take any arguments.",
+    "Option4": "A function that automatically handles errors.",
+    "Answer": "A small, anonymous function defined with the `lambda` keyword, typically used for simple operations that can be defined in a single expression."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is `list comprehension` in Python?",
+    "Option1": "A method for sorting lists.",
+    "Option2": "A concise way to create lists, allowing you to build new lists from existing ones by applying an expression to each item.",
+    "Option3": "A way to check if a list is empty.",
+    "Option4": "A technique for concatenating lists.",
+    "Answer": "A concise way to create lists, allowing you to build new lists from existing ones by applying an expression to each item."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `generator` in Python?",
+    "Option1": "A function that generates random numbers.",
+    "Option2": "A function that returns an iterator, producing values one at a time using the `yield` keyword, saving memory for large sequences.",
+    "Option3": "A type of class that can only be instantiated once.",
+    "Option4": "A built-in data structure for storing large amounts of data.",
+    "Answer": "A function that returns an iterator, producing values one at a time using the `yield` keyword, saving memory for large sequences."
+  },
+  {
+    "question_no.": 57,
+    "Question": "When would you prefer a `generator` over a `list` for large datasets?",
+    "Option1": "When you need random access to elements.",
+    "Option2": "When memory efficiency is crucial, as generators produce values on demand rather than storing the entire sequence in memory.",
+    "Option3": "When you need to sort the data frequently.",
+    "Option4": "When the data size is fixed and small.",
+    "Answer": "When memory efficiency is crucial, as generators produce values on demand rather than storing the entire sequence in memory."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `map()` function used for in Python?",
+    "Option1": "To apply a function to each item in an iterable and return a list of the results.",
+    "Option2": "To apply a function to each item in an iterable and return a map object (an iterator).",
+    "Option3": "To create a dictionary from two lists.",
+    "Option4": "To filter elements from an iterable.",
+    "Answer": "To apply a function to each item in an iterable and return a map object (an iterator)."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is `filter()` function used for in Python?",
+    "Option1": "To apply a function to each item in an iterable.",
+    "Option2": "To construct a list from elements of an iterable for which a function returns true.",
+    "Option3": "To remove duplicate elements from an iterable.",
+    "Option4": "To sort elements in an iterable.",
+    "Answer": "To construct a list from elements of an iterable for which a function returns true."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `reduce()` function used for in Python (from `functools`)?",
+    "Option1": "To apply a function to a list element by element.",
+    "Option2": "To apply a rolling computation to sequential pairs of values in a list, resulting in a single cumulative value.",
+    "Option3": "To decrease the size of a list.",
+    "Option4": "To remove elements from a list.",
+    "Answer": "To apply a rolling computation to sequential pairs of values in a list, resulting in a single cumulative value."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `argparse` module used for?",
+    "Option1": "For parsing HTML documents.",
+    "Option2": "For parsing command-line arguments, making it easy to write user-friendly command-line interfaces.",
+    "Option3": "For parsing JSON data.",
+    "Option4": "For parsing XML files.",
+    "Answer": "For parsing command-line arguments, making it easy to write user-friendly command-line interfaces."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the primary purpose of the `requests` library?",
+    "Option1": "For creating graphical user interfaces.",
+    "Option2": "For making HTTP requests (e.g., GET, POST) to web servers.",
+    "Option3": "For managing databases.",
+    "Option4": "For performing mathematical calculations.",
+    "Answer": "For making HTTP requests (e.g., GET, POST) to web servers."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `Flask`?",
+    "Option1": "A full-stack web framework.",
+    "Option2": "A micro-framework for web development, known for its simplicity and flexibility.",
+    "Option3": "A Python library for data analysis.",
+    "Option4": "A database management system.",
+    "Answer": "A micro-framework for web development, known for its simplicity and flexibility."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `Django`?",
+    "Option1": "A micro-framework for web development.",
+    "Option2": "A high-level Python web framework that encourages rapid development and clean, pragmatic design, often referred to as 'batteries included'.",
+    "Option3": "A Python library for machine learning.",
+    "Option4": "A tool for scientific computing.",
+    "Answer": "A high-level Python web framework that encourages rapid development and clean, pragmatic design, often referred to as 'batteries included'."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `SQLAlchemy`?",
+    "Option1": "A database system.",
+    "Option2": "A Python SQL toolkit and Object Relational Mapper (ORM) that gives application developers the full power and flexibility of SQL.",
+    "Option3": "A library for data visualization.",
+    "Option4": "A tool for network programming.",
+    "Answer": "A Python SQL toolkit and Object Relational Mapper (ORM) that gives application developers the full power and flexibility of SQL."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is an `ORM` (Object-Relational Mapper)?",
+    "Option1": "A system for managing network routes.",
+    "Option2": "A technique that lets you query and manipulate data from a database using an object-oriented paradigm.",
+    "Option3": "A tool for organizing files in a project.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "A technique that lets you query and manipulate data from a database using an object-oriented paradigm."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `NumPy` primarily used for?",
+    "Option1": "Web development.",
+    "Option2": "Numerical computing in Python, especially for working with large, multi-dimensional arrays and matrices.",
+    "Option3": "Creating graphical user interfaces.",
+    "Option4": "Parsing text files.",
+    "Answer": "Numerical computing in Python, especially for working with large, multi-dimensional arrays and matrices."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `Pandas` primarily used for?",
+    "Option1": "Image processing.",
+    "Option2": "Data manipulation and analysis, providing data structures like DataFrames for efficient data handling.",
+    "Option3": "Creating animations.",
+    "Option4": "Network communication.",
+    "Answer": "Data manipulation and analysis, providing data structures like DataFrames for efficient data handling."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a `DataFrame` in Pandas?",
+    "Option1": "A single column of data.",
+    "Option2": "A 2-dimensional labeled data structure with columns of potentially different types, like a spreadsheet or SQL table.",
+    "Option3": "A row of data.",
+    "Option4": "A series of numbers.",
+    "Answer": "A 2-dimensional labeled data structure with columns of potentially different types, like a spreadsheet or SQL table."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `Matplotlib` used for?",
+    "Option1": "Text processing.",
+    "Option2": "Creating static, animated, and interactive visualizations in Python.",
+    "Option3": "Machine learning.",
+    "Option4": "Web scraping.",
+    "Answer": "Creating static, animated, and interactive visualizations in Python."
+  },
+  {
+    "question_no.": 71,    "Question": "What is `Scikit-learn`?",
+    "Option1": "A library for web development.",
+    "Option2": "A free software machine learning library for Python, featuring various classification, regression and clustering algorithms.",
+    "Option3": "A library for database interaction.",
+    "Option4": "A tool for unit testing.",
+    "Answer": "A free software machine learning library for Python, featuring various classification, regression and clustering algorithms."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `TensorFlow` or `PyTorch` used for?",
+    "Option1": "Web scraping.",
+    "Option2": "Deep learning and machine learning tasks, particularly neural networks.",
+    "Option3": "Data visualization.",
+    "Option4": "Mathematical calculations.",
+    "Answer": "Deep learning and machine learning tasks, particularly neural networks."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `Beautiful Soup` used for?",
+    "Option1": "Parsing XML files only.",
+    "Option2": "Parsing HTML and XML documents, making it easier to extract data from web pages (web scraping).",
+    "Option3": "Generating HTML.",
+    "Option4": "Validating HTML documents.",
+    "Answer": "Parsing HTML and XML documents, making it easier to extract data from web pages (web scraping)."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `Requests-HTML`?",
+    "Option1": "A library for creating HTML documents.",
+    "Option2": "A wrapper around `requests` for parsing HTML, rendering JavaScript, and interacting with pages similar to a browser.",
+    "Option3": "A tool for validating HTML.",
+    "Option4": "A library for making basic HTTP requests.",
+    "Answer": "A wrapper around `requests` for parsing HTML, rendering JavaScript, and interacting with pages similar to a browser."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `pytest` used for?",
+    "Option1": "A tool for code formatting.",
+    "Option2": "A testing framework for Python, known for its simple and scalable test syntax.",
+    "Option3": "A Python package manager.",
+    "Option4": "A debugging tool.",
+    "Answer": "A testing framework for Python, known for its simple and scalable test syntax."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `unittest` in Python?",
+    "Option1": "A third-party testing framework.",
+    "Option2": "Python's built-in unit testing framework, inspired by JUnit.",
+    "Option3": "A tool for integration testing.",
+    "Option4": "A library for measuring code performance.",
+    "Answer": "Python's built-in unit testing framework, inspired by JUnit."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `concurrency` in Python?",
+    "Option1": "Running multiple tasks sequentially.",
+    "Option2": "The ability to handle multiple tasks seemingly at the same time, often using threading or asyncio.",
+    "Option3": "A type of error in Python.",
+    "Option4": "A method for data encryption.",
+    "Answer": "The ability to handle multiple tasks seemingly at the same time, often using threading or asyncio."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the `GIL` (Global Interpreter Lock) in CPython?",
+    "Option1": "A mechanism that allows multiple threads to execute Python bytecode simultaneously.",
+    "Option2": "A mutex that protects access to Python objects, preventing multiple native threads from executing Python bytecodes at once.",
+    "Option3": "A security feature that locks down Python code.",
+    "Option4": "A tool for code optimization.",
+    "Answer": "A mutex that protects access to Python objects, preventing multiple native threads from executing Python bytecodes at once."
+  },
+  {
+    "question_no.": 79,
+    "Question": "How does the GIL affect multi-threading in CPU-bound tasks?",
+    "Option1": "It speeds them up significantly.",
+    "Option2": "It limits true parallel execution on multiple CPU cores, effectively making multi-threaded CPU-bound tasks run sequentially.",
+    "Option3": "It has no effect on multi-threading.",
+    "Option4": "It causes deadlocks.",
+    "Answer": "It limits true parallel execution on multiple CPU cores, effectively making multi-threaded CPU-bound tasks run sequentially."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What are common ways to achieve true parallelism in Python (bypassing GIL for CPU-bound tasks)?",
+    "Option1": "Using more threads.",
+    "Option2": "Using multiprocessing, spawning separate processes for each task.",
+    "Option3": "Using specific third-party libraries only.",
+    "Option4": "It's not possible in Python.",
+    "Answer": "Using multiprocessing, spawning separate processes for each task."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `asyncio` in Python?",
+    "Option1": "A library for synchronous programming.",
+    "Option2": "A library to write concurrent code using the `async/await` syntax, primarily for I/O-bound and high-level structured network code.",
+    "Option3": "A tool for parallelizing CPU-bound tasks.",
+    "Option4": "A framework for graphical user interfaces.",
+    "Answer": "A library to write concurrent code using the `async/await` syntax, primarily for I/O-bound and high-level structured network code."
+  },
+  {
+    "question_no.": 82,
+    "Question": "When is `asyncio` typically more beneficial than traditional threading?",
+    "Option1": "For CPU-bound tasks.",
+    "Option2": "For I/O-bound tasks where many operations can be performed concurrently while waiting for external resources (e.g., network requests, disk I/O).",
+    "Option3": "When simple sequential execution is required.",
+    "Option4": "For small, one-off scripts.",
+    "Answer": "For I/O-bound tasks where many operations can be performed concurrently while waiting for external resources (e.g., network requests, disk I/O)."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `closures` in Python?",
+    "Option1": "Functions that automatically close files.",
+    "Option2": "A nested function that has access to variables in its enclosing (outer) function's scope, even after the outer function has finished execution.",
+    "Option3": "Functions that return no value.",
+    "Option4": "Functions used to end a program.",
+    "Answer": "A nested function that has access to variables in its enclosing (outer) function's scope, even after the outer function has finished execution."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `__name__ == '__main__'` in Python scripts?",
+    "Option1": "A comment that marks the main execution block.",
+    "Option2": "A common idiom that ensures the code inside this block only runs when the script is executed directly, not when imported as a module.",
+    "Option3": "A method to define the entry point of a program.",
+    "Option4": "A security feature.",
+    "Answer": "A common idiom that ensures the code inside this block only runs when the script is executed directly, not when imported as a module."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `mypy` used for?",
+    "Option1": "A code formatter.",
+    "Option2": "A static type checker for Python, used to find errors in code based on type hints without running the code.",
+    "Option3": "A Python debugger.",
+    "Option4": "A unit testing framework.",
+    "Answer": "A static type checker for Python, used to find errors in code based on type hints without running the code."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What are `type hints` in Python?",
+    "Option1": "Comments indicating variable types.",
+    "Option2": "Syntax added to functions, variables, and class attributes to indicate their expected types, improving code readability and enabling static analysis.",
+    "Option3": "A feature for automatic type conversion.",
+    "Option4": "A way to define new data types.",
+    "Answer": "Syntax added to functions, variables, and class attributes to indicate their expected types, improving code readability and enabling static analysis."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Are `type hints` enforced at runtime in Python?",
+    "Option1": "Yes, always.",
+    "Option2": "No, they are primarily for static analysis and documentation; Python's runtime does not enforce them by default.",
+    "Option3": "Only if using specific Python versions.",
+    "Option4": "Only for primitive data types.",
+    "Answer": "No, they are primarily for static analysis and documentation; Python's runtime does not enforce them by default."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `CPython`?",
+    "Option1": "A different programming language.",
+    "Option2": "The default and most widely used implementation of the Python programming language, written in C.",
+    "Option3": "A Python compiler.",
+    "Option4": "A Python framework for embedded systems.",
+    "Answer": "The default and most widely used implementation of the Python programming language, written in C."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Name other Python implementations besides CPython.",
+    "Option1": "JavaPython, GCPython, WebPython",
+    "Option2": "Jython, IronPython, PyPy, MicroPython",
+    "Option3": "Python++', Python--",
+    "Option4": "PythonX, PythonY",
+    "Answer": "Jython, IronPython, PyPy, MicroPython"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `PyPy` known for?",
+    "Option1": "Its extensive library support.",
+    "Option2": "Being a fast, compliant alternative implementation of Python with a Just-In-Time (JIT) compiler.",
+    "Option3": "Its small memory footprint.",
+    "Option4": "Its ease of use for beginners.",
+    "Answer": "Being a fast, compliant alternative implementation of Python with a Just-In-Time (JIT) compiler."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Jython`?",
+    "Option1": "Python running on .NET.",
+    "Option2": "Python integrated with JavaScript.",
+    "Option3": "An implementation of Python written in Java, allowing Python code to run on the JVM and interact with Java libraries.",
+    "Option4": "A Python framework for game development.",
+    "Answer": "An implementation of Python written in Java, allowing Python code to run on the JVM and interact with Java libraries."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `IronPython`?",
+    "Option1": "Python for microcontrollers.",
+    "Option2": "An implementation of Python that runs on the .NET Common Language Runtime (CLR), allowing interaction with .NET libraries.",
+    "Option3": "A Python library for interacting with hardware.",
+    "Option4": "A Python framework for scientific computing.",
+    "Answer": "An implementation of Python that runs on the .NET Common Language Runtime (CLR), allowing interaction with .NET libraries."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `MicroPython`?",
+    "Option1": "A simplified version of Python for web development.",
+    "Option2": "A lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library, optimized to run on microcontrollers and in constrained environments.",
+    "Option3": "A Python framework for large-scale applications.",
+    "Option4": "A Python library for data compression.",
+    "Answer": "A lean and efficient implementation of the Python 3 programming language that includes a small subset of the Python standard library, optimized to run on microcontrollers and in constrained environments."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `CPython's` default garbage collection mechanism?",
+    "Option1": "Mark and sweep.",
+    "Option2": "Reference counting and a cycle detector.",
+    "Option3": "Generational garbage collection.",
+    "Option4": "Tracing garbage collection.",
+    "Answer": "Reference counting and a cycle detector."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `metaclasses` in Python?",
+    "Option1": "Classes that inherit from other classes.",
+    "Option2": "The 'class of a class', defining how classes themselves are created.",
+    "Option3": "Classes used for creating abstract methods.",
+    "Option4": "Classes for storing metadata.",
+    "Answer": "The 'class of a class', defining how classes themselves are created."
+  },
+  {
+    "question_no.": 96,
+    "Question": "When would you typically use `metaclasses`?",
+    "Option1": "For everyday application development.",
+    "Option2": "In advanced scenarios like building frameworks, ORMs, or enforcing complex class creation rules.",
+    "Option3": "For simple utility functions.",
+    "Option4": "For defining global variables.",
+    "Answer": "In advanced scenarios like building frameworks, ORMs, or enforcing complex class creation rules."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `GIL` (revisited)?",
+    "Option1": "Global Instruction Language.",
+    "Option2": "Global Interpreter Lock, ensuring only one thread executes Python bytecode at a time in CPython.",
+    "Option3": "Global Input/Output Library.",
+    "Option4": "General Interface Layer.",
+    "Answer": "Global Interpreter Lock, ensuring only one thread executes Python bytecode at a time in CPython."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `context managers` in Python?",
+    "Option1": "Functions for managing context switching.",
+    "Option2": "Objects that define a runtime context to be established before and torn down after the execution of a block of code, often used with the `with` statement for resource management.",
+    "Option3": "Classes that store contextual data.",
+    "Option4": "Tools for managing environment variables.",
+    "Answer": "Objects that define a runtime context to be established before and torn down after the execution of a block of code, often used with the `with` statement for resource management."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the `__enter__` method used for in a context manager?",
+    "Option1": "To clean up resources.",
+    "Option2": "To set up the context, often returning an object that can be used within the `with` block.",
+    "Option3": "To handle exceptions.",
+    "Option4": "To close the context.",
+    "Answer": "To set up the context, often returning an object that can be used within the `with` block."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the `__exit__` method used for in a context manager?",
+    "Option1": "To start the context.",
+    "Option2": "To tear down the context and handle exceptions if they occur.",
+    "Option3": "To return a value from the context.",
+    "Option4": "To define the main logic of the context.",
+    "Answer": "To tear down the context and handle exceptions if they occur."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `generators` (revisited)?",
+    "Option1": "Functions that create new objects.",
+    "Option2": "Functions that return an iterator, yielding a series of values rather than returning a single value, making them memory efficient for large datasets.",
+    "Option3": "Functions that automatically handle errors.",
+    "Option4": "Functions for generating random numbers.",
+    "Answer": "Functions that return an iterator, yielding a series of values rather than returning a single value, making them memory efficient for large datasets."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `yield from` in Python generators?",
+    "Option1": "A way to yield multiple values at once.",
+    "Option2": "A syntax used to delegate to a sub-generator or any iterable, improving code readability when chaining generators.",
+    "Option3": "A method to stop generator execution.",
+    "Option4": "A way to send values into a generator.",
+    "Answer": "A syntax used to delegate to a sub-generator or any iterable, improving code readability when chaining generators."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `async/await` syntax for (revisited)?",
+    "Option1": "Synchronous programming.",
+    "Option2": "Asynchronous programming, enabling cooperative multitasking in a single-threaded event loop.",
+    "Option3": "Parallel processing on multiple CPU cores.",
+    "Option4": "Error handling in multi-threaded applications.",
+    "Answer": "Asynchronous programming, enabling cooperative multitasking in a single-threaded event loop."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is an `iterable` in Python?",
+    "Option1": "An object that can be stored in memory.",
+    "Option2": "An object capable of returning its members one at a time, allowing it to be iterated over (e.g., lists, tuples, strings).",
+    "Option3": "An object that can be called like a function.",
+    "Option4": "An object that can only be accessed once.",
+    "Answer": "An object capable of returning its members one at a time, allowing it to be iterated over (e.g., lists, tuples, strings)."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is an `iterator` in Python?",
+    "Option1": "An object that can be indexed.",
+    "Option2": "An object that represents a stream of data, having a `__next__` method that returns the next item in the sequence and raises `StopIteration` when no more items are available.",
+    "Option3": "An object that can only be used in `for` loops.",
+    "Option4": "An object that stores all elements in memory.",
+    "Answer": "An object that represents a stream of data, having a `__next__` method that returns the next item in the sequence and raises `StopIteration` when no more items are available."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the difference between an `iterable` and an `iterator`?",
+    "Option1": "They are the same thing.",
+    "Option2": "An iterable is an object that can be iterated over; an iterator is an object that keeps track of the current state of iteration.",
+    "Option3": "Iterables are for lists, iterators are for dictionaries.",
+    "Option4": "Iterables can be modified, iterators cannot.",
+    "Answer": "An iterable is an object that can be iterated over; an iterator is an object that keeps track of the current state of iteration."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `unittest.mock` module used for?",
+    "Option1": "Creating dummy classes.",
+    "Option2": "A library for mocking and patching objects in tests, allowing you to replace parts of your system under test with mock objects and make assertions about how they have been used.",
+    "Option3": "For generating random data for tests.",
+    "Option4": "For running tests in parallel.",
+    "Answer": "A library for mocking and patching objects in tests, allowing you to replace parts of your system under test with mock objects and make assertions about how they have been used."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `monkey patching` in Python?",
+    "Option1": "A technique for applying hotfixes to code.",
+    "Option2": "Dynamically modifying or extending a class or module at runtime, usually to replace a method or attribute.",
+    "Option3": "A method for securely patching software.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "Dynamically modifying or extending a class or module at runtime, usually to replace a method or attribute."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Is `monkey patching` generally recommended for large-scale production code?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it can make code harder to understand, debug, and maintain due to implicit changes.",
+    "Option3": "Only for performance critical sections.",
+    "Option4": "Only when using specific frameworks.",
+    "Answer": "No, it can make code harder to understand, debug, and maintain due to implicit changes."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is a `classmethod` decorator?",
+    "Option1": "A decorator that makes a method behave like an instance method.",
+    "Option2": "A decorator that converts a method into a class method, which receives the class itself as the first argument (`cls`) instead of the instance.",
+    "Option3": "A decorator for making methods static.",
+    "Option4": "A decorator for abstract methods.",
+    "Answer": "A decorator that converts a method into a class method, which receives the class itself as the first argument (`cls`) instead of the instance."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is a `staticmethod` decorator?",
+    "Option1": "A decorator that makes a method behave like an instance method.",
+    "Option2": "A decorator that converts a method into a static method, which does not receive an implicit first argument (neither `self` nor `cls`).",
+    "Option3": "A decorator for making methods abstract.",
+    "Option4": "A decorator for class properties.",
+    "Answer": "A decorator that converts a method into a static method, which does not receive an implicit first argument (neither `self` nor `cls`)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "When would you use a `classmethod`?",
+    "Option1": "When the method needs to access or modify instance-specific data.",
+    "Option2": "When the method operates on the class itself, e.g., factory methods that create instances of the class or subclasses.",
+    "Option3": "When the method doesn't depend on the class or instance state.",
+    "Option4": "When the method is a utility function.",
+    "Answer": "When the method operates on the class itself, e.g., factory methods that create instances of the class or subclasses."
+  },
+  {
+    "question_no.": 113,
+    "Question": "When would you use a `staticmethod`?",
+    "Option1": "When the method needs to access instance data.",
+    "Option2": "When the method needs to access class data.",
+    "Option3": "When the method does not operate on the instance or the class, acting like a regular function placed within the class for logical grouping.",
+    "Option4": "When the method needs to be overridden by subclasses.",
+    "Answer": "When the method does not operate on the instance or the class, acting like a regular function placed within the class for logical grouping."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `dir()` function used for?",
+    "Option1": "To create a directory.",
+    "Option2": "To return a list of valid attributes for an object, including methods and properties.",
+    "Option3": "To delete a directory.",
+    "Option4": "To get the current working directory.",
+    "Answer": "To return a list of valid attributes for an object, including methods and properties."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `help()` function used for?",
+    "Option1": "To open a web browser for online help.",
+    "Option2": "To invoke the built-in help system, providing documentation for modules, functions, classes, keywords, etc.",
+    "Option3": "To get help with debugging.",
+    "Option4": "To get a list of available commands.",
+    "Answer": "To invoke the built-in help system, providing documentation for modules, functions, classes, keywords, etc."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `__slots__` in Python classes?",
+    "Option1": "A mechanism to declare new properties.",
+    "Option2": "A class attribute that allows you to explicitly declare data members, reducing memory consumption and preventing the creation of `__dict__` for instances.",
+    "Option3": "A way to define static variables.",
+    "Option4": "A method for defining class methods.",
+    "Answer": "A class attribute that allows you to explicitly declare data members, reducing memory consumption and preventing the creation of `__dict__` for instances."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the primary benefit of using `__slots__`?",
+    "Option1": "Improved security.",
+    "Option2": "Reduced memory usage for objects and faster attribute access.",
+    "Option3": "Faster object creation.",
+    "Option4": "Easier debugging.",
+    "Answer": "Reduced memory usage for objects and faster attribute access."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `getattr()` function used for?",
+    "Option1": "To get a list of attributes.",
+    "Option2": "To retrieve the value of a named attribute from an object, with an optional default value if the attribute does not exist.",
+    "Option3": "To set the value of an attribute.",
+    "Option4": "To check if an attribute exists.",
+    "Answer": "To retrieve the value of a named attribute from an object, with an optional default value if the attribute does not exist."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `setattr()` function used for?",
+    "Option1": "To get the value of an attribute.",
+    "Option2": "To set the value of a named attribute on an object.",
+    "Option3": "To delete an attribute.",
+    "Option4": "To check if an attribute is callable.",
+    "Answer": "To set the value of a named attribute on an object."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `hasattr()` function used for?",
+    "Option1": "To check if an object is empty.",
+    "Option2": "To check if an object has a named attribute.",
+    "Option3": "To check if an object has any attributes.",
+    "Option4": "To check the type of an attribute.",
+    "Answer": "To check if an object has a named attribute."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `delattr()` function used for?",
+    "Option1": "To delete an object.",
+    "Option2": "To delete a named attribute from an object.",
+    "Option3": "To clear all attributes from an object.",
+    "Option4": "To delete a class.",
+    "Answer": "To delete a named attribute from an object."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `f-strings` (formatted string literals) in Python?",
+    "Option1": "A way to define fixed-length strings.",
+    "Option2": "A concise and readable way to embed expressions inside string literals, prefixed with `f` or `F`.",
+    "Option3": "A method for encrypting strings.",
+    "Option4": "A special type of string for regular expressions.",
+    "Answer": "A concise and readable way to embed expressions inside string literals, prefixed with `f` or `F`."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which Python version introduced `f-strings`?",
+    "Option1": "Python 3.5",
+    "Option2": "Python 3.6",
+    "Option3": "Python 3.7",
+    "Option4": "Python 2.7",
+    "Answer": "Python 3.6"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `super()` function used for in Python classes?",
+    "Option1": "To call a class method from outside the class.",
+    "Option2": "To call a method or access an attribute of the parent (superclass) in a class hierarchy.",
+    "Option3": "To create a new instance of the current class.",
+    "Option4": "To define a static method.",
+    "Answer": "To call a method or access an attribute of the parent (superclass) in a class hierarchy."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `MRO` (Method Resolution Order) in Python?",
+    "Option1": "The order in which methods are defined in a class.",
+    "Option2": "The order in which Python searches for a method or attribute in a class hierarchy, especially with multiple inheritance.",
+    "Option3": "The order of method calls within a single function.",
+    "Option4": "The order of arguments in a method.",
+    "Answer": "The order in which Python searches for a method or attribute in a class hierarchy, especially with multiple inheritance."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Which algorithm does Python 3 use for MRO?",
+    "Option1": "Depth-First Search (DFS)",
+    "Option2": "Breadth-First Search (BFS)",
+    "Option3": "C3 linearization algorithm",
+    "Option4": "Lexicographical order",
+    "Answer": "C3 linearization algorithm"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `dunder methods` (magic methods) in Python?",
+    "Option1": "Methods that are automatically generated.",
+    "Option2": "Special methods in Python that have double underscores at the beginning and end (e.g., `__init__`, `__str__`), used for operator overloading or implementing specific behaviors.",
+    "Option3": "Methods that are only accessible from within a class.",
+    "Option4": "Methods for interacting with the operating system.",
+    "Answer": "Special methods in Python that have double underscores at the beginning and end (e.g., `__init__`, `__str__`), used for operator overloading or implementing specific behaviors."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the purpose of `__str__` method?",
+    "Option1": "To convert an object to an integer.",
+    "Option2": "To return a 'user-friendly' string representation of an object, intended for display to the end-user.",
+    "Option3": "To convert an object to a byte string.",
+    "Option4": "To return a string representation for debugging.",
+    "Answer": "To return a 'user-friendly' string representation of an object, intended for display to the end-user."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is the purpose of `__repr__` method?",
+    "Option1": "To return a 'user-friendly' string representation of an object.",
+    "Option2": "To return an 'official' string representation of an object, often for debugging or development, such that `eval(repr(obj))` would recreate the object.",
+    "Option3": "To represent the object in a binary format.",
+    "Option4": "To check if an object is empty.",
+    "Answer": "To return an 'official' string representation of an object, often for debugging or development, such that `eval(repr(obj))` would recreate the object."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `pickling` and `unpickling` in Python?",
+    "Option1": "Encrypting and decrypting data.",
+    "Option2": "The process of serializing (pickling) and deserializing (unpickling) Python objects into a byte stream, allowing them to be stored or transmitted.",
+    "Option3": "Compressing and decompressing files.",
+    "Option4": "Converting text to binary.",
+    "Answer": "The process of serializing (pickling) and deserializing (unpickling) Python objects into a byte stream, allowing them to be stored or transmitted."
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which module is used for pickling/unpickling in Python?",
+    "Option1": "json",
+    "Option2": "pickle",
+    "Option3": "marshal",
+    "Option4": "serialize",
+    "Answer": "pickle"
+  },
+  {
+    "question_no.": 132,
+    "Question": "Is `pickle` considered secure for arbitrary data from untrusted sources?",
+    "Option1": "Yes, it's highly secure.",
+    "Option2": "No, unpickling data from untrusted sources can execute arbitrary code, making it a security risk.",
+    "Option3": "Only if used with encryption.",
+    "Option4": "Only for primitive data types.",
+    "Answer": "No, unpickling data from untrusted sources can execute arbitrary code, making it a security risk."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `JSON` (JavaScript Object Notation) used for in Python?",
+    "Option1": "Storing Python objects directly.",
+    "Option2": "A lightweight data-interchange format, commonly used for sending data between a web server and a web application, and parsed by Python's `json` module.",
+    "Option3": "A database format.",
+    "Option4": "A language for defining web pages.",
+    "Answer": "A lightweight data-interchange format, commonly used for sending data between a web server and a web application, and parsed by Python's `json` module."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Which Python module handles JSON encoding and decoding?",
+    "Option1": "js",
+    "Option2": "json",
+    "Option3": "json_parser",
+    "Option4": "data_json",
+    "Answer": "json"
+  },
+  {
+    "question_no.": 135,
+    "Question": "How do you convert a Python dictionary to a JSON string?",
+    "Option1": "json.encode(my_dict)",
+    "Option2": "json.dumps(my_dict)",
+    "Option3": "json.stringify(my_dict)",
+    "Option4": "str(my_dict)",
+    "Answer": "json.dumps(my_dict)"
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you convert a JSON string to a Python dictionary?",
+    "Option1": "json.decode(json_string)",
+    "Option2": "json.loads(json_string)",
+    "Option3": "json.parse(json_string)",
+    "Option4": "dict(json_string)",
+    "Answer": "json.loads(json_string)"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `regex` (regular expressions) used for in Python?",
+    "Option1": "Performing mathematical calculations.",
+    "Option2": "Pattern matching and manipulation of strings, used for searching, replacing, and validating text.",
+    "Option3": "Creating graphical user interfaces.",
+    "Option4": "Managing file permissions.",
+    "Answer": "Pattern matching and manipulation of strings, used for searching, replacing, and validating text."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which module is used for regular expressions in Python?",
+    "Option1": "pattern",
+    "Option2": "re",
+    "Option3": "regex",
+    "Option4": "string_utils",
+    "Answer": "re"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `re.search()` function used for?",
+    "Option1": "To replace patterns in a string.",
+    "Option2": "To scan through a string looking for the first location where the regular expression pattern produces a match.",
+    "Option3": "To split a string by a pattern.",
+    "Option4": "To find all occurrences of a pattern.",
+    "Answer": "To scan through a string looking for the first location where the regular expression pattern produces a match."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `re.findall()` function used for?",
+    "Option1": "To find the first match only.",
+    "Option2": "To find all non-overlapping matches of pattern in string, as a list of strings.",
+    "Option3": "To replace all matches of a pattern.",
+    "Option4": "To split a string into a list.",
+    "Answer": "To find all non-overlapping matches of pattern in string, as a list of strings."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `re.sub()` function used for?",
+    "Option1": "To search for a pattern.",
+    "Option2": "To replace occurrences of a pattern in a string with a replacement string.",
+    "Option3": "To split a string.",
+    "Option4": "To compile a regex pattern.",
+    "Answer": "To replace occurrences of a pattern in a string with a replacement string."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `zip()` function used for?",
+    "Option1": "To compress files.",
+    "Option2": "To combine multiple iterables into a single iterator of tuples, where the i-th tuple contains the i-th element from each of the input iterables.",
+    "Option3": "To unzip files.",
+    "Option4": "To create a list of lists.",
+    "Answer": "To combine multiple iterables into a single iterator of tuples, where the i-th tuple contains the i-th element from each of the input iterables."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `enumerate()` function used for?",
+    "Option1": "To count the number of elements in an iterable.",
+    "Option2": "To add a counter to an iterable, returning an enumerate object that yields pairs of (index, item).",
+    "Option3": "To check if an iterable is empty.",
+    "Option4": "To sort an iterable numerically.",
+    "Answer": "To add a counter to an iterable, returning an enumerate object that yields pairs of (index, item)."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `collections` module in Python?",
+    "Option1": "A module for managing database collections.",
+    "Option2": "A module that implements specialized container datatypes providing alternatives to Python's general purpose built-in containers (dict, list, tuple, set).",
+    "Option3": "A module for collecting user input.",
+    "Option4": "A module for collecting system information.",
+    "Answer": "A module that implements specialized container datatypes providing alternatives to Python's general purpose built-in containers (dict, list, tuple, set)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Name a specialized container from the `collections` module.",
+    "Option1": "Array",
+    "Option2": "OrderedDict, defaultdict, Counter, deque, namedtuple",
+    "Option3": "Vector",
+    "Option4": "Matrix",
+    "Answer": "OrderedDict, defaultdict, Counter, deque, namedtuple"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `defaultdict`?",
+    "Option1": "A dictionary with default values for all keys.",
+    "Option2": "A subclass of dict that calls a factory function to supply missing values, instead of raising a KeyError.",
+    "Option3": "A dictionary that stores default settings.",
+    "Option4": "A dictionary that always returns an empty string for missing keys.",
+    "Answer": "A subclass of dict that calls a factory function to supply missing values, instead of raising a KeyError."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `Counter` in `collections`?",
+    "Option1": "A class for counting numbers.",
+    "Option2": "A dict subclass for counting hashable objects, useful for frequency counts.",
+    "Option3": "A class for counting function calls.",
+    "Option4": "A class for counting lines in a file.",
+    "Answer": "A dict subclass for counting hashable objects, useful for frequency counts."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `deque` (double-ended queue) in `collections`?",
+    "Option1": "A regular list.",
+    "Option2": "A list-like container with fast appends and pops from either end.",
+    "Option3": "A fixed-size array.",
+    "Option4": "A queue that only allows additions from one end.",
+    "Answer": "A list-like container with fast appends and pops from either end."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `namedtuple` in `collections`?",
+    "Option1": "A tuple that can be modified.",
+    "Option2": "A factory function for creating tuple subclasses with named fields, making tuples more readable and self-documenting.",
+    "Option3": "A tuple that can only store strings.",
+    "Option4": "A tuple used for database operations.",
+    "Answer": "A factory function for creating tuple subclasses with named fields, making tuples more readable and self-documenting."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `argparse` (revisited)?",
+    "Option1": "A web framework.",
+    "Option2": "A module to parse command-line arguments and flags, making it easy to create powerful command-line interfaces.",
+    "Option3": "A database client.",
+    "Option4": "A module for testing.",
+    "Answer": "A module to parse command-line arguments and flags, making it easy to create powerful command-line interfaces."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `virtualenv`?",
+    "Option1": "A cloud platform.",
+    "Option2": "A tool to create isolated Python environments, a predecessor to `venv` built into Python 3.",
+    "Option3": "A virtual machine software.",
+    "Option4": "A tool for creating virtual networks.",
+    "Answer": "A tool to create isolated Python environments, a predecessor to `venv` built into Python 3."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the primary difference between `venv` and `virtualenv`?",
+    "Option1": "`venv` is for Python 2, `virtualenv` is for Python 3.",
+    "Option2": "`venv` is a built-in module in Python 3.3+, while `virtualenv` is a third-party tool that offers more features and broader compatibility with older Python versions.",
+    "Option3": "`venv` is faster than `virtualenv`.",
+    "Option4": "There is no significant difference.",
+    "Answer": "`venv` is a built-in module in Python 3.3+, while `virtualenv` is a third-party tool that offers more features and broader compatibility with older Python versions."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `logging` module used for?",
+    "Option1": "To create temporary files.",
+    "Option2": "To provide a flexible framework for emitting log messages from applications, allowing for various levels of severity and output destinations.",
+    "Option3": "To record user actions on a website.",
+    "Option4": "To track changes in source code.",
+    "Answer": "To provide a flexible framework for emitting log messages from applications, allowing for various levels of severity and output destinations."
+  },
+  {
+    "question_no.": 154,
+    "Question": "Name common logging levels in Python.",
+    "Option1": "Low, Medium, High",
+    "Option2": "Debug, Info, Warning, Error, Critical",
+    "Option3": "Standard, Verbose, Silent",
+    "Option4": "Trace, Verbose, Quiet",
+    "Answer": "Debug, Info, Warning, Error, Critical"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the default logging level if not specified?",
+    "Option1": "DEBUG",
+    "Option2": "INFO",
+    "Option3": "WARNING",
+    "Option4": "ERROR",
+    "Answer": "WARNING"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `sys` module used for?",
+    "Option1": "For system calls to the operating system.",
+    "Option2": "To provide access to system-specific parameters and functions, such as command-line arguments, standard input/output, and Python interpreter version.",
+    "Option3": "For managing system processes.",
+    "Option4": "For controlling system hardware.",
+    "Answer": "To provide access to system-specific parameters and functions, such as command-line arguments, standard input/output, and Python interpreter version."
+  },
+  {
+    "question_no.": 157,
+    "Question": "How do you access command-line arguments in Python?",
+    "Option1": "`argv[]`",
+    "Option2": "`sys.args`",
+    "Option3": "`sys.argv`",
+    "Option4": "`command_args()`",
+    "Answer": "`sys.argv`"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `os` module used for?",
+    "Option1": "For object serialization.",
+    "Option2": "To provide a way of using operating system dependent functionality like reading or writing to the file system, manipulating paths, and environment variables.",
+    "Option3": "For creating graphical user interfaces.",
+    "Option4": "For performing mathematical operations.",
+    "Answer": "To provide a way of using operating system dependent functionality like reading or writing to the file system, manipulating paths, and environment variables."
+  },
+  {
+    "question_no.": 159,
+    "Question": "How do you join path components in an OS-independent way?",
+    "Option1": "path + '/' + file",
+    "Option2": "os.path.join(path, file)",
+    "Option3": "path.join(file)",
+    "Option4": "join_paths(path, file)",
+    "Answer": "os.path.join(path, file)"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `datetime` module used for?",
+    "Option1": "For handling only dates.",
+    "Option2": "For manipulating dates and times in both simple and complex ways, including time zones.",
+    "Option3": "For handling only time.",
+    "Option4": "For measuring code execution speed.",
+    "Answer": "For manipulating dates and times in both simple and complex ways, including time zones."
+  },
+  {
+    "question_no.": 161,
+    "Question": "How do you get the current date and time in Python?",
+    "Option1": "now()",
+    "Option2": "datetime.current()",
+    "Option3": "datetime.datetime.now()",
+    "Option4": "get_time()",
+    "Answer": "datetime.datetime.now()"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `timedelta` in `datetime` module?",
+    "Option1": "A specific date.",
+    "Option2": "A duration, or the difference between two dates or times.",
+    "Option3": "A time zone object.",
+    "Option4": "A format for displaying time.",
+    "Answer": "A duration, or the difference between two dates or times."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `random` module used for?",
+    "Option1": "For generating truly random numbers.",
+    "Option2": "For generating pseudo-random numbers, often used for simulations, games, or cryptographic purposes (though not for strong crypto).",
+    "Option3": "For shuffling lists deterministically.",
+    "Option4": "For creating unique identifiers.",
+    "Answer": "For generating pseudo-random numbers, often used for simulations, games, or cryptographic purposes (though not for strong crypto)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "How do you generate a random integer between 1 and 10 (inclusive)?",
+    "Option1": "random.rand(1, 10)",
+    "Option2": "random.randint(1, 10)",
+    "Option3": "random.choice(range(1, 11))",
+    "Option4": "random.number(1, 10)",
+    "Answer": "random.randint(1, 10)"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `sys.path`?",
+    "Option1": "The path to the Python executable.",
+    "Option2": "A list of strings that specifies the search path for modules.",
+    "Option3": "The current working directory.",
+    "Option4": "A list of installed packages.",
+    "Answer": "A list of strings that specifies the search path for modules."
+  },
+  {
+    "question_no.": 166,
+    "Question": "How can you add a directory to Python's module search path temporarily?",
+    "Option1": "By modifying the `PYTHONPATH` environment variable.",
+    "Option2": "By appending to `sys.path` within the script.",
+    "Option3": "By creating a new `.pth` file.",
+    "Option4": "All of the above.",
+    "Answer": "All of the above."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `relative imports` in Python?",
+    "Option1": "Importing modules from a different project.",
+    "Option2": "Importing modules using paths relative to the current module's location within a package.",
+    "Option3": "Importing modules from the standard library.",
+    "Option4": "Importing modules by their full absolute path only.",
+    "Answer": "Importing modules using paths relative to the current module's location within a package."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `absolute imports` in Python?",
+    "Option1": "Importing modules from the current directory.",
+    "Option2": "Importing modules using their full path from the top-level package or root directory of the project.",
+    "Option3": "Importing modules without specifying a name.",
+    "Option4": "Importing modules that are built-in only.",
+    "Answer": "Importing modules using their full path from the top-level package or root directory of the project."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which type of import is generally preferred for clarity and avoiding ambiguity?",
+    "Option1": "Relative imports.",
+    "Option2": "Absolute imports.",
+    "Option3": "Both are equally preferred.",
+    "Option4": "Neither.",
+    "Answer": "Absolute imports."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `dir()` with no arguments used for?",
+    "Option1": "To list all global variables.",
+    "Option2": "To list the names in the current local scope.",
+    "Option3": "To list all built-in functions.",
+    "Option4": "To list all imported modules.",
+    "Answer": "To list the names in the current local scope."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `globals()` function used for?",
+    "Option1": "To get a list of local variables.",
+    "Option2": "To return a dictionary representing the current global symbol table.",
+    "Option3": "To set global variables.",
+    "Option4": "To list all functions in a module.",
+    "Answer": "To return a dictionary representing the current global symbol table."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `locals()` function used for?",
+    "Option1": "To return a dictionary representing the current global symbol table.",
+    "Option2": "To return a dictionary representing the current local symbol table.",
+    "Option3": "To get a list of all functions.",
+    "Option4": "To define local variables.",
+    "Answer": "To return a dictionary representing the current local symbol table."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the primary difference between `globals()` and `locals()`?",
+    "Option1": "They return the same dictionary.",
+    "Option2": "`globals()` returns variables from the module level; `locals()` returns variables from the current function/method scope.",
+    "Option3": "`globals()` is for classes, `locals()` is for functions.",
+    "Option4": "No difference in behavior, only naming.",
+    "Answer": "`globals()` returns variables from the module level; `locals()` returns variables from the current function/method scope."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `zipfile` module used for?",
+    "Option1": "To encrypt files.",
+    "Option2": "To work with ZIP archives, including creating, reading, and extracting files.",
+    "Option3": "To compress individual files.",
+    "Option4": "To manage system processes.",
+    "Answer": "To work with ZIP archives, including creating, reading, and extracting files."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `csv` module used for?",
+    "Option1": "For working with comma-separated values (CSV) files, allowing easy reading from and writing to them.",
+    "Option2": "For creating dynamic web pages.",
+    "Option3": "For handling encrypted data.",
+    "Option4": "For sending emails.",
+    "Answer": "For working with comma-separated values (CSV) files, allowing easy reading from and writing to them."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `shutil` module used for?",
+    "Option1": "For network communication.",
+    "Option2": "For high-level file operations, such as copying, moving, and deleting files and directories.",
+    "Option3": "For creating graphical user interfaces.",
+    "Option4": "For managing virtual environments.",
+    "Answer": "For high-level file operations, such as copying, moving, and deleting files and directories."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `collections.abc`?",
+    "Option1": "A module for creating new collections.",
+    "Option2": "A module that provides Abstract Base Classes (ABCs) for various container types (e.g., `Iterable`, `Iterator`, `Sized`), allowing for type checking and defining common interfaces.",
+    "Option3": "A module for basic arithmetic operations.",
+    "Option4": "A module for advanced data structures.",
+    "Answer": "A module that provides Abstract Base Classes (ABCs) for various container types (e.g., `Iterable`, `Iterator`, `Sized`), allowing for type checking and defining common interfaces."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Abstract Base Classes` (ABCs)?",
+    "Option1": "Classes that cannot have methods.",
+    "Option2": "Classes that define an interface but cannot be instantiated directly, serving as blueprints for other classes that must implement their abstract methods.",
+    "Option3": "Classes that automatically generate code.",
+    "Option4": "Classes that have no attributes.",
+    "Answer": "Classes that define an interface but cannot be instantiated directly, serving as blueprints for other classes that must implement their abstract methods."
+  },
+  {
+    "question_no.": 179,
+    "Question": "How do you define an abstract method in Python?",
+    "Option1": "Using `@abstractmethod` decorator from `abc` module.",
+    "Option2": "By simply defining it without implementation.",
+    "Option3": "Using `pass` keyword in the method body.",
+    "Option4": "Python does not support abstract methods.",
+    "Answer": "Using `@abstractmethod` decorator from `abc` module."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `functools` module used for?",
+    "Option1": "For functional programming utilities.",
+    "Option2": "For higher-order functions and operations on callable objects, including `partial`, `wraps`, and `reduce`.",
+    "Option3": "For mathematical functions.",
+    "Option4": "For creating new functions dynamically.",
+    "Answer": "For higher-order functions and operations on callable objects, including `partial`, `wraps`, and `reduce`."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `functools.partial` used for?",
+    "Option1": "To execute a function partially.",
+    "Option2": "To create new functions by partially applying arguments to an existing function, fixing some arguments while leaving others open.",
+    "Option3": "To check if a function is complete.",
+    "Option4": "To get a part of a function's source code.",
+    "Answer": "To create new functions by partially applying arguments to an existing function, fixing some arguments while leaving others open."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `functools.wraps` decorator used for?",
+    "Option1": "To wrap a function with another function for security.",
+    "Option2": "To update a wrapper function with the attributes of the wrapped function, preserving metadata like `__name__`, `__doc__`, etc., important for decorators.",
+    "Option3": "To create a loop that wraps around a function.",
+    "Option4": "To encrypt a function's code.",
+    "Answer": "To update a wrapper function with the attributes of the wrapped function, preserving metadata like `__name__`, `__doc__`, etc., important for decorators."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `operator overloading` in Python?",
+    "Option1": "Defining multiple functions with the same name.",
+    "Option2": "Giving extended meaning beyond their predefined operational meaning to operators (e.g., `+` for addition of numbers and concatenation of strings) for user-defined types.",
+    "Option3": "Using too many operators in an expression.",
+    "Option4": "Overwriting built-in operators.",
+    "Answer": "Giving extended meaning beyond their predefined operational meaning to operators (e.g., `+` for addition of numbers and concatenation of strings) for user-defined types."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Which dunder method is used for the addition operator (`+`)?",
+    "Option1": "__add__()",
+    "Option2": "__plus__()",
+    "Option3": "__sum__()",
+    "Option4": "__concat__()",
+    "Answer": "__add__()"
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which dunder method is used for string representation (for `str()`)?",
+    "Option1": "__repr__()",
+    "Option2": "__to_string__()",
+    "Option3": "__str__()",
+    "Option4": "__display__()",
+    "Answer": "__str__()"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `type()`, the built-in function, used for with one argument?",
+    "Option1": "To create a new type.",
+    "Option2": "To return the type of an object.",
+    "Option3": "To convert an object to a specific type.",
+    "Option4": "To check if an object is an instance of a type.",
+    "Answer": "To return the type of an object."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `isinstance()` function used for?",
+    "Option1": "To check if two objects are the same instance.",
+    "Option2": "To check if an object is an instance of a specified class or a subclass thereof.",
+    "Option3": "To check the type of an object.",
+    "Option4": "To create a new instance of a class.",
+    "Answer": "To check if an object is an instance of a specified class or a subclass thereof."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `issubclass()` function used for?",
+    "Option1": "To check if a class is an instance of another class.",
+    "Option2": "To check if a class is a subclass (direct or indirect) of another class.",
+    "Option3": "To check if a class has any subclasses.",
+    "Option4": "To check if two classes are identical.",
+    "Answer": "To check if a class is a subclass (direct or indirect) of another class."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `iter()` function used for?",
+    "Option1": "To check if an object is iterable.",
+    "Option2": "To return an iterator object for the given iterable.",
+    "Option3": "To perform iteration over a loop.",
+    "Option4": "To get the next item from an iterator.",
+    "Answer": "To return an iterator object for the given iterable."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `next()` function used for?",
+    "Option1": "To move to the next line of code.",
+    "Option2": "To retrieve the next item from an iterator.",
+    "Option3": "To skip an iteration in a loop.",
+    "Option4": "To find the next element in a list.",
+    "Answer": "To retrieve the next item from an iterator."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `StopIteration` exception?",
+    "Option1": "An error that occurs when a loop is endless.",
+    "Option2": "An exception raised by the `__next__()` method of an iterator to signal that there are no further items.",
+    "Option3": "An exception when a loop is terminated by `break`.",
+    "Option4": "An exception when a function returns `None`.",
+    "Answer": "An exception raised by the `__next__()` method of an iterator to signal that there are no further items."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `try-except-else-finally` block?",
+    "Option1": "A block for sequential execution only.",
+    "Option2": "An exception handling construct where `try` executes code, `except` handles specific errors, `else` runs if no error occurs, and `finally` always runs.",
+    "Option3": "A complex loop structure.",
+    "Option4": "A conditional statement with error handling.",
+    "Answer": "An exception handling construct where `try` executes code, `except` handles specific errors, `else` runs if no error occurs, and `finally` always runs."
+  },
+  {
+    "question_no.": 193,
+    "Question": "When does the `else` block in `try-except-else` execute?",
+    "Option1": "Always.",
+    "Option2": "Only if an exception occurs.",
+    "Option3": "Only if no exception occurs in the `try` block.",
+    "Option4": "Never.",
+    "Answer": "Only if no exception occurs in the `try` block."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `pdb` module used for?",
+    "Option1": "For creating PDFs.",
+    "Option2": "Python's built-in interactive debugger, allowing you to step through code, set breakpoints, and inspect variables.",
+    "Option3": "For managing databases.",
+    "Option4": "For parsing data.",
+    "Answer": "Python's built-in interactive debugger, allowing you to step through code, set breakpoints, and inspect variables."
+  },
+  {
+    "question_no.": 195,
+    "Question": "How do you start debugging a script with `pdb`?",
+    "Option1": "python -d script.py",
+    "Option2": "python -m pdb script.py",
+    "Option3": "debug script.py",
+    "Option4": "pdb run script.py",
+    "Answer": "python -m pdb script.py"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is a common command to set a breakpoint inside a running script in `pdb`?",
+    "Option1": "stop",
+    "Option2": "breakpoint()",
+    "Option3": "b",
+    "Option4": "pause",
+    "Answer": "b"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `unittest.mock.patch` used for?",
+    "Option1": "To apply hotfixes.",
+    "Option2": "A decorator or context manager used to temporarily replace objects with mock objects for testing purposes.",
+    "Option3": "To check for code updates.",
+    "Option4": "To permanently modify existing code.",
+    "Answer": "A decorator or context manager used to temporarily replace objects with mock objects for testing purposes."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the primary benefit of using `unittest.mock` for testing?",
+    "Option1": "It makes tests run faster.",
+    "Option2": "It allows isolating the code under test from its dependencies, making tests more reliable and focused.",
+    "Option3": "It automatically generates test cases.",
+    "Option4": "It provides a graphical interface for testing.",
+    "Answer": "It allows isolating the code under test from its dependencies, making tests more reliable and focused."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is a `pass-by-object-reference` in Python?",
+    "Option1": "Arguments are passed by value.",
+    "Option2": "Arguments are passed by reference.",
+    "Option3": "A mechanism where parameters are passed by object reference (value of the reference is copied), allowing modification of mutable objects but not re-binding immutable ones.",
+    "Option4": "Arguments are passed by name.",
+    "Answer": "A mechanism where parameters are passed by object reference (value of the reference is copied), allowing modification of mutable objects but not re-binding immutable ones."
+  },
+  {
+    "question_no.": 200,
+    "Question": "If you pass a mutable object (like a list) to a function and modify it inside the function, what happens to the original object?",
+    "Option1": "A copy is made, so the original remains unchanged.",
+    "Option2": "The original object is modified.",
+    "Option3": "It raises an error.",
+    "Option4": "The behavior is undefined.",
+    "Answer": "The original object is modified."
+  },
+  {
+    "question_no.": 201,
+    "Question": "If you pass an immutable object (like an integer or string) to a function and try to re-assign it inside the function, what happens to the original object?",
+    "Option1": "The original object is re-assigned.",
+    "Option2": "A new object is created inside the function, and the original remains unchanged outside.",
+    "Option3": "It raises an error.",
+    "Option4": "The behavior is undefined.",
+    "Answer": "A new object is created inside the function, and the original remains unchanged outside."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the purpose of `pip freeze > requirements.txt`?",
+    "Option1": "To install packages listed in `requirements.txt`.",
+    "Option2": "To generate a list of all installed Python packages and their exact versions into `requirements.txt`.",
+    "Option3": "To uninstall all packages.",
+    "Option4": "To check for outdated packages.",
+    "Answer": "To generate a list of all installed Python packages and their exact versions into `requirements.txt`."
+  },
+  {
+    "question_no.": 203,
+    "Question": "How do you install packages from a `requirements.txt` file?",
+    "Option1": "pip install requirements.txt",
+    "Option2": "pip install -r requirements.txt",
+    "Option3": "pip get requirements.txt",
+    "Option4": "python install requirements.txt",
+    "Answer": "pip install -r requirements.txt"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `docopt` or `Click` module used for?",
+    "Option1": "Creating graphical user interfaces.",
+    "Option2": "Building command-line interfaces (CLIs) in a declarative or intuitive way.",
+    "Option3": "Processing natural language.",
+    "Option4": "Interacting with databases.",
+    "Answer": "Building command-line interfaces (CLIs) in a declarative or intuitive way."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `pytest-cov` used for?",
+    "Option1": "To generate test reports.",
+    "Option2": "A pytest plugin for measuring code coverage during tests.",
+    "Option3": "To run tests in parallel.",
+    "Option4": "To test web applications.",
+    "Answer": "A pytest plugin for measuring code coverage during tests."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is React.js primarily used for?",
+    "Option1": "Building backend APIs",
+    "Option2": "Building user interfaces (UIs) for web applications",
+    "Option3": "Database management",
+    "Option4": "Mobile app development (natively)",
+    "Answer": "Building user interfaces (UIs) for web applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company developed React.js?",
+    "Option1": "Google",
+    "Option2": "Microsoft",
+    "Option3": "Facebook (now Meta)",
+    "Option4": "Apple",
+    "Answer": "Facebook (now Meta)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is JSX in React?",
+    "Option1": "A JavaScript extension for handling JSON data",
+    "Option2": "A syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files",
+    "Option3": "A special type of JavaScript file for styling",
+    "Option4": "A templating language for server-side rendering",
+    "Answer": "A syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the Virtual DOM in React?",
+    "Option1": "A direct manipulation of the browser's DOM",
+    "Option2": "A lightweight copy of the real DOM kept in memory, used by React for efficient UI updates",
+    "Option3": "A virtual reality environment for web development",
+    "Option4": "A server-side rendering technique",
+    "Answer": "A lightweight copy of the real DOM kept in memory, used by React for efficient UI updates"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the core building block of a React UI?",
+    "Option1": "HTML tags",
+    "Option2": "Components",
+    "Option3": "CSS classes",
+    "Option4": "Functions",
+    "Answer": "Components"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you define a functional component in React?",
+    "Option1": "class MyComponent extends React.Component { ... }",
+    "Option2": "function MyComponent() { return <div>Hello</div>; }",
+    "Option3": "var MyComponent = function() { ... }",
+    "Option4": "React.createComponent(() => { ... })",
+    "Answer": "function MyComponent() { return <div>Hello</div>; }"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is `props` in React?",
+    "Option1": "State variables that change over time",
+    "Option2": "Immutable data passed from a parent component to a child component",
+    "Option3": "Internal data of a component",
+    "Option4": "Functions used for component lifecycle",
+    "Answer": "Immutable data passed from a parent component to a child component"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is `state` in React?",
+    "Option1": "Data passed from parent to child",
+    "Option2": "Immutable data that never changes",
+    "Option3": "Internal data of a component that can change over time and trigger re-renders",
+    "Option4": "External configuration for the app",
+    "Answer": "Internal data of a component that can change over time and trigger re-renders"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you update the state of a class component in React?",
+    "Option1": "Directly modifying `this.state`",
+    "Option2": "Using `setState()`",
+    "Option3": "Using the state setter function returned by `useState` hook",
+    "Option4": "Using `updateState()`",
+    "Answer": "Using `setState()`"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which hook is used for managing state in functional components?",
+    "Option1": "useEffect",
+    "Option2": "useContext",
+    "Option3": "useState",
+    "Option4": "useReducer",
+    "Answer": "useState"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which hook is used for managing side effects in functional components?",
+    "Option1": "useState",
+    "Option2": "useContext",
+    "Option3": "useEffect",
+    "Option4": "useReducer",
+    "Answer": "useEffect"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the purpose of the dependency array in `useEffect`?",
+    "Option1": "To define the initial state",
+    "Option2": "To specify when the effect should re-run (e.g., when certain values change)",
+    "Option3": "To declare global variables",
+    "Option4": "To list all imported components",
+    "Answer": "To specify when the effect should re-run (e.g., when certain values change)"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the primary way to handle events in React?",
+    "Option1": "Using inline HTML event attributes (e.g., `onclick`)",
+    "Option2": "Using synthetic events that wrap browser's native events, passed as props (e.g., `onClick`)",
+    "Option3": "Using `addEventListener` directly on DOM elements",
+    "Option4": "Using jQuery event handlers",
+    "Answer": "Using synthetic events that wrap browser's native events, passed as props (e.g., `onClick`)"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'lifting state up' in React?",
+    "Option1": "Moving state from a parent component to a child component",
+    "Option2": "Moving state from a child component to its closest common ancestor component",
+    "Option3": "Moving state to a global state management library",
+    "Option4": "Moving state to the server",
+    "Answer": "Moving state from a child component to its closest common ancestor component"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'controlled component' in React forms?",
+    "Option1": "An input element whose value is managed by the DOM",
+    "Option2": "An input element whose value is controlled by React state",
+    "Option3": "An input element that cannot be edited",
+    "Option4": "An input element with default values",
+    "Answer": "An input element whose value is controlled by React state"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is an 'uncontrolled component' in React forms?",
+    "Option1": "An input element whose value is controlled by React state",
+    "Option2": "An input element whose value is managed by the DOM, and you access its value using a Ref",
+    "Option3": "An input element that is read-only",
+    "Option4": "An input element without any validation",
+    "Answer": "An input element whose value is managed by the DOM, and you access its value using a Ref"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the purpose of `React.Fragment`?",
+    "Option1": "To create a new DOM node for grouping elements",
+    "Option2": "To group multiple elements without adding an extra node to the DOM",
+    "Option3": "To define reusable UI components",
+    "Option4": "To handle asynchronous operations",
+    "Answer": "To group multiple elements without adding an extra node to the DOM"
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you conditionally render content in React?",
+    "Option1": "Using `if/else` statements within JSX",
+    "Option2": "Using ternary operators or logical `&&` operator in JSX",
+    "Option3": "Returning `null` or `false` to hide components",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a 'key' prop used for when rendering lists in React?",
+    "Option1": "To apply unique styles to list items",
+    "Option2": "To help React identify which items have changed, are added, or are removed, improving performance during list updates",
+    "Option3": "To define the order of list items",
+    "Option4": "To store additional data for each list item",
+    "Answer": "To help React identify which items have changed, are added, or are removed, improving performance during list updates"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Should 'keys' be unique among siblings?",
+    "Option1": "No, they can be duplicated",
+    "Option2": "Yes, they must be unique within an array of elements",
+    "Option3": "Only if the items are dynamic",
+    "Option4": "Only for class components",
+    "Answer": "Yes, they must be unique within an array of elements"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is `prop drilling`?",
+    "Option1": "Passing props directly to a child component",
+    "Option2": "Passing props down through multiple layers of components, even if intermediate components don't need them, to reach a deeply nested component",
+    "Option3": "Updating props from a child component",
+    "Option4": "Extracting props from an object",
+    "Answer": "Passing props down through multiple layers of components, even if intermediate components don't need them, to reach a deeply nested component"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is `Context API` in React used for?",
+    "Option1": "For managing complex asynchronous operations",
+    "Option2": "For passing data through the component tree without having to pass props down manually at every level (prop drilling)",
+    "Option3": "For creating global state that changes frequently",
+    "Option4": "For styling components dynamically",
+    "Answer": "For passing data through the component tree without having to pass props down manually at every level (prop drilling)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What are the two parts of `Context API`?",
+    "Option1": "Context.Provider and Context.Consumer",
+    "Option2": "Context.Creator and Context.Getter",
+    "Option3": "Context.State and Context.Props",
+    "Option4": "Context.Data and Context.Display",
+    "Answer": "Context.Provider and Context.Consumer"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which hook is used to consume context in a functional component?",
+    "Option1": "useState",
+    "Option2": "useEffect",
+    "Option3": "useContext",
+    "Option4": "useReducer",
+    "Answer": "useContext"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `useReducer` hook used for?",
+    "Option1": "Simple state management",
+    "Option2": "Managing complex state logic that involves multiple sub-values or when the next state depends on the previous one",
+    "Option3": "Handling side effects",
+    "Option4": "Optimizing component re-renders",
+    "Answer": "Managing complex state logic that involves multiple sub-values or when the next state depends on the previous one"
+  },
+  {
+    "question_no.": 26,
+    "Question": "When should you use `useMemo` hook?",
+    "Option1": "To memoize a function",
+    "Option2": "To memoize a computed value, preventing its recalculation on every render if its dependencies haven't changed",
+    "Option3": "To perform side effects",
+    "Option4": "To manage state",
+    "Answer": "To memoize a computed value, preventing its recalculation on every render if its dependencies haven't changed"
+  },
+  {
+    "question_no.": 27,
+    "Question": "When should you use `useCallback` hook?",
+    "Option1": "To memoize a value",
+    "Option2": "To memoize a function, preventing it from being recreated on every render if its dependencies haven't changed, useful for optimizing child components",
+    "Option3": "To call a function after a delay",
+    "Option4": "To define asynchronous functions",
+    "Answer": "To memoize a function, preventing it from being recreated on every render if its dependencies haven't changed, useful for optimizing child components"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `useRef` hook used for?",
+    "Option1": "To manage state that triggers re-renders",
+    "Option2": "To directly access and interact with DOM nodes or to store mutable values that don't cause re-renders when updated",
+    "Option3": "To perform side effects",
+    "Option4": "To memoize values",
+    "Answer": "To directly access and interact with DOM nodes or to store mutable values that don't cause re-renders when updated"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is `React Router` used for?",
+    "Option1": "Managing application state",
+    "Option2": "Handling navigation and routing in single-page applications",
+    "Option3": "Making API requests",
+    "Option4": "Styling components",
+    "Answer": "Handling navigation and routing in single-page applications"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you define a route in `React Router`?",
+    "Option1": "<Link to='/about'>",
+    "Option2": "<Route path='/about' component={About} />",
+    "Option3": "<Navigate to='/about'>",
+    "Option4": "<Redirect to='/about'>",
+    "Answer": "<Route path='/about' component={About} />"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you navigate programmatically in `React Router` v6?",
+    "Option1": "history.push('/dashboard')",
+    "Option2": "navigate('/dashboard')",
+    "Option3": "redirect('/dashboard')",
+    "Option4": "route.go('/dashboard')",
+    "Answer": "navigate('/dashboard')"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you pass parameters in `React Router`?",
+    "Option1": "Via query strings only",
+    "Option2": "Via URL parameters (e.g., `/users/:id`) or query strings",
+    "Option3": "Via props only",
+    "Option4": "Via state only",
+    "Answer": "Via URL parameters (e.g., `/users/:id`) or query strings"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is `Redux` (or similar state management libraries) used for?",
+    "Option1": "To manage component-specific state",
+    "Option2": "To manage global application state in a predictable and centralized manner, especially in large applications",
+    "Option3": "To handle local storage",
+    "Option4": "To define component styling",
+    "Answer": "To manage global application state in a predictable and centralized manner, especially in large applications"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What are the three core principles of Redux?",
+    "Option1": "Single source of truth, state is read-only, changes are made with pure functions",
+    "Option2": "Multiple stores, mutable state, direct state modification",
+    "Option3": "Local state, asynchronous actions, side effects only",
+    "Option4": "Component-driven, props-based, immutable components",
+    "Answer": "Single source of truth, state is read-only, changes are made with pure functions"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a `Reducer` in Redux?",
+    "Option1": "A function that dispatches actions",
+    "Option2": "A pure function that takes the current state and an action, and returns the new state",
+    "Option3": "A component that displays data",
+    "Option4": "A middleware for asynchronous operations",
+    "Answer": "A pure function that takes the current state and an action, and returns the new state"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is an `Action` in Redux?",
+    "Option1": "A function that modifies the state directly",
+    "Option2": "A plain JavaScript object that describes what happened in the application, and the only way to change the state",
+    "Option3": "A component's lifecycle method",
+    "Option4": "A type of UI event",
+    "Answer": "A plain JavaScript object that describes what happened in the application, and the only way to change the state"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the `Store` in Redux?",
+    "Option1": "A database for the application",
+    "Option2": "The single source of truth that holds the entire application state",
+    "Option3": "A component that displays all data",
+    "Option4": "A function that combines reducers",
+    "Answer": "The single source of truth that holds the entire application state"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `Middleware` in Redux?",
+    "Option1": "Functions that modify the UI",
+    "Option2": "Functions that intercept dispatched actions before they reach the reducer, often used for asynchronous operations or logging",
+    "Option3": "Functions that store data",
+    "Option4": "Functions that define initial state",
+    "Answer": "Functions that intercept dispatched actions before they reach the reducer, often used for asynchronous operations or logging."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Name a common Redux middleware for handling asynchronous actions.",
+    "Option1": "Redux Logger",
+    "Option2": "Redux Thunk or Redux Saga",
+    "Option3": "Redux Forms",
+    "Option4": "Redux Persist",
+    "Answer": "Redux Thunk or Redux Saga"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is `Redux Toolkit`?",
+    "Option1": "A new version of Redux that replaces the original.",
+    "Option2": "The official, opinionated, batteries-included toolset for efficient Redux development, simplifying common Redux patterns.",
+    "Option3": "A UI library for Redux.",
+    "Option4": "A debugging tool for Redux.",
+    "Answer": "The official, opinionated, batteries-included toolset for efficient Redux development, simplifying common Redux patterns."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `createSlice` in Redux Toolkit used for?",
+    "Option1": "To create a Redux store.",
+    "Option2": "To generate action creators and reducers for a given slice of state, reducing boilerplate.",
+    "Option3": "To combine multiple reducers.",
+    "Option4": "To handle asynchronous operations.",
+    "Answer": "To generate action creators and reducers for a given slice of state, reducing boilerplate."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is `RTK Query` in Redux Toolkit?",
+    "Option1": "A tool for querying databases.",
+    "Option2": "A powerful data fetching and caching tool built on top of Redux Toolkit, simplifying common data loading patterns.",
+    "Option3": "A new way to write Reducers.",
+    "Option4": "A debugging tool for API requests.",
+    "Answer": "A powerful data fetching and caching tool built on top of Redux Toolkit, simplifying common data loading patterns."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is `Server-Side Rendering (SSR)` in React?",
+    "Option1": "Rendering React components in the browser.",
+    "Option2": "Rendering React components on the server and sending the pre-rendered HTML to the client for faster initial page load and better SEO.",
+    "Option3": "Rendering React components on a mobile device.",
+    "Option4": "Rendering React components only after data is fetched.",
+    "Answer": "Rendering React components on the server and sending the pre-rendered HTML to the client for faster initial page load and better SEO."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is `Next.js`?",
+    "Option1": "A library for building mobile apps.",
+    "Option2": "A React framework for building server-rendered React applications, providing features like file-system routing, API routes, and SSR/SSG.",
+    "Option3": "A new version of React.",
+    "Option4": "A state management library.",
+    "Answer": "A React framework for building server-rendered React applications, providing features like file-system routing, API routes, and SSR/SSG."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `Static Site Generation (SSG)` in Next.js?",
+    "Option1": "Generating pages at runtime.",
+    "Option2": "Generating HTML files at build time, which can be served as static assets from a CDN for extremely fast loading.",
+    "Option3": "Generating pages on the client-side.",
+    "Option4": "Generating dynamic content based on user input.",
+    "Answer": "Generating HTML files at build time, which can be served as static assets from a CDN for extremely fast loading."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `Data Fetching` in Next.js?",
+    "Option1": "Only client-side data fetching.",
+    "Option2": "Mechanisms like `getStaticProps`, `getServerSideProps`, and `getInitialProps` for fetching data at build time or on each request.",
+    "Option3": "Only server-side data fetching.",
+    "Option4": "Data fetching only through Redux.",
+    "Answer": "Mechanisms like `getStaticProps`, `getServerSideProps`, and `getInitialProps` for fetching data at build time or on each request."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `Sass/SCSS` or `Less` used for in React projects?",
+    "Option1": "JavaScript preprocessors.",
+    "Option2": "CSS preprocessors that extend CSS with features like variables, nesting, mixins, and functions, improving maintainability and organization of stylesheets.",
+    "Option3": "JavaScript frameworks.",
+    "Option4": "HTML templating engines.",
+    "Answer": "CSS preprocessors that extend CSS with features like variables, nesting, mixins, and functions, improving maintainability and organization of stylesheets."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `Styled Components` or `Emotion` used for?",
+    "Option1": "Defining global styles only.",
+    "Option2": "CSS-in-JS libraries that allow you to write CSS directly within your JavaScript files, providing scoped styles and dynamic styling capabilities.",
+    "Option3": "Pre-processing CSS files.",
+    "Option4": "Generating static CSS files.",
+    "Answer": "CSS-in-JS libraries that allow you to write CSS directly within your JavaScript files, providing scoped styles and dynamic styling capabilities."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is `Tailwind CSS`?",
+    "Option1": "A CSS preprocessor.",
+    "Option2": "A utility-first CSS framework that provides low-level utility classes to build designs directly in your markup, rather than writing custom CSS.",
+    "Option3": "A JavaScript library for styling.",
+    "Option4": "A component library for React.",
+    "Answer": "A utility-first CSS framework that provides low-level utility classes to build designs directly in your markup, rather than writing custom CSS."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What are `Material-UI (MUI)` or `Ant Design`?",
+    "Option1": "CSS frameworks.",
+    "Option2": "Popular React UI component libraries that implement Material Design (MUI) or Ant Design (Ant Design) principles, providing ready-to-use, customizable components.",
+    "Option3": "State management libraries.",
+    "Option4": "Routing libraries.",
+    "Answer": "Popular React UI component libraries that implement Material Design (MUI) or Ant Design (Ant Design) principles, providing ready-to-use, customizable components."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `Axios` or `Fetch API` used for in React applications?",
+    "Option1": "Local data storage.",
+    "Option2": "Making HTTP requests to external APIs (e.g., fetching data from a server).",
+    "Option3": "Managing application state.",
+    "Option4": "Styling components.",
+    "Answer": "Making HTTP requests to external APIs (e.g., fetching data from a server)."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is `Error Boundaries` in React?",
+    "Option1": "A way to catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of crashing the entire application.",
+    "Option2": "A tool for handling network errors.",
+    "Option3": "A method for preventing infinite loops.",
+    "Option4": "A component for displaying error messages.",
+    "Answer": "A way to catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of crashing the entire application."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which lifecycle method is used to implement an `Error Boundary` in a class component?",
+    "Option1": "componentDidMount",
+    "Option2": "getDerivedStateFromError and componentDidCatch",
+    "Option3": "render",
+    "Option4": "componentWillUnmount",
+    "Answer": "getDerivedStateFromError and componentDidCatch"
+  },
+  {
+    "question_no.": 54,
+    "Question": "Can functional components be `Error Boundaries` directly?",
+    "Option1": "Yes, using a special hook.",
+    "Option2": "No, Error Boundaries must be class components. You can wrap functional components inside a class-based error boundary.",
+    "Option3": "Only if they use `useRef`.",
+    "Option4": "Only if they are memoized.",
+    "Answer": "No, Error Boundaries must be class components. You can wrap functional components inside a class-based error boundary."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is `Portals` in React?",
+    "Option1": "A way to navigate between pages.",
+    "Option2": "A feature that allows you to render children into a DOM node that exists outside the DOM hierarchy of the parent component.",
+    "Option3": "A way to create multiple root elements.",
+    "Option4": "A method for server-side rendering.",
+    "Answer": "A feature that allows you to render children into a DOM node that exists outside the DOM hierarchy of the parent component."
+  },
+  {
+    "question_no.": 56,
+    "Question": "When would you typically use `Portals`?",
+    "Option1": "For simple component composition.",
+    "Option2": "For modals, tooltips, or components that need to break out of their parent's `overflow: hidden` or `z-index` properties.",
+    "Option3": "For fetching data from an API.",
+    "Option4": "For managing form state.",
+    "Answer": "For modals, tooltips, or components that need to break out of their parent's `overflow: hidden` or `z-index` properties."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `Higher-Order Components (HOCs)`?",
+    "Option1": "Components that render other components.",
+    "Option2": "A design pattern where a function takes a component as an argument and returns a new component with enhanced props or behavior.",
+    "Option3": "Components that have higher priority in rendering.",
+    "Option4": "Components that only accept specific types of props.",
+    "Answer": "A design pattern where a function takes a component as an argument and returns a new component with enhanced props or behavior."
+  },
+  {
+    "question_no.": 58,
+    "Question": "When might `HOCs` be useful?",
+    "Option1": "For managing simple component state.",
+    "Option2": "For cross-cutting concerns like authentication, logging, data fetching, or sharing reusable logic across multiple components.",
+    "Option3": "For defining inline styles.",
+    "Option4": "For creating static content.",
+    "Answer": "For cross-cutting concerns like authentication, logging, data fetching, or sharing reusable logic across multiple components."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What are `Render Props`?",
+    "Option1": "A type of HOC.",
+    "Option2": "A pattern where a component takes a function as a prop, and this function returns JSX, allowing the component to share logic with its children.",
+    "Option3": "Props that are only used for rendering.",
+    "Option4": "Props that are not passed down to children.",
+    "Answer": "A pattern where a component takes a function as a prop, and this function returns JSX, allowing the component to share logic with its children."
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do `Hooks` compare to `HOCs` and `Render Props` for code reuse?",
+    "Option1": "Hooks are only for state management.",
+    "Option2": "Hooks provide a simpler and more direct way to reuse stateful logic and side effects without introducing new layers of components or prop nesting, often replacing the need for HOCs and Render Props for many use cases.",
+    "Option3": "Hooks are more complex than HOCs.",
+    "Option4": "Hooks are only for class components.",
+    "Answer": "Hooks provide a simpler and more direct way to reuse stateful logic and side effects without introducing new layers of components or prop nesting, often replacing the need for HOCs and Render Props for many use cases."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `StrictMode` in React?",
+    "Option1": "A tool for enforcing strict JavaScript syntax.",
+    "Option2": "A development-only tool that highlights potential problems in an application, such as deprecated lifecycle methods, unsafe lifecycles, and unexpected side effects.",
+    "Option3": "A mode that optimizes application performance.",
+    "Option4": "A tool for generating strict API contracts.",
+    "Answer": "A development-only tool that highlights potential problems in an application, such as deprecated lifecycle methods, unsafe lifecycles, and unexpected side effects."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Does `StrictMode` render anything visible in the UI?",
+    "Option1": "Yes, it adds borders around problematic components.",
+    "Option2": "No, it's a tool for debugging and does not render any visible UI. It just adds warnings to the console.",
+    "Option3": "Yes, it displays a warning message on the screen.",
+    "Option4": "Only in production mode.",
+    "Answer": "No, it's a tool for debugging and does not render any visible UI. It just adds warnings to the console."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `Lazy Loading` (or Code Splitting) in React?",
+    "Option1": "Loading all JavaScript at once.",
+    "Option2": "A technique to split the code into smaller chunks and load them on demand, improving the initial load time of the application.",
+    "Option3": "Loading data after the component mounts.",
+    "Option4": "Loading images only when they are in view.",
+    "Answer": "A technique to split the code into smaller chunks and load them on demand, improving the initial load time of the application."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which React feature is used for `Lazy Loading` components?",
+    "Option1": "React.lazy and Suspense",
+    "Option2": "React.memo",
+    "Option3": "useEffect",
+    "Option4": "useState",
+    "Answer": "React.lazy and Suspense"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `Suspense` used for in conjunction with `React.lazy`?",
+    "Option1": "To handle errors during loading.",
+    "Option2": "To show a fallback UI (e.g., a loading spinner) while a lazy-loaded component is being fetched.",
+    "Option3": "To prevent components from rendering.",
+    "Option4": "To clear the cache of lazy-loaded components.",
+    "Answer": "To show a fallback UI (e.g., a loading spinner) while a lazy-loaded component is being fetched."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `React.memo` (revisited)?",
+    "Option1": "A hook for memoizing values.",
+    "Option2": "A higher-order component that memoizes functional components, preventing re-renders if their props have not shallowly changed.",
+    "Option3": "A function for storing data.",
+    "Option4": "A utility for debugging components.",
+    "Answer": "A higher-order component that memoizes functional components, preventing re-renders if their props have not shallowly changed."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the difference between `React.memo` and `useMemo`?",
+    "Option1": "`React.memo` is for memoizing values, `useMemo` is for memoizing functions.",
+    "Option2": "`React.memo` memoizes entire functional components, `useMemo` memoizes specific values within a functional component.",
+    "Option3": "They are interchangeable.",
+    "Option4": "`React.memo` is for class components, `useMemo` is for functional components.",
+    "Answer": "`React.memo` memoizes entire functional components, `useMemo` memoizes specific values within a functional component."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `TypeScript` in the context of React?",
+    "Option1": "A new version of JavaScript.",
+    "Option2": "A superset of JavaScript that adds static typing, enhancing code maintainability, scalability, and catching errors at compile time.",
+    "Option3": "A CSS preprocessor.",
+    "Option4": "A tool for generating documentation.",
+    "Answer": "A superset of JavaScript that adds static typing, enhancing code maintainability, scalability, and catching errors at compile time."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the benefit of using `TypeScript` in a React project?",
+    "Option1": "Smaller app bundle size.",
+    "Option2": "Improved code quality, better tooling support (autocompletion, refactoring), easier collaboration, and reduced runtime errors.",
+    "Option3": "Faster execution speed.",
+    "Option4": "Automatic code generation.",
+    "Answer": "Improved code quality, better tooling support (autocompletion, refactoring), easier collaboration, and reduced runtime errors."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `ESLint` and `Prettier` used for in React projects?",
+    "Option1": "Performance optimization.",
+    "Option2": "Code linting (ESLint for identifying problematic patterns) and code formatting (Prettier for consistent code style) to maintain code quality and readability.",
+    "Option3": "Debugging tools.",
+    "Option4": "Deployment tools.",
+    "Answer": "Code linting (ESLint for identifying problematic patterns) and code formatting (Prettier for consistent code style) to maintain code quality and readability."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `Jest` and `React Testing Library` used for?",
+    "Option1": "End-to-end testing.",
+    "Option2": "Jest is a JavaScript testing framework (unit/integration testing), and React Testing Library is a utility that encourages good testing practices by focusing on testing component behavior from the user's perspective.",
+    "Option3": "Performance testing.",
+    "Option4": "Load testing.",
+    "Answer": "Jest is a JavaScript testing framework (unit/integration testing), and React Testing Library is a utility that encourages good testing practices by focusing on testing component behavior from the user's perspective."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `Cypress` or `Playwright` used for in React?",
+    "Option1": "Unit testing.",
+    "Option2": "End-to-end (E2E) testing frameworks that simulate user interactions in a real browser environment.",
+    "Option3": "Component testing.",
+    "Option4": "Snapshot testing.",
+    "Answer": "End-to-end (E2E) testing frameworks that simulate user interactions in a real browser environment."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `storybook` used for in React development?",
+    "Option1": "Writing app documentation.",
+    "Option2": "An open-source tool for developing UI components in isolation, allowing developers to create, test, and showcase UI components independently.",
+    "Option3": "Managing project stories.",
+    "Option4": "Creating interactive presentations.",
+    "Answer": "An open-source tool for developing UI components in isolation, allowing developers to create, test, and showcase UI components independently."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `Webpack` or `Vite` used for in React projects?",
+    "Option1": "State management.",
+    "Option2": "Module bundlers that combine and optimize all JavaScript, CSS, and other assets into a single bundle (or multiple bundles) for deployment.",
+    "Option3": "Routing.",
+    "Option4": "Server-side rendering.",
+    "Answer": "Module bundlers that combine and optimize all JavaScript, CSS, and other assets into a single bundle (or multiple bundles) for deployment."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `Babel` used for in React projects?",
+    "Option1": "Running JavaScript code directly in the browser.",
+    "Option2": "A JavaScript compiler that transforms modern JavaScript (ES6+, JSX, TypeScript) into backward-compatible versions, making it runnable in older browsers.",
+    "Option3": "Optimizing CSS.",
+    "Option4": "Managing dependencies.",
+    "Answer": "A JavaScript compiler that transforms modern JavaScript (ES6+, JSX, TypeScript) into backward-compatible versions, making it runnable in older browsers."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the purpose of `package.json` in a React project?",
+    "Option1": "To store application data.",
+    "Option2": "To manage project metadata, scripts, and dependencies (both production and development).",
+    "Option3": "To define environment variables.",
+    "Option4": "To configure the build process.",
+    "Answer": "To manage project metadata, scripts, and dependencies (both production and development)."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `npm` or `yarn` used for in React development?",
+    "Option1": "Building React applications.",
+    "Option2": "Package managers for JavaScript, used to install and manage third-party libraries for React projects.",
+    "Option3": "Styling components.",
+    "Option4": "Debugging applications.",
+    "Answer": "Package managers for JavaScript, used to install and manage third-party libraries for React projects."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `create-react-app`?",
+    "Option1": "A tool for building custom React apps from scratch.",
+    "Option2": "A command-line tool that sets up a new React project with a sensible default build configuration, allowing developers to focus on coding.",
+    "Option3": "A state management library.",
+    "Option4": "A UI component library.",
+    "Answer": "A command-line tool that sets up a new React project with a sensible default build configuration, allowing developers to focus on coding."
+  },
+  {
+    "question_no.": 79,
+    "Question": "When might you 'eject' from `create-react-app`?",
+    "Option1": "When you want to use more standard React features.",
+    "Option2": "When you need more control over the build configuration (e.g., Webpack, Babel settings) than `create-react-app` provides by default.",
+    "Option3": "When your app becomes too large.",
+    "Option4": "When you want to switch to a different framework.",
+    "Answer": "When you need more control over the build configuration (e.g., Webpack, Babel settings) than `create-react-app` provides by default."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `Memoization` in React (general concept)?",
+    "Option1": "Storing data in local storage.",
+    "Option2": "An optimization technique where the result of an expensive function call is cached, and the cached result is returned when the same inputs occur again, avoiding redundant computations.",
+    "Option3": "Writing comments in code.",
+    "Option4": "Tracking changes in data.",
+    "Answer": "An optimization technique where the result of an expensive function call is cached, and the cached result is returned when the same inputs occur again, avoiding redundant computations."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What are the common ways to memoize in React?",
+    "Option1": "Only by using `React.memo`.",
+    "Option2": "`React.memo` for components, `useMemo` for values, and `useCallback` for functions.",
+    "Option3": "By using `useState` and `useEffect`.",
+    "Option4": "By using `shouldComponentUpdate` only.",
+    "Answer": "`React.memo` for components, `useMemo` for values, and `useCallback` for functions."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of `shouldComponentUpdate` lifecycle method in class components?",
+    "Option1": "To force a component to re-render.",
+    "Option2": "To optimize performance by allowing you to control whether a component should re-render or not, based on changes in props or state.",
+    "Option3": "To update the component's state.",
+    "Option4": "To perform side effects after rendering.",
+    "Answer": "To optimize performance by allowing you to control whether a component should re-render or not, based on changes in props or state."
+  },
+  {
+    "question_no.": 83,
+    "Question": "How do you optimize `shouldComponentUpdate` for class components?",
+    "Option1": "By always returning `true`.",
+    "Option2": "By performing a shallow comparison of `nextProps` and `nextState` with current props and state, or extending `React.PureComponent`.",
+    "Option3": "By always returning `false`.",
+    "Option4": "By manually calling `forceUpdate()`.",
+    "Answer": "By performing a shallow comparison of `nextProps` and `nextState` with current props and state, or extending `React.PureComponent`."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `React.PureComponent`?",
+    "Option1": "A functional component that doesn't use hooks.",
+    "Option2": "A base class component that implements `shouldComponentUpdate` with a shallow prop and state comparison, providing automatic optimization for pure components.",
+    "Option3": "A component that never re-renders.",
+    "Option4": "A component that only renders once.",
+    "Answer": "A base class component that implements `shouldComponentUpdate` with a shallow prop and state comparison, providing automatic optimization for pure components."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `useImperativeHandle` hook used for?",
+    "Option1": "To define state that causes re-renders.",
+    "Option2": "To customize the instance value that is exposed to parent components when using `useRef` with `forwardRef`.",
+    "Option3": "To perform side effects after every render.",
+    "Option4": "To manage complex logic within a reducer.",
+    "Answer": "To customize the instance value that is exposed to parent components when using `useRef` with `forwardRef`."
+  },
+  {
+    "question_no.": 86,
+    "Question": "When would you typically use `useImperativeHandle`?",
+    "Option1": "For everyday component communication.",
+    "Option2": "Rarely. It's used when you need to expose specific methods or values of a child component to its parent, often for imperative actions (e.g., focusing an input).",
+    "Option3": "For managing global state.",
+    "Option4": "For conditional rendering.",
+    "Answer": "Rarely. It's used when you need to expose specific methods or values of a child component to its parent, often for imperative actions (e.g., focusing an input)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `ReactDOM.createPortal` used for (revisited)?",
+    "Option1": "To create a new root element.",
+    "Option2": "To render children into a DOM node that exists outside the DOM hierarchy of the parent component, useful for modals, tooltips, etc.",
+    "Option3": "To manipulate the Virtual DOM directly.",
+    "Option4": "To handle form submissions.",
+    "Answer": "To render children into a DOM node that exists outside the DOM hierarchy of the parent component, useful for modals, tooltips, etc."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `React.createElement`?",
+    "Option1": "A utility for creating HTML elements.",
+    "Option2": "The underlying function used by JSX to create React elements, which are plain objects describing what should appear on the screen.",
+    "Option3": "A method for rendering components to the DOM.",
+    "Option4": "A function for defining new components.",
+    "Answer": "The underlying function used by JSX to create React elements, which are plain objects describing what should appear on the screen."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the difference between a `React Element` and a `React Component`?",
+    "Option1": "They are the same.",
+    "Option2": "A React Element is a plain object describing what to render, while a React Component is a blueprint (function or class) from which elements are created.",
+    "Option3": "An Element is a class, a Component is a function.",
+    "Option4": "An Element is rendered, a Component is not.",
+    "Answer": "A React Element is a plain object describing what to render, while a React Component is a blueprint (function or class) from which elements are created."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `Server Components` in React?",
+    "Option1": "Components that only run on the client.",
+    "Option2": "A new experimental feature in React that allows you to render components on the server without sending their JavaScript bundle to the client, improving performance.",
+    "Option3": "Components that store data on the server.",
+    "Option4": "Components that interact directly with the database.",
+    "Answer": "A new experimental feature in React that allows you to render components on the server without sending their JavaScript bundle to the client, improving performance."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Hydration` in React SSR?",
+    "Option1": "Fetching data on the client-side.",
+    "Option2": "The process where React attaches event listeners and makes the server-rendered HTML interactive on the client-side.",
+    "Option3": "Refreshing the browser cache.",
+    "Option4": "Removing unused components.",
+    "Answer": "The process where React attaches event listeners and makes the server-rendered HTML interactive on the client-side."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `SEO` (Search Engine Optimization) and how does React SSR/SSG help?",
+    "Option1": "It's about making websites look good.",
+    "Option2": "SEO is optimizing websites for search engines. SSR/SSG helps by providing pre-rendered HTML to search engine crawlers, making content indexable and improving ranking.",
+    "Option3": "It makes websites load faster for users.",
+    "Option4": "It's a way to track user behavior.",
+    "Answer": "SEO is optimizing websites for search engines. SSR/SSG helps by providing pre-rendered HTML to search engine crawlers, making content indexable and improving ranking."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `Accessibility` (A11y) in React?",
+    "Option1": "Making the app visually appealing.",
+    "Option2": "Designing and developing web applications that are usable by people with disabilities (e.g., screen readers, keyboard navigation).",
+    "Option3": "Ensuring the app runs on all devices.",
+    "Option4": "Making the app load faster.",
+    "Answer": "Designing and developing web applications that are usable by people with disabilities (e.g., screen readers, keyboard navigation)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How can you improve accessibility in React applications?",
+    "Option1": "Using more colors and animations.",
+    "Option2": "Using semantic HTML, WAI-ARIA attributes, providing alt text for images, and ensuring proper keyboard navigation.",
+    "Option3": "By making components smaller.",
+    "Option4": "By removing all JavaScript.",
+    "Answer": "Using semantic HTML, WAI-ARIA attributes, providing alt text for images, and ensuring proper keyboard navigation."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `Progressive Web App (PWA)`?",
+    "Option1": "A native mobile application.",
+    "Option2": "A web application that uses modern web capabilities to deliver an app-like experience to users, including offline access, push notifications, and installability.",
+    "Option3": "A web application that relies heavily on backend services.",
+    "Option4": "A type of server-side rendered application.",
+    "Answer": "A web application that uses modern web capabilities to deliver an app-like experience to users, including offline access, push notifications, and installability."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What are `Service Workers` used for in PWAs?",
+    "Option1": "To manage server-side logic.",
+    "Option2": "JavaScript files that run in the background, separate from the main thread, enabling features like offline caching of assets and push notifications.",
+    "Option3": "To handle user authentication.",
+    "Option4": "To optimize database queries.",
+    "Answer": "JavaScript files that run in the background, separate from the main thread, enabling features like offline caching of assets and push notifications."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `Web Sockets` used for in React?",
+    "Option1": "One-time data fetching.",
+    "Option2": "Enabling full-duplex communication channels over a single TCP connection, often used for real-time applications (chat, live updates, notifications).",
+    "Option3": "Offline data storage.",
+    "Option4": "Secure data encryption.",
+    "Answer": "Enabling full-duplex communication channels over a single TCP connection, often used for real-time applications (chat, live updates, notifications)."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `GraphQL` (often via Apollo Client or Relay) used for in React?",
+    "Option1": "A new database technology.",
+    "Option2": "A query language for your API, allowing clients to request exactly the data they need, reducing over-fetching and under-fetching.",
+    "Option3": "A new web protocol.",
+    "Option4": "A tool for creating graphical interfaces.",
+    "Answer": "A query language for your API, allowing clients to request exactly the data they need, reducing over-fetching and under-fetching."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `Apollo Client`?",
+    "Option1": "A backend framework.",
+    "Option2": "A comprehensive state management library for GraphQL, providing caching, local state management, and powerful data fetching capabilities for React applications.",
+    "Option3": "A REST API client.",
+    "Option4": "A tool for building GraphQL servers.",
+    "Answer": "A comprehensive state management library for GraphQL, providing caching, local state management, and powerful data fetching capabilities for React applications."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `Relay`?",
+    "Option1": "A simpler alternative to Apollo Client.",
+    "Option2": "A JavaScript framework for building data-driven React applications with GraphQL, developed by Facebook.",
+    "Option3": "A tool for monitoring GraphQL queries.",
+    "Option4": "A GraphQL server implementation.",
+    "Answer": "A JavaScript framework for building data-driven React applications with GraphQL, developed by Facebook."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `Formik` or `React Hook Form`?",
+    "Option1": "Libraries for managing network requests.",
+    "Option2": "Popular libraries for building and managing forms in React, simplifying form state, validation, and submission.",
+    "Option3": "Libraries for animating forms.",
+    "Option4": "Libraries for styling forms.",
+    "Answer": "Popular libraries for building and managing forms in React, simplifying form state, validation, and submission."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `Yup` or `Zod` (commonly with form libraries)?",
+    "Option1": "Form submission handlers.",
+    "Option2": "Schema validation libraries used to define and validate data structures, often for form inputs.",
+    "Option3": "Storing form data.",
+    "Option4": "Creating form layouts.",
+    "Answer": "Schema validation libraries used to define and validate data structures, often for form inputs."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `React DevTools`?",
+    "Option1": "A tool for building React components.",
+    "Option2": "A browser extension or standalone app for inspecting and debugging React component hierarchies, props, and state.",
+    "Option3": "A tool for testing React applications.",
+    "Option4": "A tool for generating boilerplate code.",
+    "Answer": "A browser extension or standalone app for inspecting and debugging React component hierarchies, props, and state."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the benefit of using `React DevTools`?",
+    "Option1": "It automatically fixes bugs.",
+    "Option2": "It provides a visual representation of the component tree, allows inspecting and modifying props and state, and helps understand component re-renders.",
+    "Option3": "It makes the app load faster.",
+    "Option4": "It replaces the need for console.log.",
+    "Answer": "It provides a visual representation of the component tree, allows inspecting and modifying props and state, and helps understand component re-renders."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `Concurrent Mode` (now `Concurrent Features`) in React?",
+    "Option1": "A way to run JavaScript in parallel.",
+    "Option2": "A set of new experimental features in React that allow React to work on multiple tasks at once, improving responsiveness and user experience by pausing and resuming rendering.",
+    "Option3": "A mode for running React on multiple servers.",
+    "Option4": "A mode for optimizing network requests.",
+    "Answer": "A set of new experimental features in React that allow React to work on multiple tasks at once, improving responsiveness and user experience by pausing and resuming rendering."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `Transitions` in Concurrent React?",
+    "Option1": "Animations between pages.",
+    "Option2": "A way to mark UI updates that don’t need to be immediate, allowing urgent updates (like typing) to interrupt less urgent ones, improving perceived performance.",
+    "Option3": "A method for navigating routes.",
+    "Option4": "A technique for loading data asynchronously.",
+    "Answer": "A way to mark UI updates that don’t need to be immediate, allowing urgent updates (like typing) to interrupt less urgent ones, improving perceived performance."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `useTransition` hook used for?",
+    "Option1": "To create animations.",
+    "Option2": "To mark a state update as a transition, allowing other, more urgent updates to take precedence.",
+    "Option3": "To manage multiple states simultaneously.",
+    "Option4": "To track component mounting and unmounting.",
+    "Answer": "To mark a state update as a transition, allowing other, more urgent updates to take precedence."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `useDeferredValue` hook used for?",
+    "Option1": "To defer loading of a component.",
+    "Option2": "To defer updating a value, allowing the UI to remain responsive for urgent updates while a less urgent update is being calculated.",
+    "Option3": "To defer network requests.",
+    "Option4": "To defer rendering a component until it's in view.",
+    "Answer": "To defer updating a value, allowing the UI to remain responsive for urgent updates while a less urgent update is being calculated."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `Error Handling` best practices in React?",
+    "Option1": "Using `try-catch` blocks everywhere.",
+    "Option2": "Using `Error Boundaries` for UI errors, handling asynchronous errors with `try-catch` or `.catch()` on promises, and robust validation.",
+    "Option3": "Ignoring errors in development.",
+    "Option4": "Only logging errors to the console.",
+    "Answer": "Using `Error Boundaries` for UI errors, handling asynchronous errors with `try-catch` or `.catch()` on promises, and robust validation."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What are `Synthetic Events` in React?",
+    "Option1": "Custom events created by developers.",
+    "Option2": "Cross-browser wrappers around the browser's native event system, providing a consistent API and behavior across different browsers.",
+    "Option3": "Events that are triggered automatically.",
+    "Option4": "Events that only work in specific browsers.",
+    "Answer": "Cross-browser wrappers around the browser's native event system, providing a consistent API and behavior across different browsers."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Why does React use `Synthetic Events`?",
+    "Option1": "To improve security.",
+    "Option2": "To provide cross-browser compatibility and improve performance by pooling events.",
+    "Option3": "To reduce the amount of code needed for event handling.",
+    "Option4": "To make debugging easier.",
+    "Answer": "To provide cross-browser compatibility and improve performance by pooling events."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `Event Pooling` in React (related to synthetic events)?",
+    "Option1": "A method for queuing multiple events.",
+    "Option2": "An optimization where React reuses synthetic event objects to improve performance, meaning you shouldn't access event properties asynchronously.",
+    "Option3": "A way to group similar events.",
+    "Option4": "A mechanism for distributing events to multiple listeners.",
+    "Answer": "An optimization where React reuses synthetic event objects to improve performance, meaning you shouldn't access event properties asynchronously."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the common way to prevent default behavior of an event in React?",
+    "Option1": "return false;",
+    "Option2": "event.preventDefault()",
+    "Option3": "event.stopImmediatePropagation()",
+    "Option4": "event.cancelBubble = true;",
+    "Answer": "event.preventDefault()"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `Component Lifecycle` in React (for class components)?",
+    "Option1": "The order in which components are declared.",
+    "Option2": "The series of stages a component goes through from its creation (mounting) to its updates (updating) and finally its removal (unmounting).",
+    "Option3": "The data flow within a component.",
+    "Option4": "The different states a component can have.",
+    "Answer": "The series of stages a component goes through from its creation (mounting) to its updates (updating) and finally its removal (unmounting)."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Name the three main phases of a React component's lifecycle.",
+    "Option1": "Init, Run, Destroy",
+    "Option2": "Mounting, Updating, Unmounting",
+    "Option3": "Create, Change, Delete",
+    "Option4": "Setup, Process, Cleanup",
+    "Answer": "Mounting, Updating, Unmounting"
+  },
+  {
+    "question_no.": 116,
+    "Question": "Which lifecycle method is called immediately after a component is mounted (inserted into the DOM)?",
+    "Option1": "constructor",
+    "Option2": "render",
+    "Option3": "componentDidMount",
+    "Option4": "componentWillMount",
+    "Answer": "componentDidMount"
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which lifecycle method is called just before a component is unmounted and destroyed?",
+    "Option1": "componentDidUpdate",
+    "Option2": "componentWillUnmount",
+    "Option3": "shouldComponentUpdate",
+    "Option4": "render",
+    "Answer": "componentWillUnmount"
+  },
+  {
+    "question_no.": 118,
+    "Question": "How do `Hooks` map to class component lifecycle methods?",
+    "Option1": "They are completely unrelated.",
+    "Option2": "`useEffect` can be used to mimic `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` depending on its dependency array and return value.",
+    "Option3": "There is a direct one-to-one mapping for all methods.",
+    "Option4": "Hooks replace only the `render` method.",
+    "Answer": "`useEffect` can be used to mimic `componentDidMount`, `componentDidUpdate`, and `componentWillUnmount` depending on its dependency array and return value."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `React Dev Server`?",
+    "Option1": "A production server for React apps.",
+    "Option2": "A local development server (often provided by Webpack Dev Server or Vite) that serves your React application and provides features like hot module replacement.",
+    "Option3": "A server for managing database connections.",
+    "Option4": "A server for static file hosting.",
+    "Answer": "A local development server (often provided by Webpack Dev Server or Vite) that serves your React application and provides features like hot module replacement."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `Hot Module Replacement (HMR)`?",
+    "Option1": "Automatically reloading the entire page on code changes.",
+    "Option2": "A feature that updates modules in a running application without a full page reload, preserving the application state and speeding up development.",
+    "Option3": "Compiling code in the background.",
+    "Option4": "Refreshing only the styling.",
+    "Answer": "A feature that updates modules in a running application without a full page reload, preserving the application state and speeding up development."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Code Splitting` (revisited)?",
+    "Option1": "Breaking code into functions.",
+    "Option2": "A technique to divide your code into smaller bundles which are loaded on demand or in parallel, rather than as one large bundle, improving load times.",
+    "Option3": "Organizing code into multiple files.",
+    "Option4": "Minifying code for production.",
+    "Answer": "A technique to divide your code into smaller bundles which are loaded on demand or in parallel, rather than as one large bundle, improving load times."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What are the common strategies for `Code Splitting`?",
+    "Option1": "Splitting by file size only.",
+    "Option2": "Route-based splitting (splitting code per page/route) and component-based splitting (splitting specific components that are only needed on certain interactions).",
+    "Option3": "Splitting by component type.",
+    "Option4": "Splitting by developer.",
+    "Answer": "Route-based splitting (splitting code per page/route) and component-based splitting (splitting specific components that are only needed on certain interactions)."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `Tree Shaking`?",
+    "Option1": "Removing comments from code.",
+    "Option2": "An optimization process that eliminates unused code from the final JavaScript bundle, reducing its size and improving load times.",
+    "Option3": "Minifying CSS files.",
+    "Option4": "Bundling all dependencies together.",
+    "Answer": "An optimization process that eliminates unused code from the final JavaScript bundle, reducing its size and improving load times."
+  },
+  {
+    "question_no.": 124,
+    "Question": "How does `Tree Shaking` work with JavaScript modules?",
+    "Option1": "It requires specific `import` statements.",
+    "Option2": "It relies on ES6 module `import` and `export` statements to determine which code is actually being used and can be safely removed.",
+    "Option3": "It only works with CommonJS modules.",
+    "Option4": "It removes all unused functions.",
+    "Answer": "It relies on ES6 module `import` and `export` statements to determine which code is actually being used and can be safely removed."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `Performance Optimization` in React?",
+    "Option1": "Making the app visually attractive.",
+    "Option2": "Techniques and strategies used to improve the speed, responsiveness, and efficiency of a React application, reducing load times and improving user experience.",
+    "Option3": "Adding more features to the app.",
+    "Option4": "Increasing the app's bundle size.",
+    "Answer": "Techniques and strategies used to improve the speed, responsiveness, and efficiency of a React application, reducing load times and improving user experience."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Name some common React performance optimization techniques.",
+    "Option1": "Adding more API calls.",
+    "Option2": "Using `React.memo`, `useMemo`, `useCallback`, lazy loading/code splitting, virtualizing long lists, optimizing image loading, and avoiding unnecessary re-renders.",
+    "Option3": "Removing all state from components.",
+    "Option4": "Using more complex CSS animations.",
+    "Answer": "Using `React.memo`, `useMemo`, `useCallback`, lazy loading/code splitting, virtualizing long lists, optimizing image loading, and avoiding unnecessary re-renders."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `Virtualization` or `Windowing` for long lists?",
+    "Option1": "Displaying all list items at once.",
+    "Option2": "A technique to render only the visible items in a long list, drastically improving performance by reducing the number of DOM nodes.",
+    "Option3": "Scrolling through a list with a fixed speed.",
+    "Option4": "Creating a virtual reality experience for lists.",
+    "Answer": "A technique to render only the visible items in a long list, drastically improving performance by reducing the number of DOM nodes."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Name a library commonly used for list virtualization in React.",
+    "Option1": "React List",
+    "Option2": "react-virtualized or react-window",
+    "Option3": "React Scroll",
+    "Option4": "React Grid",
+    "Answer": "react-virtualized or react-window"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `SSR Hydration` (revisited)?",
+    "Option1": "The process of re-fetching data on the client.",
+    "Option2": "The process of attaching event listeners and React's internal state to the server-rendered HTML on the client-side to make it interactive.",
+    "Option3": "The process of generating CSS from JavaScript.",
+    "Option4": "The process of compiling React components.",
+    "Answer": "The process of attaching event listeners and React's internal state to the server-rendered HTML on the client-side to make it interactive."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `useLayoutEffect` hook used for?",
+    "Option1": "To perform side effects after the browser has painted.",
+    "Option2": "To perform side effects synchronously after all DOM mutations but before the browser has a chance to paint, useful for measuring layout or synchronously updating the DOM.",
+    "Option3": "To measure component performance.",
+    "Option4": "To animate component transitions.",
+    "Answer": "To perform side effects synchronously after all DOM mutations but before the browser has a chance to paint, useful for measuring layout or synchronously updating the DOM."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the difference between `useEffect` and `useLayoutEffect`?",
+    "Option1": "`useEffect` runs synchronously, `useLayoutEffect` runs asynchronously.",
+    "Option2": "`useEffect` runs after the browser paints, `useLayoutEffect` runs synchronously after DOM mutations but before painting.",
+    "Option3": "`useEffect` is for data fetching, `useLayoutEffect` is for UI updates.",
+    "Option4": "There is no functional difference.",
+    "Answer": "`useEffect` runs after the browser paints, `useLayoutEffect` runs synchronously after DOM mutations but before painting."
+  },
+  {
+    "question_no.": 132,
+    "Question": "When should you use `useLayoutEffect` over `useEffect`?",
+    "Option1": "When dealing with network requests.",
+    "Option2": "When you need to measure the DOM layout, read from the DOM, or make synchronous DOM mutations that affect the layout, to prevent visual inconsistencies.",
+    "Option3": "When performing expensive calculations.",
+    "Option4": "When setting up event listeners.",
+    "Answer": "When you need to measure the DOM layout, read from the DOM, or make synchronous DOM mutations that affect the layout, to prevent visual inconsistencies."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `Custom Hooks` in React?",
+    "Option1": "Hooks provided by third-party libraries.",
+    "Option2": "JavaScript functions that start with 'use' and call other hooks, allowing you to extract reusable stateful logic from components and share it across your application.",
+    "Option3": "Hooks that can only be used in specific components.",
+    "Option4": "Hooks that are not part of the React API.",
+    "Answer": "JavaScript functions that start with 'use' and call other hooks, allowing you to extract reusable stateful logic from components and share it across your application."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the primary benefit of `Custom Hooks`?",
+    "Option1": "They make components smaller.",
+    "Option2": "They allow for cleaner, more readable code by abstracting complex logic, promoting reusability of stateful logic without prop drilling or HOCs.",
+    "Option3": "They improve component performance automatically.",
+    "Option4": "They remove the need for Redux.",
+    "Answer": "They allow for cleaner, more readable code by abstracting complex logic, promoting reusability of stateful logic without prop drilling or HOCs."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What are `Refs` in React (revisited)?",
+    "Option1": "A way to define props.",
+    "Option2": "A way to access DOM nodes or React elements created in the render method, typically used for imperative interactions (e.g., managing focus, text selection, media playback).",
+    "Option3": "A method for passing data between components.",
+    "Option4": "A mechanism for handling component state.",
+    "Answer": "A way to access DOM nodes or React elements created in the render method, typically used for imperative interactions (e.g., managing focus, text selection, media playback)."
+  },
+  {
+    "question_no.": 136,
+    "Question": "When should you NOT use `Refs`?",
+    "Option1": "For managing focus or media playback.",
+    "Option2": "For declarative UI updates, where state and props should be used. Avoid using Refs for anything that can be done declaratively.",
+    "Option3": "When integrating with third-party DOM libraries.",
+    "Option4": "When you need to measure the size of an element.",
+    "Answer": "For declarative UI updates, where state and props should be used. Avoid using Refs for anything that can be done declaratively."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `Context.displayName`?",
+    "Option1": "A required property for all contexts.",
+    "Option2": "An optional string property on a Context object that React DevTools uses to display the context in a more readable way.",
+    "Option3": "The name of the context file.",
+    "Option4": "A method to get the context value.",
+    "Answer": "An optional string property on a Context object that React DevTools uses to display the context in a more readable way."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `renderToString` in `ReactDOMServer`?",
+    "Option1": "Renders a React element to an HTML string, primarily used for Server-Side Rendering (SSR).",
+    "Option2": "Renders a React element to the DOM.",
+    "Option3": "Converts a React component to a JSON string.",
+    "Option4": "Converts an HTML string to a React element.",
+    "Answer": "Renders a React element to an HTML string, primarily used for Server-Side Rendering (SSR)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `hydrate` in `ReactDOM`?",
+    "Option1": "Replaces the existing DOM with new content.",
+    "Option2": "Used to 'hydrate' a container whose HTML content was rendered by `ReactDOMServer`, making the server-rendered markup interactive.",
+    "Option3": "Adds new content to the DOM without replacing existing content.",
+    "Option4": "Removes content from the DOM.",
+    "Answer": "Used to 'hydrate' a container whose HTML content was rendered by `ReactDOMServer`, making the server-rendered markup interactive."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the purpose of the `key` prop when doing list rendering in React?",
+    "Option1": "To apply unique styling to each item.",
+    "Option2": "To provide a stable identity to each item in a list, allowing React to efficiently update, add, or remove items without re-rendering the entire list.",
+    "Option3": "To specify the data type of each item.",
+    "Option4": "To define the order in which items are rendered.",
+    "Answer": "To provide a stable identity to each item in a list, allowing React to efficiently update, add, or remove items without re-rendering the entire list."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Can you use the index as a `key` prop?",
+    "Option1": "Yes, always.",
+    "Option2": "Yes, but only if the list items are static and will not be reordered, filtered, or added/removed. Otherwise, it can lead to performance issues and bugs.",
+    "Option3": "No, never.",
+    "Option4": "Only for very small lists.",
+    "Answer": "Yes, but only if the list items are static and will not be reordered, filtered, or added/removed. Otherwise, it can lead to performance issues and bugs."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `Error Propagation` in React?",
+    "Option1": "Errors being passed as props.",
+    "Option2": "When an error occurs in a component, it propagates up the component tree until an Error Boundary catches it, or it reaches the root and crashes the app.",
+    "Option3": "Errors spreading across multiple files.",
+    "Option4": "Errors being sent to the server.",
+    "Answer": "When an error occurs in a component, it propagates up the component tree until an Error Boundary catches it, or it reaches the root and crashes the app."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `Controlled vs. Uncontrolled Components` in forms (revisited)?",
+    "Option1": "Controlled components have default values, uncontrolled don't.",
+    "Option2": "Controlled components have their input values managed by React state, while uncontrolled components manage their own state internally (using refs to access values).",
+    "Option3": "Controlled components are faster.",
+    "Option4": "Uncontrolled components are more complex.",
+    "Answer": "Controlled components have their input values managed by React state, while uncontrolled components manage their own state internally (using refs to access values)."
+  },
+  {
+    "question_no.": 144,
+    "Question": "When should you generally prefer `Controlled Components`?",
+    "Option1": "For simple forms.",
+    "Option2": "For most form scenarios, as they provide better control, easier validation, and immediate feedback based on state changes.",
+    "Option3": "When performance is critical.",
+    "Option4": "When integrating with third-party libraries.",
+    "Answer": "For most form scenarios, as they provide better control, easier validation, and immediate feedback based on state changes."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `React Profiler`?",
+    "Option1": "A tool for debugging React state.",
+    "Option2": "A tool in React DevTools that helps you measure the rendering performance of your React components and identify performance bottlenecks.",
+    "Option3": "A tool for generating performance reports.",
+    "Option4": "A tool for creating component profiles.",
+    "Answer": "A tool in React DevTools that helps you measure the rendering performance of your React components and identify performance bottlenecks."
+  },
+  {
+    "question_no.": 146,
+    "Question": "How do you use `React Profiler`?",
+    "Option1": "By adding a special component wrapper around the part of your app you want to profile.",
+    "Option2": "By clicking a button in the browser console.",
+    "Option3": "By running a command in the terminal.",
+    "Option4": "It's automatically enabled by default.",
+    "Answer": "By adding a special component wrapper around the part of your app you want to profile."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the purpose of `key` in `useEffect`'s dependency array?",
+    "Option1": "To specify unique identifiers.",
+    "Option2": "If a dependency is an object or array, including it in the dependency array can cause unintended re-runs. Using `useMemo` or `useCallback` to create stable references for these dependencies, or comparing their content, is important.",
+    "Option3": "To define the order of execution.",
+    "Option4": "To provide a fallback value.",
+    "Answer": "If a dependency is an object or array, including it in the dependency array can cause unintended re-runs. Using `useMemo` or `useCallback` to create stable references for these dependencies, or comparing their content, is important."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `memoization trap` in `useEffect`?",
+    "Option1": "When `useEffect` runs only once.",
+    "Option2": "When a dependency array in `useEffect` includes a function or object that is recreated on every render, causing the effect to run more often than intended.",
+    "Option3": "When `useEffect` never runs.",
+    "Option4": "When `useEffect` causes an infinite loop.",
+    "Answer": "When a dependency array in `useEffect` includes a function or object that is recreated on every render, causing the effect to run more often than intended."
+  },
+  {
+    "question_no.": 149,
+    "Question": "How do you avoid `memoization traps` in `useEffect`?",
+    "Option1": "By removing the dependency array.",
+    "Option2": "By using `useCallback` for functions and `useMemo` for objects/arrays that are dependencies, to ensure stable references.",
+    "Option3": "By making all dependencies global.",
+    "Option4": "By manually comparing dependencies.",
+    "Answer": "By using `useCallback` for functions and `useMemo` for objects/arrays that are dependencies, to ensure stable references."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `Lazy Initialization` of state in `useState`?",
+    "Option1": "Initializing state with a default value.",
+    "Option2": "Passing a function to `useState`'s initial value, so that the initial state is only computed once on the initial render, useful for expensive initializations.",
+    "Option3": "Initializing state based on props.",
+    "Option4": "Initializing state after a delay.",
+    "Answer": "Passing a function to `useState`'s initial value, so that the initial state is only computed once on the initial render, useful for expensive initializations."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `Functional Updates` for state setters?",
+    "Option1": "Directly setting the new state.",
+    "Option2": "Passing a function to the state setter (e.g., `setCount(prevCount => prevCount + 1)`) which receives the previous state, ensuring updates are based on the latest state.",
+    "Option3": "Updating state without re-rendering.",
+    "Option4": "Updating state in a functional component.",
+    "Answer": "Passing a function to the state setter (e.g., `setCount(prevCount => prevCount + 1)`) which receives the previous state, ensuring updates are based on the latest state."
+  },
+  {
+    "question_no.": 152,
+    "Question": "When is `Functional Updates` for state setters particularly useful?",
+    "Option1": "For simple state updates.",
+    "Option2": "When the new state depends on the previous state, or when performing multiple updates within the same event loop (e.g., in `useEffect` or event handlers).",
+    "Option3": "When state is immutable.",
+    "Option4": "When state is global.",
+    "Answer": "When the new state depends on the previous state, or when performing multiple updates within the same event loop (e.g., in `useEffect` or event handlers)."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `Component Composition` in React?",
+    "Option1": "Combining multiple components into a single file.",
+    "Option2": "Building complex UIs by combining smaller, independent, and reusable components, allowing for flexible and extensible designs.",
+    "Option3": "Creating a single large component.",
+    "Option4": "Ordering components based on their size.",
+    "Answer": "Building complex UIs by combining smaller, independent, and reusable components, allowing for flexible and extensible designs."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the main alternative to `Component Composition` that React discourages?",
+    "Option1": "Using `Context API`.",
+    "Option2": "Inheritance (extending base components), which often leads to less flexible and more tightly coupled code.",
+    "Option3": "Using `Hooks`.",
+    "Option4": "Using `Redux`.",
+    "Answer": "Inheritance (extending base components), which often leads to less flexible and more tightly coupled code."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `Declarative Programming` in React?",
+    "Option1": "Telling the computer *how* to do something.",
+    "Option2": "Describing *what* you want to achieve with the UI, and React handles the underlying steps to make that happen.",
+    "Option3": "Writing code in a linear fashion.",
+    "Option4": "Using only functions for programming.",
+    "Answer": "Describing *what* you want to achieve with the UI, and React handles the underlying steps to make that happen."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `Imperative Programming`?",
+    "Option1": "Describing *what* you want to achieve.",
+    "Option2": "Telling the computer *how* to do something step-by-step, often involving direct manipulation of the DOM.",
+    "Option3": "Programming with pure functions.",
+    "Option4": "Programming without side effects.",
+    "Answer": "Telling the computer *how* to do something step-by-step, often involving direct manipulation of the DOM."
+  },
+  {
+    "question_no.": 157,
+    "Question": "React emphasizes which programming paradigm?",
+    "Option1": "Imperative",
+    "Option2": "Procedural",
+    "Option3": "Declarative",
+    "Option4": "Object-oriented (solely)",
+    "Answer": "Declarative"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `Component Reusability` in React?",
+    "Option1": "Creating components that are used only once.",
+    "Option2": "Designing components that can be used in multiple parts of an application or across different projects, often by making them generic and configurable via props.",
+    "Option3": "Copying and pasting component code.",
+    "Option4": "Making components larger.",
+    "Answer": "Designing components that can be used in multiple parts of an application or across different projects, often by making them generic and configurable via props."
+  },
+  {
+    "question_no.": 159,
+    "Question": "How can you achieve `Component Reusability` effectively?",
+    "Option1": "By hardcoding data into components.",
+    "Option2": "By using props, composition, custom hooks, and keeping components focused on a single responsibility.",
+    "Option3": "By making components tightly coupled.",
+    "Option4": "By avoiding any external libraries.",
+    "Answer": "By using props, composition, custom hooks, and keeping components focused on a single responsibility."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `Composition over Inheritance`?",
+    "Option1": "A principle where you extend classes.",
+    "Option2": "A design principle that advocates for building functionality by composing simple, single-purpose objects/components rather than inheriting from complex ones, leading to more flexible and robust code.",
+    "Option3": "A principle for managing state.",
+    "Option4": "A principle for optimizing performance.",
+    "Answer": "A design principle that advocates for building functionality by composing simple, single-purpose objects/components rather than inheriting from complex ones, leading to more flexible and robust code."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the primary way React encourages `Composition`?",
+    "Option1": "Using `extends React.Component`.",
+    "Option2": "By allowing components to accept arbitrary children (`props.children`) and passing data via props.",
+    "Option3": "By defining global variables.",
+    "Option4": "By using inheritance from a base component.",
+    "Answer": "By allowing components to accept arbitrary children (`props.children`) and passing data via props."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Refs Forwarding`?",
+    "Option1": "Passing refs down to a child component directly.",
+    "Option2": "A technique that lets you pass a ref through a component to one of its children, typically a DOM element or a class component, allowing a parent to get a ref to a child's internal element.",
+    "Option3": "Passing refs to a parent component.",
+    "Option4": "Forwarding event listeners.",
+    "Answer": "A technique that lets you pass a ref through a component to one of its children, typically a DOM element or a class component, allowing a parent to get a ref to a child's internal element."
+  },
+  {
+    "question_no.": 163,
+    "Question": "When would you typically use `Refs Forwarding`?",
+    "Option1": "For every component.",
+    "Option2": "When building reusable component libraries, especially for components that wrap DOM elements and you need to expose a ref to that underlying DOM element.",
+    "Option3": "When managing complex state.",
+    "Option4": "When performing side effects.",
+    "Answer": "When building reusable component libraries, especially for components that wrap DOM elements and you need to expose a ref to that underlying DOM element."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `React.lazy` (revisited)?",
+    "Option1": "A method to load data asynchronously.",
+    "Option2": "A function that lets you render a dynamic import as a regular component, enabling code-splitting at the component level.",
+    "Option3": "A way to define lazy functions.",
+    "Option4": "A utility for delaying rendering.",
+    "Answer": "A function that lets you render a dynamic import as a regular component, enabling code-splitting at the component level."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `SuspenseList`?",
+    "Option1": "A component for showing multiple loading indicators.",
+    "Option2": "An experimental component for coordinating the loading order of multiple Suspense components and other components that can suspend, often used to create a more harmonious loading experience.",
+    "Option3": "A component for displaying a list of errors.",
+    "Option4": "A component for rendering lists with lazy loading.",
+    "Answer": "An experimental component for coordinating the loading order of multiple Suspense components and other components that can suspend, often used to create a more harmonious loading experience."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `useId` hook (React 18+)?",
+    "Option1": "To generate unique component IDs for styling.",
+    "Option2": "A hook for generating unique, stable IDs that are safe to pass to accessibility APIs and compatible with SSR.",
+    "Option3": "To retrieve user IDs.",
+    "Option4": "To track component instances.",
+    "Answer": "A hook for generating unique, stable IDs that are safe to pass to accessibility APIs and compatible with SSR."
+  },
+  {
+    "question_no.": 167,
+    "Question": "When is `useId` particularly useful?",
+    "Option1": "For general component identification.",
+    "Option2": "When rendering lists or forms where you need unique IDs for accessibility attributes (e.g., `htmlFor`, `aria-labelledby`) without generating them manually.",
+    "Option3": "For creating unique keys for list items.",
+    "Option4": "For tracking changes in an element's ID.",
+    "Answer": "When rendering lists or forms where you need unique IDs for accessibility attributes (e.g., `htmlFor`, `aria-labelledby`) without generating them manually."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `React Developer Tools` (revisited)?",
+    "Option1": "A text editor for React.",
+    "Option2": "A suite of debugging and inspection tools for React applications, available as browser extensions and a standalone app.",
+    "Option3": "A tool for generating React code.",
+    "Option4": "A framework for building developer tools.",
+    "Answer": "A suite of debugging and inspection tools for React applications, available as browser extensions and a standalone app."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `Recoil`?",
+    "Option1": "A routing library for React.",
+    "Option2": "A state management library for React, developed by Facebook, focusing on simple, reactive, and scalable state management with an emphasis on concurrent mode compatibility.",
+    "Option3": "A styling library for React.",
+    "Option4": "A testing framework for React.",
+    "Answer": "A state management library for React, developed by Facebook, focusing on simple, reactive, and scalable state management with an emphasis on concurrent mode compatibility."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What are `Atoms` in Recoil?",
+    "Option1": "Smallest UI components.",
+    "Option2": "Units of state that components can subscribe to, similar to a single piece of Redux state.",
+    "Option3": "Functions that modify state.",
+    "Option4": "Components that only render once.",
+    "Answer": "Units of state that components can subscribe to, similar to a single piece of Redux state."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What are `Selectors` in Recoil?",
+    "Option1": "Functions that select components.",
+    "Option2": "Pure functions that derive computed state from atoms or other selectors, similar to Redux selectors but with automatic memoization.",
+    "Option3": "Components that fetch data.",
+    "Option4": "Functions that define initial state.",
+    "Answer": "Pure functions that derive computed state from atoms or other selectors, similar to Redux selectors but with automatic memoization."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `Jotai` or `Zustand`?",
+    "Option1": "Complex state management libraries.",
+    "Option2": "Lightweight and minimalist state management libraries for React, often touted as alternatives to Redux for simpler global state management, with a focus on ease of use and performance.",
+    "Option3": "Data fetching libraries.",
+    "Option4": "Animation libraries.",
+    "Answer": "Lightweight and minimalist state management libraries for React, often touted as alternatives to Redux for simpler global state management, with a focus on ease of use and performance."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `React Query` or `SWR`?",
+    "Option1": "Libraries for managing local component state.",
+    "Option2": "Data fetching libraries for React that provide powerful caching, revalidation, and synchronization mechanisms for asynchronous data, simplifying server state management.",
+    "Option3": "Libraries for building forms.",
+    "Option4": "Libraries for routing.",
+    "Answer": "Data fetching libraries for React that provide powerful caching, revalidation, and synchronization mechanisms for asynchronous data, simplifying server state management."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the primary benefit of `React Query` or `SWR`?",
+    "Option1": "They replace the need for a backend.",
+    "Option2": "They simplify data fetching logic, provide automatic caching, background re-fetching, and built-in error handling, greatly improving developer experience and performance for server data.",
+    "Option3": "They only work with GraphQL.",
+    "Option4": "They make the app run natively.",
+    "Answer": "They simplify data fetching logic, provide automatic caching, background re-fetching, and built-in error handling, greatly improving developer experience and performance for server data."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `Custom Events` in React?",
+    "Option1": "Events triggered by native browser APIs.",
+    "Option2": "Events that you define and dispatch programmatically within your React application, often using the browser's `CustomEvent` API, to communicate between unrelated components or modules.",
+    "Option3": "Events that are handled by HOCs.",
+    "Option4": "Events that only work in specific browsers.",
+    "Answer": "Events that you define and dispatch programmatically within your React application, often using the browser's `CustomEvent` API, to communicate between unrelated components or modules."
+  },
+  {
+    "question_no.": 176,
+    "Question": "When might you consider using `Custom Events` in React (less common)?",
+    "Option1": "For simple parent-child communication.",
+    "Option2": "For very specific, global, decoupled communication needs, especially when an explicit event bus is desired, though Context API or global state management is often preferred.",
+    "Option3": "For debugging purposes only.",
+    "Option4": "When you have a very small application.",
+    "Answer": "For very specific, global, decoupled communication needs, especially when an explicit event bus is desired, though Context API or global state management is often preferred."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `React Concurrent Mode` (revisited)?",
+    "Option1": "A mode for running React on multiple threads.",
+    "Option2": "A set of new experimental features in React (now often referred to as Concurrent Features) that enable interruption of rendering work, allowing React to remain responsive even during large updates.",
+    "Option3": "A mode for optimizing network requests.",
+    "Option4": "A mode for enabling parallel component execution.",
+    "Answer": "A set of new experimental features in React (now often referred to as Concurrent Features) that enable interruption of rendering work, allowing React to remain responsive even during large updates."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Batching` in React?",
+    "Option1": "Rendering components individually.",
+    "Option2": "React groups multiple state updates (e.g., multiple `setState` calls) into a single re-render for performance, avoiding unnecessary re-renders.",
+    "Option3": "Processing events in batches.",
+    "Option4": "Fetching data in batches.",
+    "Answer": "React groups multiple state updates (e.g., multiple `setState` calls) into a single re-render for performance, avoiding unnecessary re-renders."
+  },
+  {
+    "question_no.": 179,
+    "Question": "How has `Batching` changed in React 18?",
+    "Option1": "It no longer exists.",
+    "Option2": "React 18 introduces automatic batching for all updates, even outside of React event handlers (e.g., in promises, `setTimeout`), further improving performance.",
+    "Option3": "Batching now happens asynchronously.",
+    "Option4": "Batching is now optional.",
+    "Answer": "React 18 introduces automatic batching for all updates, even outside of React event handlers (e.g., in promises, `setTimeout`), further improving performance."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Automated Testing` in React?",
+    "Option1": "Manually clicking through the app to find bugs.",
+    "Option2": "Using software tools and frameworks to execute tests (unit, integration, E2E) on your React application to ensure correctness and prevent regressions.",
+    "Option3": "Testing on multiple devices simultaneously.",
+    "Option4": "Debugging with console logs.",
+    "Answer": "Using software tools and frameworks to execute tests (unit, integration, E2E) on your React application to ensure correctness and prevent regressions."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What are the different levels of testing in React?",
+    "Option1": "Small, Medium, Large.",
+    "Option2": "Unit testing (individual components/functions), Integration testing (groups of components/units interacting), End-to-End (E2E) testing (entire application flow).",
+    "Option3": "Frontend, Backend, Database.",
+    "Option4": "Development, Staging, Production.",
+    "Answer": "Unit testing (individual components/functions), Integration testing (groups of components/units interacting), End-to-End (E2E) testing (entire application flow)."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `Mocking` (revisited)?",
+    "Option1": "Creating real data for tests.",
+    "Option2": "Replacing real objects or functions with controlled, fake versions during testing to isolate the unit under test and ensure predictable behavior.",
+    "Option3": "Running tests on real browsers.",
+    "Option4": "Performing integration tests.",
+    "Answer": "Replacing real objects or functions with controlled, fake versions during testing to isolate the unit under test and ensure predictable behavior."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Snapshot Testing` (revisited)?",
+    "Option1": "Taking screenshots of the UI.",
+    "Option2": "A testing method where a rendered component's output (JSX or serialized object) is saved as a 'snapshot' and compared against future renders to detect unexpected UI changes.",
+    "Option3": "Testing app performance over time.",
+    "Option4": "Testing animations.",
+    "Answer": "A testing method where a rendered component's output (JSX or serialized object) is saved as a 'snapshot' and compared against future renders to detect unexpected UI changes."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Test-Driven Development (TDD)`?",
+    "Option1": "Writing code first, then tests.",
+    "Option2": "A software development process where tests are written *before* the code they are meant to test, guiding the development process.",
+    "Option3": "A process of debugging code.",
+    "Option4": "A process of designing UI.",
+    "Answer": "A software development process where tests are written *before* the code they are meant to test, guiding the development process."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Behaviour-Driven Development (BDD)`?",
+    "Option1": "A development methodology focused on code structure.",
+    "Option2": "A development methodology that encourages collaboration between developers, QA, and non-technical stakeholders by defining tests in a human-readable, behavior-focused language (e.g., Gherkin).",
+    "Option3": "A methodology for managing project tasks.",
+    "Option4": "A methodology for optimizing performance.",
+    "Answer": "A development methodology that encourages collaboration between developers, QA, and non-technical stakeholders by defining tests in a human-readable, behavior-focused language (e.g., Gherkin)."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `Continuous Integration (CI)`?",
+    "Option1": "Manually deploying code.",
+    "Option2": "A development practice where developers frequently integrate code changes into a central repository, followed by automated builds and tests, to detect integration issues early.",
+    "Option3": "A method for continuous refactoring.",
+    "Option4": "A process for continuous learning.",
+    "Answer": "A development practice where developers frequently integrate code changes into a central repository, followed by automated builds and tests, to detect integration issues early."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Continuous Delivery (CD)`?",
+    "Option1": "Manually releasing new features.",
+    "Option2": "An extension of CI where code changes are automatically built, tested, and prepared for a release to production, allowing for rapid and reliable deployments.",
+    "Option3": "Continuously fixing bugs.",
+    "Option4": "Continuously improving developer experience.",
+    "Answer": "An extension of CI where code changes are automatically built, tested, and prepared for a release to production, allowing for rapid and reliable deployments."
+  },
+  {
+    "question_no.": 188,
+    "Question": "Name some popular CI/CD tools used for React applications.",
+    "Option1": "VS Code, Chrome DevTools",
+    "Option2": "Jenkins, CircleCI, GitHub Actions, GitLab CI/CD, Azure DevOps",
+    "Option3": "Figma, Sketch",
+    "Option4": "Slack, Jira",
+    "Answer": "Jenkins, CircleCI, GitHub Actions, GitLab CI/CD, Azure DevOps"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `Accessibility Tree`?",
+    "Option1": "A tree of all HTML elements on a page.",
+    "Option2": "A representation of the UI that assistive technologies (like screen readers) use to understand and interpret content, providing an accessible version of the DOM.",
+    "Option3": "A tree structure for managing state.",
+    "Option4": "A graphical representation of component hierarchy.",
+    "Answer": "A representation of the UI that assistive technologies (like screen readers) use to understand and interpret content, providing an accessible version of the DOM."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What are `ARIA Attributes`?",
+    "Option1": "Attributes for styling components.",
+    "Option2": "Accessible Rich Internet Applications (ARIA) attributes that provide semantic meaning to HTML elements, especially for custom widgets, to improve accessibility for users of assistive technologies.",
+    "Option3": "Attributes for defining component behavior.",
+    "Option4": "Attributes for controlling component lifecycle.",
+    "Answer": "Accessible Rich Internet Applications (ARIA) attributes that provide semantic meaning to HTML elements, especially for custom widgets, to improve accessibility for users of assistive technologies."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `React StrictMode` (revisited)?",
+    "Option1": "A tool for enforcing strict CSS rules.",
+    "Option2": "A wrapper component that activates additional checks and warnings for its descendants during development, helping to identify potential issues and ensure adherence to best practices.",
+    "Option3": "A mode that optimizes the production build.",
+    "Option4": "A mode that disables all console warnings.",
+    "Answer": "A wrapper component that activates additional checks and warnings for its descendants during development, helping to identify potential issues and ensure adherence to best practices."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Does `StrictMode` affect the production build?",
+    "Option1": "Yes, it optimizes performance.",
+    "Option2": "No, `StrictMode` only runs in development mode and does not impact the production build or performance.",
+    "Option3": "Yes, it adds extra code to the bundle.",
+    "Option4": "Only if there are errors.",
+    "Answer": "No, `StrictMode` only runs in development mode and does not impact the production build or performance."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `Server Components` in React (revisited)?",
+    "Option1": "Components that only interact with a database.",
+    "Option2": "A new architectural paradigm where parts of your React application render entirely on the server and are streamed to the client as static HTML, reducing bundle size and improving initial load times.",
+    "Option3": "Components that only run on the client-side.",
+    "Option4": "Components that handle server-side routing.",
+    "Answer": "A new architectural paradigm where parts of your React application render entirely on the server and are streamed to the client as static HTML, reducing bundle size and improving initial load times."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the main benefit of `Server Components`?",
+    "Option1": "Allows interactive elements to load faster.",
+    "Option2": "Reduces the JavaScript bundle size sent to the client, leading to faster initial page loads and better performance, especially on slow networks.",
+    "Option3": "Simplifies client-side state management.",
+    "Option4": "Enables offline functionality.",
+    "Answer": "Reduces the JavaScript bundle size sent to the client, leading to faster initial page loads and better performance, especially on slow networks."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `Client Components` in the context of Server Components?",
+    "Option1": "Components that run only on the server.",
+    "Option2": "Regular React components that require JavaScript to run in the browser and provide interactivity (e.g., using `useState`, `useEffect`).",
+    "Option3": "Components that only display static content.",
+    "Option4": "Components that manage server-side data.",
+    "Answer": "Regular React components that require JavaScript to run in the browser and provide interactivity (e.g., using `useState`, `useEffect`)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "How do `Server Components` and `Client Components` interact?",
+    "Option1": "They are completely isolated.",
+    "Option2": "Server Components can render Client Components, but Client Components cannot directly render Server Components. Client Components can import Server Components as props.",
+    "Option3": "They must always be rendered together.",
+    "Option4": "They communicate only through Redux.",
+    "Answer": "Server Components can render Client Components, but Client Components cannot directly render Server Components. Client Components can import Server Components as props."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `use client` directive in React (Next.js App Router context)?",
+    "Option1": "A directive to run code on the server.",
+    "Option2": "A special directive placed at the top of a file to mark it as a Client Component boundary, indicating that this component and its children should be rendered on the client.",
+    "Option3": "A directive for importing client-side libraries.",
+    "Option4": "A directive for fetching data on the client.",
+    "Answer": "A special directive placed at the top of a file to mark it as a Client Component boundary, indicating that this component and its children should be rendered on the client."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the default rendering environment for components in the Next.js App Router (without a directive)?",
+    "Option1": "Client-side.",
+    "Option2": "Server-side (they are Server Components by default).",
+    "Option3": "It depends on the component type.",
+    "Option4": "Both client and server simultaneously.",
+    "Answer": "Server-side (they are Server Components by default)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `Optimistic UI`?",
+    "Option1": "A UI that always shows success messages.",
+    "Option2": "A UI design pattern where the application immediately updates the user interface to reflect the expected outcome of an action, even before the server confirms the action, providing instant feedback.",
+    "Option3": "A UI that loads all data at once.",
+    "Option4": "A UI that never shows loading states.",
+    "Answer": "A UI design pattern where the application immediately updates the user interface to reflect the expected outcome of an action, even before the server confirms the action, providing instant feedback."
+  },
+  {
+    "question_no.": 200,
+    "Question": "When is `Optimistic UI` particularly beneficial?",
+    "Option1": "For static content.",
+    "Option2": "For actions that involve network requests (e.g., adding an item to a list, liking a post), as it improves the perceived responsiveness of the application.",
+    "Option3": "For read-only operations.",
+    "Option4": "For complex calculations.",
+    "Answer": "For actions that involve network requests (e.g., adding an item to a list, liking a post), as it improves the perceived responsiveness of the application."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `Micro-frontends` in React?",
+    "Option1": "Breaking down a single large React application into smaller, independently deployable frontend applications, often composed together in a single browser page.",
+    "Option2": "Creating very small React components.",
+    "Option3": "Developing frontend applications without any backend.",
+    "Option4": "A new styling approach for React.",
+    "Answer": "Breaking down a single large React application into smaller, independently deployable frontend applications, often composed together in a single browser page."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What are the advantages of `Micro-frontends`?",
+    "Option1": "Increased complexity and slower development.",
+    "Option2": "Independent development, deployment, and scaling of teams, technology stack flexibility, and easier maintenance of large applications.",
+    "Option3": "Reduced code reuse.",
+    "Option4": "Tighter coupling between modules.",
+    "Answer": "Independent development, deployment, and scaling of teams, technology stack flexibility, and easier maintenance of large applications."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `Design Systems` in React development?",
+    "Option1": "A collection of UI components only.",
+    "Option2": "A comprehensive set of standards, reusable components, and guidelines that help teams build consistent and scalable user interfaces across products.",
+    "Option3": "A tool for designing mockups.",
+    "Option4": "A method for project management.",
+    "Answer": "A comprehensive set of standards, reusable components, and guidelines that help teams build consistent and scalable user interfaces across products."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What are the benefits of using a `Design System`?",
+    "Option1": "Slower development and inconsistent UI.",
+    "Option2": "Improved consistency, faster development, better collaboration between design and development, and easier maintenance of the UI.",
+    "Option3": "Increased bundle size.",
+    "Option4": "Reduced code quality.",
+    "Answer": "Improved consistency, faster development, better collaboration between design and development, and easier maintenance of the UI."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `Component Library` in the context of Design Systems?",
+    "Option1": "A collection of backend functions.",
+    "Option2": "A set of pre-built, reusable UI components (buttons, inputs, cards, etc.) that implement the design system's specifications, often published as a separate npm package.",
+    "Option3": "A library for data fetching.",
+    "Option4": "A library for managing global state.",
+    "Answer": "A set of pre-built, reusable UI components (buttons, inputs, cards, etc.) that implement the design system's specifications, often published as a separate npm package."
+  }
+]

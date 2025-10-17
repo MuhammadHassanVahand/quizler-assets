@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Bootstrap primarily used for?",
+    "Option1": "Backend database management",
+    "Option2": "Server-side scripting",
+    "Option3": "Front-end web development to create responsive and mobile-first websites",
+    "Option4": "Image editing",
+    "Answer": "Front-end web development to create responsive and mobile-first websites"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company developed Bootstrap?",
+    "Option1": "Google",
+    "Option2": "Facebook",
+    "Option3": "Twitter",
+    "Option4": "Microsoft",
+    "Answer": "Twitter"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What are the core components of Bootstrap?",
+    "Option1": "Python, Django, SQL",
+    "Option2": "HTML, CSS, JavaScript (jQuery)",
+    "Option3": "PHP, MySQL, Apache",
+    "Option4": "Ruby, Rails, PostgreSQL",
+    "Answer": "HTML, CSS, JavaScript (jQuery)"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the main benefit of using Bootstrap?",
+    "Option1": "It makes websites run faster on the server.",
+    "Option2": "It provides a consistent and responsive design across different devices and browsers.",
+    "Option3": "It optimizes database queries.",
+    "Option4": "It encrypts website data.",
+    "Answer": "It provides a consistent and responsive design across different devices and browsers."
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you include Bootstrap's CSS in your HTML file?",
+    "Option1": "<script src=\"bootstrap.css\"></script>",
+    "Option2": "<link rel=\"stylesheet\" href=\"bootstrap.css\">",
+    "Option3": "<style src=\"bootstrap.css\"></style>",
+    "Option4": "@import url('bootstrap.css');",
+    "Answer": "<link rel=\"stylesheet\" href=\"bootstrap.css\">"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the purpose of the Bootstrap grid system?",
+    "Option1": "To create tables for data display.",
+    "Option2": "To arrange content in a flexible and responsive layout using rows and columns.",
+    "Option3": "To draw lines and shapes on the webpage.",
+    "Option4": "To manage server-side routing.",
+    "Answer": "To arrange content in a flexible and responsive layout using rows and columns."
+  },
+  {
+    "question_no.": 7,
+    "Question": "How many columns are there in the Bootstrap grid system?",
+    "Option1": "6",
+    "Option2": "10",
+    "Option3": "12",
+    "Option4": "16",
+    "Answer": "12"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which class is used to create a responsive container in Bootstrap?",
+    "Option1": ".box",
+    "Option2": ".wrapper",
+    "Option3": ".container",
+    "Option4": ".holder",
+    "Answer": ".container"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which class is used to create a full-width container that stretches across the entire viewport width?",
+    "Option1": ".container-fluid",
+    "Option2": ".container-full",
+    "Option3": ".full-width",
+    "Option4": ".stretch-container",
+    "Answer": ".container-fluid"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which class is used to define a row in the Bootstrap grid?",
+    "Option1": ".column",
+    "Option2": ".grid",
+    "Option3": ".row",
+    "Option4": ".section",
+    "Answer": ".row"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the purpose of `.col-md-6`?",
+    "Option1": "It sets the column width to 6 pixels on medium devices.",
+    "Option2": "It sets the column width to 6 units on all devices.",
+    "Option3": "It sets the column width to 6 out of 12 for medium devices and up.",
+    "Option4": "It aligns the column to the middle.",
+    "Answer": "It sets the column width to 6 out of 12 for medium devices and up."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which class is used for extra small devices (phones, <576px)?",
+    "Option1": ".col-xs-",
+    "Option2": ".col-sm-",
+    "Option3": ".col-ex-",
+    "Option4": ".col-",
+    "Answer": ".col-"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which class is used for small devices (tablets, ≥576px)?",
+    "Option1": ".col-xs-",
+    "Option2": ".col-sm-",
+    "Option3": ".col-md-",
+    "Option4": ".col-lg-",
+    "Answer": ".col-sm-"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which class is used for medium devices (desktops, ≥768px)?",
+    "Option1": ".col-sm-",
+    "Option2": ".col-md-",
+    "Option3": ".col-lg-",
+    "Option4": ".col-xl-",
+    "Answer": ".col-md-"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which class is used for large devices (desktops, ≥992px)?",
+    "Option1": ".col-md-",
+    "Option2": ".col-lg-",
+    "Option3": ".col-xl-",
+    "Option4": ".col-xxl-",
+    "Answer": ".col-lg-"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which class is used for extra large devices (large desktops, ≥1200px)?",
+    "Option1": ".col-lg-",
+    "Option2": ".col-xl-",
+    "Option3": ".col-xxl-",
+    "Option4": ".col-super-",
+    "Answer": ".col-xl-"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which class is used for extra extra large devices (huge desktops, ≥1400px) in Bootstrap 5?",
+    "Option1": ".col-xl-",
+    "Option2": ".col-xxl-",
+    "Option3": ".col-huge-",
+    "Option4": ".col-2xl-",
+    "Answer": ".col-xxl-"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the purpose of Bootstrap 'offset' classes (e.g., `offset-md-2`)?",
+    "Option1": "To add padding to columns.",
+    "Option2": "To push columns to the right by a specified number of columns.",
+    "Option3": "To center columns horizontally.",
+    "Option4": "To adjust the vertical alignment of columns.",
+    "Answer": "To push columns to the right by a specified number of columns."
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you make an image responsive in Bootstrap?",
+    "Option1": "Add `class=\"img-full\"`",
+    "Option2": "Add `class=\"responsive-img\"`",
+    "Option3": "Add `class=\"img-fluid\"` (Bootstrap 4+) or `class=\"img-responsive\"` (Bootstrap 3)",
+    "Option4": "Add `style=\"width: 100%; height: auto;\"`",
+    "Answer": "Add `class=\"img-fluid\"` (Bootstrap 4+) or `class=\"img-responsive\"` (Bootstrap 3)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which class is used to style a simple button?",
+    "Option1": ".btn",
+    "Option2": ".button",
+    "Option3": ".click",
+    "Option4": ".action",
+    "Answer": ".btn"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you create a primary button in Bootstrap?",
+    "Option1": "<button class=\"btn-primary\">",
+    "Option2": "<button class=\"btn primary\">",
+    "Option3": "<button class=\"primary-btn\">",
+    "Option4": "<button class=\"button-primary\">",
+    "Answer": "<button class=\"btn btn-primary\">"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which class is used to create a large button?",
+    "Option1": ".btn-lg",
+    "Option2": ".btn-big",
+    "Option3": ".btn-large",
+    "Option4": ".btn-xl",
+    "Answer": ".btn-lg"
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you create a button group in Bootstrap?",
+    "Option1": "<div class=\"group-btn\"></div>",
+    "Option2": "<div class=\"button-list\"></div>",
+    "Option3": "<div class=\"btn-group\"></div>",
+    "Option4": "<div class=\"button-container\"></div>",
+    "Answer": "<div class=\"btn-group\"></div>"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a 'Jumbotron' in Bootstrap 3?",
+    "Option1": "A large image banner.",
+    "Option2": "A lightweight, flexible component that can optionally extend the entire viewport to showcase key content.",
+    "Option3": "A component for displaying large text.",
+    "Option4": "A navigation bar.",
+    "Answer": "A lightweight, flexible component that can optionally extend the entire viewport to showcase key content."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What replaced 'Jumbotron' in Bootstrap 5?",
+    "Option1": "It was completely removed with no direct replacement.",
+    "Option2": "The utility classes for spacing and background colors can be used to create similar effects.",
+    "Option3": "The `.hero` component.",
+    "Option4": "The `.header-banner` class.",
+    "Answer": "The utility classes for spacing and background colors can be used to create similar effects."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which component is used for navigation bars?",
+    "Option1": ".menu-bar",
+    "Option2": ".top-nav",
+    "Option3": ".navbar",
+    "Option4": ".navigation",
+    "Answer": ".navbar"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you create a responsive navigation bar that collapses on small screens?",
+    "Option1": "Add `class=\"collapsible-nav\"`",
+    "Option2": "Utilize `navbar-toggler` and `navbar-collapse` classes with JavaScript.",
+    "Option3": "Use media queries in custom CSS.",
+    "Option4": "Bootstrap navigation bars are responsive by default, no extra classes needed.",
+    "Answer": "Utilize `navbar-toggler` and `navbar-collapse` classes with JavaScript."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is the purpose of the `navbar-brand` class?",
+    "Option1": "To display a brand logo or text in the navbar.",
+    "Option2": "To change the background color of the navbar.",
+    "Option3": "To center items in the navbar.",
+    "Option4": "To create a sticky navbar.",
+    "Answer": "To display a brand logo or text in the navbar."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which class is used to create a dropdown menu?",
+    "Option1": ".menu-dropdown",
+    "Option2": ".dropdown",
+    "Option3": ".select-menu",
+    "Option4": ".option-list",
+    "Answer": ".dropdown"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'Carousel' in Bootstrap?",
+    "Option1": "A static image gallery.",
+    "Option2": "A slideshow component for cycling through elements—images or slides of text—like a carousel.",
+    "Option3": "A video player.",
+    "Option4": "A form validation tool.",
+    "Answer": "A slideshow component for cycling through elements—images or slides of text—like a carousel."
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which JavaScript library does Bootstrap heavily rely on for its interactive components (prior to Bootstrap 5's vanilla JS move)?",
+    "Option1": "React",
+    "Option2": "Angular",
+    "Option3": "Vue.js",
+    "Option4": "jQuery",
+    "Answer": "jQuery"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you enable JavaScript components in Bootstrap (e.g., modals, carousels)?",
+    "Option1": "By linking only the Bootstrap CSS file.",
+    "Option2": "By including Bootstrap's JavaScript (and jQuery for older versions) files after the CSS.",
+    "Option3": "By adding `js-enabled` class to the body.",
+    "Option4": "They are enabled automatically.",
+    "Answer": "By including Bootstrap's JavaScript (and jQuery for older versions) files after the CSS."
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which component is used for displaying alert messages?",
+    "Option1": ".message",
+    "Option2": ".notification",
+    "Option3": ".alert",
+    "Option4": ".warning",
+    "Answer": ".alert"
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you create a dismissible alert?",
+    "Option1": "Add `class=\"alert-close\"`",
+    "Option2": "Add `data-dismiss=\"alert\"` to a close button within the alert.",
+    "Option3": "Use CSS `display: none;`",
+    "Option4": "Bootstrap alerts are dismissible by default.",
+    "Answer": "Add `data-dismiss=\"alert\"` to a close button within the alert."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which component is used to create modal dialogs?",
+    "Option1": ".popup",
+    "Option2": ".dialog",
+    "Option3": ".modal",
+    "Option4": ".lightbox",
+    "Answer": ".modal"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What are the three main parts of a Bootstrap modal?",
+    "Option1": "Header, Body, Footer",
+    "Option2": "Top, Middle, Bottom",
+    "Option3": "Title, Content, Actions",
+    "Option4": "Panel, Inner, Outer",
+    "Answer": "Header, Body, Footer"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which class is used to style a form control?",
+    "Option1": ".input-control",
+    "Option2": ".form-input",
+    "Option3": ".form-control",
+    "Option4": ".text-input",
+    "Answer": ".form-control"
+  },
+  {
+    "question_no.": 38,
+    "Question": "How do you create a disabled form input?",
+    "Option1": "Add `class=\"disabled\"`",
+    "Option2": "Add the `disabled` HTML attribute.",
+    "Option3": "Add `class=\"form-disabled\"`",
+    "Option4": "Use JavaScript to disable it.",
+    "Answer": "Add the `disabled` HTML attribute."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which class is used to style a list group?",
+    "Option1": ".list-container",
+    "Option2": ".list-group",
+    "Option3": ".ul-group",
+    "Option4": ".group-list",
+    "Answer": ".list-group"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you make list group items clickable?",
+    "Option1": "Add an `onclick` event.",
+    "Option2": "Wrap list items in `<a>` tags with `class=\"list-group-item list-group-item-action\"`.",
+    "Option3": "Apply `cursor: pointer;` in CSS.",
+    "Option4": "Use `<button>` tags for list items.",
+    "Answer": "Wrap list items in `<a>` tags with `class=\"list-group-item list-group-item-action\"`."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is a 'Badge' in Bootstrap?",
+    "Option1": "A small image.",
+    "Option2": "Small count and labeling components.",
+    "Option3": "A decorative border.",
+    "Option4": "A pop-up notification.",
+    "Answer": "Small count and labeling components."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which class is used to create a badge?",
+    "Option1": ".tag",
+    "Option2": ".label",
+    "Option3": ".badge",
+    "Option4": ".marker",
+    "Answer": ".badge"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is a 'Breadcrumb' in Bootstrap?",
+    "Option1": "A small piece of animation.",
+    "Option2": "A navigation hierarchy that indicates the current page's location within a website.",
+    "Option3": "A footer navigation.",
+    "Option4": "A list of recent activities.",
+    "Answer": "A navigation hierarchy that indicates the current page's location within a website."
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which class is used to create a breadcrumb?",
+    "Option1": ".path",
+    "Option2": ".breadcrumb",
+    "Option3": ".navigation-path",
+    "Option4": ".location-tracker",
+    "Answer": ".breadcrumb"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'Pagination' component used for?",
+    "Option1": "To create multi-page forms.",
+    "Option2": "To divide long lists of content into multiple pages.",
+    "Option3": "To add page numbers to documents.",
+    "Option4": "To create a table of contents.",
+    "Answer": "To divide long lists of content into multiple pages."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which class is used for the main pagination wrapper?",
+    "Option1": ".page-nav",
+    "Option2": ".pagination",
+    "Option3": ".pager",
+    "Option4": ".page-list",
+    "Answer": ".pagination"
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you make a pagination item active?",
+    "Option1": "Add `class=\"selected\"`",
+    "Option2": "Add `class=\"current\"`",
+    "Option3": "Add `class=\"active\"` to the `li` element.",
+    "Option4": "Add `class=\"highlight\"`",
+    "Answer": "Add `class=\"active\"` to the `li` element."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'Card' in Bootstrap (Bootstrap 4+)?",
+    "Option1": "A small, fixed-size image.",
+    "Option2": "A flexible and extensible content container that includes options for headers, footers, a wide variety of content, contextual background colors, and powerful display options.",
+    "Option3": "A simple hyperlink.",
+    "Option4": "A notification pop-up.",
+    "Answer": "A flexible and extensible content container that includes options for headers, footers, a wide variety of content, contextual background colors, and powerful display options."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which class is used to create a basic card?",
+    "Option1": ".box",
+    "Option2": ".panel",
+    "Option3": ".card",
+    "Option4": ".widget",
+    "Answer": ".card"
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you add a header to a Bootstrap card?",
+    "Option1": "Use `<div class=\"card-top\"></div>`",
+    "Option2": "Use `<div class=\"card-header\"></div>`",
+    "Option3": "Use `<h3 class=\"card-title\"></h3>`",
+    "Option4": "Cards do not have predefined header classes.",
+    "Answer": "Use `<div class=\"card-header\"></div>`"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the primary difference between Bootstrap 3 and Bootstrap 4/5 regarding the grid system?",
+    "Option1": "Bootstrap 3 used a 16-column grid, while Bootstrap 4/5 uses 12.",
+    "Option2": "Bootstrap 3 was mobile-first, Bootstrap 4/5 is desktop-first.",
+    "Option3": "Bootstrap 3 used floats, Bootstrap 4/5 uses Flexbox for its grid.",
+    "Option4": "Bootstrap 3 had more breakpoints.",
+    "Answer": "Bootstrap 3 used floats, Bootstrap 4/5 uses Flexbox for its grid."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Flexbox' and why is it important for Bootstrap 4/5?",
+    "Option1": "A JavaScript animation library.",
+    "Option2": "A CSS3 layout module that provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic.",
+    "Option3": "A new HTML element for flexible content.",
+    "Option4": "A tool for debugging responsive layouts.",
+    "Answer": "A CSS3 layout module that provides a more efficient way to lay out, align, and distribute space among items in a container, even when their size is unknown or dynamic."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of Bootstrap 'utilities' or 'helpers' classes?",
+    "Option1": "To provide complex UI components.",
+    "Option2": "To provide highly specific, single-purpose classes for quickly adding common styling like spacing, colors, borders, and display properties.",
+    "Option3": "To manage server-side logic.",
+    "Option4": "To create custom JavaScript functions.",
+    "Answer": "To provide highly specific, single-purpose classes for quickly adding common styling like spacing, colors, borders, and display properties."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which utility class is used to add margin to the bottom of an element?",
+    "Option1": ".margin-bottom",
+    "Option2": ".mb-",
+    "Option3": ".bottom-margin",
+    "Option4": ".m-b-",
+    "Answer": ".mb-"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which utility class is used to add padding to the top of an element?",
+    "Option1": ".padding-top",
+    "Option2": ".pt-",
+    "Option3": ".top-pad",
+    "Option4": ".p-t-",
+    "Answer": ".pt-"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What does `d-flex` class do?",
+    "Option1": "Displays the element as a block.",
+    "Option2": "Displays the element as a flex container, enabling Flexbox utilities for its direct children.",
+    "Option3": "Hides the element.",
+    "Option4": "Displays the element inline.",
+    "Answer": "Displays the element as a flex container, enabling Flexbox utilities for its direct children."
+  },
+  {
+    "question_no.": 57,
+    "Question": "How do you center text horizontally in Bootstrap?",
+    "Option1": ".text-center",
+    "Option2": ".align-center",
+    "Option3": ".center-text",
+    "Option4": ".horizontal-center",
+    "Answer": ".text-center"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which class is used to make text responsive (e.g., scale based on viewport size)?",
+    "Option1": ".text-fluid",
+    "Option2": ".responsive-text",
+    "Option3": "Bootstrap does not have a direct class for this, but responsive font sizes are handled via `rem` units and media queries.",
+    "Option4": ".font-responsive",
+    "Answer": "Bootstrap does not have a direct class for this, but responsive font sizes are handled via `rem` units and media queries."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'Popover' in Bootstrap?",
+    "Option1": "A small image viewer.",
+    "Option2": "A small overlay of content that appears when a user clicks an element.",
+    "Option3": "A persistent sidebar.",
+    "Option4": "A custom scrollbar.",
+    "Answer": "A small overlay of content that appears when a user clicks an element."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is a 'Tooltip' in Bootstrap?",
+    "Option1": "A large information box.",
+    "Option2": "A small, contextual overlay that appears on hover or focus to display additional information about an element.",
+    "Option3": "A form validation message.",
+    "Option4": "A keyboard shortcut guide.",
+    "Answer": "A small, contextual overlay that appears on hover or focus to display additional information about an element."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which attribute is used to activate a tooltip?",
+    "Option1": "data-tip",
+    "Option2": "data-tooltip",
+    "Option3": "data-toggle=\"tooltip\"",
+    "Option4": "data-show=\"tip\"",
+    "Answer": "data-toggle=\"tooltip\""
+  },
+  {
+    "question_no.": 62,
+    "Question": "How do you initialize tooltips with JavaScript?",
+    "Option1": "$('[data-toggle=\"tooltip\"]').initTooltip()",
+    "Option2": "$('.tooltip').activate()",
+    "Option3": "$(function () { $('[data-toggle=\"tooltip\"]').tooltip() })",
+    "Option4": "No JavaScript is needed for tooltips.",
+    "Answer": "$(function () { $('[data-toggle=\"tooltip\"]').tooltip() })"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the purpose of 'Scrollspy'?",
+    "Option1": "To track user scrolling behavior for analytics.",
+    "Option2": "To automatically update navigation or list group components based on scroll position to indicate which link is currently active in the viewport.",
+    "Option3": "To add smooth scrolling to anchors.",
+    "4": "To detect if the user has scrolled to the bottom of the page.",
+    "Answer": "To automatically update navigation or list group components based on scroll position to indicate which link is currently active in the viewport."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which attribute is used to activate Scrollspy on the `body` element?",
+    "Option1": "data-spy=\"scroll\"",
+    "Option2": "data-scroll=\"spy\"",
+    "Option3": "data-target=\"#navbar\"",
+    "4": "Both A and C are typically used together.",
+    "Answer": "Both A and C are typically used together."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the purpose of 'Tabs' (or Navs) in Bootstrap?",
+    "Option1": "To create new browser tabs.",
+    "Option2": "To provide quick navigation between different content panes without reloading the page.",
+    "Option3": "To add tabs to a text editor.",
+    "4": "To create multi-step forms.",
+    "Answer": "To provide quick navigation between different content panes without reloading the page."
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which classes are typically used for tab navigation?",
+    "Option1": ".tab-nav, .tab-item",
+    "Option2": ".nav, .nav-item, .nav-link",
+    "Option3": ".menu-tab, .menu-item",
+    "4": ".switcher, .switcher-item",
+    "Answer": ".nav, .nav-item, .nav-link"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the purpose of the `aria-controls` attribute in Bootstrap components?",
+    "Option1": "It controls the styling of the component.",
+    "Option2": "It specifies the ID of the element that the current element controls, primarily for accessibility (ARIA).",
+    "Option3": "It defines the content of the controlled element.",
+    "4": "It sets the initial state of the component.",
+    "Answer": "It specifies the ID of the element that the current element controls, primarily for accessibility (ARIA)."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the purpose of the `sr-only` class (Bootstrap 4) or `visually-hidden` (Bootstrap 5)?",
+    "Option1": "To hide elements from all users.",
+    "Option2": "To hide elements visually but keep them accessible to screen readers.",
+    "Option3": "To make elements only visible to screen readers.",
+    "4": "To change the font size for screen readers.",
+    "Answer": "To hide elements visually but keep them accessible to screen readers."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the purpose of Bootstrap's 'Reboot' feature?",
+    "Option1": "To restart the web server.",
+    "Option2": "To provide a collection of element-specific CSS changes in a single file to kickstart a consistent, elegant, and simple baseline to build upon.",
+    "Option3": "To reset all custom CSS styles.",
+    "4": "To re-initialize all JavaScript components.",
+    "Answer": "To provide a collection of element-specific CSS changes in a single file to kickstart a consistent, elegant, and simple baseline to build upon."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which units are commonly used for spacing (margin/padding) in Bootstrap 4/5?",
+    "Option1": "px (pixels)",
+    "Option2": "em",
+    "Option3": "rem (root em)",
+    "4": "% (percentage)",
+    "Answer": "rem (root em)"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the purpose of 'Responsive Utilities' (e.g., `d-none`, `d-md-block`)?",
+    "Option1": "To apply different colors based on screen size.",
+    "Option2": "To show or hide elements based on viewport width (screen size) using CSS `display` property.",
+    "Option3": "To change font sizes responsively.",
+    "4": "To add responsive images.",
+    "Answer": "To show or hide elements based on viewport width (screen size) using CSS `display` property."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What does `d-none` class do?",
+    "Option1": "Sets display to `inline`.",
+    "Option2": "Sets display to `block`.",
+    "Option3": "Sets display to `none` (hides the element).",
+    "4": "Sets display to `flex`.",
+    "Answer": "Sets display to `none` (hides the element)."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What does `d-md-block` mean?",
+    "Option1": "The element is displayed as a block on all screen sizes.",
+    "Option2": "The element is hidden on medium devices and up.",
+    "Option3": "The element is displayed as a block on medium devices and up, but hidden on smaller devices.",
+    "4": "The element is always displayed, but with block-level padding on medium devices.",
+    "Answer": "The element is displayed as a block on medium devices and up, but hidden on smaller devices."
+  },
+  {
+    "question_no.": 74,
+    "Question": "Which class is used to make a table responsive?",
+    "Option1": ".table-responsive",
+    "Option2": ".responsive-table",
+    "Option3": ".table-full",
+    "4": ".scroll-table",
+    "Answer": ".table-responsive"
+  },
+  {
+    "question_no.": 75,
+    "Question": "How do you create a striped table?",
+    "Option1": "Add `class=\"table-stripe\"`",
+    "Option2": "Add `class=\"table-striped\"`",
+    "Option3": "Add `class=\"striped\"`",
+    "4": "No direct class, requires custom CSS.",
+    "Answer": "Add `class=\"table-striped\"`"
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which class is used to make a table hoverable?",
+    "Option1": ".table-hover",
+    "Option2": ".table-highlight",
+    "Option3": ".table-hvr",
+    "4": ".hover-table",
+    "Answer": ".table-hover"
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you add contextual colors (e.g., success, danger) to table rows or cells?",
+    "Option1": "Apply inline styles.",
+    "Option2": "Use classes like `table-success`, `table-danger`, etc., on `tr` or `td` elements.",
+    "Option3": "Use JavaScript to change colors.",
+    "4": "Bootstrap tables do not support contextual colors.",
+    "Answer": "Use classes like `table-success`, `table-danger`, etc., on `tr` or `td` elements."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Input Group' in Bootstrap?",
+    "Option1": "A group of multiple input fields.",
+    "Option2": "An extension of form controls to easily add text, buttons, or button groups on either side of textual inputs.",
+    "Option3": "A predefined set of input types.",
+    "4": "A validation for input fields.",
+    "Answer": "An extension of form controls to easily add text, buttons, or button groups on either side of textual inputs."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which class is used to create an input group?",
+    "Option1": ".form-group",
+    "Option2": ".input-section",
+    "Option3": ".input-group",
+    "4": ".control-group",
+    "Answer": ".input-group"
+  },
+  {
+    "question_no.": 80,
+    "Question": "How do you add text (e.g., '@') before an input in an input group?",
+    "Option1": "Use `<span class=\"input-text\">@</span>`",
+    "Option2": "Use `<span class=\"input-group-addon\">@</span>` (Bootstrap 3/4) or `<span class=\"input-group-text\">@</span>` (Bootstrap 5).",
+    "Option3": "Use a `label` element.",
+    "4": "Use JavaScript to prepend text.",
+    "Answer": "Use `<span class=\"input-group-addon\">@</span>` (Bootstrap 3/4) or `<span class=\"input-group-text\">@</span>` (Bootstrap 5)."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'List Group with Badges' commonly used for?",
+    "Option1": "To create a list of icons.",
+    "Option2": "To display a list of items with associated counts or labels (e.g., unread messages).",
+    "Option3": "To create a gallery of images.",
+    "4": "To manage user permissions.",
+    "Answer": "To display a list of items with associated counts or labels (e.g., unread messages)."
+  },
+  {
+    "question_no.": 82,
+    "Question": "Which class is used to center an element horizontally using auto margins?",
+    "Option1": ".center-block",
+    "Option2": ".mx-auto",
+    "Option3": ".align-middle",
+    "4": ".text-center",
+    "Answer": ".mx-auto"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the purpose of Bootstrap 'utilities' in Bootstrap 5?",
+    "Option1": "They are deprecated features.",
+    "Option2": "They provide highly specific, single-purpose classes that help in quickly adding common styles.",
+    "Option3": "They are JavaScript functions.",
+    "4": "They define custom components.",
+    "Answer": "They provide highly specific, single-purpose classes that help in quickly adding common styles."
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which utility class sets `display: block`?",
+    "Option1": ".d-block",
+    "Option2": ".display-block",
+    "Option3": ".block",
+    "4": ".set-block",
+    "Answer": ".d-block"
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which utility class sets `display: inline-block`?",
+    "Option1": ".d-inline",
+    "Option2": ".d-inline-block",
+    "Option3": ".display-inline",
+    "4": ".inline-block",
+    "Answer": ".d-inline-block"
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which utility class sets `display: flex`?",
+    "Option1": ".flex",
+    "Option2": ".d-flex",
+    "Option3": ".display-flex",
+    "4": ".f-box",
+    "Answer": ".d-flex"
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which utility class changes the text color to red (danger)?",
+    "Option1": ".text-red",
+    "Option2": ".color-danger",
+    "Option3": ".text-danger",
+    "4": ".font-red",
+    "Answer": ".text-danger"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which utility class changes the background color to blue (primary)?",
+    "Option1": ".bg-blue",
+    "Option2": ".background-primary",
+    "Option3": ".bg-primary",
+    "4": ".color-blue",
+    "Answer": ".bg-primary"
+  },
+  {
+    "question_no.": 89,
+    "Question": "How do you add a border to an element in Bootstrap?",
+    "Option1": ".add-border",
+    "Option2": ".border",
+    "Option3": ".has-border",
+    "4": ".with-border",
+    "Answer": ".border"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which class is used to make a border rounded?",
+    "Option1": ".border-round",
+    "Option2": ".rounded",
+    "Option3": ".circle-border",
+    "4": ".corner-round",
+    "Answer": ".rounded"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of Bootstrap's 'Collapse' component?",
+    "Option1": "To hide images.",
+    "Option2": "To show and hide content via class changes, often used for accordions or toggling content sections.",
+    "Option3": "To minimize browser windows.",
+    "4": "To create expandable menus.",
+    "Answer": "To show and hide content via class changes, often used for accordions or toggling content sections."
+  },
+  {
+    "question_no.": 92,
+    "Question": "Which attribute is used to toggle a collapsible element?",
+    "Option1": "data-toggle=\"show\"",
+    "Option2": "data-toggle=\"collapse\"",
+    "Option3": "data-collapse",
+    "4": "data-hide-show",
+    "Answer": "data-toggle=\"collapse\""
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the role of `data-target` (Bootstrap 3/4) or `data-bs-target` (Bootstrap 5) in JavaScript components?",
+    "Option1": "It specifies the target URL for a link.",
+    "Option2": "It specifies the ID or class of the element to be targeted by the component (e.g., a modal, collapse).",
+    "Option3": "It sets the target browser for compatibility.",
+    "4": "It indicates the target device for responsiveness.",
+    "Answer": "It specifies the ID or class of the element to be targeted by the component (e.g., a modal, collapse)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do you make text bold in Bootstrap without using a custom class or inline style?",
+    "Option1": "Use `<strong>` tag.",
+    "Option2": "Use `<b>` tag.",
+    "Option3": "Use utility classes like `fw-bold` (font-weight bold).",
+    "4": "Bootstrap does not provide a direct utility class for this.",
+    "Answer": "Use utility classes like `fw-bold` (font-weight bold)."
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which class is used to lighten text color to 50% opacity?",
+    "Option1": ".text-light",
+    "Option2": ".text-muted",
+    "Option3": ".text-faded",
+    "4": ".text-opaque",
+    "Answer": ".text-muted"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the purpose of the `.lead` class?",
+    "Option1": "To make text smaller.",
+    "Option2": "To make a paragraph stand out, with a larger font size and lighter font-weight.",
+    "Option3": "To center text.",
+    "4": "To add a line break.",
+    "Answer": "To make a paragraph stand out, with a larger font size and lighter font-weight."
+  },
+  {
+    "question_no.": 97,
+    "Question": "How do you create a responsive video embed (e.g., YouTube, Vimeo) that maintains its aspect ratio?",
+    "Option1": "Using `class=\"video-fluid\"`",
+    "Option2": "Using `class=\"embed-responsive embed-responsive-16by9\"` (Bootstrap 3/4) or `class=\"ratio ratio-16x9\"` (Bootstrap 5).",
+    "Option3": "By setting width and height to 100%.",
+    "4": "Bootstrap does not provide this functionality.",
+    "Answer": "Using `class=\"embed-responsive embed-responsive-16by9\"` (Bootstrap 3/4) or `class=\"ratio ratio-16x9\"` (Bootstrap 5)."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Modals with Custom Content'?",
+    "Option1": "Modals that automatically fetch content from an external source.",
+    "Option2": "Modals where you can put any HTML content within the modal's body.",
+    "Option3": "Modals with custom animations.",
+    "4": "Modals that require a custom JavaScript file.",
+    "Answer": "Modals where you can put any HTML content within the modal's body."
+  },
+  {
+    "question_no.": 99,
+    "Question": "How do you add a progress bar in Bootstrap?",
+    "Option1": "<div class=\"progress-bar\"></div>",
+    "Option2": "<div class=\"progress\"> <div class=\"progress-bar\"></div> </div>",
+    "Option3": "<progress class=\"bootstrap-progress\"></progress>",
+    "4": "Requires a JavaScript plugin, no direct HTML.",
+    "Answer": "<div class=\"progress\"> <div class=\"progress-bar\"></div> </div>"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What attribute is used to set the width of a progress bar visually?",
+    "Option1": "width=\"75%\"",
+    "Option2": "style=\"width: 75%\"",
+    "Option3": "data-width=\"75\"",
+    "4": "value=\"75\"",
+    "Answer": "style=\"width: 75%\""
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the purpose of Bootstrap 'Spinners' (Bootstrap 4.3+)?",
+    "Option1": "To create rotating images.",
+    "Option2": "To indicate the loading state of a component or page.",
+    "Option3": "To add spinning animations to text.",
+    "4": "To create 3D effects.",
+    "Answer": "To indicate the loading state of a component or page."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which class is used to create a spinner?",
+    "Option1": ".loader",
+    "Option2": ".spinner",
+    "Option3": ".loading-icon",
+    "4": ".spin-circle",
+    "Answer": ".spinner-border"
+  },
+  {
+    "question_no.": 103,
+    "Question": "How do you create a small spinner?",
+    "Option1": ".spinner-sm",
+    "Option2": ".spinner-small",
+    "Option3": ".spinner-tiny",
+    "4": ".spinner-xs",
+    "Answer": ".spinner-border .spinner-border-sm"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of Bootstrap's 'Toast' component (Bootstrap 4.2+)?",
+    "Option1": "To display a pop-up ad.",
+    "Option2": "A lightweight, customizable alert for displaying time-sensitive messages to users.",
+    "Option3": "A persistent notification bar.",
+    "4": "A fancy loading indicator.",
+    "Answer": "A lightweight, customizable alert for displaying time-sensitive messages to users."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What are 'Placeholders' used for in Bootstrap 5?",
+    "Option1": "To define default text for input fields.",
+    "Option2": "To provide visual cues for content that is still loading.",
+    "Option3": "To create empty divs for future content.",
+    "4": "To reserve space for images.",
+    "Answer": "To provide visual cues for content that is still loading."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Which class is used to create a placeholder text?",
+    "Option1": ".placeholder-text",
+    "Option2": ".content-placeholder",
+    "Option3": ".placeholder",
+    "4": ".empty-text",
+    "Answer": ".placeholder"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a 'Figcaption' in Bootstrap?",
+    "Option1": "A caption for a table.",
+    "Option2": "A styled caption for images or other content within a `<figure>` element.",
+    "Option3": "A caption for a video.",
+    "4": "A caption for a form field.",
+    "Answer": "A styled caption for images or other content within a `<figure>` element."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How do you apply a thumbnail style to an image (Bootstrap 3)?",
+    "Option1": "class=\"img-thumbnail\"",
+    "Option2": "class=\"thumbnail\"",
+    "Option3": "class=\"image-border\"",
+    "4": "class=\"img-frame\"",
+    "Answer": "class=\"img-thumbnail\""
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is the purpose of `order-` classes in Bootstrap (Flexbox utilities)?",
+    "Option1": "To sort elements alphabetically.",
+    "Option2": "To change the visual order of Flexbox items within a row.",
+    "Option3": "To set the z-index of elements.",
+    "4": "To align items vertically.",
+    "Answer": "To change the visual order of Flexbox items within a row."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What does `order-1` mean in Flexbox?",
+    "Option1": "The item will appear first.",
+    "Option2": "The item will appear last.",
+    "Option3": "The item is the first one in the source order.",
+    "4": "It sets a specific order value for the item.",
+    "Answer": "It sets a specific order value for the item."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which class is used to remove all padding from a column?",
+    "Option1": ".no-padding",
+    "Option2": ".p-0",
+    "Option3": ".remove-pad",
+    "4": ".px-0",
+    "Answer": ".p-0"
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which class is used to remove all margin from an element?",
+    "Option1": ".no-margin",
+    "Option2": ".m-0",
+    "Option3": ".remove-margin",
+    "4": ".mx-0",
+    "Answer": ".m-0"
+  },
+  {
+    "question_no.": 113,
+    "Question": "How do you hide an element from all devices (display: none)?",
+    "Option1": ".invisible",
+    "Option2": ".hidden",
+    "Option3": ".d-none",
+    "4": ".hide",
+    "Answer": ".d-none"
+  },
+  {
+    "question_no.": 114,
+    "Question": "How do you make an element visible but not occupy space (visibility: hidden)?",
+    "Option1": ".d-none",
+    "Option2": ".invisible",
+    "Option3": ".hidden",
+    "4": ".sr-only",
+    "Answer": ".invisible"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the purpose of the 'List Unstyled' class (`.list-unstyled`)?",
+    "Option1": "To remove default `list-style` and left `margin`/`padding` from list items.",
+    "Option2": "To add borders to list items.",
+    "Option3": "To make list items inline.",
+    "4": "To make list items clickable.",
+    "Answer": "To remove default `list-style` and left `margin`/`padding` from list items."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the purpose of the 'List Inline' class (`.list-inline`)?",
+    "Option1": "To display list items as block elements.",
+    "Option2": "To display list items inline with appropriate padding.",
+    "Option3": "To create a list with icons.",
+    "4": "To make list items scrollable.",
+    "Answer": "To display list items inline with appropriate padding."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the purpose of 'Figures' in Bootstrap (Bootstrap 4+)?",
+    "Option1": "To draw shapes.",
+    "Option2": "To display images and related text, with an optional caption.",
+    "Option3": "To create charts.",
+    "4": "To manage form validation.",
+    "Answer": "To display images and related text, with an optional caption."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Which class is typically applied to the `<figure>` element?",
+    "Option1": ".img-figure",
+    "Option2": ".figure",
+    "Option3": ".caption-wrapper",
+    "4": ".image-box",
+    "Answer": ".figure"
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which class is typically applied to the `<figcaption>` element within a figure?",
+    "Option1": ".figure-text",
+    "Option2": ".img-caption",
+    "Option3": ".figure-caption",
+    "4": ".image-description",
+    "Answer": ".figure-caption"
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you align text to the right in Bootstrap?",
+    "Option1": ".text-right",
+    "Option2": ".align-right",
+    "Option3": ".right-text",
+    "4": ".text-end (Bootstrap 5)",
+    "Answer": ".text-end (Bootstrap 5)"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the purpose of Bootstrap's 'Close Button' component?",
+    "Option1": "To close browser windows.",
+    "Option2": "A generic close button for dismissing content like modals and alerts.",
+    "Option3": "To submit a form.",
+    "4": "To end a session.",
+    "Answer": "A generic close button for dismissing content like modals and alerts."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Which class is typically used for a close button?",
+    "Option1": ".btn-close",
+    "Option2": ".close-btn",
+    "Option3": ".close",
+    "4": ".dismiss",
+    "Answer": ".btn-close"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is a 'Scrollable area' in Bootstrap?",
+    "Option1": "A custom scrollbar.",
+    "Option2": "A div with `overflow-y: auto;` or `scroll;` to make content scrollable within a defined height.",
+    "Option3": "A component that automatically scrolls the page.",
+    "4": "A section that always stays visible on scroll.",
+    "Answer": "A div with `overflow-y: auto;` or `scroll;` to make content scrollable within a defined height."
+  },
+  {
+    "question_no.": 124,
+    "Question": "Which utility class is used to make text uppercase?",
+    "Option1": ".text-uppercase",
+    "Option2": ".text-caps",
+    "Option3": ".uppercase-text",
+    "4": ".all-caps",
+    "Answer": ".text-uppercase"
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which utility class is used to make text lowercase?",
+    "Option1": ".text-lowercase",
+    "Option2": ".text-small",
+    "Option3": ".lowercase-text",
+    "4": ".no-caps",
+    "Answer": ".text-lowercase"
+  },
+  {
+    "question_no.": 126,
+    "Question": "Which utility class is used to capitalize the first letter of each word?",
+    "Option1": ".text-capitalize",
+    "Option2": ".text-title",
+    "Option3": ".capitalize-text",
+    "4": ".initial-cap",
+    "Answer": ".text-capitalize"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the purpose of Bootstrap's 'Badges'?",
+    "Option1": "To add icons.",
+    "Option2": "Small count and labeling components to indicate unread items, notifications, or important status.",
+    "Option3": "To highlight code snippets.",
+    "4": "To create buttons.",
+    "Answer": "Small count and labeling components to indicate unread items, notifications, or important status."
+  },
+  {
+    "question_no.": 128,
+    "Question": "How do you make a badge rounded (pill shape)?",
+    "Option1": "Add `class=\"badge-round\"`",
+    "Option2": "Add `class=\"rounded-pill\"` (Bootstrap 5) or `class=\"badge-pill\"` (Bootstrap 4).",
+    "Option3": "Add `class=\"badge-circle\"`",
+    "4": "Badges are always rectangular.",
+    "Answer": "Add `class=\"rounded-pill\"` (Bootstrap 5) or `class=\"badge-pill\"` (Bootstrap 4)."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is the purpose of the `container-sm`, `container-md`, etc. classes in Bootstrap 4/5?",
+    "Option1": "To make containers smaller than the default.",
+    "Option2": "To specify a breakpoint beyond which the container will become full-width.",
+    "Option3": "To add padding to containers.",
+    "4": "To change the background color of containers.",
+    "Answer": "To specify a breakpoint beyond which the container will become full-width."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Which class is used to make a text smaller?",
+    "Option1": ".text-sm",
+    "Option2": ".small-text",
+    "Option3": ".font-small",
+    "4": ".text-tiny",
+    "Answer": ".small"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What does `text-truncate` class do?",
+    "Option1": "Truncates text to a single line with an ellipsis.",
+    "Option2": "Removes all formatting from text.",
+    "Option3": "Truncates text after a certain number of characters.",
+    "4": "Makes text unreadable.",
+    "Answer": "Truncates text to a single line with an ellipsis."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the purpose of the `embed-responsive` utility (Bootstrap 3/4)?",
+    "Option1": "To embed images from external sources.",
+    "Option2": "To create responsive video or iframe embeds that maintain their aspect ratio.",
+    "Option3": "To embed code snippets.",
+    "4": "To embed audio files.",
+    "Answer": "To create responsive video or iframe embeds that maintain their aspect ratio."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What replaced `embed-responsive` in Bootstrap 5?",
+    "Option1": "The `video-wrapper` class.",
+    "Option2": "The `ratio` helper with aspect ratio utilities (e.g., `ratio-16x9`).",
+    "Option3": "Custom CSS is now required.",
+    "4": "This functionality was removed.",
+    "Answer": "The `ratio` helper with aspect ratio utilities (e.g., `ratio-16x9`)."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the purpose of the `invisible` class?",
+    "Option1": "To remove the element from the document flow.",
+    "Option2": "To hide an element visually while still allowing it to occupy its space in the layout and be accessible to assistive technologies.",
+    "Option3": "To hide an element from screen readers.",
+    "4": "To change element's opacity to 0.",
+    "Answer": "To hide an element visually while still allowing it to occupy its space in the layout and be accessible to assistive technologies."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the purpose of the `fixed-top` class?",
+    "Option1": "To position an element absolutely at the top.",
+    "Option2": "To position an element at the top of the viewport, from edge to edge, and remains there on scroll.",
+    "Option3": "To add a top margin.",
+    "4": "To fix a broken top element.",
+    "Answer": "To position an element at the top of the viewport, from edge to edge, and remains there on scroll."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the purpose of the `sticky-top` class?",
+    "Option1": "To make an element fixed at the top.",
+    "Option2": "To position an element at the top of the viewport after the user scrolls past its initial position.",
+    "Option3": "To make an element stick to the bottom of the viewport.",
+    "4": "To add a shadow effect to the top of an element.",
+    "Answer": "To position an element at the top of the viewport after the user scrolls past its initial position."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is a 'Media Object' in Bootstrap 3/4?",
+    "Option1": "A component for playing media files.",
+    "Option2": "A layout component for repeatable blocks of content like blog comments, tweets, etc., featuring an image on one side and content on the other.",
+    "Option3": "A responsive image gallery.",
+    "4": "A tool for embedding social media posts.",
+    "Answer": "A layout component for repeatable blocks of content like blog comments, tweets, etc., featuring an image on one side and content on the other."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the purpose of 'Validation States' in Bootstrap forms?",
+    "Option1": "To prevent form submission.",
+    "Option2": "To provide visual feedback to users about the validity of their input (e.g., valid, invalid, warning).",
+    "Option3": "To automatically correct user input.",
+    "4": "To encrypt form data.",
+    "Answer": "To provide visual feedback to users about the validity of their input (e.g., valid, invalid, warning)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "How do you indicate a successful form input?",
+    "Option1": "Add `class=\"is-success\"`",
+    "Option2": "Add `class=\"is-valid\"` to the form control.",
+    "Option3": "Add `class=\"valid-input\"`",
+    "4": "Add `class=\"form-success\"`",
+    "Answer": "Add `class=\"is-valid\"` to the form control."
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you indicate an invalid form input?",
+    "Option1": "Add `class=\"is-error\"`",
+    "Option2": "Add `class=\"is-invalid\"` to the form control.",
+    "Option3": "Add `class=\"invalid-input\"`",
+    "4": "Add `class=\"form-error\"`",
+    "Answer": "Add `class=\"is-invalid\"` to the form control."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which element is commonly used to display validation feedback messages (e.g., 'Looks good!' or 'Please enter a valid email.')?",
+    "Option1": "<small class=\"feedback\">",
+    "Option2": "<div class=\"valid-feedback\"> or <div class=\"invalid-feedback\">",
+    "Option3": "<p class=\"validation-msg\">",
+    "4": "<span class=\"alert-msg\">",
+    "Answer": "<div class=\"valid-feedback\"> or <div class=\"invalid-feedback\">"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Form Grid' in Bootstrap?",
+    "Option1": "A grid for displaying form data.",
+    "Option2": "Using Bootstrap's grid system within forms to create responsive form layouts.",
+    "Option3": "A predefined form template.",
+    "4": "A validation for grid inputs.",
+    "Answer": "Using Bootstrap's grid system within forms to create responsive form layouts."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What does `form-row` (Bootstrap 4) or `row g-3` (Bootstrap 5) do within a form?",
+    "Option1": "Creates a row of form labels.",
+    "Option2": "Creates a grid row specifically for form elements, with optimized gutter spacing.",
+    "Option3": "Creates a horizontal line.",
+    "4": "Adds a border around form elements.",
+    "Answer": "Creates a grid row specifically for form elements, with optimized gutter spacing."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the purpose of Bootstrap 'Popovers'?",
+    "Option1": "To play small video clips.",
+    "Option2": "To display a rich content overlay on top of an element, activated by a click.",
+    "Option3": "To create spinning animations.",
+    "4": "To manage form submissions.",
+    "Answer": "To display a rich content overlay on top of an element, activated by a click."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How do you activate a Popover?",
+    "Option1": "data-popover=\"true\"",
+    "Option2": "data-toggle=\"popover\"",
+    "Option3": "data-show=\"pop\"",
+    "4": "data-activate-popover",
+    "Answer": "data-toggle=\"popover\""
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the purpose of 'Custom Forms' in Bootstrap?",
+    "Option1": "To create forms with custom JavaScript validation.",
+    "Option2": "To provide custom styles for form elements like checkboxes, radio buttons, and file inputs.",
+    "Option3": "To build forms from scratch without Bootstrap classes.",
+    "4": "To create server-side forms.",
+    "Answer": "To provide custom styles for form elements like checkboxes, radio buttons, and file inputs."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which class is used for a custom checkbox input?",
+    "Option1": ".custom-checkbox",
+    "Option2": ".form-check-input",
+    "Option3": ".check-custom",
+    "4": ".styled-checkbox",
+    "Answer": ".form-check-input"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the 'Offcanvas' component in Bootstrap 5?",
+    "Option1": "A modal dialog.",
+    "Option2": "A sidebar component that can be toggled via JavaScript to appear from any side of the viewport.",
+    "Option3": "A full-screen navigation.",
+    "4": "A fixed header.",
+    "Answer": "A sidebar component that can be toggled via JavaScript to appear from any side of the viewport."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is the purpose of 'Sass' in Bootstrap's development?",
+    "Option1": "It's a JavaScript framework.",
+    "Option2": "It's a CSS preprocessor that allows for variables, nesting, mixins, and other features to make CSS more powerful and maintainable.",
+    "Option3": "It's a server-side language.",
+    "4": "It's a templating engine for HTML.",
+    "Answer": "It's a CSS preprocessor that allows for variables, nesting, mixins, and other features to make CSS more powerful and maintainable."
+  },
+  {
+    "question_no.": 150,
+    "Question": "Why would you compile Bootstrap from source (Sass) instead of using the compiled CSS?",
+    "Option1": "To make the website faster.",
+    "Option2": "To customize Bootstrap by changing Sass variables, overriding defaults, or including only specific components.",
+    "Option3": "To reduce the file size significantly without customization.",
+    "4": "To ensure browser compatibility.",
+    "Answer": "To customize Bootstrap by changing Sass variables, overriding defaults, or including only specific components."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the purpose of `_variables.scss` file in Bootstrap's source code?",
+    "Option1": "It contains all the JavaScript variables.",
+    "Option2": "It contains all global Sass variables used to customize Bootstrap's styles.",
+    "Option3": "It defines HTML elements.",
+    "4": "It stores database connection strings.",
+    "Answer": "It contains all global Sass variables used to customize Bootstrap's styles."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'RFS' in Bootstrap 5?",
+    "Option1": "Responsive Form System.",
+    "Option2": "Responsive Font Sizes - a sizing engine that automatically scales font sizes based on the viewport.",
+    "Option3": "Reusable Function System.",
+    "4": "Real-time Feedback System.",
+    "Answer": "Responsive Font Sizes - a sizing engine that automatically scales font sizes based on the viewport."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What does 'Gutter' refer to in the Bootstrap grid system?",
+    "Option1": "The space between rows.",
+    "Option2": "The padding between columns, which creates the space between content.",
+    "Option3": "The margin around the container.",
+    "4": "The total width of the grid.",
+    "Answer": "The padding between columns, which creates the space between content."
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you adjust the gutters between columns in Bootstrap 5?",
+    "Option1": "Using `g-` classes (e.g., `g-0` for no gutter, `g-5` for largest gutter).",
+    "Option2": "Using `gutter-size-` classes.",
+    "Option3": "Directly modifying CSS padding.",
+    "4": "Bootstrap does not allow gutter adjustments.",
+    "Answer": "Using `g-` classes (e.g., `g-0` for no gutter, `g-5` for largest gutter)."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the purpose of 'Vertical alignment' utilities (e.g., `align-items-center`)?",
+    "Option1": "To align text vertically.",
+    "Option2": "To align flex items along the cross axis (vertically within their container).",
+    "Option3": "To align images vertically.",
+    "4": "To align entire rows.",
+    "Answer": "To align flex items along the cross axis (vertically within their container)."
+  },
+  {
+    "question_no.": 156,
+    "Question": "How do you vertically center flex items within their container?",
+    "Option1": ".vertical-center",
+    "Option2": ".align-items-center",
+    "Option3": ".center-v",
+    "4": ".justify-content-center",
+    "Answer": ".align-items-center"
+  },
+  {
+    "question_no.": 157,
+    "Question": "How do you horizontally center flex items within their container?",
+    "Option1": ".horizontal-center",
+    "Option2": ".align-items-center",
+    "Option3": ".justify-content-center",
+    "4": ".center-h",
+    "Answer": ".justify-content-center"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the purpose of 'Gutters' in forms (Bootstrap 5)?",
+    "Option1": "To add borders to form elements.",
+    "Option2": "To control the spacing between columns of form elements within a form grid.",
+    "Option3": "To create a scrollbar for forms.",
+    "4": "To align form labels.",
+    "Answer": "To control the spacing between columns of form elements within a form grid."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'RTL' support in Bootstrap 5?",
+    "Option1": "Right-to-Left language support, allowing layouts to flow from right to left.",
+    "Option2": "Real-time translation.",
+    "Option3": "Responsive Text Layout.",
+    "4": "Required Text Length.",
+    "Answer": "Right-to-Left language support, allowing layouts to flow from right to left."
+  },
+  {
+    "question_no.": 160,
+    "Question": "How is RTL support generally enabled in Bootstrap 5?",
+    "Option1": "By adding `dir=\"rtl\"` to the `<html>` tag and linking the RTL version of Bootstrap's CSS.",
+    "Option2": "By default, Bootstrap 5 automatically detects RTL.",
+    "Option3": "Via a JavaScript configuration.",
+    "4": "By using a special RTL component.",
+    "Answer": "By adding `dir=\"rtl\"` to the `<html>` tag and linking the RTL version of Bootstrap's CSS."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Sizing' utility classes used for?",
+    "Option1": "To change font sizes.",
+    "Option2": "To quickly set the `width` or `height` of an element to a fixed percentage or value.",
+    "Option3": "To scale images.",
+    "4": "To adjust margins and padding.",
+    "Answer": "To quickly set the `width` or `height` of an element to a fixed percentage or value."
+  },
+  {
+    "question_no.": 162,
+    "Question": "Which class sets an element's width to 75%?",
+    "Option1": ".w-75",
+    "Option2": ".width-75",
+    "Option3": ".pct-75",
+    "4": ".w-half",
+    "Answer": ".w-75"
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which class sets an element's height to 100%?",
+    "Option1": ".h-100",
+    "Option2": ".height-100",
+    "Option3": ".full-height",
+    "4": ".h-auto",
+    "Answer": ".h-100"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the purpose of 'Visibility' utility classes?",
+    "Option1": "To change element colors.",
+    "Option2": "To toggle the `visibility` of elements, meaning they are hidden but still occupy space.",
+    "Option3": "To change element display property.",
+    "4": "To animate elements.",
+    "Answer": "To toggle the `visibility` of elements, meaning they are hidden but still occupy space."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Color' utility classes used for?",
+    "Option1": "To define custom colors.",
+    "Option2": "To quickly apply contextual colors to text or backgrounds using predefined themes.",
+    "Option3": "To change image colors.",
+    "4": "To manage color palettes.",
+    "Answer": "To quickly apply contextual colors to text or backgrounds using predefined themes."
+  },
+  {
+    "question_no.": 166,
+    "Question": "Which class sets the text color to primary theme color?",
+    "Option1": ".font-primary",
+    "Option2": ".text-primary",
+    "Option3": ".color-primary",
+    "4": ".main-text",
+    "Answer": ".text-primary"
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which class sets the background color to success theme color?",
+    "Option1": ".bg-success",
+    "Option2": ".background-success",
+    "Option3": ".color-success",
+    "4": ".green-bg",
+    "Answer": ".bg-success"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Shadows' utility class?",
+    "Option1": "To add text shadows.",
+    "Option2": "To add box shadows to elements with various sizes and directions.",
+    "Option3": "To create image shadows.",
+    "4": "To create a transparent effect.",
+    "Answer": "To add box shadows to elements with various sizes and directions."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which class adds a small shadow to an element?",
+    "Option1": ".shadow-sm",
+    "Option2": ".shadow-small",
+    "Option3": ".shadow-light",
+    "4": ".s-small",
+    "Answer": ".shadow-sm"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the purpose of 'Flex Utilities'?",
+    "Option1": "To manage database connections.",
+    "Option2": "To provide a wide range of classes for controlling Flexbox behavior, including direction, justification, alignment, and wrapping.",
+    "Option3": "To create flexible images.",
+    "4": "To apply custom CSS Flexbox properties.",
+    "Answer": "To provide a wide range of classes for controlling Flexbox behavior, including direction, justification, alignment, and wrapping."
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you make flex items wrap to the next line?",
+    "Option1": ".flex-nowrap",
+    "Option2": ".flex-wrap",
+    "Option3": ".wrap-items",
+    "4": ".line-break",
+    "Answer": ".flex-wrap"
+  },
+  {
+    "question_no.": 172,
+    "Question": "How do you reverse the order of flex items?",
+    "Option1": ".flex-reverse",
+    "Option2": ".flex-column-reverse",
+    "Option3": ".flex-row-reverse",
+    "4": "Both B and C, depending on the flex direction.",
+    "Answer": "Both B and C, depending on the flex direction."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the purpose of 'Position' utility classes?",
+    "Option1": "To change the physical position of an element (e.g., top, right, bottom, left).",
+    "Option2": "To set the `position` CSS property (static, relative, absolute, fixed, sticky) and quickly position elements.",
+    "Option3": "To align elements within the grid.",
+    "4": "To control element visibility.",
+    "Answer": "To set the `position` CSS property (static, relative, absolute, fixed, sticky) and quickly position elements."
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which class sets `position: absolute`?",
+    "Option1": ".pos-absolute",
+    "Option2": ".absolute",
+    "Option3": ".position-absolute",
+    "4": ".abs",
+    "Answer": ".position-absolute"
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which class sets `top: 0`?",
+    "Option1": ".top-0",
+    "Option2": ".t-0",
+    "Option3": ".position-top",
+    "4": ".v-top",
+    "Answer": ".top-0"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the purpose of 'Sass variables' in Bootstrap?",
+    "Option1": "To store JavaScript values.",
+    "Option2": "To define reusable values (like colors, font sizes, spacing) that can be easily customized to brand a website.",
+    "Option3": "To manage server configurations.",
+    "4": "To create dynamic content.",
+    "Answer": "To define reusable values (like colors, font sizes, spacing) that can be easily customized to brand a website."
+  },
+  {
+    "question_no.": 177,
+    "Question": "How do you override a Bootstrap Sass variable (e.g., `$primary` color)?",
+    "Option1": "Directly modify the Bootstrap Sass files.",
+    "Option2": "Define the variable with a `!default` flag in your custom Sass file before importing Bootstrap, or override it after importing.",
+    "Option3": "Use inline CSS only.",
+    "4": "It cannot be overridden; it's a fixed value.",
+    "Answer": "Define the variable with a `!default` flag in your custom Sass file before importing Bootstrap, or override it after importing."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Theming' in Bootstrap?",
+    "Option1": "Changing the website's content.",
+    "Option2": "Customizing the look and feel of Bootstrap components by overriding Sass variables or extending with custom CSS.",
+    "Option3": "Switching between light and dark modes.",
+    "4": "Applying pre-built themes from the Bootstrap website.",
+    "Answer": "Customizing the look and feel of Bootstrap components by overriding Sass variables or extending with custom CSS."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the purpose of 'Utility API' in Bootstrap 5?",
+    "Option1": "To interact with external APIs.",
+    "Option2": "A feature that allows developers to generate custom utility classes based on Sass maps, providing more control and reducing CSS bloat.",
+    "Option3": "To create JavaScript utility functions.",
+    "4": "To manage website performance.",
+    "Answer": "A feature that allows developers to generate custom utility classes based on Sass maps, providing more control and reducing CSS bloat."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Dark Mode' in Bootstrap 5?",
+    "Option1": "A custom theme built from scratch.",
+    "Option2": "Bootstrap 5 doesn't officially ship with a built-in dark mode, but provides tools (Sass, CSS variables) to implement one.",
+    "Option3": "A separate CSS file included for dark mode.",
+    "4": "A JavaScript function to toggle the theme.",
+    "Answer": "Bootstrap 5 doesn't officially ship with a built-in dark mode, but provides tools (Sass, CSS variables) to implement one."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What are 'CSS Variables' (Custom Properties) used for in Bootstrap 5?",
+    "Option1": "To store values that can only be used in JavaScript.",
+    "Option2": "To define reusable values directly in CSS, which can be easily overridden, especially for runtime customization or dark mode.",
+    "Option3": "To define global styles that cannot be changed.",
+    "4": "To store temporary data.",
+    "Answer": "To define reusable values directly in CSS, which can be easily overridden, especially for runtime customization or dark mode."
+  },
+  {
+    "question_no.": 182,
+    "Question": "How do you use a CSS variable in Bootstrap 5?",
+    "Option1": "`color: --bs-primary;`",
+    "Option2": "`color: var(--bs-primary);`",
+    "Option3": "`color: $bs-primary;`",
+    "4": "`color: #bs-primary;`",
+    "Answer": "`color: var(--bs-primary);`"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is the purpose of Bootstrap 'Placeholders' for content loading?",
+    "Option1": "To define static content areas.",
+    "Option2": "To enhance user experience by indicating that content is still loading, providing a visual representation of the layout before the actual data arrives.",
+    "Option3": "To reserve space for advertisements.",
+    "4": "To create empty containers.",
+    "Answer": "To enhance user experience by indicating that content is still loading, providing a visual representation of the layout before the actual data arrives."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Which class is used to create a glowing effect on a placeholder?",
+    "Option1": ".placeholder-shine",
+    "Option2": ".placeholder-glow",
+    "Option3": ".glow-effect",
+    "4": ".shimmer",
+    "Answer": ".placeholder-glow"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the purpose of 'Utilities for Layout'?",
+    "Option1": "To create custom layouts.",
+    "Option2": "A set of classes for quickly modifying the display, sizing, spacing, alignment, and positioning of elements.",
+    "Option3": "To manage responsive images.",
+    "4": "To create fluid layouts automatically.",
+    "Answer": "A set of classes for quickly modifying the display, sizing, spacing, alignment, and positioning of elements."
+  },
+  {
+    "question_no.": 186,
+    "Question": "Which utility class aligns an element to the start of its flex container?",
+    "Option1": ".align-start",
+    "Option2": ".justify-content-start",
+    "Option3": ".flex-start",
+    "4": ".text-start",
+    "Answer": ".justify-content-start"
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which utility class aligns an item to the end of its flex container's cross axis (vertical alignment)?",
+    "Option1": ".align-end",
+    "Option2": ".align-items-end",
+    "Option3": ".flex-end",
+    "4": ".text-bottom",
+    "Answer": ".align-items-end"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the `vstack` helper class in Bootstrap 5 used for?",
+    "Option1": "To create a horizontal stack of items.",
+    "Option2": "To create a vertical stack of elements, similar to `flex-column` with spacing.",
+    "Option3": "To stack images on top of each other.",
+    "4": "To create a sticky vertical menu.",
+    "Answer": "To create a vertical stack of elements, similar to `flex-column` with spacing."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the `hstack` helper class in Bootstrap 5 used for?",
+    "Option1": "To create a vertical stack of items.",
+    "Option2": "To create a horizontal stack of elements, similar to `d-flex` with spacing.",
+    "Option3": "To stack background images.",
+    "4": "To create a sticky horizontal menu.",
+    "Answer": "To create a horizontal stack of elements, similar to `d-flex` with spacing."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Components' in Bootstrap?",
+    "Option1": "Individual CSS properties.",
+    "Option2": "Pre-built, reusable UI elements (e.g., buttons, navbars, modals) that combine CSS, HTML, and optionally JavaScript.",
+    "Option3": "Standalone JavaScript functions.",
+    "4": "Images and multimedia files.",
+    "Answer": "Pre-built, reusable UI elements (e.g., buttons, navbars, modals) that combine CSS, HTML, and optionally JavaScript."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the purpose of Bootstrap's `display` property utilities (e.g., `d-block`, `d-flex`)?",
+    "Option1": "To change the element's color.",
+    "Option2": "To quickly and responsively control the `display` CSS property of an element.",
+    "Option3": "To change the font size.",
+    "4": "To add borders.",
+    "Answer": "To quickly and responsively control the `display` CSS property of an element."
+  },
+  {
+    "question_no.": 192,
+    "Question": "How do you create a floating label for a form input in Bootstrap 5?",
+    "Option1": "Using `class=\"float-label\"`",
+    "Option2": "By wrapping the input and label in a `.form-floating` div.",
+    "Option3": "Requires custom JavaScript for animation.",
+    "4": "Bootstrap does not support floating labels.",
+    "Answer": "By wrapping the input and label in a `.form-floating` div."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the primary motivation for removing jQuery from Bootstrap 5?",
+    "Option1": "To make Bootstrap faster for animation.",
+    "Option2": "To reduce file size, improve performance, and enable Bootstrap to be used with modern JavaScript frameworks more easily.",
+    "Option3": "jQuery became too old.",
+    "4": "To force users to write more vanilla JavaScript.",
+    "Answer": "To reduce file size, improve performance, and enable Bootstrap to be used with modern JavaScript frameworks more easily."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the purpose of 'Gradients' in Bootstrap 5 (utility classes)?",
+    "Option1": "To create image effects.",
+    "Option2": "To apply linear background gradients using a CSS background image, usually for `.bg-gradient` class.",
+    "Option3": "To make text appear faded.",
+    "4": "To create multi-color borders.",
+    "Answer": "To apply linear background gradients using a CSS background image, usually for `.bg-gradient` class."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which class adds a subtle gradient to a background color?",
+    "Option1": ".gradient-bg",
+    "Option2": ".bg-gradient",
+    "Option3": ".has-gradient",
+    "4": ".color-gradient",
+    "Answer": ".bg-gradient"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the purpose of 'Focus Ring' utilities in Bootstrap 5?",
+    "Option1": "To add a ring around focused elements for accessibility and visual indication.",
+    "Option2": "To add a border to all elements on hover.",
+    "Option3": "To create a highlight effect.",
+    "4": "To improve image quality.",
+    "Answer": "To add a ring around focused elements for accessibility and visual indication."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the purpose of the `border-0` class?",
+    "Option1": "To add a border of 0px.",
+    "Option2": "To remove all borders from an element.",
+    "Option3": "To set border-radius to 0.",
+    "4": "To hide a border.",
+    "Answer": "To remove all borders from an element."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the purpose of Bootstrap's `ratio` helper class in Bootstrap 5?",
+    "Option1": "To manage aspect ratios for images only.",
+    "Option2": "To maintain intrinsic aspect ratios for embedded content (e.g., videos, iframes) using CSS `padding-top` hacks.",
+    "Option3": "To resize elements based on screen size.",
+    "4": "To compare two values.",
+    "Answer": "To maintain intrinsic aspect ratios for embedded content (e.g., videos, iframes) using CSS `padding-top` hacks."
+  },
+  {
+    "question_no.": 199,
+    "Question": "How do you set a 4:3 aspect ratio using the `ratio` helper?",
+    "Option1": ".ratio-4x3",
+    "Option2": ".aspect-ratio-4-3",
+    "Option3": ".ratio-4-3",
+    "4": ".ratio .ratio-4x3",
+    "Answer": ".ratio .ratio-4x3"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the purpose of `z-index` utilities in Bootstrap?",
+    "Option1": "To control element visibility.",
+    "Option2": "To manage the stacking order of elements along the Z-axis (front-to-back).",
+    "Option3": "To position elements horizontally.",
+    "4": "To animate elements.",
+    "Answer": "To manage the stacking order of elements along the Z-axis (front-to-back)."
+  },
+  {
+    "question_no.": 201,
+    "Question": "Which class would typically place an element on top of others?",
+    "Option1": ".z-index-highest",
+    "Option2": ".z-10",
+    "Option3": ".z-index-max",
+    "4": ".z-index-top",
+    "Answer": ".z-10"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is a 'Placeholder button' in Bootstrap 5?",
+    "Option1": "A button that doesn't do anything.",
+    "Option2": "A visual placeholder for a button, indicating a loading state or a future interactive element.",
+    "Option3": "A button that is hidden by default.",
+    "4": "A button with no text.",
+    "Answer": "A visual placeholder for a button, indicating a loading state or a future interactive element."
+  }
+]

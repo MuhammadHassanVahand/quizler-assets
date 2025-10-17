@@ -1,0 +1,1829 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Tailwind CSS?",
+    "Option1": "A JavaScript framework for building user interfaces",
+    "Option2": "A utility-first CSS framework for rapid UI development",
+    "Option3": "A preprocessor for writing more organized CSS",
+    "Option4": "A component library for popular frontend frameworks",
+    "Answer": "A utility-first CSS framework for rapid UI development"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Explain the 'utility-first' approach in Tailwind CSS.",
+    "Option1": "It means prioritizing utility functions in JavaScript over CSS.",
+    "Option2": "It involves using small, single-purpose classes directly in your HTML to build designs.",
+    "Option3": "It's a methodology for organizing CSS into reusable components.",
+    "Option4": "It focuses on creating custom CSS classes for every unique style.",
+    "Answer": "It involves using small, single-purpose classes directly in your HTML to build designs."
+  },
+  {
+    "question_no.": 3,
+    "Question": "How do you install Tailwind CSS in a project using npm?",
+    "Option1": "npm install tailwindcss --save-dev",
+    "Option2": "npm add tailwindcss",
+    "Option3": "npm create tailwindcss-app",
+    "Option4": "npm run install tailwindcss",
+    "Answer": "npm install tailwindcss --save-dev"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the purpose of the `tailwind.config.js` file?",
+    "Option1": "To define database connections for a Tailwind project.",
+    "Option2": "To configure Tailwind CSS, including extending themes, adding plugins, and purging unused CSS.",
+    "Option3": "To manage server-side logic for Tailwind applications.",
+    "Option4": "To store user authentication data.",
+    "Answer": "To configure Tailwind CSS, including extending themes, adding plugins, and purging unused CSS."
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you include Tailwind's base styles, components, and utilities in your CSS file?",
+    "Option1": "Using @import 'tailwindcss';",
+    "Option2": "By linking a CDN in the HTML.",
+    "Option3": "Through specific @tailwind directives like @tailwind base, @tailwind components, @tailwind utilities.",
+    "Option4": "Manually copying the CSS files into your project.",
+    "Answer": "Through specific @tailwind directives like @tailwind base, @tailwind components, @tailwind utilities."
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you make text bold in Tailwind CSS?",
+    "Option1": "text-bold",
+    "Option2": "font-weight-bold",
+    "Option3": "font-bold",
+    "Option4": "text-style-bold",
+    "Answer": "font-bold"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which class is used to center text horizontally in Tailwind CSS?",
+    "Option1": "align-center",
+    "Option2": "text-center",
+    "Option3": "justify-center",
+    "Option4": "center-text",
+    "Answer": "text-center"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you apply a margin of 4 units to all sides of an element in Tailwind CSS?",
+    "Option1": "margin-4",
+    "Option2": "m-4",
+    "Option3": "all-m-4",
+    "Option4": "padding-4",
+    "Answer": "m-4"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What class would you use to set the background color of an element to blue-500?",
+    "Option1": "color-blue-500",
+    "Option2": "background-blue-500",
+    "Option3": "bg-blue-500",
+    "Option4": "fill-blue-500",
+    "Answer": "bg-blue-500"
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you control padding on the vertical axis (top and bottom) in Tailwind CSS?",
+    "Option1": "py-",
+    "Option2": "px-",
+    "Option3": "p-y-",
+    "Option4": "vertical-p-",
+    "Answer": "py-"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What does the `flex` class do in Tailwind CSS?",
+    "Option1": "Makes an element fixed position.",
+    "Option2": "Applies flexbox display properties to an element.",
+    "Option3": "Controls the font size of an element.",
+    "Option4": "Adds a shadow effect.",
+    "Answer": "Applies flexbox display properties to an element."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which class aligns flex items to the center along the cross-axis?",
+    "Option1": "justify-center",
+    "Option2": "items-center",
+    "Option3": "align-middle",
+    "Option4": "self-center",
+    "Answer": "items-center"
+  },
+  {
+    "question_no.": 13,
+    "Question": "How do you make an element take up the full width of its parent in Tailwind CSS?",
+    "Option1": "width-full",
+    "Option2": "w-full",
+    "Option3": "full-width",
+    "Option4": "100-width",
+    "Answer": "w-full"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the class for a rounded border in Tailwind CSS?",
+    "Option1": "border-rounded",
+    "Option2": "rounded",
+    "Option3": "circle",
+    "Option4": "border-circle",
+    "Answer": "rounded"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you add a shadow to an element in Tailwind CSS?",
+    "Option1": "shadow-effect",
+    "Option2": "box-shadow",
+    "Option3": "shadow",
+    "Option4": "drop-shadow",
+    "Answer": "shadow"
+  },
+  {
+    "question_no.": 16,
+    "Question": "To hide an element in Tailwind CSS, which class would you use?",
+    "Option1": "display-none",
+    "Option2": "invisible",
+    "Option3": "hidden",
+    "Option4": "hide",
+    "Answer": "hidden"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you set the font size to 'large' in Tailwind CSS?",
+    "Option1": "font-large",
+    "Option2": "text-lg",
+    "Option3": "size-large",
+    "Option4": "text-size-lg",
+    "Answer": "text-lg"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which class is used for a flex container to arrange its items vertically?",
+    "Option1": "flex-row",
+    "Option2": "flex-col",
+    "Option3": "flex-vertical",
+    "Option4": "flex-column",
+    "Answer": "flex-col"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you make an element responsive to different screen sizes in Tailwind CSS?",
+    "Option1": "By using @media queries manually.",
+    "Option2": "By prefixing utility classes with breakpoints (e.g., md:text-center).",
+    "Option3": "Tailwind automatically handles responsiveness without extra classes.",
+    "Option4": "By defining separate CSS files for each breakpoint.",
+    "Answer": "By prefixing utility classes with breakpoints (e.g., md:text-center)."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the default breakpoint for `sm:` in Tailwind CSS?",
+    "Option1": "480px",
+    "Option2": "640px",
+    "Option3": "768px",
+    "Option4": "1024px",
+    "Answer": "640px"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How can you add a custom color to your Tailwind CSS configuration?",
+    "Option1": "By directly editing the Tailwind CSS source files.",
+    "Option2": "By adding the color to the `theme.extend.colors` section in `tailwind.config.js`.",
+    "Option3": "Tailwind CSS does not allow custom colors.",
+    "Option4": "Using inline styles only.",
+    "Answer": "By adding the color to the `theme.extend.colors` section in `tailwind.config.js`."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What does JIT (Just-in-Time) mode refer to in Tailwind CSS?",
+    "Option1": "A mode for running JavaScript at runtime.",
+    "Option2": "A compilation mode that generates CSS utilities as you need them, leading to faster compilation and smaller file sizes.",
+    "Option3": "A development environment for rapid prototyping.",
+    "Option4": "A specific design pattern within Tailwind CSS.",
+    "Answer": "A compilation mode that generates CSS utilities as you need them, leading to faster compilation and smaller file sizes."
+  },
+  {
+    "question_no.": 23,
+    "Question": "How do you enable JIT mode in Tailwind CSS?",
+    "Option1": "It's enabled by default in newer versions.",
+    "Option2": "By setting `mode: 'jit'` in `tailwind.config.js` (or newer `content` config).",
+    "Option3": "Through a command-line flag during compilation.",
+    "Option4": "JIT mode is deprecated.",
+    "Answer": "By setting `mode: 'jit'` in `tailwind.config.js` (or newer `content` config)."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the purpose of the `container` class in Tailwind CSS?",
+    "Option1": "To create a flexible grid layout.",
+    "Option2": "To set a fixed maximum width for an element and center it.",
+    "Option3": "To define a component with predefined styles.",
+    "Option4": "To contain floating elements.",
+    "Answer": "To set a fixed maximum width for an element and center it."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you make an image responsive, ensuring it scales within its container?",
+    "Option1": "image-responsive",
+    "Option2": "img-fluid",
+    "Option3": "w-full h-auto",
+    "Option4": "fit-image",
+    "Answer": "w-full h-auto"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the class for applying a subtle box shadow to an element?",
+    "Option1": "shadow-sm",
+    "Option2": "shadow-xs",
+    "Option3": "shadow-light",
+    "Option4": "shadow-tiny",
+    "Answer": "shadow-sm"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you set the text color to red-500 in Tailwind CSS?",
+    "Option1": "color-red-500",
+    "Option2": "text-red-500",
+    "Option3": "font-color-red-500",
+    "Option4": "red-text-500",
+    "Answer": "text-red-500"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which utility class would you use to add space between elements in a flex container?",
+    "Option1": "gap-",
+    "Option2": "space-x-",
+    "Option3": "margin-between-",
+    "Option4": "item-spacing-",
+    "Answer": "gap-"
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you control the opacity of an element in Tailwind CSS?",
+    "Option1": "transparent-",
+    "Option2": "opacity-",
+    "Option3": "alpha-",
+    "Option4": "fade-",
+    "Answer": "opacity-"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What class allows you to control the display property (e.g., block, inline-block, flex)?",
+    "Option1": "display-",
+    "Option2": "d-",
+    "Option3": "block, inline-block, flex, etc.",
+    "Option4": "view-",
+    "Answer": "block, inline-block, flex, etc."
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you apply a border to all sides of an element in Tailwind CSS?",
+    "Option1": "border",
+    "Option2": "b-all",
+    "Option3": "border-solid",
+    "Option4": "border-width",
+    "Answer": "border"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What utility class would you use to remove the default list styling (bullets/numbers)?",
+    "Option1": "list-none",
+    "Option2": "no-list-style",
+    "Option3": "ul-unstyled",
+    "Option4": "list-reset",
+    "Answer": "list-none"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you set a minimum height for an element in Tailwind CSS?",
+    "Option1": "min-h-",
+    "Option2": "h-min-",
+    "Option3": "height-min-",
+    "Option4": "min-height-",
+    "Answer": "min-h-"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which class is used to make text uppercase?",
+    "Option1": "text-uppercase",
+    "Option2": "uppercase",
+    "Option3": "capitalized",
+    "Option4": "upper",
+    "Answer": "uppercase"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you apply a hover state to a Tailwind CSS class?",
+    "Option1": "hover-bg-blue-500",
+    "Option2": "bg-blue-500:hover",
+    "Option3": "hover:bg-blue-500",
+    "Option4": "on-hover-bg-blue-500",
+    "Answer": "hover:bg-blue-500"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What class is used to center an element horizontally using auto margins?",
+    "Option1": "center-x",
+    "Option2": "mx-auto",
+    "Option3": "align-x-center",
+    "Option4": "horizontal-center",
+    "Answer": "mx-auto"
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you add a border-radius to only the top-left corner?",
+    "Option1": "rounded-top-left",
+    "Option2": "rounded-tl",
+    "Option3": "border-radius-tl",
+    "Option4": "corner-tl",
+    "Answer": "rounded-tl"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the purpose of the `space-y-` utility classes?",
+    "Option1": "To add horizontal space between direct children.",
+    "Option2": "To add vertical space between direct children.",
+    "Option3": "To control line height.",
+    "Option4": "To create responsive spacing.",
+    "Answer": "To add vertical space between direct children."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which class would you use to make text italic?",
+    "Option1": "text-italic",
+    "Option2": "italic",
+    "Option3": "font-italic",
+    "Option4": "style-italic",
+    "Answer": "italic"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you set the `z-index` of an element to 10?",
+    "Option1": "z-index-10",
+    "Option2": "z-10",
+    "Option3": "index-10",
+    "Option4": "layer-10",
+    "Answer": "z-10"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What does `inset-0` do in Tailwind CSS?",
+    "Option1": "Sets top, right, bottom, and left to 0.",
+    "Option2": "Sets the inner shadow of an element.",
+    "Option3": "Creates an inset border.",
+    "Option4": "Resets all positioning properties.",
+    "Answer": "Sets top, right, bottom, and left to 0."
+  },
+  {
+    "question_no.": 42,
+    "Question": "How do you change the cursor to a pointer when hovering over an element?",
+    "Option1": "cursor-pointer",
+    "Option2": "pointer-cursor",
+    "Option3": "hover:cursor-hand",
+    "Option4": "cursor-click",
+    "Answer": "cursor-pointer"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which class is used to control the `overflow` property on the x-axis?",
+    "Option1": "overflow-x-",
+    "Option2": "ox-",
+    "Option3": "scroll-x-",
+    "Option4": "x-overflow-",
+    "Answer": "overflow-x-"
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you set a maximum width for an element to `max-w-md`?",
+    "Option1": "max-width-md",
+    "Option2": "w-max-md",
+    "Option3": "max-w-md",
+    "Option4": "width-md-max",
+    "Answer": "max-w-md"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the class to remove the default `outline` on focus?",
+    "Option1": "no-outline",
+    "Option2": "outline-none",
+    "Option3": "focus:no-outline",
+    "Option4": "focus:outline-none",
+    "Answer": "focus:outline-none"
+  },
+  {
+    "question_no.": 46,
+    "Question": "How do you apply a grayscale filter to an image?",
+    "Option1": "filter-grayscale",
+    "Option2": "grayscale",
+    "Option3": "image-grayscale",
+    "Option4": "filter-gray",
+    "Answer": "grayscale"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What class would you use to control `line-height`?",
+    "Option1": "line-h-",
+    "Option2": "leading-",
+    "Option3": "text-line-",
+    "Option4": "height-line-",
+    "Answer": "leading-"
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you set the text alignment to right?",
+    "Option1": "align-right",
+    "Option2": "text-right",
+    "Option3": "right-text",
+    "Option4": "justify-right",
+    "Answer": "text-right"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the class for a medium-sized font weight?",
+    "Option1": "font-medium",
+    "Option2": "text-medium",
+    "Option3": "weight-medium",
+    "Option4": "font-weight-medium",
+    "Answer": "font-medium"
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you define a grid layout in Tailwind CSS?",
+    "Option1": "display-grid",
+    "Option2": "grid",
+    "Option3": "layout-grid",
+    "Option4": "grid-container",
+    "Answer": "grid"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What class controls the number of columns in a grid layout?",
+    "Option1": "grid-columns-",
+    "Option2": "columns-",
+    "Option3": "grid-cols-",
+    "Option4": "cols-",
+    "Answer": "grid-cols-"
+  },
+  {
+    "question_no.": 52,
+    "Question": "How do you make an element sticky positioned?",
+    "Option1": "position-sticky",
+    "Option2": "sticky",
+    "Option3": "fixed-sticky",
+    "Option4": "stick-to-position",
+    "Answer": "sticky"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which class is used to add a top margin?",
+    "Option1": "mt-",
+    "Option2": "margin-top-",
+    "Option3": "m-top-",
+    "Option4": "top-m-",
+    "Answer": "mt-"
+  },
+  {
+    "question_no.": 54,
+    "Question": "How do you change the border color to `indigo-600`?",
+    "Option1": "border-color-indigo-600",
+    "Option2": "border-indigo-600",
+    "Option3": "color-border-indigo-600",
+    "Option4": "indigo-border-600",
+    "Answer": "border-indigo-600"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the class for `display: inline-block`?",
+    "Option1": "inline-block",
+    "Option2": "d-inline-block",
+    "Option3": "display-inline-block",
+    "Option4": "ib",
+    "Answer": "inline-block"
+  },
+  {
+    "question_no.": 56,
+    "Question": "How do you set a specific height for an element, e.g., `h-40`?",
+    "Option1": "height-40",
+    "Option2": "h-40",
+    "Option3": "style-height-40",
+    "Option4": "set-h-40",
+    "Answer": "h-40"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which class would you use to remove padding on all sides?",
+    "Option1": "p-0",
+    "Option2": "no-padding",
+    "Option3": "padding-none",
+    "Option4": "reset-p",
+    "Answer": "p-0"
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you make an element circular?",
+    "Option1": "rounded-full",
+    "Option2": "circle",
+    "Option3": "shape-circle",
+    "Option4": "border-circle-full",
+    "Answer": "rounded-full"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the class to make text lowercase?",
+    "Option1": "text-lowercase",
+    "Option2": "lowercase",
+    "Option3": "smallcase",
+    "Option4": "text-small",
+    "Answer": "lowercase"
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do you control the alignment of content within a grid item?",
+    "Option1": "align-content-",
+    "Option2": "place-content-",
+    "Option3": "justify-items-",
+    "Option4": "col-align-",
+    "Answer": "place-content-"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which class is used to set the `font-family` to a sans-serif font?",
+    "Option1": "font-sans",
+    "Option2": "font-family-sans",
+    "Option3": "text-sans-serif",
+    "Option4": "sans-font",
+    "Answer": "font-sans"
+  },
+  {
+    "question_no.": 62,
+    "Question": "How do you set the `flex-wrap` property to wrap?",
+    "Option1": "flex-wrap",
+    "Option2": "wrap-flex",
+    "Option3": "flex-wrap-on",
+    "Option4": "wrap",
+    "Answer": "flex-wrap"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What class allows you to control the `aspect-ratio`?",
+    "Option1": "ratio-",
+    "Option2": "aspect-",
+    "Option3": "ar-",
+    "Option4": "aspect-ratio-",
+    "Answer": "aspect-"
+  },
+  {
+    "question_no.": 64,
+    "Question": "How do you apply a `transition` effect to an element?",
+    "Option1": "transition-all",
+    "Option2": "trans-",
+    "Option3": "ease-in-out",
+    "Option4": "animated",
+    "Answer": "transition-all"
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which class would you use to control `text-decoration` (e.g., underline, line-through)?",
+    "Option1": "decoration-",
+    "Option2": "text-decoration-",
+    "Option3": "underline, line-through, no-underline",
+    "Option4": "decorate-",
+    "Answer": "underline, line-through, no-underline"
+  },
+  {
+    "question_no.": 66,
+    "Question": "How do you set a background image in Tailwind CSS?",
+    "Option1": "bg-image-",
+    "Option2": "background-image-",
+    "Option3": "bg-[url('/img/hero-pattern.svg')]",
+    "Option4": "img-bg-",
+    "Answer": "bg-[url('/img/hero-pattern.svg')]"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the class for `position: absolute`?",
+    "Option1": "absolute",
+    "Option2": "pos-absolute",
+    "Option3": "fixed-absolute",
+    "Option4": "abs-position",
+    "Answer": "absolute"
+  },
+  {
+    "question_no.": 68,
+    "Question": "How do you add `margin-left` and `margin-right` using a single class?",
+    "Option1": "mx-",
+    "Option2": "mlr-",
+    "Option3": "horizontal-m-",
+    "Option4": "m-sides-",
+    "Answer": "mx-"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What class do you use to control `letter-spacing`?",
+    "Option1": "tracking-",
+    "Option2": "letter-space-",
+    "Option3": "spacing-letter-",
+    "Option4": "text-spacing-",
+    "Answer": "tracking-"
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you control `text-transform` (e.g., capitalize, uppercase, lowercase)?",
+    "Option1": "transform-text-",
+    "Option2": "text-transform-",
+    "Option3": "capitalize, uppercase, lowercase",
+    "Option4": "case-",
+    "Answer": "capitalize, uppercase, lowercase"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which class is used to make an element a block-level element?",
+    "Option1": "d-block",
+    "Option2": "block",
+    "Option3": "display-block",
+    "Option4": "elem-block",
+    "Answer": "block"
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you apply a `blur` filter to an element?",
+    "Option1": "filter-blur",
+    "Option2": "blur-effect",
+    "Option3": "blur",
+    "Option4": "gaussian-blur",
+    "Answer": "blur"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the class for `text-align: justify`?",
+    "Option1": "text-justify",
+    "Option2": "justify-text",
+    "Option3": "align-justify",
+    "Option4": "text-align-justify",
+    "Answer": "text-justify"
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you add an `outline` to an element?",
+    "Option1": "outline",
+    "Option2": "border-outline",
+    "Option3": "focus-outline",
+    "Option4": "shadow-outline",
+    "Answer": "outline"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which class would you use to set `overflow: auto`?",
+    "Option1": "overflow-auto",
+    "Option2": "scroll-auto",
+    "Option3": "auto-overflow",
+    "Option4": "overflow-scroll",
+    "Answer": "overflow-auto"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What class allows you to control `word-break` (e.g., break-all, break-words)?",
+    "Option1": "word-break-",
+    "Option2": "break-",
+    "Option3": "text-break-",
+    "Option4": "word-wrap-",
+    "Answer": "break-"
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you set the `flex-grow` property?",
+    "Option1": "flex-grow",
+    "Option2": "grow",
+    "Option3": "f-grow",
+    "Option4": "flex-size",
+    "Answer": "grow"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the class for `position: fixed`?",
+    "Option1": "fixed",
+    "Option2": "position-fixed",
+    "Option3": "sticky-fixed",
+    "Option4": "fixed-pos",
+    "Answer": "fixed"
+  },
+  {
+    "question_no.": 79,
+    "Question": "How do you set the `width` to `screen` (100vw)?",
+    "Option1": "w-screen",
+    "Option2": "width-screen",
+    "Option3": "vw-100",
+    "Option4": "screen-width",
+    "Answer": "w-screen"
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which class is used to align items to the end of the main axis in a flex container?",
+    "Option1": "align-end",
+    "Option2": "items-end",
+    "Option3": "justify-end",
+    "Option4": "flex-end",
+    "Answer": "justify-end"
+  },
+  {
+    "question_no.": 81,
+    "Question": "How do you set the `background-repeat` property?",
+    "Option1": "bg-repeat-",
+    "Option2": "repeat-",
+    "Option3": "background-",
+    "Option4": "bg-no-repeat",
+    "Answer": "bg-no-repeat"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What class would you use for `text-overflow: ellipsis`?",
+    "Option1": "overflow-ellipsis",
+    "Option2": "text-ellipsis",
+    "Option3": "ellipsis",
+    "Option4": "text-overflow",
+    "Answer": "truncate"
+  },
+  {
+    "question_no.": 83,
+    "Question": "How do you set `border-width` to 2 pixels?",
+    "Option1": "border-2",
+    "Option2": "b-2px",
+    "Option3": "border-width-2",
+    "Option4": "border-w-2",
+    "Answer": "border-2"
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which class controls `list-style-type` (e.g., disc, decimal)?",
+    "Option1": "list-style-",
+    "Option2": "list-",
+    "Option3": "type-",
+    "Option4": "list-disc, list-decimal",
+    "Answer": "list-disc, list-decimal"
+  },
+  {
+    "question_no.": 85,
+    "Question": "How do you apply a `rotate` transform?",
+    "Option1": "rotate-",
+    "Option2": "transform-rotate-",
+    "Option3": "rot-",
+    "Option4": "rotate-angle-",
+    "Answer": "rotate-"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What class is used for `box-sizing: border-box`?",
+    "Option1": "box-border",
+    "Option2": "border-box",
+    "Option3": "sizing-border",
+    "Option4": "box-sizing-border",
+    "Answer": "box-border"
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you set `flex-shrink` to 0?",
+    "Option1": "flex-shrink-0",
+    "Option2": "shrink-0",
+    "Option3": "no-shrink",
+    "Option4": "f-shrink-0",
+    "Answer": "shrink-0"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which class controls `text-align` on small screens?",
+    "Option1": "sm-text-align-",
+    "Option2": "sm:text-",
+    "Option3": "text-sm-",
+    "Option4": "mobile-text-",
+    "Answer": "sm:text-"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the class for `background-position: center`?",
+    "Option1": "bg-center",
+    "Option2": "background-position-center",
+    "Option3": "center-bg",
+    "Option4": "bg-pos-center",
+    "Answer": "bg-center"
+  },
+  {
+    "question_no.": 90,
+    "Question": "How do you set a `max-height` for an element?",
+    "Option1": "max-h-",
+    "Option2": "height-max-",
+    "Option3": "h-max-",
+    "Option4": "max-height-",
+    "Answer": "max-h-"
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which class is used to change `font-style` to `normal`?",
+    "Option1": "font-normal",
+    "Option2": "text-normal",
+    "Option3": "style-normal",
+    "Option4": "normal-font",
+    "Answer": "font-normal"
+  },
+  {
+    "question_no.": 92,
+    "Question": "How do you apply `padding-left` to an element?",
+    "Option1": "pl-",
+    "Option2": "padding-left-",
+    "Option3": "p-left-",
+    "Option4": "left-p-",
+    "Answer": "pl-"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What class allows you to control `text-decoration-color`?",
+    "Option1": "decoration-color-",
+    "Option2": "text-decoration-color-",
+    "Option3": "decoration-",
+    "Option4": "underline-color-",
+    "Answer": "decoration-"
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do you set `flex-direction` to `row-reverse`?",
+    "Option1": "flex-row-reverse",
+    "Option2": "row-reverse-flex",
+    "Option3": "flex-direction-row-reverse",
+    "Option4": "reverse-row",
+    "Answer": "flex-row-reverse"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the class for `position: relative`?",
+    "Option1": "relative",
+    "Option2": "pos-relative",
+    "Option3": "rel-position",
+    "Option4": "relative-pos",
+    "Answer": "relative"
+  },
+  {
+    "question_no.": 96,
+    "Question": "How do you apply a `scale` transform?",
+    "Option1": "scale-",
+    "Option2": "transform-scale-",
+    "Option3": "size-scale-",
+    "Option4": "sc-",
+    "Answer": "scale-"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which class would you use to control `font-variant-numeric` (e.g., oldstyle-nums, lining-nums)?",
+    "Option1": "font-numeric-",
+    "Option2": "numeric-",
+    "Option3": "variant-numeric-",
+    "Option4": "lining-nums, oldstyle-nums",
+    "Answer": "lining-nums, oldstyle-nums"
+  },
+  {
+    "question_no.": 98,
+    "Question": "How do you set `border-style` to `dashed`?",
+    "Option1": "border-dashed",
+    "Option2": "b-dashed",
+    "Option3": "style-dashed",
+    "Option4": "dashed-border",
+    "Answer": "border-dashed"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What class controls `background-size`?",
+    "Option1": "bg-size-",
+    "Option2": "background-size-",
+    "Option3": "bg-cover, bg-contain, bg-auto",
+    "Option4": "size-bg-",
+    "Answer": "bg-cover, bg-contain, bg-auto"
+  },
+  {
+    "question_no.": 100,
+    "Question": "How do you make an element take up 50% of its parent's width?",
+    "Option1": "width-50",
+    "Option2": "w-1/2",
+    "Option3": "half-width",
+    "Option4": "w-50p",
+    "Answer": "w-1/2"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What class would you use to control `grid-template-rows`?",
+    "Option1": "grid-rows-",
+    "Option2": "rows-",
+    "Option3": "grid-template-rows-",
+    "Option4": "template-rows-",
+    "Answer": "grid-rows-"
+  },
+  {
+    "question_no.": 102,
+    "Question": "How do you set `top` position for an element to 0?",
+    "Option1": "top-0",
+    "Option2": "t-0",
+    "Option3": "position-top-0",
+    "Option4": "top-zero",
+    "Answer": "top-0"
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which class is used to control `whitespace` (e.g., nowrap, pre, pre-line)?",
+    "Option1": "whitespace-",
+    "Option2": "space-white-",
+    "Option3": "text-wrap-",
+    "Option4": "no-wrap, pre, pre-line",
+    "Answer": "whitespace-"
+  },
+  {
+    "question_no.": 104,
+    "Question": "How do you apply a `skew` transform?",
+    "Option1": "skew-",
+    "Option2": "transform-skew-",
+    "Option3": "sk-",
+    "Option4": "skew-angle-",
+    "Answer": "skew-"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What class controls `flex-basis`?",
+    "Option1": "basis-",
+    "Option2": "flex-basis-",
+    "Option3": "b-",
+    "Option4": "size-basis-",
+    "Answer": "basis-"
+  },
+  {
+    "question_no.": 106,
+    "Question": "How do you set `outline-offset`?",
+    "Option1": "outline-offset-",
+    "Option2": "offset-outline-",
+    "Option3": "outline-o-",
+    "Option4": "o-offset-",
+    "Answer": "outline-offset-"
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which class is used to control `grid-auto-flow`?",
+    "Option1": "flow-grid-",
+    "Option2": "grid-flow-",
+    "Option3": "auto-flow-",
+    "Option4": "grid-auto-flow-",
+    "Answer": "grid-flow-"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the class for `background-attachment: fixed`?",
+    "Option1": "bg-fixed",
+    "Option2": "background-fixed",
+    "Option3": "fixed-bg",
+    "Option4": "attach-fixed",
+    "Answer": "bg-fixed"
+  },
+  {
+    "question_no.": 109,
+    "Question": "How do you set `right` position for an element to 0?",
+    "Option1": "right-0",
+    "Option2": "r-0",
+    "Option3": "position-right-0",
+    "Option4": "right-zero",
+    "Answer": "right-0"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What class controls `vertical-align`?",
+    "Option1": "align-",
+    "Option2": "vertical-align-",
+    "Option3": "v-align-",
+    "Option4": "align-top, align-middle, align-bottom",
+    "Answer": "align-top, align-middle, align-bottom"
+  },
+  {
+    "question_no.": 111,
+    "Question": "How do you apply `box-shadow` with an inner shadow?",
+    "Option1": "shadow-inner",
+    "Option2": "inner-shadow",
+    "Option3": "inset-shadow",
+    "Option4": "shadow-inset",
+    "Answer": "shadow-inner"
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which class is used for `transform-origin`?",
+    "Option1": "origin-",
+    "Option2": "transform-origin-",
+    "Option3": "t-origin-",
+    "Option4": "origin-transform-",
+    "Answer": "origin-"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What class controls `object-fit` (e.g., contain, cover, fill)?",
+    "Option1": "object-",
+    "Option2": "fit-object-",
+    "Option3": "image-fit-",
+    "Option4": "object-cover, object-contain, object-fill",
+    "Answer": "object-"
+  },
+  {
+    "question_no.": 114,
+    "Question": "How do you set the `cursor` to `not-allowed`?",
+    "Option1": "cursor-not-allowed",
+    "Option2": "not-allowed-cursor",
+    "Option3": "cursor-disabled",
+    "Option4": "no-access-cursor",
+    "Answer": "cursor-not-allowed"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the class for `pointer-events: none`?",
+    "Option1": "no-pointer-events",
+    "Option2": "pointer-events-none",
+    "Option3": "disable-pointer",
+    "Option4": "events-none",
+    "Answer": "pointer-events-none"
+  },
+  {
+    "question_no.": 116,
+    "Question": "How do you control the `flex-wrap` property to `no-wrap`?",
+    "Option1": "flex-no-wrap",
+    "Option2": "nowrap-flex",
+    "Option3": "flex-nowrap",
+    "Option4": "no-wrap",
+    "Answer": "flex-nowrap"
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which class is used to make text `line-through`?",
+    "Option1": "text-line-through",
+    "Option2": "line-through",
+    "Option3": "strikethrough",
+    "Option4": "text-strike",
+    "Answer": "line-through"
+  },
+  {
+    "question_no.": 118,
+    "Question": "How do you set `left` position for an element to 0?",
+    "Option1": "left-0",
+    "Option2": "l-0",
+    "Option3": "position-left-0",
+    "Option4": "left-zero",
+    "Answer": "left-0"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What class controls `resize` property (e.g., none, vertical, horizontal, both)?",
+    "Option1": "resize-",
+    "Option2": "resizable-",
+    "Option3": "re-",
+    "Option4": "size-change-",
+    "Answer": "resize-"
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you set `bottom` position for an element to 0?",
+    "Option1": "bottom-0",
+    "Option2": "b-0",
+    "Option3": "position-bottom-0",
+    "Option4": "bottom-zero",
+    "Answer": "bottom-0"
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which class is used to set `text-align` to `start`?",
+    "Option1": "text-start",
+    "Option2": "align-start",
+    "Option3": "start-text",
+    "Option4": "justify-start",
+    "Answer": "text-start"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the class for `background-blend-mode`?",
+    "Option1": "bg-blend-",
+    "Option2": "blend-bg-",
+    "Option3": "background-blend-",
+    "Option4": "blend-mode-",
+    "Answer": "bg-blend-"
+  },
+  {
+    "question_no.": 123,
+    "Question": "How do you set `column-gap` in a grid or flex container?",
+    "Option1": "gap-x-",
+    "Option2": "col-gap-",
+    "Option3": "gap-col-",
+    "Option4": "column-gap-",
+    "Answer": "gap-x-"
+  },
+  {
+    "question_no.": 124,
+    "Question": "Which class controls `overflow-y`?",
+    "Option1": "overflow-y-",
+    "Option2": "oy-",
+    "Option3": "scroll-y-",
+    "Option4": "y-overflow-",
+    "Answer": "overflow-y-"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the class for `box-shadow` of `none`?",
+    "Option1": "shadow-none",
+    "Option2": "no-shadow",
+    "Option3": "box-shadow-none",
+    "Option4": "remove-shadow",
+    "Answer": "shadow-none"
+  },
+  {
+    "question_no.": 126,
+    "Question": "How do you set `text-indent`?",
+    "Option1": "indent-",
+    "Option2": "text-indent-",
+    "Option3": "ind-",
+    "Option4": "tab-",
+    "Answer": "indent-"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What class controls `appearance` (e.g., none)?",
+    "Option1": "appearance-",
+    "Option2": "ap-",
+    "Option3": "element-appearance-",
+    "Option4": "render-",
+    "Answer": "appearance-"
+  },
+  {
+    "question_no.": 128,
+    "Question": "How do you apply a `sepia` filter?",
+    "Option1": "filter-sepia",
+    "Option2": "sepia",
+    "Option3": "image-sepia",
+    "Option4": "filter-brown",
+    "Answer": "sepia"
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which class is used to set `vertical-align` to `text-top`?",
+    "Option1": "align-text-top",
+    "Option2": "align-top",
+    "Option3": "text-top",
+    "Option4": "v-align-text-top",
+    "Answer": "align-text-top"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What class controls `text-underline-offset`?",
+    "Option1": "underline-offset-",
+    "Option2": "offset-underline-",
+    "Option3": "text-underline-offset-",
+    "Option4": "decoration-offset-",
+    "Answer": "underline-offset-"
+  },
+  {
+    "question_no.": 131,
+    "Question": "How do you set the `font-family` to a serif font?",
+    "Option1": "font-serif",
+    "Option2": "font-family-serif",
+    "Option3": "text-serif",
+    "Option4": "serif-font",
+    "Answer": "font-serif"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the class for `background-origin`?",
+    "Option1": "bg-origin-",
+    "Option2": "origin-bg-",
+    "Option3": "background-origin-",
+    "Option4": "origin-",
+    "Answer": "bg-origin-"
+  },
+  {
+    "question_no.": 133,
+    "Question": "How do you control `grid-auto-rows`?",
+    "Option1": "grid-auto-rows-",
+    "Option2": "auto-rows-",
+    "Option3": "rows-auto-",
+    "Option4": "grid-rows-auto-",
+    "Answer": "auto-rows-"
+  },
+  {
+    "question_no.": 134,
+    "Question": "Which class is used to change `font-style` to `oblique`?",
+    "Option1": "font-oblique",
+    "Option2": "oblique",
+    "Option3": "text-oblique",
+    "Option4": "style-oblique",
+    "Answer": "oblique"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the class for `backdrop-filter`?",
+    "Option1": "backdrop-filter-",
+    "Option2": "filter-backdrop-",
+    "Option3": "backdrop-",
+    "Option4": "blur-backdrop-",
+    "Answer": "backdrop-"
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you set `column-span` in a grid layout?",
+    "Option1": "col-span-",
+    "Option2": "span-col-",
+    "Option3": "grid-col-span-",
+    "Option4": "column-span-",
+    "Answer": "col-span-"
+  },
+  {
+    "question_no.": 137,
+    "Question": "Which class controls `text-orientation`?",
+    "Option1": "text-orientation-",
+    "Option2": "orientation-",
+    "Option3": "writing-mode-",
+    "Option4": "rotate-text-",
+    "Answer": "writing-mode-"
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you set `outline-color`?",
+    "Option1": "outline-color-",
+    "Option2": "outline-",
+    "Option3": "border-outline-",
+    "Option4": "o-color-",
+    "Answer": "outline-"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What class controls `scroll-behavior`?",
+    "Option1": "scroll-behavior-",
+    "Option2": "behavior-scroll-",
+    "Option3": "scroll-",
+    "Option4": "smooth-scroll",
+    "Answer": "scroll-"
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you apply a `brightness` filter?",
+    "Option1": "brightness-",
+    "Option2": "filter-brightness-",
+    "Option3": "bright-",
+    "Option4": "lighten-",
+    "Answer": "brightness-"
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which class is used for `isolation: isolate`?",
+    "Option1": "isolate",
+    "Option2": "isolation-isolate",
+    "Option3": "iso-",
+    "Option4": "layer-isolate",
+    "Answer": "isolate"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the class for `background-clip`?",
+    "Option1": "bg-clip-",
+    "Option2": "clip-bg-",
+    "Option3": "background-clip-",
+    "Option4": "clip-",
+    "Answer": "bg-clip-"
+  },
+  {
+    "question_no.": 143,
+    "Question": "How do you control `grid-column-start` and `grid-column-end`?",
+    "Option1": "col-start-",
+    "Option2": "col-end-",
+    "Option3": "col-start-X-col-end-Y",
+    "Option4": "grid-col-start-",
+    "Answer": "col-start-, col-end-"
+  },
+  {
+    "question_no.": 144,
+    "Question": "Which class is used for `place-items` (e.g., center, start, end)?",
+    "Option1": "place-items-",
+    "Option2": "items-place-",
+    "Option3": "grid-items-",
+    "Option4": "align-items-",
+    "Answer": "place-items-"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What class controls `text-rendering`?",
+    "Option1": "text-rendering-",
+    "Option2": "render-text-",
+    "Option3": "optimize-legibility, geometric-precision",
+    "Option4": "text-quality-",
+    "Answer": "optimize-legibility, geometric-precision"
+  },
+  {
+    "question_no.": 146,
+    "Question": "How do you set `outline-style`?",
+    "Option1": "outline-style-",
+    "Option2": "outline-",
+    "Option3": "o-style-",
+    "Option4": "style-outline-",
+    "Answer": "outline-"
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which class is used to control `overscroll-behavior-y`?",
+    "Option1": "overscroll-y-",
+    "Option2": "scroll-y-overscroll-",
+    "Option3": "oy-overscroll-",
+    "Option4": "overscroll-behavior-y-",
+    "Answer": "overscroll-y-"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What class controls `scroll-snap-type`?",
+    "Option1": "snap-",
+    "Option2": "scroll-snap-",
+    "Option3": "snap-type-",
+    "Option4": "scroll-behavior-snap-",
+    "Answer": "snap-"
+  },
+  {
+    "question_no.": 149,
+    "Question": "How do you apply a `contrast` filter?",
+    "Option1": "contrast-",
+    "Option2": "filter-contrast-",
+    "Option3": "contrast-effect-",
+    "Option4": "color-contrast-",
+    "Answer": "contrast-"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the class for `mix-blend-mode`?",
+    "Option1": "mix-blend-",
+    "Option2": "blend-mode-",
+    "Option3": "m-blend-",
+    "Option4": "blend-mix-",
+    "Answer": "mix-blend-"
+  },
+  {
+    "question_no.": 151,
+    "Question": "How do you set `grid-row-start` and `grid-row-end`?",
+    "Option1": "row-start-",
+    "Option2": "row-end-",
+    "Option3": "row-start-X-row-end-Y",
+    "Option4": "grid-row-start-",
+    "Answer": "row-start-, row-end-"
+  },
+  {
+    "question_no.": 152,
+    "Question": "Which class is used for `place-content` (e.g., center, start, end)?",
+    "Option1": "place-content-",
+    "Option2": "content-place-",
+    "Option3": "grid-content-",
+    "Option4": "align-content-",
+    "Answer": "place-content-"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What class controls `text-shadow`?",
+    "Option1": "text-shadow-",
+    "Option2": "shadow-text-",
+    "Option3": "text-sh-",
+    "Option4": "shadow",
+    "Answer": "shadow"
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you set `outline-width`?",
+    "Option1": "outline-width-",
+    "Option2": "outline-",
+    "Option3": "o-width-",
+    "Option4": "width-outline-",
+    "Answer": "outline-"
+  },
+  {
+    "question_no.": 155,
+    "Question": "Which class is used to control `overscroll-behavior-x`?",
+    "Option1": "overscroll-x-",
+    "Option2": "scroll-x-overscroll-",
+    "Option3": "ox-overscroll-",
+    "Option4": "overscroll-behavior-x-",
+    "Answer": "overscroll-x-"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What class controls `scroll-snap-align`?",
+    "Option1": "snap-align-",
+    "Option2": "scroll-snap-align-",
+    "Option3": "snap-",
+    "Option4": "align-snap-",
+    "Answer": "snap-"
+  },
+  {
+    "question_no.": 157,
+    "Question": "How do you apply a `drop-shadow` filter?",
+    "Option1": "drop-shadow-",
+    "Option2": "filter-drop-shadow-",
+    "Option3": "shadow-drop-",
+    "Option4": "d-shadow-",
+    "Answer": "drop-shadow-"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the class for `background-position`?",
+    "Option1": "bg-pos-",
+    "Option2": "background-position-",
+    "Option3": "bg-",
+    "Option4": "position-bg-",
+    "Answer": "bg-"
+  },
+  {
+    "question_no.": 159,
+    "Question": "How do you set `grid-row-gap` or `row-gap`?",
+    "Option1": "gap-y-",
+    "Option2": "row-gap-",
+    "Option3": "gap-row-",
+    "Option4": "grid-row-gap-",
+    "Answer": "gap-y-"
+  },
+  {
+    "question_no.": 160,
+    "Question": "Which class is used for `place-self` (e.g., center, start, end)?",
+    "Option1": "place-self-",
+    "Option2": "self-place-",
+    "Option3": "grid-self-",
+    "Option4": "align-self-",
+    "Answer": "place-self-"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What class controls `text-stroke-width`?",
+    "Option1": "text-stroke-",
+    "Option2": "stroke-width-",
+    "Option3": "stroke-",
+    "Option4": "font-stroke-",
+    "Answer": "stroke-"
+  },
+  {
+    "question_no.": 162,
+    "Question": "How do you set `overscroll-behavior`?",
+    "Option1": "overscroll-",
+    "Option2": "scroll-overscroll-",
+    "Option3": "behavior-overscroll-",
+    "Option4": "os-",
+    "Answer": "overscroll-"
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which class is used to control `scroll-snap-stop`?",
+    "Option1": "snap-stop-",
+    "Option2": "scroll-snap-stop-",
+    "Option3": "stop-snap-",
+    "Option4": "snap-behavior-",
+    "Answer": "snap-"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What class controls `filter` (e.g., blur, brightness, contrast)?",
+    "Option1": "filter",
+    "Option2": "image-filter",
+    "Option3": "f-",
+    "Option4": "apply-filter",
+    "Answer": "filter"
+  },
+  {
+    "question_no.": 165,
+    "Question": "How do you set `background-repeat` to `repeat-x`?",
+    "Option1": "bg-repeat-x",
+    "Option2": "repeat-x-bg",
+    "Option3": "background-repeat-x",
+    "Option4": "repeat-x",
+    "Answer": "bg-repeat-x"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the class for `grid-auto-columns`?",
+    "Option1": "auto-cols-",
+    "Option2": "grid-auto-columns-",
+    "Option3": "cols-auto-",
+    "Option4": "grid-cols-auto-",
+    "Answer": "auto-cols-"
+  },
+  {
+    "question_no.": 167,
+    "Question": "How do you control `grid-template-areas`?",
+    "Option1": "grid-areas-",
+    "Option2": "areas-",
+    "Option3": "grid-template-areas-",
+    "Option4": "template-areas-",
+    "Answer": "grid-areas-"
+  },
+  {
+    "question_no.": 168,
+    "Question": "Which class is used for `will-change`?",
+    "Option1": "will-change-",
+    "Option2": "change-will-",
+    "Option3": "transform-will-",
+    "Option4": "wc-",
+    "Answer": "will-change-"
+  },
+  {
+    "question_no.": 169,
+    "Question": "How do you apply a `hue-rotate` filter?",
+    "Option1": "hue-rotate-",
+    "Option2": "filter-hue-rotate-",
+    "Option3": "h-rotate-",
+    "Option4": "rotate-hue-",
+    "Answer": "hue-rotate-"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What class controls `align-content` in a flex container (e.g., normal, flex-start, flex-end)?",
+    "Option1": "align-content-",
+    "Option2": "content-align-",
+    "Option3": "align-",
+    "Option4": "flex-align-content-",
+    "Answer": "align-content-"
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you set `text-transform` to `none`?",
+    "Option1": "text-transform-none",
+    "Option2": "no-transform",
+    "Option3": "normal-case",
+    "Option4": "text-none",
+    "Answer": "normal-case"
+  },
+  {
+    "question_no.": 172,
+    "Question": "Which class is used for `background-image` radial gradients?",
+    "Option1": "bg-gradient-radial",
+    "Option2": "gradient-radial-bg",
+    "Option3": "radial-gradient-",
+    "Option4": "bg-radial-",
+    "Answer": "bg-gradient-radial"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the class for `isolation: auto`?",
+    "Option1": "isolation-auto",
+    "Option2": "auto-isolate",
+    "Option3": "isolate-auto",
+    "Option4": "isolate-none",
+    "Answer": "isolate-auto"
+  },
+  {
+    "question_no.": 174,
+    "Question": "How do you set `grid-area`?",
+    "Option1": "area-",
+    "Option2": "grid-area-",
+    "Option3": "g-area-",
+    "Option4": "grid-item-area-",
+    "Answer": "area-"
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which class controls `text-stroke-color`?",
+    "Option1": "text-stroke-color-",
+    "Option2": "stroke-",
+    "Option3": "color-stroke-",
+    "Option4": "font-stroke-color-",
+    "Answer": "stroke-"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What class controls `overscroll-behavior` for all axes?",
+    "Option1": "overscroll-",
+    "Option2": "scroll-overscroll-",
+    "Option3": "behavior-overscroll-",
+    "Option4": "os-all-",
+    "Answer": "overscroll-"
+  },
+  {
+    "question_no.": 177,
+    "Question": "How do you set `scroll-snap-padding`?",
+    "Option1": "snap-padding-",
+    "Option2": "scroll-snap-padding-",
+    "Option3": "padding-snap-",
+    "Option4": "snap-p-",
+    "Answer": "snap-p-"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the class for `filter: none`?",
+    "Option1": "filter-none",
+    "Option2": "no-filter",
+    "Option3": "remove-filter",
+    "Option4": "filter-off",
+    "Answer": "filter-none"
+  },
+  {
+    "question_no.": 179,
+    "Question": "How do you set `background-repeat` to `round`?",
+    "Option1": "bg-repeat-round",
+    "Option2": "repeat-round-bg",
+    "Option3": "background-repeat-round",
+    "Option4": "round-repeat",
+    "Answer": "bg-repeat-round"
+  },
+  {
+    "question_no.": 180,
+    "Question": "Which class is used for `grid-template-rows` with specific values?",
+    "Option1": "grid-rows-",
+    "Option2": "rows-",
+    "Option3": "grid-rows-[value]",
+    "Option4": "template-rows-[value]",
+    "Answer": "grid-rows-[value]"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What class controls `font-variant-ligatures`?",
+    "Option1": "ligatures-",
+    "Option2": "font-ligatures-",
+    "Option3": "normal-nums, common-ligatures",
+    "Option4": "text-ligatures-",
+    "Answer": "normal-nums, common-ligatures"
+  },
+  {
+    "question_no.": 182,
+    "Question": "How do you set `background-blend-mode` to `multiply`?",
+    "Option1": "bg-blend-multiply",
+    "Option2": "blend-multiply-bg",
+    "Option3": "multiply-blend-",
+    "Option4": "background-blend-multiply",
+    "Answer": "bg-blend-multiply"
+  },
+  {
+    "question_no.": 183,
+    "Question": "Which class is used for `transform: none`?",
+    "Option1": "transform-none",
+    "Option2": "no-transform",
+    "Option3": "reset-transform",
+    "Option4": "t-none",
+    "Answer": "transform-none"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What class controls `text-overflow`?",
+    "Option1": "text-overflow-",
+    "Option2": "overflow-text-",
+    "Option3": "truncate",
+    "Option4": "elip-text-",
+    "Answer": "truncate"
+  },
+  {
+    "question_no.": 185,
+    "Question": "How do you set `overscroll-behavior-inline`?",
+    "Option1": "overscroll-inline",
+    "Option2": "inline-overscroll-",
+    "Option3": "overscroll-behavior-inline-",
+    "Option4": "os-inline-",
+    "Answer": "overscroll-inline"
+  },
+  {
+    "question_no.": 186,
+    "Question": "Which class is used to control `scroll-snap-stop` to `always`?",
+    "Option1": "snap-always",
+    "Option2": "scroll-snap-always",
+    "Option3": "always-snap",
+    "Option4": "snap-stop-always",
+    "Answer": "snap-always"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What class controls `backdrop-filter` for `blur`?",
+    "Option1": "backdrop-blur-",
+    "Option2": "blur-backdrop-",
+    "Option3": "filter-backdrop-blur-",
+    "Option4": "bd-blur-",
+    "Answer": "backdrop-blur-"
+  },
+  {
+    "question_no.": 188,
+    "Question": "How do you set `background-size` to `auto`?",
+    "Option1": "bg-auto",
+    "Option2": "background-size-auto",
+    "Option3": "auto-bg-size",
+    "Option4": "size-auto-",
+    "Answer": "bg-auto"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the class for `grid-template-columns` with specific values?",
+    "Option1": "grid-cols-[value]",
+    "Option2": "cols-[value]",
+    "Option3": "grid-template-cols-[value]",
+    "Option4": "template-cols-[value]",
+    "Answer": "grid-cols-[value]"
+  },
+  {
+    "question_no.": 190,
+    "Question": "How do you control `font-variant-alternates`?",
+    "Option1": "font-alternates-",
+    "Option2": "alternates-",
+    "Option3": "stylistic-alt, historical-forms",
+    "Option4": "text-alternates-",
+    "Answer": "stylistic-alt, historical-forms"
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which class is used for `transform-box`?",
+    "Option1": "transform-box-",
+    "Option2": "box-transform-",
+    "Option3": "box-",
+    "Option4": "t-box-",
+    "Answer": "box-"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What class controls `text-orientation` for `upright`?",
+    "Option1": "text-upright",
+    "Option2": "orientation-upright",
+    "Option3": "upright",
+    "Option4": "writing-mode-upright",
+    "Answer": "upright"
+  },
+  {
+    "question_no.": 193,
+    "Question": "How do you set `overscroll-behavior-block`?",
+    "Option1": "overscroll-block",
+    "Option2": "block-overscroll-",
+    "Option3": "overscroll-behavior-block-",
+    "Option4": "os-block-",
+    "Answer": "overscroll-block"
+  },
+  {
+    "question_no.": 194,
+    "Question": "Which class is used to control `scroll-snap-align` to `center`?",
+    "Option1": "snap-center",
+    "Option2": "scroll-snap-center",
+    "Option3": "center-snap",
+    "Option4": "snap-align-center",
+    "Answer": "snap-center"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What class controls `backdrop-filter` for `contrast`?",
+    "Option1": "backdrop-contrast-",
+    "Option2": "contrast-backdrop-",
+    "Option3": "filter-backdrop-contrast-",
+    "Option4": "bd-contrast-",
+    "Answer": "backdrop-contrast-"
+  },
+  {
+    "question_no.": 196,
+    "Question": "How do you set `background-position` to `right`?",
+    "Option1": "bg-right",
+    "Option2": "background-position-right",
+    "Option3": "right-bg",
+    "Option4": "bg-pos-right",
+    "Answer": "bg-right"
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the class for `grid-auto-flow` to `row dense`?",
+    "Option1": "grid-flow-row-dense",
+    "Option2": "row-dense-flow",
+    "Option3": "auto-flow-row-dense",
+    "Option4": "grid-flow-dense-row",
+    "Answer": "grid-flow-row-dense"
+  },
+  {
+    "question_no.": 198,
+    "Question": "How do you control `font-variant-caps`?",
+    "Option1": "caps-",
+    "Option2": "font-caps-",
+    "Option3": "normal-caps, small-caps, all-small-caps",
+    "Option4": "text-caps-",
+    "Answer": "normal-caps, small-caps, all-small-caps"
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which class is used for `transform-style`?",
+    "Option1": "transform-style-",
+    "Option2": "style-transform-",
+    "Option3": "flat, preserve-3d",
+    "Option4": "t-style-",
+    "Answer": "flat, preserve-3d"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What class controls `overscroll-behavior-inline` to `contain`?",
+    "Option1": "overscroll-inline-contain",
+    "Option2": "inline-overscroll-contain",
+    "Option3": "overscroll-behavior-inline-contain",
+    "Option4": "os-inline-contain",
+    "Answer": "overscroll-inline-contain"
+  },
+  {
+    "question_no.": 201,
+    "Question": "How do you apply a `saturate` filter?",
+    "Option1": "saturate-",
+    "Option2": "filter-saturate-",
+    "Option3": "sat-",
+    "Option4": "color-saturate-",
+    "Answer": "saturate-"
+  },
+  {
+    "question_no.": 202,
+    "Question": "Which class is used to control `scroll-snap-type` to `x mandatory`?",
+    "Option1": "snap-x-mandatory",
+    "Option2": "scroll-snap-x-mandatory",
+    "Option3": "x-mandatory-snap",
+    "Option4": "snap-type-x-mandatory",
+    "Answer": "snap-x-mandatory"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What class controls `backdrop-filter` for `grayscale`?",
+    "Option1": "backdrop-grayscale-",
+    "Option2": "grayscale-backdrop-",
+    "Option3": "filter-backdrop-grayscale-",
+    "Option4": "bd-grayscale-",
+    "Answer": "backdrop-grayscale-"
+  }
+]

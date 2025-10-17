@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Next.js primarily known for?",
+    "Option1": "A backend framework for Node.js",
+    "Option2": "A full-stack React framework for building web applications",
+    "Option3": "A CSS preprocessor",
+    "Option4": "A mobile application development framework",
+    "Answer": "A full-stack React framework for building web applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company developed Next.js?",
+    "Option1": "Facebook",
+    "Option2": "Google",
+    "Option3": "Vercel",
+    "Option4": "Microsoft",
+    "Answer": "Vercel"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the main benefit of Server-Side Rendering (SSR) in Next.js?",
+    "Option1": "Faster initial page load and better SEO",
+    "Option2": "Reduced server costs",
+    "Option3": "Easier debugging",
+    "Option4": "Improved client-side performance only",
+    "Answer": "Faster initial page load and better SEO"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is Static Site Generation (SSG) in Next.js?",
+    "Option1": "Pages generated on every request",
+    "Option2": "Pages generated at build time and reused on each request",
+    "Option3": "Pages generated only on the client-side",
+    "Option4": "Pages generated after user interaction",
+    "Answer": "Pages generated at build time and reused on each request"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which function is used for SSR in Next.js pages directory?",
+    "Option1": "getStaticProps",
+    "Option2": "getServerSideProps",
+    "Option3": "getInitialProps",
+    "Option4": "getStaticPaths",
+    "Answer": "getServerSideProps"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which function is used for SSG in Next.js pages directory?",
+    "Option1": "getServerSideProps",
+    "Option2": "getStaticProps",
+    "Option3": "getInitialProps",
+    "Option4": "getServerProps",
+    "Answer": "getStaticProps"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the purpose of the `_app.js` file in Next.js?",
+    "Option1": "To define API routes",
+    "Option2": "To initialize pages and apply global styles/layouts",
+    "Option3": "To define server-side logic only",
+    "Option4": "To store static assets",
+    "Answer": "To initialize pages and apply global styles/layouts"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of the `_document.js` file in Next.js?",
+    "Option1": "To define custom server configurations",
+    "Option2": "To augment your application's `<html>` and `<body>` tags",
+    "Option3": "To handle data fetching",
+    "Option4": "To manage client-side routing",
+    "Answer": "To augment your application's `<html>` and `<body>` tags"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you navigate between pages in Next.js?",
+    "Option1": "Using standard `<a>` tags only",
+    "Option2": "Using `Link` component from `next/link`",
+    "Option3": "Using `Route` component from `react-router-dom`",
+    "Option4": "Using `Navigation` component from `next/navigation`",
+    "Answer": "Using `Link` component from `next/link`"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Where do you place API routes in a Next.js project (pages directory)?",
+    "Option1": "In the `components` folder",
+    "Option2": "In the `public` folder",
+    "Option3": "In the `pages/api` folder",
+    "Option4": "In the root directory",
+    "Answer": "In the `pages/api` folder"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is 'Fast Refresh' in Next.js?",
+    "Option1": "A feature for optimizing image loading",
+    "Option2": "A feature that gives you instant feedback on edits made to your React components",
+    "Option3": "A technique for pre-fetching data",
+    "Option4": "A method for deploying applications faster",
+    "Answer": "A feature that gives you instant feedback on edits made to your React components"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the file-system based routing in Next.js?",
+    "Option1": "You define routes in a separate configuration file.",
+    "Option2": "Pages are served based on their file names in the `pages` directory.",
+    "Option3": "Routes are defined using JavaScript objects.",
+    "Option4": "Routing is handled entirely on the server.",
+    "Answer": "Pages are served based on their file names in the `pages` directory."
+  },
+  {
+    "question_no.": 13,
+    "Question": "How do you handle dynamic routes in the pages directory (e.g., `/posts/[id].js`)?",
+    "Option1": "Using `getDynamicProps`",
+    "Option2": "The file name contains square brackets `[]` for parameters.",
+    "Option3": "By defining routes in `next.config.js`.",
+    "Option4": "Next.js does not support dynamic routes.",
+    "Answer": "The file name contains square brackets `[]` for parameters."
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the purpose of `getStaticPaths`?",
+    "Option1": "To define dynamic routes for SSR.",
+    "Option2": "To define the paths for dynamic SSG pages.",
+    "Option3": "To fetch data for a single static page.",
+    "Option4": "To get the current URL path.",
+    "Answer": "To define the paths for dynamic SSG pages."
+  },
+  {
+    "question_no.": 15,
+    "Question": "When should you use `getServerSideProps`?",
+    "Option1": "When your data can be fetched at build time.",
+    "Option2": "When your page needs to fetch data on every request and the data changes frequently.",
+    "Option3": "When you need to interact with client-side storage.",
+    "Option4": "When building a purely static website.",
+    "Answer": "When your page needs to fetch data on every request and the data changes frequently."
+  },
+  {
+    "question_no.": 16,
+    "Question": "When should you use `getStaticProps`?",
+    "Option1": "When your page data changes frequently.",
+    "Option2": "When your page needs to fetch data on every request.",
+    "Option3": "When the data required for a page can be fetched at build time and does not change often.",
+    "Option4": "Only for API routes.",
+    "Answer": "When the data required for a page can be fetched at build time and does not change often."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'Image Optimization' in Next.js?",
+    "Option1": "Manually resizing images for different screen sizes.",
+    "Option2": "A built-in feature that automatically optimizes images for better performance and lazy loading.",
+    "Option3": "Using external CDN for image delivery.",
+    "Option4": "Converting all images to SVG.",
+    "Answer": "A built-in feature that automatically optimizes images for better performance and lazy loading."
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which component is used for optimized image handling in Next.js?",
+    "Option1": "<img>",
+    "Option2": "<NextImage>",
+    "Option3": "<Image>",
+    "Option4": "<OptimizedImage>",
+    "Answer": "<Image>"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of `next.config.js`?",
+    "Option1": "To define client-side state.",
+    "Option2": "To configure Next.js features and build options.",
+    "Option3": "To store environment variables.",
+    "Option4": "To manage global styles.",
+    "Answer": "To configure Next.js features and build options."
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you set up environment variables in Next.js?",
+    "Option1": "By hardcoding them in the components.",
+    "Option2": "Using `.env` files (e.g., `.env.local`, `.env.production`).",
+    "Option3": "Through global JavaScript variables.",
+    "Option4": "They are automatically provided by the browser.",
+    "Answer": "Using `.env` files (e.g., `.env.local`, `.env.production`)."
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which prefix is required for environment variables to be exposed to the client-side?",
+    "Option1": "CLIENT_",
+    "Option2": "PUBLIC_",
+    "Option3": "NEXT_PUBLIC_",
+    "Option4": "ENV_",
+    "Answer": "NEXT_PUBLIC_"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is `middleware.js` (or `_middleware.js` in older versions)?",
+    "Option1": "A file for defining global styles.",
+    "Option2": "A file for defining server-side logic that runs before a request is completed.",
+    "Option3": "A file for client-side authentication.",
+    "Option4": "A file for database interactions.",
+    "Answer": "A file for defining server-side logic that runs before a request is completed."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the role of `swr` (Stale-While-Revalidate) in Next.js applications?",
+    "Option1": "For client-side rendering only.",
+    "Option2": "A React Hooks library for data fetching, caching, and revalidation.",
+    "Option3": "A styling solution.",
+    "Option4": "A testing framework.",
+    "Answer": "A React Hooks library for data fetching, caching, and revalidation."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is `ISR` (Incremental Static Regeneration) in Next.js?",
+    "Option1": "Generating pages only once at build time.",
+    "Option2": "Rebuilding static pages on demand or at a specified interval after deployment.",
+    "Option3": "Server-side rendering on every request.",
+    "Option4": "Client-side rendering with data fetching.",
+    "Answer": "Rebuilding static pages on demand or at a specified interval after deployment."
+  },
+  {
+    "question_no.": 25,
+    "Question": "How do you enable ISR for a page?",
+    "Option1": "By setting `revalidate` in `getServerSideProps`.",
+    "Option2": "By setting `revalidate` in `getStaticProps`.",
+    "Option3": "By adding `incremental: true` to `next.config.js`.",
+    "Option4": "ISR is enabled by default.",
+    "Answer": "By setting `revalidate` in `getStaticProps`."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of the `Head` component from `next/head`?",
+    "Option1": "To define the main content of the page.",
+    "Option2": "To manage the `<head>` section of an HTML document (e.g., title, meta tags).",
+    "Option3": "To include global JavaScript files.",
+    "Option4": "To create a header for the page.",
+    "Answer": "To manage the `<head>` section of an HTML document (e.g., title, meta tags)."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the primary difference between `pages` and `app` directories in Next.js?",
+    "Option1": "`pages` is for static content, `app` is for dynamic.",
+    "Option2": "`pages` uses file-system routing, `app` uses a new server-centric routing model with React Server Components.",
+    "Option3": "`pages` is for public, `app` is for private routes.",
+    "Option4": "There is no difference.",
+    "Answer": "`pages` uses file-system routing, `app` uses a new server-centric routing model with React Server Components."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What are React Server Components (RSCs) in the `app` directory?",
+    "Option1": "Components that only run on the client-side.",
+    "Option2": "Components that render entirely on the server and do not include client-side JavaScript by default.",
+    "Option3": "Components that can only fetch data.",
+    "Option4": "Components used for routing.",
+    "Answer": "Components that render entirely on the server and do not include client-side JavaScript by default."
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you opt-in a component to be a Client Component in the `app` directory?",
+    "Option1": "By adding `use client` directive at the top of the file.",
+    "Option2": "By wrapping it in `<ClientOnly>` component.",
+    "Option3": "By defining it in a separate `client` folder.",
+    "Option4": "Client components are default.",
+    "Answer": "By adding `use client` directive at the top of the file."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the purpose of `layout.js` in the `app` directory?",
+    "Option1": "To define a page-specific layout.",
+    "Option2": "To define UI that is shared between multiple routes.",
+    "Option3": "To define global CSS styles.",
+    "Option4": "To manage component state.",
+    "Answer": "To define UI that is shared between multiple routes."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of `page.js` in the `app` directory?",
+    "Option1": "To define a layout for a segment.",
+    "Option2": "To define the unique UI for a route segment, making it publicly accessible.",
+    "Option3": "To define an API route.",
+    "Option4": "To define a static asset.",
+    "Answer": "To define the unique UI for a route segment, making it publicly accessible."
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you fetch data in a Server Component in the `app` directory?",
+    "Option1": "Using `getServerSideProps`.",
+    "Option2": "Using `useEffect` hook.",
+    "Option3": "Directly using `fetch` or any data fetching library within the component.",
+    "Option4": "Using `getStaticProps`.",
+    "Answer": "Directly using `fetch` or any data fetching library within the component."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is `loading.js` in the `app` directory used for?",
+    "Option1": "To define a static page.",
+    "Option2": "To provide an instant loading state for route segments, shown while content is being fetched.",
+    "Option3": "To handle errors.",
+    "Option4": "To define custom fonts.",
+    "Answer": "To provide an instant loading state for route segments, shown while content is being fetched."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is `error.js` in the `app` directory used for?",
+    "Option1": "To log errors to the console.",
+    "Option2": "To define an error boundary that handles errors within a nested route segment.",
+    "Option3": "To prevent errors from occurring.",
+    "Option4": "To display a 404 page.",
+    "Answer": "To define an error boundary that handles errors within a nested route segment."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the purpose of `not-found.js` in the `app` directory?",
+    "Option1": "To redirect users.",
+    "Option2": "To render a custom 404 Not Found page for a specific route segment or globally.",
+    "Option3": "To handle server errors.",
+    "Option4": "To prevent pages from being found.",
+    "Answer": "To render a custom 404 Not Found page for a specific route segment or globally."
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you define a dynamic route segment in the `app` directory?",
+    "Option1": "Using square brackets `[]` in the folder name (e.g., `[slug]`).",
+    "Option2": "Using curly braces `{}` in the file name.",
+    "Option3": "By defining routes in `next.config.js`.",
+    "Option4": "Dynamic routes are not supported in the `app` directory.",
+    "Answer": "Using square brackets `[]` in the folder name (e.g., `[slug]`)."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is a 'Catch-all' route in Next.js (pages directory)?",
+    "Option1": "A route that matches specific paths.",
+    "Option2": "A route that matches any path segment below it, using `[...param]` syntax.",
+    "Option3": "A route for error handling.",
+    "Option4": "A route that redirects all traffic.",
+    "Answer": "A route that matches any path segment below it, using `[...param]` syntax."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is a 'Catch-all' route segment in the `app` directory?",
+    "Option1": "A route that matches only exact paths.",
+    "Option2": "A route that matches any path segment below it, using `[...folderName]` syntax in the folder name.",
+    "Option3": "A route for internal API calls.",
+    "Option4": "A route that prevents dynamic routing.",
+    "Answer": "A route that matches any path segment below it, using `[...folderName]` syntax in the folder name."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the purpose of `generateStaticParams` in the `app` directory?",
+    "Option1": "To generate dynamic routes at runtime.",
+    "Option2": "To generate static paths for dynamic routes at build time, similar to `getStaticPaths` but for the App Router.",
+    "Option3": "To generate client-side parameters.",
+    "Option4": "To generate random parameters for testing.",
+    "Answer": "To generate static paths for dynamic routes at build time, similar to `getStaticPaths` but for the App Router."
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you handle redirects in Next.js?",
+    "Option1": "Using `<Redirect>` component.",
+    "Option2": "Using `router.push('/new-path')` or `redirect()` function (App Router).",
+    "Option3": "By setting HTTP status codes only.",
+    "Option4": "Redirects are not supported.",
+    "Answer": "Using `router.push('/new-path')` or `redirect()` function (App Router)."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `rewrites` in `next.config.js`?",
+    "Option1": "To perform client-side URL rewriting.",
+    "Option2": "To map an incoming request path to a different destination path, without changing the URL shown in the browser.",
+    "Option3": "To redirect users permanently.",
+    "Option4": "To change the content of a page dynamically.",
+    "Answer": "To map an incoming request path to a different destination path, without changing the URL shown in the browser."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the `Router` object from `next/router` used for?",
+    "Option1": "To define server-side routes.",
+    "Option2": "To programmatically navigate, get route parameters, and interact with the router in the pages directory.",
+    "Option3": "To manage API calls.",
+    "Option4": "To handle CSS modules.",
+    "Answer": "To programmatically navigate, get route parameters, and interact with the router in the pages directory."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which hook is used to access the router in a Client Component (App Router)?",
+    "Option1": "useRouter from `next/router`",
+    "Option2": "useRouter from `next/navigation`",
+    "Option3": "useClientRouter",
+    "Option4": "useRoute",
+    "Answer": "useRouter from `next/navigation`"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the purpose of `next/dynamic`?",
+    "Option1": "To fetch data dynamically.",
+    "Option2": "To dynamically import components, enabling code splitting and lazy loading.",
+    "Option3": "To create dynamic routes.",
+    "Option4": "To dynamically generate HTML.",
+    "Answer": "To dynamically import components, enabling code splitting and lazy loading."
+  },
+  {
+    "question_no.": 45,
+    "Question": "How does Next.js handle CSS?",
+    "Option1": "Supports only inline styles.",
+    "Option2": "Supports CSS Modules, Sass, and global CSS import via `_app.js` (pages) or `layout.js`/`globals.css` (app).",
+    "Option3": "Requires a third-party styling library.",
+    "Option4": "Only supports Tailwind CSS.",
+    "Answer": "Supports CSS Modules, Sass, and global CSS import via `_app.js` (pages) or `layout.js`/`globals.css` (app)."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'CSS Module' in Next.js?",
+    "Option1": "A global stylesheet.",
+    "Option2": "A CSS file where class names are locally scoped by default, preventing naming conflicts.",
+    "Option3": "A module for converting CSS to JavaScript.",
+    "Option4": "A deprecated way of styling.",
+    "Answer": "A CSS file where class names are locally scoped by default, preventing naming conflicts."
+  },
+  {
+    "question_no.": 47,
+    "Question": "How do you import a CSS Module?",
+    "Option1": "import './styles.css';",
+    "Option2": "import styles from './styles.module.css';",
+    "Option3": "require('styles.css');",
+    "Option4": "loadStyle('styles.css');",
+    "Answer": "import styles from './styles.module.css';"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `next-auth`?",
+    "Option1": "A built-in authentication system for Next.js.",
+    "Option2": "A popular open-source authentication library for Next.js applications.",
+    "Option3": "A tool for authorization only.",
+    "Option4": "A payment gateway integration.",
+    "Answer": "A popular open-source authentication library for Next.js applications."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the primary benefit of `next-auth`?",
+    "Option1": "It provides a robust and flexible solution for various authentication strategies (OAuth, Credentials, etc.) with minimal configuration.",
+    "Option2": "It replaces the need for a database.",
+    "Option3": "It handles all data fetching for you.",
+    "Option4": "It is only for static sites.",
+    "Answer": "It provides a robust and flexible solution for various authentication strategies (OAuth, Credentials, etc.) with minimal configuration."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of `api/auth/[...nextauth].js` in `next-auth`?",
+    "Option1": "To define a regular API route.",
+    "Option2": "To configure `next-auth` handlers for all authentication-related requests.",
+    "Option3": "To store user credentials.",
+    "Option4": "To manage session data on the client.",
+    "Answer": "To configure `next-auth` handlers for all authentication-related requests."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the `SessionProvider` in `next-auth` used for?",
+    "Option1": "To provide user data globally to client-side components.",
+    "Option2": "To store session data in a database.",
+    "Option3": "To authenticate users on the server.",
+    "Option4": "To redirect unauthorized users.",
+    "Answer": "To provide user data globally to client-side components."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the `useSession` hook in `next-auth` used for?",
+    "Option1": "To log out a user.",
+    "Option2": "To access the user session data in React components.",
+    "Option3": "To create a new session.",
+    "Option4": "To destroy a session.",
+    "Answer": "To access the user session data in React components."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is a 'Deployment' of a Next.js application?",
+    "Option1": "Running the application on your local machine.",
+    "Option2": "Making the application accessible on a web server for public use.",
+    "Option3": "Testing the application thoroughly.",
+    "Option4": "Developing new features.",
+    "Answer": "Making the application accessible on a web server for public use."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is the recommended platform for deploying Next.js applications by Vercel?",
+    "Option1": "Heroku",
+    "Option2": "Netlify",
+    "Option3": "Vercel Platform",
+    "Option4": "AWS S3",
+    "Answer": "Vercel Platform"
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you start a Next.js development server?",
+    "Option1": "`npm run build`",
+    "Option2": "`npm start`",
+    "Option3": "`npm run dev`",
+    "Option4": "`next start`",
+    "Answer": "`npm run dev`"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What command do you use to build a Next.js application for production?",
+    "Option1": "`npm run start`",
+    "Option2": "`npm run build`",
+    "Option3": "`npm run dev`",
+    "Option4": "`next deploy`",
+    "Answer": "`npm run build`"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What command do you use to start a Next.js application in production mode?",
+    "Option1": "`npm run dev`",
+    "Option2": "`npm build`",
+    "Option3": "`npm start`",
+    "Option4": "`next production`",
+    "Answer": "`npm start`"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `Automatic Static Optimization` in Next.js?",
+    "Option1": "Optimizing images and fonts automatically.",
+    "Option2": "Next.js automatically determines if a page can be pre-rendered as static HTML without `getStaticProps` or `getServerSideProps`.",
+    "Option3": "Optimizing CSS files.",
+    "Option4": "Optimizing JavaScript bundles.",
+    "Answer": "Next.js automatically determines if a page can be pre-rendered as static HTML without `getStaticProps` or `getServerSideProps`."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the `public` directory in a Next.js project used for?",
+    "Option1": "Storing source code.",
+    "Option2": "Serving static assets like images, fonts, and robots.txt.",
+    "Option3": "Storing private data.",
+    "Option4": "Defining API routes.",
+    "Answer": "Serving static assets like images, fonts, and robots.txt."
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do you import assets from the `public` directory into your components?",
+    "Option1": "Using relative paths like `./image.png`.",
+    "Option2": "Using absolute paths like `/image.png`.",
+    "Option3": "Using `import image from '../public/image.png'`.",
+    "Option4": "Assets from `public` cannot be imported directly.",
+    "Answer": "Using absolute paths like `/image.png`."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `pre-rendering` in Next.js?",
+    "Option1": "Rendering pages only on the client-side.",
+    "Option2": "Generating HTML for a page in advance, either at build time (SSG) or on each request (SSR), for better performance and SEO.",
+    "Option3": "Caching data for faster access.",
+    "Option4": "Pre-loading JavaScript bundles.",
+    "Answer": "Generating HTML for a page in advance, either at build time (SSG) or on each request (SSR), for better performance and SEO."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the primary difference between CSR (Client-Side Rendering) and SSR (Server-Side Rendering)?",
+    "Option1": "CSR loads data on the server, SSR loads data on the client.",
+    "Option2": "CSR renders the page in the browser, SSR renders the page on the server before sending it to the browser.",
+    "Option3": "CSR is always faster than SSR.",
+    "Option4": "SSR doesn't involve JavaScript.",
+    "Answer": "CSR renders the page in the browser, SSR renders the page on the server before sending it to the browser."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `hydration` in Next.js?",
+    "Option1": "The process of fetching data.",
+    "Option2": "The process of attaching client-side JavaScript to the server-rendered HTML, making it interactive.",
+    "Option3": "Adding water to the application.",
+    "Option4": "Refreshing the browser cache.",
+    "Answer": "The process of attaching client-side JavaScript to the server-rendered HTML, making it interactive."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `data-fetching` in Next.js?",
+    "Option1": "Retrieving data from client-side storage.",
+    "Option2": "The process of getting data needed for a page to render, often from an API or database.",
+    "Option3": "Sending data to the server.",
+    "Option4": "Storing data locally.",
+    "Answer": "The process of getting data needed for a page to render, often from an API or database."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `Code Splitting` in Next.js?",
+    "Option1": "Dividing your code into multiple files for better organization.",
+    "Option2": "Breaking down your JavaScript bundle into smaller chunks that are loaded on demand, improving initial page load performance.",
+    "Option3": "Splitting CSS files.",
+    "Option4": "Dividing a single component into multiple components.",
+    "Answer": "Breaking down your JavaScript bundle into smaller chunks that are loaded on demand, improving initial page load performance."
+  },
+  {
+    "question_no.": 66,
+    "Question": "How does Next.js achieve code splitting automatically?",
+    "Option1": "By manually defining chunks.",
+    "Option2": "By splitting code per page and dynamically importing components.",
+    "Option3": "By using a separate build tool.",
+    "Option4": "It doesn't support automatic code splitting.",
+    "Answer": "By splitting code per page and dynamically importing components."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `SEO` (Search Engine Optimization) and how does Next.js help with it?",
+    "Option1": "SEO is for improving image quality; Next.js has no impact.",
+    "Option2": "SEO is about improving search engine rankings. Next.js helps with pre-rendering (SSR/SSG) which makes content crawlable by search engines.",
+    "Option3": "SEO is only relevant for client-side applications.",
+    "Option4": "Next.js prevents search engines from indexing pages.",
+    "Answer": "SEO is about improving search engine rankings. Next.js helps with pre-rendering (SSR/SSG) which makes content crawlable by search engines."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `Hot Module Replacement` (HMR) in Next.js development?",
+    "Option1": "A way to refresh the entire browser page.",
+    "Option2": "Allows developers to see changes to components instantly without losing component state during development.",
+    "Option3": "A method for caching server responses.",
+    "Option4": "A security feature.",
+    "Answer": "Allows developers to see changes to components instantly without losing component state during development."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the purpose of `Image` component's `priority` prop?",
+    "Option1": "To set the z-index of the image.",
+    "Option2": "To indicate that the image is high-priority and should be preloaded.",
+    "Option3": "To change the image quality.",
+    "Option4": "To define the image's aspect ratio.",
+    "Answer": "To indicate that the image is high-priority and should be preloaded."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the purpose of `Image` component's `layout` prop (deprecated in favor of `fill`, `fixed`, `intrinsic`, `responsive`)?",
+    "Option1": "To define the image source.",
+    "Option2": "To specify the image's responsiveness behavior and how it scales within its container.",
+    "Option3": "To add a border to the image.",
+    "Option4": "To apply a filter to the image.",
+    "Answer": "To specify the image's responsiveness behavior and how it scales within its container."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the `loading` prop for the `Image` component used for?",
+    "Option1": "To show a loading spinner.",
+    "Option2": "To control the lazy loading behavior of the image (e.g., `lazy`, `eager`).",
+    "Option3": "To set a timeout for image loading.",
+    "Option4": "To change the background color while loading.",
+    "Answer": "To control the lazy loading behavior of the image (e.g., `lazy`, `eager`)."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the role of `next/server` (for `app` directory)?",
+    "Option1": "To provide client-side utilities.",
+    "Option2": "To export utilities for handling server-side logic and requests, such as `NextResponse`.",
+    "Option3": "To manage database connections.",
+    "Option4": "To handle local storage.",
+    "Answer": "To export utilities for handling server-side logic and requests, such as `NextResponse`."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `NextRequest` and `NextResponse` in API Routes (App Router)?",
+    "Option1": "Standard Node.js `Request` and `Response` objects.",
+    "Option2": "Extended Web API `Request` and `Response` objects provided by Next.js for enhanced functionality in API Routes and Middleware.",
+    "Option3": "React context objects.",
+    "Option4": "Custom data types.",
+    "Answer": "Extended Web API `Request` and `Response` objects provided by Next.js for enhanced functionality in API Routes and Middleware."
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you define an API route in the `app` directory?",
+    "Option1": "In `pages/api/route.js`.",
+    "Option2": "By creating a `route.js` file inside a route segment folder (e.g., `app/api/hello/route.js`).",
+    "Option3": "By defining it in `next.config.js`.",
+    "Option4": "API routes are not supported in the `app` directory.",
+    "Answer": "By creating a `route.js` file inside a route segment folder (e.g., `app/api/hello/route.js`)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What HTTP methods are supported by API routes in Next.js?",
+    "Option1": "Only GET and POST.",
+    "Option2": "GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD.",
+    "Option3": "Only the ones defined in `next.config.js`.",
+    "Option4": "Only custom methods.",
+    "Answer": "GET, POST, PUT, DELETE, PATCH, OPTIONS, HEAD."
+  },
+  {
+    "question_no.": 76,
+    "Question": "How do you access query parameters in an API route (pages directory)?",
+    "Option1": "From `req.body`.",
+    "Option2": "From `req.query`.",
+    "Option3": "From `req.params`.",
+    "Option4": "From `req.headers`.",
+    "Answer": "From `req.query`."
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you access the request body in an API route (pages directory)?",
+    "Option1": "From `req.query`.",
+    "Option2": "From `req.params`.",
+    "Option3": "From `req.body`.",
+    "Option4": "From `req.headers`.",
+    "Answer": "From `req.body`."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `Middleware` in the `app` directory primarily used for?",
+    "Option1": "To handle client-side rendering.",
+    "Option2": "To intercept requests and modify responses before they reach route handlers or pages, enabling authentication, logging, etc.",
+    "Option3": "To define data fetching logic.",
+    "Option4": "To manage static assets.",
+    "Answer": "To intercept requests and modify responses before they reach route handlers or pages, enabling authentication, logging, etc."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Where do you define the `middleware.js` file in a Next.js project?",
+    "Option1": "Inside `pages/api`.",
+    "Option2": "At the root of your project or within the `src` directory.",
+    "Option3": "Inside `components`.",
+    "Option4": "Next.js does not have a `middleware.js` file.",
+    "Answer": "At the root of your project or within the `src` directory."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `Turbopack`?",
+    "Option1": "A new CSS preprocessor.",
+    "Option2": "A new Rust-based engine for bundling and compiling JavaScript and TypeScript, designed for faster development and build times in Next.js.",
+    "Option3": "A database optimization tool.",
+    "Option4": "A serverless function framework.",
+    "Answer": "A new Rust-based engine for bundling and compiling JavaScript and TypeScript, designed for faster development and build times in Next.js."
+  },
+  {
+    "question_no.": 81,
+    "Question": "How do you enable `Turbopack` in Next.js?",
+    "Option1": "It's enabled by default.",
+    "Option2": "By using the `--turbo` flag with `next dev`.",
+    "Option3": "By configuring it in `next.config.js`.",
+    "Option4": "Turbopack is an external tool, not integrated.",
+    "Answer": "By using the `--turbo` flag with `next dev`."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `metadata` in the `app` directory used for?",
+    "Option1": "Defining database schema.",
+    "Option2": "Configuring SEO-related `<head>` tags (e.g., `title`, `description`, `opengraph`).",
+    "Option3": "Storing internal application data.",
+    "Option4": "Logging user interactions.",
+    "Answer": "Configuring SEO-related `<head>` tags (e.g., `title`, `description`, `opengraph`)."
+  },
+  {
+    "question_no.": 83,
+    "Question": "How do you define page-specific metadata in the `app` directory?",
+    "Option1": "In `layout.js`.",
+    "Option2": "By exporting a `metadata` object or `generateMetadata` function from a `page.js` or `layout.js` file.",
+    "Option3": "In `_document.js`.",
+    "Option4": "Metadata is global only.",
+    "Answer": "By exporting a `metadata` object or `generateMetadata` function from a `page.js` or `layout.js` file."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the purpose of the `next/font` module?",
+    "Option1": "To provide custom icons.",
+    "Option2": "To optimize and load fonts with automatic self-hosting, ensuring performance and privacy.",
+    "Option3": "To change the default font size.",
+    "Option4": "To convert fonts to images.",
+    "Answer": "To optimize and load fonts with automatic self-hosting, ensuring performance and privacy."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the benefit of using `next/font` over traditional font loading methods?",
+    "Option1": "It reduces the total font file size.",
+    "Option2": "It automatically handles font optimization, preloading, and prevents Cumulative Layout Shift (CLS).",
+    "Option3": "It supports more font formats.",
+    "Option4": "It allows dynamic font changes.",
+    "Answer": "It automatically handles font optimization, preloading, and prevents Cumulative Layout Shift (CLS)."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `Route Handlers` in the `app` directory?",
+    "Option1": "Components that handle routing logic.",
+    "Option2": "A new way to create API endpoints within the `app` directory using `route.js` files, supporting all HTTP methods.",
+    "Option3": "Functions that handle client-side routing.",
+    "Option4": "Functions that define dynamic routes.",
+    "Answer": "A new way to create API endpoints within the `app` directory using `route.js` files, supporting all HTTP methods."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the primary difference between `pages/api` and `app/api` (Route Handlers)?",
+    "Option1": "`pages/api` is for public APIs, `app/api` is for private.",
+    "Option2": "`pages/api` uses Node.js `req`/`res` objects, `app/api` uses Web API `Request`/`Response` objects and React Server Components conventions.",
+    "Option3": "`pages/api` supports only GET requests.",
+    "Option4": "There is no functional difference.",
+    "Answer": "`pages/api` uses Node.js `req`/`res` objects, `app/api` uses Web API `Request`/`Response` objects and React Server Components conventions."
+  },
+  {
+    "question_no.": 88,
+    "Question": "How do you force dynamic rendering for a Server Component in the `app` directory?",
+    "Option1": "By adding `use client`.",
+    "Option2": "By exporting `dynamic = 'force-dynamic'` from a layout or page.",
+    "Option3": "By using `getServerSideProps`.",
+    "Option4": "Dynamic rendering is not supported for Server Components.",
+    "Answer": "By exporting `dynamic = 'force-dynamic'` from a layout or page."
+  },
+  {
+    "question_no.": 89,
+    "Question": "How do you force static rendering for a Server Component in the `app` directory?",
+    "Option1": "By adding `use client`.",
+    "Option2": "By exporting `dynamic = 'force-static'` from a layout or page.",
+    "Option3": "By using `getServerSideProps`.",
+    "Option4": "Static rendering is not supported for Server Components.",
+    "Answer": "By exporting `dynamic = 'force-static'` from a layout or page."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `revalidate` option in `fetch` API for Server Components?",
+    "Option1": "To refresh the page on every request.",
+    "Option2": "To set the cache revalidation period for the fetched data.",
+    "Option3": "To force a re-fetch of data immediately.",
+    "Option4": "To prevent data from being cached.",
+    "Answer": "To set the cache revalidation period for the fetched data."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of `React.cache` in the `app` directory?",
+    "Option1": "To cache entire pages.",
+    "Option2": "To memoize expensive computations or data fetches in Server Components, preventing redundant work on subsequent renders.",
+    "Option3": "To cache client-side state.",
+    "Option4": "To cache CSS styles.",
+    "Answer": "To memoize expensive computations or data fetches in Server Components, preventing redundant work on subsequent renders."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `React.use` in the `app` directory?",
+    "Option1": "A hook for managing state.",
+    "Option2": "A new React Hook for reading a promise, allowing asynchronous data fetching directly within Server Components.",
+    "Option3": "A hook for managing side effects.",
+    "Option4": "A hook for context management.",
+    "Answer": "A new React Hook for reading a promise, allowing asynchronous data fetching directly within Server Components."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `Parallel Routes` in the `app` directory?",
+    "Option1": "Routes that are served from different servers.",
+    "Option2": "A feature that allows you to simultaneously render one or more routes in the same layout, useful for complex dashboards or modals.",
+    "Option3": "Routes that are loaded in parallel.",
+    "Option4": "Routes that are unrelated to each other.",
+    "Answer": "A feature that allows you to simultaneously render one or more routes in the same layout, useful for complex dashboards or modals."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How are `Parallel Routes` defined in the file system?",
+    "Option1": "Using nested folders.",
+    "Option2": "Using named slots prefixed with `@` (e.g., `@modal`, `@analytics`).",
+    "Option3": "Using separate `route.js` files.",
+    "Option4": "Parallel routes are configured programmatically.",
+    "Answer": "Using named slots prefixed with `@` (e.g., `@modal`, `@analytics`)."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What are `Intercepting Routes` in the `app` directory?",
+    "Option1": "Routes that prevent navigation.",
+    "Option2": "A feature that allows you to intercept a route and display it within the current layout, creating an overlay or modal effect.",
+    "Option3": "Routes that automatically redirect.",
+    "Option4": "Routes that handle errors.",
+    "Answer": "A feature that allows you to intercept a route and display it within the current layout, creating an overlay or modal effect."
+  },
+  {
+    "question_no.": 96,
+    "Question": "How are `Intercepting Routes` defined in the file system?",
+    "Option1": "Using `(...)` or `(..)`, etc., to indicate segments relative to the current folder.",
+    "Option2": "Using square brackets `[]`.",
+    "Option3": "Using named slots `@`.",
+    "Option4": "Intercepting routes are not defined in the file system.",
+    "Answer": "Using `(...)` or `(..)`, etc., to indicate segments relative to the current folder."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the purpose of `Link` component's `prefetch` prop?",
+    "Option1": "To prevent prefetching of linked pages.",
+    "Option2": "To prefetch the linked page in the background, making navigation faster.",
+    "Option3": "To prefetch only data, not the page.",
+    "Option4": "To prefetch images only.",
+    "Answer": "To prefetch the linked page in the background, making navigation faster."
+  },
+  {
+    "question_no.": 98,
+    "Question": "How do you add global CSS to your Next.js application (pages directory)?",
+    "Option1": "By importing a CSS file directly into any component.",
+    "Option2": "By importing the CSS file in `_app.js`.",
+    "Option3": "By defining inline styles globally.",
+    "Option4": "Global CSS is not supported.",
+    "Answer": "By importing the CSS file in `_app.js`."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `CSS-in-JS` in the context of Next.js?",
+    "Option1": "A way to use external CSS files.",
+    "Option2": "A styling approach where CSS is written directly in JavaScript files using libraries like Styled Components or Emotion.",
+    "Option3": "Converting CSS to a JSON object.",
+    "Option4": "A method for optimizing CSS.",
+    "Answer": "A styling approach where CSS is written directly in JavaScript files using libraries like Styled Components or Emotion."
+  },
+  {
+    "question_no.": 100,
+    "Question": "Does Next.js support `TypeScript` out of the box?",
+    "Option1": "No, it requires manual configuration.",
+    "Option2": "Yes, it provides built-in support for TypeScript with zero configuration for new projects.",
+    "Option3": "Only for client-side components.",
+    "Option4": "Only for API routes.",
+    "Answer": "Yes, it provides built-in support for TypeScript with zero configuration for new projects."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the recommended way to fetch data on the client-side in Next.js?",
+    "Option1": "Using `getStaticProps`.",
+    "Option2": "Using `getServerSideProps`.",
+    "Option3": "Using `useEffect` hook with `fetch` or a data fetching library like SWR or React Query.",
+    "Option4": "Directly in `_app.js`.",
+    "Answer": "Using `useEffect` hook with `fetch` or a data fetching library like SWR or React Query."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the purpose of `config.output = 'standalone'` in `next.config.js`?",
+    "Option1": "To build a mobile application.",
+    "Option2": "To output a self-contained, standalone folder that includes all necessary files for deployment without `node_modules`.",
+    "Option3": "To disable all optimizations.",
+    "Option4": "To create a single JavaScript file.",
+    "Answer": "To output a self-contained, standalone folder that includes all necessary files for deployment without `node_modules`."
+  },
+  {
+    "question_no.": 103,
+    "Question": "How can you analyze the bundle size of your Next.js application?",
+    "Option1": "Manually inspect all files.",
+    "Option2": "Using `next-bundle-analyzer` or the built-in `ANALYZE` environment variable.",
+    "Option3": "By checking the network tab in the browser console.",
+    "Option4": "There is no built-in way.",
+    "Answer": "Using `next-bundle-analyzer` or the built-in `ANALYZE` environment variable."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of `ErrorBoundary` in React and how does it relate to Next.js?",
+    "Option1": "To catch network errors.",
+    "Option2": "A React component that catches JavaScript errors anywhere in its child component tree, logs those errors, and displays a fallback UI. Used in Next.js `error.js` for app directory.",
+    "Option3": "To handle server-side errors only.",
+    "Option4": "To prevent infinite loops.",
+    "Answer": "A React component that catches JavaScript errors anywhere in its child component tree, logs those errors, and displays a fallback UI. Used in Next.js `error.js` for app directory."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the significance of `fallback: true` in `getStaticPaths`?",
+    "Option1": "It means paths not returned by `getStaticPaths` will result in a 404 page.",
+    "Option2": "It allows paths not generated at build time to be generated on the fly (SSR) when requested for the first time.",
+    "Option3": "It forces all pages to be generated at build time.",
+    "Option4": "It disables static generation.",
+    "Answer": "It allows paths not generated at build time to be generated on the fly (SSR) when requested for the first time."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the significance of `fallback: blocking` in `getStaticPaths`?",
+    "Option1": "It prevents new paths from being generated.",
+    "Option2": "It blocks the request until the new page is generated on the server, then caches it for future requests.",
+    "Option3": "It always shows a loading state.",
+    "Option4": "It only allows pre-generated paths.",
+    "Answer": "It blocks the request until the new page is generated on the server, then caches it for future requests."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `next/script` used for?",
+    "Option1": "To run server-side scripts.",
+    "Option2": "To optimize the loading of third-party scripts, improving performance by controlling when and how they load.",
+    "Option3": "To execute JavaScript code directly in HTML.",
+    "Option4": "To write custom build scripts.",
+    "Answer": "To optimize the loading of third-party scripts, improving performance by controlling when and how they load."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What are the different strategies for loading scripts with `next/script`?",
+    "Option1": "Only `onload`.",
+    "Option2": "`beforeInteractive`, `afterInteractive`, `lazyOnload`, `worker` (experimental).",
+    "Option3": "Only `defer` and `async`.",
+    "Option4": "None of the above.",
+    "Answer": "`beforeInteractive`, `afterInteractive`, `lazyOnload`, `worker` (experimental)."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `next/amp` (deprecated in newer Next.js versions for `App Router`)?",
+    "Option1": "A component for audio playback.",
+    "Option2": "A way to generate AMP (Accelerated Mobile Pages) versions of pages for faster mobile experiences.",
+    "Option3": "A tool for creating animated pages.",
+    "Option4": "A component for displaying advertisements.",
+    "Answer": "A way to generate AMP (Accelerated Mobile Pages) versions of pages for faster mobile experiences."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `Static Exports` in Next.js?",
+    "Option1": "Exporting data from the application.",
+    "Option2": "Generating an entirely static HTML/CSS/JS application that can be served from any static host or CDN.",
+    "Option3": "Exporting only client-side code.",
+    "Option4": "Exporting server-side functions.",
+    "Answer": "Generating an entirely static HTML/CSS/JS application that can be served from any static host or CDN."
+  },
+  {
+    "question_no.": 111,
+    "Question": "How do you enable Static Exports in `next.config.js`?",
+    "Option1": "`output: 'standalone'`",
+    "Option2": "`output: 'export'`",
+    "Option3": "`static: true`",
+    "Option4": "`exportPathMap: {}` (deprecated in favor of `output: 'export'`)",
+    "Answer": "`output: 'export'`"
+  },
+  {
+    "question_no.": 112,
+    "Question": "When would you use Static Exports?",
+    "Option1": "When you need frequent data updates.",
+    "Option2": "For simple websites, blogs, or landing pages that don't require server-side logic or frequent data revalidation.",
+    "Option3": "For applications with dynamic user content.",
+    "Option4": "For building complex web applications with authentication.",
+    "Answer": "For simple websites, blogs, or landing pages that don't require server-side logic or frequent data revalidation."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `Image` component's `fill` prop used for?",
+    "Option1": "To fill the image with a solid color.",
+    "Option2": "To make the image fill the entire parent element, maintaining aspect ratio while covering the space.",
+    "Option3": "To add padding to the image.",
+    "Option4": "To stretch the image without maintaining aspect ratio.",
+    "Answer": "To make the image fill the entire parent element, maintaining aspect ratio while covering the space."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the purpose of `process.env.NODE_ENV` in Next.js?",
+    "Option1": "To define the application version.",
+    "Option2": "To determine the current environment (e.g., `development`, `production`, `test`) and enable environment-specific logic.",
+    "Option3": "To set the Node.js version.",
+    "Option4": "To configure database connections.",
+    "Answer": "To determine the current environment (e.g., `development`, `production`, `test`) and enable environment-specific logic."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `Absolute Imports` in Next.js?",
+    "Option1": "Importing files using relative paths only.",
+    "Option2": "Importing modules using a base URL or alias, making imports shorter and more readable, configured in `jsconfig.json` or `tsconfig.json`.",
+    "Option3": "Importing external libraries.",
+    "Option4": "Importing files directly from the internet.",
+    "Answer": "Importing modules using a base URL or alias, making imports shorter and more readable, configured in `jsconfig.json` or `tsconfig.json`."
+  },
+  {
+    "question_no.": 116,
+    "Question": "How do you configure Absolute Imports in Next.js?",
+    "Option1": "In `package.json`.",
+    "Option2": "By adding `baseUrl` and `paths` in `jsconfig.json` (JavaScript) or `tsconfig.json` (TypeScript).",
+    "Option3": "Via environment variables.",
+    "Option4": "Absolute imports are not supported.",
+    "Answer": "By adding `baseUrl` and `paths` in `jsconfig.json` (JavaScript) or `tsconfig.json` (TypeScript)."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the purpose of `React.StrictMode`?",
+    "Option1": "To enforce strict typing.",
+    "Option2": "To enable additional checks and warnings for potential problems in a React application during development mode.",
+    "Option3": "To optimize performance in production.",
+    "Option4": "To prevent certain React features from being used.",
+    "Answer": "To enable additional checks and warnings for potential problems in a React application during development mode."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Where is `React.StrictMode` typically placed in a Next.js application?",
+    "Option1": "In every component.",
+    "Option2": "In `_app.js` (pages directory) or the root `layout.js` (app directory), wrapping the `Component` or `children`.",
+    "Option3": "In `next.config.js`.",
+    "Option4": "It's automatically applied.",
+    "Answer": "In `_app.js` (pages directory) or the root `layout.js` (app directory), wrapping the `Component` or `children`."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a 'custom server' in Next.js?",
+    "Option1": "A server provided by Vercel.",
+    "Option2": "A custom Node.js server that handles requests before Next.js, allowing for more advanced routing, middleware, and integrations.",
+    "Option3": "A server written in a different language.",
+    "Option4": "A server that only serves static files.",
+    "Answer": "A custom Node.js server that handles requests before Next.js, allowing for more advanced routing, middleware, and integrations."
+  },
+  {
+    "question_no.": 120,
+    "Question": "When would you typically use a custom server in Next.js?",
+    "Option1": "For simple static sites.",
+    "Option2": "For complex routing needs, integrating with specific Node.js middleware, or custom authentication flows that `next.config.js` or `middleware.js` cannot handle.",
+    "Option3": "For improved client-side performance.",
+    "Option4": "Never, it's generally discouraged.",
+    "Answer": "For complex routing needs, integrating with specific Node.js middleware, or custom authentication flows that `next.config.js` or `middleware.js` cannot handle."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Webpack`'s role in Next.js?",
+    "Option1": "It's a database management system.",
+    "Option2": "It's the underlying module bundler used by Next.js to compile and bundle your application's code for the browser and server.",
+    "Option3": "It's a styling library.",
+    "Option4": "It's a testing framework.",
+    "Answer": "It's the underlying module bundler used by Next.js to compile and bundle your application's code for the browser and server."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Can you customize Webpack configuration in Next.js?",
+    "Option1": "No, it's completely abstracted.",
+    "Option2": "Yes, through the `webpack` function in `next.config.js`.",
+    "Option3": "Only by modifying Next.js source code.",
+    "Option4": "Only for production builds.",
+    "Answer": "Yes, through the `webpack` function in `next.config.js`."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the purpose of `Babel` in Next.js?",
+    "Option1": "To manage dependencies.",
+    "Option2": "To transpile modern JavaScript (ES6+) and JSX into backward-compatible JavaScript for broader browser support.",
+    "Option3": "To optimize images.",
+    "Option4": "To manage environment variables.",
+    "Answer": "To transpile modern JavaScript (ES6+) and JSX into backward-compatible JavaScript for broader browser support."
+  },
+  {
+    "question_no.": 124,
+    "Question": "Can you customize Babel configuration in Next.js?",
+    "Option1": "No, Babel is not used in Next.js.",
+    "Option2": "Yes, by creating a `.babelrc` or `babel.config.js` file.",
+    "Option3": "Only through `next.config.js`.",
+    "Option4": "Babel customization is handled automatically.",
+    "Answer": "Yes, by creating a `.babelrc` or `babel.config.js` file."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `ESLint` in the context of Next.js?",
+    "Option1": "A build tool.",
+    "Option2": "A static code analysis tool that identifies problematic patterns found in JavaScript code, often used for code quality and consistency.",
+    "Option3": "A testing framework.",
+    "Option4": "A package manager.",
+    "Answer": "A static code analysis tool that identifies problematic patterns found in JavaScript code, often used for code quality and consistency."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Does Next.js come with built-in ESLint configuration?",
+    "Option1": "No, you have to set it up from scratch.",
+    "Option2": "Yes, it integrates with ESLint and provides a recommended configuration, including rules for Next.js specific features.",
+    "Option3": "Only for TypeScript projects.",
+    "Option4": "Only for development mode.",
+    "Answer": "Yes, it integrates with ESLint and provides a recommended configuration, including rules for Next.js specific features."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `Jest` commonly used for in Next.js projects?",
+    "Option1": "Styling components.",
+    "Option2": "Unit and integration testing of React components and API routes.",
+    "Option3": "Bundle analysis.",
+    "Option4": "Code deployment.",
+    "Answer": "Unit and integration testing of React components and API routes."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `React Testing Library` commonly used for in Next.js projects?",
+    "Option1": "End-to-end testing.",
+    "Option2": "Testing React components in a way that simulates user interactions and focuses on accessibility.",
+    "Option3": "Performance testing.",
+    "Option4": "Server-side rendering tests.",
+    "Answer": "Testing React components in a way that simulates user interactions and focuses on accessibility."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `Cypress` commonly used for in Next.js projects?",
+    "Option1": "Unit testing.",
+    "Option2": "End-to-end (E2E) testing for interacting with the application in a browser-like environment.",
+    "Option3": "Static analysis.",
+    "Option4": "Bundle optimization.",
+    "Answer": "End-to-end (E2E) testing for interacting with the application in a browser-like environment."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `Storybook` commonly used for in Next.js projects?",
+    "Option1": "Database management.",
+    "Option2": "Developing, testing, and documenting UI components in isolation.",
+    "Option3": "API documentation.",
+    "Option4": "Automated deployment.",
+    "Answer": "Developing, testing, and documenting UI components in isolation."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the purpose of `SEO` components or utilities in Next.js?",
+    "Option1": "To improve website design.",
+    "Option2": "To manage meta tags, titles, and other elements in the document head for better search engine visibility.",
+    "Option3": "To track user behavior.",
+    "Option4": "To create sitemaps.",
+    "Answer": "To manage meta tags, titles, and other elements in the document head for better search engine visibility."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `sitemap.xml` used for?",
+    "Option1": "Styling the website.",
+    "Option2": "Providing search engines with a map of your website's structure and content, helping them crawl and index your pages.",
+    "Option3": "Storing user preferences.",
+    "Option4": "Defining API endpoints.",
+    "Answer": "Providing search engines with a map of your website's structure and content, helping them crawl and index your pages."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `robots.txt` used for?",
+    "Option1": "To block malicious bots.",
+    "Option2": "To tell search engine crawlers which pages or files they can or cannot request from your site.",
+    "Option3": "To define automated tasks.",
+    "Option4": "To log bot activity.",
+    "Answer": "To tell search engine crawlers which pages or files they can or cannot request from your site."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Where should `sitemap.xml` and `robots.txt` be placed in a Next.js project?",
+    "Option1": "In the `pages` directory.",
+    "Option2": "In the `public` directory.",
+    "Option3": "In the `api` directory.",
+    "Option4": "In the `components` directory.",
+    "Answer": "In the `public` directory."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the purpose of `i18n` in Next.js?",
+    "Option1": "To optimize images.",
+    "Option2": "To support internationalization and localization, allowing your application to serve content in multiple languages.",
+    "Option3": "To integrate with external APIs.",
+    "Option4": "To improve server performance.",
+    "Answer": "To support internationalization and localization, allowing your application to serve content in multiple languages."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How does Next.js support `i18n` (pages directory)?",
+    "Option1": "By manually creating separate pages for each language.",
+    "Option2": "Through built-in internationalized routing, allowing configuration of locales and default language in `next.config.js`.",
+    "Option3": "Using a third-party library only.",
+    "Option4": "I18n is not supported.",
+    "Answer": "Through built-in internationalized routing, allowing configuration of locales and default language in `next.config.js`."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `MDX` support in Next.js?",
+    "Option1": "A new database format.",
+    "Option2": "Allows you to write JSX directly within Markdown files, enabling interactive components within static content.",
+    "Option3": "A new image format.",
+    "Option4": "A tool for data visualization.",
+    "Answer": "Allows you to write JSX directly within Markdown files, enabling interactive components within static content."
+  },
+  {
+    "question_no.": 138,
+    "Question": "How do you enable MDX support in Next.js?",
+    "Option1": "It's enabled by default.",
+    "Option2": "By installing `@next/mdx` and configuring `next.config.js`.",
+    "Option3": "By changing the file extension to `.mdx`.",
+    "Option4": "MDX is not supported.",
+    "Answer": "By installing `@next/mdx` and configuring `next.config.js`."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the purpose of `React.Suspense` in the `app` directory?",
+    "Option1": "To pause the execution of JavaScript.",
+    "Option2": "To allow components to 'wait' for something (e.g., data fetching, dynamic imports) to load before rendering, showing a fallback UI.",
+    "Option3": "To prevent components from rendering.",
+    "Option4": "To manage animations.",
+    "Answer": "To allow components to 'wait' for something (e.g., data fetching, dynamic imports) to load before rendering, showing a fallback UI."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `React.lazy` commonly used with `Suspense` for?",
+    "Option1": "To fetch data from an API.",
+    "Option2": "To lazy-load (code-split) React components.",
+    "Option3": "To define server-side logic.",
+    "Option4": "To create animations.",
+    "Answer": "To lazy-load (code-split) React components."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the `Hydration Mismatch` error in Next.js?",
+    "Option1": "An error related to incorrect data types.",
+    "Option2": "An error that occurs when the server-rendered HTML does not match the client-rendered React tree.",
+    "Option3": "An error during API calls.",
+    "Option4": "An error with CSS styling.",
+    "Answer": "An error that occurs when the server-rendered HTML does not match the client-rendered React tree."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How can you generally avoid Hydration Mismatch errors?",
+    "Option1": "By always using client-side rendering.",
+    "Option2": "By ensuring that server-rendered content is consistent with client-side expectations, avoiding browser-specific APIs on the server, or using `useEffect` for client-only logic.",
+    "Option3": "By disabling JavaScript.",
+    "Option4": "By using only static pages.",
+    "Answer": "By ensuring that server-rendered content is consistent with client-side expectations, avoiding browser-specific APIs on the server, or using `useEffect` for client-only logic."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is a `Client Component` (revisited for app directory)?",
+    "Option1": "A component that always runs on the server.",
+    "Option2": "A component marked with `'use client'` that sends its JavaScript bundle to the browser and executes there, enabling interactivity.",
+    "Option3": "A component that only fetches data.",
+    "Option4": "A component for static content.",
+    "Answer": "A component marked with `'use client'` that sends its JavaScript bundle to the browser and executes there, enabling interactivity."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is a `Server Component` (revisited for app directory)?",
+    "Option1": "A component that always runs on the client.",
+    "Option2": "A component that renders on the server and does not include client-side JavaScript by default, ideal for static content and data fetching.",
+    "Option3": "A component that only handles user input.",
+    "Option4": "A component that connects to a database directly from the client.",
+    "Answer": "A component that renders on the server and does not include client-side JavaScript by default, ideal for static content and data fetching."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is the default rendering behavior for components in the `app` directory?",
+    "Option1": "Client Component.",
+    "Option2": "Server Component.",
+    "Option3": "Static Site Generation.",
+    "Option4": "Server-Side Rendering.",
+    "Answer": "Server Component."
+  },
+  {
+    "question_no.": 146,
+    "Question": "When should you use a `Client Component` in the `app` directory?",
+    "Option1": "When rendering static content.",
+    "Option2": "When you need interactivity, event listeners, state management, or browser APIs.",
+    "Option3": "When fetching data at build time.",
+    "Option4": "When building an API endpoint.",
+    "Answer": "When you need interactivity, event listeners, state management, or browser APIs."
+  },
+  {
+    "question_no.": 147,
+    "Question": "When should you use a `Server Component` in the `app` directory?",
+    "Option1": "When you need client-side interactivity.",
+    "Option2": "For displaying static content, performing data fetching directly, or rendering complex UI that doesn't require client-side JavaScript.",
+    "Option3": "When building a dynamic form.",
+    "Option4": "When you need to use React Hooks that require client-side execution.",
+    "Answer": "For displaying static content, performing data fetching directly, or rendering complex UI that doesn't require client-side JavaScript."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of the `src` directory in a Next.js project?",
+    "Option1": "To store build output.",
+    "Option2": "To organize your source code (components, pages, styles) in a separate folder, which is an optional convention.",
+    "Option3": "To store external libraries.",
+    "Option4": "To store static assets only.",
+    "Answer": "To organize your source code (components, pages, styles) in a separate folder, which is an optional convention."
+  },
+  {
+    "question_no.": 149,
+    "Question": "How do you configure Next.js to use the `src` directory?",
+    "Option1": "It's automatic if you create the folder.",
+    "Option2": "By creating a `src` folder at the root of your project; Next.js will automatically detect it.",
+    "Option3": "In `next.config.js`.",
+    "Option4": "It's not possible to use a `src` directory.",
+    "Answer": "By creating a `src` folder at the root of your project; Next.js will automatically detect it."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the `Link` component's `scroll` prop used for?",
+    "Option1": "To enable smooth scrolling animations.",
+    "Option2": "To control whether the page scrolls to the top of the viewport on navigation (default is true).",
+    "Option3": "To scroll to a specific element.",
+    "Option4": "To disable all scrolling.",
+    "Answer": "To control whether the page scrolls to the top of the viewport on navigation (default is true)."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the `Link` component's `replace` prop used for?",
+    "Option1": "To replace the current URL in the history stack with the new URL.",
+    "Option2": "To add a new entry to the history stack.",
+    "Option3": "To prevent navigation.",
+    "Option4": "To refresh the page.",
+    "Answer": "To replace the current URL in the history stack with the new URL."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the purpose of `Image` component's `quality` prop?",
+    "Option1": "To define the image file type.",
+    "Option2": "To set the quality of the optimized image (0-100).",
+    "Option3": "To determine the image resolution.",
+    "Option4": "To change the image's colors.",
+    "Answer": "To set the quality of the optimized image (0-100)."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `next/head` (revisited for pages directory)?",
+    "Option1": "A component for defining page content.",
+    "Option2": "A component for managing elements inside the HTML `<head>` tag, like title and meta descriptions.",
+    "Option3": "A component for creating page headers.",
+    "Option4": "A component for client-side scripting.",
+    "Answer": "A component for managing elements inside the HTML `<head>` tag, like title and meta descriptions."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the purpose of `Image` component's `alt` prop?",
+    "Option1": "To define an alternative image source.",
+    "Option2": "To provide alternative text for the image, important for accessibility and SEO.",
+    "Option3": "To set the image's width.",
+    "Option4": "To add a hover effect.",
+    "Answer": "To provide alternative text for the image, important for accessibility and SEO."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `WebVitals` in Next.js?",
+    "Option1": "A new data fetching method.",
+    "Option2": "Metrics that measure the user experience on your website, integrated into Next.js for reporting performance to analytics.",
+    "Option3": "A built-in testing suite.",
+    "Option4": "A security vulnerability scanner.",
+    "Answer": "Metrics that measure the user experience on your website, integrated into Next.js for reporting performance to analytics."
+  },
+  {
+    "question_no.": 156,
+    "Question": "Which three core `WebVitals` are most commonly tracked?",
+    "Option1": "FPS, Latency, Bandwidth.",
+    "Option2": "LCP (Largest Contentful Paint), FID (First Input Delay), CLS (Cumulative Layout Shift).",
+    "Option3": "CPU Usage, Memory Usage, Disk I/O.",
+    "Option4": "Page Views, Bounce Rate, Session Duration.",
+    "Answer": "LCP (Largest Contentful Paint), FID (First Input Delay), CLS (Cumulative Layout Shift)."
+  },
+  {
+    "question_no.": 157,
+    "Question": "How does Next.js help in improving LCP (Largest Contentful Paint)?",
+    "Option1": "By delaying content loading.",
+    "Option2": "Through pre-rendering (SSR/SSG), optimized image loading (`next/image`), and font optimization (`next/font`).",
+    "Option3": "By making all content invisible initially.",
+    "Option4": "LCP is not related to Next.js.",
+    "Answer": "Through pre-rendering (SSR/SSG), optimized image loading (`next/image`), and font optimization (`next/font`)."
+  },
+  {
+    "question_no.": 158,
+    "Question": "How does Next.js help in improving CLS (Cumulative Layout Shift)?",
+    "Option1": "By randomly shifting elements.",
+    "Option2": "By automatically handling image dimensions in `next/image` and font optimization in `next/font` to prevent content jumps.",
+    "Option3": "By disabling CSS animations.",
+    "Option4": "CLS is an issue only with client-side rendering.",
+    "Answer": "By automatically handling image dimensions in `next/image` and font optimization in `next/font` to prevent content jumps."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `Pre-fetching` in Next.js `Link` component?",
+    "Option1": "Fetching data for the current page.",
+    "Option2": "Automatically fetching the JavaScript bundle for a linked page in the background as soon as it appears in the viewport.",
+    "Option3": "Prefetching all assets on the server.",
+    "Option4": "Prefetching only CSS files.",
+    "Answer": "Automatically fetching the JavaScript bundle for a linked page in the background as soon as it appears in the viewport."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the default `prefetch` behavior for `Link` component in Next.js?",
+    "Option1": "Disabled by default.",
+    "Option2": "Enabled (prefetches pages when `Link` is in the viewport).",
+    "Option3": "Only prefetches on click.",
+    "Option4": "Only prefetches for internal links.",
+    "Answer": "Enabled (prefetches pages when `Link` is in the viewport)."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `Static Generation with Data`?",
+    "Option1": "Generating a page without any data.",
+    "Option2": "Generating static HTML at build time with data fetched using `getStaticProps`.",
+    "Option3": "Generating data on the client-side only.",
+    "Option4": "Fetching data on every request.",
+    "Answer": "Generating static HTML at build time with data fetched using `getStaticProps`."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Server-side Generation` (deprecated term for SSR)?",
+    "Option1": "Generating pages at build time.",
+    "Option2": "Generating HTML on the server for each request, with data fetched using `getServerSideProps`.",
+    "Option3": "Generating pages on the client-side.",
+    "Option4": "Generating static files.",
+    "Answer": "Generating HTML on the server for each request, with data fetched using `getServerSideProps`."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the advantage of using `Image` component over a standard `<img>` tag?",
+    "Option1": "It's purely for semantic HTML.",
+    "Option2": "Automatic image optimization (resizing, optimizing format, lazy loading), CLS prevention, and preloading.",
+    "Option3": "It makes images smaller in file size automatically.",
+    "Option4": "It supports more image formats.",
+    "Answer": "Automatic image optimization (resizing, optimizing format, lazy loading), CLS prevention, and preloading."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the `Next.js Data Fetching` mechanism in the `pages` directory?",
+    "Option1": "Only client-side fetching.",
+    "Option2": "Consists of `getStaticProps`, `getServerSideProps`, and client-side data fetching (e.g., `useEffect`).",
+    "Option3": "Only server-side fetching.",
+    "Option4": "Uses GraphQL exclusively.",
+    "Answer": "Consists of `getStaticProps`, `getServerSideProps`, and client-side data fetching (e.g., `useEffect`)."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is the `Next.js Data Fetching` mechanism in the `app` directory?",
+    "Option1": "Only `getServerSideProps`.",
+    "Option2": "Primarily `fetch` API directly in Server Components (default behavior), `revalidate` option for caching, and client-side fetching with `use client`.",
+    "Option3": "Only `getStaticProps`.",
+    "Option4": "Only client-side `useEffect`.",
+    "Answer": "Primarily `fetch` API directly in Server Components (default behavior), `revalidate` option for caching, and client-side fetching with `use client`."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is a `Page` in Next.js (pages directory)?",
+    "Option1": "Any React component.",
+    "Option2": "A React Component exported from a file in the `pages` directory that represents a route in your application.",
+    "Option3": "A static HTML file.",
+    "Option4": "A JavaScript utility file.",
+    "Answer": "A React Component exported from a file in the `pages` directory that represents a route in your application."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is a `Route Segment` in Next.js (app directory)?",
+    "Option1": "A single file representing a page.",
+    "Option2": "A folder in the `app` directory that defines a level in the URL hierarchy, containing `page.js`, `layout.js`, etc.",
+    "Option3": "A part of an API route.",
+    "Option4": "A section of a CSS file.",
+    "Answer": "A folder in the `app` directory that defines a level in the URL hierarchy, containing `page.js`, `layout.js`, etc."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `Link` component's `as` prop used for?",
+    "Option1": "To specify the HTML tag for the link.",
+    "Option2": "To provide a decorative URL in the browser's address bar without affecting the actual route used by Next.js.",
+    "Option3": "To change the link color.",
+    "Option4": "To add a target attribute.",
+    "Answer": "To provide a decorative URL in the browser's address bar without affecting the actual route used by Next.js."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `next/navigation` module (for `app` directory)?",
+    "Option1": "The main module for client-side state management.",
+    "Option2": "Provides hooks and utilities (e.g., `useRouter`, `usePathname`, `useSearchParams`) for interacting with the router in Client Components.",
+    "Option3": "A module for server-side routing only.",
+    "Option4": "A module for managing HTTP requests.",
+    "Answer": "Provides hooks and utilities (e.g., `useRouter`, `usePathname`, `useSearchParams`) for interacting with the router in Client Components."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the `usePathname` hook used for in `next/navigation`?",
+    "Option1": "To get the full URL.",
+    "Option2": "To get the current URL's pathname.",
+    "Option3": "To get query parameters.",
+    "Option4": "To navigate to a new path.",
+    "Answer": "To get the current URL's pathname."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the `useSearchParams` hook used for in `next/navigation`?",
+    "Option1": "To get the URL's pathname.",
+    "Option2": "To get the current URL's query parameters.",
+    "Option3": "To change URL parameters.",
+    "Option4": "To search within the current page.",
+    "Answer": "To get the current URL's query parameters."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the `redirect()` function from `next/navigation` used for?",
+    "Option1": "To perform a client-side navigation.",
+    "Option2": "To perform a server-side redirect, aborting the current render and redirecting to a new URL.",
+    "Option3": "To prevent redirects.",
+    "Option4": "To display a message to the user.",
+    "Answer": "To perform a server-side redirect, aborting the current render and redirecting to a new URL."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the `notFound()` function from `next/navigation` used for?",
+    "Option1": "To display a custom error message.",
+    "Option2": "To render the nearest `not-found.js` or global 404 page.",
+    "Option3": "To redirect to the home page.",
+    "Option4": "To log a 'not found' error.",
+    "Answer": "To render the nearest `not-found.js` or global 404 page."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the purpose of the `generateStaticParams` function in the `app` directory?",
+    "Option1": "To define runtime parameters.",
+    "Option2": "To generate route segment parameters at build time for dynamic routes, ensuring static generation of corresponding pages.",
+    "Option3": "To generate dynamic data for server-side rendering.",
+    "Option4": "To create unique IDs for components.",
+    "Answer": "To generate route segment parameters at build time for dynamic routes, ensuring static generation of corresponding pages."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the significance of `cache: 'no-store'` option in `fetch` for Server Components?",
+    "Option1": "It forces data to be cached indefinitely.",
+    "Option2": "It ensures that data is always fetched fresh on every request and not cached.",
+    "Option3": "It only caches data on the client-side.",
+    "Option4": "It ignores the network and uses only cached data.",
+    "Answer": "It ensures that data is always fetched fresh on every request and not cached."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the significance of `cache: 'force-cache'` option in `fetch` for Server Components?",
+    "Option1": "It always fetches new data.",
+    "Option2": "It forces `fetch` to use a cached response if available, without revalidating.",
+    "Option3": "It only caches data on the server.",
+    "Option4": "It will never use cached data.",
+    "Answer": "It forces `fetch` to use a cached response if available, without revalidating."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `Dynamic Rendering` in the `app` directory?",
+    "Option1": "Pages are always static.",
+    "Option2": "Rendering at request time on the server, allowing for real-time data and user-specific content.",
+    "Option3": "Rendering only on the client.",
+    "Option4": "Rendering based on a timer.",
+    "Answer": "Rendering at request time on the server, allowing for real-time data and user-specific content."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Static Rendering` in the `app` directory?",
+    "Option1": "Rendering pages at runtime.",
+    "Option2": "Rendering at build time or once on the server, resulting in static HTML that can be cached and delivered quickly.",
+    "Option3": "Rendering only interactive elements.",
+    "Option4": "Rendering without CSS.",
+    "Answer": "Rendering at build time or once on the server, resulting in static HTML that can be cached and delivered quickly."
+  },
+  {
+    "question_no.": 179,
+    "Question": "How do you specify the `viewport` for a page in the `app` directory?",
+    "Option1": "In `_document.js`.",
+    "Option2": "By exporting a `viewport` object from `layout.js` or `page.js`.",
+    "Option3": "Using a `<meta>` tag directly in the component.",
+    "Option4": "The `viewport` is automatically managed.",
+    "Answer": "By exporting a `viewport` object from `layout.js` or `page.js`."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the `opengraph-image.js` file for in the `app` directory?",
+    "Option1": "To generate social share images dynamically for Open Graph metadata.",
+    "Option2": "To store static open graph images.",
+    "Option3": "To create image galleries.",
+    "Option4": "To optimize existing images.",
+    "Answer": "To generate social share images dynamically for Open Graph metadata."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is the `sitemap.js` file for in the `app` directory?",
+    "Option1": "To define the structure of the application.",
+    "Option2": "To dynamically generate a sitemap.xml file.",
+    "Option3": "To store static sitemap data.",
+    "Option4": "To create a site search function.",
+    "Answer": "To dynamically generate a sitemap.xml file."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the `robots.js` file for in the `app` directory?",
+    "Option1": "To define automated robots.",
+    "Option2": "To dynamically generate a robots.txt file for search engine crawling instructions.",
+    "Option3": "To store static robot instructions.",
+    "Option4": "To manage robot animations.",
+    "Answer": "To dynamically generate a robots.txt file for search engine crawling instructions."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is the role of `_error.js` in the `pages` directory?",
+    "Option1": "To handle network errors.",
+    "Option2": "To customize the error page for both client-side and server-side errors (HTTP status codes like 404, 500).",
+    "Option3": "To log errors to a file.",
+    "Option4": "To prevent errors from occurring.",
+    "Answer": "To customize the error page for both client-side and server-side errors (HTTP status codes like 404, 500)."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the purpose of `custom `document` and `app` components in the `pages` directory?",
+    "Option1": "To only add global CSS.",
+    "Option2": "To extend default `<html>`, `<body>` (document) and initialize pages/apply global layouts (app) respectively.",
+    "Option3": "To define API routes.",
+    "Option4": "To manage database connections.",
+    "Answer": "To extend default `<html>`, `<body>` (document) and initialize pages/apply global layouts (app) respectively."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `CSS Preprocessors` support in Next.js?",
+    "Option1": "Only supports vanilla CSS.",
+    "Option2": "Supports popular CSS preprocessors like Sass/SCSS and Less out-of-the-box with appropriate loaders.",
+    "Option3": "Requires manual configuration for all preprocessors.",
+    "Option4": "Does not support any preprocessors.",
+    "Answer": "Supports popular CSS preprocessors like Sass/SCSS and Less out-of-the-box with appropriate loaders."
+  },
+  {
+    "question_no.": 186,
+    "Question": "How do you enable Sass/SCSS support in Next.js?",
+    "Option1": "It's built-in, no action needed.",
+    "Option2": "By installing `sass` package.",
+    "Option3": "By configuring `next.config.js` with specific rules.",
+    "Option4": "Sass is not supported.",
+    "Answer": "By installing `sass` package."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Type checking` in Next.js when using TypeScript?",
+    "Option1": "Checking the data type of variables at runtime.",
+    "Option2": "Verifying the correctness of your code based on type definitions during development and build time.",
+    "Option3": "Converting types between different languages.",
+    "Option4": "Ignoring all type errors.",
+    "Answer": "Verifying the correctness of your code based on type definitions during development and build time."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `Absolute URL` in the context of data fetching?",
+    "Option1": "A URL that starts with a relative path.",
+    "Option2": "A URL that includes the full protocol, hostname, and path, necessary for server-side `fetch` calls when making requests to external APIs or your own API routes.",
+    "Option3": "A URL that points to a local file.",
+    "Option4": "A URL without any parameters.",
+    "Answer": "A URL that includes the full protocol, hostname, and path, necessary for server-side `fetch` calls when making requests to external APIs or your own API routes."
+  },
+  {
+    "question_no.": 189,
+    "Question": "When should you use an Absolute URL for API calls in Next.js?",
+    "Option1": "Only for client-side fetches.",
+    "Option2": "When making API calls from `getServerSideProps`, `getStaticProps`, or Server Components, as they run on the server.",
+    "Option3": "Never, always use relative paths.",
+    "Option4": "Only for calls to internal API routes.",
+    "Answer": "When making API calls from `getServerSideProps`, `getStaticProps`, or Server Components, as they run on the server."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is the purpose of `yarn.lock` or `package-lock.json` in a Next.js project?",
+    "Option1": "To store user data.",
+    "Option2": "To lock dependency versions, ensuring consistent installations across different environments and preventing unexpected breaking changes.",
+    "Option3": "To store environment variables.",
+    "Option4": "To configure the Next.js application.",
+    "Answer": "To lock dependency versions, ensuring consistent installations across different environments and preventing unexpected breaking changes."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the `useEffect` hook used for in client-side Next.js components?",
+    "Option1": "To fetch data at build time.",
+    "Option2": "To perform side effects (e.g., data fetching, DOM manipulation, subscriptions) after render, and clean them up when the component unmounts.",
+    "Option3": "To manage component state.",
+    "Option4": "To handle routing logic.",
+    "Answer": "To perform side effects (e.g., data fetching, DOM manipulation, subscriptions) after render, and clean them up when the component unmounts."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `useState` hook used for in React components?",
+    "Option1": "To manage global application state.",
+    "Option2": "To add state variables to functional components, allowing them to hold and update data.",
+    "Option3": "To manage side effects.",
+    "Option4": "To perform data fetching.",
+    "Answer": "To add state variables to functional components, allowing them to hold and update data."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the `useContext` hook used for in React components?",
+    "Option1": "To access the current URL.",
+    "Option2": "To access values from a React Context, providing a way to share data deeply within the component tree without prop drilling.",
+    "Option3": "To manage local component state.",
+    "Option4": "To perform API requests.",
+    "Answer": "To access values from a React Context, providing a way to share data deeply within the component tree without prop drilling."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `Redux` or `Zustand` often used for in Next.js applications?",
+    "Option1": "Routing.",
+    "Option2": "Centralized state management for complex applications, especially for client-side global state.",
+    "Option3": "Database management.",
+    "Option4": "Image optimization.",
+    "Answer": "Centralized state management for complex applications, especially for client-side global state."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is a `Monorepo` strategy in the context of Next.js?",
+    "Option1": "Storing all projects in a single folder.",
+    "Option2": "Managing multiple distinct projects (e.g., a Next.js app, a shared UI library, a backend API) within a single Git repository.",
+    "Option3": "Using only one programming language.",
+    "Option4": "Deploying only one application.",
+    "Answer": "Managing multiple distinct projects (e.g., a Next.js app, a shared UI library, a backend API) within a single Git repository."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What are the benefits of using a `Monorepo` with Next.js?",
+    "Option1": "Increased complexity.",
+    "Option2": "Easier code sharing, unified tooling, simplified dependency management, and atomic commits across related projects.",
+    "Option3": "Slower build times.",
+    "Option4": "Reduced code reusability.",
+    "Answer": "Easier code sharing, unified tooling, simplified dependency management, and atomic commits across related projects."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `Storybook`'s primary function in component development?",
+    "Option1": "To generate API documentation.",
+    "Option2": "To create an isolated development environment for UI components, allowing you to develop and test them independently.",
+    "Option3": "To manage state across components.",
+    "Option4": "To handle routing.",
+    "Answer": "To create an isolated development environment for UI components, allowing you to develop and test them independently."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the purpose of `React DevTools` in Next.js development?",
+    "Option1": "To debug server-side code.",
+    "Option2": "A browser extension that allows you to inspect React component hierarchies, props, state, and performance during development.",
+    "Option3": "To inspect network requests.",
+    "Option4": "To optimize CSS.",
+    "Answer": "A browser extension that allows you to inspect React component hierarchies, props, state, and performance during development."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `Performance Monitoring` in a Next.js application?",
+    "Option1": "Only checking website uptime.",
+    "Option2": "Tracking and analyzing various metrics (e.g., page load times, response times, core web vitals) to identify and address performance bottlenecks.",
+    "Option3": "Monitoring server CPU usage only.",
+    "Option4": "Checking the amount of disk space used.",
+    "Answer": "Tracking and analyzing various metrics (e.g., page load times, response times, core web vitals) to identify and address performance bottlenecks."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Which tools are commonly used for Performance Monitoring with Next.js?",
+    "Option1": "Only browser developer tools.",
+    "Option2": "Google Lighthouse, Vercel Analytics, custom analytics solutions (e.g., Google Analytics, Sentry), and server monitoring tools.",
+    "Option3": "ESLint and Prettier.",
+    "Option4": "Webpack and Babel.",
+    "Answer": "Google Lighthouse, Vercel Analytics, custom analytics solutions (e.g., Google Analytics, Sentry), and server monitoring tools."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `Lighthouse`?",
+    "Option1": "A tool for debugging JavaScript.",
+    "Option2": "An open-source, automated tool for improving the quality of web pages, providing audits for performance, accessibility, SEO, and more.",
+    "Option3": "A component for displaying light effects.",
+    "Option4": "A tool for managing server logs.",
+    "Answer": "An open-source, automated tool for improving the quality of web pages, providing audits for performance, accessibility, SEO, and more."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `Vercel Analytics`?",
+    "Option1": "A third-party analytics service.",
+    "Option2": "A built-in analytics dashboard provided by Vercel for applications deployed on their platform, showing Core Web Vitals and other metrics.",
+    "Option3": "A tool for generating random data.",
+    "Option4": "A tool for tracking code changes.",
+    "Answer": "A built-in analytics dashboard provided by Vercel for applications deployed on their platform, showing Core Web Vitals and other metrics."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the purpose of `HTTP Headers` in a Next.js application?",
+    "Option1": "To define the HTML structure.",
+    "Option2": "To send additional information with HTTP requests and responses, crucial for caching, security, and content negotiation.",
+    "Option3": "To style the page.",
+    "Option4": "To store client-side data.",
+    "Answer": "To send additional information with HTTP requests and responses, crucial for caching, security, and content negotiation."
+  },
+  {
+    "question_no.": 204,
+    "Question": "How can you modify HTTP Headers in Next.js?",
+    "Option1": "Only on the client-side.",
+    "Option2": "Via `next.config.js` (`headers` option), API Routes (`res.setHeader`), or Middleware (`NextResponse.headers`).",
+    "Option3": "By directly manipulating the DOM.",
+    "Option4": "HTTP Headers cannot be modified in Next.js.",
+    "Answer": "Via `next.config.js` (`headers` option), API Routes (`res.setHeader`), or Middleware (`NextResponse.headers`)."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `GraphQL` in the context of Next.js?",
+    "Option1": "A database query language.",
+    "Option2": "A query language for your API, and a runtime for fulfilling those queries with your existing data, often used with Next.js for efficient data fetching.",
+    "Option3": "A styling solution.",
+    "Option4": "A testing framework.",
+    "Answer": "A query language for your API, and a runtime for fulfilling those queries with your existing data, often used with Next.js for efficient data fetching."
+  }
+]

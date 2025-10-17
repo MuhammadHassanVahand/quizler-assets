@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is TensorFlow primarily known for?",
+    "Option1": "Statistical data analysis.",
+    "Option2": "Open-source machine learning framework developed by Google.",
+    "Option3": "Web development with AI integration.",
+    "Option4": "Database management.",
+    "Answer": "Open-source machine learning framework developed by Google."
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is Keras?",
+    "Option1": "A low-level numerical computation library.",
+    "Option2": "A high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano.",
+    "Option3": "A reinforcement learning environment.",
+    "Option4": "A data visualization tool.",
+    "Answer": "A high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano."
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which of the following is NOT a core concept in TensorFlow?",
+    "Option1": "Tensors",
+    "Option2": "Operations",
+    "Option3": "Computational Graphs",
+    "Option4": "Spreadsheets",
+    "Answer": "Spreadsheets"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is a 'tensor' in TensorFlow?",
+    "Option1": "A scalar value.",
+    "Option2": "A multi-dimensional array or list of numbers.",
+    "Option3": "A single-dimensional vector.",
+    "Option4": "A dictionary of values.",
+    "Answer": "A multi-dimensional array or list of numbers."
+  },
+  {
+    "question_no.": 5,
+    "Question": "In TensorFlow 2.x, what is the primary execution mode?",
+    "Option1": "Graph execution (static graphs) only.",
+    "Option2": "Eager execution (imperative) by default, but also supports graph execution.",
+    "Option3": "Distributed execution only.",
+    "Option4": "Symbolic execution.",
+    "Answer": "Eager execution (imperative) by default, but also supports graph execution."
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which Keras API is used to build models layer-by-layer?",
+    "Option1": "Functional API",
+    "Option2": "Subclassing API",
+    "Option3": "Sequential API",
+    "Option4": "Model API",
+    "Answer": "Sequential API"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which Keras API allows building complex models with multiple inputs and outputs, or shared layers?",
+    "Option1": "Sequential API",
+    "Option2": "Functional API",
+    "Option3": "Subclassing API",
+    "Option4": "Model API",
+    "Answer": "Functional API"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What Keras method is used to train a model?",
+    "Option1": "predict()",
+    "Option2": "evaluate()",
+    "Option3": "fit()",
+    "Option4": "compile()",
+    "Answer": "fit()"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Before training, what Keras method configures the model for training with an optimizer, loss function, and metrics?",
+    "Option1": "fit()",
+    "Option2": "evaluate()",
+    "Option3": "predict()",
+    "Option4": "compile()",
+    "Answer": "compile()"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which Keras layer is typically used for the input of a neural network?",
+    "Option1": "Dense",
+    "Option2": "Input",
+    "Option3": "Flatten",
+    "Option4": "Activation",
+    "Answer": "Input"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the purpose of a 'Dense' layer in Keras?",
+    "Option1": "Convolutional layer.",
+    "Option2": "Fully connected layer, where each input neuron is connected to every output neuron.",
+    "Option3": "Pooling layer.",
+    "Option4": "Recurrent layer.",
+    "Answer": "Fully connected layer, where each input neuron is connected to every output neuron."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which activation function is commonly used in the output layer for binary classification problems?",
+    "Option1": "ReLU",
+    "Option2": "Softmax",
+    "Option3": "Sigmoid",
+    "Option4": "Tanh",
+    "Answer": "Sigmoid"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which activation function is commonly used in the output layer for multi-class classification problems?",
+    "Option1": "Sigmoid",
+    "Option2": "ReLU",
+    "Option3": "Softmax",
+    "Option4": "Leaky ReLU",
+    "Answer": "Softmax"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the role of an 'optimizer' in Keras?",
+    "Option1": "To define the network architecture.",
+    "Option2": "To compute the loss function.",
+    "Option3": "To update the weights of the neural network during training to minimize the loss function.",
+    "Option4": "To perform data preprocessing.",
+    "Answer": "To update the weights of the neural network during training to minimize the loss function."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which of the following is a popular optimizer in Keras?",
+    "Option1": "SGD",
+    "Option2": "Adam",
+    "Option3": "RMSprop",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What loss function is typically used for binary classification with a Sigmoid output?",
+    "Option1": "Categorical Crossentropy",
+    "Option2": "Mean Squared Error",
+    "Option3": "Binary Crossentropy",
+    "Option4": "Sparse Categorical Crossentropy",
+    "Answer": "Binary Crossentropy"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What loss function is typically used for multi-class classification with one-hot encoded labels and a Softmax output?",
+    "Option1": "Binary Crossentropy",
+    "Option2": "Mean Absolute Error",
+    "Option3": "Categorical Crossentropy",
+    "Option4": "Sparse Categorical Crossentropy",
+    "Answer": "Categorical Crossentropy"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What loss function is typically used for multi-class classification with integer labels (not one-hot encoded) and a Softmax output?",
+    "Option1": "Categorical Crossentropy",
+    "Option2": "Binary Crossentropy",
+    "Option3": "Sparse Categorical Crossentropy",
+    "Option4": "Mean Squared Error",
+    "Answer": "Sparse Categorical Crossentropy"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of 'epochs' in Keras training?",
+    "Option1": "The number of training samples.",
+    "Option2": "The number of times the entire training dataset is passed forward and backward through the neural network.",
+    "Option3": "The number of layers in the network.",
+    "Option4": "The size of each training batch.",
+    "Answer": "The number of times the entire training dataset is passed forward and backward through the neural network."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'batch_size' in Keras training?",
+    "Option1": "The total number of samples in the dataset.",
+    "Option2": "The number of training examples utilized in one iteration.",
+    "Option3": "The number of hidden layers.",
+    "Option4": "The number of output classes.",
+    "Answer": "The number of training examples utilized in one iteration."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is `tf.data.Dataset` primarily used for in TensorFlow?",
+    "Option1": "Storing small amounts of data.",
+    "Option2": "Building efficient and scalable data pipelines for machine learning models.",
+    "Option3": "Visualizing datasets.",
+    "Option4": "Performing basic arithmetic operations.",
+    "Answer": "Building efficient and scalable data pipelines for machine learning models."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which Keras callback stops training when a monitored quantity has stopped improving?",
+    "Option1": "ModelCheckpoint",
+    "Option2": "ReduceLROnPlateau",
+    "Option3": "EarlyStopping",
+    "Option4": "TensorBoard",
+    "Answer": "EarlyStopping"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which Keras callback saves the model weights or the entire model periodically?",
+    "Option1": "EarlyStopping",
+    "Option2": "ReduceLROnPlateau",
+    "Option3": "ModelCheckpoint",
+    "Option4": "CSVLogger",
+    "Answer": "ModelCheckpoint"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'Dropout' in Keras used for?",
+    "Option1": "To speed up training.",
+    "Option2": "To prevent overfitting by randomly setting a fraction of input units to 0 at each update during training time.",
+    "Option3": "To increase the number of layers.",
+    "Option4": "To normalize the input data.",
+    "Answer": "To prevent overfitting by randomly setting a fraction of input units to 0 at each update during training time."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the purpose of 'BatchNormalization' layer in Keras?",
+    "Option1": "To reduce the number of parameters.",
+    "Option2": "To normalize the activations of the previous layer, stabilizing training and potentially reducing the number of training epochs.",
+    "Option3": "To perform convolution.",
+    "Option4": "To add non-linearity to the network.",
+    "Answer": "To normalize the activations of the previous layer, stabilizing training and potentially reducing the number of training epochs."
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which Keras layer is fundamental for Convolutional Neural Networks (CNNs)?",
+    "Option1": "Dense",
+    "Option2": "Conv2D",
+    "Option3": "LSTM",
+    "Option4": "Embedding",
+    "Answer": "Conv2D"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'Pooling' (e.g., MaxPooling2D) used for in CNNs?",
+    "Option1": "To add more features.",
+    "Option2": "To reduce the spatial dimensions of the feature maps, thus reducing the number of parameters and computational cost, and helping to achieve spatial invariance.",
+    "Option3": "To apply non-linear transformations.",
+    "Option4": "To normalize pixel values.",
+    "Answer": "To reduce the spatial dimensions of the feature maps, thus reducing the number of parameters and computational cost, and helping to achieve spatial invariance."
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which Keras layer is crucial for Recurrent Neural Networks (RNNs) for sequential data?",
+    "Option1": "Conv1D",
+    "Option2": "Dense",
+    "Option3": "LSTM",
+    "Option4": "Flatten",
+    "Answer": "LSTM"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What does 'Embedding' layer in Keras primarily do?",
+    "Option1": "Flattens the input.",
+    "Option2": "Turns positive integers (indexes) into dense vectors of fixed size, commonly used for word embeddings in NLP.",
+    "Option3": "Converts numerical data to categorical.",
+    "Option4": "Performs image augmentation.",
+    "Answer": "Turns positive integers (indexes) into dense vectors of fixed size, commonly used for word embeddings in NLP."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `tf.GradientTape` used for in TensorFlow 2.x?",
+    "Option1": "To record arbitrary operations for automatic differentiation (calculating gradients).",
+    "Option2": "To store tensor values.",
+    "Option3": "To visualize gradients.",
+    "Option4": "To optimize the training process.",
+    "Answer": "To record arbitrary operations for automatic differentiation (calculating gradients)."
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you save a trained Keras model?",
+    "Option1": "model.export()",
+    "Option2": "model.save('my_model.h5')",
+    "Option3": "model.store()",
+    "Option4": "model.write()",
+    "Answer": "model.save('my_model.h5')"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you load a saved Keras model?",
+    "Option1": "keras.load_model('my_model.h5')",
+    "Option2": "tf.load_model('my_model.h5')",
+    "Option3": "tf.keras.models.load_model('my_model.h5')",
+    "Option4": "model.open('my_model.h5')",
+    "Answer": "tf.keras.models.load_model('my_model.h5')"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Fine-tuning' in the context of Keras/TensorFlow?",
+    "Option1": "Training a model from scratch.",
+    "Option2": "Training a pre-trained model on a new, smaller dataset, often by unfreezing some layers and continuing training.",
+    "Option3": "Adjusting hyperparameters manually.",
+    "Option4": "Debugging the model.",
+    "Answer": "Training a pre-trained model on a new, smaller dataset, often by unfreezing some layers and continuing training."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'Transfer Learning'?",
+    "Option1": "Training a model without any prior knowledge.",
+    "Option2": "Reusing a pre-trained model on a new task, often by simply replacing the output layer and training only the new layers.",
+    "Option3": "Transferring data between different models.",
+    "Option4": "Learning from multiple sources simultaneously.",
+    "Answer": "Reusing a pre-trained model on a new task, often by simply replacing the output layer and training only the new layers."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which Keras layer is used to flatten the output of convolutional or pooling layers before feeding into Dense layers?",
+    "Option1": "Reshape",
+    "Option2": "Permute",
+    "Option3": "Flatten",
+    "Option4": "RepeatVector",
+    "Answer": "Flatten"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'TensorBoard' in TensorFlow/Keras?",
+    "Option1": "A library for defining tensors.",
+    "Option2": "A visualization toolkit for machine learning experiments, allowing tracking of metrics, visualizing graphs, and more.",
+    "Option3": "An API for model deployment.",
+    "Option4": "A tool for data cleaning.",
+    "Answer": "A visualization toolkit for machine learning experiments, allowing tracking of metrics, visualizing graphs, and more."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of `model.summary()` in Keras?",
+    "Option1": "To summarize the training history.",
+    "Option2": "To print a summary of the model's architecture, including layer names, output shapes, and number of parameters.",
+    "Option3": "To summarize the input data.",
+    "Option4": "To summarize the evaluation metrics.",
+    "Answer": "To print a summary of the model's architecture, including layer names, output shapes, and number of parameters."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does `input_shape` parameter in the first layer of a Keras Sequential model define?",
+    "Option1": "The shape of the output.",
+    "Option2": "The shape of the input data that the model expects, without the batch dimension.",
+    "Option3": "The number of training samples.",
+    "Option4": "The number of features.",
+    "Answer": "The shape of the input data that the model expects, without the batch dimension."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which Keras layer adds a regularizer that applies a penalty (L1 or L2) to the layer's weights?",
+    "Option1": "ActivityRegularization",
+    "Option2": "KernelRegularizer",
+    "Option3": "Dropout",
+    "Option4": "BatchNormalization",
+    "Answer": "KernelRegularizer"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'callbacks' in Keras `fit()` method?",
+    "Option1": "Functions to call before and after training.",
+    "Option2": "A list of functions that will be called at different stages during training (e.g., at the end of each epoch).",
+    "Option3": "A list of metrics to track.",
+    "Option4": "A list of optimizers to try.",
+    "Answer": "A list of functions that will be called at different stages during training (e.g., at the end of each epoch)."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which Keras layer is used to implement Recurrent Neural Networks (RNNs) that process sequences?",
+    "Option1": "Conv1D",
+    "Option2": "Dense",
+    "Option3": "SimpleRNN",
+    "Option4": "GlobalAveragePooling1D",
+    "Answer": "SimpleRNN"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the primary difference between `LSTM` and `GRU` layers in Keras?",
+    "Option1": "LSTM is faster than GRU.",
+    "Option2": "LSTM has a cell state and three gates (input, forget, output), while GRU has two gates (reset, update) and no cell state, making it simpler and faster.",
+    "Option3": "GRU is only for classification.",
+    "Option4": "LSTM is for images, GRU for text.",
+    "Answer": "LSTM has a cell state and three gates (input, forget, output), while GRU has two gates (reset, update) and no cell state, making it simpler and faster."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is `tf.function` decorator in TensorFlow 2.x used for?",
+    "Option1": "To define custom functions.",
+    "Option2": "To compile a Python function into a callable TensorFlow graph, improving performance by enabling optimizations and deployment.",
+    "Option3": "To convert a function to a class.",
+    "Option4": "To debug TensorFlow code.",
+    "Answer": "To compile a Python function into a callable TensorFlow graph, improving performance by enabling optimizations and deployment."
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you initialize weights in Keras layers?",
+    "Option1": "They are always initialized to zeros.",
+    "Option2": "They are initialized automatically by default, but you can specify `kernel_initializer` and `bias_initializer`.",
+    "Option3": "They must be initialized manually before training.",
+    "Option4": "They are initialized to random values only.",
+    "Answer": "They are initialized automatically by default, but you can specify `kernel_initializer` and `bias_initializer`."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the purpose of `validation_split` in `model.fit()`?",
+    "Option1": "To split the data into training and test sets.",
+    "Option2": "To reserve a fraction of the training data as validation data for monitoring loss and metrics during training.",
+    "Option3": "To split the data for cross-validation.",
+    "Option4": "To create a separate test set.",
+    "Answer": "To reserve a fraction of the training data as validation data for monitoring loss and metrics during training."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which TensorFlow `tf.keras.layers` object is used for 1D convolution, often used in NLP for sequences?",
+    "Option1": "Conv2D",
+    "Option2": "Conv1D",
+    "Option3": "Conv3D",
+    "Option4": "LocallyConnected1D",
+    "Answer": "Conv1D"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `tf.keras.utils.to_categorical` used for?",
+    "Option1": "Converting categorical features to numerical.",
+    "Option2": "Converts a class vector (integers) to binary class matrix (one-hot encoding).",
+    "Option3": "Converting numerical labels to integers.",
+    "Option4": "Converting text to numerical representations.",
+    "Answer": "Converts a class vector (integers) to binary class matrix (one-hot encoding)."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What does `metrics=['accuracy']` in `model.compile()` indicate?",
+    "Option1": "The loss function to optimize.",
+    "Option2": "The metric to monitor during training and evaluation, in addition to the loss function.",
+    "Option3": "The optimizer to use.",
+    "Option4": "The number of epochs.",
+    "Answer": "The metric to monitor during training and evaluation, in addition to the loss function."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of `ImageDataGenerator` in Keras?",
+    "Option1": "To generate random images.",
+    "Option2": "To perform real-time data augmentation on images during training, reducing overfitting.",
+    "Option3": "To load images from a directory.",
+    "Option4": "To convert images to grayscale.",
+    "Answer": "To perform real-time data augmentation on images during training, reducing overfitting."
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which of the following is a common augmentation technique available in `ImageDataGenerator`?",
+    "Option1": "Reshaping images.",
+    "Option2": "Random rotations.",
+    "Option3": "Converting to grayscale.",
+    "Option4": "Feature scaling.",
+    "Answer": "Random rotations."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `tf.keras.applications` used for?",
+    "Option1": "To create custom neural network architectures.",
+    "Option2": "To provide access to pre-trained models (e.g., VGG16, ResNet50, InceptionV3) on large datasets like ImageNet, for transfer learning.",
+    "Option3": "To deploy Keras models.",
+    "Option4": "To benchmark different optimizers.",
+    "Answer": "To provide access to pre-trained models (e.g., VGG16, ResNet50, InceptionV3) on large datasets like ImageNet, for transfer learning."
+  },
+  {
+    "question_no.": 52,
+    "Question": "When loading a pre-trained model, what does `include_top=False` parameter mean?",
+    "Option1": "It excludes the bottom layers of the network.",
+    "Option2": "It excludes the final fully-connected layers (the 'top') of the network, allowing you to add your own classification head for transfer learning.",
+    "Option3": "It only loads the top layers.",
+    "Option4": "It excludes the entire model.",
+    "Answer": "It excludes the final fully-connected layers (the 'top') of the network, allowing you to add your own classification head for transfer learning."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of `model.evaluate()` in Keras?",
+    "Option1": "To make predictions on new data.",
+    "Option2": "To compute the loss and metrics for the model in test mode.",
+    "Option3": "To train the model.",
+    "Option4": "To summarize the model architecture.",
+    "Answer": "To compute the loss and metrics for the model in test mode."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is the purpose of `model.predict()` in Keras?",
+    "Option1": "To calculate the loss of the model.",
+    "Option2": "To generate predictions (output of the model) for new input samples.",
+    "Option3": "To train the model.",
+    "Option4": "To evaluate the model's performance.",
+    "Answer": "To generate predictions (output of the model) for new input samples."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'tf.Tensor'?",
+    "Option1": "A Python list.",
+    "Option2": "The central data structure of TensorFlow, a multi-dimensional array.",
+    "Option3": "A mathematical equation.",
+    "Option4": "A string of characters.",
+    "Answer": "The central data structure of TensorFlow, a multi-dimensional array."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the default data type for most TensorFlow operations if not specified?",
+    "Option1": "tf.int32",
+    "Option2": "tf.float32",
+    "Option3": "tf.float64",
+    "Option4": "tf.string",
+    "Answer": "tf.float32"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `tf.constant()` used for?",
+    "Option1": "To create a variable tensor.",
+    "Option2": "To create a constant tensor whose value cannot be changed.",
+    "Option3": "To define a placeholder.",
+    "Option4": "To create a tensor with random values.",
+    "Answer": "To create a constant tensor whose value cannot be changed."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `tf.Variable()` used for?",
+    "Option1": "To create a constant tensor.",
+    "Option2": "To create a mutable tensor whose value can be changed during computation (e.g., model weights).",
+    "Option3": "To define a static graph.",
+    "Option4": "To represent an operation.",
+    "Answer": "To create a mutable tensor whose value can be changed during computation (e.g., model weights)."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does `tf.add()` do in TensorFlow?",
+    "Option1": "Concatenates tensors.",
+    "Option2": "Performs element-wise addition of two tensors.",
+    "Option3": "Adds a new dimension to a tensor.",
+    "Option4": "Adds a constant value to a tensor.",
+    "Answer": "Performs element-wise addition of two tensors."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `tf.matmul()` used for?",
+    "Option1": "Element-wise multiplication.",
+    "Option2": "Matrix multiplication of two tensors.",
+    "Option3": "Matrix transpose.",
+    "Option4": "Vector addition.",
+    "Answer": "Matrix multiplication of two tensors."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which TensorFlow method is used to reshape a tensor?",
+    "Option1": "tf.transpose()",
+    "Option2": "tf.concat()",
+    "Option3": "tf.reshape()",
+    "Option4": "tf.squeeze()",
+    "Answer": "tf.reshape()"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is `tf.argmax()` used for?",
+    "Option1": "Returns the maximum value in a tensor.",
+    "Option2": "Returns the index of the maximum value along an axis.",
+    "Option3": "Returns the average value.",
+    "Option4": "Returns the minimum value.",
+    "Answer": "Returns the index of the maximum value along an axis."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'SparseTensor' in TensorFlow?",
+    "Option1": "A regular dense tensor.",
+    "Option2": "A special tensor type for representing sparse data efficiently, storing only non-zero elements along with their indices.",
+    "Option3": "A tensor with only one dimension.",
+    "Option4": "A tensor with no values.",
+    "Answer": "A special tensor type for representing sparse data efficiently, storing only non-zero elements along with their indices."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which Keras layer is used to implement a Bidirectional RNN?",
+    "Option1": "SimpleRNN",
+    "Option2": "LSTM",
+    "Option3": "Bidirectional",
+    "Option4": "GRU",
+    "Answer": "Bidirectional"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the benefit of using a Bidirectional RNN?",
+    "Option1": "It processes data faster.",
+    "Option2": "It captures dependencies from both forward and backward directions of a sequence, providing a richer understanding of context.",
+    "Option3": "It handles longer sequences more efficiently.",
+    "Option4": "It uses less memory.",
+    "Answer": "It captures dependencies from both forward and backward directions of a sequence, providing a richer understanding of context."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `tf.io.read_file()` used for?",
+    "Option1": "Reading text files only.",
+    "Option2": "Reads the entire contents of a file as a string tensor.",
+    "Option3": "Reading image files only.",
+    "Option4": "Writing data to a file.",
+    "Answer": "Reads the entire contents of a file as a string tensor."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `tf.image.decode_image()` used for?",
+    "Option1": "Encoding images.",
+    "Option2": "Decodes a raw image string into a tensor, supporting various image formats (PNG, JPEG, GIF, BMP).",
+    "Option3": "Resizing images.",
+    "Option4": "Cropping images.",
+    "Answer": "Decodes a raw image string into a tensor, supporting various image formats (PNG, JPEG, GIF, BMP)."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `tf.image.resize()` used for?",
+    "Option1": "Cropping images.",
+    "Option2": "Resizing an image to a new shape.",
+    "Option3": "Rotating images.",
+    "Option4": "Converting image color spaces.",
+    "Answer": "Resizing an image to a new shape."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is `tf.data.experimental.AUTOTUNE` used for?",
+    "Option1": "Manually setting buffer sizes.",
+    "Option2": "Automatically tunes the number of parallel calls or prefetch buffer sizes for `tf.data` operations to optimize performance.",
+    "Option3": "Disabling parallelism.",
+    "Option4": "Defining the number of epochs.",
+    "Answer": "Automatically tunes the number of parallel calls or prefetch buffer sizes for `tf.data` operations to optimize performance."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the purpose of `tf.saved_model.save()`?",
+    "Option1": "To save model weights only.",
+    "Option2": "To save a TensorFlow model in the SavedModel format, which includes the model's architecture, weights, and computation graph, making it deployable.",
+    "Option3": "To save the training history.",
+    "Option4": "To save the optimizer state.",
+    "Answer": "To save a TensorFlow model in the SavedModel format, which includes the model's architecture, weights, and computation graph, making it deployable."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'TensorFlow Lite' used for?",
+    "Option1": "Training large-scale models.",
+    "Option2": "Deploying TensorFlow models on mobile, embedded, and IoT devices.",
+    "Option3": "Web-based TensorFlow development.",
+    "Option4": "Cloud-based model training.",
+    "Answer": "Deploying TensorFlow models on mobile, embedded, and IoT devices."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'TensorFlow.js' used for?",
+    "Option1": "Running TensorFlow models on specialized hardware.",
+    "Option2": "Training and deploying machine learning models in JavaScript, directly in the browser or Node.js.",
+    "Option3": "Connecting TensorFlow to Java applications.",
+    "Option4": "Managing TensorFlow projects.",
+    "Answer": "Training and deploying machine learning models in JavaScript, directly in the browser or Node.js."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the `units` parameter in a `Dense` layer in Keras?",
+    "Option1": "The number of input features.",
+    "Option2": "The dimensionality of the output space (number of neurons in the layer).",
+    "Option3": "The number of samples.",
+    "Option4": "The number of layers.",
+    "Answer": "The dimensionality of the output space (number of neurons in the layer)."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the `padding='same'` argument in a `Conv2D` layer?",
+    "Option1": "It adds no padding.",
+    "Option2": "It adds padding to ensure the output feature map has the same dimensions as the input feature map (after stride effects).",
+    "Option3": "It adds padding only to one side.",
+    "Option4": "It uses random padding.",
+    "Answer": "It adds padding to ensure the output feature map has the same dimensions as the input feature map (after stride effects)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the `strides` argument in a `Conv2D` layer?",
+    "Option1": "The size of the convolution kernel.",
+    "Option2": "The step size or amount by which the filter slides over the input image.",
+    "Option3": "The number of output filters.",
+    "Option4": "The amount of padding.",
+    "Answer": "The step size or amount by which the filter slides over the input image."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'ReLU' activation function?",
+    "Option1": "Sigmoid function.",
+    "Option2": "Rectified Linear Unit, which outputs the input directly if positive, otherwise it outputs zero (max(0, x)).",
+    "Option3": "Tanh function.",
+    "Option4": "Softmax function.",
+    "Answer": "Rectified Linear Unit, which outputs the input directly if positive, otherwise it outputs zero (max(0, x))."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What problem does the 'vanishing gradient' solve?",
+    "Option1": "Overfitting in deep networks.",
+    "Option2": "It doesn't solve it; it's a problem where gradients become extremely small, making it difficult for deep networks to learn.",
+    "Option3": "Underfitting in shallow networks.",
+    "Option4": "Exploding gradients.",
+    "Answer": "It doesn't solve it; it's a problem where gradients become extremely small, making it difficult for deep networks to learn."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Which activation function is known to mitigate the vanishing gradient problem in deep networks?",
+    "Option1": "Sigmoid",
+    "Option2": "Tanh",
+    "Option3": "ReLU and its variants (Leaky ReLU, ELU, PReLU).",
+    "Option4": "Softmax",
+    "Answer": "ReLU and its variants (Leaky ReLU, ELU, PReLU)."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `tf.norm()` used for?",
+    "Option1": "Normalizing data to a specific range.",
+    "Option2": "Computes the L1, L2, or other norms of a tensor.",
+    "Option3": "Performing batch normalization.",
+    "Option4": "Calculating standard deviation.",
+    "Answer": "Computes the L1, L2, or other norms of a tensor."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `tf.reduce_sum()` used for?",
+    "Option1": "Calculates the product of elements.",
+    "Option2": "Calculates the sum of elements across dimensions of a tensor.",
+    "Option3": "Calculates the mean of elements.",
+    "Option4": "Calculates the maximum element.",
+    "Answer": "Calculates the sum of elements across dimensions of a tensor."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is `tf.one_hot()` used for?",
+    "Option1": "Creating one-hot encoded vectors from integer labels.",
+    "Option2": "Creating random vectors.",
+    "Option3": "Converting one-hot vectors back to integers.",
+    "Option4": "Generating sparse tensors.",
+    "Answer": "Creating one-hot encoded vectors from integer labels."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `tf.sequence.pad_sequences()` commonly used for in NLP with Keras?",
+    "Option1": "Padding images.",
+    "Option2": "Padding sequences to a uniform length, typically by adding zeros, before feeding them into RNNs.",
+    "Option3": "Padding convolutional layers.",
+    "Option4": "Padding numerical data.",
+    "Answer": "Padding sequences to a uniform length, typically by adding zeros, before feeding them into RNNs."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What does `return_sequences=True` do in an `LSTM` layer?",
+    "Option1": "It returns only the last output of the LSTM.",
+    "Option2": "It returns the full sequence of outputs for each timestep, rather than just the last output.",
+    "Option3": "It returns the cell state.",
+    "Option4": "It returns the hidden state of the LSTM.",
+    "Answer": "It returns the full sequence of outputs for each timestep, rather than just the last output."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the `return_state=True` argument used for in an `LSTM` layer?",
+    "Option1": "To return the sequence of outputs.",
+    "Option2": "To return the final hidden state and cell state of the LSTM, useful for sequence-to-sequence models.",
+    "Option3": "To return the input sequence.",
+    "Option4": "To return the gradients.",
+    "Answer": "To return the final hidden state and cell state of the LSTM, useful for sequence-to-sequence models."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'tf.keras.layers.GlobalAveragePooling2D' used for in CNNs?",
+    "Option1": "To flatten the output of convolutional layers.",
+    "Option2": "To compute the average of each feature map across its spatial dimensions, effectively reducing the feature map to a single value per map, often used as an alternative to Flatten layer before Dense layers.",
+    "Option3": "To perform max pooling.",
+    "Option4": "To apply activation functions.",
+    "Answer": "To compute the average of each feature map across its spatial dimensions, effectively reducing the feature map to a single value per map, often used as an alternative to Flatten layer before Dense layers."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the benefit of `GlobalAveragePooling2D` over `Flatten`?",
+    "Option1": "It always results in higher accuracy.",
+    "Option2": "It significantly reduces the number of parameters, making the model less prone to overfitting and more robust to spatial translations.",
+    "Option3": "It is faster to compute.",
+    "Option4": "It can handle variable input sizes more easily.",
+    "Answer": "It significantly reduces the number of parameters, making the model less prone to overfitting and more robust to spatial translations."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `tf.debugging.check_numerics()` used for?",
+    "Option1": "Checking if a tensor contains only integers.",
+    "Option2": "Checks a tensor for `NaN` and `Inf` values and raises an error if found, useful for debugging training stability.",
+    "Option3": "Checking tensor shape.",
+    "Option4": "Checking tensor data type.",
+    "Answer": "Checks a tensor for `NaN` and `Inf` values and raises an error if found, useful for debugging training stability."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `tf.summary` API used for?",
+    "Option1": "Defining graph operations.",
+    "Option2": "Writing summary data (scalars, images, histograms, etc.) to event files for visualization in TensorBoard.",
+    "Option3": "Saving models.",
+    "Option4": "Loading datasets.",
+    "Answer": "Writing summary data (scalars, images, histograms, etc.) to event files for visualization in TensorBoard."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the purpose of `tf.lookup.StaticHashTable`?",
+    "Option1": "For dynamic lookups that change during execution.",
+    "Option2": "For creating a hash table that maps keys to values, useful for efficient lookup operations (e.g., mapping words to integer IDs).",
+    "Option3": "For storing data in a database.",
+    "Option4": "For performing random number generation.",
+    "Answer": "For creating a hash table that maps keys to values, useful for efficient lookup operations (e.g., mapping words to integer IDs)."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Custom Training Loops' in TensorFlow 2.x?",
+    "Option1": "Using `model.fit()` with custom settings.",
+    "Option2": "Writing the entire training process (forward pass, loss calculation, gradient computation, weight updates) manually using `tf.GradientTape`.",
+    "Option3": "Using pre-built training loops.",
+    "Option4": "Training models without optimizers.",
+    "Answer": "Writing the entire training process (forward pass, loss calculation, gradient computation, weight updates) manually using `tf.GradientTape`."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the main advantage of Custom Training Loops?",
+    "Option1": "They are always faster than `model.fit()`.",
+    "Option2": "They offer maximum flexibility and control over the training process, allowing for advanced research and complex model behaviors.",
+    "Option3": "They require less code.",
+    "Option4": "They automatically handle data preprocessing.",
+    "Answer": "They offer maximum flexibility and control over the training process, allowing for advanced research and complex model behaviors."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `tf.config.list_physical_devices('GPU')` used for?",
+    "Option1": "Listing all CPU devices.",
+    "Option2": "Listing available GPU devices detected by TensorFlow, useful for configuring GPU usage.",
+    "Option3": "Listing all network devices.",
+    "Option4": "Listing all storage devices.",
+    "Answer": "Listing available GPU devices detected by TensorFlow, useful for configuring GPU usage."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `tf.config.set_memory_growth()` used for?",
+    "Option1": "To allocate all GPU memory at once.",
+    "Option2": "To allow TensorFlow to allocate GPU memory as needed, rather than pre-allocating all of it, preventing out-of-memory errors when multiple processes share a GPU.",
+    "Option3": "To increase CPU memory.",
+    "Option4": "To manage RAM usage.",
+    "Answer": "To allow TensorFlow to allocate GPU memory as needed, rather than pre-allocating all of it, preventing out-of-memory errors when multiple processes share a GPU."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `tf.distribute.Strategy` used for?",
+    "Option1": "Defining model architectures.",
+    "Option2": "Enabling distributed training of TensorFlow models across multiple GPUs or machines, accelerating training for large datasets and models.",
+    "Option3": "Handling data augmentation.",
+    "Option4": "Logging metrics.",
+    "Answer": "Enabling distributed training of TensorFlow models across multiple GPUs or machines, accelerating training for large datasets and models."
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which distribution strategy is suitable for training on multiple GPUs on a single machine?",
+    "Option1": "TPUStrategy",
+    "Option2": "MirroredStrategy",
+    "Option3": "MultiWorkerMirroredStrategy",
+    "Option4": "ParameterServerStrategy",
+    "Answer": "MirroredStrategy"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is 'TensorFlow Extended (TFX)'?",
+    "Option1": "A library for advanced TensorFlow operations.",
+    "Option2": "An end-to-end platform for deploying production ML pipelines, including data validation, transformation, training, evaluation, and serving.",
+    "Option3": "A tool for debugging TensorFlow models.",
+    "Option4": "A visualization library for TensorFlow.",
+    "Answer": "An end-to-end platform for deploying production ML pipelines, including data validation, transformation, training, evaluation, and serving."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which TFX component is responsible for identifying anomalies and missing values in data?",
+    "Option1": "TensorFlow Transform",
+    "Option2": "TensorFlow Data Validation (TFDV)",
+    "Option3": "TensorFlow Model Analysis (TFMA)",
+    "Option4": "TensorFlow Serving",
+    "Answer": "TensorFlow Data Validation (TFDV)"
+  },
+  {
+    "question_no.": 98,
+    "Question": "Which TFX component is responsible for feature engineering and preprocessing?",
+    "Option1": "TensorFlow Data Validation (TFDV)",
+    "Option2": "TensorFlow Transform (TFT)",
+    "Option3": "TensorFlow Model Analysis (TFMA)",
+    "Option4": "TensorFlow Serving",
+    "Answer": "TensorFlow Transform (TFT)"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'TensorFlow Hub' used for?",
+    "Option1": "Creating new models from scratch.",
+    "Option2": "A library for reusable machine learning modules (e.g., pre-trained embeddings, image models) that can be easily integrated into TensorFlow projects.",
+    "Option3": "Managing TensorFlow installations.",
+    "Option4": "Debugging TensorFlow operations.",
+    "Answer": "A library for reusable machine learning modules (e.g., pre-trained embeddings, image models) that can be easily integrated into TensorFlow projects."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of `tf.keras.layers.Lambda` layer?",
+    "Option1": "To apply a custom activation function.",
+    "Option2": "To wrap an arbitrary expression as a Layer object, allowing custom operations within a Keras model.",
+    "Option3": "To define a new model.",
+    "Option4": "To perform statistical analysis.",
+    "Answer": "To wrap an arbitrary expression as a Layer object, allowing custom operations within a Keras model."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `tf.keras.initializers.GlorotUniform` also known as?",
+    "Option1": "Random uniform initializer.",
+    "Option2": "Xavier uniform initializer, designed to keep the scale of gradients roughly the same across layers.",
+    "Option3": "Zeros initializer.",
+    "Option4": "Ones initializer.",
+    "Answer": "Xavier uniform initializer, designed to keep the scale of gradients roughly the same across layers."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `tf.keras.regularizers.l1_l2` used for?",
+    "Option1": "Only L1 regularization.",
+    "Option2": "Applies both L1 and L2 regularization penalties to the model's weights.",
+    "Option3": "Only L2 regularization.",
+    "Option4": "No regularization.",
+    "Answer": "Applies both L1 and L2 regularization penalties to the model's weights."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Quantization' in TensorFlow?",
+    "Option1": "Adding more precision to models.",
+    "Option2": "A technique to reduce model size and improve inference speed by representing weights and activations with lower precision (e.g., 8-bit integers instead of 32-bit floats).",
+    "Option3": "A technique to increase model complexity.",
+    "Option4": "A method for hyperparameter tuning.",
+    "Answer": "A technique to reduce model size and improve inference speed by representing weights and activations with lower precision (e.g., 8-bit integers instead of 32-bit floats)."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `tf.lookup.TextVectorization` used for?",
+    "Option1": "Converting numerical data to text.",
+    "Option2": "A Keras preprocessing layer for standardizing, splitting, and mapping text to integer indices, and then one-hot encoding or TF-IDF encoding.",
+    "Option3": "Performing text summarization.",
+    "Option4": "Translating text into different languages.",
+    "Answer": "A Keras preprocessing layer for standardizing, splitting, and mapping text to integer indices, and then one-hot encoding or TF-IDF encoding."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'tf.debugging.set_log_device_placement(True)' used for?",
+    "Option1": "To log network traffic.",
+    "Option2": "To print messages about which operations are placed on which device (CPU or GPU) during TensorFlow execution.",
+    "Option3": "To log file system access.",
+    "Option4": "To log training progress.",
+    "Answer": "To print messages about which operations are placed on which device (CPU or GPU) during TensorFlow execution."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `tf.autograph`?",
+    "Option1": "A tool for automatic differentiation.",
+    "Option2": "A TensorFlow feature that converts a subset of Python code into equivalent TensorFlow graph operations, allowing for faster and deployable models.",
+    "Option3": "A tool for automatic model generation.",
+    "Option4": "A tool for visualizing graphs.",
+    "Answer": "A TensorFlow feature that converts a subset of Python code into equivalent TensorFlow graph operations, allowing for faster and deployable models."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `tf.keras.Model.from_pretrained()` used for?",
+    "Option1": "It's not a standard Keras method; pre-trained models are typically loaded from `tf.keras.applications` or custom loading functions.",
+    "Option2": "To load a model from a different framework.",
+    "Option3": "To fine-tune a model.",
+    "Option4": "To load a model from a pre-defined checkpoint.",
+    "Answer": "It's not a standard Keras method; pre-trained models are typically loaded from `tf.keras.applications` or custom loading functions."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the concept of 'graph mode' in TensorFlow 1.x?",
+    "Option1": "Imperative execution.",
+    "Option2": "Defining a static computational graph first, then executing it in a session, which allows for optimizations and deployment.",
+    "Option3": "Debugging mode.",
+    "Option4": "Parallel execution on multiple GPUs.",
+    "Answer": "Defining a static computational graph first, then executing it in a session, which allows for optimizations and deployment."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is the primary way to define custom loss functions in Keras?",
+    "Option1": "By passing a string name to `model.compile()`.",
+    "Option2": "By writing a Python function that takes `y_true` and `y_pred` tensors as input and returns a tensor representing the loss.",
+    "Option3": "By modifying the Keras source code.",
+    "Option4": "By using a predefined list of losses.",
+    "Answer": "By writing a Python function that takes `y_true` and `y_pred` tensors as input and returns a tensor representing the loss."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the primary way to define custom metrics in Keras?",
+    "Option1": "By passing a string name.",
+    "Option2": "By writing a Python function that takes `y_true` and `y_pred` tensors as input and returns a tensor representing the metric value.",
+    "Option3": "By using a callback.",
+    "Option4": "By modifying the optimizer.",
+    "Answer": "By writing a Python function that takes `y_true` and `y_pred` tensors as input and returns a tensor representing the metric value."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `tf.data.Dataset.from_tensor_slices()` used for?",
+    "Option1": "Creating a dataset from a single tensor.",
+    "Option2": "Creating a `tf.data.Dataset` where each element is a slice of the input tensors along their first dimension, useful for batching.",
+    "Option3": "Creating a dataset from a file.",
+    "Option4": "Shuffling a dataset.",
+    "Answer": "Creating a `tf.data.Dataset` where each element is a slice of the input tensors along their first dimension, useful for batching."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `tf.data.Dataset.map()` used for?",
+    "Option1": "To filter elements in the dataset.",
+    "Option2": "To apply a transformation function to each element of the dataset.",
+    "Option3": "To batch elements in the dataset.",
+    "Option4": "To shuffle the dataset.",
+    "Answer": "To apply a transformation function to each element of the dataset."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `tf.data.Dataset.batch()` used for?",
+    "Option1": "To shuffle the dataset.",
+    "Option2": "To combine consecutive elements of the dataset into batches, typically for efficient processing by a model.",
+    "Option3": "To repeat the dataset.",
+    "Option4": "To cache the dataset.",
+    "Answer": "To combine consecutive elements of the dataset into batches, typically for efficient processing by a model."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `tf.data.Dataset.prefetch()` used for?",
+    "Option1": "To load the entire dataset into memory.",
+    "Option2": "To overlap the preprocessing and model execution of training steps, improving pipeline performance by fetching elements while the current step is executing.",
+    "Option3": "To filter elements.",
+    "Option4": "To cache the dataset on disk.",
+    "Answer": "To overlap the preprocessing and model execution of training steps, improving pipeline performance by fetching elements while the current step is executing."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `tf.data.Dataset.cache()` used for?",
+    "Option1": "To store the dataset temporarily for faster access during training, especially if data loading or preprocessing is expensive.",
+    "Option2": "To cache model weights.",
+    "Option3": "To cache gradients.",
+    "Option4": "To cache the training history.",
+    "Answer": "To store the dataset temporarily for faster access during training, especially if data loading or preprocessing is expensive."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the purpose of `tf.lookup.StaticHashTable`?",
+    "Option1": "To create a dynamic hash table.",
+    "Option2": "To define a fixed mapping from keys to values, often used for vocabulary lookups in NLP without recomputing the table each time.",
+    "Option3": "To perform random lookups.",
+    "Option4": "To store numerical data.",
+    "Answer": "To define a fixed mapping from keys to values, often used for vocabulary lookups in NLP without recomputing the table each time."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `tf.image.random_flip_left_right()` used for?",
+    "Option1": "Flipping an image horizontally only.",
+    "Option2": "Randomly flips an image horizontally (left to right) with a 50% chance, a common data augmentation technique.",
+    "Option3": "Flipping an image vertically.",
+    "Option4": "Rotating an image.",
+    "Answer": "Randomly flips an image horizontally (left to right) with a 50% chance, a common data augmentation technique."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `tf.clip_by_norm()` used for?",
+    "Option1": "Normalizing a tensor.",
+    "Option2": "Clipping a tensor's values by its L2-norm, useful for preventing exploding gradients.",
+    "Option3": "Clipping a tensor's values to a specific range.",
+    "Option4": "Clipping gradients by value.",
+    "Answer": "Clipping a tensor's values by its L2-norm, useful for preventing exploding gradients."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the purpose of `tf.keras.layers.TimeDistributed`?",
+    "Option1": "To apply a layer to each step of a sequence independently.",
+    "Option2": "To apply a layer to every time step of a sequence, often used when processing sequential data with `Dense` or `Conv2D` layers.",
+    "Option3": "To apply a layer only to the last time step.",
+    "Option4": "To delay the application of a layer.",
+    "Answer": "To apply a layer to every time step of a sequence, often used when processing sequential data with `Dense` or `Conv2D` layers."
+  },
+  {
+    "question_no.": 120,
+    "Question": "When would you typically use a `TimeDistributed` layer?",
+    "Option1": "When processing images.",
+    "Option2": "When applying a `Dense` layer to a sequence of feature vectors (e.g., outputs of an LSTM that `return_sequences=True`).",
+    "Option3": "When performing classification on a single input.",
+    "Option4": "When training a generative model.",
+    "Answer": "When applying a `Dense` layer to a sequence of feature vectors (e.g., outputs of an LSTM that `return_sequences=True`)."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the purpose of `tf.data.experimental.make_csv_dataset`?",
+    "Option1": "To create a dataset from JSON files.",
+    "Option2": "To create a `tf.data.Dataset` from one or more CSV files, simplifying the loading and parsing of tabular data.",
+    "Option3": "To create a dataset from image files.",
+    "Option4": "To create a dataset from text files.",
+    "Answer": "To create a `tf.data.Dataset` from one or more CSV files, simplifying the loading and parsing of tabular data."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'tf.keras.layers.Masking' used for?",
+    "Option1": "To hide parts of an image.",
+    "Option2": "To mask a sequence by using a masking value to skip time steps that should not be considered, typically used for variable-length sequences with padding.",
+    "Option3": "To apply a filter to a layer.",
+    "Option4": "To obscure sensitive information.",
+    "Answer": "To mask a sequence by using a masking value to skip time steps that should not be considered, typically used for variable-length sequences with padding."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `tf.keras.constraints.max_norm` used for?",
+    "Option1": "To enforce a minimum norm on weights.",
+    "Option2": "To constrain the L2 norm of the weights to be below a certain value, useful for preventing exploding gradients and overfitting.",
+    "Option3": "To normalize weights to a sum of 1.",
+    "Option4": "To initialize weights randomly.",
+    "Answer": "To constrain the L2 norm of the weights to be below a certain value, useful for preventing exploding gradients and overfitting."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the `add_loss()` method in Keras models and layers?",
+    "Option1": "To add a new metric.",
+    "Option2": "To add a new loss component to the model's total loss, useful for custom regularization or auxiliary losses.",
+    "Option3": "To add an optimizer.",
+    "Option4": "To add a new layer.",
+    "Answer": "To add a new loss component to the model's total loss, useful for custom regularization or auxiliary losses."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `tf.keras.metrics.Mean` used for?",
+    "Option1": "Calculating the mean of gradients.",
+    "Option2": "An aggregate metric that computes the mean of a stream of values over time, useful for tracking average loss or accuracy during training.",
+    "Option3": "Calculating the mean of a tensor at a single step.",
+    "Option4": "Calculating the mean of probabilities.",
+    "Answer": "An aggregate metric that computes the mean of a stream of values over time, useful for tracking average loss or accuracy during training."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `tf.keras.metrics.Accuracy` used for?",
+    "Option1": "Calculating precision.",
+    "Option2": "A metric that computes the average accuracy between true labels and predictions over batches.",
+    "Option3": "Calculating recall.",
+    "Option4": "Calculating F1-score.",
+    "Answer": "A metric that computes the average accuracy between true labels and predictions over batches."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `tf.keras.metrics.Precision` and `tf.keras.metrics.Recall` used for?",
+    "Option1": "For regression tasks.",
+    "Option2": "To calculate the precision (proportion of true positives among all positive predictions) and recall (proportion of true positives among all actual positives) for classification.",
+    "Option3": "For unsupervised learning.",
+    "Option4": "For calculating variance.",
+    "Answer": "To calculate the precision (proportion of true positives among all positive predictions) and recall (proportion of true positives among all actual positives) for classification."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `tf.keras.optimizers.schedules.ExponentialDecay` used for?",
+    "Option1": "A fixed learning rate.",
+    "Option2": "A learning rate scheduler that decays the learning rate exponentially over time, helping to stabilize training.",
+    "Option3": "Increasing the learning rate.",
+    "Option4": "Randomizing the learning rate.",
+    "Answer": "A learning rate scheduler that decays the learning rate exponentially over time, helping to stabilize training."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `tf.data.experimental.make_csv_dataset` parameter `label_name` for?",
+    "Option1": "To specify the name of the feature columns.",
+    "Option2": "To specify the name of the column that contains the target labels.",
+    "Option3": "To specify the number of rows to skip.",
+    "Option4": "To specify the delimiter of the CSV.",
+    "Answer": "To specify the name of the column that contains the target labels."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `tf.data.experimental.bucket_by_sequence_length` used for?",
+    "Option1": "To sort sequences by length.",
+    "Option2": "To bucket elements into batches based on their sequence length, allowing for more efficient training with variable-length sequences by minimizing padding.",
+    "Option3": "To truncate long sequences.",
+    "Option4": "To pad short sequences.",
+    "Answer": "To bucket elements into batches based on their sequence length, allowing for more efficient training with variable-length sequences by minimizing padding."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `tf.data.experimental.ignore_errors()` used for?",
+    "Option1": "To stop training on errors.",
+    "Option2": "To silently ignore errors when iterating over a `tf.data.Dataset`, useful for handling corrupted files or invalid records in large datasets.",
+    "Option3": "To log all errors.",
+    "Option4": "To raise an error for every issue.",
+    "Answer": "To silently ignore errors when iterating over a `tf.data.Dataset`, useful for handling corrupted files or invalid records in large datasets."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `tf.keras.preprocessing.text.Tokenizer` used for?",
+    "Option1": "To process numerical data.",
+    "Option2": "To vectorize a text corpus by turning each text into either a sequence of integers (word indices) or a vector of word counts, or TF-IDF scores.",
+    "Option3": "To generate text.",
+    "Option4": "To summarize text documents.",
+    "Answer": "To vectorize a text corpus by turning each text into either a sequence of integers (word indices) or a vector of word counts, or TF-IDF scores."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the `num_words` parameter in `Tokenizer`?",
+    "Option1": "The maximum length of a sequence.",
+    "Option2": "The maximum number of words to keep, based on word frequency, keeping only the most common words.",
+    "Option3": "The minimum number of words in a document.",
+    "Option4": "The number of epochs for training.",
+    "Answer": "The maximum number of words to keep, based on word frequency, keeping only the most common words."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `tf.io.FixedLenFeature` used for in `tf.io.parse_single_example`?",
+    "Option1": "To parse variable-length features.",
+    "Option2": "To describe a feature that has a fixed shape and type in a `tf.train.Example` protocol buffer.",
+    "Option3": "To parse features with unknown length.",
+    "Option4": "To parse text features.",
+    "Answer": "To describe a feature that has a fixed shape and type in a `tf.train.Example` protocol buffer."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `tf.io.VarLenFeature` used for?",
+    "Option1": "To parse fixed-length features.",
+    "Option2": "To describe a feature that has a variable shape and type in a `tf.train.Example` protocol buffer, often used for sparse features or sequences.",
+    "Option3": "To parse numerical features.",
+    "Option4": "To parse image features.",
+    "Answer": "To describe a feature that has a variable shape and type in a `tf.train.Example` protocol buffer, often used for sparse features or sequences."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the concept of 'TensorFlow Serving'?",
+    "Option1": "A library for training models.",
+    "Option2": "A flexible, high-performance serving system for machine learning models, designed for production environments.",
+    "Option3": "A tool for model evaluation.",
+    "Option4": "A tool for data preprocessing.",
+    "Answer": "A flexible, high-performance serving system for machine learning models, designed for production environments."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the role of `tf.saved_model.loader.load` in TensorFlow 1.x (or `tf.saved_model.load` in 2.x)?",
+    "Option1": "To train a new model.",
+    "Option2": "To load a previously saved TensorFlow model for inference or fine-tuning.",
+    "Option3": "To save a model.",
+    "Option4": "To export a model to a different format.",
+    "Answer": "To load a previously saved TensorFlow model for inference or fine-tuning."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'tf.estimator' API?",
+    "Option1": "The primary Keras API.",
+    "Option2": "A high-level TensorFlow API that simplifies machine learning programming, providing pre-made estimators and enabling distributed training, though often superseded by Keras in TensorFlow 2.x.",
+    "Option3": "A low-level TensorFlow operation.",
+    "Option4": "A data visualization tool.",
+    "Answer": "A high-level TensorFlow API that simplifies machine learning programming, providing pre-made estimators and enabling distributed training, though often superseded by Keras in TensorFlow 2.x."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `tf.keras.layers.LeakyReLU`?",
+    "Option1": "A standard ReLU activation.",
+    "Option2": "A variant of ReLU that allows a small, non-zero gradient when the input is negative, addressing the 'dying ReLU' problem.",
+    "Option3": "A sigmoid function.",
+    "Option4": "A linear activation.",
+    "Answer": "A variant of ReLU that allows a small, non-zero gradient when the input is negative, addressing the 'dying ReLU' problem."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `tf.keras.layers.ELU` (Exponential Linear Unit)?",
+    "Option1": "A simple ReLU function.",
+    "Option2": "An activation function that outputs the input for positive values and an exponential decay for negative values, often leading to faster learning and better generalization than ReLU.",
+    "Option3": "A tanh variant.",
+    "Option4": "A linear activation.",
+    "Answer": "An activation function that outputs the input for positive values and an exponential decay for negative values, often leading to faster learning and better generalization than ReLU."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Custom Layers' in Keras (Subclassing `tf.keras.layers.Layer`)?",
+    "Option1": "Using pre-defined Keras layers.",
+    "Option2": "Defining entirely new layer types by subclassing `tf.keras.layers.Layer`, allowing for highly specialized and reusable building blocks.",
+    "Option3": "Modifying existing Keras layers.",
+    "Option4": "Adding more neurons to a layer.",
+    "Answer": "Defining entirely new layer types by subclassing `tf.keras.layers.Layer`, allowing for highly specialized and reusable building blocks."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What methods must be implemented when creating a custom Keras layer by subclassing `Layer`?",
+    "Option1": "__init__() and call()",
+    "Option2": "build() and call()",
+    "Option3": "build(), call(), and compute_output_shape()",
+    "Option4": "compile() and fit()",
+    "Answer": "build() and call()"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `tf.keras.backend` used for?",
+    "Option1": "A low-level API that provides functions for manipulating tensors and defining operations, allowing Keras to be backend-agnostic (TensorFlow, Theano, CNTK).",
+    "Option2": "Managing the Keras UI.",
+    "Option3": "Saving and loading models.",
+    "Option4": "Training models on different hardware.",
+    "Answer": "A low-level API that provides functions for manipulating tensors and defining operations, allowing Keras to be backend-agnostic (TensorFlow, Theano, CNTK)."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `tf.nn.softmax_cross_entropy_with_logits` (or `tf.keras.losses.CategoricalCrossentropy(from_logits=True)` equivalent)?",
+    "Option1": "A loss function for binary classification.",
+    "Option2": "A loss function for multi-class classification that computes the softmax activation and then the cross-entropy loss, operating on raw logits (unscaled predictions).",
+    "Option3": "A loss function for regression.",
+    "Option4": "A loss function for sparse labels.",
+    "Answer": "A loss function for multi-class classification that computes the softmax activation and then the cross-entropy loss, operating on raw logits (unscaled predictions)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `from_logits=True` parameter in Keras loss functions like `CategoricalCrossentropy` or `BinaryCrossentropy`?",
+    "Option1": "It means the input probabilities are already normalized.",
+    "Option2": "It means the input predictions are raw, unscaled logits, and the loss function should apply the appropriate activation (softmax or sigmoid) internally for numerical stability.",
+    "Option3": "It means the loss function should output logits.",
+    "Option4": "It disables the use of logits.",
+    "Answer": "It means the input predictions are raw, unscaled logits, and the loss function should apply the appropriate activation (softmax or sigmoid) internally for numerical stability."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `tf.cast()` used for?",
+    "Option1": "Casting a tensor to a Python list.",
+    "Option2": "Casting a tensor to a new data type (e.g., from `tf.float32` to `tf.float16`).",
+    "Option3": "Casting a string to a number.",
+    "Option4": "Casting a list to a tensor.",
+    "Answer": "Casting a tensor to a new data type (e.g., from `tf.float32` to `tf.float16`)."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `tf.random.set_seed()` used for?",
+    "Option1": "To generate truly random numbers.",
+    "Option2": "To set the global random seed for TensorFlow operations, ensuring reproducibility of random processes across runs.",
+    "Option3": "To set the seed for a single random operation.",
+    "Option4": "To reset random state.",
+    "Answer": "To set the global random seed for TensorFlow operations, ensuring reproducibility of random processes across runs."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `tf.where()` used for?",
+    "Option1": "To find the location of a specific value.",
+    "Option2": "Returns elements chosen from `x` or `y` depending on `condition`, performing element-wise selection.",
+    "Option3": "To check for missing values.",
+    "Option4": "To filter elements based on a condition.",
+    "Answer": "Returns elements chosen from `x` or `y` depending on `condition`, performing element-wise selection."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `tf.nn.relu()`?",
+    "Option1": "A Keras layer for ReLU.",
+    "Option2": "The TensorFlow low-level operation for applying the ReLU activation function element-wise.",
+    "Option3": "A function for Leaky ReLU.",
+    "Option4": "A function for ELU.",
+    "Answer": "The TensorFlow low-level operation for applying the ReLU activation function element-wise."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `tf.nest` used for?",
+    "Option1": "Handling nested dictionaries.",
+    "Option2": "Utilities for working with nested structures (lists, tuples, dicts) of tensors or other Python objects, enabling functions to operate uniformly on such structures.",
+    "Option3": "Creating nested neural networks.",
+    "Option4": "Debugging nested loops.",
+    "Answer": "Utilities for working with nested structures (lists, tuples, dicts) of tensors or other Python objects, enabling functions to operate uniformly on such structures."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the concept of 'graph serialization' in TensorFlow?",
+    "Option1": "Storing graph visualizations.",
+    "Option2": "Saving the computational graph structure to disk, enabling deployment without Python code dependencies.",
+    "Option3": "Converting graphs to images.",
+    "Option4": "Optimizing graph execution.",
+    "Answer": "Saving the computational graph structure to disk, enabling deployment without Python code dependencies."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `tf.summary.create_file_writer()` used for?",
+    "Option1": "Writing model weights.",
+    "Option2": "Creating a summary writer for TensorBoard logs, specifying the directory where event files will be saved.",
+    "Option3": "Writing loss values to a file.",
+    "Option4": "Creating a new dataset.",
+    "Answer": "Creating a summary writer for TensorBoard logs, specifying the directory where event files will be saved."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `with writer.as_default(): tf.summary.scalar(...)` used for?",
+    "Option1": "To log non-scalar values.",
+    "Option2": "To log scalar values (e.g., loss, accuracy) to TensorBoard within the context of a summary writer.",
+    "Option3": "To create a new summary.",
+    "Option4": "To read summary data.",
+    "Answer": "To log scalar values (e.g., loss, accuracy) to TensorBoard within the context of a summary writer."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `tf.keras.callbacks.LearningRateScheduler`?",
+    "Option1": "A callback to manually set the learning rate.",
+    "Option2": "A callback that allows you to define a custom learning rate schedule during training, adjusting the learning rate based on epoch number or other criteria.",
+    "Option3": "A callback to stop training when learning rate is too low.",
+    "Option4": "A callback to visualize the learning rate.",
+    "Answer": "A callback that allows you to define a custom learning rate schedule during training, adjusting the learning rate based on epoch number or other criteria."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `tf.keras.callbacks.CSVLogger`?",
+    "Option1": "A callback to save model weights to CSV.",
+    "Option2": "A callback that streams epoch results to a CSV file, useful for easily analyzing training history.",
+    "Option3": "A callback to log data to console.",
+    "Option4": "A callback for logging image data.",
+    "Answer": "A callback that streams epoch results to a CSV file, useful for easily analyzing training history."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `tf.keras.callbacks.ReduceLROnPlateau`?",
+    "Option1": "A callback to increase the learning rate.",
+    "Option2": "A callback that reduces the learning rate when a metric has stopped improving, helping the model converge to a better minimum.",
+    "Option3": "A callback to reset the learning rate.",
+    "Option4": "A callback to randomly change the learning rate.",
+    "Answer": "A callback that reduces the learning rate when a metric has stopped improving, helping the model converge to a better minimum."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the concept of 'backpropagation' in neural networks?",
+    "Option1": "The process of forwarding data through the network.",
+    "Option2": "An algorithm used to train neural networks by calculating the gradient of the loss function with respect to the network's weights, and then using these gradients to update the weights.",
+    "Option3": "The process of initializing weights.",
+    "Option4": "The process of making predictions.",
+    "Answer": "An algorithm used to train neural networks by calculating the gradient of the loss function with respect to the network's weights, and then using these gradients to update the weights."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the primary role of the `backend` in Keras (e.g., `tf.keras.backend`)?",
+    "Option1": "To handle data loading.",
+    "Option2": "To provide a set of low-level tensor operations, enabling Keras to run on different deep learning frameworks like TensorFlow, Theano, or CNTK.",
+    "Option3": "To manage model deployment.",
+    "Option4": "To visualize training progress.",
+    "Answer": "To provide a set of low-level tensor operations, enabling Keras to run on different deep learning frameworks like TensorFlow, Theano, or CNTK."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `tf.autograph.to_code()` useful for?",
+    "Option1": "Converting a TensorFlow graph to a Keras model.",
+    "Option2": "Inspecting the Python code that TensorFlow's AutoGraph transformed into a callable TensorFlow graph, useful for debugging.",
+    "Option3": "Generating C++ code from TensorFlow.",
+    "Option4": "Converting Keras code to TensorFlow.",
+    "Answer": "Inspecting the Python code that TensorFlow's AutoGraph transformed into a callable TensorFlow graph, useful for debugging."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `tf.config.experimental.set_visible_devices()` used for?",
+    "Option1": "To make all devices visible.",
+    "Option2": "To control which physical GPUs are visible to TensorFlow for allocation, useful in environments with multiple GPUs.",
+    "Option3": "To hide all devices.",
+    "Option4": "To list available devices.",
+    "Answer": "To control which physical GPUs are visible to TensorFlow for allocation, useful in environments with multiple GPUs."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `tf.data.experimental.snapshot()` used for?",
+    "Option1": "To take a screenshot of the training process.",
+    "Option2": "To cache a dataset across multiple training runs in a highly optimized binary format, speeding up subsequent epochs/runs.",
+    "Option3": "To save model checkpoints.",
+    "Option4": "To create a backup of the original dataset.",
+    "Answer": "To cache a dataset across multiple training runs in a highly optimized binary format, speeding up subsequent epochs/runs."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `tf.strings.lower()` used for?",
+    "Option1": "Converting numbers to strings.",
+    "Option2": "Converts all uppercase characters in a string tensor to lowercase.",
+    "Option3": "Converting strings to numbers.",
+    "Option4": "Concatenating strings.",
+    "Answer": "Converts all uppercase characters in a string tensor to lowercase."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `tf.strings.regex_replace()` used for?",
+    "Option1": "Replacing strings by index.",
+    "Option2": "Replaces occurrences of a regular expression pattern within a string tensor with a specified replacement string.",
+    "Option3": "Replacing strings by value.",
+    "Option4": "Checking for string equality.",
+    "Answer": "Replaces occurrences of a regular expression pattern within a string tensor with a specified replacement string."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `tf.strings.split()` used for?",
+    "Option1": "Joining strings.",
+    "Option2": "Splits elements of a string tensor into a RaggedTensor by a given delimiter, useful for tokenizing text.",
+    "Option3": "Trimming strings.",
+    "Option4": "Converting strings to numbers.",
+    "Answer": "Splits elements of a string tensor into a RaggedTensor by a given delimiter, useful for tokenizing text."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `tf.RaggedTensor`?",
+    "Option1": "A tensor with fixed dimensions.",
+    "Option2": "A tensor that represents data with varying-length dimensions (e.g., sequences of different lengths in a batch), allowing for efficient storage and computation without padding.",
+    "Option3": "A tensor with only one dimension.",
+    "Option4": "A sparse tensor.",
+    "Answer": "A tensor that represents data with varying-length dimensions (e.g., sequences of different lengths in a batch), allowing for efficient storage and computation without padding."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `tf.sparse.SparseTensor`?",
+    "Option1": "A dense tensor.",
+    "Option2": "A representation of sparse data using `indices`, `values`, and `dense_shape`, storing only the non-zero elements.",
+    "Option3": "A tensor for numerical data only.",
+    "Option4": "A tensor with variable shape.",
+    "Answer": "A representation of sparse data using `indices`, `values`, and `dense_shape`, storing only the non-zero elements."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `tf.sparse.to_dense()` used for?",
+    "Option1": "Converting a dense tensor to sparse.",
+    "Option2": "Converts a `SparseTensor` into a dense tensor, potentially consuming more memory if the tensor is very sparse.",
+    "Option3": "Converting a list to a tensor.",
+    "Option4": "Converting a tensor to a list.",
+    "Answer": "Converts a `SparseTensor` into a dense tensor, potentially consuming more memory if the tensor is very sparse."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `tf.io.decode_raw()` used for?",
+    "Option1": "Decoding compressed data.",
+    "Option2": "Reinterpret the bytes of a string as a tensor of numbers without parsing any specific format.",
+    "Option3": "Decoding JSON data.",
+    "Option4": "Decoding image data.",
+    "Answer": "Reinterpret the bytes of a string as a tensor of numbers without parsing any specific format."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `tf.io.decode_csv()` used for?",
+    "Option1": "Decoding JSON strings.",
+    "Option2": "Converts CSV records to tensors, useful for parsing data from CSV files.",
+    "Option3": "Decoding image files.",
+    "Option4": "Decoding audio files.",
+    "Answer": "Converts CSV records to tensors, useful for parsing data from CSV files."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the purpose of `tf.keras.layers.LocallyConnected2D`?",
+    "Option1": "A standard convolutional layer.",
+    "Option2": "A layer where connections are local but weights are not shared across different locations, often used for situations where features might differ across parts of the input (e.g., faces).",
+    "Option3": "A layer for global feature extraction.",
+    "Option4": "A layer for sparse connections.",
+    "Answer": "A layer where connections are local but weights are not shared across different locations, often used for situations where features might differ across parts of the input (e.g., faces)."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `tf.keras.layers.Attention` used for?",
+    "Option1": "To highlight important features.",
+    "Option2": "A layer that computes an attention score between a query and keys, weighting values based on these scores, a fundamental building block for Transformers and other sequence models.",
+    "Option3": "To smooth the output of a layer.",
+    "Option4": "To generate random values.",
+    "Answer": "A layer that computes an attention score between a query and keys, weighting values based on these scores, a fundamental building block for Transformers and other sequence models."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `tf.keras.layers.MultiHeadAttention` used for?",
+    "Option1": "Single head attention.",
+    "Option2": "A layer that performs attention in parallel across multiple 'heads', allowing the model to jointly attend to information from different representation subspaces at different positions.",
+    "Option3": "To combine attention with pooling.",
+    "Option4": "To perform attention on multiple sequences.",
+    "Answer": "A layer that performs attention in parallel across multiple 'heads', allowing the model to jointly attend to information from different representation subspaces at different positions."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the role of `tf.keras.layers.LayerNormalization`?",
+    "Option1": "To normalize batch outputs.",
+    "Option2": "To normalize the inputs across the features (not across batch dimension), which helps in stabilizing training, especially in RNNs and Transformers.",
+    "Option3": "To normalize individual neurons.",
+    "Option4": "To normalize weights.",
+    "Answer": "To normalize the inputs across the features (not across batch dimension), which helps in stabilizing training, especially in RNNs and Transformers."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the key difference between `BatchNormalization` and `LayerNormalization`?",
+    "Option1": "BatchNormalization is faster.",
+    "Option2": "BatchNormalization normalizes across the batch dimension (mean and variance are computed per feature, across samples), while LayerNormalization normalizes across the feature dimension (mean and variance are computed per sample, across features).",
+    "Option3": "LayerNormalization is only for RNNs.",
+    "Option4": "BatchNormalization is only for CNNs.",
+    "Answer": "BatchNormalization normalizes across the batch dimension (mean and variance are computed per feature, across samples), while LayerNormalization normalizes across the feature dimension (mean and variance are computed per sample, across features)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `tf.keras.losses.KLDivergence` used for?",
+    "Option1": "Regression loss.",
+    "Option2": "A loss function that measures the Kullback-Leibler divergence between two probability distributions, often used in variational autoencoders or for regularization.",
+    "Option3": "Classification loss.",
+    "Option4": "Clustering loss.",
+    "Answer": "A loss function that measures the Kullback-Leibler divergence between two probability distributions, often used in variational autoencoders or for regularization."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `tf.keras.losses.Huber` used for?",
+    "Option1": "Classification loss.",
+    "Option2": "A regression loss function that is less sensitive to outliers than Mean Squared Error (MSE) by acting as MSE for small errors and Mean Absolute Error (MAE) for large errors.",
+    "Option3": "Binary classification loss.",
+    "Option4": "Multi-class classification loss.",
+    "Answer": "A regression loss function that is less sensitive to outliers than Mean Squared Error (MSE) by acting as MSE for small errors and Mean Absolute Error (MAE) for large errors."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is the purpose of `tf.data.experimental.assert_cardinality()`?",
+    "Option1": "To assert the shape of tensors.",
+    "Option2": "To assert that a dataset has a known and specific number of elements, useful for debugging or ensuring complete data processing.",
+    "Option3": "To assert the type of elements.",
+    "Option4": "To assert the batch size.",
+    "Answer": "To assert that a dataset has a known and specific number of elements, useful for debugging or ensuring complete data processing."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `tf.keras.mixed_precision.Policy` used for?",
+    "Option1": "To control the learning rate.",
+    "Option2": "To enable mixed precision training, which uses a combination of float16 and float32 data types to speed up training and reduce memory usage on compatible hardware (GPUs, TPUs).",
+    "Option3": "To handle missing values in data.",
+    "Option4": "To select the optimizer.",
+    "Answer": "To enable mixed precision training, which uses a combination of float16 and float32 data types to speed up training and reduce memory usage on compatible hardware (GPUs, TPUs)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the benefit of mixed precision training?",
+    "Option1": "Always leads to higher accuracy.",
+    "Option2": "Speeds up training and reduces memory footprint, especially on modern GPUs and TPUs, without significant loss of accuracy.",
+    "Option3": "Eliminates the need for regularization.",
+    "Option4": "Simplifies model architecture design.",
+    "Answer": "Speeds up training and reduces memory footprint, especially on modern GPUs and TPUs, without significant loss of accuracy."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `tf.lite.TFLiteConverter` used for?",
+    "Option1": "Converting Keras models to SavedModel format.",
+    "Option2": "Converting TensorFlow models (including Keras models) into the TensorFlow Lite format (.tflite), optimized for mobile and edge devices.",
+    "Option3": "Converting models to TensorFlow.js format.",
+    "Option4": "Converting models to ONNX format.",
+    "Answer": "Converting TensorFlow models (including Keras models) into the TensorFlow Lite format (.tflite), optimized for mobile and edge devices."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `tf.GradientTape(persistent=True)` used for?",
+    "Option1": "To disable gradient recording.",
+    "Option2": "To allow computation of multiple gradients over the same tape without the tape being consumed after the first call to `tape.gradient()`.",
+    "Option3": "To only record gradients for persistent variables.",
+    "Option4": "To store gradients on disk.",
+    "Answer": "To allow computation of multiple gradients over the same tape without the tape being consumed after the first call to `tape.gradient()`."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `tf.keras.layers.Add()`?",
+    "Option1": "A layer to perform element-wise subtraction.",
+    "Option2": "A functional API layer that performs element-wise addition of a list of inputs, useful for skip connections (e.g., in ResNet).",
+    "Option3": "A layer to concatenate tensors.",
+    "Option4": "A layer to multiply tensors.",
+    "Answer": "A functional API layer that performs element-wise addition of a list of inputs, useful for skip connections (e.g., in ResNet)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `tf.keras.layers.Concatenate()`?",
+    "Option1": "A layer to perform element-wise addition.",
+    "Option2": "A functional API layer that concatenates a list of input tensors along a given axis, useful for combining features.",
+    "Option3": "A layer to subtract tensors.",
+    "Option4": "A layer to split tensors.",
+    "Answer": "A functional API layer that concatenates a list of input tensors along a given axis, useful for combining features."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `tf.keras.layers.Dot()` used for?",
+    "Option1": "Element-wise multiplication.",
+    "Option2": "A layer that computes the dot product (or inner product) of two tensors, useful in attention mechanisms or similarity computations.",
+    "Option3": "Matrix multiplication.",
+    "Option4": "Cross product.",
+    "Answer": "A layer that computes the dot product (or inner product) of two tensors, useful in attention mechanisms or similarity computations."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `tf.keras.metrics.AUC` used for?",
+    "Option1": "Area under the precision-recall curve.",
+    "Option2": "Area Under the Receiver Operating Characteristic (ROC) curve, a common metric for evaluating binary classification models, especially with imbalanced datasets.",
+    "Option3": "Area under the F1-score curve.",
+    "Option4": "Area under the loss curve.",
+    "Answer": "Area Under the Receiver Operating Characteristic (ROC) curve, a common metric for evaluating binary classification models, especially with imbalanced datasets."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `tf.keras.metrics.Recall(thresholds=...)` used for?",
+    "Option1": "To calculate recall at different confidence levels (thresholds) for binary classification.",
+    "Option2": "To set the minimum recall value.",
+    "Option3": "To calculate recall for multi-class problems.",
+    "Option4": "To calculate recall for regression.",
+    "Answer": "To calculate recall at different confidence levels (thresholds) for binary classification."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `tf.keras.losses.MeanAbsolutePercentageError` (MAPE)?",
+    "Option1": "Mean Squared Error for percentages.",
+    "Option2": "A regression loss function that measures the average absolute percentage difference between predicted and actual values, useful when relative errors are more important.",
+    "Option3": "Mean Absolute Error for percentages.",
+    "Option4": "A classification loss.",
+    "Answer": "A regression loss function that measures the average absolute percentage difference between predicted and actual values, useful when relative errors are more important."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `tf.keras.losses.LogCosh`?",
+    "Option1": "A standard regression loss.",
+    "Option2": "A regression loss function that is smoother than MSE and more robust to outliers than MSE, defined as log(cosh(x)).",
+    "Option3": "A classification loss.",
+    "Option4": "A loss for sparse data.",
+    "Answer": "A regression loss function that is smoother than MSE and more robust to outliers than MSE, defined as log(cosh(x))."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `tf.keras.utils.plot_model` used for?",
+    "Option1": "Plotting training history.",
+    "Option2": "Generating a visual graph of the model's architecture, showing layers and connections.",
+    "Option3": "Plotting data distributions.",
+    "Option4": "Plotting feature importance.",
+    "Answer": "Generating a visual graph of the model's architecture, showing layers and connections."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `tf.config.experimental.set_memory_growth(physical_devices[0], True)`?",
+    "Option1": "Allocates fixed memory for the first GPU.",
+    "Option2": "Configures TensorFlow to dynamically allocate GPU memory as needed for the first physical GPU, rather than reserving all available memory.",
+    "Option3": "Limits memory usage to a small amount.",
+    "Option4": "Resets GPU memory.",
+    "Answer": "Configures TensorFlow to dynamically allocate GPU memory as needed for the first physical GPU, rather than reserving all available memory."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the purpose of `tf.lookup.StaticHashTable`?",
+    "Option1": "To create a hash table that can change during runtime.",
+    "Option2": "To create a lookup table whose keys and values are fixed at graph construction time, commonly used for vocabulary mapping in NLP pipelines.",
+    "Option3": "To store numerical data in a hash map.",
+    "Option4": "To dynamically map words to embeddings.",
+    "Answer": "To create a lookup table whose keys and values are fixed at graph construction time, commonly used for vocabulary mapping in NLP pipelines."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `tf.data.experimental.snapshot()`?",
+    "Option1": "A method to quickly save the current state of a dataset to disk for later restoration, useful for debugging.",
+    "Option2": "A method to create a static copy of the dataset that can be efficiently reused across multiple training runs without re-executing the entire data pipeline.",
+    "Option3": "A method to capture images during training.",
+    "Option4": "A method to compress the dataset.",
+    "Answer": "A method to create a static copy of the dataset that can be efficiently reused across multiple training runs without re-executing the entire data pipeline."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the primary role of `tf.keras.utils.Sequence`?",
+    "Option1": "To define a custom Keras layer.",
+    "Option2": "To provide a way to feed data to Keras models that is safer than `fit_generator` and compatible with multiprocessing, especially for large datasets that don't fit in memory.",
+    "Option3": "To define a custom loss function.",
+    "Option4": "To define a custom optimizer.",
+    "Answer": "To provide a way to feed data to Keras models that is safer than `fit_generator` and compatible with multiprocessing, especially for large datasets that don't fit in memory."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What methods are typically implemented when subclassing `tf.keras.utils.Sequence`?",
+    "Option1": "__init__(), fit(), and predict()",
+    "Option2": "__len__(), __getitem__(), and optionally on_epoch_end()",
+    "Option3": "build(), call(), and compile()",
+    "Option4": "evaluate(), predict(), and save()",
+    "Answer": "__len__(), __getitem__(), and optionally on_epoch_end()"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `tf.keras.mixed_precision.experimental.set_policy()` used for?",
+    "Option1": "To disable mixed precision.",
+    "Option2": "To configure the global mixed precision policy for the Keras backend, affecting the data types used for computations.",
+    "Option3": "To set the number of training epochs.",
+    "Option4": "To choose the GPU device.",
+    "Answer": "To configure the global mixed precision policy for the Keras backend, affecting the data types used for computations."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the purpose of `tf.lookup.TextVectorization` parameter `max_tokens`?",
+    "Option1": "The maximum number of characters in a token.",
+    "Option2": "The maximum number of unique words/tokens to keep in the vocabulary, based on frequency.",
+    "Option3": "The maximum length of a sequence.",
+    "Option4": "The maximum number of documents.",
+    "Answer": "The maximum number of unique words/tokens to keep in the vocabulary, based on frequency."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `tf.keras.layers.GlobalMaxPooling1D` used for in NLP?",
+    "Option1": "Average pooling over time steps.",
+    "Option2": "To take the maximum value across all time steps for each feature in a sequence, often used after `Conv1D` layers before feeding into a `Dense` layer for classification.",
+    "Option3": "To flatten the sequence.",
+    "Option4": "To apply padding.",
+    "Answer": "To take the maximum value across all time steps for each feature in a sequence, often used after `Conv1D` layers before feeding into a `Dense` layer for classification."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `tf.keras.layers.Cropping2D` used for?",
+    "Option1": "Resizing images.",
+    "Option2": "Cropping images from the top, bottom, left, and right, often used as a preprocessing step in CNNs.",
+    "Option3": "Rotating images.",
+    "Option4": "Adding padding to images.",
+    "Answer": "Cropping images from the top, bottom, left, and right, often used as a preprocessing step in CNNs."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `tf.keras.layers.UpSampling2D` used for?",
+    "Option1": "Downsampling images.",
+    "Option2": "Repeats rows and columns of the data to increase the spatial resolution, often used in generative models or semantic segmentation.",
+    "Option3": "Cropping images.",
+    "Option4": "Filtering images.",
+    "Answer": "Repeats rows and columns of the data to increase the spatial resolution, often used in generative models or semantic segmentation."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `tf.signal.rfft` used for?",
+    "Option1": "Inverse Fast Fourier Transform.",
+    "Option2": "Computes the real-valued Fast Fourier Transform (FFT) of a real-valued signal, useful in signal processing and audio applications.",
+    "Option3": "Complex Fast Fourier Transform.",
+    "Option4": "Discrete Cosine Transform.",
+    "Answer": "Computes the real-valued Fast Fourier Transform (FFT) of a real-valued signal, useful in signal processing and audio applications."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the purpose of `tf.compat.v1`?",
+    "Option1": "To access TensorFlow 2.x functionalities.",
+    "Option2": "To access TensorFlow 1.x symbols and functionalities in TensorFlow 2.x, enabling backward compatibility.",
+    "Option3": "To access compatible hardware.",
+    "Option4": "To create new compatibility layers.",
+    "Answer": "To access TensorFlow 1.x symbols and functionalities in TensorFlow 2.x, enabling backward compatibility."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `tf.nest.map_structure()` used for?",
+    "Option1": "To flatten a nested structure.",
+    "Option2": "To apply a function to each element of a nested structure (e.g., list of lists, dict of tensors) while preserving the original structure.",
+    "Option3": "To create a new nested structure.",
+    "Option4": "To check if a structure is nested.",
+    "Answer": "To apply a function to each element of a nested structure (e.g., list of lists, dict of tensors) while preserving the original structure."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `tf.data.Dataset.reduce()` used for?",
+    "Option1": "To reduce the size of the dataset.",
+    "Option2": "To apply a reduce function to the dataset, aggregating elements into a single result.",
+    "Option3": "To reduce the dimensionality of data.",
+    "Option4": "To filter elements that reduce the performance.",
+    "Answer": "To apply a reduce function to the dataset, aggregating elements into a single result."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the role of `tf.keras.activations.swish`?",
+    "Option1": "A non-linear activation function, similar to ReLU, but where x * sigmoid(x), often outperforming ReLU in deeper models.",
+    "Option2": "A linear activation function.",
+    "Option3": "A sigmoid variant.",
+    "Option4": "A custom activation function that rarely sees use.",
+    "Answer": "A non-linear activation function, similar to ReLU, but where x * sigmoid(x), often outperforming ReLU in deeper models."
+  }
+]

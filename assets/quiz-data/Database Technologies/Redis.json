@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of database is Redis primarily?",
+    "Option1": "Relational Database",
+    "Option2": "Document Database",
+    "Option3": "Key-Value Store",
+    "Option4": "Graph Database",
+    "Answer": "Key-Value Store"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Is Redis an in-memory database?",
+    "Option1": "No, it's disk-based only.",
+    "Option2": "Yes, it primarily stores data in RAM for speed.",
+    "Option3": "It stores data solely in flash storage.",
+    "Option4": "It's a hybrid, but mostly disk-based.",
+    "Answer": "Yes, it primarily stores data in RAM for speed."
+  },
+  {
+    "question_no.": 3,
+    "Question": "What does Redis stand for?",
+    "Option1": "Relational Database Instance System",
+    "Option2": "REmote DIctionary Server",
+    "Option3": "Rapid Data Integration System",
+    "Option4": "Real-time Distributed Storage",
+    "Answer": "REmote DIctionary Server"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which data structure is NOT natively supported by Redis?",
+    "Option1": "Strings",
+    "Option2": "Hashes",
+    "Option3": "Trees",
+    "Option4": "Lists",
+    "Answer": "Trees"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the command to set a simple string key-value pair in Redis?",
+    "Option1": "GET mykey myvalue",
+    "Option2": "SET mykey myvalue",
+    "Option3": "ADD mykey myvalue",
+    "Option4": "PUT mykey myvalue",
+    "Answer": "SET mykey myvalue"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you retrieve the value of a string key in Redis?",
+    "Option1": "FETCH mykey",
+    "Option2": "READ mykey",
+    "Option3": "GET mykey",
+    "Option4": "RETRIEVE mykey",
+    "Answer": "GET mykey"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which data structure is suitable for storing a collection of unique items without order?",
+    "Option1": "Lists",
+    "Option2": "Sets",
+    "Option3": "Hashes",
+    "Option4": "Sorted Sets",
+    "Answer": "Sets"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which command is used to add one or more members to a set?",
+    "Option1": "LPUSH",
+    "Option2": "HSET",
+    "Option3": "SADD",
+    "Option4": "ZADD",
+    "Answer": "SADD"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which data structure is ideal for implementing a queue or stack?",
+    "Option1": "Strings",
+    "Option2": "Lists",
+    "Option3": "Hashes",
+    "Option4": "Sets",
+    "Answer": "Lists"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What command pushes a value to the left (head) of a list?",
+    "Option1": "RPUSH",
+    "Option2": "LPOP",
+    "Option3": "LPUSH",
+    "Option4": "RPOP",
+    "Answer": "LPUSH"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which data structure stores field-value pairs within a key, similar to an object or dictionary?",
+    "Option1": "Strings",
+    "Option2": "Lists",
+    "Option3": "Hashes",
+    "Option4": "Sets",
+    "Answer": "Hashes"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What command sets a field and its value in a hash?",
+    "Option1": "SET myhash field value",
+    "Option2": "HSET myhash field value",
+    "Option3": "LPUSH myhash field value",
+    "Option4": "SADD myhash field value",
+    "Answer": "HSET myhash field value"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which data structure is suitable for leaderboards or real-time gaming scores?",
+    "Option1": "Lists",
+    "Option2": "Hashes",
+    "Option3": "Sorted Sets",
+    "Option4": "Sets",
+    "Answer": "Sorted Sets"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What command adds a member with a score to a sorted set?",
+    "Option1": "SADD myzset member",
+    "Option2": "ZADD myzset score member",
+    "Option3": "HSET myzset score member",
+    "Option4": "LPUSH myzset score member",
+    "Answer": "ZADD myzset score member"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How does Redis achieve persistence despite being in-memory?",
+    "Option1": "It doesn't, data is lost on restart.",
+    "Option2": "Through AOF (Append Only File) and RDB (Redis Database) snapshots.",
+    "Option3": "By always writing to disk synchronously.",
+    "Option4": "Using a distributed file system.",
+    "Answer": "Through AOF (Append Only File) and RDB (Redis Database) snapshots."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is the RDB persistence method in Redis?",
+    "Option1": "Logs every write operation to a file.",
+    "Option2": "Periodically saves a point-in-time snapshot of the dataset to disk.",
+    "Option3": "Synchronously writes all changes to disk.",
+    "Option4": "Stores data in a relational database.",
+    "Answer": "Periodically saves a point-in-time snapshot of the dataset to disk."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the AOF persistence method in Redis?",
+    "Option1": "Saves snapshots of the data.",
+    "Option2": "Logs every write operation received by the server to a file.",
+    "Option3": "Only stores data in memory.",
+    "Option4": "Uses a transactional log that is never flushed.",
+    "Answer": "Logs every write operation received by the server to a file."
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which persistence method generally provides better data durability?",
+    "Option1": "RDB",
+    "Option2": "AOF with `always` fsync policy",
+    "Option3": "Neither, Redis is only for caching.",
+    "Option4": "Both are equally durable.",
+    "Answer": "AOF with `always` fsync policy"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is Redis used for in common applications?",
+    "Option1": "Long-term transactional data storage.",
+    "Option2": "Relational data warehousing.",
+    "Option3": "Caching, session management, real-time analytics, message brokering.",
+    "Option4": "Complex SQL queries and reporting.",
+    "Answer": "Caching, session management, real-time analytics, message brokering."
+  },
+  {
+    "question_no.": 20,
+    "Question": "Can Redis be used as a primary database for all application data?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it's never suitable for primary data.",
+    "Option3": "It can be for certain use cases, but usually complements a traditional database.",
+    "Option4": "Only for read-only data.",
+    "Answer": "It can be for certain use cases, but usually complements a traditional database."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'transaction' in Redis?",
+    "Option1": "A way to join multiple keys.",
+    "Option2": "A sequence of commands executed as a single, atomic operation.",
+    "Option3": "A distributed commit protocol.",
+    "Option4": "A method for data encryption.",
+    "Answer": "A sequence of commands executed as a single, atomic operation."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which command initiates a Redis transaction?",
+    "Option1": "START TRANSACTION",
+    "Option2": "BEGIN",
+    "Option3": "MULTI",
+    "Option4": "EXECUTE",
+    "Answer": "MULTI"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which command executes all commands in a Redis transaction?",
+    "Option1": "COMMIT",
+    "Option2": "END TRANSACTION",
+    "Option3": "EXEC",
+    "Option4": "RUN",
+    "Answer": "EXEC"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What happens if an error occurs in a command within a Redis transaction (before EXEC)?",
+    "Option1": "The transaction commits partially.",
+    "Option2": "The entire transaction is aborted.",
+    "Option3": "Only the erroneous command fails, others succeed.",
+    "Option4": "Redis attempts to fix the error.",
+    "Answer": "The entire transaction is aborted."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the purpose of the 'WATCH' command in Redis transactions?",
+    "Option1": "To monitor network traffic.",
+    "Option2": "To observe changes to keys before a transaction, aborting if keys are modified by another client.",
+    "Option3": "To pause transaction execution.",
+    "Option4": "To log transaction details.",
+    "Answer": "To observe changes to keys before a transaction, aborting if keys are modified by another client."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is 'Redis Pub/Sub' used for?",
+    "Option1": "Storing user session data.",
+    "Option2": "Implementing real-time messaging systems where clients can subscribe to channels and receive messages.",
+    "Option3": "Caching database queries.",
+    "Option4": "Managing user authentication.",
+    "Answer": "Implementing real-time messaging systems where clients can subscribe to channels and receive messages."
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which command is used to publish a message to a Redis channel?",
+    "Option1": "SUBSCRIBE mychannel mymessage",
+    "Option2": "LISTEN mychannel mymessage",
+    "Option3": "PUBLISH mychannel mymessage",
+    "Option4": "SEND mychannel mymessage",
+    "Answer": "PUBLISH mychannel mymessage"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which command allows a client to listen for messages on a specific channel?",
+    "Option1": "POST mychannel",
+    "Option2": "SUBSCRIBE mychannel",
+    "Option3": "RECEIVE mychannel",
+    "Option4": "GET mychannel",
+    "Answer": "SUBSCRIBE mychannel"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Redis Replication'?",
+    "Option1": "Creating copies of data in different data types.",
+    "Option2": "A mechanism for creating master-replica setups where data is automatically copied from a master to one or more replicas.",
+    "Option3": "A method for data sharding.",
+    "Option4": "A way to encrypt data.",
+    "Answer": "A mechanism for creating master-replica setups where data is automatically copied from a master to one or more replicas."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the main benefit of Redis Replication?",
+    "Option1": "Increased write performance.",
+    "Option2": "High availability and read scalability.",
+    "Option3": "Reduced memory usage.",
+    "Option4": "Guaranteed data consistency across all nodes.",
+    "Answer": "High availability and read scalability."
+  },
+  {
+    "question_no.": 31,
+    "Question": "Can a Redis replica accept write commands?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it's read-only unless configured otherwise.",
+    "Option3": "Only if the master is down.",
+    "Option4": "Only for specific data types.",
+    "Answer": "No, it's read-only unless configured otherwise."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Redis Sentinel' used for?",
+    "Option1": "Monitoring application logs.",
+    "Option2": "Providing high availability for Redis by monitoring instances, performing automatic failover, and notifying clients.",
+    "Option3": "Managing Redis clusters.",
+    "Option4": "Optimizing Redis query performance.",
+    "Answer": "Providing high availability for Redis by monitoring instances, performing automatic failover, and notifying clients."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Redis Cluster'?",
+    "Option1": "A single Redis instance with high memory.",
+    "Option2": "A distributed implementation of Redis that shards data across multiple nodes, providing linear scalability and high availability.",
+    "Option3": "A group of Redis instances running on the same server.",
+    "Option4": "A set of master-replica pairs.",
+    "Answer": "A distributed implementation of Redis that shards data across multiple nodes, providing linear scalability and high availability."
+  },
+  {
+    "question_no.": 34,
+    "Question": "How does Redis Cluster distribute data?",
+    "Option1": "Randomly across all nodes.",
+    "Option2": "Using hash slots, where each key maps to a specific slot and slots are assigned to nodes.",
+    "Option3": "Based on the first letter of the key.",
+    "Option4": "By duplicating all data on every node.",
+    "Answer": "Using hash slots, where each key maps to a specific slot and slots are assigned to nodes."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Can Redis Cluster perform automatic failover?",
+    "Option1": "No, manual intervention is always required.",
+    "Option2": "Yes, it has built-in mechanisms for failover of master nodes.",
+    "Option3": "Only if Sentinel is also running.",
+    "Option4": "Only for replica nodes.",
+    "Answer": "Yes, it has built-in mechanisms for failover of master nodes."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is a 'Pipeline' in Redis?",
+    "Option1": "A way to connect multiple Redis instances.",
+    "Option2": "Sending multiple commands to the server in a single round-trip, improving performance by reducing network latency.",
+    "Option3": "A mechanism for data serialization.",
+    "Option4": "A command for batch processing.",
+    "Answer": "Sending multiple commands to the server in a single round-trip, improving performance by reducing network latency."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of the 'EXPIRE' command?",
+    "Option1": "To immediately delete a key.",
+    "Option2": "To set a timeout on a key, after which it will be automatically deleted.",
+    "Option3": "To refresh the expiration time of a key.",
+    "Option4": "To retrieve the expiration time of a key.",
+    "Answer": "To set a timeout on a key, after which it will be automatically deleted."
+  },
+  {
+    "question_no.": 38,
+    "Question": "Which command is used to delete a key from Redis?",
+    "Option1": "REMOVE mykey",
+    "Option2": "PURGE mykey",
+    "Option3": "DEL mykey",
+    "Option4": "ERASE mykey",
+    "Answer": "DEL mykey"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Lua scripting' in Redis?",
+    "Option1": "A way to write Redis clients in Lua.",
+    "Option2": "Executing server-side scripts in Lua for complex, atomic operations, reducing network overhead.",
+    "Option3": "A method for defining data schemas.",
+    "Option4": "A tool for Redis performance monitoring.",
+    "Answer": "Executing server-side scripts in Lua for complex, atomic operations, reducing network overhead."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the command to execute a Lua script in Redis?",
+    "Option1": "RUNSCRIPT myscript.lua",
+    "Option2": "EVALSHA sha1_digest numkeys key1 ... arg1 ...",
+    "Option3": "EXECSCRIPT myscript.lua",
+    "Option4": "CALLSCRIPT myscript.lua",
+    "Answer": "EVALSHA sha1_digest numkeys key1 ... arg1 ..."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which Redis command is used for checking if a key exists?",
+    "Option1": "HAS key",
+    "Option2": "EXISTS key",
+    "Option3": "CHECK key",
+    "Option4": "ISSET key",
+    "Answer": "EXISTS key"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the data type for `INCR` and `DECR` operations?",
+    "Option1": "Hashes",
+    "Option2": "Strings (interpreted as integers)",
+    "Option3": "Lists",
+    "Option4": "Sets",
+    "Answer": "Strings (interpreted as integers)"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which command is used to get the length of a list?",
+    "Option1": "LLEN mylist",
+    "Option2": "STRLEN mylist",
+    "Option3": "HLEN mylist",
+    "Option4": "SLEN mylist",
+    "Answer": "LLEN mylist"
+  },
+  {
+    "question_no.": 44,
+    "Question": "To retrieve all members of a set, which command is used?",
+    "Option1": "GETALL myset",
+    "Option2": "SMEMBERS myset",
+    "Option3": "LGETALL myset",
+    "Option4": "ZGETALL myset",
+    "Answer": "SMEMBERS myset"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which command retrieves all field-value pairs from a hash?",
+    "Option1": "HGETALL myhash",
+    "Option2": "GETALL myhash",
+    "Option3": "LGETALL myhash",
+    "Option4": "SGETALL myhash",
+    "Answer": "HGETALL myhash"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the default port for Redis server?",
+    "Option1": "8080",
+    "Option2": "6379",
+    "Option3": "3306",
+    "Option4": "27017",
+    "Answer": "6379"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the purpose of the `FLUSHDB` command?",
+    "Option1": "To save the database to disk.",
+    "Option2": "To remove all keys from the currently selected database.",
+    "Option3": "To optimize database memory usage.",
+    "Option4": "To clear the Redis server cache.",
+    "Answer": "To remove all keys from the currently selected database."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the purpose of the `FLUSHALL` command?",
+    "Option1": "To remove all keys from a specific database.",
+    "Option2": "To remove all keys from all databases on the Redis server.",
+    "Option3": "To delete all persistence files.",
+    "Option4": "To restart the Redis server.",
+    "Answer": "To remove all keys from all databases on the Redis server."
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which command is used to list all keys matching a pattern?",
+    "Option1": "SEARCH pattern",
+    "Option2": "FIND pattern",
+    "Option3": "SCAN cursor MATCH pattern COUNT count",
+    "Option4": "KEYS pattern",
+    "Answer": "KEYS pattern"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Why is `KEYS` command generally discouraged in production environments?",
+    "Option1": "It's too slow for small datasets.",
+    "Option2": "It can block the server for a long time on large datasets.",
+    "Option3": "It's deprecated in newer Redis versions.",
+    "Option4": "It consumes too much memory.",
+    "Answer": "It can block the server for a long time on large datasets."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the purpose of the `SCAN` command?",
+    "Option1": "To get all keys at once.",
+    "Option2": "To iterate incrementally over keys in the database without blocking the server.",
+    "Option3": "To find a specific key quickly.",
+    "Option4": "To perform a full text search.",
+    "Answer": "To iterate incrementally over keys in the database without blocking the server."
+  },
+  {
+    "question_no.": 52,
+    "Question": "How does Redis achieve atomicity for single commands?",
+    "Option1": "Through explicit transactions.",
+    "Option2": "Because it's single-threaded, ensuring one command executes completely before another starts.",
+    "Option3": "By using a distributed lock manager.",
+    "Option4": "It doesn't guarantee atomicity for single commands.",
+    "Answer": "Because it's single-threaded, ensuring one command executes completely before another starts."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is a 'Bitmap' in Redis?",
+    "Option1": "A data structure for storing images.",
+    "Option2": "A string data type interpreted as a sequence of bits, useful for counting unique users or tracking binary states.",
+    "Option3": "A graphical representation of data.",
+    "Option4": "A type of sorted set.",
+    "Answer": "A string data type interpreted as a sequence of bits, useful for counting unique users or tracking binary states."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which command sets a specific bit in a string (bitmap)?",
+    "Option1": "SETBIT mykey offset value",
+    "Option2": "GETBIT mykey offset",
+    "Option3": "BITCOUNT mykey",
+    "Option4": "BITOP AND destkey key1 key2",
+    "Answer": "SETBIT mykey offset value"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the purpose of the `GETSET` command?",
+    "Option1": "To retrieve a key's value and then delete it.",
+    "Option2": "To atomically set a key's value and return its old value.",
+    "Option3": "To set a new key and retrieve its value.",
+    "Option4": "To get the value of a key if it exists, otherwise set it.",
+    "Answer": "To atomically set a key's value and return its old value."
+  },
+  {
+    "question_no.": 56,
+    "Question": "How does Redis manage memory?",
+    "Option1": "It uses operating system's virtual memory.",
+    "Option2": "It's entirely dependent on the client application.",
+    "Option3": "It has its own memory allocator and various eviction policies.",
+    "Option4": "It offloads memory management to disk.",
+    "Answer": "It has its own memory allocator and various eviction policies."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What happens if Redis runs out of memory with no eviction policy set?",
+    "Option1": "It starts writing to disk.",
+    "Option2": "It begins swapping data to slower storage.",
+    "Option3": "It stops accepting write commands and returns errors.",
+    "Option4": "It automatically scales up its memory allocation.",
+    "Answer": "It stops accepting write commands and returns errors."
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which eviction policy removes the least recently used (LRU) keys when memory limit is reached?",
+    "Option1": "volatile-ttl",
+    "Option2": "allkeys-lru",
+    "Option3": "noeviction",
+    "Option4": "volatile-lfu",
+    "Answer": "allkeys-lru"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which eviction policy removes keys with the nearest expiration time (shortest TTL)?",
+    "Option1": "volatile-lfu",
+    "Option2": "allkeys-lru",
+    "Option3": "volatile-ttl",
+    "Option4": "allkeys-random",
+    "Answer": "volatile-ttl"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the role of `maxmemory` directive in Redis configuration?",
+    "Option1": "Sets the maximum number of keys allowed.",
+    "Option2": "Sets the maximum amount of memory Redis will use.",
+    "Option3": "Sets the maximum size of a single value.",
+    "Option4": "Sets the maximum network bandwidth.",
+    "Answer": "Sets the maximum amount of memory Redis will use."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is 'Redis Streams'?",
+    "Option1": "A data structure for storing video streams.",
+    "Option2": "A new data structure (introduced in Redis 5.0) that acts as an append-only log, supporting multiple consumers and consumer groups.",
+    "Option3": "A feature for streaming data from one Redis instance to another.",
+    "Option4": "A method for real-time data analysis.",
+    "Answer": "A new data structure (introduced in Redis 5.0) that acts as an append-only log, supporting multiple consumers and consumer groups."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which command is used to add an entry to a Redis Stream?",
+    "Option1": "ADDSTREAM mystream entry",
+    "Option2": "XADD mystream * field value",
+    "Option3": "LPUSH mystream entry",
+    "Option4": "PUBLISH mystream entry",
+    "Answer": "XADD mystream * field value"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is a 'Consumer Group' in Redis Streams?",
+    "Option1": "A group of Redis servers.",
+    "Option2": "A way for multiple clients to process the same stream independently, ensuring each message is processed only once by one consumer in the group.",
+    "Option3": "A group of Redis users.",
+    "Option4": "A mechanism for data partitioning.",
+    "Answer": "A way for multiple clients to process the same stream independently, ensuring each message is processed only once by one consumer in the group."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which command is used to create a consumer group for a Redis Stream?",
+    "Option1": "CREATEGROUP mystream mygroup",
+    "Option2": "XGROUP CREATE mystream mygroup 0-0",
+    "Option3": "NEWGROUP mystream mygroup",
+    "Option4": "GROUPADD mystream mygroup",
+    "Answer": "XGROUP CREATE mystream mygroup 0-0"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the primary benefit of Redis Streams over Pub/Sub for persistent messaging?",
+    "Option1": "Streams are faster for broadcasting.",
+    "Option2": "Streams provide message persistence and consumer group semantics, allowing messages to be acknowledged and reprocessed if needed.",
+    "Option3": "Pub/Sub is better for persistence.",
+    "Option4": "Streams consume less memory.",
+    "Answer": "Streams provide message persistence and consumer group semantics, allowing messages to be acknowledged and reprocessed if needed."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Redis Modules'?",
+    "Option1": "Built-in Redis features.",
+    "Option2": "A framework that allows developers to extend Redis with new data types and commands.",
+    "Option3": "External libraries for connecting to Redis.",
+    "Option4": "Pre-compiled Redis binaries.",
+    "Answer": "A framework that allows developers to extend Redis with new data types and commands."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Can Redis be used for full-text search?",
+    "Option1": "No, it's not designed for that.",
+    "Option2": "Yes, with the RediSearch module.",
+    "Option3": "Only for exact key matches.",
+    "Option4": "Only for very small datasets.",
+    "Answer": "Yes, with the RediSearch module."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the purpose of `LREM` command?",
+    "Option1": "To retrieve a range of elements from a list.",
+    "Option2": "To remove elements from a list based on their value.",
+    "Option3": "To get the length of a list.",
+    "Option4": "To push elements to the right of a list.",
+    "Answer": "To remove elements from a list based on their value."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which command finds the intersection of multiple sets?",
+    "Option1": "SUNION",
+    "Option2": "SINTER",
+    "Option3": "SDIFF",
+    "Option4": "SMEMBERS",
+    "Answer": "SINTER"
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which command adds an element to a HyperLogLog data structure?",
+    "Option1": "HADD",
+    "Option2": "PFADD",
+    "Option3": "SADD",
+    "Option4": "XADD",
+    "Answer": "PFADD"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is a 'HyperLogLog' in Redis?",
+    "Option1": "A data structure for storing very large logs.",
+    "Option2": "A probabilistic data structure used to estimate the number of unique items in a set with very low memory usage.",
+    "Option3": "A highly accurate logging system.",
+    "Option4": "A data structure for performing complex aggregations.",
+    "Answer": "A probabilistic data structure used to estimate the number of unique items in a set with very low memory usage."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the command to get the approximate count of unique elements from a HyperLogLog?",
+    "Option1": "HLOGCOUNT mykey",
+    "Option2": "PFCOUNT mykey",
+    "Option3": "COUNTDISTINCT mykey",
+    "Option4": "GETUNIQUE mykey",
+    "Answer": "PFCOUNT mykey"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which command is used to retrieve a range of elements from a sorted set by score?",
+    "Option1": "ZRANGEBYSCORE myzset min max",
+    "Option2": "ZRANGE myzset start stop",
+    "Option3": "ZSCORE myzset member",
+    "Option4": "ZCOUNT myzset min max",
+    "Answer": "ZRANGEBYSCORE myzset min max"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is the purpose of `SAVE` command in Redis?",
+    "Option1": "To save all keys to the AOF file.",
+    "Option2": "To synchronously save the dataset to disk (RDB snapshot).",
+    "Option3": "To save a specific key.",
+    "Option4": "To back up the entire Redis installation.",
+    "Answer": "To synchronously save the dataset to disk (RDB snapshot)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of `BGSAVE` command in Redis?",
+    "Option1": "To block the server while saving.",
+    "Option2": "To asynchronously save the dataset to disk (RDB snapshot) in the background.",
+    "Option3": "To save only modified keys.",
+    "Option4": "To save data to a remote server.",
+    "Answer": "To asynchronously save the dataset to disk (RDB snapshot) in the background."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Can Redis be used as a message broker for durable queues?",
+    "Option1": "No, only for volatile messages.",
+    "Option2": "Yes, using Lists or Streams.",
+    "Option3": "Only if AOF is disabled.",
+    "Option4": "Only in a clustered setup.",
+    "Answer": "Yes, using Lists or Streams."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the 'Redis CLI'?",
+    "Option1": "A graphical user interface for Redis.",
+    "Option2": "A command-line interface for interacting with Redis.",
+    "Option3": "A programming language for Redis.",
+    "Option4": "A Redis client library.",
+    "Answer": "A command-line interface for interacting with Redis."
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you connect to a Redis server using redis-cli on the default port?",
+    "Option1": "connect redis",
+    "Option2": "redis-cli",
+    "Option3": "open redis-server",
+    "Option4": "redis-cli -p 8080",
+    "Answer": "redis-cli"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `INFO` command used for in Redis?",
+    "Option1": "To get help on a specific command.",
+    "Option2": "To retrieve information and statistics about the Redis server.",
+    "Option3": "To get information about a specific key.",
+    "Option4": "To list all connected clients.",
+    "Answer": "To retrieve information and statistics about the Redis server."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the purpose of the `PING` command?",
+    "Option1": "To check network latency.",
+    "Option2": "To test if the server is alive and responds to commands.",
+    "Option3": "To send a test message to a client.",
+    "Option4": "To clear the server's cache.",
+    "Answer": "To test if the server is alive and responds to commands."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which command retrieves a random key from the database?",
+    "Option1": "GETRANDOMKEY",
+    "Option2": "RANDOMKEY",
+    "Option3": "ANYKEY",
+    "Option4": "FETCHRANDOM",
+    "Answer": "RANDOMKEY"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the `LPUSHX` command used for?",
+    "Option1": "Pushes an element to the left of a list only if the list already exists.",
+    "Option2": "Pushes an element to the left of a list always.",
+    "Option3": "Removes elements from the left of a list.",
+    "Option4": "Pushes an element to the right of a list.",
+    "Answer": "Pushes an element to the left of a list only if the list already exists."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which command returns the type of a key's value?",
+    "Option1": "KTYPE mykey",
+    "Option2": "TYPE mykey",
+    "Option3": "GETTYPE mykey",
+    "Option4": "DATATYPE mykey",
+    "Answer": "TYPE mykey"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Rejson' (or RedisJSON) module used for?",
+    "Option1": "Storing relational data.",
+    "Option2": "Native support for JSON documents within Redis.",
+    "Option3": "Processing JSON data outside of Redis.",
+    "Option4": "Converting Redis data to JSON format.",
+    "Answer": "Native support for JSON documents within Redis."
+  },
+  {
+    "question_no.": 85,
+    "Question": "How does Redis Cluster handle client requests for keys that are not on the connected node?",
+    "Option1": "It returns an error.",
+    "Option2": "It automatically redirects the client to the correct node.",
+    "Option3": "It fetches the data from the correct node and returns it.",
+    "Option4": "It broadcasts the request to all nodes.",
+    "Answer": "It automatically redirects the client to the correct node."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is a 'Hash Slot' in Redis Cluster?",
+    "Option1": "A memory address.",
+    "Option2": "A logical partition of the key space (16384 total slots) that keys are mapped to, and which are assigned to cluster nodes.",
+    "Option3": "A physical storage unit.",
+    "Option4": "A type of data type.",
+    "Answer": "A logical partition of the key space (16384 total slots) that keys are mapped to, and which are assigned to cluster nodes."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Can Redis be used as a distributed lock manager?",
+    "Option1": "No, it's not suitable for that.",
+    "Option2": "Yes, using `SET NX EX` or Redlock algorithm.",
+    "Option3": "Only with external libraries.",
+    "Option4": "Only in a single-instance setup.",
+    "Answer": "Yes, using `SET NX EX` or Redlock algorithm."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the purpose of `SCAN` command's `COUNT` option?",
+    "Option1": "To limit the total number of keys returned.",
+    "Option2": "A hint to the Redis server about how many elements to return per call, not a strict limit.",
+    "Option3": "To count the number of keys matching a pattern.",
+    "Option4": "To set the maximum number of iterations.",
+    "Answer": "A hint to the Redis server about how many elements to return per call, not a strict limit."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which command gets the time to live (TTL) of a key?",
+    "Option1": "LIFETIME mykey",
+    "Option2": "TTL mykey",
+    "Option3": "EXPIRES mykey",
+    "Option4": "REMAINING mykey",
+    "Answer": "TTL mykey"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the `PERSIST` command used for?",
+    "Option1": "To save the key to disk immediately.",
+    "Option2": "To remove the expiration from a key, making it permanent.",
+    "Option3": "To make a key persistent across restarts.",
+    "Option4": "To ensure data durability.",
+    "Answer": "To remove the expiration from a key, making it permanent."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of the `MGET` command?",
+    "Option1": "To set multiple keys simultaneously.",
+    "Option2": "To get the values of multiple keys in a single operation.",
+    "Option3": "To delete multiple keys.",
+    "Option4": "To move multiple keys.",
+    "Answer": "To get the values of multiple keys in a single operation."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the purpose of the `MSET` command?",
+    "Option1": "To get values of multiple keys.",
+    "Option2": "To set multiple key-value pairs simultaneously.",
+    "Option3": "To delete multiple keys.",
+    "Option4": "To move multiple keys.",
+    "Answer": "To set multiple key-value pairs simultaneously."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which command removes a random element from a set and returns it?",
+    "Option1": "SPOP myset",
+    "Option2": "SRANDMEMBER myset",
+    "Option3": "SREM myset member",
+    "Option4": "LPOP myset",
+    "Answer": "SPOP myset"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the `ZSCORE` command used for?",
+    "Option1": "To add a member to a sorted set with a score.",
+    "Option2": "To get the score associated with a given member in a sorted set.",
+    "Option3": "To retrieve a range of members by score.",
+    "Option4": "To count members within a score range.",
+    "Answer": "To get the score associated with a given member in a sorted set."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Redis Enterprise'?",
+    "Option1": "A community-driven version of Redis.",
+    "Option2": "A commercial distribution of Redis offering additional features like active-active replication, flash storage, and enhanced security.",
+    "Option3": "A cloud provider's managed Redis service.",
+    "Option4": "A deprecated version of Redis.",
+    "Answer": "A commercial distribution of Redis offering additional features like active-active replication, flash storage, and enhanced security."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the `BITCOUNT` command used for?",
+    "Option1": "To count the number of bytes in a string.",
+    "Option2": "To count the number of set bits (1s) in a string (bitmap).",
+    "Option3": "To count the number of keys in the database.",
+    "Option4": "To count the number of members in a set.",
+    "Answer": "To count the number of set bits (1s) in a string (bitmap)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Can Redis be used to implement a rate limiter?",
+    "Option1": "No, it's not suitable for that.",
+    "Option2": "Yes, using `INCR` and `EXPIRE` commands.",
+    "Option3": "Only with a dedicated module.",
+    "Option4": "Only in a single-threaded environment.",
+    "Answer": "Yes, using `INCR` and `EXPIRE` commands."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `GEOADD` command used for?",
+    "Option1": "Adding points to a graph.",
+    "Option2": "Adding geospatial items (latitude, longitude, member name) to a sorted set-like structure for spatial queries.",
+    "Option3": "Adding entries to a Redis Stream.",
+    "Option4": "Adding new members to a set.",
+    "Answer": "Adding geospatial items (latitude, longitude, member name) to a sorted set-like structure for spatial queries."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which command retrieves elements within a given radius from a specified point?",
+    "Option1": "GEOSEARCH",
+    "Option2": "GEORADIUS",
+    "Option3": "FINDNEAR",
+    "Option4": "GETLOCATIONS",
+    "Answer": "GEORADIUS"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of the `SAVE` option in Redis configuration?",
+    "Option1": "To disable RDB persistence.",
+    "Option2": "To configure automatic RDB snapshotting based on time and key changes.",
+    "Option3": "To enable AOF persistence.",
+    "Option4": "To specify the location of AOF files.",
+    "Answer": "To configure automatic RDB snapshotting based on time and key changes."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the default behavior when both RDB and AOF persistence are enabled?",
+    "Option1": "RDB takes precedence.",
+    "Option2": "AOF is used for recovery, as it's generally more durable.",
+    "Option3": "Redis uses both equally.",
+    "Option4": "Redis prompts the user to choose.",
+    "Answer": "AOF is used for recovery, as it's generally more durable."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `BGREWRITEAOF` command used for?",
+    "Option1": "To manually rewrite the RDB file.",
+    "Option2": "To rewrite the AOF file in the background, making it smaller and faster to load.",
+    "Option3": "To clear the AOF file completely.",
+    "Option4": "To disable AOF persistence.",
+    "Answer": "To rewrite the AOF file in the background, making it smaller and faster to load."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Can Redis run on Windows?",
+    "Option1": "No, only Linux and macOS.",
+    "Option2": "Yes, through WSL (Windows Subsystem for Linux) or unofficial Windows builds.",
+    "Option3": "Only on specific Windows Server versions.",
+    "Option4": "Only in a virtual machine.",
+    "Answer": "Yes, through WSL (Windows Subsystem for Linux) or unofficial Windows builds."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of `DEBUG SEGFAULT` command?",
+    "Option1": "To debug client applications.",
+    "Option2": "To intentionally crash the Redis server for testing purposes.",
+    "Option3": "To get detailed debugging information.",
+    "Option4": "To perform a memory check.",
+    "Answer": "To intentionally crash the Redis server for testing purposes."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the `WATCH` command's behavior regarding keys that are already expired?",
+    "Option1": "It continues to watch them.",
+    "Option2": "It ignores them.",
+    "Option3": "It treats them as modified.",
+    "Option4": "It automatically renews their TTL.",
+    "Answer": "It continues to watch them."
+  },
+  {
+    "question_no.": 106,
+    "Question": "Can Redis be used as a primary database for user profiles with strong consistency requirements?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it's eventually consistent in a distributed setup.",
+    "Option3": "Only if transactions are used for every operation.",
+    "Option4": "Only for read-heavy workloads.",
+    "Answer": "No, it's eventually consistent in a distributed setup."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the `BLPOP` command used for?",
+    "Option1": "Non-blocking pop from the left of a list.",
+    "Option2": "Blocking pop from the left of a list, waiting for elements if the list is empty.",
+    "Option3": "Blocking pop from the right of a list.",
+    "Option4": "Blocking push to the left of a list.",
+    "Answer": "Blocking pop from the left of a list, waiting for elements if the list is empty."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the `BRPOP` command used for?",
+    "Option1": "Non-blocking pop from the right of a list.",
+    "Option2": "Blocking pop from the right of a list, waiting for elements if the list is empty.",
+    "Option3": "Blocking pop from the left of a list.",
+    "Option4": "Blocking push to the right of a list.",
+    "Answer": "Blocking pop from the right of a list, waiting for elements if the list is empty."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is a 'Stream Consumer'?",
+    "Option1": "A Redis client that produces messages.",
+    "Option2": "A Redis client that reads messages from a stream, typically as part of a consumer group.",
+    "Option3": "A Redis command for stream management.",
+    "Option4": "A type of Redis module.",
+    "Answer": "A Redis client that reads messages from a stream, typically as part of a consumer group."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the purpose of `XREADGROUP` command in Redis Streams?",
+    "Option1": "To read messages from a stream without using consumer groups.",
+    "Option2": "To read messages from a stream as part of a consumer group, ensuring unique message delivery and tracking processing state.",
+    "Option3": "To create a new consumer group.",
+    "Option4": "To acknowledge message processing in a stream.",
+    "Answer": "To read messages from a stream as part of a consumer group, ensuring unique message delivery and tracking processing state."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is the `XACK` command used for in Redis Streams?",
+    "Option1": "To add a new message to a stream.",
+    "Option2": "To acknowledge that a message has been successfully processed by a consumer within a consumer group.",
+    "Option3": "To read messages from a stream.",
+    "Option4": "To create a consumer group.",
+    "Answer": "To acknowledge that a message has been successfully processed by a consumer within a consumer group."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Can Redis be used as a primary data store for highly sensitive financial data?",
+    "Option1": "Yes, it's highly secure.",
+    "Option2": "No, due to its in-memory nature and eventual consistency models in clustered setups, it's generally not recommended for primary storage of highly sensitive data requiring strict ACID properties.",
+    "Option3": "Only if encrypted.",
+    "Option4": "Only for read-only data.",
+    "Answer": "No, due to its in-memory nature and eventual consistency models in clustered setups, it's generally not recommended for primary storage of highly sensitive data requiring strict ACID properties."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the `WATCH` command's behavior if the key being watched is deleted?",
+    "Option1": "The transaction commits normally.",
+    "Option2": "The transaction is aborted.",
+    "Option3": "Redis attempts to recreate the key.",
+    "Option4": "It returns a warning but continues.",
+    "Answer": "The transaction is aborted."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a 'Redis module' written in?",
+    "Option1": "Python",
+    "Option2": "Java",
+    "Option3": "C",
+    "Option4": "Go",
+    "Answer": "C"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the main advantage of using Lua scripts in Redis?",
+    "Option1": "Faster network communication.",
+    "Option2": "Atomic execution of multiple commands, reducing network round-trips and ensuring consistency.",
+    "Option3": "Improved memory usage.",
+    "Option4": "Easier debugging.",
+    "Answer": "Atomic execution of multiple commands, reducing network round-trips and ensuring consistency."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the `EVAL` command used for?",
+    "Option1": "To evaluate a mathematical expression.",
+    "Option2": "To execute a Lua script directly, without loading it first.",
+    "Option3": "To check the syntax of a script.",
+    "Option4": "To load a script into Redis.",
+    "Answer": "To execute a Lua script directly, without loading it first."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `SCRIPT LOAD` command used for?",
+    "Option1": "To load a script from disk.",
+    "Option2": "To load a Lua script into the Redis script cache, returning its SHA1 digest.",
+    "Option3": "To execute a script.",
+    "Option4": "To delete a script from the cache.",
+    "Answer": "To load a Lua script into the Redis script cache, returning its SHA1 digest."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `SCRIPT EXISTS` command used for?",
+    "Option1": "To check if a script exists on disk.",
+    "Option2": "To check if a script (identified by its SHA1 digest) exists in the Redis script cache.",
+    "Option3": "To check if a script is currently running.",
+    "Option4": "To list all loaded scripts.",
+    "Answer": "To check if a script (identified by its SHA1 digest) exists in the Redis script cache."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the concept of 'Redis Sentinel Quorum'?",
+    "Option1": "The number of clients connected to Sentinel.",
+    "Option2": "The minimum number of Sentinel instances that must agree that a master is down before a failover is initiated.",
+    "Option3": "The maximum number of replicas a master can have.",
+    "Option4": "The number of keys in a Sentinel-monitored master.",
+    "Answer": "The minimum number of Sentinel instances that must agree that a master is down before a failover is initiated."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the `CONFIG GET` command used for?",
+    "Option1": "To set a Redis configuration parameter.",
+    "Option2": "To retrieve the value of one or more configuration parameters.",
+    "Option3": "To load a configuration file.",
+    "Option4": "To reset configuration to default.",
+    "Answer": "To retrieve the value of one or more configuration parameters."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the `CONFIG SET` command used for?",
+    "Option1": "To retrieve configuration parameters.",
+    "Option2": "To dynamically change the value of a Redis configuration parameter at runtime.",
+    "Option3": "To save the current configuration to disk.",
+    "Option4": "To display available configuration options.",
+    "Answer": "To dynamically change the value of a Redis configuration parameter at runtime."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the `CLIENT LIST` command used for?",
+    "Option1": "To list all Redis servers in a cluster.",
+    "Option2": "To list all connected client connections to the Redis server.",
+    "Option3": "To list all registered Redis users.",
+    "Option4": "To list all available client libraries.",
+    "Answer": "To list all connected client connections to the Redis server."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the `DBSIZE` command used for?",
+    "Option1": "To get the size of the RDB file.",
+    "Option2": "To get the number of keys in the currently selected database.",
+    "Option3": "To get the memory usage of the database.",
+    "Option4": "To get the size of the AOF file.",
+    "Answer": "To get the number of keys in the currently selected database."
+  },
+  {
+    "question_no.": 124,
+    "Question": "Which command is used to rename a key?",
+    "Option1": "MOVE key newkey",
+    "Option2": "RENAME key newkey",
+    "Option3": "COPY key newkey",
+    "Option4": "SETNAME key newkey",
+    "Answer": "RENAME key newkey"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the purpose of `MOVE` command?",
+    "Option1": "To move a key to a different server.",
+    "Option2": "To move a key from one database to another within the same Redis instance.",
+    "Option3": "To move a key within the same database.",
+    "Option4": "To move a key to an external file.",
+    "Answer": "To move a key from one database to another within the same Redis instance."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Redis Enterprise Software (RS)'?",
+    "Option1": "A basic version of Redis.",
+    "Option2": "The on-premise offering of Redis Enterprise, providing enhanced capabilities and management features.",
+    "Option3": "A cloud-based Redis service.",
+    "Option4": "An open-source Redis client.",
+    "Answer": "The on-premise offering of Redis Enterprise, providing enhanced capabilities and management features."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Redis Cloud'?",
+    "Option1": "A self-managed Redis deployment.",
+    "Option2": "A fully managed Redis-as-a-Service offering by Redis Inc.",
+    "Option3": "A competitor to Redis.",
+    "Option4": "A tool for deploying Redis on virtual machines.",
+    "Answer": "A fully managed Redis-as-a-Service offering by Redis Inc."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'RedisGraph' module?",
+    "Option1": "A module for drawing charts.",
+    "Option2": "A module that adds graph database capabilities to Redis.",
+    "Option3": "A module for image processing.",
+    "Option4": "A module for geospatial indexing.",
+    "Answer": "A module that adds graph database capabilities to Redis."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Redis TimeSeries' module?",
+    "Option1": "A module for managing events by time.",
+    "Option2": "A module for storing and querying time-series data in Redis.",
+    "Option3": "A module for scheduling tasks.",
+    "Option4": "A module for historical data analysis.",
+    "Answer": "A module for storing and querying time-series data in Redis."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Redis Bloom' module?",
+    "Option1": "A module for creating beautiful UI elements.",
+    "Option2": "A module providing Bloom filter and Cuckoo filter probabilistic data structures for checking set membership efficiently.",
+    "Option3": "A module for flower recognition.",
+    "Option4": "A module for managing data types.",
+    "Answer": "A module providing Bloom filter and Cuckoo filter probabilistic data structures for checking set membership efficiently."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the `INFO MEMORY` command used for?",
+    "Option1": "To get information about disk usage.",
+    "Option2": "To retrieve detailed information about Redis memory consumption.",
+    "Option3": "To get information about client memory usage.",
+    "Option4": "To get memory statistics of the operating system.",
+    "Answer": "To retrieve detailed information about Redis memory consumption."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the purpose of `PUBSUB CHANNELS` command?",
+    "Option1": "To publish messages to channels.",
+    "Option2": "To list the active channels (channels with at least one subscriber).",
+    "Option3": "To subscribe to a channel.",
+    "Option4": "To unsubscribe from a channel.",
+    "Answer": "To list the active channels (channels with at least one subscriber)."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `PUBSUB NUMSUB` command used for?",
+    "Option1": "To count the number of publishers.",
+    "Option2": "To get the number of subscribers for specific channels.",
+    "Option3": "To get the total number of subscribed channels.",
+    "Option4": "To get the total number of messages published.",
+    "Answer": "To get the number of subscribers for specific channels."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the `AUTH` command used for?",
+    "Option1": "To authorize a client to connect.",
+    "Option2": "To authenticate to the Redis server using a password.",
+    "Option3": "To set up user roles.",
+    "Option4": "To check user permissions.",
+    "Answer": "To authenticate to the Redis server using a password."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the `MONITOR` command used for?",
+    "Option1": "To monitor network traffic.",
+    "Option2": "To stream back every command processed by the Redis server in real-time.",
+    "Option3": "To monitor CPU usage.",
+    "Option4": "To monitor memory consumption.",
+    "Answer": "To stream back every command processed by the Redis server in real-time."
+  },
+  {
+    "question_no.": 136,
+    "Question": "Why should `MONITOR` be used with caution in production?",
+    "Option1": "It consumes too much CPU.",
+    "Option2": "It can be very slow due to the high volume of commands and can degrade performance.",
+    "Option3": "It poses a security risk.",
+    "Option4": "It fills up disk space quickly.",
+    "Answer": "It can be very slow due to the high volume of commands and can degrade performance."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'RedisJSON' (JSON document store)?",
+    "Option1": "A way to store JSON as a string.",
+    "Option2": "A Redis module that provides native data type support for JSON documents, allowing atomic operations on JSON paths.",
+    "Option3": "A tool to convert JSON to Redis data types.",
+    "Option4": "A method to compress JSON data.",
+    "Answer": "A Redis module that provides native data type support for JSON documents, allowing atomic operations on JSON paths."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which Redis command retrieves a range of elements from a list?",
+    "Option1": "GETRANGE",
+    "Option2": "LRANGE mylist start stop",
+    "Option3": "HGETALL",
+    "Option4": "SMEMBERS",
+    "Answer": "LRANGE mylist start stop"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Client-Side Caching' in Redis?",
+    "Option1": "Caching data on the Redis server.",
+    "Option2": "A feature where clients maintain their own local cache of Redis data and use Redis's invalidation notifications to keep it fresh.",
+    "Option3": "Caching data in a separate database.",
+    "Option4": "Caching web requests.",
+    "Answer": "A feature where clients maintain their own local cache of Redis data and use Redis's invalidation notifications to keep it fresh."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `RESP (REdis Serialization Protocol)`?",
+    "Option1": "A protocol for data encryption.",
+    "Option2": "The communication protocol used by Redis clients and servers.",
+    "Option3": "A protocol for network management.",
+    "Option4": "A protocol for inter-server communication only.",
+    "Answer": "The communication protocol used by Redis clients and servers."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the primary characteristic of RESP?",
+    "Option1": "XML-based.",
+    "Option2": "JSON-based.",
+    "Option3": "Simple, fast, and human-readable (for certain types).",
+    "Option4": "Binary only.",
+    "Answer": "Simple, fast, and human-readable (for certain types)."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the use case for `BITFIELD` command?",
+    "Option1": "Performing complex string operations.",
+    "Option2": "Atomically setting and getting arbitrary bit fields and performing increment/decrement operations on them.",
+    "Option3": "Managing large binary objects.",
+    "Option4": "Handling geospatial data.",
+    "Answer": "Atomically setting and getting arbitrary bit fields and performing increment/decrement operations on them."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the `REPLCONF` command used for?",
+    "Option1": "Configuring client connections.",
+    "Option2": "Used internally by replicas to communicate configuration and state to the master during replication.",
+    "Option3": "Configuring AOF persistence.",
+    "Option4": "Configuring Sentinel monitoring.",
+    "Answer": "Used internally by replicas to communicate configuration and state to the master during replication."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Read-Through Cache' pattern with Redis?",
+    "Option1": "Writing data directly to Redis.",
+    "Option2": "An application fetches data from Redis; if not found, it fetches from the database, stores it in Redis, and then returns it.",
+    "Option3": "Writing data to both Redis and the database simultaneously.",
+    "Option4": "Only reading from Redis.",
+    "Answer": "An application fetches data from Redis; if not found, it fetches from the database, stores it in Redis, and then returns it."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Write-Through Cache' pattern with Redis?",
+    "Option1": "Writing data only to Redis.",
+    "Option2": "An application writes data to Redis, and Redis synchronously writes the data to the underlying database.",
+    "Option3": "Writing data directly to the database.",
+    "Option4": "Writing data to both Redis and the database, but asynchronously.",
+    "Answer": "An application writes data to Redis, and Redis synchronously writes the data to the underlying database."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Write-Back Cache' pattern with Redis?",
+    "Option1": "Data is written to Redis and immediately to the database.",
+    "Option2": "Data is written to Redis, and Redis asynchronously writes the data to the underlying database after a delay or certain conditions.",
+    "Option3": "Data is written only to the database.",
+    "Option4": "Redis only reads from the database.",
+    "Answer": "Data is written to Redis, and Redis asynchronously writes the data to the underlying database after a delay or certain conditions."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Cache-Aside' pattern with Redis?",
+    "Option1": "Redis manages the database writes.",
+    "Option2": "The application is responsible for managing both the cache (Redis) and the database, checking the cache first and falling back to the database.",
+    "Option3": "Redis is used only for session management.",
+    "Option4": "Redis is bypassed entirely.",
+    "Answer": "The application is responsible for managing both the cache (Redis) and the database, checking the cache first and falling back to the database."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the `PUBLISH` command's return value?",
+    "Option1": "The message ID.",
+    "Option2": "The number of clients that received the message.",
+    "Option3": "Always 'OK'.",
+    "Option4": "The channel name.",
+    "Answer": "The number of clients that received the message."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `PFMERGE` command used for?",
+    "Option1": "Merging multiple lists.",
+    "Option2": "Merging multiple HyperLogLog keys into a single key.",
+    "Option3": "Merging multiple sorted sets.",
+    "Option4": "Merging multiple hashes.",
+    "Answer": "Merging multiple HyperLogLog keys into a single key."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is a 'Stream ID' in Redis Streams?",
+    "Option1": "A unique identifier for a consumer group.",
+    "Option2": "A unique identifier for each entry within a stream, typically in the format `timestamp-sequence`.",
+    "Option3": "A unique identifier for a stream itself.",
+    "Option4": "A unique identifier for a consumer.",
+    "Answer": "A unique identifier for each entry within a stream, typically in the format `timestamp-sequence`."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the `XREAD` command used for in Redis Streams?",
+    "Option1": "To add entries to a stream.",
+    "Option2": "To read entries from one or multiple streams, potentially blocking if no new entries are available.",
+    "Option3": "To delete entries from a stream.",
+    "Option4": "To create a consumer group for a stream.",
+    "Answer": "To read entries from one or multiple streams, potentially blocking if no new entries are available."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the purpose of `XDEL` command in Redis Streams?",
+    "Option1": "To delete an entire stream.",
+    "Option2": "To delete specific entries from a stream.",
+    "Option3": "To delete a consumer group.",
+    "Option4": "To delete a consumer from a group.",
+    "Answer": "To delete specific entries from a stream."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `XTRIM` command used for in Redis Streams?",
+    "Option1": "To remove a specific number of entries from the beginning of a stream.",
+    "Option2": "To trim a stream by size or ID, keeping only the most recent or relevant entries.",
+    "Option3": "To trim a stream by a specific time range.",
+    "Option4": "To delete messages from a consumer group's pending entry list.",
+    "Answer": "To trim a stream by size or ID, keeping only the most recent or relevant entries."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the `XPENDING` command used for in Redis Streams?",
+    "Option1": "To list all entries in a stream.",
+    "Option2": "To check which messages are pending (not yet acknowledged) for a consumer group or specific consumer.",
+    "Option3": "To create a pending message.",
+    "Option4": "To move messages between streams.",
+    "Answer": "To check which messages are pending (not yet acknowledged) for a consumer group or specific consumer."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `XCLAIM` command used for in Redis Streams?",
+    "Option1": "To acknowledge a message.",
+    "Option2": "To transfer ownership of pending messages from one consumer to another within a consumer group.",
+    "Option3": "To delete a message.",
+    "Option4": "To read messages from a stream.",
+    "Answer": "To transfer ownership of pending messages from one consumer to another within a consumer group."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the `INCRBY` command used for?",
+    "Option1": "To increment a string value by 1.",
+    "Option2": "To increment a string value by a specified integer amount.",
+    "Option3": "To decrement a string value.",
+    "Option4": "To increment a hash field.",
+    "Answer": "To increment a string value by a specified integer amount."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `DECRBY` command used for?",
+    "Option1": "To decrement a string value by 1.",
+    "Option2": "To decrement a string value by a specified integer amount.",
+    "Option3": "To increment a string value.",
+    "Option4": "To decrement a hash field.",
+    "Answer": "To decrement a string value by a specified integer amount."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `HINCRBY` command used for?",
+    "Option1": "To increment a string value.",
+    "Option2": "To increment the integer value of a hash field by a given amount.",
+    "Option3": "To decrement a hash field.",
+    "Option4": "To increment a list element.",
+    "Answer": "To increment the integer value of a hash field by a given amount."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `HINCRBYFLOAT` command used for?",
+    "Option1": "To increment a hash field by an integer.",
+    "Option2": "To increment the float value of a hash field by a given amount.",
+    "Option3": "To decrement a hash field by a float.",
+    "Option4": "To set a float value in a hash.",
+    "Answer": "To increment the float value of a hash field by a given amount."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the purpose of `SISMEMBER` command?",
+    "Option1": "To add a member to a set.",
+    "Option2": "To check if a member exists in a set.",
+    "Option3": "To remove a member from a set.",
+    "Option4": "To get a random member from a set.",
+    "Answer": "To check if a member exists in a set."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the purpose of `SUNIONSTORE` command?",
+    "Option1": "To get the union of multiple sets and store the result in a new key.",
+    "Option2": "To get the intersection of multiple sets.",
+    "Option3": "To store a single set.",
+    "Option4": "To get the difference between sets.",
+    "Answer": "To get the union of multiple sets and store the result in a new key."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the `SRANDMEMBER` command used for?",
+    "Option1": "To remove a random member from a set.",
+    "Option2": "To get one or more random members from a set without removing them.",
+    "Option3": "To get all members of a set.",
+    "Option4": "To add a random member to a set.",
+    "Answer": "To get one or more random members from a set without removing them."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the `LPOS` command (Redis 6.0+)?",
+    "Option1": "To get the length of a list.",
+    "Option2": "To find the index of an element in a list.",
+    "Option3": "To insert an element at a specific position.",
+    "Option4": "To remove an element by index.",
+    "Answer": "To find the index of an element in a list."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the purpose of `ZCOUNT` command?",
+    "Option1": "To count the total number of members in a sorted set.",
+    "Option2": "To count the number of members in a sorted set within a given score range.",
+    "Option3": "To count the number of members matching a pattern.",
+    "Option4": "To count the number of unique scores.",
+    "Answer": "To count the number of members in a sorted set within a given score range."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `ZREM` command used for?",
+    "Option1": "To remove a member from a regular set.",
+    "Option2": "To remove one or more members from a sorted set.",
+    "Option3": "To remove an element from a list.",
+    "Option4": "To remove a field from a hash.",
+    "Answer": "To remove one or more members from a sorted set."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the purpose of `ZREMRANGEBYSCORE` command?",
+    "Option1": "To remove members from a sorted set by rank.",
+    "Option2": "To remove all members in a sorted set within a given score range.",
+    "Option3": "To remove a single member by score.",
+    "Option4": "To remove members from a sorted set by value.",
+    "Answer": "To remove all members in a sorted set within a given score range."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `BITFIELD` useful for in terms of memory efficiency?",
+    "Option1": "It uses more memory than regular strings.",
+    "Option2": "It allows packing multiple small integer values into a single string key, saving significant memory compared to separate keys for each value.",
+    "Option3": "It stores data on disk directly.",
+    "Option4": "It compresses data automatically.",
+    "Answer": "It allows packing multiple small integer values into a single string key, saving significant memory compared to separate keys for each value."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the `GETDEL` command (Redis 6.2+)?",
+    "Option1": "To get a key and immediately set a new value.",
+    "Option2": "To get the value of a key and then atomically delete the key.",
+    "Option3": "To get the value of a key without deleting it.",
+    "Option4": "To delete a key and return nothing.",
+    "Answer": "To get the value of a key and then atomically delete the key."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is the concept of 'Streams Consumer Group' in Redis?",
+    "Option1": "A group of channels.",
+    "Option2": "A feature that allows multiple consumers to process a stream as a unified group, ensuring each message is delivered to only one consumer in the group and tracking their progress.",
+    "Option3": "A group of Redis servers.",
+    "Option4": "A group of messages.",
+    "Answer": "A feature that allows multiple consumers to process a stream as a unified group, ensuring each message is delivered to only one consumer in the group and tracking their progress."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the 'Persistent Queue' pattern using Redis Lists?",
+    "Option1": "Using `PUBLISH` and `SUBSCRIBE`.",
+    "Option2": "Using `LPUSH` or `RPUSH` for producers and `BRPOP` or `BLPOP` for consumers, with AOF enabled for durability.",
+    "Option3": "Using Redis Hashes.",
+    "Option4": "Using Redis Sets.",
+    "Answer": "Using `LPUSH` or `RPUSH` for producers and `BRPOP` or `BLPOP` for consumers, with AOF enabled for durability."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Redis Enterprise Pack (REP)'?",
+    "Option1": "A basic version of Redis.",
+    "Option2": "A formerly used term for the on-premise Redis Enterprise Software product.",
+    "Option3": "A cloud-only offering.",
+    "Option4": "A collection of Redis modules.",
+    "Answer": "A formerly used term for the on-premise Redis Enterprise Software product."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Active-Active Replication' in Redis Enterprise?",
+    "Option1": "A single master with multiple read-only replicas.",
+    "Option2": "A multi-master setup where multiple Redis instances can accept writes simultaneously, with conflicts resolved automatically or through custom logic.",
+    "Option3": "A setup with one active master and one passive standby.",
+    "Option4": "A simple master-replica setup.",
+    "Answer": "A multi-master setup where multiple Redis instances can accept writes simultaneously, with conflicts resolved automatically or through custom logic."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the `CLIENT SETNAME` command used for?",
+    "Option1": "To rename a key to a client's name.",
+    "Option2": "To assign a human-readable name to the current client connection.",
+    "Option3": "To set the server name.",
+    "Option4": "To change the database name.",
+    "Answer": "To assign a human-readable name to the current client connection."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the `CLIENT GETNAME` command used for?",
+    "Option1": "To get the name of a specific client.",
+    "Option2": "To get the name of the current client connection.",
+    "Option3": "To get the server's name.",
+    "Option4": "To get the name of the database.",
+    "Answer": "To get the name of the current client connection."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the purpose of `ACL` in Redis 6 and later?",
+    "Option1": "To manage client connections.",
+    "Option2": "To provide fine-grained Access Control List for users, allowing precise control over commands and keys they can access.",
+    "Option3": "To define network access rules.",
+    "Option4": "To set up database security policies.",
+    "Answer": "To provide fine-grained Access Control List for users, allowing precise control over commands and keys they can access."
+  },
+  {
+    "question_no.": 176,
+    "Question": "Which command adds a new user to Redis ACL?",
+    "Option1": "CREATE USER",
+    "Option2": "ACL SETUSER",
+    "Option3": "ADDUSER",
+    "Option4": "USER ADD",
+    "Answer": "ACL SETUSER"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `UNLINK` command (Redis 4.0+)?",
+    "Option1": "Synchronously deletes a key.",
+    "Option2": "Asynchronously deletes a key in a non-blocking manner, reclaiming memory in the background.",
+    "Option3": "Undoes a previous deletion.",
+    "Option4": "Links two keys together.",
+    "Answer": "Asynchronously deletes a key in a non-blocking manner, reclaiming memory in the background."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `SWAPDB` command (Redis 4.0+)?",
+    "Option1": "Swaps keys between two databases.",
+    "Option2": "Atomically swaps two Redis databases by their numeric IDs.",
+    "Option3": "Swaps data between Redis and disk.",
+    "Option4": "Swaps master and replica roles.",
+    "Answer": "Atomically swaps two Redis databases by their numeric IDs."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Redis Functions' (Redis 7.0+)?",
+    "Option1": "Server-side functions written in C.",
+    "Option2": "Server-side functions defined in Lua that can be invoked like regular Redis commands, offering better manageability than standalone scripts.",
+    "Option3": "Pre-defined Redis commands.",
+    "Option4": "Client-side functions.",
+    "Answer": "Server-side functions defined in Lua that can be invoked like regular Redis commands, offering better manageability than standalone scripts."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Redis Search Index'?",
+    "Option1": "A traditional database index.",
+    "Option2": "An index created by the RediSearch module to enable full-text search and secondary indexing capabilities on Redis data.",
+    "Option3": "An index for sorted sets.",
+    "Option4": "An index used for geospatial queries.",
+    "Answer": "An index created by the RediSearch module to enable full-text search and secondary indexing capabilities on Redis data."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is the main benefit of RediSearch over simple `KEYS` or `SCAN` for finding data?",
+    "Option1": "It's slower but consumes less memory.",
+    "Option2": "It provides full-text search, filtering, and aggregation capabilities with much faster performance and without blocking the server.",
+    "Option3": "It's only for small datasets.",
+    "Option4": "It encrypts search queries.",
+    "Answer": "It provides full-text search, filtering, and aggregation capabilities with much faster performance and without blocking the server."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'JSON.SET' command in RedisJSON?",
+    "Option1": "To set a top-level JSON document.",
+    "Option2": "To set a value at a specified JSON path within a document, creating parent objects/arrays if they don't exist.",
+    "Option3": "To delete a JSON field.",
+    "Option4": "To retrieve a JSON value.",
+    "Answer": "To set a value at a specified JSON path within a document, creating parent objects/arrays if they don't exist."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'JSON.GET' command in RedisJSON?",
+    "Option1": "To add a new JSON document.",
+    "Option2": "To retrieve the value at a specified JSON path within a document.",
+    "Option3": "To update a JSON document.",
+    "Option4": "To list all JSON documents.",
+    "Answer": "To retrieve the value at a specified JSON path within a document."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'JSON.ARRAPPEND' command in RedisJSON?",
+    "Option1": "To create a new JSON array.",
+    "Option2": "To append values to a JSON array at a specified path.",
+    "Option3": "To get the length of a JSON array.",
+    "Option4": "To remove elements from a JSON array.",
+    "Answer": "To append values to a JSON array at a specified path."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `FT.SEARCH` command used for in RediSearch?",
+    "Option1": "To search for keys in Redis.",
+    "Option2": "To perform full-text search queries against a RediSearch index.",
+    "Option3": "To search for specific values in a hash.",
+    "Option4": "To search for members in a sorted set.",
+    "Answer": "To perform full-text search queries against a RediSearch index."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the advantage of using Redis Modules over external processes for specialized functionality?",
+    "Option1": "They are slower.",
+    "Option2": "They run inside the Redis process, benefiting from Redis's speed and atomicity, reducing context switching and network overhead.",
+    "Option3": "They consume more memory.",
+    "Option4": "They are harder to develop.",
+    "Answer": "They run inside the Redis process, benefiting from Redis's speed and atomicity, reducing context switching and network overhead."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'RedisGears'?",
+    "Option1": "A tool for managing Redis replicas.",
+    "Option2": "A framework for event-driven data processing in Redis, allowing execution of Python and other scripts on data changes.",
+    "Option3": "A module for graph processing.",
+    "Option4": "A tool for performance monitoring.",
+    "Answer": "A framework for event-driven data processing in Redis, allowing execution of Python and other scripts on data changes."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the purpose of the `DEBUG OBJECT` command?",
+    "Option1": "To debug client applications.",
+    "Option2": "To get debugging information about a Redis key's internal representation and memory usage.",
+    "Option3": "To debug Redis server processes.",
+    "Option4": "To inspect the Redis database file.",
+    "Answer": "To get debugging information about a Redis key's internal representation and memory usage."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the `SLOWLOG GET` command used for?",
+    "Option1": "To get information about slow-running client applications.",
+    "Option2": "To retrieve entries from the Redis Slow Log, which records commands exceeding a configured execution time.",
+    "Option3": "To get a list of slow-performing keys.",
+    "Option4": "To analyze network latency.",
+    "Answer": "To retrieve entries from the Redis Slow Log, which records commands exceeding a configured execution time."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is the `PUBSUB NUMPAT` command used for?",
+    "Option1": "To get the number of published messages.",
+    "Option2": "To get the number of unique patterns subscribed to by clients (using `PSUBSCRIBE`).",
+    "Option3": "To count the number of channels.",
+    "Option4": "To get the number of active publishers.",
+    "Answer": "To get the number of unique patterns subscribed to by clients (using `PSUBSCRIBE`)."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is a 'Sharded Cluster' in Redis?",
+    "Option1": "A single Redis instance with multiple databases.",
+    "Option2": "A Redis Cluster where data is partitioned across multiple master nodes.",
+    "Option3": "A master-replica setup.",
+    "Option4": "A cluster of Redis Sentinel instances.",
+    "Answer": "A Redis Cluster where data is partitioned across multiple master nodes."
+  },
+  {
+    "question_no.": 192,
+    "Question": "How do clients typically connect to a Redis Cluster?",
+    "Option1": "By connecting to a single fixed IP address.",
+    "Option2": "They need to be cluster-aware and maintain a view of the cluster topology to connect to the correct nodes.",
+    "Option3": "Via a proxy server.",
+    "Option4": "By connecting to any replica node.",
+    "Answer": "They need to be cluster-aware and maintain a view of the cluster topology to connect to the correct nodes."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the primary role of Redis in a microservices architecture?",
+    "Option1": "As the main transactional database for all services.",
+    "Option2": "For caching, inter-service communication (Pub/Sub, Streams), distributed locks, and session management.",
+    "Option3": "To replace all traditional databases.",
+    "Option4": "Only for storing static configuration data.",
+    "Answer": "For caching, inter-service communication (Pub/Sub, Streams), distributed locks, and session management."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `LPOP` command used for?",
+    "Option1": "To push an element to the left of a list.",
+    "Option2": "To remove and return the first element (left-most) of a list.",
+    "Option3": "To remove and return the last element of a list.",
+    "Option4": "To get an element by index.",
+    "Answer": "To remove and return the first element (left-most) of a list."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `RPOP` command used for?",
+    "Option1": "To push an element to the right of a list.",
+    "Option2": "To remove and return the last element (right-most) of a list.",
+    "Option3": "To remove and return the first element of a list.",
+    "Option4": "To get an element by index.",
+    "Answer": "To remove and return the last element (right-most) of a list."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the `SRANK` command (Redis 6.2+)?",
+    "Option1": "To get the score of a member in a sorted set.",
+    "Option2": "To determine the rank of a member in a set (its position if sorted).",
+    "Option3": "To add a member to a set with a rank.",
+    "Option4": "To remove a member by rank.",
+    "Answer": "To determine the rank of a member in a set (its position if sorted)."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `ZINTERSTORE` command used for?",
+    "Option1": "To store the union of multiple sorted sets.",
+    "Option2": "To compute the intersection of multiple sorted sets and store the result in a new key.",
+    "Option3": "To get the difference between sorted sets.",
+    "Option4": "To add members to a sorted set.",
+    "Answer": "To compute the intersection of multiple sorted sets and store the result in a new key."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `ZUNIONSTORE` command used for?",
+    "Option1": "To compute the intersection of multiple sorted sets.",
+    "Option2": "To compute the union of multiple sorted sets and store the result in a new key.",
+    "Option3": "To get the difference between sorted sets.",
+    "Option4": "To add members to a sorted set.",
+    "Answer": "To compute the union of multiple sorted sets and store the result in a new key."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the `EXPIRETIME` command (Redis 7.0+)?",
+    "Option1": "To set the expiration time of a key.",
+    "Option2": "To get the expiration time of a key as a Unix timestamp in seconds.",
+    "Option3": "To get the remaining TTL of a key in milliseconds.",
+    "Option4": "To check if a key has an expiration set.",
+    "Answer": "To get the expiration time of a key as a Unix timestamp in seconds."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `PXEXPIRETIME` command (Redis 7.0+)?",
+    "Option1": "To get the expiration time of a key in seconds.",
+    "Option2": "To get the expiration time of a key as a Unix timestamp in milliseconds.",
+    "Option3": "To set the expiration time of a key in milliseconds.",
+    "Option4": "To check if a key has a precise expiration time.",
+    "Answer": "To get the expiration time of a key as a Unix timestamp in milliseconds."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `FUNCTION LOAD` command (Redis 7.0+)?",
+    "Option1": "To execute a Lua script.",
+    "Option2": "To load a new Redis Function into the server, making it available for invocation.",
+    "Option3": "To list all loaded functions.",
+    "Option4": "To delete a function.",
+    "Answer": "To load a new Redis Function into the server, making it available for invocation."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `FUNCTION CALL` command (Redis 7.0+)?",
+    "Option1": "To define a new function.",
+    "Option2": "To invoke a previously loaded Redis Function.",
+    "Option3": "To get information about a function.",
+    "Option4": "To check if a function exists.",
+    "Answer": "To invoke a previously loaded Redis Function."
+  }
+]

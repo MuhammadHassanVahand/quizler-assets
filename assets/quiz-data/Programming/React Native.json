@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is React Native primarily used for?",
+    "Option1": "Building web applications",
+    "Option2": "Building native mobile applications using JavaScript and React",
+    "Option3": "Building desktop applications",
+    "Option4": "Building backend services",
+    "Answer": "Building native mobile applications using JavaScript and React"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which company developed React Native?",
+    "Option1": "Google",
+    "Option2": "Microsoft",
+    "Option3": "Facebook",
+    "Option4": "Apple",
+    "Answer": "Facebook"
+  },
+  {
+    "question_no.": 3,
+    "Question": "React Native compiles to which type of code?",
+    "Option1": "WebAssembly",
+    "Option2": "Native UI components",
+    "Option3": "HTML, CSS, and JavaScript",
+    "Option4": "Bytecode",
+    "Answer": "Native UI components"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is JSX in React Native?",
+    "Option1": "A JavaScript extension for handling JSON data",
+    "Option2": "A syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files",
+    "Option3": "A special type of JavaScript file for styling",
+    "Option4": "A templating language for server-side rendering",
+    "Answer": "A syntax extension for JavaScript that allows you to write HTML-like code in your JavaScript files"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the core building block of a React Native UI?",
+    "Option1": "HTML tags",
+    "Option2": "Components",
+    "Option3": "CSS classes",
+    "Option4": "Functions",
+    "Answer": "Components"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you style components in React Native?",
+    "Option1": "Using external CSS files",
+    "Option2": "Using inline styles with a JavaScript object or `StyleSheet.create()`",
+    "Option3": "Using SASS/LESS preprocessors",
+    "Option4": "Using traditional CSS classes",
+    "Answer": "Using inline styles with a JavaScript object or `StyleSheet.create()`"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is `View` component in React Native equivalent to in web development?",
+    "Option1": "<span>",
+    "Option2": "<div>",
+    "Option3": "<p>",
+    "Option4": "<a>",
+    "Answer": "<div>"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which component is used to display text in React Native?",
+    "Option1": "Label",
+    "Option2": "Paragraph",
+    "Option3": "Text",
+    "Option4": "Span",
+    "Answer": "Text"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is `props` in React Native?",
+    "Option1": "State variables that change over time",
+    "Option2": "Immutable data passed from a parent component to a child component",
+    "Option3": "Internal data of a component",
+    "Option4": "Functions used for component lifecycle",
+    "Answer": "Immutable data passed from a parent component to a child component"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is `state` in React Native?",
+    "Option1": "Data passed from parent to child",
+    "Option2": "Immutable data that never changes",
+    "Option3": "Internal data of a component that can change over time and trigger re-renders",
+    "Option4": "External configuration for the app",
+    "Answer": "Internal data of a component that can change over time and trigger re-renders"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you update the state of a functional component in React Native?",
+    "Option1": "Directly modifying `this.state`",
+    "Option2": "Using `setState()`",
+    "Option3": "Using the state setter function returned by `useState` hook",
+    "Option4": "Using `updateState()`",
+    "Answer": "Using the state setter function returned by `useState` hook"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which hook is used for managing side effects in functional components?",
+    "Option1": "useState",
+    "Option2": "useContext",
+    "Option3": "useEffect",
+    "Option4": "useReducer",
+    "Answer": "useEffect"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the purpose of the dependency array in `useEffect`?",
+    "Option1": "To define the initial state",
+    "Option2": "To specify when the effect should re-run (e.g., when certain values change)",
+    "Option3": "To declare global variables",
+    "Option4": "To list all imported components",
+    "Answer": "To specify when the effect should re-run (e.g., when certain values change)"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you handle user input in a `TextInput` component?",
+    "Option1": "Using `onChange` event",
+    "Option2": "Using `onInput` event",
+    "Option3": "Using `onChangeText` event",
+    "Option4": "Using `onKeyPress` event",
+    "Answer": "Using `onChangeText` event"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the primary component for handling touch events in React Native?",
+    "Option1": "Button",
+    "Option2": "TouchableOpacity",
+    "Option3": "Clickable",
+    "Option4": "TouchableHighlight",
+    "Answer": "TouchableOpacity"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which component is used to display images in React Native?",
+    "Option1": "Img",
+    "Option2": "Picture",
+    "Option3": "Image",
+    "Option4": "Photo",
+    "Answer": "Image"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you load a local image in React Native?",
+    "Option1": "Using a string path directly",
+    "Option2": "Using `require()` with the image path",
+    "Option3": "Using `import` statement",
+    "Option4": "Using a URL to the local file system",
+    "Answer": "Using `require()` with the image path"
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you load an image from the network in React Native?",
+    "Option1": "Using `source={{ uri: 'URL' }}`",
+    "Option2": "Using `source='URL'`",
+    "Option3": "Using `url='URL'`",
+    "Option4": "Using `fetchImage('URL')`",
+    "Answer": "Using `source={{ uri: 'URL' }}`"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is `FlatList` used for in React Native?",
+    "Option1": "Displaying a single item",
+    "Option2": "Efficiently rendering long lists of data",
+    "Option3": "Creating horizontal carousels",
+    "Option4": "Displaying nested data structures",
+    "Answer": "Efficiently rendering long lists of data"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What are the two most important props for `FlatList`?",
+    "Option1": "data and renderItem",
+    "Option2": "items and displayItem",
+    "Option3": "list and renderRow",
+    "Option4": "source and itemView",
+    "Answer": "data and renderItem"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is `keyExtractor` in `FlatList` used for?",
+    "Option1": "To extract the value of an item",
+    "Option2": "To provide a unique key for each item, improving performance and avoiding re-renders issues",
+    "Option3": "To filter items in the list",
+    "Option4": "To sort the list items",
+    "Answer": "To provide a unique key for each item, improving performance and avoiding re-renders issues"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the purpose of `ScrollView` in React Native?",
+    "Option1": "To make content scrollable when it exceeds the screen size",
+    "Option2": "To create a fixed header",
+    "Option3": "To implement infinite scrolling",
+    "Option4": "To manage multiple pages",
+    "Answer": "To make content scrollable when it exceeds the screen size"
+  },
+  {
+    "question_no.": 23,
+    "Question": "When should you use `FlatList` instead of `ScrollView` for lists?",
+    "Option1": "For short, static lists",
+    "Option2": "For long, dynamic lists that require optimized rendering and performance",
+    "Option3": "When you need all items to be rendered at once",
+    "Option4": "When the list items have varying heights",
+    "Answer": "For long, dynamic lists that require optimized rendering and performance"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is Flexbox used for in React Native?",
+    "Option1": "Managing application state",
+    "Option2": "Defining application logic",
+    "Option3": "Layout and positioning of components",
+    "Option4": "Handling network requests",
+    "Answer": "Layout and positioning of components"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the default `flexDirection` in React Native?",
+    "Option1": "row",
+    "Option2": "column",
+    "Option3": "row-reverse",
+    "Option4": "column-reverse",
+    "Answer": "column"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you center an item horizontally using Flexbox?",
+    "Option1": "alignItems: 'center'",
+    "Option2": "justifyContent: 'center'",
+    "Option3": "alignSelf: 'center'",
+    "Option4": "flexAlign: 'center'",
+    "Answer": "alignItems: 'center'"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you center an item vertically using Flexbox?",
+    "Option1": "alignItems: 'center'",
+    "Option2": "justifyContent: 'center'",
+    "Option3": "alignSelf: 'center'",
+    "Option4": "flexVertical: 'center'",
+    "Answer": "justifyContent: 'center'"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `SafeAreaView` used for?",
+    "Option1": "To ensure content is displayed within the safe area of a device (e.g., avoiding notches, status bars)",
+    "Option2": "To create secure user authentication",
+    "Option3": "To provide a secure storage for data",
+    "Option4": "To manage network security",
+    "Answer": "To ensure content is displayed within the safe area of a device (e.g., avoiding notches, status bars)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the `Platform` module used for?",
+    "Option1": "To detect the device's screen size",
+    "Option2": "To write platform-specific code (e.g., for iOS vs. Android)",
+    "Option3": "To manage cross-platform dependencies",
+    "Option4": "To build web applications",
+    "Answer": "To write platform-specific code (e.g., for iOS vs. Android)"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you detect if the current platform is iOS using the `Platform` module?",
+    "Option1": "Platform.isIOS",
+    "Option2": "Platform.OS === 'ios'",
+    "Option3": "Platform.is('iOS')",
+    "Option4": "Platform.device === 'ios'",
+    "Answer": "Platform.OS === 'ios'"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is `Dimensions` module used for?",
+    "Option1": "To get the device's physical dimensions (width, height)",
+    "Option2": "To control the size of images",
+    "Option3": "To manage the display of different screen resolutions",
+    "Option4": "To create 3D animations",
+    "Answer": "To get the device's physical dimensions (width, height)"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you get the screen width using `Dimensions`?",
+    "Option1": "Dimensions.get('window').width",
+    "Option2": "Dimensions.screenWidth",
+    "Option3": "Dimensions.width()",
+    "Option4": "Dimensions.window.width",
+    "Answer": "Dimensions.get('window').width"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is `AsyncStorage` used for?",
+    "Option1": "Synchronous data storage",
+    "Option2": "Persistent, asynchronous key-value storage for the application",
+    "Option3": "Temporary in-memory storage",
+    "Option4": "Cloud storage for user data",
+    "Answer": "Persistent, asynchronous key-value storage for the application"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Is `AsyncStorage` synchronous or asynchronous?",
+    "Option1": "Synchronous",
+    "Option2": "Asynchronous",
+    "Option3": "Both, depending on the method",
+    "Option4": "Neither",
+    "Answer": "Asynchronous"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you store a value in `AsyncStorage`?",
+    "Option1": "AsyncStorage.setItem('key', 'value')",
+    "Option2": "AsyncStorage.save('key', 'value')",
+    "Option3": "AsyncStorage.store('key', 'value')",
+    "Option4": "AsyncStorage.set('key', 'value')",
+    "Answer": "AsyncStorage.setItem('key', 'value')"
+  },
+  {
+    "question_no.": 36,
+    "Question": "How do you retrieve a value from `AsyncStorage`?",
+    "Option1": "AsyncStorage.getItem('key')",
+    "Option2": "AsyncStorage.load('key')",
+    "Option3": "AsyncStorage.get('key')",
+    "Option4": "AsyncStorage.retrieve('key')",
+    "Answer": "AsyncStorage.getItem('key')"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is `NetInfo` module used for?",
+    "Option1": "To get network speed",
+    "Option2": "To determine the device's online/offline status and network type",
+    "Option3": "To manage Wi-Fi connections",
+    "Option4": "To monitor data usage",
+    "Answer": "To determine the device's online/offline status and network type"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `Linking` module used for?",
+    "Option1": "To create deep links within the app only",
+    "Option2": "To interact with incoming and outgoing app links (deep linking, opening URLs, etc.)",
+    "Option3": "To link components together",
+    "Option4": "To create links between different screens",
+    "Answer": "To interact with incoming and outgoing app links (deep linking, opening URLs, etc.)"
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you open an external URL using `Linking`?",
+    "Option1": "Linking.openURL('https://example.com')",
+    "Option2": "Linking.goTo('https://example.com')",
+    "Option3": "Linking.url('https://example.com')",
+    "Option4": "Linking.navigate('https://example.com')",
+    "Answer": "Linking.openURL('https://example.com')"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is `Alert` module used for?",
+    "Option1": "Displaying system-level notifications",
+    "Option2": "Creating simple alert dialogs with a title, message, and buttons",
+    "Option3": "Handling error logging",
+    "Option4": "Generating custom pop-up windows",
+    "Answer": "Creating simple alert dialogs with a title, message, and buttons"
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you display a basic alert?",
+    "Option1": "Alert.show('Message')",
+    "Option2": "Alert.alert('Title', 'Message')",
+    "Option3": "Alert.display('Message')",
+    "Option4": "Alert.popup('Message')",
+    "Answer": "Alert.alert('Title', 'Message')"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is `Modal` component used for?",
+    "Option1": "To navigate between screens",
+    "Option2": "To display content that temporarily covers the entire screen, often for alerts, forms, or detailed views",
+    "Option3": "To create a scrollable list",
+    "Option4": "To display a fixed footer",
+    "Answer": "To display content that temporarily covers the entire screen, often for alerts, forms, or detailed views"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What prop controls the visibility of a `Modal`?",
+    "Option1": "visible",
+    "Option2": "isOpen",
+    "Option3": "show",
+    "Option4": "display",
+    "Answer": "visible"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the `ActivityIndicator` component used for?",
+    "Option1": "Displaying a progress bar",
+    "Option2": "Indicating that a task is in progress (a spinning loader)",
+    "Option3": "Showing battery status",
+    "Option4": "Displaying notifications",
+    "Answer": "Indicating that a task is in progress (a spinning loader)"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What are React Native navigation libraries used for?",
+    "Option1": "Handling network requests",
+    "Option2": "Managing the flow and transitions between different screens (routes) in a mobile app",
+    "Option3": "Storing data locally",
+    "Option4": "Styling components",
+    "Answer": "Managing the flow and transitions between different screens (routes) in a mobile app"
+  },
+  {
+    "question_no.": 46,
+    "Question": "Name a popular navigation library for React Native.",
+    "Option1": "React Router",
+    "Option2": "React Navigation",
+    "Option3": "Navigator",
+    "Option4": "Go Router",
+    "Answer": "React Navigation"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `Stack Navigator` in React Navigation?",
+    "Option1": "A navigator that allows tabs at the bottom of the screen.",
+    "Option2": "A navigator that provides a way for your app to transition between screens where each new screen is placed on top of a stack.",
+    "Option3": "A navigator that creates a drawer menu.",
+    "Option4": "A navigator that displays screens in a grid.",
+    "Answer": "A navigator that provides a way for your app to transition between screens where each new screen is placed on top of a stack."
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you navigate to a new screen named 'Details' using `React Navigation`?",
+    "Option1": "navigate('Details')",
+    "Option2": "navigation.navigate('Details')",
+    "Option3": "goTo('Details')",
+    "Option4": "openScreen('Details')",
+    "Answer": "navigation.navigate('Details')"
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you pass parameters to a navigated screen?",
+    "Option1": "navigation.navigate('Screen', { param: 'value' })",
+    "Option2": "navigation.params({ param: 'value' })",
+    "Option3": "navigation.send('Screen', { param: 'value' })",
+    "Option4": "navigation.setParam('param', 'value')",
+    "Answer": "navigation.navigate('Screen', { param: 'value' })"
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you access parameters on the navigated screen?",
+    "Option1": "route.params.param",
+    "Option2": "this.props.param",
+    "Option3": "navigation.getParam('param')",
+    "Option4": "params.param",
+    "Answer": "route.params.param"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is `Tab Navigator` in React Navigation?",
+    "Option1": "A navigator that creates a drawer menu.",
+    "Option2": "A navigator that lets you switch between different routes by tapping on tabs usually at the bottom or top of the screen.",
+    "Option3": "A navigator for modals.",
+    "Option4": "A navigator for authentication flows.",
+    "Answer": "A navigator that lets you switch between different routes by tapping on tabs usually at the bottom or top of the screen."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is `Drawer Navigator` in React Navigation?",
+    "Option1": "A navigator for displaying full-screen modals.",
+    "Option2": "A navigator that allows users to open a drawer (sidebar) from the side of the screen, revealing navigation options.",
+    "Option3": "A navigator for horizontal lists.",
+    "Option4": "A navigator for nested stacks.",
+    "Answer": "A navigator that allows users to open a drawer (sidebar) from the side of the screen, revealing navigation options."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the `StatusBar` component used for?",
+    "Option1": "To display a progress bar at the top of the screen.",
+    "Option2": "To control the appearance of the device's status bar (e.g., background color, text style).",
+    "Option3": "To show network activity.",
+    "Option4": "To display messages to the user.",
+    "Answer": "To control the appearance of the device's status bar (e.g., background color, text style)."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `KeyboardAvoidingView` used for?",
+    "Option1": "To dismiss the keyboard.",
+    "Option2": "To automatically adjust the view's height or position to prevent the keyboard from obscuring input fields.",
+    "Option3": "To open the keyboard programmatically.",
+    "Option4": "To change keyboard layout.",
+    "Answer": "To automatically adjust the view's height or position to prevent the keyboard from obscuring input fields."
+  },
+  {
+    "question_no.": 55,
+    "Question": "How do you dismiss the keyboard programmatically in React Native?",
+    "Option1": "Keyboard.hide()",
+    "Option2": "Keyboard.dismiss()",
+    "Option3": "Keyboard.close()",
+    "Option4": "Keyboard.remove()",
+    "Answer": "Keyboard.dismiss()"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is `Alert.prompt()` used for?",
+    "Option1": "To display a simple alert message.",
+    "Option2": "To display an alert with text input fields and buttons (iOS only).",
+    "Option3": "To prompt the user for confirmation.",
+    "Option4": "To show a list of options.",
+    "Answer": "To display an alert with text input fields and buttons (iOS only)."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `PixelRatio` module used for?",
+    "Option1": "To get the screen resolution in pixels.",
+    "Option2": "To work with device pixel density, useful for handling image resolutions across different devices.",
+    "Option3": "To adjust text size dynamically.",
+    "Option4": "To convert physical units to pixels.",
+    "Answer": "To work with device pixel density, useful for handling image resolutions across different devices."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is `Animated` API used for?",
+    "Option1": "Creating static designs.",
+    "Option2": "Creating smooth and performant animations that can run off the main JavaScript thread.",
+    "Option3": "Displaying GIFs.",
+    "Option4": "Generating random movements.",
+    "Answer": "Creating smooth and performant animations that can run off the main JavaScript thread."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the `interpolate` method used for in `Animated`?",
+    "Option1": "To combine multiple animations.",
+    "Option2": "To map input ranges to output ranges, creating dynamic animation values.",
+    "Option3": "To stop an animation.",
+    "Option4": "To start an animation.",
+    "Answer": "To map input ranges to output ranges, creating dynamic animation values."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `PanResponder` used for?",
+    "Option1": "To detect single taps.",
+    "Option2": "To handle complex multi-touch gestures like panning, swiping, and pinching.",
+    "Option3": "To detect long presses.",
+    "Option4": "To manage keyboard input.",
+    "Answer": "To handle complex multi-touch gestures like panning, swiping, and pinching."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `Push Notifications` in React Native?",
+    "Option1": "Notifications that are only displayed when the app is open.",
+    "Option2": "Messages or alerts sent by a server to a user's device, even when the app is not actively running.",
+    "Option3": "Notifications sent between different components in the app.",
+    "Option4": "Alerts generated by the device itself.",
+    "Answer": "Messages or alerts sent by a server to a user's device, even when the app is not actively running."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Name a common third-party library for handling push notifications in React Native.",
+    "Option1": "react-native-notifications",
+    "Option2": "Firebase Messaging (FCM)",
+    "Option3": "Pushy",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `PermissionsAndroid` (Android only) used for?",
+    "Option1": "To manage iOS permissions.",
+    "Option2": "To request runtime permissions on Android devices.",
+    "Option3": "To check device capabilities.",
+    "Option4": "To manage app store permissions.",
+    "Answer": "To request runtime permissions on Android devices."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `Geocoder` in React Native (often via a library)?",
+    "Option1": "A tool for encoding data.",
+    "Option2": "A service that converts human-readable addresses into geographic coordinates (latitude and longitude) and vice-versa.",
+    "Option3": "A module for drawing maps.",
+    "Option4": "A tool for encrypting locations.",
+    "Answer": "A service that converts human-readable addresses into geographic coordinates (latitude and longitude) and vice-versa."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `Geolocation` API used for?",
+    "Option1": "To get weather information.",
+    "Option2": "To access the device's current location (latitude and longitude).",
+    "Option3": "To track routes.",
+    "Option4": "To find nearby places.",
+    "Answer": "To access the device's current location (latitude and longitude)."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is `CameraRoll` (iOS) or `MediaLibrary` (Expo) used for?",
+    "Option1": "To take new photos.",
+    "Option2": "To access the device's photo library.",
+    "Option3": "To upload images to a server.",
+    "Option4": "To apply filters to images.",
+    "Answer": "To access the device's photo library."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `Expo` in the context of React Native?",
+    "Option1": "A build tool for React Native.",
+    "Option2": "A framework and platform for universal React applications, simplifying development by providing managed workflows, APIs, and services.",
+    "Option3": "A state management library.",
+    "Option4": "A UI component library.",
+    "Answer": "A framework and platform for universal React applications, simplifying development by providing managed workflows, APIs, and services."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the main advantage of using Expo?",
+    "Option1": "It provides full control over native code.",
+    "Option2": "It simplifies native module installation and setup, allowing faster development without dealing with Xcode/Android Studio directly.",
+    "Option3": "It makes apps run faster.",
+    "Option4": "It is only for web development.",
+    "Answer": "It simplifies native module installation and setup, allowing faster development without dealing with Xcode/Android Studio directly."
+  },
+  {
+    "question_no.": 69,
+    "Question": "When might you choose `Expo eject` or a bare React Native workflow?",
+    "Option1": "When you need to use only standard React Native modules.",
+    "Option2": "When you need to use native modules not supported by Expo, or require more control over the native build process.",
+    "Option3": "When you want faster development cycles.",
+    "Option4": "When you are building a small, simple app.",
+    "Answer": "When you need to use native modules not supported by Expo, or require more control over the native build process."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `Native Modules` in React Native?",
+    "Option1": "JavaScript modules written in React Native.",
+    "Option2": "Code written in native languages (Objective-C/Swift for iOS, Java/Kotlin for Android) that can be accessed and used from JavaScript.",
+    "Option3": "Modules that interact with web APIs.",
+    "Option4": "Built-in React Native components.",
+    "Answer": "Code written in native languages (Objective-C/Swift for iOS, Java/Kotlin for Android) that can be accessed and used from JavaScript."
+  },
+  {
+    "question_no.": 71,
+    "Question": "When do you typically need to create `Native Modules`?",
+    "Option1": "For basic UI elements.",
+    "Option2": "When React Native's built-in components or existing third-party modules don't provide the necessary functionality, especially for hardware-specific features.",
+    "Option3": "For simple data fetching.",
+    "Option4": "For styling components.",
+    "Answer": "When React Native's built-in components or existing third-party modules don't provide the necessary functionality, especially for hardware-specific features."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `JSI` (JavaScript Interface) in React Native?",
+    "Option1": "A new way to write JavaScript.",
+    "Option2": "A modern architecture for React Native, allowing direct communication between JavaScript and native code without the bridge.",
+    "Option3": "A tool for debugging JavaScript.",
+    "Option4": "A library for parsing JSON.",
+    "Answer": "A modern architecture for React Native, allowing direct communication between JavaScript and native code without the bridge."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the `Bridge` in older React Native architectures?",
+    "Option1": "A way to connect to a database.",
+    "Option2": "A communication layer that serializes and deserializes data between the JavaScript thread and the native UI thread.",
+    "Option3": "A tool for debugging network requests.",
+    "Option4": "A component for managing application state.",
+    "Answer": "A communication layer that serializes and deserializes data between the JavaScript thread and the native UI thread."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `Hot Reloading` in React Native?",
+    "Option1": "Automatically reloading the entire application on code changes.",
+    "Option2": "Applying code changes to the running application without losing the current state of the app, for faster development.",
+    "Option3": "Compiling code in the background.",
+    "Option4": "Refreshing only the styling.",
+    "Answer": "Applying code changes to the running application without losing the current state of the app, for faster development."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is `Fast Refresh` (formerly Hot Reloading)?",
+    "Option1": "A new name for the same feature.",
+    "Option2": "An improved version of Hot Reloading in React Native, providing more reliable and resilient updates while preserving component state.",
+    "Option3": "A tool for caching data.",
+    "Option4": "A method for deploying apps faster.",
+    "Answer": "An improved version of Hot Reloading in React Native, providing more reliable and resilient updates while preserving component state."
+  },
+  {
+    "question_no.": 76,
+    "Question": "How do you debug React Native applications?",
+    "Option1": "Using `console.log()` statements only.",
+    "Option2": "Using browser developer tools (e.g., Chrome DevTools) connected to the React Native debugger, and tools like Flipper.",
+    "Option3": "Directly in Xcode or Android Studio only.",
+    "Option4": "By restarting the app every time.",
+    "Answer": "Using browser developer tools (e.g., Chrome DevTools) connected to the React Native debugger, and tools like Flipper."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `Flipper` used for in React Native debugging?",
+    "Option1": "A tool for making network requests.",
+    "Option2": "A desktop debugging platform for mobile apps, providing various plugins for inspecting UI, network, logs, and more.",
+    "Option3": "A mobile device emulator.",
+    "Option4": "A continuous integration tool.",
+    "Answer": "A desktop debugging platform for mobile apps, providing various plugins for inspecting UI, network, logs, and more."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `Redux` (or similar state management libraries) used for in React Native?",
+    "Option1": "To manage component-specific state.",
+    "Option2": "To manage global application state in a predictable and centralized manner, especially in large applications.",
+    "Option3": "To handle local storage.",
+    "Option4": "To define component styling.",
+    "Answer": "To manage global application state in a predictable and centralized manner, especially in large applications."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What are the three core principles of Redux?",
+    "Option1": "Single source of truth, state is read-only, changes are made with pure functions.",
+    "Option2": "Multiple stores, mutable state, direct state modification.",
+    "Option3": "Local state, asynchronous actions, side effects only.",
+    "Option4": "Component-driven, props-based, immutable components.",
+    "Answer": "Single source of truth, state is read-only, changes are made with pure functions."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is a `Reducer` in Redux?",
+    "Option1": "A function that dispatches actions.",
+    "Option2": "A pure function that takes the current state and an action, and returns the new state.",
+    "Option3": "A component that displays data.",
+    "Option4": "A middleware for asynchronous operations.",
+    "Answer": "A pure function that takes the current state and an action, and returns the new state."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is an `Action` in Redux?",
+    "Option1": "A function that modifies the state directly.",
+    "Option2": "A plain JavaScript object that describes what happened in the application, and the only way to change the state.",
+    "Option3": "A component's lifecycle method.",
+    "Option4": "A type of UI event.",
+    "Answer": "A plain JavaScript object that describes what happened in the application, and the only way to change the state."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the `Store` in Redux?",
+    "Option1": "A database for the application.",
+    "Option2": "The single source of truth that holds the entire application state.",
+    "Option3": "A component that displays all data.",
+    "Option4": "A function that combines reducers.",
+    "Answer": "The single source of truth that holds the entire application state."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `Middleware` in Redux?",
+    "Option1": "Functions that modify the UI.",
+    "Option2": "Functions that intercept dispatched actions before they reach the reducer, often used for asynchronous operations or logging.",
+    "Option3": "Functions that store data.",
+    "Option4": "Functions that define initial state.",
+    "Answer": "Functions that intercept dispatched actions before they reach the reducer, often used for asynchronous operations or logging."
+  },
+  {
+    "question_no.": 84,
+    "Question": "Name a common Redux middleware for handling asynchronous actions.",
+    "Option1": "Redux Thunk or Redux Saga",
+    "Option2": "Redux Logger",
+    "Option3": "Redux Forms",
+    "Option4": "Redux Persist",
+    "Answer": "Redux Thunk or Redux Saga"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `React Context API` used for?",
+    "Option1": "For managing complex asynchronous operations.",
+    "Option2": "For passing data through the component tree without having to pass props down manually at every level (prop drilling).",
+    "Option3": "For creating global state that changes frequently.",
+    "Option4": "For styling components dynamically.",
+    "Answer": "For passing data through the component tree without having to pass props down manually at every level (prop drilling)."
+  },
+  {
+    "question_no.": 86,
+    "Question": "When might `Context API` be preferred over a full state management library like Redux?",
+    "Option1": "For very complex, large-scale applications.",
+    "Option2": "For simpler, localized global state that doesn't require a strict, predictable state flow.",
+    "Option3": "When you need persistent data storage.",
+    "Option4": "When working with native modules.",
+    "Answer": "For simpler, localized global state that doesn't require a strict, predictable state flow."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `Hermes` in React Native?",
+    "Option1": "A new UI component library.",
+    "Option2": "A JavaScript engine optimized for React Native, aiming to improve start-up time, reduce memory usage, and decrease app size.",
+    "Option3": "A state management solution.",
+    "Option4": "A tool for code linting.",
+    "Answer": "A JavaScript engine optimized for React Native, aiming to improve start-up time, reduce memory usage, and decrease app size."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `Fabric` in React Native?",
+    "Option1": "A new networking library.",
+    "Option2": "The new rendering system for React Native, designed to improve performance and consistency by making communication between JS and native more efficient.",
+    "Option3": "A new state management system.",
+    "Option4": "A build system for Android.",
+    "Answer": "The new rendering system for React Native, designed to improve performance and consistency by making communication between JS and native more efficient."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `New Architecture` of React Native?",
+    "Option1": "Only related to faster development.",
+    "Option2": "An ongoing effort to re-architect React Native, including Hermes, Fabric, and TurboModules, aiming for better performance, developer experience, and closer integration with native.",
+    "Option3": "A change in component lifecycle.",
+    "Option4": "A new way to style components.",
+    "Answer": "An ongoing effort to re-architect React Native, including Hermes, Fabric, and TurboModules, aiming for better performance, developer experience, and closer integration with native."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What are `TurboModules` in React Native's New Architecture?",
+    "Option1": "Optimized JavaScript modules.",
+    "Option2": "An improvement over Native Modules, enabling faster loading and better type safety between JavaScript and native code.",
+    "Option3": "Modules for faster UI rendering.",
+    "Option4": "Modules for faster network requests.",
+    "Answer": "An improvement over Native Modules, enabling faster loading and better type safety between JavaScript and native code."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Codegen` in React Native?",
+    "Option1": "A tool for generating UI components.",
+    "Option2": "A tool that automates the generation of interface files (native code) from JavaScript specifications, enabling TurboModules and JSI.",
+    "Option3": "A tool for optimizing JavaScript code.",
+    "Option4": "A tool for building Android apps.",
+    "Answer": "A tool that automates the generation of interface files (native code) from JavaScript specifications, enabling TurboModules and JSI."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the primary benefit of the New Architecture in React Native?",
+    "Option1": "Simplified debugging.",
+    "Option2": "Improved performance, especially for complex UI interactions and large applications, and better interoperability with native code.",
+    "Option3": "Faster build times.",
+    "Option4": "Reduced app size.",
+    "Answer": "Improved performance, especially for complex UI interactions and large applications, and better interoperability with native code."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `Xcode` used for in React Native development?",
+    "Option1": "Android app development.",
+    "Option2": "The Integrated Development Environment (IDE) for building and debugging iOS applications, essential for React Native iOS projects.",
+    "Option3": "Web development.",
+    "Option4": "Backend development.",
+    "Answer": "The Integrated Development Environment (IDE) for building and debugging iOS applications, essential for React Native iOS projects."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `Android Studio` used for in React Native development?",
+    "Option1": "iOS app development.",
+    "Option2": "The official IDE for building and debugging Android applications, essential for React Native Android projects.",
+    "Option3": "Web development.",
+    "Option4": "Database management.",
+    "Answer": "The official IDE for building and debugging Android applications, essential for React Native Android projects."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `Gradle` used for in React Native Android development?",
+    "Option1": "JavaScript bundling.",
+    "Option2": "The build automation system used to compile, test, and package Android applications.",
+    "Option3": "UI layout design.",
+    "Option4": "Managing dependencies in JavaScript.",
+    "Answer": "The build automation system used to compile, test, and package Android applications."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `CocoaPods` used for in React Native iOS development?",
+    "Option1": "Android dependency management.",
+    "Option2": "A dependency manager for Swift and Objective-C Cocoa projects, used to manage native iOS libraries in React Native.",
+    "Option3": "Managing JavaScript packages.",
+    "Option4": "Building iOS UI.",
+    "Answer": "A dependency manager for Swift and Objective-C Cocoa projects, used to manage native iOS libraries in React Native."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `Metro` in React Native?",
+    "Option1": "A state management library.",
+    "Option2": "The JavaScript bundler for React Native, compiling and bundling all JavaScript code and assets into a single file.",
+    "Option3": "A UI component library.",
+    "Option4": "A network request library.",
+    "Answer": "The JavaScript bundler for React Native, compiling and bundling all JavaScript code and assets into a single file."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `npm` or `yarn` used for in React Native?",
+    "Option1": "Building native apps.",
+    "Option2": "Package managers for JavaScript, used to install and manage third-party libraries for React Native projects.",
+    "Option3": "Styling components.",
+    "Option4": "Debugging applications.",
+    "Answer": "Package managers for JavaScript, used to install and manage third-party libraries for React Native projects."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a `bare React Native project`?",
+    "Option1": "A project managed by Expo.",
+    "Option2": "A React Native project created using `npx react-native init`, giving direct access to the native iOS/Android project files.",
+    "Option3": "A project without any third-party dependencies.",
+    "Option4": "A project for web development.",
+    "Answer": "A React Native project created using `npx react-native init`, giving direct access to the native iOS/Android project files."
+  },
+  {
+    "question_no.": 100,
+    "Question": "When would you choose a `bare React Native project` over an Expo managed workflow?",
+    "Option1": "For rapid prototyping and simple apps.",
+    "Option2": "When requiring custom native modules, deep native code modifications, or specific native features not supported by Expo's APIs.",
+    "Option3": "When prioritizing smaller app size.",
+    "Option4": "When you don't need access to native code.",
+    "Answer": "When requiring custom native modules, deep native code modifications, or specific native features not supported by Expo's APIs."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `React DevTools` used for?",
+    "Option1": "Debugging network requests.",
+    "Option2": "A browser extension or standalone app for inspecting and debugging React component hierarchies, props, and state.",
+    "Option3": "Testing UI components.",
+    "Option4": "Generating boilerplate code.",
+    "Answer": "A browser extension or standalone app for inspecting and debugging React component hierarchies, props, and state."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `Chrome DevTools` used for in React Native debugging?",
+    "Option1": "Debugging native code.",
+    "Option2": "Debugging the JavaScript bundle, inspecting network requests, and viewing console logs for the React Native app.",
+    "Option3": "Debugging app crashes.",
+    "Option4": "Managing native dependencies.",
+    "Answer": "Debugging the JavaScript bundle, inspecting network requests, and viewing console logs for the React Native app."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `Performance Monitoring` in React Native?",
+    "Option1": "Tracking user behavior.",
+    "Option2": "Measuring and optimizing app performance, including UI responsiveness, rendering speed, and memory usage.",
+    "Option3": "Monitoring network traffic.",
+    "Option4": "Tracking app installations.",
+    "Answer": "Measuring and optimizing app performance, including UI responsiveness, rendering speed, and memory usage."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What causes `jank` in React Native UIs?",
+    "Option1": "Too few components.",
+    "Option2": "Frame drops or stuttering caused by the JavaScript thread being blocked, preventing smooth animations or interactions.",
+    "Option3": "Slow network connections.",
+    "Option4": "Incorrect styling.",
+    "Answer": "Frame drops or stuttering caused by the JavaScript thread being blocked, preventing smooth animations or interactions."
+  },
+  {
+    "question_no.": 105,
+    "Question": "How can you improve React Native app performance?",
+    "Option1": "Using more complex components.",
+    "Option2": "Optimizing `FlatList` with `getItemLayout` and `PureComponent`/`memo`, avoiding unnecessary re-renders, using `useCallback` and `useMemo`, and optimizing image loading.",
+    "Option3": "By adding more third-party libraries.",
+    "Option4": "By removing all state management.",
+    "Answer": "Optimizing `FlatList` with `getItemLayout` and `PureComponent`/`memo`, avoiding unnecessary re-renders, using `useCallback` and `useMemo`, and optimizing image loading."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `PureComponent` (or `React.memo` for functional components) used for?",
+    "Option1": "To create components without state.",
+    "Option2": "To prevent unnecessary re-renders of components if their props or state have not shallowly changed.",
+    "Option3": "To make components pure functions.",
+    "Option4": "To create components that only display static content.",
+    "Answer": "To prevent unnecessary re-renders of components if their props or state have not shallowly changed."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `useCallback` hook used for?",
+    "Option1": "To memoize a value.",
+    "Option2": "To memoize a function, preventing it from being recreated on every render if its dependencies haven't changed, useful for optimizing child components.",
+    "Option3": "To call a function after a delay.",
+    "Option4": "To define asynchronous functions.",
+    "Answer": "To memoize a function, preventing it from being recreated on every render if its dependencies haven't changed, useful for optimizing child components."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `useMemo` hook used for?",
+    "Option1": "To memoize a function.",
+    "Option2": "To memoize a computed value, preventing its recalculation on every render if its dependencies haven't changed.",
+    "Option3": "To store data in local storage.",
+    "Option4": "To create a callback function.",
+    "Answer": "To memoize a computed value, preventing its recalculation on every render if its dependencies haven't changed."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `CodePush` used for in React Native?",
+    "Option1": "Deploying native app binaries.",
+    "Option2": "A service from Microsoft App Center that enables developers to push app updates directly to users' devices, bypassing app store review processes for JavaScript and assets.",
+    "Option3": "Pushing code to a Git repository.",
+    "Option4": "Automating code reviews.",
+    "Answer": "A service from Microsoft App Center that enables developers to push app updates directly to users' devices, bypassing app store review processes for JavaScript and assets."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What types of updates can `CodePush` deliver?",
+    "Option1": "Native code changes only.",
+    "Option2": "JavaScript and asset changes only.",
+    "Option3": "Both native code and JavaScript changes.",
+    "Option4": "Only configuration changes.",
+    "Answer": "JavaScript and asset changes only."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `Fastlane` used for in mobile development?",
+    "Option1": "Writing mobile apps faster.",
+    "Option2": "Automating common development tasks like building, testing, and releasing mobile apps (iOS and Android).",
+    "Option3": "Debugging mobile apps.",
+    "Option4": "Designing UI for mobile apps.",
+    "Answer": "Automating common development tasks like building, testing, and releasing mobile apps (iOS and Android)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `CI/CD` (Continuous Integration/Continuous Delivery) in React Native?",
+    "Option1": "A manual deployment process.",
+    "Option2": "Practices that automate the process of building, testing, and deploying React Native applications to ensure faster and more reliable releases.",
+    "Option3": "A type of database for mobile apps.",
+    "Option4": "A method for writing unit tests.",
+    "Answer": "Practices that automate the process of building, testing, and deploying React Native applications to ensure faster and more reliable releases."
+  },
+  {
+    "question_no.": 113,
+    "Question": "Name a common CI/CD service used for React Native.",
+    "Option1": "GitHub",
+    "Option2": "Jenkins, CircleCI, Bitrise, App Center",
+    "Option3": "Google Drive",
+    "Option4": "Dropbox",
+    "Answer": "Jenkins, CircleCI, Bitrise, App Center"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `React Native Testing Library` used for?",
+    "Option1": "End-to-end testing.",
+    "Option2": "A testing utility that encourages good testing practices by focusing on testing component behavior from the user's perspective, rather than internal implementation details.",
+    "Option3": "Performance testing.",
+    "Option4": "Load testing.",
+    "Answer": "A testing utility that encourages good testing practices by focusing on testing component behavior from the user's perspective, rather than internal implementation details."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `Jest` used for in React Native?",
+    "Option1": "An end-to-end testing framework.",
+    "Option2": "A JavaScript testing framework developed by Facebook, commonly used for unit and integration testing in React Native.",
+    "Option3": "A performance monitoring tool.",
+    "Option4": "A debugging tool.",
+    "Answer": "A JavaScript testing framework developed by Facebook, commonly used for unit and integration testing in React Native."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `Enzyme` (or `React Test Renderer`) used for?",
+    "Option1": "Building UI components.",
+    "Option2": "Testing React components (often with Jest), providing utilities for shallow rendering, full DOM rendering, and inspecting component trees.",
+    "Option3": "Running tests on real devices.",
+    "Option4": "Generating test data.",
+    "Answer": "Testing React components (often with Jest), providing utilities for shallow rendering, full DOM rendering, and inspecting component trees."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What are `ESLint` and `Prettier` used for in React Native?",
+    "Option1": "Performance optimization.",
+    "Option2": "Code linting (ESLint for identifying problematic patterns) and code formatting (Prettier for consistent code style) to maintain code quality and readability.",
+    "Option3": "Debugging tools.",
+    "Option4": "Deployment tools.",
+    "Answer": "Code linting (ESLint for identifying problematic patterns) and code formatting (Prettier for consistent code style) and code readability."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `TypeScript` in React Native?",
+    "Option1": "A new version of JavaScript.",
+    "Option2": "A superset of JavaScript that adds static typing, enhancing code maintainability, scalability, and catching errors at compile time.",
+    "Option3": "A CSS preprocessor.",
+    "Option4": "A tool for generating documentation.",
+    "Answer": "A superset of JavaScript that adds static typing, enhancing code maintainability, scalability, and catching errors at compile time."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the benefit of using `TypeScript` in a React Native project?",
+    "Option1": "Smaller app size.",
+    "Option2": "Improved code quality, better tooling support (autocompletion, refactoring), easier collaboration, and reduced runtime errors.",
+    "Option3": "Faster execution speed.",
+    "Option4": "Automatic code generation.",
+    "Answer": "Improved code quality, better tooling support (autocompletion, refactoring), easier collaboration, and reduced runtime errors."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `SVG` used for in React Native?",
+    "Option1": "Bitmap images.",
+    "Option2": "Scalable Vector Graphics, which are XML-based vector image format for two-dimensional graphics with support for interactivity and animation, often used for icons.",
+    "Option3": "3D models.",
+    "Option4": "Video files.",
+    "Answer": "Scalable Vector Graphics, which are XML-based vector image format for two-dimensional graphics with support for interactivity and animation, often used for icons."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which library is commonly used to display SVG in React Native?",
+    "Option1": "react-native-svg",
+    "Option2": "react-native-vector-icons",
+    "Option3": "react-native-image-loader",
+    "Option4": "react-native-charts",
+    "Answer": "react-native-svg"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `Vector Icons` (e.g., `react-native-vector-icons`) used for?",
+    "Option1": "Displaying raster images.",
+    "Option2": "Providing a vast collection of customizable icon sets (e.g., Font Awesome, Material Icons) for use in React Native applications.",
+    "Option3": "Drawing custom shapes.",
+    "Option4": "Animating icons.",
+    "Answer": "Providing a vast collection of customizable icon sets (e.g., Font Awesome, Material Icons) for use in React Native applications."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is `Lottie` in React Native?",
+    "Option1": "A library for static images.",
+    "Option2": "A mobile library from Airbnb that renders After Effects animations natively on mobile, allowing designers to ship animations directly.",
+    "Option3": "A tool for creating 3D graphics.",
+    "Option4": "A library for video playback.",
+    "Answer": "A mobile library from Airbnb that renders After Effects animations natively on mobile, allowing designers to ship animations directly."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `Firebase` used for in mobile apps?",
+    "Option1": "Only for authentication.",
+    "Option2": "A mobile and web application development platform by Google, providing various services like authentication, real-time database, cloud functions, analytics, and crash reporting.",
+    "Option3": "Only for analytics.",
+    "Option4": "Only for cloud storage.",
+    "Answer": "A mobile and web application development platform by Google, providing various services like authentication, real-time database, cloud functions, analytics, and crash reporting."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Name a Firebase service commonly used for user authentication in React Native.",
+    "Option1": "Firestore",
+    "Option2": "Firebase Authentication",
+    "Option3": "Realtime Database",
+    "Option4": "Cloud Storage",
+    "Answer": "Firebase Authentication"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `Stripe` or `PayPal` (often via React Native libraries) used for?",
+    "Option1": "Sending emails.",
+    "Option2": "Integrating payment processing capabilities into mobile applications.",
+    "Option3": "Managing user subscriptions.",
+    "Option4": "Handling push notifications.",
+    "Answer": "Integrating payment processing capabilities into mobile applications."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `OAuth` (often via libraries) used for?",
+    "Option1": "Database authorization.",
+    "Option2": "An open standard for access delegation, commonly used for authentication with third-party services (e.g., Google, Facebook login) without sharing user credentials.",
+    "Option3": "Network encryption.",
+    "Option4": "Storing sensitive user data.",
+    "Answer": "An open standard for access delegation, commonly used for authentication with third-party services (e.g., Google, Facebook login) without sharing user credentials."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `JWT` (JSON Web Token) used for in mobile apps?",
+    "Option1": "Storing user passwords.",
+    "Option2": "A compact, URL-safe means of representing claims to be transferred between two parties, commonly used for authentication and authorization.",
+    "Option3": "Encrypting data at rest.",
+    "Option4": "Sending real-time updates.",
+    "Answer": "A compact, URL-safe means of representing claims to be transferred between two parties, commonly used for authentication and authorization."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `Axios` or `Fetch API` used for in React Native?",
+    "Option1": "Local data storage.",
+    "Option2": "Making HTTP requests to external APIs (e.g., fetching data from a server).",
+    "Option3": "Managing application state.",
+    "Option4": "Styling components.",
+    "Answer": "Making HTTP requests to external APIs (e.g., fetching data from a server)."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Which method of `Fetch API` is used for making a POST request?",
+    "Option1": "fetch('/api/data', { method: 'GET' })",
+    "Option2": "fetch('/api/data', { method: 'POST', body: JSON.stringify(data) })",
+    "Option3": "fetch.post('/api/data')",
+    "Option4": "fetch.send('POST', data)",
+    "Answer": "fetch('/api/data', { method: 'POST', body: JSON.stringify(data) })"
+  },
+  {
+    "question_no.": 131,
+    "Question": "How do you handle network request errors with `Fetch API`?",
+    "Option1": "Using a `catch` block after the `then` block.",
+    "Option2": "By checking `response.ok` inside the `then` block and throwing an error if false, then catching it.",
+    "Option3": "Both A and B are common patterns.",
+    "Option4": "Fetch API handles errors automatically.",
+    "Answer": "Both A and B are common patterns."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `WebSocket` used for in React Native?",
+    "Option1": "One-time data fetching.",
+    "Option2": "Enabling full-duplex communication channels over a single TCP connection, often used for real-time applications (chat, live updates).",
+    "Option3": "Offline data storage.",
+    "Option4": "Secure data encryption.",
+    "Answer": "Enabling full-duplex communication channels over a single TCP connection, often used for real-time applications (chat, live updates)."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `GraphQL` (often via Apollo Client or Relay) used for in React Native?",
+    "Option1": "A new database technology.",
+    "Option2": "A query language for your API, allowing clients to request exactly the data they need, reducing over-fetching and under-fetching.",
+    "Option3": "A new web protocol.",
+    "Option4": "A tool for creating graphical interfaces.",
+    "Answer": "A query language for your API, allowing clients to request exactly the data they need, reducing over-fetching and under-fetching."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `Expo Go` app used for?",
+    "Option1": "To build and release standalone apps.",
+    "Option2": "A mobile client app that allows you to quickly preview and test your Expo-managed React Native projects on a physical device without building a standalone app.",
+    "Option3": "To create new Expo projects.",
+    "Option4": "To manage Expo accounts.",
+    "Answer": "A mobile client app that allows you to quickly preview and test your Expo-managed React Native projects on a physical device without building a standalone app."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `Expo CLI`?",
+    "Option1": "A web-based interface for Expo.",
+    "Option2": "A command-line interface (CLI) tool for creating, developing, and publishing Expo projects.",
+    "Option3": "A tool for deploying Expo apps to app stores.",
+    "Option4": "A tool for debugging Expo apps.",
+    "Answer": "A command-line interface (CLI) tool for creating, developing, and publishing Expo projects."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `eas build` (Expo Application Services)?",
+    "Option1": "A local build process.",
+    "Option2": "A cloud-based service provided by Expo for building standalone app binaries (APKs for Android, IPAs for iOS) without needing a local build environment.",
+    "Option3": "A tool for testing Expo apps.",
+    "Option4": "A service for managing app stores.",
+    "Answer": "A cloud-based service provided by Expo for building standalone app binaries (APKs for Android, IPAs for iOS) without needing a local build environment."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `eas submit`?",
+    "Option1": "To submit code to Git.",
+    "Option2": "A service from Expo Application Services to submit your app binaries to Apple App Store and Google Play Store.",
+    "Option3": "To submit bug reports.",
+    "Option4": "To submit feedback to Expo.",
+    "Answer": "A service from Expo Application Services to submit your app binaries to Apple App Store and Google Play Store."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `Code Signing` in mobile app development?",
+    "Option1": "Encrypting your app's code.",
+    "Option2": "A security technology for digitally signing applications to verify their authenticity and integrity, ensuring they haven't been tampered with.",
+    "Option3": "Obfuscating your app's code.",
+    "Option4": "A method for automatically generating code.",
+    "Answer": "A security technology for digitally signing applications to verify their authenticity and integrity, ensuring they haven't been tampered with."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Why is `Code Signing` necessary for mobile apps?",
+    "Option1": "To reduce app size.",
+    "Option2": "To allow apps to be installed on devices and submitted to app stores, verifying the developer's identity and that the app hasn't been maliciously altered.",
+    "Option3": "To improve app performance.",
+    "Option4": "To prevent unauthorized copying.",
+    "Answer": "To allow apps to be installed on devices and submitted to app stores, verifying the developer's identity and that the app hasn't been maliciously altered."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What are `ProGuard` or `R8` (Android) used for?",
+    "Option1": "Debugging Android apps.",
+    "Option2": "Tools that shrink, optimize, and obfuscate Android code, reducing app size and making it harder to reverse engineer.",
+    "Option3": "Managing Android permissions.",
+    "Option4": "Building Android UI.",
+    "Answer": "Tools that shrink, optimize, and obfuscate Android code, reducing app size and making it harder to reverse engineer."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `App Store Connect` (Apple) or `Google Play Console` used for?",
+    "Option1": "Developing mobile apps.",
+    "Option2": "Platforms provided by Apple and Google for managing, distributing, and analyzing mobile applications on their respective app stores.",
+    "Option3": "Debugging app crashes.",
+    "Option4": "Creating app designs.",
+    "Answer": "Platforms provided by Apple and Google for managing, distributing, and analyzing mobile applications on their respective app stores."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `App ID` in iOS development?",
+    "Option1": "A unique identifier for a user.",
+    "Option2": "A unique identifier for your app that is registered with Apple, enabling access to specific app services.",
+    "Option3": "A unique identifier for a device.",
+    "Option4": "A unique identifier for a component.",
+    "Answer": "A unique identifier for your app that is registered with Apple, enabling access to specific app services."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `Bundle Identifier` in iOS development?",
+    "Option1": "The name of the app displayed to the user.",
+    "Option2": "A unique string that identifies an application to the system, used internally by iOS and macOS.",
+    "Option3": "A version number for the app.",
+    "Option4": "A unique identifier for a developer.",
+    "Answer": "A unique string that identifies an application to the system, used internally by iOS and macOS."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `Package Name` in Android development?",
+    "Option1": "The name of the app displayed to the user.",
+    "Option2": "A unique identifier for an Android application, typically in reverse domain name format (e.g., com.example.myapp).",
+    "Option3": "A version number for the app.",
+    "Option4": "A unique identifier for a developer.",
+    "Answer": "A unique identifier for an Android application, typically in reverse domain name format (e.g., com.example.myapp)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `Splash Screen` in mobile apps?",
+    "Option1": "The first screen of the app after launch.",
+    "Option2": "A static screen displayed while the app is loading or initializing, providing a better user experience than a blank screen.",
+    "Option3": "A screen for user authentication.",
+    "Option4": "A screen displaying app settings.",
+    "Answer": "A static screen displayed while the app is loading or initializing, providing a better user experience than a blank screen."
+  },
+  {
+    "question_no.": 146,
+    "Question": "How do you implement a custom Splash Screen in React Native?",
+    "Option1": "Using a JavaScript component only.",
+    "Option2": "By configuring native launch screens (LaunchScreen.storyboard for iOS, drawable/background_splash.xml for Android) and often a React Native library like `react-native-splash-screen`.",
+    "Option3": "By adding an image to the root folder.",
+    "Option4": "React Native handles it automatically.",
+    "Answer": "By configuring native launch screens (LaunchScreen.storyboard for iOS, drawable/background_splash.xml for Android) and often a React Native library like `react-native-splash-screen`."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `Headless JS` in React Native?",
+    "Option1": "Running JavaScript code in the background without a UI, even when the app is closed or in the background, typically for tasks like data syncing or notifications.",
+    "Option2": "Running React Native on servers.",
+    "Option3": "Running JavaScript on web browsers.",
+    "Option4": "Running JavaScript with a minimal UI.",
+    "Answer": "Running JavaScript code in the background without a UI, even when the app is closed or in the background, typically for tasks like data syncing or notifications."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is a common use case for `Headless JS`?",
+    "Option1": "Displaying complex animations.",
+    "Option2": "Processing push notifications, performing background data fetches, or updating app badges.",
+    "Option3": "User authentication.",
+    "Option4": "Rendering UI elements.",
+    "Answer": "Processing push notifications, performing background data fetches, or updating app badges."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `Bridging` in React Native (revisited)?",
+    "Option1": "Connecting to web services.",
+    "Option2": "The mechanism that allows JavaScript and native code to communicate and exchange data.",
+    "Option3": "Connecting different React Native components.",
+    "Option4": "Connecting to databases.",
+    "Answer": "The mechanism that allows JavaScript and native code to communicate and exchange data."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `React Native CLI`?",
+    "Option1": "A tool for developing Expo apps.",
+    "Option2": "The command-line interface for creating and managing bare React Native projects, providing tools for linking native modules, running builds, etc.",
+    "Option3": "A graphical user interface for React Native.",
+    "Option4": "A tool for debugging React Native apps.",
+    "Answer": "The command-line interface for creating and managing bare React Native projects, providing tools for linking native modules, running builds, etc."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `npx react-native init MyApp` used for?",
+    "Option1": "To create an Expo-managed project.",
+    "Option2": "To create a bare React Native project named `MyApp`.",
+    "Option3": "To run an existing React Native app.",
+    "Option4": "To install React Native CLI.",
+    "Answer": "To create a bare React Native project named `MyApp`."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `expo init MyApp` used for?",
+    "Option1": "To create a bare React Native project.",
+    "Option2": "To create an Expo-managed project named `MyApp`.",
+    "Option3": "To run an existing Expo app.",
+    "Option4": "To install Expo CLI.",
+    "Answer": "To create an Expo-managed project named `MyApp`."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `App.js` in a React Native project?",
+    "Option1": "A configuration file.",
+    "Option2": "The main entry point component of a React Native application.",
+    "Option3": "A file for defining styles.",
+    "Option4": "A file for managing data.",
+    "Answer": "The main entry point component of a React Native application."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `index.js` (or `index.tsx`) in React Native?",
+    "Option1": "The main styling file.",
+    "Option2": "The entry point of the React Native JavaScript bundle, responsible for registering the main app component.",
+    "Option3": "A file for native code.",
+    "Option4": "A file for external libraries.",
+    "Answer": "The entry point of the React Native JavaScript bundle, responsible for registering the main app component."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `AppRegistry` used for in React Native?",
+    "Option1": "To manage app permissions.",
+    "Option2": "To register the main application component, telling React Native what to render for the app.",
+    "Option3": "To manage app settings.",
+    "Option4": "To register native modules.",
+    "Answer": "To register the main application component, telling React Native what to render for the app."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `Platform.select()` used for?",
+    "Option1": "To select a specific device model.",
+    "Option2": "To provide platform-specific implementations for styles or components based on the operating system (iOS or Android).",
+    "Option3": "To select a specific screen size.",
+    "Option4": "To select a specific language.",
+    "Answer": "To provide platform-specific implementations for styles or components based on the operating system (iOS or Android)."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `ImageBackground` component used for?",
+    "Option1": "To display an image without any content on top.",
+    "Option2": "To display an image as the background of a View, allowing other components to be rendered on top of it.",
+    "Option3": "To apply filters to images.",
+    "Option4": "To create a gallery of images.",
+    "Answer": "To display an image as the background of a View, allowing other components to be rendered on top of it."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `Switch` component used for?",
+    "Option1": "To navigate between screens.",
+    "Option2": "To render a boolean input, like a toggle switch.",
+    "Option3": "To switch between different themes.",
+    "Option4": "To change the app's language.",
+    "Answer": "To render a boolean input, like a toggle switch."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `Slider` component used for?",
+    "Option1": "To display a carousel.",
+    "Option2": "To select a single value from a continuous range by moving a slider thumb.",
+    "Option3": "To adjust image brightness.",
+    "Option4": "To scroll through content.",
+    "Answer": "To select a single value from a continuous range by moving a slider thumb."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `Picker` (or `@react-native-picker/picker`) component used for?",
+    "Option1": "To pick colors.",
+    "Option2": "To render a dropdown or selection wheel for choosing a single value from a set of options.",
+    "Option3": "To pick images from a gallery.",
+    "Option4": "To select multiple items.",
+    "Answer": "To render a dropdown or selection wheel for choosing a single value from a set of options."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `SectionList` used for?",
+    "Option1": "To display a flat list of items.",
+    "Option2": "To render a scrollable list of data, organized into sections with sticky headers.",
+    "Option3": "To create a list of horizontal items.",
+    "Option4": "To display a single section of data.",
+    "Answer": "To render a scrollable list of data, organized into sections with sticky headers."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Keyboard` module used for?",
+    "Option1": "To change keyboard themes.",
+    "Option2": "To interact with the software keyboard, providing methods to dismiss it or subscribe to keyboard events.",
+    "Option3": "To customize keyboard shortcuts.",
+    "Option4": "To translate keyboard input.",
+    "Answer": "To interact with the software keyboard, providing methods to dismiss it or subscribe to keyboard events."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `ToastAndroid` (Android only) used for?",
+    "Option1": "To display iOS alerts.",
+    "Option2": "To display a short, transient message that appears temporarily at the bottom of the screen on Android.",
+    "Option3": "To display a persistent notification.",
+    "Option4": "To show a progress indicator.",
+    "Answer": "To display a short, transient message that appears temporarily at the bottom of the screen on Android."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `Vibration` module used for?",
+    "Option1": "To control device volume.",
+    "Option2": "To vibrate the device, typically for haptic feedback or notifications.",
+    "Option3": "To play sound effects.",
+    "Option4": "To control screen brightness.",
+    "Answer": "To vibrate the device, typically for haptic feedback or notifications."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `Clipboard` module used for?",
+    "Option1": "To store images.",
+    "Option2": "To interact with the device's clipboard (copy and paste text).",
+    "Option3": "To manage files.",
+    "Option4": "To store user credentials.",
+    "Answer": "To interact with the device's clipboard (copy and paste text)."
+  },
+  {
+    "question_no.": 166,
+    "Question": "How do you copy text to the clipboard?",
+    "Option1": "Clipboard.copy('text')",
+    "Option2": "Clipboard.setString('text')",
+    "Option3": "Clipboard.write('text')",
+    "Option4": "Clipboard.put('text')",
+    "Answer": "Clipboard.setString('text')"
+  },
+  {
+    "question_no.": 167,
+    "Question": "How do you paste text from the clipboard?",
+    "Option1": "Clipboard.paste()",
+    "Option2": "Clipboard.getString()",
+    "Option3": "Clipboard.read()",
+    "Option4": "Clipboard.get()",
+    "Answer": "Clipboard.getString()"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `Share` module used for?",
+    "Option1": "To share files only.",
+    "Option2": "To open the device's native sharing dialog, allowing users to share text, URLs, or files with other apps.",
+    "Option3": "To share data between components.",
+    "Option4": "To share app settings.",
+    "Answer": "To open the device's native sharing dialog, allowing users to share text, URLs, or files with other apps."
+  },
+  {
+    "question_no.": 169,
+    "Question": "How do you use `Share` to share text?",
+    "Option1": "Share.text('Hello')",
+    "Option2": "Share.share({ message: 'Hello' })",
+    "Option3": "Share.open('Hello')",
+    "Option4": "Share.send('Hello')",
+    "Answer": "Share.share({ message: 'Hello' })"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `ImagePicker` (often via a library like `react-native-image-picker` or Expo's `ImagePicker`) used for?",
+    "Option1": "To take screenshots.",
+    "Option2": "To allow users to select an image from the device's camera roll or take a new photo with the camera.",
+    "Option3": "To apply image filters.",
+    "Option4": "To display images in a gallery.",
+    "Answer": "To allow users to select an image from the device's camera roll or take a new photo with the camera."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `Camera` (often via a library like `react-native-camera` or Expo's `Camera`) used for?",
+    "Option1": "To access the device's gallery.",
+    "Option2": "To directly interact with the device's camera for taking photos, recording videos, and scanning barcodes/QR codes.",
+    "Option3": "To manage video playback.",
+    "Option4": "To create augmented reality experiences.",
+    "Answer": "To directly interact with the device's camera for taking photos, recording videos, and scanning barcodes/QR codes."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `expo-constants` used for?",
+    "Option1": "To define custom constants.",
+    "Option2": "To access various constant values and information about the current application and device environment (e.g., app manifest, device name, Expo SDK version).",
+    "Option3": "To store constant data in local storage.",
+    "Option4": "To retrieve API keys.",
+    "Answer": "To access various constant values and information about the current application and device environment (e.g., app manifest, device name, Expo SDK version)."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is `expo-font` used for?",
+    "Option1": "To manage system fonts.",
+    "Option2": "To load and use custom fonts in Expo-managed React Native applications.",
+    "Option3": "To change font sizes.",
+    "Option4": "To apply text styles.",
+    "Answer": "To load and use custom fonts in Expo-managed React Native applications."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `expo-localization` used for?",
+    "Option1": "To translate app text.",
+    "Option2": "To get information about the user's locale, preferred language, and time zone, useful for internationalization (i18n).",
+    "Option3": "To set device location.",
+    "Option4": "To get country codes.",
+    "Answer": "To get information about the user's locale, preferred language, and time zone, useful for internationalization (i18n)."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `expo-permissions` (older, now `expo-location`, `expo-camera`, etc.) used for?",
+    "Option1": "To set app permissions.",
+    "Option2": "To request various device permissions (e.g., camera, location, contacts).",
+    "Option3": "To check app store permissions.",
+    "Option4": "To manage file permissions.",
+    "Answer": "To request various device permissions (e.g., camera, location, contacts)."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `expo-secure-store` used for?",
+    "Option1": "To store data that can be easily accessed.",
+    "Option2": "To securely store sensitive key-value data on the device, encrypted at rest.",
+    "Option3": "To store large files.",
+    "Option4": "To store temporary data.",
+    "Answer": "To securely store sensitive key-value data on the device, encrypted at rest."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `expo-notifications` used for?",
+    "Option1": "To display local alerts.",
+    "Option2": "To handle local and push notifications in Expo applications.",
+    "Option3": "To send emails.",
+    "Option4": "To manage in-app messages.",
+    "Answer": "To handle local and push notifications in Expo applications."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `expo-file-system` used for?",
+    "Option1": "To upload files to cloud storage.",
+    "Option2": "To interact with the local file system of the device, allowing reading, writing, and managing files and directories.",
+    "Option3": "To manage remote files.",
+    "Option4": "To encrypt files.",
+    "Answer": "To interact with the local file system of the device, allowing reading, writing, and managing files and directories."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `expo-location` used for?",
+    "Option1": "To get weather information.",
+    "Option2": "To access the device's location services, including current location, background location updates, and geocoding.",
+    "Option3": "To track routes.",
+    "Option4": "To set alarm clocks.",
+    "Answer": "To access the device's location services, including current location, background location updates, and geocoding."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `expo-media-library` used for?",
+    "Option1": "To play media files.",
+    "Option2": "To access and manage media assets (photos, videos) in the device's media library.",
+    "Option3": "To stream media from the internet.",
+    "Option4": "To record audio.",
+    "Answer": "To access and manage media assets (photos, videos) in the device's media library."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `expo-web-browser` used for?",
+    "Option1": "To launch an external web browser.",
+    "Option2": "To open a web URL in the device's default web browser or an in-app browser (SFSafariViewController/Custom Tabs).",
+    "Option3": "To develop web applications within React Native.",
+    "Option4": "To handle web sockets.",
+    "Answer": "To open a web URL in the device's default web browser or an in-app browser (SFSafariViewController/Custom Tabs)."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `react-hook-form` used for (commonly with React Native)?",
+    "Option1": "Managing form styling.",
+    "Option2": "A performant and flexible library for building forms with React hooks, emphasizing unmanaged inputs and reducing re-renders.",
+    "Option3": "Validating user input in real-time.",
+    "Option4": "Creating custom form components.",
+    "Answer": "A performant and flexible library for building forms with React hooks, emphasizing unmanaged inputs and reducing re-renders."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Yup` or `Zod` used for (commonly with `react-hook-form`)?",
+    "Option1": "Form submission handling.",
+    "Option2": "Schema validation libraries used to define and validate data structures, often for form inputs.",
+    "Option3": "Storing form data.",
+    "Option4": "Creating form layouts.",
+    "Answer": "Schema validation libraries used to define and validate data structures, often for form inputs."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Axios Interceptors` used for?",
+    "Option1": "To stop network requests.",
+    "Option2": "Functions that can intercept requests or responses before they are handled by `then` or `catch`, useful for adding authentication headers, logging, or error handling.",
+    "Option3": "To retry failed requests.",
+    "Option4": "To cancel network requests.",
+    "Answer": "Functions that can intercept requests or responses before they are handled by `then` or `catch`, useful for adding authentication headers, logging, or error handling."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Mocking` in unit testing?",
+    "Option1": "Creating real data for tests.",
+    "Option2": "Replacing real objects with fake, controllable objects during testing to isolate the unit under test and ensure predictable behavior.",
+    "Option3": "Running tests on actual devices.",
+    "Option4": "Performing integration tests.",
+    "Answer": "Replacing real objects with fake, controllable objects during testing to isolate the unit under test and ensure predictable behavior."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `Stubbing` in unit testing?",
+    "Option1": "Returning a dummy value from a function.",
+    "Option2": "Providing predefined responses to calls made to dependencies, allowing the test to control the behavior of the external system.",
+    "Option3": "Monitoring function calls.",
+    "Option4": "Testing asynchronous code.",
+    "Answer": "Providing predefined responses to calls made to dependencies, allowing the test to control the behavior of the external system."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `Snapshot Testing` in React Native?",
+    "Option1": "Taking screenshots of the app.",
+    "Option2": "A testing method where a rendered component's output is saved as a 'snapshot' (text file) and compared against future renders to detect unexpected UI changes.",
+    "Option3": "Testing app performance over time.",
+    "Option4": "Testing animations.",
+    "Answer": "A testing method where a rendered component's output is saved as a 'snapshot' (text file) and compared against future renders to detect unexpected UI changes."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `End-to-End (E2E) Testing`?",
+    "Option1": "Testing individual components.",
+    "Option2": "Testing the entire application flow from the user's perspective, simulating user interactions across the complete system.",
+    "Option3": "Testing only the backend.",
+    "Option4": "Testing only the UI.",
+    "Answer": "Testing the entire application flow from the user's perspective, simulating user interactions across the complete system."
+  },
+  {
+    "question_no.": 189,
+    "Question": "Name a popular E2E testing framework for React Native.",
+    "Option1": "Jest",
+    "Option2": "Detox or Appium",
+    "Option3": "Enzyme",
+    "Option4": "React Native Testing Library",
+    "Answer": "Detox or Appium"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `Dependency Inversion Principle` in software design?",
+    "Option1": "High-level modules should depend on low-level modules.",
+    "Option2": "High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions.",
+    "Option3": "All modules should be tightly coupled.",
+    "Option4": "Dependencies should always be resolved at runtime.",
+    "Answer": "High-level modules should not depend on low-level modules; both should depend on abstractions. Abstractions should not depend on details. Details should depend on abstractions."
+  },
+  {
+    "question_no.": 191,
+    "Question": "How does `Dependency Inversion Principle` relate to testing in React Native?",
+    "Option1": "It makes testing impossible.",
+    "Option2": "It promotes loose coupling, making it easier to replace concrete implementations with mocks or stubs during testing, facilitating unit testing.",
+    "Option3": "It is only relevant for production code.",
+    "Option4": "It makes integration testing more difficult.",
+    "Answer": "It promotes loose coupling, making it easier to replace concrete implementations with mocks or stubs during testing, facilitating unit testing."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `Atomic Design` in UI development?",
+    "Option1": "A design system focused on molecular structures.",
+    "Option2": "A methodology for creating design systems by breaking down UI into atoms (basic HTML tags), molecules (groups of atoms), organisms (groups of molecules), templates, and pages.",
+    "Option3": "A design approach for microscopic elements.",
+    "Option4": "A design philosophy for chemical elements.",
+    "Answer": "A methodology for creating design systems by breaking down UI into atoms (basic HTML tags), molecules (groups of atoms), organisms (groups of molecules), templates, and pages."
+  },
+  {
+    "question_no.": 193,
+    "Question": "How can `Atomic Design` benefit React Native projects?",
+    "Option1": "It increases app size.",
+    "Option2": "It promotes reusable, maintainable, and scalable component structures, improving consistency and speeding up development.",
+    "Option3": "It makes development slower.",
+    "Option4": "It is only for web development.",
+    "Answer": "It promotes reusable, maintainable, and scalable component structures, improving consistency and speeding up development."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `Styled Components` or `Emotion` used for in React Native?",
+    "Option1": "Defining global styles only.",
+    "Option2": "CSS-in-JS libraries that allow you to write CSS directly within your JavaScript files, providing scoped styles and dynamic styling capabilities.",
+    "Option3": "Pre-processing CSS files.",
+    "Option4": "Generating static CSS files.",
+    "Answer": "CSS-in-JS libraries that allow you to write CSS directly within your JavaScript files, providing scoped styles and dynamic styling capabilities."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `UI Kits` or `Component Libraries` (e.g., React Native Elements, NativeBase, UI Kitten) used for?",
+    "Option1": "Creating custom UI components from scratch.",
+    "Option2": "Providing pre-built, customizable UI components that adhere to mobile design guidelines, accelerating UI development.",
+    "Option3": "Managing application state.",
+    "Option4": "Handling network requests.",
+    "Answer": "Providing pre-built, customizable UI components that adhere to mobile design guidelines, accelerating UI development."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `Storybook` (often for React Native) used for?",
+    "Option1": "Writing app documentation.",
+    "Option2": "An open-source tool for developing UI components in isolation, allowing developers to create, test, and showcase UI components independently.",
+    "Option3": "Managing project stories.",
+    "Option4": "Creating interactive presentations.",
+    "Answer": "An open-source tool for developing UI components in isolation, allowing developers to create, test, and showcase UI components independently."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `Accessibility` in React Native?",
+    "Option1": "Making the app visually appealing.",
+    "Option2": "Designing and developing applications that are usable by people with disabilities (e.g., screen readers, keyboard navigation).",
+    "Option3": "Ensuring the app runs on all devices.",
+    "Option4": "Making the app load faster.",
+    "Answer": "Designing and developing applications that are usable by people with disabilities (e.g., screen readers, keyboard navigation)."
+  },
+  {
+    "question_no.": 198,
+    "Question": "Name two key accessibility props in React Native.",
+    "Option1": "color, size",
+    "Option2": "accessible, accessibilityLabel, accessibilityHint, accessibilityRole, accessibilityState, etc.",
+    "Option3": "width, height",
+    "Option4": "fontFamily, fontSize",
+    "Answer": "accessible, accessibilityLabel, accessibilityHint, accessibilityRole, accessibilityState, etc."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `Internationalization (i18n)` in React Native?",
+    "Option1": "Supporting only one language.",
+    "Option2": "The process of designing and developing an application to support multiple languages and regions without requiring engineering changes.",
+    "Option3": "Optimizing for global performance.",
+    "Option4": "Handling different time zones only.",
+    "Answer": "The process of designing and developing an application to support multiple languages and regions without requiring engineering changes."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `Localization (l10n)` in React Native?",
+    "Option1": "Translating the app to one specific language.",
+    "Option2": "The process of adapting an internationalized application for a specific locale or region, including translating text, formatting dates/numbers, and adjusting UI.",
+    "Option3": "Optimizing for local network conditions.",
+    "Option4": "Finding the user's geographical location.",
+    "Answer": "The process of adapting an internationalized application for a specific locale or region, including translating text, formatting dates/numbers, and adjusting UI."
+  },
+  {
+    "question_no.": 201,
+    "Question": "Which library is commonly used for i18n/l10n in React Native?",
+    "Option1": "react-native-i18n",
+    "Option2": "react-i18next or react-intl",
+    "Option3": "react-translate",
+    "Option4": "react-locale",
+    "Answer": "react-i18next or react-intl"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `Hermes` (revisited)?",
+    "Option1": "A debugging tool for React Native.",
+    "Option2": "A JavaScript engine developed by Meta (Facebook) specifically for React Native, designed to improve app start-up time, reduce memory usage, and decrease app size on Android.",
+    "Option3": "A new rendering engine for iOS.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "A JavaScript engine developed by Meta (Facebook) specifically for React Native, designed to improve app start-up time, reduce memory usage, and decrease app size on Android."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the main benefit of enabling `Hermes` in your React Native project?",
+    "Option1": "Faster network requests.",
+    "Option2": "Significant improvements in start-up time, memory consumption, and overall app performance, especially on Android devices.",
+    "Option3": "Better support for iOS features.",
+    "Option4": "Easier integration with native modules.",
+    "Answer": "Significant improvements in start-up time, memory consumption, and overall app performance, especially on Android devices."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `React Native for Web`?",
+    "Option1": "A tool to convert React Native apps to desktop apps.",
+    "Option2": "A project that enables React Native components and APIs to run on the web, allowing for code sharing between native mobile and web platforms.",
+    "Option3": "A framework for building web-only applications.",
+    "Option4": "A new web browser for mobile devices.",
+    "Answer": "A project that enables React Native components and APIs to run on the web, allowing for code sharing between native mobile and web platforms."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `Monorepo` architecture in React Native development?",
+    "Option1": "Storing all projects in a single folder.",
+    "Option2": "A single repository containing multiple distinct projects, often with shared code and dependencies, used to manage multiple apps (e.g., web, iOS, Android) that share React Native components.",
+    "Option3": "A repository with only one developer.",
+    "Option4": "A repository with no version control.",
+    "Answer": "A single repository containing multiple distinct projects, often with shared code and dependencies, used to manage multiple apps (e.g., web, iOS, Android) that share React Native components."
+  }
+]

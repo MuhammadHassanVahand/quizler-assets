@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of language is Go?",
+    "Option1": "Interpreted, dynamic",
+    "Option2": "Compiled, statically typed",
+    "Option3": "Scripting, weakly typed",
+    "Option4": "Object-oriented, interpreted",
+    "Answer": "Compiled, statically typed"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Who developed the Go programming language?",
+    "Option1": "Microsoft",
+    "Option2": "Google",
+    "Option3": "Facebook",
+    "Option4": "Apple",
+    "Answer": "Google"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is a 'goroutine' in Go?",
+    "Option1": "A regular function call",
+    "Option2": "A lightweight, independently executing function that runs concurrently with other goroutines",
+    "Option3": "A special type of loop",
+    "Option4": "A built-in data structure",
+    "Answer": "A lightweight, independently executing function that runs concurrently with other goroutines"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you start a new goroutine in Go?",
+    "Option1": "run myFunction()",
+    "Option2": "go myFunction()",
+    "Option3": "start myFunction()",
+    "Option4": "newGoroutine(myFunction())",
+    "Answer": "go myFunction()"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a 'channel' in Go?",
+    "Option1": "A communication conduit for goroutines to send and receive values",
+    "Option2": "A type of array",
+    "Option3": "A network connection",
+    "Option4": "A file handler",
+    "Answer": "A communication conduit for goroutines to send and receive values"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you create an unbuffered channel in Go?",
+    "Option1": "make(chan int, 1)",
+    "Option2": "make(chan int)",
+    "Option3": "new(chan int)",
+    "Option4": "chan int{}",
+    "Answer": "make(chan int)"
+  },
+  {
+    "question_no.": 7,
+    "Question": "How do you send a value to a channel?",
+    "Option1": "ch <- value",
+    "Option2": "value -> ch",
+    "Option3": "send(ch, value)",
+    "Option4": "ch.send(value)",
+    "Answer": "ch <- value"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you receive a value from a channel?",
+    "Option1": "value <- ch",
+    "Option2": "<- ch",
+    "Option3": "receive(ch)",
+    "Option4": "ch.receive()",
+    "Answer": "<- ch"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the 'main' function's purpose in a Go program?",
+    "Option1": "It's an optional function for utility tasks.",
+    "Option2": "It's the entry point for executable programs.",
+    "Option3": "It's used for defining global variables.",
+    "Option4": "It's a constructor for the main package.",
+    "Answer": "It's the entry point for executable programs."
+  },
+  {
+    "question_no.": 10,
+    "Question": "What does the `fmt` package typically provide in Go?",
+    "Option1": "File system operations",
+    "Option2": "Formatted I/O functions (e.g., printing to console)",
+    "Option3": "Mathematical calculations",
+    "Option4": "Network communication",
+    "Answer": "Formatted I/O functions (e.g., printing to console)"
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you print a string to the console in Go?",
+    "Option1": "print(\"Hello\")",
+    "Option2": "fmt.Println(\"Hello\")",
+    "Option3": "console.log(\"Hello\")",
+    "Option4": "System.out.println(\"Hello\")",
+    "Answer": "fmt.Println(\"Hello\")"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is a 'package' in Go?",
+    "Option1": "A single executable file",
+    "Option2": "A collection of source files in the same directory that are compiled together",
+    "Option3": "A built-in library",
+    "Option4": "A user-defined data type",
+    "Answer": "A collection of source files in the same directory that are compiled together"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the `main` package used for?",
+    "Option1": "Defining libraries",
+    "Option2": "Building executable programs",
+    "Option3": "Creating reusable modules",
+    "Option4": "Testing functions",
+    "Answer": "Building executable programs"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you import a package in Go?",
+    "Option1": "include \"mypackage\"",
+    "Option2": "import \"mypackage\"",
+    "Option3": "use \"mypackage\"",
+    "Option4": "require \"mypackage\"",
+    "Answer": "import \"mypackage\""
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is 'defer' in Go?",
+    "Option1": "A keyword for asynchronous execution",
+    "Option2": "A statement that defers the execution of a function until the surrounding function returns",
+    "Option3": "A way to declare global variables",
+    "Option4": "A method for error handling",
+    "Answer": "A statement that defers the execution of a function until the surrounding function returns"
+  },
+  {
+    "question_no.": 16,
+    "Question": "When are deferred functions executed?",
+    "Option1": "Immediately",
+    "Option2": "When the program exits",
+    "Option3": "Just before the surrounding function returns",
+    "Option4": "Only if an error occurs",
+    "Answer": "Just before the surrounding function returns"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is an 'interface' in Go?",
+    "Option1": "A concrete data type",
+    "Option2": "A collection of method signatures that a type must implement to satisfy the interface",
+    "Option3": "A visual user interface element",
+    "Option4": "A way to define constants",
+    "Answer": "A collection of method signatures that a type must implement to satisfy the interface"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Does Go have classes and inheritance like traditional OOP languages?",
+    "Option1": "Yes, fully supported",
+    "Option2": "No, it uses composition and interfaces instead of traditional class inheritance",
+    "Option3": "Only for abstract types",
+    "Option4": "Only for built-in types",
+    "Answer": "No, it uses composition and interfaces instead of traditional class inheritance"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'struct' in Go?",
+    "Option1": "A basic data type",
+    "Option2": "A composite data type that groups together zero or more named fields of different types",
+    "Option3": "A function signature",
+    "Option4": "A type of control flow statement",
+    "Answer": "A composite data type that groups together zero or more named fields of different types"
+  },
+  {
+    "question_no.": 20,
+    "Question": "How do you declare a variable with type inference in Go?",
+    "Option1": "var x = 10",
+    "Option2": "x := 10",
+    "Option3": "let x = 10",
+    "Option4": "int x = 10",
+    "Answer": "x := 10"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you declare a variable with explicit type declaration in Go?",
+    "Option1": "x := 10",
+    "Option2": "var x int = 10",
+    "Option3": "x = 10 (int)",
+    "Option4": "new int x = 10",
+    "Answer": "var x int = 10"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is the zero value for an `int` type in Go?",
+    "Option1": "1",
+    "Option2": "0",
+    "Option3": "nil",
+    "Option4": "undefined",
+    "Answer": "0"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is the zero value for a `string` type in Go?",
+    "Option1": "nil",
+    "Option2": "An empty string \"\"",
+    "Option3": "null",
+    "Option4": "undefined",
+    "Answer": "An empty string \"\""
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the zero value for a `boolean` type in Go?",
+    "Option1": "true",
+    "Option2": "false",
+    "Option3": "nil",
+    "Option4": "0",
+    "Answer": "false"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is a 'slice' in Go?",
+    "Option1": "A fixed-size array",
+    "Option2": "A dynamically-sized, flexible view into elements of an array",
+    "Option3": "A key-value pair collection",
+    "Option4": "A pointer to a memory location",
+    "Answer": "A dynamically-sized, flexible view into elements of an array"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you create an empty slice in Go?",
+    "Option1": "var s []int",
+    "Option2": "s := make([]int, 0)",
+    "Option3": "s := []int{}",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you append an element to a slice in Go?",
+    "Option1": "s.add(element)",
+    "Option2": "s = append(s, element)",
+    "Option3": "s += element",
+    "Option4": "s.push(element)",
+    "Answer": "s = append(s, element)"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a 'map' in Go?",
+    "Option1": "An ordered list of elements",
+    "Option2": "A collection of key-value pairs (hash table/dictionary)",
+    "Option3": "A fixed-size array",
+    "Option4": "A set of unique elements",
+    "Answer": "A collection of key-value pairs (hash table/dictionary)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you create an empty map in Go?",
+    "Option1": "var m map[string]int",
+    "Option2": "m := make(map[string]int)",
+    "Option3": "m := map[string]int{}",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you access a value in a map using its key in Go?",
+    "Option1": "m.get(key)",
+    "Option2": "m[key]",
+    "Option3": "map.value(key)",
+    "Option4": "key in m",
+    "Answer": "m[key]"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you iterate over elements of a slice or map in Go?",
+    "Option1": "for i := 0; i < len(s); i++",
+    "Option2": "for index, value := range collection",
+    "Option3": "foreach (element in collection)",
+    "Option4": "loop through collection",
+    "Answer": "for index, value := range collection"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the `if` statement syntax in Go?",
+    "Option1": "if (condition) {}",
+    "Option2": "if condition {}",
+    "Option3": "if [condition] then {}",
+    "Option4": "if {condition}",
+    "Answer": "if condition {}"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the `for` loop syntax for a traditional C-style loop in Go?",
+    "Option1": "for (i=0; i<N; i++)",
+    "Option2": "for i := 0; i < N; i++ {}",
+    "Option3": "loop i from 0 to N",
+    "Option4": "while i < N {}",
+    "Answer": "for i := 0; i < N; i++ {}"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the `switch` statement syntax in Go?",
+    "Option1": "switch (expression) {}",
+    "Option2": "switch expression {}",
+    "Option3": "switch {expression}",
+    "Option4": "case expression of {}",
+    "Answer": "switch expression {}"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Does Go require `break` statements for `case` blocks in `switch` statements?",
+    "Option1": "Yes, always",
+    "Option2": "No, they are implicitly broken unless `fallthrough` is used",
+    "Option3": "Only for the last case",
+    "Option4": "Only if there are no other cases",
+    "Answer": "No, they are implicitly broken unless `fallthrough` is used"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'error handling' philosophy in Go?",
+    "Option1": "Using exceptions (try-catch)",
+    "Option2": "Returning error values explicitly as the last return value of a function",
+    "Option3": "Using global error flags",
+    "Option4": "Printing errors to the console and exiting",
+    "Answer": "Returning error values explicitly as the last return value of a function"
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you define a function that returns an error in Go?",
+    "Option1": "func myFunction() throws error {}",
+    "Option2": "func myFunction() (result, error) {}",
+    "Option3": "func myFunction() (result, err error) {}",
+    "Option4": "func myFunction() result, err {}",
+    "Answer": "func myFunction() (result, err error) {}"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is a 'pointer' in Go?",
+    "Option1": "A direct memory address",
+    "Option2": "A variable that stores the memory address of another variable",
+    "Option3": "A reference to a function",
+    "Option4": "A type alias",
+    "Answer": "A variable that stores the memory address of another variable"
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you get the memory address of a variable in Go?",
+    "Option1": "&variable",
+    "Option2": "*variable",
+    "Option3": "addressOf(variable)",
+    "Option4": "ptr(variable)",
+    "Answer": "&variable"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you dereference a pointer (get the value it points to) in Go?",
+    "Option1": "&pointer",
+    "Option2": "*pointer",
+    "Option3": "valueOf(pointer)",
+    "Option4": "ptr.value",
+    "Answer": "*pointer"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the purpose of the `init` function in Go?",
+    "Option1": "It's the main entry point of the program.",
+    "Option2": "It's a special function that is executed automatically once when a package is initialized (before main()).",
+    "Option3": "It's used for cleaning up resources.",
+    "Option4": "It's a constructor for structs.",
+    "Answer": "It's a special function that is executed automatically once when a package is initialized (before main())."
+  },
+  {
+    "question_no.": 42,
+    "Question": "Can a Go program have multiple `init` functions?",
+    "Option1": "No, only one per program.",
+    "Option2": "Yes, one per package, and they are executed in import order.",
+    "Option3": "Yes, any number of them, but only the first one runs.",
+    "Option4": "Yes, but only if they are in different files.",
+    "Answer": "Yes, one per package, and they are executed in import order."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'panic' in Go?",
+    "Option1": "A regular error that can be handled.",
+    "Option2": "A runtime error that stops the normal execution flow, typically used for unrecoverable errors.",
+    "Option3": "A warning message.",
+    "Option4": "A type of exception.",
+    "Answer": "A runtime error that stops the normal execution flow, typically used for unrecoverable errors."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'recover' in Go?",
+    "Option1": "A function to resume a panic.",
+    "Option2": "A built-in function that regains control of a panicking goroutine, typically used within a `defer` function.",
+    "Option3": "A function to log errors.",
+    "Option4": "A function to restart the program.",
+    "Answer": "A built-in function that regains control of a panicking goroutine, typically used within a `defer` function."
+  },
+  {
+    "question_no.": 45,
+    "Question": "When should 'panic' and 'recover' be used?",
+    "Option1": "For all error handling.",
+    "Option2": "Sparingy, for truly exceptional and unrecoverable situations, not for expected errors.",
+    "Option3": "As a replacement for if-else error checks.",
+    "Option4": "Only in development mode.",
+    "Answer": "Sparingy, for truly exceptional and unrecoverable situations, not for expected errors."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the purpose of the `go fmt` command?",
+    "Option1": "To compile Go code.",
+    "Option2": "To automatically format Go source code according to the official Go style guide.",
+    "Option3": "To run Go tests.",
+    "Option4": "To install Go packages.",
+    "Answer": "To automatically format Go source code according to the official Go style guide."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the purpose of the `go run` command?",
+    "Option1": "To compile a Go program without executing it.",
+    "Option2": "To compile and run a Go program in a single step.",
+    "Option3": "To install Go modules.",
+    "Option4": "To download dependencies.",
+    "Answer": "To compile and run a Go program in a single step."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the purpose of the `go build` command?",
+    "Option1": "To execute a Go program.",
+    "Option2": "To compile the packages named by the import paths and their dependencies, creating an executable binary.",
+    "Option3": "To test Go code.",
+    "Option4": "To clean up build artifacts.",
+    "Answer": "To compile the packages named by the import paths and their dependencies, creating an executable binary."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of the `go test` command?",
+    "Option1": "To build the application for testing.",
+    "Option2": "To run tests for a Go package.",
+    "Option3": "To install testing frameworks.",
+    "Option4": "To generate test data.",
+    "Answer": "To run tests for a Go package."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What file naming convention is typically used for Go test files?",
+    "Option1": "main_test.go",
+    "Option2": "filename_test.go",
+    "Option3": "test_filename.go",
+    "Option4": "anyname.test",
+    "Answer": "filename_test.go"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Go Modules'?",
+    "Option1": "A deprecated package management system.",
+    "Option2": "Go's dependency management system, introduced in Go 1.11, that manages dependencies and builds Go programs.",
+    "Option3": "A system for building executable binaries.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "Go's dependency management system, introduced in Go 1.11, that manages dependencies and builds Go programs."
+  },
+  {
+    "question_no.": 52,
+    "Question": "How do you initialize a new Go module?",
+    "Option1": "go new module_name",
+    "Option2": "go mod init module_name",
+    "Option3": "go init module_name",
+    "Option4": "module_name start",
+    "Answer": "go mod init module_name"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What does the `go.mod` file contain?",
+    "Option1": "Source code of your module.",
+    "Option2": "The module path, Go version, and its direct and indirect dependencies.",
+    "Option3": "Test results.",
+    "Option4": "Build configuration.",
+    "Answer": "The module path, Go version, and its direct and indirect dependencies."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What does the `go.sum` file contain?",
+    "Option1": "A summary of your code's functionality.",
+    "Option2": "Cryptographic checksums of module dependencies, ensuring their integrity.",
+    "Option3": "A list of all functions in the module.",
+    "Option4": "Error logs.",
+    "Answer": "Cryptographic checksums of module dependencies, ensuring their integrity."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'composition' in Go?",
+    "Option1": "Combining functions without interfaces.",
+    "Option2": "Building complex types by embedding other types (structs) within them, achieving code reuse without inheritance.",
+    "Option3": "Creating anonymous functions.",
+    "Option4": "Combining multiple packages into one.",
+    "Answer": "Building complex types by embedding other types (structs) within them, achieving code reuse without inheritance."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the `select` statement in Go?",
+    "Option1": "A control flow statement for making decisions based on variable values.",
+    "Option2": "A statement that lets a goroutine wait on multiple communication operations (channels) simultaneously.",
+    "Option3": "A way to query a database.",
+    "Option4": "A method for filtering data.",
+    "Answer": "A statement that lets a goroutine wait on multiple communication operations (channels) simultaneously."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is the purpose of the `default` case in a `select` statement?",
+    "Option1": "It's always executed.",
+    "Option2": "It's executed if none of the other channel operations are ready immediately, preventing the `select` from blocking.",
+    "Option3": "It's used for error handling.",
+    "Option4": "It's a mandatory part of every `select` statement.",
+    "Answer": "It's executed if none of the other channel operations are ready immediately, preventing the `select` from blocking."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is a 'buffered channel' in Go?",
+    "Option1": "A channel that can store a limited number of values without blocking.",
+    "Option2": "A channel that cannot store any values.",
+    "Option3": "A channel that automatically resizes.",
+    "Option4": "A channel used for network communication only.",
+    "Answer": "A channel that can store a limited number of values without blocking."
+  },
+  {
+    "question_no.": 59,
+    "Question": "How do you create a buffered channel with a capacity of 5?",
+    "Option1": "make(chan int, 5)",
+    "Option2": "make(chan int)",
+    "Option3": "new(chan int, 5)",
+    "Option4": "chan int[5]{}",
+    "Answer": "make(chan int, 5)"
+  },
+  {
+    "question_no.": 60,
+    "Question": "When does sending to an unbuffered channel block?",
+    "Option1": "Never.",
+    "Option2": "Until a receiver is ready to receive the value.",
+    "Option3": "Until the channel is full.",
+    "Option4": "Until the program exits.",
+    "Answer": "Until a receiver is ready to receive the value."
+  },
+  {
+    "question_no.": 61,
+    "Question": "When does sending to a buffered channel block?",
+    "Option1": "Never.",
+    "Option2": "Until a receiver is ready to receive the value.",
+    "Option3": "When the buffer is full.",
+    "Option4": "Until the program exits.",
+    "Answer": "When the buffer is full."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the `len()` built-in function used for in Go?",
+    "Option1": "To get the capacity of a slice.",
+    "Option2": "To get the length of strings, arrays, slices, maps, or channels.",
+    "Option3": "To get the size of a file.",
+    "Option4": "To get the number of goroutines.",
+    "Answer": "To get the length of strings, arrays, slices, maps, or channels."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the `cap()` built-in function used for in Go?",
+    "Option1": "To get the number of elements in a slice.",
+    "Option2": "To get the capacity (maximum number of elements it can hold) of a slice or channel.",
+    "Option3": "To get the memory usage of an array.",
+    "Option4": "To convert a string to uppercase.",
+    "Answer": "To get the capacity (maximum number of elements it can hold) of a slice or channel."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'pass by value' in Go function arguments?",
+    "Option1": "Functions modify the original variable.",
+    "Option2": "Functions receive a copy of the argument's value, so changes inside the function do not affect the original variable.",
+    "Option3": "Functions receive a pointer to the variable.",
+    "Option4": "Functions modify global variables.",
+    "Answer": "Functions receive a copy of the argument's value, so changes inside the function do not affect the original variable."
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you ensure a function modifies an original variable in Go?",
+    "Option1": "By passing the variable directly.",
+    "Option2": "By passing a pointer to the variable.",
+    "Option3": "By declaring the variable as global.",
+    "Option4": "By returning the modified variable.",
+    "Answer": "By passing a pointer to the variable."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'concurrency' in Go?",
+    "Option1": "Running multiple tasks at the exact same time (parallelism).",
+    "Option2": "Dealing with many things at once, potentially interweaving execution of independent parts of a program.",
+    "Option3": "Sequential execution of tasks.",
+    "Option4": "Only possible on multi-core processors.",
+    "Answer": "Dealing with many things at once, potentially interweaving execution of independent parts of a program."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'parallelism' in Go?",
+    "Option1": "Dealing with many things at once.",
+    "Option2": "Running multiple computations at the exact same instant, typically on multiple CPU cores.",
+    "Option3": "Executing tasks one after another.",
+    "Option4": "Achieved only through channels.",
+    "Answer": "Running multiple computations at the exact same instant, typically on multiple CPU cores."
+  },
+  {
+    "question_no.": 68,
+    "Question": "Go's approach to concurrency is often summarized as 'Don't communicate by sharing memory; share memory by...'",
+    "Option1": "Locking mutexes.",
+    "Option2": "Communicating.",
+    "Option3": "Using global variables.",
+    "Option4": "Passing pointers.",
+    "Answer": "Communicating."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is a 'mutex' (mutual exclusion) in Go?",
+    "Option1": "A way to share memory safely between goroutines, ensuring only one goroutine accesses a critical section at a time.",
+    "Option2": "A type of channel.",
+    "Option3": "A mechanism for broadcasting messages.",
+    "Option4": "A method for creating goroutines.",
+    "Answer": "A way to share memory safely between goroutines, ensuring only one goroutine accesses a critical section at a time."
+  },
+  {
+    "question_no.": 70,
+    "Question": "When would you use a `sync.Mutex` in Go?",
+    "Option1": "When performing network requests.",
+    "Option2": "When multiple goroutines need to safely access and modify shared data.",
+    "Option3": "When defining new types.",
+    "Option4": "When printing to the console.",
+    "Answer": "When multiple goroutines need to safely access and modify shared data."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the `sync.WaitGroup` used for?",
+    "Option1": "To synchronize data between multiple goroutines.",
+    "Option2": "To wait for a collection of goroutines to finish executing.",
+    "Option3": "To group related functions.",
+    "Option4": "To manage global variables.",
+    "Answer": "To wait for a collection of goroutines to finish executing."
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you signal that a goroutine is done using `sync.WaitGroup`?",
+    "Option1": "wg.Add(1)",
+    "Option2": "wg.Done()",
+    "Option3": "wg.Wait()",
+    "Option4": "wg.Close()",
+    "Answer": "wg.Done()"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'embedding' in Go?",
+    "Option1": "Placing a struct directly within another struct without a field name, promoting composition.",
+    "Option2": "Including external libraries.",
+    "Option3": "Storing data in a database.",
+    "Option4": "Creating anonymous functions.",
+    "Answer": "Placing a struct directly within another struct without a field name, promoting composition."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is a 'method' in Go?",
+    "Option1": "A standalone function.",
+    "Option2": "A function associated with a specific type (receiver type).",
+    "Option3": "A built-in utility.",
+    "Option4": "A type of variable.",
+    "Answer": "A function associated with a specific type (receiver type)."
+  },
+  {
+    "question_no.": 75,
+    "Question": "How do you define a method for a struct `MyStruct` that takes a pointer receiver?",
+    "Option1": "func (m MyStruct) methodName() {}",
+    "Option2": "func (m *MyStruct) methodName() {}",
+    "Option3": "func methodName(m MyStruct) {}",
+    "Option4": "methodName(m *MyStruct) {}",
+    "Answer": "func (m *MyStruct) methodName() {}"
+  },
+  {
+    "question_no.": 76,
+    "Question": "When should you use a pointer receiver for a method?",
+    "Option1": "When the method does not modify the receiver.",
+    "Option2": "When the method modifies the receiver or when the receiver is a large struct to avoid copying.",
+    "Option3": "Always, for better performance.",
+    "Option4": "Never, it's considered bad practice.",
+    "Answer": "When the method modifies the receiver or when the receiver is a large struct to avoid copying."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'anonymous struct' in Go?",
+    "Option1": "A struct defined without a name, typically used for one-off data structures.",
+    "Option2": "A struct with no fields.",
+    "Option3": "A struct that cannot be initialized.",
+    "Option4": "A struct used for testing only.",
+    "Answer": "A struct defined without a name, typically used for one-off data structures."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'anonymous function' (closure) in Go?",
+    "Option1": "A function that has no parameters.",
+    "Option2": "A function without a name that can access variables from its surrounding scope.",
+    "Option3": "A function that always returns `nil`.",
+    "Option4": "A function that is only called once.",
+    "Answer": "A function without a name that can access variables from its surrounding scope."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `io.Reader` and `io.Writer` interfaces used for?",
+    "Option1": "For network communication only.",
+    "Option2": "For generic input/output operations, enabling polymorphic handling of data streams.",
+    "Option3": "For parsing JSON data.",
+    "Option4": "For working with goroutines.",
+    "Answer": "For generic input/output operations, enabling polymorphic handling of data streams."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the `context` package in Go used for?",
+    "Option1": "Managing file system operations.",
+    "Option2": "Carrying deadlines, cancellation signals, and other request-scoped values across API boundaries to goroutines.",
+    "Option3": "Performing cryptographic operations.",
+    "Option4": "Building graphical user interfaces.",
+    "Answer": "Carrying deadlines, cancellation signals, and other request-scoped values across API boundaries to goroutines."
+  },
+  {
+    "question_no.": 81,
+    "Question": "When would you use `context.WithTimeout` or `context.WithCancel`?",
+    "Option1": "For error logging.",
+    "Option2": "To control the lifetime of operations, like setting a timeout for a network request or canceling a long-running computation.",
+    "Option3": "For string manipulation.",
+    "Option4": "For sorting algorithms.",
+    "Answer": "To control the lifetime of operations, like setting a timeout for a network request or canceling a long-running computation."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the 'garbage collector' in Go?",
+    "Option1": "A tool for deleting unused files.",
+    "Option2": "A runtime feature that automatically manages memory by identifying and reclaiming memory that is no longer in use.",
+    "Option3": "A method for optimizing code performance.",
+    "Option4": "A utility for debugging memory leaks manually.",
+    "Answer": "A runtime feature that automatically manages memory by identifying and reclaiming memory that is no longer in use."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Does Go require manual memory management?",
+    "Option1": "Yes, entirely.",
+    "Option2": "No, it has an automatic garbage collector.",
+    "Option3": "Only for large data structures.",
+    "Option4": "Only for pointers.",
+    "Answer": "No, it has an automatic garbage collector."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is a 'receiver' in the context of Go methods?",
+    "Option1": "The return value of the method.",
+    "Option2": "The argument that represents the instance of the type on which the method is called.",
+    "Option3": "A variable that receives data from a channel.",
+    "Option4": "A function that handles errors.",
+    "Answer": "The argument that represents the instance of the type on which the method is called."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the `os` package commonly used for?",
+    "Option1": "Network operations.",
+    "Option2": "Interacting with the operating system, such as file system operations, environment variables, and process management.",
+    "Option3": "Database connections.",
+    "Option4": "Web server creation.",
+    "Answer": "Interacting with the operating system, such as file system operations, environment variables, and process management."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the `net/http` package used for?",
+    "Option1": "Low-level network programming.",
+    "Option2": "Implementing HTTP clients and servers in Go.",
+    "Option3": "Secure shell connections.",
+    "Option4": "File transfer protocols.",
+    "Answer": "Implementing HTTP clients and servers in Go."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you start a basic HTTP server in Go that listens on port 8080?",
+    "Option1": "http.ListenAndServe(\":8080\", nil)",
+    "Option2": "http.Server.start(8080)",
+    "Option3": "net.Listen(8080)",
+    "Option4": "server.run(8080)",
+    "Answer": "http.ListenAndServe(\":8080\", nil)"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the purpose of `http.Handler` interface?",
+    "Option1": "To handle database connections.",
+    "Option2": "To define an object that can handle HTTP requests, typically by implementing the `ServeHTTP` method.",
+    "Option3": "To manage goroutines.",
+    "Option4": "To parse HTML content.",
+    "Answer": "To define an object that can handle HTTP requests, typically by implementing the `ServeHTTP` method."
+  },
+  {
+    "question_no.": 89,
+    "Question": "How do you define an HTTP handler function in Go?",
+    "Option1": "func handler(w Response, r Request) {}",
+    "Option2": "func handler(w http.ResponseWriter, r *http.Request) {}",
+    "Option3": "func handler(request, response) {}",
+    "Option4": "handlerFunc() {}",
+    "Answer": "func handler(w http.ResponseWriter, r *http.Request) {}"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `encoding/json` package used for?",
+    "Option1": "Encoding and decoding XML.",
+    "Option2": "Encoding and decoding JSON data to and from Go values.",
+    "Option3": "Encoding and decoding binary data.",
+    "4": "Encoding and decoding CSV files.",
+    "Answer": "Encoding and decoding JSON data to and from Go values."
+  },
+  {
+    "question_no.": 91,
+    "Question": "How do you marshal (encode) a Go struct to a JSON string?",
+    "Option1": "json.Encode(myStruct)",
+    "Option2": "json.Marshal(myStruct)",
+    "Option3": "myStruct.ToJSON()",
+    "4": "encodeJSON(myStruct)",
+    "Answer": "json.Marshal(myStruct)"
+  },
+  {
+    "question_no.": 92,
+    "Question": "How do you unmarshal (decode) a JSON string into a Go struct?",
+    "Option1": "json.Decode(jsonString, &myStruct)",
+    "Option2": "json.Unmarshal([]byte(jsonString), &myStruct)",
+    "Option3": "myStruct.FromJSON(jsonString)",
+    "4": "decodeJSON(jsonString, myStruct)",
+    "Answer": "json.Unmarshal([]byte(jsonString), &myStruct)"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What are 'tags' in Go structs (e.g., `json:\"name\"`) used for?",
+    "Option1": "To define type aliases.",
+    "Option2": "To provide metadata to struct fields, often used by encoding/decoding packages to control serialization/deserialization.",
+    "Option3": "To mark fields as private.",
+    "4": "To indicate optional fields.",
+    "Answer": "To provide metadata to struct fields, often used by encoding/decoding packages to control serialization/deserialization."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'reflection' in Go?",
+    "Option1": "The ability of a program to examine or modify its own structure and behavior at runtime.",
+    "Option2": "A debugging technique.",
+    "Option3": "A way to mirror network traffic.",
+    "4": "A method for generating code.",
+    "Answer": "The ability of a program to examine or modify its own structure and behavior at runtime."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What package provides reflection capabilities in Go?",
+    "Option1": "fmt",
+    "Option2": "reflect",
+    "Option3": "runtime",
+    "4": "unsafe",
+    "Answer": "reflect"
+  },
+  {
+    "question_no.": 96,
+    "Question": "When should reflection be used in Go?",
+    "Option1": "For all data manipulation.",
+    "Option2": "Sparingy, when compile-time type information is not sufficient, such as in serialization/deserialization, ORMs, or generic utilities.",
+    "Option3": "As a replacement for interfaces.",
+    "4": "For performance-critical code.",
+    "Answer": "Sparingy, when compile-time type information is not sufficient, such as in serialization/deserialization, ORMs, or generic utilities."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the purpose of the `testing` package in Go?",
+    "Option1": "For building user interfaces.",
+    "Option2": "To support automated testing of Go packages.",
+    "Option3": "For network diagnostics.",
+    "4": "For performance benchmarking.",
+    "Answer": "To support automated testing of Go packages."
+  },
+  {
+    "question_no.": 98,
+    "Question": "How do you write a basic test function in Go?",
+    "Option1": "func testMyFunction() {}",
+    "Option2": "func TestMyFunction(t *testing.T) {}",
+    "Option3": "func Test(MyFunction) {}",
+    "4": "test_MyFunction() {}",
+    "Answer": "func TestMyFunction(t *testing.T) {}"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `t *testing.T` argument in a test function?",
+    "Option1": "A custom type for test cases.",
+    "Option2": "A pointer to a `testing.T` object, which provides methods for reporting test failures, logging, and other test controls.",
+    "Option3": "The test result.",
+    "4": "The test name.",
+    "Answer": "A pointer to a `testing.T` object, which provides methods for reporting test failures, logging, and other test controls."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `t.Errorf()` used for in a Go test?",
+    "Option1": "To log a message without failing the test.",
+    "Option2": "To report a test failure and log an error message.",
+    "Option3": "To skip a test.",
+    "4": "To run a sub-test.",
+    "Answer": "To report a test failure and log an error message."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `t.Fatal()` used for in a Go test?",
+    "Option1": "To skip the test.",
+    "Option2": "To report a test failure and stop the execution of the current test function immediately.",
+    "Option3": "To log a warning.",
+    "4": "To run tests in parallel.",
+    "Answer": "To report a test failure and stop the execution of the current test function immediately."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is 'benchmarking' in Go?",
+    "Option1": "Testing the correctness of a function.",
+    "Option2": "Measuring the performance of Go code, typically functions, to identify bottlenecks and optimize for speed.",
+    "Option3": "Comparing Go versions.",
+    "4": "Generating code coverage reports.",
+    "Answer": "Measuring the performance of Go code, typically functions, to identify bottlenecks and optimize for speed."
+  },
+  {
+    "question_no.": 103,
+    "Question": "How do you write a basic benchmark function in Go?",
+    "Option1": "func benchmarkMyFunction() {}",
+    "Option2": "func BenchmarkMyFunction(b *testing.B) {}",
+    "Option3": "func Benchmark(MyFunction) {}",
+    "4": "benchmark_MyFunction() {}",
+    "Answer": "func BenchmarkMyFunction(b *testing.B) {}"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is `b *testing.B` argument in a benchmark function?",
+    "Option1": "A custom type for benchmark results.",
+    "Option2": "A pointer to a `testing.B` object, which provides methods for running and controlling benchmark operations, including the `b.N` loop.",
+    "Option3": "The benchmark duration.",
+    "4": "The benchmark name.",
+    "Answer": "A pointer to a `testing.B` object, which provides methods for running and controlling benchmark operations, including the `b.N` loop."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'error wrapping' in Go 1.13+?",
+    "Option1": "Hiding error details from the user.",
+    "Option2": "Allowing an error to 'wrap' another error, preserving the original error while adding context, and enabling inspection of the error chain.",
+    "Option3": "Converting an error to a string.",
+    "4": "Ignoring errors during compilation.",
+    "Answer": "Allowing an error to 'wrap' another error, preserving the original error while adding context, and enabling inspection of the error chain."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the `errors.Is()` function used for?",
+    "Option1": "To check if an error is `nil`.",
+    "Option2": "To check if an error in a chain matches a target error, respecting wrapped errors.",
+    "Option3": "To check the type of an error.",
+    "4": "To create a new error.",
+    "Answer": "To check if an error in a chain matches a target error, respecting wrapped errors."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the `errors.As()` function used for?",
+    "Option1": "To convert an error to a specific type.",
+    "Option2": "To check if an error in a chain matches a target error type and assign it to a variable if it does.",
+    "Option3": "To create an alias for an error.",
+    "4": "To get the underlying error.",
+    "Answer": "To check if an error in a chain matches a target error type and assign it to a variable if it does."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the `fmt.Errorf(\"error: %w\", err)` syntax used for?",
+    "Option1": "To print an error message.",
+    "Option2": "To create a new error that wraps an existing error, using the `%w` verb.",
+    "Option3": "To log a fatal error.",
+    "4": "To ignore an error.",
+    "Answer": "To create a new error that wraps an existing error, using the `%w` verb."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is a 'type assertion' in Go?",
+    "Option1": "Converting a value from one type to another.",
+    "Option2": "A runtime operation that asserts that an interface value holds a specific concrete type.",
+    "Option3": "Declaring a new type.",
+    "4": "Checking if a variable is `nil`.",
+    "Answer": "A runtime operation that asserts that an interface value holds a specific concrete type."
+  },
+  {
+    "question_no.": 110,
+    "Question": "How do you perform a type assertion with a 'comma ok' idiom?",
+    "Option1": "value, ok := interfaceValue.(Type)",
+    "Option2": "value = interfaceValue.(Type)",
+    "Option3": "ok := interfaceValue.Is(Type)",
+    "4": "if interfaceValue is Type {}",
+    "Answer": "value, ok := interfaceValue.(Type)"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What does the `ok` variable indicate in a 'comma ok' type assertion?",
+    "Option1": "Whether the conversion was successful.",
+    "Option2": "Whether the assertion was successful (true if the value is of the asserted type, false otherwise).",
+    "Option3": "Whether the value is not `nil`.",
+    "4": "Whether the value is empty.",
+    "Answer": "Whether the assertion was successful (true if the value is of the asserted type, false otherwise)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is a 'type switch' in Go?",
+    "Option1": "A switch statement that checks the value of a variable.",
+    "Option2": "A switch statement that checks the concrete type of an interface value.",
+    "Option3": "A switch statement for boolean conditions.",
+    "4": "A switch statement for enum values.",
+    "Answer": "A switch statement that checks the concrete type of an interface value."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'idempotency' in the context of API design?",
+    "Option1": "A request that always returns the same response.",
+    "Option2": "An operation that, when executed multiple times with the same parameters, produces the same result (or state change) as if it were executed only once.",
+    "Option3": "An operation that is fast and efficient.",
+    "4": "An operation that guarantees atomicity.",
+    "Answer": "An operation that, when executed multiple times with the same parameters, produces the same result (or state change) as if it were executed only once."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which HTTP methods are generally considered idempotent?",
+    "Option1": "POST",
+    "Option2": "GET, PUT, DELETE",
+    "Option3": "PATCH",
+    "4": "All of them.",
+    "Answer": "GET, PUT, DELETE"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'RESTful API' design?",
+    "Option1": "An API that relies heavily on SOAP.",
+    "Option2": "An architectural style for networked applications that leverages HTTP methods and stateless communication, treating resources as core entities.",
+    "Option3": "An API that only uses GET requests.",
+    "4": "An API designed for real-time communication.",
+    "Answer": "An architectural style for networked applications that leverages HTTP methods and stateless communication, treating resources as core entities."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is a 'middleware' in the context of web development (Go)?",
+    "Option1": "A database layer.",
+    "Option2": "Software that sits between a request and the final handler, capable of processing the request or response, logging, authentication, etc.",
+    "Option3": "A frontend framework.",
+    "4": "A data serialization format.",
+    "Answer": "Software that sits between a request and the final handler, capable of processing the request or response, logging, authentication, etc."
+  },
+  {
+    "question_no.": 117,
+    "Question": "How can you implement middleware in Go's `net/http` package?",
+    "Option1": "By using global variables.",
+    "Option2": "By chaining `http.Handler` or `http.HandlerFunc` wrappers.",
+    "Option3": "Through special decorators.",
+    "4": "It's not supported.",
+    "Answer": "By chaining `http.Handler` or `http.HandlerFunc` wrappers."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `Gorilla Mux`?",
+    "Option1": "A database ORM.",
+    "Option2": "A powerful HTTP router and URL matcher for building web applications in Go.",
+    "Option3": "A templating engine.",
+    "4": "A testing framework.",
+    "Answer": "A powerful HTTP router and URL matcher for building web applications in Go."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a 'graceful shutdown' in the context of a Go HTTP server?",
+    "Option1": "Immediately terminating the server process.",
+    "Option2": "Allowing ongoing requests to complete gracefully while preventing new connections, before shutting down the server.",
+    "Option3": "Restarting the server without any downtime.",
+    "4": "Logging all active connections.",
+    "Answer": "Allowing ongoing requests to complete gracefully while preventing new connections, before shutting down the server."
+  },
+  {
+    "question_no.": 120,
+    "Question": "How can `context` and `http.Server.Shutdown()` be used for graceful shutdown?",
+    "Option1": "By manually closing all connections.",
+    "Option2": "By creating a `context.WithTimeout` and passing it to `srv.Shutdown()` to allow a limited time for active connections to drain.",
+    "Option3": "By sending a kill signal to the process.",
+    "4": "It's automatically handled by the `net/http` package.",
+    "Answer": "By creating a `context.WithTimeout` and passing it to `srv.Shutdown()` to allow a limited time for active connections to drain."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the purpose of `SQL` package in Go?",
+    "Option1": "To embed SQL statements directly into Go code.",
+    "Option2": "To provide a generic interface for interacting with SQL databases, allowing database drivers to be registered and used.",
+    "Option3": "To manage NoSQL databases.",
+    "4": "To parse SQL queries.",
+    "Answer": "To provide a generic interface for interacting with SQL databases, allowing database drivers to be registered and used."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Does the `database/sql` package include specific database drivers (e.g., MySQL, PostgreSQL)?",
+    "Option1": "Yes, all common drivers are built-in.",
+    "Option2": "No, it provides the generic interface; you need to import specific third-party drivers for your chosen database.",
+    "Option3": "Only for SQLite.",
+    "4": "Only for cloud databases.",
+    "Answer": "No, it provides the generic interface; you need to import specific third-party drivers for your chosen database."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is an `ORM` (Object-Relational Mapper) in the context of Go database access?",
+    "Option1": "A tool for generating SQL queries.",
+    "Option2": "A library that maps database tables to Go structs, allowing interaction with the database using object-oriented paradigms rather than raw SQL.",
+    "Option3": "A database connection pool.",
+    "4": "A tool for database migration.",
+    "Answer": "A library that maps database tables to Go structs, allowing interaction with the database using object-oriented paradigms rather than raw SQL."
+  },
+  {
+    "question_no.": 124,
+    "Question": "Name a popular third-party ORM for Go.",
+    "Option1": "SQLAlchemy",
+    "Option2": "GORM",
+    "Option3": "Django ORM",
+    "4": "Hibernate",
+    "Answer": "GORM"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `gRPC`?",
+    "Option1": "A standard for RESTful APIs.",
+    "Option2": "A modern open-source high-performance RPC framework developed by Google, often used for microservices communication.",
+    "Option3": "A graphical user interface library.",
+    "4": "A Go-specific testing tool.",
+    "Answer": "A modern open-source high-performance RPC framework developed by Google, often used for microservices communication."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What are 'Protobuf' (Protocol Buffers) used for with gRPC?",
+    "Option1": "To define the network protocol for HTTP.",
+    "Option2": "To define the service interfaces and the structure of the payload messages in a language-agnostic way, which gRPC then uses to generate client and server code.",
+    "Option3": "For managing database schemas.",
+    "4": "For creating dynamic web pages.",
+    "Answer": "To define the service interfaces and the structure of the payload messages in a language-agnostic way, which gRPC then uses to generate client and server code."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `log` package used for in Go?",
+    "Option1": "Sending network requests.",
+    "Option2": "Providing a simple logging interface for printing formatted output to the console or other output streams.",
+    "Option3": "Parsing command-line arguments.",
+    "4": "Managing system processes.",
+    "Answer": "Providing a simple logging interface for printing formatted output to the console or other output streams."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the `time` package used for?",
+    "Option1": "Calculating complex mathematical equations.",
+    "Option2": "Measuring and displaying time, including durations, timestamps, and time zones.",
+    "Option3": "Controlling system sleep.",
+    "4": "Managing concurrent access to resources.",
+    "Answer": "Measuring and displaying time, including durations, timestamps, and time zones."
+  },
+  {
+    "question_no.": 129,
+    "Question": "How do you get the current time in Go?",
+    "Option1": "time.now()",
+    "Option2": "time.Now()",
+    "Option3": "currentTime()",
+    "4": "datetime.current()",
+    "Answer": "time.Now()"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the `strconv` package used for?",
+    "Option1": "String concatenation.",
+    "Option2": "Converting basic data types to and from their string representations.",
+    "Option3": "String searching and replacing.",
+    "4": "String encryption.",
+    "Answer": "Converting basic data types to and from their string representations."
+  },
+  {
+    "question_no.": 131,
+    "Question": "How do you convert a string to an integer in Go?",
+    "Option1": "int(myString)",
+    "Option2": "strconv.Atoi(myString)",
+    "Option3": "myString.ToInt()",
+    "4": "parseInteger(myString)",
+    "Answer": "strconv.Atoi(myString)"
+  },
+  {
+    "question_no.": 132,
+    "Question": "How do you convert an integer to a string in Go?",
+    "Option1": "string(myInt)",
+    "Option2": "strconv.Itoa(myInt)",
+    "Option3": "myInt.ToString()",
+    "4": "formatString(myInt)",
+    "Answer": "strconv.Itoa(myInt)"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the `container/list` package used for?",
+    "Option1": "Creating arrays.",
+    "Option2": "Implementing a doubly linked list.",
+    "Option3": "Managing stacks and queues.",
+    "4": "Sorting collections.",
+    "Answer": "Implementing a doubly linked list."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the `container/heap` package used for?",
+    "Option1": "Memory management.",
+    "Option2": "Implementing a min-heap or max-heap data structure.",
+    "Option3": "Binary tree operations.",
+    "4": "Graph traversal algorithms.",
+    "Answer": "Implementing a min-heap or max-heap data structure."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the `flag` package used for?",
+    "Option1": "Working with boolean flags.",
+    "Option2": "Parsing command-line flags (arguments) passed to an executable Go program.",
+    "Option3": "Setting environment variables.",
+    "4": "Controlling program flow based on conditions.",
+    "Answer": "Parsing command-line flags (arguments) passed to an executable Go program."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the `os/exec` package used for?",
+    "Option1": "Executing Go programs.",
+    "Option2": "Running external commands and programs from within a Go program.",
+    "Option3": "Managing executable permissions.",
+    "4": "Building executable files.",
+    "Answer": "Running external commands and programs from within a Go program."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the `reflect.TypeOf()` function used for?",
+    "Option1": "To get the value of a variable.",
+    "Option2": "To get the static type of a Go value.",
+    "Option3": "To convert a type to a string.",
+    "4": "To check if two types are compatible.",
+    "Answer": "To get the static type of a Go value."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the `reflect.ValueOf()` function used for?",
+    "Option1": "To get the type of a variable.",
+    "Option2": "To get a `reflect.Value` that represents the dynamic value of a Go variable.",
+    "Option3": "To create a new value.",
+    "4": "To compare two values.",
+    "Answer": "To get a `reflect.Value` that represents the dynamic value of a Go variable."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'stringer' in Go?",
+    "Option1": "A built-in function for string conversion.",
+    "Option2": "A tool that automates the creation of `String()` methods for custom types, often used for debugging and logging.",
+    "Option3": "A library for string manipulation.",
+    "4": "A method for parsing strings.",
+    "Answer": "A tool that automates the creation of `String()` methods for custom types, often used for debugging and logging."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the purpose of the `String()` method for a custom type?",
+    "Option1": "To convert the type to an integer.",
+    "Option2": "To define how a value of that type should be represented as a string when printed or logged.",
+    "Option3": "To check if the string is empty.",
+    "4": "To compare two strings.",
+    "Answer": "To define how a value of that type should be represented as a string when printed or logged."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is a 'method set' in Go?",
+    "Option1": "The set of all functions defined in a package.",
+    "Option2": "The set of methods that a type implements, determining whether it satisfies an interface.",
+    "Option3": "A collection of built-in methods.",
+    "4": "A set of methods that can only be called from within a specific package.",
+    "Answer": "The set of methods that a type implements, determining whether it satisfies an interface."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How does the method set differ for a value type (`T`) versus a pointer type (`*T`)?",
+    "Option1": "They are always the same.",
+    "Option2": "The method set of `T` includes methods with value receivers. The method set of `*T` includes methods with both value and pointer receivers.",
+    "Option3": "The method set of `T` is smaller than `*T`.",
+    "4": "Only pointer types can have methods.",
+    "Answer": "The method set of `T` includes methods with value receivers. The method set of `*T` includes methods with both value and pointer receivers."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the `sync.Once` used for?",
+    "Option1": "To run a goroutine only once.",
+    "Option2": "To ensure that a function is executed exactly once, even in concurrent environments.",
+    "Option3": "To synchronize multiple goroutines.",
+    "4": "To delay function execution.",
+    "Answer": "To ensure that a function is executed exactly once, even in concurrent environments."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `init` (function) vs `main` (function)?",
+    "Option1": "They are interchangeable.",
+    "Option2": "`init` runs before `main` and is used for package initialization. `main` is the program's entry point.",
+    "Option3": "`main` is for libraries, `init` is for executables.",
+    "4": "`init` is for testing, `main` is for production.",
+    "Answer": "`init` runs before `main` and is used for package initialization. `main` is the program's entry point."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'profiling' in Go?",
+    "Option1": "Writing unit tests.",
+    "Option2": "Analyzing the runtime behavior of a program to identify performance bottlenecks (e.g., CPU, memory, goroutines).",
+    "Option3": "Debugging errors in production.",
+    "4": "Generating documentation.",
+    "Answer": "Analyzing the runtime behavior of a program to identify performance bottlenecks (e.g., CPU, memory, goroutines)."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What built-in tools does Go provide for profiling?",
+    "Option1": "None, requires third-party tools.",
+    "Option2": "`pprof` (accessed via `net/http/pprof` or command line `go tool pprof`).",
+    "Option3": "Go debugger.",
+    "4": "Built-in logging framework.",
+    "Answer": "`pprof` (accessed via `net/http/pprof` or command line `go tool pprof`)."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `go get` command primarily used for?",
+    "Option1": "To run Go programs.",
+    "Option2": "To download and install packages and dependencies (though `go mod tidy` and `go build` handle this more commonly with modules).",
+    "Option3": "To compile Go code.",
+    "4": "To create new modules.",
+    "Answer": "To download and install packages and dependencies (though `go mod tidy` and `go build` handle this more commonly with modules)."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is a 'cgo'?",
+    "Option1": "A Go compiler flag.",
+    "Option2": "A tool that enables Go programs to call C code and C code to call Go code.",
+    "Option3": "A Go runtime environment.",
+    "4": "A specialized Go package for graphics.",
+    "Answer": "A tool that enables Go programs to call C code and C code to call Go code."
+  },
+  {
+    "question_no.": 149,
+    "Question": "When would you use 'cgo'?",
+    "Option1": "For all system interactions.",
+    "Option2": "When you need to interact with existing C libraries, use low-level system calls not exposed by Go, or integrate with hardware.",
+    "Option3": "To improve performance of pure Go code.",
+    "4": "To create new goroutines.",
+    "Answer": "When you need to interact with existing C libraries, use low-level system calls not exposed by Go, or integrate with hardware."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the `sync.Pool` used for?",
+    "Option1": "Managing a pool of goroutines.",
+    "Option2": "A pool of temporary objects that can be reused, reducing memory allocations and garbage collection overhead.",
+    "Option3": "Pooling database connections.",
+    "4": "Pooling network sockets.",
+    "Answer": "A pool of temporary objects that can be reused, reducing memory allocations and garbage collection overhead."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the `net` package used for?",
+    "Option1": "Working with file paths.",
+    "Option2": "Providing network I/O primitives, including TCP/IP, UDP, domain name resolution, and Unix domain sockets.",
+    "Option3": "Data encryption.",
+    "4": "Graphical user interfaces.",
+    "Answer": "Providing network I/O primitives, including TCP/IP, UDP, domain name resolution, and Unix domain sockets."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `io.Copy()` used for?",
+    "Option1": "Copying files within the file system.",
+    "Option2": "Copying data from an `io.Reader` to an `io.Writer`, often used for efficient data streaming.",
+    "Option3": "Copying slices.",
+    "4": "Copying maps.",
+    "Answer": "Copying data from an `io.Reader` to an `io.Writer`, often used for efficient data streaming."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'marshalling' and 'unmarshalling' in Go?",
+    "Option1": "Encoding and decoding data to/from binary formats only.",
+    "Option2": "The process of converting Go data structures into a format suitable for transmission or storage (marshalling) and converting it back (unmarshalling).",
+    "Option3": "Encrypting and decrypting data.",
+    "4": "Sorting and filtering data.",
+    "Answer": "The process of converting Go data structures into a format suitable for transmission or storage (marshalling) and converting it back (unmarshalling)."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the `encoding/xml` package used for?",
+    "Option1": "Working with JSON data.",
+    "Option2": "Encoding and decoding XML data.",
+    "Option3": "Working with CSV files.",
+    "4": "Encrypting data.",
+    "Answer": "Encoding and decoding XML data."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the `text/template` and `html/template` packages used for?",
+    "Option1": "For creating command-line interfaces.",
+    "Option2": "For generating text and HTML output by executing templates, with `html/template` providing automatic escaping for security.",
+    "Option3": "For parsing incoming requests.",
+    "4": "For validating user input.",
+    "Answer": "For generating text and HTML output by executing templates, with `html/template` providing automatic escaping for security."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'context cancellation' in Go?",
+    "Option1": "Stopping a goroutine immediately without cleanup.",
+    "Option2": "A mechanism to signal to a tree of goroutines that they should stop their work, typically used to prevent resource leaks or unnecessary computation.",
+    "Option3": "A way to restart a goroutine.",
+    "4": "A method for error logging.",
+    "Answer": "A mechanism to signal to a tree of goroutines that they should stop their work, typically used to prevent resource leaks or unnecessary computation."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the `defer` stack in Go?",
+    "Option1": "A data structure for storing function arguments.",
+    "Option2": "A stack where deferred function calls are pushed, and they are executed in LIFO (Last-In, First-Out) order when the surrounding function returns.",
+    "Option3": "A queue for goroutines.",
+    "4": "A list of global variables.",
+    "Answer": "A stack where deferred function calls are pushed, and they are executed in LIFO (Last-In, First-Out) order when the surrounding function returns."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the `init` function used for, beyond general package initialization?",
+    "Option1": "Defining constants.",
+    "Option2": "Registering database drivers, setting up environment variables, or performing one-time setup tasks.",
+    "Option3": "Handling user authentication.",
+    "4": "Responding to HTTP requests.",
+    "Answer": "Registering database drivers, setting up environment variables, or performing one-time setup tasks."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Can `init` functions take arguments or return values?",
+    "Option1": "Yes, they can take arguments but not return values.",
+    "Option2": "Yes, they can return values but not take arguments.",
+    "Option3": "No, they cannot take arguments or return values.",
+    "4": "Only if they are defined in the `main` package.",
+    "Answer": "No, they cannot take arguments or return values."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'embedding' in interfaces?",
+    "Option1": "A way to define a new interface by including the method signatures of other interfaces, without explicitly listing them.",
+    "Option2": "A way to store data within an interface.",
+    "Option3": "A method for creating anonymous interfaces.",
+    "4": "A way to implement multiple interfaces.",
+    "Answer": "A way to define a new interface by including the method signatures of other interfaces, without explicitly listing them."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the `net/url` package used for?",
+    "Option1": "Making HTTP requests.",
+    "Option2": "Parsing URLs, constructing new URLs, and encoding/decoding URL query parameters.",
+    "Option3": "Managing network connections.",
+    "4": "Handling secure web sockets.",
+    "Answer": "Parsing URLs, constructing new URLs, and encoding/decoding URL query parameters."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the `regexp` package used for?",
+    "Option1": "Generating random numbers.",
+    "Option2": "Working with regular expressions for pattern matching and text manipulation.",
+    "Option3": "Parsing command-line arguments.",
+    "4": "Performing cryptographic hashing.",
+    "Answer": "Working with regular expressions for pattern matching and text manipulation."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the `path/filepath` package used for?",
+    "Option1": "Working with URLs.",
+    "Option2": "Manipulating file paths in a platform-independent way.",
+    "Option3": "Creating temporary files.",
+    "4": "Compressing files.",
+    "Answer": "Manipulating file paths in a platform-independent way."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the `sync.Map` used for?",
+    "Option1": "A regular map that supports concurrent reads and writes safely.",
+    "Option2": "A specialized map optimized for concurrent use cases where keys are often added or removed by multiple goroutines.",
+    "Option3": "A map with fixed size.",
+    "4": "A map that stores pointers.",
+    "Answer": "A specialized map optimized for concurrent use cases where keys are often added or removed by multiple goroutines."
+  },
+  {
+    "question_no.": 165,
+    "Question": "When should you use `sync.Map` over a regular `map` with `sync.Mutex`?",
+    "Option1": "Always, for better performance.",
+    "Option2": "When you have many concurrent reads and a relatively low number of writes, and you want to reduce contention.",
+    "Option3": "Never, it's more complex.",
+    "4": "Only when working with large datasets.",
+    "Answer": "When you have many concurrent reads and a relatively low number of writes, and you want to reduce contention."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is a 'pointer receiver' vs 'value receiver' in methods, and their implication for memory?",
+    "Option1": "No difference in memory usage.",
+    "Option2": "Value receiver creates a copy of the receiver, increasing memory usage for large structs. Pointer receiver uses the original struct's memory address.",
+    "Option3": "Pointer receiver always uses more memory.",
+    "4": "Value receiver is only for primitive types.",
+    "Answer": "Value receiver creates a copy of the receiver, increasing memory usage for large structs. Pointer receiver uses the original struct's memory address."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the 'embedding' in structs, and how does it promote code reuse?",
+    "Option1": "It creates a copy of the embedded struct.",
+    "Option2": "It includes a field of another struct type without a name, making its fields and methods directly accessible on the outer struct, promoting composition over inheritance.",
+    "Option3": "It's a way to define private fields.",
+    "4": "It's only for interfaces.",
+    "Answer": "It includes a field of another struct type without a name, making its fields and methods directly accessible on the outer struct, promoting composition over inheritance."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'naked returns' in Go functions?",
+    "Option1": "Returning a value without a return statement.",
+    "Option2": "Using named return values and simply using `return` without explicitly specifying the return values, which implicitly returns the current values of the named return variables.",
+    "Option3": "Returning multiple values.",
+    "4": "Returning an error value.",
+    "Answer": "Using named return values and simply using `return` without explicitly specifying the return values, which implicitly returns the current values of the named return variables."
+  },
+  {
+    "question_no.": 169,
+    "Question": "When are 'naked returns' generally discouraged?",
+    "Option1": "Always, as they are confusing.",
+    "Option2": "In longer functions, as they can make the code less readable and harder to understand what is being returned.",
+    "Option3": "Only for functions with no return values.",
+    "4": "Only for recursive functions.",
+    "Answer": "In longer functions, as they can make the code less readable and harder to understand what is being returned."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `build constraints` (or build tags) in Go?",
+    "Option1": "Constraints on the size of the compiled binary.",
+    "Option2": "Special comments at the top of a Go source file that tell the `go build` command whether to include that file during compilation based on operating system, architecture, or custom tags.",
+    "Option3": "Constraints on the number of goroutines.",
+    "4": "Constraints on package imports.",
+    "Answer": "Special comments at the top of a Go source file that tell the `go build` command whether to include that file during compilation based on operating system, architecture, or custom tags."
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you specify a build constraint to include a file only for Linux?",
+    "Option1": "// +build linux",
+    "Option2": "// build: linux",
+    "Option3": "#ifdef linux",
+    "4": "// go:linux",
+    "Answer": "// +build linux"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `unsafe` package in Go?",
+    "Option1": "A package for secure cryptography.",
+    "Option2": "A package that provides low-level, unsafe operations like pointer arithmetic and direct memory access, bypassing Go's type safety checks.",
+    "Option3": "A package for random number generation.",
+    "4": "A package for handling network errors.",
+    "Answer": "A package that provides low-level, unsafe operations like pointer arithmetic and direct memory access, bypassing Go's type safety checks."
+  },
+  {
+    "question_no.": 173,
+    "Question": "When should you use the `unsafe` package?",
+    "Option1": "Regularly, for performance optimization.",
+    "Option2": "Only when absolutely necessary, for very specific low-level tasks, and with extreme caution due to potential for memory corruption and non-portability.",
+    "Option3": "To avoid type checking.",
+    "4": "To simplify code complexity.",
+    "Answer": "Only when absolutely necessary, for very specific low-level tasks, and with extreme caution due to potential for memory corruption and non-portability."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the `encoding/gob` package used for?",
+    "Option1": "Encoding and decoding JSON.",
+    "Option2": "Encoding and decoding Go values to and from a binary format, often used for RPC or persistent storage within Go applications.",
+    "Option3": "Encoding and decoding XML.",
+    "4": "Encoding and decoding text files.",
+    "Answer": "Encoding and decoding Go values to and from a binary format, often used for RPC or persistent storage within Go applications."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the `sort` package used for?",
+    "Option1": "Sorting strings only.",
+    "Option2": "Providing functions for sorting slices and user-defined collections that implement the `sort.Interface`.",
+    "Option3": "Sorting maps.",
+    "4": "Sorting concurrent operations.",
+    "Answer": "Providing functions for sorting slices and user-defined collections that implement the `sort.Interface`."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'profiling' in Go, specifically CPU profiling?",
+    "Option1": "Measuring memory usage.",
+    "Option2": "Analyzing where a program spends its time executing CPU instructions, identifying hot spots in the code.",
+    "Option3": "Measuring network latency.",
+    "4": "Counting active goroutines.",
+    "Answer": "Analyzing where a program spends its time executing CPU instructions, identifying hot spots in the code."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'memory profiling' in Go?",
+    "Option1": "Analyzing CPU usage.",
+    "Option2": "Identifying memory leaks and understanding memory allocation patterns within a Go program.",
+    "Option3": "Measuring disk I/O.",
+    "4": "Counting the number of function calls.",
+    "Answer": "Identifying memory leaks and understanding memory allocation patterns within a Go program."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the `runtime` package used for?",
+    "Option1": "Defining core language features.",
+    "Option2": "Interacting with the Go runtime system, including goroutine management, garbage collection, and low-level system interactions.",
+    "Option3": "Building web applications.",
+    "4": "Managing dependencies.",
+    "Answer": "Interacting with the Go runtime system, including goroutine management, garbage collection, and low-level system interactions."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `runtime.GOMAXPROCS` used for?",
+    "Option1": "Setting the maximum number of goroutines.",
+    "Option2": "Setting the maximum number of operating system threads that can execute user-level Go code simultaneously.",
+    "Option3": "Setting the memory limit for the Go program.",
+    "4": "Setting the network buffer size.",
+    "Answer": "Setting the maximum number of operating system threads that can execute user-level Go code simultaneously."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the `fmt.Sprintf()` function used for?",
+    "Option1": "Printing formatted output to the console.",
+    "Option2": "Returning a formatted string without printing it.",
+    "Option3": "Parsing formatted input.",
+    "4": "Converting a string to an integer.",
+    "Answer": "Returning a formatted string without printing it."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is the `flag.Parse()` function's role?",
+    "Option1": "To define new command-line flags.",
+    "Option2": "To parse the command-line arguments and assign values to the defined flags.",
+    "Option3": "To validate flag values.",
+    "4": "To print flag usage information.",
+    "Answer": "To parse the command-line arguments and assign values to the defined flags."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `http.StatusFound` (302) HTTP status code typically used for?",
+    "Option1": "Successful response.",
+    "Option2": "Temporary redirection, indicating that the resource has temporarily moved to a different URL.",
+    "Option3": "Resource not found.",
+    "4": "Server error.",
+    "Answer": "Temporary redirection, indicating that the resource has temporarily moved to a different URL."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `http.StatusMovedPermanently` (301) HTTP status code typically used for?",
+    "Option1": "Temporary redirection.",
+    "Option2": "Permanent redirection, indicating that the resource has permanently moved to a new URL.",
+    "Option3": "Resource created.",
+    "4": "Unauthorized access.",
+    "Answer": "Permanent redirection, indicating that the resource has permanently moved to a new URL."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `http.StatusOK` (200) HTTP status code typically used for?",
+    "Option1": "Error occurred.",
+    "Option2": "Successful request.",
+    "Option3": "Redirect.",
+    "4": "Resource created.",
+    "Answer": "Successful request."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `http.StatusCreated` (201) HTTP status code typically used for?",
+    "Option1": "Successful retrieval.",
+    "Option2": "Resource successfully created as a result of a POST request.",
+    "Option3": "Resource updated.",
+    "4": "Resource deleted.",
+    "Answer": "Resource successfully created as a result of a POST request."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `http.StatusNoContent` (204) HTTP status code typically used for?",
+    "Option1": "Request successful, but no content to return (e.g., successful DELETE).",
+    "Option2": "Content is found but cannot be displayed.",
+    "Option3": "Content is being processed.",
+    "4": "Content is too large.",
+    "Answer": "Request successful, but no content to return (e.g., successful DELETE)."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `http.StatusBadRequest` (400) HTTP status code typically used for?",
+    "Option1": "Successful request.",
+    "Option2": "The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed syntax).",
+    "Option3": "Unauthorized access.",
+    "4": "Server error.",
+    "Answer": "The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed syntax)."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `http.StatusUnauthorized` (401) HTTP status code typically used for?",
+    "Option1": "Client doesn't have permissions.",
+    "Option2": "Authentication is required and has failed or has not yet been provided.",
+    "Option3": "Resource not found.",
+    "4": "Forbidden access.",
+    "Answer": "Authentication is required and has failed or has not yet been provided."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `http.StatusForbidden` (403) HTTP status code typically used for?",
+    "Option1": "Authentication failed.",
+    "Option2": "The client does not have access rights to the content, unlike 401, the client's identity is known to the server.",
+    "Option3": "Resource not found.",
+    "4": "Too many requests.",
+    "Answer": "The client does not have access rights to the content, unlike 401, the client's identity is known to the server."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `http.StatusNotFound` (404) HTTP status code typically used for?",
+    "Option1": "Server error.",
+    "Option2": "The server cannot find the requested resource.",
+    "Option3": "Forbidden access.",
+    "4": "Request timeout.",
+    "Answer": "The server cannot find the requested resource."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `http.StatusInternalServerError` (500) HTTP status code typically used for?",
+    "Option1": "Client error.",
+    "Option2": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable.",
+    "Option3": "Resource not found.",
+    "4": "Too many requests.",
+    "Answer": "A generic error message, given when an unexpected condition was encountered and no more specific message is suitable."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `http.Error()` function used for?",
+    "Option1": "Logging internal errors.",
+    "Option2": "Sending an HTTP error response to the client with a specified status code and message.",
+    "Option3": "Panicking the server.",
+    "4": "Redirecting to an error page.",
+    "Answer": "Sending an HTTP error response to the client with a specified status code and message."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is a 'type alias' in Go?",
+    "Option1": "Creating a new type.",
+    "Option2": "Giving an existing type an alternative name, primarily for readability or to help with refactoring.",
+    "Option3": "Converting between different types.",
+    "4": "Defining a new interface.",
+    "Answer": "Giving an existing type an alternative name, primarily for readability or to help with refactoring."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the `ioutil` package (deprecated in Go 1.16) replaced by?",
+    "Option1": "`os` and `io` packages.",
+    "Option2": "`fmt` and `strings` packages.",
+    "Option3": "`bufio` and `bytes` packages.",
+    "4": "`path/filepath` and `net/http`.",
+    "Answer": "`os` and `io` packages."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is a 'type embedding' in Go?",
+    "Option1": "Only for interfaces.",
+    "Option2": "Including a type as an unnamed field within a struct, allowing its methods and fields to be promoted to the outer struct.",
+    "Option3": "Creating a new type based on an existing one.",
+    "4": "Converting a type to an interface.",
+    "Answer": "Including a type as an unnamed field within a struct, allowing its methods and fields to be promoted to the outer struct."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'shadowing' in Go?",
+    "Option1": "Hiding a variable's value.",
+    "Option2": "Declaring a new variable in an inner scope with the same name as a variable in an outer scope, effectively 'hiding' the outer variable.",
+    "Option3": "Creating a global variable.",
+    "4": "Making a variable immutable.",
+    "Answer": "Declaring a new variable in an inner scope with the same name as a variable in an outer scope, effectively 'hiding' the outer variable."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Is shadowing generally considered good practice in Go?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it can lead to confusing and hard-to-debug code, though sometimes it's unavoidable (e.g., error handling).",
+    "Option3": "Only for short functions.",
+    "4": "Only when using multiple packages.",
+    "Answer": "No, it can lead to confusing and hard-to-debug code, though sometimes it's unavoidable (e.g., error handling)."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the `net/rpc` package used for?",
+    "Option1": "Building RESTful APIs.",
+    "Option2": "Providing RPC (Remote Procedure Call) client and server capabilities, allowing Go programs to call functions on a remote server as if they were local.",
+    "Option3": "Asynchronous communication.",
+    "4": "Managing network connections.",
+    "Answer": "Providing RPC (Remote Procedure Call) client and server capabilities, allowing Go programs to call functions on a remote server as if they were local."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the `crypto` package and its sub-packages used for?",
+    "Option1": "Generating random numbers.",
+    "Option2": "Providing cryptographic primitives like hashing, encryption, and digital signatures.",
+    "Option3": "Encoding and decoding data.",
+    "4": "Network communication security.",
+    "Answer": "Providing cryptographic primitives like hashing, encryption, and digital signatures."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'vendoring' in Go (pre-Go Modules)?",
+    "Option1": "A way to share modules globally.",
+    "Option2": "Copying dependent packages into a `vendor` directory within your project, ensuring reproducible builds by isolating dependencies.",
+    "Option3": "A cloud deployment strategy.",
+    "4": "A method for continuous integration.",
+    "Answer": "Copying dependent packages into a `vendor` directory within your project, ensuring reproducible builds by isolating dependencies."
+  },
+  {
+    "question_no.": 201,
+    "Question": "Is 'vendoring' still necessary with Go Modules?",
+    "Option1": "Yes, always.",
+    "Option2": "Less so, as Go Modules provide robust dependency management. However, it can still be used for specific scenarios like offline builds or strict dependency control.",
+    "Option3": "Only for small projects.",
+    "4": "No, it's completely deprecated.",
+    "Answer": "Less so, as Go Modules provide robust dependency management. However, it can still be used for specific scenarios like offline builds or strict dependency control."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `go doc` command used for?",
+    "Option1": "To generate HTML documentation.",
+    "Option2": "To display documentation for packages or symbols directly in the terminal.",
+    "Option3": "To create new documentation files.",
+    "4": "To search for packages online.",
+    "Answer": "To display documentation for packages or symbols directly in the terminal."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the significance of capitalizing the first letter of a variable, function, or method name in Go?",
+    "Option1": "It indicates a constant.",
+    "Option2": "It indicates that the entity is exported (publicly visible) outside its package.",
+    "Option3": "It indicates a private entity.",
+    "4": "It indicates a type definition.",
+    "Answer": "It indicates that the entity is exported (publicly visible) outside its package."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the `error` built-in interface in Go?",
+    "Option1": "A custom error type.",
+    "Option2": "A simple interface with a single method `Error() string`, which any type can implement to be considered an error.",
+    "Option3": "A type for handling exceptions.",
+    "4": "A global error handler.",
+    "Answer": "A simple interface with a single method `Error() string`, which any type can implement to be considered an error."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `io.Reader` and `io.Writer` from a concurrency perspective?",
+    "Option1": "They are thread-safe by default.",
+    "Option2": "They define sequential byte streams. Their implementations might or might not be safe for concurrent use; it depends on the specific implementation.",
+    "Option3": "They are designed for parallel processing only.",
+    "4": "They automatically handle locking.",
+    "Answer": "They define sequential byte streams. Their implementations might or might not be safe for concurrent use; it depends on the specific implementation."
+  }
+]

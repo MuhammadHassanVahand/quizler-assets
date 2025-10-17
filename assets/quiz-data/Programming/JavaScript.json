@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is JavaScript primarily used for?",
+    "Option1": "Styling web pages",
+    "Option2": "Structuring web content",
+    "Option3": "Adding interactivity to web pages and building web applications",
+    "Option4": "Managing databases",
+    "Answer": "Adding interactivity to web pages and building web applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Is JavaScript a case-sensitive language?",
+    "Option1": "No",
+    "Option2": "Yes",
+    "Option3": "Only for variable names",
+    "Option4": "Only for keywords",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 3,
+    "Question": "How do you include an external JavaScript file in an HTML document?",
+    "Option1": "<script src=\"script.js\"></script>",
+    "Option2": "<link rel=\"javascript\" href=\"script.js\">",
+    "Option3": "<javascript href=\"script.js\"></javascript>",
+    "Option4": "<script file=\"script.js\"></script>",
+    "Answer": "<script src=\"script.js\"></script>"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which keyword is used to declare a variable in JavaScript (before ES6)?",
+    "Option1": "let",
+    "Option2": "const",
+    "Option3": "var",
+    "Option4": "declare",
+    "Answer": "var"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which keywords are used to declare variables in ES6 and later?",
+    "Option1": "var, const",
+    "Option2": "let, var",
+    "Option3": "let, const",
+    "Option4": "declare, var",
+    "Answer": "let, const"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the difference between `let` and `const`?",
+    "Option1": "`let` is block-scoped, `const` is function-scoped.",
+    "Option2": "`let` can be reassigned, `const` cannot.",
+    "Option3": "`const` can be reassigned, `let` cannot.",
+    "Option4": "`let` is global, `const` is local.",
+    "Answer": "`let` can be reassigned, `const` cannot."
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is 'hoisting' in JavaScript?",
+    "Option1": "A way to optimize code execution.",
+    "Option2": "The phenomenon where variable and function declarations are moved to the top of their containing scope during compilation.",
+    "Option3": "A method for securely transmitting data.",
+    "Option4": "A type of error in JavaScript.",
+    "Answer": "The phenomenon where variable and function declarations are moved to the top of their containing scope during compilation."
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the data type of `null` in JavaScript?",
+    "Option1": "string",
+    "Option2": "number",
+    "Option3": "object",
+    "Option4": "undefined",
+    "Answer": "object"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the data type of `undefined` in JavaScript?",
+    "Option1": "string",
+    "Option2": "number",
+    "Option3": "object",
+    "Option4": "undefined",
+    "Answer": "undefined"
+  },
+  {
+    "question_no.": 10,
+    "Question": "How do you check the data type of a variable in JavaScript?",
+    "Option1": "typeOf(variable)",
+    "Option2": "typeof variable",
+    "Option3": "getType(variable)",
+    "Option4": "variable.type",
+    "Answer": "typeof variable"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the output of `console.log(typeof NaN)`?",
+    "Option1": "number",
+    "Option2": "string",
+    "Option3": "undefined",
+    "Option4": "object",
+    "Answer": "number"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is an 'operator' in JavaScript?",
+    "Option1": "A keyword that performs a specific action.",
+    "Option2": "A symbol that performs an operation on one or more operands.",
+    "Option3": "A built-in function.",
+    "Option4": "A type of variable.",
+    "Answer": "A symbol that performs an operation on one or more operands."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which operator is used for strict equality in JavaScript?",
+    "Option1": "==",
+    "Option2": "=",
+    "Option3": "===",
+    "Option4": "!=",
+    "Answer": "==="
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the difference between `==` and `===`?",
+    "Option1": "`==` compares values and types, `===` compares values only.",
+    "Option2": "`===` compares values and types, `==` compares values only (with type coercion).",
+    "Option3": "They are identical in functionality.",
+    "Option4": "`==` is for numbers, `===` is for strings.",
+    "Answer": "`===` compares values and types, `==` compares values only (with type coercion)."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the logical AND operator in JavaScript?",
+    "Option1": "||",
+    "Option2": "&&",
+    "Option3": "!",
+    "Option4": "&",
+    "Answer": "&&"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is the logical OR operator in JavaScript?",
+    "Option1": "&&",
+    "Option2": "||",
+    "Option3": "!",
+    "Option4": "|",
+    "Answer": "||"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the logical NOT operator in JavaScript?",
+    "Option1": "&&",
+    "Option2": "||",
+    "Option3": "!",
+    "Option4": "~",
+    "Answer": "!"
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you declare a function in JavaScript?",
+    "Option1": "function myFunction() {}",
+    "Option2": "def myFunction() {}",
+    "Option3": "myFunction = function() {}",
+    "Option4": "function: myFunction() {}",
+    "Answer": "function myFunction() {}"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is a 'function expression'?",
+    "Option1": "A function declared using the `function` keyword.",
+    "Option2": "A function assigned to a variable.",
+    "Option3": "A function that returns a value.",
+    "Option4": "A function that is immediately invoked.",
+    "Answer": "A function assigned to a variable."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is an 'arrow function' in ES6?",
+    "Option1": "A traditional function declaration.",
+    "Option2": "A concise syntax for writing function expressions, especially useful for anonymous functions.",
+    "Option3": "A function that automatically returns a promise.",
+    "Option4": "A function used for debugging.",
+    "Answer": "A concise syntax for writing function expressions, especially useful for anonymous functions."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is the `this` keyword in JavaScript?",
+    "Option1": "It always refers to the global object (window in browsers).",
+    "Option2": "It refers to the object that is currently executing the code (its value depends on how the function is called).",
+    "Option3": "It refers to the parent function.",
+    "Option4": "It refers to the DOM element.",
+    "Answer": "It refers to the object that is currently executing the code (its value depends on how the function is called)."
+  },
+  {
+    "question_no.": 22,
+    "Question": "How does `this` behave differently in arrow functions compared to regular functions?",
+    "Option1": "In arrow functions, `this` is dynamically scoped.",
+    "Option2": "In arrow functions, `this` is lexically scoped (it retains the `this` value of the enclosing context).",
+    "Option3": "Arrow functions do not have a `this` keyword.",
+    "Option4": "The behavior is identical.",
+    "Answer": "In arrow functions, `this` is lexically scoped (it retains the `this` value of the enclosing context)."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is `scope` in JavaScript?",
+    "Option1": "The size of a variable.",
+    "Option2": "The visibility and accessibility of variables and functions in a particular part of your code.",
+    "Option3": "The type of a variable.",
+    "Option4": "The order of execution of functions.",
+    "Answer": "The visibility and accessibility of variables and functions in a particular part of your code."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is `global scope`?",
+    "Option1": "Variables declared inside a function.",
+    "Option2": "Variables declared anywhere in the code.",
+    "Option3": "Variables accessible from anywhere in the program.",
+    "Option4": "Variables accessible only in a specific block.",
+    "Answer": "Variables accessible from anywhere in the program."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `function scope`?",
+    "Option1": "Variables accessible only within a block.",
+    "Option2": "Variables accessible only within the function where they are declared.",
+    "Option3": "Variables accessible from anywhere in the program.",
+    "Option4": "Variables accessible only if declared with `let`.",
+    "Answer": "Variables accessible only within the function where they are declared."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is `block scope` (introduced in ES6)?",
+    "Option1": "Variables accessible only within the function where they are declared.",
+    "Option2": "Variables accessible only within the curly braces `{}` where they are declared.",
+    "Option3": "Variables accessible from anywhere in the program.",
+    "Option4": "Variables declared with `var`.",
+    "Answer": "Variables accessible only within the curly braces `{}` where they are declared."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a 'closure' in JavaScript?",
+    "Option1": "A function that has finished executing.",
+    "Option2": "A function bundled together with its lexical environment (the scope in which it was declared), allowing it to access variables from its outer function even after the outer function has finished executing.",
+    "Option3": "A type of loop.",
+    "Option4": "A way to define global variables.",
+    "Answer": "A function bundled together with its lexical environment (the scope in which it was declared), allowing it to access variables from its outer function even after the outer function has finished executing."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is an 'array' in JavaScript?",
+    "Option1": "A collection of key-value pairs.",
+    "Option2": "An ordered list of values, accessed by an index.",
+    "Option3": "A single variable that can hold any data type.",
+    "Option4": "A fixed-size collection of similar data types.",
+    "Answer": "An ordered list of values, accessed by an index."
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you declare an empty array in JavaScript?",
+    "Option1": "let myArray = {};",
+    "Option2": "let myArray = [];",
+    "Option3": "let myArray = new Array();",
+    "Option4": "let myArray = array();",
+    "Answer": "let myArray = [];"
+  },
+  {
+    "question_no.": 30,
+    "Question": "How do you add an element to the end of an array named `myArray`?",
+    "Option1": "myArray.insert(element);",
+    "Option2": "myArray.add(element);",
+    "Option3": "myArray.push(element);",
+    "Option4": "myArray.append(element);",
+    "Answer": "myArray.push(element);"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you remove the last element from an array named `myArray`?",
+    "Option1": "myArray.deleteLast();",
+    "Option2": "myArray.pop();",
+    "Option3": "myArray.removeLast();",
+    "Option4": "myArray.splice(-1, 1);",
+    "Answer": "myArray.pop();"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you get the length of an array named `myArray`?",
+    "Option1": "myArray.size()",
+    "Option2": "myArray.length",
+    "Option3": "myArray.count()",
+    "Option4": "length(myArray)",
+    "Answer": "myArray.length"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is an 'object' in JavaScript?",
+    "Option1": "A collection of ordered values.",
+    "Option2": "A collection of key-value pairs (properties), where keys are strings or Symbols.",
+    "Option3": "A built-in data type for numbers.",
+    "Option4": "A special type of function.",
+    "Answer": "A collection of key-value pairs (properties), where keys are strings or Symbols."
+  },
+  {
+    "question_no.": 34,
+    "Question": "How do you declare an empty object in JavaScript?",
+    "Option1": "let myObject = [];",
+    "Option2": "let myObject = {};",
+    "Option3": "let myObject = new Object();",
+    "Option4": "let myObject = object();",
+    "Answer": "let myObject = {};"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you access a property of an object named `myObject` with key `name`?",
+    "Option1": "myObject[name]",
+    "Option2": "myObject.name",
+    "Option3": "Both myObject.name and myObject['name']",
+    "Option4": "myObject->name",
+    "Answer": "Both myObject.name and myObject['name']"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `JSON` in JavaScript?",
+    "Option1": "A new data type.",
+    "Option2": "JavaScript Object Notation - a lightweight data-interchange format often used for sending data between a server and a web application.",
+    "Option3": "A method for parsing HTML.",
+    "Option4": "A built-in JavaScript function.",
+    "Answer": "JavaScript Object Notation - a lightweight data-interchange format often used for sending data between a server and a web application."
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you convert a JavaScript object to a JSON string?",
+    "Option1": "JSON.parse(object)",
+    "Option2": "JSON.stringify(object)",
+    "Option3": "object.toJSON()",
+    "Option4": "toString(object)",
+    "Answer": "JSON.stringify(object)"
+  },
+  {
+    "question_no.": 38,
+    "Question": "How do you convert a JSON string to a JavaScript object?",
+    "Option1": "JSON.stringify(jsonString)",
+    "Option2": "JSON.parse(jsonString)",
+    "Option3": "jsonString.toObject()",
+    "Option4": "parse(jsonString)",
+    "Answer": "JSON.parse(jsonString)"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the Document Object Model (DOM)?",
+    "Option1": "A programming language.",
+    "Option2": "A cross-platform and language-independent interface that treats an HTML or XML document as a tree structure, allowing programs to change document structure, style, and content.",
+    "Option3": "A database for web pages.",
+    "Option4": "A server-side technology.",
+    "Answer": "A cross-platform and language-independent interface that treats an HTML or XML document as a tree structure, allowing programs to change document structure, style, and content."
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you select an HTML element by its ID in JavaScript?",
+    "Option1": "document.getElementsByTagName('id')",
+    "Option2": "document.getElementById('id')",
+    "Option3": "document.querySelector('#id')",
+    "Option4": "document.getById('id')",
+    "Answer": "document.getElementById('id')"
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you select all HTML elements by their class name in JavaScript?",
+    "Option1": "document.getElementsByClassName('className')",
+    "Option2": "document.querySelector('.className')",
+    "Option3": "document.querySelectorAll('.className')",
+    "Option4": "Both document.getElementsByClassName('className') and document.querySelectorAll('.className')",
+    "Answer": "Both document.getElementsByClassName('className') and document.querySelectorAll('.className')"
+  },
+  {
+    "question_no.": 42,
+    "Question": "How do you change the text content of an HTML element with ID `myElement`?",
+    "Option1": "document.getElementById('myElement').text = 'New Text';",
+    "Option2": "document.getElementById('myElement').innerHTML = 'New Text';",
+    "Option3": "document.getElementById('myElement').textContent = 'New Text';",
+    "Option4": "Both document.getElementById('myElement').innerHTML and document.getElementById('myElement').textContent can be used.",
+    "Answer": "Both document.getElementById('myElement').innerHTML and document.getElementById('myElement').textContent can be used."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is an 'event' in JavaScript?",
+    "Option1": "A scheduled task.",
+    "Option2": "An action or occurrence that happens in the system you are programming, which the system can respond to.",
+    "Option3": "A new function definition.",
+    "Option4": "A type of variable.",
+    "Answer": "An action or occurrence that happens in the system you are programming, which the system can respond to."
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you attach an event listener to an HTML element?",
+    "Option1": "element.onclick = myFunction;",
+    "Option2": "element.addEventListener('click', myFunction);",
+    "Option3": "element.onClick(myFunction);",
+    "Option4": "Both element.onclick and element.addEventListener are valid ways.",
+    "Answer": "Both element.onclick and element.addEventListener are valid ways."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which event occurs when a user clicks on an HTML element?",
+    "Option1": "mouseover",
+    "Option2": "keydown",
+    "Option3": "click",
+    "Option4": "change",
+    "Answer": "click"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'event bubbling'?",
+    "Option1": "When an event is handled by the target element first, then propagates up through its ancestors in the DOM tree.",
+    "Option2": "When an event is handled by the parent element first, then propagates down to the target element.",
+    "Option3": "A way to prevent event handling.",
+    "Option4": "A type of event error.",
+    "Answer": "When an event is handled by the target element first, then propagates up through its ancestors in the DOM tree."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'event capturing'?",
+    "Option1": "When an event is handled by the target element first, then propagates up through its ancestors in the DOM tree.",
+    "Option2": "When an event is handled by the outermost ancestor first, then propagates down to the target element.",
+    "Option3": "A way to stop event propagation.",
+    "Option4": "A method for creating custom events.",
+    "Answer": "When an event is handled by the outermost ancestor first, then propagates down to the target element."
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you prevent the default action of an event?",
+    "Option1": "event.stopDefault();",
+    "Option2": "event.preventDefault();",
+    "Option3": "event.disableDefault();",
+    "Option4": "event.cancel();",
+    "Answer": "event.preventDefault();"
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you stop event propagation (bubbling/capturing)?",
+    "Option1": "event.stopPropagation();",
+    "Option2": "event.cancelBubble();",
+    "Option3": "event.halt();",
+    "Option4": "Both event.stopPropagation() and event.cancelBubble() (though cancelBubble is deprecated).",
+    "Answer": "Both event.stopPropagation() and event.cancelBubble() (though cancelBubble is deprecated)."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is `AJAX`?",
+    "Option1": "Asynchronous JavaScript and XML - a set of web development techniques using many web technologies on the client side to create asynchronous web applications.",
+    "Option2": "A new JavaScript framework.",
+    "Option3": "A server-side programming language.",
+    "Option4": "A database technology.",
+    "Answer": "Asynchronous JavaScript and XML - a set of web development techniques using many web technologies on the client side to create asynchronous web applications."
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which object is typically used for making AJAX requests?",
+    "Option1": "XMLHttpRequest",
+    "Option2": "Fetch API",
+    "Option3": "Both XMLHttpRequest and Fetch API",
+    "Option4": "HTTPClient",
+    "Answer": "Both XMLHttpRequest and Fetch API"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is a 'callback function' in JavaScript?",
+    "Option1": "A function that calls itself.",
+    "Option2": "A function passed as an argument to another function, to be executed later.",
+    "Option3": "A function that handles errors.",
+    "Option4": "A function that returns a boolean value.",
+    "Answer": "A function passed as an argument to another function, to be executed later."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is a 'Promise' in JavaScript?",
+    "Option1": "A way to declare variables that will be available in the future.",
+    "Option2": "An object representing the eventual completion or failure of an asynchronous operation.",
+    "Option3": "A type of loop for asynchronous code.",
+    "Option4": "A mechanism for defining functions.",
+    "Answer": "An object representing the eventual completion or failure of an asynchronous operation."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What are the three states of a Promise?",
+    "Option1": "Pending, Resolved, Rejected",
+    "Option2": "Waiting, Success, Failure",
+    "Option3": "Active, Complete, Error",
+    "Option4": "Start, Middle, End",
+    "Answer": "Pending, Resolved, Rejected"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which keyword is used to handle the successful completion of a Promise?",
+    "Option1": "catch",
+    "Option2": "finally",
+    "Option3": "then",
+    "Option4": "await",
+    "Answer": "then"
+  },
+  {
+    "question_no.": 56,
+    "Question": "Which keyword is used to handle the error/rejection of a Promise?",
+    "Option1": "then",
+    "Option2": "finally",
+    "Option3": "catch",
+    "Option4": "throw",
+    "Answer": "catch"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `async/await` in JavaScript?",
+    "Option1": "A way to define synchronous functions.",
+    "Option2": "Syntactic sugar built on Promises, making asynchronous code look and behave more like synchronous code.",
+    "Option3": "A new loop construct.",
+    "Option4": "A method for error handling only.",
+    "Answer": "Syntactic sugar built on Promises, making asynchronous code look and behave more like synchronous code."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does the `async` keyword do when used with a function?",
+    "Option1": "It makes the function run synchronously.",
+    "Option2": "It ensures the function always returns a Promise.",
+    "Option3": "It makes the function throw an error.",
+    "Option4": "It allows the function to be called without arguments.",
+    "Answer": "It ensures the function always returns a Promise."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does the `await` keyword do inside an `async` function?",
+    "Option1": "It waits for a synchronous operation to complete.",
+    "Option2": "It pauses the execution of the `async` function until a Promise settles (resolves or rejects) and then resumes execution with the Promise's result.",
+    "Option3": "It throws an error if a Promise is pending.",
+    "Option4": "It immediately returns the value of a Promise.",
+    "Answer": "It pauses the execution of the `async` function until a Promise settles (resolves or rejects) and then resumes execution with the Promise's result."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'error handling' in JavaScript?",
+    "Option1": "Ignoring errors in the code.",
+    "Option2": "The process of identifying, managing, and responding to errors that occur during program execution.",
+    "Option3": "A way to prevent all errors from happening.",
+    "Option4": "A method for writing perfect code.",
+    "Answer": "The process of identifying, managing, and responding to errors that occur during program execution."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which statement is used for error handling in JavaScript?",
+    "Option1": "if-else",
+    "Option2": "try-catch",
+    "Option3": "for-loop",
+    "Option4": "switch-case",
+    "Answer": "try-catch"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What does the `finally` block do in a `try-catch-finally` statement?",
+    "Option1": "It only executes if an error occurs.",
+    "Option2": "It always executes, regardless of whether an exception was thrown or caught.",
+    "Option3": "It only executes if no error occurs.",
+    "Option4": "It is optional and rarely used.",
+    "Answer": "It always executes, regardless of whether an exception was thrown or caught."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is `Strict Mode` in JavaScript?",
+    "Option1": "A mode that makes JavaScript run faster.",
+    "Option2": "A way to opt into a restricted variant of JavaScript, which eliminates some silent errors by changing them to throw errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations.",
+    "Option3": "A mode that allows more relaxed syntax rules.",
+    "Option4": "A security feature for preventing code injection.",
+    "Answer": "A way to opt into a restricted variant of JavaScript, which eliminates some silent errors by changing them to throw errors and fixes mistakes that make it difficult for JavaScript engines to perform optimizations."
+  },
+  {
+    "question_no.": 64,
+    "Question": "How do you enable `Strict Mode`?",
+    "Option1": "By adding `strict = true;` at the beginning of a script or function.",
+    "Option2": "By adding `'use strict';` at the beginning of a script or function.",
+    "Option3": "By configuring the browser settings.",
+    "Option4": "It's enabled by default in modern browsers.",
+    "Answer": "By adding `'use strict';` at the beginning of a script or function."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the `event loop` in JavaScript?",
+    "Option1": "A loop that executes JavaScript code sequentially.",
+    "Option2": "A mechanism that allows JavaScript to perform non-blocking I/O operations by offloading operations to the system kernel.",
+    "Option3": "A type of for loop for asynchronous tasks.",
+    "Option4": "A method for handling DOM events.",
+    "Answer": "A mechanism that allows JavaScript to perform non-blocking I/O operations by offloading operations to the system kernel."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the `call stack` in JavaScript?",
+    "Option1": "A list of global variables.",
+    "Option2": "A data structure that keeps track of the execution context of functions in a program.",
+    "Option3": "A temporary storage for event listeners.",
+    "Option4": "A queue for asynchronous tasks.",
+    "Answer": "A data structure that keeps track of the execution context of functions in a program."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the `message queue` (or callback queue/task queue)?",
+    "Option1": "A queue for synchronous tasks.",
+    "Option2": "A queue where messages (callbacks from Web APIs, `setTimeout`, `fetch`, etc.) are placed, waiting for the call stack to be empty.",
+    "Option3": "A list of error messages.",
+    "Option4": "A queue for HTTP requests.",
+    "Answer": "A queue where messages (callbacks from Web APIs, `setTimeout`, `fetch`, etc.) are placed, waiting for the call stack to be empty."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the concept of `prototype` in JavaScript?",
+    "Option1": "A blueprint for creating new objects.",
+    "Option2": "A mechanism by which JavaScript objects inherit features from one another.",
+    "Option3": "A type of variable declaration.",
+    "Option4": "A method for defining classes.",
+    "Answer": "A mechanism by which JavaScript objects inherit features from one another."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the `prototype chain`?",
+    "Option1": "A sequence of functions calling each other.",
+    "Option2": "The chain of objects that JavaScript traverses to find a property or method when it's not found directly on an object.",
+    "Option3": "A series of events in the DOM.",
+    "Option4": "A list of global variables.",
+    "Answer": "The chain of objects that JavaScript traverses to find a property or method when it's not found directly on an object."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you create a new object using a constructor function?",
+    "Option1": "let obj = Object.create(MyConstructor);",
+    "Option2": "let obj = new MyConstructor();",
+    "Option3": "let obj = MyConstructor.create();",
+    "Option4": "let obj = MyConstructor();",
+    "Answer": "let obj = new MyConstructor();"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What are `ES Modules` (ESM)?",
+    "Option1": "Old-fashioned JavaScript files.",
+    "Option2": "The standard module system introduced in ES6, allowing for modular and reusable JavaScript code using `import` and `export` statements.",
+    "Option3": "A way to combine multiple JavaScript files into one.",
+    "Option4": "A method for code minification.",
+    "Answer": "The standard module system introduced in ES6, allowing for modular and reusable JavaScript code using `import` and `export` statements."
+  },
+  {
+    "question_no.": 72,
+    "Question": "How do you export a named export from a module?",
+    "Option1": "export default myFunction;",
+    "Option2": "export const myFunction;",
+    "Option3": "export { myFunction };",
+    "Option4": "Both export const myFunction; and export { myFunction }; are valid.",
+    "Answer": "Both export const myFunction; and export { myFunction }; are valid."
+  },
+  {
+    "question_no.": 73,
+    "Question": "How do you import a named export from a module?",
+    "Option1": "import myFunction from './module.js';",
+    "Option2": "import { myFunction } from './module.js';",
+    "Option3": "import * as myFunction from './module.js';",
+    "Option4": "require('./module.js').myFunction;",
+    "Answer": "import { myFunction } from './module.js';"
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you export a default export from a module?",
+    "Option1": "export { myFunction };",
+    "Option2": "export default myFunction;",
+    "Option3": "export const myFunction;",
+    "Option4": "module.exports = myFunction;",
+    "Answer": "export default myFunction;"
+  },
+  {
+    "question_no.": 75,
+    "Question": "How do you import a default export from a module?",
+    "Option1": "import { myFunction } from './module.js';",
+    "Option2": "import myFunction from './module.js';",
+    "Option3": "import * as myFunction from './module.js';",
+    "Option4": "require('./module.js');",
+    "Answer": "import myFunction from './module.js';"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `Destructuring Assignment` in ES6?",
+    "Option1": "A way to break down code into smaller functions.",
+    "Option2": "A syntax that allows you to unpack values from arrays or properties from objects into distinct variables.",
+    "Option3": "A method for deleting variables.",
+    "Option4": "A technique for string manipulation.",
+    "Answer": "A syntax that allows you to unpack values from arrays or properties from objects into distinct variables."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the `Spread Operator (...)` in ES6?",
+    "Option1": "Used to join strings.",
+    "Option2": "Allows an iterable (like an array or string) to be expanded in places where zero or more arguments or elements are expected.",
+    "Option3": "Used for mathematical operations.",
+    "Option4": "A way to multiply numbers.",
+    "Answer": "Allows an iterable (like an array or string) to be expanded in places where zero or more arguments or elements are expected."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the `Rest Parameter (...)` in ES6?",
+    "Option1": "Used to spread array elements into individual arguments.",
+    "Option2": "Allows a function to accept an indefinite number of arguments as an array.",
+    "Option3": "A way to stop function execution.",
+    "Option4": "Used to define optional parameters.",
+    "Answer": "Allows a function to accept an indefinite number of arguments as an array."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What are `Template Literals` (Template Strings) in ES6?",
+    "Option1": "Standard string literals.",
+    "Option2": "String literals allowing embedded expressions, multi-line strings, and string interpolation, delimited by backticks (`).",
+    "Option3": "Strings that are compiled into templates.",
+    "Option4": "Strings that can only contain numbers.",
+    "Answer": "String literals allowing embedded expressions, multi-line strings, and string interpolation, delimited by backticks (`)."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What are `Classes` in ES6?",
+    "Option1": "A fundamental change to JavaScript's object-oriented nature.",
+    "Option2": "Syntactic sugar over JavaScript's existing prototype-based inheritance, providing a clearer and cleaner syntax for creating objects and dealing with inheritance.",
+    "Option3": "A new data type.",
+    "Option4": "A way to define global functions.",
+    "Answer": "Syntactic sugar over JavaScript's existing prototype-based inheritance, providing a clearer and cleaner syntax for creating objects and dealing with inheritance."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the `constructor` method in a JavaScript class?",
+    "Option1": "A method that destroys an object.",
+    "Option2": "A special method for creating and initializing an object created with a class.",
+    "Option3": "A method that returns a value.",
+    "Option4": "A method for static properties.",
+    "Answer": "A special method for creating and initializing an object created with a class."
+  },
+  {
+    "question_no.": 82,
+    "Question": "Which keyword is used for inheritance in JavaScript classes?",
+    "Option1": "implements",
+    "Option2": "inherits",
+    "Option3": "extends",
+    "Option4": "uses",
+    "Answer": "extends"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the `super` keyword used for in classes?",
+    "Option1": "To call a method on the current object.",
+    "Option2": "To call methods or access properties on an object's parent (superclass).",
+    "Option3": "To define a static method.",
+    "Option4": "To return a boolean value.",
+    "Answer": "To call methods or access properties on an object's parent (superclass)."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `XMLHttpRequest`?",
+    "Option1": "A JavaScript library.",
+    "Option2": "A built-in browser object that allows JavaScript to make HTTP requests to exchange data with a server without reloading the entire page.",
+    "Option3": "A new HTML tag.",
+    "Option4": "A server-side technology for handling XML.",
+    "Answer": "A built-in browser object that allows JavaScript to make HTTP requests to exchange data with a server without reloading the entire page."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the `Fetch API`?",
+    "Option1": "An older way to make HTTP requests.",
+    "Option2": "A modern interface for making network requests, offering a more powerful and flexible alternative to `XMLHttpRequest`.",
+    "Option3": "A method for fetching data from local storage.",
+    "Option4": "A tool for image loading.",
+    "Answer": "A modern interface for making network requests, offering a more powerful and flexible alternative to `XMLHttpRequest`."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `CORS` (Cross-Origin Resource Sharing)?",
+    "Option1": "A way to block all cross-origin requests.",
+    "Option2": "A security mechanism implemented in web browsers that restricts web pages from making requests to a different domain than the one that served the web page.",
+    "Option3": "A method for securely transmitting data.",
+    "Option4": "A protocol for real-time communication.",
+    "Answer": "A security mechanism implemented in web browsers that restricts web pages from making requests to a different domain than the one that served the web page."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `localStorage`?",
+    "Option1": "A temporary storage for session data.",
+    "Option2": "A property that allows web applications to store data persistently within the user's browser, with no expiration date.",
+    "Option3": "A server-side database.",
+    "Option4": "A way to store data in cookies.",
+    "Answer": "A property that allows web applications to store data persistently within the user's browser, with no expiration date."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `sessionStorage`?",
+    "Option1": "A property that allows web applications to store data persistently within the user's browser.",
+    "Option2": "A property that allows web applications to store data for the duration of a single browser session, cleared when the browser tab or window is closed.",
+    "Option3": "A server-side session management tool.",
+    "Option4": "A way to store data in the cloud.",
+    "Answer": "A property that allows web applications to store data for the duration of a single browser session, cleared when the browser tab or window is closed."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is a 'cookie' in web development?",
+    "Option1": "A small text file stored on the user's computer by their web browser, used to remember stateful information.",
+    "Option2": "A type of sweet treat.",
+    "Option3": "A large database for user information.",
+    "Option4": "A programming language.",
+    "Answer": "A small text file stored on the user's computer by their web browser, used to remember stateful information."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `Scope Chain`?",
+    "Option1": "The order in which functions are called.",
+    "Option2": "The hierarchy of scopes that a JavaScript engine traverses to resolve variables.",
+    "Option3": "A method for chaining multiple functions.",
+    "Option4": "A type of data structure.",
+    "Answer": "The hierarchy of scopes that a JavaScript engine traverses to resolve variables."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `Immediately Invoked Function Expression (IIFE)`?",
+    "Option1": "A function that is declared but never executed.",
+    "Option2": "A JavaScript function that runs as soon as it is defined, creating a private scope for variables.",
+    "Option3": "A function that is called after a delay.",
+    "Option4": "A function used for debugging.",
+    "Answer": "A JavaScript function that runs as soon as it is defined, creating a private scope for variables."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `Higher-Order Function`?",
+    "Option1": "A function that has a higher priority in execution.",
+    "Option2": "A function that takes one or more functions as arguments or returns a function as its result.",
+    "Option3": "A function that operates on objects.",
+    "Option4": "A function that can only be called once.",
+    "Answer": "A function that takes one or more functions as arguments or returns a function as its result."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is `Callback Hell` (or Pyramid of Doom)?",
+    "Option1": "A type of error in JavaScript.",
+    "Option2": "A situation where deeply nested and interconnected callback functions make asynchronous code difficult to read, understand, and maintain.",
+    "Option3": "A problem with synchronous code.",
+    "Option4": "A network configuration issue.",
+    "Answer": "A situation where deeply nested and interconnected callback functions make asynchronous code difficult to read, understand, and maintain."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do Promises help solve Callback Hell?",
+    "Option1": "By removing asynchronous operations.",
+    "Option2": "By providing a flatter, more readable way to handle asynchronous operations through chaining `.then()` and `.catch()`.",
+    "Option3": "By making all operations synchronous.",
+    "Option4": "By forcing all callbacks to be global.",
+    "Answer": "By providing a flatter, more readable way to handle asynchronous operations through chaining `.then()` and `.catch()`."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `Event Delegation`?",
+    "Option1": "Assigning an event listener to every single element.",
+    "Option2": "A technique where you attach a single event listener to a parent element, and then use event bubbling to detect events on its child elements.",
+    "Option3": "A method for creating custom events.",
+    "Option4": "A way to prevent all events from firing.",
+    "Answer": "A technique where you attach a single event listener to a parent element, and then use event bubbling to detect events on its child elements."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the `event.target` property?",
+    "Option1": "Refers to the element to which the event listener was attached.",
+    "Option2": "Refers to the element that triggered the event (the actual element that was clicked, hovered over, etc.).",
+    "Option3": "Refers to the parent element of the event.",
+    "Option4": "Refers to the global window object.",
+    "Answer": "Refers to the element that triggered the event (the actual element that was clicked, hovered over, etc.)."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `Type Coercion` in JavaScript?",
+    "Option1": "Manually converting data types.",
+    "Option2": "The automatic conversion of values from one data type to another (e.g., number to string) during operations or comparisons.",
+    "Option3": "A way to enforce strict data typing.",
+    "Option4": "A security vulnerability.",
+    "Answer": "The automatic conversion of values from one data type to another (e.g., number to string) during operations or comparisons."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `NaN` in JavaScript?",
+    "Option1": "Not a Number - a property of the global object, representing a value that is not a legal number.",
+    "Option2": "Negative Absolute Number.",
+    "Option3": "Null and Not-initialized.",
+    "Option4": "No Argument Number.",
+    "Answer": "Not a Number - a property of the global object, representing a value that is not a legal number."
+  },
+  {
+    "question_no.": 99,
+    "Question": "How do you check if a value is `NaN`?",
+    "Option1": "value == NaN",
+    "Option2": "isNaN(value)",
+    "Option3": "value === NaN",
+    "Option4": "value.isNan()",
+    "Answer": "isNaN(value)"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `Memoization`?",
+    "Option1": "A technique to store data in the browser's memory.",
+    "Option2": "An optimization technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again.",
+    "Option3": "A method for remembering user preferences.",
+    "Option4": "A way to encrypt data.",
+    "Answer": "An optimization technique used to speed up computer programs by storing the results of expensive function calls and returning the cached result when the same inputs occur again."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the `Map` object in JavaScript (ES6)?",
+    "Option1": "An ordered collection of elements with numeric indices.",
+    "Option2": "A collection of key-value pairs where keys can be any data type (not just strings or Symbols).",
+    "Option3": "A method for transforming arrays.",
+    "Option4": "A graphic visualization tool.",
+    "Answer": "A collection of key-value pairs where keys can be any data type (not just strings or Symbols)."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the `Set` object in JavaScript (ES6)?",
+    "Option1": "An ordered collection that allows duplicate elements.",
+    "Option2": "A collection of unique values, where each value can only occur once.",
+    "Option3": "A collection of key-value pairs.",
+    "Option4": "A method for setting values.",
+    "Answer": "A collection of unique values, where each value can only occur once."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `Generators` in ES6?",
+    "Option1": "Functions that always return a single value.",
+    "Option2": "Functions that can be paused and resumed, producing a sequence of values (iterators) over time.",
+    "Option3": "Functions that generate random numbers.",
+    "Option4": "Functions that create new classes.",
+    "Answer": "Functions that can be paused and resumed, producing a sequence of values (iterators) over time."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the `yield` keyword used for in generator functions?",
+    "Option1": "To return a final value and terminate the generator.",
+    "Option2": "To pause the execution of the generator and return a value to the caller, allowing it to be resumed later.",
+    "Option3": "To throw an error.",
+    "Option4": "To define a new variable.",
+    "Answer": "To pause the execution of the generator and return a value to the caller, allowing it to be resumed later."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What are `Iterators` in JavaScript?",
+    "Option1": "Loops for iterating over objects.",
+    "Option2": "Objects that define a sequence and a return value upon its termination, allowing for custom iteration logic.",
+    "Option3": "Functions that run indefinitely.",
+    "Option4": "A type of array.",
+    "Answer": "Objects that define a sequence and a return value upon its termination, allowing for custom iteration logic."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the `for...of` loop in ES6?",
+    "Option1": "Used for iterating over object properties.",
+    "Option2": "Used for iterating over iterable objects (like arrays, strings, Maps, Sets, etc.), directly accessing the values.",
+    "Option3": "Used for iterating over numeric indices.",
+    "Option4": "Used for asynchronous operations.",
+    "Answer": "Used for iterating over iterable objects (like arrays, strings, Maps, Sets, etc.), directly accessing the values."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the `for...in` loop in JavaScript?",
+    "Option1": "Used for iterating over the values of an array.",
+    "Option2": "Used for iterating over the enumerable properties of an object.",
+    "Option3": "Used for iterating over strings.",
+    "Option4": "Used for asynchronous operations.",
+    "Answer": "Used for iterating over the enumerable properties of an object."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `Module Bundling`?",
+    "Option1": "The process of splitting code into smaller modules.",
+    "Option2": "The process of combining multiple JavaScript modules and their dependencies into a single, optimized file (or a few files) for deployment.",
+    "Option3": "A way to encrypt JavaScript code.",
+    "Option4": "A method for publishing JavaScript packages.",
+    "Answer": "The process of combining multiple JavaScript modules and their dependencies into a single, optimized file (or a few files) for deployment."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which popular tool is used for module bundling?",
+    "Option1": "npm",
+    "Option2": "Webpack",
+    "Option3": "Babel",
+    "Option4": "ESLint",
+    "Answer": "Webpack"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `Transpilation` (or Transpiling)?",
+    "Option1": "Converting JavaScript to another programming language.",
+    "Option2": "The process of converting source code written in one language (e.g., ES6+) into another language (e.g., ES5) that has a similar level of abstraction.",
+    "Option3": "Optimizing code for performance.",
+    "Option4": "Debugging code errors.",
+    "Answer": "The process of converting source code written in one language (e.g., ES6+) into another language (e.g., ES5) that has a similar level of abstraction."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which popular tool is used for transpilation?",
+    "Option1": "Webpack",
+    "Option2": "Babel",
+    "Option3": "ESLint",
+    "Option4": "npm",
+    "Answer": "Babel"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `Linting`?",
+    "Option1": "The process of compressing JavaScript files.",
+    "Option2": "The process of analyzing source code to flag programming errors, bugs, stylistic errors, and suspicious constructs.",
+    "Option3": "A way to run JavaScript code in a browser.",
+    "Option4": "A method for unit testing.",
+    "Answer": "The process of analyzing source code to flag programming errors, bugs, stylistic errors, and suspicious constructs."
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which popular tool is used for linting JavaScript code?",
+    "Option1": "Webpack",
+    "Option2": "Babel",
+    "Option3": "ESLint",
+    "Option4": "Jest",
+    "Answer": "ESLint"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `npm`?",
+    "Option1": "Node.js Package Manager - the default package manager for Node.js, used for installing and managing JavaScript packages/libraries.",
+    "Option2": "A new programming language.",
+    "Option3": "A web server for static files.",
+    "Option4": "A tool for code minification.",
+    "Answer": "Node.js Package Manager - the default package manager for Node.js, used for installing and managing JavaScript packages/libraries."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `Node.js`?",
+    "Option1": "A JavaScript framework for front-end development.",
+    "Option2": "A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing JavaScript to be executed on the server-side.",
+    "Option3": "A database for web applications.",
+    "Option4": "A tool for building mobile apps.",
+    "Answer": "A JavaScript runtime built on Chrome's V8 JavaScript engine, allowing JavaScript to be executed on the server-side."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `Express.js`?",
+    "Option1": "A front-end JavaScript library.",
+    "Option2": "A minimalist web framework for Node.js, used for building web applications and APIs.",
+    "Option3": "A database management system.",
+    "Option4": "A testing framework.",
+    "Answer": "A minimalist web framework for Node.js, used for building web applications and APIs."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `React`?",
+    "Option1": "A server-side framework.",
+    "Option2": "A JavaScript library for building user interfaces, developed by Facebook.",
+    "Option3": "A database technology.",
+    "Option4": "A programming language.",
+    "Answer": "A JavaScript library for building user interfaces, developed by Facebook."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `Virtual DOM` in React?",
+    "Option1": "The actual DOM used by the browser.",
+    "Option2": "A lightweight copy of the real DOM, used by React to efficiently update the actual DOM by comparing changes and applying only the necessary updates.",
+    "Option3": "A new HTML standard.",
+    "Option4": "A security mechanism.",
+    "Answer": "A lightweight copy of the real DOM, used by React to efficiently update the actual DOM by comparing changes and applying only the necessary updates."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `JSX` in React?",
+    "Option1": "A new programming language.",
+    "Option2": "A syntax extension for JavaScript that allows you to write HTML-like code directly within your JavaScript files.",
+    "Option3": "A CSS preprocessor.",
+    "Option4": "A database query language.",
+    "Answer": "A syntax extension for JavaScript that allows you to write HTML-like code directly within your JavaScript files."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What are `Components` in React?",
+    "Option1": "Global functions.",
+    "Option2": "Independent, reusable pieces of UI that encapsulate their own logic and rendering.",
+    "Option3": "HTML elements only.",
+    "Option4": "Styling rules.",
+    "Answer": "Independent, reusable pieces of UI that encapsulate their own logic and rendering."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What are `Props` in React?",
+    "Option1": "Internal state of a component.",
+    "Option2": "Short for 'properties', they are arguments passed into React components from their parents.",
+    "Option3": "Event handlers.",
+    "Option4": "Lifecycle methods.",
+    "Answer": "Short for 'properties', they are arguments passed into React components from their parents."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `State` in React?",
+    "Option1": "External data passed to a component.",
+    "Option2": "An object that holds data or information about the component that may change over time, and React re-renders the component when its state changes.",
+    "Option3": "A property of the browser.",
+    "Option4": "A global variable.",
+    "Answer": "An object that holds data or information about the component that may change over time, and React re-renders the component when its state changes."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What are `Hooks` in React (introduced in React 16.8)?",
+    "Option1": "Functions that allow you to 'hook into' React state and lifecycle features from function components.",
+    "Option2": "A new way to create class components.",
+    "Option3": "Methods for interacting with the DOM directly.",
+    "Option4": "A tool for debugging.",
+    "Answer": "Functions that allow you to 'hook into' React state and lifecycle features from function components."
+  },
+  {
+    "question_no.": 124,
+    "Question": "Which Hook is used for managing state in functional components?",
+    "Option1": "useEffect",
+    "Option2": "useContext",
+    "Option3": "useState",
+    "Option4": "useReducer",
+    "Answer": "useState"
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which Hook is used for side effects (like data fetching, subscriptions, or manually changing the DOM) in functional components?",
+    "Option1": "useState",
+    "Option2": "useContext",
+    "Option3": "useEffect",
+    "Option4": "useRef",
+    "Answer": "useEffect"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `Redux`?",
+    "Option1": "A JavaScript framework for building user interfaces.",
+    "Option2": "A predictable state container for JavaScript apps, commonly used with React, for managing application-wide state.",
+    "Option3": "A database for web applications.",
+    "Option4": "A styling library.",
+    "Answer": "A predictable state container for JavaScript apps, commonly used with React, for managing application-wide state."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the `Flux` architecture?",
+    "Option1": "A framework for building mobile applications.",
+    "Option2": "An application architecture that Facebook uses for building client-side web applications, characterized by a unidirectional data flow.",
+    "Option3": "A design pattern for database interactions.",
+    "Option4": "A method for server-side rendering.",
+    "Answer": "An application architecture that Facebook uses for building client-side web applications, characterized by a unidirectional data flow."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `Vue.js`?",
+    "Option1": "A back-end framework.",
+    "Option2": "A progressive JavaScript framework for building user interfaces, known for its simplicity and reactivity.",
+    "Option3": "A database management system.",
+    "Option4": "A tool for building desktop applications.",
+    "Answer": "A progressive JavaScript framework for building user interfaces, known for its simplicity and reactivity."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `Angular`?",
+    "Option1": "A JavaScript library for UI.",
+    "Option2": "A TypeScript-based, open-source web application framework maintained by Google, used for building single-page applications.",
+    "Option3": "A server-side runtime.",
+    "Option4": "A mobile development platform.",
+    "Answer": "A TypeScript-based, open-source web application framework maintained by Google, used for building single-page applications."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `TypeScript`?",
+    "Option1": "A new version of JavaScript.",
+    "Option2": "A superset of JavaScript that adds optional static typing to the language.",
+    "Option3": "A library for generating dynamic HTML.",
+    "Option4": "A database query language.",
+    "Answer": "A superset of JavaScript that adds optional static typing to the language."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the main advantage of using TypeScript over JavaScript?",
+    "Option1": "Faster execution speed in browsers.",
+    "Option2": "Enables static type checking, leading to fewer runtime errors and better code maintainability, especially in large projects.",
+    "Option3": "Smaller file sizes.",
+    "Option4": "Better support for older browsers.",
+    "Answer": "Enables static type checking, leading to fewer runtime errors and better code maintainability, especially in large projects."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is a 'Type Definition File' (`.d.ts`) in TypeScript?",
+    "Option1": "A file containing actual TypeScript code.",
+    "Option2": "A file that provides type information for JavaScript libraries, allowing TypeScript to understand their structure and types.",
+    "Option3": "A configuration file for TypeScript compilation.",
+    "Option4": "A file for storing user data.",
+    "Answer": "A file that provides type information for JavaScript libraries, allowing TypeScript to understand their structure and types."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `Webpack`?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A static module bundler for modern JavaScript applications, capable of bundling various assets (JS, CSS, images, etc.).",
+    "Option3": "A server for web applications.",
+    "Option4": "A testing tool.",
+    "Answer": "A static module bundler for modern JavaScript applications, capable of bundling various assets (JS, CSS, images, etc.)."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `Babel`?",
+    "Option1": "A module bundler.",
+    "Option2": "A JavaScript compiler (transpiler) that converts modern JavaScript (ES6+) into backward-compatible versions of JavaScript (ES5) that can run in older browsers or environments.",
+    "Option3": "A linter for JavaScript.",
+    "Option4": "A task runner.",
+    "Answer": "A JavaScript compiler (transpiler) that converts modern JavaScript (ES6+) into backward-compatible versions of JavaScript (ES5) that can run in older browsers or environments."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `npm scripts`?",
+    "Option1": "JavaScript files executed by npm.",
+    "Option2": "Customizable scripts defined in the `package.json` file that allow you to automate various development tasks.",
+    "Option3": "Pre-defined npm commands.",
+    "Option4": "Commands for installing packages.",
+    "Answer": "Customizable scripts defined in the `package.json` file that allow you to automate various development tasks."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `Package.json`?",
+    "Option1": "A file that contains the actual code of your JavaScript project.",
+    "Option2": "A manifest file for Node.js projects, containing metadata about the project and its dependencies, as well as scripts.",
+    "Option3": "A log file for errors.",
+    "Option4": "A configuration file for the browser.",
+    "Answer": "A manifest file for Node.js projects, containing metadata about the project and its dependencies, as well as scripts."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `jest`?",
+    "Option1": "A framework for building web UIs.",
+    "Option2": "A delightful JavaScript testing framework with a focus on simplicity, often used with React.",
+    "Option3": "A module bundler.",
+    "Option4": "A linter.",
+    "Answer": "A delightful JavaScript testing framework with a focus on simplicity, often used with React."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `Cypress`?",
+    "Option1": "A unit testing framework.",
+    "Option2": "A next-generation front-end testing tool built for the modern web, focusing on end-to-end testing.",
+    "Option3": "A mocking library.",
+    "Option4": "A code coverage tool.",
+    "Answer": "A next-generation front-end testing tool built for the modern web, focusing on end-to-end testing."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `Functional Programming`?",
+    "Option1": "A programming paradigm that emphasizes changes to state and mutable data.",
+    "Option2": "A programming paradigm that emphasizes the evaluation of functions, avoiding changing state and mutable data.",
+    "Option3": "A style of programming for creating user interfaces.",
+    "Option4": "A method for writing object-oriented code.",
+    "Answer": "A programming paradigm that emphasizes the evaluation of functions, avoiding changing state and mutable data."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is an `Immutable` data structure?",
+    "Option1": "A data structure whose value can be changed after creation.",
+    "Option2": "A data structure whose value cannot be changed after creation; any modification results in a new instance.",
+    "Option3": "A data structure used only for numbers.",
+    "Option4": "A temporary data storage.",
+    "Answer": "A data structure whose value cannot be changed after creation; any modification results in a new instance."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is a `Pure Function`?",
+    "Option1": "A function that has side effects.",
+    "Option2": "A function that, given the same inputs, will always return the same output, and produces no side effects.",
+    "Option3": "A function that only operates on primitive data types.",
+    "Option4": "A function that cannot be called.",
+    "Answer": "A function that, given the same inputs, will always return the same output, and produces no side effects."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What are `Side Effects` in programming?",
+    "Option1": "Changes to local variables within a function.",
+    "Option2": "Any observable modification to the state of the system outside the function's local scope (e.g., modifying global variables, I/O operations, network requests).",
+    "Option3": "Errors that occur during execution.",
+    "Option4": "The return value of a function.",
+    "Answer": "Any observable modification to the state of the system outside the function's local scope (e.g., modifying global variables, I/O operations, network requests)."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is `Currying` in JavaScript?",
+    "Option1": "A process of flattening nested arrays.",
+    "Option2": "A technique of transforming a function that takes multiple arguments into a sequence of functions, each taking a single argument.",
+    "Option3": "A method for combining multiple functions.",
+    "Option4": "A way to make functions asynchronous.",
+    "Answer": "A technique of transforming a function that takes multiple arguments into a sequence of functions, each taking a single argument."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `Function Composition`?",
+    "Option1": "Breaking down a large function into smaller ones.",
+    "Option2": "The act of combining simpler functions to build more complex ones, where the output of one function becomes the input of the next.",
+    "Option3": "A method for defining anonymous functions.",
+    "Option4": "A way to prevent functions from executing.",
+    "Answer": "The act of combining simpler functions to build more complex ones, where the output of one function becomes the input of the next."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `Recursion` in programming?",
+    "Option1": "A loop that runs infinitely.",
+    "Option2": "A technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems.",
+    "Option3": "A method for handling asynchronous operations.",
+    "Option4": "A way to define object properties.",
+    "Answer": "A technique where a function calls itself to solve a problem by breaking it down into smaller, similar subproblems."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `Tail Call Optimization`?",
+    "Option1": "Optimizing non-recursive functions.",
+    "Option2": "A compiler optimization that can eliminate stack overflow issues in recursive functions by reusing the stack frame for recursive calls that are in 'tail position'.",
+    "Option3": "A method for reducing code size.",
+    "Option4": "A way to improve loop performance.",
+    "Answer": "A compiler optimization that can eliminate stack overflow issues in recursive functions by reusing the stack frame for recursive calls that are in 'tail position'."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `Event-Driven Programming`?",
+    "Option1": "A programming paradigm where the flow of the program is determined by events.",
+    "Option2": "A programming paradigm that follows a strict sequential execution.",
+    "Option3": "A style of programming focused on database interactions.",
+    "Option4": "A method for building static web pages.",
+    "Answer": "A programming paradigm where the flow of the program is determined by events."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `Asynchronous Programming`?",
+    "Option1": "Code that executes line by line from top to bottom.",
+    "Option2": "A technique that allows a program to start a potentially long-running task and then continue processing other tasks without waiting for the long-running task to complete.",
+    "Option3": "Programming that focuses on strict timing.",
+    "Option4": "Programming that always blocks the main thread.",
+    "Answer": "A technique that allows a program to start a potentially long-running task and then continue processing other tasks without waiting for the long-running task to complete."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `Synchronous Programming`?",
+    "Option1": "A technique that allows a program to start a potentially long-running task and then continue processing other tasks.",
+    "Option2": "Code that executes sequentially, one line at a time, and each operation must complete before the next one can begin.",
+    "Option3": "Programming that involves multiple threads.",
+    "Option4": "Programming that uses callbacks.",
+    "Answer": "Code that executes sequentially, one line at a time, and each operation must complete before the next one can begin."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `Webpack Dev Server`?",
+    "Option1": "A production server for web applications.",
+    "Option2": "A development server that provides live reloading and other development-specific features, often used with Webpack for local development.",
+    "Option3": "A tool for deploying applications.",
+    "Option4": "A database server.",
+    "Answer": "A development server that provides live reloading and other development-specific features, often used with Webpack for local development."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `Babel-polyfill`?",
+    "Option1": "A tool for optimizing Babel's performance.",
+    "Option2": "A collection of polyfills (code that provides modern functionality on older browsers) for ES6+ features that Babel cannot transpile.",
+    "Option3": "A new syntax for Babel configuration.",
+    "Option4": "A plugin for Babel.",
+    "Answer": "A collection of polyfills (code that provides modern functionality on older browsers) for ES6+ features that Babel cannot transpile."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `Tree Shaking` in JavaScript bundling?",
+    "Option1": "A method for visualizing dependency trees.",
+    "Option2": "A form of dead code elimination that removes unused JavaScript code from the final bundle, leading to smaller file sizes.",
+    "Option3": "A way to randomize code execution.",
+    "Option4": "A technique for encrypting code.",
+    "Answer": "A form of dead code elimination that removes unused JavaScript code from the final bundle, leading to smaller file sizes."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `Code Splitting`?",
+    "Option1": "Merging all JavaScript code into a single file.",
+    "Option2": "A technique used by bundlers (like Webpack) to split code into smaller, on-demand chunks, improving initial load times.",
+    "Option3": "A method for code obfuscation.",
+    "Option4": "A way to duplicate code for redundancy.",
+    "Answer": "A technique used by bundlers (like Webpack) to split code into smaller, on-demand chunks, improving initial load times."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `SSR` (Server-Side Rendering) in web development?",
+    "Option1": "Rendering content directly in the browser.",
+    "Option2": "Rendering web pages on the server and sending fully rendered HTML to the client, improving initial load performance and SEO.",
+    "Option3": "Rendering content using a JavaScript library.",
+    "Option4": "Rendering content using CSS.",
+    "Answer": "Rendering web pages on the server and sending fully rendered HTML to the client, improving initial load performance and SEO."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `CSR` (Client-Side Rendering) in web development?",
+    "Option1": "Rendering web pages on the server.",
+    "Option2": "Rendering web pages directly in the browser using JavaScript after the initial HTML is loaded, often used by single-page applications.",
+    "Option3": "Rendering content using a database.",
+    "Option4": "Rendering content using external APIs.",
+    "Answer": "Rendering web pages directly in the browser using JavaScript after the initial HTML is loaded, often used by single-page applications."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `SEO` (Search Engine Optimization)?",
+    "Option1": "Optimizing website performance.",
+    "Option2": "The practice of increasing the quantity and quality of traffic to your website through organic search engine results.",
+    "Option3": "Designing visually appealing websites.",
+    "Option4": "Ensuring website security.",
+    "Answer": "The practice of increasing the quantity and quality of traffic to your website through organic search engine results."
+  },
+  {
+    "question_no.": 157,
+    "Question": "Why is SSR often beneficial for SEO compared to CSR?",
+    "Option1": "SSR allows for more dynamic content.",
+    "Option2": "Search engine crawlers can more easily index fully rendered HTML content from the server.",
+    "Option3": "CSR makes web pages load faster.",
+    "Option4": "SSR is only used for mobile applications.",
+    "Answer": "Search engine crawlers can more easily index fully rendered HTML content from the server."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `WebSockets`?",
+    "Option1": "A protocol for one-way communication over HTTP.",
+    "Option2": "A communication protocol that provides full-duplex communication channels over a single TCP connection, enabling real-time, interactive applications.",
+    "Option3": "A new type of HTTP request.",
+    "Option4": "A method for encrypting web traffic.",
+    "Answer": "A communication protocol that provides full-duplex communication channels over a single TCP connection, enabling real-time, interactive applications."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `Service Workers`?",
+    "Option1": "Scripts that run on the server.",
+    "Option2": "JavaScript files that run in the background, separate from the main browser thread, enabling features like offline experiences, push notifications, and background sync.",
+    "Option3": "A new API for DOM manipulation.",
+    "Option4": "A tool for debugging web applications.",
+    "Answer": "JavaScript files that run in the background, separate from the main browser thread, enabling features like offline experiences, push notifications, and background sync."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `PWA` (Progressive Web App)?",
+    "Option1": "A native mobile application.",
+    "Option2": "A web application that uses modern web capabilities to deliver an app-like experience to users, combining the best of web and mobile apps.",
+    "Option3": "A web application that only works offline.",
+    "Option4": "A web application built with a specific framework.",
+    "Answer": "A web application that uses modern web capabilities to deliver an app-like experience to users, combining the best of web and mobile apps."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is the role of `Service Workers` in a PWA?",
+    "Option1": "To handle all user interface interactions.",
+    "Option2": "To enable offline capabilities by caching assets and serving them when offline, and handling push notifications and background sync.",
+    "Option3": "To manage server-side logic.",
+    "Option4": "To compile JavaScript code.",
+    "Answer": "To enable offline capabilities by caching assets and serving them when offline, and handling push notifications and background sync."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `IndexedDB`?",
+    "Option1": "A cloud-based database.",
+    "Option2": "A low-level API for client-side storage of large amounts of structured data, including files and blobs.",
+    "Option3": "A tool for server-side caching.",
+    "Option4": "A simple key-value store in the browser.",
+    "Answer": "A low-level API for client-side storage of large amounts of structured data, including files and blobs."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `Web Storage API` (localStorage and sessionStorage)?",
+    "Option1": "A server-side database.",
+    "Option2": "A set of APIs for storing key-value pairs in the browser, providing more storage capacity and being less constrained than cookies.",
+    "Option3": "A way to store data in the cloud.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "A set of APIs for storing key-value pairs in the browser, providing more storage capacity and being less constrained than cookies."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `Web Workers`?",
+    "Option1": "Threads that run on the server.",
+    "Option2": "A JavaScript API that allows scripts to run in the background thread, separate from the main execution thread, preventing UI blocking for complex computations.",
+    "Option3": "A tool for debugging JavaScript.",
+    "Option4": "A new way to interact with the DOM.",
+    "Answer": "A JavaScript API that allows scripts to run in the background thread, separate from the main execution thread, preventing UI blocking for complex computations."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is the limitation of `Web Workers` regarding DOM access?",
+    "Option1": "They can access the DOM directly.",
+    "Option2": "They cannot directly access the DOM; communication with the main thread is done via message passing.",
+    "Option3": "They can only read from the DOM.",
+    "Option4": "They have full access to the DOM but only in strict mode.",
+    "Answer": "They cannot directly access the DOM; communication with the main thread is done via message passing."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `Debouncing`?",
+    "Option1": "Executing a function immediately on every event.",
+    "Option2": "A technique to limit the rate at which a function is called, preventing it from being executed too frequently, often used for input handling or resizing events.",
+    "Option3": "A method for accelerating function execution.",
+    "Option4": "A way to delay function execution indefinitely.",
+    "Answer": "A technique to limit the rate at which a function is called, preventing it from being executed too frequently, often used for input handling or resizing events."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is `Throttling`?",
+    "Option1": "Executing a function immediately on every event.",
+    "Option2": "A technique to limit the rate at which a function is called, ensuring it is executed at most once in a given time period.",
+    "Option3": "A method for accelerating function execution.",
+    "Option4": "A way to delay function execution indefinitely.",
+    "Answer": "A technique to limit the rate at which a function is called, ensuring it is executed at most once in a given time period."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is `Polyfill`?",
+    "Option1": "A new JavaScript syntax.",
+    "Option2": "A piece of code (or a library) that provides a modern functionality that is natively unsupported by older browsers, allowing you to use modern JavaScript features across different environments.",
+    "Option3": "A tool for code minification.",
+    "Option4": "A method for optimizing image loading.",
+    "Answer": "A piece of code (or a library) that provides a modern functionality that is natively unsupported by older browsers, allowing you to use modern JavaScript features across different environments."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `Shimming`?",
+    "Option1": "Creating new APIs in JavaScript.",
+    "Option2": "Adding a new function to an existing API, typically to work around a bug or to provide a new feature without changing the original API directly.",
+    "Option3": "A way to remove unused code.",
+    "Option4": "A method for code encryption.",
+    "Answer": "Adding a new function to an existing API, typically to work around a bug or to provide a new feature without changing the original API directly."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `Progressive Enhancement`?",
+    "Option1": "Building web applications with all features available from the start.",
+    "Option2": "A strategy for web development that emphasizes providing a basic level of user experience and functionality to all users, and then progressively adding enhanced features for users with more capable browsers and connections.",
+    "Option3": "A method for optimizing image loading.",
+    "Option4": "A way to force users to update their browsers.",
+    "Answer": "A strategy for web development that emphasizes providing a basic level of user experience and functionality to all users, and then progressively adding enhanced features for users with more capable browsers and connections."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `Graceful Degradation`?",
+    "Option1": "Designing websites that look good on all browsers.",
+    "Option2": "A strategy where a web application is built with modern features, and then falls back to a simpler, less functional version for older browsers or environments that don't support those features.",
+    "Option3": "A method for reducing website load times.",
+    "Option4": "A way to ensure website security.",
+    "Answer": "A strategy where a web application is built with modern features, and then falls back to a simpler, less functional version for older browsers or environments that don't support those features."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the `DOMContentLoaded` event?",
+    "Option1": "Fires when the entire page, including all images and external resources, has loaded.",
+    "Option2": "Fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading.",
+    "Option3": "Fires when a script finishes executing.",
+    "Option4": "Fires when an AJAX request is complete.",
+    "Answer": "Fires when the initial HTML document has been completely loaded and parsed, without waiting for stylesheets, images, and subframes to finish loading."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the `load` event?",
+    "Option1": "Fires when the initial HTML document has been completely loaded.",
+    "Option2": "Fires when the entire page has fully loaded, including all dependent resources like stylesheets, images, and scripts.",
+    "Option3": "Fires when a user clicks on an element.",
+    "Option4": "Fires when a form is submitted.",
+    "Answer": "Fires when the entire page has fully loaded, including all dependent resources like stylesheets, images, and scripts."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `Web Performance Optimization`?",
+    "Option1": "Making websites look better.",
+    "Option2": "The process of improving the speed and responsiveness of web pages to enhance user experience.",
+    "Option3": "A method for increasing website traffic.",
+    "Option4": "Ensuring website security.",
+    "Answer": "The process of improving the speed and responsiveness of web pages to enhance user experience."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `Minification` in JavaScript?",
+    "Option1": "Increasing the file size of JavaScript code.",
+    "Option2": "The process of removing all unnecessary characters from source code without changing its functionality, to reduce file size and improve loading speed.",
+    "Option3": "A way to encrypt JavaScript code.",
+    "Option4": "A method for debugging code.",
+    "Answer": "The process of removing all unnecessary characters from source code without changing its functionality, to reduce file size and improve loading speed."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `Uglification` (or Obfuscation) in JavaScript?",
+    "Option1": "Making code more readable.",
+    "Option2": "The process of transforming code to make it harder for humans to understand, often combined with minification to protect intellectual property.",
+    "Option3": "A method for debugging code.",
+    "Option4": "A way to increase file size.",
+    "Answer": "The process of transforming code to make it harder for humans to understand, often combined with minification to protect intellectual property."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `Bundling` (in the context of web performance)?",
+    "Option1": "Splitting code into multiple files.",
+    "Option2": "Combining multiple JavaScript files (or other assets) into a single file to reduce the number of HTTP requests a browser needs to make.",
+    "Option3": "Encrypting web files.",
+    "Option4": "Compressing images.",
+    "Answer": "Combining multiple JavaScript files (or other assets) into a single file to reduce the number of HTTP requests a browser needs to make."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `Lazy Loading`?",
+    "Option1": "Loading all resources immediately when the page loads.",
+    "Option2": "A technique that defers the loading of resources (like images or JavaScript modules) until they are actually needed, improving initial page load time.",
+    "Option3": "A method for prefetching resources.",
+    "Option4": "A way to force users to wait for content.",
+    "Answer": "A technique that defers the loading of resources (like images or JavaScript modules) until they are actually needed, improving initial page load time."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `Debounce` used for in practical scenarios?",
+    "Option1": "Handling frequent clicks.",
+    "Option2": "Optimizing search bar input (delaying API call until user stops typing), or resizing events.",
+    "Option3": "Executing animations smoothly.",
+    "Option4": "Ensuring immediate execution of all events.",
+    "Answer": "Optimizing search bar input (delaying API call until user stops typing), or resizing events."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `Throttle` used for in practical scenarios?",
+    "Option1": "Sending immediate network requests.",
+    "Option2": "Limiting the rate of events like scroll handling, mouse movement tracking, or button clicks that trigger rapid updates.",
+    "Option3": "Ensuring all functions execute simultaneously.",
+    "Option4": "Delaying the loading of images.",
+    "Answer": "Limiting the rate of events like scroll handling, mouse movement tracking, or button clicks that trigger rapid updates."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is a `Callback Queue` (or Task Queue / Message Queue)?",
+    "Option1": "Where synchronous tasks are placed.",
+    "Option2": "A queue where asynchronous operations (like `setTimeout` callbacks, network responses, DOM events) are placed after their Web API part is complete, waiting for the Call Stack to be empty.",
+    "Option3": "A stack for function calls.",
+    "Option4": "A temporary storage for variables.",
+    "Answer": "A queue where asynchronous operations (like `setTimeout` callbacks, network responses, DOM events) are placed after their Web API part is complete, waiting for the Call Stack to be empty."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the `Microtask Queue` (or Job Queue)?",
+    "Option1": "A queue for all asynchronous tasks.",
+    "Option2": "A higher-priority queue for certain asynchronous operations, primarily Promises and `queueMicrotask`, whose callbacks are executed before tasks in the Callback Queue.",
+    "Option3": "A queue for synchronous operations.",
+    "Option4": "A temporary storage for small data.",
+    "Answer": "A higher-priority queue for certain asynchronous operations, primarily Promises and `queueMicrotask`, whose callbacks are executed before tasks in the Callback Queue."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `Event Delegation`'s primary benefit?",
+    "Option1": "It makes code more complex.",
+    "Option2": "It improves performance by reducing the number of event listeners attached to the DOM, especially for lists of elements.",
+    "Option3": "It prevents all events from firing.",
+    "Option4": "It ensures that events only fire on direct clicks.",
+    "Answer": "It improves performance by reducing the number of event listeners attached to the DOM, especially for lists of elements."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Type Conversions`?",
+    "Option1": "Manually changing the data type of a variable.",
+    "Option2": "The process of converting values from one data type to another, either explicitly (coercion) or implicitly.",
+    "Option3": "A method for validating data types.",
+    "Option4": "A way to define new data types.",
+    "Answer": "The process of converting values from one data type to another, either explicitly (coercion) or implicitly."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `Short-Circuit Evaluation` in logical operators (`&&`, `||`)?",
+    "Option1": "The evaluation of both operands regardless of the first operand's value.",
+    "Option2": "The evaluation of the second operand only if the first operand is insufficient to determine the result of the expression.",
+    "Option3": "A method for throwing errors.",
+    "Option4": "A way to make expressions longer.",
+    "Answer": "The evaluation of the second operand only if the first operand is insufficient to determine the result of the expression."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the `Spread Syntax (...)` used for in object literals?",
+    "Option1": "To create new properties.",
+    "Option2": "To copy properties from an existing object into a new object.",
+    "Option3": "To delete properties from an object.",
+    "Option4": "To convert an object to an array.",
+    "Answer": "To copy properties from an existing object into a new object."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is the `Optional Chaining (?.)` operator (ES2020)?",
+    "Option1": "A way to make function arguments optional.",
+    "Option2": "A syntax that allows you to safely access properties and methods of an object that might be `null` or `undefined` without explicitly checking each intermediate reference.",
+    "Option3": "A method for creating optional variables.",
+    "Option4": "A way to chain multiple method calls.",
+    "Answer": "A syntax that allows you to safely access properties and methods of an object that might be `null` or `undefined` without explicitly checking each intermediate reference."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is the `Nullish Coalescing Operator (??)` (ES2020)?",
+    "Option1": "Returns the left-hand operand if it's `null` or `undefined`, otherwise returns the right-hand operand.",
+    "Option2": "Returns the right-hand operand if it's `null` or `undefined`, otherwise returns the left-hand operand.",
+    "Option3": "Returns the left-hand operand if it's `null`, `undefined`, `0`, or `''`, otherwise returns the right-hand operand.",
+    "Option4": "Compares two values for strict equality.",
+    "Answer": "Returns the right-hand operand if it's `null` or `undefined`, otherwise returns the left-hand operand."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `Promise.all()`?",
+    "Option1": "Resolves when any of the provided Promises resolve.",
+    "Option2": "Resolves when all of the Promises in the iterable have successfully resolved, or rejects as soon as any of the Promises reject.",
+    "Option3": "Rejects when all Promises in the iterable reject.",
+    "Option4": "Executes Promises sequentially.",
+    "Answer": "Resolves when all of the Promises in the iterable have successfully resolved, or rejects as soon as any of the Promises reject."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `Promise.race()`?",
+    "Option1": "Resolves when all of the provided Promises resolve.",
+    "Option2": "Resolves or rejects as soon as one of the Promises in the iterable resolves or rejects, with the value or reason from that Promise.",
+    "Option3": "Executes Promises in parallel and collects all results.",
+    "Option4": "Compares the speed of multiple Promises.",
+    "Answer": "Resolves or rejects as soon as one of the Promises in the iterable resolves or rejects, with the value or reason from that Promise."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `Proxy` in JavaScript (ES6)?",
+    "Option1": "A way to directly access an object's properties.",
+    "Option2": "An object that allows you to intercept and customize operations (like property lookup, assignment, enumeration, function invocation) on another object.",
+    "Option3": "A method for creating copies of objects.",
+    "Option4": "A way to hide object properties.",
+    "Answer": "An object that allows you to intercept and customize operations (like property lookup, assignment, enumeration, function invocation) on another object."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `Reflect` in JavaScript (ES6)?",
+    "Option1": "A global object containing static methods for calling Reflectable methods on objects.",
+    "Option2": "A new data type.",
+    "Option3": "A method for debugging code.",
+    "Option4": "A tool for code analysis.",
+    "Answer": "A global object containing static methods for calling Reflectable methods on objects."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What are `Decorators` (experimental)?",
+    "Option1": "Functions that add extra styling to HTML elements.",
+    "Option2": "A proposed feature for JavaScript that allows you to add annotations and metaprogramming syntax for classes and their members.",
+    "Option3": "A new type of loop.",
+    "Option4": "A method for optimizing code execution.",
+    "Answer": "A proposed feature for JavaScript that allows you to add annotations and metaprogramming syntax for classes and their members."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `WebAssembly (Wasm)`?",
+    "Option1": "A low-level programming language for web browsers.",
+    "Option2": "A new binary instruction format for a stack-based virtual machine, designed as a portable compilation target for high-level languages like C, C++, and Rust, enabling high-performance web applications.",
+    "Option3": "A new type of JavaScript engine.",
+    "Option4": "A method for securing web applications.",
+    "Answer": "A new binary instruction format for a stack-based virtual machine, designed as a portable compilation target for high-level languages like C, C++, and Rust, enabling high-performance web applications."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the primary benefit of `WebAssembly`?",
+    "Option1": "It allows JavaScript to be used on the server-side.",
+    "Option2": "It enables near-native performance for web applications and allows developers to leverage existing codebases from other languages on the web.",
+    "Option3": "It simplifies web development for beginners.",
+    "Option4": "It removes the need for JavaScript.",
+    "Answer": "It enables near-native performance for web applications and allows developers to leverage existing codebases from other languages on the web."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `WebRTC` (Web Real-Time Communication)?",
+    "Option1": "A protocol for sending emails.",
+    "Option2": "A free, open-source project that provides web browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs.",
+    "Option3": "A framework for building chatbots.",
+    "Option4": "A tool for data analytics.",
+    "Answer": "A free, open-source project that provides web browsers and mobile applications with Real-Time Communications (RTC) capabilities via simple APIs."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the purpose of `requestAnimationFrame()`?",
+    "Option1": "To create smooth animations by scheduling a function to run before the browser's next repaint.",
+    "Option2": "To fetch data from a server.",
+    "Option3": "To handle user input events.",
+    "Option4": "To create a new browser window.",
+    "Answer": "To create smooth animations by scheduling a function to run before the browser's next repaint."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `Prototype Inheritance`?",
+    "Option1": "A mechanism for creating classes in JavaScript.",
+    "Option2": "The fundamental mechanism by which objects in JavaScript inherit features from other objects (their prototypes).",
+    "Option3": "A way to prevent inheritance in JavaScript.",
+    "Option4": "A method for static method calls.",
+    "Answer": "The fundamental mechanism by which objects in JavaScript inherit features from other objects (their prototypes)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `Class Inheritance` (in ES6 classes)?",
+    "Option1": "A new type of inheritance entirely separate from prototypes.",
+    "Option2": "A syntactic sugar over JavaScript's existing prototype-based inheritance, providing a more traditional class-based syntax.",
+    "Option3": "A way to achieve multiple inheritance.",
+    "Option4": "A method for restricting access to class members.",
+    "Answer": "A syntactic sugar over JavaScript's existing prototype-based inheritance, providing a more traditional class-based syntax."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `npm audit` used for?",
+    "Option1": "To list all installed npm packages.",
+    "Option2": "To analyze your project's dependencies for known security vulnerabilities.",
+    "Option3": "To update all npm packages.",
+    "Option4": "To clean npm cache.",
+    "Answer": "To analyze your project's dependencies for known security vulnerabilities."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `npm install` used for?",
+    "Option1": "To remove packages from a project.",
+    "Option2": "To install packages and their dependencies listed in `package.json`.",
+    "Option3": "To publish a package.",
+    "Option4": "To run project scripts.",
+    "Answer": "To install packages and their dependencies listed in `package.json`."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `npm run` used for?",
+    "Option1": "To install new packages.",
+    "Option2": "To execute scripts defined in the `scripts` section of `package.json`.",
+    "Option3": "To uninstall packages.",
+    "Option4": "To audit project dependencies.",
+    "Answer": "To execute scripts defined in the `scripts` section of `package.json`."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `package-lock.json`?",
+    "Option1": "A file that prevents `npm install` from running.",
+    "Option2": "A file automatically generated by npm that records the exact version of each dependency installed, ensuring reproducible builds across different environments.",
+    "Option3": "A file that lists only top-level dependencies.",
+    "Option4": "A file for storing user credentials.",
+    "Answer": "A file automatically generated by npm that records the exact version of each dependency installed, ensuring reproducible builds across different environments."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is `Polyfill.io`?",
+    "Option1": "A service that detects browser features and provides polyfills dynamically.",
+    "Option2": "A local polyfill library.",
+    "Option3": "A tool for generating polyfills.",
+    "Option4": "A website for downloading JavaScript libraries.",
+    "Answer": "A service that detects browser features and provides polyfills dynamically."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `Serverless Functions` (e.g., AWS Lambda, Azure Functions, Google Cloud Functions)?",
+    "Option1": "Functions that run directly on a physical server.",
+    "Option2": "Cloud-based execution environments where developers write and deploy code without managing the underlying infrastructure.",
+    "Option3": "Functions that require a dedicated server.",
+    "Option4": "Functions that only run in the browser.",
+    "Answer": "Cloud-based execution environments where developers write and deploy code without managing the underlying infrastructure."
+  }
+]

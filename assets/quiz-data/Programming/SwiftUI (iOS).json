@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What year was SwiftUI first introduced by Apple?",
+    "Option1": "2018",
+    "Option2": "2019",
+    "Option3": "2020",
+    "Option4": "2021",
+    "Answer": "2019"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What paradigm does SwiftUI primarily follow for UI development?",
+    "Option1": "Imperative",
+    "Option2": "Procedural",
+    "Option3": "Declarative",
+    "Option4": "Object-Oriented",
+    "Answer": "Declarative"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the core building block of a SwiftUI user interface?",
+    "Option1": "UIViewController",
+    "Option2": "UIView",
+    "Option3": "View",
+    "Option4": "CALayer",
+    "Answer": "View"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you declare a property in a SwiftUI View that causes the view to re-render when its value changes?",
+    "Option1": "@Binding",
+    "Option2": "@ObservedObject",
+    "Option3": "@State",
+    "Option4": "@EnvironmentObject",
+    "Answer": "@State"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which property wrapper is used for a two-way connection to a mutable value owned by another view?",
+    "Option1": "@State",
+    "Option2": "@Binding",
+    "Option3": "@Published",
+    "Option4": "@Environment",
+    "Answer": "@Binding"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What protocol must a class conform to for its properties to be observed by SwiftUI views using @ObservedObject or @StateObject?",
+    "Option1": "Codable",
+    "Option2": "Identifiable",
+    "Option3": "Equatable",
+    "Option4": "ObservableObject",
+    "Answer": "ObservableObject"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which property wrapper is used inside an ObservableObject to automatically publish changes to its value?",
+    "Option1": "@State",
+    "Option2": "@Binding",
+    "Option3": "@Published",
+    "Option4": "@Environment",
+    "Answer": "@Published"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you create a vertical stack of views in SwiftUI?",
+    "Option1": "HStack",
+    "Option2": "ZStack",
+    "Option3": "VStack",
+    "Option4": "ScrollView",
+    "Answer": "VStack"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you create a horizontal stack of views in SwiftUI?",
+    "Option1": "VStack",
+    "Option2": "ZStack",
+    "Option3": "HStack",
+    "Option4": "List",
+    "Answer": "HStack"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which container view layers views on top of each other, aligning them in the center by default?",
+    "Option1": "VStack",
+    "Option2": "HStack",
+    "Option3": "ZStack",
+    "Option4": "GroupBox",
+    "Answer": "ZStack"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the primary purpose of a `Text` view?",
+    "Option1": "To get user input",
+    "Option2": "To display a single line of text",
+    "Option3": "To display a multi-line text input field",
+    "Option4": "To display images",
+    "Answer": "To display a single line of text"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you make a `Text` view display multiple lines of text automatically?",
+    "Option1": ".lineLimit(1)",
+    "Option2": ".truncationMode(.tail)",
+    "Option3": "It handles multiple lines by default if content exceeds width",
+    "Option4": ".fixedSize()",
+    "Answer": "It handles multiple lines by default if content exceeds width"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which view is used to display an image from your app's asset catalog?",
+    "Option1": "Image",
+    "Option2": "ImageView",
+    "Option3": "UIImage",
+    "Option4": "Picture",
+    "Answer": "Image"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you make an `Image` view scale to fit its available space without cropping?",
+    "Option1": ".scaledToFill()",
+    "Option2": ".resizable()",
+    "Option3": ".aspectRatio(contentMode: .fit)",
+    "Option4": ".fixedSize()",
+    "Answer": ".aspectRatio(contentMode: .fit)"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which view is used to capture single-line text input from the user?",
+    "Option1": "TextEditor",
+    "Option2": "TextField",
+    "Option3": "TextInput",
+    "Option4": "SecureField",
+    "Answer": "TextField"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which view is used to capture multi-line text input from the user, similar to `UITextView`?",
+    "Option1": "TextField",
+    "Option2": "TextEditor",
+    "Option3": "SecureField",
+    "Option4": "TextInputView",
+    "Answer": "TextEditor"
+  },
+  {
+    "question_no.": 17,
+    "Question": "How do you add a tap gesture to a SwiftUI view?",
+    "Option1": ".onTapGesture { }",
+    "Option2": ".addGesture(TapGesture())",
+    "Option3": ".tapAction { }",
+    "Option4": ".gesture(TapGesture())",
+    "Answer": ".onTapGesture { }"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which view is used to display a scrollable list of data, especially when the number of rows is large and dynamic?",
+    "Option1": "VStack",
+    "Option2": "ScrollView",
+    "Option3": "List",
+    "Option4": "ForEach",
+    "Answer": "List"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is `ForEach` used for in SwiftUI?",
+    "Option1": "To loop over a range of numbers.",
+    "Option2": "To create multiple identical views from a collection of data.",
+    "Option3": "To define a conditional view.",
+    "Option4": "To create a button group.",
+    "Answer": "To create multiple identical views from a collection of data."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What protocol must items in a collection conform to when used with `ForEach` without an explicit `id` key path?",
+    "Option1": "Codable",
+    "Option2": "Comparable",
+    "Option3": "Identifiable",
+    "Option4": "Hashable",
+    "Answer": "Identifiable"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which view is used to navigate between different screens in a hierarchical fashion?",
+    "Option1": "TabView",
+    "Option2": "Sheet",
+    "Option3": "NavigationView (or NavigationStack from iOS 16+)",
+    "Option4": "Alert",
+    "Answer": "NavigationView (or NavigationStack from iOS 16+)"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you trigger navigation to a new view within a `NavigationView`?",
+    "Option1": "Button(action: { present(newView) })",
+    "Option2": "NavigationLink(destination: Text(\"New View\")) { Text(\"Go\") }",
+    "Option3": "performSegue(withIdentifier:)",
+    "Option4": "push(newView)",
+    "Answer": "NavigationLink(destination: Text(\"New View\")) { Text(\"Go\") }"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which view is typically used for tab-based navigation at the root of an application?",
+    "Option1": "NavigationView",
+    "Option2": "List",
+    "Option3": "TabView",
+    "Option4": "ScrollView",
+    "Answer": "TabView"
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you associate an icon and title with a tab in a `TabView`?",
+    "Option1": ".tabItem { Text(\"Home\"), Image(systemName: \"house\") }",
+    "Option2": ".tabLabel(Text(\"Home\"), Image(systemName: \"house\"))",
+    "Option3": ".tabItem { Label(\"Home\", systemImage: \"house\") }",
+    "Option4": ".tabBarItem(title: \"Home\", image: \"house\")",
+    "Answer": ".tabItem { Label(\"Home\", systemImage: \"house\") }"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which modifier is used to present a view modally (e.g., as a half-sheet from the bottom)?",
+    "Option1": ".navigate()",
+    "Option2": ".present()",
+    "Option3": ".sheet(isPresented:content:)",
+    "Option4": ".fullScreenCover()",
+    "Answer": ".sheet(isPresented:content:)"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which modifier presents a view that covers the entire screen, commonly used for onboarding or critical alerts?",
+    "Option1": ".sheet()",
+    "Option2": ".alert()",
+    "Option3": ".fullScreenCover(isPresented:content:)",
+    "Option4": ".popover()",
+    "Answer": ".fullScreenCover(isPresented:content:)"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you display an alert message with buttons to the user?",
+    "Option1": ".actionSheet()",
+    "Option2": ".confirmationDialog()",
+    "Option3": ".alert(isPresented:content:)",
+    "Option4": ".popover()",
+    "Answer": ".alert(isPresented:content:)"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which modifier is the modern replacement for `ActionSheet` and presents a set of choices, often sliding up from the bottom?",
+    "Option1": ".alert()",
+    "Option2": ".sheet()",
+    "Option3": ".confirmationDialog(title:isPresented:titleVisibility:actions:)",
+    "Option4": ".popover()",
+    "Answer": ".confirmationDialog(title:isPresented:titleVisibility:actions:)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the purpose of `GeometryReader`?",
+    "Option1": "To read device orientation.",
+    "Option2": "To get the size and position of its parent container view.",
+    "Option3": "To apply a geometric transformation to a view.",
+    "Option4": "To draw custom shapes.",
+    "Answer": "To get the size and position of its parent container view."
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which view is used to display a long list of items that are loaded only as they become visible, optimizing performance?",
+    "Option1": "List",
+    "Option2": "ScrollView",
+    "Option3": "LazyVStack/LazyHStack",
+    "Option4": "VStack/HStack",
+    "Answer": "LazyVStack/LazyHStack"
+  },
+  {
+    "question_no.": 31,
+    "Question": "How do you add padding around a view in SwiftUI?",
+    "Option1": ".frame(width: 10, height: 10)",
+    "Option2": ".offset(x: 10, y: 10)",
+    "Option3": ".padding()",
+    "Option4": ".border(Color.black)",
+    "Answer": ".padding()"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which modifier is used to set the foreground color of a `Text` or `Image` view?",
+    "Option1": ".backgroundColor()",
+    "Option2": ".tint()",
+    "Option3": ".foregroundColor()",
+    "Option4": ".color()",
+    "Answer": ".foregroundColor()"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you set a custom font for a `Text` view?",
+    "Option1": ".font(.custom(\"MyFont\", size: 20))",
+    "Option2": ".font(\"MyFont\", size: 20)",
+    "Option3": ".setFont(\"MyFont\", size: 20)",
+    "Option4": ".textStyle(.font(.custom(\"MyFont\", size: 20)))",
+    "Answer": ".font(.custom(\"MyFont\", size: 20))"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which modifier applies a shadow to a view?",
+    "Option1": ".border()",
+    "Option2": ".background()",
+    "Option3": ".shadow(color:radius:x:y:)",
+    "Option4": ".overlay()",
+    "Answer": ".shadow(color:radius:x:y:)"
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you add a border to a view in SwiftUI?",
+    "Option1": ".border(Color.red, width: 2)",
+    "Option2": ".stroke(Color.red, lineWidth: 2)",
+    "Option3": ".frame(border: Color.red, width: 2)",
+    "Option4": ".line(Color.red, width: 2)",
+    "Answer": ".border(Color.red, width: 2)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the purpose of `Spacer()` in layout?",
+    "Option1": "To add a fixed amount of space.",
+    "Option2": "To push other views apart, expanding to fill available space.",
+    "Option3": "To center a view.",
+    "Option4": "To create an empty view.",
+    "Answer": "To push other views apart, expanding to fill available space."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which property wrapper allows you to inject an object from the environment that conforms to `ObservableObject`?",
+    "Option1": "@State",
+    "Option2": "@Binding",
+    "Option3": "@EnvironmentObject",
+    "Option4": "@StateObject",
+    "Answer": "@EnvironmentObject"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the difference between `@ObservedObject` and `@StateObject`?",
+    "Option1": "`@ObservedObject` creates the object, `@StateObject` observes an existing one.",
+    "Option2": "`@StateObject` creates and owns the object's lifecycle, `@ObservedObject` observes an external object that is owned elsewhere.",
+    "Option3": "There is no functional difference.",
+    "Option4": "`@ObservedObject` is for value types, `@StateObject` is for reference types.",
+    "Answer": "`@StateObject` creates and owns the object's lifecycle, `@ObservedObject` observes an external object that is owned elsewhere."
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you pass data down a view hierarchy from a parent to a child view without using bindings or environment objects (for simple, immutable data)?",
+    "Option1": "Using @Binding",
+    "Option2": "Using @EnvironmentObject",
+    "Option3": "As a regular property on the child view's initializer",
+    "Option4": "Using @ObservedObject",
+    "Answer": "As a regular property on the child view's initializer"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is the purpose of `.onAppear { ... }` modifier?",
+    "Option1": "To execute code when the view disappears.",
+    "Option2": "To execute code when the view first appears on screen.",
+    "Option3": "To execute code when a button is tapped.",
+    "Option4": "To execute code periodically.",
+    "Answer": "To execute code when the view first appears on screen."
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which modifier allows you to dismiss a modal sheet programmatically?",
+    "Option1": ".dismiss()",
+    "Option2": ".sheet(isPresented: $false, content: {})",
+    "Option3": "Using `@Environment(\\.dismiss)` or `@Environment(\\.presentationMode)` (deprecated)",
+    "Option4": ".hideSheet()",
+    "Answer": "Using `@Environment(\\.dismiss)` or `@Environment(\\.presentationMode)` (deprecated)"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is a `Button` view used for?",
+    "Option1": "To display static text.",
+    "Option2": "To execute an action when tapped by the user.",
+    "Option3": "To capture text input.",
+    "Option4": "To display an image.",
+    "Answer": "To execute an action when tapped by the user."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you make a `Button`'s label consist of both an icon and text?",
+    "Option1": "Button(action: { }, label: { Image(\"icon\") + Text(\"Title\") })",
+    "Option2": "Button(action: { }, label: { VStack { Image(\"icon\"); Text(\"Title\") } })",
+    "Option3": "Button(action: { }, label: { Label(\"Title\", systemImage: \"icon\") })",
+    "Option4": "Button(action: { }, label: { Icon(\"icon\"), Text(\"Title\") })",
+    "Answer": "Button(action: { }, label: { Label(\"Title\", systemImage: \"icon\") })"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which view is used to display a togglable switch?",
+    "Option1": "Switch",
+    "Option2": "CheckBox",
+    "Option3": "Toggle",
+    "Option4": "OnOff",
+    "Answer": "Toggle"
+  },
+  {
+    "question_no.": 45,
+    "Question": "How do you create a slider for selecting a value within a range?",
+    "Option1": "Slider(value: $progress, in: 0...100)",
+    "Option2": "RangeSlider(value: $progress)",
+    "Option3": "Stepper(value: $progress)",
+    "Option4": "Picker(selection: $progress, label: Text(\"Progress\"))",
+    "Answer": "Slider(value: $progress, in: 0...100)"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `Stepper` used for?",
+    "Option1": "To select a value from a predefined list.",
+    "Option2": "To increment or decrement a value using plus and minus buttons.",
+    "Option3": "To input text.",
+    "Option4": "To pick a date.",
+    "Answer": "To increment or decrement a value using plus and minus buttons."
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which view allows users to select an option from a set of mutually exclusive choices, often presented as a wheel or segmented control?",
+    "Option1": "SegmentedControl",
+    "Option2": "Picker",
+    "Option3": "ComboBox",
+    "Option4": "Dropdown",
+    "Answer": "Picker"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the purpose of `.frame(width:height:alignment:)` modifier?",
+    "Option1": "To set the background color of a view.",
+    "Option2": "To define the minimum, maximum, or fixed size of a view.",
+    "Option3": "To add padding around a view.",
+    "Option4": "To change the font size.",
+    "Answer": "To define the minimum, maximum, or fixed size of a view."
+  },
+  {
+    "question_no.": 49,
+    "Question": "How do you align views within a `VStack` to the leading edge?",
+    "Option1": "VStack(alignment: .center)",
+    "Option2": "VStack(alignment: .trailing)",
+    "Option3": "VStack(alignment: .leading)",
+    "Option4": "VStack(alignment: .top)",
+    "Answer": "VStack(alignment: .leading)"
+  },
+  {
+    "question_no.": 50,
+    "Question": "How do you align views within an `HStack` to the top edge?",
+    "Option1": "HStack(alignment: .bottom)",
+    "Option2": "HStack(alignment: .center)",
+    "Option3": "HStack(alignment: .top)",
+    "Option4": "HStack(alignment: .leading)",
+    "Answer": "HStack(alignment: .top)"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the role of `Color` in SwiftUI?",
+    "Option1": "A view that displays a color.",
+    "Option2": "A modifier that applies a color to a view.",
+    "Option3": "A type that represents a color and can be used as a view or a background.",
+    "Option4": "A property wrapper for colors.",
+    "Answer": "A type that represents a color and can be used as a view or a background."
+  },
+  {
+    "question_no.": 52,
+    "Question": "How do you set the background of a view to a solid color?",
+    "Option1": ".backgroundColor(Color.red)",
+    "Option2": ".fill(Color.red)",
+    "Option3": ".background(Color.red)",
+    "Option4": ".color(Color.red)",
+    "Answer": ".background(Color.red)"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which view is used to apply a corner radius to another view?",
+    "Option1": ".roundedRectangle(cornerRadius: 10)",
+    "Option2": ".clipShape(RoundedRectangle(cornerRadius: 10))",
+    "Option3": ".cornerRadius(10)",
+    "Option4": ".border(cornerRadius: 10)",
+    "Answer": ".cornerRadius(10)"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `Divider` used for?",
+    "Option1": "To separate views with a line.",
+    "Option2": "To divide numerical values.",
+    "Option3": "To create a scrollable area.",
+    "Option4": "To group related views.",
+    "Answer": "To separate views with a line."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which view allows you to group related views with an optional title and background?",
+    "Option1": "Section",
+    "Option2": "Form",
+    "Option3": "GroupBox",
+    "Option4": "Container",
+    "Answer": "GroupBox"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the primary benefit of using `Form` for input controls?",
+    "Option1": "It provides custom styling for all contained views.",
+    "Option2": "It automatically arranges input controls and provides platform-appropriate styling and behavior.",
+    "Option3": "It enables gesture recognition.",
+    "Option4": "It improves animation performance.",
+    "Answer": "It automatically arranges input controls and provides platform-appropriate styling and behavior."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `Section` used for within a `List` or `Form`?",
+    "Option1": "To apply a background color.",
+    "Option2": "To group related rows or controls, often with a header and/or footer.",
+    "Option3": "To define a navigation path.",
+    "Option4": "To create a scrollable area.",
+    "Answer": "To group related rows or controls, often with a header and/or footer."
+  },
+  {
+    "question_no.": 58,
+    "Question": "Which view displays a multi-column scrollable grid of items?",
+    "Option1": "List",
+    "Option2": "ScrollView",
+    "Option3": "LazyVGrid/LazyHGrid",
+    "Option4": "VStack",
+    "Answer": "LazyVGrid/LazyHGrid"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a `GridItem` used for?",
+    "Option1": "To define the content of a grid cell.",
+    "Option2": "To define the layout and sizing of rows or columns in `LazyVGrid` or `LazyHGrid`.",
+    "Option3": "To specify a single item in a list.",
+    "Option4": "To apply a background to a grid.",
+    "Answer": "To define the layout and sizing of rows or columns in `LazyVGrid` or `LazyHGrid`."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is `.toolbar { ... }` modifier used for?",
+    "Option1": "To add a custom view to the middle of the screen.",
+    "Option2": "To customize the contents of a navigation bar, tab bar, or other system bars.",
+    "Option3": "To create a sidebar.",
+    "Option4": "To add a custom keyboard.",
+    "Answer": "To customize the contents of a navigation bar, tab bar, or other system bars."
+  },
+  {
+    "question_no.": 61,
+    "Question": "How do you add a leading button to a navigation bar in SwiftUI?",
+    "Option1": ".navigationBarLeading(Button(\"Back\"))",
+    "Option2": ".toolbar { ToolbarItem(placement: .navigationBarLeading) { Button(\"Back\") {} } }",
+    "Option3": ".leadingItem(Button(\"Back\"))",
+    "Option4": "NavigationButton(position: .leading)",
+    "Answer": ".toolbar { ToolbarItem(placement: .navigationBarLeading) { Button(\"Back\") {} } }"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is a `ScrollView` used for?",
+    "Option1": "To display a fixed amount of content.",
+    "Option2": "To enable scrolling for content that exceeds the screen bounds.",
+    "Option3": "To display a list of data with sections.",
+    "Option4": "To provide navigation between views.",
+    "Answer": "To enable scrolling for content that exceeds the screen bounds."
+  },
+  {
+    "question_no.": 63,
+    "Question": "How do you make a `ScrollView` scroll horizontally?",
+    "Option1": "ScrollView(.vertical)",
+    "Option2": "ScrollView(.horizontal)",
+    "Option3": "ScrollView(.all)",
+    "Option4": "ScrollView { HStack { ... } }",
+    "Answer": "ScrollView(.horizontal)"
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which view displays a single image that changes based on its state, typically for checkboxes or radio buttons?",
+    "Option1": "Toggle",
+    "Option2": "Image",
+    "Option3": "Checkmark",
+    "Option4": "Symbol",
+    "Answer": "Image"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is `systemImage:` parameter in `Image` used for?",
+    "Option1": "To load an image from the asset catalog.",
+    "Option2": "To load an image from a remote URL.",
+    "Option3": "To load an image from SF Symbols.",
+    "Option4": "To load an image from a local file path.",
+    "Answer": "To load an image from SF Symbols."
+  },
+  {
+    "question_no.": 66,
+    "Question": "How do you add a custom animation to a view's changes?",
+    "Option1": ".animate(.easeIn)",
+    "Option2": ".animation(.easeInOut, value: someState)",
+    "Option3": ".transition(.opacity)",
+    "Option4": ".performAnimation()",
+    "Answer": ".animation(.easeInOut, value: someState)"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is `withAnimation { ... }` used for?",
+    "Option1": "To define the duration of an animation.",
+    "Option2": "To apply an animation to state changes that occur within the closure.",
+    "Option3": "To stop an ongoing animation.",
+    "Option4": "To create a complex animation sequence.",
+    "Answer": "To apply an animation to state changes that occur within the closure."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is a `Transaction` in SwiftUI animations?",
+    "Option1": "A type of animation effect.",
+    "Option2": "A struct that captures the context of the current state change, including animation properties.",
+    "Option3": "A way to group multiple animations.",
+    "Option4": "A property that controls animation speed.",
+    "Answer": "A struct that captures the context of the current state change, including animation properties."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which view is used to display a date and time picker?",
+    "Option1": "Picker",
+    "Option2": "DatePicker",
+    "Option3": "Calendar",
+    "Option4": "TimePicker",
+    "Answer": "DatePicker"
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you restrict a `DatePicker` to only show the date and not the time?",
+    "Option1": "DatePicker(selection: $date, displayedComponents: .date)",
+    "Option2": "DatePicker(selection: $date, mode: .date)",
+    "Option3": "DatePicker(selection: $date, only: .date)",
+    "Option4": "DatePicker(selection: $date, format: .date)",
+    "Answer": "DatePicker(selection: $date, displayedComponents: .date)"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is a `Link` view used for?",
+    "Option1": "To create a navigation link.",
+    "Option2": "To open a URL in an external browser.",
+    "Option3": "To link two views together.",
+    "Option4": "To create a data connection.",
+    "Answer": "To open a URL in an external browser."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `controlGroup()` modifier used for?",
+    "Option1": "To create a group of views with a common background.",
+    "Option2": "To visually group and style controls (like buttons or pickers) in a platform-appropriate manner.",
+    "Option3": "To apply a gesture recognizer to multiple controls.",
+    "Option4": "To disable a group of controls.",
+    "Answer": "To visually group and style controls (like buttons or pickers) in a platform-appropriate manner."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which environment value can you use to check if the current color scheme is dark or light?",
+    "Option1": "@Environment(\\.isDarkMode)",
+    "Option2": "@Environment(\\.colorScheme)",
+    "Option3": "@Environment(\\.theme)",
+    "Option4": "@Environment(\\.displayMode)",
+    "Answer": "@Environment(\\.colorScheme)"
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you add a custom font that is included in your app bundle?",
+    "Option1": "Add it to Info.plist and use `.font(.custom(\"FontName\", size: 17))`",
+    "Option2": "Drag and drop the font file into your project.",
+    "Option3": "Use `UIFont(name: size:)` directly.",
+    "Option4": "SwiftUI automatically detects fonts in the bundle.",
+    "Answer": "Add it to Info.plist and use `.font(.custom(\"FontName\", size: 17))`"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of `LayoutPriority` modifier?",
+    "Option1": "To determine the order in which views are rendered.",
+    "Option2": "To give a view preference over others when allocating space in a flexible layout.",
+    "Option3": "To control the Z-index of overlapping views.",
+    "Option4": "To define the animation speed.",
+    "Answer": "To give a view preference over others when allocating space in a flexible layout."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which view allows you to customize the content displayed when a `List` is empty?",
+    "Option1": "EmptyView",
+    "Option2": "List { ForEach(...) { ... }.emptyContent { Text(\"No items\") } }",
+    "Option3": "You typically handle this with an `if` statement around the `List`.",
+    "Option4": "PlaceholderView",
+    "Answer": "You typically handle this with an `if` statement around the `List`."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `onDelete(perform:)` modifier used for in `List`?",
+    "Option1": "To delete the `List` itself.",
+    "Option2": "To enable swipe-to-delete functionality for rows in a `List`.",
+    "Option3": "To delete selected items from a `ForEach`.",
+    "Option4": "To clear all items from a `List`.",
+    "Answer": "To enable swipe-to-delete functionality for rows in a `List`."
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you enable drag-and-drop reordering for rows in a `List`?",
+    "Option1": ".onMove(perform:)",
+    "Option2": ".draggable()",
+    "Option3": ".reorderable()",
+    "Option4": ".moveGestures()",
+    "Answer": ".onMove(perform:)"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the purpose of `@State var body: some View { ... }` in a SwiftUI View struct?",
+    "Option1": "It allows the `body` to be mutable.",
+    "Option2": "This is incorrect syntax; `body` must be a computed property.",
+    "Option3": "It makes the view a reference type.",
+    "Option4": "It allows `body` to store state directly.",
+    "Answer": "This is incorrect syntax; `body` must be a computed property."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `some View` in SwiftUI?",
+    "Option1": "A specific type of view.",
+    "Option2": "An opaque return type that hides the actual return type, but guarantees it's a specific concrete `View` type.",
+    "Option3": "A placeholder for any view.",
+    "Option4": "A type of protocol.",
+    "Answer": "An opaque return type that hides the actual return type, but guarantees it's a specific concrete `View` type."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the primary benefit of Opaque Return Types (`some View`)?",
+    "Option1": "Allows functions to return different view types conditionally.",
+    "Option2": "Reduces compilation time by hiding complex view hierarchies.",
+    "Option3": "Enables type erasure, allowing for more flexible function signatures while maintaining type safety.",
+    "Option4": "Forces all views to be the same type.",
+    "Answer": "Enables type erasure, allowing for more flexible function signatures while maintaining type safety."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the role of `ContentView.swift` when you create a new SwiftUI project?",
+    "Option1": "It's the main entry point for the app.",
+    "Option2": "It's a boilerplate view for demonstrating basic UI, and can be renamed or replaced.",
+    "Option3": "It's a file for defining app-wide constants.",
+    "Option4": "It's where you configure app settings.",
+    "Answer": "It's a boilerplate view for demonstrating basic UI, and can be renamed or replaced."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `App` protocol in Swift UI (iOS 14+)?",
+    "Option1": "A protocol for defining individual views.",
+    "Option2": "The entry point for a SwiftUI application, defining its structure and initial scenes.",
+    "Option3": "A protocol for handling app lifecycle events.",
+    "Option4": "A protocol for defining app settings.",
+    "Answer": "The entry point for a SwiftUI application, defining its structure and initial scenes."
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which property wrapper provides access to app lifecycle events and scene phases?",
+    "Option1": "@Environment",
+    "Option2": "@State",
+    "Option3": "@SceneStorage",
+    "Option4": "@Environment(\\.scenePhase)",
+    "Answer": "@Environment(\\.scenePhase)"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `onReceive(_:perform:)` modifier used for?",
+    "Option1": "To handle user input events.",
+    "Option2": "To react to changes from a Combine publisher.",
+    "Option3": "To receive data from a network request.",
+    "Option4": "To receive notifications from UIKit.",
+    "Answer": "To react to changes from a Combine publisher."
+  },
+  {
+    "question_no.": 86,
+    "Question": "How do you embed a `UIViewController` (from UIKit) into a SwiftUI view hierarchy?",
+    "Option1": "Using `UIHostingController`.",
+    "Option2": "By conforming to `UIViewControllerRepresentable` protocol.",
+    "Option3": "Directly embed it using `ViewController()`.",
+    "Option4": "It's not possible to mix UIKit and SwiftUI.",
+    "Answer": "By conforming to `UIViewControllerRepresentable` protocol."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you embed a `UIView` (from UIKit) into a SwiftUI view hierarchy?",
+    "Option1": "Using `UIHostingView`.",
+    "Option2": "By conforming to `UIViewRepresentable` protocol.",
+    "Option3": "Directly embed it using `UIView()`.",
+    "Option4": "It's not possible to mix UIKit and SwiftUI.",
+    "Answer": "By conforming to `UIViewRepresentable` protocol."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the purpose of the `Coordinator` class in `UIViewControllerRepresentable` / `UIViewRepresentable`?",
+    "Option1": "To manage the lifecycle of the UIKit view/view controller.",
+    "Option2": "To act as a delegate for UIKit callbacks and communicate with the SwiftUI view.",
+    "Option3": "To perform background tasks.",
+    "Option4": "To handle animations.",
+    "Answer": "To act as a delegate for UIKit callbacks and communicate with the SwiftUI view."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which property wrapper is used to persist simple data across app launches (e.g., user settings)?",
+    "Option1": "@State",
+    "Option2": "@AppStorage",
+    "Option3": "@SceneStorage",
+    "Option4": "@UserDefaults",
+    "Answer": "@AppStorage"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which property wrapper is used to persist UI-related state for a single scene across app launches or between app termination and relaunch?",
+    "Option1": "@AppStorage",
+    "Option2": "@SceneStorage",
+    "Option3": "@State",
+    "Option4": "@Environment",
+    "Answer": "@SceneStorage"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is a `ToolbarItem` used for?",
+    "Option1": "To add items to a custom toolbar.",
+    "Option2": "To define an item that appears in a system-provided toolbar (e.g., navigation bar, keyboard bar).",
+    "Option3": "To create a custom button.",
+    "Option4": "To define a menu item.",
+    "Answer": "To define an item that appears in a system-provided toolbar (e.g., navigation bar, keyboard bar)."
+  },
+  {
+    "question_no.": 92,
+    "Question": "Which `ToolbarItemPlacement` positions an item at the leading edge of the navigation bar?",
+    "Option1": ".topBarLeading",
+    "Option2": ".navigationBarLeading",
+    "Option3": ".principal",
+    "Option4": ".bottomBar",
+    "Answer": ".navigationBarLeading"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What does `principal` placement do in a `ToolbarItem`?",
+    "Option1": "Positions the item at the leading edge.",
+    "Option2": "Positions the item at the trailing edge.",
+    "Option3": "Positions the item in the center (main area) of the navigation bar.",
+    "Option4": "Positions the item at the bottom of the screen.",
+    "Answer": "Positions the item in the center (main area) of the navigation bar."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do you hide the navigation bar for a specific view?",
+    "Option1": ".navigationBarHidden(true)",
+    "Option2": ".navigationBarBackButtonHidden(true)",
+    "Option3": ".navigationBarTitleDisplayMode(.inline)",
+    "Option4": ".toolbar(.hidden, for: .navigationBar)",
+    "Answer": ".toolbar(.hidden, for: .navigationBar)"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is `MatchedGeometryEffect` used for?",
+    "Option1": "To perform 3D transformations on views.",
+    "Option2": "To create seamless transitions between views that share a common identity, animating changes in their position and size.",
+    "Option3": "To align views based on their geometric properties.",
+    "Option4": "To detect gestures based on geometry.",
+    "Answer": "To create seamless transitions between views that share a common identity, animating changes in their position and size."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `Namespace` used for with `MatchedGeometryEffect`?",
+    "Option1": "To group related views.",
+    "Option2": "To define a scope for shared animations and identities across different views.",
+    "Option3": "To name a view.",
+    "Option4": "To provide unique IDs for views.",
+    "Answer": "To define a scope for shared animations and identities across different views."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `Canvas` view (iOS 15+)?",
+    "Option1": "A view for displaying images.",
+    "Option2": "A view that provides a drawing context for creating custom 2D graphics using `Core Graphics`.",
+    "Option3": "A view for displaying text.",
+    "Option4": "A view for displaying maps.",
+    "Answer": "A view that provides a drawing context for creating custom 2D graphics using `Core Graphics`."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is a `ProgressView` used for?",
+    "Option1": "To display a static value.",
+    "Option2": "To show the progress of a task, either determinate or indeterminate.",
+    "Option3": "To display an image loading indicator.",
+    "Option4": "To create a custom slider.",
+    "Answer": "To show the progress of a task, either determinate or indeterminate."
+  },
+  {
+    "question_no.": 99,
+    "Question": "How do you display an indeterminate loading spinner using `ProgressView`?",
+    "Option1": "ProgressView(value: 0.5)",
+    "Option2": "ProgressView(\"Loading...\")",
+    "Option3": "ProgressView()",
+    "Option4": "ProgressView(style: .circular)",
+    "Answer": "ProgressView()"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `ShareLink` (iOS 16+)?",
+    "Option1": "A link to share files with other apps.",
+    "Option2": "A view that presents a share sheet to share content with other apps or services.",
+    "Option3": "A link for social media sharing.",
+    "Option4": "A link to a website.",
+    "Answer": "A view that presents a share sheet to share content with other apps or services."
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which property wrapper is used to manage focus within a SwiftUI view hierarchy?",
+    "Option1": "@State",
+    "Option2": "@Binding",
+    "Option3": "@FocusState",
+    "Option4": "@Environment",
+    "Answer": "@FocusState"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is the purpose of `focusable()` modifier?",
+    "Option1": "To make a view respond to tap gestures.",
+    "Option2": "To make a view eligible to receive keyboard focus.",
+    "Option3": "To set the foreground color of a view.",
+    "Option4": "To disable user interaction with a view.",
+    "Answer": "To make a view eligible to receive keyboard focus."
+  },
+  {
+    "question_no.": 103,
+    "Question": "How do you programmatically dismiss the keyboard in SwiftUI?",
+    "Option1": "UIApplication.shared.sendAction(#selector(UIResponder.resignFirstResponder), to: nil, from: nil, for: nil)",
+    "Option2": "Keyboard.dismiss()",
+    "Option3": "Use a `FocusState` variable and set it to `nil`.",
+    "Option4": "There's no direct way in SwiftUI.",
+    "Answer": "Use a `FocusState` variable and set it to `nil`."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is a `ViewThatFits` (iOS 16+)?",
+    "Option1": "A view that automatically adjusts its size to fit its content.",
+    "Option2": "A container view that tries to fit its content into the available space, choosing the first subview that fits.",
+    "Option3": "A view that ensures all its subviews have the same size.",
+    "Option4": "A view that applies an aspect ratio.",
+    "Answer": "A container view that tries to fit its content into the available space, choosing the first subview that fits."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `safeAreaInset(edge:alignment:spacing:content:)` (iOS 15+)?",
+    "Option1": "A modifier to ignore safe area insets.",
+    "Option2": "A modifier that adds custom content into the safe area of a view, such as a floating button or a custom navigation bar.",
+    "Option3": "A modifier to define the safe area.",
+    "Option4": "A modifier to add padding to the safe area.",
+    "Answer": "A modifier that adds custom content into the safe area of a view, such as a floating button or a custom navigation bar."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `ContentUnavailableView` (iOS 17+)?",
+    "Option1": "A view that indicates content is loading.",
+    "Option2": "A standardized way to display a message, symbol, and actions when content is unavailable or empty.",
+    "Option3": "A view that displays an error message.",
+    "Option4": "A view that hides content when it's not ready.",
+    "Answer": "A standardized way to display a message, symbol, and actions when content is unavailable or empty."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a `SharePlayButton` (iOS 17+)?",
+    "Option1": "A button for sharing files locally.",
+    "Option2": "A button to initiate or join a SharePlay session.",
+    "Option3": "A button for sharing content to social media.",
+    "Option4": "A button for sharing a screenshot.",
+    "Answer": "A button to initiate or join a SharePlay session."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is `scrollPosition(id:anchor:)` (iOS 17+)?",
+    "Option1": "A modifier to disable scrolling.",
+    "Option2": "A modifier to programmatically control the scroll position of a `ScrollView` or `List` by binding to an `Identifiable` item.",
+    "Option3": "A modifier to detect when scrolling starts.",
+    "Option4": "A modifier to limit scrollable area.",
+    "Answer": "A modifier to programmatically control the scroll position of a `ScrollView` or `List` by binding to an `Identifiable` item."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `ContainerRelativeShape`?",
+    "Option1": "A shape that fills its container's entire bounds.",
+    "Option2": "A shape that dynamically adjusts its corner radius or other properties relative to its container's geometry, often used with `clipShape`.",
+    "Option3": "A shape that only fits specific container types.",
+    "Option4": "A shape that is fixed in size.",
+    "Answer": "A shape that dynamically adjusts its corner radius or other properties relative to its container's geometry, often used with `clipShape`."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is a `ProgressViewStyle`?",
+    "Option1": "A modifier to change the value of a `ProgressView`.",
+    "Option2": "A protocol that defines the appearance and behavior of a `ProgressView`, allowing for custom styling.",
+    "Option3": "A type of progress bar.",
+    "Option4": "A function that updates progress.",
+    "Answer": "A protocol that defines the appearance and behavior of a `ProgressView`, allowing for custom styling."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `ImageRenderer` (iOS 16+)?",
+    "Option1": "A view for displaying images.",
+    "Option2": "A class that allows you to render any SwiftUI view into a `UIImage` (or `NSImage` on macOS).",
+    "Option3": "A class for loading images from URLs.",
+    "Option4": "A class for applying filters to images.",
+    "Answer": "A class that allows you to render any SwiftUI view into a `UIImage` (or `NSImage` on macOS)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the purpose of `.redacted(reason: .placeholder)`?",
+    "Option1": "To hide a view completely.",
+    "Option2": "To display a view with a placeholder 'shimmer' effect, indicating content is loading or unavailable.",
+    "Option3": "To set the background color to red.",
+    "Option4": "To remove a view from the hierarchy.",
+    "Answer": "To display a view with a placeholder 'shimmer' effect, indicating content is loading or unavailable."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `AsyncImage` (iOS 15+)?",
+    "Option1": "An image that loads from local assets asynchronously.",
+    "Option2": "A view that loads and displays an image from a URL, handling loading and error states automatically.",
+    "Option3": "An image that can be animated.",
+    "Option4": "An image that supports transparent backgrounds.",
+    "Answer": "A view that loads and displays an image from a URL, handling loading and error states automatically."
+  },
+  {
+    "question_no.": 114,
+    "Question": "How do you handle different states (loading, error, success) for `AsyncImage`?",
+    "Option1": "It handles it automatically, no customization.",
+    "Option2": "Using a separate `if` statement for each state.",
+    "Option3": "By providing a `phase` closure in the initializer: `AsyncImage(url:) { phase in ... }`",
+    "Option4": "By using `.onLoading`, `.onError`, `.onSuccess` modifiers.",
+    "Answer": "By providing a `phase` closure in the initializer: `AsyncImage(url:) { phase in ... }`"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is `@MainActor` in Swift and its relevance to SwiftUI?",
+    "Option1": "It's a property wrapper for main thread variables.",
+    "Option2": "A global actor that ensures code execution on the main thread, critical for UI updates in SwiftUI.",
+    "Option3": "A protocol for main application logic.",
+    "Option4": "A type of view modifier.",
+    "Answer": "A global actor that ensures code execution on the main thread, critical for UI updates in SwiftUI."
+  },
+  {
+    "question_no.": 116,
+    "Question": "Why is it important to perform UI updates on the main thread in SwiftUI?",
+    "Option1": "To save battery life.",
+    "Option2": "To prevent UI glitches, race conditions, and ensure smooth rendering, as UIKit/AppKit (which SwiftUI builds upon) are not thread-safe for UI.",
+    "Option3": "To allow for concurrent UI operations.",
+    "Option4": "It's a performance optimization, not a requirement.",
+    "Answer": "To prevent UI glitches, race conditions, and ensure smooth rendering, as UIKit/AppKit (which SwiftUI builds upon) are not thread-safe for UI."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `TimelineView` (iOS 15+)?",
+    "Option1": "A view for displaying historical data.",
+    "Option2": "A view that updates its content on a regular schedule, useful for animations or displaying real-time data.",
+    "Option3": "A view for displaying calendar events.",
+    "Option4": "A view for displaying video timelines.",
+    "Answer": "A view that updates its content on a regular schedule, useful for animations or displaying real-time data."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Which property wrapper can be used to read values from the environment that are not `ObservableObject`s (e.g., `\\.colorScheme`, `\\.isPresented`)?",
+    "Option1": "@State",
+    "Option2": "@EnvironmentObject",
+    "Option3": "@Environment",
+    "Option4": "@Binding",
+    "Answer": "@Environment"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a `ScrollViewReader` (iOS 14+)?",
+    "Option1": "A view that reads the content of a scroll view.",
+    "Option2": "A view that provides programmatic scrolling capabilities to a `ScrollView` by allowing you to scroll to specific `Identifiable` items.",
+    "Option3": "A view that detects scroll gestures.",
+    "Option4": "A view that automatically scrolls to the bottom.",
+    "Answer": "A view that provides programmatic scrolling capabilities to a `ScrollView` by allowing you to scroll to specific `Identifiable` items."
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you programmatically scroll to a specific item in a `ScrollView` or `List` using `ScrollViewReader`?",
+    "Option1": "reader.scrollTo(id: \"itemID\")",
+    "Option2": "With `ScrollViewReader { proxy in proxy.scrollTo(id: \"itemID\", anchor: .top) }`",
+    "Option3": "list.scroll(to: \"itemID\")",
+    "Option4": "scrollView.scroll(to: \"itemID\")",
+    "Answer": "With `ScrollViewReader { proxy in proxy.scrollTo(id: \"itemID\", anchor: .top) }`"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `Accessibility` in SwiftUI?",
+    "Option1": "Making the app easier to develop.",
+    "Option2": "Making the app usable by people with disabilities through features like VoiceOver, Dynamic Type, and reduced motion.",
+    "Option3": "Making the app available on multiple platforms.",
+    "Option4": "Making the app respond faster to user input.",
+    "Answer": "Making the app usable by people with disabilities through features like VoiceOver, Dynamic Type, and reduced motion."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Which modifier is used to provide a descriptive label for VoiceOver for a view that doesn't inherently have one (e.g., an `Image`)?",
+    "Option1": ".label()",
+    "Option2": ".accessibilityLabel(\"Description\")",
+    "Option3": ".voiceOverLabel(\"Description\")",
+    "Option4": ".description()",
+    "Answer": ".accessibilityLabel(\"Description\")"
+  },
+  {
+    "question_no.": 123,
+    "Question": "How do you adjust the contrast of an image for accessibility purposes?",
+    "Option1": ".imageContrast(.high)",
+    "Option2": ".accessibilityAdjustableAction()",
+    "Option3": ".accessibilityAddTraits(.image)",
+    "Option4": "SwiftUI handles this automatically based on system settings.",
+    "Answer": "SwiftUI handles this automatically based on system settings."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `Dynamic Type` in SwiftUI?",
+    "Option1": "Automatically changing the font of text.",
+    "Option2": "A feature that allows users to choose their preferred text size, and your app's UI should adapt to it.",
+    "Option3": "A way to animate text.",
+    "Option4": "A feature that allows users to change the language.",
+    "Answer": "A feature that allows users to choose their preferred text size, and your app's UI should adapt to it."
+  },
+  {
+    "question_no.": 125,
+    "Question": "How do you ensure your `Text` views support Dynamic Type?",
+    "Option1": "By using hardcoded font sizes.",
+    "Option2": "By using system fonts like `.font(.headline)` or `.font(.body)`.",
+    "Option3": "By manually checking the user's font size settings.",
+    "Option4": "It's enabled by default for all fonts.",
+    "Answer": "By using system fonts like `.font(.headline)` or `.font(.body)`."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `ScenePhase` in the app lifecycle?",
+    "Option1": "The current state of a view's animation.",
+    "Option2": "An `Environment` value that indicates the current active state of a scene (active, inactive, background).",
+    "Option3": "The phase of a network request.",
+    "Option4": "The stage of a background task.",
+    "Answer": "An `Environment` value that indicates the current active state of a scene (active, inactive, background)."
+  },
+  {
+    "question_no.": 127,
+    "Question": "When does a scene enter the `.active` phase?",
+    "Option1": "When the app is launched.",
+    "Option2": "When the app is in the foreground and visible to the user.",
+    "Option3": "When the app is in the background.",
+    "Option4": "When the app is terminated.",
+    "Answer": "When the app is in the foreground and visible to the user."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `PreviewProvider` used for in SwiftUI?",
+    "Option1": "To generate app icons.",
+    "Option2": "To provide live, interactive previews of SwiftUI views in Xcode's canvas.",
+    "Option3": "To deploy the app to a device.",
+    "Option4": "To create unit tests for views.",
+    "Answer": "To provide live, interactive previews of SwiftUI views in Xcode's canvas."
+  },
+  {
+    "question_no.": 129,
+    "Question": "How do you create multiple previews for a single view (e.g., dark mode, light mode)?",
+    "Option1": "Create multiple `PreviewProvider` structs.",
+    "Option2": "Add multiple views to the `previews` computed property in the `PreviewProvider`.",
+    "Option3": "Use a `PreviewGroup`.",
+    "Option4": "It's not possible in a single `PreviewProvider`.",
+    "Answer": "Add multiple views to the `previews` computed property in the `PreviewProvider`."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `PreviewDevice` used for in `PreviewProvider`?",
+    "Option1": "To select the actual device to run the app on.",
+    "Option2": "To specify the simulated device (e.g., iPhone 15 Pro, iPad Pro) for the preview canvas.",
+    "Option3": "To define the device orientation.",
+    "Option4": "To connect to a physical device for live previews.",
+    "Answer": "To specify the simulated device (e.g., iPhone 15 Pro, iPad Pro) for the preview canvas."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `PreviewDisplayName` used for in `PreviewProvider`?",
+    "Option1": "To set the app's display name.",
+    "Option2": "To provide a custom name that appears in the preview canvas navigator.",
+    "Option3": "To set the title of the preview window.",
+    "Option4": "To name the preview file.",
+    "Answer": "To provide a custom name that appears in the preview canvas navigator."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `ContentShape` modifier used for?",
+    "Option1": "To draw a custom shape.",
+    "Option2": "To expand the hit-testing area of a view beyond its visible bounds.",
+    "Option3": "To clip a view to a specific shape.",
+    "Option4": "To define the background shape of a view.",
+    "Answer": "To expand the hit-testing area of a view beyond its visible bounds."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is a `GestureState` property wrapper?",
+    "Option1": "A way to store the final value of a gesture.",
+    "Option2": "A property wrapper that temporarily stores a value during the execution of a gesture, resetting it when the gesture ends.",
+    "Option3": "A property wrapper for persistent gesture data.",
+    "Option4": "A property wrapper for defining gesture actions.",
+    "Answer": "A property wrapper that temporarily stores a value during the execution of a gesture, resetting it when the gesture ends."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the primary difference between `ScrollView` and `List`?",
+    "Option1": "`ScrollView` supports sections, `List` does not.",
+    "Option2": "`List` provides platform-specific styling, sectioning, and performance optimizations for row-based data, while `ScrollView` is a generic scrolling container.",
+    "Option3": "`ScrollView` is for vertical scrolling, `List` is for horizontal.",
+    "Option4": "`List` can only display `Text` views.",
+    "Answer": "`List` provides platform-specific styling, sectioning, and performance optimizations for row-based data, while `ScrollView` is a generic scrolling container."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is `LazyVGrid` vs `VStack`?",
+    "Option1": "`LazyVGrid` is for fixed number of items, `VStack` is for dynamic.",
+    "Option2": "`LazyVGrid` uses a grid layout and loads content on demand, `VStack` stacks views vertically and loads all content immediately.",
+    "Option3": "`LazyVGrid` cannot be scrolled.",
+    "Option4": "`VStack` is faster for large datasets.",
+    "Answer": "`LazyVGrid` uses a grid layout and loads content on demand, `VStack` stacks views vertically and loads all content immediately."
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you add a custom shape (e.g., a circle) as a background to a view?",
+    "Option1": ".background(Circle())",
+    "Option2": ".clipShape(Circle())",
+    "Option3": ".overlay(Circle(), alignment: .background)",
+    "Option4": ".mask(Circle())",
+    "Answer": ".background(Circle())"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `ContextMenu` modifier?",
+    "Option1": "A menu that appears on long press for iOS/macOS.",
+    "Option2": "A menu that appears when you tap a view.",
+    "Option3": "A menu that appears in the navigation bar.",
+    "Option4": "A menu that floats over the content.",
+    "Answer": "A menu that appears on long press for iOS/macOS."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which view is used to display a hierarchical outline of data, such as a file system or a table of contents?",
+    "Option1": "List",
+    "Option2": "OutlineGroup (iOS 14+)",
+    "Option3": "TreeView",
+    "Option4": "Section",
+    "Answer": "OutlineGroup (iOS 14+)"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `DisclosureGroup` (iOS 14+)?",
+    "Option1": "A view that reveals or hides its content with a toggle.",
+    "Option2": "A group of views that are always visible.",
+    "Option3": "A group of views that can be expanded or collapsed by tapping a disclosure indicator.",
+    "Option4": "A group of views that are always hidden.",
+    "Answer": "A group of views that can be expanded or collapsed by tapping a disclosure indicator."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is a `ControlGroup` (iOS 15+)?",
+    "Option1": "A group of radio buttons.",
+    "Option2": "A container view that visually groups related controls, applying platform-specific styling.",
+    "Option3": "A group of sliders.",
+    "Option4": "A group of text fields.",
+    "Answer": "A container view that visually groups related controls, applying platform-specific styling."
+  },
+  {
+    "question_no.": 141,
+    "Question": "How do you apply a custom font size and weight to a `Text` view?",
+    "Option1": ".font(.system(size: 24, weight: .bold))",
+    "Option2": ".fontSize(24).fontWeight(.bold)",
+    "Option3": ".font(.headline).bold()",
+    "Option4": ".size(24).weight(.bold)",
+    "Answer": ".font(.system(size: 24, weight: .bold))"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the purpose of `ViewBuilder`?",
+    "Option1": "To build an entire app.",
+    "Option2": "A result builder that allows you to combine multiple `View` instances into a single `View` without explicitly wrapping them in a container like `VStack`.",
+    "Option3": "To create custom modifiers.",
+    "Option4": "To create animations.",
+    "Answer": "A result builder that allows you to combine multiple `View` instances into a single `View` without explicitly wrapping them in a container like `VStack`."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Where is `ViewBuilder` implicitly used in SwiftUI?",
+    "Option1": "Inside `Text` views.",
+    "Option2": "Inside container views like `VStack`, `HStack`, `ZStack`, and in `body` of a `View`.",
+    "Option3": "Inside `Button` actions.",
+    "Option4": "Inside `ObservableObject` classes.",
+    "Answer": "Inside container views like `VStack`, `HStack`, `ZStack`, and in `body` of a `View`."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `ImagePaint`?",
+    "Option1": "A view for displaying images.",
+    "Option2": "A type of `ShapeStyle` that paints an area using an image, allowing for tiling or stretching.",
+    "Option3": "A modifier for image processing.",
+    "Option4": "A tool for drawing on images.",
+    "Answer": "A type of `ShapeStyle` that paints an area using an image, allowing for tiling or stretching."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How do you apply a custom `ShapeStyle` to a `Shape`?",
+    "Option1": "shape.background(style)",
+    "Option2": "shape.fill(style)",
+    "Option3": "shape.stroke(style)",
+    "Option4": "shape.foregroundStyle(style)",
+    "Answer": "shape.fill(style)"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `AnyView`?",
+    "Option1": "A concrete view type.",
+    "Option2": "A type-erased wrapper for any `View` type, used when you need to return different view types from a function.",
+    "Option3": "A view that can contain any data type.",
+    "Option4": "A view that is always hidden.",
+    "Answer": "A type-erased wrapper for any `View` type, used when you need to return different view types from a function."
+  },
+  {
+    "question_no.": 147,
+    "Question": "When should you use `AnyView`?",
+    "Option1": "Always, for better flexibility.",
+    "Option2": "When you have conditional views with different concrete types and cannot use `some View`.",
+    "Option3": "When building simple views.",
+    "Option4": "When you don't care about performance.",
+    "Answer": "When you have conditional views with different concrete types and cannot use `some View`."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the downside of using `AnyView` frequently?",
+    "Option1": "It makes the app crash more often.",
+    "Option2": "It can negatively impact performance due to type erasure and make debugging harder.",
+    "Option3": "It limits the number of views you can have.",
+    "Option4": "It increases the app bundle size significantly.",
+    "Answer": "It can negatively impact performance due to type erasure and make debugging harder."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `FocusState`'s primary use case?",
+    "Option1": "Managing global app focus.",
+    "Option2": "Programmatically controlling which text field or control currently has keyboard focus.",
+    "Option3": "Detecting if a view is currently visible.",
+    "Option4": "Tracking touch events on a view.",
+    "Answer": "Programmatically controlling which text field or control currently has keyboard focus."
+  },
+  {
+    "question_no.": 150,
+    "Question": "How do you make a `TextField` initially focused when a view appears?",
+    "Option1": "Use `.onAppear` to set a `@FocusState` variable.",
+    "Option2": "Set `isFocused: true` in the `TextField` initializer.",
+    "Option3": "Use `becomeFirstResponder()`.",
+    "Option4": "It's not possible to set initial focus programmatically.",
+    "Answer": "Use `.onAppear` to set a `@FocusState` variable."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `ViewThatFits` for?",
+    "Option1": "Creating views that always occupy maximum space.",
+    "Option2": "Choosing the first subview from a list that fits within the available layout space.",
+    "Option3": "Adjusting the content of a view based on device size.",
+    "Option4": "Filtering views based on a condition.",
+    "Answer": "Choosing the first subview from a list that fits within the available layout space."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `Layout` protocol (iOS 16+)?",
+    "Option1": "A protocol for defining standard view layouts.",
+    "Option2": "A protocol that allows you to create custom container layouts for your views, giving you full control over placement and sizing.",
+    "Option3": "A protocol for applying modifiers.",
+    "Option4": "A protocol for defining view hierarchy.",
+    "Answer": "A protocol that allows you to create custom container layouts for your views, giving you full control over placement and sizing."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What are `AlignmentGuides` used for?",
+    "Option1": "To position views absolutely.",
+    "Option2": "To customize the alignment behavior of views within stacks and other containers.",
+    "Option3": "To draw grid lines.",
+    "Option4": "To create custom borders.",
+    "Answer": "To customize the alignment behavior of views within stacks and other containers."
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you override the default leading alignment of a `Text` view within a `VStack`?",
+    "Option1": "text.alignment(.center)",
+    "Option2": "text.frame(maxWidth: .infinity, alignment: .center)",
+    "Option3": "text.offset(x: 10)",
+    "Option4": "text.leading(.custom)",
+    "Answer": "text.frame(maxWidth: .infinity, alignment: .center)"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is `onChange(of:perform:)` modifier?",
+    "Option1": "To perform an action when a gesture changes.",
+    "Option2": "To execute a closure whenever a specified value changes.",
+    "Option3": "To detect changes in user input.",
+    "Option4": "To observe changes in an `ObservableObject`.",
+    "Answer": "To execute a closure whenever a specified value changes."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the difference between `.onReceive` and `.onChange`?",
+    "Option1": ".onReceive is for Combine Publishers, .onChange is for @State or @Binding changes.",
+    "Option2": ".onReceive is for UI updates, .onChange is for data changes.",
+    "Option3": "They are interchangeable.",
+    "Option4": ".onChange is deprecated, use .onReceive instead.",
+    "Answer": ".onReceive is for Combine Publishers, .onChange is for @State or @Binding changes."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is a `GeometryProxy` provided by `GeometryReader`?",
+    "Option1": "A direct reference to the parent view.",
+    "Option2": "A struct that provides information about the size, origin, and coordinate spaces of the `GeometryReader`'s parent container.",
+    "Option3": "A proxy for accessing global app settings.",
+    "Option4": "A proxy for navigating between views.",
+    "Answer": "A struct that provides information about the size, origin, and coordinate spaces of the `GeometryReader`'s parent container."
+  },
+  {
+    "question_no.": 158,
+    "Question": "How do you get the width of the parent container using `GeometryReader`?",
+    "Option1": "geometry.parent.width",
+    "Option2": "geometry.size.width",
+    "Option3": "geometry.container.width",
+    "Option4": "geometry.frame.width",
+    "Answer": "geometry.size.width"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `AnyLayout` (iOS 16+)?",
+    "Option1": "A specific type of layout.",
+    "Option2": "A type-erased wrapper for any `Layout` type, used when you need to switch between different custom layouts dynamically.",
+    "Option3": "A layout that fits any content.",
+    "Option4": "A layout that always uses a flexible approach.",
+    "Answer": "A type-erased wrapper for any `Layout` type, used when you need to switch between different custom layouts dynamically."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the purpose of `ViewModifier` protocol?",
+    "Option1": "To define custom views.",
+    "Option2": "To create reusable code that modifies the appearance or behavior of a view, similar to `.padding()` or `.font()`.",
+    "Option3": "To define a view's state.",
+    "Option4": "To create custom animations.",
+    "Answer": "To create reusable code that modifies the appearance or behavior of a view, similar to `.padding()` or `.font()`."
+  },
+  {
+    "question_no.": 161,
+    "Question": "How do you create a custom `ViewModifier`?",
+    "Option1": "By extending `View`.",
+    "Option2": "By creating a `struct` that conforms to `ViewModifier` and implements the `body(content:)` method.",
+    "Option3": "By creating a `class` that inherits from `ViewModifier`.",
+    "Option4": "By defining a function that returns `some View`.",
+    "Answer": "By creating a `struct` that conforms to `ViewModifier` and implements the `body(content:)` method."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Binding<Value>` in SwiftUI?",
+    "Option1": "A value type.",
+    "Option2": "A structure that wraps a mutable value, providing a two-way connection to it.",
+    "Option3": "A read-only value.",
+    "Option4": "A fixed value.",
+    "Answer": "A structure that wraps a mutable value, providing a two-way connection to it."
+  },
+  {
+    "question_no.": 163,
+    "Question": "How do you create a `Binding` from a `@State` property?",
+    "Option1": "Directly access the property.",
+    "Option2": "By preceding the property name with a dollar sign (`$`)",
+    "Option3": "By calling `.binding()` on the property.",
+    "Option4": "By assigning it to a new `@Binding` variable.",
+    "Answer": "By preceding the property name with a dollar sign (`$`)"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is a `toolbar(.visible, for: .bottomBar)` modifier for?",
+    "Option1": "To hide the bottom bar.",
+    "Option2": "To explicitly show the system bottom bar (tab bar) for a view.",
+    "Option3": "To add a custom bottom bar.",
+    "Option4": "To make the bottom bar scrollable.",
+    "Answer": "To explicitly show the system bottom bar (tab bar) for a view."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `dynamicTypeSize()` modifier?",
+    "Option1": "Sets a fixed font size.",
+    "Option2": "Constrains the range of dynamic type sizes a view can display.",
+    "Option3": "Enables or disables Dynamic Type for a view.",
+    "Option4": "Automatically adjusts text size to fit.",
+    "Answer": "Constrains the range of dynamic type sizes a view can display."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `accessibilityHidden(true)`?",
+    "Option1": "Makes a view invisible.",
+    "Option2": "Hides a view and its contents from accessibility technologies like VoiceOver.",
+    "Option3": "Removes a view from the hierarchy.",
+    "Option4": "Prevents user interaction with a view.",
+    "Answer": "Hides a view and its contents from accessibility technologies like VoiceOver."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is a `LazyVStack`?",
+    "Option1": "A vertical stack that renders all its content immediately.",
+    "Option2": "A vertical stack that creates its subviews only when they become visible, improving performance for long lists.",
+    "Option3": "A stack that can be scrolled horizontally.",
+    "Option4": "A stack that only supports a fixed number of views.",
+    "Answer": "A vertical stack that creates its subviews only when they become visible, improving performance for long lists."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the primary benefit of `LazyVStack` and `LazyHStack`?",
+    "Option1": "Simpler syntax.",
+    "Option2": "Improved performance for large numbers of views by deferring view creation until needed.",
+    "Option3": "Better layout control.",
+    "Option4": "Automatic animation.",
+    "Answer": "Improved performance for large numbers of views by deferring view creation until needed."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `ColorPicker` (iOS 14+)?",
+    "Option1": "A view that selects an image from the photo library.",
+    "Option2": "A control that allows users to select a color.",
+    "Option3": "A picker for choosing text colors.",
+    "Option4": "A tool for color correction.",
+    "Answer": "A control that allows users to select a color."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is a `Gauge` (iOS 16+)?",
+    "Option1": "A view for displaying a progress bar.",
+    "Option2": "A view for displaying a specific value within a range, often with a visual indicator of its progress.",
+    "Option3": "A view for displaying speed.",
+    "Option4": "A view for displaying temperature.",
+    "Answer": "A view for displaying a specific value within a range, often with a visual indicator of its progress."
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you create a custom `Shape` in SwiftUI?",
+    "Option1": "By conforming to the `View` protocol.",
+    "Option2": "By conforming to the `Shape` protocol and implementing the `path(in:)` method.",
+    "Option3": "By drawing directly in a `Canvas`.",
+    "Option4": "By using a `ZStack` of basic shapes.",
+    "Answer": "By conforming to the `Shape` protocol and implementing the `path(in:)` method."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `Path` in SwiftUI?",
+    "Option1": "A way to define navigation routes.",
+    "Option2": "A type that describes the outline of a 2D shape, used for custom drawing.",
+    "Option3": "A way to link files.",
+    "Option4": "A representation of a directory structure.",
+    "Answer": "A type that describes the outline of a 2D shape, used for custom drawing."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is a `ShapeStyle`?",
+    "Option1": "A modifier for shape properties.",
+    "Option2": "A protocol that defines how a shape is filled or stroked, including `Color`, `LinearGradient`, `ImagePaint`, etc.",
+    "Option3": "A type of shape.",
+    "Option4": "A way to create custom shapes.",
+    "Answer": "A protocol that defines how a shape is filled or stroked, including `Color`, `LinearGradient`, `ImagePaint`, etc."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `Gradient` in SwiftUI?",
+    "Option1": "A modifier for applying a color.",
+    "Option2": "A blend of two or more colors that smoothly transitions from one to another, used with `ShapeStyle`.",
+    "Option3": "A type of animation.",
+    "Option4": "A type of image filter.",
+    "Answer": "A blend of two or more colors that smoothly transitions from one to another, used with `ShapeStyle`."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `LinearGradient`?",
+    "Option1": "A gradient that changes color along a circular path.",
+    "Option2": "A gradient that changes color along a straight line.",
+    "Option3": "A gradient that changes color randomly.",
+    "Option4": "A gradient that changes color based on image content.",
+    "Answer": "A gradient that changes color along a straight line."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is `RadialGradient`?",
+    "Option1": "A gradient that changes color along a straight line.",
+    "Option2": "A gradient that changes color radiating outward from a central point.",
+    "Option3": "A gradient that changes color based on an angle.",
+    "Option4": "A gradient that is fixed in color.",
+    "Answer": "A gradient that changes color radiating outward from a central point."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is `AngularGradient` (or `ConicGradient`)?",
+    "Option1": "A gradient that radiates outwards.",
+    "Option2": "A gradient that changes color around a central point, sweeping clockwise or counter-clockwise.",
+    "Option3": "A gradient that changes color linearly.",
+    "Option4": "A gradient with no defined direction.",
+    "Answer": "A gradient that changes color around a central point, sweeping clockwise or counter-clockwise."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `matchedGeometryEffect(id:in:properties:anchor:isSource:)`?",
+    "Option1": "A modifier for fixed animations.",
+    "Option2": "A modifier that creates a visual connection between two views, animating changes in their size and position.",
+    "Option3": "A modifier for drawing shapes.",
+    "Option4": "A modifier for gesture detection.",
+    "Answer": "A modifier that creates a visual connection between two views, animating changes in their size and position."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is `Namespace.ID` used for with `matchedGeometryEffect`?",
+    "Option1": "To identify a single view.",
+    "Option2": "To provide a unique namespace within which `matchedGeometryEffect` can identify and match views across different states.",
+    "Option3": "To set the view's unique identifier.",
+    "Option4": "To group related views for layout.",
+    "Answer": "To provide a unique namespace within which `matchedGeometryEffect` can identify and match views across different states."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `async/await` in Swift and how does it relate to SwiftUI?",
+    "Option1": "A way to perform UI updates synchronously.",
+    "Option2": "Swift's structured concurrency model, enabling cleaner asynchronous code, which is crucial for fetching data or performing long-running tasks without blocking the UI.",
+    "Option3": "A way to define custom gestures.",
+    "Option4": "A method for handling errors in views.",
+    "Answer": "Swift's structured concurrency model, enabling cleaner asynchronous code, which is crucial for fetching data or performing long-running tasks without blocking the UI."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `@Task` property wrapper (conceptual equivalent, often manual `Task { ... }`)?",
+    "Option1": "A property wrapper for managing background tasks.",
+    "Option2": "A way to launch and manage an asynchronous task from a synchronous context (e.g., a button action) in a SwiftUI view.",
+    "Option3": "A property wrapper for UI updates.",
+    "Option4": "A property wrapper for data storage.",
+    "Answer": "A way to launch and manage an asynchronous task from a synchronous context (e.g., a button action) in a SwiftUI view."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `@MainActor`'s primary benefit for SwiftUI development?",
+    "Option1": "It allows any code to run on the main thread.",
+    "Option2": "It automatically enforces that any code within a type or method marked with `@MainActor` runs on the main thread, preventing common UI threading issues.",
+    "Option3": "It improves background task performance.",
+    "Option4": "It's only for Objective-C interoperability.",
+    "Answer": "It automatically enforces that any code within a type or method marked with `@MainActor` runs on the main thread, preventing common UI threading issues."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a `ViewThatFits` used for?",
+    "Option1": "To create a view that always takes up the maximum space available.",
+    "Option2": "To allow a view to choose the best representation from a list of options based on the available space.",
+    "Option3": "To dynamically adjust a view's size to fit its content.",
+    "Option4": "To automatically scroll content into view.",
+    "Answer": "To allow a view to choose the best representation from a list of options based on the available space."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `scrollDismissesKeyboard(_:)` modifier (iOS 16+)?",
+    "Option1": "To keep the keyboard open while scrolling.",
+    "Option2": "To automatically dismiss the keyboard when the user scrolls a `ScrollView` or `List`.",
+    "Option3": "To prevent the keyboard from appearing.",
+    "Option4": "To change the keyboard type.",
+    "Answer": "To automatically dismiss the keyboard when the user scrolls a `ScrollView` or `List`."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `confirmationDialog(title:isPresented:titleVisibility:actions:)` (iOS 15+)?",
+    "Option1": "An alert with an input field.",
+    "Option2": "A more modern and flexible alternative to `ActionSheet`, typically presented as a popover on iPad or a sheet on iPhone, with custom actions.",
+    "Option3": "A simple alert with OK/Cancel buttons.",
+    "Option4": "A full-screen modal presentation.",
+    "Answer": "A more modern and flexible alternative to `ActionSheet`, typically presented as a popover on iPad or a sheet on iPhone, with custom actions."
+  },
+  {
+    "question_no.": 186,
+    "Question": "How do you apply a conditional modifier (e.g., change background color only if a condition is true)?",
+    "Option1": "Using a separate `.if` modifier.",
+    "Option2": "Using an `if` statement directly within the view's modifiers: `if condition { .background(Color.red) }`",
+    "Option3": "It's not possible to apply modifiers conditionally.",
+    "Option4": "Using a `switch` statement for modifiers.",
+    "Answer": "Using an `if` statement directly within the view's modifiers: `if condition { .background(Color.red) }`"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is a `ToolbarItemGroup`?",
+    "Option1": "A single item in a toolbar.",
+    "Option2": "A container for multiple `ToolbarItem`s that are displayed as a group in a toolbar.",
+    "Option3": "A group of views not related to toolbars.",
+    "Option4": "A specific type of button.",
+    "Answer": "A container for multiple `ToolbarItem`s that are displayed as a group in a toolbar."
+  },
+  {
+    "question_no.": 188,
+    "Question": "How do you add multiple buttons to the trailing side of a navigation bar?",
+    "Option1": "Multiple `ToolbarItem(placement: .navigationBarTrailing)`.",
+    "Option2": "A single `ToolbarItem(placement: .navigationBarTrailing)` containing an `HStack`.",
+    "Option3": "A `ToolbarItemGroup(placement: .navigationBarTrailing)` containing multiple buttons.",
+    "Option4": "Using `.trailingItems` modifier.",
+    "Answer": "A `ToolbarItemGroup(placement: .navigationBarTrailing)` containing multiple buttons."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `ScrollViewTargetBehavior` (iOS 17+)?",
+    "Option1": "A modifier to control scroll speed.",
+    "Option2": "A protocol that allows you to define custom snapping behavior for `ScrollView` when it finishes scrolling.",
+    "Option3": "A modifier to disable bounce.",
+    "Option4": "A modifier to detect scroll position.",
+    "Answer": "A protocol that allows you to define custom snapping behavior for `ScrollView` when it finishes scrolling."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `scrollIndicators(_:)` modifier (iOS 16+)?",
+    "Option1": "To disable scrolling entirely.",
+    "Option2": "To control the visibility of scroll indicators (scroll bars) in scrollable views.",
+    "Option3": "To change the color of scroll views.",
+    "Option4": "To detect when scroll indicators appear.",
+    "Answer": "To control the visibility of scroll indicators (scroll bars) in scrollable views."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `safeAreaPadding(_:)` (iOS 17+)?",
+    "Option1": "To ignore safe area insets.",
+    "Option2": "To apply padding that automatically accounts for the safe area of the device.",
+    "Option3": "To add fixed padding that ignores safe area.",
+    "Option4": "To set the background color of the safe area.",
+    "Answer": "To apply padding that automatically accounts for the safe area of the device."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is a `HorizontalEdge` or `VerticalEdge` in SwiftUI?",
+    "Option1": "Enums used for defining boundaries of a view.",
+    "Option2": "Enums used to specify an edge (leading, trailing, top, bottom) when applying certain modifiers like `padding` or `safeAreaInset`.",
+    "Option3": "Enums used for defining alignments.",
+    "Option4": "Enums used for defining scroll directions.",
+    "Answer": "Enums used to specify an edge (leading, trailing, top, bottom) when applying certain modifiers like `padding` or `safeAreaInset`."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `resizable()` modifier for `Image`?",
+    "Option1": "Allows the image to be stretched or compressed to fit its container.",
+    "Option2": "Keeps the image at its original size.",
+    "Option3": "Crops the image to fit.",
+    "Option4": "Changes the image's resolution.",
+    "Answer": "Allows the image to be stretched or compressed to fit its container."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is `aspectRatio(contentMode:)` modifier for `Image`?",
+    "Option1": "Forces the image to fill the available space.",
+    "Option2": "Maintains the image's original aspect ratio while scaling it to fit or fill a container.",
+    "Option3": "Crops the image.",
+    "Option4": "Rotates the image.",
+    "Answer": "Maintains the image's original aspect ratio while scaling it to fit or fill a container."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `clipped()` modifier?",
+    "Option1": "Expands a view's content beyond its bounds.",
+    "Option2": "Clips the content of a view to its defined frame, hiding anything that extends outside.",
+    "Option3": "Adds a border around a view.",
+    "Option4": "Rounds the corners of a view.",
+    "Answer": "Clips the content of a view to its defined frame, hiding anything that extends outside."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `overlay(_:alignment:)` modifier?",
+    "Option1": "Places a view underneath the current view.",
+    "Option2": "Places a view on top of the current view, allowing for custom content like badges or indicators.",
+    "Option3": "Adds a background to a view.",
+    "Option4": "Applies a shadow to a view.",
+    "Answer": "Places a view on top of the current view, allowing for custom content like badges or indicators."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `background(_:alignment:)` modifier?",
+    "Option1": "Places a view on top of the current view.",
+    "Option2": "Places a view behind the current view, often used for custom backgrounds or fills.",
+    "Option3": "Adds padding to a view.",
+    "Option4": "Applies a border to a view.",
+    "Answer": "Places a view behind the current view, often used for custom backgrounds or fills."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `mask(_:alignment:)` modifier?",
+    "Option1": "Applies a color filter to a view.",
+    "Option2": "Uses the alpha channel of another view (the mask) to determine which parts of the original view are visible.",
+    "Option3": "Hides a view completely.",
+    "Option4": "Creates a blurred effect on a view.",
+    "Answer": "Uses the alpha channel of another view (the mask) to determine which parts of the original view are visible."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `sheet(isPresented:onDismiss:content:)`?",
+    "Option1": "A modifier for displaying an alert.",
+    "Option2": "A modifier to present a modal view that slides up from the bottom of the screen.",
+    "Option3": "A modifier to push a view onto a navigation stack.",
+    "Option4": "A modifier for full-screen cover.",
+    "Answer": "A modifier to present a modal view that slides up from the bottom of the screen."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `popover(isPresented:attachmentAnchor:arrowEdge:content:)`?",
+    "Option1": "A modifier for full-screen covers.",
+    "Option2": "A modifier to present a floating view that appears above other content, typically originating from a specific anchor point.",
+    "Option3": "A modifier for alert dialogs.",
+    "Option4": "A modifier for bottom sheets.",
+    "Answer": "A modifier to present a floating view that appears above other content, typically originating from a specific anchor point."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `ListStyle` used for?",
+    "Option1": "To define the data source for a List.",
+    "Option2": "To customize the visual appearance of a `List` (e.g., grouped, inset grouped, plain).",
+    "Option3": "To change the scroll behavior of a List.",
+    "Option4": "To add sections to a List.",
+    "Answer": "To customize the visual appearance of a `List` (e.g., grouped, inset grouped, plain)."
+  },
+  {
+    "question_no.": 202,
+    "Question": "Which ListStyle creates sections with a distinct background and rounded corners?",
+    "Option1": ".plain",
+    "Option2": ".grouped",
+    "Option3": ".insetGrouped",
+    "Option4": ".sidebar",
+    "Answer": ".grouped"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `Section { ... } header: { ... }` used for in `List`?",
+    "Option1": "To define the main content of the List.",
+    "Option2": "To group related rows within a `List` and provide an optional header and footer.",
+    "Option3": "To create a sticky header for the entire List.",
+    "Option4": "To create a scrollable area within the List.",
+    "Answer": "To group related rows within a `List` and provide an optional header and footer."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is a `ToolbarItemPlacement`?",
+    "Option1": "A modifier for toolbar items.",
+    "Option2": "An enumeration that specifies where a `ToolbarItem` should be placed within a system bar (e.g., navigation bar, keyboard).",
+    "Option3": "A type of toolbar button.",
+    "Option4": "A property of a toolbar.",
+    "Answer": "An enumeration that specifies where a `ToolbarItem` should be placed within a system bar (e.g., navigation bar, keyboard)."
+  }
+]

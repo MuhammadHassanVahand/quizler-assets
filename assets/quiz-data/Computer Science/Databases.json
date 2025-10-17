@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is a database?",
+    "Option1": "A type of operating system",
+    "Option2": "An organized collection of structured information, or data, typically stored electronically in a computer system.",
+    "Option3": "A programming language",
+    "Option4": "A hardware component of a computer",
+    "Answer": "An organized collection of structured information, or data, typically stored electronically in a computer system."
+  },
+  {
+    "question_no.": 2,
+    "Question": "What does DBMS stand for?",
+    "Option1": "Data Binary Management System",
+    "Option2": "Database Management System",
+    "Option3": "Digital Base Module System",
+    "Option4": "Data Backup & Migration System",
+    "Answer": "Database Management System"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which of the following is NOT a type of database model?",
+    "Option1": "Relational",
+    "Option2": "Hierarchical",
+    "Option3": "Volatile",
+    "Option4": "Network",
+    "Answer": "Volatile"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the most widely used type of database today?",
+    "Option1": "Network database",
+    "Option2": "Object-oriented database",
+    "Option3": "Relational database",
+    "Option4": "Hierarchical database",
+    "Answer": "Relational database"
+  },
+  {
+    "question_no.": 5,
+    "Question": "In a relational database, what is a 'table'?",
+    "Option1": "A single piece of data",
+    "Option2": "A collection of related data organized into rows and columns.",
+    "Option3": "A user interface element",
+    "Option4": "A program that manages data",
+    "Answer": "A collection of related data organized into rows and columns."
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is a 'row' in a database table typically called?",
+    "Option1": "Field",
+    "Option2": "Attribute",
+    "Option3": "Record",
+    "Option4": "Column",
+    "Answer": "Record"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is a 'column' in a database table typically called?",
+    "Option1": "Tuple",
+    "Option2": "Record",
+    "Option3": "Entity",
+    "Option4": "Field or Attribute",
+    "Answer": "Field or Attribute"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is a 'primary key' in a relational database?",
+    "Option1": "A column that can contain duplicate values",
+    "Option2": "A column or set of columns that uniquely identifies each row in a table.",
+    "Option3": "A key used for encryption",
+    "Option4": "A link to another table",
+    "Answer": "A column or set of columns that uniquely identifies each row in a table."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is a 'foreign key' in a relational database?",
+    "Option1": "A key that identifies a foreign table",
+    "Option2": "A column or set of columns in one table that refers to the primary key in another table, establishing a link between them.",
+    "Option3": "A key used to sort data",
+    "Option4": "A unique identifier within a single table",
+    "Answer": "A column or set of columns in one table that refers to the primary key in another table, establishing a link between them."
+  },
+  {
+    "question_no.": 10,
+    "Question": "What does SQL stand for?",
+    "Option1": "Structured Question Language",
+    "Option2": "Standard Query Logic",
+    "Option3": "Structured Query Language",
+    "Option4": "Simple Query Language",
+    "Answer": "Structured Query Language"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which SQL command is used to retrieve data from a database?",
+    "Option1": "UPDATE",
+    "Option2": "INSERT",
+    "Option3": "SELECT",
+    "Option4": "DELETE",
+    "Answer": "SELECT"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which SQL command is used to add new rows of data to a table?",
+    "Option1": "ADD",
+    "Option2": "CREATE",
+    "Option3": "INSERT INTO",
+    "Option4": "UPDATE",
+    "Answer": "INSERT INTO"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which SQL command is used to modify existing data in a table?",
+    "Option1": "ALTER",
+    "Option2": "MODIFY",
+    "Option3": "UPDATE",
+    "Option4": "CHANGE",
+    "Answer": "UPDATE"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which SQL command is used to remove rows from a table?",
+    "Option1": "REMOVE",
+    "Option2": "DROP",
+    "Option3": "ERASE",
+    "Option4": "DELETE FROM",
+    "Answer": "DELETE FROM"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'query' in the context of databases?",
+    "Option1": "A database backup file",
+    "Option2": "A request for data or information from a database table or combination of tables.",
+    "Option3": "A type of database software",
+    "Option4": "A security setting",
+    "Answer": "A request for data or information from a database table or combination of tables."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is 'Normalization' in database design?",
+    "Option1": "The process of making data redundant",
+    "Option2": "The process of organizing columns and tables in a relational database to minimize data redundancy and improve data integrity.",
+    "Option3": "The process of adding more tables",
+    "Option4": "The process of encrypting data",
+    "Answer": "The process of organizing columns and tables in a relational database to minimize data redundancy and improve data integrity."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the purpose of the 'WHERE' clause in a SELECT statement?",
+    "Option1": "To sort the results",
+    "Option2": "To group the results",
+    "Option3": "To filter the rows that meet a specified condition.",
+    "Option4": "To join tables",
+    "Answer": "To filter the rows that meet a specified condition."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What does 'JOIN' operation do in SQL?",
+    "Option1": "Combines rows from two or more tables based on a related column between them.",
+    "Option2": "Adds new columns to a table",
+    "Option3": "Merges two databases into one",
+    "Option4": "Deletes duplicate rows",
+    "Answer": "Combines rows from two or more tables based on a related column between them."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is an 'Inner Join'?",
+    "Option1": "Returns all rows from both tables",
+    "Option2": "Returns only the rows that have matching values in both tables.",
+    "Option3": "Returns all rows from the left table, and the matching rows from the right table",
+    "Option4": "Returns all rows from the right table, and the matching rows from the left table",
+    "Answer": "Returns only the rows that have matching values in both tables."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Left Join' (or LEFT OUTER JOIN)?",
+    "Option1": "Returns only the rows that have matching values in both tables.",
+    "Option2": "Returns all rows from the left table, and the matching rows from the right table. If there is no match, NULL is returned for columns from the right table.",
+    "Option3": "Returns all rows from the right table, and the matching rows from the left table.",
+    "Option4": "Returns all rows from both tables.",
+    "Answer": "Returns all rows from the left table, and the matching rows from the right table. If there is no match, NULL is returned for columns from the right table."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'Right Join' (or RIGHT OUTER JOIN)?",
+    "Option1": "Returns all rows from the left table, and the matching rows from the right table.",
+    "Option2": "Returns only the rows that have matching values in both tables.",
+    "Option3": "Returns all rows from the right table, and the matching rows from the left table. If there is no match, NULL is returned for columns from the left table.",
+    "Option4": "Returns all rows from both tables.",
+    "Answer": "Returns all rows from the right table, and the matching rows from the left table. If there is no match, NULL is returned for columns from the left table."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'Full Join' (or FULL OUTER JOIN)?",
+    "Option1": "Returns only the rows that have matching values in both tables.",
+    "Option2": "Returns all rows when there is a match in one of the tables.",
+    "Option3": "Returns all rows when there is a match in either the left (table1) or the right (table2) table records.",
+    "Option4": "Returns only rows with no matches.",
+    "Answer": "Returns all rows when there is a match in either the left (table1) or the right (table2) table records."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'indexing' in databases?",
+    "Option1": "A method for encrypting data",
+    "Option2": "A data structure technique used to quickly locate and access data in a database table without having to search every row.",
+    "Option3": "A way to backup data",
+    "Option4": "A process of adding new data",
+    "Answer": "A data structure technique used to quickly locate and access data in a database table without having to search every row."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a disadvantage of using too many indexes?",
+    "Option1": "They speed up all operations.",
+    "Option2": "They can slow down data modification operations (INSERT, UPDATE, DELETE) and consume additional storage space.",
+    "Option3": "They make queries more complex.",
+    "Option4": "They reduce data security.",
+    "Answer": "They can slow down data modification operations (INSERT, UPDATE, DELETE) and consume additional storage space."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'data integrity'?",
+    "Option1": "The speed of data access",
+    "Option2": "The overall completeness, accuracy, and consistency of data.",
+    "Option3": "The encryption of data",
+    "Option4": "The amount of data stored",
+    "Answer": "The overall completeness, accuracy, and consistency of data."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is a 'transaction' in a database?",
+    "Option1": "A single SQL command",
+    "Option2": "A sequence of operations performed as a single logical unit of work; either all operations succeed or all fail.",
+    "Option3": "A backup process",
+    "Option4": "A report generation",
+    "Answer": "A sequence of operations performed as a single logical unit of work; either all operations succeed or all fail."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What are the ACID properties in database transactions?",
+    "Option1": "Availability, Consistency, Isolation, Durability",
+    "Option2": "Atomicity, Consistency, Isolation, Durability",
+    "Option3": "Accuracy, Completeness, Integrity, Durability",
+    "Option4": "Automated, Controlled, Isolated, Distributed",
+    "Answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What does 'Atomicity' (in ACID) mean?",
+    "Option1": "Transactions are processed concurrently.",
+    "Option2": "A transaction must be treated as a single, indivisible unit of work; either all of its operations are completed, or none are.",
+    "Option3": "Data remains consistent after a transaction.",
+    "Option4": "Changes made by committed transactions are permanent.",
+    "Answer": "A transaction must be treated as a single, indivisible unit of work; either all of its operations are completed, or none are."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What does 'Consistency' (in ACID) mean?",
+    "Option1": "Transactions are isolated from each other.",
+    "Option2": "A transaction brings the database from one valid state to another, maintaining all defined rules and constraints.",
+    "Option3": "Transactions are atomic.",
+    "Option4": "Changes made by committed transactions are permanent.",
+    "Answer": "A transaction brings the database from one valid state to another, maintaining all defined rules and constraints."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What does 'Isolation' (in ACID) mean?",
+    "Option1": "Transactions can see intermediate states of other transactions.",
+    "Option2": "Concurrent execution of transactions results in a system state that would be obtained if transactions were executed sequentially.",
+    "Option3": "Transactions are atomic and consistent.",
+    "Option4": "Changes made by committed transactions are permanent.",
+    "Answer": "Concurrent execution of transactions results in a system state that would be obtained if transactions were executed sequentially."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What does 'Durability' (in ACID) mean?",
+    "Option1": "Transactions are consistent.",
+    "Option2": "Once a transaction has been committed, it will remain committed even in the event of power loss, crashes, or errors.",
+    "Option3": "Transactions are isolated.",
+    "Option4": "Transactions are atomic.",
+    "Answer": "Once a transaction has been committed, it will remain committed even in the event of power loss, crashes, or errors."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is a 'Database Schema'?",
+    "Option1": "The data stored in the database",
+    "Option2": "The logical design or structure of the entire database, describing how the data is organized and the relationships between tables.",
+    "Option3": "A database backup file",
+    "Option4": "A user interface for the database",
+    "Answer": "The logical design or structure of the entire database, describing how the data is organized and the relationships between tables."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Data Redundancy'?",
+    "Option1": "Storing data only once",
+    "Option2": "Duplication of data, which can lead to inconsistencies if not properly managed.",
+    "Option3": "Ensuring data integrity",
+    "Option4": "Efficient data storage",
+    "Answer": "Duplication of data, which can lead to inconsistencies if not properly managed."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is a 'Data Model'?",
+    "Option1": "A specific piece of data",
+    "Option2": "An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities.",
+    "Option3": "A type of database software",
+    "Option4": "A report generated from data",
+    "Answer": "An abstract model that organizes elements of data and standardizes how they relate to one another and to the properties of real-world entities."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'Entity-Relationship (ER) Model' used for?",
+    "Option1": "To query data from a database",
+    "Option2": "To design a relational database visually, representing entities and their relationships.",
+    "Option3": "To optimize database performance",
+    "Option4": "To encrypt database connections",
+    "Answer": "To design a relational database visually, representing entities and their relationships."
+  },
+  {
+    "question_no.": 36,
+    "Question": "In an ER model, what does an 'entity' represent?",
+    "Option1": "A relationship between tables",
+    "Option2": "A real-world object or concept about which data is stored (e.g., a person, a place, an event).",
+    "Option3": "A specific piece of data",
+    "Option4": "A database system",
+    "Answer": "A real-world object or concept about which data is stored (e.g., a person, a place, an event)."
+  },
+  {
+    "question_no.": 37,
+    "Question": "In an ER model, what does an 'attribute' represent?",
+    "Option1": "A relationship between entities",
+    "Option2": "A property or characteristic of an entity (e.g., an employee's name, a product's price).",
+    "Option3": "An entity itself",
+    "Option4": "A query",
+    "Answer": "A property or characteristic of an entity (e.g., an employee's name, a product's price)."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'one-to-many' relationship in databases?",
+    "Option1": "Each entity in table A relates to exactly one entity in table B.",
+    "Option2": "Each entity in table A can relate to multiple entities in table B, but each entity in table B relates to at most one entity in table A.",
+    "Option3": "Each entity in table A can relate to multiple entities in table B, and vice-versa.",
+    "Option4": "No relationship exists.",
+    "Answer": "Each entity in table A can relate to multiple entities in table B, but each entity in table B relates to at most one entity in table A."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'many-to-many' relationship in databases?",
+    "Option1": "Each entity in table A relates to exactly one entity in table B.",
+    "Option2": "Each entity in table A can relate to multiple entities in table B, and each entity in table B can relate to multiple entities in table A.",
+    "Option3": "Each entity in table A relates to at most one entity in table B.",
+    "Option4": "Only one relationship can exist.",
+    "Answer": "Each entity in table A can relate to multiple entities in table B, and each entity in table B can relate to multiple entities in table A."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'bridge table' (or junction table) used for?",
+    "Option1": "To store temporary data.",
+    "Option2": "To resolve a many-to-many relationship into two one-to-many relationships.",
+    "Option3": "To combine data from multiple tables directly.",
+    "Option4": "To improve query performance.",
+    "Answer": "To resolve a many-to-many relationship into two one-to-many relationships."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is a 'view' in a database?",
+    "Option1": "A physical table that stores data.",
+    "Option2": "A virtual table based on the result-set of a SQL query, providing a customized view of the data from one or more tables.",
+    "Option3": "A backup of the database.",
+    "Option4": "A graphical user interface.",
+    "Answer": "A virtual table based on the result-set of a SQL query, providing a customized view of the data from one or more tables."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the benefit of using views?",
+    "Option1": "Increased data redundancy.",
+    "Option2": "Simplified complex queries, enhanced security by restricting access to certain columns/rows, and improved data independence.",
+    "Option3": "Slower query execution.",
+    "Option4": "Reduced data integrity.",
+    "Answer": "Simplified complex queries, enhanced security by restricting access to certain columns/rows, and improved data independence."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is a 'Stored Procedure'?",
+    "Option1": "A single SQL statement.",
+    "Option2": "A prepared SQL code that you can save and reuse, allowing for better performance, security, and maintainability.",
+    "Option3": "A database backup.",
+    "Option4": "A database table.",
+    "Answer": "A prepared SQL code that you can save and reuse, allowing for better performance, security, and maintainability."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is a 'Trigger' in a database?",
+    "Option1": "A manual action to update data.",
+    "Option2": "A special type of stored procedure that automatically executes or 'triggers' when a specific event (like INSERT, UPDATE, DELETE) occurs on a table.",
+    "Option3": "A way to backup the database.",
+    "Option4": "A report generator.",
+    "Answer": "A special type of stored procedure that automatically executes or 'triggers' when a specific event (like INSERT, UPDATE, DELETE) occurs on a table."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Data Definition Language' (DDL) in SQL?",
+    "Option1": "Commands for retrieving data.",
+    "Option2": "Commands used to define, modify, or delete database structures (e.g., CREATE TABLE, ALTER TABLE, DROP TABLE).",
+    "Option3": "Commands for manipulating data.",
+    "Option4": "Commands for controlling access to data.",
+    "Answer": "Commands used to define, modify, or delete database structures (e.g., CREATE TABLE, ALTER TABLE, DROP TABLE)."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Data Manipulation Language' (DML) in SQL?",
+    "Option1": "Commands for defining database structures.",
+    "Option2": "Commands used to manage data within database objects (e.g., SELECT, INSERT, UPDATE, DELETE).",
+    "Option3": "Commands for controlling access to data.",
+    "Option4": "Commands for committing transactions.",
+    "Answer": "Commands used to manage data within database objects (e.g., SELECT, INSERT, UPDATE, DELETE)."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Data Control Language' (DCL) in SQL?",
+    "Option1": "Commands for manipulating data.",
+    "Option2": "Commands used to manage permissions and access rights to the database (e.g., GRANT, REVOKE).",
+    "Option3": "Commands for defining database structures.",
+    "Option4": "Commands for managing transactions.",
+    "Answer": "Commands used to manage permissions and access rights to the database (e.g., GRANT, REVOKE)."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'Transaction Control Language' (TCL) in SQL?",
+    "Option1": "Commands for defining database structures.",
+    "Option2": "Commands used to manage transactions within a database (e.g., COMMIT, ROLLBACK, SAVEPOINT).",
+    "Option3": "Commands for retrieving data.",
+    "Option4": "Commands for controlling access to data.",
+    "Answer": "Commands used to manage transactions within a database (e.g., COMMIT, ROLLBACK, SAVEPOINT)."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'COMMIT' command used for in SQL?",
+    "Option1": "To undo a transaction.",
+    "Option2": "To save all changes made by the current transaction permanently to the database.",
+    "Option3": "To remove data from the database.",
+    "Option4": "To start a new transaction.",
+    "Answer": "To save all changes made by the current transaction permanently to the database."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'ROLLBACK' command used for in SQL?",
+    "Option1": "To save a transaction.",
+    "Option2": "To undo all changes made by the current transaction, restoring the database to its state before the transaction began.",
+    "Option3": "To create a new table.",
+    "Option4": "To retrieve data.",
+    "Answer": "To undo all changes made by the current transaction, restoring the database to its state before the transaction began."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is a 'Database Administrator' (DBA)?",
+    "Option1": "A person who designs user interfaces.",
+    "Option2": "A professional responsible for the installation, configuration, upgrade, administration, monitoring, and maintenance of databases.",
+    "Option3": "A person who writes application code.",
+    "Option4": "A customer support representative.",
+    "Answer": "A professional responsible for the installation, configuration, upgrade, administration, monitoring, and maintenance of databases."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'Data Warehousing'?",
+    "Option1": "Storing data for immediate transactions.",
+    "Option2": "The process of collecting and managing data from varied sources to provide meaningful business insights, often for analytical purposes.",
+    "Option3": "A method of data encryption.",
+    "Option4": "A type of network storage.",
+    "Answer": "The process of collecting and managing data from varied sources to provide meaningful business insights, often for analytical purposes."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Data Mining'?",
+    "Option1": "Collecting raw data.",
+    "Option2": "The process of discovering patterns, insights, and knowledge from large datasets using various techniques including statistics, AI, and machine learning.",
+    "Option3": "Building database schemas.",
+    "Option4": "Designing user interfaces.",
+    "Answer": "The process of discovering patterns, insights, and knowledge from large datasets using various techniques including statistics, AI, and machine learning."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Big Data'?",
+    "Option1": "Data that is always numerical.",
+    "Option2": "Extremely large datasets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions.",
+    "Option3": "Data stored on a single computer.",
+    "Option4": "Small, unstructured datasets.",
+    "Answer": "Extremely large datasets that may be analyzed computationally to reveal patterns, trends, and associations, especially relating to human behavior and interactions."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What are the '3 Vs' commonly associated with Big Data?",
+    "Option1": "Volume, Value, Veracity",
+    "Option2": "Velocity, Volume, Variety",
+    "Option3": "Visibility, Velocity, Veracity",
+    "Option4": "Versatility, Value, Variety",
+    "Answer": "Velocity, Volume, Variety"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What does 'Volume' refer to in Big Data?",
+    "Option1": "The speed at which data is generated.",
+    "Option2": "The immense amount of data generated every second.",
+    "Option3": "The different forms of data.",
+    "Option4": "The accuracy of data.",
+    "Answer": "The immense amount of data generated every second."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What does 'Velocity' refer to in Big Data?",
+    "Option1": "The amount of data generated.",
+    "Option2": "The speed at which data is generated, processed, and analyzed.",
+    "Option3": "The different forms of data.",
+    "Option4": "The accuracy of data.",
+    "Answer": "The speed at which data is generated, processed, and analyzed."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does 'Variety' refer to in Big Data?",
+    "Option1": "The amount of data generated.",
+    "Option2": "The speed at which data is generated.",
+    "Option3": "The different forms of data, including structured, semi-structured, and unstructured data.",
+    "Option4": "The accuracy of data.",
+    "Answer": "The different forms of data, including structured, semi-structured, and unstructured data."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'NoSQL' database?",
+    "Option1": "A database that only uses SQL.",
+    "Option2": "A non-relational database that provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases.",
+    "Option3": "A database for small datasets only.",
+    "Option4": "A database without any schema.",
+    "Answer": "A non-relational database that provides a mechanism for storage and retrieval of data that is modeled in means other than the tabular relations used in relational databases."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is a key characteristic of NoSQL databases compared to relational databases?",
+    "Option1": "Strict schema enforcement.",
+    "Option2": "High scalability and flexibility for handling large volumes of unstructured or semi-structured data.",
+    "Option3": "Always uses ACID transactions.",
+    "Option4": "Primarily uses SQL for querying.",
+    "Answer": "High scalability and flexibility for handling large volumes of unstructured or semi-structured data."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which of the following is an example of a NoSQL database?",
+    "Option1": "MySQL",
+    "Option2": "Oracle",
+    "Option3": "MongoDB",
+    "Option4": "PostgreSQL",
+    "Answer": "MongoDB"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is a 'document database' (a type of NoSQL)?",
+    "Option1": "Stores data in tables.",
+    "Option2": "Stores data in flexible, semi-structured 'documents' (e.g., JSON, BSON, XML).",
+    "Option3": "Stores data in key-value pairs.",
+    "Option4": "Stores data in graphs.",
+    "Answer": "Stores data in flexible, semi-structured 'documents' (e.g., JSON, BSON, XML)."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is a 'key-value store' (a type of NoSQL)?",
+    "Option1": "Stores data in structured tables.",
+    "Option2": "A simple database that stores data as a collection of key-value pairs, where each key is unique.",
+    "Option3": "Stores data as documents.",
+    "Option4": "Stores data with complex relationships.",
+    "Answer": "A simple database that stores data as a collection of key-value pairs, where each key is unique."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is a 'column-family database' (a type of NoSQL)?",
+    "Option1": "Stores data in traditional rows and columns.",
+    "Option2": "Stores data in column families, which are groups of columns that are frequently accessed together.",
+    "Option3": "Stores data as documents.",
+    "Option4": "Stores data as graphs.",
+    "Answer": "Stores data in column families, which are groups of columns that are frequently accessed together."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is a 'graph database' (a type of NoSQL)?",
+    "Option1": "Stores data in tables.",
+    "Option2": "Stores data in a graph structure with nodes, edges, and properties, ideal for interconnected data.",
+    "Option3": "Stores data as key-value pairs.",
+    "Option4": "Stores data as JSON documents.",
+    "Answer": "Stores data in a graph structure with nodes, edges, and properties, ideal for interconnected data."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'CAP Theorem' in distributed systems?",
+    "Option1": "Consistency, Availability, Performance",
+    "Option2": "Consistency, Availability, Partition Tolerance",
+    "Option3": "Concurrency, Atomicity, Partition Tolerance",
+    "Option4": "Consistency, Accuracy, Partition Tolerance",
+    "Answer": "Consistency, Availability, Partition Tolerance"
+  },
+  {
+    "question_no.": 67,
+    "Question": "According to CAP Theorem, a distributed database can only guarantee which two of the three properties at any given time?",
+    "Option1": "Consistency and Performance",
+    "Option2": "Availability and Performance",
+    "Option3": "Any two of Consistency, Availability, Partition Tolerance",
+    "Option4": "Consistency and Durability",
+    "Answer": "Any two of Consistency, Availability, Partition Tolerance"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does 'Partition Tolerance' (in CAP Theorem) mean?",
+    "Option1": "The system can tolerate data loss.",
+    "Option2": "The system continues to operate despite network partitions (communication failures between nodes).",
+    "Option3": "The system can handle large amounts of data.",
+    "Option4": "The system has high availability.",
+    "Answer": "The system continues to operate despite network partitions (communication failures between nodes)."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What does 'Eventual Consistency' mean in distributed databases?",
+    "Option1": "All data is immediately consistent across all nodes.",
+    "Option2": "After some time, all data replicas will converge to the same consistent state, assuming no new updates are made.",
+    "Option3": "Data is never consistent.",
+    "Option4": "Consistency is not important.",
+    "Answer": "After some time, all data replicas will converge to the same consistent state, assuming no new updates are made."
+  },
+  {
+    "question_no.": 70,
+    "Question": "Which type of database typically prioritizes high availability and partition tolerance over strong consistency?",
+    "Option1": "Relational databases",
+    "Option2": "NoSQL databases",
+    "Option3": "In-memory databases",
+    "Option4": "Mainframe databases",
+    "Answer": "NoSQL databases"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Sharding' in databases?",
+    "Option1": "A backup strategy.",
+    "Option2": "A method of horizontal partitioning of data across multiple database instances, used to scale a database.",
+    "Option3": "A type of database indexing.",
+    "Option4": "A process of database normalization.",
+    "Answer": "A method of horizontal partitioning of data across multiple database instances, used to scale a database."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Replication' in databases?",
+    "Option1": "Storing data in a single location.",
+    "Option2": "The process of creating and maintaining multiple copies of data on different servers to improve availability, fault tolerance, and performance.",
+    "Option3": "Removing duplicate data.",
+    "Option4": "Compressing data for storage.",
+    "Answer": "The process of creating and maintaining multiple copies of data on different servers to improve availability, fault tolerance, and performance."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Database Migration'?",
+    "Option1": "The process of optimizing database queries.",
+    "Option2": "The process of transferring data between different database systems, or upgrading a database to a newer version.",
+    "Option3": "Creating a new database from scratch.",
+    "Option4": "Backing up a database.",
+    "Answer": "The process of transferring data between different database systems, or upgrading a database to a newer version."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Database Security'?",
+    "Option1": "Only protecting against physical damage.",
+    "Option2": "The measures taken to protect the database from unauthorized access, use, alteration, or destruction.",
+    "Option3": "Only encrypting data.",
+    "Option4": "Only granting full access to all users.",
+    "Answer": "The measures taken to protect the database from unauthorized access, use, alteration, or destruction."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Access Control' in database security?",
+    "Option1": "Allowing everyone to access all data.",
+    "Option2": "Restricting who can access the database, what data they can access, and what operations they can perform.",
+    "Option3": "Monitoring database performance.",
+    "Option4": "Backing up database data.",
+    "Answer": "Restricting who can access the database, what data they can access, and what operations they can perform."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'Encryption' in database security?",
+    "Option1": "Making data easier to read.",
+    "Option2": "The process of converting data into a coded format to prevent unauthorized access.",
+    "Option3": "Compressing data for storage.",
+    "Option4": "Indexing data for faster retrieval.",
+    "Answer": "The process of converting data into a coded format to prevent unauthorized access."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is a 'Database Backup'?",
+    "Option1": "Deleting old data.",
+    "Option2": "A copy of the database's data and structure, created to enable recovery in case of data loss or corruption.",
+    "Option3": "Optimizing database performance.",
+    "Option4": "A security feature that prevents access.",
+    "Answer": "A copy of the database's data and structure, created to enable recovery in case of data loss or corruption."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Database Recovery'?",
+    "Option1": "Deleting the database.",
+    "Option2": "The process of restoring a database to a consistent state after a failure, typically using backups and transaction logs.",
+    "Option3": "Changing the database schema.",
+    "Option4": "Adding new data to the database.",
+    "Answer": "The process of restoring a database to a consistent state after a failure, typically using backups and transaction logs."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is a 'Transaction Log'?",
+    "Option1": "A record of database queries.",
+    "Option2": "A chronological record of all changes made to the database, used for recovery and auditing.",
+    "Option3": "A list of database users.",
+    "Option4": "A file that stores table definitions.",
+    "Answer": "A chronological record of all changes made to the database, used for recovery and auditing."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Concurrency Control'?",
+    "Option1": "Allowing only one user at a time.",
+    "Option2": "Mechanisms that ensure that when multiple transactions are executing concurrently, their execution produces the same result as if they were executed sequentially.",
+    "Option3": "Optimizing single-user performance.",
+    "Option4": "Managing database backups.",
+    "Answer": "Mechanisms that ensure that when multiple transactions are executing concurrently, their execution produces the same result as if they were executed sequentially."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is a 'Deadlock' in databases?",
+    "Option1": "A database that is not running.",
+    "Option2": "A situation where two or more transactions are waiting indefinitely for each other to release locks.",
+    "Option3": "A corrupted database file.",
+    "Option4": "A type of database error message.",
+    "Answer": "A situation where two or more transactions are waiting indefinitely for each other to release locks."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is a 'Lock' in concurrency control?",
+    "Option1": "A security measure for users.",
+    "Option2": "A mechanism that prevents simultaneous access to data items by multiple transactions, ensuring data integrity during concurrent operations.",
+    "Option3": "A backup file.",
+    "Option4": "A type of index.",
+    "Answer": "A mechanism that prevents simultaneous access to data items by multiple transactions, ensuring data integrity during concurrent operations."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is a 'Shared Lock' (or Read Lock)?",
+    "Option1": "Allows multiple transactions to read data concurrently but prevents any writes.",
+    "Option2": "Allows only one transaction to write data.",
+    "Option3": "Prevents all access to data.",
+    "Option4": "Is used for database schema changes.",
+    "Answer": "Allows multiple transactions to read data concurrently but prevents any writes."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is an 'Exclusive Lock' (or Write Lock)?",
+    "Option1": "Allows multiple transactions to read data.",
+    "Option2": "Allows only one transaction to access the data item (read or write) and prevents any other transaction from acquiring any type of lock on that item.",
+    "Option3": "Is used for database backups.",
+    "Option4": "Does not prevent concurrent reads.",
+    "Answer": "Allows only one transaction to access the data item (read or write) and prevents any other transaction from acquiring any type of lock on that item."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Two-Phase Locking (2PL)' protocol?",
+    "Option1": "A protocol for database backups.",
+    "Option2": "A concurrency control protocol that ensures serializability by dividing a transaction's locking behavior into two phases: growing and shrinking.",
+    "Option3": "A protocol for data encryption.",
+    "Option4": "A protocol for network communication.",
+    "Answer": "A concurrency control protocol that ensures serializability by dividing a transaction's locking behavior into two phases: growing and shrinking."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the 'Growing Phase' in 2PL?",
+    "Option1": "The phase where a transaction releases locks.",
+    "Option2": "The phase where a transaction can acquire new locks but cannot release any.",
+    "Option3": "The phase where a transaction commits.",
+    "Option4": "The phase where a transaction rolls back.",
+    "Answer": "The phase where a transaction can acquire new locks but cannot release any."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the 'Shrinking Phase' in 2PL?",
+    "Option1": "The phase where a transaction can acquire new locks.",
+    "Option2": "The phase where a transaction can release existing locks but cannot acquire any new ones.",
+    "Option3": "The phase where a transaction starts.",
+    "Option4": "The phase where a transaction is rolled back.",
+    "Answer": "The phase where a transaction can release existing locks but cannot acquire any new ones."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is 'Database Tuning'?",
+    "Option1": "Changing the database design frequently.",
+    "Option2": "The process of optimizing the performance of a database system, often involving schema changes, query optimization, and hardware adjustments.",
+    "Option3": "Installing new database software.",
+    "Option4": "Creating database backups.",
+    "Answer": "The process of optimizing the performance of a database system, often involving schema changes, query optimization, and hardware adjustments."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Query Optimization'?",
+    "Option1": "Writing queries quickly.",
+    "Option2": "The process by which a database management system (DBMS) attempts to determine the most efficient way to execute a given query.",
+    "Option3": "Running queries without any conditions.",
+    "Option4": "Encrypting query results.",
+    "Answer": "The process by which a database management system (DBMS) attempts to determine the most efficient way to execute a given query."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Denormalization' in database design?",
+    "Option1": "The process of breaking down tables into smaller ones.",
+    "Option2": "Intentionally introducing redundancy into a database schema to improve query performance, often done after normalization.",
+    "Option3": "Eliminating all redundancy.",
+    "Option4": "A type of database indexing.",
+    "Answer": "Intentionally introducing redundancy into a database schema to improve query performance, often done after normalization."
+  },
+  {
+    "question_no.": 91,
+    "Question": "When might denormalization be useful?",
+    "Option1": "When data integrity is the highest priority.",
+    "Option2": "In data warehousing or analytical databases where read performance is critical and write operations are less frequent.",
+    "Option3": "For OLTP (Online Transaction Processing) systems.",
+    "Option4": "When disk space is severely limited.",
+    "Answer": "In data warehousing or analytical databases where read performance is critical and write operations are less frequent."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Online Transaction Processing (OLTP)'?",
+    "Option1": "Systems designed for analytical queries on large datasets.",
+    "Option2": "Systems designed for managing transaction-oriented applications, typically characterized by high concurrency and frequent, short transactions (e.g., e-commerce, banking).",
+    "Option3": "Systems for data archival.",
+    "Option4": "Systems for data mining.",
+    "Answer": "Systems designed for managing transaction-oriented applications, typically characterized by high concurrency and frequent, short transactions (e.g., e-commerce, banking)."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Online Analytical Processing (OLAP)'?",
+    "Option1": "Systems designed for managing transaction-oriented applications.",
+    "Option2": "Systems designed for complex analytical queries on large datasets, often used for business intelligence and reporting.",
+    "Option3": "Systems for real-time data entry.",
+    "Option4": "Systems for data normalization.",
+    "Answer": "Systems designed for complex analytical queries on large datasets, often used for business intelligence and reporting."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is a 'Data Mart'?",
+    "Option1": "A large, centralized data warehouse.",
+    "Option2": "A subset of a data warehouse, typically designed for a specific department or business function.",
+    "Option3": "A retail store for data.",
+    "Option4": "A temporary storage for data.",
+    "Answer": "A subset of a data warehouse, typically designed for a specific department or business function."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'ETL' in data warehousing?",
+    "Option1": "Encryption, Transformation, Loading",
+    "Option2": "Extract, Transform, Load",
+    "Option3": "Execute, Test, Log",
+    "Option4": "Eliminate, Track, Locate",
+    "Answer": "Extract, Transform, Load"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the 'Extract' phase in ETL?",
+    "Option1": "Loading data into the target system.",
+    "Option2": "Collecting data from various source systems.",
+    "Option3": "Transforming data into a consistent format.",
+    "Option4": "Analyzing extracted data.",
+    "Answer": "Collecting data from various source systems."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the 'Transform' phase in ETL?",
+    "Option1": "Collecting data from sources.",
+    "Option2": "Cleaning, reformatting, and integrating data to ensure it's consistent and compatible with the target system.",
+    "Option3": "Loading data into the target system.",
+    "Option4": "Analyzing transformed data.",
+    "Answer": "Cleaning, reformatting, and integrating data to ensure it's consistent and compatible with the target system."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the 'Load' phase in ETL?",
+    "Option1": "Cleaning and transforming data.",
+    "Option2": "Placing the transformed data into the target data warehouse or data mart.",
+    "Option3": "Collecting data from source systems.",
+    "Option4": "Analyzing loaded data.",
+    "Answer": "Placing the transformed data into the target data warehouse or data mart."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'Database Cursor'?",
+    "Option1": "A pointer to a database file.",
+    "Option2": "A control structure that enables traversal over the records in a database, allowing for row-by-row processing of query results.",
+    "Option3": "A type of database index.",
+    "Option4": "A graphical element in a GUI.",
+    "Answer": "A control structure that enables traversal over the records in a database, allowing for row-by-row processing of query results."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is a 'Constraint' in a database?",
+    "Option1": "A type of query.",
+    "Option2": "A rule enforced on data columns in a table, used to limit the type of data that can go into a table, ensuring the accuracy and integrity of the data.",
+    "Option3": "A database backup.",
+    "Option4": "A user privilege.",
+    "Answer": "A rule enforced on data columns in a table, used to limit the type of data that can go into a table, ensuring the accuracy and integrity of the data."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is a 'NOT NULL' constraint?",
+    "Option1": "Ensures that all values in a column are unique.",
+    "Option2": "Ensures that a column cannot have a NULL value.",
+    "Option3": "Ensures that values are always numerical.",
+    "Option4": "Ensures values are always positive.",
+    "Answer": "Ensures that a column cannot have a NULL value."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is a 'UNIQUE' constraint?",
+    "Option1": "Ensures that all values in a column are not NULL.",
+    "Option2": "Ensures that all values in a column are different.",
+    "Option3": "Ensures values are numerical.",
+    "Option4": "Ensures values are always positive.",
+    "Answer": "Ensures that all values in a column are different."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a 'CHECK' constraint?",
+    "Option1": "Ensures that a column contains only unique values.",
+    "Option2": "Ensures that all values in a column satisfy a specific condition.",
+    "Option3": "Ensures that a column is not NULL.",
+    "Option4": "Ensures that values refer to a primary key in another table.",
+    "Answer": "Ensures that all values in a column satisfy a specific condition."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Referential Integrity'?",
+    "Option1": "Ensuring data is always unique.",
+    "Option2": "A database concept that ensures that relationships between tables are valid, and that you don't accidentally delete or change related data.",
+    "Option3": "Ensuring data is always encrypted.",
+    "Option4": "Ensuring data is always available.",
+    "Answer": "A database concept that ensures that relationships between tables are valid, and that you don't accidentally delete or change related data."
+  },
+  {
+    "question_no.": 105,
+    "Question": "How is referential integrity typically enforced?",
+    "Option1": "Using primary keys only.",
+    "Option2": "Using foreign keys.",
+    "Option3": "Using unique constraints.",
+    "Option4": "Using check constraints.",
+    "Answer": "Using foreign keys."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is a 'composite key'?",
+    "Option1": "A key that is not unique.",
+    "Option2": "A primary key that consists of two or more attributes (columns) that collectively and uniquely identify a record in a table.",
+    "Option3": "A foreign key.",
+    "Option4": "A single column key.",
+    "Answer": "A primary key that consists of two or more attributes (columns) that collectively and uniquely identify a record in a table."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a 'candidate key'?",
+    "Option1": "Any column in a table.",
+    "Option2": "A superkey for which no proper subset of its attributes is also a superkey; a minimal superkey.",
+    "Option3": "A foreign key that links to multiple tables.",
+    "Option4": "A key used for indexing.",
+    "Answer": "A superkey for which no proper subset of its attributes is also a superkey; a minimal superkey."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is a 'superkey'?",
+    "Option1": "A key that identifies multiple rows.",
+    "Option2": "A set of one or more attributes (columns) that, taken collectively, allow us to identify uniquely a row in the relation (table).",
+    "Option3": "A key used for encryption.",
+    "Option4": "A foreign key.",
+    "Answer": "A set of one or more attributes (columns) that, taken collectively, allow us to identify uniquely a row in the relation (table)."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is an 'alternate key'?",
+    "Option1": "The primary key of a table.",
+    "Option2": "Any candidate key that is not chosen as the primary key.",
+    "Option3": "A foreign key.",
+    "Option4": "A key used for sorting data.",
+    "Answer": "Any candidate key that is not chosen as the primary key."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'First Normal Form (1NF)'?",
+    "Option1": "All attributes are atomic (indivisible) and there are no repeating groups.",
+    "Option2": "Eliminates partial dependencies.",
+    "Option3": "Eliminates transitive dependencies.",
+    "Option4": "Handles multi-valued attributes.",
+    "Answer": "All attributes are atomic (indivisible) and there are no repeating groups."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Second Normal Form (2NF)'?",
+    "Option1": "It must be in 1NF and all non-key attributes must be fully functionally dependent on the primary key (no partial dependencies).",
+    "Option2": "Eliminates transitive dependencies.",
+    "Option3": "Handles multi-valued attributes.",
+    "Option4": "No repeating groups.",
+    "Answer": "It must be in 1NF and all non-key attributes must be fully functionally dependent on the primary key (no partial dependencies)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Third Normal Form (3NF)'?",
+    "Option1": "It must be in 2NF and there should be no transitive dependencies (i.e., no non-key attribute should be dependent on another non-key attribute).",
+    "Option2": "Eliminates partial dependencies.",
+    "Option3": "Handles multi-valued attributes.",
+    "Option4": "All attributes are atomic.",
+    "Answer": "It must be in 2NF and there should be no transitive dependencies (i.e., no non-key attribute should be dependent on another non-key attribute)."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Boyce-Codd Normal Form (BCNF)'?",
+    "Option1": "A less strict form of 3NF.",
+    "Option2": "A stronger version of 3NF, where for every non-trivial functional dependency X → Y, X is a superkey.",
+    "Option3": "Only applies to databases with no foreign keys.",
+    "Option4": "Primarily focuses on multi-valued dependencies.",
+    "Answer": "A stronger version of 3NF, where for every non-trivial functional dependency X → Y, X is a superkey."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What are 'functional dependencies' in database normalization?",
+    "Option1": "Relationships between tables.",
+    "Option2": "A relationship between attributes in a relation, where one attribute or set of attributes determines the value of another attribute or set of attributes.",
+    "Option3": "Dependencies on external software.",
+    "Option4": "Dependencies on primary keys only.",
+    "Answer": "A relationship between attributes in a relation, where one attribute or set of attributes determines the value of another attribute or set of attributes."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'database consistency'?",
+    "Option1": "The speed of data updates.",
+    "Option2": "The state where all data in the database adheres to defined rules, constraints, and relationships.",
+    "Option3": "The redundancy of data.",
+    "Option4": "The physical location of data.",
+    "Answer": "The state where all data in the database adheres to defined rules, constraints, and relationships."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'data independence'?",
+    "Option1": "The ability to access data without security permissions.",
+    "Option2": "The ability to modify the schema at one level of the database system without affecting the schema at a higher level.",
+    "Option3": "The ability to store data without a database.",
+    "Option4": "The ability to duplicate data across multiple systems.",
+    "Answer": "The ability to modify the schema at one level of the database system without affecting the schema at a higher level."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'logical data independence'?",
+    "Option1": "Changing the physical storage of data.",
+    "Option2": "The ability to change the conceptual schema (logical view of data) without needing to change external schemas or application programs.",
+    "Option3": "Changing the user interface without affecting the database.",
+    "Option4": "Changing the operating system without affecting the database.",
+    "Answer": "The ability to change the conceptual schema (logical view of data) without needing to change external schemas or application programs."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'physical data independence'?",
+    "Option1": "Changing the logical schema of data.",
+    "Option2": "The ability to change the physical storage schema (how data is physically stored) without needing to change the logical schema or application programs.",
+    "Option3": "Changing the database programming language.",
+    "Option4": "Changing the network configuration.",
+    "Answer": "The ability to change the physical storage schema (how data is physically stored) without needing to change the logical schema or application programs."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Database Concurrency'?",
+    "Option1": "Only one user can access the database at a time.",
+    "Option2": "Multiple users or processes accessing and modifying the database simultaneously.",
+    "Option3": "The speed of database operations.",
+    "Option4": "The size of the database.",
+    "Answer": "Multiple users or processes accessing and modifying the database simultaneously."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What are 'Dirty Reads'?",
+    "Option1": "Reading committed data.",
+    "Option2": "A phenomenon where a transaction reads uncommitted data written by another transaction.",
+    "Option3": "Reading data that is encrypted.",
+    "Option4": "Reading data from a corrupted database.",
+    "Answer": "A phenomenon where a transaction reads uncommitted data written by another transaction."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What are 'Non-Repeatable Reads'?",
+    "Option1": "When a transaction reads data that has not changed.",
+    "Option2": "A phenomenon where a transaction reads the same row twice and gets different values each time because another transaction modified the data between the reads.",
+    "Option3": "Reading data from a different table.",
+    "Option4": "Reading data that is not indexed.",
+    "Answer": "A phenomenon where a transaction reads the same row twice and gets different values each time because another transaction modified the data between the reads."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What are 'Phantom Reads'?",
+    "Option1": "When a transaction reads data that has been deleted.",
+    "Option2": "A phenomenon where a transaction re-executes a query and finds that the set of rows satisfying a condition has changed due to another transaction inserting or deleting rows.",
+    "Option3": "Reading data that does not exist.",
+    "Option4": "Reading data from a backup.",
+    "Answer": "A phenomenon where a transaction re-executes a query and finds that the set of rows satisfying a condition has changed due to another transaction inserting or deleting rows."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Isolation Levels' in databases?",
+    "Option1": "The number of users who can access the database.",
+    "Option2": "The degree to which a transaction must be isolated from the effects of other concurrent transactions, impacting concurrency and data integrity.",
+    "Option3": "The physical separation of databases.",
+    "Option4": "The level of security for data access.",
+    "Answer": "The degree to which a transaction must be isolated from the effects of other concurrent transactions, impacting concurrency and data integrity."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the 'Read Uncommitted' isolation level?",
+    "Option1": "Highest isolation, no dirty reads.",
+    "Option2": "Lowest isolation level, allows transactions to read uncommitted changes made by other transactions (dirty reads).",
+    "Option3": "Prevents non-repeatable reads.",
+    "Option4": "Prevents phantom reads.",
+    "Answer": "Lowest isolation level, allows transactions to read uncommitted changes made by other transactions (dirty reads)."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the 'Read Committed' isolation level?",
+    "Option1": "Allows dirty reads.",
+    "Option2": "Prevents dirty reads by ensuring a transaction only reads data that has been committed, but may still experience non-repeatable reads and phantom reads.",
+    "Option3": "Prevents all concurrency issues.",
+    "Option4": "Is the highest isolation level.",
+    "Answer": "Prevents dirty reads by ensuring a transaction only reads data that has been committed, but may still experience non-repeatable reads and phantom reads."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the 'Repeatable Read' isolation level?",
+    "Option1": "Allows dirty reads and non-repeatable reads.",
+    "Option2": "Prevents dirty reads and non-repeatable reads by holding read locks on data, but may still experience phantom reads.",
+    "Option3": "Only prevents dirty reads.",
+    "Option4": "Is the lowest isolation level.",
+    "Answer": "Prevents dirty reads and non-repeatable reads by holding read locks on data, but may still experience phantom reads."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the 'Serializable' isolation level?",
+    "Option1": "Allows all types of concurrency issues.",
+    "Option2": "Highest isolation level, ensuring that concurrent transactions produce the same result as if they were executed sequentially, preventing dirty reads, non-repeatable reads, and phantom reads.",
+    "Option3": "Only prevents phantom reads.",
+    "Option4": "Is the most common isolation level for performance.",
+    "Answer": "Highest isolation level, ensuring that concurrent transactions produce the same result as if they were executed sequentially, preventing dirty reads, non-repeatable reads, and phantom reads."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Which isolation level is generally the most performant but offers the least consistency?",
+    "Option1": "Serializable",
+    "Option2": "Repeatable Read",
+    "Option3": "Read Committed",
+    "Option4": "Read Uncommitted",
+    "Answer": "Read Uncommitted"
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which isolation level is generally the least performant but offers the highest consistency?",
+    "Option1": "Read Uncommitted",
+    "Option2": "Read Committed",
+    "Option3": "Repeatable Read",
+    "Option4": "Serializable",
+    "Answer": "Serializable"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Database Sharding' also known as?",
+    "Option1": "Vertical scaling.",
+    "Option2": "Horizontal partitioning.",
+    "Option3": "Data redundancy.",
+    "Option4": "Database replication.",
+    "Answer": "Horizontal partitioning."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Vertical Scaling' in databases?",
+    "Option1": "Adding more servers to the database.",
+    "Option2": "Increasing the power (CPU, RAM, storage) of a single server.",
+    "Option3": "Distributing data across multiple servers.",
+    "Option4": "Creating multiple copies of data.",
+    "Answer": "Increasing the power (CPU, RAM, storage) of a single server."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Horizontal Scaling' in databases?",
+    "Option1": "Increasing the power of a single server.",
+    "Option2": "Adding more servers to the system and distributing the workload and data across them.",
+    "Option3": "Improving the speed of individual queries.",
+    "Option4": "Reducing the number of database users.",
+    "Answer": "Adding more servers to the system and distributing the workload and data across them."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Master-Slave Replication'?",
+    "Option1": "All servers can handle read and write operations.",
+    "Option2": "One database server acts as the 'master' and handles all write operations, while 'slave' servers maintain copies of the data and handle read operations.",
+    "Option3": "Only one server holds all data.",
+    "Option4": "Data is distributed equally among all servers.",
+    "Answer": "One database server acts as the 'master' and handles all write operations, while 'slave' servers maintain copies of the data and handle read operations."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Multi-Master Replication'?",
+    "Option1": "Only one server can handle writes.",
+    "Option2": "Multiple database servers can act as masters, allowing write operations to be performed on any master, and changes are synchronized among them.",
+    "Option3": "No servers can handle writes.",
+    "Option4": "All servers are read-only.",
+    "Answer": "Multiple database servers can act as masters, allowing write operations to be performed on any master, and changes are synchronized among them."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is a common challenge with multi-master replication?",
+    "Option1": "Reduced read performance.",
+    "Option2": "Data consistency issues due to potential conflicts when concurrent writes occur on different masters.",
+    "Option3": "Limited availability.",
+    "Option4": "Increased storage requirements.",
+    "Answer": "Data consistency issues due to potential conflicts when concurrent writes occur on different masters."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'database partitioning'?",
+    "Option1": "Creating multiple copies of the entire database.",
+    "Option2": "Dividing a single logical database into smaller, more manageable pieces (partitions), which can improve performance, manageability, and availability.",
+    "Option3": "Encrypting database data.",
+    "Option4": "Connecting different databases.",
+    "Answer": "Dividing a single logical database into smaller, more manageable pieces (partitions), which can improve performance, manageability, and availability."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'horizontal partitioning'?",
+    "Option1": "Dividing a table by columns.",
+    "Option2": "Dividing a table into multiple smaller tables based on rows (e.g., separating customer data by region).",
+    "Option3": "Creating multiple databases for different purposes.",
+    "Option4": "Only applies to small tables.",
+    "Answer": "Dividing a table into multiple smaller tables based on rows (e.g., separating customer data by region)."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'vertical partitioning'?",
+    "Option1": "Dividing a table by rows.",
+    "Option2": "Dividing a table into multiple smaller tables based on columns (e.g., separating frequently accessed columns from rarely accessed ones).",
+    "Option3": "Creating copies of tables.",
+    "Option4": "Only applies to large tables.",
+    "Answer": "Dividing a table into multiple smaller tables based on columns (e.g., separating frequently accessed columns from rarely accessed ones)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Database Federation'?",
+    "Option1": "Merging multiple databases into a single physical database.",
+    "Option2": "A type of distributed database system that integrates multiple disparate databases into a single logical database, without physically moving data.",
+    "Option3": "Creating backups of databases.",
+    "Option4": "Encrypting data across multiple databases.",
+    "Answer": "A type of distributed database system that integrates multiple disparate databases into a single logical database, without physically moving data."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is a 'Data Lake'?",
+    "Option1": "A highly structured database for financial data.",
+    "Option2": "A centralized repository that stores a vast amount of raw data in its native format, including structured, semi-structured, and unstructured data.",
+    "Option3": "A small, analytical database.",
+    "Option4": "A traditional relational database.",
+    "Answer": "A centralized repository that stores a vast amount of raw data in its native format, including structured, semi-structured, and unstructured data."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the key difference between a Data Lake and a Data Warehouse?",
+    "Option1": "Data Lake stores only structured data.",
+    "Option2": "Data Lake stores raw, varied data for future use; Data Warehouse stores processed, structured data for immediate analysis.",
+    "Option3": "Data Warehouse stores only unstructured data.",
+    "Option4": "They are the same concept.",
+    "Answer": "Data Lake stores raw, varied data for future use; Data Warehouse stores processed, structured data for immediate analysis."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Data Governance'?",
+    "Option1": "Only managing database backups.",
+    "Option2": "The overall management of the availability, usability, integrity, and security of data in an enterprise.",
+    "Option3": "A type of database software.",
+    "Option4": "A specific programming language for databases.",
+    "Answer": "The overall management of the availability, usability, integrity, and security of data in an enterprise."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is a 'Database Incident Response Plan'?",
+    "Option1": "A plan for routine database maintenance.",
+    "Option2": "A documented set of procedures for handling database security breaches, data corruption, or system failures.",
+    "Option3": "A plan for designing new databases.",
+    "Option4": "A plan for optimizing query performance.",
+    "Answer": "A documented set of procedures for handling database security breaches, data corruption, or system failures."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'SQL Injection'?",
+    "Option1": "A method for securely connecting to a database.",
+    "Option2": "A web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database, potentially allowing them to view, modify, or delete data.",
+    "Option3": "A technique for optimizing SQL queries.",
+    "Option4": "A type of database backup.",
+    "Answer": "A web security vulnerability that allows an attacker to interfere with the queries that an application makes to its database, potentially allowing them to view, modify, or delete data."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is a common defense against SQL Injection?",
+    "Option1": "Using stronger passwords.",
+    "Option2": "Using prepared statements with parameterized queries.",
+    "Option3": "Making the database read-only.",
+    "Option4": "Storing all data in plain text.",
+    "Answer": "Using prepared statements with parameterized queries."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Role-Based Access Control (RBAC)' in databases?",
+    "Option1": "Granting specific permissions to individual users.",
+    "Option2": "A method of regulating access to data based on the roles of individual users within an organization.",
+    "Option3": "Allowing everyone full access to the database.",
+    "Option4": "Controlling access based on the time of day.",
+    "Answer": "A method of regulating access to data based on the roles of individual users within an organization."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Two-Factor Authentication (2FA)' in database access?",
+    "Option1": "Using two different passwords.",
+    "Option2": "An extra layer of security that requires two different forms of identification before granting access to the database.",
+    "Option3": "A single password with two parts.",
+    "Option4": "Requiring a physical key for access.",
+    "Answer": "An extra layer of security that requires two different forms of identification before granting access to the database."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Data Masking'?",
+    "Option1": "Encrypting all data.",
+    "Option2": "Concealing sensitive data with realistic but false data, used for testing, development, or training environments.",
+    "Option3": "Making data permanently unreadable.",
+    "Option4": "Compressing data for storage.",
+    "Answer": "Concealing sensitive data with realistic but false data, used for testing, development, or training environments."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Database Auditing'?",
+    "Option1": "Making changes to database tables.",
+    "Option2": "Tracking and logging database activities, including who accessed what data, when, and what changes were made, for security and compliance.",
+    "Option3": "Optimizing database queries.",
+    "Option4": "Creating database backups.",
+    "Answer": "Tracking and logging database activities, including who accessed what data, when, and what changes were made, for security and compliance."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is a 'Database Whitepaper'?",
+    "Option1": "A type of database report.",
+    "Option2": "A document that outlines the technical aspects, architecture, and features of a specific database system or technology.",
+    "Option3": "A list of database errors.",
+    "Option4": "A user manual for database software.",
+    "Answer": "A document that outlines the technical aspects, architecture, and features of a specific database system or technology."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'database virtualization'?",
+    "Option1": "Creating a single, physical copy of a database.",
+    "Option2": "Decoupling the database layer from the underlying hardware and operating system, allowing for flexible resource allocation and management.",
+    "Option3": "Only for non-relational databases.",
+    "Option4": "A method of database encryption.",
+    "Answer": "Decoupling the database layer from the underlying hardware and operating system, allowing for flexible resource allocation and management."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Cloud Database'?",
+    "Option1": "A database stored on local servers.",
+    "Option2": "A database service built and accessed through a cloud platform, offering scalability, flexibility, and managed services.",
+    "Option3": "A database for weather data.",
+    "Option4": "A database that only stores unstructured data.",
+    "Answer": "A database service built and accessed through a cloud platform, offering scalability, flexibility, and managed services."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Database as a Service (DBaaS)'?",
+    "Option1": "Users manage all aspects of the database.",
+    "Option2": "A cloud computing service model where a third-party provider hosts and manages a database, freeing users from complex administrative tasks.",
+    "Option3": "A database that runs on a personal computer.",
+    "Option4": "A database that requires manual installation.",
+    "Answer": "A cloud computing service model where a third-party provider hosts and manages a database, freeing users from complex administrative tasks."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is a 'Data Lakehouse'?",
+    "Option1": "A traditional data warehouse.",
+    "Option2": "A new data architecture that combines the low-cost storage and flexibility of a data lake with the data management and performance features of a data warehouse.",
+    "Option3": "A database for streaming data only.",
+    "Option4": "A database exclusively for IoT devices.",
+    "Answer": "A new data architecture that combines the low-cost storage and flexibility of a data lake with the data management and performance features of a data warehouse."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Distributed Database'?",
+    "Option1": "A database stored on a single server.",
+    "Option2": "A database in which storage devices are not all attached to a common processing unit, allowing data to be stored across multiple physical locations.",
+    "Option3": "A database that only handles local transactions.",
+    "Option4": "A database that only supports a single user.",
+    "Answer": "A database in which storage devices are not all attached to a common processing unit, allowing data to be stored across multiple physical locations."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Homogeneous Distributed Database'?",
+    "Option1": "A distributed database where different nodes use different DBMS software.",
+    "Option2": "A distributed database where all nodes use the same DBMS software and data models.",
+    "Option3": "A database stored in a single location.",
+    "Option4": "A database that is not distributed.",
+    "Answer": "A distributed database where all nodes use the same DBMS software and data models."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Heterogeneous Distributed Database'?",
+    "Option1": "A distributed database where all nodes use the same DBMS software.",
+    "Option2": "A distributed database where different nodes may use different DBMS software, data models, or operating systems.",
+    "Option3": "A database that is not distributed.",
+    "Option4": "A database with no replication.",
+    "Answer": "A distributed database where different nodes may use different DBMS software, data models, or operating systems."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Two-Phase Commit (2PC)' protocol?",
+    "Option1": "A simple backup process.",
+    "Option2": "A distributed algorithm that ensures all participating nodes in a distributed transaction either commit or abort the transaction together.",
+    "Option3": "A protocol for single database transactions.",
+    "Option4": "A method for data encryption.",
+    "Answer": "A distributed algorithm that ensures all participating nodes in a distributed transaction either commit or abort the transaction together."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the 'Prepare Phase' in Two-Phase Commit?",
+    "Option1": "All nodes commit their changes.",
+    "Option2": "The coordinator asks all participating nodes if they are ready to commit the transaction. Each node replies with a 'yes' or 'no' vote.",
+    "Option3": "All nodes roll back their changes.",
+    "Option4": "The transaction is aborted.",
+    "Answer": "The coordinator asks all participating nodes if they are ready to commit the transaction. Each node replies with a 'yes' or 'no' vote."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the 'Commit Phase' in Two-Phase Commit?",
+    "Option1": "The coordinator gathers votes and decides whether to commit or abort the transaction, then instructs all nodes accordingly.",
+    "Option2": "Each node makes its decision independently.",
+    "Option3": "The transaction always rolls back.",
+    "Option4": "The transaction is always committed.",
+    "Answer": "The coordinator gathers votes and decides whether to commit or abort the transaction, then instructs all nodes accordingly."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is a 'Timestamp' in database concurrency control?",
+    "Option1": "A type of database index.",
+    "Option2": "A unique identifier assigned to each transaction or data item, used to order operations and ensure serializability.",
+    "Option3": "A measure of database size.",
+    "Option4": "A security feature.",
+    "Answer": "A unique identifier assigned to each transaction or data item, used to order operations and ensure serializability."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Optimistic Concurrency Control'?",
+    "Option1": "Assumes conflicts are frequent and uses locks.",
+    "Option2": "Assumes conflicts are rare, allows transactions to proceed without immediate locking, and checks for conflicts only at commit time.",
+    "Option3": "Does not allow concurrent transactions.",
+    "Option4": "Only for read-only transactions.",
+    "Answer": "Assumes conflicts are rare, allows transactions to proceed without immediate locking, and checks for conflicts only at commit time."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Pessimistic Concurrency Control'?",
+    "Option1": "Assumes conflicts are rare.",
+    "Option2": "Assumes conflicts are frequent and uses locks to prevent concurrent transactions from interfering with each other from the start.",
+    "Option3": "Does not use any locking mechanisms.",
+    "Option4": "Only for analytical queries.",
+    "Answer": "Assumes conflicts are frequent and uses locks to prevent concurrent transactions from interfering with each other from the start."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Database Mirroring'?",
+    "Option1": "A type of data compression.",
+    "Option2": "A high-availability and disaster recovery solution for SQL Server databases, maintaining a copy of a database on a separate server.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A technique for database normalization.",
+    "Answer": "A high-availability and disaster recovery solution for SQL Server databases, maintaining a copy of a database on a separate server."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Log Shipping'?",
+    "Option1": "A method for transmitting data over a network.",
+    "Option2": "A process of automatically backing up transaction logs from a primary server and restoring them onto a secondary server, for disaster recovery.",
+    "Option3": "A type of database indexing.",
+    "Option4": "A method for database optimization.",
+    "Answer": "A process of automatically backing up transaction logs from a primary server and restoring them onto a secondary server, for disaster recovery."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Database Caching'?",
+    "Option1": "Storing data permanently on disk.",
+    "Option2": "Storing frequently accessed data in faster memory (cache) to reduce the number of times data needs to be retrieved from slower storage.",
+    "Option3": "Encrypting database backups.",
+    "Option4": "Creating new database tables.",
+    "Answer": "Storing frequently accessed data in faster memory (cache) to reduce the number of times data needs to be retrieved from slower storage."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is an 'In-Memory Database'?",
+    "Option1": "A database that stores data only on hard disk.",
+    "Option2": "A database system that primarily stores data in the computer's main memory (RAM) instead of on disk storage, for extremely fast performance.",
+    "Option3": "A database for archival purposes.",
+    "Option4": "A database that requires frequent backups.",
+    "Answer": "A database system that primarily stores data in the computer's main memory (RAM) instead of on disk storage, for extremely fast performance."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is a major challenge of in-memory databases?",
+    "Option1": "Slow data access.",
+    "Option2": "Data persistence and recovery in case of power loss, as RAM is volatile.",
+    "Option3": "High storage costs.",
+    "Option4": "Difficulty in querying data.",
+    "Answer": "Data persistence and recovery in case of power loss, as RAM is volatile."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'ACID Compliance' primarily found in?",
+    "Option1": "NoSQL databases",
+    "Option2": "Relational databases",
+    "Option3": "Data Lakes",
+    "Option4": "Key-value stores",
+    "Answer": "Relational databases"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'BASE' consistency model?",
+    "Option1": "A stricter model than ACID.",
+    "Option2": "A consistency model often used in NoSQL databases, standing for Basically Available, Soft state, Eventually consistent, prioritizing availability over immediate consistency.",
+    "Option3": "A model for relational databases.",
+    "Option4": "A model for data encryption.",
+    "Answer": "A consistency model often used in NoSQL databases, standing for Basically Available, Soft state, Eventually consistent, prioritizing availability over immediate consistency."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What does 'Basically Available' (in BASE) mean?",
+    "Option1": "The database is always fully consistent.",
+    "Option2": "The database is available most of the time, even during network partitions.",
+    "Option3": "The database is rarely available.",
+    "Option4": "The database is only available to a single user.",
+    "Answer": "The database is available most of the time, even during network partitions."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What does 'Soft State' (in BASE) mean?",
+    "Option1": "The state of the system changes only when a transaction commits.",
+    "Option2": "The state of the system may change over time, even without input, due to eventual consistency.",
+    "Option3": "The database is always in a hard, fixed state.",
+    "Option4": "The database is easily corrupted.",
+    "Answer": "The state of the system may change over time, even without input, due to eventual consistency."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What does 'Eventually consistent' (in BASE) mean?",
+    "Option1": "Data is immediately consistent.",
+    "Option2": "Data consistency is not a goal.",
+    "Option3": "After some time, all data replicas will converge to the same consistent state, given no new writes.",
+    "Option4": "Data consistency is only for read operations.",
+    "Answer": "After some time, all data replicas will converge to the same consistent state, given no new writes."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Polyglot Persistence'?",
+    "Option1": "Using only one type of database for all data.",
+    "Option2": "The practice of using multiple types of databases for different data storage needs within a single application or system.",
+    "Option3": "Storing data in multiple languages.",
+    "Option4": "A method for database encryption.",
+    "Answer": "The practice of using multiple types of databases for different data storage needs within a single application or system."
+  },
+  {
+    "question_no.": 175,
+    "Question": "When might 'Polyglot Persistence' be beneficial?",
+    "Option1": "For simple applications with uniform data.",
+    "Option2": "When an application has diverse data storage requirements (e.g., transactional data in RDBMS, social graph data in a graph DB, real-time data in a key-value store).",
+    "Option3": "To reduce overall system complexity.",
+    "Option4": "To eliminate the need for data backups.",
+    "Answer": "When an application has diverse data storage requirements (e.g., transactional data in RDBMS, social graph data in a graph DB, real-time data in a key-value store)."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is a 'Materialized View'?",
+    "Option1": "A virtual table based on a query result, always updated in real-time.",
+    "Option2": "A database object that stores the result of a query, similar to a view, but physically stores the data (often for performance optimization).",
+    "Option3": "A view that is never updated.",
+    "Option4": "A temporary table.",
+    "Answer": "A database object that stores the result of a query, similar to a view, but physically stores the data (often for performance optimization)."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is a 'Common Table Expression (CTE)' in SQL?",
+    "Option1": "A permanent table in the database.",
+    "Option2": "A temporary, named result set that you can reference within a single SELECT, INSERT, UPDATE, or DELETE statement.",
+    "Option3": "A type of stored procedure.",
+    "Option4": "A database index.",
+    "Answer": "A temporary, named result set that you can reference within a single SELECT, INSERT, UPDATE, or DELETE statement."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the 'HAVING' clause used for in SQL?",
+    "Option1": "To filter individual rows.",
+    "Option2": "To filter groups of rows based on aggregate functions.",
+    "Option3": "To sort the query results.",
+    "Option4": "To join multiple tables.",
+    "Answer": "To filter groups of rows based on aggregate functions."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the 'GROUP BY' clause used for in SQL?",
+    "Option1": "To filter rows.",
+    "Option2": "To group rows that have the same values in specified columns into summary rows.",
+    "Option3": "To sort the results.",
+    "Option4": "To limit the number of rows returned.",
+    "Answer": "To group rows that have the same values in specified columns into summary rows."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the 'ORDER BY' clause used for in SQL?",
+    "Option1": "To filter rows.",
+    "Option2": "To sort the result set of a query in ascending or descending order.",
+    "Option3": "To group rows.",
+    "Option4": "To join tables.",
+    "Answer": "To sort the result set of a query in ascending or descending order."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'DISTINCT' keyword used for in SQL SELECT statements?",
+    "Option1": "To count the number of rows.",
+    "Option2": "To return only unique (distinct) values.",
+    "Option3": "To sort the results.",
+    "Option4": "To filter rows based on a condition.",
+    "Answer": "To return only unique (distinct) values."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'TRUNCATE TABLE' command in SQL?",
+    "Option1": "Deletes specific rows from a table.",
+    "Option2": "Removes all rows from a table, but the table structure remains.",
+    "Option3": "Deletes the entire table from the database.",
+    "Option4": "Modifies the table structure.",
+    "Answer": "Removes all rows from a table, but the table structure remains."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'DROP TABLE' command in SQL?",
+    "Option1": "Removes all rows from a table.",
+    "Option2": "Deletes the entire table, including its structure and all its data, from the database.",
+    "Option3": "Modifies the table structure.",
+    "Option4": "Creates a new table.",
+    "Answer": "Deletes the entire table, including its structure and all its data, from the database."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'ALTER TABLE' command in SQL?",
+    "Option1": "Used to create new tables.",
+    "Option2": "Used to modify the structure of an existing table (e.g., add, delete, or modify columns).",
+    "Option3": "Used to insert data into a table.",
+    "Option4": "Used to delete data from a table.",
+    "Answer": "Used to modify the structure of an existing table (e.g., add, delete, or modify columns)."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is a 'Subquery' (or Inner Query) in SQL?",
+    "Option1": "A query that always runs independently.",
+    "Option2": "A query nested inside another SQL query, executing first and passing its result to the outer query.",
+    "Option3": "A type of stored procedure.",
+    "Option4": "A query that joins multiple tables.",
+    "Answer": "A query nested inside another SQL query, executing first and passing its result to the outer query."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is a 'Correlated Subquery'?",
+    "Option1": "A subquery that runs once.",
+    "Option2": "A subquery that depends on the outer query for its values and executes once for each row processed by the outer query.",
+    "Option3": "A subquery that only returns a single value.",
+    "Option4": "A subquery that is always faster than a join.",
+    "Answer": "A subquery that depends on the outer query for its values and executes once for each row processed by the outer query."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is a 'Non-Correlated Subquery'?",
+    "Option1": "A subquery that depends on the outer query.",
+    "Option2": "A subquery that can be executed independently of the outer query, and its result is then used by the outer query.",
+    "Option3": "A subquery that is always slower than a join.",
+    "Option4": "A subquery that processes data in real-time.",
+    "Answer": "A subquery that can be executed independently of the outer query, and its result is then used by the outer query."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is an 'Aggregate Function' in SQL?",
+    "Option1": "A function that operates on individual rows.",
+    "Option2": "A function that performs a calculation on a set of values (e.g., SUM, AVG, COUNT, MAX, MIN) and returns a single value.",
+    "Option3": "A function that returns a boolean value.",
+    "Option4": "A function that converts data types.",
+    "Answer": "A function that performs a calculation on a set of values (e.g., SUM, AVG, COUNT, MAX, MIN) and returns a single value."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What does 'COUNT(*)' do in SQL?",
+    "Option1": "Counts the number of non-null values in a column.",
+    "Option2": "Counts the total number of rows in a table, including rows with NULL values.",
+    "Option3": "Counts only distinct values.",
+    "Option4": "Sums all values in a column.",
+    "Answer": "Counts the total number of rows in a table, including rows with NULL values."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What does 'COUNT(column_name)' do in SQL?",
+    "Option1": "Counts all rows in the table.",
+    "Option2": "Counts the number of non-null values in the specified column.",
+    "Option3": "Counts only distinct values in the column.",
+    "Option4": "Sums all values in the column.",
+    "Answer": "Counts the number of non-null values in the specified column."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'UNION' operator in SQL?",
+    "Option1": "Combines columns from two or more tables.",
+    "Option2": "Combines the result-sets of two or more SELECT statements into a single result-set, removing duplicate rows.",
+    "Option3": "Returns only common rows between two SELECT statements.",
+    "Option4": "Adds new rows to a table.",
+    "Answer": "Combines the result-sets of two or more SELECT statements into a single result-set, removing duplicate rows."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'UNION ALL' operator in SQL?",
+    "Option1": "Combines the result-sets of two or more SELECT statements into a single result-set, including all duplicate rows.",
+    "Option2": "Combines columns from two or more tables.",
+    "Option3": "Returns only common rows between two SELECT statements.",
+    "Option4": "Removes all duplicate rows.",
+    "Answer": "Combines the result-sets of two or more SELECT statements into a single result-set, including all duplicate rows."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'INTERSECT' operator in SQL?",
+    "Option1": "Returns all rows from both queries.",
+    "Option2": "Returns only the rows that are common to both SELECT statements.",
+    "Option3": "Returns rows that are in the first query but not in the second.",
+    "Option4": "Adds new rows to a table.",
+    "Answer": "Returns only the rows that are common to both SELECT statements."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'EXCEPT' (or MINUS) operator in SQL?",
+    "Option1": "Returns rows common to both queries.",
+    "Option2": "Returns the rows that are in the first SELECT statement but not in the second SELECT statement.",
+    "Option3": "Combines all rows from both queries.",
+    "Option4": "Removes duplicate rows.",
+    "Answer": "Returns the rows that are in the first SELECT statement but not in the second SELECT statement."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is an 'Index Scan'?",
+    "Option1": "Reading every row in a table.",
+    "Option2": "Scanning through an index to find the required data, typically more efficient than a full table scan if the index is selective.",
+    "Option3": "A process of creating an index.",
+    "Option4": "A type of database backup.",
+    "Answer": "Scanning through an index to find the required data, typically more efficient than a full table scan if the index is selective."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is a 'Table Scan'?",
+    "Option1": "Reading data using an index.",
+    "Option2": "Reading every row in a table to find the desired data, usually inefficient for large tables without appropriate indexes.",
+    "Option3": "A process of creating a new table.",
+    "Option4": "A type of database join.",
+    "Answer": "Reading every row in a table to find the desired data, usually inefficient for large tables without appropriate indexes."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Read/Write Split' in database architecture?",
+    "Option1": "Storing data on separate disks.",
+    "Option2": "Separating read operations from write operations, typically by routing writes to a master database and reads to replica databases.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A type of database migration.",
+    "Answer": "Separating read operations from write operations, typically by routing writes to a master database and reads to replica databases."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is a 'Schema-on-Read' approach?",
+    "Option1": "Defining the data schema before storing data.",
+    "Option2": "A flexible approach where data is stored in its raw format and the schema is applied at the time of reading or querying the data (common in NoSQL and Data Lakes).",
+    "Option3": "A strict schema enforcement.",
+    "Option4": "A method for data normalization.",
+    "Answer": "A flexible approach where data is stored in its raw format and the schema is applied at the time of reading or querying the data (common in NoSQL and Data Lakes)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is a 'Schema-on-Write' approach?",
+    "Option1": "Applying schema at the time of reading data.",
+    "Option2": "A traditional approach where the data schema is defined and enforced before data is written to the database (common in relational databases).",
+    "Option3": "No schema is defined at all.",
+    "Option4": "Schema is only for unstructured data.",
+    "Answer": "A traditional approach where the data schema is defined and enforced before data is written to the database (common in relational databases)."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Database Catalog' or 'System Catalog'?",
+    "Option1": "A list of database users.",
+    "Option2": "A repository that stores metadata about the database objects (tables, views, indexes, users, etc.) and their structure.",
+    "Option3": "A database backup file.",
+    "Option4": "A file that stores all database queries.",
+    "Answer": "A repository that stores metadata about the database objects (tables, views, indexes, users, etc.) and their structure."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Data Dictionary'?",
+    "Option1": "A tool for data encryption.",
+    "Option2": "A centralized repository of information about data, such as meaning, relationships to other data, origin, usage, and format (often part of the database catalog).",
+    "Option3": "A physical database file.",
+    "Option4": "A program for querying data.",
+    "Answer": "A centralized repository of information about data, such as meaning, relationships to other data, origin, usage, and format (often part of the database catalog)."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Data Lineage'?",
+    "Option1": "Tracking the performance of database queries.",
+    "Option2": "The lifecycle of data, including its origin, where it moves over time, and what transformations it undergoes.",
+    "Option3": "The history of database backups.",
+    "Option4": "The number of users accessing data.",
+    "Answer": "The lifecycle of data, including its origin, where it moves over time, and what transformations it undergoes."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Database Replication Lag'?",
+    "Option1": "The time it takes to create a new database.",
+    "Option2": "The delay between when a write operation is committed to the master database and when that change is reflected in the replica databases.",
+    "Option3": "The time it takes to query a database.",
+    "Option4": "The time required for a database backup.",
+    "Answer": "The delay between when a write operation is committed to the master database and when that change is reflected in the replica databases."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Consistent Hashing' in distributed databases?",
+    "Option1": "A type of data encryption.",
+    "Option2": "A technique that minimizes reorganization of data when nodes are added or removed from a distributed system, used for distributed hash tables and sharding.",
+    "Option3": "A method for database backup.",
+    "Option4": "A process of data normalization.",
+    "Answer": "A technique that minimizes reorganization of data when nodes are added or removed from a distributed system, used for distributed hash tables and sharding."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Database Performance Monitoring'?",
+    "Option1": "Only checking disk space.",
+    "Option2": "The process of continually tracking and analyzing various metrics related to a database system's health, resource utilization, and query execution to ensure optimal performance.",
+    "Option3": "Only checking network speed.",
+    "Option4": "A method for encrypting data.",
+    "Answer": "The process of continually tracking and analyzing various metrics related to a database system's health, resource utilization, and query execution to ensure optimal performance."
+  }
+]

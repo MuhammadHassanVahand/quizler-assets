@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which tool is primarily used for network scanning and host discovery?",
+    "Option1": "Wireshark",
+    "Option2": "Nmap",
+    "Option3": "Metasploit",
+    "Option4": "Burp Suite",
+    "Answer": "Nmap"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the main purpose of Wireshark?",
+    "Option1": "Vulnerability scanning",
+    "Option2": "Packet sniffing and network protocol analysis",
+    "Option3": "Web application security testing",
+    "Option4": "Password cracking",
+    "Answer": "Packet sniffing and network protocol analysis"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which of the following is an open-source intrusion detection system (IDS)?",
+    "Option1": "Splunk",
+    "Option2": "Snort",
+    "Option3": "Nessus",
+    "Option4": "OpenVAS",
+    "Answer": "Snort"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What type of attack is `hping3` commonly used for?",
+    "Option1": "SQL Injection",
+    "Option2": "DoS/DDoS attacks and network testing",
+    "Option3": "Cross-Site Scripting (XSS)",
+    "Option4": "Man-in-the-Middle (MITM)",
+    "Answer": "DoS/DDoS attacks and network testing"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which tool is known for its ability to create custom TCP/IP packets?",
+    "Option1": "Netcat",
+    "Option2": "Scapy",
+    "Option3": "Ettercap",
+    "Option4": "Aircrack-ng",
+    "Answer": "Scapy"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the primary function of `Metasploit Framework`?",
+    "Option1": "Vulnerability assessment",
+    "Option2": "Exploitation and penetration testing",
+    "Option3": "Log analysis",
+    "Option4": "Network monitoring",
+    "Answer": "Exploitation and penetration testing"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which tool is used for performing Man-in-the-Middle attacks on wired LANs?",
+    "Option1": "Burp Suite",
+    "Option2": "Ettercap",
+    "Option3": "John the Ripper",
+    "Option4": "Hashcat",
+    "Answer": "Ettercap"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the main use case for `Nessus`?",
+    "Option1": "Password cracking",
+    "Option2": "Vulnerability scanning and management",
+    "Option3": "Packet analysis",
+    "Option4": "Wireless network auditing",
+    "Answer": "Vulnerability scanning and management"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which tool is a powerful command-line utility for reading from and writing to network connections using TCP or UDP?",
+    "Option1": "Curl",
+    "Option2": "Wget",
+    "Option3": "Netcat",
+    "Option4": "Ping",
+    "Answer": "Netcat"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is `OpenVAS` known for?",
+    "Option1": "Web application scanning",
+    "Option2": "Vulnerability scanning, similar to Nessus but open-source",
+    "Option3": "Malware analysis",
+    "Option4": "Traffic generation",
+    "Answer": "Vulnerability scanning, similar to Nessus but open-source"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which tool is a suite of wireless security tools used for breaking WEP/WPA/WPA2-PSK keys?",
+    "Option1": "Kismet",
+    "Option2": "Aircrack-ng",
+    "Option3": "Reaver",
+    "Option4": "Wash",
+    "Answer": "Aircrack-ng"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What does `Kismet` primarily do in wireless security?",
+    "Option1": "Cracks Wi-Fi passwords",
+    "Option2": "Wireless network detector, sniffer, and intrusion detection system",
+    "Option3": "Jams wireless signals",
+    "Option4": "Creates fake access points",
+    "Answer": "Wireless network detector, sniffer, and intrusion detection system"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which tool is commonly used for web application penetration testing, including proxying, scanning, and intrusion?",
+    "Option1": "Nmap",
+    "Option2": "Nikto",
+    "Option3": "Burp Suite",
+    "Option4": "Maltego",
+    "Answer": "Burp Suite"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the main function of `Nikto`?",
+    "Option1": "Network vulnerability scanning",
+    "Option2": "Web server scanner that performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/CGIs, outdated server versions, and version specific problems.",
+    "Option3": "Database vulnerability scanning",
+    "Option4": "Email server testing",
+    "Answer": "Web server scanner that performs comprehensive tests against web servers for multiple items, including over 6700 potentially dangerous files/CGIs, outdated server versions, and version specific problems."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which tool is used for cracking password hashes, supporting various hashing algorithms?",
+    "Option1": "Hydra",
+    "Option2": "Medusa",
+    "Option3": "John the Ripper",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is `Hashcat` primarily used for?",
+    "Option1": "Network analysis",
+    "Option2": "Password cracking (GPU-accelerated for speed)",
+    "Option3": "File system forensics",
+    "Option4": "Memory analysis",
+    "Answer": "Password cracking (GPU-accelerated for speed)"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which tool specializes in online password cracking against network services (e.g., SSH, FTP, HTTP)?",
+    "Option1": "John the Ripper",
+    "Option2": "Hashcat",
+    "Option3": "Hydra",
+    "Option4": "Crunch",
+    "Answer": "Hydra"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the purpose of `Maltego`?",
+    "Option1": "Packet analysis",
+    "Option2": "Open-source intelligence (OSINT) and reconnaissance tool for gathering and visualizing information from various sources.",
+    "Option3": "Network traffic generation",
+    "Option4": "Vulnerability exploitation",
+    "Answer": "Open-source intelligence (OSINT) and reconnaissance tool for gathering and visualizing information from various sources."
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which tool is commonly used for DNS reconnaissance and enumeration?",
+    "Option1": "Whois",
+    "Option2": "Dig",
+    "Option3": "Nslookup",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What does `theHarvester` focus on?",
+    "Option1": "Web application scanning",
+    "Option2": "OSINT to gather emails, subdomains, hosts, employee names, open ports, and banners from public sources.",
+    "Option3": "Network vulnerability scanning",
+    "Option4": "Wireless network auditing",
+    "Answer": "OSINT to gather emails, subdomains, hosts, employee names, open ports, and banners from public sources."
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which tool is used for brute-forcing login credentials for various network protocols?",
+    "Option1": "Nmap",
+    "Option2": "Aircrack-ng",
+    "Option3": "Hydra",
+    "Option4": "Wireshark",
+    "Answer": "Hydra"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is `Zenmap`?",
+    "Option1": "A command-line network scanner",
+    "Option2": "The official graphical user interface (GUI) for Nmap",
+    "Option3": "A wireless auditing tool",
+    "Option4": "A web application proxy",
+    "Answer": "The official graphical user interface (GUI) for Nmap"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which tool is used to capture and analyze packets on a network, providing a graphical interface?",
+    "Option1": "Tcpdump",
+    "Option2": "TShark",
+    "Option3": "Wireshark",
+    "Option4": "Netcat",
+    "Answer": "Wireshark"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the primary use of `tcpreplay`?",
+    "Option1": "Capturing live network traffic",
+    "Option2": "Replaying previously captured network traffic (pcap files) back onto a network for testing IDS/IPS or network performance.",
+    "Option3": "Analyzing encrypted traffic",
+    "Option4": "Generating random network traffic",
+    "Answer": "Replaying previously captured network traffic (pcap files) back onto a network for testing IDS/IPS or network performance."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which tool is an open-source web vulnerability scanner that helps find security flaws in web applications?",
+    "Option1": "Nessus",
+    "Option2": "OpenVAS",
+    "Option3": "OWASP ZAP (Zed Attack Proxy)",
+    "Option4": "Acunetix",
+    "Answer": "OWASP ZAP (Zed Attack Proxy)"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What does `sqlmap` automate?",
+    "Option1": "Cross-Site Scripting (XSS) attacks",
+    "Option2": "SQL injection and database takeover",
+    "Option3": "DDoS attacks",
+    "Option4": "File upload vulnerabilities",
+    "Answer": "SQL injection and database takeover"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Which tool is a powerful proxy server for intercepting, modifying, and analyzing HTTP/S traffic?",
+    "Option1": "Wireshark",
+    "Option2": "Burp Suite",
+    "Option3": "Nmap",
+    "Option4": "Netcat",
+    "Answer": "Burp Suite"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is `DirBuster` used for?",
+    "Option1": "Cracking passwords",
+    "Option2": "Brute-forcing directories and file names on web servers.",
+    "Option3": "Network mapping",
+    "Option4": "Wireless auditing",
+    "Answer": "Brute-forcing directories and file names on web servers."
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which tool is a comprehensive platform for penetration testing, including reconnaissance, vulnerability analysis, exploitation, and post-exploitation?",
+    "Option1": "Nessus",
+    "Option2": "Metasploit",
+    "Option3": "Wireshark",
+    "Option4": "Snort",
+    "Answer": "Metasploit"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the function of `Malwarebytes` in network security?",
+    "Option1": "Network vulnerability scanning",
+    "Option2": "Endpoint protection and malware removal for individual hosts on a network",
+    "Option3": "Firewall management",
+    "Option4": "Traffic analysis",
+    "Answer": "Endpoint protection and malware removal for individual hosts on a network"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which tool is used for live forensics and memory analysis on Windows systems, often in a network context?",
+    "Option1": "Autopsy",
+    "Option2": "Volatility Framework",
+    "Option3": "Sleuth Kit",
+    "Option4": "EnCase",
+    "Answer": "Volatility Framework"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the primary purpose of `tcpdump`?",
+    "Option1": "Generating network traffic",
+    "Option2": "Command-line packet analyzer for capturing and displaying network traffic.",
+    "Option3": "Encrypting network communications",
+    "Option4": "Managing firewall rules",
+    "Answer": "Command-line packet analyzer for capturing and displaying network traffic."
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which tool helps in identifying misconfigurations and vulnerabilities in web applications by simulating various attacks?",
+    "Option1": "Nmap",
+    "Option2": "Nikto",
+    "Option3": "Acunetix",
+    "Option4": "All of the above (Nikto and Acunetix are specialized web scanners)",
+    "Answer": "All of the above (Nikto and Acunetix are specialized web scanners)"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What does `Recon-ng` specialize in?",
+    "Option1": "Web application exploitation",
+    "Option2": "Open-source intelligence (OSINT) web reconnaissance framework for automating information gathering.",
+    "Option3": "Network device configuration",
+    "Option4": "Malware analysis",
+    "Answer": "Open-source intelligence (OSINT) web reconnaissance framework for automating information gathering."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Which tool is designed for exploiting SQL injection vulnerabilities?",
+    "Option1": "XSS-Proxy",
+    "Option2": "SQLMap",
+    "Option3": "DirBuster",
+    "Option4": "BeEF",
+    "Answer": "SQLMap"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `BeEF` (Browser Exploitation Framework) used for?",
+    "Option1": "Network scanning",
+    "Option2": "Web browser exploitation, allowing a penetration tester to assess the actual security posture of a target by using client-side attack vectors.",
+    "Option3": "Server-side vulnerability scanning",
+    "Option4": "Database management",
+    "Answer": "Web browser exploitation, allowing a penetration tester to assess the actual security posture of a target by using client-side attack vectors."
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which tool is a network analysis tool that provides insight into TCP/IP sessions, often used for identifying suspicious activity?",
+    "Option1": "Nmap",
+    "Option2": "NetFlow Analyzer",
+    "Option3": "Tcpdump",
+    "Option4": "Wireshark",
+    "Answer": "NetFlow Analyzer"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the primary function of a `Firewall` in network security?",
+    "Option1": "To monitor network traffic",
+    "Option2": "To establish VPN connections",
+    "Option3": "To control incoming and outgoing network traffic based on predefined security rules",
+    "Option4": "To encrypt data packets",
+    "Answer": "To control incoming and outgoing network traffic based on predefined security rules"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which type of firewall inspects the entire context of a connection, including application layer information?",
+    "Option1": "Packet-filtering firewall",
+    "Option2": "Stateful firewall",
+    "Option3": "Application-layer gateway (proxy firewall)",
+    "Option4": "Next-Generation Firewall (NGFW)",
+    "Answer": "Application-layer gateway (proxy firewall)"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What does an `Intrusion Prevention System (IPS)` do that an `Intrusion Detection System (IDS)` typically doesn't?",
+    "Option1": "Logs security events",
+    "Option2": "Detects malicious activity",
+    "Option3": "Actively blocks or prevents detected threats",
+    "Option4": "Generates alerts",
+    "Answer": "Actively blocks or prevents detected threats"
+  },
+  {
+    "question_no.": 41,
+    "Question": "Which of the following is a signature-based IDS/IPS?",
+    "Option1": "Snort",
+    "Option2": "Suricata",
+    "Option3": "Both Snort and Suricata",
+    "Option4": "None of the above",
+    "Answer": "Both Snort and Suricata"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the main advantage of a `Network Access Control (NAC)` solution?",
+    "Option1": "Encrypting network traffic",
+    "Option2": "Enforcing security policies on devices attempting to connect to the network, granting or denying access based on compliance.",
+    "Option3": "Monitoring bandwidth usage",
+    "Option4": "Blocking specific websites",
+    "Answer": "Enforcing security policies on devices attempting to connect to the network, granting or denying access based on compliance."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which tool is commonly used for secure remote access over an unsecured network?",
+    "Option1": "FTP",
+    "Option2": "Telnet",
+    "Option3": "SSH (Secure Shell)",
+    "Option4": "HTTP",
+    "Answer": "SSH (Secure Shell)"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is the primary purpose of a `Virtual Private Network (VPN)`?",
+    "Option1": "To accelerate internet speed",
+    "Option2": "To create a secure, encrypted connection over a public network, allowing users to send and receive data as if their computing devices were directly connected to the private network.",
+    "Option3": "To block ads",
+    "Option4": "To store data in the cloud",
+    "Answer": "To create a secure, encrypted connection over a public network, allowing users to send and receive data as if their computing devices were directly connected to the private network."
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which protocol is often used for VPNs?",
+    "Option1": "HTTP",
+    "Option2": "SMTP",
+    "Option3": "IPsec",
+    "Option4": "FTP",
+    "Answer": "IPsec"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `OpenVPN`?",
+    "Option1": "A proprietary VPN solution",
+    "Option2": "An open-source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections.",
+    "Option3": "A VPN hardware appliance",
+    "Option4": "A VPN protocol only",
+    "Answer": "An open-source software application that implements virtual private network (VPN) techniques for creating secure point-to-point or site-to-site connections."
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which tool provides centralized logging and security information and event management (SIEM) capabilities?",
+    "Option1": "Nmap",
+    "Option2": "Splunk",
+    "Option3": "Wireshark",
+    "Option4": "Metasploit",
+    "Answer": "Splunk"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is the primary function of a `Honeypot` in network security?",
+    "Option1": "To detect and deflect attempts at unauthorized use of information systems",
+    "Option2": "To provide secure remote access",
+    "Option3": "To encrypt network traffic",
+    "Option4": "To monitor network performance",
+    "Answer": "To detect and deflect attempts at unauthorized use of information systems"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which tool is used to monitor and analyze NetFlow data for network visibility and security analytics?",
+    "Option1": "Nagios",
+    "Option2": "SolarWinds NetFlow Traffic Analyzer",
+    "Option3": "Zabbix",
+    "Option4": "Icinga",
+    "Answer": "SolarWinds NetFlow Traffic Analyzer"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What does a `DLP (Data Loss Prevention)` solution aim to do?",
+    "Option1": "Prevent malware infections",
+    "Option2": "Detect and prevent sensitive data from leaving the organization's control, whether accidentally or maliciously.",
+    "Option3": "Manage network access",
+    "Option4": "Encrypt hard drives",
+    "Answer": "Detect and prevent sensitive data from leaving the organization's control, whether accidentally or maliciously."
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which tool is a comprehensive open-source network monitoring system?",
+    "Option1": "PRTG Network Monitor",
+    "Option2": "Nagios",
+    "Option3": "WhatsUp Gold",
+    "Option4": "Cacti",
+    "Answer": "Nagios"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the role of `Tshark`?",
+    "Option1": "A graphical packet analyzer",
+    "Option2": "The command-line version of Wireshark for capturing and analyzing network packets.",
+    "Option3": "A web vulnerability scanner",
+    "Option4": "A network traffic generator",
+    "Answer": "The command-line version of Wireshark for capturing and analyzing network packets."
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which tool is used for wireless packet injection and monitoring?",
+    "Option1": "Aircrack-ng",
+    "Option2": "Kismet",
+    "Option3": "MDK3",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is the purpose of `MAC spoofing` tools?",
+    "Option1": "To change the IP address of a device.",
+    "Option2": "To alter the MAC (Media Access Control) address of a network interface, often used for anonymity or bypassing MAC filtering.",
+    "Option3": "To encrypt MAC addresses.",
+    "Option4": "To discover MAC addresses on a network.",
+    "Answer": "To alter the MAC (Media Access Control) address of a network interface, often used for anonymity or bypassing MAC filtering."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which tool is used to enumerate users, groups, and shares on Windows networks?",
+    "Option1": "Nmap",
+    "Option2": "Enum4linux",
+    "Option3": "CrackMapExec",
+    "Option4": "Both Enum4linux and CrackMapExec",
+    "Answer": "Both Enum4linux and CrackMapExec"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the primary function of `CrackMapExec`?",
+    "Option1": "Wireless network auditing",
+    "Option2": "A post-exploitation tool for pentesting Active Directory environments, allowing enumeration, lateral movement, and privilege escalation.",
+    "Option3": "Web application scanning",
+    "Option4": "Forensic analysis",
+    "Answer": "A post-exploitation tool for pentesting Active Directory environments, allowing enumeration, lateral movement, and privilege escalation."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which tool is commonly used for port forwarding and creating network tunnels?",
+    "Option1": "SSH",
+    "Option2": "Netcat",
+    "Option3": "Socat",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does `dnsenum` do?",
+    "Option1": "Resolves a single DNS query.",
+    "Option2": "Performs DNS enumeration, including gathering hostnames, mail servers, name servers, and open relays.",
+    "Option3": "Blocks DNS queries.",
+    "Option4": "Encrypts DNS traffic.",
+    "Answer": "Performs DNS enumeration, including gathering hostnames, mail servers, name servers, and open relays."
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which tool is a powerful command-line network sniffer that can be used for capturing packets and saving them to a file?",
+    "Option1": "Wireshark",
+    "Option2": "Tcpdump",
+    "Option3": "Tshark",
+    "Option4": "Both Tcpdump and Tshark",
+    "Answer": "Both Tcpdump and Tshark"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the main use of `hping3`?",
+    "Option1": "Vulnerability scanning",
+    "Option2": "Packet crafting and network testing, including firewall testing and DoS attacks.",
+    "Option3": "Web application auditing",
+    "Option4": "Password cracking",
+    "Answer": "Packet crafting and network testing, including firewall testing and DoS attacks."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which tool is an open-source tool for network traffic analysis and flow collection, often used for security monitoring?",
+    "Option1": "tcpdump",
+    "Option2": "Nfsen/Nfdump",
+    "Option3": "Wireshark",
+    "Option4": "Snort",
+    "Answer": "Nfsen/Nfdump"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the primary function of `Iptables`?",
+    "Option1": "A network monitoring tool",
+    "Option2": "A command-line firewall utility for Linux, used to set up, maintain, and inspect the tables of IP packet filter rules in the Linux kernel.",
+    "Option3": "A web server",
+    "Option4": "A DNS server",
+    "Answer": "A command-line firewall utility for Linux, used to set up, maintain, and inspect the tables of IP packet filter rules in the Linux kernel."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which firewall management tool is often used on Ubuntu/Debian systems for its user-friendliness?",
+    "Option1": "Iptables",
+    "Option2": "Firewalld",
+    "Option3": "UFW (Uncomplicated Firewall)",
+    "Option4": "NFTables",
+    "Answer": "UFW (Uncomplicated Firewall)"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What does `Firewalld` primarily manage?",
+    "Option1": "Network interfaces",
+    "Option2": "Dynamic firewall management with support for network zones, often used on RHEL/CentOS systems.",
+    "Option3": "Routing tables",
+    "Option4": "DNS records",
+    "Answer": "Dynamic firewall management with support for network zones, often used on RHEL/CentOS systems."
+  },
+  {
+    "question_no.": 65,
+    "Question": "Which tool is used for performing live packet analysis and deep packet inspection to identify network issues or security threats?",
+    "Option1": "Nmap",
+    "Option2": "Wireshark",
+    "Option3": "Metasploit",
+    "Option4": "Netcat",
+    "Answer": "Wireshark"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the purpose of `Suricata`?",
+    "Option1": "A firewall",
+    "Option2": "A high-performance open-source network IDS, IPS, and Network Security Monitoring (NSM) engine.",
+    "Option3": "A VPN client",
+    "Option4": "A vulnerability scanner",
+    "Answer": "A high-performance open-source network IDS, IPS, and Network Security Monitoring (NSM) engine."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which tool is used for detecting rootkits and other malicious software on a host system?",
+    "Option1": "Rootkit Hunter (rkhunter)",
+    "Option2": "ClamAV",
+    "Option3": "Lynis",
+    "Option4": "OpenVAS",
+    "Answer": "Rootkit Hunter (rkhunter)"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `ClamAV` primarily known for?",
+    "Option1": "Network intrusion detection",
+    "Option2": "An open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats, often used for email scanning.",
+    "Option3": "Web application scanning",
+    "Option4": "Firewall management",
+    "Answer": "An open-source antivirus engine for detecting trojans, viruses, malware, and other malicious threats, often used for email scanning."
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which tool automates the process of identifying vulnerabilities in web applications, including SQL injection and XSS?",
+    "Option1": "Nikto",
+    "Option2": "OWASP ZAP",
+    "Option3": "Burp Suite (Pro version has an active scanner)",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `The Sleuth Kit (TSK)` used for?",
+    "Option1": "Network penetration testing",
+    "Option2": "A collection of command-line tools for forensic analysis of disk images, including file system analysis and data recovery.",
+    "Option3": "Password cracking",
+    "Option4": "Wireless network analysis",
+    "Answer": "A collection of command-line tools for forensic analysis of disk images, including file system analysis and data recovery."
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which tool helps in conducting web application security assessments by providing an interactive proxy?",
+    "Option1": "Nikto",
+    "Option2": "Burp Suite",
+    "Option3": "Nessus",
+    "Option4": "Metasploit",
+    "Answer": "Burp Suite"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of `WPScan`?",
+    "Option1": "General web vulnerability scanning",
+    "Option2": "A black box WordPress vulnerability scanner that checks for known vulnerabilities in WordPress core, plugins, and themes.",
+    "Option3": "Network port scanning",
+    "Option4": "Email server testing",
+    "Answer": "A black box WordPress vulnerability scanner that checks for known vulnerabilities in WordPress core, plugins, and themes."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which tool is used for exploiting vulnerabilities in web browsers, including client-side attacks?",
+    "Option1": "SQLMap",
+    "Option2": "BeEF",
+    "Option3": "DirBuster",
+    "Option4": "Hydra",
+    "Answer": "BeEF"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `Gobuster` used for?",
+    "Option1": "Cracking passwords",
+    "Option2": "Directory and file brute-forcing, as well as DNS subdomain enumeration.",
+    "Option3": "Network scanning",
+    "Option4": "Wireless auditing",
+    "Answer": "Directory and file brute-forcing, as well as DNS subdomain enumeration."
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which tool performs content discovery on web servers by brute-forcing paths to files and directories?",
+    "Option1": "Nikto",
+    "Option2": "Dirb",
+    "Option3": "Gobuster",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is `Maltego` commonly used for in reconnaissance?",
+    "Option1": "Cracking network passwords",
+    "Option2": "Collecting and visualizing relationships between various data points (people, domains, IP addresses, etc.) for OSINT.",
+    "Option3": "Exploiting network vulnerabilities",
+    "Option4": "Performing denial-of-service attacks",
+    "Answer": "Collecting and visualizing relationships between various data points (people, domains, IP addresses, etc.) for OSINT."
+  },
+  {
+    "question_no.": 77,
+    "Question": "Which tool can be used to scan for vulnerabilities in web applications specifically for WordPress?",
+    "Option1": "Nikto",
+    "Option2": "OWASP ZAP",
+    "Option3": "WPScan",
+    "Option4": "Skipfish",
+    "Answer": "WPScan"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the primary function of `Burp Suite Repeater`?",
+    "Option1": "Automating vulnerability scanning",
+    "Option2": "Manually modifying and reissuing individual HTTP requests and analyzing the responses.",
+    "Option3": "Crawling web applications",
+    "Option4": "Brute-forcing login forms",
+    "Answer": "Manually modifying and reissuing individual HTTP requests and analyzing the responses."
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which tool is commonly used to intercept and modify HTTP/HTTPS traffic for web application security testing?",
+    "Option1": "Wireshark",
+    "Option2": "Fiddler",
+    "Option3": "Burp Suite",
+    "Option4": "Both Fiddler and Burp Suite",
+    "Answer": "Both Fiddler and Burp Suite"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is `Aircrack-ng`'s main strength?",
+    "Option1": "Network mapping",
+    "Option2": "Cracking WEP and WPA/WPA2-PSK keys for wireless networks.",
+    "Option3": "Web server analysis",
+    "Option4": "Intrusion detection",
+    "Answer": "Cracking WEP and WPA/WPA2-PSK keys for wireless networks."
+  },
+  {
+    "question_no.": 81,
+    "Question": "Which tool is used for deauthentication attacks against Wi-Fi networks?",
+    "Option1": "Airodump-ng",
+    "Option2": "Aireplay-ng",
+    "Option3": "Airmon-ng",
+    "Option4": "Aircrack-ng",
+    "Answer": "Aireplay-ng"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of `Evil Twin` access points in wireless security assessments?",
+    "Option1": "To provide legitimate Wi-Fi access.",
+    "Option2": "To mimic legitimate Wi-Fi networks to trick users into connecting to a malicious access point, allowing the attacker to intercept traffic or steal credentials.",
+    "Option3": "To boost Wi-Fi signal strength.",
+    "Option4": "To detect unauthorized access points.",
+    "Answer": "To mimic legitimate Wi-Fi networks to trick users into connecting to a malicious access point, allowing the attacker to intercept traffic or steal credentials."
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which tool is known for detecting rogue access points and wireless intrusion detection?",
+    "Option1": "Aircrack-ng",
+    "Option2": "Kismet",
+    "Option3": "NetStumbler",
+    "Option4": "Acrylic Wi-Fi",
+    "Answer": "Kismet"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What does `MDK3` specialize in for wireless attacks?",
+    "Option1": "WEP cracking",
+    "Option2": "Wireless DoS attacks, beacon floods, authentication floods, and deauthentication attacks.",
+    "Option3": "WPA/WPA2 cracking",
+    "Option4": "WPS attacks",
+    "Answer": "Wireless DoS attacks, beacon floods, authentication floods, and deauthentication attacks."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which tool automates the WPS (Wi-Fi Protected Setup) PIN brute-force attack?",
+    "Option1": "Aircrack-ng",
+    "Option2": "Reaver",
+    "Option3": "Wifite",
+    "Option4": "PixieWps",
+    "Answer": "Reaver"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the primary function of `Kali Linux` in ethical hacking?",
+    "Option1": "A general-purpose operating system.",
+    "Option2": "A Debian-based Linux distribution specifically designed for digital forensics and penetration testing, pre-loaded with numerous security tools.",
+    "Option3": "A server operating system.",
+    "Option4": "A desktop environment for developers.",
+    "Answer": "A Debian-based Linux distribution specifically designed for digital forensics and penetration testing, pre-loaded with numerous security tools."
+  },
+  {
+    "question_no.": 87,
+    "Question": "Which tool is a powerful open-source framework for building and deploying custom exploits?",
+    "Option1": "Metasploit Framework",
+    "Option2": "Armitage",
+    "Option3": "Cobalt Strike",
+    "Option4": "Nessus",
+    "Answer": "Metasploit Framework"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `Armitage`?",
+    "Option1": "A command-line interface for Metasploit.",
+    "Option2": "A graphical cyber attack management tool for the Metasploit Framework, visualizing targets and recommending exploits.",
+    "Option3": "A web application scanner.",
+    "Option4": "A password cracking tool.",
+    "Answer": "A graphical cyber attack management tool for the Metasploit Framework, visualizing targets and recommending exploits."
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which tool is a commercial solution often used for red teaming operations, offering advanced post-exploitation capabilities?",
+    "Option1": "Metasploit",
+    "Option2": "Empire",
+    "Option3": "Cobalt Strike",
+    "Option4": "Mimikatz",
+    "Answer": "Cobalt Strike"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is `Empire` (Powershell Empire)?",
+    "Option1": "A network mapping tool.",
+    "Option2": "A post-exploitation framework focused on PowerShell and Python, allowing for rapid deployment of agents and evasion techniques.",
+    "Option3": "A web vulnerability scanner.",
+    "Option4": "A memory forensics tool.",
+    "Answer": "A post-exploitation framework focused on PowerShell and Python, allowing for rapid deployment of agents and evasion techniques."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which tool extracts plaintext passwords, hash, PIN codes, and kerberos tickets from memory?",
+    "Option1": "Hashcat",
+    "Option2": "John the Ripper",
+    "Option3": "Mimikatz",
+    "Option4": "Responder",
+    "Answer": "Mimikatz"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What does `Responder` primarily do in network attacks?",
+    "Option1": "Performs ARP spoofing.",
+    "Option2": "A LLMNR, NBT-NS, and MDNS poisoner that answers to specific queries, enabling NTLM hash capture and authentication bypass.",
+    "Option3": "Scans for open ports.",
+    "Option4": "Cracks Wi-Fi passwords.",
+    "Answer": "A LLMNR, NBT-NS, and MDNS poisoner that answers to specific queries, enabling NTLM hash capture and authentication bypass."
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which tool is used for ARP spoofing and DNS spoofing to perform MITM attacks?",
+    "Option1": "Netcat",
+    "Option2": "Ettercap",
+    "Option3": "Scapy",
+    "Option4": "Hping3",
+    "Answer": "Ettercap"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the main function of `Bettercap`?",
+    "Option1": "Wireless hacking only.",
+    "Option2": "A complete, modular, portable, and easily extensible MITM framework for performing various network attacks.",
+    "Option3": "Web application exploitation.",
+    "Option4": "Log analysis.",
+    "Answer": "A complete, modular, portable, and easily extensible MITM framework for performing various network attacks."
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which tool helps in network discovery and mapping of the network topology?",
+    "Option1": "Nmap",
+    "Option2": "Angry IP Scanner",
+    "Option3": "Masscan",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the key difference between `Masscan` and `Nmap`?",
+    "Option1": "Masscan is a GUI tool, Nmap is command-line.",
+    "Option2": "Masscan is designed for very fast, large-scale IP port scanning, while Nmap provides more detailed scanning and service enumeration.",
+    "Option3": "Masscan only scans UDP ports, Nmap only TCP.",
+    "Option4": "Masscan is commercial, Nmap is open-source.",
+    "Answer": "Masscan is designed for very fast, large-scale IP port scanning, while Nmap provides more detailed scanning and service enumeration."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which tool focuses on OSINT, gathering information from search engines, social networks, and other public sources?",
+    "Option1": "Shodan",
+    "Option2": "Maltego",
+    "Option3": "Recon-ng",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `Shodan` often referred to as?",
+    "Option1": "A search engine for websites.",
+    "Option2": "The search engine for Internet-connected devices, allowing users to discover specific types of devices (e.g., webcams, routers, servers) connected to the internet.",
+    "Option3": "A search engine for people.",
+    "Option4": "A search engine for vulnerabilities.",
+    "Answer": "The search engine for Internet-connected devices, allowing users to discover specific types of devices (e.g., webcams, routers, servers) connected to the internet."
+  },
+  {
+    "question_no.": 99,
+    "Question": "Which tool is specifically designed for analyzing and reversing malware?",
+    "Option1": "IDA Pro",
+    "Option2": "Ghidra",
+    "Option3": "Cuckoo Sandbox",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is a `Cuckoo Sandbox` primarily used for?",
+    "Option1": "Developing malware.",
+    "Option2": "Automated malware analysis by running suspicious files in an isolated environment and monitoring their behavior.",
+    "Option3": "Malware signature generation.",
+    "Option4": "Malware removal.",
+    "Answer": "Automated malware analysis by running suspicious files in an isolated environment and monitoring their behavior."
+  },
+  {
+    "question_no.": 101,
+    "Question": "Which tool is an open-source reverse engineering platform developed by the NSA?",
+    "Option1": "IDA Pro",
+    "Option2": "Ghidra",
+    "Option3": "OllyDbg",
+    "Option4": "Radare2",
+    "Answer": "Ghidra"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What does `IDA Pro` offer in reverse engineering?",
+    "Option1": "Only static analysis.",
+    "Option2": "A powerful disassembler and debugger, supporting both static and dynamic analysis of binaries across various architectures.",
+    "Option3": "Only dynamic analysis.",
+    "Option4": "Source code compilation.",
+    "Answer": "A powerful disassembler and debugger, supporting both static and dynamic analysis of binaries across various architectures."
+  },
+  {
+    "question_no.": 103,
+    "Question": "Which tool helps in analyzing and extracting data from memory dumps for forensic purposes?",
+    "Option1": "Autopsy",
+    "Option2": "Volatility Framework",
+    "Option3": "FTK Imager",
+    "Option4": "All of the above",
+    "Answer": "Volatility Framework"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the main role of `Autopsy` in digital forensics?",
+    "Option1": "Capturing disk images.",
+    "Option2": "A graphical interface to The Sleuth Kit (TSK) and other forensic tools, used for analyzing disk images and recovering deleted files.",
+    "Option3": "Cracking encrypted files.",
+    "Option4": "Performing live system analysis.",
+    "Answer": "A graphical interface to The Sleuth Kit (TSK) and other forensic tools, used for analyzing disk images and recovering deleted files."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which tool is commonly used to create forensic disk images (bit-for-bit copies) of hard drives?",
+    "Option1": "Dd",
+    "Option2": "FTK Imager",
+    "Option3": "EnCase",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the purpose of `Kali NetHunter`?",
+    "Option1": "A desktop version of Kali Linux.",
+    "Option2": "A mobile penetration testing platform for Android devices, allowing ethical hackers to perform various attacks using their phone.",
+    "Option3": "A cloud-based Kali Linux instance.",
+    "Option4": "A virtual machine for Kali Linux.",
+    "Answer": "A mobile penetration testing platform for Android devices, allowing ethical hackers to perform various attacks using their phone."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which tool is often used for creating custom wordlists for password cracking?",
+    "Option1": "John the Ripper",
+    "Option2": "Hashcat",
+    "Option3": "Crunch",
+    "Option4": "CeWL",
+    "Answer": "Crunch"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What does `CeWL` do for password cracking?",
+    "Option1": "Generates random passwords.",
+    "Option2": "Crawls websites to create custom wordlists based on words found on the target site, useful for dictionary attacks.",
+    "Option3": "Cracks hashes offline.",
+    "Option4": "Performs online brute-force attacks.",
+    "Answer": "Crawls websites to create custom wordlists based on words found on the target site, useful for dictionary attacks."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which tool is designed to identify and exploit vulnerabilities in web services (SOAP/REST)?",
+    "Option1": "SOAPUI",
+    "Option2": "Postman",
+    "Option3": "Burp Suite",
+    "Option4": "All of the above (Burp Suite is also capable)",
+    "Answer": "All of the above (Burp Suite is also capable)"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the purpose of `Sqlmap`?",
+    "Option1": "Web server analysis",
+    "Option2": "Detecting and exploiting SQL injection flaws and taking over database servers.",
+    "Option3": "Network sniffing",
+    "Option4": "Wireless network analysis",
+    "Answer": "Detecting and exploiting SQL injection flaws and taking over database servers."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Which tool can automatically detect SQL injection flaws and then directly access the database?",
+    "Option1": "OWASP ZAP",
+    "Option2": "Sqlmap",
+    "Option3": "Nikto",
+    "Option4": "Burp Suite",
+    "Answer": "Sqlmap"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is `XSS-Proxy` used for?",
+    "Option1": "SQL injection attacks.",
+    "Option2": "Exploiting Cross-Site Scripting (XSS) vulnerabilities to hijack user sessions or perform other client-side attacks.",
+    "Option3": "Directory traversal attacks.",
+    "Option4": "File inclusion vulnerabilities.",
+    "Answer": "Exploiting Cross-Site Scripting (XSS) vulnerabilities to hijack user sessions or perform other client-side attacks."
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which tool is an open-source intelligence (OSINT) framework for social media analysis?",
+    "Option1": "Maltego",
+    "Option2": "SpiderFoot",
+    "Option3": "Recon-ng",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is the primary function of `The Social-Engineer Toolkit (SET)`?",
+    "Option1": "Network scanning.",
+    "Option2": "An open-source penetration testing framework designed for social engineering attacks, such as phishing, spear phishing, and credential harvesting.",
+    "Option3": "Web application scanning.",
+    "Option4": "Password cracking.",
+    "Answer": "An open-source penetration testing framework designed for social engineering attacks, such as phishing, spear phishing, and credential harvesting."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Which tool helps in creating phishing pages and credential harvesting attacks?",
+    "Option1": "Metasploit",
+    "Option2": "SET (Social-Engineer Toolkit)",
+    "Option3": "BeEF",
+    "Option4": "Hydra",
+    "Answer": "SET (Social-Engineer Toolkit)"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `King Phisher` used for?",
+    "Option1": "Network vulnerability scanning.",
+    "Option2": "A phishing campaign toolkit, used for testing and training employees on identifying phishing attempts.",
+    "Option3": "Web application testing.",
+    "Option4": "Wireless network auditing.",
+    "Answer": "A phishing campaign toolkit, used for testing and training employees on identifying phishing attempts."
+  },
+  {
+    "question_no.": 117,
+    "Question": "Which tool specializes in detecting and exploiting vulnerabilities in web applications, including advanced scanning features?",
+    "Option1": "Nikto",
+    "Option2": "Acunetix",
+    "Option3": "Netsparker",
+    "Option4": "Both Acunetix and Netsparker",
+    "Answer": "Both Acunetix and Netsparker"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is a `Web Application Firewall (WAF)` used for?",
+    "Option1": "To protect internal networks from external threats.",
+    "Option2": "To protect web applications from common web-based attacks, such as SQL injection, XSS, and CSRF, by filtering and monitoring HTTP traffic.",
+    "Option3": "To encrypt web traffic.",
+    "Option4": "To optimize web server performance.",
+    "Answer": "To protect web applications from common web-based attacks, such as SQL injection, XSS, and CSRF, by filtering and monitoring HTTP traffic."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which of the following is an open-source WAF?",
+    "Option1": "Imperva WAF",
+    "Option2": "ModSecurity",
+    "Option3": "Cloudflare WAF",
+    "Option4": "Barracuda WAF",
+    "Answer": "ModSecurity"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the purpose of `SNMP (Simple Network Management Protocol)` in network security?",
+    "Option1": "For secure file transfers.",
+    "Option2": "To monitor and manage network devices, but if misconfigured (e.g., weak community strings), it can expose sensitive network information.",
+    "Option3": "For secure remote access.",
+    "Option4": "For email encryption.",
+    "Answer": "To monitor and manage network devices, but if misconfigured (e.g., weak community strings), it can expose sensitive network information."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which tool can be used to enumerate SNMP information from network devices?",
+    "Option1": "Nmap (with NSE scripts)",
+    "Option2": "Onesixone",
+    "Option3": "Snmpwalk",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the primary function of a `Network Security Monitoring (NSM)` platform?",
+    "Option1": "To prevent all network attacks.",
+    "Option2": "To collect and analyze network data (packet captures, flow data, logs) to detect and investigate security incidents.",
+    "Option3": "To encrypt all network traffic.",
+    "Option4": "To manage network devices.",
+    "Answer": "To collect and analyze network data (packet captures, flow data, logs) to detect and investigate security incidents."
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which tool is often part of an NSM solution and helps with full packet capture?",
+    "Option1": "NetFlow",
+    "Option2": "Wireshark",
+    "Option3": "Snort",
+    "Option4": "Suricata",
+    "Answer": "Wireshark"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What does a `SIEM (Security Information and Event Management)` system do?",
+    "Option1": "Monitors network uptime.",
+    "Option2": "Aggregates and analyzes security events and log data from various sources across an organization's IT infrastructure to provide real-time analysis of security alerts.",
+    "Option3": "Performs vulnerability scans.",
+    "Option4": "Manages user access.",
+    "Answer": "Aggregates and analyzes security events and log data from various sources across an organization's IT infrastructure to provide real-time analysis of security alerts."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which commercial SIEM solution is widely used?",
+    "Option1": "Elastic Stack (ELK)",
+    "Option2": "Splunk",
+    "Option3": "Graylog",
+    "Option4": "ArcSight",
+    "Answer": "Splunk"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the Elastic Stack (ELK) commonly used for in security?",
+    "Option1": "Endpoint protection.",
+    "Option2": "Log management and analysis, including security logs, offering powerful searching, visualization, and alerting capabilities.",
+    "Option3": "Network traffic generation.",
+    "Option4": "Cloud security.",
+    "Answer": "Log management and analysis, including security logs, offering powerful searching, visualization, and alerting capabilities."
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which tool is an open-source SIEM alternative?",
+    "Option1": "IBM QRadar",
+    "Option2": "Splunk",
+    "Option3": "OSSOC (Open Source Security Operations Center)",
+    "Option4": "AlienVault USM",
+    "Answer": "OSSOC (Open Source Security Operations Center)"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the purpose of `Risk Management` in cybersecurity?",
+    "Option1": "To eliminate all security threats.",
+    "Option2": "To identify, assess, and prioritize risks, and then apply resources to minimize, monitor, and control the probability or impact of unfortunate events.",
+    "Option3": "To only focus on technical vulnerabilities.",
+    "Option4": "To ensure compliance with all regulations.",
+    "Answer": "To identify, assess, and prioritize risks, and then apply resources to minimize, monitor, and control the probability or impact of unfortunate events."
+  },
+  {
+    "question_no.": 129,
+    "Question": "Which tool helps in generating reports for vulnerability assessment findings?",
+    "Option1": "Nmap",
+    "Option2": "Nessus",
+    "Option3": "OpenVAS",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the primary function of `Gophish`?",
+    "Option1": "Network scanning.",
+    "Option2": "An open-source phishing framework designed for businesses and penetration testers.",
+    "Option3": "Web application vulnerability scanning.",
+    "Option4": "Wireless network auditing.",
+    "Answer": "An open-source phishing framework designed for businesses and penetration testers."
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which tool is commonly used to test the strength of passwords by attempting various cracking techniques?",
+    "Option1": "Hashcat",
+    "Option2": "John the Ripper",
+    "Option3": "Ophcrack",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What does `Ophcrack` specialize in for password cracking?",
+    "Option1": "Online brute-force attacks.",
+    "Option2": "Cracking Windows passwords using rainbow tables.",
+    "Option3": "Cracking Wi-Fi passwords.",
+    "Option4": "Hashing new passwords.",
+    "Answer": "Cracking Windows passwords using rainbow tables."
+  },
+  {
+    "question_no.": 133,
+    "Question": "Which tool is a free and open-source network protocol analyzer for Windows, similar to Wireshark?",
+    "Option1": "Tcpdump",
+    "Option2": "Microsoft Network Monitor",
+    "Option3": "Cain & Abel",
+    "Option4": "CommView for WiFi",
+    "Answer": "Microsoft Network Monitor"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `Cain & Abel` known for?",
+    "Option1": "Web application auditing.",
+    "Option2": "A password recovery tool for Microsoft Operating Systems that can recover various password types by sniffing the network, cracking encrypted passwords using Dictionary, Brute-Force and Cryptanalysis attacks, recording VoIP conversations, decoding scrambled passwords, recovering wireless network keys, revealing password boxes, uncovering cached passwords and analyzing routing protocols.",
+    "Option3": "Network traffic generation.",
+    "Option4": "Vulnerability scanning.",
+    "Answer": "A password recovery tool for Microsoft Operating Systems that can recover various password types by sniffing the network, cracking encrypted passwords using Dictionary, Brute-Force and Cryptanalysis attacks, recording VoIP conversations, decoding scrambled passwords, recovering wireless network keys, revealing password boxes, uncovering cached passwords and analyzing routing protocols."
+  },
+  {
+    "question_no.": 135,
+    "Question": "Which tool is a wireless network analyzer and packet sniffer for Windows, focusing on Wi-Fi troubleshooting and security?",
+    "Option1": "Aircrack-ng",
+    "Option2": "CommView for WiFi",
+    "Option3": "Kismet",
+    "Option4": "Wireshark",
+    "Answer": "CommView for WiFi"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the purpose of `Immunity Debugger`?",
+    "Option1": "Network monitoring.",
+    "Option2": "A powerful debugger used for malware analysis, exploit development, and reverse engineering, especially on Windows.",
+    "Option3": "Web application testing.",
+    "Option4": "Database management.",
+    "Answer": "A powerful debugger used for malware analysis, exploit development, and reverse engineering, especially on Windows."
+  },
+  {
+    "question_no.": 137,
+    "Question": "Which tool is an open-source disassembler and debugger, often used for reverse engineering and vulnerability analysis?",
+    "Option1": "IDA Pro",
+    "Option2": "Ghidra",
+    "Option3": "OllyDbg",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `Volatility Framework` known for in digital forensics?",
+    "Option1": "Disk imaging.",
+    "Option2": "Extracting digital artifacts from volatile memory (RAM) dumps, enabling analysis of running processes, network connections, and loaded modules.",
+    "Option3": "File carving.",
+    "Option4": "Hard drive encryption.",
+    "Answer": "Extracting digital artifacts from volatile memory (RAM) dumps, enabling analysis of running processes, network connections, and loaded modules."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which tool is a command-line utility for interacting with DNS servers, often used for DNS enumeration and troubleshooting?",
+    "Option1": "Nslookup",
+    "Option2": "Dig",
+    "Option3": "Host",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the purpose of `whois` command?",
+    "Option1": "To find the IP address of a domain.",
+    "Option2": "To query public databases for information about domain names, IP addresses, and the organizations or individuals that own them.",
+    "Option3": "To check website uptime.",
+    "Option4": "To resolve DNS records.",
+    "Answer": "To query public databases for information about domain names, IP addresses, and the organizations or individuals that own them."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which tool is commonly used for OSINT to find information about a target from publicly available sources?",
+    "Option1": "Nmap",
+    "Option2": "Maltego",
+    "Option3": "Wireshark",
+    "Option4": "Metasploit",
+    "Answer": "Maltego"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What does `Sublist3r` automate?",
+    "Option1": "Website crawling.",
+    "Option2": "Subdomain enumeration using multiple search engines and active methods.",
+    "Option3": "Directory brute-forcing.",
+    "Option4": "Vulnerability scanning.",
+    "Answer": "Subdomain enumeration using multiple search engines and active methods."
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which tool is a powerful open-source tool for performing brute-force attacks against FTP, SSH, Telnet, HTTP, and other services?",
+    "Option1": "John the Ripper",
+    "Option2": "Hydra",
+    "Option3": "Hashcat",
+    "Option4": "Medusa",
+    "Answer": "Hydra"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `Medusa` used for?",
+    "Option1": "Web application scanning.",
+    "Option2": "A speedy, massively parallel, modular, login brute-forcer supporting many services (HTTP, FTP, SMB, SSH, etc.).",
+    "Option3": "Network mapping.",
+    "Option4": "Wireless network auditing.",
+    "Answer": "A speedy, massively parallel, modular, login brute-forcer supporting many services (HTTP, FTP, SMB, SSH, etc.)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which tool can brute-force various network services, similar to Hydra but often cited for speed and modularity?",
+    "Option1": "Hydra",
+    "Option2": "Medusa",
+    "Option3": "Ncrack",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the purpose of `Ncrack`?",
+    "Option1": "A network scanner.",
+    "Option2": "A high-speed network authentication cracking tool designed to crack passwords of various network services.",
+    "Option3": "A web vulnerability scanner.",
+    "Option4": "A packet crafting tool.",
+    "Answer": "A high-speed network authentication cracking tool designed to crack passwords of various network services."
+  },
+  {
+    "question_no.": 147,
+    "Question": "Which tool is used for performing active reconnaissance and information gathering, including subdomain enumeration and vulnerability checks?",
+    "Option1": "Nmap",
+    "Option2": "Recon-ng",
+    "Option3": "Shodan",
+    "Option4": "All of the above",
+    "Answer": "Recon-ng"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What does `DDoS` stand for in the context of attacks?",
+    "Option1": "Distributed Data Organization System",
+    "Option2": "Distributed Denial of Service",
+    "Option3": "Data Detection and Obfuscation System",
+    "Option4": "Dynamic Data Object Storage",
+    "Answer": "Distributed Denial of Service"
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which tool is commonly used to simulate a DDoS attack for testing purposes?",
+    "Option1": "Ping",
+    "Option2": "Hping3",
+    "Option3": "LOIC (Low Orbit Ion Cannon)",
+    "Option4": "Both Hping3 and LOIC",
+    "Answer": "Both Hping3 and LOIC"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `LOIC` primarily used for?",
+    "Option1": "Network scanning.",
+    "Option2": "A simple open-source network stress testing application and a prominent tool for DoS/DDoS attacks.",
+    "Option3": "Web application testing.",
+    "Option4": "Wireless auditing.",
+    "Answer": "A simple open-source network stress testing application and a prominent tool for DoS/DDoS attacks."
+  },
+  {
+    "question_no.": 151,
+    "Question": "Which tool is a powerful packet manipulation program for the command line?",
+    "Option1": "Wireshark",
+    "Option2": "Scapy",
+    "Option3": "Tcpdump",
+    "Option4": "Netcat",
+    "Answer": "Scapy"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `Scapy` known for in network security?",
+    "Option1": "Only analyzing captured packets.",
+    "Option2": "Its ability to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and more, making it ideal for network manipulation.",
+    "Option3": "Only generating random packets.",
+    "Option4": "Encrypting network traffic.",
+    "Answer": "Its ability to forge or decode packets of a wide number of protocols, send them on the wire, capture them, match requests and replies, and more, making it ideal for network manipulation."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which tool is used to monitor and collect wireless network packets in promiscuous mode?",
+    "Option1": "Airodump-ng",
+    "Option2": "Airmon-ng",
+    "Option3": "Aireplay-ng",
+    "Option4": "Aircrack-ng",
+    "Answer": "Airodump-ng"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the purpose of `Airmon-ng`?",
+    "Option1": "To inject packets into a wireless network.",
+    "Option2": "To enable monitor mode on a wireless interface, which is necessary for packet capturing and injection in wireless auditing.",
+    "Option3": "To crack wireless passwords.",
+    "Option4": "To deauthenticate clients from an access point.",
+    "Answer": "To enable monitor mode on a wireless interface, which is necessary for packet capturing and injection in wireless auditing."
+  },
+  {
+    "question_no.": 155,
+    "Question": "Which tool is used for automated wireless network auditing and attacking, often combining features of other Aircrack-ng tools?",
+    "Option1": "Aircrack-ng",
+    "Option2": "Wifite",
+    "Option3": "Kismet",
+    "Option4": "Reaver",
+    "Answer": "Wifite"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is `PixieWps` used for in wireless security?",
+    "Option1": "Brute-forcing WPA/WPA2 passwords.",
+    "Option2": "Exploiting a specific vulnerability in WPS (Wi-Fi Protected Setup) to recover the WPS PIN and subsequently the WPA/WPA2 passphrase.",
+    "Option3": "Deauthenticating clients.",
+    "Option4": "Creating rogue access points.",
+    "Answer": "Exploiting a specific vulnerability in WPS (Wi-Fi Protected Setup) to recover the WPS PIN and subsequently the WPA/WPA2 passphrase."
+  },
+  {
+    "question_no.": 157,
+    "Question": "Which tool is a powerful open-source forensic suite that can analyze hard drives and mobile devices?",
+    "Option1": "EnCase",
+    "Option2": "FTK",
+    "Option3": "Autopsy",
+    "Option4": "Magnet AXIOM",
+    "Answer": "Autopsy"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the primary function of `Autopsy` as a forensic tool?",
+    "Option1": "Data encryption.",
+    "Option2": "Forensic analysis of disk images, including timeline analysis, keyword searching, and file carving.",
+    "Option3": "Password recovery.",
+    "Option4": "Network traffic analysis.",
+    "Answer": "Forensic analysis of disk images, including timeline analysis, keyword searching, and file carving."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which tool helps in recovering deleted files from various file systems?",
+    "Option1": "Foremost",
+    "Option2": "Scalpel",
+    "Option3": "TestDisk",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What does `Foremost` specialize in?",
+    "Option1": "Recovering entire partitions.",
+    "Option2": "A console program to recover files based on their headers, footers, and internal data structures, commonly known as file carving.",
+    "Option3": "Repairing corrupted file systems.",
+    "Option4": "Creating disk images.",
+    "Answer": "A console program to recover files based on their headers, footers, and internal data structures, commonly known as file carving."
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which tool is used for data carving from disk images, including recovering deleted files by searching for file headers and footers?",
+    "Option1": "TestDisk",
+    "Option2": "Scalpel",
+    "Option3": "PhotoRec",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the purpose of `TestDisk`?",
+    "Option1": "To recover individual deleted files.",
+    "Option2": "To recover lost partitions and repair corrupted file systems, also capable of making non-bootable disks bootable again.",
+    "Option3": "To create forensic images.",
+    "Option4": "To analyze memory dumps.",
+    "Answer": "To recover lost partitions and repair corrupted file systems, also capable of making non-bootable disks bootable again."
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which tool is used to capture memory images from live Windows systems?",
+    "Option1": "FTK Imager",
+    "Option2": "DumpIt",
+    "Option3": "WinPmem",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `DumpIt` used for in live forensics?",
+    "Option1": "Capturing disk images.",
+    "Option2": "A small, self-contained Windows executable for quickly creating a physical memory dump of a live system.",
+    "Option3": "Recovering deleted files.",
+    "Option4": "Analyzing network traffic.",
+    "Answer": "A small, self-contained Windows executable for quickly creating a physical memory dump of a live system."
+  },
+  {
+    "question_no.": 165,
+    "Question": "Which tool is a commercial endpoint detection and response (EDR) solution used for advanced threat detection?",
+    "Option1": "ClamAV",
+    "Option2": "CrowdStrike Falcon",
+    "Option3": "Snort",
+    "Option4": "Nessus",
+    "Answer": "CrowdStrike Falcon"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What does an `EDR (Endpoint Detection and Response)` solution primarily do?",
+    "Option1": "Prevents network intrusions.",
+    "Option2": "Continuously monitors and collects data from endpoint devices, analyzes the data for suspicious activities, and provides capabilities for rapid incident response.",
+    "Option3": "Manages cloud security.",
+    "Option4": "Encrypts data at rest.",
+    "Answer": "Continuously monitors and collects data from endpoint devices, analyzes the data for suspicious activities, and provides capabilities for rapid incident response."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Which tool provides automated vulnerability scanning and penetration testing as a service (SaaS)?",
+    "Option1": "OpenVAS",
+    "Option2": "Qualys",
+    "Option3": "Rapid7 Nexpose",
+    "Option4": "Both Qualys and Rapid7 Nexpose",
+    "Answer": "Both Qualys and Rapid7 Nexpose"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the main advantage of `Qualys` for vulnerability management?",
+    "Option1": "It's entirely open-source.",
+    "Option2": "Cloud-based platform offering integrated security solutions, including vulnerability management, compliance, and web application scanning, across the entire IT environment.",
+    "Option3": "It only scans web applications.",
+    "Option4": "It focuses on network performance monitoring.",
+    "Answer": "Cloud-based platform offering integrated security solutions, including vulnerability management, compliance, and web application scanning, across the entire IT environment."
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which tool is a popular open-source network performance monitoring tool that can be used for security analysis?",
+    "Option1": "Zabbix",
+    "Option2": "Nagios",
+    "Option3": "Grafana (often with Prometheus)",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the purpose of `Grafana` in a security context?",
+    "Option1": "To collect raw logs.",
+    "Option2": "To visualize security metrics, logs, and network data, often integrated with other tools like Prometheus or Elasticsearch, for dashboards and real-time monitoring.",
+    "Option3": "To perform vulnerability scans.",
+    "Option4": "To manage firewall rules.",
+    "Answer": "To visualize security metrics, logs, and network data, often integrated with other tools like Prometheus or Elasticsearch, for dashboards and real-time monitoring."
+  },
+  {
+    "question_no.": 171,
+    "Question": "Which tool is used for automated security auditing, including compliance checks and hardening advice?",
+    "Option1": "Lynis",
+    "Option2": "OpenSCAP",
+    "Option3": "Auditbeat",
+    "Option4": "Both Lynis and OpenSCAP",
+    "Answer": "Both Lynis and OpenSCAP"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `Lynis` primarily known for?",
+    "Option1": "Network performance testing.",
+    "Option2": "An open-source security auditing tool for Unix-like systems, performing comprehensive security checks, hardening suggestions, and compliance validation.",
+    "Option3": "Web application scanning.",
+    "Option4": "Wireless network analysis.",
+    "Answer": "An open-source security auditing tool for Unix-like systems, performing comprehensive security checks, hardening suggestions, and compliance validation."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Which tool is a compliance and vulnerability scanning solution that uses the Security Content Automation Protocol (SCAP)?",
+    "Option1": "Nessus",
+    "Option2": "OpenSCAP",
+    "Option3": "CIS-CAT Pro Assessor",
+    "Option4": "Qualys",
+    "Answer": "OpenSCAP"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What does `CIS-CAT Pro Assessor` do?",
+    "Option1": "Automates penetration testing.",
+    "Option2": "Assesses the security configuration of systems against the CIS Benchmarks (Center for Internet Security), providing compliance reports and remediation guidance.",
+    "Option3": "Detects malware.",
+    "Option4": "Manages network access.",
+    "Answer": "Assesses the security configuration of systems against the CIS Benchmarks (Center for Internet Security), providing compliance reports and remediation guidance."
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which tool is a command-line utility for interacting with web servers, often used for testing HTTP methods and headers?",
+    "Option1": "Wget",
+    "Option2": "Curl",
+    "Option3": "Netcat",
+    "Option4": "Telnet",
+    "Answer": "Curl"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the primary use of `Wget`?",
+    "Option1": "Uploading files to a web server.",
+    "Option2": "Retrieving files from web and FTP servers, often used for downloading entire websites for offline analysis or reconnaissance.",
+    "Option3": "Sending email.",
+    "Option4": "Scanning for open ports.",
+    "Answer": "Retrieving files from web and FTP servers, often used for downloading entire websites for offline analysis or reconnaissance."
+  },
+  {
+    "question_no.": 177,
+    "Question": "Which tool is an open-source tool for performing web crawling and content discovery, often used for building sitemaps or finding hidden content?",
+    "Option1": "Dirb",
+    "Option2": "Burp Suite Spider",
+    "Option3": "Httrack",
+    "Option4": "All of the above",
+    "Answer": "All of the above"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the purpose of `Httrack`?",
+    "Option1": "To generate web traffic.",
+    "Option2": "A free software utility that allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer.",
+    "Option3": "To analyze web server logs.",
+    "Option4": "To protect web applications from attacks.",
+    "Answer": "A free software utility that allows you to download a World Wide Web site from the Internet to a local directory, building recursively all directories, getting HTML, images, and other files from the server to your computer."
+  },
+  {
+    "question_no.": 179,
+    "Question": "Which tool is commonly used for network penetration testing to perform a full TCP connect scan?",
+    "Option1": "Nmap -sS",
+    "Option2": "Nmap -sT",
+    "Option3": "Nmap -sU",
+    "Option4": "Nmap -sn",
+    "Answer": "Nmap -sT"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the primary difference between an `Nmap SYN scan (-sS)` and a `TCP connect scan (-sT)`?",
+    "Option1": "SYN scan is slower.",
+    "Option2": "SYN scan is stealthier as it doesn't complete the TCP handshake, while TCP connect scan completes the handshake.",
+    "Option3": "TCP connect scan is less accurate.",
+    "Option4": "SYN scan only works on UDP ports.",
+    "Answer": "SYN scan is stealthier as it doesn't complete the TCP handshake, while TCP connect scan completes the handshake."
+  },
+  {
+    "question_no.": 181,
+    "Question": "Which Nmap scan type is used to discover UDP ports?",
+    "Option1": "-sS",
+    "Option2": "-sT",
+    "Option3": "-sU",
+    "Option4": "-sn",
+    "Answer": "-sU"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What does `Nmap -A` do?",
+    "Option1": "Performs a fast scan.",
+    "Option2": "Enables aggressive scan options, including OS detection, version detection, script scanning, and traceroute.",
+    "Option3": "Scans all ports.",
+    "Option4": "Scans for open shares.",
+    "Answer": "Enables aggressive scan options, including OS detection, version detection, script scanning, and traceroute."
+  },
+  {
+    "question_no.": 183,
+    "Question": "Which Nmap option is used to perform OS detection?",
+    "Option1": "-p",
+    "Option2": "-O",
+    "Option3": "-sV",
+    "Option4": "-A",
+    "Answer": "-O"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What does `Nmap -sV` do?",
+    "Option1": "Performs a stealth scan.",
+    "Option2": "Performs version detection, attempting to determine the service name and version number running on open ports.",
+    "Option3": "Scans for vulnerabilities.",
+    "Option4": "Scans for specific vulnerabilities.",
+    "Answer": "Performs version detection, attempting to determine the service name and version number running on open ports."
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which Nmap option is used to run NSE (Nmap Scripting Engine) scripts?",
+    "Option1": "-sC",
+    "Option2": "--script",
+    "Option3": "-A",
+    "Option4": "-sv",
+    "Answer": "--script"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What does `Nmap -Pn` (or -PN) do?",
+    "Option1": "Performs a ping scan.",
+    "Option2": "Treats all hosts as online, skipping the host discovery phase, useful when firewalls block ICMP echo requests.",
+    "Option3": "Scans only live hosts.",
+    "Option4": "Performs a slow scan.",
+    "Answer": "Treats all hosts as online, skipping the host discovery phase, useful when firewalls block ICMP echo requests."
+  },
+  {
+    "question_no.": 187,
+    "Question": "Which Nmap option is used to specify a range of ports to scan?",
+    "Option1": "-r",
+    "Option2": "-p",
+    "Option3": "-P",
+    "Option4": "-T",
+    "Answer": "-p"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What does `Nmap -F` do?",
+    "Option1": "Performs a full scan.",
+    "Option2": "Performs a fast port scan, scanning only the most common 100 ports.",
+    "Option3": "Scans specific file types.",
+    "Option4": "Forces a scan without ping.",
+    "Answer": "Performs a fast port scan, scanning only the most common 100 ports."
+  },
+  {
+    "question_no.": 189,
+    "Question": "Which Nmap timing template (`-T`) is recommended for aggressive scanning on a fast network?",
+    "Option1": "-T0 (Paranoid)",
+    "Option2": "-T1 (Sneaky)",
+    "Option3": "-T4 (Aggressive)",
+    "Option4": "-T5 (Insane)",
+    "Answer": "-T4 (Aggressive)"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is the purpose of `Nmap -f` (fragment packets)?",
+    "Option1": "To make the scan faster.",
+    "Option2": "To evade simple stateless firewalls by splitting TCP headers over several packets.",
+    "Option3": "To force a full TCP handshake.",
+    "Option4": "To scan specific file systems.",
+    "Answer": "To evade simple stateless firewalls by splitting TCP headers over several packets."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which tool uses Nmap's output to generate graphical network maps?",
+    "Option1": "Wireshark",
+    "Option2": "Zenmap",
+    "Option3": "Maltego",
+    "Option4": "Kismet",
+    "Answer": "Zenmap"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is the primary function of `Nmap -D` (decoy scan)?",
+    "Option1": "To hide the scanner's real IP address by mixing it with fake decoy IP addresses, making it harder to determine the true source of the scan.",
+    "Option2": "To detect decoys on the target network.",
+    "Option3": "To distribute the scan across multiple machines.",
+    "Option4": "To perform a distributed denial-of-service attack.",
+    "Answer": "To hide the scanner's real IP address by mixing it with fake decoy IP addresses, making it harder to determine the true source of the scan."
+  },
+  {
+    "question_no.": 193,
+    "Question": "Which Nmap option is used to scan specific network ranges using CIDR notation?",
+    "Option1": "-iL",
+    "Option2": "-iR",
+    "Option3": "target/CIDR",
+    "Option4": "--exclude",
+    "Answer": "target/CIDR"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What does `Nmap -O` specifically attempt to identify?",
+    "Option1": "Open ports.",
+    "Option2": "The operating system running on the target host.",
+    "Option3": "Open services and their versions.",
+    "Option4": "Vulnerabilities on the target.",
+    "Answer": "The operating system running on the target host."
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which tool is commonly used for passive network reconnaissance, listening for network traffic without sending any packets?",
+    "Option1": "Nmap",
+    "Option2": "Kismet",
+    "Option3": "Hping3",
+    "Option4": "Netcat",
+    "Answer": "Kismet"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the main advantage of using `Kismet` over `Airodump-ng` for wireless reconnaissance?",
+    "Option1": "Kismet only works on specific hardware.",
+    "Option2": "Kismet offers a more comprehensive passive monitoring capability, including network detection, client association, and WIDS-like features, while Airodump-ng is focused on capturing raw packets for cracking.",
+    "Option3": "Airodump-ng is faster.",
+    "Option4": "Kismet can crack passwords directly.",
+    "Answer": "Kismet offers a more comprehensive passive monitoring capability, including network detection, client association, and WIDS-like features, while Airodump-ng is focused on capturing raw packets for cracking."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which tool is used for wireless security audits, specifically for WEP/WPA cracking by analyzing captured packets?",
+    "Option1": "Kismet",
+    "Option2": "Aircrack-ng",
+    "Option3": "Reaver",
+    "Option4": "Wifite",
+    "Answer": "Aircrack-ng"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `Aireplay-ng` primarily used for in Aircrack-ng suite?",
+    "Option1": "Capturing packets.",
+    "Option2": "Injecting packets into a wireless network for various attacks, such as deauthentication, ARP requests, and fake authentication.",
+    "Option3": "Monitoring network traffic.",
+    "Option4": "Cracking passwords.",
+    "Answer": "Injecting packets into a wireless network for various attacks, such as deauthentication, ARP requests, and fake authentication."
+  },
+  {
+    "question_no.": 199,
+    "Question": "Which tool automates the process of finding and exploiting WPS vulnerabilities?",
+    "Option1": "Aircrack-ng",
+    "Option2": "Reaver",
+    "Option3": "Wifite",
+    "Option4": "PixieWps",
+    "Answer": "Reaver"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the main feature of `Wifite` for wireless attacking?",
+    "Option1": "Manual execution of attacks.",
+    "Option2": "Automating multiple wireless attacks, including WEP, WPA/WPA2, and WPS attacks, by selecting the best attack method for a given target.",
+    "Option3": "Only passive sniffing.",
+    "Option4": "Hardware-accelerated cracking.",
+    "Answer": "Automating multiple wireless attacks, including WEP, WPA/WPA2, and WPS attacks, by selecting the best attack method for a given target."
+  },
+  {
+    "question_no.": 201,
+    "Question": "Which tool is a powerful open-source tool for performing live analysis of network traffic and identifying anomalies?",
+    "Option1": "Wireshark",
+    "Option2": "Zeek (Bro IDS)",
+    "Option3": "Snort",
+    "Option4": "Suricata",
+    "Answer": "Zeek (Bro IDS)"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What does `Zeek (Bro IDS)` provide beyond traditional IDS functionality?",
+    "Option1": "Only signature-based detection.",
+    "Option2": "A network analysis framework that provides a rich set of logs and behavioral analysis capabilities, creating detailed records of network activity for forensic investigation and threat hunting.",
+    "Option3": "Only alerts on known threats.",
+    "Option4": "Real-time traffic encryption.",
+    "Answer": "A network analysis framework that provides a rich set of logs and behavioral analysis capabilities, creating detailed records of network activity for forensic investigation and threat hunting."
+  },
+  {
+    "question_no.": 203,
+    "Question": "Which tool is a commercial solution that combines vulnerability management, penetration testing, and incident response capabilities?",
+    "Option1": "Nmap",
+    "Option2": "Rapid7 InsightVM (or Nexpose)",
+    "Option3": "Wireshark",
+    "Option4": "Metasploit",
+    "Answer": "Rapid7 InsightVM (or Nexpose)"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the primary function of a `DNS Sinkhole` in network security?",
+    "Option1": "To speed up DNS resolution.",
+    "Option2": "To redirect malicious DNS queries to a controlled, non-routable IP address, preventing clients from connecting to malicious domains (e.g., C2 servers).",
+    "Option3": "To encrypt DNS traffic.",
+    "Option4": "To resolve internal DNS names.",
+    "Answer": "To redirect malicious DNS queries to a controlled, non-routable IP address, preventing clients from connecting to malicious domains (e.g., C2 servers)."
+  }
+]

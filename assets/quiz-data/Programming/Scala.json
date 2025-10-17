@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does Scala stand for?",
+    "Option1": "Scalable Language",
+    "Option2": "Standard Code Language",
+    "Option3": "Structured Compilation Language",
+    "Option4": "Simple Compiled Language",
+    "Answer": "Scalable Language"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which programming paradigms does Scala support?",
+    "Option1": "Only Object-Oriented Programming (OOP)",
+    "Option2": "Only Functional Programming (FP)",
+    "Option3": "Both Object-Oriented Programming (OOP) and Functional Programming (FP)",
+    "Option4": "Procedural Programming only",
+    "Answer": "Both Object-Oriented Programming (OOP) and Functional Programming (FP)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "On which platform does Scala run?",
+    "Option1": "Node.js",
+    "Option2": "Python Virtual Machine (PVM)",
+    "Option3": "Java Virtual Machine (JVM)",
+    "Option4": "Ruby on Rails",
+    "Answer": "Java Virtual Machine (JVM)"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is the primary benefit of Scala's functional programming features?",
+    "Option1": "Faster execution speed by default",
+    "Option2": "Easier database interactions",
+    "Option3": "Better support for mutable state and side effects",
+    "Option4": "Increased code safety, concurrency, and testability due to immutability and pure functions",
+    "Answer": "Increased code safety, concurrency, and testability due to immutability and pure functions"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you declare an immutable variable in Scala?",
+    "Option1": "var name = 'Scala'",
+    "Option2": "val name = 'Scala'",
+    "Option3": "let name = 'Scala'",
+    "Option4": "const name = 'Scala'",
+    "Answer": "val name = 'Scala'"
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you declare a mutable variable in Scala?",
+    "Option1": "val count = 0",
+    "Option2": "var count = 0",
+    "Option3": "let count = 0",
+    "Option4": "const count = 0",
+    "Answer": "var count = 0"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is type inference in Scala?",
+    "Option1": "Explicitly declaring the type of every variable.",
+    "Option2": "The compiler automatically deducing the type of an expression or variable.",
+    "Option3": "Converting one data type to another.",
+    "Option4": "A mechanism for type checking at runtime.",
+    "Answer": "The compiler automatically deducing the type of an expression or variable."
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the entry point for a Scala application?",
+    "Option1": "A class with a `main` method that takes `Array[String]` as an argument.",
+    "Option2": "A class with a `start` method.",
+    "Option3": "A function named `run`.",
+    "Option4": "Any class can be an entry point.",
+    "Answer": "A class with a `main` method that takes `Array[String]` as an argument."
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you define a function in Scala?",
+    "Option1": "func add(a: Int, b: Int): Int = a + b",
+    "Option2": "def add(a: Int, b: Int): Int = a + b",
+    "Option3": "function add(a: Int, b: Int): Int = a + b",
+    "Option4": "val add = (a: Int, b: Int) => a + b",
+    "Answer": "def add(a: Int, b: Int): Int = a + b"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'Unit' type in Scala?",
+    "Option1": "Represents a single integer.",
+    "Option2": "Similar to `void` in Java, indicating that a function does not return a meaningful value.",
+    "Option3": "A type used for performing mathematical operations.",
+    "Option4": "Represents an undefined value.",
+    "Answer": "Similar to `void` in Java, indicating that a function does not return a meaningful value."
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is 'Case Class' in Scala?",
+    "Option1": "A regular class that requires explicit `equals`, `hashCode`, and `toString` implementations.",
+    "Option2": "A special type of class optimized for immutable data and pattern matching, with automatic generation of `equals`, `hashCode`, `toString`, `copy`, and `unapply` methods.",
+    "Option3": "A class used only for defining traits.",
+    "Option4": "A class that can only contain mutable variables.",
+    "Answer": "A special type of class optimized for immutable data and pattern matching, with automatic generation of `equals`, `hashCode`, `toString`, `copy`, and `unapply` methods."
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'Pattern Matching' in Scala?",
+    "Option1": "A way to define regular expressions.",
+    "Option2": "A powerful mechanism for checking a value against a series of patterns, allowing for destructuring data and executing different code paths based on the match.",
+    "Option3": "A method for type casting.",
+    "Option4": "A way to compare two objects for equality.",
+    "Answer": "A powerful mechanism for checking a value against a series of patterns, allowing for destructuring data and executing different code paths based on the match."
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which keyword is used for pattern matching in Scala?",
+    "Option1": "if",
+    "Option2": "switch",
+    "Option3": "match",
+    "Option4": "caseof",
+    "Answer": "match"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is an 'Object' in Scala?",
+    "Option1": "An instance of a class.",
+    "Option2": "A singleton instance, similar to static members in Java, often used for utility methods or defining a single instance of a class.",
+    "Option3": "A mutable data structure.",
+    "Option4": "A type of trait.",
+    "Answer": "A singleton instance, similar to static members in Java, often used for utility methods or defining a single instance of a class."
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'Companion Object'?",
+    "Option1": "An object that exists independently of a class.",
+    "Option2": "An `object` with the same name as a `class` and defined in the same source file. They can access each other's private members.",
+    "Option3": "An object that is automatically garbage collected.",
+    "Option4": "An object used for dependency injection.",
+    "Answer": "An `object` with the same name as a `class` and defined in the same source file. They can access each other's private members."
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'Trait' in Scala?",
+    "Option1": "Similar to an abstract class in Java, but can be mixed into multiple classes.",
+    "Option2": "Similar to an interface in Java, but can also contain concrete methods and fields.",
+    "Option3": "A type of immutable data structure.",
+    "Option4": "A way to define anonymous functions.",
+    "Answer": "Similar to an interface in Java, but can also contain concrete methods and fields."
+  },
+  {
+    "question_no.": 17,
+    "Question": "Can a class extend multiple traits in Scala?",
+    "Option1": "No, only one trait is allowed.",
+    "Option2": "Yes, a class can mix in multiple traits using `with` keyword.",
+    "Option3": "Only if the traits are empty.",
+    "Option4": "Only if the traits define abstract methods.",
+    "Answer": "Yes, a class can mix in multiple traits using `with` keyword."
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is 'Higher-Order Functions' in Scala?",
+    "Option1": "Functions that only take primitive data types as arguments.",
+    "Option2": "Functions that can take other functions as arguments or return functions as results.",
+    "Option3": "Functions that are executed with higher priority.",
+    "Option4": "Functions that operate on objects.",
+    "Answer": "Functions that can take other functions as arguments or return functions as results."
+  },
+  {
+    "question_no.": 19,
+    "Question": "Give an example of a higher-order function in Scala's standard library.",
+    "Option1": "println",
+    "Option2": "map",
+    "Option3": "length",
+    "Option4": "head",
+    "Answer": "map"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'Immutability' in Scala?",
+    "Option1": "The ability to change a variable's value after it's been initialized.",
+    "Option2": "The state of an object or data structure not being modifiable after it's created.",
+    "Option3": "A concept only applicable to primitive data types.",
+    "Option4": "A feature that makes code slower.",
+    "Answer": "The state of an object or data structure not being modifiable after it's created."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'Closure' in Scala?",
+    "Option1": "A function that has no access to variables outside its scope.",
+    "Option2": "A function that can access variables from its surrounding scope, even after the outer function has finished executing.",
+    "Option3": "A function that automatically closes external resources.",
+    "Option4": "A way to define anonymous classes.",
+    "Answer": "A function that can access variables from its surrounding scope, even after the outer function has finished executing."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is 'Currying' in Scala?",
+    "Option1": "A technique for converting a function that takes multiple arguments into a sequence of functions, each taking a single argument.",
+    "Option2": "A method for delaying function execution.",
+    "Option3": "A way to define anonymous functions.",
+    "Option4": "A form of type conversion.",
+    "Answer": "A technique for converting a function that takes multiple arguments into a sequence of functions, each taking a single argument."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'Lazy Evaluation' in Scala?",
+    "Option1": "Code is executed immediately upon definition.",
+    "Option2": "Expressions are evaluated only when their values are actually needed, rather than immediately.",
+    "Option3": "A technique for optimizing compilation speed.",
+    "Option4": "A method for handling exceptions.",
+    "Answer": "Expressions are evaluated only when their values are actually needed, rather than immediately."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which keyword is used for lazy evaluation in Scala?",
+    "Option1": "val",
+    "Option2": "var",
+    "Option3": "lazy",
+    "Option4": "def",
+    "Answer": "lazy"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is 'Option' in Scala?",
+    "Option1": "A data type representing a collection of elements.",
+    "Option2": "A container that represents the presence (`Some`) or absence (`None`) of a value, used to avoid `NullPointerExceptions`.",
+    "Option3": "A way to define optional parameters in a function.",
+    "Option4": "A type of abstract class.",
+    "Answer": "A container that represents the presence (`Some`) or absence (`None`) of a value, used to avoid `NullPointerExceptions`."
+  },
+  {
+    "question_no.": 26,
+    "Question": "When would you typically use `Option[T]`?",
+    "Option1": "When you are certain a value will always be present.",
+    "Option2": "When a computation might or might not return a value, and you want to handle both cases gracefully.",
+    "Option3": "When you need to store multiple values of different types.",
+    "Option4": "When performing mathematical calculations.",
+    "Answer": "When a computation might or might not return a value, and you want to handle both cases gracefully."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'Either' in Scala?",
+    "Option1": "A container that holds two values of the same type.",
+    "Option2": "A type that represents a value of one of two possible types (a `Left` or a `Right`), commonly used for error handling where `Left` is for error and `Right` for success.",
+    "Option3": "A boolean type.",
+    "Option4": "A way to define conditional statements.",
+    "Answer": "A type that represents a value of one of two possible types (a `Left` or a `Right`), commonly used for error handling where `Left` is for error and `Right` for success."
+  },
+  {
+    "question_no.": 28,
+    "Question": "In `Either[A, B]`, which side is conventionally used for the success value?",
+    "Option1": "Left",
+    "Option2": "Right",
+    "Option3": "Either can be used for success.",
+    "Option4": "Neither, it's for error only.",
+    "Answer": "Right"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is 'Collections' in Scala?",
+    "Option1": "Only primitive data types.",
+    "Option2": "A rich and powerful hierarchy of immutable and mutable data structures for storing and manipulating groups of elements (e.g., `List`, `Vector`, `Map`, `Set`).",
+    "Option3": "A way to define classes.",
+    "Option4": "A mechanism for I/O operations.",
+    "Answer": "A rich and powerful hierarchy of immutable and mutable data structures for storing and manipulating groups of elements (e.g., `List`, `Vector`, `Map`, `Set`)."
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which of the following is an immutable collection in Scala?",
+    "Option1": "ArrayBuffer",
+    "Option2": "List",
+    "Option3": "HashMap (from `scala.collection.mutable`)",
+    "Option4": "Array",
+    "Answer": "List"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'Generics' in Scala?",
+    "Option1": "A way to define fixed types.",
+    "Option2": "Allowing classes, traits, and functions to be parameterized by types, enabling them to work with a variety of data types while maintaining type safety.",
+    "Option3": "A mechanism for type conversion.",
+    "Option4": "A way to define implicit conversions.",
+    "Answer": "Allowing classes, traits, and functions to be parameterized by types, enabling them to work with a variety of data types while maintaining type safety."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What does `[T]` signify in a generic class `class MyClass[T]`?",
+    "Option1": "It's a fixed type named T.",
+    "Option2": "T is a type parameter, indicating that `MyClass` can work with any type.",
+    "Option3": "T is a value parameter.",
+    "Option4": "T stands for 'Type of object'.",
+    "Answer": "T is a type parameter, indicating that `MyClass` can work with any type."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Implicit Conversions' in Scala?",
+    "Option1": "Explicit type casting.",
+    "Option2": "A mechanism where the compiler automatically converts one type to another to make code more concise or to add new functionality to existing types.",
+    "Option3": "A way to define abstract methods.",
+    "Option4": "A method for handling exceptions.",
+    "Answer": "A mechanism where the compiler automatically converts one type to another to make code more concise or to add new functionality to existing types."
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which keyword is used to define an implicit conversion?",
+    "Option1": "convert",
+    "Option2": "implicit",
+    "Option3": "auto",
+    "Option4": "transform",
+    "Answer": "implicit"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What are 'Implicit Parameters'?",
+    "Option1": "Parameters that must be explicitly passed.",
+    "Option2": "Parameters that the compiler can automatically supply if an implicit value of the correct type is in scope, often used for dependency injection or context passing.",
+    "Option3": "Parameters that are optional.",
+    "Option4": "Parameters that define default values.",
+    "Answer": "Parameters that the compiler can automatically supply if an implicit value of the correct type is in scope, often used for dependency injection or context passing."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'Concurrency' in Scala?",
+    "Option1": "Only single-threaded execution.",
+    "Option2": "Scala's strong support for immutable data and functional programming makes it well-suited for building concurrent applications, often leveraging actors (Akka) or Futures.",
+    "Option3": "A feature only for distributed systems.",
+    "Option4": "A way to block threads.",
+    "Answer": "Scala's strong support for immutable data and functional programming makes it well-suited for building concurrent applications, often leveraging actors (Akka) or Futures."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'Futures' in Scala?",
+    "Option1": "A way to define a sequence of computations.",
+    "Option2": "A placeholder object for a result that may not yet be available, representing an asynchronous computation that will eventually produce a value or an exception.",
+    "Option3": "A type of mutable collection.",
+    "Option4": "A mechanism for defining traits.",
+    "Answer": "A placeholder object for a result that may not yet be available, representing an asynchronous computation that will eventually produce a value or an exception."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Akka' in the Scala ecosystem?",
+    "Option1": "A build tool.",
+    "Option2": "A toolkit and runtime for building highly concurrent, distributed, and fault-tolerant applications using the Actor Model.",
+    "Option3": "A web framework.",
+    "Option4": "A database library.",
+    "Answer": "A toolkit and runtime for building highly concurrent, distributed, and fault-tolerant applications using the Actor Model."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Actor Model'?",
+    "Option1": "A design pattern for user interfaces.",
+    "Option2": "A concurrency model where independent 'actors' communicate by sending immutable messages to each other, avoiding shared mutable state.",
+    "Option3": "A way to model database tables.",
+    "Option4": "A technique for object serialization.",
+    "Answer": "A concurrency model where independent 'actors' communicate by sending immutable messages to each other, avoiding shared mutable state."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is 'SBT' in Scala?",
+    "Option1": "A web server.",
+    "Option2": "The primary build tool for Scala and Java projects, providing dependency management, compilation, testing, and packaging capabilities.",
+    "Option3": "A testing framework.",
+    "Option4": "A debugger for Scala applications.",
+    "Answer": "The primary build tool for Scala and Java projects, providing dependency management, compilation, testing, and packaging capabilities."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is a 'build.sbt' file used for?",
+    "Option1": "To store source code.",
+    "Option2": "To configure an SBT project, specifying dependencies, project settings, and custom tasks.",
+    "Option3": "To define database schemas.",
+    "Option4": "To manage user authentication.",
+    "Answer": "To configure an SBT project, specifying dependencies, project settings, and custom tasks."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Scala REPL'?",
+    "Option1": "A tool for deploying Scala applications.",
+    "Option2": "Read-Eval-Print Loop, an interactive shell that allows you to execute Scala code line by line and see immediate results, useful for experimentation and learning.",
+    "Option3": "A debugger for Scala.",
+    "Option4": "A component of the Scala compiler.",
+    "Answer": "Read-Eval-Print Loop, an interactive shell that allows you to execute Scala code line by line and see immediate results, useful for experimentation and learning."
+  },
+  {
+    "question_no.": 43,
+    "Question": "How do you start the Scala REPL?",
+    "Option1": "scala --repl",
+    "Option2": "sbt console",
+    "Option3": "scala",
+    "Option4": "java -jar scala.jar",
+    "Answer": "scala"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'Type Classes' in Scala?",
+    "Option1": "A mechanism for explicit type declaration.",
+    "Option2": "A powerful design pattern that allows you to add new behavior to closed data types, promoting extensibility without modifying the original type, often using implicit parameters.",
+    "Option3": "A way to define generic types.",
+    "Option4": "A type of abstract class.",
+    "Answer": "A powerful design pattern that allows you to add new behavior to closed data types, promoting extensibility without modifying the original type, often using implicit parameters."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What are the three main components of a Type Class pattern?",
+    "Option1": "Class, Object, Trait",
+    "Option2": "Type Class (trait), Instances (implicit objects), Interface (extension methods)",
+    "Option3": "Function, Variable, Parameter",
+    "Option4": "Abstract class, Concrete class, Singleton object",
+    "Answer": "Type Class (trait), Instances (implicit objects), Interface (extension methods)"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Monad' in Functional Programming (relevant to Scala)?",
+    "Option1": "A mutable data structure.",
+    "Option2": "A design pattern that allows structuring programs by chaining operations, representing computations as a sequence of steps, often with a context (e.g., `Option`, `Future`).",
+    "Option3": "A type of compiler optimization.",
+    "Option4": "A way to handle exceptions only.",
+    "Answer": "A design pattern that allows structuring programs by chaining operations, representing computations as a sequence of steps, often with a context (e.g., `Option`, `Future`)."
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which two operations are fundamental to a Monad?",
+    "Option1": "add and subtract",
+    "Option2": "map and filter",
+    "Option3": "unit (or pure) and flatMap",
+    "Option4": "fold and reduce",
+    "Answer": "unit (or pure) and flatMap"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'Functional Composition' in Scala?",
+    "Option1": "Combining mutable data structures.",
+    "Option2": "Combining simpler functions to build more complex functions, typically using operators like `andThen` or `compose`.",
+    "Option3": "Defining functions within other functions.",
+    "Option4": "A method for debugging functions.",
+    "Answer": "Combining simpler functions to build more complex functions, typically using operators like `andThen` or `compose`."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Referential Transparency'?",
+    "Option1": "The ability to see through a function's implementation.",
+    "Option2": "A property of expressions where they can be replaced with their computed value without changing the program's behavior, crucial for functional programming.",
+    "Option3": "A feature of Scala's type system.",
+    "Option4": "A way to optimize memory usage.",
+    "Answer": "A property of expressions where they can be replaced with their computed value without changing the program's behavior, crucial for functional programming."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Side Effects' in functional programming?",
+    "Option1": "The primary goal of pure functions.",
+    "Option2": "Any observable change to the state of the system outside the function's local scope, such as modifying mutable data, performing I/O, or throwing exceptions.",
+    "Option3": "A way to handle concurrent operations.",
+    "Option4": "A type of function parameter.",
+    "Answer": "Any observable change to the state of the system outside the function's local scope, such as modifying mutable data, performing I/O, or throwing exceptions."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Tail Recursion' in Scala?",
+    "Option1": "A recursive function that performs additional computations after the recursive call.",
+    "Option2": "A recursive function where the recursive call is the last operation in the function, allowing the compiler to optimize it into a loop, preventing stack overflow.",
+    "Option3": "A type of iterative loop.",
+    "Option4": "A way to handle infinite loops.",
+    "Answer": "A recursive function where the recursive call is the last operation in the function, allowing the compiler to optimize it into a loop, preventing stack overflow."
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which annotation can you use to ensure a function is tail-recursive?",
+    "Option1": "@recursive",
+    "Option2": "@tailrec",
+    "Option3": "@optimize",
+    "Option4": "@loop",
+    "Answer": "@tailrec"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Pattern Guards' in Scala's pattern matching?",
+    "Option1": "A way to secure pattern matches.",
+    "Option2": "An `if` condition added to a `case` clause, allowing for more specific matching criteria beyond just the type or structure of the value.",
+    "Option3": "A method for preventing `match` statements.",
+    "Option4": "A way to define default cases.",
+    "Answer": "An `if` condition added to a `case` clause, allowing for more specific matching criteria beyond just the type or structure of the value."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Sealed Traits/Classes'?",
+    "Option1": "Traits/classes that cannot be extended.",
+    "Option2": "Traits or classes marked with `sealed` keyword, meaning all their direct subclasses must be defined in the same source file, allowing the compiler to check for exhaustive pattern matching.",
+    "Option3": "Traits/classes that are private.",
+    "Option4": "Traits/classes that can only be inherited once.",
+    "Answer": "Traits or classes marked with `sealed` keyword, meaning all their direct subclasses must be defined in the same source file, allowing the compiler to check for exhaustive pattern matching."
+  },
+  {
+    "question_no.": 55,
+    "Question": "Why are sealed traits/classes useful for pattern matching?",
+    "Option1": "They make pattern matching slower.",
+    "Option2": "They allow the compiler to warn you if your pattern match is not exhaustive (i.e., you haven't covered all possible cases), preventing runtime errors.",
+    "Option3": "They restrict the types that can be matched.",
+    "Option4": "They automatically generate match statements.",
+    "Answer": "They allow the compiler to warn you if your pattern match is not exhaustive (i.e., you haven't covered all possible cases), preventing runtime errors."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Type Aliases' in Scala?",
+    "Option1": "A way to create new data types.",
+    "Option2": "Giving an existing type a new, more descriptive name, improving readability and maintainability without creating a new type.",
+    "Option3": "A method for type conversion.",
+    "Option4": "A mechanism for defining generic types.",
+    "Answer": "Giving an existing type a new, more descriptive name, improving readability and maintainability without creating a new type."
+  },
+  {
+    "question_no.": 57,
+    "Question": "How do you define a type alias?",
+    "Option1": "new type MyInt = Int",
+    "Option2": "type MyInt = Int",
+    "Option3": "alias MyInt = Int",
+    "Option4": "typedef MyInt Int",
+    "Answer": "type MyInt = Int"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is 'Auxiliary Constructors' in Scala?",
+    "Option1": "The primary way to create instances of a class.",
+    "Option2": "Additional constructors within a class (defined using `def this(...)`), used to provide alternative ways to construct objects, always calling the primary constructor or another auxiliary constructor.",
+    "Option3": "Constructors that are automatically generated.",
+    "Option4": "Constructors that can only be private.",
+    "Answer": "Additional constructors within a class (defined using `def this(...)`), used to provide alternative ways to construct objects, always calling the primary constructor or another auxiliary constructor."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the 'Primary Constructor' in Scala?",
+    "Option1": "Defined using `def this(...)`.",
+    "Option2": "The constructor defined directly in the class signature, responsible for initializing the class's fields.",
+    "Option3": "The constructor that is always implicit.",
+    "Option4": "A constructor that can only be called from an object.",
+    "Answer": "The constructor defined directly in the class signature, responsible for initializing the class's fields."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Named Arguments' in Scala?",
+    "Option1": "Passing arguments in a specific order.",
+    "Option2": "Passing arguments to functions by explicitly specifying their parameter names, improving readability and allowing flexible argument order.",
+    "Option3": "Arguments that are always implicit.",
+    "Option4": "Arguments that are always required.",
+    "Answer": "Passing arguments to functions by explicitly specifying their parameter names, improving readability and allowing flexible argument order."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What are 'Default Arguments' in Scala?",
+    "Option1": "Arguments that must always be provided.",
+    "Option2": "Function parameters that have a predefined default value, allowing you to omit them when calling the function if you want to use the default.",
+    "Option3": "Arguments that are passed implicitly.",
+    "Option4": "Arguments that can only be numbers.",
+    "Answer": "Function parameters that have a predefined default value, allowing you to omit them when calling the function if you want to use the default."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Scala Collections API'?",
+    "Option1": "A set of mutable-only data structures.",
+    "Option2": "A comprehensive and flexible set of data structures and algorithms for working with collections of data, emphasizing both mutable and immutable options.",
+    "Option3": "A library for database interactions.",
+    "Option4": "A framework for user interface development.",
+    "Answer": "A comprehensive and flexible set of data structures and algorithms for working with collections of data, emphasizing both mutable and immutable options."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Which collection is generally preferred for functional programming in Scala due to its immutability and efficient operations?",
+    "Option1": "ArrayBuffer",
+    "Option2": "List",
+    "Option3": "Array",
+    "Option4": "java.util.ArrayList",
+    "Answer": "List"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Vector' in Scala collections?",
+    "Option1": "A mutable, linked list.",
+    "Option2": "An immutable, effectively constant-time random access, and prepend/append collection, suitable for many functional programming tasks.",
+    "Option3": "A mutable, fixed-size array.",
+    "Option4": "A specialized collection for numeric data.",
+    "Answer": "An immutable, effectively constant-time random access, and prepend/append collection, suitable for many functional programming tasks."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'Scala REPL History'?",
+    "Option1": "A log of all past Scala compilations.",
+    "Option2": "The ability of the REPL to store previously entered commands, which can be recalled and re-executed using arrow keys.",
+    "Option3": "A file containing all Scala errors.",
+    "Option4": "A feature for optimizing REPL performance.",
+    "Answer": "The ability of the REPL to store previously entered commands, which can be recalled and re-executed using arrow keys."
+  },
+  {
+    "question_no.": 66,
+    "Question": "How do you exit the Scala REPL?",
+    "Option1": "exit()",
+    "Option2": ":quit",
+    "Option3": "close()",
+    "Option4": "system.exit(0)",
+    "Answer": ":quit"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Variance' in Scala (Covariance, Contravariance, Invariance)?",
+    "Option1": "A measure of data dispersion.",
+    "Option2": "How subtyping relationships between complex types relate to the subtyping relationships of their component types (e.g., `List[+T]`, `Function[-T, +R]`).",
+    "Option3": "A way to handle type inference.",
+    "Option4": "A method for defining implicit conversions.",
+    "Answer": "How subtyping relationships between complex types relate to the subtyping relationships of their component types (e.g., `List[+T]`, `Function[-T, +R]`)."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does `+T` signify in `List[+T]` (covariance)?",
+    "Option1": "You can only put type T into the list.",
+    "Option2": "If A is a subtype of B, then `List[A]` is a subtype of `List[B]`.",
+    "Option3": "You can only get type T out of the list.",
+    "Option4": "The list can contain any type.",
+    "Answer": "If A is a subtype of B, then `List[A]` is a subtype of `List[B]`."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What does `-T` signify in `Function[-T, +R]` (contravariance on input)?",
+    "Option1": "The function can only take type T as input.",
+    "Option2": "If A is a subtype of B, then `Function[B, R]` is a subtype of `Function[A, R]` (input type can be a supertype).",
+    "Option3": "The function returns a supertype of T.",
+    "Option4": "The function's input type is fixed.",
+    "Answer": "If A is a subtype of B, then `Function[B, R]` is a subtype of `Function[A, R]` (input type can be a supertype)."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'Existential Types' in Scala?",
+    "Option1": "Types that are known at compile time.",
+    "Option2": "Types where you know a type exists but not its specific identity (e.g., `List[_]`, `List[T forSome {type T}]`), often used when dealing with unknown types.",
+    "Option3": "Types that are automatically inferred.",
+    "Option4": "Types that are only available at runtime.",
+    "Answer": "Types where you know a type exists but not its specific identity (e.g., `List[_]`, `List[T forSome {type T}]`), often used when dealing with unknown types."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Self-Types' in Scala?",
+    "Option1": "A type of recursive definition.",
+    "Option2": "A way to declare that a trait (or class) requires another trait (or traits) to be mixed into the class that implements it, using `this: OtherTrait =>` syntax.",
+    "Option3": "A method for defining type aliases.",
+    "Option4": "A type of abstract class.",
+    "Answer": "A way to declare that a trait (or class) requires another trait (or traits) to be mixed into the class that implements it, using `this: OtherTrait =>` syntax."
+  },
+  {
+    "question_no.": 72,
+    "Question": "When are self-types commonly used?",
+    "Option1": "For simple class inheritance.",
+    "Option2": "For implementing the cake pattern (dependency injection) or when building modular components with explicit dependencies.",
+    "Option3": "For defining singleton objects.",
+    "Option4": "For creating immutable data structures.",
+    "Answer": "For implementing the cake pattern (dependency injection) or when building modular components with explicit dependencies."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the 'Cake Pattern' in Scala?",
+    "Option1": "A design pattern for building user interfaces.",
+    "Option2": "A dependency injection pattern in Scala that uses self-types and traits to assemble application components in a modular and testable way, without external frameworks.",
+    "Option3": "A pattern for creating immutable objects.",
+    "Option4": "A pattern for handling concurrency.",
+    "Answer": "A dependency injection pattern in Scala that uses self-types and traits to assemble application components in a modular and testable way, without external frameworks."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Reflection' in Scala?",
+    "Option1": "The ability to inspect and modify code at compile time.",
+    "Option2": "The ability of a program to examine, introspect, and modify its own structure and behavior at runtime, useful for dynamic operations but generally less common in idiomatic Scala.",
+    "Option3": "A technique for code obfuscation.",
+    "Option4": "A method for optimizing bytecode.",
+    "Answer": "The ability of a program to examine, introspect, and modify its own structure and behavior at runtime, useful for dynamic operations but generally less common in idiomatic Scala."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Macros' in Scala?",
+    "Option1": "Runtime code generation.",
+    "Option2": "A meta-programming feature that allows you to write code that generates or transforms other code during compilation, enabling powerful compile-time optimizations and DSLs.",
+    "Option3": "A way to define functions with multiple arguments.",
+    "Option4": "A feature for defining implicit conversions.",
+    "Answer": "A meta-programming feature that allows you to write code that generates or transforms other code during compilation, enabling powerful compile-time optimizations and DSLs."
+  },
+  {
+    "question_no.": 76,
+    "Question": "Are Scala macros easy to use and widely recommended for beginners?",
+    "Option1": "Yes, they are very simple.",
+    "Option2": "No, they are complex and typically reserved for advanced use cases or library authors due to their meta-programming nature.",
+    "Option3": "Only for specific functional programming tasks.",
+    "Option4": "They are deprecated.",
+    "Answer": "No, they are complex and typically reserved for advanced use cases or library authors due to their meta-programming nature."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Abstract Class' in Scala?",
+    "Option1": "A class that can be instantiated directly.",
+    "Option2": "A class that cannot be instantiated and may contain abstract (unimplemented) members, serving as a blueprint for subclasses.",
+    "Option3": "A class that can only contain concrete methods.",
+    "Option4": "A class that can extend multiple other classes.",
+    "Answer": "A class that cannot be instantiated and may contain abstract (unimplemented) members, serving as a blueprint for subclasses."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the main difference between a `trait` and an `abstract class` in Scala?",
+    "Option1": "Traits can have constructors, abstract classes cannot.",
+    "Option2": "A class can extend multiple traits but only one abstract class. Traits are more flexible for mixing in behavior.",
+    "Option3": "Abstract classes can be instantiated, traits cannot.",
+    "Option4": "Traits cannot define concrete methods.",
+    "Answer": "A class can extend multiple traits but only one abstract class. Traits are more flexible for mixing in behavior."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'Auxiliary Constructors' (revisited)?",
+    "Option1": "The primary constructor is always defined using `def this(...)`.",
+    "Option2": "Auxiliary constructors (defined with `def this(...)`) must always call another constructor (either the primary or another auxiliary) as their first statement.",
+    "Option3": "Auxiliary constructors can be defined without calling any other constructor.",
+    "Option4": "Auxiliary constructors are only for mutable classes.",
+    "Answer": "Auxiliary constructors (defined with `def this(...)`) must always call another constructor (either the primary or another auxiliary) as their first statement."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Companion Object' (revisited)?",
+    "Option1": "It's a way to define static methods in Scala.",
+    "Option2": "A companion object provides a place for 'static' methods, factory methods, and implicit definitions that are associated with its companion class, but not part of its instances.",
+    "Option3": "It's a separate singleton instance without connection to a class.",
+    "Option4": "It's used only for type classes.",
+    "Answer": "A companion object provides a place for 'static' methods, factory methods, and implicit definitions that are associated with its companion class, but not part of its instances."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Package Objects' in Scala?",
+    "Option1": "Objects that are specific to a single class.",
+    "Option2": "A special object named `package.scala` within a package that can contain definitions (functions, variables, type aliases) that are accessible directly in that package without qualification.",
+    "Option3": "Objects that are used for dependency management.",
+    "Option4": "Objects that control access to external libraries.",
+    "Answer": "A special object named `package.scala` within a package that can contain definitions (functions, variables, type aliases) that are accessible directly in that package without qualification."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of a package object?",
+    "Option1": "To define private methods.",
+    "Option2": "To make common definitions accessible at the top level of a package, avoiding explicit imports or object prefixes for frequently used items.",
+    "Option3": "To create anonymous functions.",
+    "Option4": "To manage mutable state.",
+    "Answer": "To make common definitions accessible at the top level of a package, avoiding explicit imports or object prefixes for frequently used items."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'For Comprehensions' in Scala?",
+    "Option1": "A complex looping construct.",
+    "Option2": "Syntactic sugar for chaining operations on `Monads` (like `Option`, `List`, `Future`) using `map`, `flatMap`, and `filter` (or `withFilter`), making complex transformations more readable.",
+    "Option3": "A way to define explicit type conversions.",
+    "Option4": "A mechanism for defining anonymous classes.",
+    "Answer": "Syntactic sugar for chaining operations on `Monads` (like `Option`, `List`, `Future`) using `map`, `flatMap`, and `filter` (or `withFilter`), making complex transformations more readable."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What are the core methods that `for` comprehensions translate to?",
+    "Option1": "add, subtract, multiply",
+    "Option2": "if, else, while",
+    "Option3": "map, flatMap, filter",
+    "Option4": "head, tail, isEmpty",
+    "Answer": "map, flatMap, filter"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Value Classes' in Scala?",
+    "Option1": "Classes that can only contain primitive values.",
+    "Option2": "Classes that extend `AnyVal` and hold a single field, allowing for type-safety and domain modeling without incurring object allocation overhead at runtime.",
+    "Option3": "Classes that are always immutable.",
+    "Option4": "Classes used for defining implicit conversions.",
+    "Answer": "Classes that extend `AnyVal` and hold a single field, allowing for type-safety and domain modeling without incurring object allocation overhead at runtime."
+  },
+  {
+    "question_no.": 86,
+    "Question": "When are value classes typically used?",
+    "Option1": "For creating large data structures.",
+    "Option2": "To prevent primitive obsession and provide stronger type safety for values that conceptually represent distinct entities (e.g., `CustomerId`, `EmailAddress`).",
+    "Option3": "For defining mutable state.",
+    "Option4": "For implementing higher-order functions.",
+    "Answer": "To prevent primitive obsession and provide stronger type safety for values that conceptually represent distinct entities (e.g., `CustomerId`, `EmailAddress`)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Recursion' in Scala?",
+    "Option1": "A method of iteration using `for` loops.",
+    "Option2": "A functional programming technique where a function calls itself to solve a problem, often used in place of traditional loops.",
+    "Option3": "A way to manage memory.",
+    "Option4": "A method for defining anonymous classes.",
+    "Answer": "A functional programming technique where a function calls itself to solve a problem, often used in place of traditional loops."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the common issue with non-tail-recursive functions?",
+    "Option1": "They run slower.",
+    "Option2": "They can lead to `StackOverflowError` for large inputs due to excessive stack frames being accumulated.",
+    "Option3": "They consume more memory on the heap.",
+    "Option4": "They are not type-safe.",
+    "Answer": "They can lead to `StackOverflowError` for large inputs due to excessive stack frames being accumulated."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'Lazy Vals' in Scala?",
+    "Option1": "Variables whose values are computed immediately.",
+    "Option2": "Immutable variables (val) whose initialization is deferred until they are first accessed, useful for expensive computations or circular dependencies.",
+    "Option3": "Mutable variables that are lazy.",
+    "Option4": "Variables that are automatically garbage collected.",
+    "Answer": "Immutable variables (val) whose initialization is deferred until they are first accessed, useful for expensive computations or circular dependencies."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the main difference between `lazy val` and `def` (method without parameters)?",
+    "Option1": "`lazy val` is re-evaluated every time, `def` is evaluated once.",
+    "Option2": "`lazy val` is evaluated once on first access and its value is cached; `def` is re-evaluated every time it's called.",
+    "Option3": "They are functionally identical.",
+    "Option4": "`lazy val` can be mutable.",
+    "Answer": "`lazy val` is evaluated once on first access and its value is cached; `def` is re-evaluated every time it's called."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is 'Type Bounds' in Scala?",
+    "Option1": "Restricting the scope of a type.",
+    "Option2": "Imposing constraints on type parameters, ensuring they are a subtype (`<:`) or supertype (`>:`) of another type, or both (`>: A <: B`).",
+    "Option3": "A way to define type aliases.",
+    "Option4": "A method for type inference.",
+    "Answer": "Imposing constraints on type parameters, ensuring they are a subtype (`<:`) or supertype (`>:`) of another type, or both (`>: A <: B`)."
+  },
+  {
+    "question_no.": 92,
+    "Question": "What does `T <: Comparable[T]` mean as a type bound?",
+    "Option1": "T must be a supertype of Comparable[T].",
+    "Option2": "T must be a subtype of Comparable[T] (upper bound).",
+    "Option3": "T must be exactly Comparable[T].",
+    "Option4": "T can be any type.",
+    "Answer": "T must be a subtype of Comparable[T] (upper bound)."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Context Bounds' in Scala?",
+    "Option1": "Defining the scope of a variable.",
+    "Option2": "Syntactic sugar for implicit parameters, requiring an implicit value of a specific type class to be available in scope for a type parameter (e.g., `[A: Ordering]`).",
+    "Option3": "A way to limit function arguments.",
+    "Option4": "A method for restricting access to classes.",
+    "Answer": "Syntactic sugar for implicit parameters, requiring an implicit value of a specific type class to be available in scope for a type parameter (e.g., `[A: Ordering]`)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What does `[A: Ordering]` mean in a function signature?",
+    "Option1": "A must be an instance of Ordering.",
+    "Option2": "There must be an implicit `Ordering[A]` value available in scope.",
+    "Option3": "A is a type parameter named Ordering.",
+    "Option4": "A must be ordered numerically.",
+    "Answer": "There must be an implicit `Ordering[A]` value available in scope."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Dependency Injection' in Scala (without frameworks)?",
+    "Option1": "Hardcoding dependencies directly into classes.",
+    "Option2": "Passing dependencies (e.g., services, configurations) as parameters to constructors or methods, rather than having classes create them internally, promoting testability and modularity.",
+    "Option3": "A mechanism for global variables.",
+    "Option4": "A way to define singleton objects.",
+    "Answer": "Passing dependencies (e.g., services, configurations) as parameters to constructors or methods, rather than having classes create them internally, promoting testability and modularity."
+  },
+  {
+    "question_no.": 96,
+    "Question": "How does the 'Cake Pattern' relate to Dependency Injection?",
+    "Option1": "It's a way to avoid DI.",
+    "Option2": "The Cake Pattern uses Scala's self-types and traits to provide a compile-time, type-safe approach to dependency injection within the language itself, without external libraries.",
+    "Option3": "It's a runtime DI framework.",
+    "Option4": "It's only for imperative programming.",
+    "Answer": "The Cake Pattern uses Scala's self-types and traits to provide a compile-time, type-safe approach to dependency injection within the language itself, without external libraries."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Abstract Type Members'?",
+    "Option1": "Types that are defined by concrete classes.",
+    "Option2": "Type definitions within traits or abstract classes that must be implemented by concrete subclasses, allowing for more flexible type definitions than type parameters.",
+    "Option3": "Type aliases that are hidden.",
+    "Option4": "Types that are automatically inferred.",
+    "Answer": "Type definitions within traits or abstract classes that must be implemented by concrete subclasses, allowing for more flexible type definitions than type parameters."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Path-Dependent Types'?",
+    "Option1": "Types that depend on the file path.",
+    "Option2": "Types whose identity depends on the specific instance of an outer class (e.g., `outer.InnerType`), allowing for fine-grained type relationships.",
+    "Option3": "Types that are derived from other types.",
+    "Option4": "Types that are always abstract.",
+    "Answer": "Types whose identity depends on the specific instance of an outer class (e.g., `outer.InnerType`), allowing for fine-grained type relationships."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Structural Types'?",
+    "Option1": "Types based on a fixed structure.",
+    "Option2": "Defining a type by specifying its members (methods and fields) rather than by its name or inheritance hierarchy, allowing for ad-hoc polymorphism.",
+    "Option3": "Types that are only used for data modeling.",
+    "Option4": "Types that are automatically generated.",
+    "Answer": "Defining a type by specifying its members (methods and fields) rather than by its name or inheritance hierarchy, allowing for ad-hoc polymorphism."
+  },
+  {
+    "question_no.": 100,
+    "Question": "When are structural types typically used?",
+    "Option1": "For performance-critical code.",
+    "Option2": "For interacting with dynamic languages or when you need to enforce a specific interface without explicit inheritance (though reflection is used at runtime).",
+    "Option3": "For defining immutable data structures.",
+    "Option4": "For type checking at compile time.",
+    "Answer": "For interacting with dynamic languages or when you need to enforce a specific interface without explicit inheritance (though reflection is used at runtime)."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'Enumerations' in Scala?",
+    "Option1": "A built-in keyword for enums.",
+    "Option2": "Traditionally implemented using `sealed trait` and `case objects` in Scala 2 for robust, type-safe enumerations; Scala 3 introduces `enum` keyword.",
+    "Option3": "Only available in older Scala versions.",
+    "Option4": "A mutable collection type.",
+    "Answer": "Traditionally implemented using `sealed trait` and `case objects` in Scala 2 for robust, type-safe enumerations; Scala 3 introduces `enum` keyword."
+  },
+  {
+    "question_no.": 102,
+    "Question": "How are enumerations typically implemented in Scala 2 idiomatic style?",
+    "Option1": "Using Java enums directly.",
+    "Option2": "Using a `sealed trait` for the base type and `case objects` for each enumeration member.",
+    "Option3": "Using a regular class with `val` members.",
+    "Option4": "Using a `java.lang.Enum` subclass.",
+    "Answer": "Using a `sealed trait` for the base type and `case objects` for each enumeration member."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Scala 3' (Dotty)?",
+    "Option1": "An older, experimental version of Scala.",
+    "Option2": "The latest major version of Scala, introducing significant language simplifications, new features (like enums, union types, opaque types), and improved tooling, originally codenamed Dotty.",
+    "Option3": "A new build tool for Scala.",
+    "Option4": "A framework for web development.",
+    "Answer": "The latest major version of Scala, introducing significant language simplifications, new features (like enums, union types, opaque types), and improved tooling, originally codenamed Dotty."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is 'Union Types' in Scala 3?",
+    "Option1": "A type that can be both a class and a trait.",
+    "Option2": "A type that can be one of several specified types (e.g., `String | Int`), providing more flexible type declarations without complex inheritance hierarchies.",
+    "Option3": "A type for combining multiple collections.",
+    "Option4": "A type used only for error handling.",
+    "Answer": "A type that can be one of several specified types (e.g., `String | Int`), providing more flexible type declarations without complex inheritance hierarchies."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Intersection Types' in Scala 3?",
+    "Option1": "A type that is either one type or another.",
+    "Option2": "A type that is a subtype of all specified types (e.g., `A & B`), meaning it has all the members of both A and B, useful for combining traits.",
+    "Option3": "A type for defining generic parameters.",
+    "Option4": "A type for numerical operations.",
+    "Answer": "A type that is a subtype of all specified types (e.g., `A & B`), meaning it has all the members of both A and B, useful for combining traits."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Opaque Type Aliases' in Scala 3?",
+    "Option1": "Regular type aliases.",
+    "Option2": "Type aliases that hide their underlying type from the type checker, providing strong type safety while avoiding runtime overhead of value classes.",
+    "Option3": "Type aliases that are only for private use.",
+    "Option4": "Type aliases that are automatically inferred.",
+    "Answer": "Type aliases that hide their underlying type from the type checker, providing strong type safety while avoiding runtime overhead of value classes."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Why use Opaque Type Aliases instead of Value Classes in Scala 3?",
+    "Option1": "Value classes are faster.",
+    "Option2": "Opaque type aliases offer similar type safety benefits to value classes but without the runtime overhead of object allocation.",
+    "Option3": "Opaque type aliases allow mutable state.",
+    "Option4": "Value classes are deprecated.",
+    "Answer": "Opaque type aliases offer similar type safety benefits to value classes but without the runtime overhead of object allocation."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Enums' in Scala 3?",
+    "Option1": "Only for defining simple constants.",
+    "Option2": "A new, dedicated `enum` keyword that simplifies the creation of algebraic data types (ADTs) and enumerations, replacing the `sealed trait/case object` pattern.",
+    "Option3": "A way to define abstract classes.",
+    "Option4": "A feature for defining implicit parameters.",
+    "Answer": "A new, dedicated `enum` keyword that simplifies the creation of algebraic data types (ADTs) and enumerations, replacing the `sealed trait/case object` pattern."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Extension Methods' in Scala 3?",
+    "Option1": "Methods that are part of the original class.",
+    "Option2": "A new syntax for adding methods to existing types without modifying their source code, simplifying implicit conversions and enhancing readability.",
+    "Option3": "Methods that are always public.",
+    "Option4": "Methods that are automatically generated by the compiler.",
+    "Answer": "A new syntax for adding methods to existing types without modifying their source code, simplifying implicit conversions and enhancing readability."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Metaprogramming' in Scala?",
+    "Option1": "Writing programs that analyze data.",
+    "Option2": "Writing programs that manipulate other programs (code), including features like macros and reflection.",
+    "Option3": "Programming with metadata.",
+    "Option4": "A technique for performance optimization.",
+    "Answer": "Writing programs that manipulate other programs (code), including features like macros and reflection."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Type Projection' in Scala?",
+    "Option1": "A way to predict types.",
+    "Option2": "Refers to a type member of an object (e.g., `Outer#InnerType`), often used in scenarios involving path-dependent types where the exact outer instance is not known.",
+    "Option3": "A method for type inference.",
+    "Option4": "A way to define type bounds.",
+    "Answer": "Refers to a type member of an object (e.g., `Outer#InnerType`), often used in scenarios involving path-dependent types where the exact outer instance is not known."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Structural Recursion'?",
+    "Option1": "Recursion based on loops.",
+    "Option2": "A pattern of recursion where the recursive calls are applied to the immediate sub-parts of a data structure, ensuring termination for well-formed structures.",
+    "Option3": "Recursion that always causes stack overflow.",
+    "Option4": "Recursion on a mutable data structure.",
+    "Answer": "A pattern of recursion where the recursive calls are applied to the immediate sub-parts of a data structure, ensuring termination for well-formed structures."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Monoids' in Functional Programming?",
+    "Option1": "A way to combine two different types.",
+    "Option2": "A type class representing types that have an associative binary operation and an identity element, allowing elements to be combined in a predictable way (e.g., addition with 0, string concatenation with empty string).",
+    "Option3": "A special type of function.",
+    "Option4": "A pattern for immutable data structures.",
+    "Answer": "A type class representing types that have an associative binary operation and an identity element, allowing elements to be combined in a predictable way (e.g., addition with 0, string concatenation with empty string)."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What are the two core properties of a Monoid?",
+    "Option1": "add and remove",
+    "Option2": "combine (or `|+|`) and identity (or `empty`)",
+    "Option3": "map and flatMap",
+    "Option4": "head and tail",
+    "Answer": "combine (or `|+|`) and identity (or `empty`)"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Functor' in Functional Programming?",
+    "Option1": "A container that can only hold numbers.",
+    "Option2": "A type class representing types that can be mapped over, applying a function to transform the values inside a context while preserving the context's structure (e.g., `Option`, `List`, `Future`).",
+    "Option3": "A type of abstract class.",
+    "Option4": "A way to define implicit conversions.",
+    "Answer": "A type class representing types that can be mapped over, applying a function to transform the values inside a context while preserving the context's structure (e.g., `Option`, `List`, `Future`)."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the primary method of a Functor?",
+    "Option1": "flatMap",
+    "Option2": "filter",
+    "Option3": "map",
+    "Option4": "fold",
+    "Answer": "map"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Applicative' in Functional Programming?",
+    "Option1": "Less powerful than a Functor.",
+    "Option2": "A type class that extends Functor, allowing you to apply a function *inside* a context to a value *inside* a context, enabling combinations of independent contexts.",
+    "Option3": "A type of higher-order function.",
+    "Option4": "A pattern for mutable data structures.",
+    "Answer": "A type class that extends Functor, allowing you to apply a function *inside* a context to a value *inside* a context, enabling combinations of independent contexts."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Monad Transformers'?",
+    "Option1": "A way to convert one monad to another.",
+    "Option2": "A technique for combining different monadic contexts (e.g., `OptionT[Future]`) to avoid deep nesting of `for` comprehensions when dealing with multiple layers of effects.",
+    "Option3": "A pattern for mutable monads.",
+    "Option4": "A type of implicit conversion.",
+    "Answer": "A technique for combining different monadic contexts (e.g., `OptionT[Future]`) to avoid deep nesting of `for` comprehensions when dealing with multiple layers of effects."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Cats' in the Scala ecosystem?",
+    "Option1": "A build tool.",
+    "Option2": "A lightweight, modular, and extensible library for functional programming in Scala, providing type classes for common algebraic structures (Functor, Monad, etc.).",
+    "Option3": "A web framework.",
+    "Option4": "A database library.",
+    "Answer": "A lightweight, modular, and extensible library for functional programming in Scala, providing type classes for common algebraic structures (Functor, Monad, etc.)."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Scalaz' in the Scala ecosystem?",
+    "Option1": "A testing framework.",
+    "Option2": "A powerful and comprehensive functional programming library for Scala, providing a wide range of type classes and functional data structures (often considered more advanced than Cats).",
+    "Option3": "A logging library.",
+    "Option4": "A concurrency library.",
+    "Answer": "A powerful and comprehensive functional programming library for Scala, providing a wide range of type classes and functional data structures (often considered more advanced than Cats)."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Shapeless' in the Scala ecosystem?",
+    "Option1": "A web framework.",
+    "Option2": "A generic programming library for Scala, enabling type-safe manipulation of heterogeneous data structures and providing compile-time operations on types.",
+    "Option3": "A library for concurrent programming.",
+    "Option4": "A database access library.",
+    "Answer": "A generic programming library for Scala, enabling type-safe manipulation of heterogeneous data structures and providing compile-time operations on types."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Spark' in the Scala ecosystem?",
+    "Option1": "A relational database.",
+    "Option2": "A fast and general-purpose cluster computing system that provides high-level APIs in Scala (among others) for big data processing, analytics, and machine learning.",
+    "Option3": "A web server.",
+    "Option4": "A user interface framework.",
+    "Answer": "A fast and general-purpose cluster computing system that provides high-level APIs in Scala (among others) for big data processing, analytics, and machine learning."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Kafka' in the Scala ecosystem?",
+    "Option1": "A NoSQL database.",
+    "Option2": "A distributed streaming platform primarily written in Scala and Java, used for building real-time data pipelines and streaming applications.",
+    "Option3": "A machine learning library.",
+    "Option4": "A build automation tool.",
+    "Answer": "A distributed streaming platform primarily written in Scala and Java, used for building real-time data pipelines and streaming applications."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Play Framework'?",
+    "Option1": "A front-end JavaScript framework.",
+    "Option2": "A high-productivity web application framework for Scala and Java, based on a reactive, model-view-controller (MVC) architecture.",
+    "Option3": "A mobile development framework.",
+    "Option4": "A data visualization library.",
+    "Answer": "A high-productivity web application framework for Scala and Java, based on a reactive, model-view-controller (MVC) architecture."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Akka HTTP'?",
+    "Option1": "A full-stack web framework.",
+    "Option2": "A toolkit for building high-performance, asynchronous HTTP servers and clients with Akka Streams, providing low-level control over HTTP interactions.",
+    "Option3": "A database connector for HTTP.",
+    "Option4": "A testing framework for HTTP.",
+    "Answer": "A toolkit for building high-performance, asynchronous HTTP servers and clients with Akka Streams, providing low-level control over HTTP interactions."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'Scalatest'?",
+    "Option1": "A performance testing tool.",
+    "Option2": "A popular testing framework for Scala, providing various styles of tests (e.g., FunSuite, WordSpec, FlatSpec) and powerful assertions.",
+    "Option3": "A code coverage tool.",
+    "Option4": "A static analysis tool.",
+    "Answer": "A popular testing framework for Scala, providing various styles of tests (e.g., FunSuite, WordSpec, FlatSpec) and powerful assertions."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Specs2'?",
+    "Option1": "A mocking library.",
+    "Option2": "Another powerful testing framework for Scala, known for its focus on behavior-driven development (BDD) and rich set of matchers.",
+    "Option3": "A dependency injection framework.",
+    "Option4": "A logging utility.",
+    "Answer": "Another powerful testing framework for Scala, known for its focus on behavior-driven development (BDD) and rich set of matchers."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'Mocking' in testing Scala applications?",
+    "Option1": "Testing real dependencies.",
+    "Option2": "Creating simulated objects (mocks) that mimic the behavior of real dependencies, allowing you to isolate and test specific units of code without external systems.",
+    "Option3": "Running tests in a production environment.",
+    "Option4": "A way to generate test data.",
+    "Answer": "Creating simulated objects (mocks) that mimic the behavior of real dependencies, allowing you to isolate and test specific units of code without external systems."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'ScalaMock'?",
+    "Option1": "A test runner.",
+    "Option2": "A popular mocking library for Scala, enabling you to define mock objects and their expected behaviors for unit testing.",
+    "Option3": "A code formatting tool.",
+    "Option4": "A build plugin.",
+    "Answer": "A popular mocking library for Scala, enabling you to define mock objects and their expected behaviors for unit testing."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Scala.js'?",
+    "Option1": "A Scala framework for web servers.",
+    "Option2": "A Scala to JavaScript compiler, allowing you to write Scala code that compiles into JavaScript and runs in web browsers or Node.js.",
+    "Option3": "A Scala library for native mobile development.",
+    "Option4": "A tool for optimizing JavaScript code.",
+    "Answer": "A Scala to JavaScript compiler, allowing you to write Scala code that compiles into JavaScript and runs in web browsers or Node.js."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Scala Native'?",
+    "Option1": "A framework for web services.",
+    "Option2": "A Scala compiler backend that targets LLVM, allowing Scala code to be compiled to native executables, offering low-level performance and smaller binaries.",
+    "Option3": "A tool for cross-compilation to mobile platforms.",
+    "Option4": "A library for interacting with operating system APIs.",
+    "Answer": "A Scala compiler backend that targets LLVM, allowing Scala code to be compiled to native executables, offering low-level performance and smaller binaries."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Functional Effect Systems' (e.g., ZIO, Cats Effect)?",
+    "Option1": "Frameworks for handling mutable state.",
+    "Option2": "Libraries that provide principled ways to manage side effects in functional programs, ensuring referential transparency and making concurrent/asynchronous operations safer and easier to reason about.",
+    "Option3": "Tools for performance monitoring.",
+    "Option4": "Patterns for user interface design.",
+    "Answer": "Libraries that provide principled ways to manage side effects in functional programs, ensuring referential transparency and making concurrent/asynchronous operations safer and easier to reason about."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the primary goal of Functional Effect Systems?",
+    "Option1": "To make all functions mutable.",
+    "Option2": "To bring side effects under control by representing them as values that can be composed and transformed purely, executed only at the 'edge' of the application.",
+    "Option3": "To eliminate the need for error handling.",
+    "Option4": "To force all computations to be synchronous.",
+    "Answer": "To bring side effects under control by representing them as values that can be composed and transformed purely, executed only at the 'edge' of the application."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Type Inference' (revisited) and why is it beneficial?",
+    "Option1": "It forces explicit type declarations.",
+    "Option2": "It reduces boilerplate code by allowing the compiler to deduce types, improving code conciseness and readability without sacrificing type safety.",
+    "Option3": "It makes debugging more difficult.",
+    "Option4": "It slows down compilation time.",
+    "Answer": "It reduces boilerplate code by allowing the compiler to deduce types, improving code conciseness and readability without sacrificing type safety."
+  },
+  {
+    "question_no.": 135,
+    "Question": "Can Scala infer types for all scenarios?",
+    "Option1": "Yes, always.",
+    "Option2": "No, in some complex cases (e.g., higher-kinded types, recursive type definitions), explicit type annotations might be required.",
+    "Option3": "Only for primitive types.",
+    "Option4": "Only for mutable variables.",
+    "Answer": "No, in some complex cases (e.g., higher-kinded types, recursive type definitions), explicit type annotations might be required."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'JVM Interoperability' in Scala?",
+    "Option1": "Scala can only run on its own virtual machine.",
+    "Option2": "Scala seamlessly interoperates with Java, allowing Scala code to call Java libraries and Java code to call Scala libraries, leveraging the vast Java ecosystem.",
+    "Option3": "Scala compiles directly to native code.",
+    "Option4": "Scala can only interact with other Scala programs.",
+    "Answer": "Scala seamlessly interoperates with Java, allowing Scala code to call Java libraries and Java code to call Scala libraries, leveraging the vast Java ecosystem."
+  },
+  {
+    "question_no.": 137,
+    "Question": "Can you use Java libraries directly in Scala?",
+    "Option1": "No, they need to be converted.",
+    "Option2": "Yes, Scala has excellent interoperability with Java, allowing direct use of Java classes and libraries.",
+    "Option3": "Only a limited set of Java libraries are compatible.",
+    "Option4": "Only with specific build tool configurations.",
+    "Answer": "Yes, Scala has excellent interoperability with Java, allowing direct use of Java classes and libraries."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Implicit Class' in Scala?",
+    "Option1": "A regular class that is always implicit.",
+    "Option2": "A class marked with `implicit` keyword that allows you to add extension methods to existing types by wrapping them, providing a concise way to implement type classes.",
+    "Option3": "A class that can only be defined in a companion object.",
+    "Option4": "A class that is automatically generated by the compiler.",
+    "Answer": "A class marked with `implicit` keyword that allows you to add extension methods to existing types by wrapping them, providing a concise way to implement type classes."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the primary use case for an `implicit class`?",
+    "Option1": "To create new instances of objects.",
+    "Option2": "To enhance existing types with new methods (extension methods) without modifying the original type, often used for adding syntactic sugar or type class instances.",
+    "Option3": "To define abstract methods.",
+    "Option4": "To hide class implementations.",
+    "Answer": "To enhance existing types with new methods (extension methods) without modifying the original type, often used for adding syntactic sugar or type class instances."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'Partial Functions' in Scala?",
+    "Option1": "Functions that always return a partial result.",
+    "Option2": "A function that is only defined for a subset of its input domain, typically defined using `case` clauses in curly braces, and can be checked with `isDefinedAt`.",
+    "Option3": "Functions that are not fully implemented.",
+    "Option4": "Functions that take optional arguments.",
+    "Answer": "A function that is only defined for a subset of its input domain, typically defined using `case` clauses in curly braces, and can be checked with `isDefinedAt`."
+  },
+  {
+    "question_no.": 141,
+    "Question": "When would you use a `PartialFunction`?",
+    "Option1": "When you want to handle all possible inputs.",
+    "Option2": "When you only care about processing certain inputs and want to explicitly state that other inputs might not be handled, often used with `collect` on collections.",
+    "Option3": "When defining generic functions.",
+    "Option4": "When performing mathematical calculations.",
+    "Answer": "When you only care about processing certain inputs and want to explicitly state that other inputs might not be handled, often used with `collect` on collections."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'By-name Parameters' in Scala?",
+    "Option1": "Parameters passed by explicit name.",
+    "Option2": "Parameters evaluated only when they are accessed inside the function body, rather than being evaluated before the function call (similar to lazy evaluation for arguments).",
+    "Option3": "Parameters that are always evaluated eagerly.",
+    "Option4": "Parameters that are automatically inferred.",
+    "Answer": "Parameters evaluated only when they are accessed inside the function body, rather than being evaluated before the function call (similar to lazy evaluation for arguments)."
+  },
+  {
+    "question_no.": 143,
+    "Question": "How do you define a by-name parameter?",
+    "Option1": "def func(x: => Int)",
+    "Option2": "def func(x: Int)",
+    "Option3": "def func(x: lazy Int)",
+    "Option4": "def func(x: implicit Int)",
+    "Answer": "def func(x: => Int)"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Control Structures as Expressions'?",
+    "Option1": "Control structures that do not return values.",
+    "Option2": "In Scala, `if/else`, `for`, `match`, and `try/catch` all return a value, making them expressions rather than just statements, leading to more concise and functional code.",
+    "Option3": "Control structures that require explicit return types.",
+    "Option4": "Control structures that are only used for side effects.",
+    "Answer": "In Scala, `if/else`, `for`, `match`, and `try/catch` all return a value, making them expressions rather than just statements, leading to more concise and functional code."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What value does an `if/else` expression return?",
+    "Option1": "Unit",
+    "Option2": "The value of the executed branch.",
+    "Option3": "Always a Boolean.",
+    "Option4": "Null.",
+    "Answer": "The value of the executed branch."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'Unified Type System' in Scala?",
+    "Option1": "Scala uses separate primitive and object types.",
+    "Option2": "All types in Scala, including primitive types (like `Int`, `Boolean`), are objects and inherit from a common root type (`Any`), allowing for consistent object-oriented operations.",
+    "Option3": "Scala only supports a single data type.",
+    "Option4": "Scala has no type system.",
+    "Answer": "All types in Scala, including primitive types (like `Int`, `Boolean`), are objects and inherit from a common root type (`Any`), allowing for consistent object-oriented operations."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the root of the Scala type hierarchy?",
+    "Option1": "Object",
+    "Option2": "Any",
+    "Option3": "Root",
+    "Option4": "Unit",
+    "Answer": "Any"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'Nothing' in Scala's type hierarchy?",
+    "Option1": "The top type, supertype of all types.",
+    "Option2": "The bottom type, a subtype of all types, used to signal non-termination or abnormal exits (e.g., throwing an exception).",
+    "Option3": "A type for optional values.",
+    "Option4": "A type for void functions.",
+    "Answer": "The bottom type, a subtype of all types, used to signal non-termination or abnormal exits (e.g., throwing an exception)."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Null' in Scala's type hierarchy?",
+    "Option1": "A type that is a subtype of all reference types, representing the absence of a value.",
+    "Option2": "A type that is a supertype of all types.",
+    "Option3": "A type that represents an empty collection.",
+    "Option4": "A type used only for numeric values.",
+    "Answer": "A type that is a subtype of all reference types, representing the absence of a value."
+  },
+  {
+    "question_no.": 150,
+    "Question": "Why is `Null` discouraged in idiomatic Scala programming?",
+    "Option1": "It causes performance issues.",
+    "Option2": "`Null` can lead to `NullPointerExceptions` at runtime, which is generally avoided in favor of using `Option` to explicitly handle the presence or absence of a value.",
+    "Option3": "It makes code harder to read.",
+    "Option4": "It's only for mutable variables.",
+    "Answer": "`Null` can lead to `NullPointerExceptions` at runtime, which is generally avoided in favor of using `Option` to explicitly handle the presence or absence of a value."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'Scala Standard Library'?",
+    "Option1": "Only basic data types.",
+    "Option2": "A comprehensive collection of core types, classes, traits, and functions that are essential for general-purpose Scala programming, including collections, I/O, concurrency primitives, etc.",
+    "Option3": "A set of external third-party libraries.",
+    "Option4": "A tool for code generation.",
+    "Answer": "A comprehensive collection of core types, classes, traits, and functions that are essential for general-purpose Scala programming, including collections, I/O, concurrency primitives, etc."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `scala.collection.immutable`?",
+    "Option1": "The package for mutable collections.",
+    "Option2": "The package containing Scala's immutable collection types, which are preferred in functional programming due to their thread safety and predictable behavior.",
+    "Option3": "A deprecated package.",
+    "Option4": "A package for Java collections.",
+    "Answer": "The package containing Scala's immutable collection types, which are preferred in functional programming due to their thread safety and predictable behavior."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `scala.collection.mutable`?",
+    "Option1": "The package for immutable collections.",
+    "Option2": "The package containing Scala's mutable collection types, which can be modified in place and are sometimes used for performance-critical scenarios or interoperability with Java.",
+    "Option3": "The default collection package.",
+    "Option4": "A package for functional data structures.",
+    "Answer": "The package containing Scala's mutable collection types, which can be modified in place and are sometimes used for performance-critical scenarios or interoperability with Java."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Sequence (Seq)' in Scala collections?",
+    "Option1": "A collection that only stores unique elements.",
+    "Option2": "A trait representing an ordered sequence of elements, allowing access by index, e.g., `List`, `Vector`, `ArrayBuffer`.",
+    "Option3": "A collection that stores key-value pairs.",
+    "Option4": "A collection that is always mutable.",
+    "Answer": "A trait representing an ordered sequence of elements, allowing access by index, e.g., `List`, `Vector`, `ArrayBuffer`."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Set' in Scala collections?",
+    "Option1": "An ordered collection that allows duplicates.",
+    "Option2": "A collection that stores unique elements with no guaranteed order.",
+    "Option3": "A collection that stores key-value pairs.",
+    "Option4": "A mutable collection only.",
+    "Answer": "A collection that stores unique elements with no guaranteed order."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Map' in Scala collections?",
+    "Option1": "An ordered list of elements.",
+    "Option2": "A collection that stores key-value pairs, where each key is unique.",
+    "Option3": "A collection for numerical data only.",
+    "Option4": "A mutable collection only.",
+    "Answer": "A collection that stores key-value pairs, where each key is unique."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Option.map'?",
+    "Option1": "Changes the underlying value if it's `None`.",
+    "Option2": "If the `Option` is `Some(value)`, applies a function to `value` and wraps the result in `Some`. If it's `None`, it remains `None`.",
+    "Option3": "Converts `Option` to a `List`.",
+    "Option4": "Throws an exception if the `Option` is `None`.",
+    "Answer": "If the `Option` is `Some(value)`, applies a function to `value` and wraps the result in `Some`. If it's `None`, it remains `None`."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Option.flatMap'?",
+    "Option1": "Always returns `Some`.",
+    "Option2": "If the `Option` is `Some(value)`, applies a function that returns another `Option` to `value` and flattens the result. If it's `None`, it remains `None`.",
+    "Option3": "Converts `Option` to `Either`.",
+    "Option4": "Only works with numerical values.",
+    "Answer": "If the `Option` is `Some(value)`, applies a function that returns another `Option` to `value` and flattens the result. If it's `None`, it remains `None`."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Pattern Matching on Options'?",
+    "Option1": "Checking if an `Option` is null.",
+    "Option2": "Using `match` expression to safely extract the value from a `Some` or handle the `None` case, avoiding direct `.get` calls.",
+    "Option3": "Converting `Option` to a `String`.",
+    "Option4": "Only for comparing two `Option` values.",
+    "Answer": "Using `match` expression to safely extract the value from a `Some` or handle the `None` case, avoiding direct `.get` calls."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Scala Test-Driven Development (TDD)'?",
+    "Option1": "Writing code first, then tests.",
+    "Option2": "A software development process where tests are written before the actual code, guiding the design and ensuring correctness, well-supported by Scala's testing frameworks.",
+    "Option3": "Only for integration tests.",
+    "Option4": "A method for debugging code.",
+    "Answer": "A software development process where tests are written before the actual code, guiding the design and ensuring correctness, well-supported by Scala's testing frameworks."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Scala Property-Based Testing'?",
+    "Option1": "Testing individual examples only.",
+    "Option2": "A testing technique where you define properties that your code should satisfy and then generate numerous random inputs to test these properties, rather than writing fixed example tests.",
+    "Option3": "Testing mutable properties only.",
+    "Option4": "A form of performance testing.",
+    "Answer": "A testing technique where you define properties that your code should satisfy and then generate numerous random inputs to test these properties, rather than writing fixed example tests."
+  },
+  {
+    "question_no.": 162,
+    "Question": "Which library is commonly used for property-based testing in Scala?",
+    "Option1": "ScalaMock",
+    "Option2": "Scalatest",
+    "Option3": "ScalaCheck",
+    "Option4": "Specs2",
+    "Answer": "ScalaCheck"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Scala Best Practices for Immutability'?",
+    "Option1": "Using `var` for all variables.",
+    "Option2": "Preferring `val` over `var`, using immutable collections, and designing classes/case classes to be immutable to enhance concurrency safety and predictability.",
+    "Option3": "Only using primitive data types.",
+    "Option4": "Avoiding functions that return values.",
+    "Answer": "Preferring `val` over `var`, using immutable collections, and designing classes/case classes to be immutable to enhance concurrency safety and predictability."
+  },
+  {
+    "question_no.": 164,
+    "Question": "Why is immutability important for concurrency?",
+    "Option1": "It makes debugging easier.",
+    "Option2": "Immutable objects are inherently thread-safe because their state cannot change after creation, eliminating the need for locks and reducing the risk of race conditions.",
+    "Option3": "It improves memory usage.",
+    "Option4": "It allows for faster computations.",
+    "Answer": "Immutable objects are inherently thread-safe because their state cannot change after creation, eliminating the need for locks and reducing the risk of race conditions."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Scala Logging'?",
+    "Option1": "Only using `println` for debugging.",
+    "Option2": "Using logging libraries like Logback or SLF4J (often with Scala wrappers like Scala Logging) to record application events, errors, and debugging information for monitoring and troubleshooting.",
+    "Option3": "A built-in feature of the Scala compiler.",
+    "Option4": "A way to handle exceptions.",
+    "Answer": "Using logging libraries like Logback or SLF4J (often with Scala wrappers like Scala Logging) to record application events, errors, and debugging information for monitoring and troubleshooting."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Scala Future Combinators'?",
+    "Option1": "Functions that create new `Future` instances.",
+    "Option2": "Methods like `map`, `flatMap`, `filter`, `recover`, `zip`, `sequence` that allow you to compose and transform asynchronous `Future` computations in a declarative way.",
+    "Option3": "Tools for debugging `Future` objects.",
+    "Option4": "A way to block on `Future` results.",
+    "Answer": "Methods like `map`, `flatMap`, `filter`, `recover`, `zip`, `sequence` that allow you to compose and transform asynchronous `Future` computations in a declarative way."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the `ExecutionContext` for `Future` operations?",
+    "Option1": "A global variable.",
+    "Option2": "An implicit parameter that provides the thread pool on which `Future` callbacks and transformations are executed, crucial for managing concurrency.",
+    "Option3": "A type of exception handler.",
+    "Option4": "A specific `Future` instance.",
+    "Answer": "An implicit parameter that provides the thread pool on which `Future` callbacks and transformations are executed, crucial for managing concurrency."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Asynchronous Programming' in Scala?",
+    "Option1": "Code that runs sequentially.",
+    "Option2": "Writing code that doesn't block the main execution thread while waiting for long-running operations (like I/O, network requests) to complete, often using `Future` or Akka.",
+    "Option3": "Programming with mutable state.",
+    "Option4": "A technique for debugging multithreaded applications.",
+    "Answer": "Writing code that doesn't block the main execution thread while waiting for long-running operations (like I/O, network requests) to complete, often using `Future` or Akka."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Concurrency Patterns' in Scala?",
+    "Option1": "Only using locks and shared memory.",
+    "Option2": "Idiomatic ways to handle concurrent execution, such as the Actor Model (Akka), Futures, and functional effect systems (ZIO, Cats Effect), leveraging immutability to simplify reasoning.",
+    "Option3": "Patterns for serializing data.",
+    "Option4": "Patterns for defining mutable variables.",
+    "Answer": "Idiomatic ways to handle concurrent execution, such as the Actor Model (Akka), Futures, and functional effect systems (ZIO, Cats Effect), leveraging immutability to simplify reasoning."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Functional Domain Modeling' in Scala?",
+    "Option1": "Modeling domains using mutable classes.",
+    "Option2": "Representing the problem domain using immutable data structures (often `case classes` and `sealed traits` for ADTs) and pure functions, emphasizing behavior over state.",
+    "Option3": "Modeling domains with relational databases.",
+    "Option4": "Modeling domains with object-oriented inheritance only.",
+    "Answer": "Representing the problem domain using immutable data structures (often `case classes` and `sealed traits` for ADTs) and pure functions, emphasizing behavior over state."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What are 'Algebraic Data Types (ADTs)' in Scala?",
+    "Option1": "Data types that can be added or subtracted.",
+    "Option2": "A powerful way to model data using `sealed traits` and `case classes` to represent either a sum of types (e.g., `Option` is `Some` OR `None`) or a product of types (e.g., `Case Class` is field1 AND field2).",
+    "Option3": "Data types for performing mathematical operations.",
+    "Option4": "Data types that are always mutable.",
+    "Answer": "A powerful way to model data using `sealed traits` and `case classes` to represent either a sum of types (e.g., `Option` is `Some` OR `None`) or a product of types (e.g., `Case Class` is field1 AND field2)."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is a 'Sum Type' (or tagged union)?",
+    "Option1": "A type that is composed of multiple fields.",
+    "Option2": "A type that can be one of several distinct types (e.g., `sealed trait Shape; case class Circle(...) extends Shape; case class Rectangle(...) extends Shape;`), often used with pattern matching.",
+    "Option3": "A type that combines two values into one.",
+    "Option4": "A type that can only store numbers.",
+    "Answer": "A type that can be one of several distinct types (e.g., `sealed trait Shape; case class Circle(...) extends Shape; case class Rectangle(...) extends Shape;`), often used with pattern matching."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is a 'Product Type'?",
+    "Option1": "A type that represents a choice between multiple types.",
+    "Option2": "A type that is composed of multiple fields, where all fields are present simultaneously (e.g., `case class Person(name: String, age: Int)`).",
+    "Option3": "A type that is generated by multiplying two numbers.",
+    "Option4": "A type that can only contain single values.",
+    "Answer": "A type that is composed of multiple fields, where all fields are present simultaneously (e.g., `case class Person(name: String, age: Int)`)."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Value-Based Equality' for case classes?",
+    "Option1": "Equality based on memory address.",
+    "Option2": "Case classes automatically implement `equals` and `hashCode` based on the values of their fields, allowing for structural equality comparisons.",
+    "Option3": "Equality based on type only.",
+    "Option4": "Equality that ignores field values.",
+    "Answer": "Case classes automatically implement `equals` and `hashCode` based on the values of their fields, allowing for structural equality comparisons."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Referential Transparency' (revisited) and why is it desirable?",
+    "Option1": "It makes debugging harder.",
+    "Option2": "It simplifies reasoning about code, enables easier refactoring, and supports memoization and parallelism by guaranteeing that a function call can be replaced by its result without affecting behavior.",
+    "Option3": "It increases side effects.",
+    "Option4": "It is only for imperative code.",
+    "Answer": "It simplifies reasoning about code, enables easier refactoring, and supports memoization and parallelism by guaranteeing that a function call can be replaced by its result without affecting behavior."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Memoization' in Functional Programming?",
+    "Option1": "A technique for handling mutable state.",
+    "Option2": "An optimization technique where the results of expensive function calls are cached, and the cached result is returned when the same inputs occur again, benefiting pure functions.",
+    "Option3": "A way to log function calls.",
+    "Option4": "A method for defining anonymous functions.",
+    "Answer": "An optimization technique where the results of expensive function calls are cached, and the cached result is returned when the same inputs occur again, benefiting pure functions."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Partial Application' of functions?",
+    "Option1": "Applying a function to all its arguments at once.",
+    "Option2": "Applying a function to some of its arguments, resulting in a new function that takes the remaining arguments.",
+    "Option3": "A way to define optional function parameters.",
+    "Option4": "A method for handling exceptions.",
+    "Answer": "Applying a function to some of its arguments, resulting in a new function that takes the remaining arguments."
+  },
+  {
+    "question_no.": 178,
+    "Question": "How does `_` (underscore) facilitate partial application?",
+    "Option1": "It signifies an uninitialized variable.",
+    "Option2": "It acts as a placeholder for arguments that are not yet applied, allowing you to create new functions from existing ones.",
+    "Option3": "It is used for commenting out code.",
+    "Option4": "It defines a wildcard in pattern matching.",
+    "Answer": "It acts as a placeholder for arguments that are not yet applied, allowing you to create new functions from existing ones."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Currying' (revisited) and how does it differ from partial application?",
+    "Option1": "They are the same concept.",
+    "Option2": "Currying transforms a multi-argument function into a sequence of single-argument functions (e.g., `f(a,b)` becomes `f(a)(b)`). Partial application applies some arguments to a multi-argument function to get a new function with fewer arguments.",
+    "Option3": "Currying is only for higher-order functions.",
+    "Option4": "Partial application creates anonymous classes.",
+    "Answer": "Currying transforms a multi-argument function into a sequence of single-argument functions (e.g., `f(a,b)` becomes `f(a)(b)`). Partial application applies some arguments to a multi-argument function to get a new function with fewer arguments."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Implicit Resolution' in Scala?",
+    "Option1": "The process of explicitly providing implicit values.",
+    "Option2": "The compiler's mechanism for searching for and applying appropriate implicit definitions (conversions, parameters, type classes) within the current scope.",
+    "Option3": "A method for resolving compilation errors.",
+    "Option4": "A way to define default variable values.",
+    "Answer": "The compiler's mechanism for searching for and applying appropriate implicit definitions (conversions, parameters, type classes) within the current scope."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Scala Build System (sbt)'?",
+    "Option1": "A runtime environment for Scala.",
+    "Option2": "The default interactive build tool for Scala projects, providing compilation, testing, packaging, and dependency management.",
+    "Option3": "A framework for web development.",
+    "Option4": "A debugger for Scala applications.",
+    "Answer": "The default interactive build tool for Scala projects, providing compilation, testing, packaging, and dependency management."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is a 'Plugin' in SBT?",
+    "Option1": "A type of Scala library.",
+    "Option2": "An extension to SBT that provides additional functionality or integrates with external tools (e.g., for code formatting, deployment, specific framework support).",
+    "Option3": "A file that stores project settings.",
+    "Option4": "A module for managing dependencies.",
+    "Answer": "An extension to SBT that provides additional functionality or integrates with external tools (e.g., for code formatting, deployment, specific framework support)."
+  },
+  {
+    "question_no.": 183,
+    "Question": "How do you add a dependency in `build.sbt`?",
+    "Option1": "add libraryDependencies += \"org.example\" % \"my-lib\" % \"1.0\"",
+    "Option2": "libraryDependencies += \"org.example\" %% \"my-lib\" % \"1.0\"",
+    "Option3": "dependency = \"org.example\" % \"my-lib\" % \"1.0\"",
+    "Option4": "import \"org.example.my-lib\" version \"1.0\"",
+    "Answer": "libraryDependencies += \"org.example\" %% \"my-lib\" % \"1.0\""
+  },
+  {
+    "question_no.": 184,
+    "Question": "What does `%%` signify in SBT dependency declaration?",
+    "Option1": "It's a placeholder for the version number.",
+    "Option2": "It's a shortcut to append the Scala binary version (e.g., `_2.13`) to the artifact ID, ensuring compatibility.",
+    "Option3": "It signifies a test dependency.",
+    "Option4": "It indicates a transitive dependency.",
+    "Answer": "It's a shortcut to append the Scala binary version (e.g., `_2.13`) to the artifact ID, ensuring compatibility."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Scala Ecosystem'?",
+    "Option1": "Only the Scala language compiler.",
+    "Option2": "The collective set of tools, libraries, frameworks, communities, and best practices surrounding the Scala programming language, extending its capabilities beyond the core language.",
+    "Option3": "A specific IDE for Scala development.",
+    "Option4": "A method for deploying Scala applications.",
+    "Answer": "The collective set of tools, libraries, frameworks, communities, and best practices surrounding the Scala programming language, extending its capabilities beyond the core language."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Type Class Derivation'?",
+    "Option1": "Manually writing all type class instances.",
+    "Option2": "Automatically generating type class instances for complex data types (like case classes) at compile time using libraries like Shapeless or Magnolia, reducing boilerplate.",
+    "Option3": "A runtime mechanism for creating type classes.",
+    "Option4": "A way to inherit type classes.",
+    "Answer": "Automatically generating type class instances for complex data types (like case classes) at compile time using libraries like Shapeless or Magnolia, reducing boilerplate."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Lenses' in Functional Programming (relevant to Scala)?",
+    "Option1": "A way to zoom into images.",
+    "Option2": "A functional construct that provides a way to focus on and update immutable nested data structures without boilerplate, offering compositional read and update operations.",
+    "Option3": "A tool for debugging complex data.",
+    "Option4": "A type of mutable collection.",
+    "Answer": "A functional construct that provides a way to focus on and update immutable nested data structures without boilerplate, offering compositional read and update operations."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Scalafmt'?",
+    "Option1": "A Scala linter.",
+    "Option2": "A code formatter for Scala, ensuring consistent code style across a project, often integrated with SBT or IDEs.",
+    "Option3": "A static analysis tool.",
+    "Option4": "A code obfuscator.",
+    "Answer": "A code formatter for Scala, ensuring consistent code style across a project, often integrated with SBT or IDEs."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Scalafix'?",
+    "Option1": "A tool for debugging Scala code.",
+    "Option2": "A rewrite tool for Scala that automates code migrations and refactoring based on configurable rules, useful for moving between Scala versions or applying stylistic changes.",
+    "Option3": "A code generator.",
+    "Option4": "A build optimizer.",
+    "Answer": "A rewrite tool for Scala that automates code migrations and refactoring based on configurable rules, useful for moving between Scala versions or applying stylistic changes."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Scala.meta'?",
+    "Option1": "A functional programming library.",
+    "Option2": "A meta-programming library for Scala, providing an API for working with Scala abstract syntax trees (ASTs), useful for tools like Scalafix, formatters, and custom macros.",
+    "Option3": "A runtime reflection API.",
+    "Option4": "A library for defining domain-specific languages (DSLs).",
+    "Answer": "A meta-programming library for Scala, providing an API for working with Scala abstract syntax trees (ASTs), useful for tools like Scalafix, formatters, and custom macros."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Type Lambdas' in Scala (Scala 2 vs Scala 3)?",
+    "Option1": "A feature for anonymous functions.",
+    "Option2": "In Scala 2, a verbose way to define anonymous types. In Scala 3, simplified to 'polymorphic function types' for concise higher-kinded type definitions.",
+    "Option3": "A way to define type aliases.",
+    "Option4": "A method for implicit conversions.",
+    "Answer": "In Scala 2, a verbose way to define anonymous types. In Scala 3, simplified to 'polymorphic function types' for concise higher-kinded type definitions."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Kind Polymorphism' or 'Higher-Kinded Types'?",
+    "Option1": "Polymorphism over values.",
+    "Option2": "A concept where type parameters can themselves be type constructors (e.g., `F[_]`), allowing functions to operate on abstract generic containers like `List`, `Option`, or `Future` without knowing their specific concrete type.",
+    "Option3": "Polymorphism over concrete classes.",
+    "Option4": "Polymorphism limited to primitive types.",
+    "Answer": "A concept where type parameters can themselves be type constructors (e.g., `F[_]`), allowing functions to operate on abstract generic containers like `List`, `Option`, or `Future` without knowing their specific concrete type."
+  },
+  {
+    "question_no.": 193,
+    "Question": "Why are Higher-Kinded Types useful for functional programming libraries?",
+    "Option1": "They limit code reuse.",
+    "Option2": "They allow defining common functional patterns (like Functor, Monad) that work uniformly across different concrete data structures (e.g., `List[A]`, `Option[A]`, `Future[A]`), promoting abstraction and reususability.",
+    "Option3": "They restrict type inference.",
+    "Option4": "They make type checking slower.",
+    "Answer": "They allow defining common functional patterns (like Functor, Monad) that work uniformly across different concrete data structures (e.g., `List[A]`, `Option[A]`, `Future[A]`), promoting abstraction and reusability."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Scala Tooling'?",
+    "Option1": "Only the Scala compiler.",
+    "Option2": "The ecosystem of development tools for Scala, including IDEs (IntelliJ IDEA, VS Code with Metals), build tools (SBT, Mill), formatters (Scalafmt), linters, and refactoring tools.",
+    "Option3": "A set of runtime libraries.",
+    "Option4": "A specific Scala web framework.",
+    "Answer": "The ecosystem of development tools for Scala, including IDEs (IntelliJ IDEA, VS Code with Metals), build tools (SBT, Mill), formatters (Scalafmt), linters, and refactoring tools."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Metals' for Scala?",
+    "Option1": "A Scala framework for databases.",
+    "Option2": "A Scala language server that provides rich IDE features (autocompletion, diagnostics, go-to-definition) to editors like VS Code and Sublime Text.",
+    "Option3": "A build tool for Scala.",
+    "Option4": "A performance monitoring tool.",
+    "Answer": "A Scala language server that provides rich IDE features (autocompletion, diagnostics, go-to-definition) to editors like VS Code and Sublime Text."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Scala Steward'?",
+    "Option1": "A build tool.",
+    "Option2": "A bot that automatically updates dependencies in Scala projects, creates pull requests, and runs tests, helping keep projects up-to-date and secure.",
+    "Option3": "A static analysis tool.",
+    "Option4": "A deployment tool.",
+    "Answer": "A bot that automatically updates dependencies in Scala projects, creates pull requests, and runs tests, helping keep projects up-to-date and secure."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Scala Center'?",
+    "Option1": "A company developing commercial Scala software.",
+    "Option2": "An organization at EPFL (École Polytechnique Fédérale de Lausanne) focused on supporting and growing the Scala community and ecosystem, including core language development and open-source projects.",
+    "Option3": "A commercial training provider for Scala.",
+    "Option4": "A research institute for functional programming.",
+    "Answer": "An organization at EPFL (École Polytechnique Fédérale de Lausanne) focused on supporting and growing the Scala community and ecosystem, including core language development and open-source projects."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Scala Bridge'?",
+    "Option1": "A framework for connecting Scala to other languages.",
+    "Option2": "A global initiative focused on increasing diversity in the Scala community by providing free programming workshops for underrepresented groups.",
+    "Option3": "A tool for migrating Java code to Scala.",
+    "Option4": "A library for bridging Scala applications.",
+    "Answer": "A global initiative focused on increasing diversity in the Scala community by providing free programming workshops for underrepresented groups."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Scala for Data Science'?",
+    "Option1": "A specific Scala dialect for data processing.",
+    "Option2": "Scala's strong functional programming, JVM performance, and integration with big data tools (Spark, Kafka) make it a powerful language for data science, machine learning, and data engineering.",
+    "Option3": "Only for small datasets.",
+    "Option4": "A new framework that replaces Python for data science.",
+    "Answer": "Scala's strong functional programming, JVM performance, and integration with big data tools (Spark, Kafka) make it a powerful language for data science, machine learning, and data engineering."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'Type Tag' and 'Class Tag'?",
+    "Option1": "Used for compile-time type information.",
+    "Option2": "Mechanisms in Scala to capture and access erased type information at runtime, overcoming JVM's type erasure, useful for reflection or generic programming.",
+    "Option3": "Annotations for type inference.",
+    "Option4": "Used for defining abstract types.",
+    "Answer": "Mechanisms in Scala to capture and access erased type information at runtime, overcoming JVM's type erasure, useful for reflection or generic programming."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Type Erasure' on the JVM?",
+    "Option1": "All type information is retained at runtime.",
+    "Option2": "The process where generic type information (like `List[String]`) is removed during compilation to bytecode, meaning at runtime, it's just `List`, losing specific type arguments.",
+    "Option3": "A Scala-specific optimization.",
+    "Option4": "A security feature of the JVM.",
+    "Answer": "The process where generic type information (like `List[String]`) is removed during compilation to bytecode, meaning at runtime, it's just `List`, losing specific type arguments."
+  },
+  {
+    "question_no.": 202,
+    "Question": "How do `TypeTag` and `ClassTag` help with type erasure?",
+    "Option1": "They completely reverse type erasure.",
+    "Option2": "They capture some type information (e.g., the actual type arguments of a generic class) at compile time and make it available at runtime, allowing for type-aware operations.",
+    "Option3": "They define new types at runtime.",
+    "Option4": "They are only for debugging purposes.",
+    "Answer": "They capture some type information (e.g., the actual type arguments of a generic class) at compile time and make it available at runtime, allowing for type-aware operations."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Implicits' (revisited) and why are they a powerful but sometimes complex feature?",
+    "Option1": "They simplify type conversions but are always explicit.",
+    "Option2": "They allow the compiler to automatically provide values or conversions, reducing boilerplate. However, their implicit nature can sometimes make code harder to reason about if not used judiciously.",
+    "Option3": "They are only for functional programming.",
+    "Option4": "They only work with mutable variables.",
+    "Answer": "They allow the compiler to automatically provide values or conversions, reducing boilerplate. However, their implicit nature can sometimes make code harder to reason about if not used judiciously."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Scala 3's new `given`/`using` syntax for implicits?",
+    "Option1": "It replaces `implicit val` and `implicit def` completely.",
+    "Option2": "A more explicit and less ambiguous syntax for defining (`given`) and importing (`using`) implicit values, improving readability and maintainability of implicit heavy code.",
+    "Option3": "It makes all implicits private.",
+    "Option4": "It removes the need for type classes.",
+    "Answer": "A more explicit and less ambiguous syntax for defining (`given`) and importing (`using`) implicit values, improving readability and maintainability of implicit heavy code."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Scala.js DOM API'?",
+    "Option1": "A server-side API for Scala.js.",
+    "Option2": "The Scala.js binding to the standard Web DOM (Document Object Model) API, allowing Scala.js applications to interact with web page elements directly from Scala code.",
+    "Option3": "A database API for Scala.js.",
+    "Option4": "A new HTML element for Scala.js.",
+    "Answer": "The Scala.js binding to the standard Web DOM (Document Object Model) API, allowing Scala.js applications to interact with web page elements directly from Scala code."
+  }
+]

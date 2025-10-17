@@ -1,0 +1,1838 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is ASP.NET Core primarily used for?",
+    "Option1": "Front-end web development",
+    "Option2": "Mobile app development (native)",
+    "Option3": "Building cross-platform web applications and APIs",
+    "Option4": "Desktop application development (WPF/WinForms)",
+    "Answer": "Building cross-platform web applications and APIs"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which programming language is primarily used with ASP.NET Core?",
+    "Option1": "Java",
+    "Option2": "Python",
+    "Option3": "C#",
+    "Option4": "JavaScript",
+    "Answer": "C#"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the command-line interface (CLI) tool for .NET Core?",
+    "Option1": "npm",
+    "Option2": "dotnet CLI",
+    "Option3": "MSBuild",
+    "Option4": "IIS Express",
+    "Answer": "dotnet CLI"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is 'Middleware' in ASP.NET Core?",
+    "Option1": "A type of database",
+    "Option2": "Software that sits between the operating system and the applications",
+    "Option3": "Components that form a pipeline to handle requests and responses in an HTTP pipeline",
+    "Option4": "A user interface library",
+    "Answer": "Components that form a pipeline to handle requests and responses in an HTTP pipeline"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which method in `Startup.cs` is used to configure the HTTP request pipeline?",
+    "Option1": "ConfigureServices()",
+    "Option2": "Configure()",
+    "Option3": "Main()",
+    "Option4": "BuildWebHost()",
+    "Answer": "Configure()"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which method in `Startup.cs` is used to configure services for dependency injection?",
+    "Option1": "Configure()",
+    "Option2": "ConfigureServices()",
+    "Option3": "Run()",
+    "Option4": "UseMvc()",
+    "Answer": "ConfigureServices()"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is 'Dependency Injection' (DI) in ASP.NET Core?",
+    "Option1": "A technique for encrypting data",
+    "Option2": "A design pattern where a class receives its dependencies from an external source rather than creating them itself",
+    "Option3": "A method for connecting to a database",
+    "Option4": "A way to handle user authentication",
+    "Answer": "A design pattern where a class receives its dependencies from an external source rather than creating them itself"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What are the three main service lifetimes in ASP.NET Core DI?",
+    "Option1": "Short, Medium, Long",
+    "Option2": "Transient, Scoped, Singleton",
+    "Option3": "Static, Dynamic, Global",
+    "Option4": "Local, Session, Application",
+    "Answer": "Transient, Scoped, Singleton"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which service lifetime creates a new instance every time it's requested?",
+    "Option1": "Scoped",
+    "Option2": "Singleton",
+    "Option3": "Transient",
+    "Option4": "Permanent",
+    "Answer": "Transient"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which service lifetime creates a single instance per HTTP request?",
+    "Option1": "Transient",
+    "Option2": "Singleton",
+    "Option3": "Scoped",
+    "Option4": "Global",
+    "Answer": "Scoped"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which service lifetime creates a single instance for the entire application lifetime?",
+    "Option1": "Transient",
+    "Option2": "Scoped",
+    "Option3": "Singleton",
+    "Option4": "Request",
+    "Answer": "Singleton"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is 'MVC' in ASP.NET Core MVC?",
+    "Option1": "Model-View-Controller, a architectural pattern for UI development",
+    "Option2": "Microsoft Visual C#",
+    "Option3": "Managed Virtual Component",
+    "Option4": "Multi-Vendor Collaboration",
+    "Answer": "Model-View-Controller, a architectural pattern for UI development"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is a 'Controller' in ASP.NET Core MVC?",
+    "Option1": "Handles data storage",
+    "Option2": "Manages the application's user interface",
+    "Option3": "Handles user input, interacts with the model, and selects a view to render",
+    "Option4": "Performs background tasks",
+    "Answer": "Handles user input, interacts with the model, and selects a view to render"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is a 'View' in ASP.NET Core MVC?",
+    "Option1": "Represents the application's business logic",
+    "Option2": "The user interface, typically rendered with Razor syntax",
+    "Option3": "Handles database interactions",
+    "Option4": "Manages routing configurations",
+    "Answer": "The user interface, typically rendered with Razor syntax"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is a 'Model' in ASP.NET Core MVC?",
+    "Option1": "The user interface elements",
+    "Option2": "Represents the data and business logic of the application",
+    "Option3": "Handles HTTP requests",
+    "Option4": "Manages application configuration",
+    "Answer": "Represents the data and business logic of the application"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is 'Razor Pages' in ASP.NET Core?",
+    "Option1": "A component-based UI framework",
+    "Option2": "A page-centric model for building web UI with code-behind files, offering a simpler alternative to MVC for many scenarios",
+    "Option3": "A framework for building REST APIs",
+    "Option4": "A client-side scripting language",
+    "Answer": "A page-centric model for building web UI with code-behind files, offering a simpler alternative to MVC for many scenarios"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is 'Routing' in ASP.NET Core?",
+    "Option1": "Sending emails",
+    "Option2": "Mapping incoming HTTP requests to specific action methods in controllers or Razor Pages handlers",
+    "Option3": "Connecting to external APIs",
+    "Option4": "Managing database transactions",
+    "Answer": "Mapping incoming HTTP requests to specific action methods in controllers or Razor Pages handlers"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is 'Attribute Routing'?",
+    "Option1": "Defining routes in a separate configuration file",
+    "Option2": "Defining routes directly on controller actions or Razor Page handlers using attributes like `[Route(\"...\")]`",
+    "Option3": "Defining routes based on URL patterns only",
+    "Option4": "Defining routes dynamically at runtime",
+    "Answer": "Defining routes directly on controller actions or Razor Page handlers using attributes like `[Route(\"...\")]`"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'Convention-based Routing'?",
+    "Option1": "Defining routes directly on controller actions",
+    "Option2": "Defining routes using predefined patterns in the `Startup.cs` file (e.g., `{controller}/{action}/{id?}`)",
+    "Option3": "Defining routes using external configuration files",
+    "Option4": "Defining routes based on HTTP methods",
+    "Answer": "Defining routes using predefined patterns in the `Startup.cs` file (e.g., `{controller}/{action}/{id?}`)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is 'Entity Framework Core' (EF Core)?",
+    "Option1": "A JavaScript framework for front-end development",
+    "Option2": "An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects",
+    "Option3": "A tool for building user interfaces",
+    "Option4": "A library for handling HTTP requests",
+    "Answer": "An object-relational mapper (ORM) that enables .NET developers to work with a database using .NET objects"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is 'Migrations' in EF Core?",
+    "Option1": "Transferring data between databases",
+    "Option2": "A feature that allows you to manage changes to your database schema over time, often generated from your EF Core model",
+    "Option3": "Moving database files to a new server",
+    "Option4": "Converting data formats",
+    "Answer": "A feature that allows you to manage changes to your database schema over time, often generated from your EF Core model"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What command is used to add a new migration in EF Core?",
+    "Option1": "add-database",
+    "Option2": "add-migration [MigrationName]",
+    "Option3": "update-database",
+    "Option4": "remove-migration",
+    "Answer": "add-migration [MigrationName]"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What command is used to apply pending migrations to the database?",
+    "Option1": "add-migration",
+    "Option2": "update-database",
+    "Option3": "scaffold-dbcontext",
+    "Option4": "drop-database",
+    "Answer": "update-database"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is 'API' in ASP.NET Core Web API?",
+    "Option1": "Application Performance Indicator",
+    "Option2": "Application Programming Interface, a set of defined rules for how applications should communicate with each other",
+    "Option3": "Advanced Process Integration",
+    "Option4": "Automated Program Interface",
+    "Answer": "Application Programming Interface, a set of defined rules for how applications should communicate with each other"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which attribute is commonly used to define a Web API controller?",
+    "Option1": "[Controller]",
+    "Option2": "[ApiController]",
+    "Option3": "[Route]",
+    "Option4": "[HttpGet]",
+    "Answer": "[ApiController]"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What HTTP verb is typically used for retrieving data?",
+    "Option1": "POST",
+    "Option2": "PUT",
+    "Option3": "DELETE",
+    "Option4": "GET",
+    "Answer": "GET"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What HTTP verb is typically used for creating new resources?",
+    "Option1": "GET",
+    "Option2": "PUT",
+    "Option3": "POST",
+    "Option4": "PATCH",
+    "Answer": "POST"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What HTTP verb is typically used for updating existing resources?",
+    "Option1": "GET",
+    "Option2": "POST",
+    "Option3": "PUT (for full replacement) or PATCH (for partial update)",
+    "Option4": "DELETE",
+    "Answer": "PUT (for full replacement) or PATCH (for partial update)"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What HTTP verb is typically used for deleting resources?",
+    "Option1": "GET",
+    "Option2": "POST",
+    "Option3": "PUT",
+    "Option4": "DELETE",
+    "Answer": "DELETE"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'Authentication' in ASP.NET Core?",
+    "Option1": "Determining what a user can do",
+    "Option2": "Verifying the identity of a user or system",
+    "Option3": "Encrypting data for security",
+    "Option4": "Logging user activity",
+    "Answer": "Verifying the identity of a user or system"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'Authorization' in ASP.NET Core?",
+    "Option1": "Verifying the identity of a user",
+    "Option2": "Determining what a user or system is allowed to do",
+    "Option3": "Managing user roles",
+    "Option4": "Securely storing user credentials",
+    "Answer": "Determining what a user or system is allowed to do"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Identity' in ASP.NET Core?",
+    "Option1": "A library for data access",
+    "Option2": "A membership system that adds user login, registration, and role management features to ASP.NET Core applications",
+    "Option3": "A templating engine",
+    "Option4": "A routing middleware",
+    "Answer": "A membership system that adds user login, registration, and role management features to ASP.NET Core applications"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'JWT' in the context of API security?",
+    "Option1": "Java Web Toolkit",
+    "Option2": "JSON Web Token, a compact, URL-safe means of representing claims to be transferred between two parties",
+    "Option3": "JavaScript Web Template",
+    "Option4": "JSON Web Transfer",
+    "Answer": "JSON Web Token, a compact, URL-safe means of representing claims to be transferred between two parties"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is 'CORS' and why is it important in web development?",
+    "Option1": "Content Optimization and Resource Sharing",
+    "Option2": "Cross-Origin Resource Sharing, a mechanism that allows resources on a web page to be requested from another domain outside the domain from which the first resource was served",
+    "Option3": "Client-Side Object Rendering System",
+    "Option4": "Code Optimization and Runtime Speed",
+    "Answer": "Cross-Origin Resource Sharing, a mechanism that allows resources on a web page to be requested from another domain outside the domain from which the first resource was served"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'Logging' in ASP.NET Core?",
+    "Option1": "Storing user credentials securely",
+    "Option2": "The process of recording events that occur during application execution, useful for debugging and monitoring",
+    "Option3": "Building structured data files",
+    "Option4": "Sending notifications to users",
+    "Answer": "The process of recording events that occur during application execution, useful for debugging and monitoring"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is 'Configuration' in ASP.NET Core?",
+    "Option1": "How the application's user interface is defined",
+    "Option2": "A system for managing application settings, such as connection strings, API keys, and other values that vary by environment",
+    "Option3": "How services are registered in the DI container",
+    "Option4": "How database schemas are defined",
+    "Answer": "A system for managing application settings, such as connection strings, API keys, and other values that vary by environment"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which file is commonly used for application settings in ASP.NET Core?",
+    "Option1": "web.config",
+    "Option2": "appsettings.json",
+    "Option3": "program.cs",
+    "Option4": "startup.cs",
+    "Answer": "appsettings.json"
+  },
+  {
+    "question_no.": 38,
+    "Question": "How do you access configuration values in ASP.NET Core?",
+    "Option1": "Directly from static properties",
+    "Option2": "Through the `IConfiguration` interface via Dependency Injection",
+    "Option3": "By reading files directly from the file system",
+    "Option4": "Using global variables",
+    "Answer": "Through the `IConfiguration` interface via Dependency Injection"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'Environment-specific Configuration'?",
+    "Option1": "Using different configurations based on the operating system",
+    "Option2": "Having different configuration settings (e.g., database connection strings) for different environments (Development, Staging, Production)",
+    "Option3": "Configuring based on user locale",
+    "Option4": "Configuring based on server hardware",
+    "Answer": "Having different configuration settings (e.g., database connection strings) for different environments (Development, Staging, Production)"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How are environment-specific settings typically handled in `appsettings.json`?",
+    "Option1": "Using if/else statements",
+    "Option2": "Using files like `appsettings.Development.json`, `appsettings.Production.json`",
+    "Option3": "By defining all settings in a single file and commenting out unused ones",
+    "Option4": "Through command-line arguments",
+    "Answer": "Using files like `appsettings.Development.json`, `appsettings.Production.json`"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Bundling and Minification' in ASP.NET Core?",
+    "Option1": "Encrypting client-side code",
+    "Option2": "Techniques used to improve website performance by reducing the number of requests and the size of client-side assets (CSS, JavaScript)",
+    "Option3": "Combining server-side code into a single file",
+    "Option4": "Compressing images for faster loading",
+    "Answer": "Techniques used to improve website performance by reducing the number of requests and the size of client-side assets (CSS, JavaScript)"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'Tag Helpers' in ASP.NET Core Razor?",
+    "Option1": "HTML tags for server-side logic",
+    "Option2": "Server-side code that participates in creating and rendering HTML elements in Razor files",
+    "Option3": "Client-side scripting utilities",
+    "Option4": "A type of CSS preprocessor",
+    "Answer": "Server-side code that participates in creating and rendering HTML elements in Razor files"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Give an example of a built-in Tag Helper.",
+    "Option1": "<a>",
+    "Option2": "<form>",
+    "Option3": "<input asp-for=\"...\">",
+    "Option4": "<div>",
+    "Answer": "<input asp-for=\"...\">"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is 'View Components' in ASP.NET Core MVC?",
+    "Option1": "Reusable JavaScript modules",
+    "Option2": "Reusable UI components that are similar to partial views but have a separate concerns (logic and view)",
+    "Option3": "A type of middleware",
+    "Option4": "A way to manage database views",
+    "Answer": "Reusable UI components that are similar to partial views but have a separate concerns (logic and view)"
+  },
+  {
+    "question_no.": 45,
+    "Question": "When would you use a View Component over a Partial View?",
+    "Option1": "For simple UI snippets without logic",
+    "Option2": "When the UI snippet requires business logic, data fetching, or is reusable across multiple views and controllers",
+    "Option3": "When the UI snippet is static HTML",
+    "Option4": "When you need to embed JavaScript directly into the view",
+    "Answer": "When the UI snippet requires business logic, data fetching, or is reusable across multiple views and controllers"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'Model Binding' in ASP.NET Core?",
+    "Option1": "Connecting to a database model",
+    "Option2": "The process of mapping data from HTTP requests (query strings, route data, form fields, JSON bodies) to action method parameters or properties of a model object",
+    "Option3": "Binding a view to a controller",
+    "Option4": "Binding data to HTML elements",
+    "Answer": "The process of mapping data from HTTP requests (query strings, route data, form fields, JSON bodies) to action method parameters or properties of a model object"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is 'Model Validation' in ASP.NET Core?",
+    "Option1": "Ensuring the model's data is consistent with the database schema",
+    "Option2": "Ensuring that the data submitted by the user meets predefined criteria (e.g., required fields, data types, ranges)",
+    "Option3": "Validating the view's HTML structure",
+    "Option4": "Validating the controller's logic",
+    "Answer": "Ensuring that the data submitted by the user meets predefined criteria (e.g., required fields, data types, ranges)"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which namespace provides common validation attributes like `[Required]` and `[StringLength]`?",
+    "Option1": "System.Data",
+    "Option2": "System.Web",
+    "Option3": "System.ComponentModel.DataAnnotations",
+    "Option4": "Microsoft.AspNetCore.Mvc",
+    "Answer": "System.ComponentModel.DataAnnotations"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Response Caching' in ASP.NET Core?",
+    "Option1": "Storing user sessions",
+    "Option2": "Storing the output of a controller action or Razor Page to serve subsequent requests faster without re-executing the code",
+    "Option3": "Caching database queries",
+    "Option4": "Caching client-side static files",
+    "Answer": "Storing the output of a controller action or Razor Page to serve subsequent requests faster without re-executing the code"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which attribute is used to apply response caching to an action method?",
+    "Option1": "[Cache]",
+    "Option2": "[ResponseCache]",
+    "Option3": "[OutputCache]",
+    "Option4": "[NoCache]",
+    "Answer": "[ResponseCache]"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is 'Distributed Caching' in ASP.NET Core?",
+    "Option1": "Caching data on a single server",
+    "Option2": "Caching data across multiple servers in a distributed environment, often using systems like Redis or SQL Server",
+    "Option3": "Caching data in the client's browser",
+    "Option4": "Caching application configuration",
+    "Answer": "Caching data across multiple servers in a distributed environment, often using systems like Redis or SQL Server"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'In-memory Caching'?",
+    "Option1": "Caching data in an external database",
+    "Option2": "Caching data directly in the application's memory on a single server",
+    "Option3": "Caching data on the client-side",
+    "Option4": "Caching data in a distributed system",
+    "Answer": "Caching data directly in the application's memory on a single server"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is 'Background Tasks/Services' in ASP.NET Core?",
+    "Option1": "Services that run synchronously with user requests",
+    "Option2": "Long-running operations that execute independently of user requests, often used for data processing, email sending, etc.",
+    "Option3": "Services for handling user authentication",
+    "Option4": "Services for managing front-end assets",
+    "Answer": "Long-running operations that execute independently of user requests, often used for data processing, email sending, etc."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which interface is used to define a hosted background service?",
+    "Option1": "IBackgroundService",
+    "Option2": "IHostedService",
+    "Option3": "IServiceProvider",
+    "Option4": "IRuntimeService",
+    "Answer": "IHostedService"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'SignalR' in ASP.NET Core?",
+    "Option1": "A library for sending email notifications",
+    "Option2": "An open-source library that simplifies adding real-time web functionality to applications, enabling bidirectional communication between server and client",
+    "Option3": "A tool for logging application events",
+    "Option4": "A framework for building REST APIs",
+    "Answer": "An open-source library that simplifies adding real-time web functionality to applications, enabling bidirectional communication between server and client"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is 'Hub' in SignalR?",
+    "Option1": "A client-side JavaScript library",
+    "Option2": "A class that manages connections, groups, and message passing between clients and the server in SignalR",
+    "Option3": "A type of database connection",
+    "Option4": "A routing configuration file",
+    "Answer": "A class that manages connections, groups, and message passing between clients and the server in SignalR"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is 'Health Checks' in ASP.NET Core?",
+    "Option1": "A way to check the health of the database",
+    "Option2": "A feature that allows monitoring the health of an application and its dependencies (databases, external services) to determine if it's running correctly",
+    "Option3": "A tool for security audits",
+    "Option4": "A component for performance monitoring",
+    "Answer": "A feature that allows monitoring the health of an application and its dependencies (databases, external services) to determine if it's running correctly"
+  },
+  {
+    "question_no. 58": "What is the primary role of `Program.cs` in an ASP.NET Core application?",
+    "Question": "What is the primary role of `Program.cs` in an ASP.NET Core application?",
+    "Option1": "To define the application's configuration settings.",
+    "Option2": "To configure services for dependency injection.",
+    "Option3": "To build and run the web host, acting as the entry point of the application.",
+    "Option4": "To define the HTTP request pipeline.",
+    "Answer": "To build and run the web host, acting as the entry point of the application."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is 'Kestrel' in ASP.NET Core?",
+    "Option1": "A database server",
+    "Option2": "A cross-platform web server that is the default server for ASP.NET Core",
+    "Option3": "A front-end development tool",
+    "Option4": "A dependency injection framework",
+    "Answer": "A cross-platform web server that is the default server for ASP.NET Core"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'IIS Express'?",
+    "Option1": "A production web server for Linux",
+    "Option2": "A lightweight, self-contained version of IIS optimized for developers to run websites on their local machine",
+    "Option3": "A cloud hosting service",
+    "Option4": "A tool for deploying applications",
+    "Answer": "A lightweight, self-contained version of IIS optimized for developers to run websites on their local machine"
+  },
+  {
+    "question_no.": 61,
+    "Question": "When would you typically use IIS or Nginx with Kestrel?",
+    "Option1": "For local development only",
+    "Option2": "As a reverse proxy in production environments to handle features like load balancing, SSL termination, and static file serving",
+    "Option3": "For client-side rendering",
+    "Option4": "For database management",
+    "Answer": "As a reverse proxy in production environments to handle features like load balancing, SSL termination, and static file serving"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Environments' in ASP.NET Core?",
+    "Option1": "Different operating systems",
+    "Option2": "Named configurations (e.g., Development, Staging, Production) that allow applications to behave differently based on the environment they are running in",
+    "Option3": "Different programming languages",
+    "Option4": "Different database types",
+    "Answer": "Named configurations (e.g., Development, Staging, Production) that allow applications to behave differently based on the environment they are running in"
+  },
+  {
+    "question_no.": 63,
+    "Question": "How do you check the current environment in ASP.NET Core?",
+    "Option1": "By reading a global variable",
+    "Option2": "Using `IWebHostEnvironment.EnvironmentName` or `IHostEnvironment.EnvironmentName`",
+    "Option3": "By checking the operating system version",
+    "Option4": "By inspecting URL parameters",
+    "Answer": "Using `IWebHostEnvironment.EnvironmentName` or `IHostEnvironment.EnvironmentName`"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'Extension Methods' in C#?",
+    "Option1": "Methods that extend an existing class by modifying its source code",
+    "Option2": "Static methods that can be called as if they were instance methods on types, allowing you to 'add' methods to existing types without modifying them",
+    "Option3": "Methods that are only available in specific frameworks",
+    "Option4": "Methods for extending interfaces",
+    "Answer": "Static methods that can be called as if they were instance methods on types, allowing you to 'add' methods to existing types without modifying them"
+  },
+  {
+    "question_no.": 65,
+    "Question": "How are extension methods declared in C#?",
+    "Option1": "As public methods in any class",
+    "Option2": "As static methods in a static class, with the first parameter preceded by the `this` keyword",
+    "Option3": "As virtual methods in an abstract class",
+    "Option4": "As private methods in a non-static class",
+    "Answer": "As static methods in a static class, with the first parameter preceded by the `this` keyword"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'Async/Await' in C#?",
+    "Option1": "A way to make code synchronous",
+    "Option2": "Language features that simplify asynchronous programming, making non-blocking operations easier to write and read",
+    "Option3": "A method for handling exceptions",
+    "Option4": "A pattern for multithreading",
+    "Answer": "Language features that simplify asynchronous programming, making non-blocking operations easier to write and read"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What does the `async` keyword do?",
+    "Option1": "It makes a method run on a separate thread.",
+    "Option2": "It marks a method as asynchronous, allowing the use of the `await` keyword within it.",
+    "Option3": "It makes a method return immediately.",
+    "Option4": "It ensures a method runs synchronously.",
+    "Answer": "It marks a method as asynchronous, allowing the use of the `await` keyword within it."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does the `await` keyword do?",
+    "Option1": "It blocks the current thread until an operation completes.",
+    "Option2": "It suspends the execution of the `async` method until the awaited asynchronous operation completes, without blocking the calling thread.",
+    "Option3": "It throws an exception if an operation takes too long.",
+    "Option4": "It forces an operation to run synchronously.",
+    "Answer": "It suspends the execution of the `async` method until the awaited asynchronous operation completes, without blocking the calling thread."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Task' in C# asynchronous programming?",
+    "Option1": "A unit of work that always runs synchronously",
+    "Option2": "An object representing an asynchronous operation that can produce a result or complete without one",
+    "Option3": "A predefined sequence of instructions",
+    "Option4": "A thread in the operating system",
+    "Answer": "An object representing an asynchronous operation that can produce a result or complete without one"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'HttpClient' in .NET?",
+    "Option1": "A class for interacting with databases",
+    "Option2": "A class for sending HTTP requests and receiving HTTP responses from a resource identified by a URI",
+    "Option3": "A class for managing client-side state",
+    "Option4": "A class for handling file operations",
+    "Answer": "A class for sending HTTP requests and receiving HTTP responses from a resource identified by a URI"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Why is `HttpClientFactory` recommended over direct `HttpClient` instantiation in ASP.NET Core?",
+    "Option1": "To ensure thread safety",
+    "Option2": "To address issues like socket exhaustion and DNS changes, and to manage the lifetime of `HttpClient` instances effectively",
+    "Option3": "To provide better logging capabilities",
+    "Option4": "To simplify unit testing",
+    "Answer": "To address issues like socket exhaustion and DNS changes, and to manage the lifetime of `HttpClient` instances effectively"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Logging Providers' in ASP.NET Core?",
+    "Option1": "Classes that manage database connections",
+    "Option2": "Implementations that write log messages to specific destinations (e.g., Console, Debug, Azure Application Insights, Serilog)",
+    "Option3": "Services that provide configuration data",
+    "Option4": "Components that handle user authentication",
+    "Answer": "Implementations that write log messages to specific destinations (e.g., Console, Debug, Azure Application Insights, Serilog)"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Structured Logging'?",
+    "Option1": "Logging messages as plain text only",
+    "Option2": "Logging messages as machine-readable, structured data (e.g., JSON), making them easier to query and analyze",
+    "Option3": "Logging only critical errors",
+    "Option4": "Logging to a specific file format",
+    "Answer": "Logging messages as machine-readable, structured data (e.g., JSON), making them easier to query and analyze"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Serilog' or 'NLog' in the context of ASP.NET Core?",
+    "Option1": "Front-end frameworks",
+    "Option2": "Popular third-party logging libraries that provide advanced logging capabilities and integration with various sinks",
+    "Option3": "ORM frameworks for database access",
+    "Option4": "Testing frameworks",
+    "Answer": "Popular third-party logging libraries that provide advanced logging capabilities and integration with various sinks"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Error Handling' in ASP.NET Core?",
+    "Option1": "Preventing all errors from occurring",
+    "Option2": "Strategies and middleware for gracefully managing exceptions and displaying appropriate error responses to clients",
+    "Option3": "Logging only successful requests",
+    "Option4": "Debugging application code line by line",
+    "Answer": "Strategies and middleware for gracefully managing exceptions and displaying appropriate error responses to clients"
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which middleware is commonly used for error handling in production?",
+    "Option1": "UseDeveloperExceptionPage()",
+    "Option2": "UseExceptionHandler()",
+    "Option3": "UseStaticFiles()",
+    "Option4": "UseRouting()",
+    "Answer": "UseExceptionHandler()"
+  },
+  {
+    "question_no.": 77,
+    "Question": "Which middleware is commonly used for detailed error information in development?",
+    "Option1": "UseExceptionHandler()",
+    "Option2": "UseDeveloperExceptionPage()",
+    "Option3": "UseHttpsRedirection()",
+    "Option4": "UseAuthentication()",
+    "Answer": "UseDeveloperExceptionPage()"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Filters' in ASP.NET Core MVC/Web API?",
+    "Option1": "A way to filter data from a database",
+    "Option2": "Custom attributes or classes that run before or after certain stages in the request processing pipeline (e.g., before an action method executes)",
+    "Option3": "A tool for debugging HTTP requests",
+    "Option4": "A method for controlling access to files",
+    "Answer": "Custom attributes or classes that run before or after certain stages in the request processing pipeline (e.g., before an action method executes)"
+  },
+  {
+    "question_no.": 79,
+    "Question": "Name a common type of filter in ASP.NET Core.",
+    "Option1": "DataFilter",
+    "Option2": "Action Filter",
+    "Option3": "LogFilter",
+    "Option4": "RouteFilter",
+    "Answer": "Action Filter"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'Action Filter'?",
+    "Option1": "Executes logic before/after the result is executed",
+    "Option2": "Executes logic before and after an action method is executed",
+    "Option3": "Executes logic before/after the model binding",
+    "Option4": "Executes logic for authentication",
+    "Answer": "Executes logic before and after an action method is executed"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Result Filter'?",
+    "Option1": "Executes logic before/after an action method is executed",
+    "Option2": "Executes logic before and after an action result is executed",
+    "Option3": "Executes logic for authorization",
+    "Option4": "Executes logic for model validation",
+    "Answer": "Executes logic before and after an action result is executed"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Authorization Filter'?",
+    "Option1": "Executes logic before model binding",
+    "Option2": "Determines if a user is authorized to access a resource",
+    "Option3": "Executes logic after an action method",
+    "Option4": "Executes logic for logging",
+    "Answer": "Determines if a user is authorized to access a resource"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Exception Filter'?",
+    "Option1": "Handles all types of errors globally",
+    "Option2": "Handles exceptions that occur during action execution, action method invocation, or action results",
+    "Option3": "Filters out specific types of data",
+    "Option4": "Filters out specific user roles",
+    "Answer": "Handles exceptions that occur during action execution, action method invocation, or action results"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is 'Resource Filter'?",
+    "Option1": "Executes logic after all other filters",
+    "Option2": "Executes logic before and after MVC framework selected an action method (but before model binding)",
+    "Option3": "Filters access to static resources",
+    "Option4": "Filters incoming HTTP requests based on resource type",
+    "Answer": "Executes logic before and after MVC framework selected an action method (but before model binding)"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'Global Filters'?",
+    "Option1": "Filters that apply only to a specific controller",
+    "Option2": "Filters that apply to all controllers and actions in an application",
+    "Option3": "Filters that apply only to Razor Pages",
+    "Option4": "Filters that can be configured per request",
+    "Answer": "Filters that apply to all controllers and actions in an application"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Repository Pattern'?",
+    "Option1": "A pattern for caching data",
+    "Option2": "A design pattern that mediates between the domain and data mapping layers, providing an abstraction of data persistence",
+    "Option3": "A pattern for handling user input",
+    "Option4": "A pattern for logging exceptions",
+    "Answer": "A design pattern that mediates between the domain and data mapping layers, providing an abstraction of data persistence"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is 'Unit of Work Pattern'?",
+    "Option1": "A pattern for managing multiple database connections",
+    "Option2": "A pattern that encapsulates a series of operations that must complete together as a single transaction",
+    "Option3": "A pattern for distributing tasks across multiple servers",
+    "Option4": "A pattern for parallel processing",
+    "Answer": "A pattern that encapsulates a series of operations that must complete together as a single transaction"
+  },
+  {
+    "question_no.": 88,
+    "Question": "How does ASP.NET Core support 'Testing'?",
+    "Option1": "By automatically generating tests",
+    "Option2": "Through built-in testing features like `TestHost`, `WebApplicationFactory`, and integration with popular testing frameworks (xUnit, NUnit, MSTest)",
+    "Option3": "By providing a visual testing environment",
+    "Option4": "By only supporting manual testing",
+    "Answer": "Through built-in testing features like `TestHost`, `WebApplicationFactory`, and integration with popular testing frameworks (xUnit, NUnit, MSTest)"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'xUnit.net'?",
+    "Option1": "An ORM for database access",
+    "Option2": "A free, open-source, community-focused unit testing tool for .NET",
+    "Option3": "A web server",
+    "Option4": "A dependency injection framework",
+    "Answer": "A free, open-source, community-focused unit testing tool for .NET"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Integration Tests' in ASP.NET Core?",
+    "Option1": "Testing individual methods in isolation",
+    "Option2": "Testing the interaction between different components and layers of the application, often by running the application in-memory",
+    "Option3": "Testing user interface elements",
+    "Option4": "Testing external API endpoints only",
+    "Answer": "Testing the interaction between different components and layers of the application, often by running the application in-memory"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is `WebApplicationFactory<TStartup>` used for in integration testing?",
+    "Option1": "To generate test data",
+    "Option2": "To create an in-memory test server for integration tests, allowing the application to be tested without a real HTTP server",
+    "Option3": "To mock external services",
+    "Option4": "To deploy the application to a test environment",
+    "Answer": "To create an in-memory test server for integration tests, allowing the application to be tested without a real HTTP server"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Unit Tests' in ASP.NET Core?",
+    "Option1": "Testing the entire application flow",
+    "Option2": "Testing individual, isolated units of code (e.g., a single method or class) without external dependencies",
+    "Option3": "Testing database interactions",
+    "Option4": "Testing the user interface responsiveness",
+    "Answer": "Testing individual, isolated units of code (e.g., a single method or class) without external dependencies"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Mocking' in unit testing?",
+    "Option1": "Running real database queries during tests",
+    "Option2": "Creating fake versions of dependencies or collaborators to isolate the unit under test and control its behavior",
+    "Option3": "Deploying the application to a mock server",
+    "Option4": "Simulating user interactions",
+    "Answer": "Creating fake versions of dependencies or collaborators to isolate the unit under test and control its behavior"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Moq' in the context of C# testing?",
+    "Option1": "A test runner",
+    "Option2": "A popular mocking framework for .NET that simplifies the creation of mock objects for unit testing",
+    "Option3": "An assertion library",
+    "Option4": "A code coverage tool",
+    "Answer": "A popular mocking framework for .NET that simplifies the creation of mock objects for unit testing"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is 'Docker' and its relevance to ASP.NET Core?",
+    "Option1": "A type of database",
+    "Option2": "A platform for developing, shipping, and running applications in containers, making ASP.NET Core applications highly portable and scalable",
+    "Option3": "A cloud hosting provider",
+    "4": "A network security tool",
+    "Answer": "A platform for developing, shipping, and running applications in containers, making ASP.NET Core applications highly portable and scalable"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is a 'Dockerfile'?",
+    "Option1": "A file for configuring database connections",
+    "Option2": "A text file that contains instructions for building a Docker image",
+    "Option3": "A file for defining application routes",
+    "Option4": "A file for managing project dependencies",
+    "Answer": "A text file that contains instructions for building a Docker image"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is 'Kubernetes' and its relation to ASP.NET Core?",
+    "Option1": "A database management system",
+    "Option2": "An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications (including ASP.NET Core apps)",
+    "Option3": "A continuous integration tool",
+    "Option4": "A code analysis tool",
+    "Answer": "An open-source container orchestration platform that automates the deployment, scaling, and management of containerized applications (including ASP.NET Core apps)"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Microservices Architecture'?",
+    "Option1": "A monolithic application design",
+    "Option2": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services, often implemented with ASP.NET Core",
+    "Option3": "A pattern for building client-side applications",
+    "Option4": "A database design pattern",
+    "Answer": "An architectural style that structures an application as a collection of loosely coupled, independently deployable services, often implemented with ASP.NET Core"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What are the benefits of Microservices?",
+    "Option1": "Increased complexity and tightly coupled services",
+    "Option2": "Improved scalability, resilience, independent deployment, and technology diversity",
+    "Option3": "Reduced deployment frequency",
+    "Option4": "Lower operational costs in all scenarios",
+    "Answer": "Improved scalability, resilience, independent deployment, and technology diversity"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is 'API Gateway' in a microservices architecture?",
+    "Option1": "A component for direct service-to-service communication",
+    "Option2": "A single entry point for all client requests, handling routing, authentication, rate limiting, and other cross-cutting concerns for multiple microservices",
+    "Option3": "A database proxy",
+    "Option4": "A logging service",
+    "Answer": "A single entry point for all client requests, handling routing, authentication, rate limiting, and other cross-cutting concerns for multiple microservices"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is 'OpenAPI/Swagger' in ASP.NET Core?",
+    "Option1": "A tool for generating client-side code",
+    "Option2": "A specification and tools for documenting, visualizing, and interacting with RESTful APIs",
+    "Option3": "A framework for building SOAP services",
+    "Option4": "A security standard for APIs",
+    "Answer": "A specification and tools for documenting, visualizing, and interacting with RESTful APIs"
+  },
+  {
+    "question_no.": 102,
+    "Question": "What package do you typically install to enable Swagger UI in ASP.NET Core?",
+    "Option1": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
+    "Option2": "Swashbuckle.AspNetCore",
+    "Option3": "Microsoft.EntityFrameworkCore.SqlServer",
+    "Option4": "Microsoft.AspNetCore.Authentication.JwtBearer",
+    "Answer": "Swashbuckle.AspNetCore"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Blazor' in ASP.NET Core?",
+    "Option1": "A framework for building desktop applications",
+    "Option2": "A framework for building interactive client-side web UI with C# instead of JavaScript",
+    "Option3": "A new version of Razor Pages",
+    "Option4": "A tool for server-side rendering",
+    "Answer": "A framework for building interactive client-side web UI with C# instead of JavaScript"
+  },
+  {
+    "question_no.": 104,
+    "Question": "What are the two hosting models for Blazor?",
+    "Option1": "Client-Side, Server-Side",
+    "Option2": "Blazor Server, Blazor WebAssembly",
+    "Option3": "Static, Dynamic",
+    "Option4": "Local, Cloud",
+    "Answer": "Blazor Server, Blazor WebAssembly"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Blazor Server'?",
+    "Option1": "Runs C# code entirely in the browser",
+    "Option2": "Executes C# code on the server and handles UI interactions over a SignalR connection",
+    "Option3": "Generates static HTML files at build time",
+    "Option4": "Requires a JavaScript runtime on the client",
+    "Answer": "Executes C# code on the server and handles UI interactions over a SignalR connection"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Blazor WebAssembly' (Wasm)?",
+    "Option1": "Executes C# code on the server",
+    "Option2": "Runs C# code directly in the browser using WebAssembly, without requiring a server connection after initial download",
+    "Option3": "A JavaScript framework for building SPAs",
+    "Option4": "A tool for compiling C# to native code",
+    "Answer": "Runs C# code directly in the browser using WebAssembly, without requiring a server connection after initial download"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'BackgroundService' class in ASP.NET Core?",
+    "Option1": "A class for foreground tasks",
+    "Option2": "An abstract base class that implements `IHostedService` and simplifies the creation of long-running background tasks",
+    "Option3": "A class for HTTP request handling",
+    "Option4": "A class for managing database connections",
+    "Answer": "An abstract base class that implements `IHostedService` and simplifies the creation of long-running background tasks"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Worker Service' in .NET?",
+    "Option1": "A template for web applications",
+    "Option2": "A new project type in .NET Core for creating long-running, non-HTTP based background services",
+    "Option3": "A service for handling user authentication",
+    "Option4": "A service for serving static files",
+    "Answer": "A new project type in .NET Core for creating long-running, non-HTTP based background services"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'GRPC' in ASP.NET Core?",
+    "Option1": "A RESTful API framework",
+    "Option2": "A high-performance, open-source universal RPC framework developed by Google, often used for inter-service communication in microservices architectures",
+    "Option3": "A new type of database",
+    "Option4": "A client-side JavaScript library",
+    "Answer": "A high-performance, open-source universal RPC framework developed by Google, often used for inter-service communication in microservices architectures"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What are the benefits of gRPC over traditional REST for inter-service communication?",
+    "Option1": "Uses JSON for data transfer",
+    "Option2": "Better performance (HTTP/2, Protocol Buffers), strong typing, bi-directional streaming, and code generation",
+    "Option3": "Simpler to debug",
+    "Option4": "Wider browser support",
+    "Answer": "Better performance (HTTP/2, Protocol Buffers), strong typing, bi-directional streaming, and code generation"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Protocol Buffers' (protobuf) in gRPC?",
+    "Option1": "A data serialization format for XML",
+    "Option2": "A language-agnostic, platform-agnostic, extensible mechanism for serializing structured data, used by gRPC for efficient message exchange",
+    "Option3": "A network protocol",
+    "4": "A type of database schema",
+    "Answer": "A language-agnostic, platform-agnostic, extensible mechanism for serializing structured data, used by gRPC for efficient message exchange"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'WebSockets' in ASP.NET Core?",
+    "Option1": "A one-way communication protocol",
+    "Option2": "A persistent, full-duplex communication channel over a single TCP connection, enabling real-time, bidirectional communication between client and server",
+    "Option3": "A protocol for sending emails",
+    "Option4": "A protocol for static file serving",
+    "Answer": "A persistent, full-duplex communication channel over a single TCP connection, enabling real-time, bidirectional communication between client and server"
+  },
+  {
+    "question_no.": 113,
+    "Question": "When would you use WebSockets?",
+    "Option1": "For simple request-response interactions",
+    "Option2": "For real-time applications like chat apps, live dashboards, gaming, or collaborative tools where low-latency, continuous communication is needed",
+    "Option3": "For static content delivery",
+    "Option4": "For batch processing",
+    "Answer": "For real-time applications like chat apps, live dashboards, gaming, or collaborative tools where low-latency, continuous communication is needed"
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Cross-Site Request Forgery (CSRF)'?",
+    "Option1": "An attack that injects malicious scripts into web pages",
+    "Option2": "An attack that tricks a victim into submitting a malicious request unknowingly, often by embedding it in an image or a link",
+    "Option3": "An attack that steals user credentials",
+    "4": "An attack that exploits database vulnerabilities",
+    "Answer": "An attack that tricks a victim into submitting a malicious request unknowingly, often by embedding it in an image or a link"
+  },
+  {
+    "question_no.": 115,
+    "Question": "How does ASP.NET Core help mitigate CSRF attacks?",
+    "Option1": "By encrypting all user data",
+    "Option2": "Through anti-forgery tokens, which are unique, cryptographically secure values that are checked on form submissions",
+    "Option3": "By blocking all cross-origin requests",
+    "4": "By forcing users to re-authenticate for every request",
+    "Answer": "Through anti-forgery tokens, which are unique, cryptographically secure values that are checked on form submissions"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is 'Cross-Site Scripting (XSS)'?",
+    "Option1": "An attack that tricks users into clicking malicious links",
+    "Option2": "A type of security vulnerability typically found in web applications that enables attackers to inject client-side scripts into web pages viewed by other users",
+    "Option3": "An attack that exploits server-side vulnerabilities",
+    "4": "An attack that causes a denial of service",
+    "Answer": "A type of security vulnerability typically found in web applications that enables attackers to inject client-side scripts into web pages viewed by other users"
+  },
+  {
+    "question_no.": 117,
+    "Question": "How does ASP.NET Core help mitigate XSS attacks?",
+    "Option1": "By disabling all JavaScript on the client-side",
+    "Option2": "Through output encoding (Razor automatically encodes HTML) and input validation",
+    "Option3": "By requiring HTTPS for all communication",
+    "4": "By enforcing strict content security policies by default",
+    "Answer": "Through output encoding (Razor automatically encodes HTML) and input validation"
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'SQL Injection'?",
+    "Option1": "An attack that targets web servers",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g., to dump database contents to the attacker)",
+    "Option3": "An attack that exploits network vulnerabilities",
+    "4": "An attack that modifies application binaries",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution (e.g., to dump database contents to the attacker)"
+  },
+  {
+    "question_no.": 119,
+    "Question": "How does ASP.NET Core help mitigate SQL Injection attacks?",
+    "Option1": "By using raw SQL queries for all database operations",
+    "Option2": "By encouraging the use of ORMs like EF Core, parameterized queries, and stored procedures instead of concatenating strings for SQL commands",
+    "Option3": "By encrypting all database traffic",
+    "4": "By disabling database access for web applications",
+    "Answer": "By encouraging the use of ORMs like EF Core, parameterized queries, and stored procedures instead of concatenating strings for SQL commands"
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Distributed Transactions'?",
+    "Option1": "Transactions involving a single database",
+    "Option2": "Transactions that span across multiple independent resources (e.g., multiple databases, message queues, or services), requiring coordination to ensure atomicity",
+    "Option3": "Transactions that are not ACID compliant",
+    "4": "Transactions that only involve read operations",
+    "Answer": "Transactions that span across multiple independent resources (e.g., multiple databases, message queues, or services), requiring coordination to ensure atomicity"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Message Queues' in distributed systems?",
+    "Option1": "A type of database for real-time data",
+    "Option2": "A component that facilitates asynchronous communication between distributed applications by storing messages until they can be processed, often used for decoupling services",
+    "Option3": "A synchronous communication mechanism",
+    "4": "A tool for logging messages",
+    "Answer": "A component that facilitates asynchronous communication between distributed applications by storing messages until they can be processed, often used for decoupling services"
+  },
+  {
+    "question_no.": 122,
+    "Question": "Name a popular message queue system compatible with .NET Core.",
+    "Option1": "MySQL",
+    "Option2": "RabbitMQ or Apache Kafka",
+    "Option3": "MongoDB",
+    "4": "Redis",
+    "Answer": "RabbitMQ or Apache Kafka"
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Event-Driven Architecture'?",
+    "Option1": "An architecture where components communicate by direct method calls",
+    "Option2": "An architectural pattern where components communicate by producing, detecting, consuming, and reacting to events, promoting loose coupling and scalability",
+    "Option3": "An architecture focused on synchronous data processing",
+    "4": "An architecture that relies heavily on shared databases",
+    "Answer": "An architectural pattern where components communicate by producing, detecting, consuming, and reacting to events, promoting loose coupling and scalability"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Domain-Driven Design (DDD)'?",
+    "Option1": "A methodology for designing user interfaces",
+    "Option2": "An approach to software development that focuses on modeling the software to match a domain, leveraging a common language between domain experts and developers",
+    "Option3": "A pattern for managing database connections",
+    "4": "A framework for building microservices",
+    "Answer": "An approach to software development that focuses on modeling the software to match a domain, leveraging a common language between domain experts and developers"
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'CQRS' in the context of ASP.NET Core?",
+    "Option1": "Caching Query Request System",
+    "Option2": "Command Query Responsibility Segregation, an architectural pattern that separates the responsibility of handling commands (data modification) from handling queries (data retrieval)",
+    "Option3": "Client-Side Query Response Service",
+    "4": "Code Quality Review System",
+    "Answer": "Command Query Responsibility Segregation, an architectural pattern that separates the responsibility of handling commands (data modification) from handling queries (data retrieval)"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the benefit of CQRS?",
+    "Option1": "Simplifies data access for all scenarios",
+    "Option2": "Improved scalability, performance, and flexibility, especially in complex domains with different read/write patterns",
+    "Option3": "Reduces boilerplate code",
+    "4": "Eliminates the need for databases",
+    "Answer": "Improved scalability, performance, and flexibility, especially in complex domains with different read/write patterns"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'MediatR' in .NET Core?",
+    "Option1": "A routing library",
+    "Option2": "A simple, unambitious implementation of the Mediator pattern in .NET, often used for communication between components in a CQRS-style architecture",
+    "Option3": "A logging framework",
+    "4": "A testing utility",
+    "Answer": "A simple, unambitious implementation of the Mediator pattern in .NET, often used for communication between components in a CQRS-style architecture"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'MassTransit' or 'NServiceBus' in .NET Core?",
+    "Option1": "ORM frameworks",
+    "Option2": "Distributed messaging frameworks that simplify the creation of message-based, event-driven, and distributed applications",
+    "Option3": "UI component libraries",
+    "4": "Security frameworks",
+    "Answer": "Distributed messaging frameworks that simplify the creation of message-based, event-driven, and distributed applications"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Rate Limiting' in ASP.NET Core?",
+    "Option1": "Limiting the speed of application startup",
+    "Option2": "Controlling the number of requests a client can make to an API within a given time period to prevent abuse and ensure fair usage",
+    "Option3": "Limiting database connections",
+    "4": "Limiting the size of uploaded files",
+    "Answer": "Controlling the number of requests a client can make to an API within a given time period to prevent abuse and ensure fair usage"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Output Caching' (different from Response Caching, more for Razor Views)?",
+    "Option1": "Caching static files only",
+    "Option2": "A legacy feature in full .NET Framework MVC that allows caching the output of controller actions or entire pages, less common in ASP.NET Core MVC (superseded by Response Caching, but exists for Razor Pages)",
+    "Option3": "Caching client-side JavaScript",
+    "4": "Caching user authentication tokens",
+    "Answer": "A legacy feature in full .NET Framework MVC that allows caching the output of controller actions or entire pages, less common in ASP.NET Core MVC (superseded by Response Caching, but exists for Razor Pages)"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Middleware Pipeline' in ASP.NET Core?",
+    "Option1": "A sequence of database operations",
+    "Option2": "A series of delegated components (`app.Use...`) that process HTTP requests and responses sequentially, forming the application's request handling logic",
+    "Option3": "A set of user interface elements",
+    "4": "A chain of dependency injections",
+    "Answer": "A series of delegated components (`app.Use...`) that process HTTP requests and responses sequentially, forming the application's request handling logic"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Short-circuiting' in the middleware pipeline?",
+    "Option1": "When a middleware component throws an exception",
+    "Option2": "When a middleware component processes a request and generates a response, preventing subsequent middleware components from executing",
+    "Option3": "When a middleware component fails to load",
+    "4": "When a middleware component takes too long to execute",
+    "Answer": "When a middleware component processes a request and generates a response, preventing subsequent middleware components from executing"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is 'Session Management' in ASP.NET Core?",
+    "Option1": "Storing data on the client-side only",
+    "Option2": "A way to maintain state across multiple requests from the same client over a period of time, often stored server-side",
+    "Option3": "Managing database connections",
+    "4": "Managing user roles and permissions",
+    "Answer": "A way to maintain state across multiple requests from the same client over a period of time, often stored server-side"
+  },
+  {
+    "question_no.": 134,
+    "Question": "How is session state typically stored in ASP.NET Core for scalability?",
+    "Option1": "In-memory on a single server",
+    "Option2": "Using distributed caches like Redis or SQL Server Session State Provider",
+    "Option3": "In browser cookies only",
+    "4": "In plain text files",
+    "Answer": "Using distributed caches like Redis or SQL Server Session State Provider"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Static Files Middleware'?",
+    "Option1": "Serves dynamic content from the server",
+    "Option2": "Middleware that enables serving static files (HTML, CSS, JavaScript, images) directly from the web root directory",
+    "Option3": "Middleware for handling database connections",
+    "4": "Middleware for processing form submissions",
+    "Answer": "Middleware that enables serving static files (HTML, CSS, JavaScript, images) directly from the web root directory"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is 'Default Files Middleware'?",
+    "Option1": "Serves random files from a directory",
+    "Option2": "Middleware that serves a default file (e.g., `index.html`) when a request is made to a directory path",
+    "Option3": "Middleware for serving JavaScript files only",
+    "4": "Middleware for creating new files",
+    "Answer": "Middleware that serves a default file (e.g., `index.html`) when a request is made to a directory path"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'Directory Browse Middleware'?",
+    "Option1": "Allows users to upload files to a directory",
+    "Option2": "Enables Browse of directory contents for the specified path, typically disabled in production for security reasons",
+    "Option3": "Automatically organizes files into directories",
+    "4": "Provides a search functionality for directories",
+    "Answer": "Enables Browse of directory contents for the specified path, typically disabled in production for security reasons"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'URL Rewriting Middleware'?",
+    "Option1": "A middleware for generating unique URLs",
+    "Option2": "A middleware that allows rewriting URLs based on configured rules, useful for SEO, URL standardization, or migrating old URLs",
+    "Option3": "A middleware for encrypting URLs",
+    "4": "A middleware for compressing URLs",
+    "Answer": "A middleware that allows rewriting URLs based on configured rules, useful for SEO, URL standardization, or migrating old URLs"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'HTTPS Redirection Middleware'?",
+    "Option1": "Redirects all HTTP requests to a different domain",
+    "Option2": "Forces all HTTP requests to be redirected to their HTTPS equivalent, enhancing security",
+    "Option3": "Redirects HTTP requests based on user location",
+    "4": "Redirects HTTP requests to a local file system",
+    "Answer": "Forces all HTTP requests to be redirected to their HTTPS equivalent, enhancing security"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'HSTS Middleware'?",
+    "Option1": "HTTP Static Transfer Security",
+    "Option2": "HTTP Strict Transport Security, a security policy that helps protect websites against protocol downgrade attacks and cookie hijacking by forcing web browsers to interact with it using only HTTPS connections",
+    "Option3": "High-Speed Transfer Service",
+    "4": "Hypertext Transfer Security System",
+    "Answer": "HTTP Strict Transport Security, a security policy that helps protect websites against protocol downgrade attacks and cookie hijacking by forcing web browsers to interact with it using only HTTPS connections"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Data Protection' in ASP.NET Core?",
+    "Option1": "Protecting data in a database",
+    "Option2": "A set of APIs that provide cryptographic protection for data, including encryption, decryption, and tamper detection, used for protecting sensitive data at rest",
+    "Option3": "Protecting data during network transfer",
+    "4": "Protecting data from unauthorized access on the client-side",
+    "Answer": "A set of APIs that provide cryptographic protection for data, including encryption, decryption, and tamper detection, used for protecting sensitive data at rest"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Key Ring' in ASP.NET Core Data Protection?",
+    "Option1": "A set of encryption algorithms",
+    "Option2": "The collection of cryptographic keys used by the Data Protection system to encrypt and decrypt data, which needs to be persisted for long-term data protection",
+    "Option3": "A mechanism for user authentication",
+    "4": "A method for generating random keys",
+    "Answer": "The collection of cryptographic keys used by the Data Protection system to encrypt and decrypt data, which needs to be persisted for long-term data protection"
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'OWIN' in the context of ASP.NET Core (historically important)?",
+    "Option1": "Open Web Interface for .NET, a specification that defines a standard interface between .NET web servers and web applications, enabling more modular web software",
+    "Option2": "Object-Oriented Web Interaction Network",
+    "Option3": "Online Web Integration Node",
+    "4": "Open World Internet Negotiation",
+    "Answer": "Open Web Interface for .NET, a specification that defines a standard interface between .NET web servers and web applications, enabling more modular web software"
+  },
+  {
+    "question_no.": 144,
+    "Question": "How does ASP.NET Core relate to OWIN?",
+    "Option1": "ASP.NET Core replaced OWIN entirely",
+    "Option2": "ASP.NET Core adopted and extended the OWIN concepts, providing a flexible and modular HTTP pipeline similar to OWIN but built directly into the framework",
+    "Option3": "ASP.NET Core is built on top of OWIN",
+    "4": "ASP.NET Core has no relation to OWIN",
+    "Answer": "ASP.NET Core adopted and extended the OWIN concepts, providing a flexible and modular HTTP pipeline similar to OWIN but built directly into the framework"
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'HttpContext' in ASP.NET Core?",
+    "Option1": "A class for managing database connections",
+    "Option2": "An object that encapsulates all HTTP-specific information about an individual HTTP request, including request/response, user, session, etc.",
+    "Option3": "A class for handling file operations",
+    "4": "A class for configuring application settings",
+    "Answer": "An object that encapsulates all HTTP-specific information about an individual HTTP request, including request/response, user, session, etc."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is 'IActionResult' in ASP.NET Core MVC/Web API?",
+    "Option1": "A specific type of HTTP response",
+    "Option2": "An interface that represents the result of an action method, allowing for various types of responses (e.g., View, JsonResult, OkResult, NotFoundResult)",
+    "Option3": "An interface for database operations",
+    "4": "An interface for defining model properties",
+    "Answer": "An interface that represents the result of an action method, allowing for various types of responses (e.g., View, JsonResult, OkResult, NotFoundResult)"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'BadRequestResult'?",
+    "Option1": "Returns an HTTP 200 OK status",
+    "Option2": "An `IActionResult` that returns an HTTP 400 Bad Request status code",
+    "Option3": "Returns an HTTP 404 Not Found status",
+    "4": "Returns an HTTP 500 Internal Server Error status",
+    "Answer": "An `IActionResult` that returns an HTTP 400 Bad Request status code"
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'NotFoundResult'?",
+    "Option1": "Returns an HTTP 200 OK status",
+    "Option2": "An `IActionResult` that returns an HTTP 404 Not Found status code",
+    "Option3": "Returns an HTTP 400 Bad Request status",
+    "4": "Returns an HTTP 500 Internal Server Error status",
+    "Answer": "An `IActionResult` that returns an HTTP 404 Not Found status code"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'OkResult'?",
+    "Option1": "Returns an HTTP 400 Bad Request status",
+    "Option2": "An `IActionResult` that returns an HTTP 200 OK status code",
+    "Option3": "Returns an HTTP 404 Not Found status",
+    "4": "Returns an HTTP 500 Internal Server Error status",
+    "Answer": "An `IActionResult` that returns an HTTP 200 OK status code"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'NoContentResult'?",
+    "Option1": "Returns an HTTP 200 OK status with content",
+    "Option2": "An `IActionResult` that returns an HTTP 204 No Content status code, indicating success but no content in the response body",
+    "Option3": "Returns an HTTP 400 Bad Request status without content",
+    "4": "Returns an HTTP 404 Not Found status without content",
+    "Answer": "An `IActionResult` that returns an HTTP 204 No Content status code, indicating success but no content in the response body"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'CreatedResult'?",
+    "Option1": "Returns an HTTP 200 OK status",
+    "Option2": "An `IActionResult` that returns an HTTP 201 Created status code, often used when a new resource has been successfully created, along with a URI for the new resource",
+    "Option3": "Returns an HTTP 400 Bad Request status",
+    "4": "Returns an HTTP 404 Not Found status",
+    "Answer": "An `IActionResult` that returns an HTTP 201 Created status code, often used when a new resource has been successfully created, along with a URI for the new resource"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Problem Details' (RFC 7807) in ASP.NET Core?",
+    "Option1": "A way to log unhandled exceptions",
+    "Option2": "A standardized format for carrying machine-readable details of errors in HTTP API responses, making error handling more consistent and easier for clients to parse",
+    "Option3": "A tool for debugging database issues",
+    "4": "A method for reporting security vulnerabilities",
+    "Answer": "A standardized format for carrying machine-readable details of errors in HTTP API responses, making error handling more consistent and easier for clients to parse"
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is 'Global Exception Handler' in ASP.NET Core?",
+    "Option1": "A specific `try-catch` block in every action method",
+    "Option2": "A centralized mechanism (often using middleware or an exception filter) to catch and handle all unhandled exceptions across the application",
+    "Option3": "A component that logs exceptions to a file",
+    "4": "A tool for recovering from data loss",
+    "Answer": "A centralized mechanism (often using middleware or an exception filter) to catch and handle all unhandled exceptions across the application"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Health Checks UI'?",
+    "Option1": "A library for displaying application metrics",
+    "Option2": "A user interface built on top of ASP.NET Core Health Checks, providing a dashboard to visualize the health status of applications and their dependencies",
+    "Option3": "A tool for designing user interfaces",
+    "4": "A component for generating health reports in text format",
+    "Answer": "A user interface built on top of ASP.NET Core Health Checks, providing a dashboard to visualize the health status of applications and their dependencies"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'IHttpClientFactory'?",
+    "Option1": "A factory for creating HTTP requests directly",
+    "Option2": "An interface that provides a centralized entry point for creating and managing `HttpClient` instances, addressing issues like socket exhaustion and DNS changes",
+    "Option3": "An interface for configuring HTTP headers",
+    "4": "An interface for logging HTTP traffic",
+    "Answer": "An interface that provides a centralized entry point for creating and managing `HttpClient` instances, addressing issues like socket exhaustion and DNS changes"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Named Clients' in `IHttpClientFactory`?",
+    "Option1": "Clients that are automatically named by the framework",
+    "Option2": "A way to configure and retrieve `HttpClient` instances by name, allowing for different configurations (base addresses, headers, timeouts) for different external APIs",
+    "Option3": "Clients used for specific HTTP methods only",
+    "4": "Clients that require authentication to be accessed",
+    "Answer": "A way to configure and retrieve `HttpClient` instances by name, allowing for different configurations (base addresses, headers, timeouts) for different external APIs"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Typed Clients' in `IHttpClientFactory`?",
+    "Option1": "Clients that return specific data types only",
+    "Option2": "A more strongly-typed approach where `HttpClient` is injected directly into a custom client class, often leading to cleaner code and better testability",
+    "Option3": "Clients that require type information in HTTP headers",
+    "4": "Clients that can only send specific types of requests",
+    "Answer": "A more strongly-typed approach where `HttpClient` is injected directly into a custom client class, often leading to cleaner code and better testability"
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'Transient Fault Handling'?",
+    "Option1": "Handling permanent errors",
+    "Option2": "A strategy for dealing with temporary network glitches, database connection drops, or temporary service unavailability by retrying operations with exponential backoff",
+    "Option3": "Handling only user input errors",
+    "4": "Handling configuration errors",
+    "Answer": "A strategy for dealing with temporary network glitches, database connection drops, or temporary service unavailability by retrying operations with exponential backoff"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Polly' in the context of .NET?",
+    "Option1": "A logging library",
+    "Option2": "A .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner",
+    "Option3": "A data validation library",
+    "4": "A routing framework",
+    "Answer": "A .NET resilience and transient-fault-handling library that allows developers to express policies such as Retry, Circuit Breaker, Timeout, Bulkhead Isolation, and Fallback in a fluent and thread-safe manner"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Circuit Breaker Pattern'?",
+    "Option1": "A pattern for increasing service availability",
+    "Option2": "A design pattern used in distributed systems to prevent cascading failures by preventing an application from repeatedly trying to access a failing service, giving it time to recover",
+    "Option3": "A pattern for logging errors",
+    "4": "A pattern for load balancing requests",
+    "Answer": "A design pattern used in distributed systems to prevent cascading failures by preventing an application from repeatedly trying to access a failing service, giving it time to recover"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'Rate Limiting Middleware'?",
+    "Option1": "Middleware that controls the application's memory usage",
+    "Option2": "Middleware in ASP.NET Core that applies rate limiting policies to incoming HTTP requests to prevent abuse and ensure fair usage of resources",
+    "Option3": "Middleware that limits the number of concurrent users",
+    "4": "Middleware that limits the size of HTTP responses",
+    "Answer": "Middleware in ASP.NET Core that applies rate limiting policies to incoming HTTP requests to prevent abuse and ensure fair usage of resources"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Host Filtering Middleware'?",
+    "Option1": "Filters requests based on the user agent",
+    "Option2": "Middleware that prevents requests to the application if the host header doesn't match a list of allowed hosts, improving security against DNS rebinding and similar attacks",
+    "Option3": "Filters requests based on IP address",
+    "4": "Filters requests based on HTTP method",
+    "Answer": "Middleware that prevents requests to the application if the host header doesn't match a list of allowed hosts, improving security against DNS rebinding and similar attacks"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Request Localization Middleware'?",
+    "Option1": "Middleware for translating application text",
+    "Option2": "Middleware that enables applications to serve content in different languages and cultures based on incoming request headers or query strings",
+    "Option3": "Middleware for geographical IP address lookup",
+    "4": "Middleware for optimizing static file delivery",
+    "Answer": "Middleware that enables applications to serve content in different languages and cultures based on incoming request headers or query strings"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'HTTP/2' in ASP.NET Core?",
+    "Option1": "An older version of the HTTP protocol",
+    "Option2": "A major revision of the HTTP network protocol, supported by ASP.NET Core, offering improvements like multiplexing, header compression, and server push for faster web performance",
+    "Option3": "A protocol for real-time communication only",
+    "4": "A protocol specifically for APIs",
+    "Answer": "A major revision of the HTTP network protocol, supported by ASP.NET Core, offering improvements like multiplexing, header compression, and server push for faster web performance"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Server Push' in HTTP/2?",
+    "Option1": "The server pushing data to the database",
+    "Option2": "A feature where the server sends resources to the client that it anticipates the client will need, before the client explicitly requests them, improving load times",
+    "Option3": "The server pushing notifications to the client",
+    "4": "The server pushing code updates to the client",
+    "Answer": "A feature where the server sends resources to the client that it anticipates the client will need, before the client explicitly requests them, improving load times"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'URL Redirection' in ASP.NET Core?",
+    "Option1": "Changing the content of a page",
+    "Option2": "Sending the client's browser to a different URL, often used for moved resources, canonical URLs, or enforcing HTTPS",
+    "Option3": "Rewriting the URL on the server-side only",
+    "4": "Changing the HTTP method of a request",
+    "Answer": "Sending the client's browser to a different URL, often used for moved resources, canonical URLs, or enforcing HTTPS"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Content Negotiation' in ASP.NET Core Web API?",
+    "Option1": "Negotiating the price of content",
+    "Option2": "The process by which the server selects the best representation for a given resource when the client specifies its preference (e.g., JSON, XML, plain text) via HTTP headers like `Accept`",
+    "Option3": "Negotiating user roles",
+    "4": "Negotiating database connection parameters",
+    "Answer": "The process by which the server selects the best representation for a given resource when the client specifies its preference (e.g., JSON, XML, plain text) via HTTP headers like `Accept`"
+  },
+  {
+    "question_no.": 168,
+    "Question": "Which HTTP header is primarily used by clients for content negotiation?",
+    "Option1": "Content-Type",
+    "Option2": "Authorization",
+    "Option3": "Accept",
+    "Option4": "User-Agent",
+    "Answer": "Accept"
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Binding Sources' in ASP.NET Core Model Binding?",
+    "Option1": "The types of data that can be bound to a model",
+    "Option2": "The locations from which model binder attempts to extract values (e.g., route data, query string, form fields, request body, headers)",
+    "Option3": "The database sources for binding data",
+    "4": "The external APIs used for data binding",
+    "Answer": "The locations from which model binder attempts to extract values (e.g., route data, query string, form fields, request body, headers)"
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which attribute explicitly binds a parameter from the query string?",
+    "Option1": "[FromBody]",
+    "Option2": "[FromRoute]",
+    "Option3": "[FromQuery]",
+    "Option4": "[FromHeader]",
+    "Answer": "[FromQuery]"
+  },
+  {
+    "question_no.": 171,
+    "Question": "Which attribute explicitly binds a parameter from the request body (typically JSON)?",
+    "Option1": "[FromQuery]",
+    "Option2": "[FromRoute]",
+    "Option3": "[FromBody]",
+    "Option4": "[FromForm]",
+    "Answer": "[FromBody]"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Validation Attributes'?",
+    "Option1": "Attributes for styling HTML elements",
+    "Option2": "Attributes from `System.ComponentModel.DataAnnotations` (e.g., `[Required]`, `[StringLength]`, `[Range]`) used to define validation rules for model properties",
+    "Option3": "Attributes for routing configuration",
+    "4": "Attributes for authentication",
+    "Answer": "Attributes from `System.ComponentModel.DataAnnotations` (e.g., `[Required]`, `[StringLength]`, `[Range]`) used to define validation rules for model properties"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Custom Validation' in ASP.NET Core?",
+    "Option1": "Using built-in validation attributes only",
+    "Option2": "Implementing custom logic for validating models or properties, often by creating custom validation attributes or implementing `IValidatableObject`",
+    "Option3": "Validation performed on the client-side only",
+    "4": "Validation performed by the database",
+    "Answer": "Implementing custom logic for validating models or properties, often by creating custom validation attributes or implementing `IValidatableObject`"
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Action Results' in ASP.NET Core MVC?",
+    "Option1": "The return type of a service method",
+    "Option2": "Objects returned by action methods that represent the type of response to be sent back to the client (e.g., a view, JSON data, a redirect)",
+    "Option3": "The result of a database query",
+    "4": "The outcome of a background task",
+    "Answer": "Objects returned by action methods that represent the type of response to be sent back to the client (e.g., a view, JSON data, a redirect)"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'ViewModel' in MVC?",
+    "Option1": "The database model",
+    "Option2": "A plain C# class designed to hold data specifically for a view, acting as a bridge between the model and the view, often containing properties formatted for display",
+    "Option3": "The controller's logic",
+    "4": "A client-side JavaScript object",
+    "Answer": "A plain C# class designed to hold data specifically for a view, acting as a bridge between the model and the view, often containing properties formatted for display"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'ViewBag' and 'ViewData'?",
+    "Option1": "Mechanisms for storing persistent data",
+    "Option2": "Ways to pass data from a controller to a view in MVC, `ViewBag` is dynamic, `ViewData` is a dictionary; both are less type-safe than ViewModels",
+    "Option3": "Global variables for the application",
+    "4": "Methods for rendering partial views",
+    "Answer": "Ways to pass data from a controller to a view in MVC, `ViewBag` is dynamic, `ViewData` is a dictionary; both are less type-safe than ViewModels"
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'TempData'?",
+    "Option1": "For data that persists across multiple requests",
+    "Option2": "For data that needs to persist for exactly one subsequent request (e.g., for redirect-after-post scenarios), stored in session state or cookies",
+    "Option3": "For data that is only available within the current request",
+    "4": "For permanent data storage",
+    "Answer": "For data that needs to persist for exactly one subsequent request (e.g., for redirect-after-post scenarios), stored in session state or cookies"
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Partial View' in ASP.NET Core MVC?",
+    "Option1": "A full-page view",
+    "Option2": "A reusable Razor markup file (`.cshtml`) that renders a portion of a view, often used for common UI elements that don't require their own controller logic",
+    "Option3": "A view that only displays static content",
+    "4": "A view that can access the database directly",
+    "Answer": "A reusable Razor markup file (`.cshtml`) that renders a portion of a view, often used for common UI elements that don't require their own controller logic"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'View Imports' file (`_ViewImports.cshtml`)?",
+    "Option1": "A file for importing JavaScript libraries",
+    "Option2": "A Razor file that allows you to specify namespaces to be imported, Tag Helpers to be added, or other Razor directives to be applied globally to all views in its directory and subdirectories",
+    "Option3": "A file for importing CSS stylesheets",
+    "4": "A file for importing external HTML templates",
+    "Answer": "A Razor file that allows you to specify namespaces to be imported, Tag Helpers to be added, or other Razor directives to be applied globally to all views in its directory and subdirectories"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'View Start' file (`_ViewStart.cshtml`)?",
+    "Option1": "A file that defines the initial routing configuration",
+    "Option2": "A Razor file that executes before any other view in its directory or subdirectories, typically used to specify a common layout page (`_Layout.cshtml`)",
+    "Option3": "A file for initial database seeding",
+    "4": "A file for application startup logic",
+    "Answer": "A Razor file that executes before any other view in its directory or subdirectories, typically used to specify a common layout page (`_Layout.cshtml`)"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Layout Page' (`_Layout.cshtml`)?",
+    "Option1": "A page for displaying errors",
+    "Option2": "A common Razor view that defines the overall structure and shared UI elements (header, footer, navigation) for multiple views in an MVC application",
+    "Option3": "A page that only contains JavaScript code",
+    "4": "A page that is only used for mobile devices",
+    "Answer": "A common Razor view that defines the overall structure and shared UI elements (header, footer, navigation) for multiple views in an MVC application"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `IAsyncDisposable` in C#?",
+    "Option1": "An interface for synchronous resource cleanup",
+    "Option2": "An interface that provides a mechanism for releasing unmanaged resources asynchronously, often used with `await using` for graceful cleanup of asynchronous resources",
+    "Option3": "An interface for disposing managed resources only",
+    "4": "An interface for preventing resource disposal",
+    "Answer": "An interface that provides a mechanism for releasing unmanaged resources asynchronously, often used with `await using` for graceful cleanup of asynchronous resources"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Global Using Directives' in C# 10 and .NET 6?",
+    "Option1": "Using directives that apply only to a single file",
+    "Option2": "A feature that allows you to declare `using` directives once in a central file (e.g., `_Imports.cs`) and have them apply globally to all `.cs` files in the project, reducing boilerplate",
+    "Option3": "Using directives that are automatically generated",
+    "4": "Using directives that only apply to the current class",
+    "Answer": "A feature that allows you to declare `using` directives once in a central file (e.g., `_Imports.cs`) and have them apply globally to all `.cs` files in the project, reducing boilerplate"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Minimal APIs' in ASP.NET Core?",
+    "Option1": "APIs that only support GET requests",
+    "Option2": "A simplified approach to building HTTP APIs in ASP.NET Core that requires minimal boilerplate code, often using top-level statements and lambda expressions directly in `Program.cs`",
+    "Option3": "APIs that are limited in functionality",
+    "4": "APIs that only expose a single endpoint",
+    "Answer": "A simplified approach to building HTTP APIs in ASP.NET Core that requires minimal boilerplate code, often using top-level statements and lambda expressions directly in `Program.cs`"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the primary goal of Minimal APIs?",
+    "Option1": "To replace full MVC controllers",
+    "Option2": "To provide a streamlined way to create small, fast HTTP APIs, especially for microservices or simple API endpoints, reducing the learning curve and code overhead",
+    "Option3": "To eliminate the need for HTTP verbs",
+    "4": "To enforce strict architectural patterns",
+    "Answer": "To provide a streamlined way to create small, fast HTTP APIs, especially for microservices or simple API endpoints, reducing the learning curve and code overhead"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Open Telemetry' in ASP.NET Core?",
+    "Option1": "A tool for remote debugging",
+    "Option2": "An open-source observability framework for generating, collecting, and exporting telemetry data (traces, metrics, logs) from applications, aiding in monitoring and troubleshooting distributed systems",
+    "Option3": "A service for sending SMS notifications",
+    "4": "A framework for building real-time applications",
+    "Answer": "An open-source observability framework for generating, collecting, and exporting telemetry data (traces, metrics, logs) from applications, aiding in monitoring and troubleshooting distributed systems"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What are 'Metrics' in observability?",
+    "Option1": "Detailed event logs",
+    "Option2": "Numerical measurements collected over time that represent some aspect of a system's behavior (e.g., CPU utilization, request count, error rates)",
+    "Option3": "Individual error reports",
+    "4": "Textual descriptions of system events",
+    "Answer": "Numerical measurements collected over time that represent some aspect of a system's behavior (e.g., CPU utilization, request count, error rates)"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What are 'Traces' (Distributed Tracing) in observability?",
+    "Option1": "A record of individual log messages",
+    "Option2": "Represent the end-to-end journey of a request through a distributed system, showing how different services interact and where delays occur",
+    "Option3": "Snapshots of application memory",
+    "4": "Visual representations of database schemas",
+    "Answer": "Represent the end-to-end journey of a request through a distributed system, showing how different services interact and where delays occur"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'Prometheus' in the context of monitoring?",
+    "Option1": "A logging platform",
+    "Option2": "An open-source monitoring system with a dimensional data model, flexible query language, and alerting capabilities, often used with ASP.NET Core for metrics collection",
+    "Option3": "A data visualization tool only",
+    "4": "A database for storing logs",
+    "Answer": "An open-source monitoring system with a dimensional data model, flexible query language, and alerting capabilities, often used with ASP.NET Core for metrics collection"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Grafana'?",
+    "Option1": "A tool for collecting metrics",
+    "Option2": "An open-source analytics and visualization web application that allows you to query, visualize, alert on, and understand your metrics no matter where they are stored (often used with Prometheus)",
+    "Option3": "A logging aggregator",
+    "4": "A code editor for C#",
+    "Answer": "An open-source analytics and visualization web application that allows you to query, visualize, alert on, and understand your metrics no matter where they are stored (often used with Prometheus)"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What are 'Distributed Tracing Systems' (e.g., Jaeger, Zipkin) used for?",
+    "Option1": "For collecting system logs",
+    "Option2": "For visualizing the flow of requests across multiple services in a microservices architecture, helping to identify performance bottlenecks and errors",
+    "Option3": "For managing user authentication in distributed systems",
+    "4": "For performing load testing on distributed applications",
+    "Answer": "For visualizing the flow of requests across multiple services in a microservices architecture, helping to identify performance bottlenecks and errors"
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'IConfigurationBuilder'?",
+    "Option1": "A service for building HTTP requests",
+    "Option2": "An interface that provides a flexible way to build configuration settings from various sources (e.g., JSON files, environment variables, command-line arguments)",
+    "Option3": "An interface for building database queries",
+    "4": "An interface for building middleware components",
+    "Answer": "An interface that provides a flexible way to build configuration settings from various sources (e.g., JSON files, environment variables, command-line arguments)"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'Options Pattern' in ASP.NET Core?",
+    "Option1": "A way to define optional parameters in methods",
+    "Option2": "A pattern for accessing configuration data using strongly-typed classes, improving type safety and maintainability compared to direct `IConfiguration` access",
+    "Option3": "A pattern for handling optional features in an application",
+    "4": "A pattern for providing multiple choices to the user",
+    "Answer": "A pattern for accessing configuration data using strongly-typed classes, improving type safety and maintainability compared to direct `IConfiguration` access"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What are the three interfaces related to the Options Pattern?",
+    "Option1": "IOptions, IOptionsSnapshot, IOptionsMonitor",
+    "Option2": "IConfiguration, IConfigurationBuilder, IConfigurationProvider",
+    "Option3": "IServiceProvider, IServiceCollection, IServiceScope",
+    "4": "ILogger, ILoggerFactory, ILoggerProvider",
+    "Answer": "IOptions, IOptionsSnapshot, IOptionsMonitor"
+  },
+  {
+    "question_no.": 195,
+    "Question": "Which Options interface provides a cached, read-only view of configuration that is reloaded for each request (scoped)?",
+    "Option1": "IOptions",
+    "Option2": "IOptionsSnapshot",
+    "Option3": "IOptionsMonitor",
+    "4": "IOptionsFactory",
+    "Answer": "IOptionsSnapshot"
+  },
+  {
+    "question_no.": 196,
+    "Question": "Which Options interface provides a singleton access to configuration that is not reloaded?",
+    "Option1": "IOptions",
+    "Option2": "IOptionsSnapshot",
+    "Option3": "IOptionsMonitor",
+    "4": "IOptionsBuilder",
+    "Answer": "IOptions"
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which Options interface provides a singleton access to configuration with change notifications?",
+    "Option1": "IOptions",
+    "Option2": "IOptionsSnapshot",
+    "Option3": "IOptionsMonitor",
+    "4": "IOptionsMonitor",
+    "Answer": "IOptionsMonitor"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'HTTP Strict Transport Security (HSTS)'?",
+    "Option1": "A protocol for encrypting HTTP traffic",
+    "Option2": "A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking",
+    "Option3": "A method for securely storing HTTP headers",
+    "4": "A policy for restricting HTTP methods",
+    "Answer": "A web security policy mechanism that helps to protect websites against protocol downgrade attacks and cookie hijacking"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'HTTP/3' and its current status in .NET?",
+    "Option1": "A fully adopted and stable protocol in all .NET versions",
+    "Option2": "The latest version of the HTTP protocol, based on QUIC, offering further performance improvements; support is being developed and matured in .NET",
+    "Option3": "A legacy HTTP protocol not supported by .NET",
+    "4": "A protocol exclusively for internal network communication",
+    "Answer": "The latest version of the HTTP protocol, based on QUIC, offering further performance improvements; support is being developed and matured in .NET"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'QUIC' in the context of HTTP/3?",
+    "Option1": "Quick User Interface Connection",
+    "Option2": "Quick UDP Internet Connections, a general-purpose transport layer network protocol designed by Google that provides multiplexing, reduced latency connection establishment, and stream and connection flow control",
+    "Option3": "Quality of Service for Internet Connectivity",
+    "4": "Query Uniform Interface Control",
+    "Answer": "Quick UDP Internet Connections, a general-purpose transport layer network protocol designed by Google that provides multiplexing, reduced latency connection establishment, and stream and connection flow control"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Problem Details' for validation errors in ASP.NET Core APIs?",
+    "Option1": "A custom error message format",
+    "Option2": "ASP.NET Core's default behavior for API controllers to return RFC 7807 compliant 'Problem Details' responses for model validation errors, providing structured error information",
+    "Option3": "A way to bypass validation errors",
+    "4": "A logging mechanism for validation issues",
+    "Answer": "ASP.NET Core's default behavior for API controllers to return RFC 7807 compliant 'Problem Details' responses for model validation errors, providing structured error information"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the `[FromServices]` attribute used for in controller actions?",
+    "Option1": "To bind a parameter from the query string",
+    "Option2": "To explicitly specify that a parameter should be resolved from the dependency injection container",
+    "Option3": "To bind a parameter from the request body",
+    "4": "To bind a parameter from route data",
+    "Answer": "To explicitly specify that a parameter should be resolved from the dependency injection container"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Razor Class Library'?",
+    "Option1": "A library containing only C# code",
+    "Option2": "A project type in ASP.NET Core that allows packaging reusable Razor components, views, and static assets into a distributable NuGet package",
+    "Option3": "A library for client-side JavaScript components",
+    "4": "A library for database access components",
+    "Answer": "A project type in ASP.NET Core that allows packaging reusable Razor components, views, and static assets into a distributable NuGet package"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'IHostBuilder' and 'IWebHostBuilder'?",
+    "Option1": "Interfaces for building HTTP requests",
+    "Option2": "`IHostBuilder` is for general-purpose host configuration in .NET, while `IWebHostBuilder` is specifically for configuring the web server aspects in ASP.NET Core applications",
+    "Option3": "Interfaces for building database queries",
+    "4": "Interfaces for configuring dependency injection containers only",
+    "Answer": "`IHostBuilder` is for general-purpose host configuration in .NET, while `IWebHostBuilder` is specifically for configuring the web server aspects in ASP.NET Core applications"
+  }
+]

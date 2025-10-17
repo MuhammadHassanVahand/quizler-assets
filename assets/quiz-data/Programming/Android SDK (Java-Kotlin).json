@@ -1,0 +1,1829 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is the primary language used for Android app development?",
+    "Option1": "Swift",
+    "Option2": "Python",
+    "Option3": "Java",
+    "Option4": "C++",
+    "Answer": "Java"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which IDE is officially recommended for Android development?",
+    "Option1": "Eclipse",
+    "Option2": "Visual Studio Code",
+    "Option3": "IntelliJ IDEA",
+    "Option4": "Android Studio",
+    "Answer": "Android Studio"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is an Activity in Android?",
+    "Option1": "A background service",
+    "Option2": "A single screen with a user interface",
+    "Option3": "A database helper class",
+    "Option4": "A broadcast receiver",
+    "Answer": "A single screen with a user interface"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which file specifies the permissions and components of an Android app?",
+    "Option1": "build.gradle",
+    "Option2": "AndroidManifest.xml",
+    "Option3": "settings.gradle",
+    "Option4": "styles.xml",
+    "Answer": "AndroidManifest.xml"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a 'Layout' in Android?",
+    "Option1": "A programming language",
+    "Option2": "A file that defines the UI structure of an Activity or Fragment",
+    "Option3": "A type of database",
+    "Option4": "A network protocol",
+    "Answer": "A file that defines the UI structure of an Activity or Fragment"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which lifecycle method is called when an Activity is first created?",
+    "Option1": "onStart()",
+    "Option2": "onResume()",
+    "Option3": "onCreate()",
+    "Option4": "onDestroy()",
+    "Answer": "onCreate()"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is a 'Service' in Android?",
+    "Option1": "A UI component",
+    "Option2": "A component that performs long-running operations in the background",
+    "Option3": "A database table",
+    "Option4": "An input method",
+    "Answer": "A component that performs long-running operations in the background"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you pass data between Activities?",
+    "Option1": "Using SharedPreferences",
+    "Option2": "Using a Bundle with an Intent",
+    "Option3": "Using a static variable",
+    "Option4": "Using a BroadcastReceiver",
+    "Answer": "Using a Bundle with an Intent"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which component is used to display a list of scrollable items?",
+    "Option1": "TextView",
+    "Option2": "ImageView",
+    "Option3": "RecyclerView",
+    "Option4": "ProgressBar",
+    "Answer": "RecyclerView"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is an 'Intent' in Android?",
+    "Option1": "A class for handling user input",
+    "Option2": "A messaging object used to request an action from another app component",
+    "Option3": "A database query",
+    "Option4": "A design pattern",
+    "Answer": "A messaging object used to request an action from another app component"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which class is responsible for managing a collection of views in a layout?",
+    "Option1": "View",
+    "Option2": "ViewGroup",
+    "Option3": "Context",
+    "Option4": "Application",
+    "Answer": "ViewGroup"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the purpose of 'findViewById()'?",
+    "Option1": "To find a file in the project directory",
+    "Option2": "To locate a View by its ID within a layout",
+    "Option3": "To search for a specific String",
+    "Option4": "To identify a network connection",
+    "Answer": "To locate a View by its ID within a layout"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which attribute is used to define the ID of a View in XML?",
+    "Option1": "android:name",
+    "Option2": "android:text",
+    "Option3": "android:id",
+    "Option4": "android:layout_width",
+    "Answer": "android:id"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is 'Gradle' in Android development?",
+    "Option1": "A version control system",
+    "Option2": "A build automation system",
+    "Option3": "A testing framework",
+    "Option4": "A UI toolkit",
+    "Answer": "A build automation system"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which Kotlin keyword is used to declare a variable that can be reassigned?",
+    "Option1": "val",
+    "Option2": "const",
+    "Option3": "var",
+    "Option4": "let",
+    "Answer": "var"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is the equivalent of 'findViewById()' in Kotlin Android Extensions (now deprecated, but historically used)?",
+    "Option1": "findView()",
+    "Option2": "Kotlin synthetic properties",
+    "Option3": "getViewById()",
+    "Option4": "viewById()",
+    "Answer": "Kotlin synthetic properties"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is a 'Fragment' in Android?",
+    "Option1": "A small, independent part of an Activity's user interface",
+    "Option2": "A background process",
+    "Option3": "A type of database",
+    "Option4": "A network request",
+    "Answer": "A small, independent part of an Activity's user interface"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which container is commonly used to host Fragments?",
+    "Option1": "LinearLayout",
+    "Option2": "FrameLayout",
+    "Option3": "ScrollView",
+    "Option4": "RecyclerView",
+    "Answer": "FrameLayout"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of the 'R' class in Android?",
+    "Option1": "To manage app resources like layouts, strings, and drawables",
+    "Option2": "To handle network requests",
+    "Option3": "To perform database operations",
+    "Option4": "To manage permissions",
+    "Answer": "To manage app resources like layouts, strings, and drawables"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which method is called when an Activity is coming into the foreground and ready to interact with the user?",
+    "Option1": "onCreate()",
+    "Option2": "onStart()",
+    "Option3": "onResume()",
+    "Option4": "onPause()",
+    "Answer": "onResume()"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is a 'Toast' in Android?",
+    "Option1": "A persistent notification",
+    "Option2": "A small, temporary pop-up message",
+    "Option3": "A type of menu",
+    "Option4": "An input field",
+    "Answer": "A small, temporary pop-up message"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you handle user clicks on a Button in Android?",
+    "Option1": "Using 'onClick' attribute in XML or 'setOnClickListener()' in Java/Kotlin",
+    "Option2": "Using 'onTap()' method",
+    "Option3": "Using 'onLongPress()' method",
+    "Option4": "Using a BroadcastReceiver",
+    "Answer": "Using 'onClick' attribute in XML or 'setOnClickListener()' in Java/Kotlin"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is 'Data Binding' in Android?",
+    "Option1": "A way to connect to a database",
+    "Option2": "A library that allows you to bind UI components in your layouts to data sources",
+    "Option3": "A network protocol",
+    "Option4": "A form validation technique",
+    "Answer": "A library that allows you to bind UI components in your layouts to data sources"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which component is used to show a small, contextual menu for a specific view?",
+    "Option1": "OptionsMenu",
+    "Option2": "ContextMenu",
+    "Option3": "PopupMenu",
+    "Option4": "AlertDialog",
+    "Answer": "PopupMenu"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is a 'BroadcastReceiver' in Android?",
+    "Option1": "A component that displays data",
+    "Option2": "A component that allows an app to respond to system-wide broadcast announcements",
+    "Option3": "A type of Service",
+    "Option4": "A class for managing user input",
+    "Answer": "A component that allows an app to respond to system-wide broadcast announcements"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Which type of layout arranges views in a single row or column?",
+    "Option1": "RelativeLayout",
+    "Option2": "ConstraintLayout",
+    "Option3": "LinearLayout",
+    "Option4": "GridLayout",
+    "Answer": "LinearLayout"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the purpose of 'SharedPreferences'?",
+    "Option1": "To store large amounts of structured data",
+    "Option2": "To store simple key-value pairs of primitive data",
+    "Option3": "To perform network operations",
+    "Option4": "To manage app permissions",
+    "Answer": "To store simple key-value pairs of primitive data"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which class is used to create custom dialogs in Android?",
+    "Option1": "Toast",
+    "Option2": "Snackbar",
+    "Option3": "AlertDialog",
+    "Option4": "Notification",
+    "Answer": "AlertDialog"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the primary function of a 'ViewModel' in Android Architecture Components?",
+    "Option1": "To manage UI-related data in a lifecycle-conscious way",
+    "Option2": "To handle network requests",
+    "Option3": "To perform database operations",
+    "Option4": "To display UI elements",
+    "Answer": "To manage UI-related data in a lifecycle-conscious way"
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which component allows an app to display persistent notifications in the system status bar?",
+    "Option1": "Toast",
+    "Option2": "Snackbar",
+    "Option3": "Notification",
+    "Option4": "AlertDialog",
+    "Answer": "Notification"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the primary benefit of using 'ConstraintLayout'?",
+    "Option1": "Simpler code for complex UIs compared to nested layouts",
+    "Option2": "Faster drawing performance than LinearLayout",
+    "Option3": "Automatic handling of device rotations",
+    "Option4": "Built-in animation capabilities",
+    "Answer": "Simpler code for complex UIs compared to nested layouts"
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you fetch data from a remote server in Android?",
+    "Option1": "Using SharedPreferences",
+    "Option2": "Using SQLite database",
+    "Option3": "Using HTTP clients like Retrofit or Volley",
+    "Option4": "Using BroadcastReceivers",
+    "Answer": "Using HTTP clients like Retrofit or Volley"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is 'Room' persistence library?",
+    "Option1": "A library for network communication",
+    "Option2": "An ORM (Object Relational Mapping) library for SQLite databases in Android",
+    "Option3": "A UI toolkit",
+    "Option4": "A testing framework",
+    "Answer": "An ORM (Object Relational Mapping) library for SQLite databases in Android"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which annotation is used to mark a method as an event handler in Android XML layouts?",
+    "Option1": "@Override",
+    "Option2": "@StringDef",
+    "Option3": "android:onClick",
+    "Option4": "@IntDef",
+    "Answer": "android:onClick"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is a 'Content Provider' in Android?",
+    "Option1": "A component that provides data to other apps or to your own app's components",
+    "Option2": "A class for drawing custom views",
+    "Option3": "A network service",
+    "Option4": "A user interface element",
+    "Answer": "A component that provides data to other apps or to your own app's components"
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which method is called when an Activity is no longer visible to the user?",
+    "Option1": "onStop()",
+    "Option2": "onPause()",
+    "Option3": "onDestroy()",
+    "Option4": "onRestart()",
+    "Answer": "onStop()"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is the purpose of 'targetSdkVersion' in Gradle?",
+    "Option1": "The minimum API level required to run the app",
+    "Option2": "The API level the app is tested against",
+    "Option3": "The API level for which the app is designed to run and perform optimally",
+    "Option4": "The highest API level supported by the device",
+    "Answer": "The API level for which the app is designed to run and perform optimally"
+  },
+  {
+    "question_no.": 38,
+    "Question": "Which Kotlin feature is commonly used for asynchronous operations in Android?",
+    "Option1": "Callbacks",
+    "Option2": "Listeners",
+    "Option3": "Coroutines",
+    "Option4": "Threads",
+    "Answer": "Coroutines"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is 'LiveData' in Android Architecture Components?",
+    "Option1": "A data structure for storing user preferences",
+    "Option2": "An observable data holder class that is lifecycle-aware",
+    "Option3": "A class for making network requests",
+    "Option4": "A database query language",
+    "Answer": "An observable data holder class that is lifecycle-aware"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you handle background tasks that require a guaranteed execution, even if the app closes?",
+    "Option1": "Using AsyncTasks",
+    "Option2": "Using WorkManager",
+    "Option3": "Using Services",
+    "Option4": "Using Threads directly",
+    "Answer": "Using WorkManager"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the purpose of 'minSdkVersion' in Gradle?",
+    "Option1": "The API level the app is tested against",
+    "Option2": "The minimum API level required to run the app",
+    "Option3": "The API level for which the app is designed to run",
+    "Option4": "The highest API level supported by the device",
+    "Answer": "The minimum API level required to run the app"
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which callback method is invoked when a Fragment is attached to an Activity?",
+    "Option1": "onCreateView()",
+    "Option2": "onAttach()",
+    "Option3": "onActivityCreated()",
+    "Option4": "onStart()",
+    "Answer": "onAttach()"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is 'Android Jetpack'?",
+    "Option1": "A new programming language for Android",
+    "Option2": "A set of libraries, tools, and guidance to help developers build great Android apps",
+    "Option3": "A specific device model",
+    "Option4": "A type of database",
+    "Answer": "A set of libraries, tools, and guidance to help developers build great Android apps"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which component is responsible for presenting data in a scrollable grid?",
+    "Option1": "LinearLayout",
+    "Option2": "RecyclerView",
+    "Option3": "GridLayout",
+    "Option4": "GridView",
+    "Answer": "RecyclerView"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the main difference between 'val' and 'var' in Kotlin?",
+    "Option1": "'val' is for static variables, 'var' for instance variables",
+    "Option2": "'val' is immutable (read-only), 'var' is mutable (read-write)",
+    "Option3": "'val' is for primitive types, 'var' for objects",
+    "Option4": "No difference, they are interchangeable",
+    "Answer": "'val' is immutable (read-only), 'var' is mutable (read-write)"
+  },
+  {
+    "question_no.": 46,
+    "Question": "How can you debug an Android application?",
+    "Option1": "Using print statements",
+    "Option2": "Using Logcat, breakpoints in Android Studio debugger",
+    "Option3": "By recompiling the app with debug flags",
+    "Option4": "Only by deploying to a real device",
+    "Answer": "Using Logcat, breakpoints in Android Studio debugger"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is an 'Adapter' in the context of RecyclerView or ListView?",
+    "Option1": "A class that converts data from one format to another",
+    "Option2": "A bridge between a data source and the UI view that displays the data",
+    "Option3": "A class for handling user input",
+    "Option4": "A network configuration file",
+    "Answer": "A bridge between a data source and the UI view that displays the data"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which folder contains the XML layout files for an Android project?",
+    "Option1": "src/main/java",
+    "Option2": "res/layout",
+    "Option3": "assets",
+    "Option4": "build",
+    "Answer": "res/layout"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the purpose of 'android:layout_width' and 'android:layout_height' attributes?",
+    "Option1": "To define the minimum width and height of a view",
+    "Option2": "To define the actual width and height of a view in the layout",
+    "Option3": "To set the padding of a view",
+    "Option4": "To control the visibility of a view",
+    "Answer": "To define the actual width and height of a view in the layout"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which value for 'android:layout_width' or 'android:layout_height' makes a view expand to fill its parent?",
+    "Option1": "wrap_content",
+    "Option2": "match_parent",
+    "Option3": "fill_parent",
+    "Option4": "auto",
+    "Answer": "match_parent"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which value for 'android:layout_width' or 'android:layout_height' makes a view size itself to its content?",
+    "Option1": "match_parent",
+    "Option2": "wrap_content",
+    "Option3": "fill_parent",
+    "Option4": "expand",
+    "Answer": "wrap_content"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'VectorDrawable' in Android?",
+    "Option1": "A type of animation",
+    "Option2": "A drawable that defines a graphic by using a set of points, lines, and curves",
+    "Option3": "A bitmap image format",
+    "Option4": "A custom view class",
+    "Answer": "A drawable that defines a graphic by using a set of points, lines, and curves"
+  },
+  {
+    "question_no.": 53,
+    "Question": "How do you handle different screen sizes and densities in Android?",
+    "Option1": "By creating different APKs for each screen size",
+    "Option2": "Using density-independent pixels (dp) and providing alternative resources (layouts, drawables)",
+    "Option3": "By writing separate code for each device",
+    "Option4": "By using only absolute pixel values",
+    "Answer": "Using density-independent pixels (dp) and providing alternative resources (layouts, drawables)"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Gradle Sync' in Android Studio?",
+    "Option1": "Synchronizing your project with a version control system",
+    "Option2": "Downloading and configuring dependencies and building the project",
+    "Option3": "Uploading your app to the Play Store",
+    "Option4": "Refreshing the UI layout preview",
+    "Answer": "Downloading and configuring dependencies and building the project"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which permission is required to access the internet in an Android app?",
+    "Option1": "android.permission.READ_CONTACTS",
+    "Option2": "android.permission.CAMERA",
+    "Option3": "android.permission.ACCESS_FINE_LOCATION",
+    "Option4": "android.permission.INTERNET",
+    "Answer": "android.permission.INTERNET"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is a 'Theme' in Android?",
+    "Option1": "A single style applied to a single view",
+    "Option2": "A collection of styles applied to an entire Activity or application",
+    "Option3": "A specific font family",
+    "Option4": "A color palette",
+    "Answer": "A collection of styles applied to an entire Activity or application"
+  },
+  {
+    "question_no.": 57,
+    "Question": "How do you define a custom style in Android?",
+    "Option1": "In styles.xml using the '<style>' tag",
+    "Option2": "Directly in the layout XML file",
+    "Option3": "In the Java/Kotlin code",
+    "Option4": "Using a separate CSS file",
+    "Answer": "In styles.xml using the '<style>' tag"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the purpose of 'Picasso' or 'Glide' libraries?",
+    "Option1": "For database management",
+    "Option2": "For network requests",
+    "Option3": "For image loading and caching",
+    "Option4": "For parsing JSON data",
+    "Answer": "For image loading and caching"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which method is called when the user navigates away from an Activity, but it might still be visible (e.g., a transparent activity on top)?",
+    "Option1": "onStop()",
+    "Option2": "onPause()",
+    "Option3": "onDestroy()",
+    "Option4": "onSaveInstanceState()",
+    "Answer": "onPause()"
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is 'Android NDK'?",
+    "Option1": "Native Development Kit, allowing development in C/C++",
+    "Option2": "New Device Kit, for testing on new devices",
+    "Option3": "Notification Development Kit",
+    "Option4": "Network Debugging Kit",
+    "Answer": "Native Development Kit, allowing development in C/C++"
+  },
+  {
+    "question_no.": 61,
+    "Question": "How do you request runtime permissions in Android (API 23+)?",
+    "Option1": "Declare them only in AndroidManifest.xml",
+    "Option2": "Request them programmatically using `requestPermissions()`",
+    "Option3": "Permissions are granted automatically",
+    "Option4": "Restart the device to apply permissions",
+    "Answer": "Request them programmatically using `requestPermissions()`"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Kotlin Multiplatform Mobile (KMM)'?",
+    "Option1": "A framework for building Android-only apps",
+    "Option2": "A technology for sharing code between Android and iOS apps",
+    "Option3": "A new UI toolkit for Android",
+    "Option4": "A testing framework for mobile",
+    "Answer": "A technology for sharing code between Android and iOS apps"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'Navigation Component' in Android Jetpack?",
+    "Option1": "A component for displaying maps",
+    "Option2": "A library for managing in-app navigation, from simple button clicks to complex navigation patterns",
+    "Option3": "A network library",
+    "Option4": "A database tool",
+    "Answer": "A library for managing in-app navigation, from simple button clicks to complex navigation patterns"
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which view displays a single image?",
+    "Option1": "TextView",
+    "Option2": "EditText",
+    "Option3": "ImageView",
+    "Option4": "Button",
+    "Answer": "ImageView"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the purpose of 'android:src' attribute in an ImageView?",
+    "Option1": "To set the background color",
+    "Option2": "To specify the image source (drawable resource)",
+    "Option3": "To define the image scaling type",
+    "Option4": "To set the image's content description",
+    "Answer": "To specify the image source (drawable resource)"
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which tool is used to monitor device logs in Android Studio?",
+    "Option1": "Profiler",
+    "Option2": "Logcat",
+    "Option3": "Layout Inspector",
+    "Option4": "ADB Shell",
+    "Answer": "Logcat"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is an 'AsyncTask' in Android (now largely deprecated in favor of Kotlin Coroutines or WorkManager)?",
+    "Option1": "A utility class to perform background operations and publish results on the UI thread",
+    "Option2": "A class for managing database transactions",
+    "Option3": "A UI component for displaying progress",
+    "Option4": "A service for long-running operations",
+    "Answer": "A utility class to perform background operations and publish results on the UI thread"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'RecyclerView.Adapter' responsible for?",
+    "Option1": "Managing the layout of items in RecyclerView",
+    "Option2": "Creating ViewHolders and binding data to them",
+    "Option3": "Handling click events on RecyclerView items",
+    "Option4": "Scrolling the RecyclerView",
+    "Answer": "Creating ViewHolders and binding data to them"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'RecyclerView.ViewHolder'?",
+    "Option1": "A class that holds a reference to the data being displayed",
+    "Option2": "A wrapper around a View that contains the layout for an individual item in a list",
+    "Option3": "A class that handles RecyclerView animations",
+    "Option4": "A listener for scroll events",
+    "Answer": "A wrapper around a View that contains the layout for an individual item in a list"
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you apply a Material Design theme to your Android app?",
+    "Option1": "By using custom drawing code",
+    "Option2": "By inheriting from a MaterialComponents theme in styles.xml",
+    "Option3": "By adding a Material Design library to your project",
+    "Option4": "By manually styling each view",
+    "Answer": "By inheriting from a MaterialComponents theme in styles.xml"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Compose' in Android?",
+    "Option1": "A new testing framework",
+    "Option2": "Android's modern toolkit for building native UI using a declarative approach",
+    "Option3": "A build system",
+    "Option4": "A database library",
+    "Answer": "Android's modern toolkit for building native UI using a declarative approach"
+  },
+  {
+    "question_no.": 72,
+    "Question": "Which annotation is used to make a function an 'entry point' for a Compose UI?",
+    "Option1": "@Composable",
+    "Option2": "@Preview",
+    "Option3": "@Activity",
+    "Option4": "@Layout",
+    "Answer": "@Composable"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the purpose of 'remember' in Compose?",
+    "Option1": "To save the state of the entire application",
+    "Option2": "To store an object in composition and not lose it when recomposition happens",
+    "Option3": "To recall previous user input",
+    "Option4": "To cache network requests",
+    "Answer": "To store an object in composition and not lose it when recomposition happens"
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'State' in Compose?",
+    "Option1": "The current Activity in focus",
+    "Option2": "Any value that can change over time and cause the UI to recompose",
+    "Option3": "The application's lifecycle",
+    "Option4": "A user's preference settings",
+    "Answer": "Any value that can change over time and cause the UI to recompose"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which Modifier is used to set the size of a Composable?",
+    "Option1": ".padding()",
+    "Option2": ".fillMaxSize()",
+    "Option3": ".clickable()",
+    "Option4": ".background()",
+    "Answer": ".fillMaxSize()"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is 'Scaffold' in Compose?",
+    "Option1": "A layout that helps implement a basic Material Design visual structure",
+    "Option2": "A tool for debugging UI layouts",
+    "Option3": "A type of animation",
+    "Option4": "A database schema",
+    "Answer": "A layout that helps implement a basic Material Design visual structure"
+  },
+  {
+    "question_no.": 77,
+    "Question": "How do you handle navigation between composable screens?",
+    "Option1": "Using Intents",
+    "Option2": "Using the Navigation Compose library",
+    "Option3": "By manually managing Fragment transactions",
+    "Option4": "By restarting the Activity",
+    "Answer": "Using the Navigation Compose library"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is 'Flow' in Kotlin Coroutines?",
+    "Option1": "A type of UI layout",
+    "Option2": "An asynchronous data stream that can emit multiple values sequentially",
+    "Option3": "A network protocol",
+    "Option4": "A database transaction",
+    "Answer": "An asynchronous data stream that can emit multiple values sequentially"
+  },
+  {
+    "question_no.": 79,
+    "Question": "Which scope is commonly used for UI-related coroutines in Android?",
+    "Option1": "IO Dispatcher",
+    "Option2": "Default Dispatcher",
+    "Option3": "Main Dispatcher (Dispatchers.Main)",
+    "Option4": "Unconfined Dispatcher",
+    "Answer": "Main Dispatcher (Dispatchers.Main)"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is a 'Suspend Function' in Kotlin Coroutines?",
+    "Option1": "A function that pauses execution until a condition is met",
+    "Option2": "A function that can be paused and resumed later without blocking the thread",
+    "Option3": "A function that runs on a separate thread",
+    "Option4": "A function that always throws an exception",
+    "Answer": "A function that can be paused and resumed later without blocking the thread"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the purpose of the 'build.gradle' file at the module level?",
+    "Option1": "To configure the Android SDK version",
+    "Option2": "To declare module-specific dependencies and build configurations",
+    "Option3": "To define the application theme",
+    "Option4": "To manage project-level properties",
+    "Answer": "To declare module-specific dependencies and build configurations"
+  },
+  {
+    "question_no.": 82,
+    "Question": "Which type of test focuses on testing individual components in isolation?",
+    "Option1": "Integration Tests",
+    "Option2": "UI Tests",
+    "Option3": "Unit Tests",
+    "Option4": "Acceptance Tests",
+    "Answer": "Unit Tests"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Espresso' in Android testing?",
+    "Option1": "A framework for unit testing",
+    "Option2": "A UI testing framework for Android",
+    "Option3": "A performance profiling tool",
+    "Option4": "A database testing utility",
+    "Answer": "A UI testing framework for Android"
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which tool helps analyze and optimize the performance of your Android app?",
+    "Option1": "Logcat",
+    "Option2": "Profiler in Android Studio",
+    "Option3": "Layout Inspector",
+    "Option4": "ADB Shell",
+    "Answer": "Profiler in Android Studio"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is 'WorkManager' used for?",
+    "Option1": "Scheduling exact alarms",
+    "Option2": "Scheduling deferrable, guaranteed background work",
+    "Option3": "Handling immediate foreground tasks",
+    "Option4": "Performing complex calculations on the main thread",
+    "Answer": "Scheduling deferrable, guaranteed background work"
+  },
+  {
+    "question_no.": 86,
+    "Question": "How do you create a custom view in Android?",
+    "Option1": "By extending an existing ViewGroup or View class",
+    "Option2": "By defining it entirely in XML",
+    "Option3": "By using a special annotation",
+    "Option4": "By importing a pre-built library",
+    "Answer": "By extending an existing ViewGroup or View class"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the primary function of 'onSaveInstanceState()'?",
+    "Option1": "To save data to a database",
+    "Option2": "To save the UI state of an Activity before it's destroyed by the system",
+    "Option3": "To store user preferences",
+    "Option4": "To back up application data",
+    "Answer": "To save the UI state of an Activity before it's destroyed by the system"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Which method is called to restore the saved state in an Activity?",
+    "Option1": "onCreate() with a Bundle parameter",
+    "Option2": "onRestoreInstanceState()",
+    "Option3": "Both onCreate() and onRestoreInstanceState()",
+    "Option4": "onStart()",
+    "Answer": "Both onCreate() and onRestoreInstanceState()"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is 'RecyclerView.ItemDecoration' used for?",
+    "Option1": "To handle click events on items",
+    "Option2": "To add spacing, dividers, or other visual decorations to items",
+    "Option3": "To animate item changes",
+    "Option4": "To load images into items",
+    "Answer": "To add spacing, dividers, or other visual decorations to items"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the purpose of 'android:background' attribute?",
+    "Option1": "To set the text color of a view",
+    "Option2": "To specify the background color or drawable of a view",
+    "Option3": "To align the text within a view",
+    "Option4": "To define the visibility of a view",
+    "Answer": "To specify the background color or drawable of a view"
+  },
+  {
+    "question_no.": 91,
+    "Question": "Which class is used to draw custom shapes and paths on a Canvas?",
+    "Option1": "ImageView",
+    "Option2": "TextView",
+    "Option3": "Paint",
+    "Option4": "Canvas",
+    "Answer": "Canvas"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is 'Android Architecture Components'?",
+    "Option1": "A set of guidelines for building UI layouts",
+    "Option2": "A collection of libraries that help you design robust, testable, and maintainable apps",
+    "Option3": "A new version of the Android operating system",
+    "Option4": "A tool for debugging memory leaks",
+    "Answer": "A collection of libraries that help you design robust, testable, and maintainable apps"
+  },
+  {
+    "question_no.": 93,
+    "Question": "Which lifecycle method in a Fragment is called after the Activity's onCreate() has completed?",
+    "Option1": "onAttach()",
+    "Option2": "onCreateView()",
+    "Option3": "onActivityCreated()",
+    "Option4": "onStart()",
+    "Answer": "onActivityCreated()"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Callback Hell' in asynchronous programming?",
+    "Option1": "A situation where too many callbacks are nested, making code hard to read and maintain",
+    "Option2": "A problem with memory leaks in callbacks",
+    "Option3": "A bug in the Android SDK",
+    "Option4": "A type of database error",
+    "Answer": "A situation where too many callbacks are nested, making code hard to read and maintain"
+  },
+  {
+    "question_no.": 95,
+    "Question": "How do Kotlin Coroutines help mitigate 'Callback Hell'?",
+    "Option1": "By removing the need for any asynchronous operations",
+    "Option2": "By allowing asynchronous code to be written in a sequential, synchronous-looking style",
+    "Option3": "By automatically handling all exceptions",
+    "Option4": "By providing a visual debugger for callbacks",
+    "Answer": "By allowing asynchronous code to be written in a sequential, synchronous-looking style"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is a 'Repository' in Android architecture (e.g., MVVM)?",
+    "Option1": "A class that displays data to the user",
+    "Option2": "A class that abstracts data sources and provides a clean API for data access",
+    "Option3": "A component that handles user input",
+    "Option4": "A network client",
+    "Answer": "A class that abstracts data sources and provides a clean API for data access"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which class is used to display web content in an Android app?",
+    "Option1": "TextView",
+    "Option2": "WebView",
+    "Option3": "ImageView",
+    "Option4": "ProgressBar",
+    "Answer": "WebView"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'ProGuard' or 'R8' in Android build process?",
+    "Option1": "Tools for internationalization",
+    "Option2": "Tools for code shrinking, obfuscation, and optimization",
+    "Option3": "Tools for dependency management",
+    "Option4": "Tools for unit testing",
+    "Answer": "Tools for code shrinking, obfuscation, and optimization"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Android Accessibility'?",
+    "Option1": "A feature that allows users to access premium content",
+    "Option2": "Features that help users with disabilities use Android devices and apps",
+    "Option3": "A tool for debugging app performance",
+    "Option4": "A security feature to protect user data",
+    "Answer": "Features that help users with disabilities use Android devices and apps"
+  },
+  {
+    "question_no.": 100,
+    "Question": "Which layout attribute is used to position views relative to each other or to the parent?",
+    "Option1": "android:gravity",
+    "Option2": "android:layout_weight",
+    "Option3": "android:layout_below",
+    "Option4": "android:padding",
+    "Answer": "android:layout_below"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the main purpose of the 'buildSrc' directory in a Gradle project?",
+    "Option1": "To store source code for the main application",
+    "Option2": "To define custom Gradle tasks and plugins for the project",
+    "Option3": "To keep all dependencies in one place",
+    "Option4": "To manage project resources",
+    "Answer": "To define custom Gradle tasks and plugins for the project"
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which Gradle plugin is used for Android application development?",
+    "Option1": "java-library",
+    "Option2": "com.android.application",
+    "Option3": "kotlin-jvm",
+    "Option4": "maven-publish",
+    "Answer": "com.android.application"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is 'Resource Qualifier' in Android?",
+    "Option1": "A tool for optimizing resource usage",
+    "Option2": "Suffixes added to resource directory names to provide alternative resources based on device configuration",
+    "Option3": "A method for encrypting resources",
+    "Option4": "A class for managing external resources",
+    "Answer": "Suffixes added to resource directory names to provide alternative resources based on device configuration"
+  },
+  {
+    "question_no.": 104,
+    "Question": "Which resource qualifier is used for providing layouts for landscape orientation?",
+    "Option1": "layout-port",
+    "Option2": "layout-land",
+    "Option3": "layout-large",
+    "Option4": "layout-sw600dp",
+    "Answer": "layout-land"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is 'Android Debug Bridge (ADB)'?",
+    "Option1": "A bridge for network connectivity",
+    "Option2": "A command-line tool that lets you communicate with an emulator instance or connected Android device",
+    "Option3": "A database management tool",
+    "Option4": "A UI design tool",
+    "Answer": "A command-line tool that lets you communicate with an emulator instance or connected Android device"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the purpose of 'android:padding' attribute?",
+    "Option1": "To add extra space outside the boundaries of a view",
+    "Option2": "To add extra space inside the boundaries of a view, between the content and the view's edges",
+    "Option3": "To set the margin of a view",
+    "Option4": "To align the view within its parent",
+    "Answer": "To add extra space inside the boundaries of a view, between the content and the view's edges"
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the purpose of 'android:layout_margin' attribute?",
+    "Option1": "To add extra space inside the boundaries of a view",
+    "Option2": "To add extra space outside the boundaries of a view, between the view and its adjacent views or parent",
+    "Option3": "To set the text size",
+    "Option4": "To define the height of a view",
+    "Answer": "To add extra space outside the boundaries of a view, between the view and its adjacent views or parent"
+  },
+  {
+    "question_no.": 108,
+    "Question": "Which file is used to define string resources in Android?",
+    "Option1": "colors.xml",
+    "Option2": "strings.xml",
+    "Option3": "styles.xml",
+    "Option4": "dimens.xml",
+    "Answer": "strings.xml"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'ViewModelProvider' in Android?",
+    "Option1": "A class that provides a ViewModel instance and manages its lifecycle",
+    "Option2": "A tool for creating custom ViewModel classes",
+    "Option3": "A service for ViewModel communication",
+    "Option4": "A utility for observing ViewModel changes",
+    "Answer": "A class that provides a ViewModel instance and manages its lifecycle"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the purpose of 'ActivityMainBinding' (generated by View Binding)?",
+    "Option1": "To handle network requests for an Activity",
+    "Option2": "To provide direct references to views in an Activity's layout, replacing findViewById()",
+    "Option3": "To manage Activity lifecycle events",
+    "Option4": "To store Activity-specific data",
+    "Answer": "To provide direct references to views in an Activity's layout, replacing findViewById()"
+  },
+  {
+    "question_no.": 111,
+    "Question": "How do you enable 'View Binding' in your Android project?",
+    "Option1": "By adding a specific permission in AndroidManifest.xml",
+    "Option2": "By adding `buildFeatures { viewBinding true }` in your module's build.gradle",
+    "Option3": "It's enabled by default in all projects",
+    "Option4": "By manually creating binding classes",
+    "Answer": "By adding `buildFeatures { viewBinding true }` in your module's build.gradle"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is a 'Safe Args' plugin in Android Navigation Component?",
+    "Option1": "A plugin for secure data storage",
+    "Option2": "A Gradle plugin that generates simple object and builder classes for type-safe argument passing between destinations",
+    "Option3": "A tool for encrypting navigation data",
+    "Option4": "A library for validating user input",
+    "Answer": "A Gradle plugin that generates simple object and builder classes for type-safe argument passing between destinations"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is the purpose of 'android:exported' attribute in an Activity/Service/Receiver declaration?",
+    "Option1": "To indicate if the component can be launched by other applications",
+    "Option2": "To specify if the component can be imported into other projects",
+    "Option3": "To define the component's visibility in the app launcher",
+    "Option4": "To control if the component runs in the background",
+    "Answer": "To indicate if the component can be launched by other applications"
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which class is used to interact with the device's camera?",
+    "Option1": "MediaRecorder",
+    "Option2": "CameraManager",
+    "Option3": "AudioManager",
+    "Option4": "LocationManager",
+    "Answer": "CameraManager"
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Android KTX'?",
+    "Option1": "Kotlin extensions for Android APIs, making code more concise and idiomatic Kotlin",
+    "Option2": "A new UI toolkit for Kotlin",
+    "Option3": "A testing library for Kotlin",
+    "Option4": "A networking library",
+    "Answer": "Kotlin extensions for Android APIs, making code more concise and idiomatic Kotlin"
+  },
+  {
+    "question_no.": 116,
+    "Question": "Which component is used to execute periodic tasks with a certain frequency?",
+    "Option1": "Service",
+    "Option2": "WorkManager (for deferrable tasks)",
+    "Option3": "AsyncTask",
+    "Option4": "IntentService",
+    "Answer": "WorkManager (for deferrable tasks)"
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Firebase' in Android development?",
+    "Option1": "A local database solution",
+    "Option2": "A mobile development platform by Google that provides various backend services",
+    "Option3": "A UI design tool",
+    "Option4": "A specific Android device model",
+    "Answer": "A mobile development platform by Google that provides various backend services"
+  },
+  {
+    "question_no.": 118,
+    "Question": "Which Firebase service is commonly used for real-time data synchronization?",
+    "Option1": "Firebase Authentication",
+    "Option2": "Cloud Firestore or Realtime Database",
+    "Option3": "Firebase Cloud Messaging",
+    "Option4": "Firebase Storage",
+    "Answer": "Cloud Firestore or Realtime Database"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Firebase Cloud Messaging (FCM)'?",
+    "Option1": "A service for sending push notifications to client apps",
+    "Option2": "A chat application",
+    "Option3": "A cloud storage solution",
+    "Option4": "A user authentication service",
+    "Answer": "A service for sending push notifications to client apps"
+  },
+  {
+    "question_no.": 120,
+    "Question": "How do you handle background processing that needs to interact with the UI after completion?",
+    "Option1": "Directly update UI from a background thread",
+    "Option2": "Use `runOnUiThread()` or `Handler` to post updates to the main thread",
+    "Option3": "Restart the activity",
+    "Option4": "Send a Broadcast",
+    "Answer": "Use `runOnUiThread()` or `Handler` to post updates to the main thread"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the purpose of 'buildToolsVersion' in Gradle?",
+    "Option1": "The version of Gradle to use",
+    "Option2": "The version of the Android build tools to use",
+    "Option3": "The version of the Android SDK",
+    "Option4": "The version of the Java compiler",
+    "Answer": "The version of the Android build tools to use"
+  },
+  {
+    "question_no.": 122,
+    "Question": "Which type of Intent is used to explicitly specify the component to start?",
+    "Option1": "Implicit Intent",
+    "Option2": "Explicit Intent",
+    "Option3": "Broadcast Intent",
+    "Option4": "Sticky Intent",
+    "Answer": "Explicit Intent"
+  },
+  {
+    "question_no.": 123,
+    "Question": "Which type of Intent is used to declare an action to be performed, allowing the system to find a suitable component to handle it?",
+    "Option1": "Explicit Intent",
+    "Option2": "Implicit Intent",
+    "Option3": "Sticky Intent",
+    "Option4": "Pending Intent",
+    "Answer": "Implicit Intent"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is a 'PendingIntent' in Android?",
+    "Option1": "An Intent that has not yet been delivered",
+    "Option2": "A token that you give to another application (e.g., NotificationManager, AlarmManager) to allow it to execute a predefined piece of your application's code with your application's permissions",
+    "Option3": "A temporary Intent for testing purposes",
+    "Option4": "An Intent that is automatically resent until handled",
+    "Answer": "A token that you give to another application (e.g., NotificationManager, AlarmManager) to allow it to execute a predefined piece of your application's code with your application's permissions"
+  },
+  {
+    "question_no.": 125,
+    "Question": "How do you retrieve data from an `EditText`?",
+    "Option1": "Using `getText()` method and then converting to String",
+    "Option2": "Using `getValue()` method",
+    "Option3": "Using `getContents()` method",
+    "Option4": "Reading directly from XML",
+    "Answer": "Using `getText()` method and then converting to String"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the purpose of 'android:focusable' attribute?",
+    "Option1": "To make a view visible",
+    "Option2": "To allow a view to gain focus (e.g., for keyboard navigation)",
+    "Option3": "To make a view clickable",
+    "Option4": "To disable a view",
+    "Answer": "To allow a view to gain focus (e.g., for keyboard navigation)"
+  },
+  {
+    "question_no.": 127,
+    "Question": "Which drawable type is suitable for creating custom shapes, gradients, and borders without using image assets?",
+    "Option1": "Bitmap Drawable",
+    "Option2": "Nine-Patch Drawable",
+    "Option3": "Shape Drawable",
+    "Option4": "Layer Drawable",
+    "Answer": "Shape Drawable"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is 'ConstraintSet' in ConstraintLayout?",
+    "Option1": "A set of predefined constraints",
+    "Option2": "A class that allows you to define and apply constraints programmatically or from different layout files",
+    "Option3": "A tool for debugging constraint conflicts",
+    "Option4": "A utility for generating constraints automatically",
+    "Answer": "A class that allows you to define and apply constraints programmatically or from different layout files"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Android Lint'?",
+    "Option1": "A tool for code formatting",
+    "Option2": "A static code analysis tool that helps find and correct problems with the structural quality of your code",
+    "Option3": "A debugger for runtime errors",
+    "Option4": "A tool for generating documentation",
+    "Answer": "A static code analysis tool that helps find and correct problems with the structural quality of your code"
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the purpose of 'android:contentDescription'?",
+    "Option1": "To provide a short description of the view's content for accessibility services",
+    "Option2": "To set the text displayed on a button",
+    "Option3": "To define the image source",
+    "Option4": "To specify the view's ID",
+    "Answer": "To provide a short description of the view's content for accessibility services"
+  },
+  {
+    "question_no.": 131,
+    "Question": "Which method is used to inflate a layout XML file into its corresponding View objects?",
+    "Option1": "findViewById()",
+    "Option2": "inflate()",
+    "Option3": "setLayout()",
+    "Option4": "loadLayout()",
+    "Answer": "inflate()"
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is 'Android App Bundle'?",
+    "Option1": "A tool for debugging APKs",
+    "Option2": "A publishing format that includes all your app's compiled code and resources, and defers APK generation and signing to Google Play",
+    "Option3": "A new type of app icon",
+    "Option4": "A method for encrypting app data",
+    "Answer": "A publishing format that includes all your app's compiled code and resources, and defers APK generation and signing to Google Play"
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the benefit of using App Bundles?",
+    "Option1": "Faster development time",
+    "Option2": "Smaller app downloads and updates for users",
+    "Option3": "Improved app security",
+    "Option4": "Easier debugging",
+    "Answer": "Smaller app downloads and updates for users"
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is 'Dynamic Delivery' with App Bundles?",
+    "Option1": "Delivering updates to users faster",
+    "Option2": "Delivering specific features or assets on demand, only when needed by the user",
+    "Option3": "Delivering apps through alternative app stores",
+    "Option4": "Delivering personalized app content",
+    "Answer": "Delivering specific features or assets on demand, only when needed by the user"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Instant Apps'?",
+    "Option1": "Apps that load instantly on startup",
+    "Option2": "Apps that users can run instantly without requiring installation",
+    "Option3": "Apps with real-time updates",
+    "Option4": "Apps that use instant messaging",
+    "Answer": "Apps that users can run instantly without requiring installation"
+  },
+  {
+    "question_no.": 136,
+    "Question": "Which Gradle configuration is used to specify dependencies that are only available at compile time?",
+    "Option1": "implementation",
+    "Option2": "api",
+    "Option3": "compileOnly",
+    "Option4": "runtimeOnly",
+    "Answer": "compileOnly"
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the difference between 'implementation' and 'api' dependencies in Gradle?",
+    "Option1": "'implementation' makes a dependency transitive, 'api' does not",
+    "Option2": "'api' makes a dependency transitive to consumers, 'implementation' does not",
+    "Option3": "No difference, they are interchangeable",
+    "Option4": "'implementation' is for production, 'api' is for development",
+    "Answer": "'api' makes a dependency transitive to consumers, 'implementation' does not"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Retrofit' library primarily used for in Android?",
+    "Option1": "Image loading",
+    "Option2": "Type-safe HTTP client for making network requests",
+    "Option3": "Database management",
+    "Option4": "UI animations",
+    "Answer": "Type-safe HTTP client for making network requests"
+  },
+  {
+    "question_no.": 139,
+    "Question": "Which library is often used with Retrofit for JSON parsing?",
+    "Option1": "OkHttp",
+    "Option2": "Gson or Moshi",
+    "Option3": "Picasso",
+    "Option4": "Glide",
+    "Answer": "Gson or Moshi"
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is 'OkHttp'?",
+    "Option1": "A database library",
+    "Option2": "An HTTP client that handles network requests",
+    "Option3": "A UI framework",
+    "Option4": "A security library",
+    "Answer": "An HTTP client that handles network requests"
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Dagger Hilt'?",
+    "Option1": "A UI library for Android",
+    "Option2": "A dependency injection library for Android",
+    "Option3": "A testing framework",
+    "Option4": "A network debugging tool",
+    "Answer": "A dependency injection library for Android"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the benefit of using dependency injection in Android?",
+    "Option1": "Reduces boilerplate code, improves testability, and promotes modularity",
+    "Option2": "Speeds up app startup time",
+    "Option3": "Automatically handles network errors",
+    "Option4": "Simplifies UI design",
+    "Answer": "Reduces boilerplate code, improves testability, and promotes modularity"
+  },
+  {
+    "question_no.": 143,
+    "Question": "Which annotation is commonly used for injecting dependencies with Dagger Hilt?",
+    "Option1": "@Inject",
+    "Option2": "@Provide",
+    "Option3": "@Module",
+    "Option4": "@Component",
+    "Answer": "@Inject"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Coil' in Android?",
+    "Option1": "A library for networking",
+    "Option2": "An image loading library for Android, built on Kotlin Coroutines",
+    "Option3": "A database helper",
+    "Option4": "A UI animation library",
+    "Answer": "An image loading library for Android, built on Kotlin Coroutines"
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which type of test verifies that your app works correctly on a real device or emulator?",
+    "Option1": "Unit Tests",
+    "Option2": "Integration Tests",
+    "Option3": "Instrumented Tests",
+    "Option4": "Load Tests",
+    "Answer": "Instrumented Tests"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the purpose of 'mocking' in unit testing?",
+    "Option1": "To create fake objects that mimic the behavior of real dependencies",
+    "Option2": "To simulate network requests",
+    "Option3": "To test UI elements visually",
+    "Option4": "To perform load testing",
+    "Answer": "To create fake objects that mimic the behavior of real dependencies"
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Robolectric'?",
+    "Option1": "A framework for UI testing on real devices",
+    "Option2": "A unit testing framework that allows you to run Android tests directly on the JVM without an emulator or device",
+    "Option3": "A tool for automating app deployments",
+    "Option4": "A library for robot interactions",
+    "Answer": "A unit testing framework that allows you to run Android tests directly on the JVM without an emulator or device"
+  },
+  {
+    "question_no.": 148,
+    "Question": "Which tool provides visual debugging for your UI layout hierarchy?",
+    "Option1": "Logcat",
+    "Option2": "Layout Inspector",
+    "Option3": "Profiler",
+    "Option4": "ADB Shell",
+    "Answer": "Layout Inspector"
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'Android Sensor Framework'?",
+    "Option1": "A framework for managing app permissions",
+    "Option2": "A framework for accessing the device's hardware sensors (e.g., accelerometer, gyroscope)",
+    "Option3": "A framework for network communication",
+    "Option4": "A framework for multimedia playback",
+    "Answer": "A framework for accessing the device's hardware sensors (e.g., accelerometer, gyroscope)"
+  },
+  {
+    "question_no.": 150,
+    "Question": "How do you handle different languages and localizations in Android?",
+    "Option1": "By hardcoding strings in Java/Kotlin",
+    "Option2": "By using string resources in `strings.xml` and providing alternative string files for different locales",
+    "Option3": "By dynamically fetching translations from a server",
+    "Option4": "By using Google Translate API",
+    "Answer": "By using string resources in `strings.xml` and providing alternative string files for different locales"
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is a 'SpannableString' in Android?",
+    "Option1": "A String that can be animated",
+    "Option2": "A mutable sequence of characters with text styling information",
+    "Option3": "A String used for database queries",
+    "Option4": "A fixed-length String",
+    "Answer": "A mutable sequence of characters with text styling information"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'Android App Links'?",
+    "Option1": "Links to other apps on the device",
+    "Option2": "Deep links that allow your app to become the default handler for a specific URL",
+    "Option3": "Links for sharing app content on social media",
+    "Option4": "Links to the Google Play Store",
+    "Answer": "Deep links that allow your app to become the default handler for a specific URL"
+  },
+  {
+    "question_no.": 153,
+    "Question": "How do you implement 'Deep Links' in your Android app?",
+    "Option1": "By using Intent filters in AndroidManifest.xml and handling the Intent in your Activity/Fragment",
+    "Option2": "By hardcoding URLs in your app",
+    "Option3": "By only using implicit intents",
+    "Option4": "By subscribing to a deep link service",
+    "Answer": "By using Intent filters in AndroidManifest.xml and handling the Intent in your Activity/Fragment"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the purpose of 'android:autofillHints'?",
+    "Option1": "To provide hints for automatic code completion",
+    "Option2": "To assist autofill services in filling user data (e.g., names, addresses)",
+    "Option3": "To provide tooltips for UI elements",
+    "Option4": "To suggest search queries",
+    "Answer": "To assist autofill services in filling user data (e.g., names, addresses)"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'Compose UI'?",
+    "Option1": "A new framework for building traditional XML-based layouts",
+    "Option2": "Android's modern declarative UI toolkit",
+    "Option3": "A tool for creating animated UIs",
+    "Option4": "A framework for building cross-platform UIs",
+    "Answer": "Android's modern declarative UI toolkit"
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'Recomposition' in Compose?",
+    "Option1": "The process of recomposing the entire UI from scratch",
+    "Option2": "The process of re-executing composable functions when their inputs change, leading to UI updates",
+    "Option3": "A feature for undoing UI changes",
+    "Option4": "A method for caching UI layouts",
+    "Answer": "The process of re-executing composable functions when their inputs change, leading to UI updates"
+  },
+  {
+    "question_no.": 157,
+    "Question": "Which composable is used to arrange items in a scrollable column?",
+    "Option1": "Row",
+    "Option2": "Column",
+    "Option3": "Box",
+    "Option4": "LazyColumn",
+    "Answer": "LazyColumn"
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which composable is used to arrange items in a scrollable row?",
+    "Option1": "Column",
+    "Option2": "Row",
+    "Option3": "LazyRow",
+    "Option4": "Box",
+    "Answer": "LazyRow"
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Material Design' in Android?",
+    "Option1": "A specific programming language",
+    "Option2": "A design system created by Google to provide a consistent and intuitive user experience across devices",
+    "Option3": "A database schema",
+    "Option4": "A network protocol",
+    "Answer": "A design system created by Google to provide a consistent and intuitive user experience across devices"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Snackbar' in Android?",
+    "Option1": "A persistent notification",
+    "Option2": "A lightweight feedback mechanism that displays a message at the bottom of the screen",
+    "Option3": "A type of menu",
+    "Option4": "A data entry form",
+    "Answer": "A lightweight feedback mechanism that displays a message at the bottom of the screen"
+  },
+  {
+    "question_no.": 161,
+    "Question": "How do you handle 'Back Press' events in Android?",
+    "Option1": "By overriding `onBackPressed()` in an Activity",
+    "Option2": "By setting a listener on the back button",
+    "Option3": "By sending a Broadcast",
+    "Option4": "By using a special Intent",
+    "Answer": "By overriding `onBackPressed()` in an Activity"
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Jetpack Compose Preview'?",
+    "Option1": "A tool for debugging Compose applications",
+    "Option2": "A feature in Android Studio that allows you to see your composable UI directly in the design editor without running the app on a device/emulator",
+    "Option3": "A way to test Compose animations",
+    "Option4": "A method for publishing Compose apps",
+    "Answer": "A feature in Android Studio that allows you to see your composable UI directly in the design editor without running the app on a device/emulator"
+  },
+  {
+    "question_no.": 163,
+    "Question": "Which annotation is used to create a previewable Composable function?",
+    "Option1": "@Composable",
+    "Option2": "@Preview",
+    "Option3": "@Test",
+    "Option4": "@Layout",
+    "Answer": "@Preview"
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'rememberSaveable' in Compose?",
+    "Option1": "Similar to `remember`, but the state survives configuration changes (e.g., screen rotation)",
+    "Option2": "A way to save data to SharedPreferences",
+    "Option3": "A method for caching network data",
+    "Option4": "A tool for backing up app data",
+    "Answer": "Similar to `remember`, but the state survives configuration changes (e.g., screen rotation)"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'SideEffect' in Compose?",
+    "Option1": "A function that has no visible impact on the UI",
+    "Option2": "An effect that can read or write to variables outside of the composable's scope and is executed every time the composable recomposes",
+    "Option3": "A visual animation effect",
+    "Option4": "A method for handling user input",
+    "Answer": "An effect that can read or write to variables outside of the composable's scope and is executed every time the composable recomposes"
+  },
+  {
+    "question_no.": 166,
+    "Question": "Which composable is used to display a single line of text that is editable?",
+    "Option1": "Text",
+    "Option2": "Button",
+    "Option3": "TextField",
+    "Option4": "Image",
+    "Answer": "TextField"
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the primary function of the 'Manifest' file in Android (AndroidManifest.xml)?",
+    "Option1": "To store user data",
+    "Option2": "To describe the fundamental characteristics of the app and define its components",
+    "Option3": "To manage network connections",
+    "Option4": "To store compiled code",
+    "Answer": "To describe the fundamental characteristics of the app and define its components"
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Android Emulator'?",
+    "Option1": "A physical Android device",
+    "Option2": "A virtual device that runs on your computer and allows you to test your Android applications",
+    "Option3": "A tool for optimizing app performance",
+    "Option4": "A debugging utility",
+    "Answer": "A virtual device that runs on your computer and allows you to test your Android applications"
+  },
+  {
+    "question_no.": 169,
+    "Question": "Which directory contains the Java/Kotlin source code for your Android app?",
+    "Option1": "res/",
+    "Option2": "assets/",
+    "Option3": "src/main/java/",
+    "Option4": "build/",
+    "Answer": "src/main/java/"
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is a 'Bitmap' in Android?",
+    "Option1": "A type of text file",
+    "Option2": "A representation of an image's pixel data",
+    "Option3": "A database table",
+    "Option4": "A network packet",
+    "Answer": "A representation of an image's pixel data"
+  },
+  {
+    "question_no.": 171,
+    "Question": "How do you resize a Bitmap efficiently in Android?",
+    "Option1": "By directly manipulating pixel values",
+    "Option2": "Using `BitmapFactory.Options` to sample down the image",
+    "Option3": "By sending the image to a server for resizing",
+    "Option4": "By drawing it on a smaller Canvas",
+    "Answer": "Using `BitmapFactory.Options` to sample down the image"
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'ContentResolver' in Android?",
+    "Option1": "A class for displaying content on the screen",
+    "Option2": "A class that provides access to data from a ContentProvider",
+    "Option3": "A tool for resolving layout issues",
+    "Option4": "A component for managing user sessions",
+    "Answer": "A class that provides access to data from a ContentProvider"
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'Cursor' in Android database operations?",
+    "Option1": "A pointer to a specific row in a database table",
+    "Option2": "An interface for accessing the result set of a database query",
+    "Option3": "A class for executing SQL statements",
+    "Option4": "A tool for creating database schemas",
+    "Answer": "An interface for accessing the result set of a database query"
+  },
+  {
+    "question_no.": 174,
+    "Question": "Which class is commonly used for network connectivity checks?",
+    "Option1": "WifiManager",
+    "Option2": "ConnectivityManager",
+    "Option3": "BluetoothAdapter",
+    "Option4": "LocationManager",
+    "Answer": "ConnectivityManager"
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Android Profiler'?",
+    "Option1": "A tool for designing UI layouts",
+    "Option2": "A set of tools in Android Studio for measuring your app's CPU, memory, network, and battery usage",
+    "Option3": "A tool for generating code",
+    "Option4": "A compiler for Android apps",
+    "Answer": "A set of tools in Android Studio for measuring your app's CPU, memory, network, and battery usage"
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Room Database' and why is it recommended?",
+    "Option1": "A type of NoSQL database; recommended for its flexibility",
+    "Option2": "An ORM layer over SQLite; recommended for its compile-time query verification and integration with LiveData/Coroutines",
+    "Option3": "A cloud-based database; recommended for scalability",
+    "Option4": "A key-value store; recommended for simple data",
+    "Answer": "An ORM layer over SQLite; recommended for its compile-time query verification and integration with LiveData/Coroutines"
+  },
+  {
+    "question_no.": 177,
+    "Question": "Which annotation is used to mark an interface as a DAO (Data Access Object) in Room?",
+    "Option1": "@Entity",
+    "Option2": "@Database",
+    "Option3": "@Dao",
+    "Option4": "@Query",
+    "Answer": "@Dao"
+  },
+  {
+    "question_no.": 178,
+    "Question": "Which annotation is used to define a database table in Room?",
+    "Option1": "@Dao",
+    "Option2": "@Database",
+    "Option3": "@Entity",
+    "Option4": "@ColumnInfo",
+    "Answer": "@Entity"
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'Migrations' in Room database?",
+    "Option1": "A tool for moving data between databases",
+    "Option2": "A mechanism for incrementally changing the database schema without losing existing data",
+    "Option3": "A way to back up database data",
+    "Option4": "A method for importing data into the database",
+    "Answer": "A mechanism for incrementally changing the database schema without losing existing data"
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Worker' in WorkManager?",
+    "Option1": "A type of UI component",
+    "Option2": "The class that defines the work to be performed in the background",
+    "Option3": "A class for managing user interactions",
+    "Option4": "A network client",
+    "Answer": "The class that defines the work to be performed in the background"
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Constraints' in WorkManager?",
+    "Option1": "Limitations on app features",
+    "Option2": "Conditions that must be met for a WorkRequest to run (e.g., network connected, device charging)",
+    "Option3": "Errors that prevent work from executing",
+    "Option4": "Dependencies between WorkRequests",
+    "Answer": "Conditions that must be met for a WorkRequest to run (e.g., network connected, device charging)"
+  },
+  {
+    "question_no.": 182,
+    "Question": "Which method is typically called to initiate a WorkRequest?",
+    "Option1": "enqueue()",
+    "Option2": "start()",
+    "Option3": "execute()",
+    "Option4": "run()",
+    "Answer": "enqueue()"
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Android Studio Bumblebee'?",
+    "Option1": "A new Android SDK version",
+    "Option2": "A specific release version of Android Studio",
+    "Option3": "A debugging tool",
+    "Option4": "A new programming language",
+    "Answer": "A specific release version of Android Studio"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the purpose of 'android:scaleType' attribute in an ImageView?",
+    "Option1": "To set the image's transparency",
+    "Option2": "To control how the image is scaled and positioned within the ImageView's bounds",
+    "Option3": "To define the image source",
+    "Option4": "To set the background color of the ImageView",
+    "Answer": "To control how the image is scaled and positioned within the ImageView's bounds"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'SharedFlow' in Kotlin Coroutines?",
+    "Option1": "A type of database",
+    "Option2": "A hot Flow that broadcasts emissions to all active collectors",
+    "Option3": "A Flow that shares data between different apps",
+    "Option4": "A Flow for sharing user preferences",
+    "Answer": "A hot Flow that broadcasts emissions to all active collectors"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'StateFlow' in Kotlin Coroutines?",
+    "Option1": "A Flow for managing UI state that always has a value and is hot",
+    "Option2": "A Flow for network requests",
+    "Option3": "A cold Flow for single emissions",
+    "Option4": "A Flow for background tasks",
+    "Answer": "A Flow for managing UI state that always has a value and is hot"
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'ViewModelScope'?",
+    "Option1": "A scope for coroutines that ties to the ViewModel's lifecycle",
+    "Option2": "A global coroutine scope",
+    "Option3": "A scope for background threads",
+    "Option4": "A scope for UI updates",
+    "Answer": "A scope for coroutines that ties to the ViewModel's lifecycle"
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'LifecycleScope'?",
+    "Option1": "A scope for coroutines that ties to the Activity or Fragment's lifecycle",
+    "Option2": "A scope for long-running background tasks",
+    "Option3": "A scope for network operations",
+    "Option4": "A global application scope",
+    "Answer": "A scope for coroutines that ties to the Activity or Fragment's lifecycle"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'ViewModelFactory'?",
+    "Option1": "A factory for creating Views",
+    "Option2": "A factory for creating ViewModel instances, especially when they have dependencies",
+    "Option3": "A factory for creating custom layouts",
+    "Option4": "A factory for creating LiveData objects",
+    "Answer": "A factory for creating ViewModel instances, especially when they have dependencies"
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is the purpose of 'android:singleLine' in EditText (now `android:maxLines=\"1\"`)?",
+    "Option1": "To allow only numeric input",
+    "Option2": "To restrict the input to a single line, preventing newlines",
+    "Option3": "To make the text appear on one line only",
+    "Option4": "To automatically scroll the text horizontally",
+    "Answer": "To restrict the input to a single line, preventing newlines"
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'Typeface' in Android?",
+    "Option1": "A method for casting data types",
+    "Option2": "A class that represents a font style and can be used to set custom fonts",
+    "Option3": "A type of image format",
+    "Option4": "A view for displaying text",
+    "Answer": "A class that represents a font style and can be used to set custom fonts"
+  },
+  {
+    "question_no.": 192,
+    "Question": "How do you include custom fonts in your Android app?",
+    "Option1": "By linking to online font repositories",
+    "Option2": "By placing font files in the `res/font/` directory and referencing them in XML or programmatically",
+    "Option3": "By converting fonts to drawable assets",
+    "Option4": "By using `TextView.setFont()` directly",
+    "Answer": "By placing font files in the `res/font/` directory and referencing them in XML or programmatically"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'WebViewClient' and 'WebChromeClient'?",
+    "Option1": "Classes for handling user input in a WebView",
+    "Option2": "Callbacks for handling various events within a WebView (page loading, errors) and for handling browser-specific events (JavaScript alerts, progress updates)",
+    "Option3": "Classes for managing network connections",
+    "Option4": "Classes for customizing the WebView appearance",
+    "Answer": "Callbacks for handling various events within a WebView (page loading, errors) and for handling browser-specific events (JavaScript alerts, progress updates)"
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'MediaCodec' in Android?",
+    "Option1": "A class for playing audio files",
+    "Option2": "A class that accesses low-level media codecs (encoder/decoder components) for processing media data",
+    "Option3": "A class for capturing photos",
+    "Option4": "A class for recording video",
+    "Answer": "A class that accesses low-level media codecs (encoder/decoder components) for processing media data"
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'ExoPlayer'?",
+    "Option1": "A default media player provided by Android",
+    "Option2": "An open-source application-level media player for Android developed by Google",
+    "Option3": "A game engine for Android",
+    "Option4": "A video editing tool",
+    "Answer": "An open-source application-level media player for Android developed by Google"
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'Haptic Feedback' in Android?",
+    "Option1": "Auditory feedback (sound effects)",
+    "Option2": "Vibrations provided by the device to give physical feedback to the user",
+    "Option3": "Visual feedback (animations)",
+    "Option4": "Voice commands",
+    "Answer": "Vibrations provided by the device to give physical feedback to the user"
+  },
+  {
+    "question_no.": 197,
+    "Question": "How do you implement 'Haptic Feedback'?",
+    "Option1": "Using `Vibrator` class or `performHapticFeedback()` on a View",
+    "Option2": "By playing a sound effect",
+    "Option3": "By changing the screen color",
+    "Option4": "It's automatically handled by the system",
+    "Answer": "Using `Vibrator` class or `performHapticFeedback()` on a View"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Android Slices'?",
+    "Option1": "A way to divide the screen into multiple sections",
+    "Option2": "UI templates that can display rich, dynamic, and interactive content from your app outside the app itself",
+    "Option3": "A feature for creating animated transitions",
+    "Option4": "A tool for sharing app data",
+    "Answer": "UI templates that can display rich, dynamic, and interactive content from your app outside the app itself"
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'App Widgets'?",
+    "Option1": "Small, interactive application components that can be embedded in a user's home screen or lock screen",
+    "Option2": "Widgets used for testing apps",
+    "Option3": "A type of input field",
+    "Option4": "A collection of pre-built UI components",
+    "Answer": "Small, interactive application components that can be embedded in a user's home screen or lock screen"
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the purpose of 'android:label' in AndroidManifest.xml?",
+    "Option1": "To specify the package name",
+    "Option2": "To provide a user-readable title for the application or its components",
+    "Option3": "To define the minimum SDK version",
+    "Option4": "To declare app permissions",
+    "Answer": "To provide a user-readable title for the application or its components"
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Android Vitals'?",
+    "Option1": "A program to analyze app crashes only",
+    "Option2": "A program by Google Play that highlights an app's technical quality issues (stability, battery, startup time, etc.) that impact user experience",
+    "Option3": "A medical app for tracking vital signs",
+    "Option4": "A security audit for Android apps",
+    "Answer": "A program by Google Play that highlights an app's technical quality issues (stability, battery, startup time, etc.) that impact user experience"
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the purpose of 'android:allowBackup' attribute in AndroidManifest.xml?",
+    "Option1": "To allow the app to be installed on multiple devices",
+    "Option2": "To enable or disable the app's backup and restore capabilities via Android Backup Service",
+    "Option3": "To allow users to create manual backups of app data",
+    "Option4": "To back up the Android SDK",
+    "Answer": "To enable or disable the app's backup and restore capabilities via Android Backup Service"
+  },
+  {
+    "question_no.": 203,
+    "Question": "Which tool in Android Studio is used to analyze APK size?",
+    "Option1": "Logcat",
+    "Option2": "APK Analyzer",
+    "Option3": "Profiler",
+    "Option4": "Layout Inspector",
+    "Answer": "APK Analyzer"
+  }
+]

@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What programming language is Django primarily built with?",
+    "Option1": "Java",
+    "Option2": "Python",
+    "Option3": "Ruby",
+    "Option4": "PHP",
+    "Answer": "Python"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What type of framework is Django?",
+    "Option1": "Frontend Framework",
+    "Option2": "Backend Web Framework",
+    "Option3": "Mobile Development Framework",
+    "Option4": "Desktop Application Framework",
+    "Answer": "Backend Web Framework"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Django follows which architectural pattern?",
+    "Option1": "MVC (Model-View-Controller)",
+    "Option2": "MVVM (Model-View-ViewModel)",
+    "Option3": "MVT (Model-View-Template)",
+    "Option4": "MVP (Model-View-Presenter)",
+    "Answer": "MVT (Model-View-Template)"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What does ORM stand for in Django?",
+    "Option1": "Object-Relational Mapping",
+    "Option2": "Object-Request Module",
+    "Option3": "Operational Resource Management",
+    "Option4": "Online Relational Model",
+    "Answer": "Object-Relational Mapping"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is the purpose of Django's ORM?",
+    "Option1": "To handle user authentication.",
+    "Option2": "To interact with databases using Python objects instead of raw SQL queries.",
+    "Option3": "To manage URL routing.",
+    "Option4": "To render HTML templates.",
+    "Answer": "To interact with databases using Python objects instead of raw SQL queries."
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which file is used to configure project-wide settings in a Django project?",
+    "Option1": "urls.py",
+    "Option2": "views.py",
+    "Option3": "settings.py",
+    "Option4": "models.py",
+    "Answer": "settings.py"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What command is used to start a new Django project?",
+    "Option1": "django-admin startapp myproject",
+    "Option2": "django-admin startproject myproject",
+    "Option3": "python manage.py startproject myproject",
+    "Option4": "python django.py createproject myproject",
+    "Answer": "django-admin startproject myproject"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What command is used to create a new app within a Django project?",
+    "Option1": "django-admin createapp myapp",
+    "Option2": "python manage.py createapp myapp",
+    "Option3": "python manage.py startapp myapp",
+    "Option4": "django-admin startapp myapp",
+    "Answer": "python manage.py startapp myapp"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Which file defines the URL patterns for a Django app?",
+    "Option1": "settings.py",
+    "Option2": "views.py",
+    "Option3": "urls.py",
+    "Option4": "models.py",
+    "Answer": "urls.py"
+  },
+  {
+    "question_no.": 10,
+    "Question": "In Django, what is a 'View' (in MVT)?",
+    "Option1": "The user interface rendered in the browser.",
+    "Option2": "A Python function or class that receives a web request and returns a web response.",
+    "Option3": "A database table definition.",
+    "Option4": "A template file.",
+    "Answer": "A Python function or class that receives a web request and returns a web response."
+  },
+  {
+    "question_no.": 11,
+    "Question": "In Django, what is a 'Model' (in MVT)?",
+    "Option1": "A Python function that handles requests.",
+    "Option2": "An object that interacts with the database, representing the data structure.",
+    "Option3": "An HTML template.",
+    "Option4": "A configuration file.",
+    "Answer": "An object that interacts with the database, representing the data structure."
+  },
+  {
+    "question_no.": 12,
+    "Question": "In Django, what is a 'Template' (in MVT)?",
+    "Option1": "A Python class that handles database operations.",
+    "Option2": "A Python file containing business logic.",
+    "Option3": "An HTML file with Django template language syntax, used for rendering the user interface.",
+    "Option4": "A URL pattern.",
+    "Answer": "An HTML file with Django template language syntax, used for rendering the user interface."
+  },
+  {
+    "question_no.": 13,
+    "Question": "What command is used to apply migrations to the database?",
+    "Option1": "python manage.py makemigrations",
+    "Option2": "python manage.py migrate",
+    "Option3": "python manage.py syncdb",
+    "Option4": "python manage.py createsuperuser",
+    "Answer": "python manage.py migrate"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What command is used to create new migrations based on changes in your models?",
+    "Option1": "python manage.py migrate",
+    "Option2": "python manage.py createmigrations",
+    "Option3": "python manage.py makemigrations",
+    "Option4": "python manage.py applymigrations",
+    "Answer": "python manage.py makemigrations"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which database is the default for a new Django project?",
+    "Option1": "MySQL",
+    "Option2": "PostgreSQL",
+    "Option3": "SQLite",
+    "Option4": "Oracle",
+    "Answer": "SQLite"
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you start the Django development server?",
+    "Option1": "python manage.py runserver",
+    "Option2": "django-admin runserver",
+    "Option3": "python server.py start",
+    "Option4": "django startserver",
+    "Answer": "python manage.py runserver"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is Django Admin?",
+    "Option1": "A command-line tool for managing Django projects.",
+    "Option2": "An automatically generated administrative interface for managing your application's data.",
+    "Option3": "A module for handling user authentication.",
+    "Option4": "A template engine.",
+    "Answer": "An automatically generated administrative interface for managing your application's data."
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you make a model visible and editable in the Django Admin interface?",
+    "Option1": "By adding it to urls.py.",
+    "Option2": "By registering it in admin.py.",
+    "Option3": "By defining a __str__ method in the model.",
+    "Option4": "By running `makemigrations`.",
+    "Answer": "By registering it in admin.py."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the purpose of `INSTALLED_APPS` in `settings.py`?",
+    "Option1": "To list all project URLs.",
+    "Option2": "To define database connections.",
+    "Option3": "To list all Django applications that are enabled for this Django project.",
+    "Option4": "To specify static files location.",
+    "Answer": "To list all Django applications that are enabled for this Django project."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'queryset' in Django ORM?",
+    "Option1": "A single database record.",
+    "Option2": "A collection of database queries that can be filtered and ordered.",
+    "Option3": "A SQL statement.",
+    "Option4": "A form submission.",
+    "Answer": "A collection of database queries that can be filtered and ordered."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you retrieve all objects from a model named `Book`?",
+    "Option1": "Book.objects.all()",
+    "Option2": "Book.objects.get_all()",
+    "Option3": "Book.all()",
+    "Option4": "Book.get_objects()",
+    "Answer": "Book.objects.all()"
+  },
+  {
+    "question_no.": 22,
+    "Question": "How do you retrieve a single object from a model named `Book` where `id` is 1?",
+    "Option1": "Book.objects.filter(id=1)",
+    "Option2": "Book.objects.get(id=1)",
+    "Option3": "Book.objects.first(id=1)",
+    "Option4": "Book.objects.retrieve(id=1)",
+    "Answer": "Book.objects.get(id=1)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What happens if `Book.objects.get(id=100)` is called and no book with ID 100 exists?",
+    "Option1": "It returns an empty list.",
+    "Option2": "It returns None.",
+    "Option3": "It raises a `DoesNotExist` exception.",
+    "Option4": "It creates a new book with ID 100.",
+    "Answer": "It raises a `DoesNotExist` exception."
+  },
+  {
+    "question_no.": 24,
+    "Question": "How do you filter objects from a model named `Product` where `price` is greater than 50?",
+    "Option1": "Product.objects.filter(price__gt=50)",
+    "Option2": "Product.objects.filter(price > 50)",
+    "Option3": "Product.objects.get(price__gt=50)",
+    "Option4": "Product.objects.where(price__gt=50)",
+    "Answer": "Product.objects.filter(price__gt=50)"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `__str__` method in a Django model used for?",
+    "Option1": "To define the primary key.",
+    "Option2": "To return a string representation of the object, used in the Admin and shell.",
+    "Option3": "To validate model fields.",
+    "Option4": "To define relationships between models.",
+    "Answer": "To return a string representation of the object, used in the Admin and shell."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is a primary key in a Django model?",
+    "Option1": "A field that stores text data.",
+    "Option2": "A field that uniquely identifies each record in a database table.",
+    "Option3": "A field for storing images.",
+    "Option4": "A field that links to another table.",
+    "Answer": "A field that uniquely identifies each record in a database table."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is a foreign key in a Django model?",
+    "Option1": "A field that always contains unique values.",
+    "Option2": "A field that links a record in one table to a record in another table.",
+    "Option3": "A field used for sorting data.",
+    "Option4": "A field for storing boolean values.",
+    "Answer": "A field that links a record in one table to a record in another table."
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is a ManyToManyField used for?",
+    "Option1": "To define a one-to-one relationship.",
+    "Option2": "To define a relationship where multiple instances of one model can be related to multiple instances of another model.",
+    "Option3": "To define a one-to-many relationship.",
+    "Option4": "To store a list of values.",
+    "Answer": "To define a relationship where multiple instances of one model can be related to multiple instances of another model."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is a OneToOneField used for?",
+    "Option1": "To define a relationship where one instance of a model can be related to multiple instances of another model.",
+    "Option2": "To define a relationship where each instance of a model is related to exactly one instance of another model.",
+    "Option3": "To define a relationship where multiple instances of one model can be related to multiple instances of another model.",
+    "Option4": "To store a single numerical value.",
+    "Answer": "To define a relationship where each instance of a model is related to exactly one instance of another model."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is `request` object in Django views?",
+    "Option1": "An object representing the database connection.",
+    "Option2": "An `HttpRequest` object that contains metadata about the current request, such as path, HTTP method, and GET/POST data.",
+    "Option3": "An object representing the response to be sent back.",
+    "Option4": "An object for interacting with the file system.",
+    "Answer": "An `HttpRequest` object that contains metadata about the current request, such as path, HTTP method, and GET/POST data."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is `HttpResponse` used for in Django views?",
+    "Option1": "To send an email.",
+    "Option2": "To redirect the user to another page.",
+    "Option3": "To return an HTTP response, typically containing HTML content.",
+    "Option4": "To log data.",
+    "Answer": "To return an HTTP response, typically containing HTML content."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is `render` function used for in Django views?",
+    "Option1": "To redirect to another URL.",
+    "Option2": "To send a plain text response.",
+    "Option3": "To combine a given template with a context dictionary and return an `HttpResponse` object with that rendered text.",
+    "Option4": "To log errors.",
+    "Answer": "To combine a given template with a context dictionary and return an `HttpResponse` object with that rendered text."
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is `redirect` function used for in Django views?",
+    "Option1": "To render a template.",
+    "Option2": "To return an `HttpResponseRedirect` to the given URL.",
+    "Option3": "To send a JSON response.",
+    "4": "To display an error page.",
+    "Answer": "To return an `HttpResponseRedirect` to the given URL."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is Django's `staticfiles` app used for?",
+    "Option1": "To serve dynamic content.",
+    "Option2": "To manage and serve static files (CSS, JavaScript, images) in a Django project.",
+    "Option3": "To handle user uploads.",
+    "4": "To store media files.",
+    "Answer": "To manage and serve static files (CSS, JavaScript, images) in a Django project."
+  },
+  {
+    "question_no.": 35,
+    "Question": "Where do you typically define your static files in `settings.py`?",
+    "Option1": "MEDIA_ROOT",
+    "Option2": "STATIC_URL and STATIC_ROOT",
+    "Option3": "TEMPLATES_DIR",
+    "4": "DATABASE_URL",
+    "Answer": "STATIC_URL and STATIC_ROOT"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What command is used to collect static files into `STATIC_ROOT`?",
+    "Option1": "python manage.py makestatic",
+    "Option2": "python manage.py collectstatic",
+    "Option3": "python manage.py findstatic",
+    "4": "python manage.py syncstatic",
+    "Answer": "python manage.py collectstatic"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What are Django Forms used for?",
+    "Option1": "To define database models.",
+    "Option2": "To handle HTML form rendering, validation, and processing user input.",
+    "Option3": "To manage URL routing.",
+    "4": "To create REST APIs.",
+    "Answer": "To handle HTML form rendering, validation, and processing user input."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is `ModelForm` in Django?",
+    "Option1": "A form that generates fields based on a regular Python class.",
+    "Option2": "A special type of form that automatically generates fields from a Django model and can save/update model instances.",
+    "Option3": "A form for handling file uploads.",
+    "4": "A form for user authentication.",
+    "Answer": "A special type of form that automatically generates fields from a Django model and can save/update model instances."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is `csrf_token` used for in Django templates?",
+    "Option1": "To enable JavaScript in templates.",
+    "Option2": "To protect against Cross-Site Request Forgery (CSRF) attacks.",
+    "Option3": "To include static files.",
+    "4": "To display user information.",
+    "Answer": "To protect against Cross-Site Request Forgery (CSRF) attacks."
+  },
+  {
+    "question_no. ": 40,
+    "Question": "What is the purpose of `{% load static %}` in Django templates?",
+    "Option1": "To load dynamic data from the database.",
+    "Option2": "To make the `static` template tag available for loading static files.",
+    "Option3": "To include other template files.",
+    "4": "To define template variables.",
+    "Answer": "To make the `static` template tag available for loading static files."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is `{% extends 'base.html' %}` used for in Django templates?",
+    "Option1": "To include content from 'base.html'.",
+    "Option2": "To inherit from a base template, allowing for consistent layout across multiple pages.",
+    "Option3": "To define a new block.",
+    "4": "To render a form.",
+    "Answer": "To inherit from a base template, allowing for consistent layout across multiple pages."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is `{% block content %}` used for in Django templates?",
+    "Option1": "To display a fixed piece of content.",
+    "Option2": "To define a section of content that can be overridden by child templates.",
+    "Option3": "To include a JavaScript file.",
+    "4": "To loop through data.",
+    "Answer": "To define a section of content that can be overridden by child templates."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the purpose of Django's authentication system?",
+    "Option1": "To manage static files.",
+    "Option2": "To handle user registration, login, logout, password management, and user permissions.",
+    "Option3": "To manage database migrations.",
+    "4": "To render templates.",
+    "Answer": "To handle user registration, login, logout, password management, and user permissions."
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you create a superuser in Django?",
+    "Option1": "python manage.py createsuperuser",
+    "Option2": "django-admin makesuperuser",
+    "Option3": "python manage.py adduser admin",
+    "4": "python manage.py createuser superuser",
+    "Answer": "python manage.py createsuperuser"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is `User` model in Django's authentication system?",
+    "Option1": "A custom model you must define yourself.",
+    "Option2": "A built-in model that stores user information like username, password, email, etc.",
+    "Option3": "A model for user profiles only.",
+    "4": "A model for permissions only.",
+    "Answer": "A built-in model that stores user information like username, password, email, etc."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the `login_required` decorator used for?",
+    "Option1": "To make a view accessible only to logged-in users.",
+    "Option2": "To log user activities.",
+    "Option3": "To check if a user is an administrator.",
+    "4": "To redirect to the homepage.",
+    "Answer": "To make a view accessible only to logged-in users."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is `session` in Django?",
+    "Option1": "A way to store data on the client-side only.",
+    "Option2": "A mechanism to store and retrieve data on a per-site-visitor basis.",
+    "Option3": "A database connection.",
+    "4": "A template rendering process.",
+    "Answer": "A mechanism to store and retrieve data on a per-site-visitor basis."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is `cookie` in web development?",
+    "Option1": "A server-side file.",
+    "Option2": "A small piece of data sent from a website and stored in the user's web browser while the user is Browse that website.",
+    "Option3": "A database query.",
+    "4": "A network protocol.",
+    "Answer": "A small piece of data sent from a website and stored in the user's web browser while the user is Browse that website."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is the difference between `request.GET` and `request.POST`?",
+    "Option1": "`request.GET` is for internal data, `request.POST` is for external data.",
+    "Option2": "`request.GET` holds data submitted via GET method (URL query parameters), `request.POST` holds data submitted via POST method (form data in the request body).",
+    "Option3": "There is no difference.",
+    "4": "`request.GET` is for secure data, `request.POST` is for insecure data.",
+    "Answer": "`request.GET` holds data submitted via GET method (URL query parameters), `request.POST` holds data submitted via POST method (form data in the request body)."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of `MEDIA_ROOT` and `MEDIA_URL` in `settings.py`?",
+    "Option1": "To configure static files.",
+    "Option2": "To configure where user-uploaded files (media files) are stored on the server and how they are accessed via URL.",
+    "Option3": "To define database connection settings.",
+    "4": "To specify template directories.",
+    "Answer": "To configure where user-uploaded files (media files) are stored on the server and how they are accessed via URL."
+  },
+  {
+    "question_no.": 51,
+    "Question": "How do you handle file uploads in Django?",
+    "Option1": "Using `requests.get()`.",
+    "Option2": "By defining a `FileField` or `ImageField` in your model and processing the `request.FILES` dictionary in your view.",
+    "Option3": "By directly accessing the operating system's file system.",
+    "4": "File uploads are not supported in Django.",
+    "Answer": "By defining a `FileField` or `ImageField` in your model and processing the `request.FILES` dictionary in your view."
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is a `SlugField` in Django models?",
+    "Option1": "A field for storing long text.",
+    "Option2": "A field that stores a 'slug', which is a short label for something, containing only letters, numbers, underscores, or hyphens.",
+    "Option3": "A field for storing binary data.",
+    "4": "A field for storing email addresses.",
+    "Answer": "A field that stores a 'slug', which is a short label for something, containing only letters, numbers, underscores, or hyphens."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of `verbose_name` in model fields?",
+    "Option1": "To define the default value.",
+    "Option2": "To provide a human-readable name for the field, used in the Django Admin and other places.",
+    "Option3": "To set the maximum length of the field.",
+    "4": "To make the field unique.",
+    "Answer": "To provide a human-readable name for the field, used in the Django Admin and other places."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is `null=True` and `blank=True` in model fields?",
+    "Option1": "They mean the same thing.",
+    "Option2": "`null=True` allows the database column to store NULL values; `blank=True` allows the field to be blank in forms (Django's validation).",
+    "Option3": "`null=True` is for strings, `blank=True` is for numbers.",
+    "4": "Neither are valid field options.",
+    "Answer": "`null=True` allows the database column to store NULL values; `blank=True` allows the field to be blank in forms (Django's validation)."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is Django's `reverse()` function used for?",
+    "Option1": "To reverse a string.",
+    "Option2": "To dynamically generate a URL based on a view name and optional arguments, making URLs less brittle.",
+    "Option3": "To reverse the order of queryset results.",
+    "4": "To undo a database migration.",
+    "Answer": "To dynamically generate a URL based on a view name and optional arguments, making URLs less brittle."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What are Django Class-Based Views (CBVs)?",
+    "Option1": "Regular Python functions that handle requests.",
+    "Option2": "Python classes that inherit from `View` or its subclasses, providing a structured way to handle HTTP requests with built-in functionalities.",
+    "Option3": "Views that only render static content.",
+    "4": "Views that are deprecated.",
+    "Answer": "Python classes that inherit from `View` or its subclasses, providing a structured way to handle HTTP requests with built-in functionalities."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Name a common Class-Based View for displaying a list of objects.",
+    "Option1": "DetailView",
+    "Option2": "ListView",
+    "Option3": "CreateView",
+    "4": "FormView",
+    "Answer": "ListView"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Name a common Class-Based View for displaying a single object.",
+    "Option1": "ListView",
+    "Option2": "DetailView",
+    "Option3": "UpdateView",
+    "4": "DeleteView",
+    "Answer": "DetailView"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which CBV is used for creating a new object from a form?",
+    "Option1": "DetailView",
+    "Option2": "ListView",
+    "Option3": "CreateView",
+    "4": "FormView",
+    "Answer": "CreateView"
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which CBV is used for updating an existing object via a form?",
+    "Option1": "CreateView",
+    "Option2": "DeleteView",
+    "Option3": "UpdateView",
+    "4": "DetailView",
+    "Answer": "UpdateView"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which CBV is used for deleting an existing object?",
+    "Option1": "UpdateView",
+    "Option2": "ListView",
+    "Option3": "DeleteView",
+    "4": "FormView",
+    "Answer": "DeleteView"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is `context` in Django templates?",
+    "Option1": "A string that is displayed on the page.",
+    "Option2": "A dictionary that holds variables to be rendered in a template.",
+    "Option3": "A list of static files.",
+    "4": "A set of database settings.",
+    "Answer": "A dictionary that holds variables to be rendered in a template."
+  },
+  {
+    "question_no.": 63,
+    "Question": "How do you access a variable named `user_name` passed from a view to a template?",
+    "Option1": "{{ user_name }}",
+    "Option2": "{% user_name %}",
+    "Option3": "$user_name",
+    "4": "user_name.value",
+    "Answer": "{{ user_name }}"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What are Django template filters?",
+    "Option1": "Functions that modify data before it's displayed in a template.",
+    "Option2": "Ways to filter querysets.",
+    "Option3": "Methods for validating form input.",
+    "4": "Functions that handle URL routing.",
+    "Answer": "Functions that modify data before it's displayed in a template."
+  },
+  {
+    "question_no.": 65,
+    "Question": "Example of a built-in Django template filter?",
+    "Option1": "filter",
+    "Option2": "lower",
+    "Option3": "sort",
+    "4": "slice",
+    "Answer": "lower"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What are Django template tags?",
+    "Option1": "Variables passed to templates.",
+    "Option2": "Special markers that tell Django's template engine to do something (e.g., control logic, load external content).",
+    "Option3": "HTML tags.",
+    "4": "CSS classes.",
+    "Answer": "Special markers that tell Django's template engine to do something (e.g., control logic, load external content)."
+  },
+  {
+    "question_no.": 67,
+    "Question": "Example of a built-in Django template tag?",
+    "Option1": "variable",
+    "Option2": "if",
+    "Option3": "display",
+    "4": "print",
+    "Answer": "if"
+  },
+  {
+    "question_no.": 68,
+    "Question": "How do you loop through a list of items named `my_list` in a Django template?",
+    "Option1": "{% for item in my_list %}",
+    "Option2": "{{ for item in my_list }}",
+    "Option3": "for item in my_list:",
+    "4": "<loop my_list>",
+    "Answer": "{% for item in my_list %}"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is Django's `messages` framework used for?",
+    "Option1": "To send emails.",
+    "Option2": "To display one-time notification messages to the user (e.g., 'Successfully saved!').",
+    "Option3": "To send SMS messages.",
+    "4": "To manage real-time chat.",
+    "Answer": "To display one-time notification messages to the user (e.g., 'Successfully saved!')."
+  },
+  {
+    "question_no.": 70,
+    "Question": "How do you add a success message using the `messages` framework?",
+    "Option1": "messages.error(request, 'Error')",
+    "Option2": "messages.success(request, 'Success!')",
+    "Option3": "messages.info(request, 'Info')",
+    "4": "messages.debug(request, 'Debug')",
+    "Answer": "messages.success(request, 'Success!')"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `ABSTRACT_BASE_CLASS` in Django models?",
+    "Option1": "A concrete model that can be instantiated.",
+    "Option2": "A model that you write `class Meta: abstract = True` inside, meaning it won't create a database table, but its fields will be inherited by child models.",
+    "Option3": "A model used for forms only.",
+    "4": "A model that automatically generates migrations.",
+    "Answer": "A model that you write `class Meta: abstract = True` inside, meaning it won't create a database table, but its fields will be inherited by child models."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is `ProxyModel` in Django?",
+    "Option1": "A model that creates a new database table.",
+    "Option2": "A model that inherits from an existing model but doesn't create a new database table; it's used to change the Python-level behavior of the original model.",
+    "Option3": "A model for storing temporary data.",
+    "4": "A model used for testing purposes only.",
+    "Answer": "A model that inherits from an existing model but doesn't create a new database table; it's used to change the Python-level behavior of the original model."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is `Multi-table inheritance` in Django?",
+    "Option1": "When a model inherits from another model and both create their own database tables, linked by a one-to-one relationship.",
+    "Option2": "When a model inherits from a non-model Python class.",
+    "Option3": "When multiple models inherit from the same abstract base class.",
+    "4": "When a model has multiple foreign keys.",
+    "Answer": "When a model inherits from another model and both create their own database tables, linked by a one-to-one relationship."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is `middleware` in Django?",
+    "Option1": "A component that renders templates.",
+    "Option2": "A framework for processing requests and responses globally, before they reach the view and after the view has produced a response.",
+    "Option3": "A database driver.",
+    "4": "A form validation tool.",
+    "Answer": "A framework for processing requests and responses globally, before they reach the view and after the view has produced a response."
+  },
+  {
+    "question_no.": 75,
+    "Question": "Name a built-in Django middleware.",
+    "Option1": "AuthMiddleware",
+    "Option2": "LoggingMiddleware",
+    "Option3": "CacheMiddleware",
+    "4": "RoutingMiddleware",
+    "Answer": "AuthMiddleware"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the purpose of `settings.DEBUG = True`?",
+    "Option1": "To disable all error messages.",
+    "Option2": "To enable debug mode, providing detailed error pages and other debugging features, not for production.",
+    "Option3": "To enable caching.",
+    "4": "To optimize database queries.",
+    "Answer": "To enable debug mode, providing detailed error pages and other debugging features, not for production."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `ALLOWED_HOSTS` in `settings.py` used for?",
+    "Option1": "To specify database hosts.",
+    "Option2": "A list of strings representing the host/domain names that this Django site can serve, a security measure in production.",
+    "Option3": "To define static file servers.",
+    "4": "To list allowed IP addresses for users.",
+    "Answer": "A list of strings representing the host/domain names that this Django site can serve, a security measure in production."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the primary role of `WSGI_APPLICATION` in `settings.py`?",
+    "Option1": "To define the database engine.",
+    "Option2": "To specify the WSGI application object that Django uses to serve HTTP requests.",
+    "Option3": "To list installed apps.",
+    "4": "To configure static file handling.",
+    "Answer": "To specify the WSGI application object that Django uses to serve HTTP requests."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is `ASGI_APPLICATION` in `settings.py`?",
+    "Option1": "It's only for synchronous applications.",
+    "Option2": "It's used for asynchronous applications, specifying the ASGI application object for handling websockets and other async protocols.",
+    "Option3": "It's a deprecated setting.",
+    "4": "It's only for static file serving.",
+    "Answer": "It's used for asynchronous applications, specifying the ASGI application object for handling websockets and other async protocols."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the purpose of `get_absolute_url()` method in a Django model?",
+    "Option1": "To get the URL of a static file.",
+    "Option2": "To return the absolute URL for a model instance, often used for redirects after creation or for linking to detail pages.",
+    "Option3": "To get the current page URL.",
+    "4": "To retrieve external URLs.",
+    "Answer": "To return the absolute URL for a model instance, often used for redirects after creation or for linking to detail pages."
+  },
+  {
+    "question_no.": 81,
+    "Question": "How do you define a custom management command in Django?",
+    "Option1": "By creating a Python file in a `commands` directory within an app.",
+    "Option2": "By adding a function to `settings.py`.",
+    "Option3": "By defining a new view.",
+    "4": "Django does not support custom management commands.",
+    "Answer": "By creating a Python file in a `commands` directory within an app."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the purpose of `runserver` command's `--noreload` option?",
+    "Option1": "To enable hot reloading.",
+    "Option2": "To disable the auto-reloader, which restarts the server automatically on code changes.",
+    "Option3": "To run the server in production mode.",
+    "4": "To disable database connections.",
+    "Answer": "To disable the auto-reloader, which restarts the server automatically on code changes."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is `prefetch_related` used for in QuerySets?",
+    "Option1": "To execute queries one by one.",
+    "Option2": "To perform a separate lookup for each relationship and then join them in Python, efficient for ManyToMany and reverse ForeignKey relationships.",
+    "Option3": "To join tables directly in the database.",
+    "4": "To retrieve only a subset of fields.",
+    "Answer": "To perform a separate lookup for each relationship and then join them in Python, efficient for ManyToMany and reverse ForeignKey relationships."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `select_related` used for in QuerySets?",
+    "Option1": "To retrieve related objects in separate queries.",
+    "Option2": "To perform a single SQL query that includes `JOIN` statements to retrieve related objects, efficient for ForeignKey and OneToOneField relationships.",
+    "Option3": "To select only specific fields.",
+    "4": "To sort query results.",
+    "Answer": "To perform a single SQL query that includes `JOIN` statements to retrieve related objects, efficient for ForeignKey and OneToOneField relationships."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `annotate` used for in QuerySets?",
+    "Option1": "To filter results.",
+    "Option2": "To add an aggregate value (e.g., sum, count, average) to each object in a QuerySet.",
+    "Option3": "To sort results.",
+    "4": "To limit the number of results.",
+    "Answer": "To add an aggregate value (e.g., sum, count, average) to each object in a QuerySet."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is `aggregate` used for in QuerySets?",
+    "Option1": "To add a value to each object.",
+    "Option2": "To compute a single, summary value over an entire QuerySet (e.g., total count, total sum).",
+    "Option3": "To group results by a field.",
+    "4": "To retrieve distinct values.",
+    "Answer": "To compute a single, summary value over an entire QuerySet (e.g., total count, total sum)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `F` expressions used for in QuerySets?",
+    "Option1": "To filter based on literal values.",
+    "Option2": "To refer to fields within the database, allowing you to perform operations (e.g., arithmetic) on model fields directly in the database, rather than in Python.",
+    "Option3": "To define custom functions.",
+    "4": "To sort by multiple fields.",
+    "Answer": "To refer to fields within the database, allowing you to perform operations (e.g., arithmetic) on model fields directly in the database, rather than in Python."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `Q` objects used for in QuerySets?",
+    "Option1": "To perform simple AND operations.",
+    "Option2": "To encapsulate a collection of keyword arguments for database queries, allowing for more complex lookups like OR, AND, and NOT.",
+    "Option3": "To define a fixed set of queries.",
+    "4": "To retrieve distinct values.",
+    "Answer": "To encapsulate a collection of keyword arguments for database queries, allowing for more complex lookups like OR, AND, and NOT."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the purpose of `ManyToManyField(through='ModelName')`?",
+    "Option1": "To create a one-to-one relationship.",
+    "Option2": "To explicitly specify the intermediary model for a Many-to-Many relationship, allowing you to add extra fields to the relationship.",
+    "Option3": "To create a simple ManyToMany relationship without extra fields.",
+    "4": "To define a foreign key.",
+    "Answer": "To explicitly specify the intermediary model for a Many-to-Many relationship, allowing you to add extra fields to the relationship."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is the `related_name` argument used for in relationship fields?",
+    "Option1": "To specify the name of the related model.",
+    "Option2": "To specify the name of the reverse relation from the related model back to the current model, providing a more descriptive attribute name.",
+    "Option3": "To define a custom lookup field.",
+    "4": "To set the default value.",
+    "Answer": "To specify the name of the reverse relation from the related model back to the current model, providing a more descriptive attribute name."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of `on_delete` argument in `ForeignKey`?",
+    "Option1": "To specify what happens when the related object is updated.",
+    "Option2": "To specify the behavior when the referenced object (the primary key in the parent table) is deleted.",
+    "Option3": "To specify what happens when the foreign key itself is deleted.",
+    "4": "To define a default value for the foreign key.",
+    "Answer": "To specify the behavior when the referenced object (the primary key in the parent table) is deleted."
+  },
+  {
+    "question_no.": 92,
+    "Question": "Give an example of a common `on_delete` option.",
+    "Option1": "CASCADE",
+    "Option2": "IGNORE",
+    "Option3": "REVERT",
+    "4": "SET_NULL_IF_EXISTS",
+    "Answer": "CASCADE"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What does `on_delete=models.CASCADE` mean?",
+    "Option1": "If the referenced object is deleted, set the foreign key to NULL.",
+    "Option2": "If the referenced object is deleted, delete the object containing the foreign key as well.",
+    "Option3": "If the referenced object is deleted, do nothing.",
+    "4": "If the referenced object is deleted, raise an error.",
+    "Answer": "If the referenced object is deleted, delete the object containing the foreign key as well."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What does `on_delete=models.SET_NULL` mean?",
+    "Option1": "If the referenced object is deleted, delete the object containing the foreign key.",
+    "Option2": "If the referenced object is deleted, set the foreign key to NULL (requires `null=True` on the field).",
+    "Option3": "If the referenced object is deleted, raise an error.",
+    "4": "If the referenced object is deleted, set the foreign key to its default value.",
+    "Answer": "If the referenced object is deleted, set the foreign key to NULL (requires `null=True` on the field)."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What does `on_delete=models.PROTECT` mean?",
+    "Option1": "If the referenced object is deleted, delete the object containing the foreign key.",
+    "Option2": "If the referenced object is deleted, set the foreign key to NULL.",
+    "Option3": "If the referenced object is deleted, prevent deletion of the referenced object by raising `ProtectedError`.",
+    "4": "If the referenced object is deleted, set the foreign key to its default value.",
+    "Answer": "If the referenced object is deleted, prevent deletion of the referenced object by raising `ProtectedError`."
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is Django's `signals` framework used for?",
+    "Option1": "To send real-time notifications.",
+    "Option2": "To allow decoupled applications to get notified when certain actions occur elsewhere in Django, providing a way for components to communicate without direct coupling.",
+    "Option3": "To handle asynchronous tasks.",
+    "4": "To manage database transactions.",
+    "Answer": "To allow decoupled applications to get notified when certain actions occur elsewhere in Django, providing a way for components to communicate without direct coupling."
+  },
+  {
+    "question_no.": 97,
+    "Question": "Name a common built-in Django signal.",
+    "Option1": "request_received",
+    "Option2": "pre_save",
+    "Option3": "view_rendered",
+    "4": "database_connected",
+    "Answer": "pre_save"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is the purpose of `dispatch_uid` in signal receivers?",
+    "Option1": "To specify the order of execution.",
+    "Option2": "To prevent duplicate signal receivers from being registered, ensuring a receiver is called only once.",
+    "Option3": "To specify the sender of the signal.",
+    "4": "To define the data passed with the signal.",
+    "Answer": "To prevent duplicate signal receivers from being registered, ensuring a receiver is called only once."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is `AUTH_USER_MODEL` in `settings.py`?",
+    "Option1": "To specify the default user model for Django's authentication system.",
+    "Option2": "To define a custom authentication backend.",
+    "Option3": "To specify the default password hasher.",
+    "4": "To define user roles.",
+    "Answer": "To specify the default user model for Django's authentication system."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is `AbstractUser` and `AbstractBaseUser` in Django's authentication system?",
+    "Option1": "They are the same.",
+    "Option2": "`AbstractUser` extends the default User model with custom fields while keeping the existing authentication logic. `AbstractBaseUser` allows full customization of the user model and authentication backend.",
+    "Option3": "Both are used for custom permission systems.",
+    "4": "Both are deprecated.",
+    "Answer": "`AbstractUser` extends the default User model with custom fields while keeping the existing authentication logic. `AbstractBaseUser` allows full customization of the user model and authentication backend."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is `HttpResponseForbidden` used for?",
+    "Option1": "To indicate success.",
+    "Option2": "To return an HTTP response with a 403 Forbidden status code, indicating that the client does not have permission to access the resource.",
+    "Option3": "To indicate a server error.",
+    "4": "To indicate that the page was not found.",
+    "Answer": "To return an HTTP response with a 403 Forbidden status code, indicating that the client does not have permission to access the resource."
+  },
+  {
+    "question_no.": 102,
+    "Question": "What is `HttpResponseNotFound` used for?",
+    "Option1": "To indicate success.",
+    "Option2": "To return an HTTP response with a 404 Not Found status code, indicating that the requested resource could not be found.",
+    "Option3": "To indicate a server error.",
+    "4": "To indicate a forbidden access.",
+    "Answer": "To return an HTTP response with a 404 Not Found status code, indicating that the requested resource could not be found."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is `HttpResponseBadRequest` used for?",
+    "Option1": "To indicate success.",
+    "Option2": "To return an HTTP response with a 400 Bad Request status code, indicating that the server could not understand the request due to invalid syntax.",
+    "Option3": "To indicate a server error.",
+    "4": "To indicate a forbidden access.",
+    "Answer": "To return an HTTP response with a 400 Bad Request status code, indicating that the server could not understand the request due to invalid syntax."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the purpose of `LOGIN_URL` in `settings.py`?",
+    "Option1": "To define the logout page.",
+    "Option2": "To specify the URL where users are redirected when they need to log in (e.g., if they try to access a `@login_required` view).",
+    "Option3": "To define the registration page.",
+    "4": "To define the password reset page.",
+    "Answer": "To specify the URL where users are redirected when they need to log in (e.g., if they try to access a `@login_required` view)."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is `LOGIN_REDIRECT_URL` in `settings.py`?",
+    "Option1": "The URL to redirect to after logout.",
+    "Option2": "The URL to redirect to after a successful login if no `next` parameter is provided.",
+    "Option3": "The URL for password reset.",
+    "4": "The URL for user registration.",
+    "Answer": "The URL to redirect to after a successful login if no `next` parameter is provided."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `reverse_lazy()` used for in Django?",
+    "Option1": "To reverse a list of URLs immediately.",
+    "Option2": "A lazily evaluated version of `reverse()`, useful for URLs that need to be resolved before URLconf loading is complete (e.g., in `settings.py`).",
+    "Option3": "To generate URLs without arguments.",
+    "4": "To create a redirect immediately.",
+    "Answer": "A lazily evaluated version of `reverse()`, useful for URLs that need to be resolved before URLconf loading is complete (e.g., in `settings.py`)."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `Namespace` in Django URLs?",
+    "Option1": "A way to define global URLs.",
+    "Option2": "A way to avoid URL name clashes between different apps by providing a unique identifier for a set of URLs.",
+    "Option3": "A way to hide URLs from users.",
+    "4": "A way to simplify URL patterns.",
+    "Answer": "A way to avoid URL name clashes between different apps by providing a unique identifier for a set of URLs."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How do you include URLs from an app (e.g., `blog`) in the project's `urls.py`?",
+    "Option1": "path('blog/', blog.urls)",
+    "Option2": "path('blog/', include('blog.urls'))",
+    "Option3": "include('blog.urls')",
+    "4": "blog.urls",
+    "Answer": "path('blog/', include('blog.urls'))"
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `path()` function in Django URLs?",
+    "Option1": "To define regular expressions for URLs.",
+    "Option2": "To define a URL pattern, mapping a URL path to a view, introduced in Django 2.0.",
+    "Option3": "To define static file paths.",
+    "4": "To get the current URL.",
+    "Answer": "To define a URL pattern, mapping a URL path to a view, introduced in Django 2.0."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is `re_path()` function in Django URLs?",
+    "Option1": "To define simple string paths.",
+    "Option2": "To define a URL pattern using regular expressions, providing more flexibility than `path()` for complex URL structures.",
+    "Option3": "To define paths for static files.",
+    "4": "To redirect URLs.",
+    "Answer": "To define a URL pattern using regular expressions, providing more flexibility than `path()` for complex URL structures."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is `URLResolver` in Django?",
+    "Option1": "A function that generates URLs.",
+    "Option2": "The internal component that resolves a URL path to a view function.",
+    "Option3": "A class for managing URL namespaces.",
+    "4": "A tool for validating URLs.",
+    "Answer": "The internal component that resolves a URL path to a view function."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is Django's `CACHE_MIDDLEWARE` used for?",
+    "Option1": "To cache database queries only.",
+    "Option2": "To enable caching of entire pages or specific views, improving performance by storing rendered content.",
+    "Option3": "To cache static files.",
+    "4": "To cache user sessions.",
+    "Answer": "To enable caching of entire pages or specific views, improving performance by storing rendered content."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is `memcached`?",
+    "Option1": "A type of database.",
+    "Option2": "A high-performance, distributed memory caching system, often used with Django's caching framework.",
+    "Option3": "A file storage system.",
+    "4": "A message queue.",
+    "Answer": "A high-performance, distributed memory caching system, often used with Django's caching framework."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is `Redis`?",
+    "Option1": "A traditional relational database.",
+    "Option2": "An open-source, in-memory data structure store, used as a database, cache, and message broker, often with Django.",
+    "Option3": "A full-text search engine.",
+    "4": "A file server.",
+    "Answer": "An open-source, in-memory data structure store, used as a database, cache, and message broker, often with Django."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the purpose of `AUTH_PASSWORD_VALIDATORS` in `settings.py`?",
+    "Option1": "To define allowed characters in passwords.",
+    "Option2": "To specify a list of validators that are applied to user passwords during creation or change, enforcing password strength policies.",
+    "Option3": "To set password encryption algorithms.",
+    "4": "To handle password reset.",
+    "Answer": "To specify a list of validators that are applied to user passwords during creation or change, enforcing password strength policies."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `LocaleMiddleware` used for?",
+    "Option1": "To handle date and time formatting.",
+    "Option2": "To enable internationalization (i18n) and localization (l10n) in Django, detecting the user's preferred language.",
+    "Option3": "To manage user sessions.",
+    "4": "To handle timezones.",
+    "Answer": "To enable internationalization (i18n) and localization (l10n) in Django, detecting the user's preferred language."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is `makemessages` command used for?",
+    "Option1": "To compile translation files.",
+    "Option2": "To extract translatable strings from your project files and create or update `.po` (Portable Object) files.",
+    "Option3": "To apply migrations.",
+    "4": "To create new models.",
+    "Answer": "To extract translatable strings from your project files and create or update `.po` (Portable Object) files."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is `compilemessages` command used for?",
+    "Option1": "To extract translatable strings.",
+    "Option2": "To compile `.po` files into `.mo` (Machine Object) files, which are used by Django's translation system.",
+    "Option3": "To create new messages.",
+    "4": "To delete old messages.",
+    "Answer": "To compile `.po` files into `.mo` (Machine Object) files, which are used by Django's translation system."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `ugettext_lazy` or `gettext_lazy` in Django?",
+    "Option1": "To translate strings immediately.",
+    "Option2": "A function that marks a string for translation but performs the translation lazily, only when the string is accessed, useful for models and settings.",
+    "Option3": "To retrieve untranslated strings.",
+    "4": "To format strings.",
+    "Answer": "A function that marks a string for translation but performs the translation lazily, only when the string is accessed, useful for models and settings."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is Django REST Framework (DRF)?",
+    "Option1": "A framework for building traditional web applications.",
+    "Option2": "A powerful and flexible toolkit for building Web APIs in Django.",
+    "Option3": "A template engine for Django.",
+    "4": "A database management system.",
+    "Answer": "A powerful and flexible toolkit for building Web APIs in Django."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is a 'serializer' in DRF?",
+    "Option1": "A component for handling database queries.",
+    "Option2": "A class that converts complex data types (e.g., Django model instances) into native Python data types that can be easily rendered into JSON/XML, and vice versa.",
+    "Option3": "A tool for URL routing.",
+    "4": "A class for user authentication.",
+    "Answer": "A class that converts complex data types (e.g., Django model instances) into native Python data types that can be easily rendered into JSON/XML, and vice versa."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `ModelSerializer` in DRF?",
+    "Option1": "A serializer for non-model data.",
+    "Option2": "A serializer that automatically generates a set of fields from a model, similar to how `ModelForm` works.",
+    "Option3": "A serializer for authentication.",
+    "4": "A serializer for file uploads.",
+    "Answer": "A serializer that automatically generates a set of fields from a model, similar to how `ModelForm` works."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is a 'viewset' in DRF?",
+    "Option1": "A function-based view.",
+    "Option2": "A class that provides a set of operations (e.g., list, retrieve, create, update, destroy) that can be mapped to a set of URLs, simplifying API development.",
+    "Option3": "A template for API responses.",
+    "4": "A way to define URL patterns.",
+    "Answer": "A class that provides a set of operations (e.g., list, retrieve, create, update, destroy) that can be mapped to a set of URLs, simplifying API development."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is a `Router` in DRF?",
+    "Option1": "A tool for handling HTTP requests.",
+    "Option2": "A class that automatically determines the URL patterns for a given ViewSet, reducing the amount of boilerplate code needed for API routing.",
+    "Option3": "A component for database connections.",
+    "4": "A method for caching API responses.",
+    "Answer": "A class that automatically determines the URL patterns for a given ViewSet, reducing the amount of boilerplate code needed for API routing."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is `Permission` in DRF?",
+    "Option1": "A way to define user roles.",
+    "Option2": "A class that determines whether a request should be granted or denied access to a view.",
+    "Option3": "A method for authentication.",
+    "4": "A serializer for user data.",
+    "Answer": "A class that determines whether a request should be granted or denied access to a view."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Name a common built-in DRF permission class.",
+    "Option1": "AllowAll",
+    "Option2": "IsAuthenticated",
+    "Option3": "IsAdmin",
+    "4": "CanEdit",
+    "Answer": "IsAuthenticated"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is `Authentication` in DRF?",
+    "Option1": "A way to authorize users.",
+    "Option2": "The process of identifying a user who is making the request, typically by inspecting credentials like API keys or tokens.",
+    "Option3": "A method for handling permissions.",
+    "4": "A way to serialize user data.",
+    "Answer": "The process of identifying a user who is making the request, typically by inspecting credentials like API keys or tokens."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Name a common built-in DRF authentication class.",
+    "Option1": "OAuth2Authentication",
+    "Option2": "TokenAuthentication",
+    "Option3": "BasicAuthentication",
+    "4": "SessionAuthentication",
+    "Answer": "TokenAuthentication"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `Throttling` in DRF?",
+    "Option1": "Limiting the number of users accessing an API.",
+    "Option2": "Limiting the rate of requests that a client can make to an API, to prevent abuse and ensure fair usage.",
+    "Option3": "Speeding up API responses.",
+    "4": "Caching API responses.",
+    "Answer": "Limiting the rate of requests that a client can make to an API, to prevent abuse and ensure fair usage."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `Filtering` in DRF?",
+    "Option1": "To remove unwanted data from the database.",
+    "Option2": "To allow clients to narrow down the set of results returned by an API endpoint, often by providing query parameters.",
+    "Option3": "To sort API responses.",
+    "4": "To paginate API responses.",
+    "Answer": "To allow clients to narrow down the set of results returned by an API endpoint, often by providing query parameters."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `Pagination` in DRF?",
+    "Option1": "To retrieve all data at once.",
+    "Option2": "To break large result sets into smaller, manageable pages for API responses, improving performance and user experience.",
+    "Option3": "To sort API results.",
+    "4": "To filter API results.",
+    "Answer": "To break large result sets into smaller, manageable pages for API responses, improving performance and user experience."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the purpose of `pip freeze > requirements.txt`?",
+    "Option1": "To install packages.",
+    "Option2": "To generate a list of all installed Python packages and their versions, used for dependency management and recreating environments.",
+    "Option3": "To uninstall packages.",
+    "4": "To update packages.",
+    "Answer": "To generate a list of all installed Python packages and their versions, used for dependency management and recreating environments."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the purpose of `pip install -r requirements.txt`?",
+    "Option1": "To list installed packages.",
+    "Option2": "To install all packages listed in the `requirements.txt` file.",
+    "Option3": "To uninstall all packages.",
+    "4": "To update all packages.",
+    "Answer": "To install all packages listed in the `requirements.txt` file."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is a 'virtual environment' in Python?",
+    "Option1": "A global Python installation.",
+    "Option2": "An isolated Python environment that allows you to manage dependencies for different projects separately, preventing conflicts.",
+    "Option3": "A cloud-based Python interpreter.",
+    "4": "A tool for running Python code without installation.",
+    "Answer": "An isolated Python environment that allows you to manage dependencies for different projects separately, preventing conflicts."
+  },
+  {
+    "question_no.": 135,
+    "Question": "How do you create a virtual environment named `venv`?",
+    "Option1": "python -m venv",
+    "Option2": "python -m virtualenv venv",
+    "Option3": "python -m pip install venv",
+    "4": "python -m venv venv",
+    "Answer": "python -m venv venv"
+  },
+  {
+    "question_no.": 136,
+    "Question": "How do you activate a virtual environment on Windows?",
+    "Option1": "source venv/bin/activate",
+    "Option2": "venv/Scripts/activate",
+    "Option3": "activate venv",
+    "4": "call venv/bin/activate",
+    "Answer": "venv/Scripts/activate"
+  },
+  {
+    "question_no.": 137,
+    "Question": "How do you activate a virtual environment on Linux/macOS?",
+    "Option1": "venv/Scripts/activate",
+    "Option2": "source venv/bin/activate",
+    "Option3": "activate venv",
+    "4": "call venv/bin/activate",
+    "Answer": "source venv/bin/activate"
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `SECRET_KEY` in `settings.py`?",
+    "Option1": "A key for database encryption.",
+    "Option2": "A secret key used for cryptographic signing, important for security and should be kept confidential.",
+    "Option3": "A key for API authentication.",
+    "4": "A key for user passwords.",
+    "Answer": "A secret key used for cryptographic signing, important for security and should be kept confidential."
+  },
+  {
+    "question_no.": 139,
+    "Question": "Why should `SECRET_KEY` NOT be exposed in a production environment?",
+    "Option1": "It makes the database slower.",
+    "Option2": "It compromises security, allowing potential attackers to forge signed cookies, manipulate sessions, and more.",
+    "Option3": "It increases memory usage.",
+    "4": "It causes deployment issues.",
+    "Answer": "It compromises security, allowing potential attackers to forge signed cookies, manipulate sessions, and more."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `DEBUG_PROPAGATE_EXCEPTIONS` in `settings.py`?",
+    "Option1": "It always displays full tracebacks.",
+    "Option2": "When `True`, it makes exceptions from views propagate up to the `WSGI` handler instead of being handled by Django's error views.",
+    "Option3": "It logs all exceptions.",
+    "4": "It converts all exceptions to 404 errors.",
+    "Answer": "When `True`, it makes exceptions from views propagate up to the `WSGI` handler instead of being handled by Django's error views."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `DEFAULT_AUTO_FIELD` in `settings.py`?",
+    "Option1": "To specify the default type for all primary key fields.",
+    "Option2": "To define the default auto-incrementing primary key field for models in Django 3.2+ (e.g., `BigAutoField`).",
+    "Option3": "To set the default value for auto-generated fields.",
+    "4": "To specify the default foreign key.",
+    "Answer": "To define the default auto-incrementing primary key field for models in Django 3.2+ (e.g., `BigAutoField`)."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is `HttpRequest.META`?",
+    "Option1": "A dictionary containing request parameters from GET.",
+    "Option2": "A dictionary containing all available HTTP headers, along with other environment variables.",
+    "Option3": "A dictionary containing POST data.",
+    "4": "A dictionary containing session data.",
+    "Answer": "A dictionary containing all available HTTP headers, along with other environment variables."
+  },
+  {
+    "question_no.": 143,
+    "Question": "How do you access the current user object in a Django view?",
+    "Option1": "request.user",
+    "Option2": "User.current()",
+    "Option3": "request.session.user",
+    "4": "get_current_user()",
+    "Answer": "request.user"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `is_authenticated` property of `request.user`?",
+    "Option1": "It is always True.",
+    "Option2": "A boolean indicating whether the user is currently logged in.",
+    "Option3": "A boolean indicating if the user is an administrator.",
+    "4": "A method to authenticate the user.",
+    "Answer": "A boolean indicating whether the user is currently logged in."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `is_superuser` property of `request.user`?",
+    "Option1": "A boolean indicating if the user is an active staff member.",
+    "Option2": "A boolean indicating if the user has all permissions granted (i.e., is a superuser).",
+    "Option3": "A boolean indicating if the user is logged in.",
+    "4": "A method to grant superuser access.",
+    "Answer": "A boolean indicating if the user has all permissions granted (i.e., is a superuser)."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is `django.contrib.sites` app used for?",
+    "Option1": "To manage multiple users.",
+    "Option2": "To enable Django applications to operate across multiple websites, each with its own content and data.",
+    "Option3": "To manage site-wide static files.",
+    "4": "To manage site security.",
+    "Answer": "To enable Django applications to operate across multiple websites, each with its own content and data."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is `SITE_ID` in `settings.py` used for?",
+    "Option1": "To uniquely identify a user.",
+    "Option2": "To specify the ID of the current site object from `django.contrib.sites` when running a single-site Django project.",
+    "Option3": "To define the site's default language.",
+    "4": "To set the site's theme.",
+    "Answer": "To specify the ID of the current site object from `django.contrib.sites` when running a single-site Django project."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of `Django Channels`?",
+    "Option1": "For traditional HTTP requests only.",
+    "Option2": "To allow Django to handle asynchronous protocols like WebSockets, Chat, and IoT protocols, extending its capabilities beyond HTTP.",
+    "Option3": "For caching database queries.",
+    "4": "For managing user sessions.",
+    "Answer": "To allow Django to handle asynchronous protocols like WebSockets, Chat, and IoT protocols, extending its capabilities beyond HTTP."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is a 'consumer' in Django Channels?",
+    "Option1": "A Django view function.",
+    "Option2": "An asynchronous equivalent of a view function, handling incoming events from WebSockets or other channels.",
+    "Option3": "A Django model.",
+    "4": "A Django template.",
+    "Answer": "An asynchronous equivalent of a view function, handling incoming events from WebSockets or other channels."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is `AsgiHandler` in Django Channels?",
+    "Option1": "A synchronous handler.",
+    "Option2": "The main entry point for an ASGI application in Django, similar to WSGIHandler for synchronous applications.",
+    "Option3": "A handler for database connections.",
+    "4": "A handler for static files.",
+    "Answer": "The main entry point for an ASGI application in Django, similar to WSGIHandler for synchronous applications."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is `routing.py` in Django Channels?",
+    "Option1": "It defines HTTP routes.",
+    "Option2": "It defines how incoming connections (e.g., WebSocket connections) are routed to specific consumers.",
+    "Option3": "It defines database migrations.",
+    "4": "It defines static file paths.",
+    "Answer": "It defines how incoming connections (e.g., WebSocket connections) are routed to specific consumers."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is a `Channel Layer` in Django Channels?",
+    "Option1": "A direct connection between two clients.",
+    "Option2": "A system for communicating between different Django processes, allowing them to send and receive messages, often using Redis or other backend stores.",
+    "Option3": "A layer for database communication.",
+    "4": "A layer for handling HTTP requests.",
+    "Answer": "A system for communicating between different Django processes, allowing them to send and receive messages, often using Redis or other backend stores."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `Group` in Django Channels?",
+    "Option1": "A single user.",
+    "Option2": "A collection of channel names, allowing you to send messages to multiple connected clients (channels) at once.",
+    "Option3": "A database table.",
+    "4": "A user permission level.",
+    "Answer": "A collection of channel names, allowing you to send messages to multiple connected clients (channels) at once."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is `Celery` used for with Django?",
+    "Option1": "For real-time data processing.",
+    "Option2": "A distributed task queue that allows you to execute long-running or resource-intensive tasks asynchronously, outside of the main request-response cycle.",
+    "Option3": "For caching API responses.",
+    "4": "For sending HTTP requests.",
+    "Answer": "A distributed task queue that allows you to execute long-running or resource-intensive tasks asynchronously, outside of the main request-response cycle."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is a 'broker' in Celery?",
+    "Option1": "The component that processes tasks.",
+    "Option2": "A messaging queue (e.g., Redis, RabbitMQ) that mediates between Celery producers (tasks) and consumers (workers).",
+    "Option3": "The component that stores results.",
+    "4": "The component that defines tasks.",
+    "Answer": "A messaging queue (e.g., Redis, RabbitMQ) that mediates between Celery producers (tasks) and consumers (workers)."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is a 'worker' in Celery?",
+    "Option1": "The component that sends tasks.",
+    "Option2": "The process that executes the tasks submitted to the Celery broker.",
+    "Option3": "The component that stores task results.",
+    "4": "The component that configures Celery.",
+    "Answer": "The process that executes the tasks submitted to the Celery broker."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is `CSRF_COOKIE_SECURE` in `settings.py`?",
+    "Option1": "It forces CSRF cookies to be sent only over HTTP.",
+    "Option2": "It forces CSRF cookies to be sent only over HTTPS, enhancing security.",
+    "Option3": "It disables CSRF protection.",
+    "4": "It encrypts CSRF tokens.",
+    "Answer": "It forces CSRF cookies to be sent only over HTTPS, enhancing security."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is `SESSION_COOKIE_SECURE` in `settings.py`?",
+    "Option1": "It forces session cookies to be sent only over HTTP.",
+    "Option2": "It forces session cookies to be sent only over HTTPS, enhancing security.",
+    "Option3": "It disables session cookies.",
+    "4": "It encrypts session data.",
+    "Answer": "It forces session cookies to be sent only over HTTPS, enhancing security."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `X_FRAME_OPTIONS` in `settings.py`?",
+    "Option1": "To control browser caching.",
+    "Option2": "To protect against Clickjacking attacks by controlling whether your site can be embedded in an iframe.",
+    "Option3": "To manage cross-origin requests.",
+    "4": "To set HTTP response headers.",
+    "Answer": "To protect against Clickjacking attacks by controlling whether your site can be embedded in an iframe."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `CORS_ORIGIN_ALLOW_ALL` in `settings.py` (with django-cors-headers)?",
+    "Option1": "It restricts CORS to specific origins.",
+    "Option2": "When `True`, it allows cross-origin requests from all origins (less secure for production).",
+    "Option3": "It disables CORS protection.",
+    "4": "It enables CORS only for authenticated users.",
+    "Answer": "When `True`, it allows cross-origin requests from all origins (less secure for production)."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `CORS_ALLOWED_ORIGINS` in `settings.py` (with django-cors-headers)?",
+    "Option1": "A list of all blocked origins.",
+    "Option2": "A list of origins that are permitted to make cross-origin requests.",
+    "Option3": "A list of internal IP addresses.",
+    "4": "A list of allowed HTTP methods.",
+    "Answer": "A list of origins that are permitted to make cross-origin requests."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is `Gunicorn`?",
+    "Option1": "A web server for static files.",
+    "Option2": "A Python WSGI HTTP Server for UNIX, often used to deploy Django applications in production.",
+    "Option3": "A database server.",
+    "4": "A frontend development tool.",
+    "Answer": "A Python WSGI HTTP Server for UNIX, often used to deploy Django applications in production."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is `Nginx` used for in a Django deployment?",
+    "Option1": "To serve dynamic content directly.",
+    "Option2": "A high-performance web server and reverse proxy, often used to serve static files and proxy requests to Django (via Gunicorn/uWSGI).",
+    "Option3": "To manage database connections.",
+    "4": "To run background tasks.",
+    "Answer": "A high-performance web server and reverse proxy, often used to serve static files and proxy requests to Django (via Gunicorn/uWSGI)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is `uWSGI`?",
+    "Option1": "A JavaScript framework.",
+    "Option2": "A fast, self-healing, and developer-friendly application server container, often used to deploy Django applications.",
+    "Option3": "A database migration tool.",
+    "4": "A static file compressor.",
+    "Answer": "A fast, self-healing, and developer-friendly application server container, often used to deploy Django applications."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `Collectd` or `Prometheus` used for in a Django setup?",
+    "Option1": "Database backups.",
+    "Option2": "Monitoring system performance and application metrics.",
+    "Option3": "User authentication.",
+    "4": "Deploying the application.",
+    "Answer": "Monitoring system performance and application metrics."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is `Django Debug Toolbar`?",
+    "Option1": "A tool for production monitoring.",
+    "Option2": "A set of configurable panels that display debugging information about the current request/response, useful during development.",
+    "Option3": "A tool for fixing database errors.",
+    "4": "A tool for optimizing templates.",
+    "Answer": "A set of configurable panels that display debugging information about the current request/response, useful during development."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the purpose of `SQLALCHEMY` (in a general sense, not specific to Django)?",
+    "Option1": "A framework for frontend development.",
+    "Option2": "A Python SQL toolkit and Object Relational Mapper that provides a full suite of well-known persistence patterns for application developers.",
+    "Option3": "A library for data visualization.",
+    "4": "A tool for managing network connections.",
+    "Answer": "A Python SQL toolkit and Object Relational Mapper that provides a full suite of well-known persistence patterns for application developers."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is the primary difference between Django's ORM and SQLAlchemy's ORM?",
+    "Option1": "Django's ORM is more complex.",
+    "Option2": "Django's ORM is tightly coupled with Django, while SQLAlchemy's ORM is a standalone library and often more flexible/powerful for complex database interactions.",
+    "Option3": "SQLAlchemy's ORM is only for NoSQL databases.",
+    "4": "Django's ORM does not support relationships.",
+    "Answer": "Django's ORM is tightly coupled with Django, while SQLAlchemy's ORM is a standalone library and often more flexible/powerful for complex database interactions."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is `logging` in Django?",
+    "Option1": "A system for tracking user activity.",
+    "Option2": "A way to record events that happen while a server or application is running, useful for debugging and monitoring.",
+    "Option3": "A framework for user authentication.",
+    "4": "A method for caching data.",
+    "Answer": "A way to record events that happen while a server or application is running, useful for debugging and monitoring."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `LOGGING` configuration in `settings.py`?",
+    "Option1": "To disable all logging.",
+    "Option2": "A dictionary that defines the logging setup, including loggers, handlers, formatters, and filters.",
+    "Option3": "To specify the log file path only.",
+    "4": "To enable debug mode.",
+    "Answer": "A dictionary that defines the logging setup, including loggers, handlers, formatters, and filters."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `south` (historically) used for in Django?",
+    "Option1": "For static file management.",
+    "Option2": "A third-party application that provided migration capabilities for Django models before migrations were built into Django core.",
+    "Option3": "For form validation.",
+    "4": "For user authentication.",
+    "Answer": "A third-party application that provided migration capabilities for Django models before migrations were built into Django core."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the purpose of `AbstractBaseUser` in custom user models?",
+    "Option1": "It provides all fields from Django's default User model.",
+    "Option2": "It provides the core implementation of a user model, allowing you to completely customize fields like username and email, but requiring you to handle permissions and groups yourself.",
+    "Option3": "It handles user authentication automatically.",
+    "4": "It's used for read-only user models.",
+    "Answer": "It provides the core implementation of a user model, allowing you to completely customize fields like username and email, but requiring you to handle permissions and groups yourself."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the purpose of `AbstractUser` in custom user models?",
+    "Option1": "It requires you to implement all authentication logic.",
+    "Option2": "It extends Django's default user model, providing common fields (username, email, password, etc.) while allowing you to add custom fields and methods.",
+    "Option3": "It's for creating superusers only.",
+    "4": "It's used for anonymous users.",
+    "Answer": "It extends Django's default user model, providing common fields (username, email, password, etc.) while allowing you to add custom fields and methods."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `System checks framework` in Django?",
+    "Option1": "A tool for running tests.",
+    "Option2": "A framework that performs checks on your Django project at startup to catch common problems (e.g., incorrect settings, model issues) and provide helpful warnings/errors.",
+    "Option3": "A tool for generating code.",
+    "4": "A tool for deploying applications.",
+    "Answer": "A framework that performs checks on your Django project at startup to catch common problems (e.g., incorrect settings, model issues) and provide helpful warnings/errors."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is `prefetch_related` used for with `ManyToMany` fields?",
+    "Option1": "To retrieve the ManyToMany objects in a single query.",
+    "Option2": "To fetch the related ManyToMany objects for each main object using separate, optimized queries and then join them in Python, avoiding N+1 queries.",
+    "Option3": "To only retrieve a subset of ManyToMany objects.",
+    "4": "To create new ManyToMany relationships.",
+    "Answer": "To fetch the related ManyToMany objects for each main object using separate, optimized queries and then join them in Python, avoiding N+1 queries."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is the purpose of `Model.objects.create()`?",
+    "Option1": "To retrieve an existing object.",
+    "Option2": "A convenience method that creates and saves a new object in a single step.",
+    "Option3": "To update an existing object.",
+    "4": "To delete an object.",
+    "Answer": "A convenience method that creates and saves a new object in a single step."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is the purpose of `Model.objects.get_or_create()`?",
+    "Option1": "To always create a new object.",
+    "Option2": "To retrieve an object if it exists, or create it if it doesn't, returning a tuple of (object, created) where `created` is a boolean.",
+    "Option3": "To get an object and then delete it.",
+    "4": "To get or create a queryset.",
+    "Answer": "To retrieve an object if it exists, or create it if it doesn't, returning a tuple of (object, created) where `created` is a boolean."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the purpose of `Model.objects.update_or_create()`?",
+    "Option1": "To always create a new object.",
+    "Option2": "To update an object if it exists, or create it if it doesn't, returning a tuple of (object, created).",
+    "Option3": "To delete and then create an object.",
+    "4": "To get an object and then update it, always.",
+    "Answer": "To update an object if it exists, or create it if it doesn't, returning a tuple of (object, created)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the purpose of `Model.objects.bulk_create()`?",
+    "Option1": "To create one object at a time.",
+    "Option2": "To create multiple objects in a single database query, significantly improving performance compared to saving each object individually.",
+    "Option3": "To update multiple objects.",
+    "4": "To delete multiple objects.",
+    "Answer": "To create multiple objects in a single database query, significantly improving performance compared to saving each object individually."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the purpose of `Model.objects.bulk_update()`?",
+    "Option1": "To update objects one by one.",
+    "Option2": "To update multiple existing objects in a single database query, rather than calling `save()` on each object individually.",
+    "Option3": "To create multiple new objects.",
+    "4": "To delete multiple objects.",
+    "Answer": "To update multiple existing objects in a single database query, rather than calling `save()` on each object individually."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `django.contrib.postgres`?",
+    "Option1": "An app for MySQL database integration.",
+    "Option2": "A collection of Django-specific features and utilities for PostgreSQL, leveraging its advanced capabilities (e.g., JSONField, ArrayField).",
+    "Option3": "An app for SQLite database management.",
+    "4": "An app for Oracle database integration.",
+    "Answer": "A collection of Django-specific features and utilities for PostgreSQL, leveraging its advanced capabilities (e.g., JSONField, ArrayField)."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `JSONField` in Django models?",
+    "Option1": "A field for storing plain text.",
+    "Option2": "A field for storing JSON data directly in the database, allowing querying and manipulation of JSON documents.",
+    "Option3": "A field for storing encrypted data.",
+    "4": "A field for storing dates and times.",
+    "Answer": "A field for storing JSON data directly in the database, allowing querying and manipulation of JSON documents."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `ArrayField` in Django models (from `django.contrib.postgres`)?",
+    "Option1": "A field for storing a single string.",
+    "Option2": "A field for storing a list of values in a single database column.",
+    "Option3": "A field for storing binary data.",
+    "4": "A field for storing key-value pairs.",
+    "Answer": "A field for storing a list of values in a single database column."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `search_fields` in `ModelAdmin`?",
+    "Option1": "Fields to be displayed in the list view.",
+    "Option2": "A list of field names that the Django admin can search by.",
+    "Option3": "Fields to be excluded from forms.",
+    "4": "Fields to be ordered by default.",
+    "Answer": "A list of field names that the Django admin can search by."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is `list_display` in `ModelAdmin`?",
+    "Option1": "Fields to be shown in the detail view.",
+    "Option2": "A list of field names to display as columns on the change list page of the Django admin.",
+    "Option3": "Fields to be editable in the list view.",
+    "4": "Fields to be filtered by.",
+    "Answer": "A list of field names to display as columns on the change list page of the Django admin."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is `list_filter` in `ModelAdmin`?",
+    "Option1": "Fields that cannot be filtered.",
+    "Option2": "A list of field names that enable filtering options in the sidebar of the Django admin change list page.",
+    "Option3": "Fields to be searched.",
+    "4": "Fields to be ordered.",
+    "Answer": "A list of field names that enable filtering options in the sidebar of the Django admin change list page."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is `formfield_for_foreignkey` method in `ModelAdmin`?",
+    "Option1": "To customize the display of a foreign key field in the admin form.",
+    "Option2": "To define the behavior of foreign key deletion.",
+    "Option3": "To add a new foreign key field.",
+    "4": "To get the related object of a foreign key.",
+    "Answer": "To customize the display of a foreign key field in the admin form."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is `raw_id_fields` in `ModelAdmin`?",
+    "Option1": "Fields that are hidden in the admin.",
+    "Option2": "A tuple of field names that should be displayed as a plain text input widget containing the primary key of the related object, instead of a select box.",
+    "Option3": "Fields for raw SQL input.",
+    "4": "Fields that are read-only.",
+    "Answer": "A tuple of field names that should be displayed as a plain text input widget containing the primary key of the related object, instead of a select box."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `readonly_fields` in `ModelAdmin`?",
+    "Option1": "Fields that can be edited.",
+    "Option2": "A tuple of field names that will be displayed in the admin but not editable.",
+    "Option3": "Fields that are required.",
+    "4": "Fields that are hidden.",
+    "Answer": "A tuple of field names that will be displayed in the admin but not editable."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `fieldsets` in `ModelAdmin`?",
+    "Option1": "To group fields into sections on the admin form, improving readability.",
+    "Option2": "To define database tables.",
+    "Option3": "To specify fields for filtering.",
+    "4": "To define list display columns.",
+    "Answer": "To group fields into sections on the admin form, improving readability."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `inlines` in `ModelAdmin`?",
+    "Option1": "To embed related model objects directly on the same admin page as their parent object.",
+    "Option2": "To define the order of fields.",
+    "Option3": "To add custom CSS to the admin.",
+    "4": "To create new models.",
+    "Answer": "To embed related model objects directly on the same admin page as their parent object."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `StackedInline` and `TabularInline`?",
+    "Option1": "They are the same.",
+    "Option2": "`StackedInline` displays related objects stacked vertically; `TabularInline` displays them in a tabular format (like a spreadsheet).",
+    "Option3": "Both are for non-editable fields.",
+    "4": "Both are for displaying separate forms.",
+    "Answer": "`StackedInline` displays related objects stacked vertically; `TabularInline` displays them in a tabular format (like a spreadsheet)."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is `prepopulated_fields` in `ModelAdmin`?",
+    "Option1": "Fields that are hidden.",
+    "Option2": "A dictionary mapping field names to a list of other field names whose values will be automatically used to populate the target field (e.g., for creating slugs).",
+    "Option3": "Fields that are read-only.",
+    "4": "Fields that are optional.",
+    "Answer": "A dictionary mapping field names to a list of other field names whose values will be automatically used to populate the target field (e.g., for creating slugs)."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the purpose of `AUTHENTICATION_BACKENDS` in `settings.py`?",
+    "Option1": "To specify the database to use for authentication.",
+    "Option2": "A list of authentication backend classes that Django's authentication system will try when authenticating a user.",
+    "Option3": "To define custom user permissions.",
+    "4": "To set the password hashing algorithm.",
+    "Answer": "A list of authentication backend classes that Django's authentication system will try when authenticating a user."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is `DEFAULT_FILE_STORAGE` in `settings.py`?",
+    "Option1": "To specify where static files are stored.",
+    "Option2": "To specify the default storage class used for handling file uploads (e.g., local filesystem, S3).",
+    "Option3": "To define the database backup location.",
+    "4": "To configure caching.",
+    "Answer": "To specify the default storage class used for handling file uploads (e.g., local filesystem, S3)."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `django-storages`?",
+    "Option1": "A Django app for database management.",
+    "Option2": "A collection of custom storage backends for Django, allowing integration with cloud storage services like Amazon S3, Azure Storage, etc.",
+    "Option3": "A Django app for image processing.",
+    "4": "A Django app for full-text search.",
+    "Answer": "A collection of custom storage backends for Django, allowing integration with cloud storage services like Amazon S3, Azure Storage, etc."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is `django-filter`?",
+    "Option1": "A Django app for rendering templates.",
+    "Option2": "A reusable Django application for filtering querysets, often used with Django REST Framework.",
+    "Option3": "A Django app for user authentication.",
+    "4": "A Django app for sending emails.",
+    "Answer": "A reusable Django application for filtering querysets, often used with Django REST Framework."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `django-crispy-forms`?",
+    "Option1": "A Django app for creating complex forms.",
+    "Option2": "A reusable Django application that provides a programmatic way to control the rendering behavior of Django forms, making them DRY and visually appealing with popular CSS frameworks.",
+    "Option3": "A Django app for form validation.",
+    "4": "A Django app for user registration.",
+    "Answer": "A reusable Django application that provides a programmatic way to control the rendering behavior of Django forms, making them DRY and visually appealing with popular CSS frameworks."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is `django-allauth`?",
+    "Option1": "A Django app for social media integration only.",
+    "Option2": "A highly integrated set of Django applications for handling user authentication, including registration, login, password recovery, and social account integration.",
+    "Option3": "A Django app for multi-factor authentication.",
+    "4": "A Django app for user profiles.",
+    "Answer": "A highly integrated set of Django applications for handling user authentication, including registration, login, password recovery, and social account integration."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `django-debug-toolbar`?",
+    "Option1": "A tool for production monitoring.",
+    "Option2": "A customizable debugging tool for Django projects that displays various information about the current request/response, including SQL queries, templates, and more.",
+    "Option3": "A tool for fixing database errors.",
+    "4": "A tool for optimizing static files.",
+    "Answer": "A customizable debugging tool for Django projects that displays various information about the current request/response, including SQL queries, templates, and more."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the primary function of `django-taggit`?",
+    "Option1": "To manage user roles.",
+    "Option2": "To add simple tagging functionality to Django models.",
+    "Option3": "To handle URL routing.",
+    "4": "To manage media files.",
+    "Answer": "To add simple tagging functionality to Django models."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `django-ckeditor`?",
+    "Option1": "A Django app for image galleries.",
+    "Option2": "A Django app that integrates the CKEditor rich text editor into Django admin and forms.",
+    "Option3": "A Django app for creating custom forms.",
+    "4": "A Django app for displaying maps.",
+    "Answer": "A Django app that integrates the CKEditor rich text editor into Django admin and forms."
+  }
+]

@@ -1,0 +1,883 @@
+[
+  {
+    "id": "GuessFood",
+    "name": "Food & Drinks 🍽️",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "cooking-kitchen",
+        "name": "Cooking & Kitchen Terms 🥘",
+        "description": "Common cooking techniques, tools, and terms.",
+        "path": "assets/GuessTheWord/Food & Drinks/Cooking & Kitchen Terms.json"
+      },
+      {
+        "id": "desserts-sweets",
+        "name": "Desserts & Sweets 🍰",
+        "description": "Popular desserts and sweet treats from around the world.",
+        "path": "assets/GuessTheWord/Food & Drinks/Desserts & Sweets.json"
+      },
+      {
+        "id": "drinks-beverages",
+        "name": "Drinks & Beverages 🍹",
+        "description": "Refreshing drinks and popular beverages.",
+        "path": "assets/GuessTheWord/Food & Drinks/Drinks & Beverages.json"
+      },
+      {
+        "id": "food-types",
+        "name": "Food Types 🍕",
+        "description": "Different types of foods from various cuisines.",
+        "path": "assets/GuessTheWord/Food & Drinks/Food Types.json"
+      },
+      {
+        "id": "fruits",
+        "name": "Fruits 🍎",
+        "description": "A variety of fruits from around the world.",
+        "path": "assets/GuessTheWord/Food & Drinks/Fruits.json"
+      },
+      {
+        "id": "vegetables",
+        "name": "Vegetables 🥦",
+        "description": "Common and exotic vegetables.",
+        "path": "assets/GuessTheWord/Food & Drinks/Vegetables.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessGames",
+    "name": "Games 🎮",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "board-games",
+        "name": "Board Games 🎲",
+        "description": "Classic board games played around the world.",
+        "path": "assets/GuessTheWord/Games/Board Games.json"
+      },
+      {
+        "id": "card-games",
+        "name": "Card Games 🃏",
+        "description": "Popular card games from poker to uno.",
+        "path": "assets/GuessTheWord/Games/Card Games.json"
+      },
+      {
+        "id": "outdoor-games",
+        "name": "Outdoor Games 🏏",
+        "description": "Traditional outdoor games and playground favorites.",
+        "path": "assets/GuessTheWord/Games/Outdoor Games.json"
+      },
+      {
+        "id": "arcade-games",
+        "name": "Arcade Classics 🕹️",
+        "description": "Retro arcade hits from the golden age of gaming.",
+        "path": "assets/GuessTheWord/Games/Arcade Classics.json"
+      },
+      {
+        "id": "retro-console",
+        "name": "Retro Console Games 🎮",
+        "description": "Classic Nintendo, Sega, and PlayStation titles.",
+        "path": "assets/GuessTheWord/Games/Retro Console Games.json"
+      },
+      {
+        "id": "modern-games",
+        "name": "Modern Video Games 🔥",
+        "description": "Popular modern hits played worldwide.",
+        "path": "assets/GuessTheWord/Games/Modern Video Games.json"
+      },
+      {
+        "id": "mobile-games",
+        "name": "Mobile Games 📱",
+        "description": "Famous games played on smartphones and tablets.",
+        "path": "assets/GuessTheWord/Games/Mobile Games.json"
+      },
+      {
+        "id": "pc-games",
+        "name": "PC Games 💻",
+        "description": "Iconic games made for computers.",
+        "path": "assets/GuessTheWord/Games/PC Games.json"
+      },
+      {
+        "id": "rpg",
+        "name": "Role-Playing Games 🧙",
+        "description": "Fantasy RPGs filled with quests and adventures.",
+        "path": "assets/GuessTheWord/Games/Role-Playing Games.json"
+      },
+      {
+        "id": "sports-games",
+        "name": "Sports Games ⚽",
+        "description": "Football, basketball, racing, and more in gaming.",
+        "path": "assets/GuessTheWord/Games/Sports Games.json"
+      },
+      {
+        "id": "puzzle-games",
+        "name": "Puzzle Games 🧩",
+        "description": "Challenging puzzle and brain teaser games.",
+        "path": "assets/GuessTheWord/Games/Puzzle Games.json"
+      },
+      {
+        "id": "simulation",
+        "name": "Simulation Games 🛠️",
+        "description": "Games that simulate real-world activities.",
+        "path": "assets/GuessTheWord/Games/Simulation Games.json"
+      },
+      {
+        "id": "strategy-games",
+        "name": "Strategy Games 🧠",
+        "description": "Plan and conquer with strategic gameplay.",
+        "path": "assets/GuessTheWord/Games/Strategy Games.json"
+      },
+      {
+        "id": "fighting-games",
+        "name": "Fighting Games 🥊",
+        "description": "1v1 fighting games with iconic characters.",
+        "path": "assets/GuessTheWord/Games/Fighting Games.json"
+      },
+      {
+        "id": "battle-royale",
+        "name": "Battle Royale 🔫",
+        "description": "Last player standing survival games.",
+        "path": "assets/GuessTheWord/Games/Battle Royale.json"
+      },
+      {
+        "id": "moba",
+        "name": "MOBA ⚡",
+        "description": "Team-based Multiplayer Online Battle Arenas.",
+        "path": "assets/GuessTheWord/Games/MOBA.json"
+      },
+      {
+        "id": "fps",
+        "name": "FPS Games 🎯",
+        "description": "First-person shooters from classics to modern hits.",
+        "path": "assets/GuessTheWord/Games/FPS Games.json"
+      },
+      {
+        "id": "co-op",
+        "name": "Co-op Games 🤝",
+        "description": "Games designed for cooperative play.",
+        "path": "assets/GuessTheWord/Games/Co-op Games.json"
+      },
+      {
+        "id": "party-games",
+        "name": "Party Games 🎉",
+        "description": "Fun social games for groups and families.",
+        "path": "assets/GuessTheWord/Games/Party Games.json"
+      },
+      {
+        "id": "indie-games",
+        "name": "Indie Games 🌟",
+        "description": "Creative and unique indie gaming titles.",
+        "path": "assets/GuessTheWord/Games/Indie Games.json"
+      },
+      {
+        "id": "vr-ar",
+        "name": "VR & AR Games 🥽",
+        "description": "Virtual and augmented reality gaming experiences.",
+        "path": "assets/GuessTheWord/Games/VR & AR Games.json"
+      },
+      {
+        "id": "esports",
+        "name": "Esports 🏆",
+        "description": "Competitive games played in global tournaments.",
+        "path": "assets/GuessTheWord/Games/Esports.json"
+      },
+      {
+        "id": "classic-kids",
+        "name": "Classic Kids Games 🧒",
+        "description": "Simple and fun games for children.",
+        "path": "assets/GuessTheWord/Games/Classic Kids Games.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessGeo",
+    "name": "Geography 🌍",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "cities",
+        "name": "Cities of the World 🌆",
+        "description": "Test your knowledge of major cities around the globe.",
+        "path": "assets/GuessTheWord/Geography/Cities of the World.json"
+      },
+      {
+        "id": "continents",
+        "name": "Continents and Oceans 🌍",
+        "description": "Explore Earth's major landmasses and water bodies.",
+        "path": "assets/GuessTheWord/Geography/Continents and Oceans.json"
+      },
+      {
+        "id": "countries",
+        "name": "Countries and Capitals 🏙️",
+        "description": "Learn about world countries and their capitals.",
+        "path": "assets/GuessTheWord/Geography/Countries and Capitals.json"
+      },
+      {
+        "id": "deserts",
+        "name": "World Deserts 🏜️",
+        "description": "Discover Earth's largest and most famous deserts.",
+        "path": "assets/GuessTheWord/Geography/World Deserts.json"
+      },
+      {
+        "id": "heritage",
+        "name": "World Heritage Sites 🏛️",
+        "description": "Explore UNESCO's most significant cultural and natural sites.",
+        "path": "assets/GuessTheWord/Geography/World Heritage Sites.json"
+      },
+      {
+        "id": "islands",
+        "name": "Islands and Archipelagos 🏝️",
+        "description": "Learn about significant islands and island groups.",
+        "path": "assets/GuessTheWord/Geography/Islands and Archipelagos.json"
+      },
+      {
+        "id": "landmarks",
+        "name": "Famous Landmarks 🗽",
+        "description": "Identify iconic landmarks around the world.",
+        "path": "assets/GuessTheWord/Geography/Famous Landmarks.json"
+      },
+      {
+        "id": "parks",
+        "name": "National Parks 🌲",
+        "description": "Discover famous national parks around the world.",
+        "path": "assets/GuessTheWord/Geography/National Parks.json"
+      },
+      {
+        "id": "rivers",
+        "name": "Rivers and Mountains 🏞️",
+        "description": "Explore Earth's greatest rivers and mountain ranges.",
+        "path": "assets/GuessTheWord/Geography/Rivers and Mountains.json"
+      },
+      {
+        "id": "seas",
+        "name": "Seas and Bays 🌊",
+        "description": "Identify the world's seas, bays, and coastal features.",
+        "path": "assets/GuessTheWord/Geography/Seas and Bays.json"
+      },
+      {
+        "id": "terms",
+        "name": "Geographical Terms 🌐",
+        "description": "Understand common terms used in geography.",
+        "path": "assets/GuessTheWord/Geography/Geographical Terms.json"
+      },
+      {
+        "id": "volcanoes",
+        "name": "Volcanoes 🌋",
+        "description": "Learn about the Earth's most famous volcanoes.",
+        "path": "assets/GuessTheWord/Geography/Volcanoes.json"
+      },
+      {
+        "id": "wonders",
+        "name": "Natural Wonders 🌋",
+        "description": "Explore breathtaking natural formations and landscapes.",
+        "path": "assets/GuessTheWord/Geography/Natural Wonders.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessHistory",
+    "name": "History 📜",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "ancient-civilizations",
+        "name": "Ancient Civilizations 🏺",
+        "description": "Explore early cultures and societies that shaped our world.",
+        "path": "assets/GuessTheWord/History/Ancient Civilizations.json"
+      },
+      {
+        "id": "ancient-empires",
+        "name": "Ancient Empires 🏛️",
+        "description": "Learn about powerful empires of the past.",
+        "path": "assets/GuessTheWord/History/Ancient Empires.json"
+      },
+      {
+        "id": "battles",
+        "name": "Famous Battles ⚔️",
+        "description": "Identify decisive battles across history.",
+        "path": "assets/GuessTheWord/History/Famous Battles.json"
+      },
+      {
+        "id": "documents",
+        "name": "Famous Documents 📜",
+        "description": "Discover influential documents that changed history.",
+        "path": "assets/GuessTheWord/History/Famous Documents.json"
+      },
+      {
+        "id": "events",
+        "name": "Historical Events 🗓️",
+        "description": "Test your knowledge of major world events.",
+        "path": "assets/GuessTheWord/History/Historical Events.json"
+      },
+      {
+        "id": "explorers",
+        "name": "Explorers and Expeditions 🧭",
+        "description": "Identify great explorers and their journeys.",
+        "path": "assets/GuessTheWord/History/Explorers and Expeditions.json"
+      },
+      {
+        "id": "inventions",
+        "name": "Inventions in History 💡",
+        "description": "Explore groundbreaking inventions and discoveries.",
+        "path": "assets/GuessTheWord/History/Inventions in History.json"
+      },
+      {
+        "id": "leaders",
+        "name": "Historical Leaders 👑",
+        "description": "Learn about impactful leaders and figures.",
+        "path": "assets/GuessTheWord/History/Historical Leaders.json"
+      },
+      {
+        "id": "medieval",
+        "name": "Medieval History 🏰",
+        "description": "Step into the Middle Ages and explore medieval times.",
+        "path": "assets/GuessTheWord/History/Medieval History.json"
+      },
+      {
+        "id": "monuments",
+        "name": "Historical Monuments 🏯",
+        "description": "Identify famous monuments built through the ages.",
+        "path": "assets/GuessTheWord/History/Historical Monuments.json"
+      },
+      {
+        "id": "renaissance",
+        "name": "Renaissance and Enlightenment 🎨",
+        "description": "Discover the thinkers, artists, and ideas of these eras.",
+        "path": "assets/GuessTheWord/History/Renaissance and Enlightenment.json"
+      },
+      {
+        "id": "revolutions",
+        "name": "Revolutions 🔥",
+        "description": "Learn about the revolutions that transformed societies.",
+        "path": "assets/GuessTheWord/History/Revolutions.json"
+      },
+      {
+        "id": "women",
+        "name": "Women's History 👩‍🎓",
+        "description": "Celebrate the achievements of women throughout history.",
+        "path": "assets/GuessTheWord/History/Women's History.json"
+      },
+      {
+        "id": "world-wars",
+        "name": "World Wars 🌐",
+        "description": "Test your knowledge of WWI and WWII.",
+        "path": "assets/GuessTheWord/History/World Wars.json"
+      },
+      {
+        "id": "ancient-dates",
+        "name": "Ancient History Dates 📅",
+        "description": "Match important dates from ancient civilizations.",
+        "path": "assets/GuessTheWord/History/Ancient History Dates.json"
+      },
+      {
+        "id": "medieval-dates",
+        "name": "Medieval History Dates 🏰📅",
+        "description": "Key dates and events from the Middle Ages.",
+        "path": "assets/GuessTheWord/History/Medieval History Dates.json"
+      },
+      {
+        "id": "modern-dates",
+        "name": "Modern History Dates 🕰️",
+        "description": "Discover major dates that shaped the modern world.",
+        "path": "assets/GuessTheWord/History/Modern History Dates.json"
+      },
+      {
+        "id": "independence-dates",
+        "name": "Independence Dates 🎆",
+        "description": "Identify independence days of nations worldwide.",
+        "path": "assets/GuessTheWord/History/Independence Dates.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessScience",
+    "name": "Science 🔬",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "astronomy",
+        "name": "Astronomy 🌌",
+        "description": "Discover celestial objects, planets, and space phenomena.",
+        "path": "assets/GuessTheWord/Science/Astronomy.json"
+      },
+      {
+        "id": "biology",
+        "name": "Biology 🧬",
+        "description": "Explore living organisms and life processes.",
+        "path": "assets/GuessTheWord/Science/Biology.json"
+      },
+      {
+        "id": "botany",
+        "name": "Botany 🌱",
+        "description": "Learn about plants, trees, and their structures.",
+        "path": "assets/GuessTheWord/Science/Botany.json"
+      },
+      {
+        "id": "chemistry",
+        "name": "Chemistry ⚗️",
+        "description": "Understand elements, compounds, and chemical reactions.",
+        "path": "assets/GuessTheWord/Science/Chemistry.json"
+      },
+      {
+        "id": "earth-science",
+        "name": "Earth Science 🌍",
+        "description": "Study our planet's landforms, climate, and resources.",
+        "path": "assets/GuessTheWord/Science/Earth Science.json"
+      },
+      {
+        "id": "ecology",
+        "name": "Ecology 🌿",
+        "description": "Learn about ecosystems, habitats, and environmental balance.",
+        "path": "assets/GuessTheWord/Science/Ecology.json"
+      },
+      {
+        "id": "geology",
+        "name": "Geology 🪨",
+        "description": "Explore rocks, minerals, and Earth's physical structure.",
+        "path": "assets/GuessTheWord/Science/Geology.json"
+      },
+      {
+        "id": "human-anatomy",
+        "name": "Human Anatomy 🧠",
+        "description": "Discover organs, systems, and the human body.",
+        "path": "assets/GuessTheWord/Science/Human Anatomy.json"
+      },
+      {
+        "id": "marine-biology",
+        "name": "Marine Biology 🌊",
+        "description": "Study life in oceans, seas, and aquatic ecosystems.",
+        "path": "assets/GuessTheWord/Science/Marine Biology.json"
+      },
+      {
+        "id": "meteorology",
+        "name": "Meteorology 🌦️",
+        "description": "Learn about weather patterns and atmospheric science.",
+        "path": "assets/GuessTheWord/Science/Meteorology.json"
+      },
+      {
+        "id": "physics",
+        "name": "Physics 🪐",
+        "description": "Understand matter, motion, and the laws of nature.",
+        "path": "assets/GuessTheWord/Science/Physics.json"
+      },
+      {
+        "id": "zoology",
+        "name": "Zoology 🐾",
+        "description": "Study animals, their habitats, and behaviors.",
+        "path": "assets/GuessTheWord/Science/Zoology.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessSports",
+    "name": "Sports 🏆",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "baseball",
+        "name": "Baseball ⚾",
+        "description": "Test your knowledge of baseball terms, players, and history.",
+        "path": "assets/GuessTheWord/Sports/Baseball.json"
+      },
+      {
+        "id": "basketball",
+        "name": "Basketball 🏀",
+        "description": "Basketball rules, players, and famous games.",
+        "path": "assets/GuessTheWord/Sports/Basketball.json"
+      },
+      {
+        "id": "boxing",
+        "name": "Boxing 🥊",
+        "description": "Famous boxers, matches, and boxing terminology.",
+        "path": "assets/GuessTheWord/Sports/Boxing.json"
+      },
+      {
+        "id": "cricket",
+        "name": "Cricket 🏏",
+        "description": "Cricket rules, players, and tournaments.",
+        "path": "assets/GuessTheWord/Sports/Cricket.json"
+      },
+      {
+        "id": "football-soccer",
+        "name": "Football (Soccer) ⚽",
+        "description": "Football teams, players, and championships.",
+        "path": "assets/GuessTheWord/Sports/Football (Soccer).json"
+      },
+      {
+        "id": "golf",
+        "name": "Golf ⛳",
+        "description": "Golf courses, players, and famous tournaments.",
+        "path": "assets/GuessTheWord/Sports/Golf.json"
+      },
+      {
+        "id": "hockey",
+        "name": "Hockey 🏒",
+        "description": "Ice and field hockey terms, teams, and players.",
+        "path": "assets/GuessTheWord/Sports/Hockey.json"
+      },
+      {
+        "id": "rugby",
+        "name": "Rugby 🏉",
+        "description": "Rugby teams, players, and rules.",
+        "path": "assets/GuessTheWord/Sports/Rugby.json"
+      },
+      {
+        "id": "tennis",
+        "name": "Tennis 🎾",
+        "description": "Famous tennis players, tournaments, and rules.",
+        "path": "assets/GuessTheWord/Sports/Tennis.json"
+      },
+      {
+        "id": "volleyball",
+        "name": "Volleyball 🏐",
+        "description": "Volleyball rules, teams, and tournaments.",
+        "path": "assets/GuessTheWord/Sports/Volleyball.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessTechnology",
+    "name": "Technology 💻",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "ai",
+        "name": "Artificial Intelligence 🤖",
+        "description": "Learn about AI concepts, tools, and pioneers.",
+        "path": "assets/GuessTheWord/Technology/Artificial Intelligence.json"
+      },
+      {
+        "id": "computers",
+        "name": "Computers 🖥️",
+        "description": "Explore computer hardware, components, and systems.",
+        "path": "assets/GuessTheWord/Technology/Computers.json"
+      },
+      {
+        "id": "cybersecurity",
+        "name": "Cybersecurity 🔐",
+        "description": "Understand key terms related to online security.",
+        "path": "assets/GuessTheWord/Technology/Cybersecurity.json"
+      },
+      {
+        "id": "emerging-tech",
+        "name": "Emerging Technologies 🧪",
+        "description": "Learn about cutting-edge innovations in technology.",
+        "path": "assets/GuessTheWord/Technology/Emerging Technologies.json"
+      },
+      {
+        "id": "gadgets",
+        "name": "Gadgets & Devices 📱",
+        "description": "Recognize famous gadgets and modern devices.",
+        "path": "assets/GuessTheWord/Technology/Gadgets & Devices.json"
+      },
+      {
+        "id": "internet",
+        "name": "Internet 🌐",
+        "description": "Dive into terms and concepts of the online world.",
+        "path": "assets/GuessTheWord/Technology/Internet.json"
+      },
+      {
+        "id": "inventions",
+        "name": "Tech Inventions 💡",
+        "description": "Recognize groundbreaking technological inventions.",
+        "path": "assets/GuessTheWord/Technology/Tech Inventions.json"
+      },
+      {
+        "id": "networking",
+        "name": "Networking 📡",
+        "description": "Explore networking concepts and infrastructure.",
+        "path": "assets/GuessTheWord/Technology/Networking.json"
+      },
+      {
+        "id": "programming",
+        "name": "Programming Languages 💻",
+        "description": "Identify popular coding languages and their creators.",
+        "path": "assets/GuessTheWord/Technology/Programming Languages.json"
+      },
+      {
+        "id": "software",
+        "name": "Software & Apps 📲",
+        "description": "Identify famous software and applications.",
+        "path": "assets/GuessTheWord/Technology/Software & Apps.json"
+      },
+      {
+        "id": "space-tech",
+        "name": "Space Technology 🚀",
+        "description": "Discover technology used in space exploration.",
+        "path": "assets/GuessTheWord/Technology/Space Technology.json"
+      },
+      {
+        "id": "tech-companies",
+        "name": "Tech Companies 🏢",
+        "description": "Identify major companies that shape the tech world.",
+        "path": "assets/GuessTheWord/Technology/Tech Companies.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessLanguageLiterature",
+    "name": "Language & Literature 📚",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "books",
+        "name": "Classic Books 📖",
+        "description": "Guess timeless literary works from different eras.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Classic Books.json"
+      },
+      {
+        "id": "characters",
+        "name": "Literary Characters 👤",
+        "description": "Identify iconic characters from literature.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Literary Characters.json"
+      },
+      {
+        "id": "fairy-tales",
+        "name": "Fairy Tales 🧚",
+        "description": "Guess classic fairy tales and their characters.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Fairy Tales.json"
+      },
+      {
+        "id": "authors",
+        "name": "Famous Authors ✍️",
+        "description": "Identify influential writers from around the world.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Famous Authors.json"
+      },
+      {
+        "id": "plays",
+        "name": "Famous Plays 🎭",
+        "description": "Identify well-known stage plays and playwrights.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Famous Plays.json"
+      },
+      {
+        "id": "quotes",
+        "name": "Famous Quotes 💬",
+        "description": "Guess memorable lines from books and plays.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Famous Quotes.json"
+      },
+      {
+        "id": "genres",
+        "name": "Literary Genres 📝",
+        "description": "Explore categories and styles of literature.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Literary Genres.json"
+      },
+      {
+        "id": "literary-terms",
+        "name": "Literary Terms 📜",
+        "description": "Understand common terms and devices used in literature.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Literary Terms.json"
+      },
+      {
+        "id": "mythology",
+        "name": "Mythology & Legends 🏛️",
+        "description": "Explore myths, legends, and folklore from around the world.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Mythology and Legends.json"
+      },
+      {
+        "id": "poetry",
+        "name": "Poetry & Poets 🪶",
+        "description": "Recognize famous poets and their works.",
+        "path": "assets/GuessTheWord/LanguageLiterature/Poetry and Poets.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessEntertainment",
+    "name": "Entertainment 🎬",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "movies",
+        "name": "Movies 🎥",
+        "description": "Guess famous films from different eras and genres.",
+        "path": "assets/GuessTheWord/Entertainment/Movies.json"
+      },
+      {
+        "id": "tv-shows",
+        "name": "TV Shows 📺",
+        "description": "Identify popular television series and sitcoms.",
+        "path": "assets/GuessTheWord/Entertainment/TV Shows.json"
+      },
+      {
+        "id": "actors",
+        "name": "Actors & Actresses ⭐",
+        "description": "Recognize famous film and television stars.",
+        "path": "assets/GuessTheWord/Entertainment/Actors.json"
+      },
+      {
+        "id": "music",
+        "name": "Music 🎶",
+        "description": "Guess songs, bands, and singers from around the world.",
+        "path": "assets/GuessTheWord/Entertainment/Music.json"
+      },
+      {
+        "id": "cartoons",
+        "name": "Cartoons & Animation 🐭",
+        "description": "Identify animated shows, movies, and characters.",
+        "path": "assets/GuessTheWord/Entertainment/Cartoons.json"
+      },
+      {
+        "id": "comics",
+        "name": "Comics & Superheroes 🦸",
+        "description": "Guess famous comic books, superheroes, and villains.",
+        "path": "assets/GuessTheWord/Entertainment/Comics.json"
+      },
+      {
+        "id": "celebrities",
+        "name": "Celebrities 🌟",
+        "description": "Guess well-known public figures from entertainment.",
+        "path": "assets/GuessTheWord/Entertainment/Celebrities.json"
+      },
+      {
+        "id": "awards",
+        "name": "Awards 🏆",
+        "description": "Identify major entertainment awards and ceremonies.",
+        "path": "assets/GuessTheWord/Entertainment/Awards.json"
+      },
+      {
+        "id": "video-games",
+        "name": "Video Games 🎮",
+        "description": "Guess popular video games and characters.",
+        "path": "assets/GuessTheWord/Entertainment/Video Games.json"
+      },
+      {
+        "id": "theater",
+        "name": "Theater & Musicals 🎭",
+        "description": "Recognize stage plays and Broadway musicals.",
+        "path": "assets/GuessTheWord/Entertainment/Theater.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessMathematics",
+    "name": "Mathematics ➗",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "algebra",
+        "name": "Algebra 🔢",
+        "description": "Equations, variables, and polynomials.",
+        "path": "assets/GuessTheWord/Mathematics/Algebra.json"
+      },
+      {
+        "id": "arithmetic",
+        "name": "Arithmetic ➕➖✖️➗",
+        "description": "Numbers, fractions, percentages, and calculations.",
+        "path": "assets/GuessTheWord/Mathematics/Arithmetic.json"
+      },
+      {
+        "id": "calculus",
+        "name": "Calculus ∫",
+        "description": "Limits, derivatives, and integrals.",
+        "path": "assets/GuessTheWord/Mathematics/Calculus.json"
+      },
+      {
+        "id": "geometry",
+        "name": "Geometry 📐",
+        "description": "Shapes, angles, and properties of space.",
+        "path": "assets/GuessTheWord/Mathematics/Geometry.json"
+      },
+      {
+        "id": "linear-algebra",
+        "name": "Linear Algebra 📊",
+        "description": "Matrices, vectors, and transformations.",
+        "path": "assets/GuessTheWord/Mathematics/Linear Algebra.json"
+      },
+      {
+        "id": "logic",
+        "name": "Logic 🤔",
+        "description": "Reasoning, proofs, and truth tables.",
+        "path": "assets/GuessTheWord/Mathematics/Logic.json"
+      },
+      {
+        "id": "number-theory",
+        "name": "Number Theory 🔢",
+        "description": "Prime numbers, divisibility, and modular arithmetic.",
+        "path": "assets/GuessTheWord/Mathematics/Number Theory.json"
+      },
+      {
+        "id": "probability",
+        "name": "Probability 🎲",
+        "description": "Chance, outcomes, and likelihood.",
+        "path": "assets/GuessTheWord/Mathematics/Probability.json"
+      },
+      {
+        "id": "statistics",
+        "name": "Statistics 📊",
+        "description": "Data, averages, and probability distributions.",
+        "path": "assets/GuessTheWord/Mathematics/Statistics.json"
+      },
+      {
+        "id": "trigonometry",
+        "name": "Trigonometry 📏",
+        "description": "Sine, cosine, tangent, and triangles.",
+        "path": "assets/GuessTheWord/Mathematics/Trigonometry.json"
+      }
+    ]
+  },
+  {
+    "id": "GuessEducation",
+    "name": "Education 📚",
+    "imageUrl": "https://...",
+    "topics": [
+      {
+        "id": "literature",
+        "name": "Literature 📖",
+        "description": "Famous books, authors, and literary terms.",
+        "path": "assets/GuessTheWord/Education/Literature.json"
+      },
+      {
+        "id": "history",
+        "name": "History 🏺",
+        "description": "Important events, civilizations, and leaders.",
+        "path": "assets/GuessTheWord/Education/History.json"
+      },
+      {
+        "id": "geography",
+        "name": "Geography 🌍",
+        "description": "Countries, capitals, rivers, and mountains.",
+        "path": "assets/GuessTheWord/Education/Geography.json"
+      },
+      {
+        "id": "science",
+        "name": "Science 🔬",
+        "description": "General science topics from biology to physics.",
+        "path": "assets/GuessTheWord/Education/Science.json"
+      },
+      {
+        "id": "mathematics",
+        "name": "Mathematics ➗",
+        "description": "Numbers, formulas, and mathematical concepts.",
+        "path": "assets/GuessTheWord/Education/Mathematics.json"
+      },
+      {
+        "id": "language",
+        "name": "Languages 🌐",
+        "description": "Grammar, vocabulary, and world languages.",
+        "path": "assets/GuessTheWord/Education/Languages.json"
+      },
+      {
+        "id": "arts",
+        "name": "Arts 🎨",
+        "description": "Drawing, painting, music, and creative fields.",
+        "path": "assets/GuessTheWord/Education/Arts.json"
+      },
+      {
+        "id": "technology",
+        "name": "Technology 💻",
+        "description": "Educational tools, inventions, and innovations.",
+        "path": "assets/GuessTheWord/Education/Technology.json"
+      },
+      {
+        "id": "philosophy",
+        "name": "Philosophy 🤔",
+        "description": "Great thinkers, ideas, and branches of philosophy.",
+        "path": "assets/GuessTheWord/Education/Philosophy.json"
+      },
+      {
+        "id": "economics",
+        "name": "Economics 💰",
+        "description": "Money, trade, and basic economic principles.",
+        "path": "assets/GuessTheWord/Education/Economics.json"
+      }
+    ]
+  }
+]

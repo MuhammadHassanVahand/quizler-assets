@@ -1,0 +1,2402 @@
+[
+  {
+    "word_no.": 1,
+    "word": "VECTOR",
+    "hints": [
+      "A quantity having direction and magnitude",
+      "Represented as an ordered list of numbers"
+    ]
+  },
+  {
+    "word_no.": 2,
+    "word": "MATRIX",
+    "hints": [
+      "A rectangular array of numbers",
+      "Used to represent linear transformations"
+    ]
+  },
+  {
+    "word_no.": 3,
+    "word": "SCALAR",
+    "hints": [
+      "A single number",
+      "Used to scale a vector"
+    ]
+  },
+  {
+    "word_no.": 4,
+    "word": "EIGENVALUE",
+    "hints": [
+      "A scalar that is a characteristic of a linear transformation",
+      "A vector is scaled by this number"
+    ]
+  },
+  {
+    "word_no.": 5,
+    "word": "EIGENVECTOR",
+    "hints": [
+      "A non-zero vector that changes at most by a scalar factor",
+      "Its direction is unchanged by a linear transformation"
+    ]
+  },
+  {
+    "word_no.": 6,
+    "word": "DETERMINANT",
+    "hints": [
+      "A scalar value of a square matrix",
+      "Indicates if a matrix is invertible"
+    ]
+  },
+  {
+    "word_no.": 7,
+    "word": "ORTHOGONAL",
+    "hints": [
+      "A set of vectors that are mutually perpendicular",
+      "Their dot product is zero"
+    ]
+  },
+  {
+    "word_no.": 8,
+    "word": "BASIS",
+    "hints": [
+      "A set of vectors that are linearly independent",
+      "Spans a vector space"
+    ]
+  },
+  {
+    "word_no.": 9,
+    "word": "DIMENSION",
+    "hints": [
+      "The number of vectors in any basis of a vector space",
+      "Measures the size of a vector space"
+    ]
+  },
+  {
+    "word_no.": 10,
+    "word": "TRANSPOSE",
+    "hints": [
+      "An operation that flips a matrix over its diagonal",
+      "Rows become columns and columns become rows"
+    ]
+  },
+  {
+    "word_no.": 11,
+    "word": "KERNEL",
+    "hints": [
+      "The set of all vectors that are mapped to the zero vector",
+      "Also known as the null space"
+    ]
+  },
+  {
+    "word_no.": 12,
+    "word": "IMAGE",
+    "hints": [
+      "The set of all vectors that can be reached by a transformation",
+      "Also known as the range or column space"
+    ]
+  },
+  {
+    "word_no.": 13,
+    "word": "RANK",
+    "hints": [
+      "The dimension of the column space",
+      "The number of linearly independent rows or columns"
+    ]
+  },
+  {
+    "word_no.": 14,
+    "word": "NULLITY",
+    "hints": [
+      "The dimension of the kernel",
+      "Number of free variables in a matrix"
+    ]
+  },
+  {
+    "word_no.": 15,
+    "word": "INVERSE",
+    "hints": [
+      "A matrix that when multiplied by the original matrix results in the identity matrix",
+      "A matrix that 'undoes' another matrix"
+    ]
+  },
+  {
+    "word_no.": 16,
+    "word": "DIAGONALIZABLE",
+    "hints": [
+      "A matrix that can be transformed into a diagonal matrix",
+      "Requires a basis of eigenvectors"
+    ]
+  },
+  {
+    "word_no.": 17,
+    "word": "SYMMETRIC",
+    "hints": [
+      "A matrix that is equal to its transpose",
+      "Elements are a_ij = a_ji"
+    ]
+  },
+  {
+    "word_no.": 18,
+    "word": "IDENTITY MATRIX",
+    "hints": [
+      "A square matrix with ones on the main diagonal",
+      "The matrix equivalent of the number one"
+    ]
+  },
+  {
+    "word_no.": 19,
+    "word": "ROW ECHELON FORM",
+    "hints": [
+      "A simplified form of a matrix",
+      "All zero rows are at the bottom"
+    ]
+  },
+  {
+    "word_no.": 20,
+    "word": "GAUSSIAN ELIMINATION",
+    "hints": [
+      "An algorithm for solving systems of linear equations",
+      "Reduces a matrix to row echelon form"
+    ]
+  },
+  {
+    "word_no.": 21,
+    "word": "LINEAR INDEPENDENCE",
+    "hints": [
+      "A set of vectors where none can be expressed as a linear combination of the others",
+      "No vector can be written as a sum of scaled versions of the others"
+    ]
+  },
+  {
+    "word_no.": 22,
+    "word": "LINEAR COMBINATION",
+    "hints": [
+      "A sum of vectors each multiplied by a scalar",
+      "A weighted sum"
+    ]
+  },
+  {
+    "word_no.": 23,
+    "word": "VECTOR SPACE",
+    "hints": [
+      "A collection of vectors that can be added together and multiplied by scalars",
+      "Closed under addition and scalar multiplication"
+    ]
+  },
+  {
+    "word_no.": 24,
+    "word": "SUBSPACE",
+    "hints": [
+      "A subset of a vector space that is itself a vector space",
+      "Must contain the zero vector"
+    ]
+  },
+  {
+    "word_no.": 25,
+    "word": "PROJECTION",
+    "hints": [
+      "The component of one vector along another",
+      "Casting a vector onto a line or plane"
+    ]
+  },
+  {
+    "word_no.": 26,
+    "word": "GRAM SCHMIDT",
+    "hints": [
+      "An algorithm for orthogonalizing a set of vectors",
+      "Creates an orthonormal basis from a normal basis"
+    ]
+  },
+  {
+    "word_no.": 27,
+    "word": "QR DECOMPOSITION",
+    "hints": [
+      "A factorization of a matrix into an orthogonal and an upper triangular matrix",
+      "Often used for solving linear least-squares problems"
+    ]
+  },
+  {
+    "word_no.": 28,
+    "word": "SQUARE MATRIX",
+    "hints": [
+      "A matrix with an equal number of rows and columns",
+      "Its determinant can be calculated"
+    ]
+  },
+  {
+    "word_no.": 29,
+    "word": "ADJOINT",
+    "hints": [
+      "The conjugate transpose of a matrix",
+      "Also known as the Hermitian matrix"
+    ]
+  },
+  {
+    "word_no.": 30,
+    "word": "BLOCK MATRIX",
+    "hints": [
+      "A matrix partitioned into smaller matrices",
+      "Divided into submatrices"
+    ]
+  },
+  {
+    "word_no.": 31,
+    "word": "ROW SPACE",
+    "hints": [
+      "The vector space spanned by the row vectors of a matrix",
+      "Its dimension is equal to the rank of the matrix"
+    ]
+  },
+  {
+    "word_no.": 32,
+    "word": "COLUMN SPACE",
+    "hints": [
+      "The vector space spanned by the column vectors of a matrix",
+      "The image of the matrix"
+    ]
+  },
+  {
+    "word_no.": 33,
+    "word": "TRIANGULAR MATRIX",
+    "hints": [
+      "A matrix where all entries above or below the main diagonal are zero",
+      "Can be upper or lower"
+    ]
+  },
+  {
+    "word_no.": 34,
+    "word": "ORTHONORMAL",
+    "hints": [
+      "A set of vectors that are orthogonal and have a magnitude of one",
+      "The basis vectors are perpendicular and unit length"
+    ]
+  },
+  {
+    "word_no.": 35,
+    "word": "SINGULAR",
+    "hints": [
+      "A matrix that does not have an inverse",
+      "Its determinant is zero"
+    ]
+  },
+  {
+    "word_no.": 36,
+    "word": "COFACTOR",
+    "hints": [
+      "A quantity used to compute the determinant of a matrix",
+      "A signed minor"
+    ]
+  },
+  {
+    "word_no.": 37,
+    "word": "LINEAR MAP",
+    "hints": [
+      "A function between two vector spaces that preserves vector addition and scalar multiplication",
+      "Also called a linear transformation"
+    ]
+  },
+  {
+    "word_no.": 38,
+    "word": "SPAN",
+    "hints": [
+      "The set of all possible linear combinations of a set of vectors",
+      "The smallest subspace containing the set of vectors"
+    ]
+  },
+  {
+    "word_no.": 39,
+    "word": "SUBMATRIX",
+    "hints": [
+      "A matrix obtained by deleting rows and columns from a larger matrix",
+      "A smaller matrix within a larger one"
+    ]
+  },
+  {
+    "word_no.": 40,
+    "word": "TRACE",
+    "hints": [
+      "The sum of the diagonal elements of a square matrix",
+      "The sum of the eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 41,
+    "word": "COORDINATES",
+    "hints": [
+      "The scalars of a vector expressed in terms of a basis",
+      "The components of a vector"
+    ]
+  },
+  {
+    "word_no.": 42,
+    "word": "HOMOGENEOUS",
+    "hints": [
+      "A system of linear equations where all constant terms are zero",
+      "Always has the trivial solution"
+    ]
+  },
+  {
+    "word_no.": 43,
+    "word": "NON HOMOGENEOUS",
+    "hints": [
+      "A system of linear equations where at least one constant term is non-zero",
+      "Does not always have a trivial solution"
+    ]
+  },
+  {
+    "word_no.": 44,
+    "word": "EIGENSPACE",
+    "hints": [
+      "The set of all eigenvectors for a given eigenvalue",
+      "A subspace"
+    ]
+  },
+  {
+    "word_no.": 45,
+    "word": "GRAMIAN MATRIX",
+    "hints": [
+      "A symmetric matrix whose entries are inner products",
+      "Used to test for linear independence"
+    ]
+  },
+  {
+    "word_no.": 46,
+    "word": "HERMITIAN MATRIX",
+    "hints": [
+      "A complex square matrix that is equal to its own conjugate transpose",
+      "A complex version of a symmetric matrix"
+    ]
+  },
+  {
+    "word_no.": 47,
+    "word": "LU DECOMPOSITION",
+    "hints": [
+      "A factorization of a matrix into a lower triangular and an upper triangular matrix",
+      "Used for solving systems of linear equations"
+    ]
+  },
+  {
+    "word_no.": 48,
+    "word": "SCHUR DECOMPOSITION",
+    "hints": [
+      "A factorization of a matrix into an upper triangular and a unitary matrix",
+      "Used for computing eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 49,
+    "word": "SINGULAR VALUE",
+    "hints": [
+      "The square roots of the eigenvalues of the matrix transpose times the matrix",
+      "Used in SVD"
+    ]
+  },
+  {
+    "word_no.": 50,
+    "word": "JORDAN FORM",
+    "hints": [
+      "A canonical form of a matrix",
+      "Generalized version of a diagonal matrix"
+    ]
+  },
+  {
+    "word_no.": 51,
+    "word": "JORDAN BLOCK",
+    "hints": [
+      "A square matrix with a constant on the diagonal and ones above the diagonal",
+      "A component of the Jordan form"
+    ]
+  },
+  {
+    "word_no.": 52,
+    "word": "PROPER SUBSET",
+    "hints": [
+      "A subset of a vector space that is not equal to the vector space itself",
+      "A subspace that is not the whole space"
+    ]
+  },
+  {
+    "word_no.": 53,
+    "word": "UNITARY MATRIX",
+    "hints": [
+      "A complex matrix whose conjugate transpose is its inverse",
+      "A complex version of an orthogonal matrix"
+    ]
+  },
+  {
+    "word_no.": 54,
+    "word": "QUADRATIC FORM",
+    "hints": [
+      "A polynomial with degree two",
+      "Used in optimization problems"
+    ]
+  },
+  {
+    "word_no.": 55,
+    "word": "LINEAR FUNCTIONAL",
+    "hints": [
+      "A linear map from a vector space to its underlying field of scalars",
+      "A special type of linear transformation"
+    ]
+  },
+  {
+    "word_no.": 56,
+    "word": "DUAL SPACE",
+    "hints": [
+      "The set of all linear functionals on a vector space",
+      "The space of all linear maps to the field of scalars"
+    ]
+  },
+  {
+    "word_no.": 57,
+    "word": "ISOMORPHISM",
+    "hints": [
+      "A one-to-one and onto linear transformation",
+      "Preserves the structure of the vector spaces"
+    ]
+  },
+  {
+    "word_no.": 58,
+    "word": "KERNEL THEOREM",
+    "hints": [
+      "A theorem relating the dimension of the kernel and image of a linear map",
+      "The rank-nullity theorem"
+    ]
+  },
+  {
+    "word_no.": 59,
+    "word": "ROW REDUCTION",
+    "hints": [
+      "The process of using elementary row operations to simplify a matrix",
+      "Used to find the rank and solve linear systems"
+    ]
+  },
+  {
+    "word_no.": 60,
+    "word": "CAYLEY HAMILTON",
+    "hints": [
+      "A theorem stating that a square matrix satisfies its own characteristic polynomial",
+      "A famous theorem in linear algebra"
+    ]
+  },
+  {
+    "word_no.": 61,
+    "word": "INVARIANT SUBSPACE",
+    "hints": [
+      "A subspace that is mapped back into itself by a linear transformation",
+      "A subspace that is 'stable' under the transformation"
+    ]
+  },
+  {
+    "word_no.": 62,
+    "word": "LINEARLY INDEPENDENT",
+    "hints": [
+      "A set of vectors that cannot be expressed as a linear combination of each other",
+      "No vector can be formed by a weighted sum of the others"
+    ]
+  },
+  {
+    "word_no.": 63,
+    "word": "VECTOR ADDITION",
+    "hints": [
+      "The operation of combining two or more vectors",
+      "Done component by component"
+    ]
+  },
+  {
+    "word_no.": 64,
+    "word": "SCALAR MULTIPLICATION",
+    "hints": [
+      "The operation of multiplying a vector by a scalar",
+      "Changes the magnitude of the vector"
+    ]
+  },
+  {
+    "word_no.": 65,
+    "word": "DOT PRODUCT",
+    "hints": [
+      "An operation that takes two vectors and returns a single number",
+      "Can be used to find the angle between two vectors"
+    ]
+  },
+  {
+    "word_no.": 66,
+    "word": "CROSS PRODUCT",
+    "hints": [
+      "An operation that takes two vectors and returns a vector perpendicular to both",
+      "Only defined for three-dimensional vectors"
+    ]
+  },
+  {
+    "word_no.": 67,
+    "word": "NORM",
+    "hints": [
+      "The length or magnitude of a vector",
+      "A non-negative value"
+    ]
+  },
+  {
+    "word_no.": 68,
+    "word": "EIGENVALUE PROBLEM",
+    "hints": [
+      "The problem of finding the eigenvalues and eigenvectors of a matrix",
+      "A fundamental problem in linear algebra"
+    ]
+  },
+  {
+    "word_no.": 69,
+    "word": "CHARACTERISTIC POLYNOMIAL",
+    "hints": [
+      "A polynomial whose roots are the eigenvalues of a matrix",
+      "Found by taking the determinant of the matrix minus lambda times the identity matrix"
+    ]
+  },
+  {
+    "word_no.": 70,
+    "word": "ALGEBRAIC MULTIPLICITY",
+    "hints": [
+      "The number of times an eigenvalue is a root of the characteristic polynomial",
+      "The number of times an eigenvalue appears"
+    ]
+  },
+  {
+    "word_no.": 71,
+    "word": "GEOMETRIC MULTIPLICITY",
+    "hints": [
+      "The dimension of the eigenspace for a given eigenvalue",
+      "The number of linearly independent eigenvectors"
+    ]
+  },
+  {
+    "word_no.": 72,
+    "word": "SYMMETRIC MATRIX",
+    "hints": [
+      "A matrix that is equal to its own transpose",
+      "Its eigenvalues are always real"
+    ]
+  },
+  {
+    "word_no.": 73,
+    "word": "ORTHOGONAL MATRIX",
+    "hints": [
+      "A square matrix whose columns and rows are orthonormal vectors",
+      "Its inverse is its transpose"
+    ]
+  },
+  {
+    "word_no.": 74,
+    "word": "UNITARY MATRIX",
+    "hints": [
+      "A complex matrix whose inverse is its conjugate transpose",
+      "A generalization of an orthogonal matrix"
+    ]
+  },
+  {
+    "word_no.": 75,
+    "word": "SVD",
+    "hints": [
+      "An acronym for Singular Value Decomposition",
+      "A factorization of a matrix into three matrices"
+    ]
+  },
+  {
+    "word_no.": 76,
+    "word": "LINEAR SYSTEM",
+    "hints": [
+      "A collection of one or more linear equations",
+      "Can be represented in matrix form"
+    ]
+  },
+  {
+    "word_no.": 77,
+    "word": "CONSISTENT SYSTEM",
+    "hints": [
+      "A system of linear equations that has at least one solution",
+      "It can have a unique solution or infinite solutions"
+    ]
+  },
+  {
+    "word_no.": 78,
+    "word": "INCONSISTENT SYSTEM",
+    "hints": [
+      "A system of linear equations that has no solution",
+      "The lines or planes do not intersect"
+    ]
+  },
+  {
+    "word_no.": 79,
+    "word": "AUGMENTED MATRIX",
+    "hints": [
+      "A matrix formed by combining the coefficient matrix and the constant vector",
+      "Used to represent a linear system"
+    ]
+  },
+  {
+    "word_no.": 80,
+    "word": "ELEMENTARY ROW OPERATION",
+    "hints": [
+      "A fundamental operation used to solve a linear system",
+      "Includes swapping rows, scaling a row, and adding a multiple of one row to another"
+    ]
+  },
+  {
+    "word_no.": 81,
+    "word": "PIVOT POSITION",
+    "hints": [
+      "The leading non-zero entry in a row of a matrix in row echelon form",
+      "Determines the basis vectors for the column space"
+    ]
+  },
+  {
+    "word_no.": 82,
+    "word": "ROW SPACE",
+    "hints": [
+      "The span of the row vectors of a matrix",
+      "Its dimension is the rank"
+    ]
+  },
+  {
+    "word_no.": 83,
+    "word": "COLUMN SPACE",
+    "hints": [
+      "The span of the column vectors of a matrix",
+      "The range of the linear transformation"
+    ]
+  },
+  {
+    "word_no.": 84,
+    "word": "NULL SPACE",
+    "hints": [
+      "The set of all vectors that are mapped to the zero vector",
+      "Also known as the kernel"
+    ]
+  },
+  {
+    "word_no.": 85,
+    "word": "ORTHOGONAL COMPLEMENT",
+    "hints": [
+      "The set of all vectors that are orthogonal to every vector in a given subspace",
+      "Used to find the closest point"
+    ]
+  },
+  {
+    "word_no.": 86,
+    "word": "PROJECTION MATRIX",
+    "hints": [
+      "A matrix that projects a vector onto a subspace",
+      "An idempotent matrix"
+    ]
+  },
+  {
+    "word_no.": 87,
+    "word": "LEAST SQUARES",
+    "hints": [
+      "A method for finding the best fit line or curve for a set of data points",
+      "Minimizes the sum of the squared residuals"
+    ]
+  },
+  {
+    "word_no.": 88,
+    "word": "COMPLEX NUMBER",
+    "hints": [
+      "A number that can be expressed in the form a + bi",
+      "Used in linear algebra for complex vector spaces"
+    ]
+  },
+  {
+    "word_no.": 89,
+    "word": "REAL NUMBER",
+    "hints": [
+      "A number that can be placed on a number line",
+      "The field of scalars in many linear algebra problems"
+    ]
+  },
+  {
+    "word_no.": 90,
+    "word": "FIELD",
+    "hints": [
+      "A set with two operations (addition and multiplication) that satisfy certain axioms",
+      "The set of scalars in a vector space"
+    ]
+  },
+  {
+    "word_no.": 91,
+    "word": "ABSTRACT VECTOR SPACE",
+    "hints": [
+      "A formal definition of a vector space",
+      "A set of objects with defined operations"
+    ]
+  },
+  {
+    "word_no.": 92,
+    "word": "SUBSPACES",
+    "hints": [
+      "A subset of a vector space that is itself a vector space",
+      "Must contain the zero vector"
+    ]
+  },
+  {
+    "word_no.": 93,
+    "word": "LINEAR TRANSFORMATION",
+    "hints": [
+      "A function between two vector spaces",
+      "Also known as a linear map"
+    ]
+  },
+  {
+    "word_no.": 94,
+    "word": "MATRIX REPRESENTATION",
+    "hints": [
+      "A matrix that represents a linear transformation",
+      "Its columns are the images of the basis vectors"
+    ]
+  },
+  {
+    "word_no.": 95,
+    "word": "CHANGE OF BASIS",
+    "hints": [
+      "The process of converting a vector from one basis to another",
+      "Requires a change-of-basis matrix"
+    ]
+  },
+  {
+    "word_no.": 96,
+    "word": "SIMILAR MATRICES",
+    "hints": [
+      "Two matrices that represent the same linear transformation with respect to different bases",
+      "Their characteristic polynomials are the same"
+    ]
+  },
+  {
+    "word_no.": 97,
+    "word": "LINEAR EQUATIONS",
+    "hints": [
+      "Equations that form a straight line or plane",
+      "Variables have an exponent of one"
+    ]
+  },
+  {
+    "word_no.": 98,
+    "word": "MATRIX ADDITION",
+    "hints": [
+      "An operation that adds two matrices of the same size",
+      "Done element by element"
+    ]
+  },
+  {
+    "word_no.": 99,
+    "word": "MATRIX MULTIPLICATION",
+    "hints": [
+      "An operation that combines two matrices",
+      "Requires the number of columns in the first matrix to equal the number of rows in the second"
+    ]
+  },
+  {
+    "word_no.": 100,
+    "word": "ZERO VECTOR",
+    "hints": [
+      "A vector with all entries equal to zero",
+      "The additive identity in a vector space"
+    ]
+  },
+  {
+    "word_no.": 101,
+    "word": "ZERO MATRIX",
+    "hints": [
+      "A matrix with all entries equal to zero",
+      "The additive identity for matrices"
+    ]
+  },
+  {
+    "word_no.": 102,
+    "word": "LINEAR SYSTEM",
+    "hints": [
+      "A set of linear equations",
+      "Can be represented in the form Ax = b"
+    ]
+  },
+  {
+    "word_no.": 103,
+    "word": "COEFFICIENT MATRIX",
+    "hints": [
+      "The matrix of coefficients in a linear system",
+      "The 'A' in Ax = b"
+    ]
+  },
+  {
+    "word_no.": 104,
+    "word": "SOLUTION SET",
+    "hints": [
+      "The set of all possible solutions to a system of linear equations",
+      "Can be a single point, a line, a plane, or empty"
+    ]
+  },
+  {
+    "word_no.": 105,
+    "word": "FREE VARIABLE",
+    "hints": [
+      "A variable that is not a pivot variable in a linear system",
+      "Can take on any value"
+    ]
+  },
+  {
+    "word_no.": 106,
+    "word": "PIVOT VARIABLE",
+    "hints": [
+      "A variable corresponding to a pivot column in a matrix",
+      "Its value is determined by the free variables"
+    ]
+  },
+  {
+    "word_no.": 107,
+    "word": "GENERAL SOLUTION",
+    "hints": [
+      "A solution to a linear system expressed in terms of the free variables",
+      "A formula for all solutions"
+    ]
+  },
+  {
+    "word_no.": 108,
+    "word": "ROW VECTOR",
+    "hints": [
+      "A 1 x n matrix",
+      "A vector written horizontally"
+    ]
+  },
+  {
+    "word_no.": 109,
+    "word": "COLUMN VECTOR",
+    "hints": [
+      "An n x 1 matrix",
+      "A vector written vertically"
+    ]
+  },
+  {
+    "word_no.": 110,
+    "word": "VECTOR SPACE AXIOMS",
+    "hints": [
+      "A set of rules that a vector space must obey",
+      "Includes associativity, commutativity, and existence of identities"
+    ]
+  },
+  {
+    "word_no.": 111,
+    "word": "LINEAR SUBSPACE",
+    "hints": [
+      "A subspace that is also a vector space",
+      "A subset closed under addition and scalar multiplication"
+    ]
+  },
+  {
+    "word_no.": 112,
+    "word": "NULL SPACE",
+    "hints": [
+      "The set of vectors that are mapped to the zero vector by a linear transformation",
+      "Also known as the kernel"
+    ]
+  },
+  {
+    "word_no.": 113,
+    "word": "COORDINATE VECTOR",
+    "hints": [
+      "The representation of a vector in a specific basis",
+      "A list of scalars"
+    ]
+  },
+  {
+    "word_no.": 114,
+    "word": "CHANGE OF COORDINATES",
+    "hints": [
+      "The process of converting a vector's coordinates from one basis to another",
+      "Used to simplify problems"
+    ]
+  },
+  {
+    "word_no.": 115,
+    "word": "INNER PRODUCT",
+    "hints": [
+      "A generalization of the dot product",
+      "Used to define orthogonality and norm"
+    ]
+  },
+  {
+    "word_no.": 116,
+    "word": "LINEARLY DEPENDENT",
+    "hints": [
+      "A set of vectors where at least one can be written as a linear combination of the others",
+      "Not independent"
+    ]
+  },
+  {
+    "word_no.": 117,
+    "word": "ROW EQUIVALENT",
+    "hints": [
+      "Two matrices that can be transformed into each other using elementary row operations",
+      "They represent the same system of linear equations"
+    ]
+  },
+  {
+    "word_no.": 118,
+    "word": "UPPER TRIANGULAR",
+    "hints": [
+      "A square matrix where all entries below the main diagonal are zero",
+      "A component of LU decomposition"
+    ]
+  },
+  {
+    "word_no.": 119,
+    "word": "LOWER TRIANGULAR",
+    "hints": [
+      "A square matrix where all entries above the main diagonal are zero",
+      "A component of LU decomposition"
+    ]
+  },
+  {
+    "word_no.": 120,
+    "word": "NONSINGULAR MATRIX",
+    "hints": [
+      "A matrix that has an inverse",
+      "Its determinant is non-zero"
+    ]
+  },
+  {
+    "word_no.": 121,
+    "word": "ADJUGATE MATRIX",
+    "hints": [
+      "The transpose of the cofactor matrix",
+      "Used to find the inverse of a matrix"
+    ]
+  },
+  {
+    "word_no.": 122,
+    "word": "COFACTOR EXPANSION",
+    "hints": [
+      "A method for calculating the determinant of a matrix",
+      "Expands along a row or column"
+    ]
+  },
+  {
+    "word_no.": 123,
+    "word": "TRACE",
+    "hints": [
+      "The sum of the diagonal elements of a square matrix",
+      "The sum of the eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 124,
+    "word": "HOMOGENEOUS SYSTEM",
+    "hints": [
+      "A linear system where all constant terms are zero",
+      "The right-hand side is the zero vector"
+    ]
+  },
+  {
+    "word_no.": 125,
+    "word": "PARTICULAR SOLUTION",
+    "hints": [
+      "Any single solution to a non-homogeneous linear system",
+      "Used to find the general solution"
+    ]
+  },
+  {
+    "word_no.": 126,
+    "word": "GENERAL SOLUTION",
+    "hints": [
+      "The sum of the particular solution and the solution to the homogeneous system",
+      "Describes all possible solutions"
+    ]
+  },
+  {
+    "word_no.": 127,
+    "word": "MATRIX INVERSION",
+    "hints": [
+      "The process of finding the inverse of a matrix",
+      "Can be done using Gaussian elimination or the adjugate matrix"
+    ]
+  },
+  {
+    "word_no.": 128,
+    "word": "EIGENSPACE",
+    "hints": [
+      "The set of all eigenvectors for a given eigenvalue",
+      "A subspace"
+    ]
+  },
+  {
+    "word_no.": 129,
+    "word": "ORTHOGONAL BASIS",
+    "hints": [
+      "A basis in which all vectors are mutually perpendicular",
+      "Their dot product is zero"
+    ]
+  },
+  {
+    "word_no.": 130,
+    "word": "ORTHONORMAL BASIS",
+    "hints": [
+      "An orthogonal basis where all vectors have a norm of one",
+      "Their dot product is zero or one"
+    ]
+  },
+  {
+    "word_no.": 131,
+    "word": "FOUR FUNDAMENTAL SUBSPACES",
+    "hints": [
+      "Row space, column space, null space, and left null space",
+      "Central to the theory of linear algebra"
+    ]
+  },
+  {
+    "word_no.": 132,
+    "word": "LEAST SQUARES SOLUTION",
+    "hints": [
+      "The vector that minimizes the distance between two vectors",
+      "The best approximate solution to an inconsistent system"
+    ]
+  },
+  {
+    "word_no.": 133,
+    "word": "NORMAL EQUATIONS",
+    "hints": [
+      "A system of linear equations used to find the least-squares solution",
+      "A^T * A * x = A^T * b"
+    ]
+  },
+  {
+    "word_no.": 134,
+    "word": "SYMMETRIC MATRIX",
+    "hints": [
+      "A matrix that is equal to its transpose",
+      "Always has real eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 135,
+    "word": "HERMITIAN MATRIX",
+    "hints": [
+      "A complex matrix equal to its conjugate transpose",
+      "A generalization of a symmetric matrix"
+    ]
+  },
+  {
+    "word_no.": 136,
+    "word": "SKEW SYMMETRIC",
+    "hints": [
+      "A matrix whose transpose is equal to its negative",
+      "A^T = -A"
+    ]
+  },
+  {
+    "word_no.": 137,
+    "word": "SINGULAR VALUE DECOMPOSITION",
+    "hints": [
+      "A powerful factorization of a matrix",
+      "A = U * Sigma * V^T"
+    ]
+  },
+  {
+    "word_no.": 138,
+    "word": "MOORE PENROSE INVERSE",
+    "hints": [
+      "A generalized inverse of a matrix",
+      "Also known as the pseudoinverse"
+    ]
+  },
+  {
+    "word_no.": 139,
+    "word": "PSEUDOINVERSE",
+    "hints": [
+      "A generalization of the inverse matrix",
+      "Used for non-square or singular matrices"
+    ]
+  },
+  {
+    "word_no.": 140,
+    "word": "LU FACTORIZATION",
+    "hints": [
+      "A method to decompose a matrix into a lower and upper triangular matrix",
+      "Used to solve systems of equations"
+    ]
+  },
+  {
+    "word_no.": 141,
+    "word": "CHOLESKY DECOMPOSITION",
+    "hints": [
+      "A factorization of a Hermitian, positive-definite matrix",
+      "A = L * L^T"
+    ]
+  },
+  {
+    "word_no.": 142,
+    "word": "EIGENDECOMPOSITION",
+    "hints": [
+      "The factorization of a matrix into its eigenvalues and eigenvectors",
+      "A = P * D * P^(-1)"
+    ]
+  },
+  {
+    "word_no.": 143,
+    "word": "SPECTRAL THEOREM",
+    "hints": [
+      "A theorem about the diagonalization of matrices",
+      "States that a symmetric matrix can be diagonalized by an orthogonal matrix"
+    ]
+  },
+  {
+    "word_no.": 144,
+    "word": "SYLVESTER'S LAW OF INERTIA",
+    "hints": [
+      "A theorem that describes the number of positive, negative, and zero eigenvalues of a matrix",
+      "Pertains to the signature of a quadratic form"
+    ]
+  },
+  {
+    "word_no.": 145,
+    "word": "POSITIVE DEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are positive",
+      "Used in optimization"
+    ]
+  },
+  {
+    "word_no.": 146,
+    "word": "NEGATIVE DEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are negative",
+      "Used in optimization"
+    ]
+  },
+  {
+    "word_no.": 147,
+    "word": "POSITIVE SEMIDEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are non-negative",
+      "Includes matrices with zero eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 148,
+    "word": "NEGATIVE SEMIDEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are non-positive",
+      "Includes matrices with zero eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 149,
+    "word": "LINEAR TRANSFORMATION",
+    "hints": [
+      "A function between vector spaces that preserves vector addition and scalar multiplication",
+      "Also known as a linear map"
+    ]
+  },
+  {
+    "word_no.": 150,
+    "word": "ROTATION MATRIX",
+    "hints": [
+      "A matrix used to rotate vectors in a Euclidean space",
+      "Its determinant is one"
+    ]
+  },
+  {
+    "word_no.": 151,
+    "word": "SHEAR MATRIX",
+    "hints": [
+      "A matrix that distorts a vector space along a given direction",
+      "Preserves area and volume"
+    ]
+  },
+  {
+    "word_no.": 152,
+    "word": "SCALING MATRIX",
+    "hints": [
+      "A matrix that stretches or shrinks a vector",
+      "A diagonal matrix"
+    ]
+  },
+  {
+    "word_no.": 153,
+    "word": "IDENTITY TRANSFORMATION",
+    "hints": [
+      "A linear transformation that maps every vector to itself",
+      "Represented by the identity matrix"
+    ]
+  },
+  {
+    "word_no.": 154,
+    "word": "INVERTIBLE MATRIX",
+    "hints": [
+      "A matrix that has an inverse",
+      "Its determinant is non-zero"
+    ]
+  },
+  {
+    "word_no.": 155,
+    "word": "NON INVERTIBLE",
+    "hints": [
+      "A matrix that does not have an inverse",
+      "Also known as a singular matrix"
+    ]
+  },
+  {
+    "word_no.": 156,
+    "word": "TRACE",
+    "hints": [
+      "The sum of the diagonal elements of a square matrix",
+      "The sum of the eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 157,
+    "word": "SVD",
+    "hints": [
+      "Acronym for Singular Value Decomposition",
+      "Used for data compression and noise reduction"
+    ]
+  },
+  {
+    "word_no.": 158,
+    "word": "PROPERTIES OF DETERMINANTS",
+    "hints": [
+      "Includes multiplicative property and transpose property",
+      "Rules for manipulating determinants"
+    ]
+  },
+  {
+    "word_no.": 159,
+    "word": "MINORS AND COFACTORS",
+    "hints": [
+      "Components used to calculate determinants",
+      "Used in the adjugate matrix"
+    ]
+  },
+  {
+    "word_no.": 160,
+    "word": "CRAMER'S RULE",
+    "hints": [
+      "A formula for solving systems of linear equations using determinants",
+      "Often impractical for large systems"
+    ]
+  },
+  {
+    "word_no.": 161,
+    "word": "GAUSS JORDAN ELIMINATION",
+    "hints": [
+      "An extension of Gaussian elimination",
+      "Reduces a matrix to its reduced row echelon form"
+    ]
+  },
+  {
+    "word_no.": 162,
+    "word": "ROW REDUCED ECHELON FORM",
+    "hints": [
+      "A simplified form of a matrix where all pivot positions are 1",
+      "All entries above and below pivots are 0"
+    ]
+  },
+  {
+    "word_no.": 163,
+    "word": "LINEAR SPAN",
+    "hints": [
+      "The set of all possible linear combinations of a set of vectors",
+      "The smallest subspace containing the set"
+    ]
+  },
+  {
+    "word_no.": 164,
+    "word": "NULL SPACE",
+    "hints": [
+      "The set of all vectors that are mapped to the zero vector by a transformation",
+      "Also known as the kernel"
+    ]
+  },
+  {
+    "word_no.": 165,
+    "word": "MATRIX ALGEBRA",
+    "hints": [
+      "The study of matrices and their operations",
+      "Includes addition, subtraction, multiplication, and inversion"
+    ]
+  },
+  {
+    "word_no.": 166,
+    "word": "VECTOR ALGEBRA",
+    "hints": [
+      "The study of vectors and their operations",
+      "Includes addition, scalar multiplication, and dot product"
+    ]
+  },
+  {
+    "word_no.": 167,
+    "word": "LINEAR MAPPING",
+    "hints": [
+      "A function from one vector space to another that preserves the structure of addition and scalar multiplication",
+      "Also called a linear transformation"
+    ]
+  },
+  {
+    "word_no.": 168,
+    "word": "IMAGE SPACE",
+    "hints": [
+      "The set of all vectors that can be reached by a transformation",
+      "The range or column space"
+    ]
+  },
+  {
+    "word_no.": 169,
+    "word": "INJECTIVE",
+    "hints": [
+      "A linear map where every vector in the image has a unique pre-image",
+      "A one-to-one mapping"
+    ]
+  },
+  {
+    "word_no.": 170,
+    "word": "SURJECTIVE",
+    "hints": [
+      "A linear map where the image space is the entire codomain",
+      "An onto mapping"
+    ]
+  },
+  {
+    "word_no.": 171,
+    "word": "BIJECTIVE",
+    "hints": [
+      "A linear map that is both injective and surjective",
+      "A one-to-one and onto mapping"
+    ]
+  },
+  {
+    "word_no.": 172,
+    "word": "ISOMORPHISM",
+    "hints": [
+      "A bijective linear transformation",
+      "A structure-preserving map"
+    ]
+  },
+  {
+    "word_no.": 173,
+    "word": "ORTHOGONAL SET",
+    "hints": [
+      "A set of vectors where every pair of distinct vectors is orthogonal",
+      "Their dot product is zero"
+    ]
+  },
+  {
+    "word_no.": 174,
+    "word": "ORTHONORMAL SET",
+    "hints": [
+      "An orthogonal set where all vectors are unit vectors",
+      "Their dot products are zero or one"
+    ]
+  },
+  {
+    "word_no.": 175,
+    "word": "SUBMATRIX",
+    "hints": [
+      "A matrix obtained by deleting rows or columns from a larger matrix",
+      "A smaller matrix inside a larger one"
+    ]
+  },
+  {
+    "word_no.": 176,
+    "word": "BLOCK MATRIX",
+    "hints": [
+      "A matrix partitioned into smaller matrices",
+      "Useful for simplifying calculations"
+    ]
+  },
+  {
+    "word_no.": 177,
+    "word": "HILBERT SPACE",
+    "hints": [
+      "A generalization of Euclidean space",
+      "An abstract vector space with an inner product"
+    ]
+  },
+  {
+    "word_no.": 178,
+    "word": "BANACH SPACE",
+    "hints": [
+      "A complete normed vector space",
+      "A generalization of Euclidean space"
+    ]
+  },
+  {
+    "word_no.": 179,
+    "word": "LINEAR OPERATOR",
+    "hints": [
+      "A linear transformation from a vector space to itself",
+      "A square matrix can represent this"
+    ]
+  },
+  {
+    "word_no.": 180,
+    "word": "HERMITIAN CONJUGATE",
+    "hints": [
+      "The transpose of the complex conjugate of a matrix",
+      "A generalization of the transpose for complex matrices"
+    ]
+  },
+  {
+    "word_no.": 181,
+    "word": "NORMAL MATRIX",
+    "hints": [
+      "A matrix that commutes with its own conjugate transpose",
+      "A*A = A*A"
+    ]
+  },
+  {
+    "word_no.": 182,
+    "word": "UNITARY DIAGONALIZATION",
+    "hints": [
+      "The process of diagonalizing a normal matrix with a unitary matrix",
+      "A = U D U*"
+    ]
+  },
+  {
+    "word_no.": 183,
+    "word": "JORDAN CANONICAL FORM",
+    "hints": [
+      "A canonical form of a matrix for which diagonalization is not possible",
+      "Contains Jordan blocks on the diagonal"
+    ]
+  },
+  {
+    "word_no.": 184,
+    "word": "VANDERMONDE MATRIX",
+    "hints": [
+      "A matrix with the terms of a geometric progression in each row",
+      "Its determinant is the product of all differences"
+    ]
+  },
+  {
+    "word_no.": 185,
+    "word": "WIGNER'S THEOREM",
+    "hints": [
+      "A theorem that states that a symmetry operation on a quantum state can be represented by a linear or antilinear transformation",
+      "A fundamental result in quantum mechanics"
+    ]
+  },
+  {
+    "word_no.": 186,
+    "word": "HADAMARD MATRIX",
+    "hints": [
+      "A square matrix whose entries are either +1 or -1",
+      "Used in coding theory and signal processing"
+    ]
+  },
+  {
+    "word_no.": 187,
+    "word": "CONJUGATE TRANSPOSE",
+    "hints": [
+      "An operation that takes a matrix and transposes it while also taking the complex conjugate of each entry",
+      "Also known as the Hermitian transpose"
+    ]
+  },
+  {
+    "word_no.": 188,
+    "word": "EIGENSPACE DECOMPOSITION",
+    "hints": [
+      "The process of expressing a vector space as a direct sum of eigenspaces",
+      "Used to simplify linear transformations"
+    ]
+  },
+  {
+    "word_no.": 189,
+    "word": "JORDAN DECOMPOSITION",
+    "hints": [
+      "The factorization of a matrix into a diagonalizable matrix and a nilpotent matrix",
+      "Used for matrices that are not diagonalizable"
+    ]
+  },
+  {
+    "word_no.": 190,
+    "word": "SINGULAR VALUES",
+    "hints": [
+      "The square roots of the eigenvalues of the matrix transpose times the matrix",
+      "Used in SVD"
+    ]
+  },
+  {
+    "word_no.": 191,
+    "word": "PSEUDO INVERSE",
+    "hints": [
+      "A generalization of the inverse matrix",
+      "Used for non-square or singular matrices"
+    ]
+  },
+  {
+    "word_no.": 192,
+    "word": "DIRECT SUM",
+    "hints": [
+      "A way of combining vector spaces",
+      "Every vector can be uniquely written as a sum of vectors from each subspace"
+    ]
+  },
+  {
+    "word_no.": 193,
+    "word": "AFFINE TRANSFORMATION",
+    "hints": [
+      "A linear transformation followed by a translation",
+      "Preserves collinearity and ratios of distances"
+    ]
+  },
+  {
+    "word_no.": 194,
+    "word": "ROW RANK",
+    "hints": [
+      "The dimension of the row space",
+      "Equal to the column rank"
+    ]
+  },
+  {
+    "word_no.": 195,
+    "word": "COLUMN RANK",
+    "hints": [
+      "The dimension of the column space",
+      "Equal to the row rank"
+    ]
+  },
+  {
+    "word_no.": 196,
+    "word": "KERNEL",
+    "hints": [
+      "The set of vectors that are mapped to the zero vector by a linear transformation",
+      "Also known as the null space"
+    ]
+  },
+  {
+    "word_no.": 197,
+    "word": "IMAGE",
+    "hints": [
+      "The set of all vectors that can be reached by a transformation",
+      "Also known as the range or column space"
+    ]
+  },
+  {
+    "word_no.": 198,
+    "word": "RANK NULLITY THEOREM",
+    "hints": [
+      "A theorem that relates the rank and nullity of a matrix to its number of columns",
+      "Rank + Nullity = Number of columns"
+    ]
+  },
+  {
+    "word_no.": 199,
+    "word": "LINEAR SPAN",
+    "hints": [
+      "The set of all possible linear combinations of a set of vectors",
+      "The smallest subspace containing the set"
+    ]
+  },
+  {
+    "word_no.": 200,
+    "word": "LINEAR DEPENDENCE",
+    "hints": [
+      "A set of vectors where one can be written as a linear combination of the others",
+      "Not independent"
+    ]
+  },
+  {
+    "word_no.": 201,
+    "word": "BASIS VECTORS",
+    "hints": [
+      "The vectors that form a basis for a vector space",
+      "Linearly independent and span the space"
+    ]
+  },
+  {
+    "word_no.": 202,
+    "word": "STANDARD BASIS",
+    "hints": [
+      "The most common basis for a vector space",
+      "Consists of vectors with one entry equal to one and all others equal to zero"
+    ]
+  },
+  {
+    "word_no.": 203,
+    "word": "NORMAL VECTOR",
+    "hints": [
+      "A vector that is perpendicular to a surface or line",
+      "Used in geometry and physics"
+    ]
+  },
+  {
+    "word_no.": 204,
+    "word": "LINEAR COMBINATION",
+    "hints": [
+      "A sum of vectors each multiplied by a scalar",
+      "A weighted sum"
+    ]
+  },
+  {
+    "word_no.": 205,
+    "word": "DOT PRODUCT",
+    "hints": [
+      "An operation that takes two vectors and returns a single number",
+      "Can be used to find the angle between two vectors"
+    ]
+  },
+  {
+    "word_no.": 206,
+    "word": "CROSS PRODUCT",
+    "hints": [
+      "An operation that takes two vectors and returns a vector perpendicular to both",
+      "Only defined for three-dimensional vectors"
+    ]
+  },
+  {
+    "word_no.": 207,
+    "word": "MATRIX TRANSPOSE",
+    "hints": [
+      "An operation that flips a matrix over its diagonal",
+      "Rows become columns and columns become rows"
+    ]
+  },
+  {
+    "word_no.": 208,
+    "word": "MATRIX INVERSE",
+    "hints": [
+      "A matrix that 'undoes' another matrix",
+      "When multiplied by the original matrix, the result is the identity matrix"
+    ]
+  },
+  {
+    "word_no.": 209,
+    "word": "IDENTITY MATRIX",
+    "hints": [
+      "A square matrix with ones on the main diagonal",
+      "The matrix equivalent of the number one"
+    ]
+  },
+  {
+    "word_no.": 210,
+    "word": "ZERO MATRIX",
+    "hints": [
+      "A matrix with all entries equal to zero",
+      "The additive identity for matrices"
+    ]
+  },
+  {
+    "word_no.": 211,
+    "word": "SCALAR MATRIX",
+    "hints": [
+      "A diagonal matrix where all diagonal entries are equal to the same scalar",
+      "A constant multiple of the identity matrix"
+    ]
+  },
+  {
+    "word_no.": 212,
+    "word": "DIAGONAL MATRIX",
+    "hints": [
+      "A square matrix where all entries off the main diagonal are zero",
+      "Used in diagonalization"
+    ]
+  },
+  {
+    "word_no.": 213,
+    "word": "TRIANGULAR MATRIX",
+    "hints": [
+      "A matrix where all entries above or below the main diagonal are zero",
+      "Can be upper or lower"
+    ]
+  },
+  {
+    "word_no.": 214,
+    "word": "ROW REDUCTION",
+    "hints": [
+      "The process of using elementary row operations to simplify a matrix",
+      "Used to find the rank and solve linear systems"
+    ]
+  },
+  {
+    "word_no.": 215,
+    "word": "GAUSSIAN ELIMINATION",
+    "hints": [
+      "An algorithm for solving systems of linear equations",
+      "Reduces a matrix to row echelon form"
+    ]
+  },
+  {
+    "word_no.": 216,
+    "word": "ROW ECHELON FORM",
+    "hints": [
+      "A simplified form of a matrix",
+      "All zero rows are at the bottom"
+    ]
+  },
+  {
+    "word_no.": 217,
+    "word": "CONSISTENT SYSTEM",
+    "hints": [
+      "A system of linear equations that has at least one solution",
+      "It can have a unique solution or infinite solutions"
+    ]
+  },
+  {
+    "word_no.": 218,
+    "word": "INCONSISTENT SYSTEM",
+    "hints": [
+      "A system of linear equations that has no solution",
+      "The lines or planes do not intersect"
+    ]
+  },
+  {
+    "word_no.": 219,
+    "word": "SOLUTION SET",
+    "hints": [
+      "The set of all possible solutions to a system of linear equations",
+      "Can be a single point, a line, a plane, or empty"
+    ]
+  },
+  {
+    "word_no.": 220,
+    "word": "PARAMETRIC VECTOR FORM",
+    "hints": [
+      "A way of writing the solution set of a linear system",
+      "Uses a particular solution and a linear combination of basis vectors for the null space"
+    ]
+  },
+  {
+    "word_no.": 221,
+    "word": "PIVOT POSITION",
+    "hints": [
+      "The first non-zero entry in a row of a matrix in row echelon form",
+      "Determines the basis vectors for the column space"
+    ]
+  },
+  {
+    "word_no.": 222,
+    "word": "FREE VARIABLE",
+    "hints": [
+      "A variable corresponding to a column without a pivot position",
+      "Can take on any value"
+    ]
+  },
+  {
+    "word_no.": 223,
+    "word": "RANK",
+    "hints": [
+      "The dimension of the column space",
+      "The number of pivot positions"
+    ]
+  },
+  {
+    "word_no.": 224,
+    "word": "NULLITY",
+    "hints": [
+      "The dimension of the null space",
+      "The number of free variables"
+    ]
+  },
+  {
+    "word_no.": 225,
+    "word": "LINEAR INDEPENDENCE",
+    "hints": [
+      "A set of vectors where none can be expressed as a linear combination of the others",
+      "No non-trivial linear combination equals the zero vector"
+    ]
+  },
+  {
+    "word_no.": 226,
+    "word": "LINEAR DEPENDENCE",
+    "hints": [
+      "A set of vectors where at least one can be written as a linear combination of the others",
+      "A non-trivial linear combination equals the zero vector"
+    ]
+  },
+  {
+    "word_no.": 227,
+    "word": "SPAN",
+    "hints": [
+      "The set of all possible linear combinations of a set of vectors",
+      "The smallest subspace containing the set"
+    ]
+  },
+  {
+    "word_no.": 228,
+    "word": "BASIS",
+    "hints": [
+      "A set of vectors that are linearly independent and span the vector space",
+      "A minimal spanning set"
+    ]
+  },
+  {
+    "word_no.": 229,
+    "word": "DIMENSION",
+    "hints": [
+      "The number of vectors in any basis of a vector space",
+      "The size of a vector space"
+    ]
+  },
+  {
+    "word_no.": 230,
+    "word": "SUBSPACE",
+    "hints": [
+      "A subset of a vector space that is itself a vector space",
+      "Closed under addition and scalar multiplication and contains the zero vector"
+    ]
+  },
+  {
+    "word_no.": 231,
+    "word": "COLUMN SPACE",
+    "hints": [
+      "The span of the columns of a matrix",
+      "Also known as the image or range"
+    ]
+  },
+  {
+    "word_no.": 232,
+    "word": "ROW SPACE",
+    "hints": [
+      "The span of the rows of a matrix",
+      "Its dimension is equal to the rank of the matrix"
+    ]
+  },
+  {
+    "word_no.": 233,
+    "word": "NULL SPACE",
+    "hints": [
+      "The set of all vectors that are mapped to the zero vector by a linear transformation",
+      "Also known as the kernel"
+    ]
+  },
+  {
+    "word_no.": 234,
+    "word": "ORTHOGONALITY",
+    "hints": [
+      "The property of two vectors having a dot product of zero",
+      "Being mutually perpendicular"
+    ]
+  },
+  {
+    "word_no.": 235,
+    "word": "ORTHOGONAL COMPLEMENT",
+    "hints": [
+      "The set of all vectors that are orthogonal to a given subspace",
+      "A subspace of the vector space"
+    ]
+  },
+  {
+    "word_no.": 236,
+    "word": "PROJECTION",
+    "hints": [
+      "The component of one vector along another",
+      "A linear transformation that maps a vector to its closest point in a subspace"
+    ]
+  },
+  {
+    "word_no.": 237,
+    "word": "LEAST SQUARES",
+    "hints": [
+      "A method for finding an approximate solution to an inconsistent system of equations",
+      "Minimizes the sum of the squared errors"
+    ]
+  },
+  {
+    "word_no.": 238,
+    "word": "GRAM SCHMIDT PROCESS",
+    "hints": [
+      "An algorithm for orthogonalizing a set of vectors",
+      "Used to convert a basis into an orthonormal basis"
+    ]
+  },
+  {
+    "word_no.": 239,
+    "word": "QR DECOMPOSITION",
+    "hints": [
+      "A factorization of a matrix into an orthogonal matrix and an upper triangular matrix",
+      "A = QR"
+    ]
+  },
+  {
+    "word_no.": 240,
+    "word": "EIGENVALUE",
+    "hints": [
+      "A scalar that characterizes a linear transformation",
+      "The value by which a vector is scaled"
+    ]
+  },
+  {
+    "word_no.": 241,
+    "word": "EIGENVECTOR",
+    "hints": [
+      "A non-zero vector whose direction is unchanged by a linear transformation",
+      "A vector that is scaled by an eigenvalue"
+    ]
+  },
+  {
+    "word_no.": 242,
+    "word": "EIGENSPACE",
+    "hints": [
+      "The set of all eigenvectors for a given eigenvalue",
+      "A subspace"
+    ]
+  },
+  {
+    "word_no.": 243,
+    "word": "CHARACTERISTIC POLYNOMIAL",
+    "hints": [
+      "A polynomial whose roots are the eigenvalues of a matrix",
+      "Determinant of A - lambda*I"
+    ]
+  },
+  {
+    "word_no.": 244,
+    "word": "DIAGONALIZABLE",
+    "hints": [
+      "A matrix that can be transformed into a diagonal matrix",
+      "A matrix that has a basis of eigenvectors"
+    ]
+  },
+  {
+    "word_no.": 245,
+    "word": "SPECTRAL THEOREM",
+    "hints": [
+      "A theorem stating that a symmetric matrix can be diagonalized by an orthogonal matrix",
+      "A fundamental theorem about eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 246,
+    "word": "SINGULAR VALUE DECOMPOSITION",
+    "hints": [
+      "A powerful factorization of a matrix",
+      "Used in data analysis and image compression"
+    ]
+  },
+  {
+    "word_no.": 247,
+    "word": "POSITIVE DEFINITE MATRIX",
+    "hints": [
+      "A symmetric matrix where all eigenvalues are positive",
+      "Used in optimization to find minima"
+    ]
+  },
+  {
+    "word_no.": 248,
+    "word": "QUADRATIC FORM",
+    "hints": [
+      "A polynomial with degree two",
+      "Can be represented by a symmetric matrix"
+    ]
+  },
+  {
+    "word_no.": 249,
+    "word": "ORTHOGONAL PROJECTION",
+    "hints": [
+      "A projection onto a subspace that is perpendicular to the subspace's orthogonal complement",
+      "Used to find the closest point"
+    ]
+  },
+  {
+    "word_no.": 250,
+    "word": "GRAM MATRIX",
+    "hints": [
+      "A symmetric matrix whose entries are inner products",
+      "Used to check for linear independence"
+    ]
+  },
+  {
+    "word_no.": 251,
+    "word": "LINEAR SYSTEM",
+    "hints": [
+      "A collection of one or more linear equations",
+      "Can be represented in matrix form"
+    ]
+  },
+  {
+    "word_no.": 252,
+    "word": "AUGMENTED MATRIX",
+    "hints": [
+      "A matrix formed by combining the coefficient matrix and the constant vector",
+      "Used to represent a linear system"
+    ]
+  },
+  {
+    "word_no.": 253,
+    "word": "PIVOT",
+    "hints": [
+      "The first non-zero entry in a row of a matrix in row echelon form",
+      "A leading entry"
+    ]
+  },
+  {
+    "word_no.": 254,
+    "word": "HOMOGENEOUS",
+    "hints": [
+      "A linear system where all constant terms are zero",
+      "The right-hand side is the zero vector"
+    ]
+  },
+  {
+    "word_no.": 255,
+    "word": "PARTICULAR SOLUTION",
+    "hints": [
+      "Any single solution to a non-homogeneous linear system",
+      "Used to find the general solution"
+    ]
+  },
+  {
+    "word_no.": 256,
+    "word": "LINEAR TRANSFORMATION",
+    "hints": [
+      "A function between vector spaces that preserves vector addition and scalar multiplication",
+      "Also known as a linear map"
+    ]
+  },
+  {
+    "word_no.": 257,
+    "word": "MATRIX REPRESENTATION",
+    "hints": [
+      "A matrix that represents a linear transformation",
+      "Its columns are the images of the basis vectors"
+    ]
+  },
+  {
+    "word_no.": 258,
+    "word": "ISOMORPHISM",
+    "hints": [
+      "A one-to-one and onto linear transformation",
+      "Preserves the structure of the vector spaces"
+    ]
+  },
+  {
+    "word_no.": 259,
+    "word": "CHANGE OF BASIS",
+    "hints": [
+      "The process of converting a vector from one basis to another",
+      "Requires a change-of-basis matrix"
+    ]
+  },
+  {
+    "word_no.": 260,
+    "word": "SIMILAR MATRICES",
+    "hints": [
+      "Two matrices that represent the same linear transformation with respect to different bases",
+      "They have the same eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 261,
+    "word": "ORTHOGONAL MATRIX",
+    "hints": [
+      "A square matrix whose columns and rows are orthonormal vectors",
+      "Its inverse is its transpose"
+    ]
+  },
+  {
+    "word_no.": 262,
+    "word": "UNITARY MATRIX",
+    "hints": [
+      "A complex matrix whose inverse is its conjugate transpose",
+      "A generalization of an orthogonal matrix"
+    ]
+  },
+  {
+    "word_no.": 263,
+    "word": "HERMITIAN MATRIX",
+    "hints": [
+      "A complex square matrix that is equal to its own conjugate transpose",
+      "A complex version of a symmetric matrix"
+    ]
+  },
+  {
+    "word_no.": 264,
+    "word": "SKEW SYMMETRIC MATRIX",
+    "hints": [
+      "A matrix whose transpose is its negative",
+      "Its diagonal entries are all zero"
+    ]
+  },
+  {
+    "word_no.": 265,
+    "word": "SINGULAR MATRIX",
+    "hints": [
+      "A matrix that does not have an inverse",
+      "Its determinant is zero"
+    ]
+  },
+  {
+    "word_no.": 266,
+    "word": "NON SINGULAR MATRIX",
+    "hints": [
+      "A matrix that has an inverse",
+      "Its determinant is non-zero"
+    ]
+  },
+  {
+    "word_no.": 267,
+    "word": "LINEAR SUBSPACE",
+    "hints": [
+      "A subset of a vector space that is itself a vector space",
+      "A subset closed under addition and scalar multiplication"
+    ]
+  },
+  {
+    "word_no.": 268,
+    "word": "AFFINE SUBSPACE",
+    "hints": [
+      "A set of points that is the translation of a linear subspace",
+      "Also known as a flat"
+    ]
+  },
+  {
+    "word_no.": 269,
+    "word": "ORTHOGONAL COMPLEMENT",
+    "hints": [
+      "The set of all vectors that are orthogonal to every vector in a given subspace",
+      "Used to find the closest point"
+    ]
+  },
+  {
+    "word_no.": 270,
+    "word": "FOUR FUNDAMENTAL SUBSPACES",
+    "hints": [
+      "Row space, column space, null space, and left null space",
+      "Central to the theory of linear algebra"
+    ]
+  },
+  {
+    "word_no.": 271,
+    "word": "LEAST SQUARES SOLUTION",
+    "hints": [
+      "The vector that minimizes the distance between two vectors",
+      "The best approximate solution to an inconsistent system"
+    ]
+  },
+  {
+    "word_no.": 272,
+    "word": "NORMAL EQUATIONS",
+    "hints": [
+      "A system of linear equations used to find the least-squares solution",
+      "A^T * A * x = A^T * b"
+    ]
+  },
+  {
+    "word_no.": 273,
+    "word": "SYMMETRIC MATRIX",
+    "hints": [
+      "A matrix that is equal to its own transpose",
+      "Always has real eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 274,
+    "word": "HERMITIAN MATRIX",
+    "hints": [
+      "A complex matrix equal to its conjugate transpose",
+      "A generalization of a symmetric matrix"
+    ]
+  },
+  {
+    "word_no.": 275,
+    "word": "SKEW SYMMETRIC",
+    "hints": [
+      "A matrix whose transpose is equal to its negative",
+      "A^T = -A"
+    ]
+  },
+  {
+    "word_no.": 276,
+    "word": "SINGULAR VALUE DECOMPOSITION",
+    "hints": [
+      "A powerful factorization of a matrix",
+      "A = U * Sigma * V^T"
+    ]
+  },
+  {
+    "word_no.": 277,
+    "word": "PSEUDOINVERSE",
+    "hints": [
+      "A generalization of the inverse matrix",
+      "Used for non-square or singular matrices"
+    ]
+  },
+  {
+    "word_no.": 278,
+    "word": "LU FACTORIZATION",
+    "hints": [
+      "A method to decompose a matrix into a lower and upper triangular matrix",
+      "Used to solve systems of equations"
+    ]
+  },
+  {
+    "word_no.": 279,
+    "word": "CHOLESKY DECOMPOSITION",
+    "hints": [
+      "A factorization of a Hermitian, positive-definite matrix",
+      "A = L * L^T"
+    ]
+  },
+  {
+    "word_no.": 280,
+    "word": "EIGENDECOMPOSITION",
+    "hints": [
+      "The factorization of a matrix into its eigenvalues and eigenvectors",
+      "A = P * D * P^(-1)"
+    ]
+  },
+  {
+    "word_no.": 281,
+    "word": "SPECTRAL THEOREM",
+    "hints": [
+      "A theorem about the diagonalization of matrices",
+      "States that a symmetric matrix can be diagonalized by an orthogonal matrix"
+    ]
+  },
+  {
+    "word_no.": 282,
+    "word": "SYLVESTER'S LAW OF INERTIA",
+    "hints": [
+      "A theorem that describes the number of positive, negative, and zero eigenvalues of a matrix",
+      "Pertains to the signature of a quadratic form"
+    ]
+  },
+  {
+    "word_no.": 283,
+    "word": "POSITIVE DEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are positive",
+      "Used in optimization"
+    ]
+  },
+  {
+    "word_no.": 284,
+    "word": "NEGATIVE DEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are negative",
+      "Used in optimization"
+    ]
+  },
+  {
+    "word_no.": 285,
+    "word": "POSITIVE SEMIDEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are non-negative",
+      "Includes matrices with zero eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 286,
+    "word": "NEGATIVE SEMIDEFINITE",
+    "hints": [
+      "A symmetric matrix where all its eigenvalues are non-positive",
+      "Includes matrices with zero eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 287,
+    "word": "LINEAR TRANSFORMATION",
+    "hints": [
+      "A function between vector spaces that preserves vector addition and scalar multiplication",
+      "Also known as a linear map"
+    ]
+  },
+  {
+    "word_no.": 288,
+    "word": "ROTATION MATRIX",
+    "hints": [
+      "A matrix used to rotate vectors in a Euclidean space",
+      "Its determinant is one"
+    ]
+  },
+  {
+    "word_no.": 289,
+    "word": "SHEAR MATRIX",
+    "hints": [
+      "A matrix that distorts a vector space along a given direction",
+      "Preserves area and volume"
+    ]
+  },
+  {
+    "word_no.": 290,
+    "word": "SCALING MATRIX",
+    "hints": [
+      "A matrix that stretches or shrinks a vector",
+      "A diagonal matrix"
+    ]
+  },
+  {
+    "word_no.": 291,
+    "word": "IDENTITY TRANSFORMATION",
+    "hints": [
+      "A linear transformation that maps every vector to itself",
+      "Represented by the identity matrix"
+    ]
+  },
+  {
+    "word_no.": 292,
+    "word": "INVERTIBLE MATRIX",
+    "hints": [
+      "A matrix that has an inverse",
+      "Its determinant is non-zero"
+    ]
+  },
+  {
+    "word_no.": 293,
+    "word": "NON INVERTIBLE",
+    "hints": [
+      "A matrix that does not have an inverse",
+      "Also known as a singular matrix"
+    ]
+  },
+  {
+    "word_no.": 294,
+    "word": "TRACE",
+    "hints": [
+      "The sum of the diagonal elements of a square matrix",
+      "The sum of the eigenvalues"
+    ]
+  },
+  {
+    "word_no.": 295,
+    "word": "SVD",
+    "hints": [
+      "Acronym for Singular Value Decomposition",
+      "Used for data compression and noise reduction"
+    ]
+  },
+  {
+    "word_no.": 296,
+    "word": "PROPERTIES OF DETERMINANTS",
+    "hints": [
+      "Includes multiplicative property and transpose property",
+      "Rules for manipulating determinants"
+    ]
+  },
+  {
+    "word_no.": 297,
+    "word": "MINORS AND COFACTORS",
+    "hints": [
+      "Components used to calculate determinants",
+      "Used in the adjugate matrix"
+    ]
+  },
+  {
+    "word_no.": 298,
+    "word": "CRAMER'S RULE",
+    "hints": [
+      "A formula for solving systems of linear equations using determinants",
+      "Often impractical for large systems"
+    ]
+  },
+  {
+    "word_no.": 299,
+    "word": "GAUSS JORDAN ELIMINATION",
+    "hints": [
+      "An extension of Gaussian elimination",
+      "Reduces a matrix to its reduced row echelon form"
+    ]
+  },
+  {
+    "word_no.": 300,
+    "word": "ROW REDUCED ECHELON FORM",
+    "hints": [
+      "A simplified form of a matrix where all pivot positions are 1",
+      "All entries above and below pivots are 0"
+    ]
+  }
+]

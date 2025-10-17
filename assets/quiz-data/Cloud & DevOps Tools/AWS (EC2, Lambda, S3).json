@@ -1,0 +1,1846 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does EC2 stand for in AWS?",
+    "Option1": "Elastic Compute Cloud",
+    "Option2": "Enhanced Cloud Computing",
+    "Option3": "Enterprise Cloud System",
+    "Option4": "Efficient Compute Cluster",
+    "Answer": "Elastic Compute Cloud"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which AWS service allows you to run virtual servers in the cloud?",
+    "Option1": "AWS Lambda",
+    "Option2": "Amazon S3",
+    "Option3": "Amazon EC2",
+    "Option4": "Amazon RDS",
+    "Answer": "Amazon EC2"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is an AMI in EC2?",
+    "Option1": "Amazon Machine Interface",
+    "Option2": "Amazon Management Instance",
+    "Option3": "Amazon Machine Image",
+    "Option4": "Amazon Migration Instance",
+    "Answer": "Amazon Machine Image"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which component of EC2 allows you to configure security rules for instances?",
+    "Option1": "Key Pair",
+    "Option2": "Security Group",
+    "Option3": "Elastic IP",
+    "Option4": "Load Balancer",
+    "Answer": "Security Group"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is an Elastic IP (EIP) in EC2 used for?",
+    "Option1": "To provide a dynamic IP address to an instance",
+    "Option2": "To provide a static public IP address to an instance",
+    "Option3": "To allocate private IP addresses within a VPC",
+    "Option4": "To connect multiple EC2 instances",
+    "Answer": "To provide a static public IP address to an instance"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the primary benefit of using EC2 Auto Scaling?",
+    "Option1": "Reduces network latency",
+    "Option2": "Automatically adjusts EC2 capacity to maintain performance",
+    "Option3": "Encrypts data at rest",
+    "Option4": "Manages database connections",
+    "Answer": "Automatically adjusts EC2 capacity to maintain performance"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which EC2 pricing model is best for long-term, predictable workloads?",
+    "Option1": "On-Demand Instances",
+    "Option2": "Spot Instances",
+    "Option3": "Reserved Instances",
+    "Option4": "Dedicated Hosts",
+    "Answer": "Reserved Instances"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which EC2 pricing model is best for fault-tolerant workloads that can tolerate interruptions?",
+    "Option1": "On-Demand Instances",
+    "Option2": "Spot Instances",
+    "Option3": "Reserved Instances",
+    "Option4": "Dedicated Hosts",
+    "Answer": "Spot Instances"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the purpose of an EC2 Key Pair?",
+    "Option1": "To encrypt S3 buckets",
+    "Option2": "To authenticate SSH access to EC2 instances",
+    "Option3": "To manage IAM roles",
+    "Option4": "To create VPC endpoints",
+    "Answer": "To authenticate SSH access to EC2 instances"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is Amazon S3 primarily used for?",
+    "Option1": "Relational database hosting",
+    "Option2": "Serverless function execution",
+    "Option3": "Object storage for various data types",
+    "Option4": "Virtual private networking",
+    "Answer": "Object storage for various data types"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is a 'bucket' in Amazon S3?",
+    "Option1": "A type of database table",
+    "Option2": "A container for objects stored in S3",
+    "Option3": "A virtual network segment",
+    "Option4": "A type of EC2 instance",
+    "Answer": "A container for objects stored in S3"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which S3 storage class is designed for frequently accessed data with low latency?",
+    "Option1": "S3 Glacier Deep Archive",
+    "Option2": "S3 Standard",
+    "Option3": "S3 One Zone-Infrequent Access",
+    "Option4": "S3 Intelligent-Tiering",
+    "Answer": "S3 Standard"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which S3 storage class is cost-effective for infrequently accessed data with retrieval times in minutes to hours?",
+    "Option1": "S3 Standard",
+    "Option2": "S3 Standard-Infrequent Access (S3 Standard-IA)",
+    "Option3": "S3 Glacier",
+    "Option4": "S3 Reduced Redundancy Storage (RRS)",
+    "Answer": "S3 Standard-Infrequent Access (S3 Standard-IA)"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is S3 Versioning used for?",
+    "Option1": "To encrypt objects in S3",
+    "Option2": "To enable cross-region replication",
+    "Option3": "To keep multiple versions of an object in a bucket",
+    "Option4": "To analyze S3 access logs",
+    "Answer": "To keep multiple versions of an object in a bucket"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is the maximum object size that can be stored in S3?",
+    "Option1": "5 MB",
+    "Option2": "50 GB",
+    "Option3": "5 TB",
+    "Option4": "500 GB",
+    "Answer": "5 TB"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which S3 feature allows you to automatically transfer objects to a different storage class based on access patterns?",
+    "Option1": "S3 Lifecycle Policies",
+    "Option2": "S3 Cross-Region Replication",
+    "Option3": "S3 Transfer Acceleration",
+    "Option4": "S3 Event Notifications",
+    "Answer": "S3 Lifecycle Policies"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is AWS Lambda?",
+    "Option1": "A managed relational database service",
+    "Option2": "A serverless compute service that runs code in response to events",
+    "Option3": "A content delivery network service",
+    "Option4": "A virtual private cloud service",
+    "Answer": "A serverless compute service that runs code in response to events"
+  },
+  {
+    "question_no.": 18,
+    "Question": "What is the primary benefit of using AWS Lambda?",
+    "Option1": "Full control over underlying servers",
+    "Option2": "No server provisioning or management required",
+    "Option3": "Long-running batch jobs",
+    "Option4": "Fixed monthly costs",
+    "Answer": "No server provisioning or management required"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What triggers a Lambda function?",
+    "Option1": "Only HTTP requests",
+    "Option2": "Various AWS services events (e.g., S3 object creation, DynamoDB stream updates)",
+    "Option3": "Manual execution only",
+    "Option4": "EC2 instance boot-up",
+    "Answer": "Various AWS services events (e.g., S3 object creation, DynamoDB stream updates)"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the maximum execution duration for a single Lambda function invocation?",
+    "Option1": "30 seconds",
+    "Option2": "5 minutes",
+    "Option3": "15 minutes",
+    "Option4": "1 hour",
+    "Answer": "15 minutes"
+  },
+  {
+    "question_no.": 21,
+    "Question": "How are you billed for AWS Lambda usage?",
+    "Option1": "Per hour based on instance size",
+    "Option2": "Per month based on provisioned capacity",
+    "Option3": "Per millisecond of execution and number of requests",
+    "Option4": "Flat fee per function",
+    "Answer": "Per millisecond of execution and number of requests"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is a 'cold start' in Lambda?",
+    "Option1": "When a Lambda function is invoked for the first time or after a period of inactivity",
+    "Option2": "When a Lambda function fails to execute",
+    "Option3": "When a Lambda function runs out of memory",
+    "Option4": "When a Lambda function is deployed",
+    "Answer": "When a Lambda function is invoked for the first time or after a period of inactivity"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which service can be used to manage and deploy serverless applications that include Lambda functions?",
+    "Option1": "AWS CloudFormation",
+    "Option2": "AWS CodeDeploy",
+    "Option3": "AWS Serverless Application Model (SAM)",
+    "Option4": "AWS Elastic Beanstalk",
+    "Answer": "AWS Serverless Application Model (SAM)"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is the primary difference between EC2 and Lambda?",
+    "Option1": "EC2 is serverless, Lambda requires server management.",
+    "Option2": "EC2 is for compute, Lambda is for storage.",
+    "Option3": "EC2 provides virtual servers, Lambda executes code without managing servers.",
+    "Option4": "EC2 is event-driven, Lambda is always running.",
+    "Answer": "EC2 provides virtual servers, Lambda executes code without managing servers."
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which AWS service would you use for long-term archival of infrequently accessed data at the lowest cost?",
+    "Option1": "Amazon S3 Standard",
+    "Option2": "Amazon S3 Glacier Deep Archive",
+    "Option3": "Amazon EBS",
+    "Option4": "Amazon RDS",
+    "Answer": "Amazon S3 Glacier Deep Archive"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of an EC2 instance store volume?",
+    "Option1": "Persistent block storage for EC2 instances",
+    "Option2": "Temporary block storage for EC2 instances, deleted on termination",
+    "Option3": "Object storage for applications",
+    "Option4": "Shared file system for multiple instances",
+    "Answer": "Temporary block storage for EC2 instances, deleted on termination"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is the default storage class for new objects uploaded to S3?",
+    "Option1": "S3 Glacier",
+    "Option2": "S3 Standard",
+    "Option3": "S3 Intelligent-Tiering",
+    "Option4": "S3 One Zone-IA",
+    "Answer": "S3 Standard"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which security best practice should you follow when providing permissions to S3 buckets?",
+    "Option1": "Grant full public access to all buckets",
+    "Option2": "Grant least privilege access using IAM policies",
+    "Option3": "Store credentials directly in application code",
+    "Option4": "Use bucket policies only, not IAM policies",
+    "Answer": "Grant least privilege access using IAM policies"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Can a Lambda function access resources within a VPC?",
+    "Option1": "No, Lambda functions are isolated from VPCs.",
+    "Option2": "Yes, by configuring the Lambda function to run within a VPC.",
+    "Option3": "Only if the VPC is publicly accessible.",
+    "Option4": "Only if connected via Direct Connect.",
+    "Answer": "Yes, by configuring the Lambda function to run within a VPC."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'Region' in AWS?",
+    "Option1": "A single data center",
+    "Option2": "A distinct geographic area with multiple Availability Zones",
+    "Option3": "A logical grouping of EC2 instances",
+    "Option4": "A type of S3 bucket",
+    "Answer": "A distinct geographic area with multiple Availability Zones"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is an 'Availability Zone' (AZ) in AWS?",
+    "Option1": "A single server rack",
+    "Option2": "A physically distinct, independent data center within an AWS Region",
+    "Option3": "A content delivery network point of presence",
+    "Option4": "A security boundary for EC2 instances",
+    "Answer": "A physically distinct, independent data center within an AWS Region"
+  },
+  {
+    "question_no.": 32,
+    "Question": "For high availability, how many Availability Zones should an application typically span in EC2?",
+    "Option1": "One",
+    "Option2": "At least two",
+    "Option3": "All available AZs in a Region",
+    "Option4": "Zero, EC2 handles availability automatically",
+    "Answer": "At least two"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is the purpose of a Load Balancer (ELB) in front of EC2 instances?",
+    "Option1": "To store static website content",
+    "Option2": "To distribute incoming application traffic across multiple EC2 instances",
+    "Option3": "To manage database connections",
+    "Option4": "To provide secure shell access",
+    "Answer": "To distribute incoming application traffic across multiple EC2 instances"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which type of ELB operates at the application layer (Layer 7) and supports path-based routing?",
+    "Option1": "Classic Load Balancer (CLB)",
+    "Option2": "Network Load Balancer (NLB)",
+    "Option3": "Application Load Balancer (ALB)",
+    "Option4": "Gateway Load Balancer (GWLB)",
+    "Answer": "Application Load Balancer (ALB)"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the maximum number of S3 buckets per AWS account by default?",
+    "Option1": "10",
+    "Option2": "100",
+    "Option3": "1,000",
+    "Option4": "Unlimited",
+    "Answer": "100"
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which S3 feature provides a highly durable and secure way to store static website content?",
+    "Option1": "S3 Event Notifications",
+    "Option2": "S3 Static Website Hosting",
+    "Option3": "S3 Transfer Acceleration",
+    "Option4": "S3 Batch Operations",
+    "Answer": "S3 Static Website Hosting"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Can S3 buckets be publicly accessible by default?",
+    "Option1": "Yes, always",
+    "Option2": "No, they are private by default",
+    "Option3": "Only if versioning is enabled",
+    "Option4": "Only for specific AWS services",
+    "Answer": "No, they are private by default"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is an S3 Pre-signed URL used for?",
+    "Option1": "To give temporary access to a specific S3 object without AWS credentials",
+    "Option2": "To permanently share an S3 bucket with another account",
+    "Option3": "To configure S3 lifecycle policies",
+    "Option4": "To enable S3 bucket encryption",
+    "Answer": "To give temporary access to a specific S3 object without AWS credentials"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is AWS CloudWatch used for with Lambda?",
+    "Option1": "Deploying Lambda functions",
+    "Option2": "Monitoring and logging Lambda function invocations and performance",
+    "Option3": "Writing Lambda function code",
+    "Option4": "Managing Lambda permissions",
+    "Answer": "Monitoring and logging Lambda function invocations and performance"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which programming languages are supported by AWS Lambda?",
+    "Option1": "Only Python and Node.js",
+    "Option2": "Java, Python, Node.js, C#, Go, Ruby, and more",
+    "Option3": "Only Java",
+    "Option4": "Only compiled languages",
+    "Answer": "Java, Python, Node.js, C#, Go, Ruby, and more"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the concept of 'concurrency' in AWS Lambda?",
+    "Option1": "The number of Lambda functions deployed in an account",
+    "Option2": "The number of simultaneous executions of your Lambda function",
+    "Option3": "The maximum memory allocated to a Lambda function",
+    "Option4": "The number of triggers configured for a Lambda function",
+    "Answer": "The number of simultaneous executions of your Lambda function"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the recommended way to manage secrets (e.g., database credentials) within a Lambda function?",
+    "Option1": "Hardcode them in the Lambda code",
+    "Option2": "Store them in environment variables directly",
+    "Option3": "Use AWS Secrets Manager or AWS Systems Manager Parameter Store",
+    "Option4": "Store them in an S3 bucket with public access",
+    "Answer": "Use AWS Secrets Manager or AWS Systems Manager Parameter Store"
+  },
+  {
+    "question_no.": 43,
+    "Question": "When should you choose EC2 over Lambda?",
+    "Option1": "For short-running, event-driven tasks",
+    "Option2": "When you need full control over the operating system and server environment",
+    "Option3": "For simple API endpoints",
+    "Option4": "When you want to pay only for compute time consumed",
+    "Answer": "When you need full control over the operating system and server environment"
+  },
+  {
+    "question_no.": 44,
+    "Question": "When should you choose Lambda over EC2?",
+    "Option1": "For long-running, stateful applications",
+    "Option2": "When you need to manage underlying infrastructure",
+    "Option3": "For event-driven, serverless workloads with variable traffic",
+    "Option4": "When you require dedicated hardware",
+    "Answer": "For event-driven, serverless workloads with variable traffic"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is an EBS volume in EC2?",
+    "Option1": "An ephemeral storage attached to an instance",
+    "Option2": "Persistent block storage that can be attached to an EC2 instance",
+    "Option3": "Object storage for web applications",
+    "Option4": "A type of database instance",
+    "Answer": "Persistent block storage that can be attached to an EC2 instance"
+  },
+  {
+    "question_no.": 46,
+    "Question": "Can an EBS volume be attached to multiple EC2 instances simultaneously?",
+    "Option1": "Yes, always",
+    "Option2": "No, generally only one instance at a time (except for Multi-Attach enabled volumes)",
+    "Option3": "Only if the instances are in the same Availability Zone",
+    "Option4": "Only for read-only access",
+    "Answer": "No, generally only one instance at a time (except for Multi-Attach enabled volumes)"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is an EC2 placement group used for?",
+    "Option1": "To control the physical placement of EC2 instances for performance or isolation",
+    "Option2": "To assign a static IP address to an instance",
+    "Option3": "To encrypt data in transit",
+    "Option4": "To manage security group rules",
+    "Answer": "To control the physical placement of EC2 instances for performance or isolation"
+  },
+  {
+    "question_no. 48": "What is the purpose of EC2 instance types?",
+    "Option1": "To specify the operating system",
+    "Option2": "To define the compute, memory, and storage capacity of an instance",
+    "Option3": "To set up network configurations",
+    "Option4": "To choose the geographical region",
+    "Answer": "To define the compute, memory, and storage capacity of an instance"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which EC2 instance type is optimized for compute-intensive applications?",
+    "Option1": "M-series (General Purpose)",
+    "Option2": "C-series (Compute Optimized)",
+    "Option3": "R-series (Memory Optimized)",
+    "Option4": "T-series (Burstable Performance)",
+    "Answer": "C-series (Compute Optimized)"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is a 'Snapshot' of an EBS volume?",
+    "Option1": "A real-time backup of the volume data",
+    "Option2": "A point-in-time backup of the EBS volume stored in S3",
+    "Option3": "A duplicate of the EBS volume in the same AZ",
+    "Option4": "A copy of the operating system on the instance",
+    "Answer": "A point-in-time backup of the EBS volume stored in S3"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which EC2 feature allows you to reserve instances for a 1-year or 3-year term at a significant discount?",
+    "Option1": "Spot Instances",
+    "Option2": "On-Demand Instances",
+    "Option3": "Reserved Instances",
+    "Option4": "Dedicated Instances",
+    "Answer": "Reserved Instances"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the benefit of using an EC2 Dedicated Host?",
+    "Option1": "Shared tenancy for cost savings",
+    "Option2": "Physical server dedicated to your use, useful for licensing requirements",
+    "Option3": "Automatic scaling based on demand",
+    "Option4": "Ephemeral storage for temporary data",
+    "Answer": "Physical server dedicated to your use, useful for licensing requirements"
+  },
+  {
+    "question_no.": 53,
+    "Question": "How does EC2 differ from a traditional on-premise server?",
+    "Option1": "EC2 requires manual hardware provisioning.",
+    "Option2": "EC2 offers elastic scalability and pay-as-you-go pricing.",
+    "Option3": "EC2 has fixed capacity and long lead times for provisioning.",
+    "Option4": "EC2 is only for small-scale applications.",
+    "Answer": "EC2 offers elastic scalability and pay-as-you-go pricing."
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is the purpose of the S3 Transfer Acceleration feature?",
+    "Option1": "To speed up data transfer between S3 buckets within the same region",
+    "Option2": "To accelerate data transfer to and from S3 over long distances",
+    "Option3": "To reduce the cost of S3 storage",
+    "Option4": "To automatically tier S3 objects to different storage classes",
+    "Answer": "To accelerate data transfer to and from S3 over long distances"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Which S3 feature allows you to prevent accidental deletion of objects?",
+    "Option1": "S3 Encryption",
+    "Option2": "S3 Versioning",
+    "Option3": "S3 Lifecycle Policies",
+    "Option4": "S3 Access Control Lists (ACLs)",
+    "Answer": "S3 Versioning"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the maximum number of objects you can store in an S3 bucket?",
+    "Option1": "1,000",
+    "Option2": "100,000",
+    "Option3": "1 billion",
+    "Option4": "Unlimited",
+    "Answer": "Unlimited"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which S3 feature can be used to notify other AWS services (e.g., Lambda) when an object is created or deleted in a bucket?",
+    "Option1": "S3 Batch Operations",
+    "Option2": "S3 Event Notifications",
+    "Option3": "S3 Select",
+    "Option4": "S3 Object Lock",
+    "Answer": "S3 Event Notifications"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the primary use case for S3 Object Lock?",
+    "Option1": "To prevent unauthorized access to objects",
+    "Option2": "To simplify S3 lifecycle management",
+    "Option3": "To enforce retention policies for data immutability or regulatory compliance",
+    "Option4": "To improve S3 object retrieval performance",
+    "Answer": "To enforce retention policies for data immutability or regulatory compliance"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Can S3 be used to host dynamic websites?",
+    "Option1": "Yes, directly without any other services.",
+    "Option2": "No, S3 only supports static website hosting.",
+    "Option3": "Yes, but usually in conjunction with other services like Lambda and API Gateway.",
+    "Option4": "Only for mobile applications.",
+    "Answer": "Yes, but usually in conjunction with other services like Lambda and API Gateway."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the default behavior of a Lambda function when it encounters an unhandled error?",
+    "Option1": "It retries indefinitely.",
+    "Option2": "It logs the error to CloudWatch Logs and stops.",
+    "Option3": "It automatically scales up new instances.",
+    "Option4": "It sends an email notification.",
+    "Answer": "It logs the error to CloudWatch Logs and stops."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is a 'dead-letter queue' (DLQ) in Lambda used for?",
+    "Option1": "To store successful Lambda invocations",
+    "Option2": "To send failed Lambda invocations for later processing",
+    "Option3": "To manage Lambda function versions",
+    "Option4": "To track Lambda execution time",
+    "Answer": "To send failed Lambda invocations for later processing"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the purpose of Lambda Layers?",
+    "Option1": "To create multiple versions of a Lambda function",
+    "Option2": "To manage environment variables for Lambda functions",
+    "Option3": "To share code and dependencies between multiple Lambda functions",
+    "Option4": "To define network configurations for Lambda",
+    "Answer": "To share code and dependencies between multiple Lambda functions"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'provisioned concurrency' in Lambda used for?",
+    "Option1": "To reduce the cost of Lambda functions",
+    "Option2": "To ensure that a specified number of function instances are always initialized and ready to respond",
+    "Option3": "To limit the maximum number of concurrent executions",
+    "Option4": "To integrate with other AWS services",
+    "Answer": "To ensure that a specified number of function instances are always initialized and ready to respond"
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which service typically acts as the API endpoint for invoking Lambda functions from web applications?",
+    "Option1": "Amazon SQS",
+    "Option2": "Amazon RDS",
+    "Option3": "Amazon API Gateway",
+    "Option4": "Amazon CloudFront",
+    "Answer": "Amazon API Gateway"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the maximum deployment package size for a Lambda function (unzipped)?",
+    "Option1": "50 MB",
+    "Option2": "250 MB",
+    "Option3": "500 MB",
+    "Option4": "1 GB",
+    "Answer": "250 MB"
+  },
+  {
+    "question_no.": 66,
+    "Question": "Which security principle is emphasized when using AWS Lambda?",
+    "Option1": "Shared responsibility model for security",
+    "Option2": "Customer is solely responsible for all security",
+    "Option3": "AWS is solely responsible for all security",
+    "Option4": "No security considerations needed for serverless",
+    "Answer": "Shared responsibility model for security"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is a 'Runtime' in AWS Lambda?",
+    "Option1": "The time it takes for a function to execute",
+    "Option2": "The programming language environment in which your function code executes",
+    "Option3": "The maximum memory allocated to a function",
+    "Option4": "The event that triggers a function",
+    "Answer": "The programming language environment in which your function code executes"
+  },
+  {
+    "question_no.": 68,
+    "Question": "How can you debug a Lambda function?",
+    "Option1": "Directly SSH into the Lambda environment",
+    "Option2": "Use CloudWatch Logs, X-Ray, and local testing tools",
+    "Option3": "It's not possible to debug Lambda functions",
+    "Option4": "Only by redeploying the function with print statements",
+    "Answer": "Use CloudWatch Logs, X-Ray, and local testing tools"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Which AWS service helps in analyzing and debugging distributed applications, including Lambda functions?",
+    "Option1": "AWS Config",
+    "Option2": "AWS CloudTrail",
+    "Option3": "AWS X-Ray",
+    "Option4": "AWS Trusted Advisor",
+    "Answer": "AWS X-Ray"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the purpose of the 'Execution Role' for a Lambda function?",
+    "Option1": "To specify who can invoke the function",
+    "Option2": "To define the permissions that the Lambda function has when it executes",
+    "Option3": "To set the maximum execution time",
+    "Option4": "To configure VPC access for the function",
+    "Answer": "To define the permissions that the Lambda function has when it executes"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Which EC2 component provides temporary, block-level storage that is physically attached to the host machine?",
+    "Option1": "Amazon EBS",
+    "Option2": "Amazon S3",
+    "Option3": "Instance Store",
+    "Option4": "Amazon EFS",
+    "Answer": "Instance Store"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the main difference between EC2 On-Demand and Spot Instances?",
+    "Option1": "Spot instances offer a fixed price, On-Demand prices fluctuate.",
+    "Option2": "On-Demand instances are suitable for flexible workloads, Spot for consistent workloads.",
+    "Option3": "Spot instances can be interrupted by AWS, On-Demand instances are continuously billed.",
+    "Option4": "On-Demand instances are cheaper than Spot instances.",
+    "Answer": "Spot instances can be interrupted by AWS, On-Demand instances are continuously billed."
+  },
+  {
+    "question_no.": 73,
+    "Question": "Which EC2 feature allows you to control inbound and outbound traffic at the instance level?",
+    "Option1": "Network ACLs",
+    "Option2": "Security Groups",
+    "Option3": "VPC Endpoints",
+    "Option4": "Route Tables",
+    "Answer": "Security Groups"
+  },
+  {
+    "question_no.": 74,
+    "Question": "Which EC2 feature allows you to control inbound and outbound traffic at the subnet level?",
+    "Option1": "Security Groups",
+    "Option2": "Network ACLs",
+    "Option3": "Elastic IPs",
+    "Option4": "Internet Gateway",
+    "Answer": "Network ACLs"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the purpose of an EC2 User Data script?",
+    "Option1": "To encrypt the root volume of an instance",
+    "Option2": "To execute commands when an EC2 instance is launched",
+    "Option3": "To manage security group rules",
+    "Option4": "To create a backup of an instance",
+    "Answer": "To execute commands when an EC2 instance is launched"
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is the concept of 'Instance Metadata' in EC2?",
+    "Option1": "Configuration data that you can access from within a running EC2 instance",
+    "Option2": "Information about your AWS account billing",
+    "Option3": "Logs generated by the EC2 service",
+    "Option4": "Data stored in an EBS volume",
+    "Answer": "Configuration data that you can access from within a running EC2 instance"
+  },
+  {
+    "question_no.": 77,
+    "Question": "Which S3 consistency model does S3 offer for PUTS of new objects?",
+    "Option1": "Eventual Consistency",
+    "Option2": "Read-after-write Consistency",
+    "Option3": "Strong Consistency",
+    "Option4": "Weak Consistency",
+    "Answer": "Read-after-write Consistency"
+  },
+  {
+    "question_no.": 78,
+    "Question": "Which S3 consistency model does S3 offer for overwrite PUTS and DELETES?",
+    "Option1": "Eventual Consistency",
+    "Option2": "Read-after-write Consistency",
+    "Option3": "Strong Consistency",
+    "Option4": "Weak Consistency",
+    "Answer": "Eventual Consistency"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the purpose of S3 lifecycle rules for objects?",
+    "Option1": "To automatically change storage classes or delete objects after a defined period",
+    "Option2": "To encrypt objects in transit",
+    "Option3": "To control access to individual objects",
+    "Option4": "To create S3 bucket policies",
+    "Answer": "To automatically change storage classes or delete objects after a defined period"
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which S3 storage class automatically moves objects between two access tiers to optimize costs?",
+    "Option1": "S3 Standard",
+    "Option2": "S3 Standard-IA",
+    "Option3": "S3 Glacier",
+    "Option4": "S3 Intelligent-Tiering",
+    "Answer": "S3 Intelligent-Tiering"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the primary benefit of using S3 for backup and restore operations?",
+    "Option1": "High performance for transactional workloads",
+    "Option2": "Highly durable, scalable, and cost-effective storage",
+    "Option3": "Supports complex SQL queries",
+    "Option4": "Provides dedicated compute resources",
+    "Answer": "Highly durable, scalable, and cost-effective storage"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is the minimum billable storage duration for objects in S3 Standard-IA?",
+    "Option1": "1 day",
+    "Option2": "30 days",
+    "Option3": "90 days",
+    "Option4": "1 year",
+    "Answer": "30 days"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the minimum billable storage duration for objects in S3 Glacier?",
+    "Option1": "30 days",
+    "Option2": "90 days",
+    "Option3": "180 days",
+    "Option4": "365 days",
+    "Answer": "90 days"
+  },
+  {
+    "question_no.": 84,
+    "Question": "Which S3 encryption option uses keys managed by AWS and is the simplest to use?",
+    "Option1": "Client-Side Encryption",
+    "Option2": "Server-Side Encryption with S3-managed keys (SSE-S3)",
+    "Option3": "Server-Side Encryption with KMS-managed keys (SSE-KMS)",
+    "Option4": "Server-Side Encryption with customer-provided keys (SSE-C)",
+    "Answer": "Server-Side Encryption with S3-managed keys (SSE-S3)"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the maximum amount of memory that can be allocated to a Lambda function?",
+    "Option1": "128 MB",
+    "Option2": "512 MB",
+    "Option3": "10,240 MB (10 GB)",
+    "Option4": "Unlimited",
+    "Answer": "10,240 MB (10 GB)"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is the maximum amount of ephemeral storage available to a Lambda function?",
+    "Option1": "512 MB",
+    "Option2": "1 GB",
+    "Option3": "10 GB",
+    "Option4": "Unlimited",
+    "Answer": "10 GB"
+  },
+  {
+    "question_no.": 87,
+    "Question": "How can you trigger a Lambda function on a schedule?",
+    "Option1": "Using S3 Event Notifications",
+    "Option2": "Using CloudWatch Events (now Amazon EventBridge)",
+    "Option3": "Using API Gateway",
+    "Option4": "Using DynamoDB Streams",
+    "Answer": "Using CloudWatch Events (now Amazon EventBridge)"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is a 'Lambda Function URL'?",
+    "Option1": "A custom domain name for your Lambda function",
+    "Option2": "A dedicated HTTPS endpoint for your Lambda function",
+    "Option3": "A public IP address for your Lambda function",
+    "Option4": "A link to your Lambda deployment package",
+    "Answer": "A dedicated HTTPS endpoint for your Lambda function"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the purpose of 'Lambda Destinations'?",
+    "Option1": "To send the results of a Lambda invocation to another AWS service without custom code",
+    "Option2": "To define the region where a Lambda function runs",
+    "Option3": "To connect Lambda to on-premise resources",
+    "Option4": "To store Lambda environment variables",
+    "Answer": "To send the results of a Lambda invocation to another AWS service without custom code"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Can a Lambda function call another Lambda function?",
+    "Option1": "No, this is not supported.",
+    "Option2": "Yes, but only through API Gateway.",
+    "Option3": "Yes, directly using the AWS SDK or by setting up an event trigger.",
+    "Option4": "Only if they are in different regions.",
+    "Answer": "Yes, directly using the AWS SDK or by setting up an event trigger."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the primary use case for EC2 Instance Connect?",
+    "Option1": "To connect to EC2 instances using RDP",
+    "Option2": "To provide a simple and secure way to connect to EC2 instances using SSH",
+    "Option3": "To establish a VPN connection to an EC2 instance",
+    "Option4": "To transfer files to an EC2 instance",
+    "Answer": "To provide a simple and secure way to connect to EC2 instances using SSH"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the difference between stopping and terminating an EC2 instance?",
+    "Option1": "Stopping deletes the instance and all its data, terminating powers it off.",
+    "Option2": "Stopping powers off the instance (you still pay for EBS), terminating deletes it.",
+    "Option3": "Stopping pauses billing, terminating resumes it.",
+    "Option4": "There is no difference.",
+    "Answer": "Stopping powers off the instance (you still pay for EBS), terminating deletes it."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What happens to data on an EC2 instance store volume when the instance is stopped?",
+    "Option1": "It persists and is accessible when the instance restarts.",
+    "Option2": "It is automatically backed up to S3.",
+    "Option3": "It is deleted.",
+    "Option4": "It is moved to an EBS volume.",
+    "Answer": "It is deleted."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is a 'Burst' in EC2 T-series instances?",
+    "Option1": "A sudden increase in network traffic",
+    "Option2": "The ability to temporarily increase CPU performance above baseline levels",
+    "Option3": "A period of reduced instance availability",
+    "Option4": "A type of storage allocation",
+    "Answer": "The ability to temporarily increase CPU performance above baseline levels"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the primary use case for a 'Placement Group' in EC2?",
+    "Option1": "To control the cost of EC2 instances",
+    "Option2": "To achieve low latency and high network throughput between instances",
+    "Option3": "To simplify instance management",
+    "Option4": "To assign public IP addresses",
+    "Answer": "To achieve low latency and high network throughput between instances"
+  },
+  {
+    "question_no.": 96,
+    "Question": "Which type of Placement Group is suitable for tightly coupled applications that require ultra-low latency?",
+    "Option1": "Cluster Placement Group",
+    "Option2": "Spread Placement Group",
+    "Option3": "Partition Placement Group",
+    "Option4": "Dedicated Placement Group",
+    "Answer": "Cluster Placement Group"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which type of Placement Group is suitable for applications that need to reduce the risk of simultaneous failures?",
+    "Option1": "Cluster Placement Group",
+    "Option2": "Spread Placement Group",
+    "Option3": "Partition Placement Group",
+    "Option4": "Dedicated Placement Group",
+    "Answer": "Spread Placement Group"
+  },
+  {
+    "question_no.": 98,
+    "Question": "Can you change the instance type of a running EC2 instance?",
+    "Option1": "Yes, always, without interruption.",
+    "Option2": "No, you must terminate and relaunch.",
+    "Option3": "Yes, by stopping the instance, changing the type, and starting it again.",
+    "Option4": "Only for T-series instances.",
+    "Answer": "Yes, by stopping the instance, changing the type, and starting it again."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the purpose of an EC2 Instance Profile?",
+    "Option1": "To define the network configuration for an instance",
+    "Option2": "To pass IAM roles to EC2 instances securely",
+    "Option3": "To specify the operating system of an instance",
+    "Option4": "To encrypt EBS volumes",
+    "Answer": "To pass IAM roles to EC2 instances securely"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What does S3 Intelligent-Tiering optimize for?",
+    "Option1": "Lowest cost for archival data",
+    "Option2": "Highest performance for all data",
+    "Option3": "Automatic cost optimization for data with unknown or changing access patterns",
+    "Option4": "Long-term data retention with infrequent access",
+    "Answer": "Automatic cost optimization for data with unknown or changing access patterns"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the primary benefit of using S3 cross-region replication?",
+    "Option1": "To reduce S3 storage costs",
+    "Option2": "To improve data durability and disaster recovery by replicating objects to another AWS Region",
+    "Option3": "To accelerate data transfers within a single region",
+    "Option4": "To enforce S3 bucket policies",
+    "Answer": "To improve data durability and disaster recovery by replicating objects to another AWS Region"
+  },
+  {
+    "question_no.": 102,
+    "Question": "How does S3 ensure high durability of your data?",
+    "Option1": "By storing data on a single disk",
+    "Option2": "By replicating data across multiple devices and Availability Zones",
+    "Option3": "By encrypting data at rest only",
+    "Option4": "By providing a single point of access",
+    "Answer": "By replicating data across multiple devices and Availability Zones"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is a 'prefix' in S3?",
+    "Option1": "The name of the bucket",
+    "Option2": "The initial part of an object's key, resembling a folder structure",
+    "Option3": "The version ID of an object",
+    "Option4": "The storage class of an object",
+    "Answer": "The initial part of an object's key, resembling a folder structure"
+  },
+  {
+    "question_no.": 104,
+    "Question": "Can you delete an S3 bucket if it contains objects?",
+    "Option1": "Yes, always",
+    "Option2": "No, you must empty the bucket first, unless force-deleted with specific commands.",
+    "Option3": "Only if versioning is disabled.",
+    "Option4": "Only if all objects are in Glacier.",
+    "Answer": "No, you must empty the bucket first, unless force-deleted with specific commands."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which S3 feature allows you to retrieve only a subset of data from an object using SQL expressions?",
+    "Option1": "S3 Event Notifications",
+    "Option2": "S3 Select",
+    "Option3": "S3 Batch Operations",
+    "Option4": "S3 Transfer Acceleration",
+    "Answer": "S3 Select"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the main difference between S3 Glacier and S3 Glacier Deep Archive?",
+    "Option1": "Glacier is for frequently accessed data, Deep Archive for infrequent.",
+    "Option2": "Glacier offers faster retrieval times but is more expensive than Deep Archive.",
+    "Option3": "Deep Archive offers faster retrieval times but is more expensive than Glacier.",
+    "Option4": "Deep Archive has a shorter minimum storage duration.",
+    "Answer": "Glacier offers faster retrieval times but is more expensive than Deep Archive."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is a 'request' in AWS Lambda billing?",
+    "Option1": "Each time your function is invoked",
+    "Option2": "Each millisecond of execution",
+    "Option3": "Each MB of memory allocated",
+    "Option4": "Each time a new version is published",
+    "Answer": "Each time your function is invoked"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'duration' in AWS Lambda billing?",
+    "Option1": "The time it takes to deploy the function",
+    "Option2": "The time your code executes, rounded up to the nearest millisecond",
+    "Option3": "The total time the function remains active",
+    "Option4": "The time spent on cold starts",
+    "Answer": "The time your code executes, rounded up to the nearest millisecond"
+  },
+  {
+    "question_no.": 109,
+    "Question": "How does increasing the memory allocated to a Lambda function affect its CPU and network performance?",
+    "Option1": "It has no effect.",
+    "Option2": "It decreases CPU and network performance.",
+    "Option3": "It proportionally increases CPU and network performance.",
+    "Option4": "It only affects cold start times.",
+    "Answer": "It proportionally increases CPU and network performance."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is 'Lambda@Edge' used for?",
+    "Option1": "To run Lambda functions in remote regions only",
+    "Option2": "To run Lambda functions at AWS Edge locations in response to Amazon CloudFront events",
+    "Option3": "To execute Lambda functions on premises",
+    "Option4": "To connect Lambda functions to EC2 instances",
+    "Answer": "To run Lambda functions at AWS Edge locations in response to Amazon CloudFront events"
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is the purpose of a 'Lambda Alias'?",
+    "Option1": "To create a new version of a function",
+    "Option2": "To point to a specific Lambda function version, allowing for easy updates and rollbacks",
+    "Option3": "To trigger a Lambda function from an S3 bucket",
+    "Option4": "To manage Lambda environment variables",
+    "Answer": "To point to a specific Lambda function version, allowing for easy updates and rollbacks"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'serverless computing'?",
+    "Option1": "Running applications on bare metal servers",
+    "Option2": "A cloud execution model where the cloud provider manages the underlying infrastructure",
+    "Option3": "A compute model that always requires provisioning of virtual machines",
+    "Option4": "A type of database architecture",
+    "Answer": "A cloud execution model where the cloud provider manages the underlying infrastructure"
+  },
+  {
+    "question_no.": 113,
+    "Question": "Which of these is NOT a benefit of serverless computing?",
+    "Option1": "Automatic scaling",
+    "Option2": "Reduced operational overhead",
+    "Option3": "Fine-grained control over server OS",
+    "Option4": "Pay-per-use billing",
+    "Answer": "Fine-grained control over server OS"
+  },
+  {
+    "question_no.": 114,
+    "Question": "When comparing EC2 and Lambda, which service is generally better for long-running, stateful applications?",
+    "Option1": "AWS Lambda",
+    "Option2": "Amazon EC2",
+    "Option3": "Amazon S3",
+    "Option4": "Amazon RDS",
+    "Answer": "Amazon EC2"
+  },
+  {
+    "question_no.": 115,
+    "Question": "When comparing EC2 and Lambda, which service is generally better for event-driven, intermittent workloads?",
+    "Option1": "Amazon EC2",
+    "Option2": "AWS Lambda",
+    "Option3": "Amazon S3",
+    "Option4": "Amazon EBS",
+    "Answer": "AWS Lambda"
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the core concept of a Virtual Private Cloud (VPC) in AWS?",
+    "Option1": "A public network where all resources are accessible.",
+    "Option2": "A logically isolated section of the AWS Cloud where you can launch AWS resources.",
+    "Option3": "A service for content delivery.",
+    "Option4": "A centralized logging service.",
+    "Answer": "A logically isolated section of the AWS Cloud where you can launch AWS resources."
+  },
+  {
+    "question_no.": 117,
+    "Question": "Within a VPC, what is a 'Subnet'?",
+    "Option1": "A security group for controlling instance traffic.",
+    "Option2": "A range of IP addresses in your VPC.",
+    "Option3": "A type of EC2 instance.",
+    "Option4": "A connection to the internet.",
+    "Answer": "A range of IP addresses in your VPC."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is an 'Internet Gateway' (IGW) in a VPC?",
+    "Option1": "A device for connecting two VPCs.",
+    "Option2": "A horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet.",
+    "Option3": "A firewall for controlling inbound traffic.",
+    "Option4": "A load balancer for EC2 instances.",
+    "Answer": "A horizontally scaled, redundant, and highly available VPC component that allows communication between your VPC and the internet."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is a 'Route Table' in a VPC?",
+    "Option1": "A list of security rules for instances.",
+    "Option2": "A set of rules that control where network traffic is directed.",
+    "Option3": "A configuration for Elastic IPs.",
+    "Option4": "A way to manage subnets.",
+    "Answer": "A set of rules that control where network traffic is directed."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the primary benefit of using a Virtual Private Cloud (VPC)?",
+    "Option1": "Reduced cost of EC2 instances.",
+    "Option2": "Enhanced security and isolation for your AWS resources.",
+    "Option3": "Automatic scaling of applications.",
+    "Option4": "Improved S3 performance.",
+    "Answer": "Enhanced security and isolation for your AWS resources."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Can an EC2 instance in a private subnet directly access the internet?",
+    "Option1": "Yes, always.",
+    "Option2": "No, unless a NAT Gateway or NAT instance is configured.",
+    "Option3": "Only if it has an Elastic IP.",
+    "Option4": "Only if it is in a public subnet.",
+    "Answer": "No, unless a NAT Gateway or NAT instance is configured."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is a 'NAT Gateway' in AWS VPC?",
+    "Option1": "A service that allows instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating connections to those instances.",
+    "Option2": "A component for routing traffic between VPCs.",
+    "Option3": "A firewall for controlling inbound traffic.",
+    "Option4": "A load balancer for public facing applications.",
+    "Answer": "A service that allows instances in a private subnet to connect to the internet or other AWS services, but prevents the internet from initiating connections to those instances."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'VPC Peering'?",
+    "Option1": "Connecting an EC2 instance to an S3 bucket.",
+    "Option2": "Connecting two VPCs together so that they can communicate with each other as if they are on the same network.",
+    "Option3": "Allowing a Lambda function to access an EC2 instance.",
+    "Option4": "Enabling cross-region replication for S3.",
+    "Answer": "Connecting two VPCs together so that they can communicate with each other as if they are on the same network."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is an 'endpoint' in AWS VPC used for?",
+    "Option1": "To provide public access to private resources.",
+    "Option2": "To create a private connection from your VPC to supported AWS services without traversing the internet.",
+    "Option3": "To block all incoming traffic.",
+    "Option4": "To route traffic to on-premise networks.",
+    "Answer": "To create a private connection from your VPC to supported AWS services without traversing the internet."
+  },
+  {
+    "question_no.": 125,
+    "Question": "Which type of VPC Endpoint uses an Elastic Network Interface (ENI) with a private IP address?",
+    "Option1": "Gateway Endpoint",
+    "Option2": "Interface Endpoint",
+    "Option3": "Direct Connect Endpoint",
+    "Option4": "VPN Endpoint",
+    "Answer": "Interface Endpoint"
+  },
+  {
+    "question_no.": 126,
+    "Question": "Which AWS service integrates with EC2 to provide managed databases (e.g., MySQL, PostgreSQL)?",
+    "Option1": "Amazon S3",
+    "Option2": "Amazon DynamoDB",
+    "Option3": "Amazon RDS",
+    "Option4": "Amazon Redshift",
+    "Answer": "Amazon RDS"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the primary benefit of using Amazon RDS over installing a database on an EC2 instance?",
+    "Option1": "Full control over operating system patches.",
+    "Option2": "AWS manages database patching, backups, and scaling.",
+    "Option3": "Lower cost for small databases.",
+    "Option4": "Direct SSH access to the database server.",
+    "Answer": "AWS manages database patching, backups, and scaling."
+  },
+  {
+    "question_no.": 128,
+    "Question": "Which AWS service is a fully managed NoSQL database service that works well with Lambda?",
+    "Option1": "Amazon Aurora",
+    "Option2": "Amazon Redshift",
+    "Option3": "Amazon DynamoDB",
+    "Option4": "Amazon Neptune",
+    "Answer": "Amazon DynamoDB"
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'DynamoDB Streams' used for in conjunction with Lambda?",
+    "Option1": "To replicate DynamoDB tables to other regions.",
+    "Option2": "To capture item-level modifications in a DynamoDB table and deliver them to Lambda for real-time processing.",
+    "Option3": "To backup DynamoDB tables to S3.",
+    "Option4": "To provide a public endpoint for DynamoDB.",
+    "Answer": "To capture item-level modifications in a DynamoDB table and deliver them to Lambda for real-time processing."
+  },
+  {
+    "question_no.": 130,
+    "Question": "Which AWS service is a global content delivery network (CDN) that can deliver S3 content and EC2 application content?",
+    "Option1": "AWS Direct Connect",
+    "Option2": "AWS VPN",
+    "Option3": "Amazon CloudFront",
+    "Option4": "AWS Transit Gateway",
+    "Answer": "Amazon CloudFront"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the primary benefit of using Amazon CloudFront?",
+    "Option1": "Reduces S3 storage costs.",
+    "Option2": "Improves data transfer speeds and reduces latency for end-users.",
+    "Option3": "Encrypts data at rest in S3.",
+    "Option4": "Manages EC2 instance types.",
+    "Answer": "Improves data transfer speeds and reduces latency for end-users."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is an 'Origin' in CloudFront?",
+    "Option1": "The geographical location of the user.",
+    "Option2": "The location where CloudFront caches content.",
+    "Option3": "The source of the content that CloudFront delivers (e.g., S3 bucket, EC2 instance).",
+    "Option4": "The CloudFront distribution ID.",
+    "Answer": "The source of the content that CloudFront delivers (e.g., S3 bucket, EC2 instance)."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is a 'Distribution' in CloudFront?",
+    "Option1": "A collection of S3 buckets.",
+    "Option2": "The configuration for how CloudFront delivers your content.",
+    "Option3": "A type of EC2 instance.",
+    "Option4": "A security group for CloudFront.",
+    "Answer": "The configuration for how CloudFront delivers your content."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the purpose of 'Cache Behavior' in CloudFront?",
+    "Option1": "To define how CloudFront routes requests to your origin and how it caches content.",
+    "Option2": "To specify the pricing model for CloudFront.",
+    "Option3": "To monitor CloudFront performance.",
+    "Option4": "To enable cross-region replication for CloudFront.",
+    "Answer": "To define how CloudFront routes requests to your origin and how it caches content."
+  },
+  {
+    "question_no.": 135,
+    "Question": "Which AWS service helps you automate the deployment of your applications to EC2 instances?",
+    "Option1": "AWS CodeCommit",
+    "Option2": "AWS CodeDeploy",
+    "Option3": "AWS CodePipeline",
+    "Option4": "AWS CodeBuild",
+    "Answer": "AWS CodeDeploy"
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is an 'Application Revision' in AWS CodeDeploy?",
+    "Option1": "A new version of your EC2 instance.",
+    "Option2": "A change to your S3 bucket policy.",
+    "Option3": "An archive file containing source code, web pages, executables, and deployment scripts.",
+    "Option4": "A new Lambda function version.",
+    "Answer": "An archive file containing source code, web pages, executables, and deployment scripts."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is a 'Deployment Group' in AWS CodeDeploy?",
+    "Option1": "A collection of S3 buckets.",
+    "Option2": "A set of individual instances, Auto Scaling groups, or EC2 instances identified by tags where CodeDeploy deploys your application.",
+    "Option3": "A group of Lambda functions.",
+    "Option4": "A specific AMI configuration.",
+    "Answer": "A set of individual instances, Auto Scaling groups, or EC2 instances identified by tags where CodeDeploy deploys your application."
+  },
+  {
+    "question_no.": 138,
+    "Question": "Which AWS service is used for continuous integration and continuous delivery (CI/CD) pipelines?",
+    "Option1": "AWS CodeCommit",
+    "Option2": "AWS CodeDeploy",
+    "Option3": "AWS CodePipeline",
+    "Option4": "AWS CodeBuild",
+    "Answer": "AWS CodePipeline"
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the role of AWS CodeCommit in a CI/CD pipeline?",
+    "Option1": "To build and test code.",
+    "Option2": "To deploy code to EC2 instances.",
+    "Option3": "To store source code in a fully managed version control service.",
+    "Option4": "To manage continuous delivery workflows.",
+    "Answer": "To store source code in a fully managed version control service."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the role of AWS CodeBuild in a CI/CD pipeline?",
+    "Option1": "To store source code.",
+    "Option2": "To automate software compilation, testing, and packaging.",
+    "Option3": "To deploy applications.",
+    "Option4": "To orchestrate the entire pipeline.",
+    "Answer": "To automate software compilation, testing, and packaging."
+  },
+  {
+    "question_no.": 141,
+    "Question": "Which AWS service is used to provision and manage AWS resources using infrastructure as code?",
+    "Option1": "AWS CloudWatch",
+    "Option2": "AWS CloudFormation",
+    "Option3": "AWS CloudTrail",
+    "Option4": "AWS Config",
+    "Answer": "AWS CloudFormation"
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is a 'Stack' in AWS CloudFormation?",
+    "Option1": "A single EC2 instance.",
+    "Option2": "A collection of AWS resources that you can manage as a single unit.",
+    "Option3": "A deployment group for CodeDeploy.",
+    "Option4": "A specific S3 bucket.",
+    "Answer": "A collection of AWS resources that you can manage as a single unit."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is a 'Template' in AWS CloudFormation?",
+    "Option1": "A deployed set of resources.",
+    "Option2": "A JSON or YAML-formatted text file that describes the AWS resources that you want to provision.",
+    "Option3": "A log file of CloudFormation events.",
+    "Option4": "A specific EC2 AMI.",
+    "Answer": "A JSON or YAML-formatted text file that describes the AWS resources that you want to provision."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the primary benefit of using Infrastructure as Code (IaC) with CloudFormation?",
+    "Option1": "Manual provisioning of resources.",
+    "Option2": "Improved consistency, automation, and version control of infrastructure.",
+    "Option3": "Reduced cost of AWS services.",
+    "Option4": "Eliminates the need for security groups.",
+    "Answer": "Improved consistency, automation, and version control of infrastructure."
+  },
+  {
+    "question_no.": 145,
+    "Question": "Which AWS service provides centralized logging and monitoring for all your AWS resources?",
+    "Option1": "AWS CloudTrail",
+    "Option2": "AWS CloudWatch",
+    "Option3": "AWS Config",
+    "Option4": "AWS X-Ray",
+    "Answer": "AWS CloudWatch"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is CloudWatch Logs used for?",
+    "Option1": "Storing S3 objects.",
+    "Option2": "Collecting and monitoring logs from various AWS services and applications.",
+    "Option3": "Sending notifications to users.",
+    "Option4": "Managing EC2 instance types.",
+    "Answer": "Collecting and monitoring logs from various AWS services and applications."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is CloudWatch Metrics used for?",
+    "Option1": "Storing application logs.",
+    "Option2": "Collecting and tracking metrics for your AWS resources and applications.",
+    "Option3": "Creating alarms based on security events.",
+    "Option4": "Automating deployments.",
+    "Answer": "Collecting and tracking metrics for your AWS resources and applications."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of CloudWatch Alarms?",
+    "Option1": "To trigger Lambda functions based on S3 events.",
+    "Option2": "To send notifications or take automated actions when a metric crosses a defined threshold.",
+    "Option3": "To analyze network traffic.",
+    "Option4": "To create new EC2 instances.",
+    "Answer": "To send notifications or take automated actions when a metric crosses a defined threshold."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Which AWS service records AWS API calls and delivers log files to an S3 bucket?",
+    "Option1": "AWS CloudWatch",
+    "Option2": "AWS Config",
+    "Option3": "AWS CloudTrail",
+    "Option4": "AWS Security Hub",
+    "Answer": "AWS CloudTrail"
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the primary purpose of AWS CloudTrail?",
+    "Option1": "To monitor application performance.",
+    "Option2": "To enable governance, compliance, and operational auditing of your AWS account.",
+    "Option3": "To store static website content.",
+    "Option4": "To manage serverless functions.",
+    "Answer": "To enable governance, compliance, and operational auditing of your AWS account."
+  },
+  {
+    "question_no.": 151,
+    "Question": "Which AWS service helps you assess, audit, and evaluate the configurations of your AWS resources?",
+    "Option1": "AWS CloudWatch",
+    "Option2": "AWS CloudTrail",
+    "Option3": "AWS Config",
+    "Option4": "AWS Trusted Advisor",
+    "Answer": "AWS Config"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the purpose of 'Compliance Packs' in AWS Config?",
+    "Option1": "To manage EC2 instance types.",
+    "Option2": "To enforce specific security policies for S3 buckets.",
+    "Option3": "To define a collection of AWS Config rules and remediation actions that can be deployed as a single entity.",
+    "Option4": "To analyze Lambda function performance.",
+    "Answer": "To define a collection of AWS Config rules and remediation actions that can be deployed as a single entity."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which AWS service provides recommendations for cost optimization, performance, security, and fault tolerance?",
+    "Option1": "AWS CloudWatch",
+    "Option2": "AWS CloudTrail",
+    "Option3": "AWS Config",
+    "Option4": "AWS Trusted Advisor",
+    "Answer": "AWS Trusted Advisor"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the primary benefit of using AWS Organizations?",
+    "Option1": "To create a single VPC for all your accounts.",
+    "Option2": "To centrally manage and govern your environment as you grow and scale your AWS resources.",
+    "Option3": "To deploy applications to EC2 instances.",
+    "Option4": "To manage S3 bucket policies.",
+    "Answer": "To centrally manage and govern your environment as you grow and scale your AWS resources."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is a 'Service Control Policy' (SCP) in AWS Organizations?",
+    "Option1": "A policy that defines permissions for individual IAM users.",
+    "Option2": "A type of security group for EC2 instances.",
+    "Option3": "A policy that specifies the maximum permissions for member accounts in an organization.",
+    "Option4": "A policy that encrypts S3 buckets.",
+    "Answer": "A policy that specifies the maximum permissions for member accounts in an organization."
+  },
+  {
+    "question_no.": 156,
+    "Question": "Which AWS service provides a shared file system for multiple EC2 instances?",
+    "Option1": "Amazon S3",
+    "Option2": "Amazon EBS",
+    "Option3": "Amazon EFS (Elastic File System)",
+    "Option4": "Amazon RDS",
+    "Answer": "Amazon EFS (Elastic File System)"
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is the primary benefit of Amazon EFS?",
+    "Option1": "Block-level storage for a single instance.",
+    "Option2": "Highly scalable, elastic, and shared file storage.",
+    "Option3": "Object storage for static content.",
+    "Option4": "Managed relational database.",
+    "Answer": "Highly scalable, elastic, and shared file storage."
+  },
+  {
+    "question_no.": 158,
+    "Question": "Can Lambda functions access an EFS file system?",
+    "Option1": "No, Lambda cannot integrate with EFS.",
+    "Option2": "Yes, by configuring the Lambda function to connect to the EFS file system within a VPC.",
+    "Option3": "Only if the EFS is publicly accessible.",
+    "Option4": "Only through a mounted S3 bucket.",
+    "Answer": "Yes, by configuring the Lambda function to connect to the EFS file system within a VPC."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'AWS Systems Manager' used for?",
+    "Option1": "To manage S3 buckets.",
+    "Option2": "To simplify operational tasks, automate management of EC2 instances, and apply patches.",
+    "Option3": "To create serverless applications.",
+    "Option4": "To provision infrastructure using CloudFormation.",
+    "Answer": "To simplify operational tasks, automate management of EC2 instances, and apply patches."
+  },
+  {
+    "question_no.": 160,
+    "Question": "Which Systems Manager capability allows you to execute commands on multiple EC2 instances simultaneously?",
+    "Option1": "Parameter Store",
+    "Option2": "Session Manager",
+    "Option3": "Run Command",
+    "Option4": "State Manager",
+    "Answer": "Run Command"
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which Systems Manager capability allows you to securely store and retrieve configuration data and secrets?",
+    "Option1": "Run Command",
+    "Option2": "Session Manager",
+    "Option3": "Parameter Store",
+    "Option4": "State Manager",
+    "Answer": "Parameter Store"
+  },
+  {
+    "question_no.": 162,
+    "Question": "Which Systems Manager capability provides browser-based shell and CLI access to EC2 instances?",
+    "Option1": "Run Command",
+    "Option2": "Session Manager",
+    "Option3": "Parameter Store",
+    "Option4": "Automation",
+    "Answer": "Session Manager"
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is a 'Launch Template' in EC2?",
+    "Option1": "A predefined set of S3 bucket policies.",
+    "Option2": "A template that contains configuration information to launch an instance (e.g., AMI, instance type, security groups).",
+    "Option3": "A blueprint for a Lambda function.",
+    "Option4": "A configuration for a Load Balancer.",
+    "Answer": "A template that contains configuration information to launch an instance (e.g., AMI, instance type, security groups)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is the primary benefit of using EC2 Launch Templates over Launch Configurations?",
+    "Option1": "Launch Templates support more features and versioning.",
+    "Option2": "Launch Configurations are more secure.",
+    "Option3": "Launch Templates are cheaper.",
+    "Option4": "Launch Configurations offer more instance types.",
+    "Answer": "Launch Templates support more features and versioning."
+  },
+  {
+    "question_no.": 165,
+    "Question": "Which EC2 feature allows you to attach multiple network interfaces to an instance?",
+    "Option1": "Elastic IP",
+    "Option2": "Security Group",
+    "Option3": "Elastic Network Interface (ENI)",
+    "Option4": "Placement Group",
+    "Answer": "Elastic Network Interface (ENI)"
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is the purpose of EC2 Tags?",
+    "Option1": "To manage security group rules.",
+    "Option2": "To categorize resources, allocate costs, and manage access control.",
+    "Option3": "To encrypt EBS volumes.",
+    "Option4": "To connect to instances via SSH.",
+    "Answer": "To categorize resources, allocate costs, and manage access control."
+  },
+  {
+    "question_no.": 167,
+    "Question": "Can you share an AMI with other AWS accounts?",
+    "Option1": "No, AMIs are private to your account.",
+    "Option2": "Yes, but only within the same region.",
+    "Option3": "Yes, by explicitly granting launch permissions to other accounts.",
+    "Option4": "Only if the AMI is public.",
+    "Answer": "Yes, by explicitly granting launch permissions to other accounts."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is an 'SSM Agent' on an EC2 instance?",
+    "Option1": "A security vulnerability scanner.",
+    "Option2": "A piece of software that allows Systems Manager to manage the instance.",
+    "Option3": "A monitoring agent for CloudWatch.",
+    "Option4": "An encryption agent for EBS volumes.",
+    "Answer": "A piece of software that allows Systems Manager to manage the instance."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is the purpose of 'S3 Access Points'?",
+    "Option1": "To provide public access to all S3 buckets.",
+    "Option2": "To simplify data access for applications by creating dedicated hostnames with distinct permissions for specific use cases.",
+    "Option3": "To encrypt S3 objects at rest.",
+    "Option4": "To replicate S3 data across regions.",
+    "Answer": "To simplify data access for applications by creating dedicated hostnames with distinct permissions for specific use cases."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which S3 feature allows you to monitor and control how data is transferred to and from S3, especially for large datasets?",
+    "Option1": "S3 Event Notifications",
+    "Option2": "S3 Transfer Acceleration",
+    "Option3": "S3 Storage Lens",
+    "Option4": "S3 Batch Operations",
+    "Answer": "S3 Transfer Acceleration"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the 'Request Payment' feature in S3 buckets used for?",
+    "Option1": "To charge users for accessing your S3 bucket.",
+    "Option2": "To make the requester pay for the request and data transfer costs, rather than the bucket owner.",
+    "Option3": "To enable automatic billing for S3 usage.",
+    "Option4": "To manage S3 bucket policies.",
+    "Answer": "To make the requester pay for the request and data transfer costs, rather than the bucket owner."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the benefit of S3 'Requester Pays' buckets?",
+    "Option1": "It reduces the storage cost for the bucket owner.",
+    "Option2": "It shifts the cost of accessing the bucket from the owner to the requester.",
+    "Option3": "It improves the performance of S3 operations.",
+    "Option4": "It enables automatic data tiering.",
+    "Answer": "It shifts the cost of accessing the bucket from the owner to the requester."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'S3 Batch Operations' used for?",
+    "Option1": "To manage individual S3 objects.",
+    "Option2": "To perform large-scale batch operations on S3 objects (e.g., copying, tagging, or restoring).",
+    "Option3": "To encrypt S3 buckets.",
+    "Option4": "To analyze S3 access patterns.",
+    "Answer": "To perform large-scale batch operations on S3 objects (e.g., copying, tagging, or restoring)."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the minimum object size that can be moved to S3 Glacier Deep Archive for optimal cost-effectiveness?",
+    "Option1": "1 MB",
+    "Option2": "128 KB",
+    "Option3": "512 KB",
+    "Option4": "1 GB",
+    "Answer": "128 KB"
+  },
+  {
+    "question_no.": 175,
+    "Question": "Which S3 feature provides a consolidated view of your S3 storage usage and activity?",
+    "Option1": "S3 Event Notifications",
+    "Option2": "S3 Storage Lens",
+    "Option3": "S3 Analytics",
+    "Option4": "S3 Select",
+    "Answer": "S3 Storage Lens"
+  },
+  {
+    "question_no.": 176,
+    "Question": "Can a Lambda function be triggered by an SQS queue?",
+    "Option1": "No, only S3 can trigger Lambda.",
+    "Option2": "Yes, SQS can be configured as a trigger for a Lambda function.",
+    "Option3": "Only if SQS is within the same VPC.",
+    "Option4": "Only if using a custom runtime.",
+    "Answer": "Yes, SQS can be configured as a trigger for a Lambda function."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is the purpose of 'Lambda Environment Variables'?",
+    "Option1": "To define the programming language runtime.",
+    "Option2": "To pass configuration settings and secrets to a Lambda function.",
+    "Option3": "To store static files for a Lambda function.",
+    "Option4": "To manage Lambda concurrency settings.",
+    "Answer": "To pass configuration settings and secrets to a Lambda function."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the concept of 'VPC access' for Lambda functions?",
+    "Option1": "Allowing public internet access to Lambda functions.",
+    "Option2": "Enabling Lambda functions to connect to resources within a specified VPC.",
+    "Option3": "Connecting Lambda functions to an S3 bucket.",
+    "Option4": "Restricting Lambda functions from accessing any network resources.",
+    "Answer": "Enabling Lambda functions to connect to resources within a specified VPC."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What happens when a Lambda function is configured with VPC access?",
+    "Option1": "It gets a public IP address.",
+    "Option2": "AWS creates ENIs for the function in your VPC, consuming IP addresses.",
+    "Option3": "It loses internet connectivity.",
+    "Option4": "It can only access other Lambda functions.",
+    "Answer": "AWS creates ENIs for the function in your VPC, consuming IP addresses."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the recommended approach for providing internet access to a Lambda function in a private VPC subnet?",
+    "Option1": "Directly assign a public IP address to the Lambda ENI.",
+    "Option2": "Route traffic through an Internet Gateway directly.",
+    "Option3": "Route traffic through a NAT Gateway in a public subnet.",
+    "Option4": "It's not possible to give internet access to Lambda in a private subnet.",
+    "Answer": "Route traffic through a NAT Gateway in a public subnet."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Lambda PowerTools'?",
+    "Option1": "An AWS service for managing Lambda permissions.",
+    "Option2": "A collection of utilities to help developers follow best practices for Lambda functions.",
+    "Option3": "A monitoring tool for Lambda performance.",
+    "Option4": "A framework for deploying serverless applications.",
+    "Answer": "A collection of utilities to help developers follow best practices for Lambda functions."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'Lambda Container Image Support'?",
+    "Option1": "Running Lambda functions inside Docker containers on EC2.",
+    "Option2": "Packaging and deploying Lambda functions as container images instead of .zip files.",
+    "Option3": "Using containers to build Lambda deployment packages.",
+    "Option4": "Executing Lambda functions only on containerized instances.",
+    "Answer": "Packaging and deploying Lambda functions as container images instead of .zip files."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is the maximum container image size for a Lambda function?",
+    "Option1": "250 MB",
+    "Option2": "1 GB",
+    "Option3": "10 GB",
+    "Option4": "Unlimited",
+    "Answer": "10 GB"
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the primary benefit of using Lambda Container Image Support?",
+    "Option1": "Faster cold starts.",
+    "Option2": "Easier deployment of small functions.",
+    "Option3": "Larger deployment package sizes, allowing more complex dependencies and custom runtimes.",
+    "Option4": "Reduced cost per invocation.",
+    "Answer": "Larger deployment package sizes, allowing more complex dependencies and custom runtimes."
+  },
+  {
+    "question_no.": 185,
+    "Question": "Which AWS service helps you automate common IT tasks and runbooks, including those for EC2 instances?",
+    "Option1": "AWS CloudWatch",
+    "Option2": "AWS Systems Manager Automation",
+    "Option3": "AWS CodeDeploy",
+    "Option4": "AWS Config",
+    "Answer": "AWS Systems Manager Automation"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is a 'runbook' in AWS Systems Manager Automation?",
+    "Option1": "A security audit report.",
+    "Option2": "A predefined or custom sequence of actions that Systems Manager performs.",
+    "Option3": "A log of all API calls.",
+    "Option4": "A type of EC2 instance.",
+    "Answer": "A predefined or custom sequence of actions that Systems Manager performs."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is the purpose of 'Patch Manager' in AWS Systems Manager?",
+    "Option1": "To manage S3 bucket policies.",
+    "Option2": "To automate the process of patching operating systems and applications on EC2 instances.",
+    "Option3": "To create Lambda function versions.",
+    "Option4": "To monitor network traffic.",
+    "Answer": "To automate the process of patching operating systems and applications on EC2 instances."
+  },
+  {
+    "question_no.": 188,
+    "Question": "Which EC2 pricing model allows you to bid on unused EC2 capacity?",
+    "Option1": "On-Demand Instances",
+    "Option2": "Reserved Instances",
+    "Option3": "Spot Instances",
+    "Option4": "Dedicated Hosts",
+    "Answer": "Spot Instances"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the 'Instance Scheduler' in EC2 used for?",
+    "Option1": "To automatically scale instances based on demand.",
+    "Option2": "To start and stop EC2 instances on a schedule to optimize costs.",
+    "Option3": "To allocate static IP addresses.",
+    "Option4": "To manage security groups.",
+    "Answer": "To start and stop EC2 instances on a schedule to optimize costs."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is an 'EC2 Fleet'?",
+    "Option1": "A group of S3 buckets.",
+    "Option2": "A collection of EC2 instances with various instance types, purchase options, and Availability Zones.",
+    "Option3": "A group of Lambda functions.",
+    "Option4": "A set of EBS volumes.",
+    "Answer": "A collection of EC2 instances with various instance types, purchase options, and Availability Zones."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the benefit of using an EC2 Fleet?",
+    "Option1": "Simplifies manual instance management.",
+    "Option2": "Allows you to provision capacity across different EC2 instance types and purchasing models to optimize cost and performance.",
+    "Option3": "Provides dedicated hardware for licensing.",
+    "Option4": "Eliminates the need for security groups.",
+    "Answer": "Allows you to provision capacity across different EC2 instance types and purchasing models to optimize cost and performance."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Which EC2 feature automatically distributes incoming application traffic across multiple targets, such as EC2 instances?",
+    "Option1": "Auto Scaling Group",
+    "Option2": "Elastic Load Balancing",
+    "Option3": "Route 53",
+    "Option4": "AWS WAF",
+    "Answer": "Elastic Load Balancing"
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is a 'Target Group' in an Application Load Balancer?",
+    "Option1": "A group of S3 buckets.",
+    "Option2": "A logical grouping of targets (e.g., EC2 instances, IP addresses, Lambda functions) to which a load balancer routes requests.",
+    "Option3": "A set of security rules.",
+    "Option4": "A collection of AMIs.",
+    "Answer": "A logical grouping of targets (e.g., EC2 instances, IP addresses, Lambda functions) to which a load balancer routes requests."
+  },
+  {
+    "question_no.": 194,
+    "Question": "Can an Application Load Balancer directly invoke Lambda functions?",
+    "Option1": "No, it only routes to EC2 instances.",
+    "Option2": "Yes, by configuring a Lambda function as a target in a target group.",
+    "Option3": "Only if the Lambda function is in a VPC.",
+    "Option4": "Only for static website hosting.",
+    "Answer": "Yes, by configuring a Lambda function as a target in a target group."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the purpose of 'S3 Block Public Access' settings?",
+    "Option1": "To encrypt S3 objects.",
+    "Option2": "To centrally prevent public access to S3 buckets and objects.",
+    "Option3": "To enable cross-region replication.",
+    "Option4": "To configure lifecycle policies.",
+    "Answer": "To centrally prevent public access to S3 buckets and objects."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'S3 Select'?",
+    "Option1": "A tool to backup S3 buckets.",
+    "Option2": "A feature that allows you to retrieve a subset of data from an object using SQL expressions.",
+    "Option3": "A new S3 storage class.",
+    "Option4": "A method for encrypting S3 objects.",
+    "Answer": "A feature that allows you to retrieve a subset of data from an object using SQL expressions."
+  },
+  {
+    "question_no.": 197,
+    "Question": "Which S3 storage class is best for data that is rarely accessed, but requires rapid retrieval when needed?",
+    "Option1": "S3 Standard",
+    "Option2": "S3 Standard-IA",
+    "Option3": "S3 One Zone-IA",
+    "Option4": "S3 Glacier",
+    "Answer": "S3 Standard-IA"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is the primary difference between S3 Standard-IA and S3 One Zone-IA?",
+    "Option1": "S3 Standard-IA stores data in a single AZ, One Zone-IA in multiple AZs.",
+    "Option2": "S3 One Zone-IA is more durable but more expensive.",
+    "Option3": "S3 Standard-IA stores data in multiple AZs, One Zone-IA in a single AZ, making it slightly less durable but cheaper.",
+    "Option4": "They have the same durability, only pricing differs.",
+    "Answer": "S3 Standard-IA stores data in multiple AZs, One Zone-IA in a single AZ, making it slightly less durable but cheaper."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the concept of 'Event Source Mapping' in Lambda?",
+    "Option1": "Linking a Lambda function to an API Gateway endpoint.",
+    "Option2": "Configuring a service (e.g., S3, DynamoDB Streams) to send events to a Lambda function.",
+    "Option3": "Defining environment variables for Lambda.",
+    "Option4": "Creating a new version of a Lambda function.",
+    "Answer": "Configuring a service (e.g., S3, DynamoDB Streams) to send events to a Lambda function."
+  },
+  {
+    "question_no.": 200,
+    "Question": "Can a Lambda function process data from an Amazon Kinesis stream?",
+    "Option1": "No, Kinesis cannot trigger Lambda.",
+    "Option2": "Yes, Kinesis streams can be configured as an event source for Lambda.",
+    "Option3": "Only if the Kinesis stream is in a different region.",
+    "Option4": "Only for batch processing.",
+    "Answer": "Yes, Kinesis streams can be configured as an event source for Lambda."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the purpose of 'Lambda Versions'?",
+    "Option1": "To store different deployment packages for the same function.",
+    "Option2": "To manage multiple iterations of your Lambda function code, allowing for rollbacks and safer deployments.",
+    "Option3": "To create aliases for Lambda functions.",
+    "Option4": "To define environment variables for Lambda.",
+    "Answer": "To manage multiple iterations of your Lambda function code, allowing for rollbacks and safer deployments."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Lambda Qualifiers'?",
+    "Option1": "The runtime environment of a Lambda function.",
+    "Option2": "A way to identify a specific version or alias of a Lambda function.",
+    "Option3": "The memory allocated to a Lambda function.",
+    "Option4": "The event source for a Lambda function.",
+    "Answer": "A way to identify a specific version or alias of a Lambda function."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is the maximum number of versions that can be retained for a Lambda function?",
+    "Option1": "10",
+    "Option2": "50",
+    "Option3": "100",
+    "Option4": "Unlimited",
+    "Answer": "Unlimited"
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the purpose of 'Lambda Blueprints'?",
+    "Option1": "To define the permissions for a Lambda function.",
+    "Option2": "Pre-built function code samples and configurations to help you get started quickly with common use cases.",
+    "Option3": "To manage Lambda deployment packages.",
+    "Option4": "To monitor Lambda function performance.",
+    "Answer": "Pre-built function code samples and configurations to help you get started quickly with common use cases."
+  },
+  {
+    "question_no.": 205,
+    "Question": "Which of the following is an example of an event source that can trigger a Lambda function?",
+    "Option1": "An EC2 instance being stopped",
+    "Option2": "An S3 object being uploaded",
+    "Option3": "An EBS volume being deleted",
+    "Option4": "An AMI being created",
+    "Answer": "An S3 object being uploaded"
+  }
+]

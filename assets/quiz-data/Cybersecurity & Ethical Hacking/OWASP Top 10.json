@@ -1,0 +1,1892 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Which OWASP Top 10 category addresses vulnerabilities related to the improper handling of user input?",
+    "Option1": "Broken Access Control",
+    "Option2": "Injection",
+    "Option3": "Security Misconfiguration",
+    "Option4": "Cross-Site Scripting (XSS)",
+    "Answer": "Injection"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the primary goal of an SQL Injection attack?",
+    "Option1": "To deface a website",
+    "Option2": "To gain unauthorized access to a database",
+    "Option3": "To disrupt network services",
+    "Option4": "To steal user credentials via phishing",
+    "Answer": "To gain unauthorized access to a database"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which of the following is a common mitigation technique for Injection vulnerabilities?",
+    "Option1": "Using strong passwords",
+    "Option2": "Input validation and parameterized queries",
+    "Option3": "Regular security audits",
+    "Option4": "Implementing a Web Application Firewall (WAF)",
+    "Answer": "Input validation and parameterized queries"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What does 'Broken Access Control' refer to in the OWASP Top 10?",
+    "Option1": "Failure to properly encrypt sensitive data",
+    "Option2": "Improper enforcement of authorization policies",
+    "Option3": "Vulnerabilities in the authentication process",
+    "Option4": "Lack of proper logging and monitoring",
+    "Answer": "Improper enforcement of authorization policies"
+  },
+  {
+    "question_no.": 5,
+    "Question": "An attacker can access administrative functions without proper authentication. Which OWASP category does this fall under?",
+    "Option1": "Cryptographic Failures",
+    "Option2": "Broken Access Control",
+    "Option3": "Insecure Design",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Broken Access Control"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is a common consequence of Broken Access Control?",
+    "Option1": "Denial of Service",
+    "Option2": "Unauthorized data viewing or modification",
+    "Option3": "Cross-Site Scripting (XSS)",
+    "Option4": "Brute-force attacks",
+    "Answer": "Unauthorized data viewing or modification"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which mitigation strategy helps prevent Broken Access Control?",
+    "Option1": "Using prepared statements",
+    "Option2": "Implementing role-based access control (RBAC)",
+    "Option3": "Regular penetration testing",
+    "Option4": "Updating software dependencies",
+    "Answer": "Implementing role-based access control (RBAC)"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What does 'Cryptographic Failures' imply in the OWASP Top 10?",
+    "Option1": "Weak or improper use of cryptographic algorithms",
+    "Option2": "Failure to patch security vulnerabilities",
+    "Option3": "Inadequate logging of security events",
+    "Option4": "Lack of input validation",
+    "Answer": "Weak or improper use of cryptographic algorithms"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Storing sensitive user data without encryption is an example of which OWASP category?",
+    "Option1": "Injection",
+    "Option2": "Security Misconfiguration",
+    "Option3": "Cryptographic Failures",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Cryptographic Failures"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a recommended practice to mitigate Cryptographic Failures?",
+    "Option1": "Using default credentials",
+    "Option2": "Implementing strong, industry-standard cryptographic algorithms",
+    "Option3": "Disabling error messages",
+    "Option4": "Allowing unsigned code execution",
+    "Answer": "Implementing strong, industry-standard cryptographic algorithms"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which OWASP Top 10 category is concerned with flaws introduced during the design and architecture phase?",
+    "Option1": "Security Misconfiguration",
+    "Option2": "Vulnerable and Outdated Components",
+    "Option3": "Insecure Design",
+    "Option4": "Identification and Authentication Failures",
+    "Answer": "Insecure Design"
+  },
+  {
+    "question_no.": 12,
+    "Question": "A system's architecture allows direct access to a database from the public internet without a firewall. This is an example of a vulnerability related to which OWASP category?",
+    "Option1": "Cryptographic Failures",
+    "Option2": "Insecure Design",
+    "Option3": "Injection",
+    "Option4": "Security Logging and Monitoring Failures",
+    "Answer": "Insecure Design"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What can help address 'Insecure Design' vulnerabilities?",
+    "Option1": "Regular software updates",
+    "Option2": "Threat modeling and secure design principles",
+    "Option3": "Using a WAF",
+    "Option4": "Strong password policies",
+    "Answer": "Threat modeling and secure design principles"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What does 'Security Misconfiguration' refer to in the OWASP Top 10?",
+    "Option1": "Errors in the application's source code",
+    "Option2": "Default configurations, incomplete configurations, or unnecessary features",
+    "Option3": "Weak cryptographic implementations",
+    "Option4": "Failure to properly validate user input",
+    "Answer": "Default configurations, incomplete configurations, or unnecessary features"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Leaving default administrative credentials on a web server is an example of which OWASP vulnerability?",
+    "Option1": "Broken Access Control",
+    "Option2": "Security Misconfiguration",
+    "Option3": "Vulnerable and Outdated Components",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Security Misconfiguration"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which of the following is a key mitigation for Security Misconfiguration?",
+    "Option1": "Using parameterized queries",
+    "Option2": "Hardening configurations and removing unnecessary features",
+    "Option3": "Implementing multi-factor authentication",
+    "Option4": "Regularly scanning for vulnerabilities",
+    "Answer": "Hardening configurations and removing unnecessary features"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the focus of 'Vulnerable and Outdated Components' in the OWASP Top 10?",
+    "Option1": "Flaws in the application's business logic",
+    "Option2": "Using libraries, frameworks, or other software components with known vulnerabilities",
+    "Option3": "Errors in handling authentication and session management",
+    "Option4": "Insufficient logging and monitoring",
+    "Answer": "Using libraries, frameworks, or other software components with known vulnerabilities"
+  },
+  {
+    "question_no.": 18,
+    "Question": "An application uses an old version of jQuery with known XSS vulnerabilities. Which OWASP category does this relate to?",
+    "Option1": "Injection",
+    "Option2": "Security Misconfiguration",
+    "Option3": "Vulnerable and Outdated Components",
+    "Option4": "Cross-Site Scripting (XSS)",
+    "Answer": "Vulnerable and Outdated Components"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How can an organization mitigate 'Vulnerable and Outdated Components'?",
+    "Option1": "Disabling unnecessary services",
+    "Option2": "Regularly patching and updating all software components",
+    "Option3": "Implementing least privilege principles",
+    "Option4": "Performing code reviews",
+    "Answer": "Regularly patching and updating all software components"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What does 'Identification and Authentication Failures' encompass in the OWASP Top 10?",
+    "Option1": "Weak encryption of data at rest",
+    "Option2": "Problems with identity management, authentication, and session management",
+    "Option3": "Insufficient error handling",
+    "Option4": "Missing security headers",
+    "Answer": "Problems with identity management, authentication, and session management"
+  },
+  {
+    "question_no.": 21,
+    "Question": "An application uses weak session IDs that are easily predictable. This is a vulnerability related to which OWASP category?",
+    "Option1": "Injection",
+    "Option2": "Broken Access Control",
+    "Option3": "Identification and Authentication Failures",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Identification and Authentication Failures"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which of these is a good practice to prevent Identification and Authentication Failures?",
+    "Option1": "Using generic error messages",
+    "Option2": "Implementing multi-factor authentication (MFA)",
+    "Option3": "Disabling logging for sensitive events",
+    "Option4": "Allowing clear-text transmission of credentials",
+    "Answer": "Implementing multi-factor authentication (MFA)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What does 'Software and Data Integrity Failures' refer to in the OWASP Top 10?",
+    "Option1": "Issues with insufficient logging and monitoring",
+    "Option2": "Problems with the integrity of software updates, critical data, and CI/CD pipelines",
+    "Option3": "Vulnerabilities related to server-side request forgery",
+    "Option4": "Lack of proper input validation",
+    "Answer": "Problems with the integrity of software updates, critical data, and CI/CD pipelines"
+  },
+  {
+    "question_no.": 24,
+    "Question": "An attacker manipulates a software update package before it's deployed to introduce malicious code. This is an example of which OWASP category?",
+    "Option1": "Security Misconfiguration",
+    "Option2": "Software and Data Integrity Failures",
+    "Option3": "Cryptographic Failures",
+    "Option4": "Vulnerable and Outdated Components",
+    "Answer": "Software and Data Integrity Failures"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is a key mitigation for Software and Data Integrity Failures?",
+    "Option1": "Using default security settings",
+    "Option2": "Implementing secure software supply chain practices and code signing",
+    "Option3": "Disabling error reporting",
+    "Option4": "Allowing public access to sensitive files",
+    "Answer": "Implementing secure software supply chain practices and code signing"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is 'Security Logging and Monitoring Failures' about in the OWASP Top 10?",
+    "Option1": "Failure to properly validate user input",
+    "Option2": "Insufficient or missing logging and monitoring of security-related events",
+    "Option3": "Weak authentication mechanisms",
+    "Option4": "Vulnerabilities in third-party libraries",
+    "Answer": "Insufficient or missing logging and monitoring of security-related events"
+  },
+  {
+    "question_no.": 27,
+    "Question": "An attacker successfully breaches a system, but no alerts are triggered and no logs are generated. This indicates a failure in which OWASP category?",
+    "Option1": "Broken Access Control",
+    "Option2": "Security Logging and Monitoring Failures",
+    "Option3": "Cryptographic Failures",
+    "Option4": "Insecure Design",
+    "Answer": "Security Logging and Monitoring Failures"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which practice helps mitigate 'Security Logging and Monitoring Failures'?",
+    "Option1": "Using generic error messages",
+    "Option2": "Implementing robust logging, centralized log management, and alert systems",
+    "Option3": "Disabling verbose error messages",
+    "Option4": "Performing only annual security audits",
+    "Answer": "Implementing robust logging, centralized log management, and alert systems"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What does 'Server-Side Request Forgery (SSRF)' refer to in the OWASP Top 10?",
+    "Option1": "Attacks that exploit vulnerabilities in client-side scripts",
+    "Option2": "A web security vulnerability that allows an attacker to cause the server-side application to make HTTP requests to an arbitrary domain chosen by the attacker",
+    "Option3": "Attacks that involve injecting malicious code into the database",
+    "Option4": "Vulnerabilities related to improper session management",
+    "Answer": "A web security vulnerability that allows an attacker to cause the server-side application to make HTTP requests to an arbitrary domain chosen by the attacker"
+  },
+  {
+    "question_no.": 30,
+    "Question": "An attacker uses a web application to make requests to internal network resources that are normally inaccessible. This is an example of which OWASP category?",
+    "Option1": "Broken Access Control",
+    "Option2": "Injection",
+    "Option3": "Server-Side Request Forgery (SSRF)",
+    "Option4": "Security Misconfiguration",
+    "Answer": "Server-Side Request Forgery (SSRF)"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which mitigation technique is effective against Server-Side Request Forgery (SSRF)?",
+    "Option1": "Input validation and sanitization of user-supplied URLs",
+    "Option2": "Using strong encryption for data in transit",
+    "Option3": "Regular vulnerability scanning",
+    "Option4": "Implementing multi-factor authentication",
+    "Answer": "Input validation and sanitization of user-supplied URLs"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which of the following is NOT typically considered a direct consequence of a successful Injection attack?",
+    "Option1": "Unauthorized data access",
+    "Option2": "Remote code execution",
+    "Option3": "Cross-Site Request Forgery (CSRF)",
+    "Option4": "Bypassing authentication",
+    "Answer": "Cross-Site Request Forgery (CSRF)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "In the context of Broken Access Control, what is horizontal privilege escalation?",
+    "Option1": "A user gains access to functions or data reserved for a higher-privileged user",
+    "Option2": "A user gains access to functions or data of another user with the same privilege level",
+    "Option3": "An attacker gains control over the entire system",
+    "Option4": "A user is denied access to their own data",
+    "Answer": "A user gains access to functions or data of another user with the same privilege level"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the impact of using weak or deprecated cryptographic algorithms?",
+    "Option1": "Increased system performance",
+    "Option2": "Easier decryption of sensitive data by attackers",
+    "Option3": "Reduced need for data backups",
+    "Option4": "Improved user experience",
+    "Answer": "Easier decryption of sensitive data by attackers"
+  },
+  {
+    "question_no.": 35,
+    "Question": "When should threat modeling be performed to address 'Insecure Design' vulnerabilities?",
+    "Option1": "Only after the application is deployed",
+    "Option2": "Only during the testing phase",
+    "Option3": "During the early stages of the software development lifecycle (SDLC)",
+    "Option4": "As part of post-incident analysis",
+    "Answer": "During the early stages of the software development lifecycle (SDLC)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the risk of enabling verbose error messages in a production environment?",
+    "Option1": "It improves application performance",
+    "Option2": "It can reveal sensitive information about the application's internals to attackers",
+    "Option3": "It makes debugging easier for developers",
+    "Option4": "It reduces the attack surface",
+    "Answer": "It can reveal sensitive information about the application's internals to attackers"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is a 'Supply Chain Attack' closely related to in the OWASP Top 10?",
+    "Option1": "Broken Access Control",
+    "Option2": "Vulnerable and Outdated Components",
+    "Option3": "Server-Side Request Forgery (SSRF)",
+    "Option4": "Identification and Authentication Failures",
+    "Answer": "Vulnerable and Outdated Components"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is the purpose of session management in web applications?",
+    "Option1": "To encrypt all data transmitted between client and server",
+    "Option2": "To maintain stateful information about user interactions over stateless HTTP",
+    "Option3": "To prevent SQL Injection attacks",
+    "Option4": "To enforce strong password policies",
+    "Answer": "To maintain stateful information about user interactions over stateless HTTP"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which of the following is an example of an 'Integrity Failure' in software?",
+    "Option1": "An application not logging failed login attempts",
+    "Option2": "An attacker modifying a file on the server without authorization",
+    "Option3": "A weak password policy",
+    "Option4": "A missing HSTS header",
+    "Answer": "An attacker modifying a file on the server without authorization"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Why is adequate logging and monitoring crucial for cybersecurity?",
+    "Option1": "It prevents all types of attacks",
+    "Option2": "It helps detect, investigate, and respond to security incidents",
+    "Option3": "It eliminates the need for firewalls",
+    "Option4": "It reduces network latency",
+    "Answer": "It helps detect, investigate, and respond to security incidents"
+  },
+  {
+    "question_no.": 41,
+    "Question": "SSRF attacks often target which type of services?",
+    "Option1": "Publicly accessible web servers",
+    "Option2": "Internal services or APIs not exposed to the internet",
+    "Option3": "Client-side applications",
+    "Option4": "DNS servers",
+    "Answer": "Internal services or APIs not exposed to the internet"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the primary defense against Cross-Site Scripting (XSS) attacks?",
+    "Option1": "Using strong passwords",
+    "Option2": "Input validation and output encoding",
+    "Option3": "Regular security audits",
+    "Option4": "Implementing a WAF",
+    "Answer": "Input validation and output encoding"
+  },
+  {
+    "question_no.": 43,
+    "Question": "A Reflected XSS attack typically involves:",
+    "Option1": "Malicious script being stored permanently on the target server",
+    "Option2": "Malicious script being reflected off a web server to the victim's browser",
+    "Option3": "Malicious script being delivered through a third-party application",
+    "Option4": "Malicious script affecting the server-side logic",
+    "Answer": "Malicious script being reflected off a web server to the victim's browser"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What type of XSS attack is generally considered the most dangerous?",
+    "Option1": "Reflected XSS",
+    "Option2": "DOM-based XSS",
+    "Option3": "Stored XSS",
+    "Option4": "Self-XSS",
+    "Answer": "Stored XSS"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Which of the following headers can help mitigate XSS by preventing the browser from executing scripts from untrusted sources?",
+    "Option1": "Content-Security-Policy (CSP)",
+    "Option2": "X-Frame-Options",
+    "Option3": "Strict-Transport-Security (HSTS)",
+    "Option4": "X-Content-Type-Options",
+    "Answer": "Content-Security-Policy (CSP)"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is a 'blind SQL Injection'?",
+    "Option1": "An SQL Injection where the attacker receives direct error messages",
+    "Option2": "An SQL Injection where the attacker cannot see the output of the query directly but infers information based on the application's response (e.g., true/false or time-based delays)",
+    "Option3": "An SQL Injection that only affects a specific database table",
+    "Option4": "An SQL Injection that requires user interaction to exploit",
+    "Answer": "An SQL Injection where the attacker cannot see the output of the query directly but infers information based on the application's response (e.g., true/false or time-based delays)"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which of the following is an example of 'vertical privilege escalation'?",
+    "Option1": "A regular user accessing another regular user's profile",
+    "Option2": "A regular user gaining administrator privileges",
+    "Option3": "An administrator accessing another administrator's account",
+    "Option4": "A user gaining access to a public resource",
+    "Answer": "A regular user gaining administrator privileges"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a common vulnerability leading to Broken Access Control?",
+    "Option1": "Lack of input validation",
+    "Option2": "Hardcoded credentials",
+    "Option3": "Insufficient authorization checks on resources or functions",
+    "Option4": "Outdated software libraries",
+    "Answer": "Insufficient authorization checks on resources or functions"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Why is salting passwords important for Cryptographic Failures mitigation?",
+    "Option1": "It makes passwords shorter",
+    "Option2": "It prevents rainbow table attacks by ensuring unique hashes for identical passwords",
+    "Option3": "It encrypts passwords in transit",
+    "Option4": "It reduces the storage space required for passwords",
+    "Answer": "It prevents rainbow table attacks by ensuring unique hashes for identical passwords"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is the purpose of a 'Defense-in-Depth' strategy in secure design?",
+    "Option1": "To rely solely on one strong security control",
+    "Option2": "To layer multiple security controls to create redundancy and resilience",
+    "Option3": "To prioritize physical security over digital security",
+    "Option4": "To focus only on perimeter defenses",
+    "Answer": "To layer multiple security controls to create redundancy and resilience"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which of these is a common result of a 'Security Misconfiguration'?",
+    "Option1": "Data breaches due to accessible development environments",
+    "Option2": "Website defacement",
+    "Option3": "Denial of Service attacks",
+    "Option4": "Phishing scams",
+    "Answer": "Data breaches due to accessible development environments"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the risk of using software components with known CVEs (Common Vulnerabilities and Exposures)?",
+    "Option1": "It only affects the performance of the application",
+    "Option2": "Attackers can easily find and exploit these known weaknesses",
+    "Option3": "It makes the application incompatible with modern browsers",
+    "Option4": "It increases the cost of software development",
+    "Answer": "Attackers can easily find and exploit these known weaknesses"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the primary risk associated with 'Weak Session Management'?",
+    "Option1": "SQL Injection",
+    "Option2": "Session hijacking or fixation",
+    "Option3": "Cross-Site Request Forgery (CSRF)",
+    "Option4": "Denial of Service",
+    "Answer": "Session hijacking or fixation"
+  },
+  {
+    "question_no.": 54,
+    "Question": "In the context of 'Software and Data Integrity Failures', what is the importance of 'code signing'?",
+    "Option1": "It encrypts the source code",
+    "Option2": "It verifies the authenticity and integrity of software before execution",
+    "Option3": "It improves code readability",
+    "Option4": "It automatically fixes bugs in the code",
+    "Answer": "It verifies the authenticity and integrity of software before execution"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What kind of information should be included in security logs to be effective?",
+    "Option1": "Only successful login attempts",
+    "Option2": "Only error messages",
+    "Option3": "Relevant events, including authentication attempts, access to sensitive data, and system errors",
+    "Option4": "Only network traffic data",
+    "Answer": "Relevant events, including authentication attempts, access to sensitive data, and system errors"
+  },
+  {
+    "question_no.": 56,
+    "Question": "SSRF attacks can be used to scan internal networks. True or False?",
+    "Option1": "True",
+    "Option2": "False",
+    "Option3": "Depends on the network configuration",
+    "Option4": "Only on Windows servers",
+    "Answer": "True"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which of these is a preventive measure against Command Injection?",
+    "Option1": "Allowing direct execution of shell commands",
+    "Option2": "Sanitizing and validating all user-supplied input before passing it to system calls",
+    "Option3": "Using weak passwords",
+    "Option4": "Disabling firewalls",
+    "Answer": "Sanitizing and validating all user-supplied input before passing it to system calls"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is the principle of 'least privilege' in the context of access control?",
+    "Option1": "Granting users all possible permissions by default",
+    "Option2": "Granting users only the minimum permissions necessary to perform their tasks",
+    "Option3": "Assigning random permissions to users",
+    "Option4": "Revoking all user permissions after a certain time",
+    "Answer": "Granting users only the minimum permissions necessary to perform their tasks"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Which cryptographic primitive is primarily used for ensuring data integrity?",
+    "Option1": "Encryption",
+    "Option2": "Hashing",
+    "Option3": "Key Exchange",
+    "Option4": "Digital Signature",
+    "Answer": "Hashing"
+  },
+  {
+    "question_no.": 60,
+    "Question": "Why is it important to perform security reviews at each stage of the SDLC?",
+    "Option1": "To increase the development time",
+    "Option2": "To catch design flaws and vulnerabilities early, when they are cheaper to fix",
+    "Option3": "To eliminate the need for penetration testing",
+    "Option4": "To comply with non-security related regulations",
+    "Answer": "To catch design flaws and vulnerabilities early, when they are cheaper to fix"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the risk of publicly exposing administrative interfaces?",
+    "Option1": "It improves system performance",
+    "Option2": "It provides a direct attack vector for unauthorized access",
+    "Option3": "It is a recommended security practice",
+    "Option4": "It simplifies system maintenance",
+    "Answer": "It provides a direct attack vector for unauthorized access"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the best way to handle software updates to mitigate 'Vulnerable and Outdated Components'?",
+    "Option1": "Only update when a system breaks",
+    "Option2": "Automate updates without testing",
+    "Option3": "Regularly monitor for security advisories and apply patches promptly after testing",
+    "Option4": "Never update to avoid compatibility issues",
+    "Answer": "Regularly monitor for security advisories and apply patches promptly after testing"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the danger of weak password policies (e.g., allowing '123456')?",
+    "Option1": "It leads to faster login times",
+    "Option2": "Passwords become susceptible to brute-force and dictionary attacks",
+    "Option3": "It reduces the need for password resets",
+    "Option4": "It improves user memorability",
+    "Answer": "Passwords become susceptible to brute-force and dictionary attacks"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What does CI/CD pipeline integrity refer to in the context of 'Software and Data Integrity Failures'?",
+    "Option1": "Ensuring the pipeline runs quickly",
+    "Option2": "Protecting the automated build and deployment process from tampering",
+    "Option3": "Making sure the code compiles without errors",
+    "Option4": "Reducing the number of tests in the pipeline",
+    "Answer": "Protecting the automated build and deployment process from tampering"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is a 'Security Information and Event Management (SIEM)' system used for?",
+    "Option1": "To prevent all types of malware",
+    "Option2": "To collect, normalize, and analyze security logs from various sources for threat detection",
+    "Option3": "To manage user identities",
+    "Option4": "To perform automated penetration tests",
+    "Answer": "To collect, normalize, and analyze security logs from various sources for threat detection"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the common method used by attackers to determine if an application is vulnerable to SSRF?",
+    "Option1": "Trying different SQL injection payloads",
+    "Option2": "Sending requests with various internal IP addresses and observing the server's response",
+    "Option3": "Performing a denial-of-service attack",
+    "Option4": "Searching for exposed API keys",
+    "Answer": "Sending requests with various internal IP addresses and observing the server's response"
+  },
+  {
+    "question_no.": 67,
+    "Question": "Which type of Injection vulnerability targets XML parsers?",
+    "Option1": "SQL Injection",
+    "Option2": "LDAP Injection",
+    "Option3": "XML External Entity (XXE) Injection",
+    "Option4": "OS Command Injection",
+    "Answer": "XML External Entity (XXE) Injection"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is the 'principle of least functionality' in secure configuration?",
+    "Option1": "Enabling all features for maximum flexibility",
+    "Option2": "Disabling unnecessary services, ports, protocols, and features",
+    "Option3": "Limiting user access to only the most critical functions",
+    "Option4": "Minimizing the number of installed applications",
+    "Answer": "Disabling unnecessary services, ports, protocols, and features"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Why is it important to encrypt data at rest, even if data in transit is encrypted?",
+    "Option1": "To speed up data retrieval",
+    "Option2": "To protect data if the storage medium is compromised",
+    "Option3": "To reduce storage space",
+    "Option4": "To make data easier to share",
+    "Answer": "To protect data if the storage medium is compromised"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is a common impact of 'Insecure Deserialization' (a type of Injection)?",
+    "Option1": "Only data corruption",
+    "Option2": "Remote Code Execution (RCE)",
+    "Option3": "Denial of Service (DoS)",
+    "Option4": "Cross-Site Request Forgery (CSRF)",
+    "Answer": "Remote Code Execution (RCE)"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the purpose of 'rate limiting' in authentication systems?",
+    "Option1": "To slow down legitimate users",
+    "Option2": "To prevent brute-force attacks by limiting the number of login attempts",
+    "Option3": "To increase network bandwidth",
+    "Option4": "To improve password complexity",
+    "Answer": "To prevent brute-force attacks by limiting the number of login attempts"
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the main risk of allowing 'file uploads' without proper validation?",
+    "Option1": "Reduced server performance",
+    "Option2": "Allowing attackers to upload malicious scripts or executables",
+    "Option3": "Increased storage costs",
+    "Option4": "Compatibility issues with different browsers",
+    "Answer": "Allowing attackers to upload malicious scripts or executables"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the difference between authentication and authorization?",
+    "Option1": "They are the same thing",
+    "Option2": "Authentication verifies identity, authorization determines what an authenticated user can do",
+    "Option3": "Authorization verifies identity, authentication determines what an authenticated user can do",
+    "Option4": "Authentication is for users, authorization is for systems",
+    "Answer": "Authentication verifies identity, authorization determines what an authenticated user can do"
+  },
+  {
+    "question_no.": 74,
+    "Question": "Which OWASP category is most relevant to Heartbleed vulnerability?",
+    "Option1": "Broken Access Control",
+    "Option2": "Cryptographic Failures",
+    "Option3": "Security Misconfiguration",
+    "Option4": "Injection",
+    "Answer": "Cryptographic Failures"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is a common mitigation for Cross-Site Request Forgery (CSRF)?",
+    "Option1": "Input validation and output encoding",
+    "Option2": "CSRF tokens or SameSite cookies",
+    "Option3": "Regular security patches",
+    "Option4": "Strong password policies",
+    "Answer": "CSRF tokens or SameSite cookies"
+  },
+  {
+    "question_no.": 76,
+    "Question": "Which type of attack involves an attacker tricking a user into sending an authenticated request to a vulnerable web application?",
+    "Option1": "Cross-Site Scripting (XSS)",
+    "Option2": "SQL Injection",
+    "Option3": "Cross-Site Request Forgery (CSRF)",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Cross-Site Request Forgery (CSRF)"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the purpose of a 'Web Application Firewall (WAF)'?",
+    "Option1": "To block all internet traffic",
+    "Option2": "To protect web applications from common web-based attacks",
+    "Option3": "To encrypt network traffic",
+    "Option4": "To manage user accounts",
+    "Answer": "To protect web applications from common web-based attacks"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is a 'Sandbox' in the context of mitigating vulnerabilities?",
+    "Option1": "A secure physical location for servers",
+    "Option2": "An isolated environment to run untrusted code safely",
+    "Option3": "A tool for generating random data",
+    "Option4": "A type of database",
+    "Answer": "An isolated environment to run untrusted code safely"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What does 'OWASP' stand for?",
+    "Option1": "Open Web Application Security Project",
+    "Option2": "Online Web Access Security Protocol",
+    "Option3": "Organized Web Application Standard Procedures",
+    "Option4": "Operational Workflow and Application Security Program",
+    "Answer": "Open Web Application Security Project"
+  },
+  {
+    "question_no.": 80,
+    "Question": "Which OWASP Top 10 category typically focuses on issues like insecure direct object references (IDOR)?",
+    "Option1": "Injection",
+    "Option2": "Broken Access Control",
+    "Option3": "Cryptographic Failures",
+    "Option4": "Security Misconfiguration",
+    "Answer": "Broken Access Control"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the primary risk of a reflected XSS vulnerability?",
+    "Option1": "Data leakage from the server",
+    "Option2": "Client-side code execution in the victim's browser, leading to session hijacking, defacement, or redirection",
+    "Option3": "Privilege escalation on the server",
+    "Option4": "Denial of service",
+    "Answer": "Client-side code execution in the victim's browser, leading to session hijacking, defacement, or redirection"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is a common technique to prevent SQL Injection when using dynamic queries?",
+    "Option1": "String concatenation",
+    "Option2": "Prepared statements with parameterized queries",
+    "Option3": "Disabling error reporting",
+    "Option4": "Using a simple 'LIKE' operator",
+    "Answer": "Prepared statements with parameterized queries"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Which vulnerability allows an attacker to manipulate file paths to access or execute arbitrary files on the server?",
+    "Option1": "SQL Injection",
+    "Option2": "Cross-Site Scripting (XSS)",
+    "Option3": "Path Traversal (Directory Traversal)",
+    "Option4": "SSRF",
+    "Answer": "Path Traversal (Directory Traversal)"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the purpose of 'HttpOnly' flag for cookies?",
+    "Option1": "To make cookies accessible to client-side scripts",
+    "Option2": "To prevent client-side scripts from accessing the cookie, mitigating XSS attacks",
+    "Option3": "To encrypt cookie data",
+    "Option4": "To set an expiry date for cookies",
+    "Answer": "To prevent client-side scripts from accessing the cookie, mitigating XSS attacks"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is a 'Race Condition' vulnerability?",
+    "Option1": "When two or more threads or processes access a shared resource and produce an unpredictable outcome",
+    "Option2": "A type of denial-of-service attack",
+    "Option3": "A vulnerability related to network latency",
+    "Option4": "A weakness in cryptographic algorithms",
+    "Answer": "When two or more threads or processes access a shared resource and produce an unpredictable outcome"
+  },
+  {
+    "question_no.": 86,
+    "Question": "Which OWASP category is most concerned with the secure configuration of web servers, application servers, databases, and frameworks?",
+    "Option1": "Injection",
+    "Option2": "Broken Access Control",
+    "Option3": "Security Misconfiguration",
+    "Option4": "Cryptographic Failures",
+    "Answer": "Security Misconfiguration"
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is the primary risk of using components with known critical vulnerabilities?",
+    "Option1": "Slight performance degradation",
+    "Option2": "Enabling remote code execution and full system compromise",
+    "Option3": "Minor data loss",
+    "Option4": "Increased memory usage",
+    "Answer": "Enabling remote code execution and full system compromise"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the purpose of 'Strict-Transport-Security (HSTS)' header?",
+    "Option1": "To enforce HTTP communication only",
+    "Option2": "To force browsers to communicate with the server over HTTPS, preventing downgrade attacks",
+    "Option3": "To prevent XSS attacks",
+    "Option4": "To secure DNS lookups",
+    "Answer": "To force browsers to communicate with the server over HTTPS, preventing downgrade attacks"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the potential impact of insufficient logging of security events?",
+    "Option1": "Faster application response times",
+    "Option2": "Difficulty in detecting and responding to security breaches",
+    "Option3": "Reduced storage requirements",
+    "Option4": "Improved user privacy",
+    "Answer": "Difficulty in detecting and responding to security breaches"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which type of attack involves an attacker exploiting a vulnerability in how an application constructs requests to other servers?",
+    "Option1": "Client-Side Request Forgery",
+    "Option2": "Server-Side Request Forgery (SSRF)",
+    "Option3": "Cross-Site Scripting (XSS)",
+    "Option4": "SQL Injection",
+    "Answer": "Server-Side Request Forgery (SSRF)"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the primary goal of output encoding in preventing XSS?",
+    "Option1": "To encrypt data before sending it to the browser",
+    "Option2": "To convert potentially malicious characters into their harmless entity equivalents",
+    "Option3": "To compress data for faster transmission",
+    "Option4": "To validate user input on the server side",
+    "Answer": "To convert potentially malicious characters into their harmless entity equivalents"
+  },
+  {
+    "question_no.": 92,
+    "Question": "Which type of Injection involves injecting malicious queries into a database through a web application?",
+    "Option1": "LDAP Injection",
+    "Option2": "OS Command Injection",
+    "Option3": "SQL Injection",
+    "Option4": "XPath Injection",
+    "Answer": "SQL Injection"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is a 'Forceful Browse' attack related to?",
+    "Option1": "Injection",
+    "Option2": "Broken Access Control",
+    "Option3": "Cryptographic Failures",
+    "Option4": "Security Misconfiguration",
+    "Answer": "Broken Access Control"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the purpose of 'Perfect Forward Secrecy' in cryptographic implementations?",
+    "Option1": "To ensure that a compromised long-term key does not compromise past session keys",
+    "Option2": "To make encryption faster",
+    "Option3": "To increase the length of cryptographic keys",
+    "Option4": "To simplify key management",
+    "Answer": "To ensure that a compromised long-term key does not compromise past session keys"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is a 'Security by Obscurity' approach, and why is it generally discouraged?",
+    "Option1": "Hiding vulnerabilities hoping they won't be found; it's ineffective because attackers will eventually discover them.",
+    "Option2": "Making the system's architecture complex to confuse attackers; it is highly effective.",
+    "Option3": "Using very long and random passwords; it is a recommended practice.",
+    "Option4": "Encrypting all network traffic; it is a fundamental security principle.",
+    "Answer": "Hiding vulnerabilities hoping they won't be found; it's ineffective because attackers will eventually discover them."
+  },
+  {
+    "question_no.": 96,
+    "Question": "Which type of misconfiguration involves leaving debugging features enabled in a production environment?",
+    "Option1": "Broken Access Control",
+    "Option2": "Security Misconfiguration",
+    "Option3": "Vulnerable and Outdated Components",
+    "Option4": "Server-Side Request Forgery (SSRF)",
+    "Answer": "Security Misconfiguration"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the primary risk of using open-source components without proper security vetting?",
+    "Option1": "They are always less performant",
+    "Option2": "They may contain unknown vulnerabilities that can be exploited",
+    "Option3": "They require more server resources",
+    "Option4": "They are more difficult to integrate",
+    "Answer": "They may contain unknown vulnerabilities that can be exploited"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is 'Session Fixation'?",
+    "Option1": "An attacker forcing a user's session ID to a known value, then using that value to hijack the session after the user authenticates",
+    "Option2": "An attack where the attacker steals the session ID from the user's browser",
+    "Option3": "A mechanism to renew session IDs regularly",
+    "Option4": "A method for securing session data",
+    "Answer": "An attacker forcing a user's session ID to a known value, then using that value to hijack the session after the user authenticates"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the purpose of 'Digital Signatures' in ensuring data integrity?",
+    "Option1": "To encrypt the data",
+    "Option2": "To prove the authenticity of the sender and ensure the data has not been tampered with",
+    "Option3": "To compress the data",
+    "Option4": "To hide the data from unauthorized users",
+    "Answer": "To prove the authenticity of the sender and ensure the data has not been tampered with"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the concept of 'Threat Hunting' in security operations?",
+    "Option1": "Waiting for alerts to be triggered by security tools",
+    "Option2": "Proactively searching for threats that have evaded existing security controls",
+    "Option3": "Performing automated vulnerability scans",
+    "Option4": "Only responding to confirmed incidents",
+    "Answer": "Proactively searching for threats that have evaded existing security controls"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the primary mechanism that allows SSRF attacks to occur?",
+    "Option1": "Client-side scripting",
+    "Option2": "The server's ability to make requests to internal or external resources based on user-supplied input",
+    "Option3": "Weak encryption",
+    "Option4": "Lack of strong authentication",
+    "Answer": "The server's ability to make requests to internal or external resources based on user-supplied input"
+  },
+  {
+    "question_no.": 102,
+    "Question": "Which of the following is a key characteristic of a 'Stored XSS' attack?",
+    "Option1": "The malicious script is executed immediately and not stored.",
+    "Option2": "The malicious script is permanently stored on the target server and delivered to other users.",
+    "Option3": "The attack requires specific user interaction to trigger.",
+    "Option4": "The attack affects only the attacker's browser.",
+    "Answer": "The malicious script is permanently stored on the target server and delivered to other users."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the purpose of 'prepared statements' in mitigating SQL Injection?",
+    "Option1": "They encrypt SQL queries.",
+    "Option2": "They separate the SQL code from user-supplied data, preventing malicious input from being interpreted as code.",
+    "Option3": "They speed up database queries.",
+    "Option4": "They automatically fix errors in SQL syntax.",
+    "Answer": "They separate the SQL code from user-supplied data, preventing malicious input from being interpreted as code."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is an 'Insecure Direct Object Reference (IDOR)'?",
+    "Option1": "An attack where the attacker guesses a valid session ID.",
+    "Option2": "When an application exposes a direct reference to an internal implementation object, allowing attackers to manipulate or access it without authorization.",
+    "Option3": "A vulnerability related to weak password hashing.",
+    "Option4": "A type of denial-of-service attack.",
+    "Answer": "When an application exposes a direct reference to an internal implementation object, allowing attackers to manipulate or access it without authorization."
+  },
+  {
+    "question_no.": 105,
+    "Question": "Which of these is a secure way to store passwords in a database?",
+    "Option1": "Plain text",
+    "Option2": "MD5 hash",
+    "Option3": "Strong hashing algorithms with salts and iterations (e.g., bcrypt, Argon2)",
+    "Option4": "Base64 encoded",
+    "Answer": "Strong hashing algorithms with salts and iterations (e.g., bcrypt, Argon2)"
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is the role of 'security champions' in addressing Insecure Design?",
+    "Option1": "They are responsible for all security testing.",
+    "Option2": "They are developers with security knowledge who advocate for secure design principles within development teams.",
+    "Option3": "They are external penetration testers.",
+    "Option4": "They are responsible for creating security policies.",
+    "Answer": "They are developers with security knowledge who advocate for secure design principles within development teams."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the risk of keeping unnecessary services running on a server?",
+    "Option1": "It improves server performance.",
+    "Option2": "It increases the attack surface, providing more potential entry points for attackers.",
+    "Option3": "It reduces memory consumption.",
+    "Option4": "It simplifies system administration.",
+    "Answer": "It increases the attack surface, providing more potential entry points for attackers."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is a 'Software Composition Analysis (SCA)' tool used for?",
+    "Option1": "To analyze the performance of software components.",
+    "Option2": "To identify open-source components with known vulnerabilities in a codebase.",
+    "Option3": "To generate release notes for software.",
+    "Option4": "To manage project dependencies.",
+    "Answer": "To identify open-source components with known vulnerabilities in a codebase."
+  },
+  {
+    "question_no.": 109,
+    "Question": "Which of the following is an example of an 'Authentication Bypass' vulnerability?",
+    "Option1": "An attacker using SQL Injection to log in without knowing the password.",
+    "Option2": "An attacker defacing a website.",
+    "Option3": "A denial-of-service attack.",
+    "Option4": "A successful phishing attempt.",
+    "Answer": "An attacker using SQL Injection to log in without knowing the password."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the risk of an application exposing stack traces or detailed error messages to users?",
+    "Option1": "It helps users debug issues.",
+    "Option2": "It can reveal sensitive information about the application's internal workings, aiding attackers.",
+    "Option3": "It has no security implications.",
+    "Option4": "It improves SEO.",
+    "Answer": "It can reveal sensitive information about the application's internal workings, aiding attackers."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is 'Out-of-Band' (OOB) data retrieval in the context of SSRF?",
+    "Option1": "When the server sends data back to the attacker's controlled server instead of directly to the attacker.",
+    "Option2": "When the attacker directly accesses the target server.",
+    "Option3": "When the data is retrieved through a different network protocol.",
+    "Option4": "When the attack is performed without internet connectivity.",
+    "Answer": "When the server sends data back to the attacker's controlled server instead of directly to the attacker."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the purpose of 'Sanitization' in mitigating Injection attacks?",
+    "Option1": "To encrypt user input.",
+    "Option2": "To remove or neutralize potentially malicious characters from user input.",
+    "Option3": "To validate the length of user input.",
+    "Option4": "To store user input in a separate database.",
+    "Answer": "To remove or neutralize potentially malicious characters from user input."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is a common technique for bypassing access control checks in some applications?",
+    "Option1": "Using very long input strings.",
+    "Option2": "Modifying URL parameters, HTTP headers, or cookies to access unauthorized resources.",
+    "Option3": "Sending a large number of requests.",
+    "Option4": "Disabling JavaScript in the browser.",
+    "Answer": "Modifying URL parameters, HTTP headers, or cookies to access unauthorized resources."
+  },
+  {
+    "question_no.": 114,
+    "Question": "Which of the following is a characteristic of a secure cryptographic implementation?",
+    "Option1": "Using custom, unproven algorithms.",
+    "Option2": "Relying on security by obscurity.",
+    "Option3": "Using strong, standardized algorithms with appropriate key lengths and proper key management.",
+    "Option4": "Storing keys directly in the application's source code.",
+    "Answer": "Using strong, standardized algorithms with appropriate key lengths and proper key management."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the importance of 'Privacy by Design' in addressing Insecure Design?",
+    "Option1": "It focuses solely on data encryption.",
+    "Option2": "It integrates privacy considerations into the entire design and development process.",
+    "Option3": "It only applies to physical security measures.",
+    "Option4": "It is a legal requirement but has no security benefits.",
+    "Answer": "It integrates privacy considerations into the entire design and development process."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the risk of using default configurations for production systems?",
+    "Option1": "They are usually optimized for performance.",
+    "Option2": "They often contain insecure settings, default credentials, and unnecessary services that attackers can exploit.",
+    "Option3": "They are difficult to customize.",
+    "Option4": "They reduce system compatibility.",
+    "Answer": "They often contain insecure settings, default credentials, and unnecessary services that attackers can exploit."
+  },
+  {
+    "question_no.": 117,
+    "Question": "Why is regular 'patch management' essential for mitigating 'Vulnerable and Outdated Components'?",
+    "Option1": "It improves the aesthetic appeal of the software.",
+    "Option2": "It fixes known security vulnerabilities and bugs, reducing the attack surface.",
+    "Option3": "It only addresses performance issues.",
+    "Option4": "It automatically upgrades hardware components.",
+    "Answer": "It fixes known security vulnerabilities and bugs, reducing the attack surface."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is 'Account Lockout' in the context of authentication?",
+    "Option1": "A feature that prevents users from logging in for a period after too many failed attempts.",
+    "Option2": "A method to delete user accounts automatically.",
+    "Option3": "A way to force users to change their passwords.",
+    "Option4": "A security measure to encrypt user credentials.",
+    "Answer": "A feature that prevents users from logging in for a period after too many failed attempts."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the importance of 'input validation' in maintaining data integrity?",
+    "Option1": "It speeds up data entry.",
+    "Option2": "It ensures that data entering the system conforms to expected formats and ranges, preventing malicious or malformed data.",
+    "Option3": "It encrypts data at rest.",
+    "Option4": "It makes data easier to query.",
+    "Answer": "It ensures that data entering the system conforms to expected formats and ranges, preventing malicious or malformed data."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is a 'Security Information and Event Management (SIEM)' system's primary function in Security Logging and Monitoring Failures mitigation?",
+    "Option1": "To prevent all cyberattacks.",
+    "Option2": "To collect, aggregate, and analyze security logs from various sources to detect and alert on suspicious activities.",
+    "Option3": "To encrypt network traffic.",
+    "Option4": "To manage user access permissions.",
+    "Answer": "To collect, aggregate, and analyze security logs from various sources to detect and alert on suspicious activities."
+  },
+  {
+    "question_no.": 121,
+    "Question": "Which technique is most effective in preventing SSRF vulnerabilities?",
+    "Option1": "Allowing all outgoing requests without filtering.",
+    "Option2": "Whitelisting allowed domains and protocols for outgoing requests.",
+    "Option3": "Using HTTP instead of HTTPS.",
+    "Option4": "Disabling server-side logging.",
+    "Answer": "Whitelisting allowed domains and protocols for outgoing requests."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'DOM-based XSS'?",
+    "Option1": "When malicious script is stored on the server.",
+    "Option2": "When the vulnerability exists in client-side code that manipulates the Document Object Model (DOM) without server interaction.",
+    "Option3": "When the malicious script is reflected off the server.",
+    "Option4": "When the attack affects the database only.",
+    "Answer": "When the vulnerability exists in client-side code that manipulates the Document Object Model (DOM) without server interaction."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the most secure way to transmit sensitive information over the internet?",
+    "Option1": "HTTP",
+    "Option2": "FTP",
+    "Option3": "HTTPS with TLS 1.2/1.3 and strong ciphers",
+    "Option4": "Telnet",
+    "Answer": "HTTPS with TLS 1.2/1.3 and strong ciphers"
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the primary function of an 'Input Validator'?",
+    "Option1": "To display error messages.",
+    "Option2": "To ensure that user input adheres to predefined rules and formats.",
+    "Option3": "To encrypt data on the client-side.",
+    "Option4": "To automatically correct typos in user input.",
+    "Answer": "To ensure that user input adheres to predefined rules and formats."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'Privilege Escalation'?",
+    "Option1": "Gaining more privileges than authorized.",
+    "Option2": "Reducing user privileges.",
+    "Option3": "Granting all users administrative rights.",
+    "Option4": "A type of authentication method.",
+    "Answer": "Gaining more privileges than authorized."
+  },
+  {
+    "question_no.": 126,
+    "Question": "Which type of Cryptographic Failure might occur if an application uses a hardcoded encryption key?",
+    "Option1": "Key rotation issues",
+    "Option2": "Easily compromised encryption",
+    "Option3": "Improved performance",
+    "Option4": "Reduced complexity",
+    "Answer": "Easily compromised encryption"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is the role of a 'Security Architect' in addressing Insecure Design?",
+    "Option1": "To perform penetration tests.",
+    "Option2": "To design and review the security aspects of systems and applications.",
+    "Option3": "To write application code.",
+    "Option4": "To manage network infrastructure.",
+    "Answer": "To design and review the security aspects of systems and applications."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the danger of publicly accessible '.git' or '.svn' repositories on a web server?",
+    "Option1": "They improve website performance.",
+    "Option2": "They can expose sensitive source code, configuration files, and historical changes to attackers.",
+    "Option3": "They are harmless and part of standard web deployment.",
+    "Option4": "They reduce storage space.",
+    "Answer": "They can expose sensitive source code, configuration files, and historical changes to attackers."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Vendor Risk Management' in the context of 'Vulnerable and Outdated Components'?",
+    "Option1": "Only using well-known vendors.",
+    "Option2": "Assessing and managing the security risks posed by third-party software and service providers.",
+    "Option3": "Avoiding all third-party components.",
+    "Option4": "Negotiating lower prices with vendors.",
+    "Answer": "Assessing and managing the security risks posed by third-party software and service providers."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is 'Session Hijacking'?",
+    "Option1": "An attacker stealing a valid session ID to impersonate a legitimate user.",
+    "Option2": "A user accidentally logging out.",
+    "Option3": "A server-side error during session creation.",
+    "Option4": "A method to encrypt session data.",
+    "Answer": "An attacker stealing a valid session ID to impersonate a legitimate user."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What does 'Tampering' refer to in 'Software and Data Integrity Failures'?",
+    "Option1": "Unauthorized modification of data or software.",
+    "Option2": "Loss of data due to hardware failure.",
+    "Option3": "Corruption of data during transmission.",
+    "Option4": "Accidental deletion of files.",
+    "Answer": "Unauthorized modification of data or software."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the role of 'Incident Response' in relation to 'Security Logging and Monitoring Failures'?",
+    "Option1": "It prevents all security incidents.",
+    "Option2": "It leverages logs and monitoring data to detect, analyze, contain, and recover from security breaches.",
+    "Option3": "It is only concerned with preventing future attacks.",
+    "Option4": "It replaces the need for preventative security measures.",
+    "Answer": "It leverages logs and monitoring data to detect, analyze, contain, and recover from security breaches."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the primary risk of an SSRF vulnerability being present in an image resizing service?",
+    "Option1": "It can lead to image quality degradation.",
+    "Option2": "It can be used to scan internal networks or access internal services.",
+    "Option3": "It will only affect image files.",
+    "Option4": "It will slow down image processing.",
+    "Answer": "It can be used to scan internal networks or access internal services."
+  },
+  {
+    "question_no.": 134,
+    "Question": "Which type of Injection often exploits vulnerabilities in email functionalities?",
+    "Option1": "SQL Injection",
+    "Option2": "LDAP Injection",
+    "Option3": "SMTP Header Injection",
+    "Option4": "OS Command Injection",
+    "Answer": "SMTP Header Injection"
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is 'Role-Based Access Control (RBAC)'?",
+    "Option1": "Granting permissions directly to individual users.",
+    "Option2": "Assigning permissions to roles, and then assigning users to roles.",
+    "Option3": "A system where all users have the same access rights.",
+    "Option4": "Access control based on the time of day.",
+    "Answer": "Assigning permissions to roles, and then assigning users to roles."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is a 'key stretching' function (e.g., PBKDF2, scrypt, Argon2) used for?",
+    "Option1": "To make encryption keys longer.",
+    "Option2": "To make brute-forcing password hashes more computationally expensive.",
+    "Option3": "To distribute encryption keys securely.",
+    "Option4": "To generate random numbers for cryptography.",
+    "Answer": "To make brute-forcing password hashes more computationally expensive."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the importance of 'Security Requirements Engineering' in Insecure Design mitigation?",
+    "Option1": "It focuses on performance optimization.",
+    "Option2": "It identifies and defines security expectations early in the SDLC.",
+    "Option3": "It is only done after deployment.",
+    "Option4": "It automates code generation.",
+    "Answer": "It identifies and defines security expectations early in the SDLC."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the risk of allowing directory listing on a web server?",
+    "Option1": "It improves user experience.",
+    "Option2": "It exposes the server's file structure and potentially sensitive files to attackers.",
+    "Option3": "It speeds up file downloads.",
+    "Option4": "It is a standard security practice.",
+    "Answer": "It exposes the server's file structure and potentially sensitive files to attackers."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the concept of 'Vulnerability Chaining'?",
+    "Option1": "Exploiting multiple independent vulnerabilities one after another to achieve a greater impact.",
+    "Option2": "Fixing vulnerabilities in a specific order.",
+    "Option3": "Only focusing on critical vulnerabilities.",
+    "Option4": "Sharing vulnerability information with other organizations.",
+    "Answer": "Exploiting multiple independent vulnerabilities one after another to achieve a greater impact."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is the importance of 'password complexity requirements'?",
+    "Option1": "They make passwords easier to remember.",
+    "Option2": "They make passwords more resistant to brute-force and dictionary attacks.",
+    "Option3": "They reduce the number of passwords users need.",
+    "Option4": "They allow for shorter passwords.",
+    "Answer": "They make passwords more resistant to brute-force and dictionary attacks."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is the primary risk of 'Code Injection' (a type of Injection)?",
+    "Option1": "Only data corruption.",
+    "Option2": "Remote Code Execution (RCE) on the server.",
+    "Option3": "Client-side defacement.",
+    "Option4": "Denial of service.",
+    "Answer": "Remote Code Execution (RCE) on the server."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the concept of 'fail-safe defaults' in access control?",
+    "Option1": "When a system fails, it should grant all access.",
+    "Option2": "When a system fails, it should deny all access by default.",
+    "Option3": "It means the system will always operate correctly.",
+    "Option4": "It refers to the ability to recover from system crashes.",
+    "Answer": "When a system fails, it should deny all access by default."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'padding oracle attack' related to?",
+    "Option1": "Broken Access Control",
+    "Option2": "Cryptographic Failures",
+    "Option3": "Security Misconfiguration",
+    "Option4": "Injection",
+    "Answer": "Cryptographic Failures"
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is the primary goal of 'Application Security Testing' throughout the SDLC?",
+    "Option1": "To accelerate development.",
+    "Option2": "To identify and remediate security vulnerabilities.",
+    "Option3": "To improve user interface.",
+    "Option4": "To reduce network traffic.",
+    "Answer": "To identify and remediate security vulnerabilities."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is 'Asset Inventory Management' important for in 'Security Misconfiguration'?",
+    "Option1": "To track hardware assets only.",
+    "Option2": "To know what assets exist and their configurations, enabling better security management.",
+    "Option3": "To calculate financial depreciation.",
+    "Option4": "To manage physical security.",
+    "Answer": "To know what assets exist and their configurations, enabling better security management."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the danger of using deprecated or unsupported software versions?",
+    "Option1": "They are more stable.",
+    "Option2": "They no longer receive security patches, leaving them vulnerable to new threats.",
+    "Option3": "They have better performance.",
+    "Option4": "They are easier to maintain.",
+    "Answer": "They no longer receive security patches, leaving them vulnerable to new threats."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'Brute-Force Attack' against authentication?",
+    "Option1": "Trying to guess passwords by systematically trying all possible combinations.",
+    "Option2": "Using social engineering to trick users into revealing credentials.",
+    "Option3": "Exploiting a vulnerability to bypass authentication.",
+    "Option4": "A type of denial-of-service attack.",
+    "Answer": "Trying to guess passwords by systematically trying all possible combinations."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the importance of 'version control' for code integrity?",
+    "Option1": "It speeds up code execution.",
+    "Option2": "It tracks changes to code, allowing for rollbacks and identifying unauthorized modifications.",
+    "Option3": "It encrypts the code.",
+    "Option4": "It makes code impossible to copy.",
+    "Answer": "It tracks changes to code, allowing for rollbacks and identifying unauthorized modifications."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is a 'Runbook' in incident response?",
+    "Option1": "A list of all system passwords.",
+    "Option2": "A documented set of procedures for handling specific security incidents.",
+    "Option3": "A historical record of all network traffic.",
+    "Option4": "A programming manual.",
+    "Answer": "A documented set of procedures for handling specific security incidents."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the purpose of 'Private IP Address Filtering' in SSRF mitigation?",
+    "Option1": "To block all internet traffic.",
+    "Option2": "To prevent the server from making requests to internal or reserved IP addresses.",
+    "Option3": "To allow only private IP addresses.",
+    "Option4": "To encrypt IP addresses.",
+    "Answer": "To prevent the server from making requests to internal or reserved IP addresses."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the typical impact of a successful 'XML External Entity (XXE) Injection'?",
+    "Option1": "Only XML parsing errors.",
+    "Option2": "Information disclosure, Server-Side Request Forgery (SSRF), and remote code execution.",
+    "Option3": "Client-side script execution.",
+    "Option4": "Database corruption.",
+    "Answer": "Information disclosure, Server-Side Request Forgery (SSRF), and remote code execution."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is the best way to handle user permissions to prevent 'Broken Access Control'?",
+    "Option1": "Assign all users administrator rights for ease of use.",
+    "Option2": "Implement granular, least-privilege permissions based on user roles and functions.",
+    "Option3": "Only use password-based authentication.",
+    "Option4": "Allow users to define their own permissions.",
+    "Answer": "Implement granular, least-privilege permissions based on user roles and functions."
+  },
+  {
+    "question_no.": 153,
+    "Question": "Which of these is a common weak cryptographic primitive still found in some legacy systems?",
+    "Option1": "AES-256",
+    "Option2": "RSA with 4096-bit keys",
+    "Option3": "MD5 for password hashing (without salting/iterations)",
+    "Option4": "SHA-3",
+    "Answer": "MD5 for password hashing (without salting/iterations)"
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Secure Defaults' in the context of Insecure Design?",
+    "Option1": "Leaving default settings unchanged.",
+    "Option2": "Designing systems so that the default configuration is secure by nature.",
+    "Option3": "Using default usernames and passwords.",
+    "Option4": "Ignoring security during the design phase.",
+    "Answer": "Designing systems so that the default configuration is secure by nature."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is a 'Security Baseline' in relation to Security Misconfiguration?",
+    "Option1": "A list of all security incidents.",
+    "Option2": "A documented set of minimum security configurations and settings for systems and applications.",
+    "Option3": "A measure of network speed.",
+    "Option4": "A tool for automated vulnerability scanning.",
+    "Answer": "A documented set of minimum security configurations and settings for systems and applications."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is the role of a 'Dependency Checker' tool?",
+    "Option1": "To verify network connectivity.",
+    "Option2": "To identify known vulnerabilities in third-party libraries and components used by an application.",
+    "Option3": "To manage source code repositories.",
+    "Option4": "To test database performance.",
+    "Answer": "To identify known vulnerabilities in third-party libraries and components used by an application."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is a 'Single Sign-On (SSO)' system's role in authentication and why should it be securely implemented?",
+    "Option1": "It simplifies user experience but reduces security.",
+    "Option2": "It allows users to log in once to access multiple applications; if compromised, it can lead to widespread access by attackers.",
+    "Option3": "It only affects internal applications.",
+    "Option4": "It removes the need for passwords.",
+    "Answer": "It allows users to log in once to access multiple applications; if compromised, it can lead to widespread access by attackers."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is the importance of 'Hashing' for data integrity, as opposed to encryption?",
+    "Option1": "Hashing provides confidentiality, encryption provides integrity.",
+    "Option2": "Hashing verifies data has not been altered, encryption provides confidentiality.",
+    "Option3": "They are the same.",
+    "Option4": "Hashing is reversible, encryption is not.",
+    "Answer": "Hashing verifies data has not been altered, encryption provides confidentiality."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is 'Security Information and Event Management (SIEM)' primarily used for in terms of Security Logging and Monitoring?",
+    "Option1": "Preventing all cyberattacks.",
+    "Option2": "Aggregating and analyzing security logs for threat detection and compliance reporting.",
+    "Option3": "Managing user accounts.",
+    "Option4": "Performing automated vulnerability scans.",
+    "Answer": "Aggregating and analyzing security logs for threat detection and compliance reporting."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is the 'Same Origin Policy' and how does it relate to SSRF?",
+    "Option1": "It prevents a web page from making requests to a different domain, but SSRF bypasses it as the request originates from the server.",
+    "Option2": "It enforces that all resources must come from the same server.",
+    "Option3": "It is a server-side only security control.",
+    "Option4": "It is irrelevant to SSRF.",
+    "Answer": "It prevents a web page from making requests to a different domain, but SSRF bypasses it as the request originates from the server."
+  },
+  {
+    "question_no.": 161,
+    "Question": "Which of these is a common vector for 'Code Injection'?",
+    "Option1": "Manipulating URL parameters.",
+    "Option2": "Injecting malicious code through eval() functions or dynamic code execution.",
+    "Option3": "Overloading the server with requests.",
+    "Option4": "Stealing session cookies.",
+    "Answer": "Injecting malicious code through eval() functions or dynamic code execution."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Privileged Container Access' a risk associated with in the context of Broken Access Control?",
+    "Option1": "Allowing users to access their own data.",
+    "Option2": "Granting excessive permissions to containers, enabling container escape or host compromise.",
+    "Option3": "A type of network attack.",
+    "Option4": "A method for securing containerized applications.",
+    "Answer": "Granting excessive permissions to containers, enabling container escape or host compromise."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the primary risk of using 'deprecated cryptographic protocols' like SSLv2 or SSLv3?",
+    "Option1": "They are faster.",
+    "Option2": "They have known vulnerabilities and are susceptible to attacks (e.g., POODLE, BEAST).",
+    "Option3": "They are easier to implement.",
+    "Option4": "They offer stronger encryption.",
+    "Answer": "They have known vulnerabilities and are susceptible to attacks (e.g., POODLE, BEAST)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Security Testing in Development (Shift-Left)' and how does it help Insecure Design?",
+    "Option1": "Performing all testing at the end of the SDLC.",
+    "Option2": "Integrating security testing earlier in the development lifecycle to find and fix issues faster and cheaper.",
+    "Option3": "Only testing user interface elements.",
+    "Option4": "Automating only functional tests.",
+    "Answer": "Integrating security testing earlier in the development lifecycle to find and fix issues faster and cheaper."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is the risk of publicly exposing API keys or sensitive tokens?",
+    "Option1": "They only affect performance.",
+    "Option2": "They can be used by attackers to gain unauthorized access to services or data.",
+    "Option3": "They are harmless if encrypted.",
+    "Option4": "They are only for internal use.",
+    "Answer": "They can be used by attackers to gain unauthorized access to services or data."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'End-of-Life (EOL)' software, and why is it a security risk?",
+    "Option1": "Software that is no longer being developed but still receives security updates.",
+    "Option2": "Software that is no longer supported by the vendor, meaning no more security patches for new vulnerabilities.",
+    "Option3": "Software that has reached its maximum performance.",
+    "Option4": "Software that is completely bug-free.",
+    "Answer": "Software that is no longer supported by the vendor, meaning no more security patches for new vulnerabilities."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the purpose of 'Password Reset' functionality and what are common vulnerabilities?",
+    "Option1": "To automatically change user passwords; often vulnerable to weak token generation or lack of rate limiting.",
+    "Option2": "To allow users to view their current password.",
+    "Option3": "To disable user accounts.",
+    "Option4": "To enforce strong password policies.",
+    "Answer": "To automatically change user passwords; often vulnerable to weak token generation or lack of rate limiting."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is a 'Checksum' primarily used for in data integrity?",
+    "Option1": "To encrypt the data.",
+    "Option2": "To verify that data has not been accidentally corrupted or intentionally altered during transmission or storage.",
+    "Option3": "To compress data.",
+    "Option4": "To identify the data type.",
+    "Answer": "To verify that data has not been accidentally corrupted or intentionally altered during transmission or storage."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is the importance of 'Security Metrics' for 'Security Logging and Monitoring Failures'?",
+    "Option1": "They increase data storage costs.",
+    "Option2": "They provide quantifiable data on the effectiveness of security controls and incident response capabilities.",
+    "Option3": "They are only useful for compliance.",
+    "Option4": "They automate incident response.",
+    "Answer": "They provide quantifiable data on the effectiveness of security controls and incident response capabilities."
+  },
+  {
+    "question_no.": 170,
+    "Question": "Which common network protocol is often targeted by SSRF to gain access to internal services?",
+    "Option1": "HTTP/HTTPS",
+    "Option2": "DNS",
+    "Option3": "SMTP",
+    "Option4": "All of the above (if allowed by the application)",
+    "Answer": "All of the above (if allowed by the application)"
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is the risk of 'Second-Order SQL Injection'?",
+    "Option1": "It affects only the client-side.",
+    "Option2": "Malicious input is stored in the database and then executed when retrieved later by a different application component.",
+    "Option3": "It is a type of XSS.",
+    "Option4": "It only affects read-only queries.",
+    "Answer": "Malicious input is stored in the database and then executed when retrieved later by a different application component."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'Principle of Separation of Duties' in access control?",
+    "Option1": "Assigning multiple critical tasks to a single individual.",
+    "Option2": "Dividing critical tasks among multiple individuals to prevent a single person from completing a malicious action.",
+    "Option3": "Automating all security tasks.",
+    "Option4": "Allowing everyone to perform all duties.",
+    "Answer": "Dividing critical tasks among multiple individuals to prevent a single person from completing a malicious action."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is the primary risk of using 'homegrown cryptographic algorithms'?",
+    "Option1": "They are often more efficient.",
+    "Option2": "They are likely to contain undiscovered weaknesses and are not peer-reviewed.",
+    "Option3": "They are easier to implement.",
+    "Option4": "They are compatible with more systems.",
+    "Answer": "They are likely to contain undiscovered weaknesses and are not peer-reviewed."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Threat Modeling' in the context of Insecure Design?",
+    "Option1": "A tool for performing vulnerability scans.",
+    "Option2": "A structured process to identify potential threats and vulnerabilities in a system's design.",
+    "Option3": "A method for monitoring network traffic.",
+    "Option4": "A way to generate random test data.",
+    "Answer": "A structured process to identify potential threats and vulnerabilities in a system's design."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'Least Privilege' in the context of operating system configurations?",
+    "Option1": "Granting users administrative rights by default.",
+    "Option2": "Ensuring that users and processes run with the minimum necessary permissions.",
+    "Option3": "Restricting internet access for all users.",
+    "Option4": "Only allowing access to public files.",
+    "Answer": "Ensuring that users and processes run with the minimum necessary permissions."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is a 'Vulnerability Disclosure Policy' for in managing 'Vulnerable and Outdated Components'?",
+    "Option1": "To hide vulnerabilities from the public.",
+    "Option2": "To provide a clear process for how external researchers can report vulnerabilities.",
+    "Option3": "To automatically fix all vulnerabilities.",
+    "Option4": "To track internal bugs only.",
+    "Answer": "To provide a clear process for how external researchers can report vulnerabilities."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'Multi-Factor Authentication (MFA)' and why is it crucial for authentication security?",
+    "Option1": "Using a very long password.",
+    "Option2": "Requiring two or more distinct factors (e.g., something you know, something you have, something you are) for verification, significantly increasing security.",
+    "Option3": "Changing passwords frequently.",
+    "Option4": "Using a password manager.",
+    "Answer": "Requiring two or more distinct factors (e.g., something you know, something you have, something you are) for verification, significantly increasing security."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Software Supply Chain Security' in the context of 'Software and Data Integrity Failures'?",
+    "Option1": "Securing only the final deployed application.",
+    "Option2": "Protecting the integrity and authenticity of software components throughout their entire lifecycle, from development to deployment.",
+    "Option3": "Managing hardware components.",
+    "Option4": "Reducing the number of software dependencies.",
+    "Answer": "Protecting the integrity and authenticity of software components throughout their entire lifecycle, from development to deployment."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the purpose of 'Alerting' in security monitoring?",
+    "Option1": "To generate daily security reports.",
+    "Option2": "To notify relevant personnel immediately when suspicious or critical events are detected.",
+    "Option3": "To store log data.",
+    "Option4": "To prevent attacks before they happen.",
+    "Answer": "To notify relevant personnel immediately when suspicious or critical events are detected."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is the role of 'DNS rebinding' in SSRF attacks?",
+    "Option1": "It prevents SSRF attacks.",
+    "Option2": "It allows an attacker to bypass IP-based whitelisting by changing the IP address resolution of a domain during the attack.",
+    "Option3": "It encrypts DNS queries.",
+    "Option4": "It speeds up DNS resolution.",
+    "Answer": "It allows an attacker to bypass IP-based whitelisting by changing the IP address resolution of a domain during the attack."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is a 'NoSQL Injection'?",
+    "Option1": "A type of SQL Injection that affects NoSQL databases by injecting malicious commands or data into queries.",
+    "Option2": "An injection attack that does not use any type of database.",
+    "Option3": "A purely client-side injection.",
+    "Option4": "A vulnerability in NoSQL database configuration.",
+    "Answer": "A type of SQL Injection that affects NoSQL databases by injecting malicious commands or data into queries."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the primary defense against 'Business Logic Flaws' (often related to Insecure Design and Broken Access Control)?",
+    "Option1": "Automated scanning tools.",
+    "Option2": "Thorough understanding of application logic and manual review/testing.",
+    "Option3": "Using a WAF.",
+    "Option4": "Regular software updates.",
+    "Answer": "Thorough understanding of application logic and manual review/testing."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'Key Management' in cryptography and why is it critical?",
+    "Option1": "Generating random numbers.",
+    "Option2": "The entire lifecycle of cryptographic keys, including generation, storage, distribution, and revocation; poor key management can render strong algorithms useless.",
+    "Option3": "Creating stronger algorithms.",
+    "Option4": "Encrypting data for transfer.",
+    "Answer": "The entire lifecycle of cryptographic keys, including generation, storage, distribution, and revocation; poor key management can render strong algorithms useless."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the importance of 'Secure Coding Guidelines' in preventing vulnerabilities from Insecure Design?",
+    "Option1": "They improve code readability only.",
+    "Option2": "They provide developers with best practices and rules for writing secure code.",
+    "Option3": "They automate the coding process.",
+    "Option4": "They are only for compliance purposes.",
+    "Answer": "They provide developers with best practices and rules for writing secure code."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the risk of having an insecure 'API Gateway' configuration?",
+    "Option1": "It only affects network performance.",
+    "Option2": "It can expose backend services, allow unauthorized access, or lead to injection attacks.",
+    "Option3": "It improves the speed of API calls.",
+    "Option4": "It is a recommended security practice.",
+    "Answer": "It can expose backend services, allow unauthorized access, or lead to injection attacks."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Software Bill of Materials (SBOM)' and its relevance to 'Vulnerable and Outdated Components'?",
+    "Option1": "A list of software developers.",
+    "Option2": "A formal, machine-readable inventory of ingredients and components that make up a software application, helping track vulnerabilities.",
+    "Option3": "A document for software licensing.",
+    "Option4": "A set of software testing procedures.",
+    "Answer": "A formal, machine-readable inventory of ingredients and components that make up a software application, helping track vulnerabilities."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is 'Password Spraying'?",
+    "Option1": "Trying a few common passwords against many user accounts.",
+    "Option2": "Trying many different passwords against a single user account.",
+    "Option3": "Using complex passwords.",
+    "Option4": "Automatically resetting all user passwords.",
+    "Answer": "Trying a few common passwords against many user accounts."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Secure Boot' and how does it relate to 'Software and Data Integrity Failures'?",
+    "Option1": "A method to speed up system startup.",
+    "Option2": "A security standard that ensures only trusted software (signed by trusted keys) can be loaded during the boot process, preventing tampering.",
+    "Option3": "A way to automatically update the operating system.",
+    "Option4": "A feature for remote system access.",
+    "Answer": "A security standard that ensures only trusted software (signed by trusted keys) can be loaded during the boot process, preventing tampering."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'User Behavior Analytics (UBA)' in monitoring?",
+    "Option1": "Analyzing only network traffic.",
+    "Option2": "Monitoring and analyzing user activities for anomalies that may indicate insider threats or compromised accounts.",
+    "Option3": "Tracking website clicks.",
+    "Option4": "Collecting demographic information about users.",
+    "Answer": "Monitoring and analyzing user activities for anomalies that may indicate insider threats or compromised accounts."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is a 'Loopback Interface' and why is it relevant to SSRF attacks?",
+    "Option1": "A physical network cable.",
+    "Option2": "A virtual network interface that allows a device to send requests to itself (127.0.0.1); often exploited by SSRF to access local services.",
+    "Option3": "A type of network firewall.",
+    "Option4": "A method for connecting to remote servers.",
+    "Answer": "A virtual network interface that allows a device to send requests to itself (127.0.0.1); often exploited by SSRF to access local services."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Which of the following is an example of an 'LDAP Injection' attack?",
+    "Option1": "Injecting malicious SQL commands.",
+    "Option2": "Injecting malicious LDAP queries to manipulate directory services.",
+    "Option3": "Injecting client-side scripts.",
+    "Option4": "Injecting operating system commands.",
+    "Answer": "Injecting malicious LDAP queries to manipulate directory services."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Time-of-Check to Time-of-Use (TOCTOU)' vulnerability, often related to Broken Access Control or Data Integrity?",
+    "Option1": "A vulnerability where the state of a resource changes between when it is checked and when it is used, leading to unexpected behavior.",
+    "Option2": "A type of network delay.",
+    "Option3": "A method for logging timestamps.",
+    "Option4": "A flaw in cryptographic timing.",
+    "Answer": "A vulnerability where the state of a resource changes between when it is checked and when it is used, leading to unexpected behavior."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the concept of 'Cryptographic Agility'?",
+    "Option1": "Using only one cryptographic algorithm.",
+    "Option2": "The ability of a system to easily switch between different cryptographic algorithms and protocols as new threats emerge or better ones become available.",
+    "Option3": "Making cryptographic operations faster.",
+    "Option4": "Reducing the number of cryptographic keys.",
+    "Answer": "The ability of a system to easily switch between different cryptographic algorithms and protocols as new threats emerge or better ones become available."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Resilience by Design' in secure architecture?",
+    "Option1": "Designing systems to be impenetrable to all attacks.",
+    "Option2": "Designing systems to continue functioning even when parts are compromised or under attack.",
+    "Option3": "Designing systems with only basic security features.",
+    "Option4": "Focusing only on performance metrics.",
+    "Answer": "Designing systems to continue functioning even when parts are compromised or under attack."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is the risk of publicly exposing API documentation (like Swagger/OpenAPI docs) if not properly secured?",
+    "Option1": "It improves developer experience.",
+    "Option2": "It can reveal sensitive endpoints, parameters, and functionalities that attackers can exploit.",
+    "Option3": "It is a standard practice and has no security implications.",
+    "Option4": "It reduces the size of the application.",
+    "Answer": "It can reveal sensitive endpoints, parameters, and functionalities that attackers can exploit."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the primary purpose of 'Security Headers' (e.g., X-Frame-Options, X-Content-Type-Options, CSP)?",
+    "Option1": "To speed up website loading.",
+    "Option2": "To instruct browsers on how to behave securely, mitigating various client-side attacks.",
+    "Option3": "To encrypt HTTP traffic.",
+    "Option4": "To manage server configurations.",
+    "Answer": "To instruct browsers on how to behave securely, mitigating various client-side attacks."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Token-Based Authentication' and how does it compare to session-based authentication?",
+    "Option1": "It uses random strings; it is less secure than sessions.",
+    "Option2": "It uses self-contained tokens (e.g., JWTs) for authentication, often stateless; it reduces server-side session management burden and can be more scalable.",
+    "Option3": "It always requires a database lookup.",
+    "Option4": "It only works for internal applications.",
+    "Answer": "It uses self-contained tokens (e.g., JWTs) for authentication, often stateless; it reduces server-side session management burden and can be more scalable."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Code Signing' and how does it help ensure 'Software and Data Integrity'?",
+    "Option1": "It encrypts the source code.",
+    "Option2": "It uses digital signatures to verify the origin and integrity of software, ensuring it hasn't been tampered with.",
+    "Option3": "It checks for compilation errors.",
+    "Option4": "It hides code from unauthorized users.",
+    "Answer": "It uses digital signatures to verify the origin and integrity of software, ensuring it hasn't been tampered with."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Security Orchestration, Automation, and Response (SOAR)'?",
+    "Option1": "A tool for manual security operations.",
+    "Option2": "A platform that helps organizations manage and automate security operations tasks, including incident response workflows.",
+    "Option3": "A system for generating security reports.",
+    "Option4": "A method for collecting raw security logs.",
+    "Answer": "A platform that helps organizations manage and automate security operations tasks, including incident response workflows."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the primary difference between a 'Whitelist' and a 'Blacklist' in terms of security?",
+    "Option1": "Whitelists allow everything except explicitly defined items; blacklists only allow explicitly defined items.",
+    "Option2": "Whitelists only allow explicitly defined items; blacklists allow everything except explicitly defined items.",
+    "Option3": "They are the same concept.",
+    "Option4": "Whitelists are for network traffic, blacklists are for applications.",
+    "Answer": "Whitelists only allow explicitly defined items; blacklists allow everything except explicitly defined items."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'Double Encoding' in the context of Injection attacks?",
+    "Option1": "Encoding data twice to make it more secure.",
+    "Option2": "A technique used by attackers to bypass input validation by encoding malicious characters multiple times.",
+    "Option3": "A method for compressing data.",
+    "Option4": "A cryptographic technique.",
+    "Answer": "A technique used by attackers to bypass input validation by encoding malicious characters multiple times."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is the concept of 'Implicit Deny' in access control?",
+    "Option1": "Explicitly granting all permissions.",
+    "Option2": "If a permission is not explicitly granted, it is implicitly denied.",
+    "Option3": "A system where all access is denied by default.",
+    "Option4": "Granting temporary access only.",
+    "Answer": "If a permission is not explicitly granted, it is implicitly denied."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Cryptographic Salt Re-use' and why is it problematic?",
+    "Option1": "Reusing the same random salt for multiple passwords; reduces the effectiveness of salting against rainbow table attacks.",
+    "Option2": "Using a fixed salt for all cryptographic operations.",
+    "Option3": "A method to speed up hashing.",
+    "Option4": "It improves cryptographic strength.",
+    "Answer": "Reusing the same random salt for multiple passwords; reduces the effectiveness of salting against rainbow table attacks."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Data Classification' and how does it influence secure design?",
+    "Option1": "Categorizing data only by its file type.",
+    "Option2": "Categorizing data by its sensitivity and value, which informs the level of security controls needed.",
+    "Option3": "A method for compressing data.",
+    "Option4": "A process for data backup.",
+    "Answer": "Categorizing data by its sensitivity and value, which informs the level of security controls needed."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is the risk of having unused or default accounts on a system?",
+    "Option1": "They improve system performance.",
+    "Option2": "They can be exploited by attackers as easy entry points.",
+    "Option3": "They are harmless if not actively used.",
+    "Option4": "They are automatically removed by the operating system.",
+    "Answer": "They can be exploited by attackers as easy entry points."
+  },
+  {
+    "question_no.": 206,
+    "Question": "What is the concept of 'Known Vulnerable Dependencies' in open-source software?",
+    "Option1": "Dependencies that are known to be safe.",
+    "Option2": "Dependencies that have publicly disclosed security vulnerabilities.",
+    "Option3": "Dependencies that are no longer maintained.",
+    "Option4": "Dependencies that are difficult to integrate.",
+    "Answer": "Dependencies that have publicly disclosed security vulnerabilities."
+  },
+  {
+    "question_no.": 207,
+    "Question": "What is a 'CAPTCHA' and how does it help prevent brute-force attacks?",
+    "Option1": "A type of encryption.",
+    "Option2": "A challenge-response test to determine if the user is human, making automated brute-forcing difficult.",
+    "Option3": "A method for generating strong passwords.",
+    "Option4": "A tool for monitoring network traffic.",
+    "Answer": "A challenge-response test to determine if the user is human, making automated brute-forcing difficult."
+  },
+  {
+    "question_no.": 208,
+    "Question": "What is 'Binary Hardening' and its relevance to 'Software and Data Integrity Failures'?",
+    "Option1": "Making binaries larger.",
+    "Option2": "Applying security measures to compiled software (e.g., ASLR, DEP) to make exploitation more difficult.",
+    "Option3": "Encrypting executable files.",
+    "Option4": "Removing unnecessary code from binaries.",
+    "Answer": "Applying security measures to compiled software (e.g., ASLR, DEP) to make exploitation more difficult."
+  },
+  {
+    "question_no.": 209,
+    "Question": "What is 'Real-time Monitoring' in security operations?",
+    "Option1": "Reviewing logs once a week.",
+    "Option2": "Continuously collecting and analyzing security data to detect threats as they occur.",
+    "Option3": "Only monitoring network bandwidth.",
+    "Option4": "Performing annual security audits.",
+    "Answer": "Continuously collecting and analyzing security data to detect threats as they occur."
+  },
+  {
+    "question_no.": 210,
+    "Question": "What is the danger of 'Open Redirect' vulnerability in relation to SSRF or phishing?",
+    "Option1": "It only affects internal redirects.",
+    "Option2": "It allows attackers to redirect users to malicious sites, potentially aiding phishing or tricking users into revealing credentials.",
+    "Option3": "It improves website navigation.",
+    "Option4": "It has no security implications.",
+    "Answer": "It allows attackers to redirect users to malicious sites, potentially aiding phishing or tricking users into revealing credentials."
+  }
+]

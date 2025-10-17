@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Docker primarily used for?",
+    "Option1": "Database management",
+    "Option2": "Virtual machine creation",
+    "Option3": "Containerization of applications",
+    "Option4": "Network routing",
+    "Answer": "Containerization of applications"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is a Docker image?",
+    "Option1": "A running instance of a container",
+    "Option2": "A lightweight, standalone, executable package that includes everything needed to run a piece of software",
+    "Option3": "A virtual machine snapshot",
+    "Option4": "A network configuration file",
+    "Answer": "A lightweight, standalone, executable package that includes everything needed to run a piece of software"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is a Docker container?",
+    "Option1": "A static file storage",
+    "Option2": "A running instance of a Docker image",
+    "Option3": "A code repository",
+    "Option4": "A virtual network interface",
+    "Answer": "A running instance of a Docker image"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What command is used to build a Docker image from a Dockerfile?",
+    "Option1": "docker run",
+    "Option2": "docker create",
+    "Option3": "docker build",
+    "Option4": "docker start",
+    "Answer": "docker build"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which file is used to define the instructions for building a Docker image?",
+    "Option1": "docker-compose.yml",
+    "Option2": "Dockerfile",
+    "Option3": "docker-config.json",
+    "Option4": "image.txt",
+    "Answer": "Dockerfile"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What command is used to run a Docker container from an image?",
+    "Option1": "docker build",
+    "Option2": "docker stop",
+    "Option3": "docker run",
+    "Option4": "docker rm",
+    "Answer": "docker run"
+  },
+  {
+    "question_no.": 7,
+    "Question": "What is the purpose of the 'CMD' instruction in a Dockerfile?",
+    "Option1": "To specify the base image",
+    "Option2": "To define the command to be executed when the container starts",
+    "Option3": "To copy files into the image",
+    "Option4": "To expose ports",
+    "Answer": "To define the command to be executed when the container starts"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of the 'ENTRYPOINT' instruction in a Dockerfile?",
+    "Option1": "To define the default command to execute when a container starts",
+    "Option2": "To set environment variables",
+    "Option3": "To specify the working directory",
+    "Option4": "To add metadata to the image",
+    "Answer": "To define the default command to execute when a container starts"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is the difference between 'CMD' and 'ENTRYPOINT' in a Dockerfile?",
+    "Option1": "CMD is executed during build, ENTRYPOINT during run",
+    "Option2": "CMD can be overridden easily by command-line arguments, ENTRYPOINT is harder to override and defines the container's primary executable",
+    "Option3": "ENTRYPOINT is for Windows, CMD is for Linux",
+    "Option4": "There is no difference, they are interchangeable",
+    "Answer": "CMD can be overridden easily by command-line arguments, ENTRYPOINT is harder to override and defines the container's primary executable"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a Docker Hub?",
+    "Option1": "A local Docker installation",
+    "Option2": "A cloud-based registry service for sharing and managing Docker images",
+    "Option3": "A tool for creating Dockerfiles",
+    "Option4": "A Docker networking component",
+    "Answer": "A cloud-based registry service for sharing and managing Docker images"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What command is used to pull a Docker image from a registry?",
+    "Option1": "docker push",
+    "Option2": "docker build",
+    "Option3": "docker pull",
+    "Option4": "docker run",
+    "Answer": "docker pull"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What command is used to push a Docker image to a registry?",
+    "Option1": "docker pull",
+    "Option2": "docker push",
+    "Option3": "docker build",
+    "Option4": "docker tag",
+    "Answer": "docker push"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is Docker Compose used for?",
+    "Option1": "Building individual Docker images",
+    "Option2": "Defining and running multi-container Docker applications",
+    "Option3": "Managing Docker volumes",
+    "Option4": "Monitoring Docker containers",
+    "Answer": "Defining and running multi-container Docker applications"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which file format is used by Docker Compose?",
+    "Option1": "JSON",
+    "Option2": "XML",
+    "Option3": "YAML",
+    "Option4": "TXT",
+    "Answer": "YAML"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What command is used to start services defined in a Docker Compose file?",
+    "Option1": "docker-compose stop",
+    "Option2": "docker-compose build",
+    "Option3": "docker-compose up",
+    "Option4": "docker-compose down",
+    "Answer": "docker-compose up"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What command is used to stop and remove services defined in a Docker Compose file?",
+    "Option1": "docker-compose up",
+    "Option2": "docker-compose start",
+    "Option3": "docker-compose down",
+    "Option4": "docker-compose rm",
+    "Answer": "docker-compose down"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is a Docker volume?",
+    "Option1": "A temporary storage for container logs",
+    "Option2": "A mechanism for persisting data generated by Docker containers",
+    "Option3": "A measure of container size",
+    "Option4": "A network configuration setting",
+    "Answer": "A mechanism for persisting data generated by Docker containers"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Why are Docker volumes preferred over bind mounts for persisting data in containers?",
+    "Option1": "Bind mounts are faster",
+    "Option2": "Volumes are managed by Docker and are more portable and easier to back up/migrate",
+    "Option3": "Bind mounts are more secure",
+    "Option4": "Volumes only work on Linux",
+    "Answer": "Volumes are managed by Docker and are more portable and easier to back up/migrate"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What command is used to list all Docker containers (running and stopped)?",
+    "Option1": "docker images",
+    "Option2": "docker ps -a",
+    "Option3": "docker logs",
+    "Option4": "docker info",
+    "Answer": "docker ps -a"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What command is used to list all Docker images?",
+    "Option1": "docker ps",
+    "Option2": "docker images",
+    "Option3": "docker rm",
+    "Option4": "docker inspect",
+    "Answer": "docker images"
+  },
+  {
+    "question_no.": 21,
+    "Question": "What command is used to stop a running Docker container?",
+    "Option1": "docker start",
+    "Option2": "docker restart",
+    "Option3": "docker stop",
+    "Option4": "docker kill",
+    "Answer": "docker stop"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What command is used to remove a stopped Docker container?",
+    "Option1": "docker stop",
+    "Option2": "docker kill",
+    "Option3": "docker rmi",
+    "Option4": "docker rm",
+    "Answer": "docker rm"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What command is used to remove a Docker image?",
+    "Option1": "docker rm",
+    "Option2": "docker rmi",
+    "Option3": "docker stop",
+    "Option4": "docker prune",
+    "Answer": "docker rmi"
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is Docker networking?",
+    "Option1": "Connecting Docker containers to the internet only",
+    "Option2": "The mechanism by which Docker containers communicate with each other and with the outside world",
+    "Option3": "A security feature for isolating containers",
+    "Option4": "A tool for monitoring network traffic",
+    "Answer": "The mechanism by which Docker containers communicate with each other and with the outside world"
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the default network driver for Docker containers?",
+    "Option1": "host",
+    "Option2": "none",
+    "Option3": "bridge",
+    "Option4": "overlay",
+    "Answer": "bridge"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What does the 'EXPOSE' instruction in a Dockerfile do?",
+    "Option1": "Publishes a port to the host system",
+    "Option2": "Declares that the container listens on the specified network ports at runtime",
+    "Option3": "Opens all ports for external access",
+    "Option4": "Configures firewall rules",
+    "Answer": "Declares that the container listens on the specified network ports at runtime"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What does the '-p' or '--publish' flag do when running a Docker container?",
+    "Option1": "Exposes a port internally within the container",
+    "Option2": "Publishes a container's port to the host machine's port",
+    "Option3": "Prevents any port exposure",
+    "Option4": "Changes the container's IP address",
+    "Answer": "Publishes a container's port to the host machine's port"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What is Docker Swarm?",
+    "Option1": "A single Docker host",
+    "Option2": "Docker's native clustering and orchestration solution for managing a cluster of Docker nodes",
+    "Option3": "A tool for building Docker images",
+    "Option4": "A Docker network driver",
+    "Answer": "Docker's native clustering and orchestration solution for managing a cluster of Docker nodes"
+  },
+  {
+    "question_no.": 29,
+    "Question": "What are the two main types of nodes in a Docker Swarm?",
+    "Option1": "Client and Server",
+    "Option2": "Manager and Worker",
+    "Option3": "Primary and Secondary",
+    "Option4": "Master and Slave",
+    "Answer": "Manager and Worker"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is a 'service' in Docker Swarm?",
+    "Option1": "A single Docker container",
+    "Option2": "The definition of tasks to be executed on worker nodes, allowing for scaling and load balancing",
+    "Option3": "A Docker network",
+    "Option4": "A Docker volume",
+    "Answer": "The definition of tasks to be executed on worker nodes, allowing for scaling and load balancing"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of 'Docker inspect' command?",
+    "Option1": "To build a Docker image",
+    "Option2": "To get detailed information about Docker objects (images, containers, networks, volumes)",
+    "Option3": "To remove Docker objects",
+    "Option4": "To start a Docker container",
+    "Answer": "To get detailed information about Docker objects (images, containers, networks, volumes)"
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is the 'WORKDIR' instruction in a Dockerfile used for?",
+    "Option1": "To specify the build context",
+    "Option2": "To set the working directory inside the container for subsequent instructions",
+    "Option3": "To define the home directory of the user",
+    "Option4": "To specify where the Dockerfile is located",
+    "Answer": "To set the working directory inside the container for subsequent instructions"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What does the 'COPY' instruction in a Dockerfile do?",
+    "Option1": "Copies files from the internet into the image",
+    "Option2": "Copies files or directories from the host machine to the filesystem of the image",
+    "Option3": "Copies files between containers",
+    "Option4": "Copies data from a volume to the host",
+    "Answer": "Copies files or directories from the host machine to the filesystem of the image"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What does the 'ADD' instruction in a Dockerfile do?",
+    "Option1": "Only copies local files",
+    "Option2": "Similar to COPY, but can also handle tar file extraction and fetching URLs",
+    "Option3": "Adds a new user to the container",
+    "Option4": "Adds network configuration",
+    "Answer": "Similar to COPY, but can also handle tar file extraction and fetching URLs"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the best practice for using 'COPY' vs 'ADD' in a Dockerfile?",
+    "Option1": "Always use ADD",
+    "Option2": "Prefer COPY, unless you need ADD's specific features (tar extraction, URL fetching)",
+    "Option3": "Always use COPY",
+    "Option4": "They are identical in functionality",
+    "Answer": "Prefer COPY, unless you need ADD's specific features (tar extraction, URL fetching)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the purpose of the '.dockerignore' file?",
+    "Option1": "To ignore Docker commands",
+    "Option2": "To specify files and directories that should be excluded from the build context sent to the Docker daemon",
+    "Option3": "To ignore network traffic",
+    "Option4": "To ignore Docker volumes",
+    "Answer": "To specify files and directories that should be excluded from the build context sent to the Docker daemon"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Why is using '.dockerignore' important?",
+    "Option1": "It makes the Dockerfile shorter",
+    "Option2": "It speeds up image builds and reduces image size by preventing unnecessary files from being included",
+    "Option3": "It's purely for documentation purposes",
+    "Option4": "It's a security requirement",
+    "Answer": "It speeds up image builds and reduces image size by preventing unnecessary files from being included"
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does 'docker exec' command do?",
+    "Option1": "Executes a new container",
+    "Option2": "Executes a command in a running container",
+    "Option3": "Executes a Dockerfile",
+    "Option4": "Executes a Docker image",
+    "Answer": "Executes a command in a running container"
+  },
+  {
+    "question_no.": 39,
+    "Question": "What is the 'docker logs' command used for?",
+    "Option1": "To clear container logs",
+    "Option2": "To view the output (stdout/stderr) of a Docker container",
+    "Option3": "To inspect Docker daemon logs",
+    "Option4": "To configure logging drivers",
+    "Answer": "To view the output (stdout/stderr) of a Docker container"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is Dockerfile best practice regarding layers and caching?",
+    "Option1": "Keep all instructions in a single RUN command",
+    "Option2": "Order instructions from least to most frequently changing to leverage Docker's build cache effectively",
+    "Option3": "Ignore caching for faster builds",
+    "Option4": "Always rebuild from scratch",
+    "Answer": "Order instructions from least to most frequently changing to leverage Docker's build cache effectively"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'multi-stage builds' in Docker?",
+    "Option1": "Building an image in multiple environments",
+    "Option2": "A feature that allows you to use multiple FROM statements in a Dockerfile to optimize image size and build artifacts",
+    "Option3": "Building multiple images simultaneously",
+    "Option4": "Building an image with multiple Dockerfiles",
+    "Answer": "A feature that allows you to use multiple FROM statements in a Dockerfile to optimize image size and build artifacts"
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the main benefit of multi-stage builds?",
+    "Option1": "Increased build time",
+    "Option2": "Reduced final image size by eliminating build-time dependencies and intermediate layers",
+    "Option3": "Makes Dockerfiles more complex",
+    "Option4": "Requires more disk space",
+    "Answer": "Reduced final image size by eliminating build-time dependencies and intermediate layers"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is a Docker network alias?",
+    "Option1": "A unique identifier for a container",
+    "Option2": "An alternative name given to a container within a Docker network, allowing other containers to resolve it by name",
+    "Option3": "A nickname for a Docker image",
+    "Option4": "A short form of a network ID",
+    "Answer": "An alternative name given to a container within a Docker network, allowing other containers to resolve it by name"
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you specify network aliases in Docker Compose?",
+    "Option1": "Using the `network_mode` option",
+    "Option2": "Under the `networks` section for each service",
+    "Option3": "As a command-line argument to `docker-compose up`",
+    "Option4": "They are automatically generated",
+    "Answer": "Under the `networks` section for each service"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the Docker 'bridge' network driver?",
+    "Option1": "Connects containers directly to the host's network",
+    "Option2": "Creates a private internal network for containers on a single host, allowing them to communicate",
+    "Option3": "Connects containers across multiple hosts",
+    "Option4": "Disables networking for containers",
+    "Answer": "Creates a private internal network for containers on a single host, allowing them to communicate"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the Docker 'host' network driver?",
+    "Option1": "Creates an isolated network for containers",
+    "Option2": "Removes network isolation between the container and the Docker host, allowing the container to use the host's network stack directly",
+    "Option3": "Used for multi-host networking",
+    "Option4": "Provides encryption for network traffic",
+    "Answer": "Removes network isolation between the container and the Docker host, allowing the container to use the host's network stack directly"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the Docker 'overlay' network driver?",
+    "Option1": "Used for single-host container communication",
+    "Option2": "Enables communication between Docker Swarm services running on different Docker hosts",
+    "Option3": "Disables internet access for containers",
+    "Option4": "Provides a loopback interface only",
+    "Answer": "Enables communication between Docker Swarm services running on different Docker hosts"
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is 'container orchestration'?",
+    "Option1": "Manually deploying containers",
+    "Option2": "The automated management, deployment, scaling, networking, and availability of containerized applications",
+    "Option3": "Building Docker images",
+    "Option4": "Monitoring individual containers",
+    "Answer": "The automated management, deployment, scaling, networking, and availability of containerized applications"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Besides Docker Swarm, what is another popular container orchestration tool?",
+    "Option1": "Jenkins",
+    "Option2": "Git",
+    "Option3": "Kubernetes",
+    "Option4": "Ansible",
+    "Answer": "Kubernetes"
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Docker Daemon'?",
+    "Option1": "The Docker client",
+    "Option2": "The background service that manages Docker objects like images, containers, networks, and volumes",
+    "Option3": "A Docker image",
+    "Option4": "A Docker container",
+    "Answer": "The background service that manages Docker objects like images, containers, networks, and volumes"
+  },
+  {
+    "question_no.": 51,
+    "Question": "What does 'docker ps' command show by default?",
+    "Option1": "All stopped containers",
+    "Option2": "All running containers",
+    "Option3": "All Docker images",
+    "Option4": "All Docker networks",
+    "Answer": "All running containers"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is 'docker start' command used for?",
+    "Option1": "To create a new container",
+    "Option2": "To start one or more stopped containers",
+    "Option3": "To build a Docker image",
+    "Option4": "To remove a container",
+    "Answer": "To start one or more stopped containers"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What does the '-d' flag do when running a Docker container?",
+    "Option1": "Deletes the container after it stops",
+    "Option2": "Runs the container in detached mode (in the background)",
+    "Option3": "Downloads the image first",
+    "Option4": "Disables networking for the container",
+    "Answer": "Runs the container in detached mode (in the background)"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What does the '-it' flag combination do when running a Docker container?",
+    "Option1": "Starts in detached mode and attaches to a TTY",
+    "Option2": "Starts in interactive mode and allocates a pseudo-TTY",
+    "Option3": "Ignores the TTY and runs silently",
+    "Option4": "Installs additional tools",
+    "Answer": "Starts in interactive mode and allocates a pseudo-TTY"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the purpose of the 'ENV' instruction in a Dockerfile?",
+    "Option1": "To set an environment variable within the container",
+    "Option2": "To define the build environment",
+    "Option3": "To declare exposed ports",
+    "Option4": "To copy environment variables from the host",
+    "Answer": "To set an environment variable within the container"
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the Docker 'scratch' image?",
+    "Option1": "A large base image with many tools",
+    "Option2": "An empty image, serving as a base for building minimal, custom images from scratch",
+    "Option3": "A corrupted image",
+    "Option4": "A temporary image",
+    "Answer": "An empty image, serving as a base for building minimal, custom images from scratch"
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is a 'Dockerfile ARG' instruction used for?",
+    "Option1": "To define runtime arguments for the container",
+    "Option2": "To define build-time variables that users can pass to the builder with the `docker build --build-arg` flag",
+    "Option3": "To set environment variables inside the container",
+    "Option4": "To specify default values for CMD",
+    "Answer": "To define build-time variables that users can pass to the builder with the `docker build --build-arg` flag"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What does 'docker system prune' command do?",
+    "Option1": "Removes all running containers",
+    "Option2": "Removes unused Docker data (stopped containers, unused networks, dangling images, build cache)",
+    "Option3": "Removes all Docker images",
+    "Option4": "Clears Docker logs",
+    "Answer": "Removes unused Docker data (stopped containers, unused networks, dangling images, build cache)"
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the concept of 'Image Layers' in Docker?",
+    "Option1": "Images are a single, flat file",
+    "Option2": "Images are composed of read-only layers, where each Dockerfile instruction creates a new layer",
+    "Option3": "Layers are only used for security",
+    "Option4": "Layers are only present in running containers",
+    "Answer": "Images are composed of read-only layers, where each Dockerfile instruction creates a new layer"
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do Docker image layers contribute to efficiency?",
+    "Option1": "They increase image size",
+    "Option2": "They enable efficient caching during builds and allow sharing of common layers between images, saving disk space",
+    "Option3": "They slow down container startup",
+    "Option4": "They make images less portable",
+    "Answer": "They enable efficient caching during builds and allow sharing of common layers between images, saving disk space"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the 'container runtime'?",
+    "Option1": "The Docker daemon",
+    "Option2": "The software component responsible for running containers (e.g., runc, containerd)",
+    "Option3": "A Docker image",
+    "Option4": "A network interface",
+    "Answer": "The software component responsible for running containers (e.g., runc, containerd)"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Containerd'?",
+    "Option1": "A Docker client tool",
+    "Option2": "A core container runtime that manages the complete container lifecycle, from image transfer to execution",
+    "Option3": "A Docker orchestration tool",
+    "Option4": "A Docker registry",
+    "Answer": "A core container runtime that manages the complete container lifecycle, from image transfer to execution"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'runc'?",
+    "Option1": "A high-level container runtime",
+    "Option2": "A low-level command-line tool for spawning and running containers according to the OCI specification",
+    "Option3": "A Docker build tool",
+    "Option4": "A Docker networking tool",
+    "Answer": "A low-level command-line tool for spawning and running containers according to the OCI specification"
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is OCI (Open Container Initiative)?",
+    "Option1": "A Docker-specific standard",
+    "Option2": "An industry initiative that creates open standards for container formats and runtimes",
+    "Option3": "A cloud provider",
+    "Option4": "A container orchestration tool",
+    "Answer": "An industry initiative that creates open standards for container formats and runtimes"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the purpose of the 'HEALTHCHECK' instruction in a Dockerfile?",
+    "Option1": "To check the network connectivity of the container",
+    "Option2": "To instruct Docker how to test if a container is still working correctly",
+    "Option3": "To perform security scans",
+    "Option4": "To check the health of the Docker daemon",
+    "Answer": "To instruct Docker how to test if a container is still working correctly"
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does a successful 'HEALTHCHECK' indicate?",
+    "Option1": "The container has started",
+    "Option2": "The application inside the container is responsive and functioning as expected",
+    "Option3": "The container is connected to the internet",
+    "Option4": "The Docker daemon is healthy",
+    "Answer": "The application inside the container is responsive and functioning as expected"
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'Docker Machine'?",
+    "Option1": "A tool for running Docker containers locally",
+    "Option2": "A tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands",
+    "Option3": "A tool for building Docker images",
+    "Option4": "A Docker registry",
+    "Answer": "A tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands"
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is 'Docker Context'?",
+    "Option1": "The directory where the Dockerfile is located",
+    "Option2": "A way to switch between different Docker daemons or remote Docker hosts",
+    "Option3": "The build cache location",
+    "Option4": "The temporary storage for containers",
+    "Answer": "A way to switch between different Docker daemons or remote Docker hosts"
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the 'Docker socket'?",
+    "Option1": "A network port",
+    "Option2": "A Unix domain socket or TCP socket that the Docker daemon listens on for API requests",
+    "Option3": "A power outlet for Docker hosts",
+    "Option4": "A physical connection point",
+    "Answer": "A Unix domain socket or TCP socket that the Docker daemon listens on for API requests"
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is the security risk of exposing the Docker socket directly to a container?",
+    "Option1": "It can slow down the container",
+    "Option2": "A malicious container could gain root access to the Docker host",
+    "Option3": "It can cause network conflicts",
+    "Option4": "It prevents the container from starting",
+    "Answer": "A malicious container could gain root access to the Docker host"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the purpose of 'docker commit' command?",
+    "Option1": "To commit changes to a Git repository",
+    "Option2": "To create a new image from a container's changes",
+    "Option3": "To build an image from a Dockerfile",
+    "Option4": "To push an image to a registry",
+    "Answer": "To create a new image from a container's changes"
+  },
+  {
+    "question_no.": 72,
+    "Question": "Is 'docker commit' a recommended practice for creating Docker images in production?",
+    "Option1": "Yes, always",
+    "Option2": "No, it makes image reproducibility difficult; Dockerfiles are preferred",
+    "Option3": "Only for small changes",
+    "Option4": "Only for temporary images",
+    "Answer": "No, it makes image reproducibility difficult; Dockerfiles are preferred"
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'dangling image' in Docker?",
+    "Option1": "An image currently being downloaded",
+    "Option2": "An image that has no tag and is not associated with any container",
+    "Option3": "A corrupted image file",
+    "Option4": "An image that is too large",
+    "Answer": "An image that has no tag and is not associated with any container"
+  },
+  {
+    "question_no.": 74,
+    "Question": "How can you remove dangling images?",
+    "Option1": "docker rm",
+    "Option2": "docker rmi",
+    "Option3": "docker image prune",
+    "Option4": "docker system prune",
+    "Answer": "docker image prune"
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'dangling volume' in Docker?",
+    "Option1": "A volume currently in use by a container",
+    "Option2": "A volume that is no longer referenced by any container and is not explicitly named",
+    "Option3": "A corrupted volume",
+    "Option4": "A temporary volume",
+    "Answer": "A volume that is no longer referenced by any container and is not explicitly named"
+  },
+  {
+    "question_no.": 76,
+    "Question": "How can you remove dangling volumes?",
+    "Option1": "docker volume rm",
+    "Option2": "docker volume prune",
+    "Option3": "docker rm",
+    "Option4": "docker system prune",
+    "Answer": "docker volume prune"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is the 'UNION file system' in Docker?",
+    "Option1": "A type of network file system",
+    "Option2": "A file system that allows files and directories from separate file systems (layers) to be transparently overlaid, forming a single coherent file system",
+    "Option3": "A temporary file system for containers",
+    "Option4": "A file system for shared volumes",
+    "Answer": "A file system that allows files and directories from separate file systems (layers) to be transparently overlaid, forming a single coherent file system"
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is the 'COPY --from=builder' syntax used in Dockerfiles?",
+    "Option1": "To copy from the host machine",
+    "Option2": "To copy files from a previous build stage in a multi-stage build",
+    "Option3": "To copy from a remote URL",
+    "Option4": "To copy from a Docker volume",
+    "Answer": "To copy files from a previous build stage in a multi-stage build"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the 'docker attach' command used for?",
+    "Option1": "To start a new container",
+    "Option2": "To attach your terminal's standard input, output, and error streams to a running container",
+    "Option3": "To attach a volume to a container",
+    "Option4": "To attach a network to a container",
+    "Answer": "To attach your terminal's standard input, output, and error streams to a running container"
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the difference between `docker attach` and `docker exec -it`?",
+    "Option1": "`attach` creates a new process, `exec` connects to an existing one",
+    "Option2": "`attach` connects to the primary process of the container, `exec` runs a new process inside the running container",
+    "Option3": "`attach` is for stopped containers, `exec` is for running containers",
+    "Option4": "There is no functional difference",
+    "Answer": "A`attach` connects to the primary process of the container, `exec` runs a new process inside the running container"
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Docker client'?",
+    "Option1": "The Docker daemon",
+    "Option2": "The command-line interface (CLI) or API client that interacts with the Docker daemon",
+    "Option3": "A running container",
+    "Option4": "A Docker image",
+    "Answer": "The command-line interface (CLI) or API client that interacts with the Docker daemon"
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is 'Docker for Desktop'?",
+    "Option1": "A command-line tool for Docker",
+    "Option2": "An easy-to-install application for Mac and Windows that includes Docker Engine, Docker CLI, Docker Compose, and Kubernetes",
+    "Option3": "A Docker registry service",
+    "Option4": "A cloud-based Docker service",
+    "Answer": "An easy-to-install application for Mac and Windows that includes Docker Engine, Docker CLI, Docker Compose, and Kubernetes"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the purpose of the 'CMD' instruction when specified in JSON array format (exec form)?",
+    "Option1": "It's treated as a shell command",
+    "Option2": "It's treated as an executable to be run directly, without shell processing",
+    "Option3": "It's ignored by Docker",
+    "Option4": "It's only for Windows containers",
+    "Answer": "It's treated as an executable to be run directly, without shell processing"
+  },
+  {
+    "question_no.": 84,
+    "Question": "What does the 'FROM' instruction specify in a Dockerfile?",
+    "Option1": "The image's author",
+    "Option2": "The base image for the new image being built",
+    "Option3": "The network configuration",
+    "Option4": "The volume mounts",
+    "Answer": "The base image for the new image being built"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is the benefit of using official Docker images as base images?",
+    "Option1": "They are always the smallest",
+    "Option2": "They are well-maintained, secure, and provide a stable foundation for applications",
+    "Option3": "They include all necessary dependencies",
+    "Option4": "They are less frequently updated",
+    "Answer": "They are well-maintained, secure, and provide a stable foundation for applications"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What is 'Docker build context'?",
+    "Option1": "The Dockerfile itself",
+    "Option2": "The set of files and directories at the specified path (or current directory) that are sent to the Docker daemon for the build process",
+    "Option3": "The build logs",
+    "Option4": "The Docker image layers",
+    "Answer": "The set of files and directories at the specified path (or current directory) that are sent to the Docker daemon for the build process"
+  },
+  {
+    "question_no.": 87,
+    "Question": "Why is it important to keep the Docker build context small?",
+    "Option1": "To reduce network traffic and speed up builds",
+    "Option2": "To increase image size",
+    "Option3": "To make the Dockerfile more readable",
+    "Option4": "It has no impact on build speed",
+    "Answer": "To reduce network traffic and speed up builds"
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is a 'Docker registry'?",
+    "Option1": "A local storage for Docker images",
+    "Option2": "A service that stores and distributes Docker images (e.g., Docker Hub, Google Container Registry)",
+    "Option3": "A database for container logs",
+    "Option4": "A tool for building images",
+    "Answer": "A service that stores and distributes Docker images (e.g., Docker Hub, Google Container Registry)"
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is the purpose of 'Docker login' command?",
+    "Option1": "To log in to a running container",
+    "Option2": "To authenticate with a Docker registry to push or pull private images",
+    "Option3": "To log in to the Docker daemon",
+    "Option4": "To create a new Docker user",
+    "Answer": "To authenticate with a Docker registry to push or pull private images"
+  },
+  {
+    "question_no.": 90,
+    "Question": "What does 'docker tag' command do?",
+    "Option1": "Creates a new image",
+    "Option2": "Associates a new tag with an existing image (e.g., for versioning)",
+    "Option3": "Adds metadata to a container",
+    "Option4": "Lists all image tags",
+    "Answer": "Associates a new tag with an existing image (e.g., for versioning)"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is a 'Docker network driver'?",
+    "Option1": "A software component that manages network communication for containers",
+    "Option2": "A physical network card",
+    "Option3": "A type of network cable",
+    "Option4": "A network security group",
+    "Answer": "A software component that manages network communication for containers"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is the difference between `docker network create` and networks defined in `docker-compose.yml`?",
+    "Option1": "They are mutually exclusive",
+    "Option2": "`docker network create` creates standalone networks; `docker-compose.yml` defines networks specific to the compose project",
+    "Option3": "Compose networks are always public",
+    "Option4": "Docker Compose does not support networks",
+    "Answer": "`docker network create` creates standalone networks; `docker-compose.yml` defines networks specific to the compose project"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is 'Docker port forwarding'?",
+    "Option1": "Redirecting internal container traffic to external networks",
+    "Option2": "Mapping a port on the Docker host to a port inside a container, allowing external access to the containerized application",
+    "Option3": "Blocking network access to a container",
+    "Option4": "Changing the default port of a service",
+    "Answer": "Mapping a port on the Docker host to a port inside a container, allowing external access to the containerized application"
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is 'Service Discovery' in Docker Swarm?",
+    "Option1": "Manually finding container IP addresses",
+    "Option2": "The mechanism by which services in a Swarm cluster can find and communicate with each other using service names",
+    "Option3": "Discovering new Docker images",
+    "Option4": "Discovering new Docker hosts",
+    "Answer": "The mechanism by which services in a Swarm cluster can find and communicate with each other using service names"
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is a 'Rolling Update' in Docker Swarm services?",
+    "Option1": "Updating all service tasks simultaneously",
+    "Option2": "Gradually updating service tasks one by one or in batches, ensuring no downtime during deployment",
+    "Option3": "Shutting down the service for updates",
+    "Option4": "Reverting to an older version",
+    "Answer": "Gradually updating service tasks one by one or in batches, ensuring no downtime during deployment"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is the 'docker stats' command used for?",
+    "Option1": "To view historical performance data",
+    "Option2": "To display a live stream of resource usage statistics for running containers (CPU, memory, network I/O)",
+    "Option3": "To get information about Docker images",
+    "Option4": "To check Docker daemon status",
+    "Answer": "To display a live stream of resource usage statistics for running containers (CPU, memory, network I/O)"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the 'docker top' command used for?",
+    "Option1": "To list the top Docker images",
+    "Option2": "To view the running processes inside a specific container",
+    "Option3": "To get the top 10 most used Docker commands",
+    "Option4": "To view top network connections",
+    "Answer": "To view the running processes inside a specific container"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What does the 'READ-ONLY' flag do for a container volume mount?",
+    "Option1": "Prevents the host from writing to the volume",
+    "Option2": "Prevents the container from writing to the volume, making it read-only from the container's perspective",
+    "Option3": "Makes the volume encrypted",
+    "Option4": "Makes the volume larger",
+    "Answer": "Prevents the container from writing to the volume, making it read-only from the container's perspective"
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is 'Docker secrets'?",
+    "Option1": "A way to store confidential environment variables in Dockerfiles",
+    "Option2": "A feature in Docker Swarm to securely manage sensitive data like passwords, API keys, and TLS certificates for services",
+    "Option3": "Hidden Docker images",
+    "Option4": "Encrypted Docker volumes",
+    "Answer": "A feature in Docker Swarm to securely manage sensitive data like passwords, API keys, and TLS certificates for services"
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the benefit of using Docker secrets?",
+    "Option1": "It makes secrets publicly accessible",
+    "Option2": "It prevents sensitive data from being exposed in plain text in images or environment variables, improving security",
+    "Option3": "It reduces the size of images",
+    "Option4": "It speeds up container startup",
+    "Answer": "It prevents sensitive data from being exposed in plain text in images or environment variables, improving security"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What does the `VOLUME` instruction in a Dockerfile do?",
+    "Option1": "Creates a temporary mount point that exists only for the current container run.",
+    "Option2": "Declares that a specified mount point in the container should hold an external volume.",
+    "Option3": "Mounts a host directory into the container.",
+    "Option4": "Deletes a volume when the container stops.",
+    "Answer": "Declares that a specified mount point in the container should hold an external volume."
+  },
+  {
+    "question_no.": 102,
+    "Question": "When should you use the `VOLUME` instruction in a Dockerfile?",
+    "Option1": "When you want to store configuration files inside the image.",
+    "Option2": "When you know ahead of time that data will be dynamic and needs to be persisted outside the container's writable layer.",
+    "Option3": "For temporary data that doesn't need to persist.",
+    "Option4": "Only for read-only data.",
+    "Answer": "When you know ahead of time that data will be dynamic and needs to be persisted outside the container's writable layer."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the concept of 'Container Isolation'?",
+    "Option1": "Containers cannot communicate with each other.",
+    "Option2": "Each container runs in its own isolated environment with its own process space, network stack, and filesystem, sharing the host OS kernel.",
+    "Option3": "Containers are isolated from the internet.",
+    "Option4": "Containers can only run one application.",
+    "Answer": "Each container runs in its own isolated environment with its own process space, network stack, and filesystem, sharing the host OS kernel."
+  },
+  {
+    "question_no.": 104,
+    "Question": "How does Docker achieve container isolation?",
+    "Option1": "By using separate operating systems for each container.",
+    "Option2": "Primarily through Linux Kernel features like Namespaces and Cgroups.",
+    "Option3": "By running containers inside virtual machines.",
+    "Option4": "By assigning unique IP addresses only.",
+    "Answer": "Primarily through Linux Kernel features like Namespaces and Cgroups."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What are 'Linux Namespaces' in Docker?",
+    "Option1": "A way to name Docker images.",
+    "Option2": "A kernel feature that isolates system resources (processes, network, mount points, etc.) for different groups of processes.",
+    "Option3": "A naming convention for Docker networks.",
+    "Option4": "A security module for Docker.",
+    "Answer": "A kernel feature that isolates system resources (processes, network, mount points, etc.) for different groups of processes."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What are 'Linux Cgroups' (Control Groups) in Docker?",
+    "Option1": "A way to group containers together.",
+    "Option2": "A kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network) of a collection of processes.",
+    "Option3": "A method for process communication.",
+    "Option4": "A security mechanism for network traffic.",
+    "Answer": "A kernel feature that limits, accounts for, and isolates the resource usage (CPU, memory, disk I/O, network) of a collection of processes."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is the main difference in resource usage between a Docker container and a traditional Virtual Machine?",
+    "Option1": "VMs use less resources.",
+    "Option2": "Containers share the host OS kernel, making them significantly lighter and faster to start than VMs, which run full guest OSes.",
+    "Option3": "Containers require more memory.",
+    "Option4": "VMs have faster networking.",
+    "Answer": "Containers share the host OS kernel, making them significantly lighter and faster to start than VMs, which run full guest OSes."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What does the `docker run --rm` flag do?",
+    "Option1": "Removes the image after the container stops.",
+    "Option2": "Automatically removes the container when it exits.",
+    "Option3": "Removes all data from the container.",
+    "Option4": "Restarts the container automatically.",
+    "Answer": "Automatically removes the container when it exits."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'Docker Content Trust'?",
+    "Option1": "A feature for validating Dockerfile syntax.",
+    "Option2": "A security feature that allows you to verify the integrity and publisher of images pulled from Docker registries.",
+    "Option3": "A way to trust Docker daemon processes.",
+    "Option4": "A method for sharing confidential data.",
+    "Answer": "A security feature that allows you to verify the integrity and publisher of images pulled from Docker registries."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the 'Docker Storage Driver'?",
+    "Option1": "A network driver for volumes.",
+    "Option2": "A pluggable architecture that manages how images and container layers are stored and interacted with on the host filesystem.",
+    "Option3": "A driver for external storage devices.",
+    "Option4": "A driver for managing Docker build cache.",
+    "Answer": "A pluggable architecture that manages how images and container layers are stored and interacted with on the host filesystem."
+  },
+  {
+    "question_no.": 111,
+    "Question": "Name two common Docker storage drivers.",
+    "Option1": "HostFS and NFS",
+    "Option2": "Overlay2 and AUFS",
+    "Option3": "Ext4 and XFS",
+    "Option4": "FAT32 and NTFS",
+    "Answer": "Overlay2 and AUFS"
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is 'Docker Desktop WSL 2 Backend'?",
+    "Option1": "A Docker Desktop version for Mac.",
+    "Option2": "A backend for Docker Desktop on Windows that leverages Windows Subsystem for Linux 2 for improved performance and Linux kernel integration.",
+    "Option3": "A Docker daemon running on a remote server.",
+    "Option4": "A specific Docker storage driver.",
+    "Answer": "A backend for Docker Desktop on Windows that leverages Windows Subsystem for Linux 2 for improved performance and Linux kernel integration."
+  },
+  {
+    "question_no. ": 113,
+    "Question": "What is the purpose of the 'SHELL' instruction in a Dockerfile?",
+    "Option1": "To specify the default user for the container.",
+    "Option2": "To override the default shell used for `RUN`, `CMD`, and `ENTRYPOINT` instructions.",
+    "Option3": "To execute commands directly on the host.",
+    "Option4": "To define the network configuration.",
+    "Answer": "To override the default shell used for `RUN`, `CMD`, and `ENTRYPOINT` instructions."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is 'Docker Healthcheck Timeout'?",
+    "Option1": "The time before a container stops.",
+    "Option2": "The maximum time allowed for a single run of the healthcheck command to complete.",
+    "Option3": "The interval between health checks.",
+    "Option4": "The number of retries before failure.",
+    "Answer": "The maximum time allowed for a single run of the healthcheck command to complete."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is 'Docker Healthcheck Interval'?",
+    "Option1": "The number of health checks performed.",
+    "Option2": "The time between health checks.",
+    "Option3": "The time after which a health check fails.",
+    "Option4": "The time it takes to start a health check.",
+    "Answer": "The time between health checks."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the 'Docker host'?",
+    "Option1": "The Docker image name.",
+    "Option2": "The machine (physical or virtual) on which the Docker daemon runs and manages containers.",
+    "Option3": "The IP address of a container.",
+    "Option4": "The Docker Hub registry.",
+    "Answer": "The machine (physical or virtual) on which the Docker daemon runs and manages containers."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Docker context' in the `docker build` command?",
+    "Option1": "The Dockerfile name.",
+    "Option2": "The path to the build context, usually a directory containing the Dockerfile and necessary files.",
+    "Option3": "The name of the resulting image.",
+    "Option4": "The build arguments.",
+    "Answer": "The path to the build context, usually a directory containing the Dockerfile and necessary files."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the purpose of the `docker-compose.yml` `ports` section?",
+    "Option1": "To expose ports to other containers only.",
+    "Option2": "To map container ports to host ports, making them accessible from outside the host.",
+    "Option3": "To define internal container ports.",
+    "Option4": "To block network access.",
+    "Answer": "To map container ports to host ports, making them accessible from outside the host."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is the `docker-compose.yml` `volumes` section used for?",
+    "Option1": "To define persistent storage for services.",
+    "Option2": "To define network configurations.",
+    "Option3": "To define environment variables.",
+    "Option4": "To define build instructions.",
+    "Answer": "To define persistent storage for services."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is the `docker-compose.yml` `networks` section used for?",
+    "Option1": "To define the external networks to connect to.",
+    "Option2": "To define custom networks that services can connect to, facilitating communication.",
+    "Option3": "To define host IP addresses.",
+    "Option4": "To define internet access policies.",
+    "Answer": "To define custom networks that services can connect to, facilitating communication."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is the `docker-compose.yml` `depends_on` section used for?",
+    "Option1": "To define service dependencies for startup order.",
+    "Option2": "To define network dependencies.",
+    "Option3": "To define volume dependencies.",
+    "Option4": "To define image dependencies.",
+    "Answer": "To define service dependencies for startup order."
+  },
+  {
+    "question_no.": 122,
+    "Question": "Does `depends_on` in Docker Compose guarantee that a service is fully healthy before starting another?",
+    "Option1": "Yes, always.",
+    "Option2": "No, it only guarantees the container is started, not that the application inside is ready.",
+    "Option3": "Only if health checks are defined.",
+    "Option4": "Only for database services.",
+    "Answer": "No, it only guarantees the container is started, not that the application inside is ready."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the `docker-compose.yml` `build` option used for?",
+    "Option1": "To specify a pre-built image.",
+    "Option2": "To specify the path to a Dockerfile and build context for the service's image.",
+    "Option3": "To specify external build servers.",
+    "Option4": "To define build arguments only.",
+    "Answer": "To specify the path to a Dockerfile and build context for the service's image."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is the `docker-compose.yml` `image` option used for?",
+    "Option1": "To define the name of the built image.",
+    "Option2": "To specify a pre-existing Docker image to use for the service.",
+    "Option3": "To define the image's author.",
+    "Option4": "To specify the image's size.",
+    "Answer": "To specify a pre-existing Docker image to use for the service."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the `docker-compose.yml` `environment` section used for?",
+    "Option1": "To define host environment variables.",
+    "Option2": "To set environment variables inside the container for the service.",
+    "Option3": "To define the build environment.",
+    "Option4": "To specify secrets.",
+    "Answer": "To set environment variables inside the container for the service."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is the `docker-compose.yml` `restart` policy used for?",
+    "Option1": "To restart the host machine.",
+    "Option2": "To define how a service's container should behave when it exits (e.g., `always`, `on-failure`).",
+    "Option3": "To restart the Docker daemon.",
+    "Option4": "To restart other services.",
+    "Answer": "To define how a service's container should behave when it exits (e.g., `always`, `on-failure`)."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'Docker Labels'?",
+    "Option1": "Physical tags on Docker servers.",
+    "Option2": "Key-value pairs that can be attached to Docker objects (images, containers, volumes, networks) for organization and metadata.",
+    "Option3": "Error messages in Docker.",
+    "Option4": "Internal Docker commands.",
+    "Answer": "Key-value pairs that can be attached to Docker objects (images, containers, volumes, networks) for organization and metadata."
+  },
+  {
+    "question_no.": 128,
+    "Question": "How can Docker Labels be useful?",
+    "Option1": "They slow down Docker operations.",
+    "Option2": "For filtering, querying, and providing descriptive information for automation and management.",
+    "Option3": "They are purely cosmetic.",
+    "Option4": "They increase image size.",
+    "Answer": "For filtering, querying, and providing descriptive information for automation and management."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is 'Docker pruning'?",
+    "Option1": "Creating new Docker objects.",
+    "Option2": "Removing unused or dangling Docker objects to free up disk space.",
+    "Option3": "Backing up Docker data.",
+    "Option4": "Updating Docker components.",
+    "Answer": "Removing unused or dangling Docker objects to free up disk space."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is the primary command for pruning multiple types of Docker objects at once?",
+    "Option1": "docker rm",
+    "Option2": "docker rmi",
+    "Option3": "docker system prune",
+    "Option4": "docker volume prune",
+    "Answer": "docker system prune"
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is 'Docker Caching' during image builds?",
+    "Option1": "Storing temporary container data.",
+    "Option2": "Reusing previously built image layers to speed up subsequent builds when Dockerfile instructions haven't changed.",
+    "Option3": "Caching network requests.",
+    "Option4": "Caching application data.",
+    "Answer": "Reusing previously built image layers to speed up subsequent builds when Dockerfile instructions haven't changed."
+  },
+  {
+    "question_no.": 132,
+    "Question": "How can you invalidate the Docker build cache for a specific instruction?",
+    "Option1": "By adding a comment before the instruction.",
+    "Option2": "By changing an instruction or any instruction before it in the Dockerfile.",
+    "Option3": "By restarting the Docker daemon.",
+    "Option4": "By using the `--no-cache` flag for `docker build`.",
+    "Answer": "By changing an instruction or any instruction before it in the Dockerfile."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the `docker export` command used for?",
+    "Option1": "To export a Docker image as a tar archive.",
+    "Option2": "To export a container's filesystem as a tar archive.",
+    "Option3": "To export Docker logs.",
+    "Option4": "To export Docker volumes.",
+    "Answer": "To export a container's filesystem as a tar archive."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is the `docker import` command used for?",
+    "Option1": "To import a Docker image from a registry.",
+    "Option2": "To import a tarball to create a filesystem image.",
+    "Option3": "To import a Dockerfile.",
+    "Option4": "To import Docker volumes.",
+    "Answer": "To import a tarball to create a filesystem image."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is the `docker save` command used for?",
+    "Option1": "To save a container's state.",
+    "Option2": "To save one or more Docker images to a tar archive, including all parent layers and metadata.",
+    "Option3": "To save Docker logs.",
+    "Option4": "To save Docker volumes.",
+    "Answer": "To save one or more Docker images to a tar archive, including all parent layers and metadata."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is the `docker load` command used for?",
+    "Option1": "To load a Docker container.",
+    "Option2": "To load an image from a tar archive created by `docker save`.",
+    "Option3": "To load Docker logs.",
+    "Option4": "To load Docker volumes.",
+    "Answer": "To load an image from a tar archive created by `docker save`."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is the difference between `docker export`/`import` and `docker save`/`load`?",
+    "Option1": "No difference, they are interchangeable.",
+    "Option2": "`export`/`import` work with container filesystems, `save`/`load` work with full images (including history/metadata).",
+    "Option3": "`export`/`import` are for local use, `save`/`load` are for registries.",
+    "Option4": "`export`/`import` are for Windows, `save`/`load` are for Linux.",
+    "Answer": "`export`/`import` work with container filesystems, `save`/`load` work with full images (including history/metadata)."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is 'Docker Logging Drivers'?",
+    "Option1": "Drivers for physical loggers.",
+    "Option2": "Mechanisms that determine how logs from Docker containers are collected and sent to different destinations (e.g., `json-file`, `syslog`, `fluentd`).",
+    "Option3": "Drivers for virtual logging.",
+    "Option4": "Tools for analyzing logs.",
+    "Answer": "Mechanisms that determine how logs from Docker containers are collected and sent to different destinations (e.g., `json-file`, `syslog`, `fluentd`)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is the default Docker logging driver?",
+    "Option1": "syslog",
+    "Option2": "json-file",
+    "Option3": "none",
+    "Option4": "awslogs",
+    "Answer": "json-file"
+  },
+  {
+    "question_no.": 140,
+    "Question": "How can you limit the size of container logs?",
+    "Option1": "By disabling logging.",
+    "Option2": "By configuring `log-opts` (e.g., `max-size`, `max-file`) for the logging driver in `daemon.json` or `docker run`.",
+    "Option3": "By manually deleting log files.",
+    "Option4": "By restarting the container regularly.",
+    "Answer": "By configuring `log-opts` (e.g., `max-size`, `max-file`) for the logging driver in `daemon.json` or `docker run`."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is 'Docker Trusted Registry' (DTR)?",
+    "Option1": "A public Docker registry.",
+    "Option2": "An on-premises image storage and management solution from Docker for enterprises, providing security and control.",
+    "Option3": "A small, local Docker registry.",
+    "Option4": "A tool for scanning images.",
+    "Answer": "An on-premises image storage and management solution from Docker for enterprises, providing security and control."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is the purpose of the `docker-compose.yml` `command` option?",
+    "Option1": "To override the default command (CMD/ENTRYPOINT) defined in the image.",
+    "Option2": "To define the build command.",
+    "Option3": "To run a command on the host.",
+    "Option4": "To specify a shell.",
+    "Answer": "To override the default command (CMD/ENTRYPOINT) defined in the image."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the purpose of the `docker-compose.yml` `entrypoint` option?",
+    "Option1": "To append arguments to the command.",
+    "Option2": "To override the `ENTRYPOINT` instruction defined in the image.",
+    "Option3": "To define the default command.",
+    "Option4": "To set environment variables.",
+    "Answer": "To override the `ENTRYPOINT` instruction defined in the image."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is 'Docker BuildKit'?",
+    "Option1": "An older Docker build tool.",
+    "Option2": "A next-generation Docker image builder that offers improved performance, caching, and advanced features like parallel builds and multi-stage builds.",
+    "Option3": "A tool for running containers.",
+    "Option4": "A Docker networking component.",
+    "Answer": "A next-generation Docker image builder that offers improved performance, caching, and advanced features like parallel builds and multi-stage builds."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How do you enable BuildKit in Docker?",
+    "Option1": "It's enabled by default in recent Docker versions, or via `DOCKER_BUILDKIT=1` environment variable.",
+    "Option2": "It requires a separate installation.",
+    "Option3": "It's a paid feature.",
+    "Option4": "It's only available on specific operating systems.",
+    "Answer": "It's enabled by default in recent Docker versions, or via `DOCKER_BUILDKIT=1` environment variable."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is a 'scratch image' in a Dockerfile context?",
+    "Option1": "A large image containing a full operating system.",
+    "Option2": "An empty base image that contains no filesystem or operating system, used for building extremely minimal images.",
+    "Option3": "An image used for development only.",
+    "Option4": "An image with pre-installed applications.",
+    "Answer": "An empty base image that contains no filesystem or operating system, used for building extremely minimal images."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is the primary benefit of using a `scratch` base image?",
+    "Option1": "Faster build times.",
+    "Option2": "Creating extremely small and secure final images, often for static binaries.",
+    "Option3": "Easier debugging.",
+    "Option4": "Full compatibility with all Linux distributions.",
+    "Answer": "Creating extremely small and secure final images, often for static binaries."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is the purpose of the `USER` instruction in a Dockerfile?",
+    "Option1": "To create a new user on the host machine.",
+    "Option2": "To set the username or UID to use when running the image and for any `RUN`, `CMD`, and `ENTRYPOINT` instructions that follow it.",
+    "Option3": "To specify a user for connecting to a database.",
+    "Option4": "To define a group for the container.",
+    "Answer": "To set the username or UID to use when running the image and for any `RUN`, `CMD`, and `ENTRYPOINT` instructions that follow it."
+  },
+  {
+    "question_no.": 149,
+    "Question": "Why is it a security best practice to run containers with a non-root user?",
+    "Option1": "It makes containers run slower.",
+    "Option2": "It limits the potential damage if a containerized application is compromised, as it won't have root privileges on the host.",
+    "Option3": "It makes Dockerfiles smaller.",
+    "Option4": "It prevents network attacks.",
+    "Answer": "It limits the potential damage if a containerized application is compromised, as it won't have root privileges on the host."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'Docker Registry Mirror'?",
+    "Option1": "A public Docker registry.",
+    "Option2": "A local caching proxy for Docker Hub or other registries, speeding up image pulls and reducing external network traffic.",
+    "Option3": "A tool for pushing images.",
+    "Option4": "A tool for scanning images.",
+    "Answer": "A local caching proxy for Docker Hub or other registries, speeding up image pulls and reducing external network traffic."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the purpose of the `docker network inspect` command?",
+    "Option1": "To list all networks.",
+    "Option2": "To display detailed information about a Docker network, including connected containers and network configuration.",
+    "Option3": "To create a new network.",
+    "Option4": "To remove a network.",
+    "Answer": "To display detailed information about a Docker network, including connected containers and network configuration."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is `docker stack deploy` used for in Docker Swarm?",
+    "Option1": "Deploying single containers.",
+    "Option2": "Deploying a multi-service application defined in a Compose file to a Swarm cluster.",
+    "Option3": "Deploying Docker images to a registry.",
+    "Option4": "Deploying a single Docker host.",
+    "Answer": "Deploying a multi-service application defined in a Compose file to a Swarm cluster."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is a 'Docker Swarm overlay network'?",
+    "Option1": "A network for containers on a single host.",
+    "Option2": "A virtual network that spans across multiple Docker hosts in a Swarm, allowing services to communicate seamlessly.",
+    "Option3": "A network that restricts container communication.",
+    "Option4": "A network that only allows host access.",
+    "Answer": "A virtual network that spans across multiple Docker hosts in a Swarm, allowing services to communicate seamlessly."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'Ingress' in Docker Swarm?",
+    "Option1": "Internal network traffic.",
+    "Option2": "The Swarm's built-in load balancer and routing mesh that enables external access to services, even if replicas are on different nodes.",
+    "Option3": "A method for logging.",
+    "Option4": "A type of volume.",
+    "Answer": "The Swarm's built-in load balancer and routing mesh that enables external access to services, even if replicas are on different nodes."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is a 'Docker Content Addressable Storage'?",
+    "Option1": "Storage based on file names.",
+    "Option2": "A storage system where content is retrieved using its cryptographic hash, ensuring immutability and de-duplication.",
+    "Option3": "A type of network storage.",
+    "Option4": "A temporary storage solution.",
+    "Answer": "A storage system where content is retrieved using its cryptographic hash, ensuring immutability and de-duplication."
+  },
+  {
+    "question_no.": 156,
+    "Question": "How does Content Addressable Storage benefit Docker?",
+    "Option1": "It increases storage requirements.",
+    "Option2": "It enables efficient image layer sharing, de-duplication, and ensures image integrity.",
+    "Option3": "It slows down image pulls.",
+    "Option4": "It makes images mutable.",
+    "Answer": "It enables efficient image layer sharing, de-duplication, and ensures image integrity."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Docker Scout'?",
+    "Option1": "A tool for building Docker images.",
+    "Option2": "A security product by Docker for analyzing software supply chain risks, vulnerabilities, and compliance.",
+    "Option3": "A tool for Docker network monitoring.",
+    "Option4": "A tool for Docker volume management.",
+    "Answer": "A security product by Docker for analyzing software supply chain risks, vulnerabilities, and compliance."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is a 'build cache' in Docker?",
+    "Option1": "Temporary storage for running containers.",
+    "Option2": "A mechanism that stores intermediate image layers during the build process to speed up subsequent builds by reusing unchanged layers.",
+    "Option3": "A cache for Docker Hub images.",
+    "Option4": "A cache for network requests.",
+    "Answer": "A mechanism that stores intermediate image layers during the build process to speed up subsequent builds by reusing unchanged layers."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is the purpose of `docker build --no-cache`?",
+    "Option1": "To use the existing build cache.",
+    "Option2": "To force Docker to rebuild the image without using any cached layers.",
+    "Option3": "To clear the build cache after building.",
+    "Option4": "To create a smaller image.",
+    "Answer": "To force Docker to rebuild the image without using any cached layers."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'Docker multi-arch image'?",
+    "Option1": "An image that supports multiple operating systems.",
+    "Option2": "A single Docker image manifest that can contain references to images for different CPU architectures (e.g., amd64, arm64).",
+    "Option3": "An image with multiple applications.",
+    "Option4": "An image with multiple layers.",
+    "Answer": "A single Docker image manifest that can contain references to images for different CPU architectures (e.g., amd64, arm64)."
+  },
+  {
+    "question_no.": 161,
+    "Question": "How do you create multi-arch images with Docker?",
+    "Option1": "Using `docker build --platform`.",
+    "Option2": "Using Docker Buildx and manifest lists.",
+    "Option3": "They are created automatically.",
+    "Option4": "By building separate images and manually tagging them.",
+    "Answer": "Using Docker Buildx and manifest lists."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is 'Docker Buildx'?",
+    "Option1": "An older version of Docker Build.",
+    "Option2": "A Docker CLI plugin for extended build capabilities, including multi-architecture builds, targeting different build outputs, and advanced caching.",
+    "Option3": "A tool for running containers.",
+    "Option4": "A tool for managing Docker networks.",
+    "Answer": "A Docker CLI plugin for extended build capabilities, including multi-architecture builds, targeting different build outputs, and advanced caching."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'Docker Init'?",
+    "Option1": "A command to initialize a Docker daemon.",
+    "Option2": "A new Docker CLI command (in beta) that helps scaffold common Docker assets (Dockerfile, .dockerignore, compose.yaml) for a project.",
+    "Option3": "A command to initialize a Docker Swarm.",
+    "Option4": "A command to initialize a Docker volume.",
+    "Answer": "A new Docker CLI command (in beta) that helps scaffold common Docker assets (Dockerfile, .dockerignore, compose.yaml) for a project."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Docker extension'?",
+    "Option1": "A new Docker image format.",
+    "Option2": "Add-ons for Docker Desktop that provide additional functionality, such as database management, security scanning, or development tools.",
+    "Option3": "A new Docker command.",
+    "Option4": "A type of Docker volume.",
+    "Answer": "Add-ons for Docker Desktop that provide additional functionality, such as database management, security scanning, or development tools."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'Docker Scout' primarily used for in the context of CI/CD?",
+    "Option1": "To accelerate image builds.",
+    "Option2": "To analyze image vulnerabilities and provide software supply chain insights, ensuring secure images in the pipeline.",
+    "Option3": "To optimize container networking.",
+    "Option4": "To manage Docker Swarm clusters.",
+    "Answer": "To analyze image vulnerabilities and provide software supply chain insights, ensuring secure images in the pipeline."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'Docker scan' command?",
+    "Option1": "A command to scan for running containers.",
+    "Option2": "A command (part of Docker CLI, often leveraging Snyk) to scan local images for known vulnerabilities.",
+    "Option3": "A command to scan for unused volumes.",
+    "Option4": "A command to scan for network issues.",
+    "Answer": "A command (part of Docker CLI, often leveraging Snyk) to scan local images for known vulnerabilities."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'Docker Official Images'?",
+    "Option1": "Images created by Docker users.",
+    "Option2": "Curated Docker images published by Docker Inc., often for popular open-source projects, offering best practices and security.",
+    "Option3": "Images that are only for commercial use.",
+    "Option4": "Images that are not regularly updated.",
+    "Answer": "Curated Docker images published by Docker Inc., often for popular open-source projects, offering best practices and security."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'Docker Certified Images'?",
+    "Option1": "Images only for internal use.",
+    "Option2": "Images from third-party vendors available on Docker Hub that have passed Docker's certification program for security and best practices.",
+    "Option3": "Images with a large size.",
+    "Option4": "Images that are not open source.",
+    "Answer": "Images from third-party vendors available on Docker Hub that have passed Docker's certification program for security and best practices."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'Docker Desktop dashboard'?",
+    "Option1": "A command-line interface for Docker Desktop.",
+    "Option2": "A graphical user interface in Docker Desktop for managing containers, images, volumes, and extensions.",
+    "Option3": "A dashboard for monitoring cloud resources.",
+    "Option4": "A network monitoring tool.",
+    "Answer": "A graphical user interface in Docker Desktop for managing containers, images, volumes, and extensions."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is 'Docker Debugging' strategy with containers?",
+    "Option1": "Always restart the container.",
+    "Option2": "Using `docker logs`, `docker exec`, `docker inspect`, and attaching debuggers to running containers.",
+    "Option3": "Editing files directly inside a running container.",
+    "Option4": "Rebuilding the image for every change.",
+    "Answer": "Using `docker logs`, `docker exec`, `docker inspect`, and attaching debuggers to running containers."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'Docker rootless mode'?",
+    "Option1": "Running Docker without any network access.",
+    "Option2": "Running the Docker daemon and containers as a non-root user, enhancing security by reducing the impact of a potential compromise.",
+    "Option3": "Running Docker on a machine without an operating system.",
+    "Option4": "Running Docker in a virtual machine.",
+    "Answer": "Running the Docker daemon and containers as a non-root user, enhancing security by reducing the impact of a potential compromise."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the benefit of Docker rootless mode?",
+    "Option1": "It makes Docker faster.",
+    "Option2": "It significantly improves the security posture by isolating Docker processes from the host's root user.",
+    "Option3": "It reduces image size.",
+    "Option4": "It simplifies Docker installation.",
+    "Answer": "It significantly improves the security posture by isolating Docker processes from the host's root user."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is a 'Docker Content Store'?",
+    "Option1": "A cloud storage service.",
+    "Option2": "The local directory on the Docker host where images, containers, and volumes are stored.",
+    "Option3": "A remote image registry.",
+    "Option4": "A database for Docker metadata.",
+    "Answer": "The local directory on the Docker host where images, containers, and volumes are stored."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'Docker Build Args'?",
+    "Option1": "Arguments passed to the container at runtime.",
+    "Option2": "Variables defined in a Dockerfile with `ARG` and passed during the build process using `--build-arg`.",
+    "Option3": "Arguments for `docker run`.",
+    "Option4": "Arguments for `docker-compose up`.",
+    "Answer": "Variables defined in a Dockerfile with `ARG` and passed during the build process using `--build-arg`."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the purpose of `docker update` command?",
+    "Option1": "To update the Docker daemon.",
+    "Option2": "To update the configuration of one or more running containers (e.g., resource limits, restart policy).",
+    "Option3": "To update Docker images.",
+    "Option4": "To update Docker Compose files.",
+    "Answer": "To update the configuration of one or more running containers (e.g., resource limits, restart policy)."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'Docker `sysctls`'?",
+    "Option1": "System calls for Docker.",
+    "Option2": "Parameters that allow modifying kernel runtime parameters for a container (e.g., `net.ipv4.ip_unprivileged_port_start`).",
+    "Option3": "A Docker networking configuration.",
+    "Option4": "A Docker security feature.",
+    "Answer": "Parameters that allow modifying kernel runtime parameters for a container (e.g., `net.ipv4.ip_unprivileged_port_start`)."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is the `docker events` command used for?",
+    "Option1": "To list all historical Docker events.",
+    "Option2": "To get a real-time stream of events from the Docker daemon (e.g., container start/stop, image pull/push).",
+    "Option3": "To trigger Docker events.",
+    "Option4": "To record Docker daemon health.",
+    "Answer": "To get a real-time stream of events from the Docker daemon (e.g., container start/stop, image pull/push)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'Docker `ulimits`'?",
+    "Option1": "Limits on Docker image size.",
+    "Option2": "Resource limits (e.g., number of open files, max processes) that can be applied to a container.",
+    "Option3": "Limits on network bandwidth.",
+    "Option4": "Limits on volume size.",
+    "Answer": "Resource limits (e.g., number of open files, max processes) that can be applied to a container."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the purpose of `docker cp` command?",
+    "Option1": "To copy files between Docker images.",
+    "Option2": "To copy files/folders between a host and a container, or vice versa.",
+    "Option3": "To copy Docker volumes.",
+    "Option4": "To copy Docker networks.",
+    "Answer": "To copy files/folders between a host and a container, or vice versa."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is 'Docker `exec` and `attach` differences regarding TTY'?",
+    "Option1": "Both always allocate a TTY.",
+    "Option2": "`exec -it` creates a pseudo-TTY for interactive use; `attach` connects to the main process's TTY if it has one.",
+    "Option3": "Neither supports TTY.",
+    "Option4": "`attach` is only for background processes.",
+    "Answer": "`exec -it` creates a pseudo-TTY for interactive use; `attach` connects to the main process's TTY if it has one."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'Docker swarm mode'?",
+    "Option1": "A legacy Docker feature.",
+    "Option2": "The native clustering and orchestration features built directly into Docker Engine, allowing creation and management of a Swarm cluster.",
+    "Option3": "A separate Docker product for orchestration.",
+    "Option4": "A method for running single containers.",
+    "Answer": "The native clustering and orchestration features built directly into Docker Engine, allowing creation and management of a Swarm cluster."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the main advantage of Docker Swarm Mode over standalone Docker Engine?",
+    "Option1": "Better performance for single containers.",
+    "Option2": "Enables high availability, scalability, and load balancing for applications across multiple Docker hosts.",
+    "Option3": "Reduces image size.",
+    "Option4": "Simplifies Dockerfile creation.",
+    "Answer": "Enables high availability, scalability, and load balancing for applications across multiple Docker hosts."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is a 'service replica' in Docker Swarm?",
+    "Option1": "A copy of a Docker image.",
+    "Option2": "An identical instance of a service's container running on a Swarm worker node, contributing to scaling and availability.",
+    "Option3": "A backup of a Docker volume.",
+    "Option4": "A specific Docker network.",
+    "Answer": "An identical instance of a service's container running on a Swarm worker node, contributing to scaling and availability."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is 'Load Balancing' in Docker Swarm?",
+    "Option1": "Manually distributing network traffic.",
+    "Option2": "The automatic distribution of incoming network traffic across multiple replicas of a service to ensure even resource utilization and high availability.",
+    "Option3": "A method for scaling services down.",
+    "Option4": "A security feature for networks.",
+    "Answer": "The automatic distribution of incoming network traffic across multiple replicas of a service to ensure even resource utilization and high availability."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'Docker volumes with drivers'?",
+    "Option1": "Volumes that are always local.",
+    "Option2": "Volumes that can leverage external storage systems (e.g., NFS, cloud storage) through specific volume drivers.",
+    "Option3": "Volumes that are temporary.",
+    "Option4": "Volumes that are read-only.",
+    "Answer": "Volumes that can leverage external storage systems (e.g., NFS, cloud storage) through specific volume drivers."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'Docker `tmpfs` mounts'?",
+    "Option1": "Persistent storage for containers.",
+    "Option2": "Temporary, in-memory mounts that are not persisted to disk and are deleted when the container stops.",
+    "Option3": "Network-attached storage.",
+    "Option4": "Read-only file systems.",
+    "Answer": "Temporary, in-memory mounts that are not persisted to disk and are deleted when the container stops."
+  },
+  {
+    "question_no.": 187,
+    "Question": "When are `tmpfs` mounts useful?",
+    "Option1": "For storing application databases.",
+    "Option2": "For storing sensitive or temporary data that doesn't need to persist beyond the container's lifecycle and shouldn't hit disk.",
+    "Option3": "For long-term data storage.",
+    "Option4": "For large datasets.",
+    "Answer": "For storing sensitive or temporary data that doesn't need to persist beyond the container's lifecycle and shouldn't hit disk."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'Docker `cap-add` and `cap-drop`'?",
+    "Option1": "Commands to add/remove CPU resources.",
+    "Option2": "Mechanisms to add or drop Linux capabilities for containers, controlling their granular privileges.",
+    "Option3": "Commands to add/remove network interfaces.",
+    "Option4": "Commands to add/remove users.",
+    "Answer": "Mechanisms to add or drop Linux capabilities for containers, controlling their granular privileges."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is the security benefit of `cap-drop` in Docker?",
+    "Option1": "It increases the attack surface.",
+    "Option2": "It enhances security by removing unnecessary kernel capabilities from a container, adhering to the principle of least privilege.",
+    "Option3": "It disables all security features.",
+    "Option4": "It makes containers run faster.",
+    "Answer": "It enhances security by removing unnecessary kernel capabilities from a container, adhering to the principle of least privilege."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'Docker `read-only` filesystem' for containers?",
+    "Option1": "The container can write anywhere.",
+    "Option2": "Mounting the container's root filesystem as read-only, preventing any writes to disk by the container itself.",
+    "Option3": "Only volumes are read-only.",
+    "Option4": "The host cannot write to the container.",
+    "Answer": "Mounting the container's root filesystem as read-only, preventing any writes to disk by the container itself."
+  },
+  {
+    "question_no.": 191,
+    "Question": "Why use a read-only filesystem for a Docker container?",
+    "Option1": "To allow modifications at runtime.",
+    "Option2": "To improve security by preventing accidental or malicious writes, and to ensure immutability of the deployed application.",
+    "Option3": "To reduce container size.",
+    "Option4": "To make debugging easier.",
+    "Answer": "To improve security by preventing accidental or malicious writes, and to ensure immutability of the deployed application."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'Docker `squash`' during image building?",
+    "Option1": "A method to compress the image layers.",
+    "Option2": "An experimental build option to merge all new layers into a single new layer, reducing the number of layers in the final image.",
+    "Option3": "A way to flatten all image layers into one.",
+    "Option4": "A method to delete all image layers.",
+    "Answer": "An experimental build option to merge all new layers into a single new layer, reducing the number of layers in the final image."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the primary goal of `docker squash`?",
+    "Option1": "To increase build speed.",
+    "Option2": "To reduce the number of image layers for distribution, potentially improving pull times and simplifying auditing.",
+    "Option3": "To hide image content.",
+    "Option4": "To prevent caching.",
+    "Answer": "To reduce the number of image layers for distribution, potentially improving pull times and simplifying auditing."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'Docker `secret` in Compose file'?",
+    "Option1": "Defining secrets as environment variables.",
+    "Option2": "A section in `docker-compose.yml` to define secrets that services can consume, backed by Docker Swarm secrets.",
+    "Option3": "A way to hide sensitive information in the Compose file.",
+    "Option4": "A temporary secret storage.",
+    "Answer": "A section in `docker-compose.yml` to define secrets that services can consume, backed by Docker Swarm secrets."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Docker `config` in Compose file'?",
+    "Option1": "Defining application configurations as environment variables.",
+    "Option2": "A section in `docker-compose.yml` to define non-sensitive configuration data (e.g., config files) that services can consume.",
+    "Option3": "A way to define Docker daemon configuration.",
+    "Option4": "A way to define network settings.",
+    "Answer": "A section in `docker-compose.yml` to define non-sensitive configuration data (e.g., config files) that services can consume."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is the difference between Docker `secrets` and `configs`?",
+    "Option1": "No difference, they are interchangeable.",
+    "Option2": "`secrets` are for sensitive data and are stored encrypted, `configs` are for non-sensitive data and are not encrypted.",
+    "Option3": "`secrets` are for development, `configs` are for production.",
+    "Option4": "`secrets` are only for Linux, `configs` are for all OS.",
+    "Answer": "`secrets` are for sensitive data and are stored encrypted, `configs` are for non-sensitive data and are not encrypted."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'Docker `proxy` settings'?",
+    "Option1": "Settings for external proxies only.",
+    "Option2": "Configuration for Docker daemon and/or containers to use HTTP/HTTPS proxies for internet access.",
+    "Option3": "Settings for internal network proxies.",
+    "Option4": "Settings for Docker registry proxies.",
+    "Answer": "Configuration for Docker daemon and/or containers to use HTTP/HTTPS proxies for internet access."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'Docker `build-time` environment variables'?",
+    "Option1": "Variables available to the container at runtime.",
+    "Option2": "Variables specified using `ARG` in the Dockerfile, available only during the image build process, not in the final image.",
+    "Option3": "Variables defined in the host's environment.",
+    "Option4": "Variables for `docker run` command.",
+    "Answer": "Variables specified using `ARG` in the Dockerfile, available only during the image build process, not in the final image."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Docker `run-time` environment variables'?",
+    "Option1": "Variables available during the image build process.",
+    "Option2": "Variables specified using `ENV` in the Dockerfile or `-e` with `docker run`, available inside the container during its execution.",
+    "Option3": "Variables only for the Docker daemon.",
+    "Option4": "Variables that are not persisted.",
+    "Answer": "Variables specified using `ENV` in the Dockerfile or `-e` with `docker run`, available inside the container during its execution."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is the purpose of `docker system info` command?",
+    "Option1": "To get information about running containers.",
+    "Option2": "To display detailed information about the Docker system, including the daemon, client, plugins, and resources.",
+    "Option3": "To get information about Docker images.",
+    "Option4": "To get information about Docker networks.",
+    "Answer": "To display detailed information about the Docker system, including the daemon, client, plugins, and resources."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is the purpose of the `docker-compose config` command?",
+    "Option1": "To start Docker Compose services.",
+    "Option2": "To validate and display the normalized configuration from a `docker-compose.yml` file.",
+    "Option3": "To apply configuration changes to running services.",
+    "Option4": "To generate a new `docker-compose.yml` file.",
+    "Answer": "To validate and display the normalized configuration from a `docker-compose.yml` file."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'Docker Context' used for with remote Docker hosts?",
+    "Option1": "To build images remotely.",
+    "Option2": "To manage and switch between different remote Docker daemon endpoints easily from a local Docker CLI.",
+    "Option3": "To copy files to remote hosts.",
+    "Option4": "To create virtual machines on remote hosts.",
+    "Answer": "To manage and switch between different remote Docker daemon endpoints easily from a local Docker CLI."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `docker trust sign` used for?",
+    "Option1": "To sign Dockerfiles.",
+    "Option2": "To digitally sign a Docker image to ensure its authenticity and integrity, typically with Docker Content Trust enabled.",
+    "Option3": "To sign Docker Compose files.",
+    "Option4": "To sign Docker volumes.",
+    "Answer": "To digitally sign a Docker image to ensure its authenticity and integrity, typically with Docker Content Trust enabled."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'Docker Hub organizations'?",
+    "Option1": "Individual Docker Hub accounts.",
+    "Option2": "A feature in Docker Hub to manage teams, repositories, and permissions collaboratively for multiple users.",
+    "Option3": "A way to group Docker images.",
+    "Option4": "A type of Docker network.",
+    "Answer": "A feature in Docker Hub to manage teams, repositories, and permissions collaboratively for multiple users."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'Docker self-healing' in Swarm mode?",
+    "Option1": "Manually repairing failed containers.",
+    "Option2": "The ability of Swarm to automatically detect and replace failed service tasks or nodes, maintaining the desired state of the application.",
+    "Option3": "Automatic code bug fixes.",
+    "Option4": "Automatic network configuration.",
+    "Answer": "The ability of Swarm to automatically detect and replace failed service tasks or nodes, maintaining the desired state of the application."
+  }
+]

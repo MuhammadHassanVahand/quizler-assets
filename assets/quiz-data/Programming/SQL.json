@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does SQL stand for?",
+    "Option1": "Structured Query Language",
+    "Option2": "Standard Question Language",
+    "Option3": "Sequential Query Logic",
+    "Option4": "Structured Question Logic",
+    "Answer": "Structured Query Language"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which SQL statement is used to extract data from a database?",
+    "Option1": "GET",
+    "Option2": "OPEN",
+    "Option3": "SELECT",
+    "Option4": "EXTRACT",
+    "Answer": "SELECT"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Which SQL statement is used to update data in a database?",
+    "Option1": "MODIFY",
+    "Option2": "SAVE",
+    "Option3": "UPDATE",
+    "Option4": "CHANGE",
+    "Answer": "UPDATE"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which SQL statement is used to delete data from a database?",
+    "Option1": "REMOVE",
+    "Option2": "DELETE",
+    "Option3": "ERASE",
+    "Option4": "CLEAR",
+    "Answer": "DELETE"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which SQL statement is used to insert new data into a database?",
+    "Option1": "ADD NEW",
+    "Option2": "PUT",
+    "Option3": "INSERT INTO",
+    "Option4": "NEW RECORD",
+    "Answer": "INSERT INTO"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Which SQL keyword is used to sort the result-set?",
+    "Option1": "SORT BY",
+    "Option2": "ORDER BY",
+    "Option3": "ARRANGE BY",
+    "Option4": "SEQUENCE BY",
+    "Answer": "ORDER BY"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which SQL keyword is used to return only different values?",
+    "Option1": "UNIQUE",
+    "Option2": "DISTINCT",
+    "Option3": "SEPARATE",
+    "Option4": "DIFFERENT",
+    "Answer": "DISTINCT"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Which SQL clause is used to filter records?",
+    "Option1": "HAVING",
+    "Option2": "GROUP BY",
+    "Option3": "WHERE",
+    "Option4": "FILTER",
+    "Answer": "WHERE"
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is a 'Primary Key' in SQL?",
+    "Option1": "A key that identifies a table",
+    "Option2": "A key that uniquely identifies each record in a table",
+    "Option3": "A key used for encryption",
+    "Option4": "A key that links two tables together",
+    "Answer": "A key that uniquely identifies each record in a table"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is a 'Foreign Key' in SQL?",
+    "Option1": "A key that uniquely identifies each record in a table",
+    "Option2": "A key that encrypts data",
+    "Option3": "A key that links two tables together, referencing the primary key of another table",
+    "Option4": "A key used for sorting records",
+    "Answer": "A key that links two tables together, referencing the primary key of another table"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which SQL command is used to create a new database?",
+    "Option1": "NEW DATABASE",
+    "Option2": "CREATE DB",
+    "Option3": "BUILD DATABASE",
+    "Option4": "CREATE DATABASE",
+    "Answer": "CREATE DATABASE"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which SQL command is used to create a new table?",
+    "Option1": "NEW TABLE",
+    "Option2": "ADD TABLE",
+    "Option3": "CREATE TABLE",
+    "Option4": "MAKE TABLE",
+    "Answer": "CREATE TABLE"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which SQL command is used to modify the structure of an existing table?",
+    "Option1": "CHANGE TABLE",
+    "Option2": "ALTER TABLE",
+    "Option3": "MODIFY TABLE",
+    "Option4": "UPDATE TABLE",
+    "Answer": "ALTER TABLE"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which SQL command is used to delete a table from a database?",
+    "Option1": "REMOVE TABLE",
+    "Option2": "DELETE TABLE",
+    "Option3": "DROP TABLE",
+    "Option4": "ERASE TABLE",
+    "Answer": "DROP TABLE"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which SQL command is used to remove all records from a table, but not the table itself?",
+    "Option1": "DELETE ALL",
+    "Option2": "CLEAR TABLE",
+    "Option3": "TRUNCATE TABLE",
+    "Option4": "EMPTY TABLE",
+    "Answer": "TRUNCATE TABLE"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Which SQL operator is used for pattern matching?",
+    "Option1": "MATCH",
+    "Option2": "LIKE",
+    "Option3": "FIND",
+    "Option4": "PATTERN",
+    "Answer": "LIKE"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which wildcard character represents zero or more characters in SQL LIKE operator?",
+    "Option1": "_",
+    "Option2": "#",
+    "Option3": "%",
+    "Option4": "?",
+    "Answer": "%"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which wildcard character represents a single character in SQL LIKE operator?",
+    "Option1": "*",
+    "Option2": "?",
+    "Option3": "_",
+    "Option4": "#",
+    "Answer": "_"
+  },
+  {
+    "question_no.": 19,
+    "Question": "Which SQL aggregate function returns the total number of rows?",
+    "Option1": "SUM()",
+    "Option2": "AVG()",
+    "Option3": "COUNT()",
+    "Option4": "TOTAL()",
+    "Answer": "COUNT()"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Which SQL aggregate function calculates the average value of a numeric column?",
+    "Option1": "AVG()",
+    "Option2": "AVERAGE()",
+    "Option3": "MEAN()",
+    "Option4": "SUM()",
+    "Answer": "AVG()"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Which SQL aggregate function returns the largest value of the selected column?",
+    "Option1": "TOP()",
+    "Option2": "MAX()",
+    "Option3": "HIGHEST()",
+    "Option4": "LAST()",
+    "Answer": "MAX()"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which SQL aggregate function returns the smallest value of the selected column?",
+    "Option1": "BOTTOM()",
+    "Option2": "MIN()",
+    "Option3": "LOWEST()",
+    "Option4": "FIRST()",
+    "Answer": "MIN()"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Which SQL aggregate function returns the sum of a numeric column?",
+    "Option1": "TOTAL()",
+    "Option2": "ADD()",
+    "Option3": "SUM()",
+    "Option4": "COUNT()",
+    "Answer": "SUM()"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which SQL clause is used to group rows that have the same values in specified columns into a summary row?",
+    "Option1": "ORDER BY",
+    "Option2": "WHERE",
+    "Option3": "GROUP BY",
+    "Option4": "AGGREGATE BY",
+    "Answer": "GROUP BY"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which SQL clause is used with aggregate functions to filter groups based on a specified condition?",
+    "Option1": "WHERE",
+    "Option2": "FILTER BY",
+    "Option3": "HAVING",
+    "Option4": "GROUP FILTER",
+    "Answer": "HAVING"
+  },
+  {
+    "question_no.": 26,
+    "Question": "What does DDL stand for in SQL?",
+    "Option1": "Data Definition Language",
+    "Option2": "Data Description Language",
+    "Option3": "Database Definition Language",
+    "Option4": "Detailed Data Language",
+    "Answer": "Data Definition Language"
+  },
+  {
+    "question_no.": 27,
+    "Question": "What does DML stand for in SQL?",
+    "Option1": "Data Manipulation Language",
+    "Option2": "Data Management Language",
+    "Option3": "Database Management Language",
+    "Option4": "Detailed Management Language",
+    "Answer": "Data Manipulation Language"
+  },
+  {
+    "question_no.": 28,
+    "Question": "What does DCL stand for in SQL?",
+    "Option1": "Data Control Language",
+    "Option2": "Data Creation Language",
+    "Option3": "Database Control Language",
+    "Option4": "Detailed Control Language",
+    "Answer": "Data Control Language"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which DDL command is used to remove a column from a table?",
+    "Option1": "REMOVE COLUMN",
+    "Option2": "DELETE COLUMN",
+    "Option3": "DROP COLUMN",
+    "Option4": "ERASE COLUMN",
+    "Answer": "DROP COLUMN"
+  },
+  {
+    "question_no.": 30,
+    "Question": "Which DDL command is used to add a new column to a table?",
+    "Option1": "ADD COLUMN",
+    "Option2": "INSERT COLUMN",
+    "Option3": "CREATE COLUMN",
+    "Option4": "ALTER TABLE ADD COLUMN",
+    "Answer": "ALTER TABLE ADD COLUMN"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Which SQL join returns rows when there is a match in both tables?",
+    "Option1": "LEFT JOIN",
+    "Option2": "RIGHT JOIN",
+    "Option3": "INNER JOIN",
+    "Option4": "FULL JOIN",
+    "Answer": "INNER JOIN"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which SQL join returns all rows from the left table, and the matching rows from the right table?",
+    "Option1": "RIGHT JOIN",
+    "Option2": "INNER JOIN",
+    "Option3": "LEFT JOIN",
+    "Option4": "OUTER JOIN",
+    "Answer": "LEFT JOIN"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Which SQL join returns all rows from the right table, and the matching rows from the left table?",
+    "Option1": "LEFT JOIN",
+    "Option2": "INNER JOIN",
+    "Option3": "RIGHT JOIN",
+    "Option4": "OUTER JOIN",
+    "Answer": "RIGHT JOIN"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Which SQL join returns all rows when there is a match in one of the tables?",
+    "Option1": "INNER JOIN",
+    "Option2": "FULL OUTER JOIN",
+    "Option3": "LEFT JOIN",
+    "Option4": "RIGHT JOIN",
+    "Answer": "FULL OUTER JOIN"
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is the purpose of the SQL `UNION` operator?",
+    "Option1": "To combine columns from two tables",
+    "Option2": "To combine the result-set of two or more SELECT statements (removes duplicates)",
+    "Option3": "To link two tables together",
+    "Option4": "To perform mathematical operations",
+    "Answer": "To combine the result-set of two or more SELECT statements (removes duplicates)"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is the purpose of the SQL `UNION ALL` operator?",
+    "Option1": "To combine columns from two tables",
+    "Option2": "To combine the result-set of two or more SELECT statements (includes duplicates)",
+    "Option3": "To link two tables together",
+    "Option4": "To perform mathematical operations",
+    "Answer": "To combine the result-set of two or more SELECT statements (includes duplicates)"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Which SQL constraint ensures that all values in a column are different?",
+    "Option1": "PRIMARY KEY",
+    "Option2": "FOREIGN KEY",
+    "Option3": "UNIQUE",
+    "Option4": "NOT NULL",
+    "Answer": "UNIQUE"
+  },
+  {
+    "question_no.": 38,
+    "Question": "Which SQL constraint ensures that a column cannot have NULL values?",
+    "Option1": "UNIQUE",
+    "Option2": "PRIMARY KEY",
+    "Option3": "NOT NULL",
+    "Option4": "DEFAULT",
+    "Answer": "NOT NULL"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which SQL constraint is used to set a default value for a column when no value is specified?",
+    "Option1": "NOT NULL",
+    "Option2": "DEFAULT",
+    "Option3": "AUTO_INCREMENT",
+    "Option4": "CHECK",
+    "Answer": "DEFAULT"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Which SQL constraint is used to limit the value range that can be placed in a column?",
+    "Option1": "DEFAULT",
+    "Option2": "NOT NULL",
+    "Option3": "CHECK",
+    "Option4": "UNIQUE",
+    "Answer": "CHECK"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'normalization' in database design?",
+    "Option1": "The process of organizing data to reduce data redundancy and improve data integrity.",
+    "Option2": "The process of converting data to a different format.",
+    "Option3": "The process of securing a database.",
+    "Option4": "The process of indexing data for faster retrieval.",
+    "Answer": "The process of organizing data to reduce data redundancy and improve data integrity."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is 'denormalization' in database design?",
+    "Option1": "The process of increasing data redundancy to improve query performance.",
+    "Option2": "The process of removing duplicate data.",
+    "Option3": "The process of securing a database.",
+    "Option4": "The process of backing up data.",
+    "Answer": "The process of increasing data redundancy to improve query performance."
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is an 'Index' in SQL?",
+    "Option1": "A type of database.",
+    "Option2": "A special lookup table that the database search engine can use to speed up data retrieval.",
+    "Option3": "A record of all changes made to the database.",
+    "Option4": "A security measure for accessing data.",
+    "Answer": "A special lookup table that the database search engine can use to speed up data retrieval."
+  },
+  {
+    "question_no.": 44,
+    "Question": "Which SQL command is used to create an index?",
+    "Option1": "ADD INDEX",
+    "Option2": "BUILD INDEX",
+    "Option3": "CREATE INDEX",
+    "Option4": "INDEX ON",
+    "Answer": "CREATE INDEX"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is a 'View' in SQL?",
+    "Option1": "A physical table in the database.",
+    "Option2": "A virtual table based on the result-set of an SQL query.",
+    "Option3": "A user interface for the database.",
+    "Option4": "A temporary table used for calculations.",
+    "Answer": "A virtual table based on the result-set of an SQL query."
+  },
+  {
+    "question_no.": 46,
+    "Question": "Which SQL command is used to create a view?",
+    "Option1": "NEW VIEW",
+    "Option2": "MAKE VIEW",
+    "Option3": "CREATE VIEW",
+    "Option4": "DEFINE VIEW",
+    "Answer": "CREATE VIEW"
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is a 'Stored Procedure' in SQL?",
+    "Option1": "A sequence of SQL statements stored as a single object in the database.",
+    "Option2": "A temporary query that runs once.",
+    "Option3": "A type of table.",
+    "Option4": "A logging mechanism.",
+    "Answer": "A sequence of SQL statements stored as a single object in the database."
+  },
+  {
+    "question_no.": 48,
+    "Question": "What is a 'Trigger' in SQL?",
+    "Option1": "A command to start a database server.",
+    "Option2": "A special type of stored procedure that automatically runs when an event occurs in the database server.",
+    "Option3": "A signal to stop a query.",
+    "Option4": "A method for backing up data.",
+    "Answer": "A special type of stored procedure that automatically runs when an event occurs in the database server."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is a 'Cursor' in SQL?",
+    "Option1": "A pointer to a specific row in a result set.",
+    "Option2": "A tool for editing SQL queries.",
+    "Option3": "A temporary storage area.",
+    "Option4": "A type of index.",
+    "Answer": "A pointer to a specific row in a result set."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What does ACID stand for in the context of database transactions?",
+    "Option1": "Atomicity, Consistency, Isolation, Durability",
+    "Option2": "Accuracy, Connectivity, Integrity, Durability",
+    "Option3": "Access, Control, Indexing, Data",
+    "Option4": "Atomicity, Concurrency, Indexing, Distribution",
+    "Answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which SQL command is used to start a transaction?",
+    "Option1": "START TRANSACTION",
+    "Option2": "BEGIN TRANSACTION",
+    "Option3": "OPEN TRANSACTION",
+    "Option4": "INIT TRANSACTION",
+    "Answer": "BEGIN TRANSACTION"
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which SQL command is used to make permanent changes made during a transaction?",
+    "Option1": "SAVE",
+    "Option2": "APPLY",
+    "Option3": "COMMIT",
+    "Option4": "FINALIZE",
+    "Answer": "COMMIT"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Which SQL command is used to undo changes made during a transaction?",
+    "Option1": "UNDO",
+    "Option2": "REVERT",
+    "Option3": "ROLLBACK",
+    "Option4": "CANCEL",
+    "Answer": "ROLLBACK"
+  },
+  {
+    "question_no.": 54,
+    "Question": "What is 'Referential Integrity'?",
+    "Option1": "Ensuring that all data is correctly formatted.",
+    "Option2": "A set of rules that prevents users from entering inconsistent data into related tables.",
+    "Option3": "Ensuring the uniqueness of primary keys.",
+    "Option4": "The process of backing up data.",
+    "Answer": "A set of rules that prevents users from entering inconsistent data into related tables."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the purpose of `GRANT` command in SQL?",
+    "Option1": "To create new users.",
+    "Option2": "To assign permissions to users on database objects.",
+    "Option3": "To revoke permissions from users.",
+    "Option4": "To back up the database.",
+    "Answer": "To assign permissions to users on database objects."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is the purpose of `REVOKE` command in SQL?",
+    "Option1": "To create new users.",
+    "Option2": "To assign permissions to users.",
+    "Option3": "To remove previously granted permissions from users.",
+    "Option4": "To delete database objects.",
+    "Answer": "To remove previously granted permissions from users."
+  },
+  {
+    "question_no.": 57,
+    "Question": "Which SQL clause is used to return a limited number of records?",
+    "Option1": "TOP",
+    "Option2": "LIMIT",
+    "Option3": "FETCH",
+    "Option4": "Both TOP and LIMIT depending on the database system",
+    "Answer": "Both TOP and LIMIT depending on the database system"
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is a 'Subquery' in SQL?",
+    "Option1": "A query that runs in a loop.",
+    "Option2": "A query nested inside another SQL query.",
+    "Option3": "A query used for administrative tasks.",
+    "Option4": "A query that only returns a single value.",
+    "Answer": "A query nested inside another SQL query."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'Common Table Expression (CTE)' in SQL?",
+    "Option1": "A temporary named result set that you can reference within a single SQL statement.",
+    "Option2": "A permanent table stored in the database.",
+    "Option3": "A type of index.",
+    "Option4": "A security measure.",
+    "Answer": "A temporary named result set that you can reference within a single SQL statement."
+  },
+  {
+    "question_no.": 60,
+    "Question": "Which keyword is used to define a CTE?",
+    "Option1": "DEFINE",
+    "Option2": "WITH",
+    "Option3": "AS",
+    "Option4": "CTE",
+    "Answer": "WITH"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `NULL` in SQL?",
+    "Option1": "The number 0.",
+    "Option2": "An empty string.",
+    "Option3": "A marker for missing or unknown data.",
+    "Option4": "A boolean false value.",
+    "Answer": "A marker for missing or unknown data."
+  },
+  {
+    "question_no.": 62,
+    "Question": "How do you check for `NULL` values in a `WHERE` clause?",
+    "Option1": "column = NULL",
+    "Option2": "column IS NULL",
+    "Option3": "column == NULL",
+    "Option4": "column IS EMPTY",
+    "Answer": "column IS NULL"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'SQL Injection'?",
+    "Option1": "A technique for speeding up SQL queries.",
+    "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.",
+    "Option3": "A method for optimizing database performance.",
+    "Option4": "A way to backup database data.",
+    "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is a common way to prevent SQL Injection?",
+    "Option1": "Using dynamic SQL.",
+    "Option2": "Using stored procedures or prepared statements with parameterized queries.",
+    "Option3": "Adding extra spaces to queries.",
+    "Option4": "Encrypting the database.",
+    "Answer": "Using stored procedures or prepared statements with parameterized queries."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is the purpose of `CAST()` function in SQL?",
+    "Option1": "To convert a value from one data type to another.",
+    "Option2": "To encrypt data.",
+    "Option3": "To sort data.",
+    "Option4": "To combine multiple columns.",
+    "Answer": "To convert a value from one data type to another."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is the purpose of `CONCAT()` function in SQL?",
+    "Option1": "To calculate the sum of values.",
+    "Option2": "To combine two or more strings into a single string.",
+    "Option3": "To count the number of characters.",
+    "Option4": "To convert data types.",
+    "Answer": "To combine two or more strings into a single string."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is a 'Self-Join' in SQL?",
+    "Option1": "Joining a table with another identical table.",
+    "Option2": "Joining a table to itself using aliases to treat it as two separate tables.",
+    "Option3": "Joining two tables with no common columns.",
+    "Option4": "Joining multiple tables in a single query.",
+    "Answer": "Joining a table to itself using aliases to treat it as two separate tables."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is `COALESCE()` function used for?",
+    "Option1": "To combine two columns.",
+    "Option2": "To return the first non-NULL expression in a list.",
+    "Option3": "To check if a value is NULL.",
+    "Option4": "To convert NULL values to zero.",
+    "Answer": "To return the first non-NULL expression in a list."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is the `CASE` statement in SQL used for?",
+    "Option1": "To handle errors in queries.",
+    "Option2": "To create different outputs based on different conditions.",
+    "Option3": "To define a new column.",
+    "Option4": "To group rows together.",
+    "Answer": "To create different outputs based on different conditions."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is a 'Subquery' in the `FROM` clause sometimes called?",
+    "Option1": "Nested query",
+    "Option2": "Inline View",
+    "Option3": "Derived Table",
+    "Option4": "Both Inline View and Derived Table",
+    "Answer": "Both Inline View and Derived Table"
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is the purpose of `ISNULL()` or `IFNULL()` (database dependent) function?",
+    "Option1": "To check if a value is valid.",
+    "Option2": "To replace NULL values with a specified value.",
+    "Option3": "To determine if a column contains any values.",
+    "Option4": "To count NULL values.",
+    "Answer": "To replace NULL values with a specified value."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the `ORDER BY DESC` keyword used for?",
+    "Option1": "To sort the result set in ascending order.",
+    "Option2": "To sort the result set in descending order.",
+    "Option3": "To sort the result set randomly.",
+    "Option4": "To sort by a different column.",
+    "Answer": "To sort the result set in descending order."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is the `HAVING` clause primarily used for?",
+    "Option1": "Filtering individual rows before grouping.",
+    "Option2": "Filtering groups after aggregation.",
+    "Option3": "Sorting the output.",
+    "Option4": "Joining multiple tables.",
+    "Answer": "Filtering groups after aggregation."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is a 'Composite Primary Key'?",
+    "Option1": "A primary key with a numeric data type.",
+    "Option2": "A primary key consisting of two or more columns whose values, when combined, uniquely identify each record in a table.",
+    "Option3": "A primary key that can have NULL values.",
+    "Option4": "A primary key used only for foreign key references.",
+    "Answer": "A primary key consisting of two or more columns whose values, when combined, uniquely identify each record in a table."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is the function of `TRUNCATE TABLE`?",
+    "Option1": "Deletes the table structure and data.",
+    "Option2": "Deletes all rows from a table and resets auto-increment values (faster than DELETE with no WHERE).",
+    "Option3": "Deletes specific rows based on a condition.",
+    "Option4": "Archives table data.",
+    "Answer": "Deletes all rows from a table and resets auto-increment values (faster than DELETE with no WHERE)."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is a 'Non-clustered Index'?",
+    "Option1": "An index that defines the physical order of data in the table.",
+    "Option2": "An index where the logical order of the index does not match the physical stored order of the rows.",
+    "Option3": "An index that only stores unique values.",
+    "Option4": "An index that is created automatically.",
+    "Answer": "An index where the logical order of the index does not match the physical stored order of the rows."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is a 'Clustered Index'?",
+    "Option1": "An index where the logical order of the index does not match the physical stored order of the rows.",
+    "Option2": "An index that defines the physical order of data in the table, meaning table rows are stored in the order of the clustered index key.",
+    "Option3": "An index that only stores non-unique values.",
+    "Option4": "An index that is never used for queries.",
+    "Answer": "An index that defines the physical order of data in the table, meaning table rows are stored in the order of the clustered index key."
+  },
+  {
+    "question_no.": 78,
+    "Question": "Can a table have more than one clustered index?",
+    "Option1": "Yes, any number.",
+    "Option2": "Yes, up to five.",
+    "Option3": "No, a table can have only one clustered index.",
+    "Option4": "Only if it has multiple primary keys.",
+    "Answer": "No, a table can have only one clustered index."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the purpose of `ROLLUP` in `GROUP BY`?",
+    "Option1": "To calculate grand totals only.",
+    "Option2": "To generate subtotal rows for groups and a grand total for all groups.",
+    "Option3": "To filter out NULL values.",
+    "Option4": "To sort data.",
+    "Answer": "To generate subtotal rows for groups and a grand total for all groups."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the purpose of `CUBE` in `GROUP BY`?",
+    "Option1": "To calculate grand totals only.",
+    "Option2": "To generate all possible subtotals for all combinations of columns in the `GROUP BY` clause.",
+    "Option3": "To filter out specific rows.",
+    "Option4": "To create a multi-dimensional table.",
+    "Answer": "To generate all possible subtotals for all combinations of columns in the `GROUP BY` clause."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is a 'Database Schema'?",
+    "Option1": "The physical storage of data.",
+    "Option2": "The logical structure of the entire database, including tables, views, indexes, stored procedures, etc.",
+    "Option3": "The data stored in the database.",
+    "Option4": "The software used to manage the database.",
+    "Answer": "The logical structure of the entire database, including tables, views, indexes, stored procedures, etc."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is a 'Transaction' in SQL?",
+    "Option1": "A single SQL statement.",
+    "Option2": "A sequence of operations performed as a single logical unit of work, which either fully completes or fully fails.",
+    "Option3": "A backup of the database.",
+    "Option4": "A security audit log.",
+    "Answer": "A sequence of operations performed as a single logical unit of work, which either fully completes or fully fails."
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is 'Isolation Level' in transactions?",
+    "Option1": "The level of security for user access.",
+    "Option2": "The degree to which one transaction must be isolated from the side effects of other concurrent transactions.",
+    "Option3": "The network isolation of the database server.",
+    "Option4": "The number of concurrent users allowed.",
+    "Answer": "The degree to which one transaction must be isolated from the side effects of other concurrent transactions."
+  },
+  {
+    "question_no.": 84,
+    "Question": "Name a common isolation level in SQL.",
+    "Option1": "READ COMMITTED",
+    "Option2": "HIGH ISOLATION",
+    "Option3": "SECURE READ",
+    "Option4": "SERIAL READ",
+    "Answer": "READ COMMITTED"
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is a 'Deadlock' in a database?",
+    "Option1": "When the database server crashes.",
+    "Option2": "A situation where two or more transactions are waiting for each other to release locks on resources, leading to a standstill.",
+    "Option3": "When a query takes too long to execute.",
+    "Option4": "When there is no space left on the disk.",
+    "Answer": "A situation where two or more transactions are waiting for each other to release locks on resources, leading to a standstill."
+  },
+  {
+    "question_no.": 86,
+    "Question": "How are deadlocks typically handled by database systems?",
+    "Option1": "By manually restarting the server.",
+    "Option2": "By automatically detecting deadlocks and rolling back one of the involved transactions.",
+    "Option3": "By ignoring them.",
+    "Option4": "By escalating locks to table level.",
+    "Answer": "By automatically detecting deadlocks and rolling back one of the involved transactions."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is an 'Auto-increment' column?",
+    "Option1": "A column that automatically decrements its value.",
+    "Option2": "A column whose value is automatically generated and incremented with each new record inserted.",
+    "Option3": "A column that stores timestamps.",
+    "Option4": "A column that stores unique random numbers.",
+    "Answer": "A column whose value is automatically generated and incremented with each new record inserted."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is the purpose of `OFFSET` and `FETCH NEXT` (or `LIMIT` in MySQL/PostgreSQL)?",
+    "Option1": "To sort results.",
+    "Option2": "To paginate results by skipping a number of rows and then retrieving a specified number of rows.",
+    "Option3": "To join tables.",
+    "Option4": "To filter records by a condition.",
+    "Answer": "To paginate results by skipping a number of rows and then retrieving a specified number of rows."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is a 'Scalar Function' in SQL?",
+    "Option1": "A function that operates on a set of rows and returns a single value.",
+    "Option2": "A function that returns a single value based on the input values.",
+    "Option3": "A function that creates new tables.",
+    "Option4": "A function that modifies data.",
+    "Answer": "A function that returns a single value based on the input values."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is an 'Aggregate Function' in SQL?",
+    "Option1": "A function that returns a single value based on the input values.",
+    "Option2": "A function that operates on a set of rows and returns a single summary value.",
+    "Option3": "A function that modifies the database schema.",
+    "Option4": "A function that creates new rows.",
+    "Answer": "A function that operates on a set of rows and returns a single summary value."
+  },
+  {
+    "question_no.": 91,
+    "Question": "Name an example of a SQL scalar function.",
+    "Option1": "SUM()",
+    "Option2": "AVG()",
+    "Option3": "UPPER()",
+    "Option4": "COUNT()",
+    "Answer": "UPPER()"
+  },
+  {
+    "question_no.": 92,
+    "Question": "What is `SQL JOIN` (revisited)?",
+    "Option1": "A command to insert data.",
+    "Option2": "A clause used to combine rows from two or more tables, based on a related column between them.",
+    "Option3": "A command to create tables.",
+    "Option4": "A method to delete data.",
+    "Answer": "A clause used to combine rows from two or more tables, based on a related column between them."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the result of a `LEFT JOIN` if there is no match in the right table?",
+    "Option1": "The row from the left table is excluded.",
+    "Option2": "The row from the left table is included, with NULL values for the right table's columns.",
+    "Option3": "An error is returned.",
+    "Option4": "Only matching rows are returned.",
+    "Answer": "The row from the left table is included, with NULL values for the right table's columns."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is the result of an `INNER JOIN` if there is no match in either table?",
+    "Option1": "All rows from both tables are returned.",
+    "Option2": "The rows are returned with NULLs.",
+    "Option3": "The rows are excluded from the result set.",
+    "Option4": "An error is returned.",
+    "Answer": "The rows are excluded from the result set."
+  },
+  {
+    "question_no.": 95,
+    "Question": "What is the purpose of `ALIASES` in SQL?",
+    "Option1": "To create temporary tables.",
+    "Option2": "To give a table or a column a temporary name for the duration of a query.",
+    "Option3": "To encrypt data.",
+    "Option4": "To define primary keys.",
+    "Answer": "To give a table or a column a temporary name for the duration of a query."
+  },
+  {
+    "question_no.": 96,
+    "Question": "Which keyword is used to create an alias?",
+    "Option1": "SET AS",
+    "Option2": "AS",
+    "Option3": "NAME",
+    "Option4": "ALIAS FOR",
+    "Answer": "AS"
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is the purpose of `GRANT OPTION` in SQL permissions?",
+    "Option1": "Allows the grantee to view data only.",
+    "Option2": "Allows the grantee to grant the same permission to other users.",
+    "Option3": "Allows the grantee to revoke permissions.",
+    "Option4": "Allows the grantee to create new database objects.",
+    "Answer": "Allows the grantee to grant the same permission to other users."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is a 'Database Administrator' (DBA)?",
+    "Option1": "A person who writes SQL queries only.",
+    "Option2": "A professional responsible for the installation, configuration, upgrade, administration, monitoring, and maintenance of databases.",
+    "Option3": "A developer who builds user interfaces for databases.",
+    "Option4": "A person who sells database software.",
+    "Answer": "A professional responsible for the installation, configuration, upgrade, administration, monitoring, and maintenance of databases."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is a 'Schema (database object)'?",
+    "Option1": "A collection of tables.",
+    "Option2": "A named collection of database objects, including tables, views, indexes, stored procedures, etc., owned by a database user.",
+    "Option3": "A type of data file.",
+    "Option4": "A security group.",
+    "Answer": "A named collection of database objects, including tables, views, indexes, stored procedures, etc., owned by a database user."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of `EXPLAIN` (or `EXPLAIN PLAN`) in SQL?",
+    "Option1": "To explain the meaning of a query to a user.",
+    "Option2": "To analyze and display the execution plan of an SQL query, helping to identify performance bottlenecks.",
+    "Option3": "To provide a detailed error message.",
+    "Option4": "To create a backup of the query.",
+    "Answer": "To analyze and display the execution plan of an SQL query, helping to identify performance bottlenecks."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What are 'Window Functions' in SQL?",
+    "Option1": "Functions that operate on entire tables.",
+    "Option2": "Functions that perform a calculation across a set of table rows that are somehow related to the current row, without collapsing rows.",
+    "Option3": "Functions that only work on specific data types.",
+    "Option4": "Functions that create new windows in a GUI.",
+    "Answer": "Functions that perform a calculation across a set of table rows that are somehow related to the current row, without collapsing rows."
+  },
+  {
+    "question_no.": 102,
+    "Question": "Name an example of a SQL Window Function.",
+    "Option1": "SUM()",
+    "Option2": "ROW_NUMBER()",
+    "Option3": "MAX()",
+    "Option4": "COUNT()",
+    "Answer": "ROW_NUMBER()"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the `OVER()` clause used for with window functions?",
+    "Option1": "To specify the order of the result set.",
+    "Option2": "To define the window (a set of rows) on which the window function operates.",
+    "Option3": "To filter results.",
+    "Option4": "To group results.",
+    "Answer": "To define the window (a set of rows) on which the window function operates."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the difference between `DELETE` and `TRUNCATE`?",
+    "Option1": "DELETE removes table structure, TRUNCATE removes data.",
+    "Option2": "DELETE is DML, allows WHERE clause, logs individual rows. TRUNCATE is DDL, removes all rows, faster, resets identity, and is minimally logged.",
+    "Option3": "TRUNCATE can be rolled back, DELETE cannot.",
+    "Option4": "DELETE is faster than TRUNCATE.",
+    "Answer": "DELETE is DML, allows WHERE clause, logs individual rows. TRUNCATE is DDL, removes all rows, faster, resets identity, and is minimally logged."
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the difference between `DROP` and `TRUNCATE`?",
+    "Option1": "DROP removes table data, TRUNCATE removes table structure.",
+    "Option2": "DROP removes the entire table (structure and data). TRUNCATE removes all rows from a table, but keeps the table structure.",
+    "Option3": "TRUNCATE can be rolled back, DROP cannot.",
+    "Option4": "DROP is only for databases, TRUNCATE for tables.",
+    "Answer": "DROP removes the entire table (structure and data). TRUNCATE removes all rows from a table, but keeps the table structure."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is 'Data Integrity'?",
+    "Option1": "The speed of data retrieval.",
+    "Option2": "The accuracy and consistency of data over its entire life-cycle.",
+    "Option3": "The process of backing up data.",
+    "Option4": "The security of data against unauthorized access.",
+    "Answer": "The accuracy and consistency of data over its entire life-cycle."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is 'Domain Integrity'?",
+    "Option1": "Ensuring uniqueness of primary keys.",
+    "Option2": "Ensuring that all values in a column are within a defined set of values or range.",
+    "Option3": "Ensuring relationships between tables.",
+    "Option4": "Ensuring data is not duplicated.",
+    "Answer": "Ensuring that all values in a column are within a defined set of values or range."
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is 'Entity Integrity'?",
+    "Option1": "Ensuring that all values in a column are unique.",
+    "Option2": "Ensuring that each row in a table has a unique identifier (primary key) and that the primary key does not contain NULL values.",
+    "Option3": "Ensuring relationships between tables.",
+    "Option4": "Ensuring that all data types are correct.",
+    "Answer": "Ensuring that each row in a table has a unique identifier (primary key) and that the primary key does not contain NULL values."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is 'User-Defined Function (UDF)'?",
+    "Option1": "A built-in SQL function.",
+    "Option2": "A function created by a user to perform a specific task, which can then be reused in SQL queries.",
+    "Option3": "A function that generates user accounts.",
+    "Option4": "A function that manages user permissions.",
+    "Answer": "A function created by a user to perform a specific task, which can then be reused in SQL queries."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the difference between a `Stored Procedure` and a `Function` in SQL?",
+    "Option1": "Functions can modify data, procedures cannot.",
+    "Option2": "Procedures can return multiple values, functions return only one. Functions can be used in SQL queries directly, procedures cannot.",
+    "Option3": "Functions are faster than procedures.",
+    "Option4": "Procedures can only be created by DBAs, functions by any user.",
+    "Answer": "Procedures can return multiple values, functions return only one. Functions can be used in SQL queries directly, procedures cannot."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is a 'Common Table Expression (CTE)' (revisited)?",
+    "Option1": "A physical table.",
+    "Option2": "A temporary, named result set that you can reference within a single SQL statement (SELECT, INSERT, UPDATE, DELETE).",
+    "Option3": "A type of index.",
+    "Option4": "A stored procedure.",
+    "Answer": "A temporary, named result set that you can reference within a single SQL statement (SELECT, INSERT, UPDATE, DELETE)."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What are the benefits of using CTEs?",
+    "Option1": "They improve database security.",
+    "Option2": "Improved readability, reusability within a single query, and ability to use recursion.",
+    "Option3": "They speed up data insertion.",
+    "Option4": "They replace the need for subqueries.",
+    "Answer": "Improved readability, reusability within a single query, and ability to use recursion."
+  },
+  {
+    "question_no.": 113,
+    "Question": "What is 'Recursive CTE'?",
+    "Option1": "A CTE that calls a stored procedure.",
+    "Option2": "A CTE that references itself, allowing for hierarchical or graph traversals.",
+    "Option3": "A CTE that creates a loop.",
+    "Option4": "A CTE that processes data in reverse order.",
+    "Answer": "A CTE that references itself, allowing for hierarchical or graph traversals."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is '`RANK()`' window function?",
+    "Option1": "Assigns consecutive ranks without gaps.",
+    "Option2": "Assigns a unique rank to each row within its partition, with gaps if there are ties.",
+    "Option3": "Assigns a rank based on a random order.",
+    "Option4": "Assigns a rank to only distinct values.",
+    "Answer": "Assigns a unique rank to each row within its partition, with gaps if there are ties."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is '`DENSE_RANK()`' window function?",
+    "Option1": "Assigns a unique rank to each row with gaps.",
+    "Option2": "Assigns consecutive ranks within its partition, without gaps, even if there are ties.",
+    "Option3": "Assigns a random rank.",
+    "Option4": "Assigns a rank only to the first row in each group.",
+    "Answer": "Assigns consecutive ranks within its partition, without gaps, even if there are ties."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is '`ROW_NUMBER()`' window function?",
+    "Option1": "Assigns consecutive ranks with gaps.",
+    "Option2": "Assigns a unique, sequential number to each row within its partition, without regard to ties.",
+    "Option3": "Assigns the same number to all rows.",
+    "Option4": "Assigns a number based on column value.",
+    "Answer": "Assigns a unique, sequential number to each row within its partition, without regard to ties."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is 'Database Migration'?",
+    "Option1": "Moving data from one table to another within the same database.",
+    "Option2": "The process of making changes to a database schema or data, typically controlled and versioned.",
+    "Option3": "Moving a database from one server to another.",
+    "Option4": "Converting a database to a different type (e.g., SQL to NoSQL).",
+    "Answer": "The process of making changes to a database schema or data, typically controlled and versioned."
+  },
+  {
+    "question_no.": 118,
+    "Question": "Name a popular tool for database migrations.",
+    "Option1": "SQL Developer",
+    "Option2": "Flyway",
+    "Option3": "DBeaver",
+    "Option4": "SSMS",
+    "Answer": "Flyway"
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is 'Database Sharding'?",
+    "Option1": "Replicating data across multiple servers.",
+    "Option2": "A method of horizontal partitioning data across multiple independent databases or servers to improve scalability and performance.",
+    "Option3": "Creating backups of the database.",
+    "Option4": "Encrypting specific tables in the database.",
+    "Answer": "A method of horizontal partitioning data across multiple independent databases or servers to improve scalability and performance."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is 'Horizontal Partitioning' (Sharding)?",
+    "Option1": "Dividing a table's columns into multiple tables.",
+    "Option2": "Dividing a table's rows into multiple tables (or shards) based on a key.",
+    "Option3": "Creating multiple copies of the entire database.",
+    "Option4": "Combining multiple tables into one large table.",
+    "Answer": "Dividing a table's rows into multiple tables (or shards) based on a key."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is 'Vertical Partitioning'?",
+    "Option1": "Dividing a table's rows into multiple tables.",
+    "Option2": "Dividing a table's columns into multiple tables, typically to improve performance for queries that only need a subset of columns.",
+    "Option3": "Creating multiple copies of the entire database.",
+    "Option4": "Combining multiple tables into one large table.",
+    "Answer": "Dividing a table's columns into multiple tables, typically to improve performance for queries that only need a subset of columns."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is 'Database Replication'?",
+    "Option1": "Storing all data on a single server.",
+    "Option2": "The process of copying and maintaining database objects or data in multiple locations to improve availability and read performance.",
+    "Option3": "Converting data to a different format.",
+    "Option4": "Encrypting data for security.",
+    "Answer": "The process of copying and maintaining database objects or data in multiple locations to improve availability and read performance."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is 'Master-Slave Replication'?",
+    "Option1": "All servers can write and read.",
+    "Option2": "A primary (master) database handles all write operations, and one or more secondary (slave) databases replicate the data for read operations.",
+    "Option3": "No data is ever copied.",
+    "Option4": "Only one server can exist.",
+    "Answer": "A primary (master) database handles all write operations, and one or more secondary (slave) databases replicate the data for read operations."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Data Warehouse'?",
+    "Option1": "A transactional database for daily operations.",
+    "Option2": "A large, centralized repository of data from many different sources, used for reporting and data analysis.",
+    "Option3": "A temporary storage area for data.",
+    "Option4": "A system for real-time data processing.",
+    "Answer": "A large, centralized repository of data from many different sources, used for reporting and data analysis."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is 'ETL' in the context of data warehousing?",
+    "Option1": "Encrypt, Transform, Load",
+    "Option2": "Extract, Transform, Load",
+    "Option3": "Execute, Test, Log",
+    "Option4": "Error, Trace, Log",
+    "Answer": "Extract, Transform, Load"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is 'OLTP'?",
+    "Option1": "Online Analytical Processing",
+    "Option2": "Online Transaction Processing",
+    "Option3": "Offline Transaction Protocol",
+    "Option4": "Object-Oriented Load Processing",
+    "Answer": "Online Transaction Processing"
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is 'OLAP'?",
+    "Option1": "Online Transaction Processing",
+    "Option2": "Online Analytical Processing",
+    "Option3": "Offline Analytical Protocol",
+    "Option4": "Object-Oriented Log Analysis",
+    "Answer": "Online Analytical Processing"
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is the primary difference between OLTP and OLAP systems?",
+    "Option1": "OLTP is for analytical queries, OLAP for daily transactions.",
+    "Option2": "OLTP is optimized for large numbers of short, online transactions; OLAP is optimized for complex queries and data analysis.",
+    "Option3": "OLTP uses NoSQL databases, OLAP uses SQL.",
+    "Option4": "OLTP is used in data warehouses, OLAP in production databases.",
+    "Answer": "OLTP is optimized for large numbers of short, online transactions; OLAP is optimized for complex queries and data analysis."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is a 'Database Cursor' (revisited)?",
+    "Option1": "A tool to create tables.",
+    "Option2": "A control structure that enables traversal over the records in a database. Cursors facilitate subsequent processing in a program, row by row.",
+    "Option3": "A pointer to a database file.",
+    "Option4": "A method for displaying database schema.",
+    "Answer": "A control structure that enables traversal over the records in a database. Cursors facilitate subsequent processing in a program, row by row."
+  },
+  {
+    "question_no.": 130,
+    "Question": "When should you generally avoid using cursors in SQL?",
+    "Option1": "When performing simple SELECT statements.",
+    "Option2": "For large datasets or when set-based operations can achieve the same result, due to performance overhead.",
+    "Option3": "When inserting new data.",
+    "Option4": "When creating indexes.",
+    "Answer": "For large datasets or when set-based operations can achieve the same result, due to performance overhead."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is `SQL IN` operator?",
+    "Option1": "Checks if a value is NOT within a set of values.",
+    "Option2": "Checks if a value matches any value in a list or subquery.",
+    "Option3": "Performs a join operation.",
+    "Option4": "Inserts data into a table.",
+    "Answer": "Checks if a value matches any value in a list or subquery."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is `SQL EXISTS` operator?",
+    "Option1": "Returns true if a subquery returns any rows.",
+    "Option2": "Checks if a column exists in a table.",
+    "Option3": "Checks if a table exists in a database.",
+    "Option4": "Returns the number of existing rows.",
+    "Answer": "Returns true if a subquery returns any rows."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is `SQL ANY` operator?",
+    "Option1": "Returns true if any of the subquery values meet the condition.",
+    "Option2": "Checks if all of the subquery values meet the condition.",
+    "Option3": "Returns true if the subquery returns no rows.",
+    "Option4": "Performs an OR operation.",
+    "Answer": "Returns true if any of the subquery values meet the condition."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What is `SQL ALL` operator?",
+    "Option1": "Returns true if any of the subquery values meet the condition.",
+    "Option2": "Returns true if all of the subquery values meet the condition.",
+    "Option3": "Returns true if the subquery returns at least one row.",
+    "Option4": "Performs an AND operation.",
+    "Answer": "Returns true if all of the subquery values meet the condition."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What is a 'Database Trigger' (revisited)?",
+    "Option1": "A manual action.",
+    "Option2": "A block of SQL code that is automatically executed in response to certain events (INSERT, UPDATE, DELETE) on a table or view.",
+    "Option3": "A function that returns a single value.",
+    "Option4": "A security log.",
+    "Answer": "A block of SQL code that is automatically executed in response to certain events (INSERT, UPDATE, DELETE) on a table or view."
+  },
+  {
+    "question_no.": 136,
+    "Question": "When would you use a `BEFORE INSERT` trigger?",
+    "Option1": "To perform actions after a row is inserted.",
+    "Option2": "To validate data or modify new data before it is inserted into the table.",
+    "Option3": "To delete rows.",
+    "Option4": "To update existing rows.",
+    "Answer": "To validate data or modify new data before it is inserted into the table."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is a 'Materialized View'?",
+    "Option1": "A view that is always up-to-date with real-time data.",
+    "Option2": "A database object that contains the results of a query and is stored as a physical table.",
+    "Option3": "A temporary view that is discarded after use.",
+    "Option4": "A view that is only accessible by administrators.",
+    "Answer": "A database object that contains the results of a query and is stored as a physical table."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is the benefit of a Materialized View over a regular View?",
+    "Option1": "It always shows real-time data.",
+    "Option2": "Faster query performance because the data is pre-computed and stored, but at the cost of potential staleness.",
+    "Option3": "It is easier to create.",
+    "Option4": "It consumes less storage space.",
+    "Answer": "Faster query performance because the data is pre-computed and stored, but at the cost of potential staleness."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Indexing' (revisited)?",
+    "Option1": "A process to reorganize tables physically.",
+    "Option2": "A technique to create a small table containing frequently queried columns to speed up data retrieval.",
+    "Option3": "A method to compress data.",
+    "Option4": "A security mechanism.",
+    "Answer": "A technique to create a small table containing frequently queried columns to speed up data retrieval."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What are the disadvantages of too many indexes?",
+    "Option1": "Improved read performance only.",
+    "Option2": "Increased storage space, slower write operations (INSERT, UPDATE, DELETE) due to index maintenance, and query optimizer overhead.",
+    "Option3": "Decreased database security.",
+    "Option4": "Higher CPU usage for SELECT queries.",
+    "Answer": "Increased storage space, slower write operations (INSERT, UPDATE, DELETE) due to index maintenance, and query optimizer overhead."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is a 'Unique Index'?",
+    "Option1": "An index that allows duplicate values.",
+    "Option2": "An index that ensures that all values in the indexed column(s) are unique, preventing duplicate entries.",
+    "Option3": "An index that is created automatically.",
+    "Option4": "An index that sorts data randomly.",
+    "Answer": "An index that ensures that all values in the indexed column(s) are unique, preventing duplicate entries."
+  },
+  {
+    "question_no.": 142,
+    "Question": "What is 'Covering Index'?",
+    "Option1": "An index that covers only a single column.",
+    "Option2": "An index that includes all the columns needed to satisfy a query, allowing the database to retrieve all required data directly from the index without accessing the table data.",
+    "Option3": "An index that encrypts data.",
+    "Option4": "An index that is hidden from users.",
+    "Answer": "An index that includes all the columns needed to satisfy a query, allowing the database to retrieve all required data directly from the index without accessing the table data."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is 'Database Optimisation'?",
+    "Option1": "The process of reducing database size.",
+    "Option2": "The process of improving the performance of database operations, such as queries, inserts, updates, and deletes.",
+    "Option3": "The process of creating backups.",
+    "Option4": "The process of securing the database.",
+    "Answer": "The process of improving the performance of database operations, such as queries, inserts, updates, and deletes."
+  },
+  {
+    "question_no.": 144,
+    "Question": "Name a technique for database optimization.",
+    "Option1": "Removing all indexes.",
+    "Option2": "Adding appropriate indexes, optimizing queries, normalizing/denormalizing tables, partitioning.",
+    "Option3": "Running all queries at once.",
+    "Option4": "Storing all data in a single table.",
+    "Answer": "Adding appropriate indexes, optimizing queries, normalizing/denormalizing tables, partitioning."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is a 'Temporary Table' in SQL?",
+    "Option1": "A permanent table that is rarely used.",
+    "Option2": "A temporary storage structure that exists only for the duration of a session or a transaction.",
+    "Option3": "A table used for storing historical data.",
+    "Option4": "A table used for backup purposes.",
+    "Answer": "A temporary storage structure that exists only for the duration of a session or a transaction."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the difference between a `Temporary Table` and a `CTE`?",
+    "Option1": "CTEs can be indexed, temporary tables cannot.",
+    "Option2": "Temporary tables are actual physical tables stored in `tempdb` (or equivalent) and can be accessed multiple times within a session; CTEs are logical, non-materialized, and only exist for a single statement.",
+    "Option3": "Temporary tables are faster than CTEs.",
+    "Option4": "CTEs are only for simple queries, temporary tables for complex ones.",
+    "Answer": "Temporary tables are actual physical tables stored in `tempdb` (or equivalent) and can be accessed multiple times within a session; CTEs are logical, non-materialized, and only exist for a single statement."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What is 'SQL `NULLIF` function'?",
+    "Option1": "Returns NULL if two expressions are different.",
+    "Option2": "Compares two expressions and returns NULL if they are equal; otherwise, returns the first expression.",
+    "Option3": "Replaces NULL values.",
+    "Option4": "Checks if a value is NULL.",
+    "Answer": "Compares two expressions and returns NULL if they are equal; otherwise, returns the first expression."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is 'SQL `COALESCE` function' (revisited)?",
+    "Option1": "Returns the last non-NULL expression in a list.",
+    "Option2": "Returns the first non-NULL expression in a list of expressions.",
+    "Option3": "Combines two strings.",
+    "Option4": "Converts data types.",
+    "Answer": "Returns the first non-NULL expression in a list of expressions."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is 'SQL `LAG()` window function'?",
+    "Option1": "Returns the value from the next row in the partition.",
+    "Option2": "Returns the value from a previous row in the same result set, allowing comparisons with prior rows.",
+    "Option3": "Returns the last value in a column.",
+    "Option4": "Calculates the difference between two rows.",
+    "Answer": "Returns the value from a previous row in the same result set, allowing comparisons with prior rows."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is 'SQL `LEAD()` window function'?",
+    "Option1": "Returns the value from a previous row in the partition.",
+    "Option2": "Returns the value from the next row in the same result set, allowing comparisons with subsequent rows.",
+    "Option3": "Returns the first value in a column.",
+    "Option4": "Calculates the sum of rows.",
+    "Answer": "Returns the value from the next row in the same result set, allowing comparisons with subsequent rows."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is 'SQL `NTILE()` window function'?",
+    "Option1": "Divides the rows into a specified number of groups (tiles) and assigns a tile number to each row.",
+    "Option2": "Calculates the median value.",
+    "Option3": "Returns the Nth row in a partition.",
+    "Option4": "Counts the number of distinct values.",
+    "Answer": "Divides the rows into a specified number of groups (tiles) and assigns a tile number to each row."
+  },
+  {
+    "question_no.": 152,
+    "Question": "What is 'SQL `PIVOT` and `UNPIVOT`'?",
+    "Option1": "Used for data encryption.",
+    "Option2": "PIVOT transforms rows into columns (rotation); UNPIVOT transforms columns into rows.",
+    "Option3": "Used for indexing data.",
+    "Option4": "Used for joining tables.",
+    "Answer": "PIVOT transforms rows into columns (rotation); UNPIVOT transforms columns into rows."
+  },
+  {
+    "question_no.": 153,
+    "Question": "When would you use `PIVOT`?",
+    "Option1": "To summarize data by converting unique values from one column into multiple columns.",
+    "Option2": "To normalize data.",
+    "Option3": "To add new rows to a table.",
+    "Option4": "To delete columns.",
+    "Answer": "To summarize data by converting unique values from one column into multiple columns."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is 'SQL `WITH TIES` clause'?",
+    "Option1": "Used with `ORDER BY` to include all rows that have the same value as the last row in the limited result set.",
+    "Option2": "Used to create a tie-breaker for sorting.",
+    "Option3": "Used to group rows with identical values.",
+    "Option4": "Used to combine results from multiple queries.",
+    "Answer": "Used with `ORDER BY` to include all rows that have the same value as the last row in the limited result set."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'SQL `EXCEPT` or `MINUS` operator'?",
+    "Option1": "Combines all rows from two SELECT statements.",
+    "Option2": "Returns all distinct rows from the first SELECT statement that are not in the second SELECT statement.",
+    "Option3": "Returns common rows between two SELECT statements.",
+    "Option4": "Calculates the difference between two numeric values.",
+    "Answer": "Returns all distinct rows from the first SELECT statement that are not in the second SELECT statement."
+  },
+  {
+    "question_no.": 156,
+    "Question": "What is 'SQL `INTERSECT` operator'?",
+    "Option1": "Returns all distinct rows from the first SELECT statement that are not in the second.",
+    "Option2": "Returns only the common distinct rows returned by two or more SELECT statements.",
+    "Option3": "Combines all rows from two SELECT statements.",
+    "Option4": "Performs a mathematical intersection of values.",
+    "Answer": "Returns only the common distinct rows returned by two or more SELECT statements."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What is 'Database Link' in SQL (e.g., Oracle)?",
+    "Option1": "A way to connect two tables in the same database.",
+    "Option2": "A pointer that defines a path from one database to another, allowing users to access objects in the remote database.",
+    "Option3": "A physical network cable.",
+    "Option4": "A security certificate.",
+    "Answer": "A pointer that defines a path from one database to another, allowing users to access objects in the remote database."
+  },
+  {
+    "question_no.": 158,
+    "Question": "What is 'SQL `UPSERT`'?",
+    "Option1": "A command to delete and then insert data.",
+    "Option2": "A term for an operation that inserts a record into a database table if it does not already exist, or updates it if it does.",
+    "Option3": "A command to only update existing records.",
+    "Option4": "A command to only insert new records.",
+    "Answer": "A term for an operation that inserts a record into a database table if it does not already exist, or updates it if it does."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which SQL statement is typically used for UPSERT functionality (database dependent)?",
+    "Option1": "INSERT OR UPDATE",
+    "Option2": "MERGE",
+    "Option3": "ADD OR MODIFY",
+    "Option4": "UPSERT INTO",
+    "Answer": "MERGE"
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is 'SQL `NULLS FIRST` / `NULLS LAST`' in `ORDER BY`?",
+    "Option1": "Ignored by the database.",
+    "Option2": "Specifies whether NULL values should appear before or after non-NULL values in the sorted result set.",
+    "Option3": "Converts NULL values to empty strings.",
+    "Option4": "Removes NULL values from the result.",
+    "Answer": "Specifies whether NULL values should appear before or after non-NULL values in the sorted result set."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is 'SQL `CHECK CONSTRAINT`'?",
+    "Option1": "Ensures column values are unique.",
+    "Option2": "Ensures that all values in a column satisfy a specific condition or rule.",
+    "Option3": "Ensures that columns are not NULL.",
+    "Option4": "Ensures foreign key relationships.",
+    "Answer": "Ensures that all values in a column satisfy a specific condition or rule."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is a 'Cascading Delete' (ON DELETE CASCADE)?",
+    "Option1": "Deletes only the parent record.",
+    "Option2": "When a record in the parent table is deleted, all corresponding records in the child table (referencing the parent) are also automatically deleted.",
+    "Option3": "Prevents deletion of child records.",
+    "Option4": "Only deletes records with NULL foreign keys.",
+    "Answer": "When a record in the parent table is deleted, all corresponding records in the child table (referencing the parent) are also automatically deleted."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is 'SQL Injection' (revisited)?",
+    "Option1": "A database backup technique.",
+    "Option2": "A type of cyberattack where malicious SQL code is inserted into input fields, allowing attackers to manipulate database queries.",
+    "Option3": "A method for optimizing query performance.",
+    "Option4": "A tool for generating SQL scripts.",
+    "Answer": "A type of cyberattack where malicious SQL code is inserted into input fields, allowing attackers to manipulate database queries."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What is 'Prepared Statement' in JDBC/SQL?",
+    "Option1": "A SQL statement that is compiled and executed immediately.",
+    "Option2": "A pre-compiled SQL statement that can be executed multiple times with different parameters, offering security against SQL injection and performance benefits.",
+    "Option3": "A statement used for creating views.",
+    "Option4": "A statement used for database administration.",
+    "Answer": "A pre-compiled SQL statement that can be executed multiple times with different parameters, offering security against SQL injection and performance benefits."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is 'ResultSet' in JDBC?",
+    "Option1": "An object that represents a database connection.",
+    "Option2": "An object that represents the result of a database query, allowing you to iterate over rows and retrieve column values.",
+    "Option3": "An object that represents a SQL statement.",
+    "Option4": "An object that represents database metadata.",
+    "Answer": "An object that represents the result of a database query, allowing you to iterate over rows and retrieve column values."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What is 'SQL `GROUP_CONCAT` (MySQL) or `STRING_AGG` (SQL Server, PostgreSQL)'?",
+    "Option1": "Aggregates values into a sum.",
+    "Option2": "Aggregates string values from multiple rows into a single string, separated by a delimiter.",
+    "Option3": "Concatenates multiple columns in a single row.",
+    "Option4": "Counts the number of distinct strings.",
+    "Answer": "Aggregates string values from multiple rows into a single string, separated by a delimiter."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'SQL `CROSSTAB` (PostgreSQL) or `PIVOT` (SQL Server)'?",
+    "Option1": "Transforms rows into columns.",
+    "Option2": "A function or operator that reshapes a table by turning unique values from one column into new columns, often with an aggregate function.",
+    "Option3": "Filters data based on column values.",
+    "Option4": "Joins multiple tables horizontally.",
+    "Answer": "A function or operator that reshapes a table by turning unique values from one column into new columns, often with an aggregate function."
+  },
+  {
+    "question_no.": 168,
+    "Question": "What is 'SQL `UNNEST` (PostgreSQL) or `OPENJSON` (SQL Server)'?",
+    "Option1": "Used for data compression.",
+    "Option2": "Functions used to convert array or JSON data into a set of rows.",
+    "Option3": "Used to encrypt data.",
+    "Option4": "Used to combine multiple rows into an array.",
+    "Answer": "Functions used to convert array or JSON data into a set of rows."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What is 'SQL `GENERATED ALWAYS AS` (Computed Columns)'?",
+    "Option1": "Columns that store static data.",
+    "Option2": "Columns whose values are automatically calculated from other columns in the same table, either stored or virtual.",
+    "Option3": "Columns that are encrypted.",
+    "Option4": "Columns that are only for display purposes.",
+    "Answer": "Columns whose values are automatically calculated from other columns in the same table, either stored or virtual."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is the benefit of a 'Computed Column'?",
+    "Option1": "Reduces data integrity.",
+    "Option2": "Reduces data redundancy and ensures consistency, as the value is always derived from the source data.",
+    "Option3": "Increases storage space.",
+    "Option4": "Slows down query performance.",
+    "Answer": "Reduces data redundancy and ensures consistency, as the value is always derived from the source data."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is 'SQL `DENSE_RANK()`' (revisited)?",
+    "Option1": "Ranks rows with gaps for ties.",
+    "Option2": "Ranks rows based on the order of values in a specific column, assigning consecutive ranks without gaps.",
+    "Option3": "Assigns a random rank.",
+    "Option4": "Ranks only distinct values.",
+    "Answer": "Ranks rows based on the order of values in a specific column, assigning consecutive ranks without gaps."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is 'SQL `NTH_VALUE()` window function'?",
+    "Option1": "Returns the first value in a partition.",
+    "Option2": "Returns the Nth value in a specified window of rows, useful for retrieving specific values relative to the current row.",
+    "Option3": "Returns the average value.",
+    "Option4": "Returns the number of rows.",
+    "Answer": "Returns the Nth value in a specified window of rows, useful for retrieving specific values relative to the current row."
+  },
+  {
+    "question_no.": 173,
+    "Question": "What is 'SQL `FIRST_VALUE()` window function'?",
+    "Option1": "Returns the last value in a partition.",
+    "Option2": "Returns the first value in a specified window of rows, based on the ordering within that window.",
+    "Option3": "Returns the average value.",
+    "Option4": "Returns the minimum value.",
+    "Answer": "Returns the first value in a specified window of rows, based on the ordering within that window."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is 'SQL `LAST_VALUE()` window function'?",
+    "Option1": "Returns the first value in a partition.",
+    "Option2": "Returns the last value in a specified window of rows, based on the ordering within that window.",
+    "Option3": "Returns the maximum value.",
+    "Option4": "Returns the count of values.",
+    "Answer": "Returns the last value in a specified window of rows, based on the ordering within that window."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is 'SQL `OVER (PARTITION BY ... ORDER BY ...)`' clause?",
+    "Option1": "Only orders data.",
+    "Option2": "Defines the window (set of rows) for a window function. `PARTITION BY` divides rows into groups, `ORDER BY` defines the order within each group.",
+    "Option3": "Filters data based on conditions.",
+    "Option4": "Groups data for aggregation.",
+    "Answer": "Defines the window (set of rows) for a window function. `PARTITION BY` divides rows into groups, `ORDER BY` defines the order within each group."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is 'SQL `DML` (revisited)?",
+    "Option1": "Used for schema definition.",
+    "Option2": "Commands used for managing data within database objects (SELECT, INSERT, UPDATE, DELETE).",
+    "Option3": "Used for user permissions.",
+    "Option4": "Used for database creation.",
+    "Answer": "Commands used for managing data within database objects (SELECT, INSERT, UPDATE, DELETE)."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What is 'SQL `DDL` (revisited)?",
+    "Option1": "Used for data manipulation.",
+    "Option2": "Commands used for defining and modifying the structure of database objects (CREATE, ALTER, DROP, TRUNCATE).",
+    "Option3": "Used for transaction control.",
+    "Option4": "Used for user authentication.",
+    "Answer": "Commands used for defining and modifying the structure of database objects (CREATE, ALTER, DROP, TRUNCATE)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is 'SQL `DCL` (revisited)?",
+    "Option1": "Used for data querying.",
+    "Option2": "Commands used for controlling access to data and the database (GRANT, REVOKE).",
+    "Option3": "Used for database backups.",
+    "Option4": "Used for defining views.",
+    "Answer": "Commands used for controlling access to data and the database (GRANT, REVOKE)."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is 'SQL `TCL` (Transaction Control Language)'?",
+    "Option1": "Used for defining database objects.",
+    "Option2": "Commands used for managing transactions in a database (COMMIT, ROLLBACK, SAVEPOINT).",
+    "Option3": "Used for data manipulation.",
+    "Option4": "Used for data security.",
+    "Answer": "Commands used for managing transactions in a database (COMMIT, ROLLBACK, SAVEPOINT)."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is a 'Savepoint' in a transaction?",
+    "Option1": "A point where the transaction is fully committed.",
+    "Option2": "A point within a transaction to which you can later roll back, without rolling back the entire transaction.",
+    "Option3": "A point where the transaction starts.",
+    "Option4": "A point where the transaction is logged.",
+    "Answer": "A point within a transaction to which you can later roll back, without rolling back the entire transaction."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is 'SQL `CHECKPOINT`' (e.g., SQL Server)?",
+    "Option1": "A point to rollback a transaction.",
+    "Option2": "A process that writes all dirty pages (modified data in memory) from the buffer cache to disk, ensuring data durability.",
+    "Option3": "A point to start a new transaction.",
+    "Option4": "A point to delete all logs.",
+    "Answer": "A process that writes all dirty pages (modified data in memory) from the buffer cache to disk, ensuring data durability."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is 'SQL `TRUNCATE TABLE`' (revisited)?",
+    "Option1": "A DML command.",
+    "Option2": "A DDL command that quickly removes all rows from a table by deallocating the data pages, and logs only the page deallocations.",
+    "Option3": "Can be rolled back easily.",
+    "Option4": "Slow for large tables.",
+    "Answer": "A DDL command that quickly removes all rows from a table by deallocating the data pages, and logs only the page deallocations."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is 'SQL `DISTINCT`' (revisited)?",
+    "Option1": "Counts all rows.",
+    "Option2": "Used in the `SELECT` statement to return only unique (different) values.",
+    "Option3": "Sorts data.",
+    "Option4": "Filters rows based on a condition.",
+    "Answer": "Used in the `SELECT` statement to return only unique (different) values."
+  },
+  {
+    "question_no.": 184,
+    "Question": "Can `DISTINCT` be used with aggregate functions?",
+    "Option1": "No, never.",
+    "Option2": "Yes, for example, `COUNT(DISTINCT column_name)` to count unique values.",
+    "Option3": "Only with `SUM()`.",
+    "Option4": "Only with `AVG()`.",
+    "Answer": "Yes, for example, `COUNT(DISTINCT column_name)` to count unique values."
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is 'SQL `NULL` handling in aggregate functions'?",
+    "Option1": "NULL values are always counted.",
+    "Option2": "Aggregate functions (like `SUM`, `AVG`, `COUNT`) typically ignore NULL values, except for `COUNT(*)` which counts all rows including those with NULLs.",
+    "Option3": "NULL values are converted to zero.",
+    "Option4": "Aggregate functions throw an error if NULLs are present.",
+    "Answer": "Aggregate functions (like `SUM`, `AVG`, `COUNT`) typically ignore NULL values, except for `COUNT(*)` which counts all rows including those with NULLs."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is 'SQL `SET OPERATORS`'?",
+    "Option1": "Used for mathematical calculations.",
+    "Option2": "Operators (UNION, UNION ALL, INTERSECT, EXCEPT/MINUS) that combine the results of two or more `SELECT` statements.",
+    "Option3": "Used for defining data types.",
+    "Option4": "Used for setting column values.",
+    "Answer": "Operators (UNION, UNION ALL, INTERSECT, EXCEPT/MINUS) that combine the results of two or more `SELECT` statements."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What is the requirement for using `SET OPERATORS`?",
+    "Option1": "Tables must have the same name.",
+    "Option2": "The number of columns and their data types in the `SELECT` statements must be the same and in the same order.",
+    "Option3": "All columns must have unique values.",
+    "Option4": "The tables must have a primary key-foreign key relationship.",
+    "Answer": "The number of columns and their data types in the `SELECT` statements must be the same and in the same order."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What is 'SQL `INFORMATION_SCHEMA`'?",
+    "Option1": "A table for storing user data.",
+    "Option2": "A set of views that provide access to database metadata (information about databases, tables, columns, constraints, etc.)",
+    "Option3": "A schema for temporary tables.",
+    "Option4": "A security log.",
+    "Answer": "A set of views that provide access to database metadata (information about databases, tables, columns, constraints, etc.)"
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is 'SQL `TABLE VALUED FUNCTIONS` (TVF)'?",
+    "Option1": "Functions that return a single scalar value.",
+    "Option2": "Functions that return a table, which can then be used in the `FROM` clause of a `SELECT` statement.",
+    "Option3": "Functions that modify table data.",
+    "Option4": "Functions that create new tables.",
+    "Answer": "Functions that return a table, which can then be used in the `FROM` clause of a `SELECT` statement."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is 'SQL `JSON functions`' (e.g., `JSON_VALUE`, `JSON_QUERY`)?",
+    "Option1": "Functions for encrypting JSON data.",
+    "Option2": "Functions that allow you to parse, query, and manipulate JSON data stored within database columns.",
+    "Option3": "Functions for converting JSON to XML.",
+    "Option4": "Functions for validating JSON syntax.",
+    "Answer": "Functions that allow you to parse, query, and manipulate JSON data stored within database columns."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is 'SQL `XML functions`' (e.g., `EXTRACTVALUE`, `XMLQUERY`)?",
+    "Option1": "Functions for generating XML reports.",
+    "Option2": "Functions that allow you to parse, query, and manipulate XML data stored within database columns.",
+    "Option3": "Functions for converting XML to JSON.",
+    "Option4": "Functions for validating XML schema.",
+    "Answer": "Functions that allow you to parse, query, and manipulate XML data stored within database columns."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is 'SQL `CTE` (Common Table Expression)' (revisited)?",
+    "Option1": "A physical table that stores common expressions.",
+    "Option2": "A named temporary result set defined within a single query, which can be referenced multiple times within that query.",
+    "Option3": "A permanent view.",
+    "Option4": "A stored procedure that is always common.",
+    "Answer": "A named temporary result set defined within a single query, which can be referenced multiple times within that query."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is 'SQL `WINDOW FRAMES`' in window functions (`ROWS BETWEEN`, `RANGE BETWEEN`)?",
+    "Option1": "Define the number of rows to return in the result set.",
+    "Option2": "Further refine the set of rows within a partition that are included in the window for calculation, based on physical rows or logical value range.",
+    "Option3": "Are used to sort partitions.",
+    "Option4": "Are used to filter partitions.",
+    "Answer": "Further refine the set of rows within a partition that are included in the window for calculation, based on physical rows or logical value range."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is 'SQL `EXCEPT` or `MINUS` (revisited)?",
+    "Option1": "Returns the intersection of two queries.",
+    "Option2": "Returns rows that are present in the first result set but not in the second.",
+    "Option3": "Returns all rows from both queries, with duplicates.",
+    "Option4": "Returns only duplicates.",
+    "Answer": "Returns rows that are present in the first result set but not in the second."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'SQL `INTERSECT` (revisited)?",
+    "Option1": "Returns rows that are unique to each query.",
+    "Option2": "Returns rows that are common to both result sets.",
+    "Option3": "Combines all rows from both queries.",
+    "Option4": "Returns rows that are in the first but not the second query.",
+    "Answer": "Returns rows that are common to both result sets."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is 'SQL `UNION ALL` (revisited)?",
+    "Option1": "Combines results and removes duplicates.",
+    "Option2": "Combines results from two or more `SELECT` statements, including all duplicate rows.",
+    "Option3": "Only returns unique rows.",
+    "Option4": "Only returns common rows.",
+    "Answer": "Combines results from two or more `SELECT` statements, including all duplicate rows."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is 'SQL `UNION` (revisited)?",
+    "Option1": "Combines results and includes all duplicates.",
+    "Option2": "Combines results from two or more `SELECT` statements and removes duplicate rows.",
+    "Option3": "Only returns common rows.",
+    "Option4": "Only returns unique rows, but only from the first statement.",
+    "Answer": "Combines results from two or more `SELECT` statements and removes duplicate rows."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is 'SQL `INTO OUTFILE` (MySQL) or `COPY TO` (PostgreSQL)'?",
+    "Option1": "Imports data from a file.",
+    "Option2": "Commands used to export the result of a query directly into a file on the server's filesystem.",
+    "Option3": "Creates a new table from a query result.",
+    "Option4": "Copies data between tables.",
+    "Answer": "Commands used to export the result of a query directly into a file on the server's filesystem."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'SQL `LOAD DATA INFILE` (MySQL) or `COPY FROM` (PostgreSQL)'?",
+    "Option1": "Exports data to a file.",
+    "Option2": "Commands used to import data from a file into a database table.",
+    "Option3": "Creates a new table from a file.",
+    "Option4": "Copies data from a table to another table.",
+    "Answer": "Commands used to import data from a file into a database table."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is 'SQL `JSON_AGG` (PostgreSQL) or `FOR JSON AUTO` (SQL Server)'?",
+    "Option1": "Parses JSON data.",
+    "Option2": "Functions that aggregate rows into a single JSON array or object.",
+    "Option3": "Validates JSON syntax.",
+    "Option4": "Encrypts JSON data.",
+    "Answer": "Functions that aggregate rows into a single JSON array or object."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is 'SQL `UUID` / `GUID` functions'?",
+    "Option1": "Functions for generating random numbers.",
+    "Option2": "Functions for generating universally unique identifiers (UUIDs) or globally unique identifiers (GUIDs), often used as primary keys.",
+    "Option3": "Functions for encrypting data.",
+    "Option4": "Functions for converting data types.",
+    "Answer": "Functions for generating universally unique identifiers (UUIDs) or globally unique identifiers (GUIDs), often used as primary keys."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is 'SQL `DATE_TRUNC` (PostgreSQL) or `DATEADD`/`DATEDIFF` (SQL Server)'?",
+    "Option1": "Functions for sorting dates.",
+    "Option2": "Functions for manipulating and formatting date/time values, such as truncating to a specific unit or adding/subtracting intervals.",
+    "Option3": "Functions for comparing dates.",
+    "Option4": "Functions for converting dates to strings.",
+    "Answer": "Functions for manipulating and formatting date/time values, such as truncating to a specific unit or adding/subtracting intervals."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'SQL `ROW_NUMBER()`' (revisited)?",
+    "Option1": "Assigns a rank with gaps.",
+    "Option2": "Assigns a unique, sequential integer to each row within a partition, starting from 1 for the first row in each partition.",
+    "Option3": "Assigns a random number.",
+    "Option4": "Counts the number of rows in a table.",
+    "Answer": "Assigns a unique, sequential integer to each row within a partition, starting from 1 for the first row in each partition."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is 'SQL `PARTITION BY` in window functions'?",
+    "Option1": "Orders the rows within the window.",
+    "Option2": "Divides the result set into partitions to which the window function is applied independently.",
+    "Option3": "Filters the rows based on a condition.",
+    "Option4": "Groups the entire result set.",
+    "Answer": "Divides the result set into partitions to which the window function is applied independently."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is 'SQL `ORDER BY` in window functions'?",
+    "Option1": "Defines the grouping for the window function.",
+    "Option2": "Specifies the logical order of rows within each partition, which affects the results of window functions like `ROW_NUMBER()`, `LAG()`, `LEAD()`.",
+    "Option3": "Filters the rows.",
+    "Option4": "Aggregates the values.",
+    "Answer": "Specifies the logical order of rows within each partition, which affects the results of window functions like `ROW_NUMBER()`, `LAG()`, `LEAD()`."
+  }
+]

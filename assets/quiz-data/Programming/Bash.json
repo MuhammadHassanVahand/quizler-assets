@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What does Bash stand for?",
+    "Option1": "Bourne Again Shell",
+    "Option2": "Basic Shell",
+    "Option3": "Batch Shell",
+    "Option4": "Binary Access Shell",
+    "Answer": "Bourne Again Shell"
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the primary function of Bash?",
+    "Option1": "To manage graphical user interfaces.",
+    "Option2": "To act as a command-line interpreter, allowing users to interact with the operating system.",
+    "Option3": "To develop web applications.",
+    "Option4": "To compile source code.",
+    "Answer": "To act as a command-line interpreter, allowing users to interact with the operating system."
+  },
+  {
+    "question_no.": 3,
+    "Question": "How do you check the current working directory in Bash?",
+    "Option1": "ls",
+    "Option2": "cd",
+    "Option3": "pwd",
+    "Option4": "dir",
+    "Answer": "pwd"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Which command is used to list files and directories?",
+    "Option1": "dir",
+    "Option2": "list",
+    "Option3": "ls",
+    "Option4": "show",
+    "Answer": "ls"
+  },
+  {
+    "question_no.": 5,
+    "Question": "How do you change directory to the parent directory?",
+    "Option1": "cd ..",
+    "Option2": "cd /",
+    "Option3": "cd ~",
+    "Option4": "cd -",
+    "Answer": "cd .."
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you change directory to the user's home directory?",
+    "Option1": "cd /home",
+    "Option2": "cd ~",
+    "Option3": "cd .",
+    "Option4": "cd /root",
+    "Answer": "cd ~"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which command creates a new directory?",
+    "Option1": "make dir",
+    "Option2": "mkdir",
+    "Option3": "create folder",
+    "Option4": "newdir",
+    "Answer": "mkdir"
+  },
+  {
+    "question_no.": 8,
+    "Question": "How do you remove an empty directory?",
+    "Option1": "delete dir",
+    "Option2": "rmdir",
+    "Option3": "remove folder",
+    "Option4": "erase dir",
+    "Answer": "rmdir"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you remove a file?",
+    "Option1": "delete file",
+    "Option2": "rm file.txt",
+    "Option3": "erase file.txt",
+    "Option4": "remove file.txt",
+    "Answer": "rm file.txt"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What option is used with `rm` to remove directories and their contents recursively?",
+    "Option1": "-d",
+    "Option2": "-r",
+    "Option3": "-f",
+    "Option4": "-i",
+    "Answer": "-r"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Which command is used to copy files and directories?",
+    "Option1": "copy",
+    "Option2": "cp",
+    "Option3": "duplicate",
+    "Option4": "move",
+    "Answer": "cp"
+  },
+  {
+    "question_no.": 12,
+    "Question": "How do you move or rename files and directories?",
+    "Option1": "copy and delete",
+    "Option2": "mv",
+    "Option3": "rename",
+    "Option4": "relocate",
+    "Answer": "mv"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which command is used to view the content of a text file page by page?",
+    "Option1": "cat",
+    "Option2": "head",
+    "Option3": "tail",
+    "Option4": "less",
+    "Answer": "less"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Which command concatenates files and prints to standard output?",
+    "Option1": "more",
+    "Option2": "cat",
+    "Option3": "join",
+    "Option4": "echo",
+    "Answer": "cat"
+  },
+  {
+    "question_no.": 15,
+    "Question": "How do you view the beginning of a file?",
+    "Option1": "start",
+    "Option2": "begin",
+    "Option3": "head",
+    "Option4": "top",
+    "Answer": "head"
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you view the end of a file, especially useful for log files?",
+    "Option1": "end",
+    "Option2": "bottom",
+    "Option3": "tail",
+    "Option4": "foot",
+    "Answer": "tail"
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is the purpose of the `grep` command?",
+    "Option1": "To create new files.",
+    "Option2": "To search for patterns in text files.",
+    "Option3": "To change file permissions.",
+    "Option4": "To compress files.",
+    "Answer": "To search for patterns in text files."
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you redirect standard output to a file, overwriting its content?",
+    "Option1": ">",
+    "Option2": ">>",
+    "Option3": "<",
+    "Option4": "|",
+    "Answer": ">"
+  },
+  {
+    "question_no.": 19,
+    "Question": "How do you redirect standard output to a file, appending to its content?",
+    "Option1": ">",
+    "Option2": ">>",
+    "Option3": "<",
+    "Option4": "|",
+    "Answer": ">>"
+  },
+  {
+    "question_no.": 20,
+    "Question": "What does the `|` (pipe) symbol do in Bash?",
+    "Option1": "Redirects output to a file.",
+    "Option2": "Takes the output of one command as the input of another command.",
+    "Option3": "Executes commands in parallel.",
+    "Option4": "Separates multiple commands on one line.",
+    "Answer": "Takes the output of one command as the input of another command."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What command is used to display or set file permissions?",
+    "Option1": "chmod",
+    "Option2": "chown",
+    "Option3": "chgrp",
+    "Option4": "ls -l",
+    "Answer": "chmod"
+  },
+  {
+    "question_no.": 22,
+    "Question": "What does `chmod +x script.sh` do?",
+    "Option1": "Makes the script read-only.",
+    "Option2": "Makes the script executable.",
+    "Option3": "Makes the script hidden.",
+    "Option4": "Changes the script's owner.",
+    "Answer": "Makes the script executable."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What does `chown user:group file.txt` do?",
+    "Option1": "Changes file permissions.",
+    "Option2": "Changes the owner and group of the file.",
+    "Option3": "Changes the file modification time.",
+    "Option4": "Copies the file.",
+    "Answer": "Changes the owner and group of the file."
+  },
+  {
+    "question_no.": 24,
+    "Question": "Which command is used to display disk space usage?",
+    "Option1": "df",
+    "Option2": "du",
+    "Option3": "free",
+    "Option4": "top",
+    "Answer": "df"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Which command is used to display directory space usage?",
+    "Option1": "df",
+    "Option2": "du",
+    "Option3": "mem",
+    "Option4": "space",
+    "Answer": "du"
+  },
+  {
+    "question_no.": 26,
+    "Question": "How do you view running processes?",
+    "Option1": "show process",
+    "Option2": "tasks",
+    "Option3": "ps",
+    "Option4": "active",
+    "Answer": "ps"
+  },
+  {
+    "question_no.": 27,
+    "Question": "How do you terminate a process by its Process ID (PID)?",
+    "Option1": "stop PID",
+    "Option2": "kill PID",
+    "Option3": "terminate PID",
+    "Option4": "end PID",
+    "Answer": "kill PID"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which command provides a dynamic real-time view of running processes?",
+    "Option1": "ps -aux",
+    "Option2": "top",
+    "Option3": "htop",
+    "Option4": "process_monitor",
+    "Answer": "top"
+  },
+  {
+    "question_no.": 29,
+    "Question": "How do you create an alias in Bash?",
+    "Option1": "alias='command'",
+    "Option2": "create_alias",
+    "Option3": "alias name='command'",
+    "Option4": "set alias='command'",
+    "Answer": "alias name='command'"
+  },
+  {
+    "question_no.": 30,
+    "Question": "Where are persistent Bash aliases typically stored?",
+    "Option1": "~/.bashrc",
+    "Option2": "/etc/profile",
+    "Option3": "~/.profile",
+    "Option4": "/tmp/aliases",
+    "Answer": "~/.bashrc"
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is a 'shebang' line in a Bash script?",
+    "Option1": "A comment line.",
+    "Option2": "The first line `#!/bin/bash` that specifies the interpreter for the script.",
+    "Option3": "A variable declaration.",
+    "Option4": "A function definition.",
+    "Answer": "The first line `#!/bin/bash` that specifies the interpreter for the script."
+  },
+  {
+    "question_no.": 32,
+    "Question": "How do you make a variable in Bash?",
+    "Option1": "set VAR=value",
+    "Option2": "VAR = value",
+    "Option3": "VAR=value",
+    "Option4": "$VAR=value",
+    "Answer": "VAR=value"
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you access the value of a variable in Bash?",
+    "Option1": "VAR",
+    "Option2": "%VAR%",
+    "Option3": "$VAR",
+    "Option4": "@VAR",
+    "Answer": "$VAR"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the purpose of the `echo` command?",
+    "Option1": "To read user input.",
+    "Option2": "To display text or variable values on the standard output.",
+    "Option3": "To create a new file.",
+    "Option4": "To execute a command.",
+    "Answer": "To display text or variable values on the standard output."
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you read user input into a variable?",
+    "Option1": "get VAR",
+    "Option2": "input VAR",
+    "Option3": "read VAR",
+    "Option4": "enter VAR",
+    "Answer": "read VAR"
+  },
+  {
+    "question_no.": 36,
+    "Question": "What does `$?` represent in Bash?",
+    "Option1": "The last command executed.",
+    "Option2": "The exit status of the most recently executed foreground pipeline.",
+    "Option3": "The current process ID.",
+    "Option4": "The number of arguments passed to a script.",
+    "Answer": "The exit status of the most recently executed foreground pipeline."
+  },
+  {
+    "question_no.": 37,
+    "Question": "What does `$0` represent in a Bash script?",
+    "Option1": "The first argument passed to the script.",
+    "Option2": "The name of the script itself.",
+    "Option3": "The last argument passed to the script.",
+    "Option4": "The total number of arguments.",
+    "Answer": "The name of the script itself."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What does `$#` represent in a Bash script?",
+    "Option1": "All arguments as a single string.",
+    "Option2": "The total number of arguments passed to the script.",
+    "Option3": "The last argument.",
+    "Option4": "The script's PID.",
+    "Answer": "The total number of arguments passed to the script."
+  },
+  {
+    "question_no.": 39,
+    "Question": "What does `$*` represent in a Bash script?",
+    "Option1": "All arguments, treated as a single word.",
+    "Option2": "All arguments, treated as separate words.",
+    "Option3": "The first argument.",
+    "Option4": "The script name and all arguments.",
+    "Answer": "All arguments, treated as a single word."
+  },
+  {
+    "question_no.": 40,
+    "Question": "What does `$@` represent in a Bash script?",
+    "Option1": "All arguments, treated as a single word.",
+    "Option2": "All arguments, treated as separate words (best for iterating).",
+    "Option3": "The first argument.",
+    "Option4": "The script name and all arguments.",
+    "Answer": "All arguments, treated as separate words (best for iterating)."
+  },
+  {
+    "question_no.": 41,
+    "Question": "How do you execute a command in the background?",
+    "Option1": "command &",
+    "Option2": "command -bg",
+    "Option3": "background command",
+    "Option4": "command &!",
+    "Answer": "command &"
+  },
+  {
+    "question_no.": 42,
+    "Question": "Which command brings a background process to the foreground?",
+    "Option1": "fg",
+    "Option2": "bg",
+    "Option3": "front",
+    "Option4": "resume",
+    "Answer": "fg"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which command sends a foreground process to the background (after stopping it with Ctrl+Z)?",
+    "Option1": "fg",
+    "Option2": "bg",
+    "Option3": "send_to_background",
+    "Option4": "continue",
+    "Answer": "bg"
+  },
+  {
+    "question_no.": 44,
+    "Question": "How do you list background and foreground jobs?",
+    "Option1": "ps -j",
+    "Option2": "jobs",
+    "Option3": "tasks",
+    "Option4": "processes",
+    "Answer": "jobs"
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is the purpose of the `if` statement in Bash scripting?",
+    "Option1": "To define a loop.",
+    "Option2": "To execute a block of code conditionally.",
+    "Option3": "To declare a variable.",
+    "Option4": "To create a function.",
+    "Answer": "To execute a block of code conditionally."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is the syntax for a basic `if` statement?",
+    "Option1": "if condition; then command; end if",
+    "Option2": "if [ condition ]; then command; fi",
+    "Option3": "if (condition) { command }",
+    "Option4": "if condition { command }",
+    "Answer": "if [ condition ]; then command; fi"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which test operator checks if two integers are equal?",
+    "Option1": "=",
+    "Option2": "==",
+    "Option3": "-eq",
+    "Option4": "equal",
+    "Answer": "-eq"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which test operator checks if two strings are equal?",
+    "Option1": "-eq",
+    "Option2": "==",
+    "Option3": "=",
+    "Option4": "-str",
+    "Answer": "="
+  },
+  {
+    "question_no.": 49,
+    "Question": "Which test operator checks if a string is empty?",
+    "Option1": "-e",
+    "Option2": "-z",
+    "Option3": "-n",
+    "Option4": "-empty",
+    "Answer": "-z"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Which test operator checks if a file exists?",
+    "Option1": "-f",
+    "Option2": "-e",
+    "Option3": "-d",
+    "Option4": "-x",
+    "Answer": "-f"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which test operator checks if a path is a directory?",
+    "Option1": "-f",
+    "Option2": "-e",
+    "Option3": "-d",
+    "Option4": "-x",
+    "Answer": "-d"
+  },
+  {
+    "question_no.": 52,
+    "Question": "What is the purpose of the `for` loop in Bash?",
+    "Option1": "To define a function.",
+    "Option2": "To iterate over a list of items or a range of numbers.",
+    "Option3": "To handle conditional execution.",
+    "Option4": "To read user input.",
+    "Answer": "To iterate over a list of items or a range of numbers."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of the `while` loop in Bash?",
+    "Option1": "To iterate a fixed number of times.",
+    "Option2": "To execute a block of code repeatedly as long as a condition is true.",
+    "Option3": "To define a case statement.",
+    "Option4": "To perform arithmetic operations.",
+    "Answer": "To execute a block of code repeatedly as long as a condition is true."
+  },
+  {
+    "question_no.": 54,
+    "Question": "How do you comment a single line in a Bash script?",
+    "Option1": "// Comment",
+    "Option2": "# Comment",
+    "Option3": "/* Comment */",
+    "Option4": "-- Comment",
+    "Answer": "# Comment"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is a 'here document' (heredoc) in Bash?",
+    "Option1": "A document stored in the current directory.",
+    "Option2": "A way to pass multiple lines of input to a command.",
+    "Option3": "A special type of file.",
+    "Option4": "A method for defining functions.",
+    "Answer": "A way to pass multiple lines of input to a command."
+  },
+  {
+    "question_no.": 56,
+    "Question": "How do you define a function in Bash?",
+    "Option1": "function_name() { commands }",
+    "Option2": "define function_name { commands }",
+    "Option3": "function function_name: commands",
+    "Option4": "func function_name { commands }",
+    "Answer": "function_name() { commands }"
+  },
+  {
+    "question_no.": 57,
+    "Question": "How do you pass arguments to a Bash function?",
+    "Option1": "function_name(arg1, arg2)",
+    "Option2": "Arguments are automatically available as $1, $2, etc., within the function.",
+    "Option3": "Using global variables.",
+    "Option4": "Functions don't accept arguments.",
+    "Answer": "Arguments are automatically available as $1, $2, etc., within the function."
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you return a value from a Bash function?",
+    "Option1": "return value",
+    "Option2": "echo value",
+    "Option3": "Functions cannot return values directly, only exit statuses.",
+    "Option4": "exit value",
+    "Answer": "Functions cannot return values directly, only exit statuses."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What does `exit N` do in a Bash script?",
+    "Option1": "Returns from a function.",
+    "Option2": "Exits the script with an exit status of N.",
+    "Option3": "Exits the current loop.",
+    "Option4": "Terminates a background process.",
+    "Answer": "Exits the script with an exit status of N."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the common convention for a successful exit status?",
+    "Option1": "1",
+    "Option2": "0",
+    "Option3": "-1",
+    "Option4": "Any positive integer.",
+    "Answer": "0"
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is the purpose of the `case` statement?",
+    "Option1": "To define a loop.",
+    "Option2": "To execute different blocks of code based on the value of a variable or expression.",
+    "Option3": "To declare multiple variables.",
+    "Option4": "To create an array.",
+    "Answer": "To execute different blocks of code based on the value of a variable or expression."
+  },
+  {
+    "question_no.": 62,
+    "Question": "Which command is used to find files and directories?",
+    "Option1": "locate",
+    "Option2": "search",
+    "Option3": "find",
+    "Option4": "whereis",
+    "Answer": "find"
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is the difference between `find` and `locate`?",
+    "Option1": "`find` is faster for large systems.",
+    "Option2": "`find` searches the filesystem in real-time; `locate` searches a pre-built database.",
+    "Option3": "`locate` is more flexible with search criteria.",
+    "Option4": "They are identical in function.",
+    "Answer": "`find` searches the filesystem in real-time; `locate` searches a pre-built database."
+  },
+  {
+    "question_no.": 64,
+    "Question": "Which command is used to display the manual pages for a command?",
+    "Option1": "help",
+    "Option2": "info",
+    "Option3": "man",
+    "Option4": "doc",
+    "Answer": "man"
+  },
+  {
+    "question_no.": 65,
+    "Question": "What does `Ctrl+C` do in the Bash terminal?",
+    "Option1": "Copies selected text.",
+    "Option2": "Sends a SIGINT signal to the foreground process, typically terminating it.",
+    "Option3": "Pastes text.",
+    "Option4": "Suspends the process.",
+    "Answer": "Sends a SIGINT signal to the foreground process, typically terminating it."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What does `Ctrl+Z` do in the Bash terminal?",
+    "Option1": "Undoes the last command.",
+    "Option2": "Sends a SIGTSTP signal to the foreground process, suspending it.",
+    "Option3": "Terminates the process.",
+    "Option4": "Clears the screen.",
+    "Answer": "Sends a SIGTSTP signal to the foreground process, suspending it."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is Bash 'globbing'?",
+    "Option1": "A method for parsing JSON.",
+    "Option2": "The process by which Bash expands wildcard characters (e.g., *, ?, []) into matching filenames.",
+    "Option3": "A type of arithmetic operation.",
+    "Option4": "A security feature.",
+    "Answer": "The process by which Bash expands wildcard characters (e.g., *, ?, []) into matching filenames."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What does `*` represent in globbing?",
+    "Option1": "Matches a single character.",
+    "Option2": "Matches any sequence of zero or more characters.",
+    "Option3": "Matches a single digit.",
+    "Option4": "Matches only non-alphanumeric characters.",
+    "Answer": "Matches any sequence of zero or more characters."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What does `?` represent in globbing?",
+    "Option1": "Matches any sequence of zero or more characters.",
+    "Option2": "Matches any single character.",
+    "Option3": "Matches a single digit.",
+    "Option4": "Used for optional characters.",
+    "Answer": "Matches any single character."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What does `[]` represent in globbing?",
+    "Option1": "Matches a fixed string.",
+    "Option2": "Matches any one of the characters enclosed within the brackets.",
+    "Option3": "Matches a range of numbers.",
+    "Option4": "Used for literal characters.",
+    "Answer": "Matches any one of the characters enclosed within the brackets."
+  },
+  {
+    "question_no.": 71,
+    "Question": "How do you escape a special character in Bash?",
+    "Option1": "Using double quotes.",
+    "Option2": "Using a backslash (`\\`) before the character.",
+    "Option3": "Using single quotes.",
+    "Option4": "Using curly braces.",
+    "Answer": "Using a backslash (`\\`) before the character."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the difference between single quotes (`'`) and double quotes (`\"`) in Bash?",
+    "Option1": "Single quotes allow variable expansion; double quotes do not.",
+    "Option2": "Single quotes prevent all expansion; double quotes allow variable and command substitution.",
+    "Option3": "Single quotes are for numbers; double quotes are for strings.",
+    "Option4": "There is no difference.",
+    "Answer": "Single quotes prevent all expansion; double quotes allow variable and command substitution."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'command substitution'?",
+    "Option1": "Replacing a command with an alias.",
+    "Option2": "Executing a command and replacing its output into another command line.",
+    "Option3": "Substituting variables.",
+    "Option4": "Substituting file paths.",
+    "Answer": "Executing a command and replacing its output into another command line."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What are the two common syntaxes for command substitution?",
+    "Option1": "$(command)` and `$(command)`",
+    "Option2": "`command` and $(command)",
+    "Option3": "[command] and ((command))",
+    "Option4": "{command} and [[command]]",
+    "Answer": "`command` and $(command)"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Which command is used to display the current date and time?",
+    "Option1": "time",
+    "Option2": "now",
+    "Option3": "date",
+    "Option4": "current_time",
+    "Answer": "date"
+  },
+  {
+    "question_no.": 76,
+    "Question": "How do you get the absolute path of a command?",
+    "Option1": "which command",
+    "Option2": "whereis command",
+    "Option3": "find command",
+    "Option4": "locate command",
+    "Answer": "which command"
+  },
+  {
+    "question_no.": 77,
+    "Question": "What does `history` command do?",
+    "Option1": "Shows past terminal sessions.",
+    "Option2": "Displays a list of previously executed commands.",
+    "Option3": "Displays file modification history.",
+    "Option4": "Shows the system's uptime.",
+    "Answer": "Displays a list of previously executed commands."
+  },
+  {
+    "question_no.": 78,
+    "Question": "How do you search through the command history?",
+    "Option1": "Ctrl+F",
+    "Option2": "Ctrl+R (reverse-i-search)",
+    "Option3": "history | grep",
+    "Option4": "search history",
+    "Answer": "Ctrl+R (reverse-i-search)"
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is the purpose of the `source` command (or `.` (dot) command)?",
+    "Option1": "To create a new script.",
+    "Option2": "To execute a script in the current shell environment, instead of launching a new subshell.",
+    "Option3": "To compile a script.",
+    "Option4": "To display the source code of a command.",
+    "Answer": "To execute a script in the current shell environment, instead of launching a new subshell."
+  },
+  {
+    "question_no.": 80,
+    "Question": "Why would you `source` a script instead of executing it directly (`./script.sh`)?",
+    "Option1": "To make it run faster.",
+    "Option2": "To allow the script to modify the current shell's environment (e.g., set variables, define aliases).",
+    "Option3": "To prevent it from creating child processes.",
+    "4": "To debug it easily.",
+    "Answer": "To allow the script to modify the current shell's environment (e.g., set variables, define aliases)."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What does `export VAR=value` do?",
+    "Option1": "Sets a local variable.",
+    "Option2": "Sets an environment variable, making it available to child processes.",
+    "Option3": "Exports data to a file.",
+    "4": "Declares a function.",
+    "Answer": "Sets an environment variable, making it available to child processes."
+  },
+  {
+    "question_no.": 82,
+    "Question": "How do you list all environment variables?",
+    "Option1": "show_env",
+    "Option2": "vars",
+    "Option3": "printenv or env",
+    "4": "list_variables",
+    "Answer": "printenv or env"
+  },
+  {
+    "question_no.": 83,
+    "Question": "What is the `PATH` environment variable used for?",
+    "Option1": "To store the current directory.",
+    "Option2": "To specify directories where the shell should look for executable commands.",
+    "Option3": "To define the user's home directory.",
+    "4": "To store temporary file paths.",
+    "Answer": "To specify directories where the shell should look for executable commands."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is the purpose of `CRON` in Linux/Bash?",
+    "Option1": "To manage user accounts.",
+    "Option2": "To schedule commands or scripts to run automatically at specified intervals.",
+    "Option3": "To manage network connections.",
+    "4": "To backup files immediately.",
+    "Answer": "To schedule commands or scripts to run automatically at specified intervals."
+  },
+  {
+    "question_no.": 85,
+    "Question": "Which command is used to edit a user's crontab entries?",
+    "Option1": "edit cron",
+    "Option2": "crontab -e",
+    "Option3": "schedule -edit",
+    "4": "cron_editor",
+    "Answer": "crontab -e"
+  },
+  {
+    "question_no.": 86,
+    "Question": "What does `tar` command do?",
+    "Option1": "Encrypts files.",
+    "Option2": "Creates and extracts archive files (often used with compression).",
+    "Option3": "Manages network connections.",
+    "4": "Changes file ownership.",
+    "Answer": "Creates and extracts archive files (often used with compression)."
+  },
+  {
+    "question_no.": 87,
+    "Question": "How do you create a compressed tar archive (tar.gz)?",
+    "Option1": "tar -czf archive.tar.gz /path/to/files",
+    "Option2": "zip archive.tar.gz /path/to/files",
+    "Option3": "compress archive.tar.gz /path/to/files",
+    "4": "gzip archive.tar.gz /path/to/files",
+    "Answer": "tar -czf archive.tar.gz /path/to/files"
+  },
+  {
+    "question_no.": 88,
+    "Question": "How do you extract a compressed tar archive (tar.gz)?",
+    "Option1": "tar -xzf archive.tar.gz",
+    "Option2": "unzip archive.tar.gz",
+    "Option3": "extract archive.tar.gz",
+    "4": "gunzip archive.tar.gz",
+    "Answer": "tar -xzf archive.tar.gz"
+  },
+  {
+    "question_no.": 89,
+    "Question": "Which command is used to compress files?",
+    "Option1": "zip",
+    "Option2": "gzip",
+    "Option3": "compress",
+    "4": "pack",
+    "Answer": "gzip"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Which command is used to decompress files compressed with `gzip`?",
+    "Option1": "unzip",
+    "Option2": "gunzip",
+    "Option3": "decompress",
+    "4": "unpack",
+    "Answer": "gunzip"
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the purpose of the `sed` command?",
+    "Option1": "To sort text.",
+    "Option2": "To search for patterns in text.",
+    "Option3": "To filter and transform text streams (Stream Editor).",
+    "4": "To split large files.",
+    "Answer": "To filter and transform text streams (Stream Editor)."
+  },
+  {
+    "question_no.": 92,
+    "Question": "How do you replace all occurrences of 'old' with 'new' in a file using `sed`?",
+    "Option1": "sed 's/old/new/' file.txt",
+    "Option2": "sed 's/old/new/g' file.txt",
+    "Option3": "sed 'replace old new' file.txt",
+    "4": "sed 'find old replace new' file.txt",
+    "Answer": "sed 's/old/new/g' file.txt"
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the purpose of the `awk` command?",
+    "Option1": "To sort data.",
+    "Option2": "A powerful text processing tool, especially useful for parsing and manipulating structured data (e.g., columns in a file).",
+    "Option3": "To find files.",
+    "4": "To manage user permissions.",
+    "Answer": "A powerful text processing tool, especially useful for parsing and manipulating structured data (e.g., columns in a file)."
+  },
+  {
+    "question_no.": 94,
+    "Question": "How do you print the first column of a file using `awk`?",
+    "Option1": "awk '{print $0}' file.txt",
+    "Option2": "awk '{print $1}' file.txt",
+    "Option3": "awk '{print column1}' file.txt",
+    "4": "awk -F ' ' '{print $1}' file.txt",
+    "Answer": "awk '{print $1}' file.txt"
+  },
+  {
+    "question_no.": 95,
+    "Question": "Which command is used to sort lines of text files?",
+    "Option1": "arrange",
+    "Option2": "order",
+    "Option3": "sort",
+    "4": "rank",
+    "Answer": "sort"
+  },
+  {
+    "question_no.": 96,
+    "Question": "How do you sort a file in reverse order?",
+    "Option1": "sort -r file.txt",
+    "Option2": "sort -d file.txt",
+    "Option3": "sort -reverse file.txt",
+    "4": "sort -z file.txt",
+    "Answer": "sort -r file.txt"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Which command is used to count lines, words, and characters in a file?",
+    "Option1": "count",
+    "Option2": "wc",
+    "Option3": "stats",
+    "4": "measure",
+    "Answer": "wc"
+  },
+  {
+    "question_no.": 98,
+    "Question": "What does `wc -l file.txt` do?",
+    "Option1": "Counts characters.",
+    "Option2": "Counts words.",
+    "Option3": "Counts lines.",
+    "4": "Counts bytes.",
+    "Answer": "Counts lines."
+  },
+  {
+    "question_no.": 99,
+    "Question": "What is the purpose of the `cut` command?",
+    "Option1": "To paste text.",
+    "Option2": "To remove parts of lines from files (e.g., specific columns/fields).",
+    "Option3": "To split files into smaller ones.",
+    "4": "To join lines.",
+    "Answer": "To remove parts of lines from files (e.g., specific columns/fields)."
+  },
+  {
+    "question_no.": 100,
+    "Question": "How do you extract the first field (column) from a CSV file (comma-separated) using `cut`?",
+    "Option1": "cut -f 1 file.csv",
+    "Option2": "cut -d ',' -f 1 file.csv",
+    "Option3": "cut -c 1 file.csv",
+    "4": "cut -separator ',' -field 1 file.csv",
+    "Answer": "cut -d ',' -f 1 file.csv"
+  },
+  {
+    "question_no.": 101,
+    "Question": "What does `uniq` command do?",
+    "Option1": "Sorts unique lines.",
+    "Option2": "Reports or filters out repeated adjacent lines in a file.",
+    "Option3": "Removes all duplicate lines.",
+    "4": "Counts unique words.",
+    "Answer": "Reports or filters out repeated adjacent lines in a file."
+  },
+  {
+    "question_no.": 102,
+    "Question": "To remove all duplicate lines (not just adjacent ones), what common pipeline is used?",
+    "Option1": "cat file | uniq",
+    "Option2": "sort file | uniq",
+    "Option3": "uniq file | sort",
+    "4": "grep -v duplicate file",
+    "Answer": "sort file | uniq"
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the purpose of the `tr` command?",
+    "Option1": "To translate text into different languages.",
+    "Option2": "To translate or delete characters from standard input.",
+    "Option3": "To truncate files.",
+    "4": "To trim whitespace.",
+    "Answer": "To translate or delete characters from standard input."
+  },
+  {
+    "question_no.": 104,
+    "Question": "How do you convert all lowercase letters to uppercase in a file using `tr`?",
+    "Option1": "cat file.txt | tr 'a-z' 'A-Z'",
+    "Option2": "cat file.txt | tr 'lower' 'upper'",
+    "Option3": "tr -s 'lower' 'upper' file.txt",
+    "4": "tr --to-upper file.txt",
+    "Answer": "cat file.txt | tr 'a-z' 'A-Z'"
+  },
+  {
+    "question_no.": 105,
+    "Question": "What is the purpose of the `find` command's `-exec` option?",
+    "Option1": "To execute `find` in the background.",
+    "Option2": "To execute a command on each file found by `find`.",
+    "Option3": "To find executable files.",
+    "4": "To execute `find` recursively.",
+    "Answer": "To execute a command on each file found by `find`."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What does `find . -name '*.txt' -delete` do?",
+    "Option1": "Deletes all files in the current directory.",
+    "Option2": "Finds and deletes all files ending with '.txt' in the current directory and its subdirectories.",
+    "Option3": "Deletes all directories ending with '.txt'.",
+    "4": "Lists files to be deleted.",
+    "Answer": "Finds and deletes all files ending with '.txt' in the current directory and its subdirectories."
+  },
+  {
+    "question_no.": 107,
+    "Question": "Which command is used to create hard and symbolic links?",
+    "Option1": "link",
+    "Option2": "ln",
+    "Option3": "symlink",
+    "4": "hardlink",
+    "Answer": "ln"
+  },
+  {
+    "question_no.": 108,
+    "Question": "What is the difference between a hard link and a symbolic (soft) link?",
+    "Option1": "Hard links are for files; soft links are for directories.",
+    "Option2": "A hard link points to the same inode as the original file; a symbolic link is a separate file that contains the path to another file or directory.",
+    "Option3": "Hard links work across file systems; soft links do not.",
+    "4": "Symbolic links are faster to access.",
+    "Answer": "A hard link points to the same inode as the original file; a symbolic link is a separate file that contains the path to another file or directory."
+  },
+  {
+    "question_no.": 109,
+    "Question": "How do you create a symbolic link?",
+    "Option1": "ln original_file link_name",
+    "Option2": "ln -h original_file link_name",
+    "Option3": "ln -s original_file link_name",
+    "4": "ln -L original_file link_name",
+    "Answer": "ln -s original_file link_name"
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the `df -h` command used for?",
+    "Option1": "Displays disk usage in bytes.",
+    "Option2": "Displays disk space usage in human-readable format (e.g., KB, MB, GB).",
+    "Option3": "Displays file permissions.",
+    "4": "Displays directory sizes.",
+    "Answer": "Displays disk space usage in human-readable format (e.g., KB, MB, GB)."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is the `du -sh` command used for?",
+    "Option1": "Displays total disk usage.",
+    "Option2": "Displays the total disk space usage of a directory in human-readable format.",
+    "Option3": "Displays memory usage.",
+    "4": "Displays file counts.",
+    "Answer": "Displays the total disk space usage of a directory in human-readable format."
+  },
+  {
+    "question_no.": 112,
+    "Question": "Which command is used to get information about system memory and swap space?",
+    "Option1": "df -m",
+    "Option2": "free",
+    "Option3": "top -m",
+    "4": "memory_info",
+    "Answer": "free"
+  },
+  {
+    "question_no.": 113,
+    "Question": "What does `uptime` command show?",
+    "Option1": "Current date and time.",
+    "Option2": "How long the system has been running, number of users, and load averages.",
+    "Option3": "CPU temperature.",
+    "4": "Network connection status.",
+    "Answer": "How long the system has been running, number of users, and load averages."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What does `uname -a` command show?",
+    "Option1": "User account information.",
+    "Option2": "All system information (kernel name, hostname, kernel version, machine hardware name, operating system).",
+    "Option3": "Network adapter details.",
+    "4": "Installed applications.",
+    "Answer": "All system information (kernel name, hostname, kernel version, machine hardware name, operating system)."
+  },
+  {
+    "question_no.": 115,
+    "Question": "What is the purpose of the `ssh` command?",
+    "Option1": "To transfer files locally.",
+    "Option2": "To securely connect to a remote server over a network.",
+    "Option3": "To list network connections.",
+    "4": "To browse websites.",
+    "Answer": "To securely connect to a remote server over a network."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is the purpose of the `scp` command?",
+    "Option1": "To copy files locally.",
+    "Option2": "To securely copy files between hosts on a network.",
+    "Option3": "To create secure shell keys.",
+    "4": "To transfer files over FTP.",
+    "Answer": "To securely copy files between hosts on a network."
+  },
+  {
+    "question_no.": 117,
+    "Question": "What is the purpose of the `wget` command?",
+    "Option1": "To upload files to a server.",
+    "Option2": "To retrieve files from web servers (HTTP, HTTPS, FTP).",
+    "Option3": "To create web pages.",
+    "4": "To test website performance.",
+    "Answer": "To retrieve files from web servers (HTTP, HTTPS, FTP)."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the purpose of the `curl` command?",
+    "Option1": "To manage databases.",
+    "Option2": "A versatile command-line tool for transferring data with URLs, supporting many protocols (HTTP, FTP, etc.).",
+    "Option3": "To compress files.",
+    "4": "To install software packages.",
+    "Answer": "A versatile command-line tool for transferring data with URLs, supporting many protocols (HTTP, FTP, etc.)."
+  },
+  {
+    "question_no.": 119,
+    "Question": "Which command is used to test network connectivity to a host?",
+    "Option1": "ifconfig",
+    "Option2": "netstat",
+    "Option3": "ping",
+    "4": "tracepath",
+    "Answer": "ping"
+  },
+  {
+    "question_no.": 120,
+    "Question": "Which command shows the network configuration of interfaces?",
+    "Option1": "ip addr (modern)",
+    "Option2": "netconfig",
+    "Option3": "network_status",
+    "4": "route",
+    "Answer": "ip addr (modern)"
+  },
+  {
+    "question_no.": 121,
+    "Question": "What does `netstat -tulnp` show?",
+    "Option1": "Network connections statistics.",
+    "Option2": "Listening ports and their associated processes (TCP, UDP, numeric, program name).",
+    "Option3": "Routing table information.",
+    "4": "DNS server configuration.",
+    "Answer": "Listening ports and their associated processes (TCP, UDP, numeric, program name)."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is the purpose of the `awk` command's `BEGIN` block?",
+    "Option1": "Executes after processing all input.",
+    "Option2": "Executes before processing any input, typically for initialization.",
+    "Option3": "Executes for each line of input.",
+    "4": "Executes only if an error occurs.",
+    "Answer": "Executes before processing any input, typically for initialization."
+  },
+  {
+    "question_no.": 123,
+    "Question": "What is the purpose of the `awk` command's `END` block?",
+    "Option1": "Executes before processing any input.",
+    "Option2": "Executes after processing all input, typically for summarization or final output.",
+    "Option3": "Executes for each line of input.",
+    "4": "Executes only if the input is empty.",
+    "Answer": "Executes after processing all input, typically for summarization or final output."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is 'Bash arithmetic expansion'?",
+    "Option1": "Expanding variables into arithmetic operations.",
+    "Option2": "Performing arithmetic operations and substituting the result back into the command line.",
+    "Option3": "Expanding wildcard characters for numeric files.",
+    "4": "Converting numbers to strings.",
+    "Answer": "Performing arithmetic operations and substituting the result back into the command line."
+  },
+  {
+    "question_no.": 125,
+    "Question": "What is the syntax for Bash arithmetic expansion?",
+    "Option1": "$((expression))",
+    "Option2": "$[expression]",
+    "Option3": "$(expression)",
+    "4": "${expression}",
+    "Answer": "$((expression))"
+  },
+  {
+    "question_no.": 126,
+    "Question": "What does `((a++))` do in Bash?",
+    "Option1": "Decrements variable `a`.",
+    "Option2": "Increments variable `a`.",
+    "Option3": "Checks if `a` is positive.",
+    "4": "Compares `a` with another variable.",
+    "Answer": "Increments variable `a`."
+  },
+  {
+    "question_no.": 127,
+    "Question": "What is Bash 'parameter expansion'?",
+    "Option1": "Expanding parameters of a function.",
+    "Option2": "A feature allowing for various manipulations of variables (e.g., substring extraction, default values, length).",
+    "Option3": "Expanding environment variables.",
+    "4": "Expanding command-line arguments.",
+    "Answer": "A feature allowing for various manipulations of variables (e.g., substring extraction, default values, length)."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What does `${VAR:-default}` do?",
+    "Option1": "Sets `VAR` to `default` if `VAR` is unset or null.",
+    "Option2": "Uses `VAR` if set, otherwise uses `default` (without assigning to `VAR`).",
+    "Option3": "Deletes `VAR` if it's empty.",
+    "4": "Checks if `VAR` equals `default`.",
+    "Answer": "Uses `VAR` if set, otherwise uses `default` (without assigning to `VAR`)."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What does `${VAR:=default}` do?",
+    "Option1": "Checks if `VAR` is set and assigns `default`.",
+    "Option2": "Uses `VAR` if set, otherwise assigns `default` to `VAR` and uses that value.",
+    "Option3": "Compares `VAR` with `default`.",
+    "4": "Concatenates `VAR` and `default`.",
+    "Answer": "Uses `VAR` if set, otherwise assigns `default` to `VAR` and uses that value."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What does `${#VAR}` do?",
+    "Option1": "Returns the first character of `VAR`.",
+    "Option2": "Returns the last character of `VAR`.",
+    "Option3": "Returns the length of the string `VAR`.",
+    "4": "Returns the number of words in `VAR`.",
+    "Answer": "Returns the length of the string `VAR`."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What does `${VAR/old/new}` do?",
+    "Option1": "Replaces the first occurrence of `old` with `new` in `VAR`.",
+    "Option2": "Replaces all occurrences of `old` with `new` in `VAR`.",
+    "Option3": "Deletes `old` from `VAR`.",
+    "4": "Appends `new` to `VAR`.",
+    "Answer": "Replaces the first occurrence of `old` with `new` in `VAR`."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What does `${VAR//old/new}` do?",
+    "Option1": "Replaces the first occurrence of `old` with `new` in `VAR`.",
+    "Option2": "Replaces all occurrences of `old` with `new` in `VAR`.",
+    "Option3": "Deletes `old` from `VAR`.",
+    "4": "Appends `new` to `VAR`.",
+    "Answer": "Replaces all occurrences of `old` with `new` in `VAR`."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What does `${VAR#pattern}` do?",
+    "Option1": "Removes the longest match of `pattern` from the beginning of `VAR`.",
+    "Option2": "Removes the shortest match of `pattern` from the beginning of `VAR`.",
+    "Option3": "Removes the shortest match of `pattern` from the end of `VAR`.",
+    "4": "Removes the longest match of `pattern` from the end of `VAR`.",
+    "Answer": "Removes the shortest match of `pattern` from the beginning of `VAR`."
+  },
+  {
+    "question_no.": 134,
+    "Question": "What does `${VAR##pattern}` do?",
+    "Option1": "Removes the longest match of `pattern` from the beginning of `VAR`.",
+    "Option2": "Removes the shortest match of `pattern` from the beginning of `VAR`.",
+    "Option3": "Removes the shortest match of `pattern` from the end of `VAR`.",
+    "4": "Removes the longest match of `pattern` from the end of `VAR`.",
+    "Answer": "Removes the longest match of `pattern` from the beginning of `VAR`."
+  },
+  {
+    "question_no.": 135,
+    "Question": "What does `${VAR%pattern}` do?",
+    "Option1": "Removes the longest match of `pattern` from the beginning of `VAR`.",
+    "Option2": "Removes the shortest match of `pattern` from the beginning of `VAR`.",
+    "Option3": "Removes the shortest match of `pattern` from the end of `VAR`.",
+    "4": "Removes the longest match of `pattern` from the end of `VAR`.",
+    "Answer": "Removes the shortest match of `pattern` from the end of `VAR`."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What does `${VAR%%pattern}` do?",
+    "Option1": "Removes the longest match of `pattern` from the beginning of `VAR`.",
+    "Option2": "Removes the shortest match of `pattern` from the beginning of `VAR`.",
+    "Option3": "Removes the shortest match of `pattern` from the end of `VAR`.",
+    "4": "Removes the longest match of `pattern` from the end of `VAR`.",
+    "Answer": "Removes the longest match of `pattern` from the end of `VAR`."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is 'trap' command used for in Bash?",
+    "Option1": "To catch errors only.",
+    "Option2": "To execute commands when the shell receives a signal (e.g., interrupt, termination).",
+    "Option3": "To create a delayed execution.",
+    "4": "To prevent unauthorized access.",
+    "Answer": "To execute commands when the shell receives a signal (e.g., interrupt, termination)."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What does `trap 'rm tmpfile.txt' EXIT` do?",
+    "Option1": "Removes `tmpfile.txt` immediately.",
+    "Option2": "Removes `tmpfile.txt` when the script exits (normally or abnormally).",
+    "Option3": "Removes `tmpfile.txt` if an error occurs.",
+    "4": "Prompts the user before removing `tmpfile.txt`.",
+    "Answer": "Removes `tmpfile.txt` when the script exits (normally or abnormally)."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is 'Array' in Bash?",
+    "Option1": "A collection of unrelated variables.",
+    "Option2": "A variable capable of holding multiple values, indexed by number.",
+    "Option3": "A fixed-size data structure.",
+    "4": "A string of characters.",
+    "Answer": "A variable capable of holding multiple values, indexed by number."
+  },
+  {
+    "question_no.": 140,
+    "Question": "How do you declare an indexed array in Bash?",
+    "Option1": "array=(value1 value2)",
+    "Option2": "declare -a array=(value1 value2)",
+    "Option3": "array[0]=value1",
+    "4": "Both A and B are common ways.",
+    "Answer": "Both A and B are common ways."
+  },
+  {
+    "question_no.": 141,
+    "Question": "How do you access an element of an array?",
+    "Option1": "$array[0]",
+    "Option2": "${array[0]}",
+    "Option3": "$array_0",
+    "4": "array[0]",
+    "Answer": "${array[0]}"
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you get the number of elements in an array?",
+    "Option1": "${#array}",
+    "Option2": "${#array[@]}",
+    "Option3": "$array_length",
+    "4": "count array",
+    "Answer": "${#array[@]}"
+  },
+  {
+    "question_no.": 143,
+    "Question": "How do you get all elements of an array?",
+    "Option1": "$array",
+    "Option2": "${array[*]}",
+    "Option3": "${array[@]}",
+    "4": "Both B and C will return all elements.",
+    "Answer": "Both B and C will return all elements."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is a 'associative array' (or hash map) in Bash?",
+    "Option1": "An array indexed by numbers.",
+    "Option2": "An array indexed by arbitrary strings (keys).",
+    "Option3": "A special type of string.",
+    "4": "A read-only array.",
+    "Answer": "An array indexed by arbitrary strings (keys)."
+  },
+  {
+    "question_no.": 145,
+    "Question": "How do you declare an associative array?",
+    "Option1": "declare -a my_array",
+    "Option2": "declare -A my_array",
+    "Option3": "my_array=()",
+    "4": "my_array={}",
+    "Answer": "declare -A my_array"
+  },
+  {
+    "question_no.": 146,
+    "Question": "What does `read -p 'Prompt: ' VAR` do?",
+    "Option1": "Reads from a file named 'Prompt'.",
+    "Option2": "Displays 'Prompt: ' and reads user input into the variable `VAR`.",
+    "Option3": "Reads a predefined variable.",
+    "4": "Prompts the user to create a new variable.",
+    "Answer": "Displays 'Prompt: ' and reads user input into the variable `VAR`."
+  },
+  {
+    "question_no.": 147,
+    "Question": "What does `set -e` do in a Bash script?",
+    "Option1": "Exits immediately on any error.",
+    "Option2": "Enables verbose output.",
+    "Option3": "Exits on first non-zero exit status (error) from a command.",
+    "4": "Enables error handling functions.",
+    "Answer": "Exits on first non-zero exit status (error) from a command."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What does `set -u` or `set -o nounset` do?",
+    "Option1": "Unsets all variables.",
+    "Option2": "Treats unset variables as an error and exits the script.",
+    "Option3": "Disables shell options.",
+    "4": "Sets all variables to null.",
+    "Answer": "Treats unset variables as an error and exits the script."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What does `set -x` do?",
+    "Option1": "Disables script execution.",
+    "Option2": "Prints commands and their arguments to standard error before execution (debug mode).",
+    "Option3": "Sets executable permission for all files.",
+    "4": "Exits the script on an error.",
+    "Answer": "Prints commands and their arguments to standard error before execution (debug mode)."
+  },
+  {
+    "question_no.": 150,
+    "Question": "What is the purpose of `test` command (or `[ ]`)?",
+    "Option1": "To create a test file.",
+    "Option2": "To evaluate conditional expressions, returning 0 for true and 1 for false.",
+    "Option3": "To run unit tests.",
+    "4": "To check if a variable exists.",
+    "Answer": "To evaluate conditional expressions, returning 0 for true and 1 for false."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the more advanced version of `[ ]` for conditional expressions?",
+    "Option1": "(())",
+    "Option2": "{{}}",
+    "Option3": "[[ ]]",
+    "4": "<>",
+    "Answer": "[[ ]]"
+  },
+  {
+    "question_no.": 152,
+    "Question": "What advantages does `[[ ]]` offer over `[ ]`?",
+    "Option1": "It's faster.",
+    "Option2": "Supports regular expression matching (`=~`), logical AND/OR (`&&`, `||`), and doesn't require quotes for most arguments.",
+    "Option3": "It's more portable.",
+    "4": "It's a newer version so it's always better.",
+    "Answer": "Supports regular expression matching (`=~`), logical AND/OR (`&&`, `||`), and doesn't require quotes for most arguments."
+  },
+  {
+    "question_no.": 153,
+    "Question": "How do you perform integer comparisons in `[[ ]]`?",
+    "Option1": "[[ $a = $b ]]",
+    "Option2": "[[ $a -eq $b ]]",
+    "Option3": "[[ $a == $b ]]",
+    "4": "[[ $a == $b ]]",
+    "Answer": "[[ $a -eq $b ]]"
+  },
+  {
+    "question_no.": 154,
+    "Question": "How do you perform string comparisons for equality in `[[ ]]`?",
+    "Option1": "[[ $str1 -eq $str2 ]]",
+    "Option2": "[[ $str1 == $str2 ]]",
+    "Option3": "[[ $str1 -str $str2 ]]",
+    "4": "[[ $str1 = $str2 ]]",
+    "Answer": "[[ $str1 == $str2 ]]"
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is 'regular expressions' (regex) used for in Bash?",
+    "Option1": "Mathematical calculations.",
+    "Option2": "Advanced pattern matching in text, used by commands like `grep`, `sed`, `awk`, and in `[[ ]]` for string comparisons.",
+    "Option3": "File system navigation.",
+    "4": "Network configuration.",
+    "Answer": "Advanced pattern matching in text, used by commands like `grep`, `sed`, `awk`, and in `[[ ]]` for string comparisons."
+  },
+  {
+    "question_no.": 156,
+    "Question": "Which regex metacharacter matches the beginning of a line?",
+    "Option1": "$",
+    "Option2": ".",
+    "Option3": "^",
+    "4": "*",
+    "Answer": "^"
+  },
+  {
+    "question_no.": 157,
+    "Question": "Which regex metacharacter matches the end of a line?",
+    "Option1": "^",
+    "Option2": ".",
+    "Option3": "$",
+    "4": "+",
+    "Answer": "$"
+  },
+  {
+    "question_no.": 158,
+    "Question": "Which regex metacharacter matches any single character (except newline)?",
+    "Option1": "*",
+    "Option2": "?",
+    "Option3": ".",
+    "4": "+",
+    "Answer": "."
+  },
+  {
+    "question_no.": 159,
+    "Question": "Which regex metacharacter matches zero or more occurrences of the preceding character?",
+    "Option1": "?",
+    "Option2": "+",
+    "Option3": "*",
+    "4": "{}",
+    "Answer": "*"
+  },
+  {
+    "question_no.": 160,
+    "Question": "Which regex metacharacter matches one or more occurrences of the preceding character?",
+    "Option1": "*",
+    "Option2": "?",
+    "Option3": "+",
+    "4": "{}",
+    "Answer": "+"
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `printf` used for in Bash?",
+    "Option1": "Printing simple strings.",
+    "Option2": "Formatted output, similar to C's `printf` function, allowing precise control over string and number formatting.",
+    "Option3": "Printing to a file only.",
+    "4": "Printing multiple lines quickly.",
+    "Answer": "Formatted output, similar to C's `printf` function, allowing precise control over string and number formatting."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the purpose of `getopts` in Bash scripts?",
+    "Option1": "To get user passwords.",
+    "Option2": "To parse command-line options and arguments in a standard way (short options, e.g., -a, -b).",
+    "Option3": "To get system options.",
+    "4": "To get file permissions.",
+    "Answer": "To parse command-line options and arguments in a standard way (short options, e.g., -a, -b)."
+  },
+  {
+    "question_no.": 163,
+    "Question": "What is the purpose of `getopt` (note the missing 's')?",
+    "Option1": "A simpler version of `getopts`.",
+    "Option2": "A more powerful and flexible external utility for parsing command-line options, including long options (e.g., --long-option).",
+    "Option3": "Used for parsing arguments in functions.",
+    "4": "Deprecated and should not be used.",
+    "Answer": "A more powerful and flexible external utility for parsing command-line options, including long options (e.g., --long-option)."
+  },
+  {
+    "question_no.": 164,
+    "Question": "What does `shift` do in a Bash script?",
+    "Option1": "Shifts bits in a variable.",
+    "Option2": "Shifts command-line arguments (or positional parameters) to the left, discarding $1 and making $2 become $1, etc.",
+    "Option3": "Shifts to a different directory.",
+    "4": "Changes the current user.",
+    "Answer": "Shifts command-line arguments (or positional parameters) to the left, discarding $1 and making $2 become $1, etc."
+  },
+  {
+    "question_no.": 165,
+    "Question": "What does `pushd` and `popd` commands do?",
+    "Option1": "Manage a stack of files.",
+    "Option2": "Manage a stack of directories, allowing quick navigation between frequently used directories.",
+    "Option3": "Push and pop elements from an array.",
+    "4": "Push and pop processes.",
+    "Answer": "Manage a stack of directories, allowing quick navigation between frequently used directories."
+  },
+  {
+    "question_no.": 166,
+    "Question": "What does `dirs` command show?",
+    "Option1": "The current working directory.",
+    "Option2": "The contents of the directory stack managed by `pushd` and `popd`.",
+    "Option3": "All subdirectories.",
+    "4": "Hidden directories.",
+    "Answer": "The contents of the directory stack managed by `pushd` and `popd`."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is 'subshell' in Bash?",
+    "Option1": "A child process of the current shell.",
+    "Option2": "A completely independent shell instance, inheriting environment variables but not local variables or functions.",
+    "Option3": "A special type of function.",
+    "4": "A shell that runs in the background.",
+    "Answer": "A completely independent shell instance, inheriting environment variables but not local variables or functions."
+  },
+  {
+    "question_no.": 168,
+    "Question": "When does a command typically run in a subshell?",
+    "Option1": "When enclosed in single quotes.",
+    "Option2": "When executed in parentheses `(command)` or in a script without sourcing it.",
+    "Option3": "When using `&&` operator.",
+    "4": "When using `|` (pipe) operator.",
+    "Answer": "When executed in parentheses `(command)` or in a script without sourcing it."
+  },
+  {
+    "question_no.": 169,
+    "Question": "What does `readlink -f filename` do?",
+    "Option1": "Creates a symbolic link.",
+    "Option2": "Prints the canonicalized absolute pathname of the specified file (resolves symlinks).",
+    "Option3": "Reads the content of a link.",
+    "4": "Checks if a link is valid.",
+    "Answer": "Prints the canonicalized absolute pathname of the specified file (resolves symlinks)."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `mktemp` used for?",
+    "Option1": "Creating temporary directories.",
+    "Option2": "Creating temporary files or directories securely in a script.",
+    "Option3": "Creating temporary links.",
+    "4": "Creating temporary variables.",
+    "Answer": "Creating temporary files or directories securely in a script."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What does `yes` command do?",
+    "Option1": "Confirms an action.",
+    "Option2": "Outputs a string repeatedly until killed, often used to automate 'yes/no' prompts.",
+    "Option3": "Prints the current user's name.",
+    "4": "Creates an empty file.",
+    "Answer": "Outputs a string repeatedly until killed, often used to automate 'yes/no' prompts."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is `xargs` used for?",
+    "Option1": "To list arguments.",
+    "Option2": "To build and execute command lines from standard input, often used with `find` or other commands that produce a list of items.",
+    "Option3": "To count arguments.",
+    "4": "To clear arguments.",
+    "Answer": "To build and execute command lines from standard input, often used with `find` or other commands that produce a list of items."
+  },
+  {
+    "question_no.": 173,
+    "Question": "Example: `find . -name '*.bak' | xargs rm` - what does this do?",
+    "Option1": "Lists all .bak files.",
+    "Option2": "Finds all .bak files and pipes their names as arguments to the `rm` command, deleting them.",
+    "Option3": "Creates new .bak files.",
+    "4": "Renames .bak files.",
+    "Answer": "Finds all .bak files and pipes their names as arguments to the `rm` command, deleting them."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is the purpose of `diff` command?",
+    "Option1": "To compare images.",
+    "Option2": "To display the differences between two files.",
+    "Option3": "To create patches.",
+    "4": "To merge files.",
+    "Answer": "To display the differences between two files."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the purpose of `patch` command?",
+    "Option1": "To create differences between files.",
+    "Option2": "To apply changes (a patch file, created by `diff`) to a file or set of files.",
+    "Option3": "To compare directories.",
+    "4": "To backup files.",
+    "Answer": "To apply changes (a patch file, created by `diff`) to a file or set of files."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What does `wc -w` do?",
+    "Option1": "Counts lines.",
+    "Option2": "Counts words.",
+    "Option3": "Counts characters.",
+    "4": "Counts bytes.",
+    "Answer": "Counts words."
+  },
+  {
+    "question_no.": 177,
+    "Question": "What does `wc -c` do?",
+    "Option1": "Counts lines.",
+    "Option2": "Counts words.",
+    "Option3": "Counts bytes (characters).",
+    "4": "Counts files.",
+    "Answer": "Counts bytes (characters)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is `md5sum` (or `sha256sum`) used for?",
+    "Option1": "Encrypting files.",
+    "Option2": "Calculating a cryptographic hash (checksum) of a file to verify its integrity.",
+    "Option3": "Compressing files.",
+    "4": "Comparing files.",
+    "Answer": "Calculating a cryptographic hash (checksum) of a file to verify its integrity."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the purpose of `cut -d: -f1 /etc/passwd`?",
+    "Option1": "Prints the first field of `/etc/passwd` using space as delimiter.",
+    "Option2": "Prints the first field of `/etc/passwd` using colon as delimiter (typically usernames).",
+    "Option3": "Deletes the first field of `/etc/passwd`.",
+    "4": "Counts the number of fields in `/etc/passwd`.",
+    "Answer": "Prints the first field of `/etc/passwd` using colon as delimiter (typically usernames)."
+  },
+  {
+    "question_no.": 180,
+    "Question": "How do you display the current user's name?",
+    "Option1": "whoami",
+    "Option2": "user",
+    "Option3": "current_user",
+    "4": "hostname",
+    "Answer": "whoami"
+  },
+  {
+    "question_no.": 181,
+    "Question": "How do you display all logged-in users?",
+    "Option1": "who",
+    "Option2": "users",
+    "Option3": "login_list",
+    "4": "w",
+    "Answer": "who"
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is the `tty` command used for?",
+    "Option1": "To list all connected terminals.",
+    "Option2": "To print the file name of the terminal connected to standard input.",
+    "Option3": "To change terminal settings.",
+    "4": "To test terminal speed.",
+    "Answer": "To print the file name of the terminal connected to standard input."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `stdout`, `stdin`, `stderr`?",
+    "Option1": "Types of files.",
+    "Option2": "Standard output, standard input, standard error – the default channels for program I/O.",
+    "Option3": "Network protocols.",
+    "4": "Memory segments.",
+    "Answer": "Standard output, standard input, standard error – the default channels for program I/O."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is the file descriptor for `stdout`?",
+    "Option1": "0",
+    "Option2": "1",
+    "Option3": "2",
+    "4": "3",
+    "Answer": "1"
+  },
+  {
+    "question_no.": 185,
+    "Question": "What is the file descriptor for `stdin`?",
+    "Option1": "0",
+    "Option2": "1",
+    "Option3": "2",
+    "4": "3",
+    "Answer": "0"
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the file descriptor for `stderr`?",
+    "Option1": "0",
+    "Option2": "1",
+    "Option3": "2",
+    "4": "3",
+    "Answer": "2"
+  },
+  {
+    "question_no.": 187,
+    "Question": "How do you redirect `stderr` to a file?",
+    "Option1": ">&2 file.txt",
+    "Option2": "2> file.txt",
+    "Option3": "error> file.txt",
+    "4": ">! file.txt",
+    "Answer": "2> file.txt"
+  },
+  {
+    "question_no.": 188,
+    "Question": "How do you redirect both `stdout` and `stderr` to the same file?",
+    "Option1": "command > file.txt 2> file.txt",
+    "Option2": "command >& file.txt",
+    "Option3": "command &> file.txt",
+    "4": "Both B and C are valid.",
+    "Answer": "Both B and C are valid."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What does `/dev/null` represent?",
+    "Option1": "A directory for temporary files.",
+    "Option2": "A special device file that discards all data written to it and provides an immediate end-of-file when read from (the 'black hole').",
+    "Option3": "A file for system logs.",
+    "4": "A network interface.",
+    "Answer": "A special device file that discards all data written to it and provides an immediate end-of-file when read from (the 'black hole')."
+  },
+  {
+    "question_no.": 190,
+    "Question": "How do you suppress all output (stdout and stderr) from a command?",
+    "Option1": "command > /dev/null",
+    "Option2": "command &> /dev/null",
+    "Option3": "command > /dev/null 2>&1",
+    "4": "All of the above (B and C are common ways).",
+    "Answer": "All of the above (B and C are common ways)."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is the purpose of `tee` command?",
+    "Option1": "To create new files.",
+    "Option2": "To read from standard input and write to both standard output and one or more files.",
+    "Option3": "To merge files.",
+    "4": "To display file content.",
+    "Answer": "To read from standard input and write to both standard output and one or more files."
+  },
+  {
+    "question_no.": 192,
+    "Question": "Example: `ls -l | tee output.txt` - what does this do?",
+    "Option1": "Only writes `ls -l` output to `output.txt`.",
+    "Option2": "Writes `ls -l` output to `output.txt` AND displays it on the screen.",
+    "Option3": "Reads from `output.txt` and displays it.",
+    "4": "Appends `ls -l` output to `output.txt`.",
+    "Answer": "Writes `ls -l` output to `output.txt` AND displays it on the screen."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is a 'here string'?",
+    "Option1": "A string defined in a file.",
+    "Option2": "A compact way to provide input to a command from a string, using `<<<`.",
+    "Option3": "A multiline string.",
+    "4": "A string that contains only numbers.",
+    "Answer": "A compact way to provide input to a command from a string, using `<<<`."
+  },
+  {
+    "question_no.": 194,
+    "Question": "Example: `grep 'pattern' <<< \"This is a test string.\"` - what does this do?",
+    "Option1": "Searches for 'pattern' in a file named 'This is a test string.'.",
+    "Option2": "Searches for 'pattern' within the literal string \"This is a test string.\".",
+    "Option3": "Creates a new string.",
+    "4": "Redirects the string to a file.",
+    "Answer": "Searches for 'pattern' within the literal string \"This is a test string.\"."
+  },
+  {
+    "question_no.": 195,
+    "Question": "What is 'Brace Expansion' in Bash?",
+    "Option1": "Expanding curly braces as literal characters.",
+    "Option2": "A mechanism to generate arbitrary strings by expanding comma-separated lists or sequences within curly braces.",
+    "Option3": "Expanding arrays.",
+    "4": "Expanding variables.",
+    "Answer": "A mechanism to generate arbitrary strings by expanding comma-separated lists or sequences within curly braces."
+  },
+  {
+    "question_no.": 196,
+    "Question": "Example: `echo {a,b,c}.txt` - what is the output?",
+    "Option1": "{a,b,c}.txt",
+    "Option2": "a.txt b.txt c.txt",
+    "Option3": "abc.txt",
+    "4": "Error: invalid syntax.",
+    "Answer": "a.txt b.txt c.txt"
+  },
+  {
+    "question_no.": 197,
+    "Question": "Example: `echo file{1..3}.txt` - what is the output?",
+    "Option1": "file{1..3}.txt",
+    "Option2": "file1.txt file2.txt file3.txt",
+    "Option3": "file.txt 1 2 3",
+    "4": "Error: invalid syntax.",
+    "Answer": "file1.txt file2.txt file3.txt"
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `command -v` or `type` command used for?",
+    "Option1": "To check the version of a command.",
+    "Option2": "To display how a command would be interpreted (e.g., alias, function, built-in, external executable).",
+    "Option3": "To verify command syntax.",
+    "4": "To get help for a command.",
+    "Answer": "To display how a command would be interpreted (e.g., alias, function, built-in, external executable)."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is 'Bash completion'?",
+    "Option1": "Automatic command execution.",
+    "Option2": "A feature that allows the shell to automatically complete commands, filenames, and arguments as the user types, typically activated by pressing Tab.",
+    "Option3": "A feature that corrects typos.",
+    "4": "A feature that suggests new commands.",
+    "Answer": "A feature that allows the shell to automatically complete commands, filenames, and arguments as the user types, typically activated by pressing Tab."
+  },
+  {
+    "question_no.": 200,
+    "Question": "How do you execute multiple commands on a single line, sequentially?",
+    "Option1": "command1 | command2",
+    "Option2": "command1 && command2",
+    "Option3": "command1 ; command2",
+    "4": "command1 || command2",
+    "Answer": "command1 ; command2"
+  },
+  {
+    "question_no.": 201,
+    "Question": "How do you execute `command2` only if `command1` succeeds (returns exit status 0)?",
+    "Option1": "command1 | command2",
+    "Option2": "command1 && command2",
+    "Option3": "command1 ; command2",
+    "4": "command1 || command2",
+    "Answer": "command1 && command2"
+  },
+  {
+    "question_no.": 202,
+    "Question": "How do you execute `command2` only if `command1` fails (returns non-zero exit status)?",
+    "Option1": "command1 | command2",
+    "Option2": "command1 && command2",
+    "Option3": "command1 ; command2",
+    "4": "command1 || command2",
+    "Answer": "command1 || command2"
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is 'Bash history expansion'?",
+    "Option1": "Expanding `history` command output.",
+    "Option2": "A feature that allows users to re-run or modify previous commands from the history list using special characters (e.g., `!`).",
+    "Option3": "Expanding aliases.",
+    "4": "Expanding variables based on history.",
+    "Answer": "A feature that allows users to re-run or modify previous commands from the history list using special characters (e.g., `!`)."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What does `!!` do?",
+    "Option1": "Repeats the last argument of the previous command.",
+    "Option2": "Repeats the last executed command.",
+    "Option3": "Repeats the first command in history.",
+    "4": "Undoes the last command.",
+    "Answer": "Repeats the last executed command."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What does `!$` do?",
+    "Option1": "Repeats the last executed command.",
+    "Option2": "Refers to the last argument of the previous command.",
+    "Option3": "Refers to the first argument of the previous command.",
+    "4": "Refers to the entire previous command line.",
+    "Answer": "Refers to the last argument of the previous command."
+  }
+]

@@ -1,0 +1,1820 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What type of database is Oracle Database primarily?",
+    "Option1": "NoSQL Database",
+    "Option2": "Relational Database Management System (RDBMS)",
+    "Option3": "Graph Database",
+    "Option4": "Key-Value Store",
+    "Answer": "Relational Database Management System (RDBMS)"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Which language is primarily used to interact with Oracle Database?",
+    "Option1": "Python",
+    "Option2": "Java",
+    "Option3": "SQL (Structured Query Language)",
+    "Option4": "PL/SQL (Procedural Language/SQL)",
+    "Answer": "SQL (Structured Query Language)"
+  },
+  {
+    "question_no.": 3,
+    "Question": "What is the core component of an Oracle Database that stores the actual data?",
+    "Option1": "Instance",
+    "Option2": "Listener",
+    "Option3": "Database (Datafiles)",
+    "Option4": "SQL*Plus",
+    "Answer": "Database (Datafiles)"
+  },
+  {
+    "question_no.": 4,
+    "Question": "What is an Oracle 'Instance'?",
+    "Option1": "The physical files on disk.",
+    "Option2": "The set of memory structures (SGA, PGA) and background processes that access a set of database files.",
+    "Option3": "A single user connection.",
+    "Option4": "A type of table.",
+    "Answer": "The set of memory structures (SGA, PGA) and background processes that access a set of database files."
+  },
+  {
+    "question_no.": 5,
+    "Question": "Which memory area in an Oracle Instance is shared by all database users?",
+    "Option1": "PGA (Program Global Area)",
+    "Option2": "SGA (System Global Area)",
+    "Option3": "UGA (User Global Area)",
+    "Option4": "Stack Space",
+    "Answer": "SGA (System Global Area)"
+  },
+  {
+    "question_no.": 6,
+    "Question": "What is the purpose of the 'UNDO' tablespace in Oracle?",
+    "Option1": "To store redo logs.",
+    "Option2": "To store rollback segments for transaction undo and read consistency.",
+    "Option3": "To store temporary data.",
+    "Option4": "To store user data.",
+    "Answer": "To store rollback segments for transaction undo and read consistency."
+  },
+  {
+    "question_no.": 7,
+    "Question": "Which background process writes modified data blocks from the buffer cache to data files?",
+    "Option1": "LGWR (Log Writer)",
+    "Option2": "DBWn (Database Writer)",
+    "Option3": "PMON (Process Monitor)",
+    "Option4": "SMON (System Monitor)",
+    "Answer": "DBWn (Database Writer)"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the function of the 'Listener' in Oracle Database?",
+    "Option1": "Manages database backups.",
+    "Option2": "Manages network connections to the database.",
+    "Option3": "Performs database recovery.",
+    "Option4": "Executes SQL statements.",
+    "Answer": "Manages network connections to the database."
+  },
+  {
+    "question_no.": 9,
+    "Question": "What is a 'Tablespace' in Oracle?",
+    "Option1": "A logical storage unit that corresponds directly to a data file.",
+    "Option2": "A logical storage unit that maps to one or more data files, used to group related schema objects.",
+    "Option3": "A type of table.",
+    "Option4": "A memory area.",
+    "Answer": "A logical storage unit that maps to one or more data files, used to group related schema objects."
+  },
+  {
+    "question_no.": 10,
+    "Question": "Which type of integrity constraint ensures that values in a column (or set of columns) are unique?",
+    "Option1": "PRIMARY KEY",
+    "Option2": "FOREIGN KEY",
+    "Option3": "UNIQUE",
+    "Option4": "CHECK",
+    "Answer": "UNIQUE"
+  },
+  {
+    "question_no.": 11,
+    "Question": "What is the purpose of 'PRIMARY KEY' constraint?",
+    "Option1": "To allow duplicate values.",
+    "Option2": "To uniquely identify each row in a table and ensure non-null values.",
+    "Option3": "To link tables together.",
+    "Option4": "To specify a default value.",
+    "Answer": "To uniquely identify each row in a table and ensure non-null values."
+  },
+  {
+    "question_no.": 12,
+    "Question": "Which SQL command is used to retrieve data from an Oracle table?",
+    "Option1": "INSERT",
+    "Option2": "UPDATE",
+    "Option3": "SELECT",
+    "Option4": "DELETE",
+    "Answer": "SELECT"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Which clause is used with the SELECT statement to filter rows based on a specified condition?",
+    "Option1": "GROUP BY",
+    "Option2": "ORDER BY",
+    "Option3": "WHERE",
+    "Option4": "HAVING",
+    "Answer": "WHERE"
+  },
+  {
+    "question_no.": 14,
+    "Question": "What is the purpose of 'JOIN' operations in SQL?",
+    "Option1": "To delete data from tables.",
+    "Option2": "To combine rows from two or more tables based on a related column between them.",
+    "Option3": "To insert new data into a table.",
+    "Option4": "To modify existing data.",
+    "Answer": "To combine rows from two or more tables based on a related column between them."
+  },
+  {
+    "question_no.": 15,
+    "Question": "Which type of JOIN returns only the rows that have matching values in both tables?",
+    "Option1": "LEFT JOIN",
+    "Option2": "RIGHT JOIN",
+    "Option3": "FULL OUTER JOIN",
+    "Option4": "INNER JOIN",
+    "Answer": "INNER JOIN"
+  },
+  {
+    "question_no.": 16,
+    "Question": "What is a 'VIEW' in Oracle?",
+    "Option1": "A physical copy of a table.",
+    "Option2": "A virtual table based on the result-set of a SQL query.",
+    "Option3": "A stored procedure.",
+    "Option4": "A type of index.",
+    "Answer": "A virtual table based on the result-set of a SQL query."
+  },
+  {
+    "question_no.": 17,
+    "Question": "Which DDL (Data Definition Language) command is used to create a new table in Oracle?",
+    "Option1": "INSERT INTO",
+    "Option2": "CREATE TABLE",
+    "Option3": "ALTER TABLE",
+    "Option4": "DROP TABLE",
+    "Answer": "CREATE TABLE"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Which DML (Data Manipulation Language) command is used to add new rows to a table?",
+    "Option1": "UPDATE",
+    "Option2": "DELETE",
+    "Option3": "INSERT INTO",
+    "Option4": "MERGE",
+    "Answer": "INSERT INTO"
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is 'PL/SQL' in Oracle?",
+    "Option1": "A data definition language.",
+    "Option2": "Oracle's procedural extension to SQL, combining SQL with procedural programming features.",
+    "Option3": "A graphical user interface tool.",
+    "Option4": "A network protocol.",
+    "Answer": "Oracle's procedural extension to SQL, combining SQL with procedural programming features."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is a 'Stored Procedure' in PL/SQL?",
+    "Option1": "A SQL statement that retrieves data.",
+    "Option2": "A named PL/SQL block stored in the database, compiled once, and executable multiple times.",
+    "Option3": "A temporary table.",
+    "Option4": "A database trigger.",
+    "Answer": "A named PL/SQL block stored in the database, compiled once, and executable multiple times."
+  },
+  {
+    "question_no.": 21,
+    "Question": "What is the purpose of an 'INDEX' in Oracle?",
+    "Option1": "To enforce data uniqueness.",
+    "Option2": "To speed up data retrieval operations by providing quick access paths to rows.",
+    "Option3": "To store large binary objects.",
+    "Option4": "To define relationships between tables.",
+    "Answer": "To speed up data retrieval operations by providing quick access paths to rows."
+  },
+  {
+    "question_no.": 22,
+    "Question": "Which type of index is automatically created when a PRIMARY KEY constraint is defined?",
+    "Option1": "Bitmap Index",
+    "Option2": "Function-Based Index",
+    "Option3": "B-Tree Index (Unique Index)",
+    "Option4": "Composite Index",
+    "Answer": "B-Tree Index (Unique Index)"
+  },
+  {
+    "question_no.": 23,
+    "Question": "What is a 'Sequence' in Oracle?",
+    "Option1": "A ordered list of records.",
+    "Option2": "A database object that automatically generates unique sequential numbers.",
+    "Option3": "A predefined order for sorting data.",
+    "Option4": "A type of data type.",
+    "Answer": "A database object that automatically generates unique sequential numbers."
+  },
+  {
+    "question_no.": 24,
+    "Question": "What is a 'Synonym' in Oracle?",
+    "Option1": "A duplicate table.",
+    "Option2": "An alias for a table, view, sequence, or other database object.",
+    "Option3": "A backup of a table.",
+    "Option4": "A type of constraint.",
+    "Answer": "An alias for a table, view, sequence, or other database object."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is the purpose of 'COMMIT' in SQL?",
+    "Option1": "To undo changes made in a transaction.",
+    "Option2": "To make permanent the changes performed by a transaction.",
+    "Option3": "To save a partial transaction.",
+    "Option4": "To release locks.",
+    "Answer": "To make permanent the changes performed by a transaction."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is the purpose of 'ROLLBACK' in SQL?",
+    "Option1": "To save changes permanently.",
+    "Option2": "To undo all changes made in the current transaction since the last COMMIT or ROLLBACK.",
+    "Option3": "To create a savepoint.",
+    "Option4": "To apply changes to the database.",
+    "Answer": "To undo all changes made in the current transaction since the last COMMIT or ROLLBACK."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is 'ACID' in the context of database transactions?",
+    "Option1": "Access, Control, Integrity, Durability",
+    "Option2": "Atomicity, Consistency, Isolation, Durability",
+    "Option3": "Accuracy, Concurrency, Indexing, Data integrity",
+    "Option4": "Automation, Caching, Input, Output",
+    "Answer": "Atomicity, Consistency, Isolation, Durability"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Which ACID property ensures that all operations within a transaction are completed successfully, or none are?",
+    "Option1": "Consistency",
+    "Option2": "Isolation",
+    "Option3": "Atomicity",
+    "Option4": "Durability",
+    "Answer": "Atomicity"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Which ACID property ensures that concurrent transactions do not interfere with each other?",
+    "Option1": "Atomicity",
+    "Option2": "Consistency",
+    "Option3": "Isolation",
+    "Option4": "Durability",
+    "Answer": "Isolation"
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is 'SQL*Plus'?",
+    "Option1": "A graphical user interface for Oracle.",
+    "Option2": "A command-line tool for interacting with Oracle Database.",
+    "Option3": "A programming language.",
+    "Option4": "A database backup utility.",
+    "Answer": "A command-line tool for interacting with Oracle Database."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is the purpose of the 'SYSTEM' tablespace?",
+    "Option1": "To store user data.",
+    "Option2": "To store the data dictionary, system objects, and internal metadata.",
+    "Option3": "To store temporary data.",
+    "Option4": "To store undo segments.",
+    "Answer": "To store the data dictionary, system objects, and internal metadata."
+  },
+  {
+    "question_no.": 32,
+    "Question": "Which Oracle utility is used for performing database backups and recovery?",
+    "Option1": "SQL*Loader",
+    "Option2": "Data Pump",
+    "Option3": "RMAN (Recovery Manager)",
+    "Option4": "SQL Developer",
+    "Answer": "RMAN (Recovery Manager)"
+  },
+  {
+    "question_no.": 33,
+    "Question": "What is a 'Redo Log File' in Oracle?",
+    "Option1": "A file that stores rollback information.",
+    "Option2": "A file that records all changes made to the database, used for recovery and ensuring durability.",
+    "Option3": "A file that stores temporary data.",
+    "Option4": "A file that stores database configuration.",
+    "Answer": "A file that records all changes made to the database, used for recovery and ensuring durability."
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the difference between 'TRUNCATE TABLE' and 'DELETE FROM'?",
+    "Option1": "TRUNCATE can be rolled back, DELETE cannot.",
+    "Option2": "TRUNCATE is a DML command, DELETE is DDL.",
+    "Option3": "TRUNCATE quickly removes all rows and resets high-water mark, cannot be rolled back; DELETE removes rows one by one, can be rolled back.",
+    "Option4": "There is no functional difference.",
+    "Answer": "TRUNCATE quickly removes all rows and resets high-water mark, cannot be rolled back; DELETE removes rows one by one, can be rolled back."
+  },
+  {
+    "question_no.": 35,
+    "Question": "What is 'Oracle Data Guard' used for?",
+    "Option1": "To secure the database from unauthorized access.",
+    "Option2": "To provide high availability, disaster recovery, and data protection by maintaining one or more standby databases.",
+    "Option3": "To migrate data between different database versions.",
+    "Option4": "To monitor database performance.",
+    "Answer": "To provide high availability, disaster recovery, and data protection by maintaining one or more standby databases."
+  },
+  {
+    "question_no.": 36,
+    "Question": "Which type of user account has the highest privileges in an Oracle Database?",
+    "Option1": "SCOTT",
+    "Option2": "HR",
+    "Option3": "SYS",
+    "Option4": "PUBLIC",
+    "Answer": "SYS"
+  },
+  {
+    "question_no.": 37,
+    "Question": "What is 'Flashback Technology' in Oracle?",
+    "Option1": "A tool for performing rapid backups.",
+    "Option2": "A set of features that allow users to view or rewind data to a past state without needing to restore from a backup.",
+    "Option3": "A method for encrypting data.",
+    "Option4": "A way to accelerate query execution.",
+    "Answer": "A set of features that allow users to view or rewind data to a past state without needing to restore from a backup."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is 'Optimizer' in Oracle?",
+    "Option1": "A tool for backing up data.",
+    "Option2": "A component that determines the most efficient way to execute a SQL statement.",
+    "Option3": "A service for managing user accounts.",
+    "Option4": "A process for data replication.",
+    "Answer": "A component that determines the most efficient way to execute a SQL statement."
+  },
+  {
+    "question_no.": 39,
+    "Question": "Which type of SQL statement deals with user permissions and access control?",
+    "Option1": "DDL (Data Definition Language)",
+    "Option2": "DML (Data Manipulation Language)",
+    "Option3": "DCL (Data Control Language)",
+    "Option4": "TCL (Transaction Control Language)",
+    "Answer": "DCL (Data Control Language)"
+  },
+  {
+    "question_no.": 40,
+    "Question": "What is a 'Rollback Segment' (now managed by UNDO tablespace)?",
+    "Option1": "A segment used to store database objects.",
+    "Option2": "A storage area used to store the old values of data before they are changed by a transaction, for undo and read consistency.",
+    "Option3": "A segment for temporary data.",
+    "Option4": "A segment for redo logs.",
+    "Answer": "A storage area used to store the old values of data before they are changed by a transaction, for undo and read consistency."
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is 'Oracle Real Application Clusters (RAC)'?",
+    "Option1": "A single-instance database deployment.",
+    "Option2": "A high-availability option that allows multiple computers to run Oracle Database software simultaneously accessing a single database.",
+    "Option3": "A disaster recovery solution.",
+    "Option4": "A cloud-based database service.",
+    "Answer": "A high-availability option that allows multiple computers to run Oracle Database software simultaneously accessing a single database."
+  },
+  {
+    "question_no.": 42,
+    "Question": "What is the purpose of 'ANALYZE TABLE' (or DBMS_STATS.GATHER_STATS) in Oracle?",
+    "Option1": "To fix corrupted tables.",
+    "Option2": "To collect statistics about tables, indexes, and schemas for the Optimizer to use in generating optimal execution plans.",
+    "Option3": "To add new columns to a table.",
+    "Option4": "To delete data from a table.",
+    "Answer": "To collect statistics about tables, indexes, and schemas for the Optimizer to use in generating optimal execution plans."
+  },
+  {
+    "question_no.": 43,
+    "Question": "Which type of constraint ensures that a column cannot contain NULL values?",
+    "Option1": "UNIQUE",
+    "Option2": "PRIMARY KEY",
+    "Option3": "NOT NULL",
+    "Option4": "CHECK",
+    "Answer": "NOT NULL"
+  },
+  {
+    "question_no.": 44,
+    "Question": "What is a 'Database Link' in Oracle?",
+    "Option1": "A physical network connection.",
+    "Option2": "A schema object that allows a user to access objects in a remote database as if they were local.",
+    "Option3": "A link to a specific row in a table.",
+    "Option4": "A URL for accessing a database.",
+    "Answer": "A schema object that allows a user to access objects in a remote database as if they were local."
+  },
+  {
+    "question_no.": 45,
+    "Question": "What is 'Materialized View' in Oracle?",
+    "Option1": "A view that is always up-to-date with the base table.",
+    "Option2": "A physical copy of the result set of a query, which can be periodically refreshed.",
+    "Option3": "A view that can be updated directly.",
+    "Option4": "A type of temporary view.",
+    "Answer": "A physical copy of the result set of a query, which can be periodically refreshed."
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is 'PGA (Program Global Area)' in Oracle?",
+    "Option1": "A shared memory area for all users.",
+    "Option2": "A private memory area allocated for each server process or background process.",
+    "Option3": "A disk storage area.",
+    "Option4": "A network buffer.",
+    "Answer": "A private memory area allocated for each server process or background process."
+  },
+  {
+    "question_no.": 47,
+    "Question": "Which background process manages and cleans up terminated processes and releases their resources?",
+    "Option1": "DBWn",
+    "Option2": "LGWR",
+    "Option3": "PMON (Process Monitor)",
+    "Option4": "SMON (System Monitor)",
+    "Answer": "PMON (Process Monitor)"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Which background process performs instance recovery at startup and coalesces free space?",
+    "Option1": "PMON",
+    "Option2": "LGWR",
+    "Option3": "SMON (System Monitor)",
+    "Option4": "CKPT (Checkpoint)",
+    "Answer": "SMON (System Monitor)"
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is 'Shared Pool' within SGA?",
+    "Option1": "Stores data blocks.",
+    "Option2": "Stores SQL statements and PL/SQL code, allowing for reuse and reduced parsing time.",
+    "Option3": "Stores undo information.",
+    "Option4": "Stores redo information.",
+    "Answer": "Stores SQL statements and PL/SQL code, allowing for reuse and reduced parsing time."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is 'Buffer Cache' within SGA?",
+    "Option1": "Stores compiled PL/SQL code.",
+    "Option2": "Stores recently accessed data blocks from data files to minimize disk I/O.",
+    "Option3": "Stores undo data.",
+    "Option4": "Stores redo data.",
+    "Answer": "Stores recently accessed data blocks from data files to minimize disk I/O."
+  },
+  {
+    "question_no.": 51,
+    "Question": "Which SQL command is used to modify existing data in a table?",
+    "Option1": "INSERT",
+    "Option2": "DELETE",
+    "Option3": "UPDATE",
+    "Option4": "ALTER",
+    "Answer": "UPDATE"
+  },
+  {
+    "question_no.": 52,
+    "Question": "Which SQL command is used to remove one or more rows from a table?",
+    "Option1": "UPDATE",
+    "Option2": "INSERT",
+    "Option3": "DELETE FROM",
+    "Option4": "DROP TABLE",
+    "Answer": "DELETE FROM"
+  },
+  {
+    "question_no.": 53,
+    "Question": "What is the purpose of 'GROUP BY' clause?",
+    "Option1": "To sort the result set.",
+    "Option2": "To filter rows based on a condition.",
+    "Option3": "To group rows that have the same values in specified columns into summary rows.",
+    "Option4": "To combine data from multiple tables.",
+    "Answer": "To group rows that have the same values in specified columns into summary rows."
+  },
+  {
+    "question_no.": 54,
+    "Question": "Which clause is used with 'GROUP BY' to filter the grouped results?",
+    "Option1": "WHERE",
+    "Option2": "ORDER BY",
+    "Option3": "HAVING",
+    "Option4": "LIMIT",
+    "Answer": "HAVING"
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is 'Subquery' in SQL?",
+    "Option1": "A query that modifies data.",
+    "Option2": "A query nested inside another SQL query.",
+    "Option3": "A query that combines results from multiple tables.",
+    "Option4": "A query that creates a new table.",
+    "Answer": "A query nested inside another SQL query."
+  },
+  {
+    "question_no.": 56,
+    "Question": "What is a 'Cursor' in PL/SQL?",
+    "Option1": "A pointer to a specific memory location.",
+    "Option2": "A pointer to a private SQL area that stores the parsed SQL statement and the set of rows returned by the query.",
+    "Option3": "A temporary table.",
+    "Option4": "A type of loop.",
+    "Answer": "A pointer to a private SQL area that stores the parsed SQL statement and the set of rows returned by the query."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is an 'Implicit Cursor'?",
+    "Option1": "A cursor explicitly declared by the user.",
+    "Option2": "A cursor automatically opened by Oracle for all DML and single-row SELECT statements.",
+    "Option3": "A cursor used for multi-row queries.",
+    "Option4": "A cursor that requires manual closing.",
+    "Answer": "A cursor automatically opened by Oracle for all DML and single-row SELECT statements."
+  },
+  {
+    "question_no.": 58,
+    "Question": "What is an 'Explicit Cursor'?",
+    "Option1": "A cursor automatically opened by Oracle.",
+    "Option2": "A cursor explicitly declared and managed by the programmer for multi-row SELECT statements.",
+    "Option3": "A cursor used for single-row queries.",
+    "Option4": "A cursor that cannot be closed.",
+    "Answer": "A cursor explicitly declared and managed by the programmer for multi-row SELECT statements."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is a 'Trigger' in Oracle?",
+    "Option1": "A stored procedure.",
+    "Option2": "A PL/SQL block that automatically executes in response to a DML event (INSERT, UPDATE, DELETE) or DDL event on a table or view.",
+    "Option3": "A function that returns a value.",
+    "Option4": "A sequence generator.",
+    "Answer": "A PL/SQL block that automatically executes in response to a DML event (INSERT, UPDATE, DELETE) or DDL event on a table or view."
+  },
+  {
+    "question_no.": 60,
+    "Question": "What is the 'Data Dictionary' in Oracle?",
+    "Option1": "A dictionary of common English words.",
+    "Option2": "A collection of read-only tables and views that contain metadata about the database.",
+    "Option3": "A tool for data encryption.",
+    "Option4": "A log of all database errors.",
+    "Answer": "A collection of read-only tables and views that contain metadata about the database."
+  },
+  {
+    "question_no.": 61,
+    "Question": "Which Data Dictionary view would you query to see a list of all tables owned by the current user?",
+    "Option1": "ALL_TABLES",
+    "Option2": "DBA_TABLES",
+    "Option3": "USER_TABLES",
+    "Option4": "V$DATABASE",
+    "Answer": "USER_TABLES"
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is 'Autocommit' in SQL*Plus?",
+    "Option1": "A feature that automatically rolls back transactions.",
+    "Option2": "A setting that automatically commits every DML statement immediately after execution.",
+    "Option3": "A setting that prevents transactions from being committed.",
+    "Option4": "A feature for automatic data backup.",
+    "Answer": "A setting that automatically commits every DML statement immediately after execution."
+  },
+  {
+    "question_no.": 63,
+    "Question": "What is 'LOB (Large Object)' data type in Oracle?",
+    "Option1": "A data type for small strings.",
+    "Option2": "A data type used to store large amounts of unstructured data, such as images, videos, or large text files (e.g., CLOB, BLOB).",
+    "Option3": "A data type for numbers.",
+    "Option4": "A data type for dates.",
+    "Answer": "A data type used to store large amounts of unstructured data, such as images, videos, or large text files (e.g., CLOB, BLOB)."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is 'AWR (Automatic Workload Repository)' in Oracle?",
+    "Option1": "A tool for generating SQL scripts.",
+    "Option2": "A repository that collects, processes, and maintains performance statistics for problem detection and self-tuning.",
+    "Option3": "A backup storage location.",
+    "Option4": "A user management tool.",
+    "Answer": "A repository that collects, processes, and maintains performance statistics for problem detection and self-tuning."
+  },
+  {
+    "question_no.": 65,
+    "Question": "What is 'ADDM (Automatic Database Diagnostic Monitor)' in Oracle?",
+    "Option1": "A tool for creating new users.",
+    "Option2": "A diagnostic tool that analyzes AWR data to identify root causes of performance problems and recommend solutions.",
+    "Option3": "A security auditing tool.",
+    "Option4": "A tool for data migration.",
+    "Answer": "A diagnostic tool that analyzes AWR data to identify root causes of performance problems and recommend solutions."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is 'SQL Tuning Advisor' in Oracle?",
+    "Option1": "A tool for database installation.",
+    "Option2": "A tool that analyzes SQL statements and recommends ways to improve their performance, such as creating indexes.",
+    "Option3": "A tool for managing table partitions.",
+    "Option4": "A tool for backup and recovery.",
+    "Answer": "A tool that analyzes SQL statements and recommends ways to improve their performance, such as creating indexes."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is 'OEM (Oracle Enterprise Manager)'?",
+    "Option1": "A command-line interface.",
+    "Option2": "A comprehensive suite of web-based tools for managing and monitoring Oracle Database and other Oracle products.",
+    "Option3": "A programming language.",
+    "Option4": "A text editor.",
+    "Answer": "A comprehensive suite of web-based tools for managing and monitoring Oracle Database and other Oracle products."
+  },
+  {
+    "question_no.": 68,
+    "Question": "What is a 'Profile' in Oracle security?",
+    "Option1": "A user's personal information.",
+    "Option2": "A named set of resource limits and password parameters that can be assigned to users.",
+    "Option3": "A type of table.",
+    "Option4": "A backup configuration.",
+    "Answer": "A named set of resource limits and password parameters that can be assigned to users."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is 'Table Partitioning' in Oracle?",
+    "Option1": "Dividing a table into multiple smaller tables.",
+    "Option2": "Dividing a large table into smaller, more manageable pieces called partitions, while still treating it as a single logical table.",
+    "Option3": "Creating a view of a table.",
+    "Option4": "Creating a copy of a table.",
+    "Answer": "Dividing a large table into smaller, more manageable pieces called partitions, while still treating it as a single logical table."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is 'List Partitioning'?",
+    "Option1": "Partitioning based on a range of values.",
+    "Option2": "Partitioning based on discrete values specified for the partitioning column.",
+    "Option3": "Partitioning based on a hash function.",
+    "Option4": "Partitioning based on time intervals.",
+    "Answer": "Partitioning based on discrete values specified for the partitioning column."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is 'Range Partitioning'?",
+    "Option1": "Partitioning based on a hash function.",
+    "Option2": "Partitioning based on a range of values specified for the partitioning column.",
+    "Option3": "Partitioning based on specific discrete values.",
+    "Option4": "Partitioning based on time intervals.",
+    "Answer": "Partitioning based on a range of values specified for the partitioning column."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is 'Hash Partitioning'?",
+    "Option1": "Partitioning based on a range of values.",
+    "Option2": "Partitioning based on a hashing algorithm applied to the partitioning key, distributing rows evenly.",
+    "Option3": "Partitioning based on specific discrete values.",
+    "Option4": "Partitioning based on time intervals.",
+    "Answer": "Partitioning based on a hashing algorithm applied to the partitioning key, distributing rows evenly."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is 'Subpartitioning'?",
+    "Option1": "Creating partitions within a single table.",
+    "Option2": "Dividing each partition of a table into further smaller partitions.",
+    "Option3": "A method for creating temporary tables.",
+    "Option4": "A way to join tables.",
+    "Answer": "Dividing each partition of a table into further smaller partitions."
+  },
+  {
+    "question_no.": 74,
+    "Question": "What is 'Automatic Storage Management (ASM)' in Oracle?",
+    "Option1": "A tool for managing user sessions.",
+    "Option2": "A volume manager and file system for Oracle database files that simplifies storage management and provides striping and mirroring.",
+    "Option3": "A method for automated backup.",
+    "Option4": "A tool for monitoring database performance.",
+    "Answer": "A volume manager and file system for Oracle database files that simplifies storage management and provides striping and mirroring."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What is 'Active Data Guard'?",
+    "Option1": "A basic standby database configuration.",
+    "Option2": "An enhanced Data Guard feature that allows the standby database to be open for read-only access while applying redo logs, enabling offloading queries.",
+    "Option3": "A data encryption standard.",
+    "Option4": "A method for creating physical backups.",
+    "Answer": "An enhanced Data Guard feature that allows the standby database to be open for read-only access while applying redo logs, enabling offloading queries."
+  },
+  {
+    "question_no.": 76,
+    "Question": "What is a 'Snapshot Standby Database'?",
+    "Option1": "A regular physical standby database.",
+    "Option2": "A fully updatable standby database that can be temporarily converted back to a physical standby.",
+    "Option3": "A logical standby database.",
+    "Option4": "A database used for reporting only.",
+    "Answer": "A fully updatable standby database that can be temporarily converted back to a physical standby."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is 'Oracle GoldenGate' primarily used for?",
+    "Option1": "Database security.",
+    "Option2": "High-speed, real-time data replication and integration between heterogeneous systems.",
+    "Option3": "Data warehousing.",
+    "Option4": "Database monitoring.",
+    "Answer": "High-speed, real-time data replication and integration between heterogeneous systems."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is a 'Global Temporary Table' in Oracle?",
+    "Option1": "A temporary table that is visible to all users.",
+    "Option2": "A table whose definition is persistent, but its data is transaction-specific or session-specific.",
+    "Option3": "A table that is deleted after the database instance shuts down.",
+    "Option4": "A table stored only in memory.",
+    "Answer": "A table whose definition is persistent, but its data is transaction-specific or session-specific."
+  },
+  {
+    "question_no.": 79,
+    "Question": "What is 'DBMS_SCHEDULER' package used for?",
+    "Option1": "To manage database users.",
+    "Option2": "To schedule and manage database jobs and tasks.",
+    "Option3": "To perform data backups.",
+    "Option4": "To monitor database performance.",
+    "Answer": "To schedule and manage database jobs and tasks."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is 'SQL LOADER'?",
+    "Option1": "A tool for exporting data from Oracle.",
+    "Option2": "A utility for loading data from external files into Oracle database tables.",
+    "Option3": "A tool for optimizing SQL queries.",
+    "Option4": "A utility for backing up the database.",
+    "Answer": "A utility for loading data from external files into Oracle database tables."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is 'Oracle Data Pump'?",
+    "Option1": "A tool for monitoring database activity.",
+    "Option2": "A high-speed utility for exporting and importing data and metadata between Oracle databases.",
+    "Option3": "A data encryption tool.",
+    "Option4": "A tool for generating reports.",
+    "Answer": "A high-speed utility for exporting and importing data and metadata between Oracle databases."
+  },
+  {
+    "question_no.": 82,
+      "Question": "What is 'PDB (Pluggable Database)' in Oracle 12c and later?",
+      "Option1": "A type of temporary table.",
+      "Option2": "A standalone database that can be plugged into a Container Database (CDB).",
+      "Option3": "A backup of a database.",
+      "Option4": "A schema within a database.",
+      "Answer": "A standalone database that can be plugged into a Container Database (CDB)."
+    },
+    {
+      "question_no.": 83,
+      "Question": "What is 'CDB (Container Database)' in Oracle 12c and later?",
+      "Option1": "A database that contains only user data.",
+      "Option2": "A database that can contain multiple Pluggable Databases (PDBs).",
+      "Option3": "A single-instance database.",
+      "Option4": "A database specifically for data warehousing.",
+      "Answer": "A database that can contain multiple Pluggable Databases (PDBs)."
+    },
+    {
+      "question_no.": 84,
+      "Question": "What is the purpose of 'Multitenant Architecture' in Oracle 12c and later?",
+      "Option1": "To allow multiple users to connect to a single database.",
+      "Option2": "To enable consolidation of multiple databases into a single container database, improving resource utilization and manageability.",
+      "Option3": "To secure data at a finer granularity.",
+      "Option4": "To simplify database upgrades.",
+      "Answer": "To enable consolidation of multiple databases into a single container database, improving resource utilization and manageability."
+    },
+    {
+      "question_no.": 85,
+      "Question": "What is 'Shared Server' architecture in Oracle?",
+      "Option1": "Each user process has a dedicated server process.",
+      "Option2": "Multiple user processes share a pool of server processes, reducing resource consumption.",
+      "Option3": "All server processes run on a single CPU.",
+      "Option4": "Only one user can connect at a time.",
+      "Answer": "Multiple user processes share a pool of server processes, reducing resource consumption."
+    },
+    {
+      "question_no.": 86,
+      "Question": "What is 'Dedicated Server' architecture in Oracle?",
+      "Option1": "Multiple user processes share a pool of server processes.",
+      "Option2": "Each user process gets a dedicated server process to handle its requests.",
+      "Option3": "Server processes are managed by a single thread.",
+      "Option4": "Only one type of client can connect.",
+      "Answer": "Each user process gets a dedicated server process to handle its requests."
+    },
+    {
+      "question_no.": 87,
+      "Question": "What is 'SQL Developer'?",
+      "Option1": "A command-line tool for Oracle.",
+      "Option2": "A free graphical tool provided by Oracle for database development and administration.",
+      "Option3": "A programming language.",
+      "Option4": "A tool for database performance monitoring only.",
+      "Answer": "A free graphical tool provided by Oracle for database development and administration."
+    },
+    {
+      "question_no.": 88,
+      "Question": "What is 'Analytic Functions' in Oracle SQL?",
+      "Option1": "Functions that perform basic arithmetic operations.",
+      "Option2": "Functions that compute an aggregate value based on a group of rows, but return a single result row for each group.",
+      "Option3": "Functions that calculate an aggregate value over a group of rows and return multiple rows for each group.",
+      "Option4": "Functions that only work on single rows.",
+      "Answer": "Functions that calculate an aggregate value over a group of rows and return multiple rows for each group."
+    },
+    {
+      "question_no.": 89,
+      "Question": "Which Analytic Function is used to assign a unique rank within a specified partition?",
+      "Option1": "SUM() OVER()",
+      "Option2": "COUNT() OVER()",
+      "Option3": "ROW_NUMBER() OVER()",
+      "Option4": "RANK() OVER()",
+      "Answer": "RANK() OVER()"
+    },
+    {
+      "question_no.": 90,
+      "Question": "What is 'Window Functions' in Oracle SQL?",
+      "Option1": "Functions that operate on the entire result set.",
+      "Option2": "A general term for analytic functions that perform calculations across a set of table rows that are related to the current row.",
+      "Option3": "Functions that are only used for security.",
+      "Option4": "Functions that only work on single rows.",
+      "Answer": "A general term for analytic functions that perform calculations across a set of table rows that are related to the current row."
+    },
+    {
+      "question_no.": 91,
+      "Question": "What is 'Data Encryption' in Oracle?",
+      "Option1": "Storing data in plain text.",
+      "Option2": "The process of converting data into a coded format to prevent unauthorized access.",
+      "Option3": "A method for data compression.",
+      "Option4": "A way to backup data.",
+      "Answer": "The process of converting data into a coded format to prevent unauthorized access."
+    },
+    {
+      "question_no.": 92,
+      "Question": "What is 'Transparent Data Encryption (TDE)' in Oracle?",
+      "Option1": "Encryption that requires application changes.",
+      "Option2": "Encryption of data at rest in data files without requiring changes to applications.",
+      "Option3": "Encryption of data in transit only.",
+      "Option4": "A method for encrypting only specific columns.",
+      "Answer": "Encryption of data at rest in data files without requiring changes to applications."
+    },
+    {
+      "question_no.": 93,
+      "Question": "What is a 'Wallet' in Oracle security?",
+      "Option1": "A physical wallet.",
+      "Option2": "A password-protected container that stores authentication and encryption credentials for Oracle products.",
+      "Option3": "A file that stores user data.",
+      "Option4": "A log file.",
+      "Answer": "A password-protected container that stores authentication and encryption credentials for Oracle products."
+    },
+    {
+      "question_no.": 94,
+      "Question": "What is 'Auditing' in Oracle Database?",
+      "Option1": "Monitoring database performance.",
+      "Option2": "The process of tracking and recording specific database actions, often for security or compliance purposes.",
+      "Option3": "Optimizing SQL queries.",
+      "Option4": "Backing up data.",
+      "Answer": "The process of tracking and recording specific database actions, often for security or compliance purposes."
+    },
+    {
+      "question_no.": 95,
+      "Question": "What is 'Fine-Grained Auditing (FGA)'?",
+      "Option1": "Auditing only system-level events.",
+      "Option2": "A feature that enables auditing of data access based on specific conditions, such as the data accessed or the time of access.",
+      "Option3": "Auditing only DDL statements.",
+      "Option4": "Auditing that cannot be customized.",
+      "Answer": "A feature that enables auditing of data access based on specific conditions, such as the data accessed or the time of access."
+    },
+    {
+      "question_no.": 96,
+      "Question": "What is 'Database Vault' in Oracle?",
+      "Option1": "A tool for managing user privileges.",
+      "Option2": "A security option that prevents highly privileged users from accessing sensitive application data.",
+      "Option3": "A physical storage device.",
+      "Option4": "A backup and recovery solution.",
+      "Answer": "A security option that prevents highly privileged users from accessing sensitive application data."
+    },
+    {
+      "question_no.": 97,
+      "Question": "What is 'Real Application Security (RAS)' in Oracle?",
+      "Option1": "A security feature for traditional client-server applications.",
+      "Option2": "A security framework that provides fine-grained authorization and auditing for modern multi-tier applications.",
+      "Option3": "A method for encrypting data.",
+      "Option4": "A tool for network security.",
+      "Answer": "A security framework that provides fine-grained authorization and auditing for modern multi-tier applications."
+    },
+    {
+      "question_no.": 98,
+      "Question": "What is a 'Resource Manager' in Oracle?",
+      "Option1": "A tool for managing storage space.",
+      "Option2": "A feature that enables you to control resource allocation among different users, sessions, or applications.",
+      "Option3": "A utility for backing up data.",
+      "Option4": "A tool for monitoring network traffic.",
+      "Answer": "A feature that enables you to control resource allocation among different users, sessions, or applications."
+    },
+    {
+      "question_no.": 99,
+      "Question": "What is 'DBA_OBJECTS' view used for?",
+      "Option1": "To view information about all database objects in the database.",
+      "Option2": "To view information about objects owned by the current user.",
+      "Option3": "To view information about system-level objects only.",
+      "Option4": "To view information about table data.",
+      "Answer": "To view information about all database objects in the database."
+    },
+    {
+      "question_no.": 100,
+      "Question": "What is 'V$SESSION' view used for?",
+      "Option1": "To view historical session information.",
+      "Option2": "To view current session information, including active SQL, user, and status.",
+      "Option3": "To view session statistics only.",
+      "Option4": "To view system parameters.",
+      "Answer": "To view current session information, including active SQL, user, and status."
+    },
+    {
+      "question_no.": 101,
+      "Question": "What is 'V$SQL' view used for?",
+      "Option1": "To view currently executing SQL statements.",
+      "Option2": "To view details about SQL statements in the shared pool, including execution plans and statistics.",
+      "Option3": "To view historical SQL execution data.",
+      "Option4": "To view SQL syntax errors.",
+      "Answer": "To view details about SQL statements in the shared pool, including execution plans and statistics."
+    },
+    {
+      "question_no.": 102,
+      "Question": "What is 'Explain Plan' in Oracle?",
+      "Option1": "A way to document SQL queries.",
+      "Option2": "A feature that displays the execution plan (how Oracle will execute a SQL statement) chosen by the Optimizer.",
+      "Option3": "A tool for optimizing PL/SQL code.",
+      "Option4": "A method for data migration.",
+      "Answer": "A feature that displays the execution plan (how Oracle will execute a SQL statement) chosen by the Optimizer."
+    },
+    {
+      "question_no.": 103,
+      "Question": "What is 'Bind Variables' in Oracle SQL?",
+      "Option1": "Variables used to store query results.",
+      "Option2": "Placeholders in SQL statements that allow the database to reuse parsed statements, improving performance and preventing SQL injection.",
+      "Option3": "Variables used for internal database operations.",
+      "Option4": "Variables that are part of the table schema.",
+      "Answer": "Placeholders in SQL statements that allow the database to reuse parsed statements, improving performance and preventing SQL injection."
+    },
+    {
+      "question_no.": 104,
+      "Question": "What is 'SQL Injection'?",
+      "Option1": "A method for optimizing SQL queries.",
+      "Option2": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution.",
+      "Option3": "A way to combine multiple SQL statements.",
+      "Option4": "A type of SQL error.",
+      "Answer": "A code injection technique used to attack data-driven applications, in which malicious SQL statements are inserted into an entry field for execution."
+    },
+    {
+      "question_no.": 105,
+      "Question": "What is 'Cost-Based Optimizer (CBO)'?",
+      "Option1": "An optimizer that uses predefined rules.",
+      "Option2": "An optimizer that uses statistics to determine the most efficient execution plan for a SQL statement, aiming to minimize resource consumption.",
+      "Option3": "An optimizer that only works on small tables.",
+      "Option4": "An optimizer that always uses indexes.",
+      "Answer": "An optimizer that uses statistics to determine the most efficient execution plan for a SQL statement, aiming to minimize resource consumption."
+    },
+    {
+      "question_no.": 106,
+      "Question": "What is 'Rule-Based Optimizer (RBO)'?",
+      "Option1": "An optimizer that is still widely used in modern Oracle versions.",
+      "Option2": "An older optimizer that uses a predefined set of rules to determine the execution plan, regardless of data statistics.",
+      "Option3": "An optimizer that analyzes query costs.",
+      "Option4": "An optimizer that always chooses the fastest plan.",
+      "Answer": "An older optimizer that uses a predefined set of rules to determine the execution plan, regardless of data statistics."
+    },
+    {
+      "question_no.": 107,
+      "Question": "What is 'SQL Plan Baseline'?",
+      "Option1": "A new SQL query.",
+      "Option2": "A set of accepted execution plans for a given SQL statement, ensuring consistent performance over time.",
+      "Option3": "A way to disable SQL optimization.",
+      "Option4": "A method for generating random SQL plans.",
+      "Answer": "A set of accepted execution plans for a given SQL statement, ensuring consistent performance over time."
+    },
+    {
+      "question_no.": 108,
+      "Question": "What is 'Automatic SQL Tuning'?",
+      "Option1": "Manual SQL tuning performed by a DBA.",
+      "Option2": "An Oracle feature that automatically identifies and tunes problematic SQL statements.",
+      "Option3": "A tool for writing SQL queries.",
+      "Option4": "A method for securing SQL statements.",
+      "Answer": "An Oracle feature that automatically identifies and tunes problematic SQL statements."
+    },
+    {
+      "question_no.": 109,
+      "Question": "What is 'Rowid' in Oracle?",
+      "Option1": "A logical identifier for a row.",
+      "Option2": "A pseudo-column that uniquely identifies a row within a table and specifies its physical address.",
+      "Option3": "A primary key.",
+      "Option4": "A column that stores row numbers.",
+      "Answer": "A pseudo-column that uniquely identifies a row within a table and specifies its physical address."
+    },
+    {
+      "question_no.": 110,
+      "Question": "What is 'Flashback Query'?",
+      "Option1": "A query that retrieves current data only.",
+      "Option2": "A feature that allows you to query past states of data without requiring a full database restore.",
+      "Option3": "A query that optimizes flashback operations.",
+      "Option4": "A query that generates historical reports.",
+      "Answer": "A feature that allows you to query past states of data without requiring a full database restore."
+    },
+    {
+      "question_no.": 111,
+      "Question": "What is 'Flashback Database'?",
+      "Option1": "Restoring a database from a full backup.",
+      "Option2": "Rewinding an entire database to a previous point in time using flashback logs, which is faster than traditional point-in-time recovery.",
+      "Option3": "Creating a new database from an existing one.",
+      "Option4": "A tool for migrating database versions.",
+      "Answer": "Rewinding an entire database to a previous point in time using flashback logs, which is faster than traditional point-in-time recovery."
+    },
+    {
+      "question_no.": 112,
+      "Question": "What is a 'Roll Forward' in database recovery?",
+      "Option1": "Undoing changes to the database.",
+      "Option2": "Applying redo log entries to a restored backup to bring the database to a more current state.",
+      "Option3": "Creating a new backup.",
+      "Option4": "Deleting old log files.",
+      "Answer": "Applying redo log entries to a restored backup to bring the database to a more current state."
+    },
+    {
+      "question_no.": 113,
+      "Question": "What is 'Archivelog Mode' in Oracle?",
+      "Option1": "A mode where redo logs are not archived.",
+      "Option2": "A database mode where filled redo log files are archived before being reused, enabling full database recovery.",
+      "Option3": "A mode for read-only databases.",
+      "Option4": "A mode for development environments only.",
+      "Answer": "A database mode where filled redo log files are archived before being reused, enabling full database recovery."
+    },
+    {
+      "question_no.": 114,
+      "Question": "What is 'Noarchivelog Mode' in Oracle?",
+      "Option1": "A mode that allows full database recovery.",
+      "Option2": "A database mode where filled redo log files are not archived, preventing point-in-time recovery after instance failure or media loss.",
+      "Option3": "A mode for production databases.",
+      "Option4": "A mode that ensures maximum data durability.",
+      "Answer": "A database mode where filled redo log files are not archived, preventing point-in-time recovery after instance failure or media loss."
+    },
+    {
+      "question_no.": 115,
+      "Question": "What is a 'Control File' in Oracle?",
+      "Option1": "A file that stores user data.",
+      "Option2": "A small binary file that maintains the physical structure of the database, including data file and redo log file locations.",
+      "Option3": "A file that stores SQL queries.",
+      "Option4": "A file that stores database configurations only.",
+      "Answer": "A small binary file that maintains the physical structure of the database, including data file and redo log file locations."
+    },
+    {
+      "question_no.": 116,
+      "Question": "What is 'PFILE' (Parameter File) or 'SPFILE' (Server Parameter File)?",
+      "Option1": "Files that store user credentials.",
+      "Option2": "Files that contain initialization parameters for the Oracle instance.",
+      "Option3": "Files that store SQL scripts.",
+      "Option4": "Files that store database backup information.",
+      "Answer": "Files that contain initialization parameters for the Oracle instance."
+    },
+    {
+      "question_no.": 117,
+      "Question": "What is 'Tablespace Quota'?",
+      "Option1": "The maximum number of tables a user can create.",
+      "Option2": "A limit on the amount of disk space a user can allocate in a specific tablespace.",
+      "Option3": "The maximum number of rows a table can store.",
+      "Option4": "A limit on the number of connections to a tablespace.",
+      "Answer": "A limit on the amount of disk space a user can allocate in a specific tablespace."
+    },
+    {
+      "question_no.": 118,
+      "Question": "What is 'Privileges' in Oracle?",
+      "Option1": "Permissions to create database objects.",
+      "Option2": "Permissions granted to users or roles to perform specific actions on database objects or system operations.",
+      "Option3": "Permissions to connect to the database only.",
+      "Option4": "Permissions to view metadata only.",
+      "Answer": "Permissions granted to users or roles to perform specific actions on database objects or system operations."
+    },
+    {
+      "question_no.": 119,
+      "Question": "What is a 'Role' in Oracle security?",
+      "Option1": "A specific user account.",
+      "Option2": "A named group of related privileges that can be granted to users.",
+      "Option3": "A type of table.",
+      "Option4": "A security policy.",
+      "Answer": "A named group of related privileges that can be granted to users."
+    },
+    {
+      "question_no.": 120,
+      "Question": "Which SQL command is used to grant privileges to a user or role?",
+      "Option1": "REVOKE",
+      "Option2": "GRANT",
+      "Option3": "CREATE USER",
+      "Option4": "ALTER USER",
+      "Answer": "GRANT"
+    },
+    {
+      "question_no.": 121,
+      "Question": "Which SQL command is used to revoke privileges from a user or role?",
+      "Option1": "GRANT",
+      "Option2": "REVOKE",
+      "Option3": "DROP USER",
+      "Option4": "DELETE FROM",
+      "Answer": "REVOKE"
+    },
+    {
+      "question_no.": 122,
+      "Question": "What is 'SYSAUX' tablespace in Oracle?",
+      "Option1": "A tablespace for user data.",
+      "Option2": "A mandatory auxiliary tablespace that stores various database components and features, reducing load on SYSTEM tablespace.",
+      "Option3": "A tablespace for temporary data.",
+      "Option4": "A tablespace for undo segments.",
+      "Answer": "A mandatory auxiliary tablespace that stores various database components and features, reducing load on SYSTEM tablespace."
+    },
+    {
+      "question_no.": 123,
+      "Question": "What is 'TEMP' tablespace in Oracle?",
+      "Option1": "A tablespace for permanent user data.",
+      "Option2": "A tablespace used for sorting, hashing, and other temporary operations during query execution.",
+      "Option3": "A tablespace for system metadata.",
+      "Option4": "A tablespace for redo logs.",
+      "Answer": "A tablespace used for sorting, hashing, and other temporary operations during query execution."
+    },
+    {
+      "question_no.": 124,
+      "Question": "What is 'Temporary Tablespace Group'?",
+      "Option1": "A group of permanent tablespaces.",
+      "Option2": "A collection of temporary tablespaces that can be assigned to users, allowing for better management of temporary space.",
+      "Option3": "A group of undo tablespaces.",
+      "Option4": "A group of data files.",
+      "Answer": "A collection of temporary tablespaces that can be assigned to users, allowing for better management of temporary space."
+    },
+    {
+      "question_no.": 125,
+      "Question": "What is 'Checkpoint' in Oracle?",
+      "Option1": "A point in time when the database is backed up.",
+      "Option2": "A database event where all modified data blocks in the buffer cache are written to data files, and the control file and data file headers are updated.",
+      "Option3": "A point in time when a transaction is committed.",
+      "Option4": "A recovery operation.",
+      "Answer": "A database event where all modified data blocks in the buffer cache are written to data files, and the control file and data file headers are updated."
+    },
+    {
+      "question_no.": 126,
+      "Question": "What is 'Fast Recovery Area (FRA)' in Oracle?",
+      "Option1": "A dedicated area for storing database data files.",
+      "Option2": "A disk location that can be configured to store all recovery-related files, such as backups, redo logs, and flashback logs.",
+      "Option3": "A memory area for faster recovery.",
+      "Option4": "A network storage location.",
+      "Answer": "A disk location that can be configured to store all recovery-related files, such as backups, redo logs, and flashback logs."
+    },
+    {
+      "question_no.": 127,
+      "Question": "What is 'Block Change Tracking' in RMAN?",
+      "Option1": "Tracking changes in data blocks in real-time for faster incremental backups.",
+      "Option2": "A method for auditing block access.",
+      "Option3": "A way to prevent block corruption.",
+      "Option4": "A feature for optimizing block writes.",
+      "Answer": "Tracking changes in data blocks in real-time for faster incremental backups."
+    },
+    {
+      "question_no.": 128,
+      "Question": "What is 'Oracle Restart'?",
+      "Option1": "A full database restart.",
+      "Option2": "A feature that automatically restarts Oracle components (database, listener, ASM) after a server reboot or component failure.",
+      "Option3": "A tool for manual database shutdown.",
+      "Option4": "A method for patching the database.",
+      "Answer": "A feature that automatically restarts Oracle components (database, listener, ASM) after a server reboot or component failure."
+    },
+    {
+      "question_no.": 129,
+      "Question": "What is 'Data Pump Export'?",
+      "Option1": "A utility to load data into Oracle.",
+      "Option2": "A utility to extract data and metadata from an Oracle database to a set of operating system files (dump files).",
+      "Option3": "A tool for viewing data.",
+      "Option4": "A method for encrypting data.",
+      "Answer": "A utility to extract data and metadata from an Oracle database to a set of operating system files (dump files)."
+    },
+    {
+      "question_no.": 130,
+      "Question": "What is 'Data Pump Import'?",
+      "Option1": "A utility to extract data from Oracle.",
+      "Option2": "A utility to load data and metadata from Oracle Data Pump dump files into an Oracle database.",
+      "Option3": "A tool for data transformation.",
+      "Option4": "A method for data compression.",
+      "Answer": "A utility to load data and metadata from Oracle Data Pump dump files into an Oracle database."
+    },
+    {
+      "question_no.": 131,
+      "Question": "What is 'Database Link'?",
+      "Option1": "A physical connection.",
+      "Option2": "A logical object that defines a path from one database to another, allowing users to access remote database objects.",
+      "Option3": "A backup mechanism.",
+      "Option4": "A type of network cable.",
+      "Answer": "A logical object that defines a path from one database to another, allowing users to access remote database objects."
+    },
+    {
+      "question_no.": 132,
+      "Question": "What is a 'Global Name' in Oracle?",
+      "Option1": "The name of a local database instance.",
+      "Option2": "A unique name for a database within a distributed environment.",
+      "Option3": "The name of a database user.",
+      "Option4": "A common name for a table.",
+      "Answer": "A unique name for a database within a distributed environment."
+    },
+    {
+      "question_no.": 133,
+      "Question": "What is 'Distributed Transaction' in Oracle?",
+      "Option1": "A transaction that affects only one database.",
+      "Option2": "A transaction that involves updates to data on multiple, distinct network nodes.",
+      "Option3": "A transaction that is not committed.",
+      "Option4": "A transaction that is read-only.",
+      "Answer": "A transaction that involves updates to data on multiple, distinct network nodes."
+    },
+    {
+      "question_no.": 134,
+      "Question": "What is 'Two-Phase Commit (2PC)' protocol?",
+      "Option1": "A protocol for single-database transactions.",
+      "Option2": "A distributed transaction protocol that ensures atomicity across multiple participants.",
+      "Option3": "A protocol for network communication.",
+      "Option4": "A protocol for data encryption.",
+      "Answer": "A distributed transaction protocol that ensures atomicity across multiple participants."
+    },
+    {
+      "question_no.": 135,
+      "Question": "What is 'XA Transaction'?",
+      "Option1": "A transaction that is specific to a single database.",
+      "Option2": "A distributed transaction that conforms to the XA standard, often used in application servers (e.g., Java EE).",
+      "Option3": "A read-only transaction.",
+      "Option4": "A transaction that bypasses consistency checks.",
+      "Answer": "A distributed transaction that conforms to the XA standard, often used in application servers (e.g., Java EE)."
+    },
+    {
+      "question_no.": 136,
+      "Question": "What is 'Oracle Database Gateway'?",
+      "Option1": "A tool for database security.",
+      "Option2": "A product that enables Oracle applications to access data stored in non-Oracle systems.",
+      "Option3": "A tool for database migration.",
+      "Option4": "A tool for monitoring database performance.",
+      "Answer": "A product that enables Oracle applications to access data stored in non-Oracle systems."
+    },
+    {
+      "question_no.": 137,
+      "Question": "What is 'Heterogeneous Services' in Oracle?",
+      "Option1": "Services for managing homogenous databases.",
+      "Option2": "A component that enables Oracle Database to integrate with and access non-Oracle systems using generic connectivity or specific agents.",
+      "Option3": "Services for cloud deployments.",
+      "Option4": "Services for data warehousing.",
+      "Answer": "A component that enables Oracle Database to integrate with and access non-Oracle systems using generic connectivity or specific agents."
+    },
+    {
+      "question_no.": 138,
+      "Question": "What is 'SQL*Net'?",
+      "Option1": "A programming language.",
+      "Option2": "Oracle's network interface, allowing clients to connect to and communicate with the Oracle Database server.",
+      "Option3": "A tool for database backup.",
+      "Option4": "A data definition language.",
+      "Answer": "Oracle's network interface, allowing clients to connect to and communicate with the Oracle Database server."
+    },
+    {
+      "question_no.": 139,
+      "Question": "What is 'TNSNAMES.ORA' file?",
+      "Option1": "A file that stores database passwords.",
+      "Option2": "A configuration file that contains network service names and their connection descriptors for Oracle clients.",
+      "Option3": "A file that stores SQL queries.",
+      "Option4": "A file that stores database error logs.",
+      "Answer": "A configuration file that contains network service names and their connection descriptors for Oracle clients."
+    },
+    {
+      "question_no.": 140,
+      "Question": "What is 'LISTENER.ORA' file?",
+      "Option1": "A file for client configuration.",
+      "Option2": "A configuration file for the Oracle Net Listener, defining its properties and the databases it serves.",
+      "Option3": "A file for database backup settings.",
+      "Option4": "A file for Oracle instance parameters.",
+      "Answer": "A configuration file for the Oracle Net Listener, defining its properties and the databases it serves."
+    },
+    {
+      "question_no.": 141,
+      "Question": "What is 'WAL (Write-Ahead Logging)' in Oracle?",
+      "Option1": "A technique for writing data blocks directly to data files.",
+      "Option2": "A logging protocol where all changes are written to the redo log before being applied to the data files, ensuring durability.",
+      "Option3": "A method for reading data before writing.",
+      "Option4": "A protocol for network communication.",
+      "Answer": "A logging protocol where all changes are written to the redo log before being applied to the data files, ensuring durability."
+    },
+    {
+      "question_no.": 142,
+      "Question": "What is 'Database Recovery'?",
+      "Option1": "Restoring data from a lost database.",
+      "Option2": "The process of restoring a database to a consistent state after a failure, using backups and redo logs.",
+      "Option3": "A method for optimizing database performance.",
+      "Option4": "A tool for data migration.",
+      "Answer": "The process of restoring a database to a consistent state after a failure, using backups and redo logs."
+    },
+    {
+      "question_no.": 143,
+      "Question": "What is a 'Hot Backup' (Online Backup) in Oracle?",
+      "Option1": "A backup performed when the database is shut down.",
+      "Option2": "A backup performed while the database is open and accessible to users.",
+      "Option3": "A backup that only includes data files.",
+      "Option4": "A backup that requires specific commands for each table.",
+      "Answer": "A backup performed while the database is open and accessible to users."
+    },
+    {
+      "question_no.": 144,
+      "Question": "What is a 'Cold Backup' (Offline Backup) in Oracle?",
+      "Option1": "A backup performed while the database is open.",
+      "Option2": "A backup performed when the database is shut down cleanly.",
+      "Option3": "A backup that only includes redo logs.",
+      "Option4": "A backup that can be performed without any special permissions.",
+      "Answer": "A backup performed when the database is shut down cleanly."
+    },
+    {
+      "question_no.": 145,
+      "Question": "What is 'User-Managed Backup' in Oracle?",
+      "Option1": "Backups managed by RMAN.",
+      "Option2": "Backups performed using operating system commands (e.g., copying files) by the database administrator.",
+      "Option3": "Backups managed by an automated script.",
+      "Option4": "Backups that are automatically created by the database.",
+      "Answer": "Backups performed using operating system commands (e.g., copying files) by the database administrator."
+    },
+    {
+      "question_no.": 146,
+      "Question": "What is 'RMAN (Recovery Manager)' in Oracle?",
+      "Option1": "A command-line tool for SQL queries.",
+      "Option2": "An Oracle utility that provides a comprehensive and efficient solution for database backup and recovery.",
+      "Option3": "A tool for database performance tuning.",
+      "Option4": "A tool for user management.",
+      "Answer": "An Oracle utility that provides a comprehensive and efficient solution for database backup and recovery."
+    },
+    {
+      "question_no.": 147,
+      "Question": "What is 'Control File Autobackup' in RMAN?",
+      "Option1": "Manually backing up the control file.",
+      "Option2": "A feature that automatically backs up the control file (and spfile) after certain RMAN operations, ensuring critical metadata is always protected.",
+      "Option3": "A backup of user data.",
+      "Option4": "A backup that is not recoverable.",
+      "Answer": "A feature that automatically backs up the control file (and spfile) after certain RMAN operations, ensuring critical metadata is always protected."
+    },
+    {
+      "question_no.": 148,
+      "Question": "What is 'Block Media Recovery' in RMAN?",
+      "Option1": "Recovering an entire data file.",
+      "Option2": "Recovering only specific corrupted data blocks within a data file, minimizing recovery time.",
+      "Option3": "Recovering a lost control file.",
+      "Option4": "Recovering the entire database.",
+      "Answer": "Recovering only specific corrupted data blocks within a data file, minimizing recovery time."
+    },
+    {
+      "question_no.": 149,
+      "Question": "What is 'Data Pump Network Mode'?",
+      "Option1": "Importing/exporting data using local files.",
+      "Option2": "Data Pump operation that exports/imports data directly between two databases over the network, without creating intermediate dump files.",
+      "Option3": "A mode for encrypted data transfer.",
+      "Option4": "A mode for slow data transfer.",
+      "Answer": "Data Pump operation that exports/imports data directly between two databases over the network, without creating intermediate dump files."
+    },
+    {
+      "question_no.": 150,
+      "Question": "What is 'SQL LOADER' used for?",
+      "Option1": "Exporting data from Oracle.",
+      "Option2": "Loading data from external flat files (e.g., CSV, text files) into Oracle database tables.",
+      "Option3": "Optimizing SQL queries.",
+      "Option4": "Performing database backups.",
+      "Answer": "Loading data from external flat files (e.g., CSV, text files) into Oracle database tables."
+    },
+    {
+      "question_no.": 151,
+      "Question": "What is 'External Tables' in Oracle?",
+      "Option1": "Tables that store data internally in the database.",
+      "Option2": "Tables whose metadata is stored in the database, but whose data resides in external operating system files.",
+      "Option3": "Tables used for temporary storage.",
+      "Option4": "Tables that are part of a remote database.",
+      "Answer": "Tables whose metadata is stored in the database, but whose data resides in external operating system files."
+    },
+    {
+      "question_no.": 152,
+      "Question": "What is 'DBMS_STATS' package used for?",
+      "Option1": "To manage user sessions.",
+      "Option2": "To gather, view, and manage optimizer statistics for database objects.",
+      "Option3": "To schedule jobs.",
+      "Option4": "To perform data migrations.",
+      "Answer": "To gather, view, and manage optimizer statistics for database objects."
+    },
+    {
+      "question_no.": 153,
+      "Question": "What is 'Automatic Diagnostic Repository (ADR)'?",
+      "Option1": "A repository for user data.",
+      "Option2": "A file-based repository for all diagnostic data (traces, logs, dumps, health monitor reports) for an Oracle instance.",
+      "Option3": "A memory area for diagnostics.",
+      "Option4": "A network monitoring tool.",
+      "Answer": "A file-based repository for all diagnostic data (traces, logs, dumps, health monitor reports) for an Oracle instance."
+    },
+    {
+      "question_no.": 154,
+      "Question": "What is 'ADRCI (ADR Command Interpreter)'?",
+      "Option1": "A graphical tool for ADR.",
+      "Option2": "A command-line utility for managing and viewing diagnostic data in the ADR.",
+      "Option3": "A tool for performance tuning.",
+      "Option4": "A tool for data encryption.",
+      "Answer": "A command-line utility for managing and viewing diagnostic data in the ADR."
+    },
+    {
+      "question_no.": 155,
+      "Question": "What is 'Database Replay'?",
+      "Option1": "A tool for replaying SQL queries.",
+      "Option2": "A feature that captures real production workload on a source system and replays it on a test system for realistic testing.",
+      "Option3": "A method for database backup.",
+      "Option4": "A way to restore data to a previous state.",
+      "Answer": "A feature that captures real production workload on a source system and replays it on a test system for realistic testing."
+    },
+    {
+      "question_no.": 156,
+      "Question": "What is 'SQL Performance Analyzer (SPA)'?",
+      "Option1": "A tool for auditing SQL statements.",
+      "Option2": "A tool that assesses the impact of potential changes (e.g., database upgrade, optimizer statistics refresh) on SQL performance.",
+      "Option3": "A tool for generating SQL scripts.",
+      "Option4": "A tool for real-time SQL monitoring.",
+      "Answer": "A tool that assesses the impact of potential changes (e.g., database upgrade, optimizer statistics refresh) on SQL performance."
+    },
+    {
+      "question_no.": 157,
+      "Question": "What is 'In-Memory Column Store' (IMCS) in Oracle?",
+      "Option1": "Storing data only in disk storage.",
+      "Option2": "A feature that stores copies of tables and partitions in a compressed, columnar format in memory for fast analytical queries.",
+      "Option3": "A type of temporary table.",
+      "Option4": "A method for encrypting data in memory.",
+      "Answer": "A feature that stores copies of tables and partitions in a compressed, columnar format in memory for fast analytical queries."
+    },
+    {
+      "question_no.": 158,
+      "Question": "What is 'Automatic Data Optimization (ADO)'?",
+      "Option1": "Manually optimizing data storage.",
+      "Option2": "A feature that automates data tiering and compression policies based on usage patterns, improving storage efficiency and performance.",
+      "Option3": "A tool for data encryption.",
+      "Option4": "A method for data archiving.",
+      "Answer": "A feature that automates data tiering and compression policies based on usage patterns, improving storage efficiency and performance."
+    },
+    {
+      "question_no.": 159,
+      "Question": "What is 'Heat Map' in Oracle?",
+      "Option1": "A visual representation of server temperature.",
+      "Option2": "A feature that tracks data usage patterns (read and write activity) at the segment level to support ADO policies.",
+      "Option3": "A tool for monitoring network traffic.",
+      "Option4": "A report of database errors.",
+      "Answer": "A feature that tracks data usage patterns (read and write activity) at the segment level to support ADO policies."
+    },
+    {
+      "question_no.": 160,
+      "Question": "What is 'Full Database Backup' in RMAN?",
+      "Option1": "Backing up only specific tables.",
+      "Option2": "A backup that includes all data files, control file, and spfile required to restore and recover the entire database.",
+      "Option3": "A backup that only includes archived redo logs.",
+      "Option4": "A backup that doesn't require the database to be online.",
+      "Answer": "A backup that includes all data files, control file, and spfile required to restore and recover the entire database."
+    },
+    {
+      "question_no.": 161,
+      "Question": "What is 'Incremental Backup' in RMAN?",
+      "Option1": "A backup of the entire database.",
+      "Option2": "A backup that captures only the data blocks that have changed since the previous backup (full or incremental).",
+      "Option3": "A backup of only the control file.",
+      "Option4": "A backup that is always consistent.",
+      "Answer": "A backup that captures only the data blocks that have changed since the previous backup (full or incremental)."
+    },
+    {
+      "question_no.": 162,
+      "Question": "What is 'Differential Incremental Backup'?",
+      "Option1": "Backs up all changes since the last full backup.",
+      "Option2": "Backs up all blocks changed since the most recent backup at level 0 or level 1.",
+      "Option3": "Backs up only newly created blocks.",
+      "Option4": "Backs up only data dictionary changes.",
+      "Answer": "Backs up all blocks changed since the most recent backup at level 0 or level 1."
+    },
+    {
+      "question_no.": 163,
+      "Question": "What is 'Cumulative Incremental Backup'?",
+      "Option1": "Backs up all changes since the last level 1 backup.",
+      "Option2": "Backs up all blocks changed since the most recent level 0 backup.",
+      "Option3": "Backs up only current data.",
+      "Option4": "Backs up only redo logs.",
+      "Answer": "Backs up all blocks changed since the most recent level 0 backup."
+    },
+    {
+      "question_no.": 164,
+      "Question": "What is 'Recovery Catalog' in RMAN?",
+      "Option1": "A local file where RMAN stores metadata.",
+      "Option2": "A schema in a separate Oracle database that stores RMAN metadata about backups, recovery, and database structure.",
+      "Option3": "A log file for RMAN operations.",
+      "Option4": "A list of all recoverable objects.",
+      "Answer": "A schema in a separate Oracle database that stores RMAN metadata about backups, recovery, and database structure."
+    },
+    {
+      "question_no.": 165,
+      "Question": "What is 'Target Database' in RMAN terminology?",
+      "Option1": "The database where the RMAN catalog is stored.",
+      "Option2": "The database being backed up or recovered by RMAN.",
+      "Option3": "A remote database for data replication.",
+      "Option4": "A database for testing RMAN commands.",
+      "Answer": "The database being backed up or recovered by RMAN."
+    },
+    {
+      "question_no.": 166,
+      "Question": "What is 'DUPLICATE DATABASE' in RMAN?",
+      "Option1": "A command to create a backup of a database.",
+      "Option2": "A command to create a copy of an existing database (either for standby, testing, or development).",
+      "Option3": "A command to restore a database.",
+      "Option4": "A command to migrate data.",
+      "Answer": "A command to create a copy of an existing database (either for standby, testing, or development)."
+    },
+    {
+      "question_no.": 167,
+      "Question": "What is 'Transportable Tablespaces' in Oracle?",
+      "Option1": "Moving tablespaces within the same database.",
+      "Option2": "A method to move an Oracle tablespace (and its data files) from one Oracle database to another, even on different platforms.",
+      "Option3": "A way to encrypt tablespaces.",
+      "Option4": "A feature for optimizing tablespace size.",
+      "Answer": "A method to move an Oracle tablespace (and its data files) from one Oracle database to another, even on different platforms."
+    },
+    {
+      "question_no.": 168,
+      "Question": "What is 'Logical Standby Database' in Data Guard?",
+      "Option1": "A byte-for-byte copy of the primary database.",
+      "Option2": "A standby database that applies SQL statements to maintain consistency, allowing it to be open for read-write operations.",
+      "Option3": "A physical standby database.",
+      "Option4": "A database used only for backups.",
+      "Answer": "A standby database that applies SQL statements to maintain consistency, allowing it to be open for read-write operations."
+    },
+    {
+      "question_no.": 169,
+      "Question": "What is 'Physical Standby Database' in Data Guard?",
+      "Option1": "A standby database that applies SQL statements.",
+      "Option2": "A byte-for-byte exact replica of the primary database, maintained through the application of redo data.",
+      "Option3": "A database that can be opened for read-write access.",
+      "Option4": "A database for development purposes only.",
+      "Answer": "A byte-for-byte exact replica of the primary database, maintained through the application of redo data."
+    },
+    {
+      "question_no.": 170,
+      "Question": "What is 'Fast Start Fault Recovery' in Oracle?",
+      "Option1": "A feature for fast application startup.",
+      "Option2": "A mechanism that optimizes database recovery time after a crash by limiting the amount of undo and redo that needs to be applied.",
+      "Option3": "A method for fast data loading.",
+      "Option4": "A tool for fast SQL query execution.",
+      "Answer": "A mechanism that optimizes database recovery time after a crash by limiting the amount of undo and redo that needs to be applied."
+    },
+    {
+      "question_no.": 171,
+      "Question": "What is 'Database Resident Connection Pooling (DRCP)'?",
+      "Option1": "Connection pooling on the client side.",
+      "Option2": "A server-side connection pooling mechanism that allows application servers to share connections to the database, improving scalability.",
+      "Option3": "A method for encrypting connections.",
+      "Option4": "A feature for limiting database connections.",
+      "Answer": "A server-side connection pooling mechanism that allows application servers to share connections to the database, improving scalability."
+    },
+    {
+      "question_no.": 172,
+      "Question": "What is 'Oracle Connection Manager (CMAN)'?",
+      "Option1": "A tool for managing database users.",
+      "Option2": "A proxy server that provides connection multiplexing and access control for Oracle Net connections.",
+      "Option3": "A component for managing database files.",
+      "Option4": "A tool for monitoring database performance.",
+      "Answer": "A proxy server that provides connection multiplexing and access control for Oracle Net connections."
+    },
+    {
+      "question_no.": 173,
+      "Question": "What is 'Database Service' in Oracle?",
+      "Option1": "A process that runs the database instance.",
+      "Option2": "A logical abstraction that represents the database to clients, allowing for flexible connection routing and load balancing.",
+      "Option3": "A type of database user.",
+      "Option4": "A physical component of the database.",
+      "Answer": "A logical abstraction that represents the database to clients, allowing for flexible connection routing and load balancing."
+    },
+    {
+      "question_no.": 174,
+      "Question": "What is 'Service Discovery' in Oracle RAC?",
+      "Option1": "Manually configuring client connections.",
+      "Option2": "The ability of clients to automatically locate and connect to available instances within an RAC cluster.",
+      "Option3": "A method for encrypting service requests.",
+      "Option4": "A feature for monitoring service availability.",
+      "Answer": "The ability of clients to automatically locate and connect to available instances within an RAC cluster."
+    },
+    {
+      "question_no.": 175,
+      "Question": "What is 'SQL Access Advisor'?",
+      "Option1": "A tool for designing new SQL queries.",
+      "Option2": "A feature that recommends optimal access structures (indexes, materialized views) to improve SQL query performance.",
+      "Option3": "A tool for auditing SQL access.",
+      "Option4": "A tool for debugging SQL statements.",
+      "Answer": "A feature that recommends optimal access structures (indexes, materialized views) to improve SQL query performance."
+    },
+    {
+      "question_no.": 176,
+      "Question": "What is 'SQL Tuning Set (STS)'?",
+      "Option1": "A collection of random SQL statements.",
+      "Option2": "A database object that stores a set of SQL statements along with their execution statistics, used for SQL tuning tasks.",
+      "Option3": "A set of predefined SQL queries.",
+      "Option4": "A list of problematic SQL queries.",
+      "Answer": "A database object that stores a set of SQL statements along with their execution statistics, used for SQL tuning tasks."
+    },
+    {
+      "question_no.": 177,
+      "Question": "What is 'Automatic Indexing' in Oracle?",
+      "Option1": "Manually creating all necessary indexes.",
+      "Option2": "A feature that automatically creates, rebuilds, and drops indexes based on workload analysis, improving performance without manual intervention.",
+      "Option3": "A tool for analyzing index usage.",
+      "Option4": "A method for preventing index fragmentation.",
+      "Answer": "A feature that automatically creates, rebuilds, and drops indexes based on workload analysis, improving performance without manual intervention."
+    },
+    {
+      "question_no.": 178,
+      "Question": "What is 'SQL Patch' in Oracle?",
+      "Option1": "A patch for the Oracle software itself.",
+      "Option2": "A mechanism to alter the execution plan of a specific SQL statement without changing the application code or the database environment.",
+      "Option3": "A patch for PL/SQL code.",
+      "Option4": "A patch for operating system files.",
+      "Answer": "A mechanism to alter the execution plan of a specific SQL statement without changing the application code or the database environment."
+    },
+    {
+      "question_no.": 179,
+      "Question": "What is 'Database In-Memory' option?",
+      "Option1": "A feature for storing only the system tables in memory.",
+      "Option2": "An option for Oracle Database that enables tables and partitions to be stored in memory in a columnar format for high-performance analytics.",
+      "Option3": "A feature that caches frequently accessed data in memory.",
+      "Option4": "A temporary storage area in memory.",
+      "Answer": "An option for Oracle Database that enables tables and partitions to be stored in memory in a columnar format for high-performance analytics."
+    },
+    {
+      "question_no.": 180,
+      "Question": "What is 'Schema-Only Account'?",
+      "Option1": "An account that can access only one specific schema.",
+      "Option2": "A user account that exists in the database but cannot be used to log in, serving only as an object owner for a schema.",
+      "Option3": "An account with limited privileges.",
+      "Option4": "An account used for system monitoring.",
+      "Answer": "A user account that exists in the database but cannot be used to log in, serving only as an object owner for a schema."
+    },
+    {
+      "question_no.": 181,
+      "Question": "What is 'Unified Auditing' in Oracle?",
+      "Option1": "Auditing only system users.",
+      "Option2": "A comprehensive auditing framework that consolidates all audit trails into a single, unified audit trail.",
+      "Option3": "Auditing that is disabled by default.",
+      "Option4": "Auditing only DML statements.",
+      "Answer": "A comprehensive auditing framework that consolidates all audit trails into a single, unified audit trail."
+    },
+    {
+      "question_no.": 182,
+      "Question": "What is 'Security Realms' in Oracle Database Vault?",
+      "Option1": "Physical security zones.",
+      "Option2": "Policy enforcement points that define who can access specific sensitive data and operations.",
+      "Option3": "Encryption zones.",
+      "Option4": "User groups with special privileges.",
+      "Answer": "Policy enforcement points that define who can access specific sensitive data and operations."
+    },
+    {
+      "question_no.": 183,
+      "Question": "What is 'Command Rules' in Oracle Database Vault?",
+      "Option1": "Rules for SQL syntax.",
+      "Option2": "Rules that control the execution of specific SQL commands or PL/SQL procedures within the database.",
+      "Option3": "Rules for network access.",
+      "Option4": "Rules for data encryption.",
+      "Answer": "Rules that control the execution of specific SQL commands or PL/SQL procedures within the database."
+    },
+    {
+      "question_no.": 184,
+      "Question": "What is 'Multifactor Authentication' (MFA) with Oracle Database?",
+      "Option1": "Using only a password for authentication.",
+      "Option2": "Requiring multiple forms of verification (e.g., password + token) to gain access to the database.",
+      "Option3": "Authenticating multiple users at once.",
+      "Option4": "A method for single sign-on.",
+      "Answer": "Requiring multiple forms of verification (e.g., password + token) to gain access to the database."
+    },
+    {
+      "question_no.": 185,
+      "Question": "What is 'SQL Firewall' in Oracle?",
+      "Option1": "A firewall for network traffic.",
+      "Option2": "A security feature that monitors and blocks unauthorized or anomalous SQL statements from reaching the database.",
+      "Option3": "A tool for optimizing SQL queries.",
+      "Option4": "A tool for protecting against DoS attacks.",
+      "Answer": "A security feature that monitors and blocks unauthorized or anomalous SQL statements from reaching the database."
+    },
+    {
+      "question_no.": 186,
+      "Question": "What is 'Database Resident Connection Pooling (DRCP)'?",
+      "Option1": "A client-side connection pooling mechanism.",
+      "Option2": "A server-side connection pooling solution that allows multiple client processes to share a smaller pool of dedicated server processes.",
+      "Option3": "A method for encrypting database connections.",
+      "Option4": "A feature for limiting database connections.",
+      "Answer": "A server-side connection pooling solution that allows multiple client processes to share a smaller pool of dedicated server processes."
+    },
+    {
+      "question_no.": 187,
+      "Question": "What is 'Oracle GoldenGate' primarily used for?",
+      "Option1": "Database backups.",
+      "Option2": "Real-time data integration, replication, and transformation between heterogeneous databases.",
+      "Option3": "Data warehousing.",
+      "Option4": "Database security.",
+      "Answer": "Real-time data integration, replication, and transformation between heterogeneous databases."
+    },
+    {
+      "question_no.": 188,
+      "Question": "What is 'Change Data Capture (CDC)' in Oracle GoldenGate?",
+      "Option1": "Capturing data at fixed intervals.",
+      "Option2": "The process of identifying and capturing changes made to source database tables and delivering them to target databases.",
+      "Option3": "Capturing changes in schema only.",
+      "Option4": "Capturing only DDL changes.",
+      "Answer": "The process of identifying and capturing changes made to source database tables and delivering them to target databases."
+    },
+    {
+      "question_no.": 189,
+      "Question": "What is 'Apply Process' in Oracle GoldenGate?",
+      "Option1": "A process for data extraction.",
+      "Option2": "The process that applies the captured and transformed data changes to the target database.",
+      "Option3": "A process for data compression.",
+      "Option4": "A process for data validation.",
+      "Answer": "The process that applies the captured and transformed data changes to the target database."
+    },
+    {
+      "question_no.": 190,
+      "Question": "What is 'Extract Process' in Oracle GoldenGate?",
+      "Option1": "A process for applying changes to the target.",
+      "Option2": "The process that captures DML and DDL changes from the source database's redo logs or transaction logs.",
+      "Option3": "A process for data loading.",
+      "Option4": "A process for data encryption.",
+      "Answer": "The process that captures DML and DDL changes from the source database's redo logs or transaction logs."
+    },
+    {
+      "question_no.": 191,
+      "Question": "What is 'Data Redaction' in Oracle?",
+      "Option1": "Permanently deleting sensitive data.",
+      "Option2": "Masking or redacting sensitive data returned by queries in real-time, without changing the underlying stored data.",
+      "Option3": "Encrypting data at rest.",
+      "Option4": "A method for auditing data access.",
+      "Answer": "Masking or redacting sensitive data returned by queries in real-time, without changing the underlying stored data."
+    },
+    {
+      "question_no.": 192,
+      "Question": "What is 'Database Cloning'?",
+      "Option1": "Creating a duplicate of a specific table.",
+      "Option2": "Creating a copy of an existing database, often for testing, development, or standby purposes.",
+      "Option3": "Migrating a database to a new version.",
+      "Option4": "Backing up a database to the cloud.",
+      "Answer": "Creating a copy of an existing database, often for testing, development, or standby purposes."
+    },
+    {
+      "question_no.": 193,
+      "Question": "What is 'Oracle Grid Infrastructure'?",
+      "Option1": "Software for managing a single Oracle database.",
+      "Option2": "Software that provides the infrastructure for Oracle RAC and Oracle ASM, including Clusterware and ASM.",
+      "Option3": "A tool for database monitoring.",
+      "Option4": "A set of networking components.",
+      "Answer": "Software that provides the infrastructure for Oracle RAC and Oracle ASM, including Clusterware and ASM."
+    },
+    {
+      "question_no.": 194,
+      "Question": "What is 'Oracle Clusterware'?",
+      "Option1": "Software for managing standalone databases.",
+      "Option2": "A component of Oracle Grid Infrastructure that enables servers to function as a cluster, managing resources and ensuring high availability.",
+      "Option3": "A tool for performance tuning.",
+      "Option4": "A programming interface.",
+      "Answer": "A component of Oracle Grid Infrastructure that enables servers to function as a cluster, managing resources and ensuring high availability."
+    },
+    {
+      "question_no.": 195,
+      "Question": "What is 'Active Session History (ASH)' in Oracle?",
+      "Option1": "A historical record of all database backups.",
+      "Option2": "A memory-based buffer that collects sampled active session data, providing detailed historical performance insights.",
+      "Option3": "A record of past SQL queries.",
+      "Option4": "A log of database errors.",
+      "Answer": "A memory-based buffer that collects sampled active session data, providing detailed historical performance insights."
+    },
+    {
+      "question_no.": 196,
+      "Question": "What is 'Diagnostic Pack' in Oracle Enterprise Manager?",
+      "Option1": "A free set of tools for all Oracle editions.",
+      "Option2": "A licensed option that includes advanced performance diagnostic tools like AWR, ASH, and ADDM.",
+      "Option3": "A package for security auditing.",
+      "Option4": "A tool for data migration.",
+      "Answer": "A licensed option that includes advanced performance diagnostic tools like AWR, ASH, and ADDM."
+    },
+    {
+      "question_no.": 197,
+      "Question": "What is 'Tuning Pack' in Oracle Enterprise Manager?",
+      "Option1": "A licensed option that includes tools like SQL Tuning Advisor and SQL Access Advisor.",
+      "Option2": "A free set of tools for all Oracle editions.",
+      "Option3": "A package for database security.",
+      "Option4": "A tool for physical database design.",
+      "Answer": "A licensed option that includes tools like SQL Tuning Advisor and SQL Access Advisor."
+    },
+    {
+      "question_no.": 198,
+      "Question": "What is 'Data Dictionary Views'?",
+      "Option1": "Views that show user data.",
+      "Option2": "Predefined views in the database that provide information about the database itself (metadata).",
+      "Option3": "Views created by users for specific queries.",
+      "Option4": "Views that are part of application logic.",
+      "Answer": "Predefined views in the database that provide information about the database itself (metadata)."
+    },
+    {
+      "question_no.": 199,
+      "Question": "What is 'Dynamic Performance Views' (V$ views)?",
+      "Option1": "Views that show static historical data.",
+      "Option2": "Views that provide real-time information about the current state and performance of the Oracle instance.",
+      "Option3": "Views that are part of the data dictionary.",
+      "Option4": "Views that are used for security auditing only.",
+      "Answer": "Views that provide real-time information about the current state and performance of the Oracle instance."
+    },
+    {
+      "question_no.": 200,
+      "Question": "What is 'PGA Aggregate Limit'?",
+      "Option1": "A limit on SGA size.",
+      "Option2": "A parameter that sets the maximum total size of all PGAs for all server processes in an instance, preventing excessive memory consumption.",
+      "Option3": "A limit on shared pool size.",
+      "Option4": "A limit on the number of concurrent connections.",
+      "Answer": "A parameter that sets the maximum total size of all PGAs for all server processes in an instance, preventing excessive memory consumption."
+    },
+    {
+      "question_no.": 201,
+      "Question": "What is 'Automatic Memory Management (AMM)'?",
+      "Option1": "Manually configuring SGA and PGA sizes.",
+      "Option2": "An Oracle feature that automatically tunes the sizes of SGA and PGA based on workload, eliminating manual tuning.",
+      "Option3": "A method for memory encryption.",
+      "Option4": "A tool for memory defragmentation.",
+      "Answer": "An Oracle feature that automatically tunes the sizes of SGA and PGA based on workload, eliminating manual tuning."
+    },
+    {
+      "question_no.": 202,
+      "Question": "What is 'Automatic Shared Memory Management (ASMM)'?",
+      "Option1": "Automatic tuning of PGA only.",
+      "Option2": "An Oracle feature that automatically distributes memory among the various SGA components based on workload.",
+      "Option3": "Automatic tuning of both SGA and PGA.",
+      "Option4": "A method for manual memory configuration.",
+      "Answer": "An Oracle feature that automatically distributes memory among the various SGA components based on workload."
+    }
+  ]

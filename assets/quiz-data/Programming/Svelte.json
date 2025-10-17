@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "What is Svelte?",
+    "Option1": "A JavaScript framework for backend development",
+    "Option2": "A JavaScript framework for building user interfaces, but it compiles code to small, vanilla JS bundles at build time.",
+    "Option3": "A CSS preprocessor",
+    "Option4": "A database management system",
+    "Answer": "A JavaScript framework for building user interfaces, but it compiles code to small, vanilla JS bundles at build time."
+  },
+  {
+    "question_no.": 2,
+    "Question": "What is the key difference between Svelte and traditional frameworks like React or Vue?",
+    "Option1": "Svelte uses a virtual DOM.",
+    "Option2": "Svelte performs its work at runtime in the browser.",
+    "Option3": "Svelte compiles your code into highly optimized vanilla JavaScript at build time, with no virtual DOM.",
+    "Option4": "Svelte requires a separate build step for every change.",
+    "Answer": "Svelte compiles your code into highly optimized vanilla JavaScript at build time, with no virtual DOM."
+  },
+  {
+    "question_no.": 3,
+    "Question": "How do you declare reactive variables in Svelte?",
+    "Option1": "Using `const` or `let` and `$` prefix (e.g., `$count`)",
+    "Option2": "Using `reactive` keyword",
+    "Option3": "By simply declaring a variable with `let`",
+    "Option4": "Using a `ref` object",
+    "Answer": "By simply declaring a variable with `let`"
+  },
+  {
+    "question_no.": 4,
+    "Question": "How do you define props (properties) in a Svelte component?",
+    "Option1": "Using `export let`",
+    "Option2": "Using `props` object",
+    "Option3": "Using `defineProps` macro",
+    "Option4": "By passing them directly in the template",
+    "Answer": "Using `export let`"
+  },
+  {
+    "question_no.": 5,
+    "Question": "What is a Svelte store?",
+    "Option1": "A way to persist data in local storage.",
+    "Option2": "A global state management solution that allows components to reactively subscribe to changes.",
+    "Option3": "A database connection.",
+    "Option4": "A component library.",
+    "Answer": "A global state management solution that allows components to reactively subscribe to changes."
+  },
+  {
+    "question_no.": 6,
+    "Question": "How do you create a writable store in Svelte?",
+    "Option1": "`import { readable } from 'svelte/store';`",
+    "Option2": "`import { writable } from 'svelte/store';`",
+    "Option3": "`import { derived } from 'svelte/store';`",
+    "Option4": "`import { store } from 'svelte';`",
+    "Answer": "`import { writable } from 'svelte/store';`"
+  },
+  {
+    "question_no.": 7,
+    "Question": "How do you subscribe to a store's value reactively in a Svelte component?",
+    "Option1": "Using `store.subscribe()`",
+    "Option2": "Using the `$` prefix on the store variable (e.g., `$myStore`)",
+    "Option3": "Using `store.get()`",
+    "Option4": "By manually calling a function every time the store changes",
+    "Answer": "Using the `$` prefix on the store variable (e.g., `$myStore`)"
+  },
+  {
+    "question_no.": 8,
+    "Question": "What is the purpose of `{#if ...}` block in Svelte?",
+    "Option1": "To loop over arrays",
+    "Option2": "To render content conditionally",
+    "Option3": "To handle asynchronous operations",
+    "Option4": "To define a component's styles",
+    "Answer": "To render content conditionally"
+  },
+  {
+    "question_no.": 9,
+    "Question": "How do you iterate over a list of items in Svelte?",
+    "Option1": "Using `v-for` directive",
+    "Option2": "Using `map()` function in JavaScript",
+    "Option3": "Using `{#each ...}` block",
+    "Option4": "Using `for` loop in the template",
+    "Answer": "Using `{#each ...}` block"
+  },
+  {
+    "question_no.": 10,
+    "Question": "What is event forwarding in Svelte?",
+    "Option1": "Passing data from a parent to a child component.",
+    "Option2": "Automatically passing DOM events from a child component to its parent without explicitly dispatching them.",
+    "Option3": "Triggering a custom event.",
+    "Option4": "Listening to global events.",
+    "Answer": "Automatically passing DOM events from a child component to its parent without explicitly dispatching them."
+  },
+  {
+    "question_no.": 11,
+    "Question": "How do you bind to an input element's value in Svelte?",
+    "Option1": "Using `value={variable}`",
+    "Option2": "Using `bind:value={variable}`",
+    "Option3": "Using `onChange={handleChange}`",
+    "Option4": "Using `v-model`",
+    "Answer": "Using `bind:value={variable}`"
+  },
+  {
+    "question_no.": 12,
+    "Question": "What is the lifecycle hook for component initialization in Svelte?",
+    "Option1": "`onInit`",
+    "Option2": "`mounted`",
+    "Option3": "`onMount`",
+    "Option4": "`created`",
+    "Answer": "`onMount`"
+  },
+  {
+    "question_no.": 13,
+    "Question": "What is the lifecycle hook for component destruction in Svelte?",
+    "Option1": "`onDestroy`",
+    "Option2": "`unmounted`",
+    "Option3": "`onCleanup`",
+    "Option4": "`beforeDestroy`",
+    "Answer": "`onDestroy`"
+  },
+  {
+    "question_no.": 14,
+    "Question": "How do you create a custom event in Svelte?",
+    "Option1": "Using `event.dispatch('eventName')`",
+    "Option2": "Using `createEventDispatcher()` and `dispatch('eventName')`",
+    "Option3": "Using `new CustomEvent()`",
+    "Option4": "By directly calling a function from the parent",
+    "Answer": "Using `createEventDispatcher()` and `dispatch('eventName')`"
+  },
+  {
+    "question_no.": 15,
+    "Question": "What is `$$props` in Svelte?",
+    "Option1": "A way to define default prop values.",
+    "Option2": "An object containing all the props passed to a component.",
+    "Option3": "A reserved keyword for accessing parent component props.",
+    "Option4": "A function for validating props.",
+    "Answer": "An object containing all the props passed to a component."
+  },
+  {
+    "question_no.": 16,
+    "Question": "How do you apply styles scoped to a Svelte component?",
+    "Option1": "By adding `scoped` attribute to the `<style>` tag.",
+    "Option2": "Styles in `<style>` tags are automatically scoped to the component.",
+    "Option3": "By using CSS Modules.",
+    "Option4": "By using inline styles.",
+    "Answer": "Styles in `<style>` tags are automatically scoped to the component."
+  },
+  {
+    "question_no.": 17,
+    "Question": "What is `$$slots` in Svelte?",
+    "Option1": "An object containing information about the slots passed to a component.",
+    "Option2": "A way to define named slots.",
+    "Option3": "A reserved keyword for accessing a component's internal slots.",
+    "Option4": "A function for validating slot content.",
+    "Answer": "An object containing information about the slots passed to a component."
+  },
+  {
+    "question_no.": 18,
+    "Question": "How do you handle animations and transitions in Svelte?",
+    "Option1": "Manually with CSS classes and JavaScript.",
+    "Option2": "Using Svelte's built-in `transition` and `animate` directives.",
+    "Option3": "By importing a third-party animation library.",
+    "Option4": "Svelte doesn't support animations directly.",
+    "Answer": "Using Svelte's built-in `transition` and `animate` directives."
+  },
+  {
+    "question_no.": 19,
+    "Question": "What is the `crossfade` transition in Svelte?",
+    "Option1": "A transition for elements entering and exiting simultaneously.",
+    "Option2": "A special transition that allows elements to smoothly transition between lists as they are added or removed.",
+    "Option3": "A simple fade effect.",
+    "Option4": "A transition for background images.",
+    "Answer": "A special transition that allows elements to smoothly transition between lists as they are added or removed."
+  },
+  {
+    "question_no.": 20,
+    "Question": "What is the purpose of `$: ` in Svelte?",
+    "Option1": "To declare a new variable.",
+    "Option2": "To create reactive declarations that re-run whenever their dependencies change.",
+    "Option3": "To define a computed property that is not reactive.",
+    "Option4": "To import a module.",
+    "Answer": "To create reactive declarations that re-run whenever their dependencies change."
+  },
+  {
+    "question_no.": 21,
+    "Question": "How do you use two-way data binding for complex objects or arrays in Svelte?",
+    "Option1": "It's not possible with complex objects/arrays.",
+    "Option2": "Svelte automatically handles deep binding.",
+    "Option3": "You typically need to explicitly reassign the variable for Svelte to detect changes, or use `bind:property` for specific properties.",
+    "Option4": "By using a special `deep-bind` directive.",
+    "Answer": "You typically need to explicitly reassign the variable for Svelte to detect changes, or use `bind:property` for specific properties."
+  },
+  {
+    "question_no.": 22,
+    "Question": "What is `SvelteKit`?",
+    "Option1": "A component library for Svelte.",
+    "Option2": "A full-stack web framework built on top of Svelte for building robust web applications with server-side rendering, routing, and API endpoints.",
+    "Option3": "A Svelte specific CSS framework.",
+    "Option4": "A debugging tool for Svelte.",
+    "Answer": "A full-stack web framework built on top of Svelte for building robust web applications with server-side rendering, routing, and API endpoints."
+  },
+  {
+    "question_no.": 23,
+    "Question": "What are 'endpoints' in SvelteKit?",
+    "Option1": "The final HTML output of a Svelte component.",
+    "Option2": "Server-side functions that handle API requests, typically defined in `.js` or `.ts` files within the `src/routes` directory.",
+    "Option3": "The starting point of a Svelte application.",
+    "Option4": "Client-side routing paths.",
+    "Answer": "Server-side functions that handle API requests, typically defined in `.js` or `.ts` files within the `src/routes` directory."
+  },
+  {
+    "question_no.": 24,
+    "Question": "How does SvelteKit handle routing?",
+    "Option1": "Client-side routing only.",
+    "Option2": "File-system based routing, where file and folder structure in `src/routes` defines the URL paths.",
+    "Option3": "By manually configuring routes in a separate file.",
+    "Option4": "It doesn't handle routing, you need a third-party library.",
+    "Answer": "File-system based routing, where file and folder structure in `src/routes` defines the URL paths."
+  },
+  {
+    "question_no.": 25,
+    "Question": "What is `+page.svelte` in SvelteKit?",
+    "Option1": "A layout component.",
+    "Option2": "The main component for a specific route, rendering the page content.",
+    "Option3": "A server-side endpoint.",
+    "Option4": "A component for handling errors.",
+    "Answer": "The main component for a specific route, rendering the page content."
+  },
+  {
+    "question_no.": 26,
+    "Question": "What is `+layout.svelte` in SvelteKit?",
+    "Option1": "A component for displaying data.",
+    "Option2": "A component that wraps other pages/components in a particular route segment, providing a consistent layout.",
+    "Option3": "A component for handling forms.",
+    "Option4": "A component for defining styles.",
+    "Answer": "A component that wraps other pages/components in a particular route segment, providing a consistent layout."
+  },
+  {
+    "question_no.": 27,
+    "Question": "What is `+error.svelte` in SvelteKit?",
+    "Option1": "A component for displaying success messages.",
+    "Option2": "A component used to render error pages for specific routes or globally.",
+    "Option3": "A component for logging errors.",
+    "Option4": "A component for debugging.",
+    "Answer": "A component used to render error pages for specific routes or globally."
+  },
+  {
+    "question_no.": 28,
+    "Question": "How do you fetch data in SvelteKit pages?",
+    "Option1": "Using `fetch` directly in `onMount`.",
+    "Option2": "Using `load` function in `+page.js` or `+page.server.js`.",
+    "Option3": "By embedding data directly into the HTML.",
+    "Option4": "Using a separate API client library.",
+    "Answer": "Using `load` function in `+page.js` or `+page.server.js`."
+  },
+  {
+    "question_no.": 29,
+    "Question": "What is the purpose of `+page.server.js` in SvelteKit?",
+    "Option1": "To fetch data on the client side only.",
+    "Option2": "To fetch data and run logic exclusively on the server, before the page is rendered, ensuring sensitive data is not exposed to the client.",
+    "Option3": "To handle client-side form submissions.",
+    "Option4": "To define reactive variables.",
+    "Answer": "To fetch data and run logic exclusively on the server, before the page is rendered, ensuring sensitive data is not exposed to the client."
+  },
+  {
+    "question_no.": 30,
+    "Question": "What is the purpose of `+page.js` in SvelteKit?",
+    "Option1": "To fetch data only on the server.",
+    "Option2": "To fetch data that can run on both the server and the client, or only on the client, after the initial server render.",
+    "Option3": "To define server-side API endpoints.",
+    "Option4": "To create new components.",
+    "Answer": "To fetch data that can run on both the server and the client, or only on the client, after the initial server render."
+  },
+  {
+    "question_no.": 31,
+    "Question": "What is 'SSR' (Server-Side Rendering) in SvelteKit?",
+    "Option1": "Rendering components only on the client.",
+    "Option2": "The process of generating the HTML for a page on the server before sending it to the client, improving initial load times and SEO.",
+    "Option3": "Rendering components in a separate thread.",
+    "Option4": "Rendering only parts of the page on the server.",
+    "Answer": "The process of generating the HTML for a page on the server before sending it to the client, improving initial load times and SEO."
+  },
+  {
+    "question_no.": 32,
+    "Question": "What is 'Hydration' in SvelteKit SSR?",
+    "Option1": "The process of pre-fetching data.",
+    "Option2": "The process where client-side JavaScript takes over the server-rendered HTML, making it interactive and reactive.",
+    "Option3": "The process of compressing assets.",
+    "Option4": "The process of deleting old data.",
+    "Answer": "The process where client-side JavaScript takes over the server-rendered HTML, making it interactive and reactive."
+  },
+  {
+    "question_no.": 33,
+    "Question": "How do you define a reactive statement that runs when a variable changes?",
+    "Option1": "`let count = 0; console.log(count);`",
+    "Option2": "`$: console.log(count);`",
+    "Option3": "`function watchCount() { console.log(count); }`",
+    "Option4": "`onUpdate(() => console.log(count));`",
+    "Answer": "`$: console.log(count);`"
+  },
+  {
+    "question_no.": 34,
+    "Question": "What is the purpose of `bind:this` in Svelte?",
+    "Option1": "To pass a component instance to its parent.",
+    "Option2": "To bind a DOM element or component instance to a JavaScript variable, allowing direct access to its methods and properties.",
+    "Option3": "To bind a variable to the component's name.",
+    "Option4": "To bind the `this` context of a function.",
+    "Answer": "To bind a DOM element or component instance to a JavaScript variable, allowing direct access to its methods and properties."
+  },
+  {
+    "question_no.": 35,
+    "Question": "How do you handle component lifecycle events in Svelte?",
+    "Option1": "By extending a base class.",
+    "Option2": "Using lifecycle functions like `onMount`, `beforeUpdate`, `afterUpdate`, `onDestroy`.",
+    "Option3": "Through options in the component's constructor.",
+    "Option4": "By using a `lifecycle` object in the script tag.",
+    "Answer": "Using lifecycle functions like `onMount`, `beforeUpdate`, `afterUpdate`, `onDestroy`."
+  },
+  {
+    "question_no.": 36,
+    "Question": "What is `getContext` and `setContext` in Svelte?",
+    "Option1": "For managing global CSS styles.",
+    "Option2": "For providing and consuming data across a component hierarchy without prop drilling.",
+    "Option3": "For handling browser local storage.",
+    "Option4": "For setting and getting environment variables.",
+    "Answer": "For providing and consuming data across a component hierarchy without prop drilling."
+  },
+  {
+    "question_no.": 37,
+    "Question": "How do you achieve two-way data binding in Svelte for primitive types?",
+    "Option1": "By passing a prop and emitting an event.",
+    "Option2": "Using the `bind:` directive (e.g., `bind:value={myVariable}`).",
+    "Option3": "Manually updating the variable in event handlers.",
+    "Option4": "Svelte doesn't support two-way binding for primitives.",
+    "Answer": "Using the `bind:` directive (e.g., `bind:value={myVariable}`)."
+  },
+  {
+    "question_no.": 38,
+    "Question": "What is a 'slot' in Svelte?",
+    "Option1": "A way to define reactive variables.",
+    "Option2": "A placeholder in a component that allows a parent component to inject content into it.",
+    "Option3": "A lifecycle hook.",
+    "Option4": "A type of Svelte store.",
+    "Answer": "A placeholder in a component that allows a parent component to inject content into it."
+  },
+  {
+    "question_no.": 39,
+    "Question": "How do you define a named slot in Svelte?",
+    "Option1": "`<slot name='header'></slot>`",
+    "Option2": "`<slot id='header'></slot>`",
+    "Option3": "`<slot type='header'></slot>`",
+    "Option4": "`<slot header></slot>`",
+    "Answer": "`<slot name='header'></slot>`"
+  },
+  {
+    "question_no.": 40,
+    "Question": "How do you pass content to a named slot from a parent component?",
+    "Option1": "`<div slot='header'>...</div>`",
+    "Option2": "`<template header>...</template>`",
+    "Option3": "`<header slot-name='header'>...</header>`",
+    "Option4": "`<div data-slot='header'>...</div>`",
+    "Answer": "`<div slot='header'>...</div>`"
+  },
+  {
+    "question_no.": 41,
+    "Question": "What is the purpose of `tweened` and `spring` stores in Svelte?",
+    "Option1": "For managing global state.",
+    "Option2": "For creating smooth, animated transitions for numerical values.",
+    "Option3": "For fetching data from an API.",
+    "Option4": "For handling form submissions.",
+    "Answer": "For creating smooth, animated transitions for numerical values."
+  },
+  {
+    "question_no.": 42,
+    "Question": "How do you get the current value of a store without subscribing?",
+    "Option1": "Using `store.get()`",
+    "Option2": "Using `get(store)` function from `svelte/store`",
+    "Option3": "By accessing `$store.value`",
+    "Option4": "It's not possible to get the value without subscribing.",
+    "Answer": "Using `get(store)` function from `svelte/store`"
+  },
+  {
+    "question_no.": 43,
+    "Question": "What is the role of the `compiler` in Svelte?",
+    "Option1": "It runs in the browser to update the DOM.",
+    "Option2": "It transforms Svelte components into highly efficient JavaScript at build time, eliminating the need for a runtime framework.",
+    "Option3": "It translates Svelte code into CSS.",
+    "Option4": "It interprets Svelte code directly at runtime.",
+    "Answer": "It transforms Svelte components into highly efficient JavaScript at build time, eliminating the need for a runtime framework."
+  },
+  {
+    "question_no.": 44,
+    "Question": "What are 'actions' in Svelte?",
+    "Option1": "Functions that define component behavior.",
+    "Option2": "Functions that are called when an element is created and can return an object with a `destroy` method, allowing for custom DOM interactions and cleanup.",
+    "Option3": "Custom event handlers.",
+    "Option4": "Methods for updating store values.",
+    "Answer": "Functions that are called when an element is created and can return an object with a `destroy` method, allowing for custom DOM interactions and cleanup."
+  },
+  {
+    "question_no.": 45,
+    "Question": "How do you apply an action to an HTML element?",
+    "Option1": "Using `on:actionName`",
+    "Option2": "Using `use:actionName`",
+    "Option3": "By calling `actionName()` in `onMount`",
+    "Option4": "By using a custom directive `v-action`",
+    "Answer": "Using `use:actionName`"
+  },
+  {
+    "question_no.": 46,
+    "Question": "What is `hydration` in the context of SvelteKit (revisited)?",
+    "Option1": "The process of re-rendering the entire application.",
+    "Option2": "The process by which client-side JavaScript 'attaches' to the static HTML rendered by the server, making it interactive.",
+    "Option3": "The process of fetching data before rendering.",
+    "Option4": "The process of compiling Svelte code to JavaScript.",
+    "Answer": "The process by which client-side JavaScript 'attaches' to the static HTML rendered by the server, making it interactive."
+  },
+  {
+    "question_no.": 47,
+    "Question": "What is the `static` adapter in SvelteKit used for?",
+    "Option1": "To deploy applications to a Node.js server.",
+    "Option2": "To output static HTML and JavaScript files, suitable for deployment on static hosting providers.",
+    "Option3": "To build applications with server-side rendering.",
+    "Option4": "To create a server-only API.",
+    "Answer": "To output static HTML and JavaScript files, suitable for deployment on static hosting providers."
+  },
+  {
+    "question_no.": 48,
+    "Question": "How do you handle form submissions in SvelteKit, including server-side actions?",
+    "Option1": "Using traditional HTML forms with `action` attribute pointing to an endpoint.",
+    "Option2": "Using SvelteKit's `+page.server.js` `actions` and `<form>` element with `use:enhance`.",
+    "Option3": "By manually sending `fetch` requests.",
+    "Option4": "SvelteKit does not support server-side form handling.",
+    "Answer": "Using SvelteKit's `+page.server.js` `actions` and `<form>` element with `use:enhance`."
+  },
+  {
+    "question_no.": 49,
+    "Question": "What is `invalidate` function in SvelteKit's `load` function?",
+    "Option1": "To refresh the page entirely.",
+    "Option2": "To invalidate a specific `load` function's data, causing it to re-run and re-fetch data without a full page reload.",
+    "Option3": "To clear all cache.",
+    "Option4": "To stop data fetching.",
+    "Answer": "To invalidate a specific `load` function's data, causing it to re-run and re-fetch data without a full page reload."
+  },
+  {
+    "question_no.": 50,
+    "Question": "What is `page.params` in SvelteKit?",
+    "Option1": "An object containing query parameters from the URL.",
+    "Option2": "An object containing route parameters (dynamic segments) extracted from the URL.",
+    "Option3": "An object containing all props passed to the page.",
+    "Option4": "An object containing server-side environment variables.",
+    "Answer": "An object containing route parameters (dynamic segments) extracted from the URL."
+  },
+  {
+    "question_no.": 51,
+    "Question": "What is the primary benefit of Svelte's compilation approach?",
+    "Option1": "Larger bundle sizes.",
+    "Option2": "No virtual DOM overhead at runtime, leading to smaller bundles and faster performance.",
+    "Option3": "More complex development workflow.",
+    "Option4": "Requires more browser runtime JavaScript.",
+    "Answer": "No virtual DOM overhead at runtime, leading to smaller bundles and faster performance."
+  },
+  {
+    "question_no.": 52,
+    "Question": "How do you include an external JavaScript file in a Svelte component?",
+    "Option1": "Using a `<script src='...'></script>` tag inside the component.",
+    "Option2": "By importing it using `import` statement in the `<script>` block.",
+    "Option3": "By adding it to the `index.html` file.",
+    "Option4": "Svelte automatically bundles external scripts.",
+    "Answer": "By importing it using `import` statement in the `<script>` block."
+  },
+  {
+    "question_no.": 53,
+    "Question": "What are 'reactive assignments' in Svelte?",
+    "Option1": "Assigning values to props.",
+    "Option2": "When you update a `let` variable, Svelte automatically re-renders affected parts of the DOM. This happens on simple assignments.",
+    "Option3": "Assigning values to a store.",
+    "Option4": "Assigning values to a computed property.",
+    "Answer": "When you update a `let` variable, Svelte automatically re-renders affected parts of the DOM. This happens on simple assignments."
+  },
+  {
+    "question_no.": 54,
+    "Question": "How do you handle component reactivity with array methods like `push()` or `splice()`?",
+    "Option1": "Svelte automatically detects these changes.",
+    "Option2": "You need to reassign the array variable after modification for Svelte to detect the change and re-render.",
+    "Option3": "Use a special `reactiveArray` helper.",
+    "Option4": "It's not possible to use these methods directly.",
+    "Answer": "You need to reassign the array variable after modification for Svelte to detect the change and re-render."
+  },
+  {
+    "question_no.": 55,
+    "Question": "What is the purpose of the `tick()` function in Svelte?",
+    "Option1": "To re-render the entire component.",
+    "Option2": "To wait for the next microtask tick, after any pending state changes have been applied to the DOM.",
+    "Option3": "To introduce a delay in execution.",
+    "Option4": "To measure component performance.",
+    "Answer": "To wait for the next microtask tick, after any pending state changes have been applied to the DOM."
+  },
+  {
+    "question_no.": 56,
+    "Question": "When would you typically use `tick()`?",
+    "Option1": "After a reactive assignment to immediately see DOM updates for testing or assertions.",
+    "Option2": "Before any state change.",
+    "Option3": "Inside an `onMount` hook only.",
+    "Option4": "For debouncing user input.",
+    "Answer": "After a reactive assignment to immediately see DOM updates for testing or assertions."
+  },
+  {
+    "question_no.": 57,
+    "Question": "What is `component export` in Svelte?",
+    "Option1": "Exporting a component for external use.",
+    "Option2": "Exporting variables and functions from the `<script>` section of a `.svelte` file to be accessible by the parent component or other modules.",
+    "Option3": "Exporting the compiled JavaScript bundle.",
+    "Option4": "Exporting component styles.",
+    "Answer": "Exporting variables and functions from the `<script>` section of a `.svelte` file to be accessible by the parent component or other modules."
+  },
+  {
+    "question_no.": 58,
+    "Question": "How do you pass data from a child component to a parent component using custom events?",
+    "Option1": "Directly update parent state.",
+    "Option2": "By dispatching a custom event from the child and listening for it in the parent.",
+    "Option3": "Using `bind:parentProp`.",
+    "Option4": "By using a global store only.",
+    "Answer": "By dispatching a custom event from the child and listening for it in the parent."
+  },
+  {
+    "question_no.": 59,
+    "Question": "What is the primary function of `on:click` in Svelte?",
+    "Option1": "To add a CSS class on click.",
+    "Option2": "To listen for a DOM click event and execute a JavaScript function.",
+    "Option3": "To change the component's state without a function.",
+    "Option4": "To prevent default browser behavior.",
+    "Answer": "To listen for a DOM click event and execute a JavaScript function."
+  },
+  {
+    "question_no.": 60,
+    "Question": "How do you prevent the default behavior of an event in Svelte?",
+    "Option1": "Using `event.preventDefault()` inside the event handler.",
+    "Option2": "Using event modifiers like `on:click|preventDefault`.",
+    "Option3": "Svelte automatically prevents default behavior.",
+    "Option4": "By returning `false` from the event handler.",
+    "Answer": "Using event modifiers like `on:click|preventDefault`."
+  },
+  {
+    "question_no.": 61,
+    "Question": "What is `REPL` in Svelte?",
+    "Option1": "A Svelte project boilerplate.",
+    "Option2": "The Svelte interactive online editor where you can write, run, and share Svelte code snippets.",
+    "Option3": "A Svelte package manager.",
+    "Option4": "A Svelte testing framework.",
+    "Answer": "The Svelte interactive online editor where you can write, run, and share Svelte code snippets."
+  },
+  {
+    "question_no.": 62,
+    "Question": "What is the `auto-subscribe` feature of Svelte stores?",
+    "Option1": "When you use the `$` prefix, Svelte automatically unsubscribes from the store when the component is destroyed.",
+    "Option2": "It automatically subscribes to all available stores.",
+    "Option3": "It automatically updates the store value.",
+    "Option4": "It automatically creates stores for all reactive variables.",
+    "Answer": "When you use the `$` prefix, Svelte automatically unsubscribes from the store when the component is destroyed."
+  },
+  {
+    "question_no.": 63,
+    "Question": "Can you use TypeScript with Svelte?",
+    "Option1": "No, Svelte only supports JavaScript.",
+    "Option2": "Yes, Svelte has excellent TypeScript support, especially with SvelteKit.",
+    "Option3": "Only for specific parts of the application.",
+    "Option4": "It requires a complex setup.",
+    "Answer": "Yes, Svelte has excellent TypeScript support, especially with SvelteKit."
+  },
+  {
+    "question_no.": 64,
+    "Question": "What is `svelte-preprocess`?",
+    "Option1": "A tool for linting Svelte code.",
+    "Option2": "A preprocessor for Svelte that allows you to use languages like TypeScript, SCSS, Less, PostCSS within your Svelte components.",
+    "Option3": "A Svelte build tool.",
+    "Option4": "A Svelte routing library.",
+    "Answer": "A preprocessor for Svelte that allows you to use languages like TypeScript, SCSS, Less, PostCSS within your Svelte components."
+  },
+  {
+    "question_no.": 65,
+    "Question": "How do you pass data to a slot?",
+    "Option1": "You cannot pass data to slots.",
+    "Option2": "Using `let:` directive on the slot tag, then binding properties to the slot's variable.",
+    "Option3": "By defining props on the slot.",
+    "Option4": "Slots automatically inherit parent component data.",
+    "Answer": "Using `let:` directive on the slot tag, then binding properties to the slot's variable."
+  },
+  {
+    "question_no.": 66,
+    "Question": "What is a 'contextual slot' (or 'scoped slot' in other frameworks)?",
+    "Option1": "A slot that only works in specific contexts.",
+    "Option2": "A slot that allows the parent component to access data from the child component where the slot is defined.",
+    "Option3": "A slot used for global data.",
+    "Option4": "A slot that can only render text.",
+    "Answer": "A slot that allows the parent component to access data from the child component where the slot is defined."
+  },
+  {
+    "question_no.": 67,
+    "Question": "What is the purpose of `css: false` in Svelte compiler options?",
+    "Option1": "To disable all styling.",
+    "Option2": "To prevent Svelte from injecting CSS into the DOM, useful when managing CSS externally.",
+    "Option3": "To remove all scoped styles.",
+    "Option4": "To enable CSS Modules.",
+    "Answer": "To prevent Svelte from injecting CSS into the DOM, useful when managing CSS externally."
+  },
+  {
+    "question_no.": 68,
+    "Question": "How do you programmatically navigate in SvelteKit?",
+    "Option1": "Using `window.location.href = '/path'`",
+    "Option2": "Using `goto('/path')` from `sveltekit/client` (or similar for newer SvelteKit versions).",
+    "Option3": "By dispatching a custom navigation event.",
+    "Option4": "SvelteKit doesn't support programmatic navigation.",
+    "Answer": "Using `goto('/path')` from `sveltekit/client` (or similar for newer SvelteKit versions)."
+  },
+  {
+    "question_no.": 69,
+    "Question": "What is `params` in SvelteKit's `load` function argument?",
+    "Option1": "Query parameters.",
+    "Option2": "An object containing the values of route parameters defined in the file path.",
+    "Option3": "Form data.",
+    "Option4": "HTTP headers.",
+    "Answer": "An object containing the values of route parameters defined in the file path."
+  },
+  {
+    "question_no.": 70,
+    "Question": "What is `url` in SvelteKit's `load` function argument?",
+    "Option1": "The base URL of the application.",
+    "Option2": "A URL object representing the current page's URL, including pathname and search parameters.",
+    "Option3": "The URL of the API endpoint.",
+    "Option4": "The URL of the current component.",
+    "Answer": "A URL object representing the current page's URL, including pathname and search parameters."
+  },
+  {
+    "question_no.": 71,
+    "Question": "What is `fetch` in SvelteKit's `load` function argument?",
+    "Option1": "The global `fetch` API.",
+    "Option2": "A universal `fetch` function that works both on the server and client, automatically handling cookie forwarding during SSR.",
+    "Option3": "A SvelteKit specific data fetching library.",
+    "Option4": "A deprecated function.",
+    "Answer": "A universal `fetch` function that works both on the server and client, automatically handling cookie forwarding during SSR."
+  },
+  {
+    "question_no.": 72,
+    "Question": "What is the purpose of `svelte.config.js`?",
+    "Option1": "To define component props.",
+    "Option2": "To configure the Svelte compiler and adapters for SvelteKit projects.",
+    "Option3": "To manage global state.",
+    "Option4": "To declare reactive variables.",
+    "Answer": "To configure the Svelte compiler and adapters for SvelteKit projects."
+  },
+  {
+    "question_no.": 73,
+    "Question": "What is a 'custom element' (Web Component) in Svelte?",
+    "Option1": "A component that can only be used within Svelte apps.",
+    "Option2": "Svelte components can be compiled as custom elements (Web Components), allowing them to be used in any web project, regardless of framework.",
+    "Option3": "A component built with a separate JavaScript file.",
+    "Option4": "A component that has custom styling.",
+    "Answer": "Svelte components can be compiled as custom elements (Web Components), allowing them to be used in any web project, regardless of framework."
+  },
+  {
+    "question_no.": 74,
+    "Question": "How do you compile a Svelte component as a custom element?",
+    "Option1": "By adding `custom: true` to the component.",
+    "Option2": "By setting the `customElement: true` option in the Svelte compiler configuration for that component.",
+    "Option3": "By using a special custom element syntax in HTML.",
+    "Option4": "Svelte components are always custom elements by default.",
+    "Answer": "By setting the `customElement: true` option in the Svelte compiler configuration for that component."
+  },
+  {
+    "question_no.": 75,
+    "Question": "What are 'modules' in Svelte component context?",
+    "Option1": "Separate JavaScript files.",
+    "Option2": "Code defined in a `<script context='module'>` block, which runs once when the module is imported, allowing for shared state or functions among instances.",
+    "Option3": "External libraries.",
+    "Option4": "A way to define reactive statements.",
+    "Answer": "Code defined in a `<script context='module'>` block, which runs once when the module is imported, allowing for shared state or functions among instances."
+  },
+  {
+    "question_no.": 76,
+    "Question": "When would you use `<script context='module'>`?",
+    "Option1": "For component-specific logic.",
+    "Option2": "For creating shared utility functions, constants, or stores that are accessible to all instances of a component.",
+    "Option3": "For defining reactive variables.",
+    "Option4": "For handling props.",
+    "Answer": "For creating shared utility functions, constants, or stores that are accessible to all instances of a component."
+  },
+  {
+    "question_no.": 77,
+    "Question": "What is `immutable` store in Svelte?",
+    "Option1": "A store that can be changed directly.",
+    "Option2": "A writable store created with `{ immutable: true }` option, indicating that updates always create new objects, allowing for faster change detection.",
+    "Option3": "A store that never changes its value.",
+    "Option4": "A store that can only be read, not written.",
+    "Answer": "A writable store created with `{ immutable: true }` option, indicating that updates always create new objects, allowing for faster change detection."
+  },
+  {
+    "question_no.": 78,
+    "Question": "What is `derived` store in Svelte?",
+    "Option1": "A store that can be directly written to.",
+    "Option2": "A store whose value is computed from the value of one or more other stores, and updates reactively when its dependencies change.",
+    "Option3": "A store that is always static.",
+    "Option4": "A store used for external API data.",
+    "Answer": "A store whose value is computed from the value of one or more other stores, and updates reactively when its dependencies change."
+  },
+  {
+    "question_no.": 79,
+    "Question": "How do you handle routing with dynamic parameters in SvelteKit?",
+    "Option1": "By explicitly defining each route.",
+    "Option2": "By using bracket notation in file names, e.g., `src/routes/users/[id].svelte`.",
+    "Option3": "By using query parameters only.",
+    "Option4": "SvelteKit doesn't support dynamic routes.",
+    "Answer": "By using bracket notation in file names, e.g., `src/routes/users/[id].svelte`."
+  },
+  {
+    "question_no.": 80,
+    "Question": "What is the `hydrate={false}` option on SvelteKit components for?",
+    "Option1": "To disable server-side rendering for that component.",
+    "Option2": "To prevent client-side JavaScript from hydrating (taking over) a component that was server-rendered, useful for static content.",
+    "Option3": "To force client-side rendering.",
+    "Option4": "To defer component loading.",
+    "Answer": "To prevent client-side JavaScript from hydrating (taking over) a component that was server-rendered, useful for static content."
+  },
+  {
+    "question_no.": 81,
+    "Question": "What is the purpose of `prefetch` attribute on anchor tags in SvelteKit?",
+    "Option1": "To prevent the page from loading.",
+    "Option2": "To pre-fetch data and JavaScript for linked pages in the background when the user hovers over the link, improving perceived navigation speed.",
+    "Option3": "To send a request to the server.",
+    "Option4": "To disable client-side routing.",
+    "Answer": "To pre-fetch data and JavaScript for linked pages in the background when the user hovers over the link, improving perceived navigation speed."
+  },
+  {
+    "question_no.": 82,
+    "Question": "What is `form` attribute on `<form>` elements in SvelteKit?",
+    "Option1": "To define the form's name.",
+    "Option2": "To specify which server-side action (`+page.server.js`) should handle the form submission, useful for multiple forms on one page.",
+    "Option3": "To disable JavaScript for the form.",
+    "Option4": "To connect the form to a global state.",
+    "Answer": "To specify which server-side action (`+page.server.js`) should handle the form submission, useful for multiple forms on one page."
+  },
+  {
+    "question_no.": 83,
+    "Question": "How do you access the current URL in a SvelteKit page component?",
+    "Option1": "Using `window.location` directly.",
+    "Option2": "Through the `$page` store from `$app/stores`.",
+    "Option3": "By importing `url` from `svelte/url`.",
+    "Option4": "It's not directly accessible in page components.",
+    "Answer": "Through the `$page` store from `$app/stores`."
+  },
+  {
+    "question_no.": 84,
+    "Question": "What is `throw redirect()` in SvelteKit?",
+    "Option1": "A way to handle errors.",
+    "Option2": "A function that allows you to programmatically redirect the user to another page, typically used in `load` functions or actions.",
+    "Option3": "A function to stop page loading.",
+    "Option4": "A function for client-side navigation only.",
+    "Answer": "A function that allows you to programmatically redirect the user to another page, typically used in `load` functions or actions."
+  },
+  {
+    "question_no.": 85,
+    "Question": "What is `throw error()` in SvelteKit?",
+    "Option1": "A way to display a success message.",
+    "Option2": "A function to explicitly throw an error that SvelteKit will catch and render using the `+error.svelte` component.",
+    "Option3": "A function for logging errors to the console.",
+    "Option4": "A function to force a page reload.",
+    "Answer": "A function to explicitly throw an error that SvelteKit will catch and render using the `+error.svelte` component."
+  },
+  {
+    "question_no.": 86,
+    "Question": "What are 'server-only' modules in SvelteKit?",
+    "Option1": "Modules that can only be used in `+page.js`.",
+    "Option2": "Modules (e.g., `+page.server.js`, `+layout.server.js`, `+server.js`) whose code only runs on the server and is never sent to the client.",
+    "Option3": "Modules that only run in the browser.",
+    "Option4": "Modules that handle static assets.",
+    "Answer": "Modules (e.g., `+page.server.js`, `+layout.server.js`, `+server.js`) whose code only runs on the server and is never sent to the client."
+  },
+  {
+    "question_no.": 87,
+    "Question": "What is `+server.js` in SvelteKit?",
+    "Option1": "A component for server-side rendering.",
+    "Option2": "A file that defines server-side API endpoints for handling HTTP requests (GET, POST, PUT, DELETE, etc.) directly.",
+    "Option3": "A file for global server configuration.",
+    "Option4": "A file for client-side routing.",
+    "Answer": "A file that defines server-side API endpoints for handling HTTP requests (GET, POST, PUT, DELETE, etc.) directly."
+  },
+  {
+    "question_no.": 88,
+    "Question": "What is `page.url.searchParams` in SvelteKit?",
+    "Option1": "An object for route parameters.",
+    "Option2": "A URLSearchParams object that allows you to easily access and manipulate query parameters from the URL.",
+    "Option3": "An object for accessing form data.",
+    "Option4": "An object for accessing HTTP headers.",
+    "Answer": "A URLSearchParams object that allows you to easily access and manipulate query parameters from the URL."
+  },
+  {
+    "question_no.": 89,
+    "Question": "What is `invalidateAll()` in SvelteKit?",
+    "Option1": "Invalidates all cache.",
+    "Option2": "Invalidates all `load` functions, causing them to re-run and re-fetch data for the current page and its layouts.",
+    "Option3": "Restarts the SvelteKit application.",
+    "Option4": "Deletes all temporary files.",
+    "Answer": "Invalidates all `load` functions, causing them to re-run and re-fetch data for the current page and its layouts."
+  },
+  {
+    "question_no.": 90,
+    "Question": "What is 'Ad-hoc HTML elements' in Svelte?",
+    "Option1": "Elements that are created dynamically.",
+    "Option2": "HTML elements that are directly rendered in the template, which Svelte compiles into efficient DOM updates without a virtual DOM.",
+    "Option3": "Elements that are loaded from an external source.",
+    "Option4": "Elements that have no styles applied.",
+    "Answer": "HTML elements that are directly rendered in the template, which Svelte compiles into efficient DOM updates without a virtual DOM."
+  },
+  {
+    "question_no.": 91,
+    "Question": "What is the primary role of the `reactive` label (`$:`) in Svelte?",
+    "Option1": "To define a function.",
+    "Option2": "To declare a block of code that re-runs whenever any of its referenced variables change.",
+    "Option3": "To create a variable that is not reactive.",
+    "Option4": "To import external modules.",
+    "Answer": "To declare a block of code that re-runs whenever any of its referenced variables change."
+  },
+  {
+    "question_no.": 92,
+    "Question": "How does Svelte handle component lifecycle for server-side rendering?",
+    "Option1": "`onMount` is called on the server.",
+    "Option2": "Only certain lifecycle hooks (`load` functions in SvelteKit, but not `onMount` or `onDestroy`) are executed on the server.",
+    "Option3": "All lifecycle hooks are called on both server and client.",
+    "Option4": "Svelte doesn't have lifecycle hooks for SSR.",
+    "Answer": "Only certain lifecycle hooks (`load` functions in SvelteKit, but not `onMount` or `onDestroy`) are executed on the server."
+  },
+  {
+    "question_no.": 93,
+    "Question": "What is the `defer` property on a `script` tag for in general HTML (and relevant to Svelte's build output)?",
+    "Option1": "Makes the script run immediately.",
+    "Option2": "Downloads the script in parallel with HTML parsing and executes it after the document has been parsed.",
+    "Option3": "Blocks HTML parsing until the script is downloaded and executed.",
+    "Option4": "Executes the script only when the user interacts with the page.",
+    "Answer": "Downloads the script in parallel with HTML parsing and executes it after the document has been parsed."
+  },
+  {
+    "question_no.": 94,
+    "Question": "What is `event.detail` in custom Svelte events?",
+    "Option1": "A property containing the event name.",
+    "Option2": "A property that holds arbitrary data passed along with the custom event.",
+    "Option3": "A property indicating if the event was prevented.",
+    "Option4": "A property for the target element.",
+    "Answer": "A property that holds arbitrary data passed along with the custom event."
+  },
+  {
+    "question_no.": 95,
+    "Question": "How do you access the element that dispatched an event?",
+    "Option1": "Using `event.target`",
+    "Option2": "Using `event.currentTarget`",
+    "Option3": "Using `event.srcElement`",
+    "Option4": "Using `event.originalTarget`",
+    "Answer": "Using `event.target`"
+  },
+  {
+    "question_no.": 96,
+    "Question": "What is `onDestroy` lifecycle hook primarily used for?",
+    "Option1": "To clean up event listeners or subscriptions to prevent memory leaks when a component is removed from the DOM.",
+    "Option2": "To fetch initial data.",
+    "Option3": "To update component state.",
+    "Option4": "To render the component's initial structure.",
+    "Answer": "To clean up event listeners or subscriptions to prevent memory leaks when a component is removed from the DOM."
+  },
+  {
+    "question_no.": 97,
+    "Question": "What is `beforeUpdate` lifecycle hook in Svelte?",
+    "Option1": "Runs after the component has updated its DOM.",
+    "Option2": "Runs just before the component is about to re-render due to state changes.",
+    "Option3": "Runs before the component is mounted.",
+    "Option4": "Runs only once when the component is created.",
+    "Answer": "Runs just before the component is about to re-render due to state changes."
+  },
+  {
+    "question_no.": 98,
+    "Question": "What is `afterUpdate` lifecycle hook in Svelte?",
+    "Option1": "Runs before the component has updated its DOM.",
+    "Option2": "Runs after the component has updated its DOM and applied all pending changes.",
+    "Option3": "Runs only after initial render.",
+    "Option4": "Runs when a store changes.",
+    "Answer": "Runs after the component has updated its DOM and applied all pending changes."
+  },
+  {
+    "question_no.": 99,
+    "Question": "How do you define default values for props in Svelte?",
+    "Option1": "By assigning them in the component's constructor.",
+    "Option2": "By assigning them directly in the `export let` declaration (e.g., `export let name = 'Guest';`).",
+    "Option3": "Using a `defaultProps` object.",
+    "Option4": "Svelte doesn't support default prop values.",
+    "Answer": "By assigning them directly in the `export let` declaration (e.g., `export let name = 'Guest';`)."
+  },
+  {
+    "question_no.": 100,
+    "Question": "What is the purpose of `bind:group` in Svelte?",
+    "Option1": "To group multiple components together.",
+    "Option2": "To create a binding between a variable and a group of radio buttons or checkboxes, making it easy to manage their selected states.",
+    "Option3": "To apply styles to a group of elements.",
+    "Option4": "To define a global variable.",
+    "Answer": "To create a binding between a variable and a group of radio buttons or checkboxes, making it easy to manage their selected states."
+  },
+  {
+    "question_no.": 101,
+    "Question": "What is the `component` directive in Svelte?",
+    "Option1": "Used for conditional rendering.",
+    "Option2": "A special element that allows you to dynamically render a component based on a variable, without explicitly importing it.",
+    "Option3": "Used for iterating over components.",
+    "Option4": "Used for defining new components.",
+    "Answer": "A special element that allows you to dynamically render a component based on a variable, without explicitly importing it."
+  },
+  {
+    "question_no.": 102,
+    "Question": "How do you access direct DOM elements in Svelte?",
+    "Option1": "Using `document.getElementById()`.",
+    "Option2": "Using `bind:this` on the element and then accessing the bound variable.",
+    "Option3": "Svelte discourages direct DOM manipulation.",
+    "Option4": "Through `$$refs` object.",
+    "Answer": "Using `bind:this` on the element and then accessing the bound variable."
+  },
+  {
+    "question_no.": 103,
+    "Question": "What is the `media` attribute on `<style>` tags in Svelte?",
+    "Option1": "To specify the type of media for the styles.",
+    "Option2": "To apply styles only when certain media queries are met.",
+    "Option3": "To link to external stylesheets.",
+    "Option4": "To define media breakpoints.",
+    "Answer": "To apply styles only when certain media queries are met."
+  },
+  {
+    "question_no.": 104,
+    "Question": "What is the primary benefit of Svelte's reactivity model compared to frameworks that use setters/getters or proxies?",
+    "Option1": "It's more explicit and verbose.",
+    "Option2": "It's simpler and more intuitive, relying on standard JavaScript assignments without needing special functions or wrappers for reactivity.",
+    "Option3": "It's less efficient.",
+    "Option4": "It requires more boilerplate code.",
+    "Answer": "It's simpler and more intuitive, relying on standard JavaScript assignments without needing special functions or wrappers for reactivity."
+  },
+  {
+    "question_no.": 105,
+    "Question": "How do you conditionally apply a CSS class in Svelte?",
+    "Option1": "Using `class={condition ? 'class-name' : ''}`.",
+    "Option2": "Using `class:class-name={condition}`.",
+    "Option3": "By dynamically setting `style` attribute.",
+    "Option4": "By using a JavaScript function that returns the class name.",
+    "Answer": "Using `class:class-name={condition}`."
+  },
+  {
+    "question_no.": 106,
+    "Question": "What is `svelte/motion` module for?",
+    "Option1": "Managing animations for route transitions.",
+    "Option2": "Providing `tweened` and `spring` stores for smooth value transitions and physics-based animations.",
+    "Option3": "Handling drag-and-drop interactions.",
+    "Option4": "Creating complex SVG animations.",
+    "Answer": "Providing `tweened` and `spring` stores for smooth value transitions and physics-based animations."
+  },
+  {
+    "question_no.": 107,
+    "Question": "What is `svelte/easing` module for?",
+    "Option1": "Generating random numbers.",
+    "Option2": "Providing a collection of easing functions (e.g., `linear`, `cubicOut`) to control the acceleration and deceleration of animations.",
+    "Option3": "Simplifying asynchronous operations.",
+    "Option4": "Managing event bubbling.",
+    "Answer": "Providing a collection of easing functions (e.g., `linear`, `cubicOut`) to control the acceleration and deceleration of animations."
+  },
+  {
+    "question_no.": 108,
+    "Question": "How do you implement global styles in SvelteKit?",
+    "Option1": "By adding `global` attribute to the `<style>` tag.",
+    "Option2": "By importing a global CSS file in the `+layout.svelte` or `app.html`.",
+    "Option3": "By using inline styles on the `<body>` tag.",
+    "Option4": "SvelteKit automatically applies global styles.",
+    "Answer": "By importing a global CSS file in the `+layout.svelte` or `app.html`."
+  },
+  {
+    "question_no.": 109,
+    "Question": "What is `kit.paths.base` in `svelte.config.js`?",
+    "Option1": "The base URL for API requests.",
+    "Option2": "The base path for your application, used when deploying to a subdirectory.",
+    "Option3": "The path to the source code.",
+    "Option4": "The path to compiled assets.",
+    "Answer": "The base path for your application, used when deploying to a subdirectory."
+  },
+  {
+    "question_no.": 110,
+    "Question": "What is the `hydrate` option in SvelteKit's `adapter-static` config?",
+    "Option1": "To disable server-side rendering.",
+    "Option2": "To control whether client-side JavaScript should be included for hydration when generating static pages.",
+    "Option3": "To enable dynamic routes.",
+    "Option4": "To force a page refresh.",
+    "Answer": "To control whether client-side JavaScript should be included for hydration when generating static pages."
+  },
+  {
+    "question_no.": 111,
+    "Question": "What is the primary function of `Router` in SvelteKit (implicitly handled)?",
+    "Option1": "To manage global state.",
+    "Option2": "To map URLs to components and handle navigation between pages.",
+    "Option3": "To fetch data from API endpoints.",
+    "Option4": "To compile Svelte components.",
+    "Answer": "To map URLs to components and handle navigation between pages."
+  },
+  {
+    "question_no.": 112,
+    "Question": "What is the `data` prop passed to a `+page.svelte` component in SvelteKit?",
+    "Option1": "Raw HTML data.",
+    "Option2": "The data returned from the `load` function of `+page.js` or `+page.server.js`.",
+    "Option3": "Component-specific props.",
+    "Option4": "URL query parameters.",
+    "Answer": "The data returned from the `load` function of `+page.js` or `+page.server.js`."
+  },
+  {
+    "question_no.": 113,
+    "Question": "How do you access session data in SvelteKit `load` functions and endpoints?",
+    "Option1": "Via `localStorage`.",
+    "Option2": "Through the `event.locals` object, which is available in server-side `load` functions and endpoints after being processed by a hook.",
+    "Option3": "Via props passed to the component.",
+    "Option4": "SvelteKit doesn't have built-in session management.",
+    "Answer": "Through the `event.locals` object, which is available in server-side `load` functions and endpoints after being processed by a hook."
+  },
+  {
+    "question_no.": 114,
+    "Question": "What is a `handle` hook in SvelteKit?",
+    "Option1": "A function for handling client-side events.",
+    "Option2": "A server-side hook that runs for every incoming request, allowing you to modify requests/responses, handle authentication, or set up context.",
+    "Option3": "A function for data validation.",
+    "Option4": "A lifecycle hook for components.",
+    "Answer": "A server-side hook that runs for every incoming request, allowing you to modify requests/responses, handle authentication, or set up context."
+  },
+  {
+    "question_no.": 115,
+    "Question": "Where do you define the `handle` hook in SvelteKit?",
+    "Option1": "In `src/routes/+layout.server.js`.",
+    "Option2": "In `src/hooks.server.js` (or `src/hooks.js` for older versions).",
+    "Option3": "In `svelte.config.js`.",
+    "Option4": "In `src/app.html`.",
+    "Answer": "In `src/hooks.server.js` (or `src/hooks.js` for older versions)."
+  },
+  {
+    "question_no.": 116,
+    "Question": "What is `prerendering` in SvelteKit?",
+    "Option1": "Rendering pages dynamically on demand.",
+    "Option2": "Generating static HTML files for routes at build time, improving performance and SEO for content that doesn't change frequently.",
+    "Option3": "Rendering only parts of the page.",
+    "Option4": "Rendering pages in the browser.",
+    "Answer": "Generating static HTML files for routes at build time, improving performance and SEO for content that doesn't change frequently."
+  },
+  {
+    "question_no.": 117,
+    "Question": "How do you enable prerendering for a SvelteKit page?",
+    "Option1": "By adding `export const prerender = true;` to `+page.js` or `+page.server.js`.",
+    "Option2": "By setting a global flag in `svelte.config.js`.",
+    "Option3": "It's enabled by default for all pages.",
+    "Option4": "By using a special component for prerendering.",
+    "Answer": "By adding `export const prerender = true;` to `+page.js` or `+page.server.js`."
+  },
+  {
+    "question_no.": 118,
+    "Question": "What is the limitation of prerendering in SvelteKit?",
+    "Option1": "It cannot fetch data.",
+    "Option2": "Prerendered pages cannot use server-side `load` functions that depend on runtime data (like user-specific data) and are best for static content.",
+    "Option3": "It makes the bundle size larger.",
+    "Option4": "It disables client-side interactivity.",
+    "Answer": "Prerendered pages cannot use server-side `load` functions that depend on runtime data (like user-specific data) and are best for static content."
+  },
+  {
+    "question_no.": 119,
+    "Question": "What is `relative='path'` on links in SvelteKit?",
+    "Option1": "Forces a full page reload.",
+    "Option2": "Determines how the link's path is resolved. `relative='path'` resolves against the current URL's path segment, while `relative='query'` resolves against query parameters.",
+    "Option3": "Prevents client-side routing.",
+    "Option4": "Adds a new query parameter.",
+    "Answer": "Determines how the link's path is resolved. `relative='path'` resolves against the current URL's path segment, while `relative='query'` resolves against query parameters."
+  },
+  {
+    "question_no.": 120,
+    "Question": "What is `pushState` in the context of SvelteKit client-side routing?",
+    "Option1": "Forces a full page reload.",
+    "Option2": "A browser API used by SvelteKit to change the URL in the browser's history without causing a full page refresh.",
+    "Option3": "A method to add data to the browser's local storage.",
+    "Option4": "A way to send data to the server.",
+    "Answer": "A browser API used by SvelteKit to change the URL in the browser's history without causing a full page refresh."
+  },
+  {
+    "question_no.": 121,
+    "Question": "What is `replaceState` in the context of SvelteKit client-side routing?",
+    "Option1": "Adds a new entry to browser history.",
+    "Option2": "A browser API used by SvelteKit to replace the current URL in the browser's history, without adding a new entry.",
+    "Option3": "Resets the entire application state.",
+    "Option4": "Removes an entry from browser history.",
+    "Answer": "A browser API used by SvelteKit to replace the current URL in the browser's history, without adding a new entry."
+  },
+  {
+    "question_no.": 122,
+    "Question": "What is `$$restProps` in Svelte?",
+    "Option1": "A way to define required props.",
+    "Option2": "An object containing all props passed to a component that were not explicitly declared with `export let`.",
+    "Option3": "A reserved keyword for accessing parent component props.",
+    "Option4": "A function for validating remaining props.",
+    "Answer": "An object containing all props passed to a component that were not explicitly declared with `export let`."
+  },
+  {
+    "question_no.": 123,
+    "Question": "When would you use `$$restProps`?",
+    "Option1": "To enforce strict prop typing.",
+    "Option2": "When building wrapper components that need to pass down arbitrary attributes or event listeners to their underlying HTML elements or child components.",
+    "Option3": "To prevent unwanted props from being passed.",
+    "Option4": "To define computed properties.",
+    "Answer": "When building wrapper components that need to pass down arbitrary attributes or event listeners to their underlying HTML elements or child components."
+  },
+  {
+    "question_no.": 124,
+    "Question": "What is `svelte-jester`?",
+    "Option1": "A Svelte code formatter.",
+    "Option2": "A Jest transformer that allows you to test Svelte components with Jest.",
+    "Option3": "A Svelte animation library.",
+    "Option4": "A Svelte build tool.",
+    "Answer": "A Jest transformer that allows you to test Svelte components with Jest."
+  },
+  {
+    "question_no.": 125,
+    "Question": "How do you test Svelte components?",
+    "Option1": "By manually checking in the browser.",
+    "Option2": "Using testing libraries like `@testing-library/svelte` with a test runner like Jest or Vitest.",
+    "Option3": "Svelte doesn't have a dedicated testing framework.",
+    "Option4": "By inspecting the compiled JavaScript.",
+    "Answer": "Using testing libraries like `@testing-library/svelte` with a test runner like Jest or Vitest."
+  },
+  {
+    "question_no.": 126,
+    "Question": "What is `ssr: false` in Svelte component options?",
+    "Option1": "Forces server-side rendering.",
+    "Option2": "Disables server-side rendering for a specific component, meaning it will only be rendered on the client.",
+    "Option3": "Enables hydration.",
+    "Option4": "Forces prerendering.",
+    "Answer": "Disables server-side rendering for a specific component, meaning it will only be rendered on the client."
+  },
+  {
+    "question_no.": 127,
+    "Question": "When would you set `ssr: false` for a Svelte component?",
+    "Option1": "For components with heavy server-side logic.",
+    "Option2": "For components that rely heavily on browser-specific APIs (e.g., WebGL, certain DOM APIs) that are not available during server-side rendering.",
+    "Option3": "For simple, static components.",
+    "Option4": "When using `load` functions.",
+    "Answer": "For components that rely heavily on browser-specific APIs (e.g., WebGL, certain DOM APIs) that are not available during server-side rendering."
+  },
+  {
+    "question_no.": 128,
+    "Question": "What is `export const snapshots = { shallow: true };` in SvelteKit?",
+    "Option1": "A configuration for deep routing.",
+    "Option2": "A setting in `+page.js` or `+page.server.js` that tells SvelteKit to perform shallow client-side navigation (only fetching load data, not re-hydrating the entire page) for faster transitions.",
+    "Option3": "A setting for database snapshots.",
+    "Option4": "A setting for image optimization.",
+    "Answer": "A setting in `+page.js` or `+page.server.js` that tells SvelteKit to perform shallow client-side navigation (only fetching load data, not re-hydrating the entire page) for faster transitions."
+  },
+  {
+    "question_no.": 129,
+    "Question": "What is `event.request.headers` in SvelteKit server-side `load` functions/endpoints?",
+    "Option1": "Client-side request headers.",
+    "Option2": "The HTTP headers from the incoming request, accessible on the server.",
+    "Option3": "Response headers.",
+    "Option4": "Custom headers defined in SvelteKit config.",
+    "Answer": "The HTTP headers from the incoming request, accessible on the server."
+  },
+  {
+    "question_no.": 130,
+    "Question": "What is `event.cookies` in SvelteKit server-side `load` functions/endpoints?",
+    "Option1": "Client-side cookies.",
+    "Option2": "An object that allows you to read, set, and delete cookies during server-side operations.",
+    "Option3": "Only a list of cookie names.",
+    "Option4": "SvelteKit doesn't allow direct cookie manipulation.",
+    "Answer": "An object that allows you to read, set, and delete cookies during server-side operations."
+  },
+  {
+    "question_no.": 131,
+    "Question": "What is the `config.kit.appDir` in `svelte.config.js`?",
+    "Option1": "The directory for source code.",
+    "Option2": "The directory where the client-side app is built, usually `_app` by default.",
+    "Option3": "The directory for server-side code.",
+    "Option4": "The directory for static assets.",
+    "Answer": "The directory where the client-side app is built, usually `_app` by default."
+  },
+  {
+    "question_no.": 132,
+    "Question": "What is the `config.kit.prerender.entries` in `svelte.config.js`?",
+    "Option1": "Defines dynamic routes for prerendering.",
+    "Option2": "An array of paths that SvelteKit should prerender at build time.",
+    "Option3": "Defines entry points for server-side rendering.",
+    "Option4": "Defines the routes that are excluded from prerendering.",
+    "Answer": "An array of paths that SvelteKit should prerender at build time."
+  },
+  {
+    "question_no.": 133,
+    "Question": "What is the purpose of `src/params` directory in SvelteKit?",
+    "Option1": "To define global parameters.",
+    "Option2": "To define custom parameter matchers that validate and transform dynamic route parameters.",
+    "Option3": "To store environment variables.",
+    "Option4": "To define static route parameters.",
+    "Answer": "To define custom parameter matchers that validate and transform dynamic route parameters."
+  },
+  {
+    "question_no.": 134,
+    "Question": "How do you define a custom parameter matcher in SvelteKit?",
+    "Option1": "By creating a file like `src/params/integer.js` that exports a `match` function.",
+    "Option2": "By adding it to `svelte.config.js`.",
+    "Option3": "By defining it within the `+page.js` file.",
+    "Option4": "It's not possible to define custom matchers.",
+    "Answer": "By creating a file like `src/params/integer.js` that exports a `match` function."
+  },
+  {
+    "question_no.": 135,
+    "Question": "How do you use a custom parameter matcher in a SvelteKit route?",
+    "Option1": "Using `[param=matcher].svelte` (e.g., `[id=integer].svelte`).",
+    "Option2": "By importing it in the component.",
+    "Option3": "By defining it in `+page.js`.",
+    "Option4": "By adding it to the query string.",
+    "Answer": "Using `[param=matcher].svelte` (e.g., `[id=integer].svelte`)."
+  },
+  {
+    "question_no.": 136,
+    "Question": "What is `kit.output` in `svelte.config.js`?",
+    "Option1": "The build output directory.",
+    "Option2": "The directory where the SvelteKit build output (static files, server functions) is placed after running `svelte-kit build`.",
+    "Option3": "The directory for source files.",
+    "Option4": "The directory for temporary files.",
+    "Answer": "The directory where the SvelteKit build output (static files, server functions) is placed after running `svelte-kit build`."
+  },
+  {
+    "question_no.": 137,
+    "Question": "What is `kit.vite` in `svelte.config.js`?",
+    "Option1": "Configuration for the Svelte compiler.",
+    "Option2": "Configuration options to pass directly to Vite, SvelteKit's build tool.",
+    "Option3": "Configuration for the SvelteKit router.",
+    "Option4": "Configuration for testing.",
+    "Answer": "Configuration options to pass directly to Vite, SvelteKit's build tool."
+  },
+  {
+    "question_no.": 138,
+    "Question": "What is `npm create svelte@latest` for?",
+    "Option1": "To install Svelte globally.",
+    "Option2": "To quickly scaffold a new SvelteKit project with various configuration options.",
+    "Option3": "To create a new Svelte component.",
+    "Option4": "To update an existing Svelte project.",
+    "Answer": "To quickly scaffold a new SvelteKit project with various configuration options."
+  },
+  {
+    "question_no.": 139,
+    "Question": "What is `Vite`'s role in SvelteKit?",
+    "Option1": "Database management.",
+    "Option2": "A fast build tool and development server that SvelteKit uses for compiling, bundling, and hot module replacement.",
+    "Option3": "A client-side router.",
+    "Option4": "A testing framework.",
+    "Answer": "A fast build tool and development server that SvelteKit uses for compiling, bundling, and hot module replacement."
+  },
+  {
+    "question_no.": 140,
+    "Question": "What is `HMR` (Hot Module Replacement) in SvelteKit development?",
+    "Option1": "Replaces all code with new code.",
+    "Option2": "Allows changes to be applied to modules in a running application without a full page reload, preserving application state.",
+    "Option3": "Only replaces styles.",
+    "Option4": "Requires a full page refresh for every change.",
+    "Answer": "Allows changes to be applied to modules in a running application without a full page reload, preserving application state."
+  },
+  {
+    "question_no.": 141,
+    "Question": "What is `postcss-load-config` often used for with Svelte?",
+    "Option1": "To load Svelte components.",
+    "Option2": "To configure PostCSS for processing CSS within Svelte projects, allowing for plugins like Autoprefixer or Tailwind CSS.",
+    "Option3": "To load JavaScript modules.",
+    "Option4": "To load images.",
+    "Answer": "To configure PostCSS for processing CSS within Svelte projects, allowing for plugins like Autoprefixer or Tailwind CSS."
+  },
+  {
+    "question_no.": 142,
+    "Question": "How do you integrate Tailwind CSS with SvelteKit?",
+    "Option1": "By adding Tailwind classes directly to Svelte components.",
+    "Option2": "By installing Tailwind, configuring PostCSS and adding Tailwind directives to a global CSS file.",
+    "Option3": "Tailwind is not compatible with SvelteKit.",
+    "Option4": "By importing a Tailwind component library.",
+    "Answer": "By installing Tailwind, configuring PostCSS and adding Tailwind directives to a global CSS file."
+  },
+  {
+    "question_no.": 143,
+    "Question": "What is the purpose of `data-sveltekit-reload` attribute on links?",
+    "Option1": "To prevent client-side routing.",
+    "Option2": "To force a full page reload even if it's a client-side navigation, bypassing SvelteKit's router.",
+    "Option3": "To pre-fetch data for the link.",
+    "Option4": "To open the link in a new tab.",
+    "Answer": "To force a full page reload even if it's a client-side navigation, bypassing SvelteKit's router."
+  },
+  {
+    "question_no.": 144,
+    "Question": "What is `data-sveltekit-replacestate` attribute on links?",
+    "Option1": "Adds a new entry to the browser history.",
+    "Option2": "Changes the browser history without adding a new entry, similar to `history.replaceState()`, for the navigation.",
+    "Option3": "Prevents any history manipulation.",
+    "Option4": "Forces a full page reload.",
+    "Answer": "Changes the browser history without adding a new entry, similar to `history.replaceState()`, for the navigation."
+  },
+  {
+    "question_no.": 145,
+    "Question": "What is `data-sveltekit-keepfocus` attribute on links/forms?",
+    "Option1": "To prevent focus from leaving the current element.",
+    "Option2": "To prevent SvelteKit from automatically managing focus when navigating, useful for accessibility or custom focus handling.",
+    "Option3": "To focus the linked element automatically.",
+    "Option4": "To keep the scroll position after navigation.",
+    "Answer": "To prevent SvelteKit from automatically managing focus when navigating, useful for accessibility or custom focus handling."
+  },
+  {
+    "question_no.": 146,
+    "Question": "What is the primary role of `store subscriptions` in Svelte?",
+    "Option1": "To update the DOM directly.",
+    "Option2": "To allow components to reactively re-render when the data in a store changes.",
+    "Option3": "To perform asynchronous operations.",
+    "Option4": "To fetch data from an API.",
+    "Answer": "To allow components to reactively re-render when the data in a store changes."
+  },
+  {
+    "question_no.": 147,
+    "Question": "How does Svelte handle `props` passing to child components?",
+    "Option1": "Through a global context object.",
+    "Option2": "By explicitly declaring them with `export let` in the child and passing them as attributes in the parent's component tag.",
+    "Option3": "Automatically, based on matching variable names.",
+    "Option4": "Only through a store.",
+    "Answer": "By explicitly declaring them with `export let` in the child and passing them as attributes in the parent's component tag."
+  },
+  {
+    "question_no.": 148,
+    "Question": "What is `{#await ... then ... catch ...}` block in Svelte?",
+    "Option1": "To handle synchronous operations.",
+    "Option2": "To handle asynchronous operations (e.g., Promises), allowing you to render different content based on whether the Promise is pending, resolved, or rejected.",
+    "Option3": "To create a loop.",
+    "Option4": "To define a conditional statement.",
+    "Answer": "To handle asynchronous operations (e.g., Promises), allowing you to render different content based on whether the Promise is pending, resolved, or rejected."
+  },
+  {
+    "question_no.": 149,
+    "Question": "What is `{#key ...}` block in Svelte?",
+    "Option1": "To uniquely identify elements for styling.",
+    "Option2": "To force a re-render of a block of content when the value of the key expression changes, useful for transitioning between different data states.",
+    "Option3": "To define a unique identifier for a component.",
+    "Option4": "To encrypt data.",
+    "Answer": "To force a re-render of a block of content when the value of the key expression changes, useful for transitioning between different data states."
+  },
+  {
+    "question_no.": 150,
+    "Question": "When would you typically use a `{#key ...}` block?",
+    "Option1": "For static content.",
+    "Option2": "When animating changes between elements or when a component needs to be completely re-initialized due to a fundamental data change.",
+    "Option3": "For simple lists.",
+    "Option4": "Only for debugging purposes.",
+    "Answer": "When animating changes between elements or when a component needs to be completely re-initialized due to a fundamental data change."
+  },
+  {
+    "question_no.": 151,
+    "Question": "What is the purpose of `bind:clientWidth` or `bind:clientHeight`?",
+    "Option1": "To set the dimensions of an element.",
+    "Option2": "To bind a variable to the current `clientWidth` or `clientHeight` of a DOM element, reacting to changes in its size.",
+    "Option3": "To get the scroll position.",
+    "Option4": "To get the element's position on the page.",
+    "Answer": "To bind a variable to the current `clientWidth` or `clientHeight` of a DOM element, reacting to changes in its size."
+  },
+  {
+    "question_no.": 152,
+    "Question": "How do you handle global keyboard events in Svelte?",
+    "Option1": "Using `window.addEventListener('keydown', ...)` in `onMount`.",
+    "Option2": "Using `on:keydown` directly on the `window` object (or document.body) in the template.",
+    "Option3": "By defining a global reactive variable.",
+    "Option4": "Svelte doesn't support global event listeners.",
+    "Answer": "Using `window.addEventListener('keydown', ...)` in `onMount`."
+  },
+  {
+    "question_no.": 153,
+    "Question": "What is `A11y` in web development, and how does Svelte support it?",
+    "Option1": "A term for security measures.",
+    "Option2": "Accessibility. Svelte encourages accessible practices by allowing direct access to DOM attributes and providing tools like `aria-label` bindings.",
+    "Option3": "A performance optimization technique.",
+    "Option4": "A type of database.",
+    "Answer": "Accessibility. Svelte encourages accessible practices by allowing direct access to DOM attributes and providing tools like `aria-label` bindings."
+  },
+  {
+    "question_no.": 154,
+    "Question": "What is the `a11y-label` attribute in Svelte `bind:aria-label`?",
+    "Option1": "For internal Svelte labeling.",
+    "Option2": "A Svelte shorthand for binding to the `aria-label` attribute, which provides a text label for accessibility purposes.",
+    "Option3": "A placeholder text for inputs.",
+    "Option4": "A unique identifier for elements.",
+    "Answer": "A Svelte shorthand for binding to the `aria-label` attribute, which provides a text label for accessibility purposes."
+  },
+  {
+    "question_no.": 155,
+    "Question": "What is the difference between `let` and `const` for reactivity in Svelte?",
+    "Option1": "`const` variables are reactive, `let` variables are not.",
+    "Option2": "Only `let` variables can be made reactive (via assignment or reactive declarations). `const` variables, once assigned, cannot change and thus are not reactive in the same way.",
+    "Option3": "Both are equally reactive.",
+    "Option4": "Neither are reactive by default.",
+    "Answer": "Only `let` variables can be made reactive (via assignment or reactive declarations). `const` variables, once assigned, cannot change and thus are not reactive in the same way."
+  },
+  {
+    "question_no.": 156,
+    "Question": "How does Svelte achieve reactivity without a virtual DOM?",
+    "Option1": "By using browser-specific APIs directly.",
+    "Option2": "It compiles components into granular, vanilla JavaScript code that directly updates the DOM when state changes, avoiding the diffing process of a virtual DOM.",
+    "Option3": "By relying on a hidden virtual DOM.",
+    "Option4": "It uses a custom DOM implementation.",
+    "Answer": "It compiles components into granular, vanilla JavaScript code that directly updates the DOM when state changes, avoiding the diffing process of a virtual DOM."
+  },
+  {
+    "question_no.": 157,
+    "Question": "What are 'directives' in Svelte?",
+    "Option1": "Instructions for the Svelte compiler.",
+    "Option2": "Special attributes (e.g., `on:event`, `bind:value`, `use:action`, `in:transition`) that add specific behavior to HTML elements or components.",
+    "Option3": "Functions that run on component initialization.",
+    "Option4": "A way to define global variables.",
+    "Answer": "Special attributes (e.g., `on:event`, `bind:value`, `use:action`, `in:transition`) that add specific behavior to HTML elements or components."
+  },
+  {
+    "question_no.": 158,
+    "Question": "Can you use web components directly in Svelte components?",
+    "Option1": "No, Svelte only supports its own components.",
+    "Option2": "Yes, you can use standard web components directly in Svelte templates just like any other HTML element.",
+    "Option3": "Only if they are compiled by Svelte.",
+    "Option4": "It requires a special wrapper component.",
+    "Answer": "Yes, you can use standard web components directly in Svelte templates just like any other HTML element."
+  },
+  {
+    "question_no.": 159,
+    "Question": "What is `svelte-hmr`?",
+    "Option1": "A Svelte build tool.",
+    "Option2": "A plugin for enabling Hot Module Replacement (HMR) during Svelte development, particularly with older bundlers like Webpack.",
+    "Option3": "A Svelte testing utility.",
+    "Option4": "A Svelte component library.",
+    "Answer": "A plugin for enabling Hot Module Replacement (HMR) during Svelte development, particularly with older bundlers like Webpack."
+  },
+  {
+    "question_no.": 160,
+    "Question": "What is `svelte/internal` module?",
+    "Option1": "A module for public Svelte APIs.",
+    "Option2": "A module containing internal Svelte runtime utilities and helper functions that are not intended for direct use by developers.",
+    "Option3": "A module for Svelte testing utilities.",
+    "Option4": "A module for SvelteKit specific functions.",
+    "Answer": "A module containing internal Svelte runtime utilities and helper functions that are not intended for direct use by developers."
+  },
+  {
+    "question_no.": 161,
+    "Question": "What is `npm init svelte` used for?",
+    "Option1": "To install Svelte globally.",
+    "Option2": "Similar to `npm create svelte@latest`, it's a command to initialize a new SvelteKit project.",
+    "Option3": "To create a new Svelte component.",
+    "Option4": "To update Svelte packages.",
+    "Answer": "Similar to `npm create svelte@latest`, it's a command to initialize a new SvelteKit project."
+  },
+  {
+    "question_no.": 162,
+    "Question": "What is the `svelte-check` tool for?",
+    "Option1": "Running Svelte tests.",
+    "Option2": "A command-line tool that performs type checking and finds errors in Svelte components, especially useful with TypeScript.",
+    "Option3": "Formatting Svelte code.",
+    "Option4": "Analyzing Svelte bundle size.",
+    "Answer": "A command-line tool that performs type checking and finds errors in Svelte components, especially useful with TypeScript."
+  },
+  {
+    "question_no.": 163,
+    "Question": "How do you define a `writable` store with an initial value?",
+    "Option1": "`const myStore = writable();`",
+    "Option2": "`const myStore = writable(initialValue);`",
+    "Option3": "`const myStore = new Writable(initialValue);`",
+    "Option4": "`const myStore = createWritable(initialValue);`",
+    "Answer": "`const myStore = writable(initialValue);`"
+  },
+  {
+    "question_no.": 164,
+    "Question": "How do you update a `writable` store's value?",
+    "Option1": "`myStore = newValue;`",
+    "Option2": "`myStore.set(newValue);` or `myStore.update(value => ...);`",
+    "Option3": "`myStore.value = newValue;`",
+    "Option4": "By assigning to `$myStore` (if used with auto-subscription).",
+    "Answer": "`myStore.set(newValue);` or `myStore.update(value => ...);`"
+  },
+  {
+    "question_no.": 165,
+    "Question": "What is `readable` store in Svelte?",
+    "Option1": "A store whose value can be directly changed.",
+    "Option2": "A store whose value cannot be changed from outside, only set internally by a function that typically fetches data or listens to external events.",
+    "Option3": "A store used for temporary data.",
+    "Option4": "A store that only holds strings.",
+    "Answer": "A store whose value cannot be changed from outside, only set internally by a function that typically fetches data or listens to external events."
+  },
+  {
+    "question_no.": 166,
+    "Question": "When would you use a `readable` store?",
+    "Option1": "For user input.",
+    "Option2": "For data that comes from an API, a websocket, or a timer, where the store itself controls how its value is updated.",
+    "Option3": "For simple counters.",
+    "Option4": "For component-specific state.",
+    "Answer": "For data that comes from an API, a websocket, or a timer, where the store itself controls how its value is updated."
+  },
+  {
+    "question_no.": 167,
+    "Question": "What is the main advantage of `derived` stores?",
+    "Option1": "They reduce the need for `writable` stores.",
+    "Option2": "They allow for computed state that automatically updates when its dependencies change, without manually subscribing or re-calculating.",
+    "Option3": "They are easier to debug.",
+    "Option4": "They allow for server-side calculations.",
+    "Answer": "They allow for computed state that automatically updates when its dependencies change, without manually subscribing or re-calculating."
+  },
+  {
+    "question_no.": 168,
+    "Question": "How do you explicitly `unsubscribe` from a store?",
+    "Option1": "It's not necessary with Svelte's auto-subscription.",
+    "Option2": "By calling the function returned by `store.subscribe()` (e.g., `const unsubscribe = myStore.subscribe(...); unsubscribe();`).",
+    "Option3": "By setting the store variable to `null`.",
+    "Option4": "By reloading the component.",
+    "Answer": "By calling the function returned by `store.subscribe()` (e.g., `const unsubscribe = myStore.subscribe(...); unsubscribe();`)."
+  },
+  {
+    "question_no.": 169,
+    "Question": "When would you manually unsubscribe from a store?",
+    "Option1": "When using the `$` prefix.",
+    "Option2": "When subscribing to a store outside of a `.svelte` component (e.g., in a utility file or a non-Svelte component), to prevent memory leaks.",
+    "Option3": "When the store value is very large.",
+    "Option4": "Never, it's always automatic.",
+    "Answer": "When subscribing to a store outside of a `.svelte` component (e.g., in a utility file or a non-Svelte component), to prevent memory leaks."
+  },
+  {
+    "question_no.": 170,
+    "Question": "What is `module context` for components (revisited)?",
+    "Option1": "Code that runs per component instance.",
+    "Option2": "The `<script context='module'>` block contains code that runs once when the component module is first loaded, useful for shared logic or global side effects.",
+    "Option3": "Code for server-side logic only.",
+    "Option4": "Code for styling.",
+    "Answer": "The `<script context='module'>` block contains code that runs once when the component module is first loaded, useful for shared logic or global side effects."
+  },
+  {
+    "question_no.": 171,
+    "Question": "What is `instance context` for components?",
+    "Option1": "The `<script context='module'>` block.",
+    "Option2": "The regular `<script>` block, whose code runs every time a new instance of the component is created.",
+    "Option3": "Code for global variables.",
+    "Option4": "Code that defines props.",
+    "Answer": "The regular `<script>` block, whose code runs every time a new instance of the component is created."
+  },
+  {
+    "question_no.": 172,
+    "Question": "What is the purpose of `accessors: true` in Svelte compiler options?",
+    "Option1": "To disable all access to component properties.",
+    "Option2": "To generate getter and setter methods for component properties, allowing them to be accessed and modified imperatively from outside the component.",
+    "Option3": "To only allow read-only access to props.",
+    "Option4": "To automatically create derived stores for all props.",
+    "Answer": "To generate getter and setter methods for component properties, allowing them to be accessed and modified imperatively from outside the component."
+  },
+  {
+    "question_no.": 173,
+    "Question": "When would you use `accessors: true`?",
+    "Option1": "For normal Svelte development.",
+    "Option2": "When consuming Svelte components from non-Svelte environments (e.g., plain JavaScript, other frameworks) and needing programmatic access to their state.",
+    "Option3": "When building complex internal logic.",
+    "Option4": "Never, it's deprecated.",
+    "Answer": "When consuming Svelte components from non-Svelte environments (e.g., plain JavaScript, other frameworks) and needing programmatic access to their state."
+  },
+  {
+    "question_no.": 174,
+    "Question": "What is `svelte:options` element for in a Svelte component?",
+    "Option1": "To define props.",
+    "Option2": "To configure component-specific compiler options, such as `tag` for custom elements, `accessors`, or `immutable`.",
+    "Option3": "To define global options.",
+    "Option4": "To specify component dependencies.",
+    "Answer": "To configure component-specific compiler options, such0 as `tag` for custom elements, `accessors`, or `immutable`."
+  },
+  {
+    "question_no.": 175,
+    "Question": "What is the `tag` option in `svelte:options` used for?",
+    "Option1": "To define the HTML tag of the component.",
+    "Option2": "To specify the custom element tag name when compiling a Svelte component as a web component (e.g., `<svelte:options tag='my-element'/>`).",
+    "Option3": "To define a CSS class.",
+    "Option4": "To add an ID to the component.",
+    "Answer": "To specify the custom element tag name when compiling a Svelte component as a web component (e.g., `<svelte:options tag='my-element'/>`)."
+  },
+  {
+    "question_no.": 176,
+    "Question": "What is a `store contract` in Svelte?",
+    "Option1": "A legal agreement for using stores.",
+    "Option2": "The minimum interface a JavaScript object must expose (`subscribe`, `set`, `update`) to be considered a Svelte store.",
+    "Option3": "A pattern for connecting components to stores.",
+    "Option4": "A security measure for stores.",
+    "Answer": "The minimum interface a JavaScript object must expose (`subscribe`, `set`, `update`) to be considered a Svelte store."
+  },
+  {
+    "question_no.": 177,
+    "Question": "Can you create your own custom stores in Svelte?",
+    "Option1": "No, only built-in stores are allowed.",
+    "Option2": "Yes, by implementing the store contract (an object with `subscribe` and optionally `set`/`update` methods).",
+    "Option3": "Only if you extend a base Store class.",
+    "Option4": "It's highly discouraged.",
+    "Answer": "Yes, by implementing the store contract (an object with `subscribe` and optionally `set`/`update` methods)."
+  },
+  {
+    "question_no.": 178,
+    "Question": "What is the purpose of `$$restProps` (revisited)?",
+    "Option1": "To explicitly declare all props.",
+    "Option2": "To capture and forward any extra props (attributes) passed to a component that aren't explicitly declared, making it useful for wrapper components.",
+    "Option3": "To ignore all undeclared props.",
+    "Option4": "To define mandatory props.",
+    "Answer": "To capture and forward any extra props (attributes) passed to a component that aren't explicitly declared, making it useful for wrapper components."
+  },
+  {
+    "question_no.": 179,
+    "Question": "What is the `slot='name'` attribute for when passing content to slots?",
+    "Option1": "To define a new slot in the parent component.",
+    "Option2": "To specify which named slot a piece of content should be placed into within the child component.",
+    "Option3": "To apply unique styling to a slot.",
+    "Option4": "To prevent content from being rendered.",
+    "Answer": "To specify which named slot a piece of content should be placed into within the child component."
+  },
+  {
+    "question_no.": 180,
+    "Question": "What is `svelte-language-server`?",
+    "Option1": "A Svelte specific web server.",
+    "Option2": "A Language Server Protocol (LSP) implementation that provides intelligent code features (autocompletion, diagnostics, hover info) for Svelte files in compatible editors.",
+    "Option3": "A server for SvelteKit applications.",
+    "Option4": "A tool for translating Svelte to other languages.",
+    "Answer": "A Language Server Protocol (LSP) implementation that provides intelligent code features (autocompletion, diagnostics, hover info) for Svelte files in compatible editors."
+  },
+  {
+    "question_no.": 181,
+    "Question": "What is `svelte-eslint-parser`?",
+    "Option1": "A Svelte code formatter.",
+    "Option2": "An ESLint parser that allows ESLint to understand Svelte's `.svelte` file syntax, enabling linting of the script, style, and template sections.",
+    "Option3": "A Svelte testing library.",
+    "Option4": "A Svelte bundler.",
+    "Answer": "An ESLint parser that allows ESLint to understand Svelte's `.svelte` file syntax, enabling linting of the script, style, and template sections."
+  },
+  {
+    "question_no.": 182,
+    "Question": "What is `svelte-vscode` (Svelte for VS Code extension)?",
+    "Option1": "A Svelte debugging tool.",
+    "Option2": "A VS Code extension that provides rich language support (syntax highlighting, IntelliSense, formatting) for Svelte development.",
+    "Option3": "A Svelte project generator.",
+    "Option4": "A Svelte deployment tool.",
+    "Answer": "A VS Code extension that provides rich language support (syntax highlighting, IntelliSense, formatting) for Svelte development."
+  },
+  {
+    "question_no.": 183,
+    "Question": "What is `svelte.dev/repl`?",
+    "Option1": "A documentation website.",
+    "Option2": "The official Svelte online REPL (Read-Eval-Print Loop) where users can experiment with Svelte code directly in the browser.",
+    "Option3": "A Svelte community forum.",
+    "Option4": "A Svelte project template.",
+    "Answer": "The official Svelte online REPL (Read-Eval-Print Loop) where users can experiment with Svelte code directly in the browser."
+  },
+  {
+    "question_no.": 184,
+    "Question": "What is `Svelte Prettier Plugin`?",
+    "Option1": "A plugin for SvelteKit.",
+    "Option2": "A Prettier plugin that formats Svelte files (`.svelte`) according to Prettier's rules, ensuring consistent code style.",
+    "Option3": "A plugin for Svelte stores.",
+    "Option4": "A plugin for Svelte animations.",
+    "Answer": "A Prettier plugin that formats Svelte files (`.svelte`) according to Prettier's rules, ensuring consistent code style."
+  },
+  {
+    "question_no.": 185,
+    "Question": "How do you apply global CSS variables in Svelte?",
+    "Option1": "By defining them in the `<script>` block.",
+    "Option2": "By defining them in a global CSS file or in `:global()` block within a Svelte component's `<style>` tag.",
+    "Option3": "Using Svelte stores for CSS.",
+    "Option4": "They are automatically inherited from the browser.",
+    "Answer": "By defining them in a global CSS file or in `:global()` block within a Svelte component's `<style>` tag."
+  },
+  {
+    "question_no.": 186,
+    "Question": "What is the purpose of `src/app.html` in SvelteKit?",
+    "Option1": "It's the main entry point for client-side rendering.",
+    "Option2": "The root HTML template file that SvelteKit uses to inject the Svelte application and serve as the base for all pages.",
+    "Option3": "It's a documentation file.",
+    "Option4": "It's only used for static deployments.",
+    "Answer": "The root HTML template file that SvelteKit uses to inject the Svelte application and serve as the base for all pages."
+  },
+  {
+    "question_no.": 187,
+    "Question": "What are `Svelte transitions` (revisited)?",
+    "Option1": "JavaScript animations only.",
+    "Option2": "Directives (`in:`, `out:`, `transition:`) that enable smooth visual effects (fade, slide, etc.) when elements are added to or removed from the DOM.",
+    "Option3": "CSS animations only.",
+    "Option4": "A way to change page content.",
+    "Answer": "Directives (`in:`, `out:`, `transition:`) that enable smooth visual effects (fade, slide, etc.) when elements are added to or removed from the DOM."
+  },
+  {
+    "question_no.": 188,
+    "Question": "What are `Svelte animations` (revisited)?",
+    "Option1": "Event-based animations.",
+    "Option2": "The `animate:` directive, used with `{#each}` blocks, to animate elements as they move within a list, rather than just entering/exiting.",
+    "Option3": "Transitions between pages.",
+    "Option4": "CSS-only animations.",
+    "Answer": "The `animate:` directive, used with `{#each}` blocks, to animate elements as they move within a list, rather than just entering/exiting."
+  },
+  {
+    "question_no.": 189,
+    "Question": "What is `css.hash` in `svelte.config.js` or compiler options?",
+    "Option1": "Disables CSS hashing.",
+    "Option2": "Controls whether component-scoped CSS class names are hashed (randomized) to prevent collisions, ensuring unique styles for each component.",
+    "Option3": "Encrypts CSS files.",
+    "Option4": "Loads CSS from a CDN.",
+    "Answer": "Controls whether component-scoped CSS class names are hashed (randomized) to prevent collisions, ensuring unique styles for each component."
+  },
+  {
+    "question_no.": 190,
+    "Question": "What is `dev` mode in SvelteKit?",
+    "Option1": "Production build mode.",
+    "Option2": "A development environment that provides features like hot module replacement, detailed error messages, and unoptimized bundles for faster development.",
+    "Option3": "A mode for testing only.",
+    "Option4": "A mode for static site generation.",
+    "Answer": "A development environment that provides features like hot module replacement, detailed error messages, and unoptimized bundles for faster development."
+  },
+  {
+    "question_no.": 191,
+    "Question": "What is `build` mode in SvelteKit?",
+    "Option1": "Development environment.",
+    "Option2": "The process of compiling and optimizing the application for production deployment, resulting in smaller, highly efficient bundles.",
+    "Option3": "A mode for running tests.",
+    "Option4": "A mode for server-side rendering only.",
+    "Answer": "The process of compiling and optimizing the application for production deployment, resulting in smaller, highly efficient bundles."
+  },
+  {
+    "question_no.": 192,
+    "Question": "What is `adapter-auto` in SvelteKit?",
+    "Option1": "An adapter for static sites.",
+    "Option2": "A SvelteKit adapter that automatically detects the deployment environment and uses the appropriate platform-specific adapter (e.g., Vercel, Netlify).",
+    "Option3": "An adapter for Node.js servers.",
+    "Option4": "An adapter for Web Components.",
+    "Answer": "A SvelteKit adapter that automatically detects the deployment environment and uses the appropriate platform-specific adapter (e.g., Vercel, Netlify)."
+  },
+  {
+    "question_no.": 193,
+    "Question": "What is the purpose of `+layout.js` in SvelteKit?",
+    "Option1": "To define server-side data for layouts.",
+    "Option2": "To define client-side `load` functions that apply to all pages within a layout segment, allowing for shared data or side effects.",
+    "Option3": "To define global layout styles.",
+    "Option4": "To define layout components.",
+    "Answer": "To define client-side `load` functions that apply to all pages within a layout segment, allowing for shared data or side effects."
+  },
+  {
+    "question_no.": 194,
+    "Question": "What is the order of execution for `load` functions in SvelteKit?",
+    "Option1": "Page `load` before layout `load`.",
+    "Option2": "Layout `load` functions (from parent to child) run first, then page `load` functions.",
+    "Option3": "All `load` functions run simultaneously.",
+    "Option4": "The order is random.",
+    "Answer": "Layout `load` functions (from parent to child) run first, then page `load` functions."
+  },
+  {
+    "question_no.": 195,
+    "Question": "How do you pass data from a layout `load` function to its child pages/layouts?",
+    "Option1": "It's automatically passed as `data` prop.",
+    "Option2": "Data returned from a layout `load` function is available to its child pages and layouts via the `data` prop.",
+    "Option3": "Through a global store.",
+    "Option4": "It's not possible to pass data downwards.",
+    "Answer": "Data returned from a layout `load` function is available to its child pages and layouts via the `data` prop."
+  },
+  {
+    "question_no.": 196,
+    "Question": "What is `svelte-hmr-rollup`?",
+    "Option1": "A SvelteKit adapter.",
+    "Option2": "A Rollup plugin that enables Hot Module Replacement (HMR) for Svelte components during development.",
+    "Option3": "A Svelte testing library.",
+    "Option4": "A Svelte component bundler.",
+    "Answer": "A Rollup plugin that enables Hot Module Replacement (HMR) for Svelte components during development."
+  },
+  {
+    "question_no.": 197,
+    "Question": "What is the `hydrate` function (from `$app/stores`) in SvelteKit for?",
+    "Option1": "To manually hydrate specific parts of the DOM.",
+    "Option2": "Provides information about the hydration process and can be used to wait for hydration to complete.",
+    "Option3": "To disable hydration for a component.",
+    "Option4": "To pre-fetch data for hydration.",
+    "Answer": "Provides information about the hydration process and can be used to wait for hydration to complete."
+  },
+  {
+    "question_no.": 198,
+    "Question": "What is `svelte/compiler`?",
+    "Option1": "The Svelte runtime library.",
+    "Option2": "The JavaScript API for the Svelte compiler, allowing programmatic compilation of Svelte code.",
+    "Option3": "A testing utility.",
+    "Option4": "A Svelte component library.",
+    "Answer": "The JavaScript API for the Svelte compiler, allowing programmatic compilation of Svelte code."
+  },
+  {
+    "question_no.": 199,
+    "Question": "What is the purpose of `emitCss: false` in Svelte compiler options?",
+    "Option1": "To disable all styling.",
+    "Option2": "To prevent the Svelte compiler from emitting CSS files, useful when managing CSS with a separate build process or CSS-in-JS solutions.",
+    "Option3": "To force inline styles.",
+    "Option4": "To only emit global CSS.",
+    "Answer": "To prevent the Svelte compiler from emitting CSS files, useful when managing CSS with a separate build process or CSS-in-JS solutions."
+  },
+  {
+    "question_no.": 200,
+    "Question": "What is `svelte.config.js` (revisited)?",
+    "Option1": "A file for client-side configuration.",
+    "Option2": "The main configuration file for SvelteKit projects, where you define adapters, preprocessors, and other build-related settings.",
+    "Option3": "A file for defining reactive variables.",
+    "Option4": "A file for Svelte component styles.",
+    "Answer": "The main configuration file for SvelteKit projects, where you define adapters, preprocessors, and other build-related settings."
+  },
+  {
+    "question_no.": 201,
+    "Question": "What is `kit.ssr` in `svelte.config.js`?",
+    "Option1": "Controls client-side rendering.",
+    "Option2": "A boolean property that enables or disables Server-Side Rendering (SSR) for the entire SvelteKit application.",
+    "Option3": "Controls static site generation.",
+    "Option4": "Controls the build output.",
+    "Answer": "A boolean property that enables or disables Server-Side Rendering (SSR) for the entire SvelteKit application."
+  },
+  {
+    "question_no.": 202,
+    "Question": "What is `kit.files.routes` in `svelte.config.js`?",
+    "Option1": "The directory for static assets.",
+    "Option2": "The directory where SvelteKit looks for route files (e.g., `+page.svelte`, `+server.js`). Default is `src/routes`.",
+    "Option3": "The directory for build output.",
+    "Option4": "The directory for Svelte components.",
+    "Answer": "The directory where SvelteKit looks for route files (e.g., `+page.svelte`, `+server.js`). Default is `src/routes`."
+  },
+  {
+    "question_no.": 203,
+    "Question": "What is `kit.files.lib` in `svelte.config.js`?",
+    "Option1": "The directory for external libraries.",
+    "Option2": "The directory that contains internal libraries or utilities that can be imported using `$lib` alias.",
+    "Option3": "The directory for node modules.",
+    "Option4": "The directory for compiled code.",
+    "Answer": "The directory that contains internal libraries or utilities that can be imported using `$lib` alias."
+  },
+  {
+    "question_no.": 204,
+    "Question": "What is the `$lib` alias in SvelteKit?",
+    "Option1": "An alias for `node_modules`.",
+    "Option2": "An alias that points to the directory specified by `kit.files.lib` (default `src/lib`), making imports from this directory simpler.",
+    "Option3": "An alias for external URLs.",
+    "Option4": "An alias for the root directory.",
+    "Answer": "An alias that points to the directory specified by `kit.files.lib` (default `src/lib`), making imports from this directory simpler."
+  },
+  {
+    "question_no.": 205,
+    "Question": "What is `svelte:self` for in a Svelte component?",
+    "Option1": "To create a self-closing tag.",
+    "Option2": "To render the component itself recursively, useful for tree structures or nested comments.",
+    "Option3": "To define an external component.",
+    "Option4": "To reference the current component's properties.",
+    "Answer": "To render the component itself recursively, useful for tree structures or nested comments."
+  }
+]

@@ -1,0 +1,1847 @@
+[
+  {
+    "question_no.": 1,
+    "Question": "Premise 1: All cats are mammals. Premise 2: Some mammals are pets. Conclusion: Some cats are pets. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the cat is a specific type of mammal",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 2,
+    "Question": "Premise 1: All birds can fly. Premise 2: Penguins are birds. Conclusion: Penguins can fly. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if they are young penguins",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 3,
+    "Question": "Premise 1: No dogs are cats. Premise 2: Some animals are dogs. Conclusion: Some animals are not cats. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal is a specific type of dog",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 4,
+    "Question": "Premise 1: All roses are flowers. Premise 2: All flowers are plants. Conclusion: All roses are plants. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the plant is a specific type of flower",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 5,
+    "Question": "Premise 1: Some students are intelligent. Premise 2: All intelligent people are hard workers. Conclusion: Some students are hard workers. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the student is a specific type of intelligent person",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 6,
+    "Question": "Premise 1: All trees have leaves. Premise 2: This is a tree. Conclusion: This has leaves. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the leaves are green",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 7,
+    "Question": "Premise 1: No fish can talk. Premise 2: My pet is a fish. Conclusion: My pet cannot talk. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the pet is a specific type of fish",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 8,
+    "Question": "Premise 1: Some fruits are sweet. Premise 2: All apples are fruits. Conclusion: All apples are sweet. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the apple is a specific type of fruit",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 9,
+    "Question": "Premise 1: All cars have wheels. Premise 2: This object has wheels. Conclusion: This object is a car. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the object is red",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 10,
+    "Question": "Premise 1: Some birds are black. Premise 2: All crows are birds. Conclusion: All crows are black. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the crow is a specific type of bird",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 11,
+    "Question": "Premise 1: All A are B. Premise 2: All B are C. Conclusion: All A are C.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 12,
+    "Question": "Premise 1: All A are B. Premise 2: Some C are A. Conclusion: Some C are B.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 13,
+    "Question": "Premise 1: No A are B. Premise 2: All C are A. Conclusion: No C are B.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 14,
+    "Question": "Premise 1: Some A are B. Premise 2: Some B are C. Conclusion: Some A are C.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 15,
+    "Question": "Premise 1: All A are B. Premise 2: Some C are B. Conclusion: Some C are A.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 16,
+    "Question": "Premise 1: No A are B. Premise 2: Some C are B. Conclusion: Some C are not A.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 17,
+    "Question": "Premise 1: Some A are not B. Premise 2: All B are C. Conclusion: Some A are not C.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 18,
+    "Question": "Premise 1: All A are B. Premise 2: C is not B. Conclusion: C is not A.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 19,
+    "Question": "Premise 1: No A are B. Premise 2: C is A. Conclusion: C is not B.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 20,
+    "Question": "Premise 1: Some A are B. Premise 2: No C are B. Conclusion: Some A are not C.",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 21,
+    "Question": "Premise: All birds have feathers. My pet has feathers. Conclusion: My pet is a bird. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 22,
+    "Question": "Premise: All dogs are mammals. Some mammals are furry. Conclusion: Some dogs are furry. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Possibly Valid"
+  },
+  {
+    "question_no.": 23,
+    "Question": "Premise: No fish can walk. My cat is not a fish. Conclusion: My cat can walk. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 24,
+    "Question": "Premise: If it rains, the ground gets wet. It is raining. Conclusion: The ground is wet. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 25,
+    "Question": "Premise: If you study, you will pass. You passed. Conclusion: You studied. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 26,
+    "Question": "Premise: All squares are rectangles. All rectangles have four sides. Conclusion: All squares have four sides. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 27,
+    "Question": "Premise: Some birds sing. All robins are birds. Conclusion: Some robins sing. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Possibly Valid"
+  },
+  {
+    "question_no.": 28,
+    "Question": "Premise: No one who likes chocolate dislikes cake. John dislikes cake. Conclusion: John dislikes chocolate. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 29,
+    "Question": "Premise: All doctors are intelligent. Sarah is intelligent. Conclusion: Sarah is a doctor. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 30,
+    "Question": "Premise: If a student studies hard, they will get good grades. Mary got good grades. Conclusion: Mary studied hard. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 31,
+    "Question": "Premise 1: All humans are mortal. Premise 2: Socrates is human. Conclusion: Socrates is mortal. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if Socrates is a philosopher",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 32,
+    "Question": "Premise 1: Some flowers are red. Premise 2: Some red things are roses. Conclusion: Some flowers are roses. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the flower is a specific type of red thing",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 33,
+    "Question": "Premise 1: No squares are circles. Premise 2: This is a square. Conclusion: This is not a circle. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the square is blue",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 34,
+    "Question": "Premise 1: All dogs bark. Premise 2: My pet barks. Conclusion: My pet is a dog. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the pet is furry",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 35,
+    "Question": "Premise 1: Some birds can swim. Premise 2: All ducks are birds. Conclusion: All ducks can swim. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the duck is a specific type of bird",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 36,
+    "Question": "Premise 1: All planets are round. Premise 2: Earth is a planet. Conclusion: Earth is round. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if Earth has water",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 37,
+    "Question": "Premise 1: Some students are athletes. Premise 2: No athletes are lazy. Conclusion: Some students are not lazy. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the student is a specific type of athlete",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 38,
+    "Question": "Premise 1: All teachers are educated. Premise 2: Mr. Smith is not educated. Conclusion: Mr. Smith is not a teacher. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if Mr. Smith is male",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 39,
+    "Question": "Premise 1: Some animals have fur. Premise 2: My cat has fur. Conclusion: My cat is an animal. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the fur is soft",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 40,
+    "Question": "Premise 1: All books have pages. Premise 2: This is a page. Conclusion: This is a book. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the page is torn",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 41,
+    "Question": "Premise 1: All dogs are loyal. Premise 2: Fido is a dog. Conclusion: Fido is loyal. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 42,
+    "Question": "Premise 1: Some fruits are sweet. Premise 2: All apples are fruits. Conclusion: Some apples are sweet. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Conditionally Valid"
+  },
+  {
+    "question_no.": 43,
+    "Question": "Premise 1: No birds are fish. Premise 2: All robins are birds. Conclusion: No robins are fish. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 44,
+    "Question": "Premise 1: All students are hard-working. Premise 2: John is not hard-working. Conclusion: John is not a student. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 45,
+    "Question": "Premise 1: Some cats are black. Premise 2: Some black animals are furry. Conclusion: Some cats are furry. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 46,
+    "Question": "Premise 1: If it rains, the streets are wet. Premise 2: The streets are wet. Conclusion: It rained. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 47,
+    "Question": "Premise 1: All engineers are smart. Premise 2: My brother is an engineer. Conclusion: My brother is smart. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 48,
+    "Question": "Premise 1: Some chairs are wooden. Premise 2: All wooden things are heavy. Conclusion: Some chairs are heavy. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 49,
+    "Question": "Premise 1: No plants can think. Premise 2: A tree is a plant. Conclusion: A tree cannot think. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 50,
+    "Question": "Premise 1: All cars have engines. Premise 2: This is an engine. Conclusion: This is a car. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 51,
+    "Question": "Premise: All metals are elements. Copper is a metal. Conclusion: Copper is an element. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 52,
+    "Question": "Premise: Some students are good at math. All good math students are logical. Conclusion: Some students are logical. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 53,
+    "Question": "Premise: No birds are mammals. A bat is not a bird. Conclusion: A bat is a mammal. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 54,
+    "Question": "Premise: All dogs like bones. Rover likes bones. Conclusion: Rover is a dog. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 55,
+    "Question": "Premise: If it's a sunny day, I'll go to the beach. I went to the beach. Conclusion: It was a sunny day. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 56,
+    "Question": "Premise: All squares have four equal sides. This shape has four equal sides. Conclusion: This shape is a square. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 57,
+    "Question": "Premise: Some cars are red. All red things get attention. Conclusion: Some cars get attention. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 58,
+    "Question": "Premise: No cats are dogs. My pet is a cat. Conclusion: My pet is not a dog. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "Yes"
+  },
+  {
+    "question_no.": 59,
+    "Question": "Premise: All professional athletes train hard. John trains hard. Conclusion: John is a professional athlete. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 60,
+    "Question": "Premise: If a person is wealthy, they own expensive cars. Jane owns an expensive car. Conclusion: Jane is wealthy. Is this conclusion valid?",
+    "Option1": "Yes",
+    "Option2": "No",
+    "Option3": "Only sometimes",
+    "Option4": "Cannot determine",
+    "Answer": "No"
+  },
+  {
+    "question_no.": 61,
+    "Question": "Premise 1: All musicians are artists. Premise 2: Some artists are singers. Conclusion: Some musicians are singers. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if they sing professionally",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 62,
+    "Question": "Premise 1: No bears are birds. Premise 2: My pet is a bear. Conclusion: My pet is not a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's a polar bear",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 63,
+    "Question": "Premise 1: Some books are novels. Premise 2: All novels are fiction. Conclusion: Some books are fiction. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the book is a specific type of novel",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 64,
+    "Question": "Premise 1: All scientists are curious. Premise 2: Dr. Lee is curious. Conclusion: Dr. Lee is a scientist. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if Dr. Lee has a PhD",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 65,
+    "Question": "Premise 1: If it snows, the roads are slippery. Premise 2: The roads are not slippery. Conclusion: It did not snow. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the roads are paved",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 66,
+    "Question": "Premise 1: All vegetables are healthy. Premise 2: Carrots are vegetables. Conclusion: Carrots are healthy. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the carrots are organic",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 67,
+    "Question": "Premise 1: Some buildings are tall. Premise 2: Some tall things are skyscrapers. Conclusion: Some buildings are skyscrapers. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the building is in a city",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 68,
+    "Question": "Premise 1: No squares are triangles. Premise 2: This figure is not a square. Conclusion: This figure is a triangle. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the figure has three sides",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 69,
+    "Question": "Premise 1: All computers use electricity. Premise 2: My phone uses electricity. Conclusion: My phone is a computer. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the phone has a screen",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 70,
+    "Question": "Premise 1: Some animals are pets. Premise 2: No pets are wild. Conclusion: Some animals are not wild. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal is a specific type of pet",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 71,
+    "Question": "Premise 1: All students like pizza. Premise 2: Sarah is a student. Conclusion: Sarah likes pizza. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 72,
+    "Question": "Premise 1: Some cars are fast. Premise 2: All fast cars are red. Conclusion: Some cars are red. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 73,
+    "Question": "Premise 1: No plants are animals. Premise 2: This is an animal. Conclusion: This is not a plant. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 74,
+    "Question": "Premise 1: If it's hot, I wear shorts. Premise 2: I am wearing shorts. Conclusion: It is hot. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 75,
+    "Question": "Premise 1: All teachers are professionals. Premise 2: Mr. Jones is a professional. Conclusion: Mr. Jones is a teacher. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 76,
+    "Question": "Premise 1: Some fruits are green. Premise 2: No green things are ripe. Conclusion: Some fruits are not ripe. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 77,
+    "Question": "Premise 1: All intelligent people read books. Premise 2: Jane reads books. Conclusion: Jane is intelligent. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 78,
+    "Question": "Premise 1: No doctors are lawyers. Premise 2: My sister is a doctor. Conclusion: My sister is not a lawyer. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 79,
+    "Question": "Premise 1: Some birds lay eggs. Premise 2: All chickens lay eggs. Conclusion: All chickens are birds. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 80,
+    "Question": "Premise 1: All computers are electronic. Premise 2: My watch is electronic. Conclusion: My watch is a computer. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 81,
+    "Question": "Premise 1: All mammals have fur. Premise 2: Dogs are mammals. Conclusion: Dogs have fur. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the dog is a poodle",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 82,
+    "Question": "Premise 1: Some flowers are blue. Premise 2: My shirt is blue. Conclusion: My shirt is a flower. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the shirt has petals",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 83,
+    "Question": "Premise 1: No squares are triangles. Premise 2: This is not a triangle. Conclusion: This is a square. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has four sides",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 84,
+    "Question": "Premise 1: All birds lay eggs. Premise 2: My chicken lays eggs. Conclusion: My chicken is a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has feathers",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 85,
+    "Question": "Premise 1: If you eat vegetables, you are healthy. Premise 2: You are not healthy. Conclusion: You do not eat vegetables. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if you exercise",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 86,
+    "Question": "Premise 1: Some students are good at art. Premise 2: All good artists are creative. Conclusion: Some students are creative. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the student paints",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 87,
+    "Question": "Premise 1: All humans have brains. Premise 2: Robots do not have brains. Conclusion: Robots are not human. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the robot is metallic",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 88,
+    "Question": "Premise 1: Some dogs are big. Premise 2: Some big animals are friendly. Conclusion: Some dogs are friendly. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the dog wags its tail",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 89,
+    "Question": "Premise 1: All birds have wings. Premise 2: An airplane has wings. Conclusion: An airplane is a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it flies",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 90,
+    "Question": "Premise 1: No cats are fish. Premise 2: My pet is not a fish. Conclusion: My pet is a cat. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it purrs",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 91,
+    "Question": "Premise 1: All insects have six legs. Premise 2: A spider has eight legs. Conclusion: A spider is not an insect. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 92,
+    "Question": "Premise 1: Some vegetables are green. Premise 2: All green foods are healthy. Conclusion: Some vegetables are healthy. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 93,
+    "Question": "Premise 1: No chairs are tables. Premise 2: This is a table. Conclusion: This is not a chair. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 94,
+    "Question": "Premise 1: If a person is happy, they smile. Premise 2: Sarah is smiling. Conclusion: Sarah is happy. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 95,
+    "Question": "Premise 1: All computers can process data. Premise 2: My calculator can process data. Conclusion: My calculator is a computer. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 96,
+    "Question": "Premise 1: Some animals are herbivores. Premise 2: All herbivores eat plants. Conclusion: Some animals eat plants. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 97,
+    "Question": "Premise 1: All scientists wear lab coats. Premise 2: Dr. Kim wears a lab coat. Conclusion: Dr. Kim is a scientist. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 98,
+    "Question": "Premise 1: No mammals lay eggs. Premise 2: A platypus lays eggs. Conclusion: A platypus is not a mammal. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 99,
+    "Question": "Premise 1: Some doctors are specialists. Premise 2: All specialists are highly trained. Conclusion: Some doctors are highly trained. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 100,
+    "Question": "Premise 1: All triangles have three sides. Premise 2: This shape has three sides. Conclusion: This shape is a triangle. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 101,
+    "Question": "Premise 1: All A are B. Premise 2: Some C are not B. Conclusion: Some C are not A. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 102,
+    "Question": "Premise 1: No X are Y. Premise 2: Some Z are Y. Conclusion: Some Z are not X. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 103,
+    "Question": "Premise 1: Some P are Q. Premise 2: All Q are R. Conclusion: Some P are R. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 104,
+    "Question": "Premise 1: All M are N. Premise 2: This is an M. Conclusion: This is an N. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 105,
+    "Question": "Premise 1: If A, then B. Premise 2: Not B. Conclusion: Not A. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 106,
+    "Question": "Premise 1: If A, then B. Premise 2: B. Conclusion: A. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 107,
+    "Question": "Premise 1: All S are T. Premise 2: This is not S. Conclusion: This is not T. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 108,
+    "Question": "Premise 1: Some V are W. Premise 2: No W are Z. Conclusion: Some V are not Z. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 109,
+    "Question": "Premise 1: All D are E. Premise 2: All F are D. Conclusion: All F are E. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 110,
+    "Question": "Premise 1: No G are H. Premise 2: No H are I. Conclusion: No G are I. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 111,
+    "Question": "Premise 1: All birds lay eggs. Premise 2: My pet is a bird. Conclusion: My pet lays eggs. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's a chicken",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 112,
+    "Question": "Premise 1: Some trees have fruit. Premise 2: All apples grow on trees. Conclusion: All apples are fruit. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the fruit is red",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 113,
+    "Question": "Premise 1: No computers are organic. Premise 2: This is organic. Conclusion: This is not a computer. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it is a plant",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 114,
+    "Question": "Premise 1: All students wear uniforms. Premise 2: Mary wears a uniform. Conclusion: Mary is a student. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the uniform is blue",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 115,
+    "Question": "Premise 1: If it is cold, I wear a coat. Premise 2: I am not wearing a coat. Conclusion: It is not cold. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if I am inside",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 116,
+    "Question": "Premise 1: All fish live in water. Premise 2: A shark is a fish. Conclusion: A shark lives in water. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the water is salty",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 117,
+    "Question": "Premise 1: Some animals have scales. Premise 2: All reptiles have scales. Conclusion: Some animals are reptiles. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal is cold-blooded",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 118,
+    "Question": "Premise 1: No dogs can fly. Premise 2: My pet can fly. Conclusion: My pet is not a dog. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has feathers",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 119,
+    "Question": "Premise 1: All cars have four wheels. Premise 2: My bike has two wheels. Conclusion: My bike is not a car. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the bike is red",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 120,
+    "Question": "Premise 1: Some flowers are yellow. Premise 2: Some yellow things are bright. Conclusion: Some flowers are bright. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the flower is a sunflower",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 121,
+    "Question": "Premise 1: All birds have beaks. Premise 2: My pet has a beak. Conclusion: My pet is a bird. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 122,
+    "Question": "Premise 1: Some fruits are round. Premise 2: All oranges are fruits. Conclusion: Some oranges are round. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Possibly Valid"
+  },
+  {
+    "question_no.": 123,
+    "Question": "Premise 1: No reptiles have fur. Premise 2: My pet is not a reptile. Conclusion: My pet has fur. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 124,
+    "Question": "Premise 1: If it's a holiday, the bank is closed. Premise 2: The bank is closed. Conclusion: It's a holiday. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 125,
+    "Question": "Premise 1: All circles are round. Premise 2: This object is round. Conclusion: This object is a circle. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 126,
+    "Question": "Premise 1: Some books have pictures. Premise 2: All children's books have pictures. Conclusion: All children's books are some books. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 127,
+    "Question": "Premise 1: No chairs are soft. Premise 2: My sofa is soft. Conclusion: My sofa is not a chair. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 128,
+    "Question": "Premise 1: All athletes are strong. Premise 2: John is strong. Conclusion: John is an athlete. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 129,
+    "Question": "Premise 1: Some dogs are friendly. Premise 2: All friendly animals wag their tails. Conclusion: Some dogs wag their tails. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 130,
+    "Question": "Premise 1: If you are thirsty, you drink water. Premise 2: You drank water. Conclusion: You were thirsty. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Possibly Valid",
+    "Option4": "Cannot be determined",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 131,
+    "Question": "Premise 1: All metals conduct electricity. Premise 2: Gold is a metal. Conclusion: Gold conducts electricity. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it is pure gold",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 132,
+    "Question": "Premise 1: Some students wear glasses. Premise 2: All people who wear glasses can read. Conclusion: Some students can read. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if they read well",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 133,
+    "Question": "Premise 1: No fruits are vegetables. Premise 2: An apple is a fruit. Conclusion: An apple is not a vegetable. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's a green apple",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 134,
+    "Question": "Premise 1: All birds sing. Premise 2: My pet sings. Conclusion: My pet is a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has feathers",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 135,
+    "Question": "Premise 1: If it's warm, I wear a t-shirt. Premise 2: I am wearing a t-shirt. Conclusion: It is warm. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if I am outdoors",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 136,
+    "Question": "Premise 1: All dogs chase cats. Premise 2: Fido chased a cat. Conclusion: Fido is a dog. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the cat ran away",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 137,
+    "Question": "Premise 1: Some animals are wild. Premise 2: All lions are wild. Conclusion: Some animals are lions. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal roars",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 138,
+    "Question": "Premise 1: No squares have five sides. Premise 2: This shape has five sides. Conclusion: This shape is not a square. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's a pentagon",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 139,
+    "Question": "Premise 1: All computers are electronic devices. Premise 2: My laptop is an electronic device. Conclusion: My laptop is a computer. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has a keyboard",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 140,
+    "Question": "Premise 1: Some teachers are strict. Premise 2: No strict people are popular. Conclusion: Some teachers are not popular. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the teacher gives homework",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 141,
+    "Question": "Premise 1: All mammals are warm-blooded. Premise 2: Whales are mammals. Conclusion: Whales are warm-blooded. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 142,
+    "Question": "Premise 1: Some students are athletes. Premise 2: No athletes are lazy. Conclusion: Some students are not lazy. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 143,
+    "Question": "Premise 1: No fish can live on land. Premise 2: A frog can live on land. Conclusion: A frog is not a fish. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 144,
+    "Question": "Premise 1: If I study, I get good grades. Premise 2: I got good grades. Conclusion: I studied. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 145,
+    "Question": "Premise 1: All birds fly. Premise 2: A penguin is a bird. Conclusion: A penguin flies. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 146,
+    "Question": "Premise 1: Some flowers are red. Premise 2: All red things are vibrant. Conclusion: Some flowers are vibrant. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 147,
+    "Question": "Premise 1: All chefs cook. Premise 2: Mary cooks. Conclusion: Mary is a chef. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 148,
+    "Question": "Premise 1: No reptiles are warm-blooded. Premise 2: My pet is warm-blooded. Conclusion: My pet is not a reptile. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 149,
+    "Question": "Premise 1: Some animals are carnivores. Premise 2: All carnivores eat meat. Conclusion: Some animals eat meat. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 150,
+    "Question": "Premise 1: All squares have four sides. Premise 2: This figure has four sides. Conclusion: This figure is a square. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 151,
+    "Question": "Premise 1: All doctors are intelligent. Premise 2: Dr. Smith is a doctor. Conclusion: Dr. Smith is intelligent. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if Dr. Smith is a surgeon",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 152,
+    "Question": "Premise 1: Some fruits are sweet. Premise 2: Some sweet things are desserts. Conclusion: Some fruits are desserts. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the fruit is a specific type of dessert",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 153,
+    "Question": "Premise 1: No cats are dogs. Premise 2: My pet is a cat. Conclusion: My pet is not a dog. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the cat purrs",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 154,
+    "Question": "Premise 1: All birds have feathers. Premise 2: My chicken has feathers. Conclusion: My chicken is a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it clucks",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 155,
+    "Question": "Premise 1: If it is sunny, I go to the beach. Premise 2: I am not going to the beach. Conclusion: It is not sunny. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's cloudy",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 156,
+    "Question": "Premise 1: All plants need water. Premise 2: This is a plant. Conclusion: This needs water. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has flowers",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 157,
+    "Question": "Premise 1: Some students are musicians. Premise 2: All musicians are creative. Conclusion: Some students are creative. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the student plays an instrument",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 158,
+    "Question": "Premise 1: No books are boring. Premise 2: This is a book. Conclusion: This is not boring. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it's a fiction book",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 159,
+    "Question": "Premise 1: All cars have engines. Premise 2: My lawnmower has an engine. Conclusion: My lawnmower is a car. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has wheels",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 160,
+    "Question": "Premise 1: Some animals are pets. Premise 2: Some pets are furry. Conclusion: Some animals are furry. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal is a specific type of pet",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Cannot be determined from the premises"
+  },
+  {
+    "question_no.": 161,
+    "Question": "Premise 1: All squares are rectangles. Premise 2: All rectangles are quadrilaterals. Conclusion: All squares are quadrilaterals. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 162,
+    "Question": "Premise 1: Some students are engineers. Premise 2: All engineers are creative. Conclusion: Some students are creative. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 163,
+    "Question": "Premise 1: No dogs are cats. Premise 2: My pet is not a dog. Conclusion: My pet is a cat. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 164,
+    "Question": "Premise 1: If it is raining, the street is wet. Premise 2: The street is wet. Conclusion: It is raining. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 165,
+    "Question": "Premise 1: All plants need sunlight. Premise 2: This organism needs sunlight. Conclusion: This organism is a plant. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 166,
+    "Question": "Premise 1: Some birds have long necks. Premise 2: All long-necked animals are graceful. Conclusion: Some birds are graceful. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 167,
+    "Question": "Premise 1: No fish can walk. Premise 2: A snake cannot walk. Conclusion: A snake is a fish. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 168,
+    "Question": "Premise 1: All healthy people exercise. Premise 2: John does not exercise. Conclusion: John is not healthy. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 169,
+    "Question": "Premise 1: Some animals are big. Premise 2: All elephants are big. Conclusion: All elephants are animals. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 170,
+    "Question": "Premise 1: All houses have roofs. Premise 2: This structure has a roof. Conclusion: This structure is a house. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 171,
+    "Question": "Premise 1: All chairs have legs. Premise 2: This object has legs. Conclusion: This object is a chair. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it is made of wood",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 172,
+    "Question": "Premise 1: Some teachers are strict. Premise 2: All strict people are unpopular. Conclusion: Some teachers are unpopular. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the teacher gives a lot of homework",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 173,
+    "Question": "Premise 1: No squares are circles. Premise 2: This is not a circle. Conclusion: This is a square. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has four sides",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 174,
+    "Question": "Premise 1: All dogs bark. Premise 2: My cat does not bark. Conclusion: My cat is not a dog. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it meows",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 175,
+    "Question": "Premise 1: If it is sunny, I go to the park. Premise 2: I went to the park. Conclusion: It was sunny. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if I brought a picnic",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 176,
+    "Question": "Premise 1: All birds have wings. Premise 2: A bat has wings. Conclusion: A bat is a bird. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it flies at night",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 177,
+    "Question": "Premise 1: Some books are long. Premise 2: All long books are interesting. Conclusion: Some books are interesting. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if they are fantasy novels",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 178,
+    "Question": "Premise 1: No fish can talk. Premise 2: My parrot can talk. Conclusion: My parrot is not a fish. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it repeats words",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 179,
+    "Question": "Premise 1: All houses have windows. Premise 2: This building has windows. Conclusion: This building is a house. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if it has a door",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "No, not valid"
+  },
+  {
+    "question_no.": 180,
+    "Question": "Premise 1: Some animals are nocturnal. Premise 2: No nocturnal animals are active during the day. Conclusion: Some animals are not active during the day. Is this conclusion valid?",
+    "Option1": "Yes, always valid",
+    "Option2": "No, not valid",
+    "Option3": "Only if the animal sleeps during the day",
+    "Option4": "Cannot be determined from the premises",
+    "Answer": "Yes, always valid"
+  },
+  {
+    "question_no.": 181,
+    "Question": "Premise 1: All students are hard-working. Premise 2: Alex is a student. Conclusion: Alex is hard-working. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 182,
+    "Question": "Premise 1: Some fruits are red. Premise 2: All apples are fruits. Conclusion: Some apples are red. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Conditionally Valid"
+  },
+  {
+    "question_no.": 183,
+    "Question": "Premise 1: No reptiles have feathers. Premise 2: A bird has feathers. Conclusion: A bird is not a reptile. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 184,
+    "Question": "Premise 1: If it's warm, I wear light clothes. Premise 2: I am wearing light clothes. Conclusion: It is warm. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 185,
+    "Question": "Premise 1: All mammals give birth to live young. Premise 2: This animal gives birth to live young. Conclusion: This animal is a mammal. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 186,
+    "Question": "Premise 1: Some flowers are fragrant. Premise 2: All fragrant things are pleasant. Conclusion: Some flowers are pleasant. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 187,
+    "Question": "Premise 1: All books have covers. Premise 2: This object has a cover. Conclusion: This object is a book. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 188,
+    "Question": "Premise 1: No fish have legs. Premise 2: My pet has legs. Conclusion: My pet is not a fish. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 189,
+    "Question": "Premise 1: Some houses are large. Premise 2: All large buildings are impressive. Conclusion: Some houses are impressive. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 190,
+    "Question": "Premise 1: All computers are electronic. Premise 2: My TV is electronic. Conclusion: My TV is a computer. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 191,
+    "Question": "Premise 1: All A are B. Premise 2: All C are B. Conclusion: All C are A. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 192,
+    "Question": "Premise 1: No X are Y. Premise 2: All Z are X. Conclusion: No Z are Y. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 193,
+    "Question": "Premise 1: Some P are Q. Premise 2: Some Q are R. Conclusion: Some P are R. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 194,
+    "Question": "Premise 1: All M are N. Premise 2: This is N. Conclusion: This is M. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 195,
+    "Question": "Premise 1: If A, then B. Premise 2: A. Conclusion: B. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 196,
+    "Question": "Premise 1: If A, then B. Premise 2: Not A. Conclusion: Not B. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 197,
+    "Question": "Premise 1: All S are T. Premise 2: This is T. Conclusion: This is S. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 198,
+    "Question": "Premise 1: Some V are W. Premise 2: All V are Z. Conclusion: Some W are Z. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 199,
+    "Question": "Premise 1: All D are E. Premise 2: F is not E. Conclusion: F is not D. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 200,
+    "Question": "Premise 1: No G are H. Premise 2: I is G. Conclusion: I is not H. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 201,
+    "Question": "Premise 1: All roses are red. Premise 2: This flower is not red. Conclusion: This flower is not a rose. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 202,
+    "Question": "Premise 1: Some birds can swim. Premise 2: No swimming creatures are mammals. Conclusion: Some birds are not mammals. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 203,
+    "Question": "Premise 1: All citizens have rights. Premise 2: John has rights. Conclusion: John is a citizen. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Invalid"
+  },
+  {
+    "question_no.": 204,
+    "Question": "Premise 1: If an alarm sounds, there is a fire. Premise 2: There is no fire. Conclusion: The alarm did not sound. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  },
+  {
+    "question_no.": 205,
+    "Question": "Premise 1: Some dogs are big. Premise 2: All big things are visible. Conclusion: Some dogs are visible. Is this conclusion valid?",
+    "Option1": "Valid",
+    "Option2": "Invalid",
+    "Option3": "Conditionally Valid",
+    "Option4": "Insufficient Information",
+    "Answer": "Valid"
+  }
+]
